@@ -35,58 +35,35 @@ Use the below template yaml file as a starting point. Open Audio Stack Registry 
 if you miss or enter incorrect information, your package will not be included in the registry.
 
     ---
-    name: Sfizz
-    author: SFZTools
-    homepage: https://github.com/sfztools/sfizz
-    description: SFZ parser and synth c++ library, providing AU / LV2 / VST3 plugins and JACK standalone client.
-    date: 2024-01-14T00:00:00.000Z
-    license: bsd-2-clause
-    tags:
-      - Instrument
-      - Sampler
-      - Synth
+    author: Surge Synth Team
+    changes: |-
+      - Fixed bug with audio
+      - New feature added
+    date: '2024-03-02T00:00:00.000Z'
+    description: Hybrid synthesizer featuring many synthesis techniques, a great selection
+      of filters, a flexible modulation engine, a smorgasbord of effects, and modern features
+      like MPE and microtuning.
     files:
-      audio:
-        url: https://open-audio-stack.github.io/open-audio-stack-registry/packages/sfztools/sfizz/sfizz.flac
-        size: 47910
-      image:
-        url: https://open-audio-stack.github.io/open-audio-stack-registry/packages/sfztools/sfizz/sfizz.jpg
-        size: 33976
-      linux:
-        url: https://github.com/sfztools/sfizz/releases/download/1.2.3/sfizz-1.2.3.tar.gz
-        size: 19102967
-      mac:
-        url: https://github.com/sfztools/sfizz/releases/download/1.2.3/sfizz-1.2.3-macos.tar.gz
-        size: 1748833
-      win:
-        url: https://github.com/sfztools/sfizz/releases/download/1.2.3/sfizz-1.2.3-win64.zip
-        size: 8286178
-
-For effects, tag your packages with `Effect` and then any of the following:
-
-- Chorus
-- Phaser
-- Compression
-- Distortion
-- Amplifier
-- Equalizer
-- Pan
-- Filter
-- Reverb
-- Delay
-
-For instruments, tag your packages with `Instrument` and then any of the following:
-
-- Drums
-- Percussion
-- Guitar
-- String
-- Keys
-- Piano
-- Orchestra
-- Sampler
-- Synth
-- Vocals
+      - architectures:
+          - bit32
+        format: zip
+        formats:
+          - vst3
+        hash: 3af35f0212
+        systems:
+          - min: 13.7
+            type: mac
+        size: 94448096
+        type: archive
+        url: https://a.com/b/file.zip
+    license: gpl-3.0
+    name: Surge XT
+    tags:
+      - 80s
+      - Synth
+      - Modulation
+    type: instrument
+    url: https://github.com/surge-synthesizer/surge
 
 For file downloads, we recommend `.zip` files which are cross-platform and can be extracted automatically and placed into the correct locations without user interaction.
 If you use other formats such as `deb, dmg, exe, msi` compatible apps will download and copy the file to the users directory, but might not support full installation.
