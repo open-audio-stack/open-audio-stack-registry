@@ -1,0 +1,36 @@
+name: Test
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test_code:
+    name: Test code
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Install
+        run: |
+          npm ci
+
+      - name: Audit
+        run: |
+          npm audit
+
+      - name: Lint
+        run: |
+          npm run lint
+
+      - name: Test
+        run: |
+          npm test
+
+      - name: Build
+        run: |
+          npm run build && npm start
+          cat out/index.json
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
