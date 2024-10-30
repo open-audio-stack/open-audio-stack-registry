@@ -7,7 +7,7 @@ fileSystem.dirCreate('./out');
 const registry: Registry = new Registry({
   name: 'Open Audio Registry',
   packages: {},
-  url: 'https://openaudio.github.io/registry',
+  url: 'https://open-audio-stack.github.io/open-audio-stack-registry',
   version: '1.0.0',
 });
 

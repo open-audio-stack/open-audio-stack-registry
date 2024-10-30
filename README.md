@@ -110,7 +110,7 @@ This package is versioned using git tags:
 
 GitHub Actions will automatically publish the package to Github pages at:
 
-    https://open-audio-stack.github.io/open-audio-stack-registry/
+    https://open-audio-stack.github.io/open-audio-stack-registry
 
 ## Contact
 
