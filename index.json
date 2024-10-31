@@ -1,0 +1,49 @@
+{
+  "name": "Open Audio Registry",
+  "packages": {
+    "surge-synthesizer/surge": {
+      "slug": "surge-synthesizer/surge",
+      "version": "1.3.1",
+      "versions": {
+        "1.3.1": {
+          "author": "Surge Synth Team",
+          "changes": "- Fixed bug with audio\n- New feature added",
+          "date": "2024-03-02T00:00:00.000Z",
+          "description": "Hybrid synthesizer featuring many synthesis techniques, a great selection of filters, a flexible modulation engine, a smorgasbord of effects, and modern features like MPE and microtuning.",
+          "files": [
+            {
+              "architectures": [
+                "bit32"
+              ],
+              "format": "zip",
+              "formats": [
+                "vst3"
+              ],
+              "hash": "3af35f0212",
+              "systems": [
+                {
+                  "min": 13.7,
+                  "type": "mac"
+                }
+              ],
+              "size": 94448096,
+              "type": "archive",
+              "url": "https://a.com/b/file.zip"
+            }
+          ],
+          "license": "gpl-3.0",
+          "name": "Surge XT",
+          "tags": [
+            "80s",
+            "Synth",
+            "Modulation"
+          ],
+          "type": "instrument",
+          "url": "https://github.com/surge-synthesizer/surge"
+        }
+      }
+    }
+  },
+  "url": "https://openaudio.github.io/registry",
+  "version": "1.0.0"
+}
