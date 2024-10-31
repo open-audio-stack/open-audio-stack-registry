@@ -13,12 +13,12 @@
     "build"
   ],
   "scripts": {
-    "copy": "mkdir ./out && cp -rf ./src/packages ./out",
-    "build": "tsc -p tsconfig.json && npm run copy",
+    "copy": "cp -rf ./src/plugins ./out",
+    "build": "tsc -p tsconfig.json",
     "dev": "tsx ./src/index.ts",
     "format": "prettier . --write",
     "lint": "eslint .",
-    "start": "node build/index.js",
+    "start": "node build/index.js && npm run copy",
     "test": "vitest run --config vitest.config.ts",
     "test:watch": "vitest ./tests"
   },

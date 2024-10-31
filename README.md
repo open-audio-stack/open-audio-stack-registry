@@ -15,19 +15,19 @@ Compatible command-line tools, apps and websites can read the json files to disc
 
 Create a fork of the repo `open-audio-stack-registry`. Add new folders for your organization and package using [kebab-case](https://developer.mozilla.org/en-US/docs/Glossary/Kebab_case):
 
-    ./src/packages/org-name/package-name
+    ./src/plugins/org-name/package-name
 
 Add a jpeg screenshot of the package, and flac audio file previewing the package:
 
-    ./src/packages/org-name/package-name/package-name.flac
-    ./src/packages/org-name/package-name/package-name.jpg
+    ./src/plugins/org-name/package-name/package-name.flac
+    ./src/plugins/org-name/package-name/package-name.jpg
 
 `.jpg` and `.flac` compressed formats were chosen to optimize loading times on compatible websites.
 
 Create yaml files for each version of the package using [Semantic Versioning](https://semver.org).
 
-    ./src/packages/org-name/package-name/1.0.0.yaml
-    ./src/packages/org-name/package-name/2.0.0.yaml
+    ./src/plugins/org-name/package-name/1.0.0.yaml
+    ./src/plugins/org-name/package-name/2.0.0.yaml
 
 Semantic versioning allows a compatible installer to install the latest non-breaking version of a package.
 
