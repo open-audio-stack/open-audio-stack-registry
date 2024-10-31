@@ -1,4 +1,5 @@
 ---
+audio: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/surge-synthesizer/surge/surge.flac
 author: Surge Synth Team
 changes: |-
   - Fixed bug with audio
@@ -9,21 +10,52 @@ description: Hybrid synthesizer featuring many synthesis techniques, a great sel
   like MPE and microtuning.
 files:
   - architectures:
-      - bit32
-    format: zip
-    formats:
+      - bit64
+    contains:
+      - elf
+      - clap
+      - lv2
       - vst3
-    hash: 3af35f0212
+    format: zip
+    hash: 42ad977d43d6caa75361cd2ad8794e36
     systems:
-      - min: 13.7
-        type: mac
+      - type: linux
     size: 94448096
     type: archive
-    url: https://a.com/b/file.zip
+    url: https://github.com/surge-synthesizer/releases-xt/releases/download/1.3.1/surge-xt-linux-1.3.1-pluginsonly.tar.gz
+  - architectures:
+      - arm64
+      - bit64
+    contains:
+      - app
+      - clap
+      - component
+      - vst3
+    format: zip
+    hash: d6bdab79c89f290e52222481b734650c
+    systems:
+      - type: mac
+    size: 180726292
+    type: archive
+    url: https://github.com/surge-synthesizer/releases-xt/releases/download/1.3.1/surge-xt-macos-1.3.1-pluginsonly.zip
+  - architectures:
+      - bit64
+    contains:
+      - exe
+      - clap
+      - vst3
+    format: zip
+    hash: 415e08c30f275f212149b5351e651e65
+    systems:
+      - type: win
+    size: 48165645
+    type: archive
+    url: https://github.com/surge-synthesizer/releases-xt/releases/download/1.3.1/surge-xt-win64-1.3.1-pluginsonly.zip
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/surge-synthesizer/surge/surge.jpg
 license: gpl-3.0
 name: Surge XT
 tags:
-  - 80s
+  - Instrument
   - Synth
   - Modulation
 type: instrument
