@@ -1,4 +1,5 @@
 import { FileSystem, PluginInterface, Registry } from '@open-audio-stack/core';
+import { generateArchitectures } from './config.js';
 
 // Create filesystem and registry.
 const fileSystem: FileSystem = new FileSystem();
@@ -25,3 +26,5 @@ fileSystem.fileJsonCreate('./out/plugins/surge-synthesizer/surge/1.3.1/index.jso
 
 // Output the registry as json.
 fileSystem.fileJsonCreate('./out/index.json', registry.get());
+
+generateArchitectures();
