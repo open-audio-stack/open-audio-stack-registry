@@ -3,6 +3,7 @@ import { defineConfig } from 'vite';
 
 export default defineConfig({
   test: {
+    include: ['./tests/**/*.test.ts'],
     coverage: {
       enabled: true,
       include: ['**/src/**'],

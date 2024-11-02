@@ -1,9 +1,9 @@
-import { FileSystem, PluginInterface, Registry } from '@open-audio-stack/core';
-import { generateArchitectures } from './config.js';
+import chalk from 'chalk';
+import path from 'path';
+import { Config, FileSystem, PackageValidationError, PluginInterface, Registry } from '@open-audio-stack/core';
 
-// Create filesystem and registry.
+const config: Config = new Config({});
 const fileSystem: FileSystem = new FileSystem();
-
 const registry: Registry = new Registry({
   name: 'Open Audio Registry',
   packages: {},
@@ -11,20 +11,50 @@ const registry: Registry = new Registry({
   version: '1.0.0',
 });
 
-// Load an example package.
-const packageVersion = fileSystem.fileReadYaml(
-  './src/plugins/surge-synthesizer/surge/1.3.1/index.yaml',
-) as PluginInterface;
+export function generateConfig(dirRoot: string, items: any) {
+  items.forEach((item: any) => {
+    const dirItem: string = `${dirRoot}/${item.value}`;
+    fileSystem.dirCreate(dirItem);
+    fileSystem.fileJsonCreate(`${dirItem}/index.json`, item);
+  });
+  fileSystem.fileJsonCreate(`${dirRoot}/index.json`, items);
+}
 
-// Validate package.
-console.log('packageVersionValidate', registry.packageVersionValidate(packageVersion));
+export function generateRegistry(dirRoot: string, glob: string, ext: string, dirOut: string) {
+  console.log('-- Yaml plugins --');
+  const filePaths: string[] = fileSystem.dirRead(dirRoot + glob + ext);
+  filePaths.forEach((filePath: string) => {
+    // TODO make this code reusable and better.
+    const parts: string[] = path.dirname(filePath).replace(dirRoot, '').replace(ext, '').split(path.sep);
+    const pkgSlug: string = `${parts[0]}/${parts[1]}`;
+    const pkgVersion: string = parts[2];
+    const pkgFile: PluginInterface = fileSystem.fileReadYaml(filePath) as PluginInterface;
+    const errors: PackageValidationError[] = registry.packageVersionValidate(pkgFile);
+    if (errors.length > 0) {
+      console.log(chalk.red(`X ${pkgSlug} | ${pkgVersion} | ${filePath}`));
+      console.log(chalk.red(errors));
+      // console.log(compatibility ? chalk.red(errors) + chalk.yellow(compatibility) : chalk.red(errors));
+    } else {
+      console.log(chalk.green(`✓ ${pkgSlug} | ${pkgVersion} | ${filePath}`));
+      // if (compatibility) console.log(chalk.yellow(compatibility));
+    }
+    registry.packageVersionAdd(pkgSlug, pkgVersion, pkgFile);
+    fileSystem.dirCreate(path.dirname(filePath).replace(dirRoot, dirOut));
+    fileSystem.fileJsonCreate(filePath.replace(dirRoot, dirOut).replace(ext, '.json'), pkgFile);
+  });
+  fileSystem.fileJsonCreate('./out/index.json', registry.get());
+  console.log(`-- ${Object.keys(registry.packages()).length} Yaml plugins added --`);
+}
 
-// Add package to registry.
-registry.packageVersionAdd('surge-synthesizer/surge', '1.3.1', packageVersion);
-fileSystem.dirCreate('./out/plugins/surge-synthesizer/surge/1.3.1/');
-fileSystem.fileJsonCreate('./out/plugins/surge-synthesizer/surge/1.3.1/index.json', registry.get());
-
-// Output the registry as json.
-fileSystem.fileJsonCreate('./out/index.json', registry.get());
-
-generateArchitectures();
+generateConfig('out/config/architectures', config.architectures());
+generateConfig('out/config/file-formats/', config.fileFormats());
+generateConfig('out/config/file-types', config.fileTypes());
+generateConfig('out/config/licenses', config.licenses());
+generateConfig('out/config/plugin-formats', config.pluginFormats());
+generateConfig('out/config/plugin-types', config.pluginTypes());
+generateConfig('out/config/preset-formats', config.presetFormats());
+generateConfig('out/config/preset-types', config.presetTypes());
+generateConfig('out/config/project-formats', config.projectFormats());
+generateConfig('out/config/project-types', config.projectTypes());
+generateConfig('out/config/systems', config.systems());
+generateRegistry('src/plugins/', '**/*', '.yaml', 'out/plugins/');
