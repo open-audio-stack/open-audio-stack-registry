@@ -1,0 +1,32 @@
+[
+  {
+    "description": "Digital signal processing based on an existing audio signal.",
+    "value": "effect",
+    "name": "Effect"
+  },
+  {
+    "description": "Generates midi patterns or samples which can be fed into other instruments/effects.",
+    "value": "generator",
+    "name": "Generator"
+  },
+  {
+    "description": "Sound synthesis or sample playback based on audio or midi input.",
+    "value": "instrument",
+    "name": "Instrument"
+  },
+  {
+    "description": "Preset containing predefined settings for an instrument or effect.",
+    "value": "preset",
+    "name": "Preset"
+  },
+  {
+    "description": "Sample playback based on audio or midi input.",
+    "value": "sampler",
+    "name": "Sampler"
+  },
+  {
+    "description": "Helper tool which provides automations and other useful functions for music.",
+    "value": "tool",
+    "name": "Tool"
+  }
+]

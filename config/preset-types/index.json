@@ -1,0 +1,32 @@
+[
+  {
+    "description": "Saved configurations of multiple plugins with specific routing, processing order, and parameter settings, often used in mixing and mastering plugins.",
+    "value": "chain",
+    "name": "Chain"
+  },
+  {
+    "description": "Saved configurations of a plugin’s overall layout or workspace, especially in modular plugins, which help streamline specific workflows or user preferences.",
+    "value": "layout",
+    "name": "Layout"
+  },
+  {
+    "description": "Preset mappings that assign plugin parameters to external MIDI controllers, making it easier to manipulate sounds in real-time or during live performances.",
+    "value": "mapping",
+    "name": "Mapping"
+  },
+  {
+    "description": "Sound presets containing saved parameter settings for synths or instruments, often focused on specific sounds or tonal qualities.",
+    "value": "patch",
+    "name": "Patch"
+  },
+  {
+    "description": "Rhythmic and harmonic variations of MIDI data.",
+    "value": "pattern",
+    "name": "Pattern"
+  },
+  {
+    "description": "Visual customizations that change the interface design, colors, or style of a plugin, providing a personalized or visually enhanced experience.",
+    "value": "theme",
+    "name": "Theme"
+  }
+]

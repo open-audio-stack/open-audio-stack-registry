@@ -1,0 +1,62 @@
+[
+  {
+    "description": "Used to store all information about a Live set.",
+    "value": "als",
+    "name": "Ableton Live Project"
+  },
+  {
+    "description": "Containing all Bitwig project-related information.",
+    "value": "bwproject",
+    "name": "Bitwig Project"
+  },
+  {
+    "description": "Used to save Steinberg Cubase arrangements and settings.",
+    "value": "cpr",
+    "name": "Cubase Project"
+  },
+  {
+    "description": "Open standard for storing various audio project settings.",
+    "value": "dawproject",
+    "name": "DAWproject Project"
+  },
+  {
+    "description": "Used for saving FL Studio compositions and arrangements.",
+    "value": "flp",
+    "name": "FL Studio Project"
+  },
+  {
+    "description": "A package containing audio files and Garageband timeline and settings.",
+    "value": "band",
+    "name": "Garageband Project"
+  },
+  {
+    "description": "Music project for open-source, cross-platform software.",
+    "value": "lmms",
+    "name": "LMMS Project"
+  },
+  {
+    "description": "Containing all Apple's Logic Pro audio, MIDI, and arrangement data.",
+    "value": "logic",
+    "name": "Logic Pro Project"
+  },
+  {
+    "description": "Compressed Musescore project along with metadata and image preview.",
+    "value": "mscz",
+    "name": "Musescore Project"
+  },
+  {
+    "description": "Used for Avid Pro Tools audio recording and production.",
+    "value": "ptx",
+    "name": "Pro Tools Project"
+  },
+  {
+    "description": "Containing Reaper tracks, arrangements, and settings.",
+    "value": "rpp",
+    "name": "Reaper Project"
+  },
+  {
+    "description": "Used for Cakewalk Sonar music production and audio editing.",
+    "value": "cwp",
+    "name": "Sonar Project"
+  }
+]

@@ -1,0 +1,77 @@
+[
+  {
+    "description": "Apple's proprietary plugin format for macOS and iOS.",
+    "value": "component",
+    "name": "Audio Units"
+  },
+  {
+    "description": "Avid's plugin format for Pro Tools, offering deep integration.",
+    "value": "aax",
+    "name": "Avid Audio Extension"
+  },
+  {
+    "description": "Modern open-source plugin format designed for performance and flexibility.",
+    "value": "clap",
+    "name": "Clever Audio Plugin"
+  },
+  {
+    "description": "Real-time plugin format used in Avid's Pro Tools.",
+    "value": "rta",
+    "name": "Real-Time AudioSuite"
+  },
+  {
+    "description": "Linux-friendly plugin format primarily used in open-source environments.",
+    "value": "lv2",
+    "name": "LADSPA Version 2"
+  },
+  {
+    "description": "Linux standalone application.",
+    "value": "elf",
+    "name": "Linux Standalone"
+  },
+  {
+    "description": "MacOS standalone application.",
+    "value": "app",
+    "name": "MacOS Standalone"
+  },
+  {
+    "description": "Widely used format for sound samples in musical instruments.",
+    "value": "sf2",
+    "name": "SoundFont 2"
+  },
+  {
+    "description": "An open standard for defining instrument patches and sound samples.",
+    "value": "sfz",
+    "name": "SFZ"
+  },
+  {
+    "description": "Legacy plugin format used in early Pro Tools systems.",
+    "value": "tdm",
+    "name": "Time-Division-Multiplexing"
+  },
+  {
+    "description": "Linux version of the VST plugin format for audio effects and instruments.",
+    "value": "so",
+    "name": "Virtual Studio Technology (Linux)"
+  },
+  {
+    "description": "Mac version of the VST plugin format used in DAWs like Logic and Ableton.",
+    "value": "vst",
+    "name": "Virtual Studio Technology (Mac)"
+  },
+  {
+    "description": "Windows version of the VST plugin format for digital audio workstations.",
+    "value": "dll",
+    "name": "Virtual Studio Technology (Win)"
+  },
+  {
+    "description": "Third-generation VST format, offering better performance and features.",
+    "value": "vst3",
+    "name": "Virtual Studio Technology 3"
+  },
+  {
+    "description": "Windows standalone application.",
+    "value": "exe",
+    "name": "Windows Standalone"
+  }
+]

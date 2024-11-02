@@ -1,0 +1,62 @@
+[
+  {
+    "description": "Apple's proprietary plugin format for macOS and iOS.",
+    "value": "aupreset",
+    "name": "Audio Unit preset"
+  },
+  {
+    "description": "Avid's plugin format for Pro Tools, offering deep integration.",
+    "value": "tfx",
+    "name": "Avid Audio preset"
+  },
+  {
+    "description": "Modern open-source plugin format designed for performance and flexibility.",
+    "value": "clap",
+    "name": "Clever Audio preset"
+  },
+  {
+    "description": "Linux-friendly plugin format primarily used in open-source environments.",
+    "value": "lv2",
+    "name": "LADSPA Version 2 preset"
+  },
+  {
+    "description": "Used by Native Instruments for their software instruments and effects.",
+    "value": "nksf",
+    "name": "Native Instruments preset"
+  },
+  {
+    "description": "Real-time plugin format used in Avid's Pro Tools.",
+    "value": "rtas",
+    "name": "Real-Time AudioSuite preset"
+  },
+  {
+    "description": "Widely used format for sound samples in musical instruments.",
+    "value": "preset.sf2",
+    "name": "SoundFont 2 preset"
+  },
+  {
+    "description": "An open standard for defining instrument patches and sound samples.",
+    "value": "preset.sfz",
+    "name": "SFZ preset"
+  },
+  {
+    "description": "Legacy plugin format used in early Pro Tools systems.",
+    "value": "tdm",
+    "name": "Time-Division-Multiplexing preset"
+  },
+  {
+    "description": "Standard bank preset format for VST plugins.",
+    "value": "fxb",
+    "name": "Virtual Studio Technology bank preset"
+  },
+  {
+    "description": "Standard preset format for VST plugins, allowing users to save and load settings.",
+    "value": "fxp",
+    "name": "Virtual Studio Technology preset"
+  },
+  {
+    "description": "Preset format for VST3 plugins including new features.",
+    "value": "vstpreset",
+    "name": "Virtual Studio Technology 3 preset"
+  }
+]

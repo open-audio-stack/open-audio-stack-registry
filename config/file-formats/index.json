@@ -1,0 +1,47 @@
+[
+  {
+    "description": "App package for Linux systems.",
+    "value": "appimage",
+    "name": "AppImage"
+  },
+  {
+    "description": "Disk image format used on macOS.",
+    "value": "dmg",
+    "name": "Apple Disk Image"
+  },
+  {
+    "description": "Package for Debian-based Linux such as Ubuntu.",
+    "value": "deb",
+    "name": "Debian package"
+  },
+  {
+    "description": "Executable file format used by Windows.",
+    "value": "exe",
+    "name": "Executable installer"
+  },
+  {
+    "description": "Originally developed for Red Hat, but is now used in many other Linux distributions.",
+    "value": "rpm",
+    "name": "Red Hat package"
+  },
+  {
+    "description": "Compressed archive format common on Linux and Unix systems.",
+    "value": "tar.gz",
+    "name": "Tarball"
+  },
+  {
+    "description": "Legacy compressed archive format similar to .tar.gz.",
+    "value": "tgz",
+    "name": "Tarball (alt)"
+  },
+  {
+    "description": "Installer format for Windows.",
+    "value": "msi",
+    "name": "Windows installer"
+  },
+  {
+    "description": "Widely-used compressed file format compatible with many operating systems.",
+    "value": "zip",
+    "name": "Zip"
+  }
+]

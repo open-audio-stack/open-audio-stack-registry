@@ -1,0 +1,12 @@
+[
+  {
+    "description": "Compressed file format containing multiple files.",
+    "value": "archive",
+    "name": "Archive"
+  },
+  {
+    "description": "Installer extracts and copies files into the correct locations.",
+    "value": "installer",
+    "name": "Installer"
+  }
+]
