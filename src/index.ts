@@ -79,5 +79,6 @@ generateConfig('out/config/project-formats', config.projectFormats());
 generateConfig('out/config/project-types', config.projectTypes());
 generateConfig('out/config/systems', config.systems());
 generateYaml('src/plugins/', '**/*', '.yaml', 'out/plugins/');
+generateYaml('src/presets/', '**/*', '.yaml', 'out/presets/');
 generateYaml('src/projects/', '**/*', '.yaml', 'out/projects/');
 fileSystem.fileJsonCreate('./out/index.json', registry.get());

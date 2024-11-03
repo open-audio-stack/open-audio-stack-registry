@@ -13,7 +13,7 @@
     "build"
   ],
   "scripts": {
-    "copy": "cp -rf ./src/plugins ./out && cp -rf ./src/projects ./out",
+    "copy": "cp -rf ./src/plugins ./out && cp -rf ./src/presets ./out && cp -rf ./src/projects ./out",
     "build": "tsc -p tsconfig.json",
     "dev": "tsx ./src/index.ts",
     "format": "prettier . --write",
