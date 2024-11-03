@@ -1,6 +1,14 @@
 import chalk from 'chalk';
 import path from 'path';
-import { Config, FileSystem, PackageValidationError, PluginInterface, Registry } from '@open-audio-stack/core';
+import {
+  Config,
+  FileSystem,
+  PackageInterface,
+  PackageValidationError,
+  PluginInterface,
+  Registry,
+  RegistryPackages,
+} from '@open-audio-stack/core';
 
 const config: Config = new Config({});
 const fileSystem: FileSystem = new FileSystem();
@@ -20,8 +28,9 @@ export function generateConfig(dirRoot: string, items: any) {
   fileSystem.fileJsonCreate(`${dirRoot}/index.json`, items);
 }
 
-export function generateRegistry(dirRoot: string, glob: string, ext: string, dirOut: string) {
-  console.log('-- Yaml plugins --');
+export function generateYaml(dirRoot: string, glob: string, ext: string, dirOut: string) {
+  console.log(`-- Yaml -- `);
+  const packages: RegistryPackages = {};
   const filePaths: string[] = fileSystem.dirRead(dirRoot + glob + ext);
   filePaths.forEach((filePath: string) => {
     // TODO make this code reusable and better.
@@ -41,9 +50,21 @@ export function generateRegistry(dirRoot: string, glob: string, ext: string, dir
     registry.packageVersionAdd(pkgSlug, pkgVersion, pkgFile);
     fileSystem.dirCreate(path.dirname(filePath).replace(dirRoot, dirOut));
     fileSystem.fileJsonCreate(filePath.replace(dirRoot, dirOut).replace(ext, '.json'), pkgFile);
+    fileSystem.fileJsonCreate(
+      filePath
+        .replace(dirRoot, dirOut)
+        .replace(ext, '.json')
+        .replace('/' + pkgVersion, ''),
+      registry.package(pkgSlug),
+    );
+    packages[pkgSlug] = registry.package(pkgSlug);
   });
-  fileSystem.fileJsonCreate('./out/index.json', registry.get());
-  console.log(`-- ${Object.keys(registry.packages()).length} Yaml plugins added --`);
+  const packagesArray: PackageInterface[] = [];
+  for (const key in packages) {
+    packagesArray.push(packages[key]);
+  }
+  fileSystem.fileJsonCreate(`${dirOut}/index.json`, packagesArray);
+  console.log(`-- ${Object.keys(registry.packages()).length} Yaml added -- `);
 }
 
 generateConfig('out/config/architectures', config.architectures());
@@ -57,4 +78,6 @@ generateConfig('out/config/preset-types', config.presetTypes());
 generateConfig('out/config/project-formats', config.projectFormats());
 generateConfig('out/config/project-types', config.projectTypes());
 generateConfig('out/config/systems', config.systems());
-generateRegistry('src/plugins/', '**/*', '.yaml', 'out/plugins/');
+generateYaml('src/plugins/', '**/*', '.yaml', 'out/plugins/');
+generateYaml('src/projects/', '**/*', '.yaml', 'out/projects/');
+fileSystem.fileJsonCreate('./out/index.json', registry.get());
