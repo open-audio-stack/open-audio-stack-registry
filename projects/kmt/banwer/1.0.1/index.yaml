@@ -25,6 +25,8 @@ files:
 image: https://open-audio-stack.github.io/open-audio-stack-registry/projects/kmt/banwer/banwer.jpg
 license: gpl-3.0
 name: Banwer
+plugins:
+  surge-synth/surge: 1.3.1
 tags:
   - Idea
   - Synth
