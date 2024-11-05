@@ -1,5 +1,6 @@
 # open-audio-stack-registry
 
+![Test](https://github.com/open-audio-stack/open-audio-stack-registry/workflows/Test/badge.svg)
 ![Release](https://github.com/open-audio-stack/open-audio-stack-registry/workflows/Release/badge.svg)
 
 Audio registry with searchable list of packages containing Plugins, Presets and Projects. Provides an API with file metadata and urls to binaries for installation.
@@ -26,8 +27,8 @@ Add a jpeg screenshot of the package, and flac audio file previewing the package
 
 Create yaml files for each version of the package using [Semantic Versioning](https://semver.org).
 
-    ./src/plugins/org-name/package-name/1.0.0.yaml
-    ./src/plugins/org-name/package-name/2.0.0.yaml
+    ./src/plugins/org-name/package-name/1.0.0/index.yaml
+    ./src/plugins/org-name/package-name/2.0.0/index.yaml
 
 Semantic versioning allows a compatible installer to install the latest non-breaking version of a package.
 
@@ -35,6 +36,7 @@ Use the below template yaml file as a starting point. Open Audio Stack Registry 
 if you miss or enter incorrect information, your package will not be included in the registry.
 
     ---
+    audio: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/surge-synthesizer/surge/surge.flac
     author: Surge Synth Team
     changes: |-
       - Fixed bug with audio
@@ -45,21 +47,24 @@ if you miss or enter incorrect information, your package will not be included in
       like MPE and microtuning.
     files:
       - architectures:
-          - bit32
-        format: zip
-        formats:
+          - bit64
+        contains:
+          - elf
+          - clap
+          - lv2
           - vst3
-        hash: 3af35f0212
+        format: zip
+        hash: 42ad977d43d6caa75361cd2ad8794e36
         systems:
-          - min: 13.7
-            type: mac
+          - type: linux
         size: 94448096
         type: archive
-        url: https://a.com/b/file.zip
+        url: https://github.com/surge-synthesizer/releases-xt/releases/download/1.3.1/surge-xt-linux-1.3.1-pluginsonly.tar.gz
+    image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/surge-synthesizer/surge/surge.jpg
     license: gpl-3.0
     name: Surge XT
     tags:
-      - 80s
+      - Instrument
       - Synth
       - Modulation
     type: instrument
