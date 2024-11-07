@@ -1,17 +1,21 @@
 import chalk from 'chalk';
-import path from 'path';
 import {
+  dirCreate,
+  dirRead,
+  fileJsonCreate,
+  fileReadYaml,
+  pathGetSlug,
+  pathGetVersion,
   Config,
-  FileSystem,
-  PackageInterface,
   PackageValidationError,
   PluginInterface,
   Registry,
-  RegistryPackages,
+  PluginType,
+  PresetType,
+  ProjectType,
 } from '@open-audio-stack/core';
 
 const config: Config = new Config({});
-const fileSystem: FileSystem = new FileSystem();
 const registry: Registry = new Registry({
   name: 'Open Audio Registry',
   packages: {},
@@ -22,22 +26,25 @@ const registry: Registry = new Registry({
 export function generateConfig(dirRoot: string, items: any) {
   items.forEach((item: any) => {
     const dirItem: string = `${dirRoot}/${item.value}`;
-    fileSystem.dirCreate(dirItem);
-    fileSystem.fileJsonCreate(`${dirItem}/index.json`, item);
+    dirCreate(dirItem);
+    fileJsonCreate(`${dirItem}/index.json`, item);
   });
-  fileSystem.fileJsonCreate(`${dirRoot}/index.json`, items);
+  fileJsonCreate(`${dirRoot}/index.json`, items);
 }
 
-export function generateYaml(dirRoot: string, glob: string, ext: string, dirOut: string) {
-  console.log(`-- Yaml -- `);
-  const packages: RegistryPackages = {};
-  const filePaths: string[] = fileSystem.dirRead(dirRoot + glob + ext);
+export function generateYaml(
+  pathIn: string,
+  pathOut: string,
+  pathType: string,
+  type: typeof PluginType | typeof PresetType | typeof ProjectType,
+) {
+  const packagesByOrg: any = {};
+  const filePaths: string[] = dirRead(`${pathIn}/${pathType}/**/*.yaml`);
   filePaths.forEach((filePath: string) => {
-    // TODO make this code reusable and better.
-    const parts: string[] = path.dirname(filePath).replace(dirRoot, '').replace(ext, '').split(path.sep);
-    const pkgSlug: string = `${parts[0]}/${parts[1]}`;
-    const pkgVersion: string = parts[2];
-    const pkgFile: PluginInterface = fileSystem.fileReadYaml(filePath) as PluginInterface;
+    const subPath: string = filePath.replace(`${pathIn}/${pathType}/`, '');
+    const pkgSlug: string = pathGetSlug(subPath);
+    const pkgVersion: string = pathGetVersion(subPath);
+    const pkgFile: PluginInterface = fileReadYaml(filePath) as PluginInterface;
     const errors: PackageValidationError[] = registry.packageVersionValidate(pkgFile);
     if (errors.length > 0) {
       console.log(chalk.red(`X ${pkgSlug} | ${pkgVersion} | ${filePath}`));
@@ -48,23 +55,21 @@ export function generateYaml(dirRoot: string, glob: string, ext: string, dirOut:
       // if (compatibility) console.log(chalk.yellow(compatibility));
     }
     registry.packageVersionAdd(pkgSlug, pkgVersion, pkgFile);
-    fileSystem.dirCreate(path.dirname(filePath).replace(dirRoot, dirOut));
-    fileSystem.fileJsonCreate(filePath.replace(dirRoot, dirOut).replace(ext, '.json'), pkgFile);
-    fileSystem.fileJsonCreate(
-      filePath
-        .replace(dirRoot, dirOut)
-        .replace(ext, '.json')
-        .replace('/' + pkgVersion, ''),
-      registry.package(pkgSlug),
-    );
-    packages[pkgSlug] = registry.package(pkgSlug);
+
+    dirCreate(`${pathOut}/${pathType}/${pkgSlug}/${pkgVersion}`);
+    fileJsonCreate(`${pathOut}/${pathType}/${pkgSlug}/${pkgVersion}/index.json`, pkgFile);
+    fileJsonCreate(`${pathOut}/${pathType}/${pkgSlug}/index.json`, registry.package(pkgSlug));
+
+    const pkgOrg: string = pkgSlug.split('/')[0];
+    if (!packagesByOrg[pkgOrg]) packagesByOrg[pkgOrg] = {};
+    packagesByOrg[pkgOrg][pkgSlug] = registry.package(pkgSlug);
   });
-  const packagesArray: PackageInterface[] = [];
-  for (const key in packages) {
-    packagesArray.push(packages[key]);
+  for (const orgId in packagesByOrg) {
+    dirCreate(`${pathOut}/${pathType}/${orgId}`);
+    fileJsonCreate(`${pathOut}/${pathType}/${orgId}/index.json`, packagesByOrg[orgId]);
   }
-  fileSystem.fileJsonCreate(`${dirOut}/index.json`, packagesArray);
-  console.log(`-- ${Object.keys(registry.packages()).length} Yaml added -- `);
+  dirCreate(`${pathOut}/${pathType}`);
+  fileJsonCreate(`${pathOut}/${pathType}/index.json`, registry.packagesFilter(type));
 }
 
 generateConfig('out/config/architectures', config.architectures());
@@ -78,7 +83,9 @@ generateConfig('out/config/preset-types', config.presetTypes());
 generateConfig('out/config/project-formats', config.projectFormats());
 generateConfig('out/config/project-types', config.projectTypes());
 generateConfig('out/config/systems', config.systems());
-generateYaml('src/plugins/', '**/*', '.yaml', 'out/plugins/');
-generateYaml('src/presets/', '**/*', '.yaml', 'out/presets/');
-generateYaml('src/projects/', '**/*', '.yaml', 'out/projects/');
-fileSystem.fileJsonCreate('./out/index.json', registry.get());
+
+generateYaml('src', 'out', 'plugins', PluginType);
+generateYaml('src', 'out', 'presets', PresetType);
+generateYaml('src', 'out', 'projects', ProjectType);
+
+fileJsonCreate('out/index.json', registry.get());
