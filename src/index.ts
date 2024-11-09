@@ -13,9 +13,10 @@ import {
   PluginType,
   PresetType,
   ProjectType,
+  PackageValidationRec,
 } from '@open-audio-stack/core';
 
-const config: Config = new Config({});
+const config: Config = new Config();
 const registry: Registry = new Registry({
   name: 'Open Audio Registry',
   packages: {},
@@ -46,13 +47,28 @@ export function generateYaml(
     const pkgVersion: string = pathGetVersion(subPath);
     const pkgFile: PluginInterface = fileReadYaml(filePath) as PluginInterface;
     const errors: PackageValidationError[] = registry.packageVersionValidate(pkgFile);
+    const recs: PackageValidationRec[] = registry.packageVersionRecommendations(pkgFile);
     if (errors.length > 0) {
       console.log(chalk.red(`X ${pkgSlug} | ${pkgVersion} | ${filePath}`));
-      console.log(chalk.red(errors));
-      // console.log(compatibility ? chalk.red(errors) + chalk.yellow(compatibility) : chalk.red(errors));
+      errors.forEach(error => {
+        console.log(
+          chalk.red(
+            `- ${error.field} (${error.error}) received '${error.valueReceived}' expected '${error.valueExpected}'`,
+          ),
+        );
+      });
+      if (recs.length > 0) {
+        recs.forEach(rec => {
+          console.log(chalk.yellow(`- ${rec.field} ${rec.rec}`));
+        });
+      }
     } else {
       console.log(chalk.green(`✓ ${pkgSlug} | ${pkgVersion} | ${filePath}`));
-      // if (compatibility) console.log(chalk.yellow(compatibility));
+      if (recs.length > 0) {
+        recs.forEach(rec => {
+          console.log(chalk.yellow(`- ${rec.field} ${rec.rec}`));
+        });
+      }
     }
     registry.packageVersionAdd(pkgSlug, pkgVersion, pkgFile);
 
