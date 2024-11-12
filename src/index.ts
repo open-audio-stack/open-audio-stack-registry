@@ -14,6 +14,8 @@ import {
   PresetType,
   ProjectType,
   PackageValidationRec,
+  PresetInterface,
+  ProjectInterface,
 } from '@open-audio-stack/core';
 
 const config: Config = new Config();
@@ -45,7 +47,7 @@ export function generateYaml(
     const subPath: string = filePath.replace(`${pathIn}/${pathType}/`, '');
     const pkgSlug: string = pathGetSlug(subPath);
     const pkgVersion: string = pathGetVersion(subPath);
-    const pkgFile: PluginInterface = fileReadYaml(filePath) as PluginInterface;
+    const pkgFile = fileReadYaml(filePath) as PluginInterface | PresetInterface | ProjectInterface;
     const errors: PackageValidationError[] = registry.packageVersionValidate(pkgFile);
     const recs: PackageValidationRec[] = registry.packageVersionRecommendations(pkgFile);
     if (errors.length > 0) {
