@@ -1,9 +1,9 @@
-import chalk from 'chalk';
 import {
   dirCreate,
   dirRead,
   fileJsonCreate,
   fileReadYaml,
+  logReport,
   pathGetSlug,
   pathGetVersion,
   Config,
@@ -48,30 +48,10 @@ export function generateYaml(
     const pkgSlug: string = pathGetSlug(subPath);
     const pkgVersion: string = pathGetVersion(subPath);
     const pkgFile = fileReadYaml(filePath) as PluginInterface | PresetInterface | ProjectInterface;
+
     const errors: PackageValidationError[] = registry.packageVersionValidate(pkgFile);
     const recs: PackageValidationRec[] = registry.packageVersionRecommendations(pkgFile);
-    if (errors.length > 0) {
-      console.log(chalk.red(`X ${pkgSlug} | ${pkgVersion} | ${filePath}`));
-      errors.forEach(error => {
-        console.log(
-          chalk.red(
-            `- ${error.field} (${error.error}) received '${error.valueReceived}' expected '${error.valueExpected}'`,
-          ),
-        );
-      });
-      if (recs.length > 0) {
-        recs.forEach(rec => {
-          console.log(chalk.yellow(`- ${rec.field} ${rec.rec}`));
-        });
-      }
-    } else {
-      console.log(chalk.green(`✓ ${pkgSlug} | ${pkgVersion} | ${filePath}`));
-      if (recs.length > 0) {
-        recs.forEach(rec => {
-          console.log(chalk.yellow(`- ${rec.field} ${rec.rec}`));
-        });
-      }
-    }
+    logReport(`${pkgSlug} | ${pkgVersion} | ${filePath}`, errors, recs);
     registry.packageVersionAdd(pkgSlug, pkgVersion, pkgFile);
 
     dirCreate(`${pathOut}/${pathType}/${pkgSlug}/${pkgVersion}`);
