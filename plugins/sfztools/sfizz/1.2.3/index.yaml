@@ -1,0 +1,66 @@
+---
+audio: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfztools/sfizz/sfizz.flac
+author: SFZTools
+changes: |-
+  Added
+  - Support for curvecc opcodes on v1 EGs (@PythonBlue)
+  - Support for lotimer/hitimer (@essej)
+  Changed
+  - Allow polyphonic aftertouch (cc 130) to respect the note number, which improves e.g. the choking logic (@essej)
+  Fixed
+  - Adjusted the gain compensation on pan stages (@cvde)
+  - Ensure that voices are cleaned up before being force-reused (@iv-m)
+  - Fixed a bug in the wavpack wrapper for multichannel files (@KKQ-KKQ)
+  - Fixed a bug in the way the tuning root was computed (@KKQ-KKQ)
+  - Fixed a bug where samples would be loaded in RAM twice when using hint_ram_based=1
+  - Fixed a bug where quasi-simultaneous notes would not properly choke each other
+  - Don't send a note off event if a note was choked by a CC event.
+date: '2024-01-14T00:00:00.000Z'
+description: SFZ parser and synth c++ library, providing AU / LV2 / VST3 plugins and JACK standalone client.
+files:
+  - architectures:
+      - bit64
+    contains:
+      - elf
+      - vst3
+    format: tar.gz
+    hash: 5f48937aa823260c1576350ee53c57bde3b4bea0971926f7de84335573d7d342
+    systems:
+      - type: linux
+    size: 19102967
+    type: archive
+    url: https://github.com/sfztools/sfizz/releases/download/1.2.3/sfizz-1.2.3.tar.gz
+  - architectures:
+      - arm64
+      - bit64
+    contains:
+      - app
+      - vst3
+    format: tar.gz
+    hash: cd17468db1d870199d9687c5d573d1126e4f2e8f3e989f4efc095d6808d67f89
+    systems:
+      - type: mac
+    size: 1748833
+    type: archive
+    url: https://github.com/sfztools/sfizz/releases/download/1.2.3/sfizz-1.2.3-macos.tar.gz
+  - architectures:
+      - bit64
+    contains:
+      - exe
+      - dll
+    format: zip
+    hash: d09ab53b58ae957b8df3fe17ea0ded2293ed09bae9b70bc7fac27424aa5e9d2c
+    systems:
+      - type: win
+    size: 8286178
+    type: archive
+    url: https://github.com/sfztools/sfizz/releases/download/1.2.3/sfizz-1.2.3-win64.zip
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfztools/sfizz/sfizz.jpg
+license: bsd-2-clause
+name: Sfizz
+tags:
+  - Instrument
+  - Sampler
+  - Synth
+type: sampler
+url: https://github.com/sfztools/sfizz
