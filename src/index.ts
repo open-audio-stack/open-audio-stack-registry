@@ -7,6 +7,8 @@ import {
   pathGetSlug,
   pathGetVersion,
   Config,
+  packageValidate,
+  packageRecommendations,
   PackageValidationError,
   PluginInterface,
   Registry,
@@ -49,8 +51,8 @@ export function generateYaml(
     const pkgVersion: string = pathGetVersion(subPath);
     const pkgFile = fileReadYaml(filePath) as PluginInterface | PresetInterface | ProjectInterface;
 
-    const errors: PackageValidationError[] = registry.packageVersionValidate(pkgFile);
-    const recs: PackageValidationRec[] = registry.packageVersionRecommendations(pkgFile);
+    const errors: PackageValidationError[] = packageValidate(pkgFile);
+    const recs: PackageValidationRec[] = packageRecommendations(pkgFile);
     logReport(`${pkgSlug} | ${pkgVersion} | ${filePath}`, errors, recs);
     registry.packageVersionAdd(pkgSlug, pkgVersion, pkgFile);
 

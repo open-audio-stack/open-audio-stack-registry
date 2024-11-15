@@ -71,7 +71,17 @@ if you miss or enter incorrect information, your package will not be included in
     url: https://github.com/surge-synthesizer/surge
 
 For file downloads, we recommend `.zip` files which are cross-platform and can be extracted automatically and placed into the correct locations without user interaction.
+
 If you use other formats such as `deb, dmg, exe, msi` compatible apps will download and copy the file to the users directory, but might not support full installation.
+
+Validate your changes locally by running these command:
+
+    npm install
+    npm run dev:validate -- src/plugins/surge-synthesizer/surge/1.3.1/index.yaml
+
+Ensure you provide the path to the yaml file you changed.
+
+After validation passes, push your branch to GitHub to have the automated GitHub Action run additional checks and return any issues with your changes.
 
 ## Developer information
 
