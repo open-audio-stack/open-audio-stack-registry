@@ -21,7 +21,7 @@ files:
   - architectures:
       - bit64
     contains:
-      - elf
+      - lv2
       - vst3
     format: tar.gz
     hash: 5f48937aa823260c1576350ee53c57bde3b4bea0971926f7de84335573d7d342
@@ -29,32 +29,33 @@ files:
       - type: linux
     size: 19102967
     type: archive
-    url: https://github.com/sfztools/sfizz/releases/download/1.2.3/sfizz-1.2.3.tar.gz
+    url: https://github.com/sfztools/sfizz-ui/releases/download/1.2.3/sfizz-1.2.3.tar.gz
   - architectures:
       - arm64
       - bit64
     contains:
-      - app
+      - component
+      - lv2
       - vst3
     format: tar.gz
     hash: cd17468db1d870199d9687c5d573d1126e4f2e8f3e989f4efc095d6808d67f89
     systems:
       - type: mac
     size: 1748833
-    type: archive
+    type: installer
     url: https://github.com/sfztools/sfizz/releases/download/1.2.3/sfizz-1.2.3-macos.tar.gz
   - architectures:
       - bit64
     contains:
-      - exe
       - dll
+      - vst3
     format: zip
-    hash: d09ab53b58ae957b8df3fe17ea0ded2293ed09bae9b70bc7fac27424aa5e9d2c
+    hash: b361453bc1588623344e8712db4580655ed688fe5c642148e7abf7d08ff70eee
     systems:
       - type: win
-    size: 8286178
-    type: archive
-    url: https://github.com/sfztools/sfizz/releases/download/1.2.3/sfizz-1.2.3-win64.zip
+    size: 3626650
+    type: installer
+    url: https://github.com/sfztools/sfizz-ui/releases/download/1.2.3/sfizz-1.2.3-win64.exe
 image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfztools/sfizz/sfizz.jpg
 license: bsd-2-clause
 name: Sfizz
