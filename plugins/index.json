@@ -103,7 +103,7 @@
               "bit64"
             ],
             "contains": [
-              "elf",
+              "lv2",
               "vst3"
             ],
             "format": "tar.gz",
@@ -115,7 +115,7 @@
             ],
             "size": 19102967,
             "type": "archive",
-            "url": "https://github.com/sfztools/sfizz/releases/download/1.2.3/sfizz-1.2.3.tar.gz"
+            "url": "https://github.com/sfztools/sfizz-ui/releases/download/1.2.3/sfizz-1.2.3.tar.gz"
           },
           {
             "architectures": [
@@ -123,7 +123,8 @@
               "bit64"
             ],
             "contains": [
-              "app",
+              "component",
+              "lv2",
               "vst3"
             ],
             "format": "tar.gz",
@@ -134,7 +135,7 @@
               }
             ],
             "size": 1748833,
-            "type": "archive",
+            "type": "installer",
             "url": "https://github.com/sfztools/sfizz/releases/download/1.2.3/sfizz-1.2.3-macos.tar.gz"
           },
           {
@@ -142,19 +143,19 @@
               "bit64"
             ],
             "contains": [
-              "exe",
-              "dll"
+              "dll",
+              "vst3"
             ],
             "format": "zip",
-            "hash": "d09ab53b58ae957b8df3fe17ea0ded2293ed09bae9b70bc7fac27424aa5e9d2c",
+            "hash": "b361453bc1588623344e8712db4580655ed688fe5c642148e7abf7d08ff70eee",
             "systems": [
               {
                 "type": "win"
               }
             ],
-            "size": 8286178,
-            "type": "archive",
-            "url": "https://github.com/sfztools/sfizz/releases/download/1.2.3/sfizz-1.2.3-win64.zip"
+            "size": 3626650,
+            "type": "installer",
+            "url": "https://github.com/sfztools/sfizz-ui/releases/download/1.2.3/sfizz-1.2.3-win64.exe"
           }
         ],
         "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfztools/sfizz/sfizz.jpg",
