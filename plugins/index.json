@@ -170,5 +170,94 @@
         "url": "https://github.com/sfztools/sfizz"
       }
     }
+  },
+  "sfzinstruments/splendidgrandpiano": {
+    "slug": "sfzinstruments/splendidgrandpiano",
+    "version": "1.0.0",
+    "versions": {
+      "1.0.0": {
+        "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/splendidgrandpiano/splendid-grand-piano.flac",
+        "author": "Akai",
+        "changes": "- Add Half-pedalling by Peter Eastman\n- Add String Resonance simulation created by Peter Eastman\n- Cosmetic update\n- Optimizing polyphony\n- Increase hold and decay time, suggested by Peter Eastman\n",
+        "date": "2022-01-02T07:00:00.000Z",
+        "description": "Steinway piano with 4 velocity layers.",
+        "files": [
+          {
+            "architectures": [
+              "arm32",
+              "arm64",
+              "bit32",
+              "bit64"
+            ],
+            "contains": [
+              "sfz"
+            ],
+            "format": "zip",
+            "hash": "a1ed29dcf5a66ce931a3945282b797253cc658cb0a7f76b00a60130731ec3552",
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "size": 74508517,
+            "type": "archive",
+            "url": "https://github.com/sfzinstruments/SplendidGrandPiano/archive/refs/heads/master.zip"
+          },
+          {
+            "architectures": [
+              "arm32",
+              "arm64",
+              "bit32",
+              "bit64"
+            ],
+            "contains": [
+              "sfz"
+            ],
+            "format": "zip",
+            "hash": "a1ed29dcf5a66ce931a3945282b797253cc658cb0a7f76b00a60130731ec3552",
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "size": 74508517,
+            "type": "archive",
+            "url": "https://github.com/sfzinstruments/SplendidGrandPiano/archive/refs/heads/master.zip"
+          },
+          {
+            "architectures": [
+              "arm32",
+              "arm64",
+              "bit32",
+              "bit64"
+            ],
+            "contains": [
+              "sfz"
+            ],
+            "format": "zip",
+            "hash": "a1ed29dcf5a66ce931a3945282b797253cc658cb0a7f76b00a60130731ec3552",
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "size": 74508517,
+            "type": "archive",
+            "url": "https://github.com/sfzinstruments/SplendidGrandPiano/archive/refs/heads/master.zip"
+          }
+        ],
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/splendidgrandpiano/splendid-grand-piano.jpg",
+        "license": "bsd-2-clause",
+        "name": "Splendid Grand Piano",
+        "tags": [
+          "Instrument",
+          "Keys",
+          "Piano",
+          "sfz"
+        ],
+        "type": "sampler",
+        "url": "https://github.com/sfzinstruments/splendidgrandpiano"
+      }
+    }
   }
 }
