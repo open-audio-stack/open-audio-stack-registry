@@ -54,7 +54,7 @@ if you miss or enter incorrect information, your package will not be included in
           - lv2
           - vst3
         format: zip
-        hash: 42ad977d43d6caa75361cd2ad8794e36
+        sha256: 42ad977d43d6caa75361cd2ad8794e36
         systems:
           - type: linux
         size: 94448096

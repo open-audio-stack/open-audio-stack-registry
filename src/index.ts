@@ -12,9 +12,7 @@ import {
   PackageValidationError,
   PluginInterface,
   Registry,
-  PluginType,
-  PresetType,
-  ProjectType,
+  RegistryType,
   PackageValidationRec,
   PresetInterface,
   ProjectInterface,
@@ -23,7 +21,9 @@ import {
 const config: Config = new Config();
 const registry: Registry = new Registry({
   name: 'Open Audio Registry',
-  packages: {},
+  plugins: {},
+  presets: {},
+  projects: {},
   url: 'https://open-audio-stack.github.io/open-audio-stack-registry',
   version: '1.0.0',
 });
@@ -37,12 +37,7 @@ export function generateConfig(dirRoot: string, items: any) {
   fileJsonCreate(`${dirRoot}/index.json`, items);
 }
 
-export function generateYaml(
-  pathIn: string,
-  pathOut: string,
-  pathType: string,
-  type: typeof PluginType | typeof PresetType | typeof ProjectType,
-) {
+export function generateYaml(pathIn: string, pathOut: string, pathType: string, type: RegistryType) {
   const packagesByOrg: any = {};
   const filePaths: string[] = dirRead(`${pathIn}/${pathType}/**/*.yaml`);
   filePaths.forEach((filePath: string) => {
@@ -54,22 +49,22 @@ export function generateYaml(
     const errors: PackageValidationError[] = packageValidate(pkgFile);
     const recs: PackageValidationRec[] = packageRecommendations(pkgFile);
     logReport(`${pkgSlug} | ${pkgVersion} | ${filePath}`, errors, recs);
-    registry.packageVersionAdd(pkgSlug, pkgVersion, pkgFile);
+    registry.packageVersionAdd(pkgSlug, type, pkgVersion, pkgFile);
 
     dirCreate(`${pathOut}/${pathType}/${pkgSlug}/${pkgVersion}`);
     fileJsonCreate(`${pathOut}/${pathType}/${pkgSlug}/${pkgVersion}/index.json`, pkgFile);
-    fileJsonCreate(`${pathOut}/${pathType}/${pkgSlug}/index.json`, registry.package(pkgSlug));
+    fileJsonCreate(`${pathOut}/${pathType}/${pkgSlug}/index.json`, registry.package(pkgSlug, type));
 
     const pkgOrg: string = pkgSlug.split('/')[0];
     if (!packagesByOrg[pkgOrg]) packagesByOrg[pkgOrg] = {};
-    packagesByOrg[pkgOrg][pkgSlug] = registry.package(pkgSlug);
+    packagesByOrg[pkgOrg][pkgSlug] = registry.package(pkgSlug, type);
   });
   for (const orgId in packagesByOrg) {
     dirCreate(`${pathOut}/${pathType}/${orgId}`);
     fileJsonCreate(`${pathOut}/${pathType}/${orgId}/index.json`, packagesByOrg[orgId]);
   }
   dirCreate(`${pathOut}/${pathType}`);
-  fileJsonCreate(`${pathOut}/${pathType}/index.json`, registry.packagesFilter(type));
+  fileJsonCreate(`${pathOut}/${pathType}/index.json`, registry.packages(type));
 }
 
 generateConfig('out/config/architectures', config.architectures());
@@ -84,8 +79,8 @@ generateConfig('out/config/project-formats', config.projectFormats());
 generateConfig('out/config/project-types', config.projectTypes());
 generateConfig('out/config/systems', config.systems());
 
-generateYaml('src', 'out', 'plugins', PluginType);
-generateYaml('src', 'out', 'presets', PresetType);
-generateYaml('src', 'out', 'projects', ProjectType);
+generateYaml('src', 'out', 'plugins', RegistryType.Plugins);
+generateYaml('src', 'out', 'presets', RegistryType.Presets);
+generateYaml('src', 'out', 'projects', RegistryType.Projects);
 
 fileJsonCreate('out/index.json', registry.get());
