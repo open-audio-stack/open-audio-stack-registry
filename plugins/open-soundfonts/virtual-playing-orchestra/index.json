@@ -1,0 +1,89 @@
+{
+  "slug": "open-soundfonts/virtual-playing-orchestra",
+  "version": "3.3.2",
+  "versions": {
+    "3.3.2": {
+      "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/open-soundfonts/virtual-playing-orchestra/virtual-playing-orchestra.flac",
+      "author": "Paul Battersby",
+      "changes": "",
+      "date": "2020-10-17T00:00:00.000Z",
+      "description": "Orchestral sample library featuring section and solo instruments for woodwinds, brass, strings and percussion.",
+      "files": [
+        {
+          "architectures": [
+            "arm32",
+            "arm64",
+            "bit32",
+            "bit64"
+          ],
+          "contains": [
+            "sfz"
+          ],
+          "format": "zip",
+          "sha256": "a88193aaefc422eb1d6166737d94cb5407be36a26bce9dd4485f8062c0309343",
+          "systems": [
+            {
+              "type": "linux"
+            }
+          ],
+          "size": 618138108,
+          "type": "archive",
+          "url": "https://github.com/open-soundfonts/Virtual_Playing_Orchestra_3/archive/refs/heads/master.zip"
+        },
+        {
+          "architectures": [
+            "arm32",
+            "arm64",
+            "bit32",
+            "bit64"
+          ],
+          "contains": [
+            "sfz"
+          ],
+          "format": "zip",
+          "sha256": "a88193aaefc422eb1d6166737d94cb5407be36a26bce9dd4485f8062c0309343",
+          "systems": [
+            {
+              "type": "mac"
+            }
+          ],
+          "size": 618138108,
+          "type": "archive",
+          "url": "https://github.com/open-soundfonts/Virtual_Playing_Orchestra_3/archive/refs/heads/master.zip"
+        },
+        {
+          "architectures": [
+            "arm32",
+            "arm64",
+            "bit32",
+            "bit64"
+          ],
+          "contains": [
+            "sfz"
+          ],
+          "format": "zip",
+          "sha256": "a88193aaefc422eb1d6166737d94cb5407be36a26bce9dd4485f8062c0309343",
+          "systems": [
+            {
+              "type": "win"
+            }
+          ],
+          "size": 618138108,
+          "type": "archive",
+          "url": "https://github.com/open-soundfonts/Virtual_Playing_Orchestra_3/archive/refs/heads/master.zip"
+        }
+      ],
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/open-soundfonts/virtual-playing-orchestra/virtual-playing-orchestra.jpg",
+      "license": "gpl-3.0",
+      "name": "Virtual Playing Orchestra",
+      "tags": [
+        "Instrument",
+        "Orchestral",
+        "Strings",
+        "sfz"
+      ],
+      "type": "sampler",
+      "url": "https://github.com/open-soundfonts/Virtual_Playing_Orchestra_3"
+    }
+  }
+}
