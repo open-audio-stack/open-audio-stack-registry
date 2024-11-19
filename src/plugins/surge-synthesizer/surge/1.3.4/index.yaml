@@ -1,0 +1,64 @@
+---
+audio: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/surge-synthesizer/surge/surge.flac
+author: Surge Synth Team
+changes: |-
+  - Fix a logic error in creating Surge XT folder in new session (#7752) - Paul
+  - Add 1.3.3 cherry pick list and bump cmakelist version - Paul Walker
+  - Update tempo after patch load if desired and ensure we calculate time_data.ppqPos while processing (#7738) - Daniel Hatadi
+  - Update LFO and Step Seq presets to have the LFO EG enabled (#7732) - EvilDragon
+date: '2024-08-11T00:00:00.000Z'
+description: Hybrid synthesizer featuring many synthesis techniques, a great selection
+  of filters, a flexible modulation engine, a smorgasbord of effects, and modern features
+  like MPE and microtuning.
+files:
+  - architectures:
+      - bit64
+    contains:
+      - elf
+      - clap
+      - lv2
+      - vst3
+    format: zip
+    sha256: 8c2de75617e4e5b1051924d42b3b0306e5d1c3fea12c51c87d8505ba7857ca51
+    systems:
+      - type: linux
+    size: 97294804
+    type: archive
+    url: https://github.com/surge-synthesizer/releases-xt/releases/download/1.3.4/surge-xt-linux-1.3.4-pluginsonly.tar.gz
+  - architectures:
+      - arm64
+      - bit64
+    contains:
+      - app
+      - clap
+      - component
+      - vst3
+    format: zip
+    sha256: b453e32c28594c20dcb059e2ca8ec3dc01c3f844500d5519680c15c3e7a262ea
+    systems:
+      - type: mac
+    size: 186958216
+    type: archive
+    url: https://github.com/surge-synthesizer/releases-xt/releases/download/1.3.4/surge-xt-macos-1.3.4-pluginsonly.zip
+  - architectures:
+      - bit64
+    contains:
+      - exe
+      - clap
+      - vst3
+    format: zip
+    sha256: 9b9d3032985085dd662e06c4318c799919bcec0b4082a6afb2562c5538cf0853
+    systems:
+      - type: win
+    size: 49093875
+    type: archive
+    url: https://github.com/surge-synthesizer/releases-xt/releases/download/1.3.4/surge-xt-win64-1.3.4-pluginsonly.zip
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/surge-synthesizer/surge/surge.jpg
+license: gpl-3.0
+name: Surge XT
+tags:
+  - Instrument
+  - Synth
+  - Modulation
+type: instrument
+url: https://github.com/surge-synthesizer/surge
