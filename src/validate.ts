@@ -55,6 +55,6 @@ for (const type in pkgFile.files) {
   }
 
   // Validate file vs package metadata and output errors
-  const errorsFile: PackageValidationError[] = fileValidateMetadata(fileLocalPath, file);
+  const errorsFile: PackageValidationError[] = await fileValidateMetadata(fileLocalPath, file);
   logReport(`${pkgSlug} | ${pkgVersion} | ${fileLocalPath}`, errorsFile);
 }
