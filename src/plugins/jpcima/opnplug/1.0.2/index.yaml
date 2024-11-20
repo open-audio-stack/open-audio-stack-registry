@@ -1,5 +1,5 @@
 ---
-audio: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/jpcima/adlplug/adlplug.flac
+audio: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/jpcima/opnplug/opnplug.flac
 author: Jean Pierre Cimalando
 changes: |-
   - English translation of the user manual by Bruce Sutherland
@@ -16,12 +16,12 @@ files:
       - lv2
       - so
     format: deb
-    sha256: 5cc0585bb862903b0f049095db59decbfc1da1a8d38e8370c111b23b69fc5f73
+    sha256: 8f0ec5d778fde4cf31fda7577f76aec858133ab142930385d5f94a226c03b8da
     systems:
       - type: linux
-    size: 3826892
+    size: 3877002
     type: archive
-    url: https://github.com/jpcima/ADLplug/releases/download/latest/adlplug_amd64.deb
+    url: https://github.com/jpcima/ADLplug/releases/download/latest/opnplug_amd64.deb
   - architectures:
       - arm64
       - bit64
@@ -32,12 +32,12 @@ files:
       - vst
       - vst3
     format: 7z
-    sha256: 4f1aa2a6ee546fc6f5418d511e53665e1b388a4bcc1aa9e08832b71a8a1014e5
+    sha256: 2e852723a587bf75288a33e7125ea5bcc4b20652b2a1904b5be6df51de51f2d9
     systems:
       - type: mac
-    size: 10663602
+    size: 8698995
     type: archive
-    url: https://github.com/jpcima/ADLplug/releases/download/v1.0.2/ADLplug-1.0.2-mac.7z
+    url: https://github.com/jpcima/ADLplug/releases/download/latest/OPNplug-dev-mac.7z
   - architectures:
       - bit64
     contains:
@@ -46,15 +46,15 @@ files:
       - lv2
       - vst3
     format: 7z
-    sha256: 76e51b05e8a2e551fa4d05eef16a575cfde54cb6a91ac16f4942e78634c4ffaa
+    sha256: b4e4f2a948569cf8e135421c8f0d51625a732093d6ae7c8098be6f01a7847ebf
     systems:
       - type: win
-    size: 18562585
+    size: 14144320
     type: archive
-    url: https://github.com/jpcima/ADLplug/releases/download/v1.0.2/ADLplug-1.0.2-win64.7z
-image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/jpcima/adlplug/adlplug.jpg
+    url: https://github.com/jpcima/ADLplug/releases/download/latest/OPNplug-dev-win64.7z
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/jpcima/opnplug/opnplug.jpg
 license: bsl-1.0
-name: ADLplug
+name: OPNplug
 tags:
   - Instrument
   - Synth
