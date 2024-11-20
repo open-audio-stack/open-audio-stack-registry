@@ -1,0 +1,89 @@
+{
+  "slug": "jpcima/opnplug",
+  "version": "1.0.2",
+  "versions": {
+    "1.0.2": {
+      "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/jpcima/opnplug/opnplug.flac",
+      "author": "Jean Pierre Cimalando",
+      "changes": "- English translation of the user manual by Bruce Sutherland\n- modified KSL editing behavior to make it linear with regards to attenuation\n- added a build option to link with system-wide libfmt\n- made the resource system compatible with unsigned-char targets",
+      "date": "2020-08-05T08:00:00.000Z",
+      "description": "FM synthesizer based on OPL3 and OPN2 sound chip emulations. Synthesis of melodic and percussive instruments, support for dynamic parameterization and automation.",
+      "files": [
+        {
+          "architectures": [
+            "bit64"
+          ],
+          "contains": [
+            "elf",
+            "lv2",
+            "so"
+          ],
+          "format": "deb",
+          "sha256": "64fff833bc67ef80f6fa65bb27097a36f2c8d68cbab4817bdf5159ff8eddaabb",
+          "systems": [
+            {
+              "type": "linux"
+            }
+          ],
+          "size": 3876232,
+          "type": "archive",
+          "url": "https://github.com/jpcima/ADLplug/releases/download/v1.0.2/opnplug_amd64.deb"
+        },
+        {
+          "architectures": [
+            "arm64",
+            "bit64"
+          ],
+          "contains": [
+            "app",
+            "component",
+            "lv2",
+            "vst",
+            "vst3"
+          ],
+          "format": "7z",
+          "sha256": "e7c1055e730a2f23c11d79b0737637d5841b7bb5fa562540d67d32fe6cb07eeb",
+          "systems": [
+            {
+              "type": "mac"
+            }
+          ],
+          "size": 10965202,
+          "type": "archive",
+          "url": "https://github.com/jpcima/ADLplug/releases/download/v1.0.2/OPNplug-1.0.2-mac.7z"
+        },
+        {
+          "architectures": [
+            "bit64"
+          ],
+          "contains": [
+            "dll",
+            "exe",
+            "lv2",
+            "vst3"
+          ],
+          "format": "7z",
+          "sha256": "514a3037819e907f89e466d27a34be45ac40950f1ae53fa19f9ace2e8129ed50",
+          "systems": [
+            {
+              "type": "win"
+            }
+          ],
+          "size": 18709184,
+          "type": "archive",
+          "url": "https://github.com/jpcima/ADLplug/releases/download/v1.0.2/OPNplug-1.0.2-win64.7z"
+        }
+      ],
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/jpcima/opnplug/opnplug.jpg",
+      "license": "bsl-1.0",
+      "name": "OPNplug",
+      "tags": [
+        "Instrument",
+        "Synth",
+        "FM"
+      ],
+      "type": "instrument",
+      "url": "https://github.com/jpcima/ADLplug"
+    }
+  }
+}
