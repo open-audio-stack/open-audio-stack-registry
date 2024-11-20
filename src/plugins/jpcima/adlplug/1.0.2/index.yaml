@@ -16,12 +16,12 @@ files:
       - lv2
       - so
     format: deb
-    sha256: 5cc0585bb862903b0f049095db59decbfc1da1a8d38e8370c111b23b69fc5f73
+    sha256: 5e16542042dd6f974932983b2fe2caad7a0398fa9786832f4690d849e01c4041
     systems:
       - type: linux
-    size: 3826892
+    size: 3822930
     type: archive
-    url: https://github.com/jpcima/ADLplug/releases/download/latest/adlplug_amd64.deb
+    url: https://github.com/jpcima/ADLplug/releases/download/v1.0.2/adlplug_amd64.deb
   - architectures:
       - arm64
       - bit64

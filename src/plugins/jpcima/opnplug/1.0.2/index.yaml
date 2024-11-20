@@ -16,12 +16,12 @@ files:
       - lv2
       - so
     format: deb
-    sha256: 8f0ec5d778fde4cf31fda7577f76aec858133ab142930385d5f94a226c03b8da
+    sha256: 64fff833bc67ef80f6fa65bb27097a36f2c8d68cbab4817bdf5159ff8eddaabb
     systems:
       - type: linux
-    size: 3877002
+    size: 3876232
     type: archive
-    url: https://github.com/jpcima/ADLplug/releases/download/latest/opnplug_amd64.deb
+    url: https://github.com/jpcima/ADLplug/releases/download/v1.0.2/opnplug_amd64.deb
   - architectures:
       - arm64
       - bit64
@@ -32,12 +32,12 @@ files:
       - vst
       - vst3
     format: 7z
-    sha256: 2e852723a587bf75288a33e7125ea5bcc4b20652b2a1904b5be6df51de51f2d9
+    sha256: e7c1055e730a2f23c11d79b0737637d5841b7bb5fa562540d67d32fe6cb07eeb
     systems:
       - type: mac
-    size: 8698995
+    size: 10965202
     type: archive
-    url: https://github.com/jpcima/ADLplug/releases/download/latest/OPNplug-dev-mac.7z
+    url: https://github.com/jpcima/ADLplug/releases/download/v1.0.2/OPNplug-1.0.2-mac.7z
   - architectures:
       - bit64
     contains:
@@ -46,12 +46,12 @@ files:
       - lv2
       - vst3
     format: 7z
-    sha256: b4e4f2a948569cf8e135421c8f0d51625a732093d6ae7c8098be6f01a7847ebf
+    sha256: 514a3037819e907f89e466d27a34be45ac40950f1ae53fa19f9ace2e8129ed50
     systems:
       - type: win
-    size: 14144320
+    size: 18709184
     type: archive
-    url: https://github.com/jpcima/ADLplug/releases/download/latest/OPNplug-dev-win64.7z
+    url: https://github.com/jpcima/ADLplug/releases/download/v1.0.2/OPNplug-1.0.2-win64.7z
 image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/jpcima/opnplug/opnplug.jpg
 license: bsl-1.0
 name: OPNplug
