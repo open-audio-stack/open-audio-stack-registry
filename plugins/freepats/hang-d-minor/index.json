@@ -1,0 +1,89 @@
+{
+  "slug": "freepats/hang-d-minor",
+  "version": "1.0.0",
+  "versions": {
+    "1.0.0": {
+      "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/freepats/hang-d-minor/hang-d-minor.flac",
+      "author": "Freepats",
+      "changes": "",
+      "date": "2022-03-30T07:00:00.000Z",
+      "description": "Pitched steel percussion instrument tuned in D minor, recorded using a Zoom H1 portable recorder mounted on a tripod.",
+      "files": [
+        {
+          "architectures": [
+            "arm32",
+            "arm64",
+            "bit32",
+            "bit64"
+          ],
+          "contains": [
+            "sfz"
+          ],
+          "format": "7z",
+          "sha256": "17694f513c876af4ce344f21b3b2b458cd568318e078b0e568133faf290f04a6",
+          "systems": [
+            {
+              "type": "linux"
+            }
+          ],
+          "size": 13478020,
+          "type": "archive",
+          "url": "https://github.com/freepats/hang-D-minor/releases/download/2022-03-30/Hang-D-minor-SFZ+FLAC-20220330.7z"
+        },
+        {
+          "architectures": [
+            "arm32",
+            "arm64",
+            "bit32",
+            "bit64"
+          ],
+          "contains": [
+            "sfz"
+          ],
+          "format": "7z",
+          "sha256": "17694f513c876af4ce344f21b3b2b458cd568318e078b0e568133faf290f04a6",
+          "systems": [
+            {
+              "type": "mac"
+            }
+          ],
+          "size": 13478020,
+          "type": "archive",
+          "url": "https://github.com/freepats/hang-D-minor/releases/download/2022-03-30/Hang-D-minor-SFZ+FLAC-20220330.7z"
+        },
+        {
+          "architectures": [
+            "arm32",
+            "arm64",
+            "bit32",
+            "bit64"
+          ],
+          "contains": [
+            "sfz"
+          ],
+          "format": "7z",
+          "sha256": "17694f513c876af4ce344f21b3b2b458cd568318e078b0e568133faf290f04a6",
+          "systems": [
+            {
+              "type": "win"
+            }
+          ],
+          "size": 13478020,
+          "type": "archive",
+          "url": "https://github.com/freepats/hang-D-minor/releases/download/2022-03-30/Hang-D-minor-SFZ+FLAC-20220330.7z"
+        }
+      ],
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/freepats/hang-d-minor/hang-d-minor.jpg",
+      "license": "cc0-1.0",
+      "name": "Hang D Minor",
+      "tags": [
+        "Instrument",
+        "Orchestra",
+        "Hang",
+        "sfz"
+      ],
+      "type": "sampler",
+      "url": "https://github.com/freepats/hang-d-minor"
+    }
+  }
+}
