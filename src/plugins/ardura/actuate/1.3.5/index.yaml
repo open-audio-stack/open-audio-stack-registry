@@ -1,0 +1,68 @@
+---
+audio: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ardura/actuate/actuate.flac
+author: Ardura
+changes: |
+  - Polyfilter update now works on additive, sampler, and granular sources
+  - Tilt filter was rewritten to have less crashes/bugs
+  - VCF Filter instability was fixed with some more safety and balancing changes
+  - New preset browser and format
+date: '2024-07-12T07:00:00.000Z'
+description: A Subtractive and Additive Synthesizer, Sampler, and Granulizer built in Rust + Nih-Plug.
+files:
+  - architectures:
+      - bit64
+    contains:
+      - clap
+      - vst3
+    format: zip
+    sha256: e3896662d270f685b2bbfa34ee129d5afcae649e4c2d05ed6016d9d3d11ddbe3
+    systems:
+      - type: linux
+    size: 8369198
+    type: archive
+    url: https://github.com/ardura/Actuate/releases/download/v1.3.5/Actuate_v135_linux_build.zip
+  - architectures:
+      - bit64
+    contains:
+      - clap
+      - vst3
+    format: zip
+    sha256: e0b58f4f2dab0ce8465d39ef69af511966d1ff0e8de9296e111b339eb5db287c
+    systems:
+      - type: mac
+    size: 6125534
+    type: archive
+    url: https://github.com/ardura/Actuate/releases/download/v1.3.5/Actuate_v135_macos_build.zip
+  - architectures:
+      - arm64
+    contains:
+      - clap
+      - vst3
+    format: zip
+    sha256: 165186e53fc8821d292f353cb29109bd55c22164899480188918d52325cb08a5
+    systems:
+      - type: mac
+    size: 5670254
+    type: archive
+    url: https://github.com/ardura/Actuate/releases/download/v1.3.5/Actuate_v135_macos_m1_build.zip
+  - architectures:
+      - bit64
+    contains:
+      - clap
+      - vst3
+    format: zip
+    sha256: 6b142ca979507d61821347ca58bdacae6def9677e463db92dfe61b45cf970a1e
+    systems:
+      - type: win
+    size: 5573640
+    type: archive
+    url: https://github.com/ardura/Actuate/releases/download/v1.3.5/Actuate_v135_windows_build.zip
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ardura/actuate/actuate.jpg
+license: gpl-3.0
+name: Actuate
+tags:
+  - Instrument
+  - Synth
+  - Sampler
+type: effect
+url: https://github.com/ardura/Actuate
