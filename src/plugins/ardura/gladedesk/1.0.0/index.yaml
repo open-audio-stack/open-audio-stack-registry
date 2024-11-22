@@ -1,0 +1,53 @@
+---
+audio: ''
+author: Ardura
+changes: |
+  - Slight gui change
+date: '2024-07-19T07:00:00.000Z'
+description: Custom Console Idea.
+files:
+  - architectures:
+      - bit64
+    contains:
+      - clap
+      - vst3
+    format: zip
+    sha256: 1e73f80619f771c4b6f0c5965bbf809be8f180b425ef8e21c4329072591b0a5b
+    systems:
+      - type: linux
+    size: 4202182
+    type: archive
+    url: https://github.com/ardura/GladeDesk/releases/download/v1.0b/linux_build.zip
+  - architectures:
+      - bit64
+    contains:
+      - clap
+      - vst3
+    format: zip
+    sha256: 6826402798eb3c0d5ce87355910da1a0057e95e9cb2b0922d73efdad23853ff5
+    systems:
+      - type: mac
+    size: 3703002
+    type: archive
+    url: https://github.com/ardura/GladeDesk/releases/download/v1.0b/macos_build.zip
+  - architectures:
+      - bit64
+    contains:
+      - clap
+      - vst3
+    format: zip
+    sha256: 7dfcef988b16c86e3cd4502434614a443da339861512ec270e7c8eeaf7b3db93
+    systems:
+      - type: win
+    size: 3451574
+    type: archive
+    url: https://github.com/ardura/GladeDesk/releases/download/v1.0b/windows_build.zip
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ardura/gladedesk/gladedesk.jpg
+license: gpl-3.0
+name: Glade Desk
+tags:
+  - Effect
+  - Console
+  - Emulation
+type: effect
+url: https://github.com/ardura/GladeDesk
