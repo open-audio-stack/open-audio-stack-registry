@@ -1,0 +1,94 @@
+{
+  "audio": "",
+  "author": "Ardura",
+  "changes": "- New build files for better organization\n",
+  "date": "2024-07-12T07:00:00.000Z",
+  "description": "A simple scrolling oscilloscope in rust with multichannel inputs and an analyzer.",
+  "files": [
+    {
+      "architectures": [
+        "bit64"
+      ],
+      "contains": [
+        "clap",
+        "vst3"
+      ],
+      "format": "zip",
+      "sha256": "34625e3d01997b97423f5747c1ea98c1a10192bb7401efc27f91cbd9781536ac",
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "size": 3822972,
+      "type": "archive",
+      "url": "https://github.com/ardura/Interleaf/releases/download/v1.0/linux_build.zip"
+    },
+    {
+      "architectures": [
+        "bit64"
+      ],
+      "contains": [
+        "clap",
+        "vst3"
+      ],
+      "format": "zip",
+      "sha256": "87cad013d0bef30d71cef53d7661e2cdc3c9a8b8bca0bf04bba601889b0d4636",
+      "systems": [
+        {
+          "type": "mac"
+        }
+      ],
+      "size": 3481740,
+      "type": "archive",
+      "url": "https://github.com/ardura/Interleaf/releases/download/v1.0/macos_build.zip"
+    },
+    {
+      "architectures": [
+        "arm64"
+      ],
+      "contains": [
+        "clap",
+        "vst3"
+      ],
+      "format": "zip",
+      "sha256": "cb7d80351b1d934f4829a032b36cf31018e93aac450202a2c62b32e53243abf5",
+      "systems": [
+        {
+          "type": "mac"
+        }
+      ],
+      "size": 3365550,
+      "type": "archive",
+      "url": "https://github.com/ardura/Interleaf/releases/download/v1.0/macos_m1_build.zip"
+    },
+    {
+      "architectures": [
+        "bit64"
+      ],
+      "contains": [
+        "clap",
+        "vst3"
+      ],
+      "format": "zip",
+      "sha256": "266e468aa210c064ee072e81b570e675fff2a00c409264750b3b89124d642fd3",
+      "systems": [
+        {
+          "type": "win"
+        }
+      ],
+      "size": 3194614,
+      "type": "archive",
+      "url": "https://github.com/ardura/Interleaf/releases/download/v1.0/windows_build.zip"
+    }
+  ],
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ardura/interleaf/interleaf.jpg",
+  "license": "gpl-3.0",
+  "name": "Interleaf",
+  "tags": [
+    "Effect",
+    "EQ"
+  ],
+  "type": "effect",
+  "url": "https://github.com/ardura/Interleaf"
+}

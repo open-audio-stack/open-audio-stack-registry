@@ -1,0 +1,470 @@
+{
+  "ardura/subhoofer": {
+    "slug": "ardura/subhoofer",
+    "version": "2.2.2",
+    "versions": {
+      "2.2.2": {
+        "audio": "",
+        "author": "Ardura",
+        "changes": "- Stereo view\n- Bug fixes\n",
+        "date": "2024-08-02T07:00:00.000Z",
+        "description": "Sub and Bass enhancement plugin.",
+        "files": [
+          {
+            "architectures": [
+              "bit64"
+            ],
+            "contains": [
+              "clap",
+              "vst3"
+            ],
+            "format": "zip",
+            "sha256": "402c4b762546f679a5e285d2620891daf85eb3e0b2d19755727e508245414856",
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "size": 5916842,
+            "type": "archive",
+            "url": "https://github.com/ardura/Subhoofer/releases/download/v2.2.2/Subhoofer_v222_Linux.zip"
+          },
+          {
+            "architectures": [
+              "bit64"
+            ],
+            "contains": [
+              "clap",
+              "vst3"
+            ],
+            "format": "zip",
+            "sha256": "003338513913c9b5da3f8cf19b47bcce2bde3c1deb7a9eb0d7aef8d8186d6ab0",
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "size": 4009494,
+            "type": "archive",
+            "url": "https://github.com/ardura/Subhoofer/releases/download/v2.2.2/Subhoofer_v222_MacOS.zip"
+          },
+          {
+            "architectures": [
+              "bit64"
+            ],
+            "contains": [
+              "clap",
+              "vst3"
+            ],
+            "format": "zip",
+            "sha256": "65bc36508f9475d685a8845fd245230ae1ccafcccc7e0e9b85ecbfc874f7dc48",
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "size": 3456424,
+            "type": "archive",
+            "url": "https://github.com/ardura/Subhoofer/releases/download/v2.2.2/Subhoofer_v222_Windows.zip"
+          }
+        ],
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ardura/subhoofer/subhoofer.jpg",
+        "license": "gpl-3.0",
+        "name": "Subhoofer",
+        "tags": [
+          "Effect",
+          "Distortion"
+        ],
+        "type": "effect",
+        "url": "https://github.com/ardura/Subhoofer"
+      }
+    }
+  },
+  "ardura/scrollscope": {
+    "slug": "ardura/scrollscope",
+    "version": "1.4.1",
+    "versions": {
+      "1.4.1": {
+        "audio": "",
+        "author": "Ardura",
+        "changes": "- Stereo view\n- Bug fixes\n",
+        "date": "2024-07-12T07:00:00.000Z",
+        "description": "A simple scrolling oscilloscope in rust with multichannel inputs and an analyzer.",
+        "files": [
+          {
+            "architectures": [
+              "bit64"
+            ],
+            "contains": [
+              "clap",
+              "elf",
+              "vst3"
+            ],
+            "format": "zip",
+            "sha256": "47ebe88500fb90f501f2d07e02e0aaa45fb3eb43536df0a976ffd8a42cf10eda",
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "size": 7528497,
+            "type": "archive",
+            "url": "https://github.com/ardura/Scrollscope/releases/download/v1.4.1/Scrollscope_v141_linux_build.zip"
+          },
+          {
+            "architectures": [
+              "bit64"
+            ],
+            "contains": [
+              "app",
+              "clap",
+              "vst3"
+            ],
+            "format": "zip",
+            "sha256": "59d859fbad34a83ecdca387116299f9aed32f5f641e74a80e0b93e249c38e9fe",
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "size": 6925944,
+            "type": "archive",
+            "url": "https://github.com/ardura/Scrollscope/releases/download/v1.4.1/Scrollscope_v141_macos_build.zip"
+          },
+          {
+            "architectures": [
+              "arm64"
+            ],
+            "contains": [
+              "app",
+              "clap",
+              "vst3"
+            ],
+            "format": "zip",
+            "sha256": "36a8c5b9daceeafbbeacd598e6fba6baaf5e0e8a3372ef1d6110d627c8902b19",
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "size": 6413946,
+            "type": "archive",
+            "url": "https://github.com/ardura/Scrollscope/releases/download/v1.4.1/Scrollscope_v141_macos_m1_build.zip"
+          },
+          {
+            "architectures": [
+              "bit64"
+            ],
+            "contains": [
+              "clap",
+              "exe",
+              "vst3"
+            ],
+            "format": "zip",
+            "sha256": "eae4bb316379f1094c716c02b78aefb2d58153bb24314e453d72cf34a1d6d3ce",
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "size": 6749313,
+            "type": "archive",
+            "url": "https://github.com/ardura/Scrollscope/releases/download/v1.4.1/Scrollscope_v141_windows_build.zip"
+          }
+        ],
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ardura/scrollscope/scrollscope.jpg",
+        "license": "gpl-3.0",
+        "name": "Scrollscope",
+        "tags": [
+          "Effect",
+          "Analysis"
+        ],
+        "type": "effect",
+        "url": "https://github.com/ardura/Scrollscope"
+      }
+    }
+  },
+  "ardura/interleaf": {
+    "slug": "ardura/interleaf",
+    "version": "1.0.0",
+    "versions": {
+      "1.0.0": {
+        "audio": "",
+        "author": "Ardura",
+        "changes": "- New build files for better organization\n",
+        "date": "2024-07-12T07:00:00.000Z",
+        "description": "A simple scrolling oscilloscope in rust with multichannel inputs and an analyzer.",
+        "files": [
+          {
+            "architectures": [
+              "bit64"
+            ],
+            "contains": [
+              "clap",
+              "vst3"
+            ],
+            "format": "zip",
+            "sha256": "34625e3d01997b97423f5747c1ea98c1a10192bb7401efc27f91cbd9781536ac",
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "size": 3822972,
+            "type": "archive",
+            "url": "https://github.com/ardura/Interleaf/releases/download/v1.0/linux_build.zip"
+          },
+          {
+            "architectures": [
+              "bit64"
+            ],
+            "contains": [
+              "clap",
+              "vst3"
+            ],
+            "format": "zip",
+            "sha256": "87cad013d0bef30d71cef53d7661e2cdc3c9a8b8bca0bf04bba601889b0d4636",
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "size": 3481740,
+            "type": "archive",
+            "url": "https://github.com/ardura/Interleaf/releases/download/v1.0/macos_build.zip"
+          },
+          {
+            "architectures": [
+              "arm64"
+            ],
+            "contains": [
+              "clap",
+              "vst3"
+            ],
+            "format": "zip",
+            "sha256": "cb7d80351b1d934f4829a032b36cf31018e93aac450202a2c62b32e53243abf5",
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "size": 3365550,
+            "type": "archive",
+            "url": "https://github.com/ardura/Interleaf/releases/download/v1.0/macos_m1_build.zip"
+          },
+          {
+            "architectures": [
+              "bit64"
+            ],
+            "contains": [
+              "clap",
+              "vst3"
+            ],
+            "format": "zip",
+            "sha256": "266e468aa210c064ee072e81b570e675fff2a00c409264750b3b89124d642fd3",
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "size": 3194614,
+            "type": "archive",
+            "url": "https://github.com/ardura/Interleaf/releases/download/v1.0/windows_build.zip"
+          }
+        ],
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ardura/interleaf/interleaf.jpg",
+        "license": "gpl-3.0",
+        "name": "Interleaf",
+        "tags": [
+          "Effect",
+          "EQ"
+        ],
+        "type": "effect",
+        "url": "https://github.com/ardura/Interleaf"
+      }
+    }
+  },
+  "ardura/gladedesk": {
+    "slug": "ardura/gladedesk",
+    "version": "1.0.0",
+    "versions": {
+      "1.0.0": {
+        "audio": "",
+        "author": "Ardura",
+        "changes": "- Slight gui change\n",
+        "date": "2024-07-19T07:00:00.000Z",
+        "description": "Custom Console Idea.",
+        "files": [
+          {
+            "architectures": [
+              "bit64"
+            ],
+            "contains": [
+              "clap",
+              "vst3"
+            ],
+            "format": "zip",
+            "sha256": "1e73f80619f771c4b6f0c5965bbf809be8f180b425ef8e21c4329072591b0a5b",
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "size": 4202182,
+            "type": "archive",
+            "url": "https://github.com/ardura/GladeDesk/releases/download/v1.0b/linux_build.zip"
+          },
+          {
+            "architectures": [
+              "bit64"
+            ],
+            "contains": [
+              "clap",
+              "vst3"
+            ],
+            "format": "zip",
+            "sha256": "6826402798eb3c0d5ce87355910da1a0057e95e9cb2b0922d73efdad23853ff5",
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "size": 3703002,
+            "type": "archive",
+            "url": "https://github.com/ardura/GladeDesk/releases/download/v1.0b/macos_build.zip"
+          },
+          {
+            "architectures": [
+              "bit64"
+            ],
+            "contains": [
+              "clap",
+              "vst3"
+            ],
+            "format": "zip",
+            "sha256": "7dfcef988b16c86e3cd4502434614a443da339861512ec270e7c8eeaf7b3db93",
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "size": 3451574,
+            "type": "archive",
+            "url": "https://github.com/ardura/GladeDesk/releases/download/v1.0b/windows_build.zip"
+          }
+        ],
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ardura/gladedesk/gladedesk.jpg",
+        "license": "gpl-3.0",
+        "name": "Glade Desk",
+        "tags": [
+          "Effect",
+          "Console",
+          "Emulation"
+        ],
+        "type": "effect",
+        "url": "https://github.com/ardura/GladeDesk"
+      }
+    }
+  },
+  "ardura/actuate": {
+    "slug": "ardura/actuate",
+    "version": "1.3.5",
+    "versions": {
+      "1.3.5": {
+        "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ardura/actuate/actuate.flac",
+        "author": "Ardura",
+        "changes": "- Polyfilter update now works on additive, sampler, and granular sources\n- Tilt filter was rewritten to have less crashes/bugs\n- VCF Filter instability was fixed with some more safety and balancing changes\n- New preset browser and format\n",
+        "date": "2024-07-12T07:00:00.000Z",
+        "description": "A Subtractive and Additive Synthesizer, Sampler, and Granulizer built in Rust + Nih-Plug.",
+        "files": [
+          {
+            "architectures": [
+              "bit64"
+            ],
+            "contains": [
+              "clap",
+              "vst3"
+            ],
+            "format": "zip",
+            "sha256": "e3896662d270f685b2bbfa34ee129d5afcae649e4c2d05ed6016d9d3d11ddbe3",
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "size": 8369198,
+            "type": "archive",
+            "url": "https://github.com/ardura/Actuate/releases/download/v1.3.5/Actuate_v135_linux_build.zip"
+          },
+          {
+            "architectures": [
+              "bit64"
+            ],
+            "contains": [
+              "clap",
+              "vst3"
+            ],
+            "format": "zip",
+            "sha256": "e0b58f4f2dab0ce8465d39ef69af511966d1ff0e8de9296e111b339eb5db287c",
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "size": 6125534,
+            "type": "archive",
+            "url": "https://github.com/ardura/Actuate/releases/download/v1.3.5/Actuate_v135_macos_build.zip"
+          },
+          {
+            "architectures": [
+              "arm64"
+            ],
+            "contains": [
+              "clap",
+              "vst3"
+            ],
+            "format": "zip",
+            "sha256": "165186e53fc8821d292f353cb29109bd55c22164899480188918d52325cb08a5",
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "size": 5670254,
+            "type": "archive",
+            "url": "https://github.com/ardura/Actuate/releases/download/v1.3.5/Actuate_v135_macos_m1_build.zip"
+          },
+          {
+            "architectures": [
+              "bit64"
+            ],
+            "contains": [
+              "clap",
+              "vst3"
+            ],
+            "format": "zip",
+            "sha256": "6b142ca979507d61821347ca58bdacae6def9677e463db92dfe61b45cf970a1e",
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "size": 5573640,
+            "type": "archive",
+            "url": "https://github.com/ardura/Actuate/releases/download/v1.3.5/Actuate_v135_windows_build.zip"
+          }
+        ],
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ardura/actuate/actuate.jpg",
+        "license": "gpl-3.0",
+        "name": "Actuate",
+        "tags": [
+          "Instrument",
+          "Synth",
+          "Sampler"
+        ],
+        "type": "effect",
+        "url": "https://github.com/ardura/Actuate"
+      }
+    }
+  }
+}
