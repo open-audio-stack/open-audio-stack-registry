@@ -44,13 +44,14 @@ logReport(`${pkgSlug} | ${pkgVersion} | ${filePath}`, errors, recs);
 for (const type in pkgFile.files) {
   const file: PluginFile | PresetFile | ProjectFile = pkgFile.files[type];
   const fileName: string = path.basename(file.url);
-  const fileLocalPath: string = path.join(DIR_DOWNLOADS, fileName);
+  const fileLocalPath: string = path.join(DIR_DOWNLOADS, pkgSlug, pkgVersion, fileName);
 
   // Download file if it doesn't already exist
   // Downloads directory is scanned for viruses in the next GitHub Action
   if (!fileExists(fileLocalPath)) {
     const fileArrayBuffer: ArrayBuffer = await apiBuffer(file.url);
     const fileBuffer: Buffer = Buffer.from(fileArrayBuffer);
+    dirCreate(path.dirname(fileLocalPath));
     fileCreate(fileLocalPath, fileBuffer);
   }
 
