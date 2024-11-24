@@ -1,0 +1,89 @@
+{
+  "slug": "studiorack/avl-percussions",
+  "version": "1.1.0",
+  "versions": {
+    "1.1.0": {
+      "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/studiorack/avl-percussions/avl-percussions.flac",
+      "author": "Glen MacArthur",
+      "changes": "",
+      "date": "2022-02-21T07:00:00.000Z",
+      "description": "11 percussions instruments (Cajon, Woodblock, Handclap, Fingersnap, Bongos, Maracas, Tambourine, Cowbell, Claves, Waterglass) recorded with 5 velocity layers per piece.",
+      "files": [
+        {
+          "architectures": [
+            "arm32",
+            "arm64",
+            "bit32",
+            "bit64"
+          ],
+          "contains": [
+            "sfz"
+          ],
+          "format": "zip",
+          "sha256": "551f520342622d83bfbfe5f8a10785d8dad8351281e388014e96f66357f61b7c",
+          "systems": [
+            {
+              "type": "linux"
+            }
+          ],
+          "size": 1729446,
+          "type": "archive",
+          "url": "https://github.com/studiorack/avl-percussions/releases/download/v1.1.0/avl-percussions.zip"
+        },
+        {
+          "architectures": [
+            "arm32",
+            "arm64",
+            "bit32",
+            "bit64"
+          ],
+          "contains": [
+            "sfz"
+          ],
+          "format": "zip",
+          "sha256": "551f520342622d83bfbfe5f8a10785d8dad8351281e388014e96f66357f61b7c",
+          "systems": [
+            {
+              "type": "mac"
+            }
+          ],
+          "size": 1729446,
+          "type": "archive",
+          "url": "https://github.com/studiorack/avl-percussions/releases/download/v1.1.0/avl-percussions.zip"
+        },
+        {
+          "architectures": [
+            "arm32",
+            "arm64",
+            "bit32",
+            "bit64"
+          ],
+          "contains": [
+            "sfz"
+          ],
+          "format": "zip",
+          "sha256": "551f520342622d83bfbfe5f8a10785d8dad8351281e388014e96f66357f61b7c",
+          "systems": [
+            {
+              "type": "win"
+            }
+          ],
+          "size": 1729446,
+          "type": "archive",
+          "url": "https://github.com/studiorack/avl-percussions/releases/download/v1.1.0/avl-percussions.zip"
+        }
+      ],
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/studiorack/avl-percussions/avl-percussions.jpg",
+      "license": "cc-by-sa-4.0",
+      "name": "AVL Drumkits",
+      "tags": [
+        "Instrument",
+        "Drums",
+        "Percussions",
+        "sfz"
+      ],
+      "type": "sampler",
+      "url": "https://github.com/studiorack/avl-percussions"
+    }
+  }
+}
