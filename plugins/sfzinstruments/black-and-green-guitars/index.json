@@ -1,0 +1,89 @@
+{
+  "slug": "sfzinstruments/black-and-green-guitars",
+  "version": "1.0.0",
+  "versions": {
+    "1.0.0": {
+      "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/black-and-green-guitars/black-and-green-guitars.flac",
+      "author": "DSmolken",
+      "changes": "",
+      "date": "2022-08-08T07:00:00.000Z",
+      "description": "Black Hofner Club and Green Gretsch Anniversary electric guitars.",
+      "files": [
+        {
+          "architectures": [
+            "arm32",
+            "arm64",
+            "bit32",
+            "bit64"
+          ],
+          "contains": [
+            "sfz"
+          ],
+          "format": "zip",
+          "sha256": "69f29730c4af998e1e56486f4e8fa9c23b095669357c3d32dd9564d42d34d4c4",
+          "systems": [
+            {
+              "type": "linux"
+            }
+          ],
+          "size": 481838512,
+          "type": "archive",
+          "url": "https://github.com/sfzinstruments/karoryfer.black-and-green-guitars/releases/download/v1.000/Karoryfer_Black_And_Green_Guitars_1000.zip"
+        },
+        {
+          "architectures": [
+            "arm32",
+            "arm64",
+            "bit32",
+            "bit64"
+          ],
+          "contains": [
+            "sfz"
+          ],
+          "format": "zip",
+          "sha256": "69f29730c4af998e1e56486f4e8fa9c23b095669357c3d32dd9564d42d34d4c4",
+          "systems": [
+            {
+              "type": "mac"
+            }
+          ],
+          "size": 481838512,
+          "type": "archive",
+          "url": "https://github.com/sfzinstruments/karoryfer.black-and-green-guitars/releases/download/v1.000/Karoryfer_Black_And_Green_Guitars_1000.zip"
+        },
+        {
+          "architectures": [
+            "arm32",
+            "arm64",
+            "bit32",
+            "bit64"
+          ],
+          "contains": [
+            "sfz"
+          ],
+          "format": "zip",
+          "sha256": "69f29730c4af998e1e56486f4e8fa9c23b095669357c3d32dd9564d42d34d4c4",
+          "systems": [
+            {
+              "type": "win"
+            }
+          ],
+          "size": 481838512,
+          "type": "archive",
+          "url": "https://github.com/sfzinstruments/karoryfer.black-and-green-guitars/releases/download/v1.000/Karoryfer_Black_And_Green_Guitars_1000.zip"
+        }
+      ],
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/black-and-green-guitars/black-and-green-guitars.jpg",
+      "license": "cc0-1.0",
+      "name": "Black and Green Guitars",
+      "tags": [
+        "Instrument",
+        "Guitar",
+        "Electric",
+        "sfz"
+      ],
+      "type": "sampler",
+      "url": "https://github.com/sfzinstruments/karoryfer.black-and-green-guitars"
+    }
+  }
+}

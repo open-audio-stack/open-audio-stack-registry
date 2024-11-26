@@ -1,0 +1,83 @@
+{
+  "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/bear-sax/bear-sax.flac",
+  "author": "DSmolken",
+  "changes": "",
+  "date": "2021-09-11T07:00:00.000Z",
+  "description": "1926 Conn baritone saxophone including sustained notes and breath noise.",
+  "files": [
+    {
+      "architectures": [
+        "arm32",
+        "arm64",
+        "bit32",
+        "bit64"
+      ],
+      "contains": [
+        "sfz"
+      ],
+      "format": "zip",
+      "sha256": "c60396b64530172e6dd03f761cab2606a652666dbf7767b661b8e0da6bde993f",
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "size": 131505201,
+      "type": "archive",
+      "url": "https://github.com/sfzinstruments/karoryfer.bear-sax/releases/download/v1.004/Karoryfer.Bear_Sax.v1.004.zip"
+    },
+    {
+      "architectures": [
+        "arm32",
+        "arm64",
+        "bit32",
+        "bit64"
+      ],
+      "contains": [
+        "sfz"
+      ],
+      "format": "zip",
+      "sha256": "c60396b64530172e6dd03f761cab2606a652666dbf7767b661b8e0da6bde993f",
+      "systems": [
+        {
+          "type": "mac"
+        }
+      ],
+      "size": 131505201,
+      "type": "archive",
+      "url": "https://github.com/sfzinstruments/karoryfer.bear-sax/releases/download/v1.004/Karoryfer.Bear_Sax.v1.004.zip"
+    },
+    {
+      "architectures": [
+        "arm32",
+        "arm64",
+        "bit32",
+        "bit64"
+      ],
+      "contains": [
+        "sfz"
+      ],
+      "format": "zip",
+      "sha256": "c60396b64530172e6dd03f761cab2606a652666dbf7767b661b8e0da6bde993f",
+      "systems": [
+        {
+          "type": "win"
+        }
+      ],
+      "size": 131505201,
+      "type": "archive",
+      "url": "https://github.com/sfzinstruments/karoryfer.bear-sax/releases/download/v1.004/Karoryfer.Bear_Sax.v1.004.zip"
+    }
+  ],
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/bear-sax/bear-sax.jpg",
+  "license": "cc0-1.0",
+  "name": "Bear Sax",
+  "tags": [
+    "Instrument",
+    "Brass",
+    "Saxophone",
+    "sfz"
+  ],
+  "type": "sampler",
+  "url": "https://github.com/sfzinstruments/karoryfer.bear-sax"
+}

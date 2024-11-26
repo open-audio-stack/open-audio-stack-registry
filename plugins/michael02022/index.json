@@ -1,0 +1,91 @@
+{
+  "michael02022/basic-harmonica": {
+    "slug": "michael02022/basic-harmonica",
+    "version": "1.0.0",
+    "versions": {
+      "1.0.0": {
+        "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/michael02022/basic-harmonica/basic-harmonica.flac",
+        "author": "michael02022",
+        "changes": "",
+        "date": "2022-10-07T07:00:00.000Z",
+        "description": "Basic harmonica.",
+        "files": [
+          {
+            "architectures": [
+              "arm32",
+              "arm64",
+              "bit32",
+              "bit64"
+            ],
+            "contains": [
+              "sfz"
+            ],
+            "format": "zip",
+            "sha256": "486044b6b16eeb86f5d27df60f472e72a806b0b7aa8871a813a0f3c6f01d7083",
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "size": 1019941,
+            "type": "archive",
+            "url": "https://github.com/michael02022/basic-harmonica/archive/refs/heads/main.zip"
+          },
+          {
+            "architectures": [
+              "arm32",
+              "arm64",
+              "bit32",
+              "bit64"
+            ],
+            "contains": [
+              "sfz"
+            ],
+            "format": "zip",
+            "sha256": "486044b6b16eeb86f5d27df60f472e72a806b0b7aa8871a813a0f3c6f01d7083",
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "size": 1019941,
+            "type": "archive",
+            "url": "https://github.com/michael02022/basic-harmonica/archive/refs/heads/main.zip"
+          },
+          {
+            "architectures": [
+              "arm32",
+              "arm64",
+              "bit32",
+              "bit64"
+            ],
+            "contains": [
+              "sfz"
+            ],
+            "format": "zip",
+            "sha256": "486044b6b16eeb86f5d27df60f472e72a806b0b7aa8871a813a0f3c6f01d7083",
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "size": 1019941,
+            "type": "archive",
+            "url": "https://github.com/michael02022/basic-harmonica/archive/refs/heads/main.zip"
+          }
+        ],
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/michael02022/basic-harmonica/basic-harmonica.jpg",
+        "license": "cc0-1.0",
+        "name": "Basic Harmonica",
+        "tags": [
+          "Instrument",
+          "Wind",
+          "Harmonica",
+          "sfz"
+        ],
+        "type": "sampler",
+        "url": "https://github.com/michael02022/basic-harmonica"
+      }
+    }
+  }
+}
