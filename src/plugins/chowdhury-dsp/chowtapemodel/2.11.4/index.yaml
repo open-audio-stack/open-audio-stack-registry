@@ -7,7 +7,7 @@ date: '2023-11-05T07:00:00.000Z'
 description: Chow Tape Model is a digital emulation of a reel-to-reel analog tape machine. The original algorithm was developed to emulate the Sony TC-260, but has since been expanded to be able to model a wide variety of tape machines.
 files:
   - architectures:
-      - bit64
+      - x64
     contains:
       - elf
       - lv2
@@ -21,7 +21,7 @@ files:
     type: archive
     url: https://github.com/jatinchowdhury18/AnalogTapeModel/releases/download/v2.11.4/ChowTapeModel-Linux-x64-2.11.4.deb
   - architectures:
-      - bit64
+      - x64
     contains:
       - aax
       - app
@@ -36,7 +36,7 @@ files:
     type: archive
     url: https://github.com/jatinchowdhury18/AnalogTapeModel/releases/download/v2.11.4/ChowTapeModel-Mac-2.11.4.dmg
   - architectures:
-      - bit64
+      - x64
     contains:
       - dll
       - exe

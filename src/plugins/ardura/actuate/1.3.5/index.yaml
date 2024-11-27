@@ -10,7 +10,7 @@ date: '2024-07-12T07:00:00.000Z'
 description: A Subtractive and Additive Synthesizer, Sampler, and Granulizer built in Rust + Nih-Plug.
 files:
   - architectures:
-      - bit64
+      - x64
     contains:
       - clap
       - vst3
@@ -22,7 +22,7 @@ files:
     type: archive
     url: https://github.com/ardura/Actuate/releases/download/v1.3.5/Actuate_v135_linux_build.zip
   - architectures:
-      - bit64
+      - x64
     contains:
       - clap
       - vst3
@@ -46,7 +46,7 @@ files:
     type: archive
     url: https://github.com/ardura/Actuate/releases/download/v1.3.5/Actuate_v135_macos_m1_build.zip
   - architectures:
-      - bit64
+      - x64
     contains:
       - clap
       - vst3

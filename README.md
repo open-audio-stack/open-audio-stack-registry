@@ -47,7 +47,7 @@ if you miss or enter incorrect information, your package will not be included in
       like MPE and microtuning.
     files:
       - architectures:
-          - bit64
+          - x64
         contains:
           - elf
           - clap

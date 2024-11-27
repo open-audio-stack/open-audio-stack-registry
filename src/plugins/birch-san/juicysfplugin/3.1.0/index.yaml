@@ -10,7 +10,7 @@ date: '2022-02-13T07:00:00.000Z'
 description: SoundFont synthesizer for playing General Midi music using sf2 files.
 files:
   - architectures:
-      - bit64
+      - x64
     contains:
       - app
       - component
@@ -24,7 +24,7 @@ files:
     type: archive
     url: https://github.com/Birch-san/juicysfplugin/releases/download/3.1.0/juicysfplugin-3.1.0-macOS.tar.xz
   - architectures:
-      - bit64
+      - x64
     contains:
       - dll
       - exe

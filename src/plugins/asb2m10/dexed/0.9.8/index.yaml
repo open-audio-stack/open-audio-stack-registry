@@ -14,7 +14,7 @@ date: '2024-10-08T07:00:00.000Z'
 description: Synthesizer closely modeled on the Yamaha DX7.
 files:
   - architectures:
-      - bit64
+      - x64
     contains:
       - elf
       - clap
@@ -27,7 +27,7 @@ files:
     type: archive
     url: https://github.com/asb2m10/dexed/releases/download/v0.9.8/dexed-0.9.8-lnx.zip
   - architectures:
-      - bit64
+      - x64
     contains:
       - app
       - clap
@@ -41,7 +41,7 @@ files:
     type: archive
     url: https://github.com/asb2m10/dexed/releases/download/v0.9.8/dexed-0.9.8-macos.zip
   - architectures:
-      - bit64
+      - x64
     contains:
       - exe
       - clap
