@@ -2463,7 +2463,7 @@
     "versions": {
       "1.7.0": {
         "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/distrho/dpf-plugins/dpf-plugins.flac",
-        "author": "Chowdhury DSP",
+        "author": "Filipe Coelho",
         "changes": "- Fix build with clang on non-macOS systems\n- Fix CLAP plugins not saving state under Bitwig\n- Fix Nekobi tuning parameter\n",
         "date": "2023-04-15T07:00:00.000Z",
         "description": "Collection of DPF-based plugin effects.",
