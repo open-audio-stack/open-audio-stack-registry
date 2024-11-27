@@ -1,6 +1,6 @@
 ---
 audio: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/distrho/dpf-plugins/dpf-plugins.flac
-author: Chowdhury DSP
+author: Filipe Coelho
 changes: |
   - Fix build with clang on non-macOS systems
   - Fix CLAP plugins not saving state under Bitwig
