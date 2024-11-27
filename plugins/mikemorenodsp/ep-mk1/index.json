@@ -11,7 +11,7 @@
       "files": [
         {
           "architectures": [
-            "bit64"
+            "x64"
           ],
           "contains": [
             "elf",
@@ -30,7 +30,7 @@
         },
         {
           "architectures": [
-            "bit64"
+            "x64"
           ],
           "contains": [
             "vst",
@@ -49,7 +49,7 @@
         },
         {
           "architectures": [
-            "bit64"
+            "x64"
           ],
           "contains": [
             "dll",

@@ -7,7 +7,7 @@
   "files": [
     {
       "architectures": [
-        "bit64"
+        "x64"
       ],
       "contains": [
         "elf",
@@ -28,7 +28,7 @@
     },
     {
       "architectures": [
-        "bit64"
+        "x64"
       ],
       "contains": [
         "aax",
@@ -50,7 +50,7 @@
     },
     {
       "architectures": [
-        "bit64"
+        "x64"
       ],
       "contains": [
         "dll",

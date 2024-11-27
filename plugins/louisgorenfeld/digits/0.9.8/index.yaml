@@ -13,7 +13,7 @@ date: '2019-09-19T07:00:00.000Z'
 description: Phase distortion synthesizer inspired by Casio's CZ series but takes that form of synthesis to the limit. Create warm pads, glitchy sounds, dirty basses, filthy sweeps, screaming leads, and anything in-between.
 files:
   - architectures:
-      - bit64
+      - x64
     contains:
       - so
     format: tar.gz
@@ -24,7 +24,7 @@ files:
     type: archive
     url: http://www.extentofthejam.com/DigitsLinux_2_1.tar.gz
   - architectures:
-      - bit64
+      - x64
     contains:
       - vst
     format: zip
@@ -35,7 +35,7 @@ files:
     type: archive
     url: http://www.extentofthejam.com/DigitsMac_2_1.zip
   - architectures:
-      - bit64
+      - x64
     contains:
       - dll
     format: exe

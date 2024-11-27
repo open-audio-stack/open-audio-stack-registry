@@ -11,7 +11,7 @@
       "files": [
         {
           "architectures": [
-            "bit64"
+            "x64"
           ],
           "contains": [
             "lv2",
@@ -31,7 +31,7 @@
         {
           "architectures": [
             "arm64",
-            "bit64"
+            "x64"
           ],
           "contains": [
             "component",
@@ -51,7 +51,7 @@
         },
         {
           "architectures": [
-            "bit64"
+            "x64"
           ],
           "contains": [
             "dll",

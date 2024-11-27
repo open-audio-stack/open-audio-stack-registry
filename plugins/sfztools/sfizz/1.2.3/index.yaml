@@ -19,7 +19,7 @@ date: '2024-01-14T00:00:00.000Z'
 description: SFZ parser and synth c++ library, providing AU / LV2 / VST3 plugins and JACK standalone client.
 files:
   - architectures:
-      - bit64
+      - x64
     contains:
       - lv2
       - vst3
@@ -32,7 +32,7 @@ files:
     url: https://github.com/sfztools/sfizz-ui/releases/download/1.2.3/sfizz-1.2.3.tar.gz
   - architectures:
       - arm64
-      - bit64
+      - x64
     contains:
       - component
       - lv2
@@ -45,7 +45,7 @@ files:
     type: installer
     url: https://github.com/sfztools/sfizz/releases/download/1.2.3/sfizz-1.2.3-macos.tar.gz
   - architectures:
-      - bit64
+      - x64
     contains:
       - dll
       - vst3

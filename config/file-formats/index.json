@@ -43,5 +43,10 @@
     "description": "Widely-used compressed file format compatible with many operating systems.",
     "value": "zip",
     "name": "Zip"
+  },
+  {
+    "description": "Archive file format which compresses files and folders into a single file.",
+    "value": "7z",
+    "name": "7-Zip"
   }
 ]

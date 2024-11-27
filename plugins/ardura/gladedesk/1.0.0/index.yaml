@@ -7,7 +7,7 @@ date: '2024-07-19T07:00:00.000Z'
 description: Custom Console Idea.
 files:
   - architectures:
-      - bit64
+      - x64
     contains:
       - clap
       - vst3
@@ -19,7 +19,7 @@ files:
     type: archive
     url: https://github.com/ardura/GladeDesk/releases/download/v1.0b/linux_build.zip
   - architectures:
-      - bit64
+      - x64
     contains:
       - clap
       - vst3
@@ -31,7 +31,7 @@ files:
     type: archive
     url: https://github.com/ardura/GladeDesk/releases/download/v1.0b/macos_build.zip
   - architectures:
-      - bit64
+      - x64
     contains:
       - clap
       - vst3

@@ -12,7 +12,7 @@
         "files": [
           {
             "architectures": [
-              "bit64"
+              "x64"
             ],
             "contains": [
               "elf",
@@ -34,7 +34,7 @@
           {
             "architectures": [
               "arm64",
-              "bit64"
+              "x64"
             ],
             "contains": [
               "app",
@@ -55,7 +55,7 @@
           },
           {
             "architectures": [
-              "bit64"
+              "x64"
             ],
             "contains": [
               "exe",
@@ -94,7 +94,7 @@
         "files": [
           {
             "architectures": [
-              "bit64"
+              "x64"
             ],
             "contains": [
               "elf",
@@ -116,7 +116,7 @@
           {
             "architectures": [
               "arm64",
-              "bit64"
+              "x64"
             ],
             "contains": [
               "app",
@@ -137,7 +137,7 @@
           },
           {
             "architectures": [
-              "bit64"
+              "x64"
             ],
             "contains": [
               "exe",
@@ -184,8 +184,8 @@
             "architectures": [
               "arm32",
               "arm64",
-              "bit32",
-              "bit64"
+              "x32",
+              "x64"
             ],
             "contains": [
               "sfz"
@@ -205,8 +205,8 @@
             "architectures": [
               "arm32",
               "arm64",
-              "bit32",
-              "bit64"
+              "x32",
+              "x64"
             ],
             "contains": [
               "sfz"
@@ -226,8 +226,8 @@
             "architectures": [
               "arm32",
               "arm64",
-              "bit32",
-              "bit64"
+              "x32",
+              "x64"
             ],
             "contains": [
               "sfz"
@@ -273,8 +273,8 @@
             "architectures": [
               "arm32",
               "arm64",
-              "bit32",
-              "bit64"
+              "x32",
+              "x64"
             ],
             "contains": [
               "sfz"
@@ -294,8 +294,8 @@
             "architectures": [
               "arm32",
               "arm64",
-              "bit32",
-              "bit64"
+              "x32",
+              "x64"
             ],
             "contains": [
               "sfz"
@@ -315,8 +315,8 @@
             "architectures": [
               "arm32",
               "arm64",
-              "bit32",
-              "bit64"
+              "x32",
+              "x64"
             ],
             "contains": [
               "sfz"
@@ -359,7 +359,7 @@
         "files": [
           {
             "architectures": [
-              "bit64"
+              "x64"
             ],
             "contains": [
               "lv2",
@@ -379,7 +379,7 @@
           {
             "architectures": [
               "arm64",
-              "bit64"
+              "x64"
             ],
             "contains": [
               "component",
@@ -399,7 +399,7 @@
           },
           {
             "architectures": [
-              "bit64"
+              "x64"
             ],
             "contains": [
               "dll",
@@ -445,8 +445,8 @@
             "architectures": [
               "arm32",
               "arm64",
-              "bit32",
-              "bit64"
+              "x32",
+              "x64"
             ],
             "contains": [
               "sfz"
@@ -466,8 +466,8 @@
             "architectures": [
               "arm32",
               "arm64",
-              "bit32",
-              "bit64"
+              "x32",
+              "x64"
             ],
             "contains": [
               "sfz"
@@ -487,8 +487,8 @@
             "architectures": [
               "arm32",
               "arm64",
-              "bit32",
-              "bit64"
+              "x32",
+              "x64"
             ],
             "contains": [
               "sfz"
@@ -534,8 +534,8 @@
             "architectures": [
               "arm32",
               "arm64",
-              "bit32",
-              "bit64"
+              "x32",
+              "x64"
             ],
             "contains": [
               "sfz"
@@ -555,8 +555,8 @@
             "architectures": [
               "arm32",
               "arm64",
-              "bit32",
-              "bit64"
+              "x32",
+              "x64"
             ],
             "contains": [
               "sfz"
@@ -576,8 +576,8 @@
             "architectures": [
               "arm32",
               "arm64",
-              "bit32",
-              "bit64"
+              "x32",
+              "x64"
             ],
             "contains": [
               "sfz"
@@ -623,8 +623,8 @@
             "architectures": [
               "arm32",
               "arm64",
-              "bit32",
-              "bit64"
+              "x32",
+              "x64"
             ],
             "contains": [
               "sfz"
@@ -644,8 +644,8 @@
             "architectures": [
               "arm32",
               "arm64",
-              "bit32",
-              "bit64"
+              "x32",
+              "x64"
             ],
             "contains": [
               "sfz"
@@ -665,8 +665,8 @@
             "architectures": [
               "arm32",
               "arm64",
-              "bit32",
-              "bit64"
+              "x32",
+              "x64"
             ],
             "contains": [
               "sfz"
@@ -712,8 +712,8 @@
             "architectures": [
               "arm32",
               "arm64",
-              "bit32",
-              "bit64"
+              "x32",
+              "x64"
             ],
             "contains": [
               "sfz"
@@ -733,8 +733,8 @@
             "architectures": [
               "arm32",
               "arm64",
-              "bit32",
-              "bit64"
+              "x32",
+              "x64"
             ],
             "contains": [
               "sfz"
@@ -754,8 +754,8 @@
             "architectures": [
               "arm32",
               "arm64",
-              "bit32",
-              "bit64"
+              "x32",
+              "x64"
             ],
             "contains": [
               "sfz"
@@ -801,8 +801,8 @@
             "architectures": [
               "arm32",
               "arm64",
-              "bit32",
-              "bit64"
+              "x32",
+              "x64"
             ],
             "contains": [
               "sfz"
@@ -822,8 +822,8 @@
             "architectures": [
               "arm32",
               "arm64",
-              "bit32",
-              "bit64"
+              "x32",
+              "x64"
             ],
             "contains": [
               "sfz"
@@ -843,8 +843,8 @@
             "architectures": [
               "arm32",
               "arm64",
-              "bit32",
-              "bit64"
+              "x32",
+              "x64"
             ],
             "contains": [
               "sfz"
@@ -890,8 +890,8 @@
             "architectures": [
               "arm32",
               "arm64",
-              "bit32",
-              "bit64"
+              "x32",
+              "x64"
             ],
             "contains": [
               "sfz"
@@ -911,8 +911,8 @@
             "architectures": [
               "arm32",
               "arm64",
-              "bit32",
-              "bit64"
+              "x32",
+              "x64"
             ],
             "contains": [
               "sfz"
@@ -932,8 +932,8 @@
             "architectures": [
               "arm32",
               "arm64",
-              "bit32",
-              "bit64"
+              "x32",
+              "x64"
             ],
             "contains": [
               "sfz"
@@ -979,8 +979,8 @@
             "architectures": [
               "arm32",
               "arm64",
-              "bit32",
-              "bit64"
+              "x32",
+              "x64"
             ],
             "contains": [
               "sfz"
@@ -1000,8 +1000,8 @@
             "architectures": [
               "arm32",
               "arm64",
-              "bit32",
-              "bit64"
+              "x32",
+              "x64"
             ],
             "contains": [
               "sfz"
@@ -1021,8 +1021,8 @@
             "architectures": [
               "arm32",
               "arm64",
-              "bit32",
-              "bit64"
+              "x32",
+              "x64"
             ],
             "contains": [
               "sfz"
@@ -1068,8 +1068,8 @@
             "architectures": [
               "arm32",
               "arm64",
-              "bit32",
-              "bit64"
+              "x32",
+              "x64"
             ],
             "contains": [
               "sfz"
@@ -1089,8 +1089,8 @@
             "architectures": [
               "arm32",
               "arm64",
-              "bit32",
-              "bit64"
+              "x32",
+              "x64"
             ],
             "contains": [
               "sfz"
@@ -1110,8 +1110,8 @@
             "architectures": [
               "arm32",
               "arm64",
-              "bit32",
-              "bit64"
+              "x32",
+              "x64"
             ],
             "contains": [
               "sfz"
@@ -1157,8 +1157,8 @@
             "architectures": [
               "arm32",
               "arm64",
-              "bit32",
-              "bit64"
+              "x32",
+              "x64"
             ],
             "contains": [
               "sfz"
@@ -1178,8 +1178,8 @@
             "architectures": [
               "arm32",
               "arm64",
-              "bit32",
-              "bit64"
+              "x32",
+              "x64"
             ],
             "contains": [
               "sfz"
@@ -1199,8 +1199,8 @@
             "architectures": [
               "arm32",
               "arm64",
-              "bit32",
-              "bit64"
+              "x32",
+              "x64"
             ],
             "contains": [
               "sfz"
@@ -1244,7 +1244,7 @@
         "files": [
           {
             "architectures": [
-              "bit64"
+              "x64"
             ],
             "contains": [
               "elf",
@@ -1264,7 +1264,7 @@
           },
           {
             "architectures": [
-              "bit64"
+              "x64"
             ],
             "contains": [
               "app",
@@ -1284,7 +1284,7 @@
           },
           {
             "architectures": [
-              "bit64"
+              "x64"
             ],
             "contains": [
               "dll",
@@ -1328,7 +1328,7 @@
         "files": [
           {
             "architectures": [
-              "bit64"
+              "x64"
             ],
             "contains": [
               "elf",
@@ -1347,7 +1347,7 @@
           },
           {
             "architectures": [
-              "bit64"
+              "x64"
             ],
             "contains": [
               "vst",
@@ -1366,7 +1366,7 @@
           },
           {
             "architectures": [
-              "bit64"
+              "x64"
             ],
             "contains": [
               "dll",
@@ -1433,7 +1433,7 @@
           },
           {
             "architectures": [
-              "bit64"
+              "x64"
             ],
             "contains": [
               "elf",
@@ -1456,7 +1456,7 @@
           {
             "architectures": [
               "arm64",
-              "bit64"
+              "x64"
             ],
             "contains": [
               "app",
@@ -1478,7 +1478,7 @@
           },
           {
             "architectures": [
-              "bit64"
+              "x64"
             ],
             "contains": [
               "clap",
@@ -1527,8 +1527,8 @@
             "architectures": [
               "arm32",
               "arm64",
-              "bit32",
-              "bit64"
+              "x32",
+              "x64"
             ],
             "contains": [
               "sfz"
@@ -1548,8 +1548,8 @@
             "architectures": [
               "arm32",
               "arm64",
-              "bit32",
-              "bit64"
+              "x32",
+              "x64"
             ],
             "contains": [
               "sfz"
@@ -1569,8 +1569,8 @@
             "architectures": [
               "arm32",
               "arm64",
-              "bit32",
-              "bit64"
+              "x32",
+              "x64"
             ],
             "contains": [
               "sfz"
@@ -1614,7 +1614,7 @@
         "files": [
           {
             "architectures": [
-              "bit64"
+              "x64"
             ],
             "contains": [
               "so"
@@ -1632,7 +1632,7 @@
           },
           {
             "architectures": [
-              "bit64"
+              "x64"
             ],
             "contains": [
               "vst"
@@ -1650,7 +1650,7 @@
           },
           {
             "architectures": [
-              "bit64"
+              "x64"
             ],
             "contains": [
               "dll"
@@ -1693,7 +1693,7 @@
         "files": [
           {
             "architectures": [
-              "bit64"
+              "x64"
             ],
             "contains": [
               "elf",
@@ -1714,7 +1714,7 @@
           {
             "architectures": [
               "arm64",
-              "bit64"
+              "x64"
             ],
             "contains": [
               "app",
@@ -1736,7 +1736,7 @@
           },
           {
             "architectures": [
-              "bit64"
+              "x64"
             ],
             "contains": [
               "dll",
@@ -1782,7 +1782,7 @@
         "files": [
           {
             "architectures": [
-              "bit64"
+              "x64"
             ],
             "contains": [
               "elf",
@@ -1803,7 +1803,7 @@
           {
             "architectures": [
               "arm64",
-              "bit64"
+              "x64"
             ],
             "contains": [
               "app",
@@ -1825,7 +1825,7 @@
           },
           {
             "architectures": [
-              "bit64"
+              "x64"
             ],
             "contains": [
               "dll",
@@ -1873,8 +1873,8 @@
             "architectures": [
               "arm32",
               "arm64",
-              "bit32",
-              "bit64"
+              "x32",
+              "x64"
             ],
             "contains": [
               "sfz"
@@ -1894,8 +1894,8 @@
             "architectures": [
               "arm32",
               "arm64",
-              "bit32",
-              "bit64"
+              "x32",
+              "x64"
             ],
             "contains": [
               "sfz"
@@ -1915,8 +1915,8 @@
             "architectures": [
               "arm32",
               "arm64",
-              "bit32",
-              "bit64"
+              "x32",
+              "x64"
             ],
             "contains": [
               "sfz"
@@ -1962,8 +1962,8 @@
             "architectures": [
               "arm32",
               "arm64",
-              "bit32",
-              "bit64"
+              "x32",
+              "x64"
             ],
             "contains": [
               "sfz"
@@ -1983,8 +1983,8 @@
             "architectures": [
               "arm32",
               "arm64",
-              "bit32",
-              "bit64"
+              "x32",
+              "x64"
             ],
             "contains": [
               "sfz"
@@ -2004,8 +2004,8 @@
             "architectures": [
               "arm32",
               "arm64",
-              "bit32",
-              "bit64"
+              "x32",
+              "x64"
             ],
             "contains": [
               "sfz"
@@ -2051,8 +2051,8 @@
             "architectures": [
               "arm32",
               "arm64",
-              "bit32",
-              "bit64"
+              "x32",
+              "x64"
             ],
             "contains": [
               "sfz"
@@ -2072,8 +2072,8 @@
             "architectures": [
               "arm32",
               "arm64",
-              "bit32",
-              "bit64"
+              "x32",
+              "x64"
             ],
             "contains": [
               "sfz"
@@ -2093,8 +2093,8 @@
             "architectures": [
               "arm32",
               "arm64",
-              "bit32",
-              "bit64"
+              "x32",
+              "x64"
             ],
             "contains": [
               "sfz"
@@ -2140,8 +2140,8 @@
             "architectures": [
               "arm32",
               "arm64",
-              "bit32",
-              "bit64"
+              "x32",
+              "x64"
             ],
             "contains": [
               "sfz"
@@ -2161,8 +2161,8 @@
             "architectures": [
               "arm32",
               "arm64",
-              "bit32",
-              "bit64"
+              "x32",
+              "x64"
             ],
             "contains": [
               "sfz"
@@ -2182,8 +2182,8 @@
             "architectures": [
               "arm32",
               "arm64",
-              "bit32",
-              "bit64"
+              "x32",
+              "x64"
             ],
             "contains": [
               "sfz"
@@ -2229,8 +2229,8 @@
             "architectures": [
               "arm32",
               "arm64",
-              "bit32",
-              "bit64"
+              "x32",
+              "x64"
             ],
             "contains": [
               "sfz"
@@ -2250,8 +2250,8 @@
             "architectures": [
               "arm32",
               "arm64",
-              "bit32",
-              "bit64"
+              "x32",
+              "x64"
             ],
             "contains": [
               "sfz"
@@ -2271,8 +2271,8 @@
             "architectures": [
               "arm32",
               "arm64",
-              "bit32",
-              "bit64"
+              "x32",
+              "x64"
             ],
             "contains": [
               "sfz"
@@ -2317,7 +2317,7 @@
           {
             "architectures": [
               "arm64",
-              "bit64"
+              "x64"
             ],
             "contains": [
               "app",
@@ -2337,7 +2337,7 @@
           },
           {
             "architectures": [
-              "bit64"
+              "x64"
             ],
             "contains": [
               "dll",
@@ -2384,8 +2384,8 @@
             "architectures": [
               "arm32",
               "arm64",
-              "bit32",
-              "bit64"
+              "x32",
+              "x64"
             ],
             "contains": [
               "sfz"
@@ -2405,8 +2405,8 @@
             "architectures": [
               "arm32",
               "arm64",
-              "bit32",
-              "bit64"
+              "x32",
+              "x64"
             ],
             "contains": [
               "sfz"
@@ -2426,8 +2426,8 @@
             "architectures": [
               "arm32",
               "arm64",
-              "bit32",
-              "bit64"
+              "x32",
+              "x64"
             ],
             "contains": [
               "sfz"
@@ -2492,7 +2492,7 @@
           },
           {
             "architectures": [
-              "bit64"
+              "x64"
             ],
             "contains": [
               "elf",
@@ -2515,7 +2515,7 @@
           {
             "architectures": [
               "arm64",
-              "bit64"
+              "x64"
             ],
             "contains": [
               "app",
@@ -2537,7 +2537,7 @@
           },
           {
             "architectures": [
-              "bit64"
+              "x64"
             ],
             "contains": [
               "clap",
@@ -2585,7 +2585,7 @@
         "files": [
           {
             "architectures": [
-              "bit64"
+              "x64"
             ],
             "contains": [
               "elf",
@@ -2606,7 +2606,7 @@
           },
           {
             "architectures": [
-              "bit64"
+              "x64"
             ],
             "contains": [
               "aax",
@@ -2628,7 +2628,7 @@
           },
           {
             "architectures": [
-              "bit64"
+              "x64"
             ],
             "contains": [
               "dll",
@@ -2673,7 +2673,7 @@
         "files": [
           {
             "architectures": [
-              "bit64"
+              "x64"
             ],
             "contains": [
               "elf",
@@ -2694,7 +2694,7 @@
           },
           {
             "architectures": [
-              "bit64"
+              "x64"
             ],
             "contains": [
               "aax",
@@ -2716,7 +2716,7 @@
           },
           {
             "architectures": [
-              "bit64"
+              "x64"
             ],
             "contains": [
               "dll",
@@ -2761,7 +2761,7 @@
         "files": [
           {
             "architectures": [
-              "bit64"
+              "x64"
             ],
             "contains": [
               "app",
@@ -2782,7 +2782,7 @@
           },
           {
             "architectures": [
-              "bit64"
+              "x64"
             ],
             "contains": [
               "dll",
@@ -2828,7 +2828,7 @@
           {
             "architectures": [
               "arm64",
-              "bit64"
+              "x64"
             ],
             "contains": [
               "app",
@@ -2848,7 +2848,7 @@
           },
           {
             "architectures": [
-              "bit64"
+              "x64"
             ],
             "contains": [
               "dll",
@@ -2892,7 +2892,7 @@
         "files": [
           {
             "architectures": [
-              "bit64"
+              "x64"
             ],
             "contains": [
               "elf",
@@ -2912,7 +2912,7 @@
           },
           {
             "architectures": [
-              "bit64"
+              "x64"
             ],
             "contains": [
               "app",
@@ -2933,7 +2933,7 @@
           },
           {
             "architectures": [
-              "bit64"
+              "x64"
             ],
             "contains": [
               "exe",
@@ -2978,7 +2978,7 @@
         "files": [
           {
             "architectures": [
-              "bit64"
+              "x64"
             ],
             "contains": [
               "so"
@@ -2996,7 +2996,7 @@
           },
           {
             "architectures": [
-              "bit64"
+              "x64"
             ],
             "contains": [
               "vst"
@@ -3014,7 +3014,7 @@
           },
           {
             "architectures": [
-              "bit64"
+              "x64"
             ],
             "contains": [
               "dll"
@@ -3057,7 +3057,7 @@
         "files": [
           {
             "architectures": [
-              "bit64"
+              "x64"
             ],
             "contains": [
               "clap",
@@ -3076,7 +3076,7 @@
           },
           {
             "architectures": [
-              "bit64"
+              "x64"
             ],
             "contains": [
               "clap",
@@ -3095,7 +3095,7 @@
           },
           {
             "architectures": [
-              "bit64"
+              "x64"
             ],
             "contains": [
               "clap",
@@ -3138,7 +3138,7 @@
         "files": [
           {
             "architectures": [
-              "bit64"
+              "x64"
             ],
             "contains": [
               "clap",
@@ -3158,7 +3158,7 @@
           },
           {
             "architectures": [
-              "bit64"
+              "x64"
             ],
             "contains": [
               "app",
@@ -3198,7 +3198,7 @@
           },
           {
             "architectures": [
-              "bit64"
+              "x64"
             ],
             "contains": [
               "clap",
@@ -3242,7 +3242,7 @@
         "files": [
           {
             "architectures": [
-              "bit64"
+              "x64"
             ],
             "contains": [
               "clap",
@@ -3261,7 +3261,7 @@
           },
           {
             "architectures": [
-              "bit64"
+              "x64"
             ],
             "contains": [
               "clap",
@@ -3299,7 +3299,7 @@
           },
           {
             "architectures": [
-              "bit64"
+              "x64"
             ],
             "contains": [
               "clap",
@@ -3342,7 +3342,7 @@
         "files": [
           {
             "architectures": [
-              "bit64"
+              "x64"
             ],
             "contains": [
               "clap",
@@ -3361,7 +3361,7 @@
           },
           {
             "architectures": [
-              "bit64"
+              "x64"
             ],
             "contains": [
               "clap",
@@ -3380,7 +3380,7 @@
           },
           {
             "architectures": [
-              "bit64"
+              "x64"
             ],
             "contains": [
               "clap",
@@ -3424,7 +3424,7 @@
         "files": [
           {
             "architectures": [
-              "bit64"
+              "x64"
             ],
             "contains": [
               "clap",
@@ -3443,7 +3443,7 @@
           },
           {
             "architectures": [
-              "bit64"
+              "x64"
             ],
             "contains": [
               "clap",
@@ -3481,7 +3481,7 @@
           },
           {
             "architectures": [
-              "bit64"
+              "x64"
             ],
             "contains": [
               "clap",
@@ -3525,7 +3525,7 @@
         "files": [
           {
             "architectures": [
-              "bit64"
+              "x64"
             ],
             "contains": [
               "so"
@@ -3543,7 +3543,7 @@
           },
           {
             "architectures": [
-              "bit64"
+              "x64"
             ],
             "contains": [
               "vst"
@@ -3561,7 +3561,7 @@
           },
           {
             "architectures": [
-              "bit64"
+              "x64"
             ],
             "contains": [
               "dll"
@@ -3606,8 +3606,8 @@
             "architectures": [
               "arm32",
               "arm64",
-              "bit32",
-              "bit64"
+              "x32",
+              "x64"
             ],
             "contains": [
               "sfz"
@@ -3627,8 +3627,8 @@
             "architectures": [
               "arm32",
               "arm64",
-              "bit32",
-              "bit64"
+              "x32",
+              "x64"
             ],
             "contains": [
               "sfz"
@@ -3648,8 +3648,8 @@
             "architectures": [
               "arm32",
               "arm64",
-              "bit32",
-              "bit64"
+              "x32",
+              "x64"
             ],
             "contains": [
               "sfz"

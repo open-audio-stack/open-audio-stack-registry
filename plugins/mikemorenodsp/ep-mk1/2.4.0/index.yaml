@@ -7,7 +7,7 @@ date: '2020-09-28T07:00:00.000Z'
 description: Real-time physical model of an Electric Piano.
 files:
   - architectures:
-      - bit64
+      - x64
     contains:
       - elf
       - so
@@ -19,7 +19,7 @@ files:
     type: archive
     url: https://github.com/MikeMorenoDSP/EP-MK1/releases/download/v2.4/EP-MK1-Linux64.zip
   - architectures:
-      - bit64
+      - x64
     contains:
       - vst
       - vst3
@@ -31,7 +31,7 @@ files:
     type: archive
     url: https://github.com/MikeMorenoDSP/EP-MK1/releases/download/v2.4/EP-MK1-MacOS.zip
   - architectures:
-      - bit64
+      - x64
     contains:
       - dll
       - vst3

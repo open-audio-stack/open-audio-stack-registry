@@ -6,7 +6,7 @@ date: '2017-07-08T08:00:00.000Z'
 description: Polyphonic semi-modular synthesizer with a flexible modulation system.
 files:
   - architectures:
-      - bit64
+      - x64
     contains:
       - elf
       - lv2
@@ -19,7 +19,7 @@ files:
     type: archive
     url: https://tytel.org/static/dist/helm_0.9.0_amd64_r.deb
   - architectures:
-      - bit64
+      - x64
     contains:
       - app
       - component
@@ -32,7 +32,7 @@ files:
     type: archive
     url: https://tytel.org/static/dist/Helm_v0_9_0_r.pkg
   - architectures:
-      - bit64
+      - x64
     contains:
       - dll
       - vst3

@@ -7,7 +7,7 @@
   "files": [
     {
       "architectures": [
-        "bit64"
+        "x64"
       ],
       "contains": [
         "so"
@@ -25,7 +25,7 @@
     },
     {
       "architectures": [
-        "bit64"
+        "x64"
       ],
       "contains": [
         "vst"
@@ -43,7 +43,7 @@
     },
     {
       "architectures": [
-        "bit64"
+        "x64"
       ],
       "contains": [
         "dll"

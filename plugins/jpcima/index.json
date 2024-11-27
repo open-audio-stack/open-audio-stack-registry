@@ -12,7 +12,7 @@
         "files": [
           {
             "architectures": [
-              "bit64"
+              "x64"
             ],
             "contains": [
               "elf",
@@ -33,7 +33,7 @@
           {
             "architectures": [
               "arm64",
-              "bit64"
+              "x64"
             ],
             "contains": [
               "app",
@@ -55,7 +55,7 @@
           },
           {
             "architectures": [
-              "bit64"
+              "x64"
             ],
             "contains": [
               "dll",
@@ -101,7 +101,7 @@
         "files": [
           {
             "architectures": [
-              "bit64"
+              "x64"
             ],
             "contains": [
               "elf",
@@ -122,7 +122,7 @@
           {
             "architectures": [
               "arm64",
-              "bit64"
+              "x64"
             ],
             "contains": [
               "app",
@@ -144,7 +144,7 @@
           },
           {
             "architectures": [
-              "bit64"
+              "x64"
             ],
             "contains": [
               "dll",

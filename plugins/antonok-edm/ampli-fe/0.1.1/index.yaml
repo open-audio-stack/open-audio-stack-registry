@@ -8,7 +8,7 @@ date: '2021-11-02T08:00:00.000Z'
 description: Amplifier effect which allows the volume to be changed from 0% to 200%.
 files:
   - architectures:
-      - bit64
+      - x64
     contains:
       - so
     format: zip
@@ -19,7 +19,7 @@ files:
     type: archive
     url: https://github.com/antonok-edm/ampli-Fe/releases/download/v0.1.1/ampli-Fe_linux-x86-64.zip
   - architectures:
-      - bit64
+      - x64
     contains:
       - vst
     format: zip
@@ -30,7 +30,7 @@ files:
     type: archive
     url: https://github.com/antonok-edm/ampli-Fe/releases/download/v0.1.1/ampli-Fe_macos-x86-64.zip
   - architectures:
-      - bit64
+      - x64
     contains:
       - dll
     format: zip

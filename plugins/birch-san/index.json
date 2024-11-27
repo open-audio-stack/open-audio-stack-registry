@@ -12,7 +12,7 @@
         "files": [
           {
             "architectures": [
-              "bit64"
+              "x64"
             ],
             "contains": [
               "app",
@@ -33,7 +33,7 @@
           },
           {
             "architectures": [
-              "bit64"
+              "x64"
             ],
             "contains": [
               "dll",

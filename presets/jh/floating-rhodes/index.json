@@ -13,8 +13,8 @@
           "architectures": [
             "arm32",
             "arm64",
-            "bit32",
-            "bit64"
+            "x32",
+            "x64"
           ],
           "contains": [
             "fxp"
