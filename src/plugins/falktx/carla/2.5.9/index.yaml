@@ -13,7 +13,7 @@ description: Audio plugin host, with support for many audio drivers and plugin f
 files:
   - architectures:
       - arm64
-      - bit64
+      - x64
     contains:
       - app
       - lv2
@@ -26,7 +26,7 @@ files:
     type: archive
     url: https://github.com/falkTX/Carla/releases/download/v2.5.9/Carla-2.5.9-macOS-universal.dmg
   - architectures:
-      - bit64
+      - x64
     contains:
       - dll
       - exe

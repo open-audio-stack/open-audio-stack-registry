@@ -14,7 +14,7 @@ description: Collection of ambisonic plug-ins including Compressors, Delays, Rev
 files:
   - architectures:
       - arm64
-      - bit64
+      - x64
     contains:
       - app
       - vst
@@ -27,7 +27,7 @@ files:
     type: installer
     url: https://users.iem.at/holzmueller/IEM-Audioplugins/IEMPluginSuite/v1.14.1/IEMPluginSuite_v1.14.1.pkg
   - architectures:
-      - bit64
+      - x64
     contains:
       - dll
       - lv2

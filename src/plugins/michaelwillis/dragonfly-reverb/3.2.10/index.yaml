@@ -22,7 +22,7 @@ files:
     type: archive
     url: https://github.com/michaelwillis/dragonfly-reverb/releases/download/3.2.10/dragonfly-reverb-3.2.10-linux-x86_64.tar.xz
   - architectures:
-      - bit64
+      - x64
     contains:
       - elf
       - clap
@@ -38,7 +38,7 @@ files:
     url: https://github.com/michaelwillis/dragonfly-reverb/releases/download/3.2.10/dragonfly-reverb-3.2.10-linux-x86_64.tar.xz
   - architectures:
       - arm64
-      - bit64
+      - x64
     contains:
       - app
       - clap
@@ -53,7 +53,7 @@ files:
     type: archive
     url: https://github.com/michaelwillis/dragonfly-reverb/releases/download/3.2.10/dragonfly-reverb-3.2.10-macos-universal.dmg
   - architectures:
-      - bit64
+      - x64
     contains:
       - clap
       - dll

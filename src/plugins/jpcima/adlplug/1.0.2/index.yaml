@@ -10,7 +10,7 @@ date: '2020-08-05T08:00:00.000Z'
 description: FM synthesizer based on OPL3 and OPN2 sound chip emulations. Synthesis of melodic and percussive instruments, support for dynamic parameterization and automation.
 files:
   - architectures:
-      - bit64
+      - x64
     contains:
       - elf
       - lv2
@@ -24,7 +24,7 @@ files:
     url: https://github.com/jpcima/ADLplug/releases/download/v1.0.2/adlplug_amd64.deb
   - architectures:
       - arm64
-      - bit64
+      - x64
     contains:
       - app
       - component
@@ -39,7 +39,7 @@ files:
     type: archive
     url: https://github.com/jpcima/ADLplug/releases/download/v1.0.2/ADLplug-1.0.2-mac.7z
   - architectures:
-      - bit64
+      - x64
     contains:
       - dll
       - exe

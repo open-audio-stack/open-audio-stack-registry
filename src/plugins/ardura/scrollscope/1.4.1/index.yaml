@@ -8,7 +8,7 @@ date: '2024-07-12T07:00:00.000Z'
 description: A simple scrolling oscilloscope in rust with multichannel inputs and an analyzer.
 files:
   - architectures:
-      - bit64
+      - x64
     contains:
       - clap
       - elf
@@ -21,7 +21,7 @@ files:
     type: archive
     url: https://github.com/ardura/Scrollscope/releases/download/v1.4.1/Scrollscope_v141_linux_build.zip
   - architectures:
-      - bit64
+      - x64
     contains:
       - app
       - clap
@@ -47,7 +47,7 @@ files:
     type: archive
     url: https://github.com/ardura/Scrollscope/releases/download/v1.4.1/Scrollscope_v141_macos_m1_build.zip
   - architectures:
-      - bit64
+      - x64
     contains:
       - clap
       - exe
