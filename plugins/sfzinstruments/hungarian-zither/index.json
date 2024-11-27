@@ -1,0 +1,89 @@
+{
+  "slug": "sfzinstruments/hungarian-zither",
+  "version": "1.0.1",
+  "versions": {
+    "1.0.1": {
+      "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/hungarian-zither/hungarian-zither.flac",
+      "author": "DSmolken",
+      "changes": "",
+      "date": "2022-09-28T07:00:00.000Z",
+      "description": "Hungarian 'prime' zither. A rectangular instrument with over a dozen strings, mostly tuned to G, with two melody courses and the rest as drones.",
+      "files": [
+        {
+          "architectures": [
+            "arm32",
+            "arm64",
+            "bit32",
+            "bit64"
+          ],
+          "contains": [
+            "sfz"
+          ],
+          "format": "zip",
+          "sha256": "2a7e5bdb6a626126b9e4b78e369332d0fa901eea366f77e006d1a4d50e26ccf8",
+          "systems": [
+            {
+              "type": "linux"
+            }
+          ],
+          "size": 176636805,
+          "type": "archive",
+          "url": "https://github.com/sfzinstruments/hungarian_zither/releases/download/v1.001/hungarian_prime_zither_1001.zip"
+        },
+        {
+          "architectures": [
+            "arm32",
+            "arm64",
+            "bit32",
+            "bit64"
+          ],
+          "contains": [
+            "sfz"
+          ],
+          "format": "zip",
+          "sha256": "2a7e5bdb6a626126b9e4b78e369332d0fa901eea366f77e006d1a4d50e26ccf8",
+          "systems": [
+            {
+              "type": "mac"
+            }
+          ],
+          "size": 176636805,
+          "type": "archive",
+          "url": "https://github.com/sfzinstruments/hungarian_zither/releases/download/v1.001/hungarian_prime_zither_1001.zip"
+        },
+        {
+          "architectures": [
+            "arm32",
+            "arm64",
+            "bit32",
+            "bit64"
+          ],
+          "contains": [
+            "sfz"
+          ],
+          "format": "zip",
+          "sha256": "2a7e5bdb6a626126b9e4b78e369332d0fa901eea366f77e006d1a4d50e26ccf8",
+          "systems": [
+            {
+              "type": "win"
+            }
+          ],
+          "size": 176636805,
+          "type": "archive",
+          "url": "https://github.com/sfzinstruments/hungarian_zither/releases/download/v1.001/hungarian_prime_zither_1001.zip"
+        }
+      ],
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/hungarian-zither/hungarian-zither.jpg",
+      "license": "cc0-1.0",
+      "name": "Horse Pulse",
+      "tags": [
+        "Instrument",
+        "Strings",
+        "Classical",
+        "sfz"
+      ],
+      "type": "sampler",
+      "url": "https://github.com/sfzinstruments/hungarian_zither"
+    }
+  }
+}

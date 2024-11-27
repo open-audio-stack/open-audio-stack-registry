@@ -1,0 +1,117 @@
+{
+  "distrho/dpf-plugins": {
+    "slug": "distrho/dpf-plugins",
+    "version": "1.7.0",
+    "versions": {
+      "1.7.0": {
+        "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/distrho/dpf-plugins/dpf-plugins.flac",
+        "author": "Chowdhury DSP",
+        "changes": "- Fix build with clang on non-macOS systems\n- Fix CLAP plugins not saving state under Bitwig\n- Fix Nekobi tuning parameter\n",
+        "date": "2023-04-15T07:00:00.000Z",
+        "description": "Collection of DPF-based plugin effects.",
+        "files": [
+          {
+            "architectures": [
+              "arm64"
+            ],
+            "contains": [
+              "elf",
+              "clap",
+              "lv2",
+              "so",
+              "vst3"
+            ],
+            "format": "tar.gz",
+            "sha256": "5977d90319d5bdc87b471a1b0094f306417098a3d0d9841de4cbe1d48e2500cc",
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "size": 9063488,
+            "type": "archive",
+            "url": "https://github.com/DISTRHO/DPF-Plugins/releases/download/v1.7/DPF-Plugins-v1.7-linux-arm64.tar.xz"
+          },
+          {
+            "architectures": [
+              "bit64"
+            ],
+            "contains": [
+              "elf",
+              "clap",
+              "lv2",
+              "so",
+              "vst3"
+            ],
+            "format": "tar.gz",
+            "sha256": "6bc00af3dce6c96fa0b828bb5c68c4bb3ca4cb4bba2f1c9a7c1bc7bd08f777d8",
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "size": 9827340,
+            "type": "archive",
+            "url": "https://github.com/DISTRHO/DPF-Plugins/releases/download/v1.7/DPF-Plugins-v1.7-linux-x86_64.tar.xz"
+          },
+          {
+            "architectures": [
+              "arm64",
+              "bit64"
+            ],
+            "contains": [
+              "app",
+              "clap",
+              "lv2",
+              "vst",
+              "vst3"
+            ],
+            "format": "dmg",
+            "sha256": "25eaf9cd8ba2e7c3738008b2192256be85e6e41174f7afe054e4435c469c00b2",
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "size": 57933584,
+            "type": "archive",
+            "url": "https://github.com/DISTRHO/DPF-Plugins/releases/download/v1.7/DPF-Plugins-v1.7-macos-universal.dmg"
+          },
+          {
+            "architectures": [
+              "bit64"
+            ],
+            "contains": [
+              "clap",
+              "dll",
+              "exe",
+              "lv2",
+              "vst3"
+            ],
+            "format": "zip",
+            "sha256": "a9930df6fcf62c48297b1f7ec6f5970fb1c5ffc023e10f9e94c0b45868ebabb7",
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "size": 74524341,
+            "type": "archive",
+            "url": "https://github.com/DISTRHO/DPF-Plugins/releases/download/v1.7/DPF-Plugins-v1.7-win64.zip"
+          }
+        ],
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/distrho/dpf-plugins/dpf-plugins.jpg",
+        "license": "gpl-3.0",
+        "name": "DPF Plugins",
+        "tags": [
+          "Effect",
+          "Delay",
+          "Feedback",
+          "Reverb"
+        ],
+        "type": "effect",
+        "url": "https://github.com/DISTRHO/DPF-Plugins"
+      }
+    }
+  }
+}

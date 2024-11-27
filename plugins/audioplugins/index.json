@@ -1,0 +1,67 @@
+{
+  "audioplugins/iempluginsuite": {
+    "slug": "audioplugins/iempluginsuite",
+    "version": "1.14.1",
+    "versions": {
+      "1.14.1": {
+        "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/audioplugins/iempluginsuite/iempluginsuite.flac",
+        "author": "Institute of Electronic Music and Acoustics",
+        "changes": "- Moved to JUCE 7.0.5\n- Plug-ins work again on Windows Vista and 7\n- AllRADecoder and SimpleDecoder\n- Wrap azimuth exceeding 180° and elevation exceeding 90° for correct im-/export of layouts\n- Update IEM Cube decoder preset\n- GranularEncoder\n- Add some color to the sliders\n",
+        "date": "2023-02-23T07:00:00.000Z",
+        "description": "Collection of ambisonic plug-ins including Compressors, Delays, Reverb, Encoders, Decoders and Visualizers.",
+        "files": [
+          {
+            "architectures": [
+              "arm64",
+              "bit64"
+            ],
+            "contains": [
+              "app",
+              "vst",
+              "vst3"
+            ],
+            "format": "pkg",
+            "sha256": "9c77ed2f3dac5f7bd2e2eb2cd06fe276f97069f6aa90adda2f50a40b1289bf01",
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "size": 201757713,
+            "type": "installer",
+            "url": "https://users.iem.at/holzmueller/IEM-Audioplugins/IEMPluginSuite/v1.14.1/IEMPluginSuite_v1.14.1.pkg"
+          },
+          {
+            "architectures": [
+              "bit64"
+            ],
+            "contains": [
+              "dll",
+              "lv2"
+            ],
+            "format": "zip",
+            "sha256": "fcda62b77b2185c416c39cef40492e711df28c72953095648afedc96d28e3656",
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "size": 86958075,
+            "type": "archive",
+            "url": "https://users.iem.at/holzmueller/IEM-Audioplugins/IEMPluginSuite/v1.14.1/IEMPluginSuite_v1.14.1_x64.zip"
+          }
+        ],
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/audioplugins/iempluginsuite/iempluginsuite.jpg",
+        "license": "gpl-3.0",
+        "name": "IEM Plugin Suite",
+        "tags": [
+          "Effect",
+          "Reverb",
+          "Delay"
+        ],
+        "type": "effect",
+        "url": "https://git.iem.at/audioplugins/IEMPluginSuite"
+      }
+    }
+  }
+}

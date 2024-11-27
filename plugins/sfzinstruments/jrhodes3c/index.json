@@ -1,0 +1,89 @@
+{
+  "slug": "sfzinstruments/jrhodes3c",
+  "version": "1.0.0",
+  "versions": {
+    "1.0.0": {
+      "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/jrhodes3c/jrhodes3c.flac",
+      "author": "Jeff Learman",
+      "changes": "",
+      "date": "2023-07-04T07:00:00.000Z",
+      "description": "1977 Rhodes Mark I Stage 73 piano.",
+      "files": [
+        {
+          "architectures": [
+            "arm32",
+            "arm64",
+            "bit32",
+            "bit64"
+          ],
+          "contains": [
+            "sfz"
+          ],
+          "format": "zip",
+          "sha256": "0a9ccd6d5d9231f8036734ecb03d087f17f69849841e826472ff575da574e970",
+          "systems": [
+            {
+              "type": "linux"
+            }
+          ],
+          "size": 18111475,
+          "type": "archive",
+          "url": "https://github.com/sfzinstruments/jlearman.jRhodes3c/archive/refs/heads/master.zip"
+        },
+        {
+          "architectures": [
+            "arm32",
+            "arm64",
+            "bit32",
+            "bit64"
+          ],
+          "contains": [
+            "sfz"
+          ],
+          "format": "zip",
+          "sha256": "0a9ccd6d5d9231f8036734ecb03d087f17f69849841e826472ff575da574e970",
+          "systems": [
+            {
+              "type": "mac"
+            }
+          ],
+          "size": 18111475,
+          "type": "archive",
+          "url": "https://github.com/sfzinstruments/jlearman.jRhodes3c/archive/refs/heads/master.zip"
+        },
+        {
+          "architectures": [
+            "arm32",
+            "arm64",
+            "bit32",
+            "bit64"
+          ],
+          "contains": [
+            "sfz"
+          ],
+          "format": "zip",
+          "sha256": "0a9ccd6d5d9231f8036734ecb03d087f17f69849841e826472ff575da574e970",
+          "systems": [
+            {
+              "type": "win"
+            }
+          ],
+          "size": 18111475,
+          "type": "archive",
+          "url": "https://github.com/sfzinstruments/jlearman.jRhodes3c/archive/refs/heads/master.zip"
+        }
+      ],
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/jrhodes3c/jrhodes3c.jpg",
+      "license": "cc-by-sa-4.0",
+      "name": "jRhodes3c",
+      "tags": [
+        "Instrument",
+        "Keys",
+        "Rhodes",
+        "sfz"
+      ],
+      "type": "sampler",
+      "url": "https://github.com/sfzinstruments/jlearman.jRhodes3c"
+    }
+  }
+}

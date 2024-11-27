@@ -519,6 +519,273 @@
       }
     }
   },
+  "sfzinstruments/jsteeldrum": {
+    "slug": "sfzinstruments/jsteeldrum",
+    "version": "1.0.0",
+    "versions": {
+      "1.0.0": {
+        "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/jsteeldrum/jsteeldrum.flac",
+        "author": "Jeff Learman",
+        "changes": "",
+        "date": "2022-09-23T07:00:00.000Z",
+        "description": "C Steel Drum (a.k.a. 'steel pan') hand-made in Trinidad.",
+        "files": [
+          {
+            "architectures": [
+              "arm32",
+              "arm64",
+              "bit32",
+              "bit64"
+            ],
+            "contains": [
+              "sfz"
+            ],
+            "format": "zip",
+            "sha256": "2d91315a81024866b5ede8dc8b523b8b2c49e9c7d454c791da0489216464b448",
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "size": 39751862,
+            "type": "archive",
+            "url": "https://github.com/sfzinstruments/jlearman.SteelDrum/archive/refs/heads/main.zip"
+          },
+          {
+            "architectures": [
+              "arm32",
+              "arm64",
+              "bit32",
+              "bit64"
+            ],
+            "contains": [
+              "sfz"
+            ],
+            "format": "zip",
+            "sha256": "2d91315a81024866b5ede8dc8b523b8b2c49e9c7d454c791da0489216464b448",
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "size": 39751862,
+            "type": "archive",
+            "url": "https://github.com/sfzinstruments/jlearman.SteelDrum/archive/refs/heads/main.zip"
+          },
+          {
+            "architectures": [
+              "arm32",
+              "arm64",
+              "bit32",
+              "bit64"
+            ],
+            "contains": [
+              "sfz"
+            ],
+            "format": "zip",
+            "sha256": "2d91315a81024866b5ede8dc8b523b8b2c49e9c7d454c791da0489216464b448",
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "size": 39751862,
+            "type": "archive",
+            "url": "https://github.com/sfzinstruments/jlearman.SteelDrum/archive/refs/heads/main.zip"
+          }
+        ],
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/jsteeldrum/jsteeldrum.jpg",
+        "license": "unlicense",
+        "name": "jSteelDrum",
+        "tags": [
+          "Instrument",
+          "Steel",
+          "Drum",
+          "sfz"
+        ],
+        "type": "sampler",
+        "url": "https://github.com/sfzinstruments/jlearman.SteelDrum"
+      }
+    }
+  },
+  "sfzinstruments/jrhodes3c": {
+    "slug": "sfzinstruments/jrhodes3c",
+    "version": "1.0.0",
+    "versions": {
+      "1.0.0": {
+        "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/jrhodes3c/jrhodes3c.flac",
+        "author": "Jeff Learman",
+        "changes": "",
+        "date": "2023-07-04T07:00:00.000Z",
+        "description": "1977 Rhodes Mark I Stage 73 piano.",
+        "files": [
+          {
+            "architectures": [
+              "arm32",
+              "arm64",
+              "bit32",
+              "bit64"
+            ],
+            "contains": [
+              "sfz"
+            ],
+            "format": "zip",
+            "sha256": "0a9ccd6d5d9231f8036734ecb03d087f17f69849841e826472ff575da574e970",
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "size": 18111475,
+            "type": "archive",
+            "url": "https://github.com/sfzinstruments/jlearman.jRhodes3c/archive/refs/heads/master.zip"
+          },
+          {
+            "architectures": [
+              "arm32",
+              "arm64",
+              "bit32",
+              "bit64"
+            ],
+            "contains": [
+              "sfz"
+            ],
+            "format": "zip",
+            "sha256": "0a9ccd6d5d9231f8036734ecb03d087f17f69849841e826472ff575da574e970",
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "size": 18111475,
+            "type": "archive",
+            "url": "https://github.com/sfzinstruments/jlearman.jRhodes3c/archive/refs/heads/master.zip"
+          },
+          {
+            "architectures": [
+              "arm32",
+              "arm64",
+              "bit32",
+              "bit64"
+            ],
+            "contains": [
+              "sfz"
+            ],
+            "format": "zip",
+            "sha256": "0a9ccd6d5d9231f8036734ecb03d087f17f69849841e826472ff575da574e970",
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "size": 18111475,
+            "type": "archive",
+            "url": "https://github.com/sfzinstruments/jlearman.jRhodes3c/archive/refs/heads/master.zip"
+          }
+        ],
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/jrhodes3c/jrhodes3c.jpg",
+        "license": "cc-by-sa-4.0",
+        "name": "jRhodes3c",
+        "tags": [
+          "Instrument",
+          "Keys",
+          "Rhodes",
+          "sfz"
+        ],
+        "type": "sampler",
+        "url": "https://github.com/sfzinstruments/jlearman.jRhodes3c"
+      }
+    }
+  },
+  "sfzinstruments/hungarian-zither": {
+    "slug": "sfzinstruments/hungarian-zither",
+    "version": "1.0.1",
+    "versions": {
+      "1.0.1": {
+        "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/hungarian-zither/hungarian-zither.flac",
+        "author": "DSmolken",
+        "changes": "",
+        "date": "2022-09-28T07:00:00.000Z",
+        "description": "Hungarian 'prime' zither. A rectangular instrument with over a dozen strings, mostly tuned to G, with two melody courses and the rest as drones.",
+        "files": [
+          {
+            "architectures": [
+              "arm32",
+              "arm64",
+              "bit32",
+              "bit64"
+            ],
+            "contains": [
+              "sfz"
+            ],
+            "format": "zip",
+            "sha256": "2a7e5bdb6a626126b9e4b78e369332d0fa901eea366f77e006d1a4d50e26ccf8",
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "size": 176636805,
+            "type": "archive",
+            "url": "https://github.com/sfzinstruments/hungarian_zither/releases/download/v1.001/hungarian_prime_zither_1001.zip"
+          },
+          {
+            "architectures": [
+              "arm32",
+              "arm64",
+              "bit32",
+              "bit64"
+            ],
+            "contains": [
+              "sfz"
+            ],
+            "format": "zip",
+            "sha256": "2a7e5bdb6a626126b9e4b78e369332d0fa901eea366f77e006d1a4d50e26ccf8",
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "size": 176636805,
+            "type": "archive",
+            "url": "https://github.com/sfzinstruments/hungarian_zither/releases/download/v1.001/hungarian_prime_zither_1001.zip"
+          },
+          {
+            "architectures": [
+              "arm32",
+              "arm64",
+              "bit32",
+              "bit64"
+            ],
+            "contains": [
+              "sfz"
+            ],
+            "format": "zip",
+            "sha256": "2a7e5bdb6a626126b9e4b78e369332d0fa901eea366f77e006d1a4d50e26ccf8",
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "size": 176636805,
+            "type": "archive",
+            "url": "https://github.com/sfzinstruments/hungarian_zither/releases/download/v1.001/hungarian_prime_zither_1001.zip"
+          }
+        ],
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/hungarian-zither/hungarian-zither.jpg",
+        "license": "cc0-1.0",
+        "name": "Horse Pulse",
+        "tags": [
+          "Instrument",
+          "Strings",
+          "Classical",
+          "sfz"
+        ],
+        "type": "sampler",
+        "url": "https://github.com/sfzinstruments/hungarian_zither"
+      }
+    }
+  },
   "sfzinstruments/horse-pulse": {
     "slug": "sfzinstruments/horse-pulse",
     "version": "1.0.0",
@@ -2190,6 +2457,121 @@
       }
     }
   },
+  "distrho/dpf-plugins": {
+    "slug": "distrho/dpf-plugins",
+    "version": "1.7.0",
+    "versions": {
+      "1.7.0": {
+        "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/distrho/dpf-plugins/dpf-plugins.flac",
+        "author": "Chowdhury DSP",
+        "changes": "- Fix build with clang on non-macOS systems\n- Fix CLAP plugins not saving state under Bitwig\n- Fix Nekobi tuning parameter\n",
+        "date": "2023-04-15T07:00:00.000Z",
+        "description": "Collection of DPF-based plugin effects.",
+        "files": [
+          {
+            "architectures": [
+              "arm64"
+            ],
+            "contains": [
+              "elf",
+              "clap",
+              "lv2",
+              "so",
+              "vst3"
+            ],
+            "format": "tar.gz",
+            "sha256": "5977d90319d5bdc87b471a1b0094f306417098a3d0d9841de4cbe1d48e2500cc",
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "size": 9063488,
+            "type": "archive",
+            "url": "https://github.com/DISTRHO/DPF-Plugins/releases/download/v1.7/DPF-Plugins-v1.7-linux-arm64.tar.xz"
+          },
+          {
+            "architectures": [
+              "bit64"
+            ],
+            "contains": [
+              "elf",
+              "clap",
+              "lv2",
+              "so",
+              "vst3"
+            ],
+            "format": "tar.gz",
+            "sha256": "6bc00af3dce6c96fa0b828bb5c68c4bb3ca4cb4bba2f1c9a7c1bc7bd08f777d8",
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "size": 9827340,
+            "type": "archive",
+            "url": "https://github.com/DISTRHO/DPF-Plugins/releases/download/v1.7/DPF-Plugins-v1.7-linux-x86_64.tar.xz"
+          },
+          {
+            "architectures": [
+              "arm64",
+              "bit64"
+            ],
+            "contains": [
+              "app",
+              "clap",
+              "lv2",
+              "vst",
+              "vst3"
+            ],
+            "format": "dmg",
+            "sha256": "25eaf9cd8ba2e7c3738008b2192256be85e6e41174f7afe054e4435c469c00b2",
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "size": 57933584,
+            "type": "archive",
+            "url": "https://github.com/DISTRHO/DPF-Plugins/releases/download/v1.7/DPF-Plugins-v1.7-macos-universal.dmg"
+          },
+          {
+            "architectures": [
+              "bit64"
+            ],
+            "contains": [
+              "clap",
+              "dll",
+              "exe",
+              "lv2",
+              "vst3"
+            ],
+            "format": "zip",
+            "sha256": "a9930df6fcf62c48297b1f7ec6f5970fb1c5ffc023e10f9e94c0b45868ebabb7",
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "size": 74524341,
+            "type": "archive",
+            "url": "https://github.com/DISTRHO/DPF-Plugins/releases/download/v1.7/DPF-Plugins-v1.7-win64.zip"
+          }
+        ],
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/distrho/dpf-plugins/dpf-plugins.jpg",
+        "license": "gpl-3.0",
+        "name": "DPF Plugins",
+        "tags": [
+          "Effect",
+          "Delay",
+          "Feedback",
+          "Reverb"
+        ],
+        "type": "effect",
+        "url": "https://github.com/DISTRHO/DPF-Plugins"
+      }
+    }
+  },
   "chowdhury-dsp/chowtapemodel": {
     "slug": "chowdhury-dsp/chowtapemodel",
     "version": "2.11.4",
@@ -2363,6 +2745,137 @@
         ],
         "type": "effect",
         "url": "https://github.com/Chowdhury-DSP/ChowMatrix"
+      }
+    }
+  },
+  "birch-san/juicysfplugin": {
+    "slug": "birch-san/juicysfplugin",
+    "version": "3.1.0",
+    "versions": {
+      "3.1.0": {
+        "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/birch-san/juicysfplugin/juicysf.flac",
+        "author": "Birch San",
+        "changes": "- Updated fluidsynth from v2.2.4 -> v2.2.5. Fixes sample looping bug #22.\n- Updated JUCE from v6.1.2 to v6.1.5. Restores the native file picker which juicysfplugin 2.3.3 enjoyed, and improves accessibility.\n- Rewrote win32 cross-compile build system (again) as a multi-stage Docker build\n- Upgraded toolchain from llvm-mingw 20211002 with LLVM stable 13.0.0 to llvm-mingw 20220209 with LLVM 14.0.0 RC1.\n",
+        "date": "2022-02-13T07:00:00.000Z",
+        "description": "SoundFont synthesizer for playing General Midi music using sf2 files.",
+        "files": [
+          {
+            "architectures": [
+              "bit64"
+            ],
+            "contains": [
+              "app",
+              "component",
+              "vst",
+              "vst3"
+            ],
+            "format": "tar.gz",
+            "sha256": "b2378af2ed2aa9c52fee594a9e0ce0de141b33915fed6cd07f92e15d32476513",
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "size": 28813905,
+            "type": "archive",
+            "url": "https://github.com/Birch-san/juicysfplugin/releases/download/3.1.0/juicysfplugin-3.1.0-macOS.tar.xz"
+          },
+          {
+            "architectures": [
+              "bit64"
+            ],
+            "contains": [
+              "dll",
+              "exe",
+              "vst3"
+            ],
+            "format": "zip",
+            "sha256": "a391215a955583c87916a042cb909db0bafc16972a63a38f94f3a46dea1bf74e",
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "size": 16237789,
+            "type": "archive",
+            "url": "https://github.com/Birch-san/juicysfplugin/releases/download/3.1.0/juicysfplugin-3.1.0-win-x64.zip"
+          }
+        ],
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/birch-san/juicysfplugin/juicysf.jpg",
+        "license": "gpl-3.0",
+        "name": "JuicySFplugin",
+        "tags": [
+          "Instrument",
+          "Sampler",
+          "Synth"
+        ],
+        "type": "instrument",
+        "url": "https://github.com/Birch-san/juicysfplugin"
+      }
+    }
+  },
+  "audioplugins/iempluginsuite": {
+    "slug": "audioplugins/iempluginsuite",
+    "version": "1.14.1",
+    "versions": {
+      "1.14.1": {
+        "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/audioplugins/iempluginsuite/iempluginsuite.flac",
+        "author": "Institute of Electronic Music and Acoustics",
+        "changes": "- Moved to JUCE 7.0.5\n- Plug-ins work again on Windows Vista and 7\n- AllRADecoder and SimpleDecoder\n- Wrap azimuth exceeding 180° and elevation exceeding 90° for correct im-/export of layouts\n- Update IEM Cube decoder preset\n- GranularEncoder\n- Add some color to the sliders\n",
+        "date": "2023-02-23T07:00:00.000Z",
+        "description": "Collection of ambisonic plug-ins including Compressors, Delays, Reverb, Encoders, Decoders and Visualizers.",
+        "files": [
+          {
+            "architectures": [
+              "arm64",
+              "bit64"
+            ],
+            "contains": [
+              "app",
+              "vst",
+              "vst3"
+            ],
+            "format": "pkg",
+            "sha256": "9c77ed2f3dac5f7bd2e2eb2cd06fe276f97069f6aa90adda2f50a40b1289bf01",
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "size": 201757713,
+            "type": "installer",
+            "url": "https://users.iem.at/holzmueller/IEM-Audioplugins/IEMPluginSuite/v1.14.1/IEMPluginSuite_v1.14.1.pkg"
+          },
+          {
+            "architectures": [
+              "bit64"
+            ],
+            "contains": [
+              "dll",
+              "lv2"
+            ],
+            "format": "zip",
+            "sha256": "fcda62b77b2185c416c39cef40492e711df28c72953095648afedc96d28e3656",
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "size": 86958075,
+            "type": "archive",
+            "url": "https://users.iem.at/holzmueller/IEM-Audioplugins/IEMPluginSuite/v1.14.1/IEMPluginSuite_v1.14.1_x64.zip"
+          }
+        ],
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/audioplugins/iempluginsuite/iempluginsuite.jpg",
+        "license": "gpl-3.0",
+        "name": "IEM Plugin Suite",
+        "tags": [
+          "Effect",
+          "Reverb",
+          "Delay"
+        ],
+        "type": "effect",
+        "url": "https://git.iem.at/audioplugins/IEMPluginSuite"
       }
     }
   },

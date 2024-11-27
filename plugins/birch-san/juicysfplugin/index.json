@@ -1,0 +1,66 @@
+{
+  "slug": "birch-san/juicysfplugin",
+  "version": "3.1.0",
+  "versions": {
+    "3.1.0": {
+      "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/birch-san/juicysfplugin/juicysf.flac",
+      "author": "Birch San",
+      "changes": "- Updated fluidsynth from v2.2.4 -> v2.2.5. Fixes sample looping bug #22.\n- Updated JUCE from v6.1.2 to v6.1.5. Restores the native file picker which juicysfplugin 2.3.3 enjoyed, and improves accessibility.\n- Rewrote win32 cross-compile build system (again) as a multi-stage Docker build\n- Upgraded toolchain from llvm-mingw 20211002 with LLVM stable 13.0.0 to llvm-mingw 20220209 with LLVM 14.0.0 RC1.\n",
+      "date": "2022-02-13T07:00:00.000Z",
+      "description": "SoundFont synthesizer for playing General Midi music using sf2 files.",
+      "files": [
+        {
+          "architectures": [
+            "bit64"
+          ],
+          "contains": [
+            "app",
+            "component",
+            "vst",
+            "vst3"
+          ],
+          "format": "tar.gz",
+          "sha256": "b2378af2ed2aa9c52fee594a9e0ce0de141b33915fed6cd07f92e15d32476513",
+          "systems": [
+            {
+              "type": "mac"
+            }
+          ],
+          "size": 28813905,
+          "type": "archive",
+          "url": "https://github.com/Birch-san/juicysfplugin/releases/download/3.1.0/juicysfplugin-3.1.0-macOS.tar.xz"
+        },
+        {
+          "architectures": [
+            "bit64"
+          ],
+          "contains": [
+            "dll",
+            "exe",
+            "vst3"
+          ],
+          "format": "zip",
+          "sha256": "a391215a955583c87916a042cb909db0bafc16972a63a38f94f3a46dea1bf74e",
+          "systems": [
+            {
+              "type": "win"
+            }
+          ],
+          "size": 16237789,
+          "type": "archive",
+          "url": "https://github.com/Birch-san/juicysfplugin/releases/download/3.1.0/juicysfplugin-3.1.0-win-x64.zip"
+        }
+      ],
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/birch-san/juicysfplugin/juicysf.jpg",
+      "license": "gpl-3.0",
+      "name": "JuicySFplugin",
+      "tags": [
+        "Instrument",
+        "Sampler",
+        "Synth"
+      ],
+      "type": "instrument",
+      "url": "https://github.com/Birch-san/juicysfplugin"
+    }
+  }
+}
