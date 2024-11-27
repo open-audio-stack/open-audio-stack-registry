@@ -1,0 +1,178 @@
+{
+  "chowdhury-dsp/chowtapemodel": {
+    "slug": "chowdhury-dsp/chowtapemodel",
+    "version": "2.11.4",
+    "versions": {
+      "2.11.4": {
+        "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/chowdhury-dsp/chowtapemodel/chowtapemodel.flac",
+        "author": "Chowdhury DSP",
+        "changes": "- Fixed bug in Wow processing at high levels of \"Depth\".\n",
+        "date": "2023-11-05T07:00:00.000Z",
+        "description": "Chow Tape Model is a digital emulation of a reel-to-reel analog tape machine. The original algorithm was developed to emulate the Sony TC-260, but has since been expanded to be able to model a wide variety of tape machines.",
+        "files": [
+          {
+            "architectures": [
+              "bit64"
+            ],
+            "contains": [
+              "elf",
+              "lv2",
+              "so",
+              "vst3"
+            ],
+            "format": "deb",
+            "sha256": "4e681d24412fcba1348799a76c3a57268e8b17b66781bbf5ac59218b391e4441",
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "size": 5112948,
+            "type": "archive",
+            "url": "https://github.com/jatinchowdhury18/AnalogTapeModel/releases/download/v2.11.4/ChowTapeModel-Linux-x64-2.11.4.deb"
+          },
+          {
+            "architectures": [
+              "bit64"
+            ],
+            "contains": [
+              "aax",
+              "app",
+              "component",
+              "vst",
+              "vst3"
+            ],
+            "format": "zip",
+            "sha256": "294719960207834d12e2f4662dc346a2fe3f5f1194a19e0a149a14d0bbab476b",
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "size": 28745196,
+            "type": "archive",
+            "url": "https://github.com/jatinchowdhury18/AnalogTapeModel/releases/download/v2.11.4/ChowTapeModel-Mac-2.11.4.dmg"
+          },
+          {
+            "architectures": [
+              "bit64"
+            ],
+            "contains": [
+              "dll",
+              "exe",
+              "vst3"
+            ],
+            "format": "exe",
+            "sha256": "80df51c369e0b6d4a75a44e55cb75db1eb0a0838aac8dcce8bfd922a53b5232d",
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "size": 10646528,
+            "type": "archive",
+            "url": "https://github.com/jatinchowdhury18/AnalogTapeModel/releases/download/v2.11.4/ChowTapeModel-Win-64bit-2.11.4.exe"
+          }
+        ],
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/chowdhury-dsp/chowtapemodel/chowtapemodel.jpg",
+        "license": "gpl-3.0",
+        "name": "Chow Tape Model",
+        "tags": [
+          "Effect",
+          "Filter",
+          "Tape"
+        ],
+        "type": "effect",
+        "url": "https://github.com/jatinchowdhury18/AnalogTapeModel"
+      }
+    }
+  },
+  "chowdhury-dsp/chowmatrix": {
+    "slug": "chowdhury-dsp/chowmatrix",
+    "version": "1.3.0",
+    "versions": {
+      "1.3.0": {
+        "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/chowdhury-dsp/chowmatrix/chowmatrix.flac",
+        "author": "Chowdhury DSP",
+        "changes": "- Added iOS/AUv3 support.\n- Added Pro Tools/AAX support.\n- Added forwarding parameters to expose node parameters to DAWs.\n- Added \"Alien\" delay mode.\n- Added \"Reverse\" delay parameter.\n- Added optional automatic gain compensation for wet signal.\n- Added lock/unlock options for parameter randomisation.\n- Fixed \"hang\" when bringing delay to 0 ms in \"Analog\" mode.\n- Improved performance for pan modulation.\n- Improved preset management system.\n- Added option to throttle graphics rendering for the Matrix View.\n- Improved memory usage.\n",
+        "date": "2021-12-21T07:00:00.000Z",
+        "description": "Delay effect, made up of an infinitely growable tree of delay lines, each with individual controls for feedback, panning, distortion, and more.",
+        "files": [
+          {
+            "architectures": [
+              "bit64"
+            ],
+            "contains": [
+              "elf",
+              "lv2",
+              "so",
+              "vst3"
+            ],
+            "format": "deb",
+            "sha256": "0e0aa9187a43db2887f4a817c8e78ea9bfef2961f5c9627296eafd6803a0f4b7",
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "size": 2990012,
+            "type": "archive",
+            "url": "https://github.com/Chowdhury-DSP/ChowMatrix/releases/download/v1.3.0/ChowMatrix-Linux-x64-1.3.0.deb"
+          },
+          {
+            "architectures": [
+              "bit64"
+            ],
+            "contains": [
+              "aax",
+              "app",
+              "component",
+              "vst",
+              "vst3"
+            ],
+            "format": "zip",
+            "sha256": "075822551685534c7c5acc3738807afdb94222d38a6409cbe3a39bf2485de61d",
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "size": 17091478,
+            "type": "archive",
+            "url": "https://github.com/Chowdhury-DSP/ChowMatrix/releases/download/v1.3.0/ChowMatrix-Mac-1.3.0.dmg"
+          },
+          {
+            "architectures": [
+              "bit64"
+            ],
+            "contains": [
+              "dll",
+              "exe",
+              "vst3"
+            ],
+            "format": "exe",
+            "sha256": "3a2db17a628a5638a64608d7d89df37aeb3be814516aa95cc434f46a4ec4c916",
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "size": 7958887,
+            "type": "archive",
+            "url": "https://github.com/Chowdhury-DSP/ChowMatrix/releases/download/v1.3.0/ChowMatrix-Win-1.3.0.exe"
+          }
+        ],
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/chowdhury-dsp/chowmatrix/chowmatrix.jpg",
+        "license": "bsd-3-clause",
+        "name": "CHOW Matrix",
+        "tags": [
+          "Effect",
+          "Delay",
+          "Feedback"
+        ],
+        "type": "effect",
+        "url": "https://github.com/Chowdhury-DSP/ChowMatrix"
+      }
+    }
+  }
+}

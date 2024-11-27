@@ -1,0 +1,88 @@
+{
+  "slug": "chowdhury-dsp/chowmatrix",
+  "version": "1.3.0",
+  "versions": {
+    "1.3.0": {
+      "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/chowdhury-dsp/chowmatrix/chowmatrix.flac",
+      "author": "Chowdhury DSP",
+      "changes": "- Added iOS/AUv3 support.\n- Added Pro Tools/AAX support.\n- Added forwarding parameters to expose node parameters to DAWs.\n- Added \"Alien\" delay mode.\n- Added \"Reverse\" delay parameter.\n- Added optional automatic gain compensation for wet signal.\n- Added lock/unlock options for parameter randomisation.\n- Fixed \"hang\" when bringing delay to 0 ms in \"Analog\" mode.\n- Improved performance for pan modulation.\n- Improved preset management system.\n- Added option to throttle graphics rendering for the Matrix View.\n- Improved memory usage.\n",
+      "date": "2021-12-21T07:00:00.000Z",
+      "description": "Delay effect, made up of an infinitely growable tree of delay lines, each with individual controls for feedback, panning, distortion, and more.",
+      "files": [
+        {
+          "architectures": [
+            "bit64"
+          ],
+          "contains": [
+            "elf",
+            "lv2",
+            "so",
+            "vst3"
+          ],
+          "format": "deb",
+          "sha256": "0e0aa9187a43db2887f4a817c8e78ea9bfef2961f5c9627296eafd6803a0f4b7",
+          "systems": [
+            {
+              "type": "linux"
+            }
+          ],
+          "size": 2990012,
+          "type": "archive",
+          "url": "https://github.com/Chowdhury-DSP/ChowMatrix/releases/download/v1.3.0/ChowMatrix-Linux-x64-1.3.0.deb"
+        },
+        {
+          "architectures": [
+            "bit64"
+          ],
+          "contains": [
+            "aax",
+            "app",
+            "component",
+            "vst",
+            "vst3"
+          ],
+          "format": "zip",
+          "sha256": "075822551685534c7c5acc3738807afdb94222d38a6409cbe3a39bf2485de61d",
+          "systems": [
+            {
+              "type": "mac"
+            }
+          ],
+          "size": 17091478,
+          "type": "archive",
+          "url": "https://github.com/Chowdhury-DSP/ChowMatrix/releases/download/v1.3.0/ChowMatrix-Mac-1.3.0.dmg"
+        },
+        {
+          "architectures": [
+            "bit64"
+          ],
+          "contains": [
+            "dll",
+            "exe",
+            "vst3"
+          ],
+          "format": "exe",
+          "sha256": "3a2db17a628a5638a64608d7d89df37aeb3be814516aa95cc434f46a4ec4c916",
+          "systems": [
+            {
+              "type": "win"
+            }
+          ],
+          "size": 7958887,
+          "type": "archive",
+          "url": "https://github.com/Chowdhury-DSP/ChowMatrix/releases/download/v1.3.0/ChowMatrix-Win-1.3.0.exe"
+        }
+      ],
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/chowdhury-dsp/chowmatrix/chowmatrix.jpg",
+      "license": "bsd-3-clause",
+      "name": "CHOW Matrix",
+      "tags": [
+        "Effect",
+        "Delay",
+        "Feedback"
+      ],
+      "type": "effect",
+      "url": "https://github.com/Chowdhury-DSP/ChowMatrix"
+    }
+  }
+}

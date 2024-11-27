@@ -1,0 +1,86 @@
+{
+  "slug": "asb2m10/dexed",
+  "version": "0.9.8",
+  "versions": {
+    "0.9.8": {
+      "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/asb2m10/dexed/dexed.flac",
+      "author": "Pascal Gauthier",
+      "changes": "- Accessibility implementation (including keyboard shortcuts)\n- UI component refresh\n- Mono/Poly parameter is now a plugin parameter\n- Copy/paste operator values are now text based (and system wide)\n- Fix Apple Logic startup issue\n- Corrections of graphs for Algorithms 15 and 14 by @FulopNandor in #436\n- Code cleanup for MidiMonitor by @FulopNandor in #442\n- Corrections for DexedTheme v2 by @FulopNandor in #443\n",
+      "date": "2024-10-08T07:00:00.000Z",
+      "description": "Synthesizer closely modeled on the Yamaha DX7.",
+      "files": [
+        {
+          "architectures": [
+            "bit64"
+          ],
+          "contains": [
+            "elf",
+            "clap",
+            "vst3"
+          ],
+          "format": "zip",
+          "sha256": "28c00eb6c2ab6172ef2650f384d4a0299c654d3b21b3f8a124f4fad0beff15f1",
+          "systems": [
+            {
+              "type": "linux"
+            }
+          ],
+          "size": 7612454,
+          "type": "archive",
+          "url": "https://github.com/asb2m10/dexed/releases/download/v0.9.8/dexed-0.9.8-lnx.zip"
+        },
+        {
+          "architectures": [
+            "bit64"
+          ],
+          "contains": [
+            "app",
+            "clap",
+            "component",
+            "vst3"
+          ],
+          "format": "zip",
+          "sha256": "f85655398a60b924e90eca127fd7c40a0794546fea205fc613b9d7f216b2627d",
+          "systems": [
+            {
+              "type": "mac"
+            }
+          ],
+          "size": 17072451,
+          "type": "archive",
+          "url": "https://github.com/asb2m10/dexed/releases/download/v0.9.8/dexed-0.9.8-macos.zip"
+        },
+        {
+          "architectures": [
+            "bit64"
+          ],
+          "contains": [
+            "exe",
+            "clap",
+            "vst3"
+          ],
+          "format": "zip",
+          "sha256": "346f729c94e409b90ca3e0148ccf061794d288c7cc2f4d9ff3f13db945e6d78b",
+          "systems": [
+            {
+              "type": "win"
+            }
+          ],
+          "size": 10388001,
+          "type": "archive",
+          "url": "https://github.com/asb2m10/dexed/releases/download/v0.9.8/dexed-0.9.8-win.zip"
+        }
+      ],
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/asb2m10/dexed/dexed.jpg",
+      "license": "gpl-3.0",
+      "name": "Dexed",
+      "tags": [
+        "Instrument",
+        "Synth",
+        "FM"
+      ],
+      "type": "instrument",
+      "url": "https://github.com/asb2m10/dexed"
+    }
+  }
+}

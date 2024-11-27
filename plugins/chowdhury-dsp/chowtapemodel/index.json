@@ -1,0 +1,88 @@
+{
+  "slug": "chowdhury-dsp/chowtapemodel",
+  "version": "2.11.4",
+  "versions": {
+    "2.11.4": {
+      "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/chowdhury-dsp/chowtapemodel/chowtapemodel.flac",
+      "author": "Chowdhury DSP",
+      "changes": "- Fixed bug in Wow processing at high levels of \"Depth\".\n",
+      "date": "2023-11-05T07:00:00.000Z",
+      "description": "Chow Tape Model is a digital emulation of a reel-to-reel analog tape machine. The original algorithm was developed to emulate the Sony TC-260, but has since been expanded to be able to model a wide variety of tape machines.",
+      "files": [
+        {
+          "architectures": [
+            "bit64"
+          ],
+          "contains": [
+            "elf",
+            "lv2",
+            "so",
+            "vst3"
+          ],
+          "format": "deb",
+          "sha256": "4e681d24412fcba1348799a76c3a57268e8b17b66781bbf5ac59218b391e4441",
+          "systems": [
+            {
+              "type": "linux"
+            }
+          ],
+          "size": 5112948,
+          "type": "archive",
+          "url": "https://github.com/jatinchowdhury18/AnalogTapeModel/releases/download/v2.11.4/ChowTapeModel-Linux-x64-2.11.4.deb"
+        },
+        {
+          "architectures": [
+            "bit64"
+          ],
+          "contains": [
+            "aax",
+            "app",
+            "component",
+            "vst",
+            "vst3"
+          ],
+          "format": "zip",
+          "sha256": "294719960207834d12e2f4662dc346a2fe3f5f1194a19e0a149a14d0bbab476b",
+          "systems": [
+            {
+              "type": "mac"
+            }
+          ],
+          "size": 28745196,
+          "type": "archive",
+          "url": "https://github.com/jatinchowdhury18/AnalogTapeModel/releases/download/v2.11.4/ChowTapeModel-Mac-2.11.4.dmg"
+        },
+        {
+          "architectures": [
+            "bit64"
+          ],
+          "contains": [
+            "dll",
+            "exe",
+            "vst3"
+          ],
+          "format": "exe",
+          "sha256": "80df51c369e0b6d4a75a44e55cb75db1eb0a0838aac8dcce8bfd922a53b5232d",
+          "systems": [
+            {
+              "type": "win"
+            }
+          ],
+          "size": 10646528,
+          "type": "archive",
+          "url": "https://github.com/jatinchowdhury18/AnalogTapeModel/releases/download/v2.11.4/ChowTapeModel-Win-64bit-2.11.4.exe"
+        }
+      ],
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/chowdhury-dsp/chowtapemodel/chowtapemodel.jpg",
+      "license": "gpl-3.0",
+      "name": "Chow Tape Model",
+      "tags": [
+        "Effect",
+        "Filter",
+        "Tape"
+      ],
+      "type": "effect",
+      "url": "https://github.com/jatinchowdhury18/AnalogTapeModel"
+    }
+  }
+}
