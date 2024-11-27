@@ -1,0 +1,83 @@
+{
+  "slug": "mikemorenodsp/ep-mk1",
+  "version": "2.4.0",
+  "versions": {
+    "2.4.0": {
+      "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/mikemorenodsp/ep-mk1/ep-mk1.flac",
+      "author": "Miguel Moreno",
+      "changes": "- Update to Camomile 1.0.7\n",
+      "date": "2020-09-28T07:00:00.000Z",
+      "description": "Real-time physical model of an Electric Piano.",
+      "files": [
+        {
+          "architectures": [
+            "bit64"
+          ],
+          "contains": [
+            "elf",
+            "so"
+          ],
+          "format": "tar.gz",
+          "sha256": "95011e8e99bd2d0985cfe6c0fe3ad0a855fb3b908deab808993923f2f2cbbbda",
+          "systems": [
+            {
+              "type": "linux"
+            }
+          ],
+          "size": 3657547,
+          "type": "archive",
+          "url": "https://github.com/MikeMorenoDSP/EP-MK1/releases/download/v2.4/EP-MK1-Linux64.zip"
+        },
+        {
+          "architectures": [
+            "bit64"
+          ],
+          "contains": [
+            "vst",
+            "vst3"
+          ],
+          "format": "dmg",
+          "sha256": "6ed21fe14b636c1c43de4a62aae69816372566eafa76095d6da57b92a44f4a70",
+          "systems": [
+            {
+              "type": "mac"
+            }
+          ],
+          "size": 5258069,
+          "type": "archive",
+          "url": "https://github.com/MikeMorenoDSP/EP-MK1/releases/download/v2.4/EP-MK1-MacOS.zip"
+        },
+        {
+          "architectures": [
+            "bit64"
+          ],
+          "contains": [
+            "dll",
+            "vst3"
+          ],
+          "format": "zip",
+          "sha256": "529d97fb9161453a01a91145f28fe2c3ae59680122b5232a57f1bef14bd2430e",
+          "systems": [
+            {
+              "type": "win"
+            }
+          ],
+          "size": 4706043,
+          "type": "archive",
+          "url": "https://github.com/MikeMorenoDSP/EP-MK1/releases/download/v2.4/EP-MK1-Windows64.zip"
+        }
+      ],
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/mikemorenodsp/ep-mk1/ep-mk1.jpg",
+      "license": "gpl-3.0",
+      "name": "EP-MK1",
+      "tags": [
+        "Instrument",
+        "Synth",
+        "Electric",
+        "Piano"
+      ],
+      "type": "instrument",
+      "url": "https://github.com/MikeMorenoDSP/EP-MK1"
+    }
+  }
+}

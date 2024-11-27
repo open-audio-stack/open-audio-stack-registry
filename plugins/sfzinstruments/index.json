@@ -88,6 +88,184 @@
       }
     }
   },
+  "sfzinstruments/horse-pulse": {
+    "slug": "sfzinstruments/horse-pulse",
+    "version": "1.0.0",
+    "versions": {
+      "1.0.0": {
+        "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/horse-pulse/horse-pulse.flac",
+        "author": "DSmolken",
+        "changes": "",
+        "date": "2022-04-01T07:00:00.000Z",
+        "description": "Bass Tagelharpa played pizzicato.",
+        "files": [
+          {
+            "architectures": [
+              "arm32",
+              "arm64",
+              "bit32",
+              "bit64"
+            ],
+            "contains": [
+              "sfz"
+            ],
+            "format": "zip",
+            "sha256": "03f2f03c9ec2b81a960739d265341ea3b3b04df4af9677498696b5662efaeb54",
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "size": 147505176,
+            "type": "archive",
+            "url": "https://github.com/sfzinstruments/Karoryfer.HorsePulse/releases/download/v1.000/Karoryfer_Horse_Pulse_1000.zip"
+          },
+          {
+            "architectures": [
+              "arm32",
+              "arm64",
+              "bit32",
+              "bit64"
+            ],
+            "contains": [
+              "sfz"
+            ],
+            "format": "zip",
+            "sha256": "03f2f03c9ec2b81a960739d265341ea3b3b04df4af9677498696b5662efaeb54",
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "size": 147505176,
+            "type": "archive",
+            "url": "https://github.com/sfzinstruments/Karoryfer.HorsePulse/releases/download/v1.000/Karoryfer_Horse_Pulse_1000.zip"
+          },
+          {
+            "architectures": [
+              "arm32",
+              "arm64",
+              "bit32",
+              "bit64"
+            ],
+            "contains": [
+              "sfz"
+            ],
+            "format": "zip",
+            "sha256": "03f2f03c9ec2b81a960739d265341ea3b3b04df4af9677498696b5662efaeb54",
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "size": 147505176,
+            "type": "archive",
+            "url": "https://github.com/sfzinstruments/Karoryfer.HorsePulse/releases/download/v1.000/Karoryfer_Horse_Pulse_1000.zip"
+          }
+        ],
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/horse-pulse/horse-pulse.jpg",
+        "license": "cc0-1.0",
+        "name": "Horse Pulse",
+        "tags": [
+          "Instrument",
+          "String",
+          "Pluck",
+          "sfz"
+        ],
+        "type": "sampler",
+        "url": "https://github.com/sfzinstruments/Karoryfer.HorsePulse"
+      }
+    }
+  },
+  "sfzinstruments/double-bass": {
+    "slug": "sfzinstruments/double-bass",
+    "version": "1.0.1",
+    "versions": {
+      "1.0.1": {
+        "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/double-bass/double-bass.flac",
+        "author": "DSmolken",
+        "changes": "",
+        "date": "2022-09-04T07:00:00.000Z",
+        "description": "1958 Otto Rubner double bass played arco and pizzicato with additional miscellaneous noises.",
+        "files": [
+          {
+            "architectures": [
+              "arm32",
+              "arm64",
+              "bit32",
+              "bit64"
+            ],
+            "contains": [
+              "sfz"
+            ],
+            "format": "zip",
+            "sha256": "85d114e3f3e1a505475ada5dce3443a272697ad5b32630bd769d9e3c496b3671",
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "size": 265232156,
+            "type": "archive",
+            "url": "https://github.com/sfzinstruments/dsmolken.double-bass/releases/download/v1.001/DSmolken.double_bass.v1.001.zip"
+          },
+          {
+            "architectures": [
+              "arm32",
+              "arm64",
+              "bit32",
+              "bit64"
+            ],
+            "contains": [
+              "sfz"
+            ],
+            "format": "zip",
+            "sha256": "85d114e3f3e1a505475ada5dce3443a272697ad5b32630bd769d9e3c496b3671",
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "size": 265232156,
+            "type": "archive",
+            "url": "https://github.com/sfzinstruments/dsmolken.double-bass/releases/download/v1.001/DSmolken.double_bass.v1.001.zip"
+          },
+          {
+            "architectures": [
+              "arm32",
+              "arm64",
+              "bit32",
+              "bit64"
+            ],
+            "contains": [
+              "sfz"
+            ],
+            "format": "zip",
+            "sha256": "85d114e3f3e1a505475ada5dce3443a272697ad5b32630bd769d9e3c496b3671",
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "size": 265232156,
+            "type": "archive",
+            "url": "https://github.com/sfzinstruments/dsmolken.double-bass/releases/download/v1.001/DSmolken.double_bass.v1.001.zip"
+          }
+        ],
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/double-bass/double-bass.jpg",
+        "license": "cc0-1.0",
+        "name": "Double Bass",
+        "tags": [
+          "Instrument",
+          "String",
+          "Bass",
+          "sfz"
+        ],
+        "type": "sampler",
+        "url": "https://github.com/sfzinstruments/dsmolken.double-bass"
+      }
+    }
+  },
   "sfzinstruments/black-and-green-guitars": {
     "slug": "sfzinstruments/black-and-green-guitars",
     "version": "1.0.0",

@@ -1,0 +1,86 @@
+{
+  "mtytel/helm": {
+    "slug": "mtytel/helm",
+    "version": "0.9.0",
+    "versions": {
+      "0.9.0": {
+        "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/mtytel/helm/helm.flac",
+        "author": "Matt Tytel",
+        "changes": "",
+        "date": "2017-07-08T08:00:00.000Z",
+        "description": "Polyphonic semi-modular synthesizer with a flexible modulation system.",
+        "files": [
+          {
+            "architectures": [
+              "bit64"
+            ],
+            "contains": [
+              "elf",
+              "lv2",
+              "so"
+            ],
+            "format": "deb",
+            "sha256": "db71839de921425e5038a89c3440969be831ddb2312909320d74998e5fa561aa",
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "size": 8328284,
+            "type": "archive",
+            "url": "https://tytel.org/static/dist/helm_0.9.0_amd64_r.deb"
+          },
+          {
+            "architectures": [
+              "bit64"
+            ],
+            "contains": [
+              "app",
+              "component",
+              "vst3"
+            ],
+            "format": "pkg",
+            "sha256": "772427b7fb8552bdf924d6735d27003b813e7a6999cfb5e7c9a06672aaa417b4",
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "size": 17258268,
+            "type": "archive",
+            "url": "https://tytel.org/static/dist/Helm_v0_9_0_r.pkg"
+          },
+          {
+            "architectures": [
+              "bit64"
+            ],
+            "contains": [
+              "dll",
+              "vst3"
+            ],
+            "format": "msi",
+            "sha256": "c86ee5676040d3753b356eeb643f732cbd78cc31596bc8150bc5fb38ffd25412",
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "size": 11001856,
+            "type": "installer",
+            "url": "https://tytel.org/static/dist/Helm_32bit_v0_9_0_r.msi"
+          }
+        ],
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/mtytel/helm/helm.jpg",
+        "license": "gpl-3.0",
+        "name": "Helm",
+        "tags": [
+          "Instrument",
+          "Synth",
+          "Modulation"
+        ],
+        "type": "instrument",
+        "url": "https://github.com/mtytel/helm"
+      }
+    }
+  }
+}
