@@ -5,6 +5,8 @@
 
 Audio registry with searchable list of packages containing Plugins, Presets and Projects. Provides an API with file metadata and urls to binaries for installation.
 
+This registry is primarily for distributing free open-source packages. There are plenty of solutions for closed-source, paid plugins. Packages should be built for cross-platform, supporting Linux, Mac and Windows. Packages which don't meet the guidelines may be rejected and/or removed at an Open Stack contributor at any time.
+
 ## How it works
 
 Community members add Yaml files to a new branch of this code, one for each package version.
