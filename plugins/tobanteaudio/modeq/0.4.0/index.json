@@ -1,0 +1,76 @@
+{
+  "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/tobanteaudio/modeq/modeq.flac",
+  "author": "Tobante Audio",
+  "changes": "",
+  "date": "2019-05-17T07:00:00.000Z",
+  "description": "EQ audio effects plugin with modulation.",
+  "files": [
+    {
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "elf"
+      ],
+      "format": "zip",
+      "sha256": "953be01e0c0def6b46cfb76154dda53971fa930563c71d2449b5f413621964e7",
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "size": 7109975,
+      "type": "archive",
+      "url": "https://github.com/tobanteAudio/modEQ/releases/download/v0.4.0/modEQ-v0.4.0-linux.zip"
+    },
+    {
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "app",
+        "component",
+        "vst3"
+      ],
+      "format": "zip",
+      "sha256": "52dd7824dd728477c56d98ceff91fc269b90f9e57cff864b7d954ad1d84e4a57",
+      "systems": [
+        {
+          "type": "mac"
+        }
+      ],
+      "size": 3209964,
+      "type": "archive",
+      "url": "https://github.com/tobanteAudio/modEQ/releases/download/v0.4.0/modEQ-v0.4.0-macOS.zip"
+    },
+    {
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "exe",
+        "vst3"
+      ],
+      "format": "zip",
+      "sha256": "e9688f6eda4e7076804c3abf68184c12f4c898fd59ca1333d06a15781b4a4341",
+      "systems": [
+        {
+          "type": "win"
+        }
+      ],
+      "size": 3719312,
+      "type": "archive",
+      "url": "https://github.com/tobanteAudio/modEQ/releases/download/v0.4.0/modEQ-v0.4.0-win64.zip"
+    }
+  ],
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/tobanteaudio/modeq/modeq.jpg",
+  "license": "gpl-3.0",
+  "name": "modEQ",
+  "tags": [
+    "Effect",
+    "EQ",
+    "Modulation"
+  ],
+  "type": "effect",
+  "url": "https://github.com/tobanteAudio/modEQ"
+}

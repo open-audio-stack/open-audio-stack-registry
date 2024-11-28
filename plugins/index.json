@@ -1,4 +1,86 @@
 {
+  "tobanteaudio/modeq": {
+    "slug": "tobanteaudio/modeq",
+    "version": "0.4.0",
+    "versions": {
+      "0.4.0": {
+        "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/tobanteaudio/modeq/modeq.flac",
+        "author": "Tobante Audio",
+        "changes": "",
+        "date": "2019-05-17T07:00:00.000Z",
+        "description": "EQ audio effects plugin with modulation.",
+        "files": [
+          {
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "elf"
+            ],
+            "format": "zip",
+            "sha256": "953be01e0c0def6b46cfb76154dda53971fa930563c71d2449b5f413621964e7",
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "size": 7109975,
+            "type": "archive",
+            "url": "https://github.com/tobanteAudio/modEQ/releases/download/v0.4.0/modEQ-v0.4.0-linux.zip"
+          },
+          {
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "app",
+              "component",
+              "vst3"
+            ],
+            "format": "zip",
+            "sha256": "52dd7824dd728477c56d98ceff91fc269b90f9e57cff864b7d954ad1d84e4a57",
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "size": 3209964,
+            "type": "archive",
+            "url": "https://github.com/tobanteAudio/modEQ/releases/download/v0.4.0/modEQ-v0.4.0-macOS.zip"
+          },
+          {
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "exe",
+              "vst3"
+            ],
+            "format": "zip",
+            "sha256": "e9688f6eda4e7076804c3abf68184c12f4c898fd59ca1333d06a15781b4a4341",
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "size": 3719312,
+            "type": "archive",
+            "url": "https://github.com/tobanteAudio/modEQ/releases/download/v0.4.0/modEQ-v0.4.0-win64.zip"
+          }
+        ],
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/tobanteaudio/modeq/modeq.jpg",
+        "license": "gpl-3.0",
+        "name": "modEQ",
+        "tags": [
+          "Effect",
+          "EQ",
+          "Modulation"
+        ],
+        "type": "effect",
+        "url": "https://github.com/tobanteAudio/modEQ"
+      }
+    }
+  },
   "surge-synthesizer/surge": {
     "slug": "surge-synthesizer/surge",
     "version": "1.3.4",
@@ -166,6 +248,93 @@
         ],
         "type": "instrument",
         "url": "https://github.com/surge-synthesizer/surge"
+      }
+    }
+  },
+  "surge-synthesizer/monique-monosynth": {
+    "slug": "surge-synthesizer/monique-monosynth",
+    "version": "1.2.0",
+    "versions": {
+      "1.2.0": {
+        "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/surge-synthesizer/monique-monosynth/monique.flac",
+        "author": "Surge Synth Team",
+        "changes": "- More docker corrections\n- Correct the docker release action\n- Add a linux docker build (#138)\n- Tweak to release pipeline\n- Just bump for pipeline test",
+        "date": "2021-12-13T07:00:00.000Z",
+        "description": "Monophonic, realtime, subtractive-synthesis bass-and-lead software synthesizer.",
+        "files": [
+          {
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "elf",
+              "clap",
+              "vst3"
+            ],
+            "format": "zip",
+            "sha256": "a9a9a9b42e111bd41ee24157368ca2499cace806c505f7f8ccd9aeec03f251b7",
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "size": 11138914,
+            "type": "archive",
+            "url": "https://github.com/surge-synthesizer/monique-monosynth/releases/download/Nightly/MoniqueMonosynth-2024-08-07-df7d339-Linux.zip"
+          },
+          {
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "app",
+              "clap",
+              "component",
+              "vst3"
+            ],
+            "format": "dmg",
+            "sha256": "7a3097c486c002d6533b55bae6ffd3024e9ccbc266e79ef008d2763719925843",
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "size": 26204639,
+            "type": "archive",
+            "url": "https://github.com/surge-synthesizer/monique-monosynth/releases/download/Nightly/moniquemonosynth-macOS-2024-08-07-df7d339.dmg"
+          },
+          {
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "exe",
+              "clap",
+              "vst3"
+            ],
+            "format": "zip",
+            "sha256": "483d957388e5655639a1a43092ce0f9677e512ee016186a3110909112d99b9f4",
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "size": 11473649,
+            "type": "archive",
+            "url": "https://github.com/surge-synthesizer/monique-monosynth/releases/download/Nightly/MoniqueMonosynth-2024-08-07-df7d339-Windows-64bit.zip"
+          }
+        ],
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/surge-synthesizer/monique-monosynth/monique.jpg",
+        "license": "gpl-3.0",
+        "name": "Monique",
+        "tags": [
+          "Instrument",
+          "Synth",
+          "Bass",
+          "Lead"
+        ],
+        "type": "instrument",
+        "url": "https://github.com/surge-synthesizer/monique-monosynth"
       }
     }
   },
@@ -516,6 +685,94 @@
         ],
         "type": "sampler",
         "url": "https://github.com/sfzinstruments/splendidgrandpiano"
+      }
+    }
+  },
+  "sfzinstruments/nakeddrums": {
+    "slug": "sfzinstruments/nakeddrums",
+    "version": "1.0.0",
+    "versions": {
+      "1.0.0": {
+        "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/nakeddrums/nakeddrums.flac",
+        "author": "Wilkinson Audio",
+        "changes": "",
+        "date": "2021-11-08T07:00:00.000Z",
+        "description": "Multi-mic drumkit, with 10 round-robins, up to 5 velocity layers and several mic layers (Direct, OH, Close room, Far rooms, Mid-side and Wide OH).",
+        "files": [
+          {
+            "architectures": [
+              "arm32",
+              "arm64",
+              "x32",
+              "x64"
+            ],
+            "contains": [
+              "sfz"
+            ],
+            "format": "zip",
+            "sha256": "78201a1a9a7ba3596d49e2bfa88b76ed827ca5cdc95026666b6f88cd5100610b",
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "size": 1282802809,
+            "type": "archive",
+            "url": "https://github.com/sfzinstruments/WilkinsonAudio.NakedDrums/archive/refs/heads/master.zip"
+          },
+          {
+            "architectures": [
+              "arm32",
+              "arm64",
+              "x32",
+              "x64"
+            ],
+            "contains": [
+              "sfz"
+            ],
+            "format": "zip",
+            "sha256": "78201a1a9a7ba3596d49e2bfa88b76ed827ca5cdc95026666b6f88cd5100610b",
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "size": 1282802809,
+            "type": "archive",
+            "url": "https://github.com/sfzinstruments/WilkinsonAudio.NakedDrums/archive/refs/heads/master.zip"
+          },
+          {
+            "architectures": [
+              "arm32",
+              "arm64",
+              "x32",
+              "x64"
+            ],
+            "contains": [
+              "sfz"
+            ],
+            "format": "zip",
+            "sha256": "78201a1a9a7ba3596d49e2bfa88b76ed827ca5cdc95026666b6f88cd5100610b",
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "size": 1282802809,
+            "type": "archive",
+            "url": "https://github.com/sfzinstruments/WilkinsonAudio.NakedDrums/archive/refs/heads/master.zip"
+          }
+        ],
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/nakeddrums/nakeddrums.jpg",
+        "license": "cc-by-4.0",
+        "name": "Naked Drums",
+        "tags": [
+          "Instrument",
+          "Drums",
+          "sfz"
+        ],
+        "type": "sampler",
+        "url": "https://github.com/sfzinstruments/WilkinsonAudio.NakedDrums"
       }
     }
   },
@@ -1598,6 +1855,85 @@
         ],
         "type": "sampler",
         "url": "https://github.com/michael02022/basic-harmonica"
+      }
+    }
+  },
+  "martineastwood/mverb": {
+    "slug": "martineastwood/mverb",
+    "version": "1.0.0",
+    "versions": {
+      "1.0.0": {
+        "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/martineastwood/mverb/mverb.flac",
+        "author": "Martin Eastwood",
+        "changes": "",
+        "date": "2013-03-25T07:00:00.000Z",
+        "description": "Studio quality, open-source reverb. Its release was intended to provide a practical demonstration of Dattorro's figure-of-eight reverb structure and provide the open source community with a high quality reverb.",
+        "files": [
+          {
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "so"
+            ],
+            "format": "zip",
+            "sha256": "101ecc4d4634c257fd91f89e3ba8cafdd56d5b79ee9eda66102ff78777460520",
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "size": 188933,
+            "type": "archive",
+            "url": "https://rekkerd.org/bin/martineastwood/MVerb_LINUX.zip"
+          },
+          {
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "component",
+              "vst"
+            ],
+            "format": "zip",
+            "sha256": "648bd13355a3b8c40c0ce2fba3ec62c09e222ed291af44444b72d3cf29ebf7aa",
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "size": 674694,
+            "type": "archive",
+            "url": "https://rekkerd.org/bin/martineastwood/MVerb_MAC.zip"
+          },
+          {
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "dll"
+            ],
+            "format": "zip",
+            "sha256": "0eeecde752bf6f2c80797faa8a2a17dc5b6951fbfbc63bbf0f2e1847b8f53070",
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "size": 283901,
+            "type": "archive",
+            "url": "https://rekkerd.org/bin/martineastwood/MVerb_PC.zip"
+          }
+        ],
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/martineastwood/mverb/mverb.jpg",
+        "license": "gpl-3.0",
+        "name": "Mverb",
+        "tags": [
+          "Effect",
+          "Reverb"
+        ],
+        "type": "effect",
+        "url": "https://github.com/martineastwood/mverb"
       }
     }
   },

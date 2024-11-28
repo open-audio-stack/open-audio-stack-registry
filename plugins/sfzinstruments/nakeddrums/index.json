@@ -1,0 +1,88 @@
+{
+  "slug": "sfzinstruments/nakeddrums",
+  "version": "1.0.0",
+  "versions": {
+    "1.0.0": {
+      "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/nakeddrums/nakeddrums.flac",
+      "author": "Wilkinson Audio",
+      "changes": "",
+      "date": "2021-11-08T07:00:00.000Z",
+      "description": "Multi-mic drumkit, with 10 round-robins, up to 5 velocity layers and several mic layers (Direct, OH, Close room, Far rooms, Mid-side and Wide OH).",
+      "files": [
+        {
+          "architectures": [
+            "arm32",
+            "arm64",
+            "x32",
+            "x64"
+          ],
+          "contains": [
+            "sfz"
+          ],
+          "format": "zip",
+          "sha256": "78201a1a9a7ba3596d49e2bfa88b76ed827ca5cdc95026666b6f88cd5100610b",
+          "systems": [
+            {
+              "type": "linux"
+            }
+          ],
+          "size": 1282802809,
+          "type": "archive",
+          "url": "https://github.com/sfzinstruments/WilkinsonAudio.NakedDrums/archive/refs/heads/master.zip"
+        },
+        {
+          "architectures": [
+            "arm32",
+            "arm64",
+            "x32",
+            "x64"
+          ],
+          "contains": [
+            "sfz"
+          ],
+          "format": "zip",
+          "sha256": "78201a1a9a7ba3596d49e2bfa88b76ed827ca5cdc95026666b6f88cd5100610b",
+          "systems": [
+            {
+              "type": "mac"
+            }
+          ],
+          "size": 1282802809,
+          "type": "archive",
+          "url": "https://github.com/sfzinstruments/WilkinsonAudio.NakedDrums/archive/refs/heads/master.zip"
+        },
+        {
+          "architectures": [
+            "arm32",
+            "arm64",
+            "x32",
+            "x64"
+          ],
+          "contains": [
+            "sfz"
+          ],
+          "format": "zip",
+          "sha256": "78201a1a9a7ba3596d49e2bfa88b76ed827ca5cdc95026666b6f88cd5100610b",
+          "systems": [
+            {
+              "type": "win"
+            }
+          ],
+          "size": 1282802809,
+          "type": "archive",
+          "url": "https://github.com/sfzinstruments/WilkinsonAudio.NakedDrums/archive/refs/heads/master.zip"
+        }
+      ],
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/nakeddrums/nakeddrums.jpg",
+      "license": "cc-by-4.0",
+      "name": "Naked Drums",
+      "tags": [
+        "Instrument",
+        "Drums",
+        "sfz"
+      ],
+      "type": "sampler",
+      "url": "https://github.com/sfzinstruments/WilkinsonAudio.NakedDrums"
+    }
+  }
+}
