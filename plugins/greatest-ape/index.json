@@ -1,0 +1,84 @@
+{
+  "greatest-ape/octasine": {
+    "slug": "greatest-ape/octasine",
+    "version": "0.9.1",
+    "versions": {
+      "0.9.1": {
+        "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/greatest-ape/octasine/octasine.flac",
+        "author": "Joakim Frostegård",
+        "changes": "- Fix GUI issues when using the clap plugin in Bitwig\n- Fix issue with activating operator 2 modulation target from GUI modulation matrix\n- Show file save/load dialogs on top of plugin window on macOS\n- When saving patch bank/state, also save selected patch index (and restore it on load)",
+        "date": "2024-07-03T07:00:00.000Z",
+        "description": "Frequency modulation-based synthesizer plugin.",
+        "files": [
+          {
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "clap",
+              "so"
+            ],
+            "format": "zip",
+            "sha256": "cfa2a955bffdb3537bf782b70c175f3ae2071aded2832b464b6b30e5161de173",
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "size": 5760864,
+            "type": "archive",
+            "url": "https://github.com/greatest-ape/OctaSine/releases/download/v0.9.1/OctaSine-v0.9.1-Ubuntu-20_04.zip"
+          },
+          {
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "clap",
+              "vst"
+            ],
+            "format": "zip",
+            "sha256": "449f99fdb00febc8f716ccebbc74767ff73e268f3f7b27717478d1dfa1fea468",
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "size": 10292979,
+            "type": "archive",
+            "url": "https://github.com/greatest-ape/OctaSine/releases/download/v0.9.1/OctaSine-v0.9.1-macOS.zip"
+          },
+          {
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "clap",
+              "dll"
+            ],
+            "format": "zip",
+            "sha256": "7ac928ddfe8f54a26c4264b95d3f1c4ccd047db106694bf5c722748662cb2d5f",
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "size": 4624717,
+            "type": "archive",
+            "url": "https://github.com/greatest-ape/OctaSine/releases/download/v0.9.1/OctaSine-v0.9.1-Windows.zip"
+          }
+        ],
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/greatest-ape/octasine/octasine.jpg",
+        "license": "agpl-3.0",
+        "name": "OctaSine",
+        "tags": [
+          "Instrument",
+          "Synth",
+          "Modulation"
+        ],
+        "type": "instrument",
+        "url": "https://github.com/greatest-ape/OctaSine"
+      }
+    }
+  }
+}

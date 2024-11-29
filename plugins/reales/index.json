@@ -1,0 +1,84 @@
+{
+  "reales/ob-xd": {
+    "slug": "reales/ob-xd",
+    "version": "3.5.0",
+    "versions": {
+      "3.5.0": {
+        "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/reales/ob-xd/obxd.flac",
+        "author": "discoDSP",
+        "changes": "- Unlock Bi-Directional MIDI Control\n- New Unison Voices\n- Enhanced Oscillator Features\n- Advanced Filter Capabilities\n- Refined Attack Envelope Shape\n- Oversampling Selection\n- MIDI and Preset Bar Enhancements\n- LFO Synchronization\n",
+        "date": "2021-05-30T07:00:00.000Z",
+        "description": "Based on the Oberheim OB-X. It attempts to recreate its sound and behaviours, but as the original was very limited in some important ways a number of things were added or altered to the original design. The OB-Xd was designed to sound as good and as rich as the original. It implements micro random detuning which is a big part of that sound.",
+        "files": [
+          {
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "elf",
+              "so"
+            ],
+            "format": "zip",
+            "sha256": "376f794b1ec15ff3ae614d4e094b499b3647c4a3ec0cc21e73cdd4fe62d7e7d9",
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "size": 49557284,
+            "type": "archive",
+            "url": "https://www.discodsp.com/download/?id=9"
+          },
+          {
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "app",
+              "vst"
+            ],
+            "format": "zip",
+            "sha256": "c2f6d5b856f9225594c692633d5a45f664d9820178b7d2b5c0e2eebbe3ec05a7",
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "size": 63317149,
+            "type": "archive",
+            "url": "https://www.discodsp.com/download/?id=2"
+          },
+          {
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "exe",
+              "dll"
+            ],
+            "format": "zip",
+            "sha256": "21100985a638cf93fa25fc5356e9eedfce2eae7604b6a24cee44267b82e78242",
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "size": 52845717,
+            "type": "installer",
+            "url": "https://www.discodsp.com/download/?id=3"
+          }
+        ],
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registryplugins/reales/ob-xd/obxd.jpg",
+        "license": "gpl-3.0",
+        "name": "OB-Xd",
+        "tags": [
+          "Instrument",
+          "Synth",
+          "OB-X"
+        ],
+        "type": "instrument",
+        "url": "https://github.com/reales/OB-Xd"
+      }
+    }
+  }
+}

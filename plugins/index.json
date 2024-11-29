@@ -81,6 +81,91 @@
       }
     }
   },
+  "thewavewarden/odin": {
+    "slug": "thewavewarden/odin",
+    "version": "2.3.4",
+    "versions": {
+      "2.3.4": {
+        "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/thewavewarden/odin/odin.flac",
+        "author": "TheWaveWarden",
+        "changes": "",
+        "date": "2020-11-09T07:00:00.000Z",
+        "description": "12-voice polyphonic semi-modular synthesizer. Earth shattering basses, exquisite leads or mad FX, Odin's got them all! Use the classic sound of analog waveforms - or draw your own.",
+        "files": [
+          {
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "clap",
+              "lv2",
+              "vst3"
+            ],
+            "format": "zip",
+            "sha256": "39aa2104a970ee80119bd05e2d8415f58488159452903e4b49200de74dac3daf",
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "size": 141204627,
+            "type": "archive",
+            "url": "https://github.com/TheWaveWarden/odin2/releases/download/NightlyDevel/Odin2.3.4Linux.zip"
+          },
+          {
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "clap",
+              "component",
+              "vst3"
+            ],
+            "format": "pkg",
+            "sha256": "ecfcbdf9058f6ddc6cdbc344fc32bee5f7cc0ffe135432607c36a6274e47624b",
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "size": 282803372,
+            "type": "archive",
+            "url": "https://github.com/TheWaveWarden/odin2/releases/download/NightlyDevel/Odin2.3.4MacInstaller.pkg"
+          },
+          {
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "clap",
+              "dll",
+              "vst3"
+            ],
+            "format": "zip",
+            "sha256": "828d99b67406adfb354553695df9ea1786772e2ac7fea77fe6197897b9788310",
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "size": 92172129,
+            "type": "archive",
+            "url": "https://github.com/TheWaveWarden/odin2/releases/download/NightlyDevel/Odin2.3.4WinInstaller.exe"
+          }
+        ],
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/thewavewarden/odin/odin.jpg",
+        "license": "gpl-3.0",
+        "name": "Odin",
+        "tags": [
+          "Instrument",
+          "Synth",
+          "Moog"
+        ],
+        "type": "instrument",
+        "url": "https://github.com/TheWaveWarden/odin2"
+      }
+    }
+  },
   "surge-synthesizer/surge": {
     "slug": "surge-synthesizer/surge",
     "version": "1.3.4",
@@ -1399,6 +1484,88 @@
       }
     }
   },
+  "reales/ob-xd": {
+    "slug": "reales/ob-xd",
+    "version": "3.5.0",
+    "versions": {
+      "3.5.0": {
+        "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/reales/ob-xd/obxd.flac",
+        "author": "discoDSP",
+        "changes": "- Unlock Bi-Directional MIDI Control\n- New Unison Voices\n- Enhanced Oscillator Features\n- Advanced Filter Capabilities\n- Refined Attack Envelope Shape\n- Oversampling Selection\n- MIDI and Preset Bar Enhancements\n- LFO Synchronization\n",
+        "date": "2021-05-30T07:00:00.000Z",
+        "description": "Based on the Oberheim OB-X. It attempts to recreate its sound and behaviours, but as the original was very limited in some important ways a number of things were added or altered to the original design. The OB-Xd was designed to sound as good and as rich as the original. It implements micro random detuning which is a big part of that sound.",
+        "files": [
+          {
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "elf",
+              "so"
+            ],
+            "format": "zip",
+            "sha256": "376f794b1ec15ff3ae614d4e094b499b3647c4a3ec0cc21e73cdd4fe62d7e7d9",
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "size": 49557284,
+            "type": "archive",
+            "url": "https://www.discodsp.com/download/?id=9"
+          },
+          {
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "app",
+              "vst"
+            ],
+            "format": "zip",
+            "sha256": "c2f6d5b856f9225594c692633d5a45f664d9820178b7d2b5c0e2eebbe3ec05a7",
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "size": 63317149,
+            "type": "archive",
+            "url": "https://www.discodsp.com/download/?id=2"
+          },
+          {
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "exe",
+              "dll"
+            ],
+            "format": "zip",
+            "sha256": "21100985a638cf93fa25fc5356e9eedfce2eae7604b6a24cee44267b82e78242",
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "size": 52845717,
+            "type": "installer",
+            "url": "https://www.discodsp.com/download/?id=3"
+          }
+        ],
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registryplugins/reales/ob-xd/obxd.jpg",
+        "license": "gpl-3.0",
+        "name": "OB-Xd",
+        "tags": [
+          "Instrument",
+          "Synth",
+          "OB-X"
+        ],
+        "type": "instrument",
+        "url": "https://github.com/reales/OB-Xd"
+      }
+    }
+  },
   "open-soundfonts/virtual-playing-orchestra": {
     "slug": "open-soundfonts/virtual-playing-orchestra",
     "version": "3.3.2",
@@ -2194,6 +2361,88 @@
       }
     }
   },
+  "greatest-ape/octasine": {
+    "slug": "greatest-ape/octasine",
+    "version": "0.9.1",
+    "versions": {
+      "0.9.1": {
+        "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/greatest-ape/octasine/octasine.flac",
+        "author": "Joakim Frostegård",
+        "changes": "- Fix GUI issues when using the clap plugin in Bitwig\n- Fix issue with activating operator 2 modulation target from GUI modulation matrix\n- Show file save/load dialogs on top of plugin window on macOS\n- When saving patch bank/state, also save selected patch index (and restore it on load)",
+        "date": "2024-07-03T07:00:00.000Z",
+        "description": "Frequency modulation-based synthesizer plugin.",
+        "files": [
+          {
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "clap",
+              "so"
+            ],
+            "format": "zip",
+            "sha256": "cfa2a955bffdb3537bf782b70c175f3ae2071aded2832b464b6b30e5161de173",
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "size": 5760864,
+            "type": "archive",
+            "url": "https://github.com/greatest-ape/OctaSine/releases/download/v0.9.1/OctaSine-v0.9.1-Ubuntu-20_04.zip"
+          },
+          {
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "clap",
+              "vst"
+            ],
+            "format": "zip",
+            "sha256": "449f99fdb00febc8f716ccebbc74767ff73e268f3f7b27717478d1dfa1fea468",
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "size": 10292979,
+            "type": "archive",
+            "url": "https://github.com/greatest-ape/OctaSine/releases/download/v0.9.1/OctaSine-v0.9.1-macOS.zip"
+          },
+          {
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "clap",
+              "dll"
+            ],
+            "format": "zip",
+            "sha256": "7ac928ddfe8f54a26c4264b95d3f1c4ccd047db106694bf5c722748662cb2d5f",
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "size": 4624717,
+            "type": "archive",
+            "url": "https://github.com/greatest-ape/OctaSine/releases/download/v0.9.1/OctaSine-v0.9.1-Windows.zip"
+          }
+        ],
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/greatest-ape/octasine/octasine.jpg",
+        "license": "agpl-3.0",
+        "name": "OctaSine",
+        "tags": [
+          "Instrument",
+          "Synth",
+          "Modulation"
+        ],
+        "type": "instrument",
+        "url": "https://github.com/greatest-ape/OctaSine"
+      }
+    }
+  },
   "freepats/upright-piano-kw": {
     "slug": "freepats/upright-piano-kw",
     "version": "1.0.0",
@@ -2905,6 +3154,88 @@
         ],
         "type": "effect",
         "url": "https://github.com/DISTRHO/DPF-Plugins"
+      }
+    }
+  },
+  "clearly-broken-software/ninjas2": {
+    "slug": "clearly-broken-software/ninjas2",
+    "version": "0.2.0",
+    "versions": {
+      "0.2.0": {
+        "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/clearly-broken-software/ninjas2/ninjas2.flac",
+        "author": "Clearly Broken",
+        "changes": "- Controls are grouped in Global, Slicing and Slice\n- Slice box shows the currently selected slice number\n- Click on key to play slice\n- Red dot on key indicates which slice is currently selected in the waveform display\n- Keys that don't have a slice mapped to them are greyed out\n",
+        "date": "2020-01-17T07:00:00.000Z",
+        "description": "Easy to use sample slicer, quick slicing of sample and auto-mapping slices to midi note numbers.",
+        "files": [
+          {
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "lv2",
+              "so"
+            ],
+            "format": "zip",
+            "sha256": "714c10fa2f6c0163b98c3186361f6ed673eb67b566d8e81284da3babff67f581",
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "size": 1437316,
+            "type": "archive",
+            "url": "https://github.com/clearly-broken-software/ninjas2/releases/download/v0.2.0/ninjas2-linux64.zip"
+          },
+          {
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "lv2",
+              "vst"
+            ],
+            "format": "zip",
+            "sha256": "d0068e3eefb24265880702f2e11d8129f8b5acfd3a3a5d0faa9a6ecb136ac02c",
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "size": 5123506,
+            "type": "archive",
+            "url": "https://github.com/clearly-broken-software/ninjas2/releases/download/v0.2.0/ninjas2-macos.zip"
+          },
+          {
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "dll",
+              "lv2"
+            ],
+            "format": "zip",
+            "sha256": "238725071586c29746f77ff205afcc407809f454ee9e6c5d9bde0362dc2e91a5",
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "size": 5988233,
+            "type": "archive",
+            "url": "https://github.com/clearly-broken-software/ninjas2/releases/download/v0.2.0/ninjas2-win64.zip"
+          }
+        ],
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/clearly-broken-software/ninjas2/ninjas2.jpg",
+        "license": "gpl-3.0",
+        "name": "Ninjas 2",
+        "tags": [
+          "Instrument",
+          "Sampler",
+          "Slicer"
+        ],
+        "type": "instrument",
+        "url": "https://github.com/clearly-broken-software/ninjas2"
       }
     }
   },
