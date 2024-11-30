@@ -1,4 +1,86 @@
 {
+  "utokusa/os-251": {
+    "slug": "utokusa/os-251",
+    "version": "1.2.1",
+    "versions": {
+      "1.2.1": {
+        "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/utokusa/os-251/os-251.flac",
+        "author": "Tobante Audio",
+        "changes": "- Fixed broken oscillator gain parameters\n",
+        "date": "2022-07-25T07:00:00.000Z",
+        "description": "JUNO style digital subtractive synthesizer with a simple yet powerful DSP algorithm.",
+        "files": [
+          {
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "lv2",
+              "vst3"
+            ],
+            "format": "zip",
+            "sha256": "cc0563dbb7203a318a76ae90a2eb6fa2a2d548f18033cc791a06dac0fd500332",
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "size": 8872405,
+            "type": "archive",
+            "url": "https://github.com/utokusa/OS-251/releases/download/v1.2.1/OS-251-Linux.zip"
+          },
+          {
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "component",
+              "vst3"
+            ],
+            "format": "zip",
+            "sha256": "80a5547f4a3f644bca472f7c1cb33da193c6032ca20d9793109facde7d1fc857",
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "size": 15516420,
+            "type": "archive",
+            "url": "https://github.com/utokusa/OS-251/releases/download/v1.2.1/OS-251-macOS.dmg"
+          },
+          {
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "dll",
+              "vst3"
+            ],
+            "format": "zip",
+            "sha256": "b7d2c0ba3f25d5b8a81ef439a6822a6de9664100811bab6d3b1a1f1ec20e68c3",
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "size": 2495739,
+            "type": "archive",
+            "url": "https://github.com/utokusa/OS-251/releases/download/v1.2.1/OS-251-Windows.zip"
+          }
+        ],
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/utokusa/os-251/os-251.jpg",
+        "license": "gpl-3.0",
+        "name": "OS-251",
+        "tags": [
+          "Instrument",
+          "Synth",
+          "Lo-fi"
+        ],
+        "type": "instrument",
+        "url": "https://github.com/utokusa/OS-251"
+      }
+    }
+  },
   "tobanteaudio/modeq": {
     "slug": "tobanteaudio/modeq",
     "version": "0.4.0",
@@ -773,6 +855,184 @@
       }
     }
   },
+  "sfzinstruments/samssonor": {
+    "slug": "sfzinstruments/samssonor",
+    "version": "1.0.0",
+    "versions": {
+      "1.0.0": {
+        "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/samssonor/samssonor.flac",
+        "author": "Sam Greene",
+        "changes": "",
+        "date": "2022-08-28T07:00:00.000Z",
+        "description": "Sonor Force 3001 drum kit sampled with 4 velocity levels for each part.",
+        "files": [
+          {
+            "architectures": [
+              "arm32",
+              "arm64",
+              "x32",
+              "x64"
+            ],
+            "contains": [
+              "sfz"
+            ],
+            "format": "zip",
+            "sha256": "74d11c1ea0fcfe77eb80d6a48e960cbfc42716bdfd74a621eca5799f1680cb5c",
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "size": 748476973,
+            "type": "archive",
+            "url": "https://github.com/sfzinstruments/SamsSonor/archive/refs/heads/master.zip"
+          },
+          {
+            "architectures": [
+              "arm32",
+              "arm64",
+              "x32",
+              "x64"
+            ],
+            "contains": [
+              "sfz"
+            ],
+            "format": "zip",
+            "sha256": "74d11c1ea0fcfe77eb80d6a48e960cbfc42716bdfd74a621eca5799f1680cb5c",
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "size": 748476973,
+            "type": "archive",
+            "url": "https://github.com/sfzinstruments/SamsSonor/archive/refs/heads/master.zip"
+          },
+          {
+            "architectures": [
+              "arm32",
+              "arm64",
+              "x32",
+              "x64"
+            ],
+            "contains": [
+              "sfz"
+            ],
+            "format": "zip",
+            "sha256": "74d11c1ea0fcfe77eb80d6a48e960cbfc42716bdfd74a621eca5799f1680cb5c",
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "size": 748476973,
+            "type": "archive",
+            "url": "https://github.com/sfzinstruments/SamsSonor/archive/refs/heads/master.zip"
+          }
+        ],
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/samssonor/samssonor.jpg",
+        "license": "cc-by-sa-4.0",
+        "name": "Salamander Grand Piano",
+        "tags": [
+          "Instrument",
+          "Drums",
+          "Kit",
+          "sfz"
+        ],
+        "type": "sampler",
+        "url": "https://github.com/sfzinstruments/SamsSonor"
+      }
+    }
+  },
+  "sfzinstruments/salamandergrandpiano": {
+    "slug": "sfzinstruments/salamandergrandpiano",
+    "version": "1.0.0",
+    "versions": {
+      "1.0.0": {
+        "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/splendidgrandpiano/splendid-grand-piano.flac",
+        "author": "Alexander Holm",
+        "changes": "",
+        "date": "2022-01-02T07:00:00.000Z",
+        "description": "Yamaha C5, recorded with two AKG c414 disposed in an AB position ~12cm above the strings.",
+        "files": [
+          {
+            "architectures": [
+              "arm32",
+              "arm64",
+              "x32",
+              "x64"
+            ],
+            "contains": [
+              "sfz"
+            ],
+            "format": "zip",
+            "sha256": "74d11c1ea0fcfe77eb80d6a48e960cbfc42716bdfd74a621eca5799f1680cb5c",
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "size": 748476973,
+            "type": "archive",
+            "url": "https://github.com/sfzinstruments/SalamanderGrandPiano/archive/refs/heads/master.zip"
+          },
+          {
+            "architectures": [
+              "arm32",
+              "arm64",
+              "x32",
+              "x64"
+            ],
+            "contains": [
+              "sfz"
+            ],
+            "format": "zip",
+            "sha256": "74d11c1ea0fcfe77eb80d6a48e960cbfc42716bdfd74a621eca5799f1680cb5c",
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "size": 748476973,
+            "type": "archive",
+            "url": "https://github.com/sfzinstruments/SalamanderGrandPiano/archive/refs/heads/master.zip"
+          },
+          {
+            "architectures": [
+              "arm32",
+              "arm64",
+              "x32",
+              "x64"
+            ],
+            "contains": [
+              "sfz"
+            ],
+            "format": "zip",
+            "sha256": "74d11c1ea0fcfe77eb80d6a48e960cbfc42716bdfd74a621eca5799f1680cb5c",
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "size": 748476973,
+            "type": "archive",
+            "url": "https://github.com/sfzinstruments/SalamanderGrandPiano/archive/refs/heads/master.zip"
+          }
+        ],
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/splendidgrandpiano/splendid-grand-piano.jpg",
+        "license": "cc-by-4.0",
+        "name": "Salamander Grand Piano",
+        "tags": [
+          "Instrument",
+          "Piano",
+          "Yamaha",
+          "sfz"
+        ],
+        "type": "sampler",
+        "url": "https://github.com/sfzinstruments/SalamanderGrandPiano"
+      }
+    }
+  },
   "sfzinstruments/nakeddrums": {
     "slug": "sfzinstruments/nakeddrums",
     "version": "1.0.0",
@@ -1484,6 +1744,155 @@
       }
     }
   },
+  "resonantdsp/swankyamp": {
+    "slug": "resonantdsp/swankyamp",
+    "version": "1.4.0",
+    "versions": {
+      "1.4.0": {
+        "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/resonantdsp/swankyamp/swankyamp.flac",
+        "author": "Resonant DSP",
+        "changes": "",
+        "date": "2021-04-21T07:00:00.000Z",
+        "description": "Tube amplifier simulation DSP plugin which aims to capture the details in the dynamics of tube amplifiers.",
+        "files": [
+          {
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "app",
+              "vst"
+            ],
+            "format": "zip",
+            "sha256": "9c1410ac2e233309228fe78ba2b151063088bae2259162aa32002cde4cfa2e1a",
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "size": 5138961,
+            "type": "archive",
+            "url": "https://www.resonantdsp.com/swankyamp/downloads/v1.4.0/mac/SwankyAmp-vst3.dmg"
+          },
+          {
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "exe",
+              "dll"
+            ],
+            "format": "zip",
+            "sha256": "120009c91482a947803e1714a5b3219f6328ab9c2382775b8d930250e2f69342",
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "size": 4580864,
+            "type": "installer",
+            "url": "https://www.resonantdsp.com/swankyamp/downloads/v1.4.0/win/SwankyAmp.vst3"
+          }
+        ],
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/resonantdsp/swankyamp/swankyamp.jpg",
+        "license": "gpl-3.0",
+        "name": "Swanky Amp",
+        "tags": [
+          "Effect",
+          "Amplifier",
+          "Tube"
+        ],
+        "type": "effect",
+        "url": "https://github.com/resonantdsp/swankyamp"
+      }
+    }
+  },
+  "reales/opl": {
+    "slug": "reales/opl",
+    "version": "2.4.0",
+    "versions": {
+      "2.4.0": {
+        "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/reales/opl/opl.flac",
+        "author": "discoDSP",
+        "changes": "",
+        "date": "2024-08-08T07:00:00.000Z",
+        "description": "OPL FM synth plugin emulates a digital sound synthesis chip developed by Yamaha in the mid 1980s.",
+        "files": [
+          {
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "elf",
+              "so",
+              "vst3"
+            ],
+            "format": "zip",
+            "sha256": "3a45bdd0d8b9ba7f3f83ef0af53a87dc6639358e4eab1e4c6c2b9a1848bcaaa0",
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "size": 12779876,
+            "type": "archive",
+            "url": "https://www.discodsp.com/download/?id=28"
+          },
+          {
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "aax",
+              "component",
+              "vst",
+              "vst3"
+            ],
+            "format": "zip",
+            "sha256": "243a91132895d8271fae0496f93f101733779fbd5e385c9da8370fa6755c559c",
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "size": 14308855,
+            "type": "archive",
+            "url": "https://www.discodsp.com/download/?id=23"
+          },
+          {
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "exe",
+              "dll"
+            ],
+            "format": "zip",
+            "sha256": "0cdb4867afa88767e4c393fe7786114c01d03adcb5f79344725d610e41adad2b",
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "size": 7936780,
+            "type": "installer",
+            "url": "https://www.discodsp.com/download/?id=27"
+          }
+        ],
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/reales/opl/opl.jpg",
+        "license": "gpl-3.0",
+        "name": "OPL",
+        "tags": [
+          "Instrument",
+          "Synth",
+          "FM"
+        ],
+        "type": "instrument",
+        "url": "https://github.com/reales/OPL"
+      }
+    }
+  },
   "reales/ob-xd": {
     "slug": "reales/ob-xd",
     "version": "3.5.0",
@@ -1553,7 +1962,7 @@
             "url": "https://www.discodsp.com/download/?id=3"
           }
         ],
-        "image": "https://open-audio-stack.github.io/open-audio-stack-registryplugins/reales/ob-xd/obxd.jpg",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/reales/ob-xd/obxd.jpg",
         "license": "gpl-3.0",
         "name": "OB-Xd",
         "tags": [
@@ -2358,6 +2767,153 @@
         ],
         "type": "instrument",
         "url": "https://github.com/jpcima/ADLplug"
+      }
+    }
+  },
+  "igorski/regrader": {
+    "slug": "igorski/regrader",
+    "version": "1.0.5",
+    "versions": {
+      "1.0.5": {
+        "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/igorski/regrader/regrader.flac",
+        "author": "Igor Zinken",
+        "changes": "- Built using Steinberg SDK version 3.7.10.14\n",
+        "date": "2024-03-16T07:00:00.000Z",
+        "description": "Delay effect in which the repeats degrade in various ways. Delay repeats can be synced to the host tempo and time signature and be fully automated.",
+        "files": [
+          {
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "component",
+              "vst",
+              "vst3"
+            ],
+            "format": "zip",
+            "sha256": "cd35563df0b5fef0d5afcc7ccddd69eeb2fb40b1c85a8dc99347d3b56a2a67db",
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "size": 10002246,
+            "type": "archive",
+            "url": "https://www.igorski.nl/download/retrieve/f906e0f712838e188155bfdf1bbc4510e204fdd54e9c85fe661da357b7ad91d5/2"
+          },
+          {
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "dll",
+              "vst3"
+            ],
+            "format": "zip",
+            "sha256": "3141f43f3e6445f154395c1da1221c2931b1dfd5140f0207b8a4b8052b8fb574",
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "size": 2858396,
+            "type": "archive",
+            "url": "https://www.igorski.nl/download/retrieve/f906e0f712838e188155bfdf1bbc4510e204fdd54e9c85fe661da357b7ad91d5"
+          }
+        ],
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/igorski/regrader/regrader.jpg",
+        "license": "mit",
+        "name": "Regrader",
+        "tags": [
+          "Effect",
+          "Delay",
+          "Sync"
+        ],
+        "type": "effect",
+        "url": "https://github.com/igorski/regrader"
+      }
+    }
+  },
+  "guitarml/smartguitaramp": {
+    "slug": "guitarml/smartguitaramp",
+    "version": "1.3.0",
+    "versions": {
+      "1.3.0": {
+        "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/guitarml/smartguitaramp/smartguitaramp.flac",
+        "author": "GuitarML",
+        "changes": "- Added cmake and general best practices updates\n- Added installers for Win/Mac/Linux\n- Fixed graphics handling\n- Removed custom load button to simplify plugin, the same feature but with better implementation exists in the latest SmartPedal plugin\n- Fixed param saving in DAW for saved sessions\n- Updated to JUCE 7 and latest Eigen modules\n",
+        "date": "2022-08-31T07:00:00.000Z",
+        "description": "Uses a WaveNet model to recreate the sound of real world hardware. Models a small tube amp with a clean/lead channel. Gain and EQ knobs modulate the modeled sound.",
+        "files": [
+          {
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "lv2",
+              "vst3"
+            ],
+            "format": "deb",
+            "sha256": "78b59aa99c0c2cf637de90a47f46d852b6f3ac59ccee1bcab2d3d77dc37a0586",
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "size": 2172048,
+            "type": "archive",
+            "url": "https://github.com/GuitarML/SmartGuitarAmp/releases/download/v1.3/SmartAmp-Linux-x64-1.3.deb"
+          },
+          {
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "aax",
+              "component",
+              "vst3"
+            ],
+            "format": "dmg",
+            "sha256": "89d8ddaa625689db0f0b5dec0c61fe8d129b4533bc0f797af212534e8fb3c9a4",
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "size": 10830999,
+            "type": "archive",
+            "url": "https://github.com/GuitarML/SmartGuitarAmp/releases/download/v1.3/Install-SmartAmp-v1.3-Mac.dmg"
+          },
+          {
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "aax",
+              "vst3"
+            ],
+            "format": "exe",
+            "sha256": "29be822eec1c40f119303560338e1e4aa03ef69844d49ef4f75cdf3cada46117",
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "size": 4026478,
+            "type": "archive",
+            "url": "https://github.com/GuitarML/SmartGuitarAmp/releases/download/v1.3/SmartAmp-Win-1.3.exe"
+          }
+        ],
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/guitarml/smartguitaramp/smartguitaramp.jpg",
+        "license": "apache-2.0",
+        "name": "SmartGuitarAmp",
+        "tags": [
+          "Effect",
+          "Guitar",
+          "Amp"
+        ],
+        "type": "effect",
+        "url": "https://github.com/GuitarML/SmartGuitarAmp"
       }
     }
   },

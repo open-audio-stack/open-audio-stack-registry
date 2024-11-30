@@ -1,0 +1,42 @@
+---
+audio: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/igorski/regrader/regrader.flac
+author: Igor Zinken
+changes: |
+  - Built using Steinberg SDK version 3.7.10.14
+date: '2024-03-16T07:00:00.000Z'
+description: Delay effect in which the repeats degrade in various ways. Delay repeats can be synced to the host tempo and time signature and be fully automated.
+files:
+  - architectures:
+      - x64
+    contains:
+      - component
+      - vst
+      - vst3
+    format: zip
+    sha256: cd35563df0b5fef0d5afcc7ccddd69eeb2fb40b1c85a8dc99347d3b56a2a67db
+    systems:
+      - type: mac
+    size: 10002246
+    type: archive
+    url: https://www.igorski.nl/download/retrieve/f906e0f712838e188155bfdf1bbc4510e204fdd54e9c85fe661da357b7ad91d5/2
+  - architectures:
+      - x64
+    contains:
+      - dll
+      - vst3
+    format: zip
+    sha256: 3141f43f3e6445f154395c1da1221c2931b1dfd5140f0207b8a4b8052b8fb574
+    systems:
+      - type: win
+    size: 2858396
+    type: archive
+    url: https://www.igorski.nl/download/retrieve/f906e0f712838e188155bfdf1bbc4510e204fdd54e9c85fe661da357b7ad91d5
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/igorski/regrader/regrader.jpg
+license: mit
+name: Regrader
+tags:
+  - Effect
+  - Delay
+  - Sync
+type: effect
+url: https://github.com/igorski/regrader

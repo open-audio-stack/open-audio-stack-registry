@@ -1,0 +1,76 @@
+{
+  "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/utokusa/os-251/os-251.flac",
+  "author": "Tobante Audio",
+  "changes": "- Fixed broken oscillator gain parameters\n",
+  "date": "2022-07-25T07:00:00.000Z",
+  "description": "JUNO style digital subtractive synthesizer with a simple yet powerful DSP algorithm.",
+  "files": [
+    {
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "lv2",
+        "vst3"
+      ],
+      "format": "zip",
+      "sha256": "cc0563dbb7203a318a76ae90a2eb6fa2a2d548f18033cc791a06dac0fd500332",
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "size": 8872405,
+      "type": "archive",
+      "url": "https://github.com/utokusa/OS-251/releases/download/v1.2.1/OS-251-Linux.zip"
+    },
+    {
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "component",
+        "vst3"
+      ],
+      "format": "zip",
+      "sha256": "80a5547f4a3f644bca472f7c1cb33da193c6032ca20d9793109facde7d1fc857",
+      "systems": [
+        {
+          "type": "mac"
+        }
+      ],
+      "size": 15516420,
+      "type": "archive",
+      "url": "https://github.com/utokusa/OS-251/releases/download/v1.2.1/OS-251-macOS.dmg"
+    },
+    {
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "dll",
+        "vst3"
+      ],
+      "format": "zip",
+      "sha256": "b7d2c0ba3f25d5b8a81ef439a6822a6de9664100811bab6d3b1a1f1ec20e68c3",
+      "systems": [
+        {
+          "type": "win"
+        }
+      ],
+      "size": 2495739,
+      "type": "archive",
+      "url": "https://github.com/utokusa/OS-251/releases/download/v1.2.1/OS-251-Windows.zip"
+    }
+  ],
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/utokusa/os-251/os-251.jpg",
+  "license": "gpl-3.0",
+  "name": "OS-251",
+  "tags": [
+    "Instrument",
+    "Synth",
+    "Lo-fi"
+  ],
+  "type": "instrument",
+  "url": "https://github.com/utokusa/OS-251"
+}
