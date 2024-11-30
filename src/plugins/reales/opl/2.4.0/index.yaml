@@ -1,0 +1,56 @@
+---
+audio: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/reales/opl/opl.flac
+author: discoDSP
+changes: ''
+date: '2024-08-08T07:00:00.000Z'
+description: OPL FM synth plugin emulates a digital sound synthesis chip developed by Yamaha in the mid 1980s.
+files:
+  - architectures:
+      - x64
+    contains:
+      - elf
+      - so
+      - vst3
+    format: zip
+    sha256: 3a45bdd0d8b9ba7f3f83ef0af53a87dc6639358e4eab1e4c6c2b9a1848bcaaa0
+    systems:
+      - type: linux
+    size: 12779876
+    type: archive
+    url: https://www.discodsp.com/download/?id=28
+  - architectures:
+      - arm64
+      - x64
+    contains:
+      - aax
+      - component
+      - vst
+      - vst3
+    format: zip
+    sha256: 243a91132895d8271fae0496f93f101733779fbd5e385c9da8370fa6755c559c
+    systems:
+      - type: mac
+    size: 14308855
+    type: archive
+    url: https://www.discodsp.com/download/?id=23
+  - architectures:
+      - x64
+    contains:
+      - exe
+      - dll
+    format: zip
+    sha256: 0cdb4867afa88767e4c393fe7786114c01d03adcb5f79344725d610e41adad2b
+    systems:
+      - type: win
+    size: 7936780
+    type: installer
+    url: https://www.discodsp.com/download/?id=27
+image: https://open-audio-stack.github.io/open-audio-stack-registryplugins/reales/opl/opl.jpg
+license: gpl-3.0
+name: OPL
+tags:
+  - Instrument
+  - Synth
+  - FM
+type: instrument
+url: https://github.com/reales/OPL
