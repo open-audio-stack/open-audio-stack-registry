@@ -7,15 +7,14 @@ import {
   pathGetSlug,
   pathGetVersion,
   Config,
-  packageValidate,
   packageRecommendations,
-  PackageValidationError,
   PluginInterface,
   Registry,
   RegistryType,
   PackageValidationRec,
   PresetInterface,
   ProjectInterface,
+  PackageVersionValidator,
 } from '@open-audio-stack/core';
 
 const config: Config = new Config();
@@ -46,7 +45,7 @@ export function generateYaml(pathIn: string, pathOut: string, pathType: string, 
     const pkgVersion: string = pathGetVersion(subPath);
     const pkgFile = fileReadYaml(filePath) as PluginInterface | PresetInterface | ProjectInterface;
 
-    const errors: PackageValidationError[] = packageValidate(pkgFile);
+    const errors = PackageVersionValidator.safeParse(pkgFile).error?.issues;
     const recs: PackageValidationRec[] = packageRecommendations(pkgFile);
     logReport(`${pkgSlug} | ${pkgVersion} | ${filePath}`, errors, recs);
     registry.packageVersionAdd(pkgSlug, type, pkgVersion, pkgFile);
