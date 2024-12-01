@@ -1,0 +1,78 @@
+---
+audio: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/wolf-plugins/wolf-shaper/wolf-shaper.flac
+author: Wolf Plugins
+changes: |
+  - Fix an issue with the Warp parameters.
+date: '2023-05-14T07:00:00.000Z'
+description: Distortion plugin that lets you create your own waveshaping functions using a spline-based graph editor.
+files:
+  - architectures:
+      - arm64
+    contains:
+      - clap
+      - elf
+      - lv2
+      - so
+      - vst3
+    format: zip
+    sha256: 79a2e37416be98b8b393d0732c0e49af4f769cc9d0010ecd60e0d740233b46c2
+    systems:
+      - type: linux
+    size: 4923270
+    type: archive
+    url: https://github.com/wolf-plugins/wolf-shaper/releases/download/v1.0.2/wolf-shaper-v1.0.2-linux-arm64.zip
+  - architectures:
+      - x64
+    contains:
+      - clap
+      - elf
+      - lv2
+      - so
+      - vst3
+    format: zip
+    sha256: 8b844e9b535d2b8a8a07fc6cec207beae8161f7d6da36e4a856a766aa441b848
+    systems:
+      - type: linux
+    size: 5089663
+    type: archive
+    url: https://github.com/wolf-plugins/wolf-shaper/releases/download/v1.0.2/wolf-shaper-v1.0.2-linux-x64.zip
+  - architectures:
+      - arm64
+      - x64
+    contains:
+      - app
+      - clap
+      - lv2
+      - vst
+      - vst3
+    format: zip
+    sha256: 19bba017c8eed9b697712d0f1e769ab30eb785534c152e6783017735fe73de03
+    systems:
+      - type: mac
+    size: 5980398
+    type: archive
+    url: https://github.com/wolf-plugins/wolf-shaper/releases/download/v1.0.2/wolf-shaper-v1.0.2-macos-universal.zip
+  - architectures:
+      - x64
+    contains:
+      - clap
+      - dll
+      - exe
+      - lv2
+      - vst3
+    format: zip
+    sha256: 42a703a5f71b19855d9213d57f2261d2182c73c73d39730775188df3e4c47da9
+    systems:
+      - type: win
+    size: 5481008
+    type: archive
+    url: https://github.com/wolf-plugins/wolf-shaper/releases/download/v1.0.2/wolf-shaper-v1.0.2+20230515144200-windows-x64.zip
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/wolf-plugins/wolf-shaper/wolf-shaper.jpg
+license: gpl-3.0
+name: Wolf Shaper
+tags:
+  - Effect
+  - Distortion
+  - Editor
+type: effect
+url: https://github.com/wolf-plugins/wolf-shaper
