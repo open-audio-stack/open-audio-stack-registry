@@ -34,11 +34,6 @@ const pkgSlug: string = pathGetSlug(subPath);
 const pkgVersion: string = pathGetVersion(subPath);
 const pkgFile: PluginInterface = fileReadYaml(filePath) as PluginInterface;
 
-console.log('subPath', subPath);
-console.log('pkgSlug', pkgSlug);
-console.log('pkgVersion', pkgVersion);
-console.log('pkgFile', pkgFile);
-
 // Package metadata validation
 const errors = PackageVersionValidator.safeParse(pkgFile).error?.issues;
 const recs: PackageValidationRec[] = packageRecommendations(pkgFile);

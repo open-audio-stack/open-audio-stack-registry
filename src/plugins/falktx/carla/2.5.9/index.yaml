@@ -1,10 +1,10 @@
 ---
 audio: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/falktx/carla/carla.flac
 author: Filipe Coelho
-changes: |-
-  - Do not show windows crash dialogs for plugin bridges
+changes: |
+  - Do not show crash dialogs for plugin bridges
   - Fix build against latest liblo
-  - Fix crash when showing some plugin UIs under wayland
+  - Fix crash showing plugin UIs in wayland
   - Fix minimum width of CanvasPort labels
   - Fix missing painter.restore() in case of CanvasPort errors
   - Fix OSC unregister handling

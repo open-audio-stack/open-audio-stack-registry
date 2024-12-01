@@ -40,7 +40,7 @@ if you miss or enter incorrect information, your package will not be included in
     ---
     audio: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/surge-synthesizer/surge/surge.flac
     author: Surge Synth Team
-    changes: |-
+    changes: |
       - Fixed bug with audio
       - New feature added
     date: '2024-03-02T00:00:00.000Z'

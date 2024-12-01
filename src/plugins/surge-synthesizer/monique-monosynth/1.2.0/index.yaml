@@ -1,7 +1,7 @@
 ---
 audio: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/surge-synthesizer/monique-monosynth/monique.flac
 author: Surge Synth Team
-changes: |-
+changes: |
   - More docker corrections
   - Correct the docker release action
   - Add a linux docker build (#138)

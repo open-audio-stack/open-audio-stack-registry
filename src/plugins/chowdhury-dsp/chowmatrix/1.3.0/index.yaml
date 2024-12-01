@@ -2,18 +2,11 @@
 audio: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/chowdhury-dsp/chowmatrix/chowmatrix.flac
 author: Chowdhury DSP
 changes: |
-  - Added iOS/AUv3 support.
-  - Added Pro Tools/AAX support.
-  - Added forwarding parameters to expose node parameters to DAWs.
-  - Added "Alien" delay mode.
-  - Added "Reverse" delay parameter.
-  - Added optional automatic gain compensation for wet signal.
-  - Added lock/unlock options for parameter randomisation.
-  - Fixed "hang" when bringing delay to 0 ms in "Analog" mode.
-  - Improved performance for pan modulation.
-  - Improved preset management system.
-  - Added option to throttle graphics rendering for the Matrix View.
-  - Improved memory usage.
+  - iOS/AUv3 and Pro Tools/AAX support.
+  - Forwarding parameters to expose node parameters to DAWs.
+  - "Alien" and "Reverse" delay parameters.
+  - Optional automatic gain compensation for wet signal.
+  - Lock/unlock options for parameter randomisation.
 date: '2021-12-21T07:00:00.000Z'
 description: Delay effect, made up of an infinitely growable tree of delay lines, each with individual controls for feedback, panning, distortion, and more.
 files:
