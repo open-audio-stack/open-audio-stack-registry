@@ -1,4 +1,179 @@
 {
+  "wolf-plugins/wolf-spectrum": {
+    "slug": "wolf-plugins/wolf-spectrum",
+    "version": "1.0.0",
+    "versions": {
+      "1.0.0": {
+        "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/wolf-plugins/wolf-spectrum/wolf-spectrum.flac",
+        "author": "Wolf Plugins",
+        "changes": "",
+        "date": "2019-04-14T07:00:00.000Z",
+        "description": "Spectrogram plugin which supports both log and linear frequency scaling.",
+        "files": [
+          {
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "so"
+            ],
+            "format": "tar.gz",
+            "sha256": "858c16bf594ace122cee1854024fb8719c232f593d3ecf3dccee72f22c0b2a08",
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "size": 491519,
+            "type": "archive",
+            "url": "https://github.com/wolf-plugins/wolf-spectrum/releases/download/v1.0.0/wolf-spectrum-v1.0.0-linux-vst2.tar.gz"
+          },
+          {
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "dll"
+            ],
+            "format": "zip",
+            "sha256": "7728372c985c4cb0019f5000858d9486a0444f70fed3c44cac724c05db19c94d",
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "size": 853466,
+            "type": "archive",
+            "url": "https://github.com/wolf-plugins/wolf-spectrum/releases/download/v1.0.0/wolf-spectrum-v1.0.0-windows-vst2.zip"
+          }
+        ],
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/wolf-plugins/wolf-spectrum/wolf-spectrum.jpg",
+        "license": "gpl-3.0",
+        "name": "Wolf Spectrum",
+        "tags": [
+          "Effect",
+          "Spectrogram",
+          "Frequency"
+        ],
+        "type": "effect",
+        "url": "https://github.com/wolf-plugins/wolf-spectrum"
+      }
+    }
+  },
+  "wolf-plugins/wolf-shaper": {
+    "slug": "wolf-plugins/wolf-shaper",
+    "version": "1.0.2",
+    "versions": {
+      "1.0.2": {
+        "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/wolf-plugins/wolf-shaper/wolf-shaper.flac",
+        "author": "Wolf Plugins",
+        "changes": "- Fix an issue with the Warp parameters.\n",
+        "date": "2023-05-14T07:00:00.000Z",
+        "description": "Distortion plugin that lets you create your own waveshaping functions using a spline-based graph editor.",
+        "files": [
+          {
+            "architectures": [
+              "arm64"
+            ],
+            "contains": [
+              "clap",
+              "elf",
+              "lv2",
+              "so",
+              "vst3"
+            ],
+            "format": "zip",
+            "sha256": "79a2e37416be98b8b393d0732c0e49af4f769cc9d0010ecd60e0d740233b46c2",
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "size": 4923270,
+            "type": "archive",
+            "url": "https://github.com/wolf-plugins/wolf-shaper/releases/download/v1.0.2/wolf-shaper-v1.0.2-linux-arm64.zip"
+          },
+          {
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "clap",
+              "elf",
+              "lv2",
+              "so",
+              "vst3"
+            ],
+            "format": "zip",
+            "sha256": "8b844e9b535d2b8a8a07fc6cec207beae8161f7d6da36e4a856a766aa441b848",
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "size": 5089663,
+            "type": "archive",
+            "url": "https://github.com/wolf-plugins/wolf-shaper/releases/download/v1.0.2/wolf-shaper-v1.0.2-linux-x64.zip"
+          },
+          {
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "app",
+              "clap",
+              "lv2",
+              "vst",
+              "vst3"
+            ],
+            "format": "zip",
+            "sha256": "19bba017c8eed9b697712d0f1e769ab30eb785534c152e6783017735fe73de03",
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "size": 5980398,
+            "type": "archive",
+            "url": "https://github.com/wolf-plugins/wolf-shaper/releases/download/v1.0.2/wolf-shaper-v1.0.2-macos-universal.zip"
+          },
+          {
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "clap",
+              "dll",
+              "exe",
+              "lv2",
+              "vst3"
+            ],
+            "format": "zip",
+            "sha256": "42a703a5f71b19855d9213d57f2261d2182c73c73d39730775188df3e4c47da9",
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "size": 5481008,
+            "type": "archive",
+            "url": "https://github.com/wolf-plugins/wolf-shaper/releases/download/v1.0.2/wolf-shaper-v1.0.2+20230515144200-windows-x64.zip"
+          }
+        ],
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/wolf-plugins/wolf-shaper/wolf-shaper.jpg",
+        "license": "gpl-3.0",
+        "name": "Wolf Shaper",
+        "tags": [
+          "Effect",
+          "Distortion",
+          "Editor"
+        ],
+        "type": "effect",
+        "url": "https://github.com/wolf-plugins/wolf-shaper"
+      }
+    }
+  },
   "utokusa/os-251": {
     "slug": "utokusa/os-251",
     "version": "1.2.1",
@@ -763,6 +938,184 @@
         ],
         "type": "sampler",
         "url": "https://github.com/sfztools/sfizz"
+      }
+    }
+  },
+  "sfzinstruments/war-tuba": {
+    "slug": "sfzinstruments/war-tuba",
+    "version": "1.0.2",
+    "versions": {
+      "1.0.2": {
+        "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/war-tuba/war-tuba.flac",
+        "author": "DSmolken",
+        "changes": "",
+        "date": "2022-11-04T07:00:00.000Z",
+        "description": "Tuba played by Jakub Lewicki (aka Ignacy Woland of the band Hañba).",
+        "files": [
+          {
+            "architectures": [
+              "arm32",
+              "arm64",
+              "x32",
+              "x64"
+            ],
+            "contains": [
+              "sfz"
+            ],
+            "format": "zip",
+            "sha256": "4f0b065c18b89111df4281df34c5120cd2d5b9a0c6b316835ec08d7891fd88d9",
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "size": 109135588,
+            "type": "archive",
+            "url": "https://github.com/sfzinstruments/karoryfer.war-tuba/releases/download/v1.002/Karoryfer_War_Tuba_v1002.zip"
+          },
+          {
+            "architectures": [
+              "arm32",
+              "arm64",
+              "x32",
+              "x64"
+            ],
+            "contains": [
+              "sfz"
+            ],
+            "format": "zip",
+            "sha256": "4f0b065c18b89111df4281df34c5120cd2d5b9a0c6b316835ec08d7891fd88d9",
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "size": 109135588,
+            "type": "archive",
+            "url": "https://github.com/sfzinstruments/karoryfer.war-tuba/releases/download/v1.002/Karoryfer_War_Tuba_v1002.zip"
+          },
+          {
+            "architectures": [
+              "arm32",
+              "arm64",
+              "x32",
+              "x64"
+            ],
+            "contains": [
+              "sfz"
+            ],
+            "format": "zip",
+            "sha256": "4f0b065c18b89111df4281df34c5120cd2d5b9a0c6b316835ec08d7891fd88d9",
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "size": 109135588,
+            "type": "archive",
+            "url": "https://github.com/sfzinstruments/karoryfer.war-tuba/releases/download/v1.002/Karoryfer_War_Tuba_v1002.zip"
+          }
+        ],
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/war-tuba/war-tuba.jpg",
+        "license": "cc-by-4.0",
+        "name": "War Tuba",
+        "tags": [
+          "Instrument",
+          "Brass",
+          "Tuba",
+          "sfz"
+        ],
+        "type": "sampler",
+        "url": "https://github.com/sfzinstruments/karoryfer.war-tuba"
+      }
+    }
+  },
+  "sfzinstruments/virtuosity_drums": {
+    "slug": "sfzinstruments/virtuosity_drums",
+    "version": "0.9.24",
+    "versions": {
+      "0.9.24": {
+        "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/virtuosity_drums/virtuosity-drums.flac",
+        "author": "Versilian Studios",
+        "changes": "- Bugfix release for ride and crash cymbal mappings.\n",
+        "date": "2022-09-21T07:00:00.000Z",
+        "description": "Contemporary Jazz drum kit library, performed with sticks, recorded at Virtuosity Musical Instruments in Boston, MA.",
+        "files": [
+          {
+            "architectures": [
+              "arm32",
+              "arm64",
+              "x32",
+              "x64"
+            ],
+            "contains": [
+              "sfz"
+            ],
+            "format": "zip",
+            "sha256": "a8e0da36cfe0a3832f09c24116139e3f72806144d10f3091dcc91e1636118fab",
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "size": 1227222816,
+            "type": "archive",
+            "url": "https://github.com/sfzinstruments/virtuosity_drums/releases/download/v0.924/Virtuosity_Drums_v0.924.zip"
+          },
+          {
+            "architectures": [
+              "arm32",
+              "arm64",
+              "x32",
+              "x64"
+            ],
+            "contains": [
+              "sfz"
+            ],
+            "format": "zip",
+            "sha256": "a8e0da36cfe0a3832f09c24116139e3f72806144d10f3091dcc91e1636118fab",
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "size": 1227222816,
+            "type": "archive",
+            "url": "https://github.com/sfzinstruments/virtuosity_drums/releases/download/v0.924/Virtuosity_Drums_v0.924.zip"
+          },
+          {
+            "architectures": [
+              "arm32",
+              "arm64",
+              "x32",
+              "x64"
+            ],
+            "contains": [
+              "sfz"
+            ],
+            "format": "zip",
+            "sha256": "a8e0da36cfe0a3832f09c24116139e3f72806144d10f3091dcc91e1636118fab",
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "size": 1227222816,
+            "type": "archive",
+            "url": "https://github.com/sfzinstruments/virtuosity_drums/releases/download/v0.924/Virtuosity_Drums_v0.924.zip"
+          }
+        ],
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/virtuosity_drums/virtuosity-drums.jpg",
+        "license": "cc0-1.0",
+        "name": "Virtuosity Drums",
+        "tags": [
+          "Instrument",
+          "Drums",
+          "Jazz",
+          "sfz"
+        ],
+        "type": "sampler",
+        "url": "https://github.com/sfzinstruments/virtuosity_drums"
       }
     }
   },
@@ -1975,6 +2328,88 @@
       }
     }
   },
+  "paynebc/tunefish": {
+    "slug": "paynebc/tunefish",
+    "version": "4.2.0",
+    "versions": {
+      "4.2.0": {
+        "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/paynebc/tunefish/tunefish.flac",
+        "author": "Brain Control",
+        "changes": "",
+        "date": "2018-05-04T07:00:00.000Z",
+        "description": "Tunefish is a tiny virtual analogue synth that was originally developed  for the 64k intros of the demo group Brain Control.",
+        "files": [
+          {
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "so"
+            ],
+            "format": "tar.gz",
+            "sha256": "0b4c8d7e578e576e5c473bb94dd6d896e9cbe462ab45a8ad093fa3923bfdfd09",
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "size": 3573674,
+            "type": "archive",
+            "url": "https://tunefish-synth.com/downloads/tunefish-v4.2.0-linux64-vst24.tar.gz"
+          },
+          {
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "component",
+              "vst",
+              "vst3"
+            ],
+            "format": "zip",
+            "sha256": "17697bf78f29732f04088bdc7239726eadd754099006729eff6950680be57089",
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "size": 6443515,
+            "type": "archive",
+            "url": "https://tunefish-synth.com/downloads/tunefish-v4.2.0-mac-vst-au.zip"
+          },
+          {
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "dll",
+              "vst3"
+            ],
+            "format": "zip",
+            "sha256": "8afbbf5609c37072a9cfd978a2e48b471c046d30283f0a7760971970aa11d8a8",
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "size": 4147020,
+            "type": "archive",
+            "url": "https://tunefish-synth.com/downloads/tunefish-v4.2.0-win64-vst.zip"
+          }
+        ],
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/paynebc/tunefish/tunefish.jpg",
+        "license": "gpl-3.0",
+        "name": "Tunefish",
+        "tags": [
+          "Instrument",
+          "Synth",
+          "Analog"
+        ],
+        "type": "instrument",
+        "url": "https://github.com/paynebc/tunefish"
+      }
+    }
+  },
   "open-soundfonts/virtual-playing-orchestra": {
     "slug": "open-soundfonts/virtual-playing-orchestra",
     "version": "3.3.2",
@@ -2589,6 +3024,67 @@
         ],
         "type": "instrument",
         "url": "https://github.com/LouisGorenfeld/DigitsVst"
+      }
+    }
+  },
+  "keijiro/vst2413": {
+    "slug": "keijiro/vst2413",
+    "version": "1.0.2",
+    "versions": {
+      "1.0.2": {
+        "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/keijiro/vst2413/vst2413.flac",
+        "author": "Keijiro Takahashi",
+        "changes": "",
+        "date": "2013-04-21T07:00:00.000Z",
+        "description": "FM synthesizer based on YM2413 (OPLL) emulator. YM2413 is well known as low-cost FM sound chip, and was used on Sega Master System and FM-PAC sound expansion cartridge for MSX. VST2413 can resemble that warm texture of sound and may be well suited for use in 'post 8-bit era style' chiptune music.",
+        "files": [
+          {
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst"
+            ],
+            "format": "zip",
+            "sha256": "e561ae5da234e861e2fe9034904f1c8aef39ba95a820933cdc9237a2982559c9",
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "size": 177262,
+            "type": "archive",
+            "url": "https://www.keijiro.tokyo/vst2413/build/vst2413-20130421-osx.zip"
+          },
+          {
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "dll"
+            ],
+            "format": "zip",
+            "sha256": "8065e9b7eeb779315939a78f7470c4bbd4058408f844ccd28e61e8b7c43f9247",
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "size": 227212,
+            "type": "archive",
+            "url": "https://www.keijiro.tokyo/vst2413/build/vst2413-20130418-windows.zip"
+          }
+        ],
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/keijiro/vst2413/vst2413.jpg",
+        "license": "zlib",
+        "name": "VST2413",
+        "tags": [
+          "Instrument",
+          "Synth",
+          "Bit"
+        ],
+        "type": "instrument",
+        "url": "https://github.com/keijiro/vst2413"
       }
     }
   },
