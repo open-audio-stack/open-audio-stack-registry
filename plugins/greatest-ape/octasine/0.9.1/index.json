@@ -1,7 +1,7 @@
 {
   "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/greatest-ape/octasine/octasine.flac",
   "author": "Joakim Frostegård",
-  "changes": "- Fix GUI issues when using the clap plugin in Bitwig\n- Fix issue with activating operator 2 modulation target from GUI modulation matrix\n- Show file save/load dialogs on top of plugin window on macOS\n- When saving patch bank/state, also save selected patch index (and restore it on load)",
+  "changes": "- Fix GUI issues using the clap in Bitwig\n- Fix issue activating operator 2 modulation target from GUI matrix\n- Show file save/load dialogs above plugin window macOS\n- Save selected patch index (and restore it on load)\n",
   "date": "2024-07-03T07:00:00.000Z",
   "description": "Frequency modulation-based synthesizer plugin.",
   "files": [

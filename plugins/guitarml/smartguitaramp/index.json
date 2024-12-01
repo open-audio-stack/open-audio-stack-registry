@@ -5,7 +5,7 @@
     "1.3.0": {
       "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/guitarml/smartguitaramp/smartguitaramp.flac",
       "author": "GuitarML",
-      "changes": "- Added cmake and general best practices updates\n- Added installers for Win/Mac/Linux\n- Fixed graphics handling\n- Removed custom load button to simplify plugin, the same feature but with better implementation exists in the latest SmartPedal plugin\n- Fixed param saving in DAW for saved sessions\n- Updated to JUCE 7 and latest Eigen modules\n",
+      "changes": "- Added cmake and general best practices updates\n- Added installers for Win/Mac/Linux\n- Fixed graphics handling\n- Removed custom load button to simplify plugin\n- Fixed param saving in DAW for saved sessions\n- Updated to JUCE 7 and latest Eigen modules\n",
       "date": "2022-08-31T07:00:00.000Z",
       "description": "Uses a WaveNet model to recreate the sound of real world hardware. Models a small tube amp with a clean/lead channel. Gain and EQ knobs modulate the modeled sound.",
       "files": [

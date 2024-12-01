@@ -1,11 +1,11 @@
 ---
 audio: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/jpcima/opnplug/opnplug.flac
 author: Jean Pierre Cimalando
-changes: |-
-  - English translation of the user manual by Bruce Sutherland
-  - modified KSL editing behavior to make it linear with regards to attenuation
-  - added a build option to link with system-wide libfmt
-  - made the resource system compatible with unsigned-char targets
+changes: |
+  - English translation of the user manual
+  - KSL editing behavior to make it linear with regards to attenuation
+  - Build option to link with system-wide libfmt
+  - Resource system compatible with unsigned-char targets
 date: '2020-08-05T08:00:00.000Z'
 description: FM synthesizer based on OPL3 and OPN2 sound chip emulations. Synthesis of melodic and percussive instruments, support for dynamic parameterization and automation.
 files:

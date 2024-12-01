@@ -6,7 +6,7 @@
       "0.9.8": {
         "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/asb2m10/dexed/dexed.flac",
         "author": "Pascal Gauthier",
-        "changes": "- Now over 100 presets!\n- Fixed bug where the first time Digits was instantiated in Renoise there\n- was a chance it couldn't produce audio\n- Fixed bug where save dialog wouldn't close it user hit \"save\" before pressing enter\n- Fixed bug where fade parameter didn't always function if sustain not at maximum\n- Fixed patch restoring in FL Studio\n- Crisper tone\n",
+        "changes": "- Now over 100 presets!\n- Fixed first time instantiated in Renoise no audio\n- Fixed save dialog not closing\n- Fixed fade parameter not functioning if sustain not at maximum\n- Fixed patch restoring in FL Studio\n- Crisper tone\n",
         "date": "2019-09-19T07:00:00.000Z",
         "description": "Phase distortion synthesizer inspired by Casio's CZ series but takes that form of synthesis to the limit. Create warm pads, glitchy sounds, dirty basses, filthy sweeps, screaming leads, and anything in-between.",
         "files": [

@@ -5,7 +5,7 @@
     "2.5.9": {
       "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/falktx/carla/carla.flac",
       "author": "Filipe Coelho",
-      "changes": "- Do not show windows crash dialogs for plugin bridges\n- Fix build against latest liblo\n- Fix crash when showing some plugin UIs under wayland\n- Fix minimum width of CanvasPort labels\n- Fix missing painter.restore() in case of CanvasPort errors\n- Fix OSC unregister handling",
+      "changes": "- Do not show crash dialogs for plugin bridges\n- Fix build against latest liblo\n- Fix crash showing plugin UIs in wayland\n- Fix minimum width of CanvasPort labels\n- Fix missing painter.restore() in case of CanvasPort errors\n- Fix OSC unregister handling\n",
       "date": "2024-09-22T07:00:00.000Z",
       "description": "Audio plugin host, with support for many audio drivers and plugin formats.",
       "files": [

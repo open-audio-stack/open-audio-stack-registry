@@ -6,7 +6,7 @@
       "0.9.8": {
         "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/asb2m10/dexed/dexed.flac",
         "author": "Pascal Gauthier",
-        "changes": "- Accessibility implementation (including keyboard shortcuts)\n- UI component refresh\n- Mono/Poly parameter is now a plugin parameter\n- Copy/paste operator values are now text based (and system wide)\n- Fix Apple Logic startup issue\n- Corrections of graphs for Algorithms 15 and 14 by @FulopNandor in #436\n- Code cleanup for MidiMonitor by @FulopNandor in #442\n- Corrections for DexedTheme v2 by @FulopNandor in #443\n",
+        "changes": "- Accessibility and UI component refresh\n- Mono/Poly parameter plugin parameter\n- Corrections of graphs for Algorithms 15 and 14\n- Fixes for MidiMonitor and DexedTheme v2\n",
         "date": "2024-10-08T07:00:00.000Z",
         "description": "Synthesizer closely modeled on the Yamaha DX7.",
         "files": [

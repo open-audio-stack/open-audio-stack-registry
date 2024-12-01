@@ -6,7 +6,7 @@
       "1.3.4": {
         "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/surge-synthesizer/surge/surge.flac",
         "author": "Surge Synth Team",
-        "changes": "- Fix a logic error in creating Surge XT folder in new session (#7752) - Paul\n- Add 1.3.3 cherry pick list and bump cmakelist version - Paul Walker\n- Update tempo after patch load if desired and ensure we calculate time_data.ppqPos while processing (#7738) - Daniel Hatadi\n- Update LFO and Step Seq presets to have the LFO EG enabled (#7732) - EvilDragon",
+        "changes": "- Fix a logic error in creating Surge XT folder in new session\n- Add 1.3.3 cherry pick list and bump cmakelist version\n- Update tempo after patch load and calculate time_data.ppqPos\n- Update LFO and Step Seq presets to have the LFO EG enabled\n",
         "date": "2024-08-11T00:00:00.000Z",
         "description": "Hybrid synthesizer featuring many synthesis techniques, a great selection of filters, a flexible modulation engine, a smorgasbord of effects, and modern features like MPE and microtuning.",
         "files": [
@@ -88,7 +88,7 @@
       "1.3.1": {
         "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/surge-synthesizer/surge/surge.flac",
         "author": "Surge Synth Team",
-        "changes": "- Fixed bug with audio\n- New feature added",
+        "changes": "- Fixed bug with audio\n- New feature added\n",
         "date": "2024-03-02T00:00:00.000Z",
         "description": "Hybrid synthesizer featuring many synthesis techniques, a great selection of filters, a flexible modulation engine, a smorgasbord of effects, and modern features like MPE and microtuning.",
         "files": [
@@ -176,7 +176,7 @@
       "1.2.0": {
         "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/surge-synthesizer/monique-monosynth/monique.flac",
         "author": "Surge Synth Team",
-        "changes": "- More docker corrections\n- Correct the docker release action\n- Add a linux docker build (#138)\n- Tweak to release pipeline\n- Just bump for pipeline test",
+        "changes": "- More docker corrections\n- Correct the docker release action\n- Add a linux docker build (#138)\n- Tweak to release pipeline\n- Just bump for pipeline test\n",
         "date": "2021-12-13T07:00:00.000Z",
         "description": "Monophonic, realtime, subtractive-synthesis bass-and-lead software synthesizer.",
         "files": [

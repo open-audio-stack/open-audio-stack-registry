@@ -2,13 +2,10 @@
 audio: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/audioplugins/iempluginsuite/iempluginsuite.flac
 author: Institute of Electronic Music and Acoustics
 changes: |
-  - Moved to JUCE 7.0.5
-  - Plug-ins work again on Windows Vista and 7
+  - Use JUCE 7.0.5 and support Windows Vista and 7
   - AllRADecoder and SimpleDecoder
   - Wrap azimuth exceeding 180° and elevation exceeding 90° for correct im-/export of layouts
-  - Update IEM Cube decoder preset
-  - GranularEncoder
-  - Add some color to the sliders
+  - Update IEM Cube decoder preset and GranularEncoder
 date: '2023-02-23T07:00:00.000Z'
 description: Collection of ambisonic plug-ins including Compressors, Delays, Reverb, Encoders, Decoders and Visualizers.
 files:

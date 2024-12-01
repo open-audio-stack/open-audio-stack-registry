@@ -6,7 +6,7 @@
       "1.2.3": {
         "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfztools/sfizz/sfizz.flac",
         "author": "SFZTools",
-        "changes": "Added\n- Support for curvecc opcodes on v1 EGs (@PythonBlue)\n- Support for lotimer/hitimer (@essej)\nChanged\n- Allow polyphonic aftertouch (cc 130) to respect the note number, which improves e.g. the choking logic (@essej)\nFixed\n- Adjusted the gain compensation on pan stages (@cvde)\n- Ensure that voices are cleaned up before being force-reused (@iv-m)\n- Fixed a bug in the wavpack wrapper for multichannel files (@KKQ-KKQ)\n- Fixed a bug in the way the tuning root was computed (@KKQ-KKQ)\n- Fixed a bug where samples would be loaded in RAM twice when using hint_ram_based=1\n- Fixed a bug where quasi-simultaneous notes would not properly choke each other\n- Don't send a note off event if a note was choked by a CC event.",
+        "changes": "- Curvecc opcodes on v1 EGs and lotimer/hitimer\n- Allow polyphonic aftertouch (cc 130) to respect the note number\n- Adjusted the gain compensation on pan stages\n- Ensure that voices are cleaned up before being force-reused\n",
         "date": "2024-01-14T00:00:00.000Z",
         "description": "SFZ parser and synth c++ library, providing AU / LV2 / VST3 plugins and JACK standalone client.",
         "files": [

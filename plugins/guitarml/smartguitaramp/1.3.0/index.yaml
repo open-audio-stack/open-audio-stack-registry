@@ -5,7 +5,7 @@ changes: |
   - Added cmake and general best practices updates
   - Added installers for Win/Mac/Linux
   - Fixed graphics handling
-  - Removed custom load button to simplify plugin, the same feature but with better implementation exists in the latest SmartPedal plugin
+  - Removed custom load button to simplify plugin
   - Fixed param saving in DAW for saved sessions
   - Updated to JUCE 7 and latest Eigen modules
 date: '2022-08-31T07:00:00.000Z'

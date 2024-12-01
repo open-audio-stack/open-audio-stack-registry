@@ -1,7 +1,7 @@
 {
   "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/clearly-broken-software/ninjas2/ninjas2.flac",
   "author": "Clearly Broken",
-  "changes": "- Controls are grouped in Global, Slicing and Slice\n- Slice box shows the currently selected slice number\n- Click on key to play slice\n- Red dot on key indicates which slice is currently selected in the waveform display\n- Keys that don't have a slice mapped to them are greyed out\n",
+  "changes": "- Controls grouped by Global, Slicing and Slice\n- Slice box shows the currently selected slice number\n- Click on key to play slice\n- Red dot to indicate currently selected slice\n- Keys unmapped are greyed out\n",
   "date": "2020-01-17T07:00:00.000Z",
   "description": "Easy to use sample slicer, quick slicing of sample and auto-mapping slices to midi note numbers.",
   "files": [

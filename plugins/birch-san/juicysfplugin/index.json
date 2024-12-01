@@ -5,7 +5,7 @@
     "3.1.0": {
       "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/birch-san/juicysfplugin/juicysf.flac",
       "author": "Birch San",
-      "changes": "- Updated fluidsynth from v2.2.4 -> v2.2.5. Fixes sample looping bug #22.\n- Updated JUCE from v6.1.2 to v6.1.5. Restores the native file picker which juicysfplugin 2.3.3 enjoyed, and improves accessibility.\n- Rewrote win32 cross-compile build system (again) as a multi-stage Docker build\n- Upgraded toolchain from llvm-mingw 20211002 with LLVM stable 13.0.0 to llvm-mingw 20220209 with LLVM 14.0.0 RC1.\n",
+      "changes": "- Updated fluidsynth to v2.2.5. Fixes sample looping bug.\n- Updated JUCE to v6.1.5. Restores the native file picker and improves accessibility.\n- Rewrote win32 cross-compile build system as a multi-stage Docker build\n",
       "date": "2022-02-13T07:00:00.000Z",
       "description": "SoundFont synthesizer for playing General Midi music using sf2 files.",
       "files": [

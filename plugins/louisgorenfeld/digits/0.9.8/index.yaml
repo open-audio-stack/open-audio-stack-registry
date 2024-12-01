@@ -3,10 +3,9 @@ audio: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/asb2
 author: Pascal Gauthier
 changes: |
   - Now over 100 presets!
-  - Fixed bug where the first time Digits was instantiated in Renoise there
-  - was a chance it couldn't produce audio
-  - Fixed bug where save dialog wouldn't close it user hit "save" before pressing enter
-  - Fixed bug where fade parameter didn't always function if sustain not at maximum
+  - Fixed first time instantiated in Renoise no audio
+  - Fixed save dialog not closing
+  - Fixed fade parameter not functioning if sustain not at maximum
   - Fixed patch restoring in FL Studio
   - Crisper tone
 date: '2019-09-19T07:00:00.000Z'

@@ -432,7 +432,7 @@
         "1.3.4": {
           "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/surge-synthesizer/surge/surge.flac",
           "author": "Surge Synth Team",
-          "changes": "- Fix a logic error in creating Surge XT folder in new session (#7752) - Paul\n- Add 1.3.3 cherry pick list and bump cmakelist version - Paul Walker\n- Update tempo after patch load if desired and ensure we calculate time_data.ppqPos while processing (#7738) - Daniel Hatadi\n- Update LFO and Step Seq presets to have the LFO EG enabled (#7732) - EvilDragon",
+          "changes": "- Fix a logic error in creating Surge XT folder in new session\n- Add 1.3.3 cherry pick list and bump cmakelist version\n- Update tempo after patch load and calculate time_data.ppqPos\n- Update LFO and Step Seq presets to have the LFO EG enabled\n",
           "date": "2024-08-11T00:00:00.000Z",
           "description": "Hybrid synthesizer featuring many synthesis techniques, a great selection of filters, a flexible modulation engine, a smorgasbord of effects, and modern features like MPE and microtuning.",
           "files": [
@@ -514,7 +514,7 @@
         "1.3.1": {
           "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/surge-synthesizer/surge/surge.flac",
           "author": "Surge Synth Team",
-          "changes": "- Fixed bug with audio\n- New feature added",
+          "changes": "- Fixed bug with audio\n- New feature added\n",
           "date": "2024-03-02T00:00:00.000Z",
           "description": "Hybrid synthesizer featuring many synthesis techniques, a great selection of filters, a flexible modulation engine, a smorgasbord of effects, and modern features like MPE and microtuning.",
           "files": [
@@ -602,7 +602,7 @@
         "1.2.0": {
           "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/surge-synthesizer/monique-monosynth/monique.flac",
           "author": "Surge Synth Team",
-          "changes": "- More docker corrections\n- Correct the docker release action\n- Add a linux docker build (#138)\n- Tweak to release pipeline\n- Just bump for pipeline test",
+          "changes": "- More docker corrections\n- Correct the docker release action\n- Add a linux docker build (#138)\n- Tweak to release pipeline\n- Just bump for pipeline test\n",
           "date": "2021-12-13T07:00:00.000Z",
           "description": "Monophonic, realtime, subtractive-synthesis bass-and-lead software synthesizer.",
           "files": [
@@ -866,7 +866,7 @@
         "1.2.3": {
           "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfztools/sfizz/sfizz.flac",
           "author": "SFZTools",
-          "changes": "Added\n- Support for curvecc opcodes on v1 EGs (@PythonBlue)\n- Support for lotimer/hitimer (@essej)\nChanged\n- Allow polyphonic aftertouch (cc 130) to respect the note number, which improves e.g. the choking logic (@essej)\nFixed\n- Adjusted the gain compensation on pan stages (@cvde)\n- Ensure that voices are cleaned up before being force-reused (@iv-m)\n- Fixed a bug in the wavpack wrapper for multichannel files (@KKQ-KKQ)\n- Fixed a bug in the way the tuning root was computed (@KKQ-KKQ)\n- Fixed a bug where samples would be loaded in RAM twice when using hint_ram_based=1\n- Fixed a bug where quasi-simultaneous notes would not properly choke each other\n- Don't send a note off event if a note was choked by a CC event.",
+          "changes": "- Curvecc opcodes on v1 EGs and lotimer/hitimer\n- Allow polyphonic aftertouch (cc 130) to respect the note number\n- Adjusted the gain compensation on pan stages\n- Ensure that voices are cleaned up before being force-reused\n",
           "date": "2024-01-14T00:00:00.000Z",
           "description": "SFZ parser and synth c++ library, providing AU / LV2 / VST3 plugins and JACK standalone client.",
           "files": [
@@ -2957,7 +2957,7 @@
         "0.9.8": {
           "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/asb2m10/dexed/dexed.flac",
           "author": "Pascal Gauthier",
-          "changes": "- Now over 100 presets!\n- Fixed bug where the first time Digits was instantiated in Renoise there\n- was a chance it couldn't produce audio\n- Fixed bug where save dialog wouldn't close it user hit \"save\" before pressing enter\n- Fixed bug where fade parameter didn't always function if sustain not at maximum\n- Fixed patch restoring in FL Studio\n- Crisper tone\n",
+          "changes": "- Now over 100 presets!\n- Fixed first time instantiated in Renoise no audio\n- Fixed save dialog not closing\n- Fixed fade parameter not functioning if sustain not at maximum\n- Fixed patch restoring in FL Studio\n- Crisper tone\n",
           "date": "2019-09-19T07:00:00.000Z",
           "description": "Phase distortion synthesizer inspired by Casio's CZ series but takes that form of synthesis to the limit. Create warm pads, glitchy sounds, dirty basses, filthy sweeps, screaming leads, and anything in-between.",
           "files": [
@@ -3097,7 +3097,7 @@
         "1.0.2": {
           "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/jpcima/opnplug/opnplug.flac",
           "author": "Jean Pierre Cimalando",
-          "changes": "- English translation of the user manual by Bruce Sutherland\n- modified KSL editing behavior to make it linear with regards to attenuation\n- added a build option to link with system-wide libfmt\n- made the resource system compatible with unsigned-char targets",
+          "changes": "- English translation of the user manual\n- KSL editing behavior to make it linear with regards to attenuation\n- Build option to link with system-wide libfmt\n- Resource system compatible with unsigned-char targets\n",
           "date": "2020-08-05T08:00:00.000Z",
           "description": "FM synthesizer based on OPL3 and OPN2 sound chip emulations. Synthesis of melodic and percussive instruments, support for dynamic parameterization and automation.",
           "files": [
@@ -3186,7 +3186,7 @@
         "1.0.2": {
           "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/jpcima/adlplug/adlplug.flac",
           "author": "Jean Pierre Cimalando",
-          "changes": "- English translation of the user manual by Bruce Sutherland\n- modified KSL editing behavior to make it linear with regards to attenuation\n- added a build option to link with system-wide libfmt\n- made the resource system compatible with unsigned-char targets",
+          "changes": "- English translation of the user manual\n- KSL editing behavior to make it linear with regards to attenuation\n- Build option to link with system-wide libfmt\n- Resource system compatible with unsigned-char targets\n",
           "date": "2020-08-05T08:00:00.000Z",
           "description": "FM synthesizer based on OPL3 and OPN2 sound chip emulations. Synthesis of melodic and percussive instruments, support for dynamic parameterization and automation.",
           "files": [
@@ -3339,7 +3339,7 @@
         "1.3.0": {
           "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/guitarml/smartguitaramp/smartguitaramp.flac",
           "author": "GuitarML",
-          "changes": "- Added cmake and general best practices updates\n- Added installers for Win/Mac/Linux\n- Fixed graphics handling\n- Removed custom load button to simplify plugin, the same feature but with better implementation exists in the latest SmartPedal plugin\n- Fixed param saving in DAW for saved sessions\n- Updated to JUCE 7 and latest Eigen modules\n",
+          "changes": "- Added cmake and general best practices updates\n- Added installers for Win/Mac/Linux\n- Fixed graphics handling\n- Removed custom load button to simplify plugin\n- Fixed param saving in DAW for saved sessions\n- Updated to JUCE 7 and latest Eigen modules\n",
           "date": "2022-08-31T07:00:00.000Z",
           "description": "Uses a WaveNet model to recreate the sound of real world hardware. Models a small tube amp with a clean/lead channel. Gain and EQ knobs modulate the modeled sound.",
           "files": [
@@ -3422,7 +3422,7 @@
         "0.9.1": {
           "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/greatest-ape/octasine/octasine.flac",
           "author": "Joakim Frostegård",
-          "changes": "- Fix GUI issues when using the clap plugin in Bitwig\n- Fix issue with activating operator 2 modulation target from GUI modulation matrix\n- Show file save/load dialogs on top of plugin window on macOS\n- When saving patch bank/state, also save selected patch index (and restore it on load)",
+          "changes": "- Fix GUI issues using the clap in Bitwig\n- Fix issue activating operator 2 modulation target from GUI matrix\n- Show file save/load dialogs above plugin window macOS\n- Save selected patch index (and restore it on load)\n",
           "date": "2024-07-03T07:00:00.000Z",
           "description": "Frequency modulation-based synthesizer plugin.",
           "files": [
@@ -3949,7 +3949,7 @@
         "2.5.9": {
           "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/falktx/carla/carla.flac",
           "author": "Filipe Coelho",
-          "changes": "- Do not show windows crash dialogs for plugin bridges\n- Fix build against latest liblo\n- Fix crash when showing some plugin UIs under wayland\n- Fix minimum width of CanvasPort labels\n- Fix missing painter.restore() in case of CanvasPort errors\n- Fix OSC unregister handling",
+          "changes": "- Do not show crash dialogs for plugin bridges\n- Fix build against latest liblo\n- Fix crash showing plugin UIs in wayland\n- Fix minimum width of CanvasPort labels\n- Fix missing painter.restore() in case of CanvasPort errors\n- Fix OSC unregister handling\n",
           "date": "2024-09-22T07:00:00.000Z",
           "description": "Audio plugin host, with support for many audio drivers and plugin formats.",
           "files": [
@@ -4218,7 +4218,7 @@
         "0.2.0": {
           "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/clearly-broken-software/ninjas2/ninjas2.flac",
           "author": "Clearly Broken",
-          "changes": "- Controls are grouped in Global, Slicing and Slice\n- Slice box shows the currently selected slice number\n- Click on key to play slice\n- Red dot on key indicates which slice is currently selected in the waveform display\n- Keys that don't have a slice mapped to them are greyed out\n",
+          "changes": "- Controls grouped by Global, Slicing and Slice\n- Slice box shows the currently selected slice number\n- Click on key to play slice\n- Red dot to indicate currently selected slice\n- Keys unmapped are greyed out\n",
           "date": "2020-01-17T07:00:00.000Z",
           "description": "Easy to use sample slicer, quick slicing of sample and auto-mapping slices to midi note numbers.",
           "files": [
@@ -4388,7 +4388,7 @@
         "1.3.0": {
           "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/chowdhury-dsp/chowmatrix/chowmatrix.flac",
           "author": "Chowdhury DSP",
-          "changes": "- Added iOS/AUv3 support.\n- Added Pro Tools/AAX support.\n- Added forwarding parameters to expose node parameters to DAWs.\n- Added \"Alien\" delay mode.\n- Added \"Reverse\" delay parameter.\n- Added optional automatic gain compensation for wet signal.\n- Added lock/unlock options for parameter randomisation.\n- Fixed \"hang\" when bringing delay to 0 ms in \"Analog\" mode.\n- Improved performance for pan modulation.\n- Improved preset management system.\n- Added option to throttle graphics rendering for the Matrix View.\n- Improved memory usage.\n",
+          "changes": "- iOS/AUv3 and Pro Tools/AAX support.\n- Forwarding parameters to expose node parameters to DAWs.\n- \"Alien\" and \"Reverse\" delay parameters.\n- Optional automatic gain compensation for wet signal.\n- Lock/unlock options for parameter randomisation.\n",
           "date": "2021-12-21T07:00:00.000Z",
           "description": "Delay effect, made up of an infinitely growable tree of delay lines, each with individual controls for feedback, panning, distortion, and more.",
           "files": [
@@ -4476,7 +4476,7 @@
         "3.1.0": {
           "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/birch-san/juicysfplugin/juicysf.flac",
           "author": "Birch San",
-          "changes": "- Updated fluidsynth from v2.2.4 -> v2.2.5. Fixes sample looping bug #22.\n- Updated JUCE from v6.1.2 to v6.1.5. Restores the native file picker which juicysfplugin 2.3.3 enjoyed, and improves accessibility.\n- Rewrote win32 cross-compile build system (again) as a multi-stage Docker build\n- Upgraded toolchain from llvm-mingw 20211002 with LLVM stable 13.0.0 to llvm-mingw 20220209 with LLVM 14.0.0 RC1.\n",
+          "changes": "- Updated fluidsynth to v2.2.5. Fixes sample looping bug.\n- Updated JUCE to v6.1.5. Restores the native file picker and improves accessibility.\n- Rewrote win32 cross-compile build system as a multi-stage Docker build\n",
           "date": "2022-02-13T07:00:00.000Z",
           "description": "SoundFont synthesizer for playing General Midi music using sf2 files.",
           "files": [
@@ -4542,7 +4542,7 @@
         "1.14.1": {
           "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/audioplugins/iempluginsuite/iempluginsuite.flac",
           "author": "Institute of Electronic Music and Acoustics",
-          "changes": "- Moved to JUCE 7.0.5\n- Plug-ins work again on Windows Vista and 7\n- AllRADecoder and SimpleDecoder\n- Wrap azimuth exceeding 180° and elevation exceeding 90° for correct im-/export of layouts\n- Update IEM Cube decoder preset\n- GranularEncoder\n- Add some color to the sliders\n",
+          "changes": "- Use JUCE 7.0.5 and support Windows Vista and 7\n- AllRADecoder and SimpleDecoder\n- Wrap azimuth exceeding 180° and elevation exceeding 90° for correct im-/export of layouts\n- Update IEM Cube decoder preset and GranularEncoder\n",
           "date": "2023-02-23T07:00:00.000Z",
           "description": "Collection of ambisonic plug-ins including Compressors, Delays, Reverb, Encoders, Decoders and Visualizers.",
           "files": [
@@ -4607,7 +4607,7 @@
         "0.9.8": {
           "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/asb2m10/dexed/dexed.flac",
           "author": "Pascal Gauthier",
-          "changes": "- Accessibility implementation (including keyboard shortcuts)\n- UI component refresh\n- Mono/Poly parameter is now a plugin parameter\n- Copy/paste operator values are now text based (and system wide)\n- Fix Apple Logic startup issue\n- Corrections of graphs for Algorithms 15 and 14 by @FulopNandor in #436\n- Code cleanup for MidiMonitor by @FulopNandor in #442\n- Corrections for DexedTheme v2 by @FulopNandor in #443\n",
+          "changes": "- Accessibility and UI component refresh\n- Mono/Poly parameter plugin parameter\n- Corrections of graphs for Algorithms 15 and 14\n- Fixes for MidiMonitor and DexedTheme v2\n",
           "date": "2024-10-08T07:00:00.000Z",
           "description": "Synthesizer closely modeled on the Yamaha DX7.",
           "files": [
@@ -5412,7 +5412,7 @@
         "1.0.0": {
           "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/presets/jh/floating-rhodes/floating-rhodes.flac",
           "author": "JH",
-          "changes": "- First version",
+          "changes": "- First version\n",
           "date": "2024-03-02T00:00:00.000Z",
           "description": "Floating Rhodes sounds.",
           "files": [
@@ -5469,7 +5469,7 @@
         "1.0.1": {
           "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/projects/kmt/banwer/banwer.flac",
           "author": "KMT",
-          "changes": "- First version",
+          "changes": "- First version\n",
           "date": "2024-03-02T00:00:00.000Z",
           "description": "Song idea using synthesizers.",
           "files": [
