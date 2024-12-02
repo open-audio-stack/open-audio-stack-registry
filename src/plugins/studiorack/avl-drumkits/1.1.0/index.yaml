@@ -16,33 +16,7 @@ files:
     sha256: 7b67f7439938647dc9c9cdc9d06169027c0fef1b68567e5eb7175b6276b8ba2c
     systems:
       - type: linux
-    size: 16025852
-    type: archive
-    url: https://github.com/studiorack/avl-drumkits/releases/download/v1.1.0/avl-drumkits.zip
-  - architectures:
-      - arm32
-      - arm64
-      - x32
-      - x64
-    contains:
-      - sfz
-    format: zip
-    sha256: 7b67f7439938647dc9c9cdc9d06169027c0fef1b68567e5eb7175b6276b8ba2c
-    systems:
       - type: mac
-    size: 16025852
-    type: archive
-    url: https://github.com/studiorack/avl-drumkits/releases/download/v1.1.0/avl-drumkits.zip
-  - architectures:
-      - arm32
-      - arm64
-      - x32
-      - x64
-    contains:
-      - sfz
-    format: zip
-    sha256: 7b67f7439938647dc9c9cdc9d06169027c0fef1b68567e5eb7175b6276b8ba2c
-    systems:
       - type: win
     size: 16025852
     type: archive

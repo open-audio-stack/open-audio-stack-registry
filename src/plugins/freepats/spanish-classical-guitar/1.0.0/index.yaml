@@ -16,33 +16,7 @@ files:
     sha256: d107a8f65e03ed46b6d1991621ae603a80a8ef60b78049630f060fe7465acc22
     systems:
       - type: linux
-    size: 4943846
-    type: archive
-    url: https://github.com/freepats/spanish-classical-guitar/releases/download/v1.0.0/SpanishClassicalGuitar-20190618.zip
-  - architectures:
-      - arm32
-      - arm64
-      - x32
-      - x64
-    contains:
-      - sfz
-    format: zip
-    sha256: d107a8f65e03ed46b6d1991621ae603a80a8ef60b78049630f060fe7465acc22
-    systems:
       - type: mac
-    size: 4943846
-    type: archive
-    url: https://github.com/freepats/spanish-classical-guitar/releases/download/v1.0.0/SpanishClassicalGuitar-20190618.zip
-  - architectures:
-      - arm32
-      - arm64
-      - x32
-      - x64
-    contains:
-      - sfz
-    format: zip
-    sha256: d107a8f65e03ed46b6d1991621ae603a80a8ef60b78049630f060fe7465acc22
-    systems:
       - type: win
     size: 4943846
     type: archive
