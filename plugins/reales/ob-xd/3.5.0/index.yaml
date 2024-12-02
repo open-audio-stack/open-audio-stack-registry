@@ -11,7 +11,7 @@ changes: |
   - MIDI and Preset Bar Enhancements
   - LFO Synchronization
 date: '2021-05-30T07:00:00.000Z'
-description: Based on the Oberheim OB-X. It attempts to recreate its sound and behaviours, but as the original was very limited in some important ways a number of things were added or altered to the original design. The OB-Xd was designed to sound as good and as rich as the original. It implements micro random detuning which is a big part of that sound.
+description: Recreates the sound and behaviours of the Oberheim OB-X, without the limitations of the original hardware including features such as micro random detuning.
 files:
   - architectures:
       - x64

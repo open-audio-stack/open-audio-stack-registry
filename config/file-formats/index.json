@@ -10,6 +10,11 @@
     "name": "Apple Disk Image"
   },
   {
+    "description": "macOS and iOS software package installer.",
+    "value": "pkg",
+    "name": "Apple package"
+  },
+  {
     "description": "Package for Debian-based Linux such as Ubuntu.",
     "value": "deb",
     "name": "Debian package"

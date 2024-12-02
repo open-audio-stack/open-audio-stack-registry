@@ -2255,7 +2255,7 @@
         "author": "discoDSP",
         "changes": "- Unlock Bi-Directional MIDI Control\n- New Unison Voices\n- Enhanced Oscillator Features\n- Advanced Filter Capabilities\n- Refined Attack Envelope Shape\n- Oversampling Selection\n- MIDI and Preset Bar Enhancements\n- LFO Synchronization\n",
         "date": "2021-05-30T07:00:00.000Z",
-        "description": "Based on the Oberheim OB-X. It attempts to recreate its sound and behaviours, but as the original was very limited in some important ways a number of things were added or altered to the original design. The OB-Xd was designed to sound as good and as rich as the original. It implements micro random detuning which is a big part of that sound.",
+        "description": "Recreates the sound and behaviours of the Oberheim OB-X, without the limitations of the original hardware including features such as micro random detuning.",
         "files": [
           {
             "architectures": [
@@ -2948,85 +2948,6 @@
       }
     }
   },
-  "louisgorenfeld/digits": {
-    "slug": "louisgorenfeld/digits",
-    "version": "0.9.8",
-    "versions": {
-      "0.9.8": {
-        "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/asb2m10/dexed/dexed.flac",
-        "author": "Pascal Gauthier",
-        "changes": "- Now over 100 presets!\n- Fixed first time instantiated in Renoise no audio\n- Fixed save dialog not closing\n- Fixed fade parameter not functioning if sustain not at maximum\n- Fixed patch restoring in FL Studio\n- Crisper tone\n",
-        "date": "2019-09-19T07:00:00.000Z",
-        "description": "Phase distortion synthesizer inspired by Casio's CZ series but takes that form of synthesis to the limit. Create warm pads, glitchy sounds, dirty basses, filthy sweeps, screaming leads, and anything in-between.",
-        "files": [
-          {
-            "architectures": [
-              "x64"
-            ],
-            "contains": [
-              "so"
-            ],
-            "format": "tar.gz",
-            "sha256": "1c615c64852a943e1c6b98e7a09fd0ff255c218051d150795687936f0ac27aa1",
-            "systems": [
-              {
-                "type": "linux"
-              }
-            ],
-            "size": 245325,
-            "type": "archive",
-            "url": "http://www.extentofthejam.com/DigitsLinux_2_1.tar.gz"
-          },
-          {
-            "architectures": [
-              "x64"
-            ],
-            "contains": [
-              "vst"
-            ],
-            "format": "zip",
-            "sha256": "3e5b102c173167444fc894b7da9f5a0c934e2ca8ec2f171c48b75ab526808b88",
-            "systems": [
-              {
-                "type": "mac"
-              }
-            ],
-            "size": 2301101,
-            "type": "archive",
-            "url": "http://www.extentofthejam.com/DigitsMac_2_1.zip"
-          },
-          {
-            "architectures": [
-              "x64"
-            ],
-            "contains": [
-              "dll"
-            ],
-            "format": "exe",
-            "sha256": "4d0705d42e52090b7f31d5d4a13719b7d9c79dad56e5d1556fc83e0fff9d0997",
-            "systems": [
-              {
-                "type": "win"
-              }
-            ],
-            "size": 669291,
-            "type": "archive",
-            "url": "http://www.extentofthejam.com/Digits_x32_x64_2_1.exe"
-          }
-        ],
-        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/asb2m10/dexed/dexed.jpg",
-        "license": "gpl-3.0",
-        "name": "Dexed",
-        "tags": [
-          "Instrument",
-          "Synth",
-          "Casio"
-        ],
-        "type": "instrument",
-        "url": "https://github.com/LouisGorenfeld/DigitsVst"
-      }
-    }
-  },
   "keijiro/vst2413": {
     "slug": "keijiro/vst2413",
     "version": "1.0.2",
@@ -3036,7 +2957,7 @@
         "author": "Keijiro Takahashi",
         "changes": "",
         "date": "2013-04-21T07:00:00.000Z",
-        "description": "FM synthesizer based on YM2413 (OPLL) emulator. YM2413 is well known as low-cost FM sound chip, and was used on Sega Master System and FM-PAC sound expansion cartridge for MSX. VST2413 can resemble that warm texture of sound and may be well suited for use in 'post 8-bit era style' chiptune music.",
+        "description": "FM synthesizer based on YM2413 (OPLL) emulator. YM2413 is well known as low-cost FM sound chip, used on Sega Master System and FM-PAC sound expansion cartridge for MSX. Well-suited for use in 'post 8-bit era style' chiptune music.",
         "files": [
           {
             "architectures": [

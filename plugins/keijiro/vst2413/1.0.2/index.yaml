@@ -3,7 +3,7 @@ audio: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/keij
 author: Keijiro Takahashi
 changes: ''
 date: '2013-04-21T07:00:00.000Z'
-description: FM synthesizer based on YM2413 (OPLL) emulator. YM2413 is well known as low-cost FM sound chip, and was used on Sega Master System and FM-PAC sound expansion cartridge for MSX. VST2413 can resemble that warm texture of sound and may be well suited for use in 'post 8-bit era style' chiptune music.
+description: FM synthesizer based on YM2413 (OPLL) emulator. YM2413 is well known as low-cost FM sound chip, used on Sega Master System and FM-PAC sound expansion cartridge for MSX. Well-suited for use in 'post 8-bit era style' chiptune music.
 files:
   - architectures:
       - x64
