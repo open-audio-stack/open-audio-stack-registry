@@ -24,46 +24,10 @@
           "systems": [
             {
               "type": "linux"
-            }
-          ],
-          "size": 481838512,
-          "type": "archive",
-          "url": "https://github.com/sfzinstruments/karoryfer.black-and-green-guitars/releases/download/v1.000/Karoryfer_Black_And_Green_Guitars_1000.zip"
-        },
-        {
-          "architectures": [
-            "arm32",
-            "arm64",
-            "x32",
-            "x64"
-          ],
-          "contains": [
-            "sfz"
-          ],
-          "format": "zip",
-          "sha256": "69f29730c4af998e1e56486f4e8fa9c23b095669357c3d32dd9564d42d34d4c4",
-          "systems": [
+            },
             {
               "type": "mac"
-            }
-          ],
-          "size": 481838512,
-          "type": "archive",
-          "url": "https://github.com/sfzinstruments/karoryfer.black-and-green-guitars/releases/download/v1.000/Karoryfer_Black_And_Green_Guitars_1000.zip"
-        },
-        {
-          "architectures": [
-            "arm32",
-            "arm64",
-            "x32",
-            "x64"
-          ],
-          "contains": [
-            "sfz"
-          ],
-          "format": "zip",
-          "sha256": "69f29730c4af998e1e56486f4e8fa9c23b095669357c3d32dd9564d42d34d4c4",
-          "systems": [
+            },
             {
               "type": "win"
             }

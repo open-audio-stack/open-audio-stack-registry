@@ -16,33 +16,7 @@ files:
     sha256: 4ec33ed6244b166b7e68e594086487d177868171d3176e07560bacf81f7c144a
     systems:
       - type: linux
-    size: 24091
-    type: archive
-    url: https://github.com/endolith/Salamander-Drumkit/archive/refs/heads/master.zip
-  - architectures:
-      - arm32
-      - arm64
-      - x32
-      - x64
-    contains:
-      - sfz
-    format: zip
-    sha256: 4ec33ed6244b166b7e68e594086487d177868171d3176e07560bacf81f7c144a
-    systems:
       - type: mac
-    size: 24091
-    type: archive
-    url: https://github.com/endolith/Salamander-Drumkit/archive/refs/heads/master.zip
-  - architectures:
-      - arm32
-      - arm64
-      - x32
-      - x64
-    contains:
-      - sfz
-    format: zip
-    sha256: 4ec33ed6244b166b7e68e594086487d177868171d3176e07560bacf81f7c144a
-    systems:
       - type: win
     size: 24091
     type: archive

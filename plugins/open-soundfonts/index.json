@@ -25,46 +25,10 @@
             "systems": [
               {
                 "type": "linux"
-              }
-            ],
-            "size": 618138108,
-            "type": "archive",
-            "url": "https://github.com/open-soundfonts/Virtual_Playing_Orchestra_3/archive/refs/heads/master.zip"
-          },
-          {
-            "architectures": [
-              "arm32",
-              "arm64",
-              "x32",
-              "x64"
-            ],
-            "contains": [
-              "sfz"
-            ],
-            "format": "zip",
-            "sha256": "a88193aaefc422eb1d6166737d94cb5407be36a26bce9dd4485f8062c0309343",
-            "systems": [
+              },
               {
                 "type": "mac"
-              }
-            ],
-            "size": 618138108,
-            "type": "archive",
-            "url": "https://github.com/open-soundfonts/Virtual_Playing_Orchestra_3/archive/refs/heads/master.zip"
-          },
-          {
-            "architectures": [
-              "arm32",
-              "arm64",
-              "x32",
-              "x64"
-            ],
-            "contains": [
-              "sfz"
-            ],
-            "format": "zip",
-            "sha256": "a88193aaefc422eb1d6166737d94cb5407be36a26bce9dd4485f8062c0309343",
-            "systems": [
+              },
               {
                 "type": "win"
               }

@@ -20,46 +20,10 @@
       "systems": [
         {
           "type": "linux"
-        }
-      ],
-      "size": 10628855,
-      "type": "archive",
-      "url": "https://github.com/freepats/glass/releases/download/v1.0.0/Glass-20191227.zip"
-    },
-    {
-      "architectures": [
-        "arm32",
-        "arm64",
-        "x32",
-        "x64"
-      ],
-      "contains": [
-        "sfz"
-      ],
-      "format": "zip",
-      "sha256": "009e789d3762c5862bb927e9509fb4701f6f95d1ae181d42d7c7bc9e1bdf325b",
-      "systems": [
+        },
         {
           "type": "mac"
-        }
-      ],
-      "size": 10628855,
-      "type": "archive",
-      "url": "https://github.com/freepats/glass/releases/download/v1.0.0/Glass-20191227.zip"
-    },
-    {
-      "architectures": [
-        "arm32",
-        "arm64",
-        "x32",
-        "x64"
-      ],
-      "contains": [
-        "sfz"
-      ],
-      "format": "zip",
-      "sha256": "009e789d3762c5862bb927e9509fb4701f6f95d1ae181d42d7c7bc9e1bdf325b",
-      "systems": [
+        },
         {
           "type": "win"
         }

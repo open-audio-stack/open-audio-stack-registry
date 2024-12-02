@@ -24,46 +24,10 @@
           "systems": [
             {
               "type": "linux"
-            }
-          ],
-          "size": 1729446,
-          "type": "archive",
-          "url": "https://github.com/studiorack/avl-percussions/releases/download/v1.1.0/avl-percussions.zip"
-        },
-        {
-          "architectures": [
-            "arm32",
-            "arm64",
-            "x32",
-            "x64"
-          ],
-          "contains": [
-            "sfz"
-          ],
-          "format": "zip",
-          "sha256": "551f520342622d83bfbfe5f8a10785d8dad8351281e388014e96f66357f61b7c",
-          "systems": [
+            },
             {
               "type": "mac"
-            }
-          ],
-          "size": 1729446,
-          "type": "archive",
-          "url": "https://github.com/studiorack/avl-percussions/releases/download/v1.1.0/avl-percussions.zip"
-        },
-        {
-          "architectures": [
-            "arm32",
-            "arm64",
-            "x32",
-            "x64"
-          ],
-          "contains": [
-            "sfz"
-          ],
-          "format": "zip",
-          "sha256": "551f520342622d83bfbfe5f8a10785d8dad8351281e388014e96f66357f61b7c",
-          "systems": [
+            },
             {
               "type": "win"
             }

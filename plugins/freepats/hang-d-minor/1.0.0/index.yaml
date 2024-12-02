@@ -16,33 +16,7 @@ files:
     sha256: 17694f513c876af4ce344f21b3b2b458cd568318e078b0e568133faf290f04a6
     systems:
       - type: linux
-    size: 13478020
-    type: archive
-    url: https://github.com/freepats/hang-D-minor/releases/download/2022-03-30/Hang-D-minor-SFZ+FLAC-20220330.7z
-  - architectures:
-      - arm32
-      - arm64
-      - x32
-      - x64
-    contains:
-      - sfz
-    format: 7z
-    sha256: 17694f513c876af4ce344f21b3b2b458cd568318e078b0e568133faf290f04a6
-    systems:
       - type: mac
-    size: 13478020
-    type: archive
-    url: https://github.com/freepats/hang-D-minor/releases/download/2022-03-30/Hang-D-minor-SFZ+FLAC-20220330.7z
-  - architectures:
-      - arm32
-      - arm64
-      - x32
-      - x64
-    contains:
-      - sfz
-    format: 7z
-    sha256: 17694f513c876af4ce344f21b3b2b458cd568318e078b0e568133faf290f04a6
-    systems:
       - type: win
     size: 13478020
     type: archive

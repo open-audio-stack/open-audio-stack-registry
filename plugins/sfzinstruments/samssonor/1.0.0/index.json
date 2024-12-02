@@ -20,46 +20,10 @@
       "systems": [
         {
           "type": "linux"
-        }
-      ],
-      "size": 748476973,
-      "type": "archive",
-      "url": "https://github.com/sfzinstruments/SamsSonor/archive/refs/heads/master.zip"
-    },
-    {
-      "architectures": [
-        "arm32",
-        "arm64",
-        "x32",
-        "x64"
-      ],
-      "contains": [
-        "sfz"
-      ],
-      "format": "zip",
-      "sha256": "74d11c1ea0fcfe77eb80d6a48e960cbfc42716bdfd74a621eca5799f1680cb5c",
-      "systems": [
+        },
         {
           "type": "mac"
-        }
-      ],
-      "size": 748476973,
-      "type": "archive",
-      "url": "https://github.com/sfzinstruments/SamsSonor/archive/refs/heads/master.zip"
-    },
-    {
-      "architectures": [
-        "arm32",
-        "arm64",
-        "x32",
-        "x64"
-      ],
-      "contains": [
-        "sfz"
-      ],
-      "format": "zip",
-      "sha256": "74d11c1ea0fcfe77eb80d6a48e960cbfc42716bdfd74a621eca5799f1680cb5c",
-      "systems": [
+        },
         {
           "type": "win"
         }

@@ -20,46 +20,10 @@
       "systems": [
         {
           "type": "linux"
-        }
-      ],
-      "size": 109135588,
-      "type": "archive",
-      "url": "https://github.com/sfzinstruments/karoryfer.war-tuba/releases/download/v1.002/Karoryfer_War_Tuba_v1002.zip"
-    },
-    {
-      "architectures": [
-        "arm32",
-        "arm64",
-        "x32",
-        "x64"
-      ],
-      "contains": [
-        "sfz"
-      ],
-      "format": "zip",
-      "sha256": "4f0b065c18b89111df4281df34c5120cd2d5b9a0c6b316835ec08d7891fd88d9",
-      "systems": [
+        },
         {
           "type": "mac"
-        }
-      ],
-      "size": 109135588,
-      "type": "archive",
-      "url": "https://github.com/sfzinstruments/karoryfer.war-tuba/releases/download/v1.002/Karoryfer_War_Tuba_v1002.zip"
-    },
-    {
-      "architectures": [
-        "arm32",
-        "arm64",
-        "x32",
-        "x64"
-      ],
-      "contains": [
-        "sfz"
-      ],
-      "format": "zip",
-      "sha256": "4f0b065c18b89111df4281df34c5120cd2d5b9a0c6b316835ec08d7891fd88d9",
-      "systems": [
+        },
         {
           "type": "win"
         }

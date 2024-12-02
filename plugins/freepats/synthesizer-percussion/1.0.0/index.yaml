@@ -16,33 +16,7 @@ files:
     sha256: b4eb79d2c0e8ba8fe9494cf9b236231f99ac0c40a81fa85118093e21563351e4
     systems:
       - type: linux
-    size: 1663420
-    type: archive
-    url: https://github.com/freepats/synthesizer-percussion/releases/download/v1.0.0/SynthesizerPercussion-20220718.zip
-  - architectures:
-      - arm32
-      - arm64
-      - x32
-      - x64
-    contains:
-      - sfz
-    format: zip
-    sha256: b4eb79d2c0e8ba8fe9494cf9b236231f99ac0c40a81fa85118093e21563351e4
-    systems:
       - type: mac
-    size: 1663420
-    type: archive
-    url: https://github.com/freepats/synthesizer-percussion/releases/download/v1.0.0/SynthesizerPercussion-20220718.zip
-  - architectures:
-      - arm32
-      - arm64
-      - x32
-      - x64
-    contains:
-      - sfz
-    format: zip
-    sha256: b4eb79d2c0e8ba8fe9494cf9b236231f99ac0c40a81fa85118093e21563351e4
-    systems:
       - type: win
     size: 1663420
     type: archive

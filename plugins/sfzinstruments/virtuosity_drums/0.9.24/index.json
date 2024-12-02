@@ -20,46 +20,10 @@
       "systems": [
         {
           "type": "linux"
-        }
-      ],
-      "size": 1227222816,
-      "type": "archive",
-      "url": "https://github.com/sfzinstruments/virtuosity_drums/releases/download/v0.924/Virtuosity_Drums_v0.924.zip"
-    },
-    {
-      "architectures": [
-        "arm32",
-        "arm64",
-        "x32",
-        "x64"
-      ],
-      "contains": [
-        "sfz"
-      ],
-      "format": "zip",
-      "sha256": "a8e0da36cfe0a3832f09c24116139e3f72806144d10f3091dcc91e1636118fab",
-      "systems": [
+        },
         {
           "type": "mac"
-        }
-      ],
-      "size": 1227222816,
-      "type": "archive",
-      "url": "https://github.com/sfzinstruments/virtuosity_drums/releases/download/v0.924/Virtuosity_Drums_v0.924.zip"
-    },
-    {
-      "architectures": [
-        "arm32",
-        "arm64",
-        "x32",
-        "x64"
-      ],
-      "contains": [
-        "sfz"
-      ],
-      "format": "zip",
-      "sha256": "a8e0da36cfe0a3832f09c24116139e3f72806144d10f3091dcc91e1636118fab",
-      "systems": [
+        },
         {
           "type": "win"
         }

@@ -20,46 +20,10 @@
       "systems": [
         {
           "type": "linux"
-        }
-      ],
-      "size": 39751862,
-      "type": "archive",
-      "url": "https://github.com/sfzinstruments/jlearman.SteelDrum/archive/refs/heads/main.zip"
-    },
-    {
-      "architectures": [
-        "arm32",
-        "arm64",
-        "x32",
-        "x64"
-      ],
-      "contains": [
-        "sfz"
-      ],
-      "format": "zip",
-      "sha256": "2d91315a81024866b5ede8dc8b523b8b2c49e9c7d454c791da0489216464b448",
-      "systems": [
+        },
         {
           "type": "mac"
-        }
-      ],
-      "size": 39751862,
-      "type": "archive",
-      "url": "https://github.com/sfzinstruments/jlearman.SteelDrum/archive/refs/heads/main.zip"
-    },
-    {
-      "architectures": [
-        "arm32",
-        "arm64",
-        "x32",
-        "x64"
-      ],
-      "contains": [
-        "sfz"
-      ],
-      "format": "zip",
-      "sha256": "2d91315a81024866b5ede8dc8b523b8b2c49e9c7d454c791da0489216464b448",
-      "systems": [
+        },
         {
           "type": "win"
         }

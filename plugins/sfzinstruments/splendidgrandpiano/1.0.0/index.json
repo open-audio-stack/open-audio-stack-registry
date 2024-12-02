@@ -20,46 +20,10 @@
       "systems": [
         {
           "type": "linux"
-        }
-      ],
-      "size": 74508517,
-      "type": "archive",
-      "url": "https://github.com/sfzinstruments/SplendidGrandPiano/archive/refs/heads/master.zip"
-    },
-    {
-      "architectures": [
-        "arm32",
-        "arm64",
-        "x32",
-        "x64"
-      ],
-      "contains": [
-        "sfz"
-      ],
-      "format": "zip",
-      "sha256": "a1ed29dcf5a66ce931a3945282b797253cc658cb0a7f76b00a60130731ec3552",
-      "systems": [
+        },
         {
           "type": "mac"
-        }
-      ],
-      "size": 74508517,
-      "type": "archive",
-      "url": "https://github.com/sfzinstruments/SplendidGrandPiano/archive/refs/heads/master.zip"
-    },
-    {
-      "architectures": [
-        "arm32",
-        "arm64",
-        "x32",
-        "x64"
-      ],
-      "contains": [
-        "sfz"
-      ],
-      "format": "zip",
-      "sha256": "a1ed29dcf5a66ce931a3945282b797253cc658cb0a7f76b00a60130731ec3552",
-      "systems": [
+        },
         {
           "type": "win"
         }

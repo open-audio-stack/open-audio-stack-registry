@@ -24,46 +24,10 @@
           "systems": [
             {
               "type": "linux"
-            }
-          ],
-          "size": 32413525,
-          "type": "archive",
-          "url": "https://github.com/freepats/upright-piano-KW/releases/download/v1.0.0/UprightPianoKW-20220221.zip"
-        },
-        {
-          "architectures": [
-            "arm32",
-            "arm64",
-            "x32",
-            "x64"
-          ],
-          "contains": [
-            "sfz"
-          ],
-          "format": "zip",
-          "sha256": "6ff35278e1e06d2c886ff71bdbb1cc456026c585b5b1f5b2d23a04822b1269b8",
-          "systems": [
+            },
             {
               "type": "mac"
-            }
-          ],
-          "size": 32413525,
-          "type": "archive",
-          "url": "https://github.com/freepats/upright-piano-KW/releases/download/v1.0.0/UprightPianoKW-20220221.zip"
-        },
-        {
-          "architectures": [
-            "arm32",
-            "arm64",
-            "x32",
-            "x64"
-          ],
-          "contains": [
-            "sfz"
-          ],
-          "format": "zip",
-          "sha256": "6ff35278e1e06d2c886ff71bdbb1cc456026c585b5b1f5b2d23a04822b1269b8",
-          "systems": [
+            },
             {
               "type": "win"
             }

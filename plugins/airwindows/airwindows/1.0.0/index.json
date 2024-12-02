@@ -20,46 +20,10 @@
       "systems": [
         {
           "type": "linux"
-        }
-      ],
-      "size": 111866919,
-      "type": "archive",
-      "url": "https://github.com/airwindows/airwindows/archive/refs/heads/master.zip"
-    },
-    {
-      "architectures": [
-        "arm32",
-        "arm64",
-        "x32",
-        "x64"
-      ],
-      "contains": [
-        "sfz"
-      ],
-      "format": "zip",
-      "sha256": "4bb27f9c5be1d52c2c338513d4106542a15d7be9a971901b5744004d3b01a6d8",
-      "systems": [
+        },
         {
           "type": "mac"
-        }
-      ],
-      "size": 111866919,
-      "type": "archive",
-      "url": "https://github.com/airwindows/airwindows/archive/refs/heads/master.zip"
-    },
-    {
-      "architectures": [
-        "arm32",
-        "arm64",
-        "x32",
-        "x64"
-      ],
-      "contains": [
-        "sfz"
-      ],
-      "format": "zip",
-      "sha256": "4bb27f9c5be1d52c2c338513d4106542a15d7be9a971901b5744004d3b01a6d8",
-      "systems": [
+        },
         {
           "type": "win"
         }

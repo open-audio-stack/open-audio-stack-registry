@@ -20,46 +20,10 @@
       "systems": [
         {
           "type": "linux"
-        }
-      ],
-      "size": 265232156,
-      "type": "archive",
-      "url": "https://github.com/sfzinstruments/dsmolken.double-bass/releases/download/v1.001/DSmolken.double_bass.v1.001.zip"
-    },
-    {
-      "architectures": [
-        "arm32",
-        "arm64",
-        "x32",
-        "x64"
-      ],
-      "contains": [
-        "sfz"
-      ],
-      "format": "zip",
-      "sha256": "85d114e3f3e1a505475ada5dce3443a272697ad5b32630bd769d9e3c496b3671",
-      "systems": [
+        },
         {
           "type": "mac"
-        }
-      ],
-      "size": 265232156,
-      "type": "archive",
-      "url": "https://github.com/sfzinstruments/dsmolken.double-bass/releases/download/v1.001/DSmolken.double_bass.v1.001.zip"
-    },
-    {
-      "architectures": [
-        "arm32",
-        "arm64",
-        "x32",
-        "x64"
-      ],
-      "contains": [
-        "sfz"
-      ],
-      "format": "zip",
-      "sha256": "85d114e3f3e1a505475ada5dce3443a272697ad5b32630bd769d9e3c496b3671",
-      "systems": [
+        },
         {
           "type": "win"
         }
