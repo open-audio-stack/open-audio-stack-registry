@@ -9,8 +9,9 @@ files:
     architectures:
         x64
         contains:
-        so
-        format: tar.gz
+        vst3
+        au
+        format: zip
         sha256: 858c16bf594ace122cee1854024fb8719c232f593d3ecf3dccee72f22c0b2a08
         systems:
         type: linux
