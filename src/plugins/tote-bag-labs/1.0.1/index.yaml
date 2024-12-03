@@ -1,1 +1,40 @@
+audio: not sure what to do here
+author: tote-bag-labs
+changes: ''Increased maximum attack time to 55ms
+Adjusted crush/saturation/clip button spacing"
+date: '2024-04-27T07:00:00.000Z'
+description: An open source compressor meant to pump and breathe
+files:
+
+    architectures:
+        x64
+        contains:
+        so
+        format: tar.gz
+        sha256: 858c16bf594ace122cee1854024fb8719c232f593d3ecf3dccee72f22c0b2a08
+        systems:
+        type: linux
+        size: 491519
+        type: archive
+        url: https://github.com/tote-bag-labs/valentine/releases/download/v1.0.1/valentine-1.0.1-Linux.zip
+    architectures:
+        x64
+        contains:
+        dll
+        format: zip
+        sha256: 7728372c985c4cb0019f5000858d9486a0444f70fed3c44cac724c05db19c94d
+        systems:
+        type: win
+        size: 853466
+        type: archive
+        url: https://github.com/tote-bag-labs/valentine/releases/download/v1.0.1/valentine-1.0.1-windows.exe
+        image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/tote-bag-labs/valentine.jpg
+        license: gpl-3.0
+        name: Valentine
+        tags:
+    Effect
+    Compressor
+    Distortion
+    type: effect
+    url: https://github.com/Tote-Bag-Labs/Valentine
 
