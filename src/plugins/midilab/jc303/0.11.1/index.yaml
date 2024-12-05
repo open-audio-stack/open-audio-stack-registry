@@ -20,9 +20,7 @@ files:
     type: archive
     url: https://github.com/midilab/jc303/releases/download/v0.11.1/jc303-0.11.1-linux_x64-plugins.zip
   - architectures:
-      - arm32
       - arm64
-      - x32
       - x64
     contains:
       - clap
