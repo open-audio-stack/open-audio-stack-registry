@@ -1,1 +1,30 @@
-
+---
+audio: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/midilab/jc303/jc303.flac
+author: jerryuhoo
+changes: |
+  - Add a button for more Drive gain (E-Extreme).
+  - Fix a bug of compression settings and width settings can not be set for each band independently.
+  - Add original spectrum (white).
+  - Improve GUI of VU meters.
+date: '2024-05-23T07:00:00.000Z'
+description: A multiband distortion plugin.
+files:
+  - architectures:
+      - arm64
+    contains:
+      - au
+      - vst3
+    format: zip
+    sha256: 9a05a7553193f65c6d859e7176c17365a80f05e32b5a433942bbab2333264cac
+    systems:
+      - type: mac
+    size: 2777808
+    type: archive
+    url: https://github.com/jerryuhoo/Fire/releases/download/v1.0.1/Apple.M.series.zip-plugins.zip
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/midilab/jc303/jc303.jpg
+license: agpl-3.0
+name: Fire
+tags:
+  - Distortion
+type: effect
+url: https://github.com/jerryuhoo/Fire
