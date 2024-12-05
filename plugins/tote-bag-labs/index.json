@@ -1,0 +1,83 @@
+{
+  "tote-bag-labs/valentine": {
+    "slug": "tote-bag-labs/valentine",
+    "version": "1.0.1",
+    "versions": {
+      "1.0.1": {
+        "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/tote-bag-labs/valentine/valentine.flac",
+        "author": "Tote Bag Labs",
+        "changes": "- Increased maximum attack time to 55ms\n- Adjusted crush/saturation/clip button spacing\n",
+        "date": "2024-04-27T07:00:00.000Z",
+        "description": "A compressor and distortion processor inspired by the hyper compressed and crushed textures in the seminal Justice record.",
+        "files": [
+          {
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "elf",
+              "vst3"
+            ],
+            "format": "zip",
+            "sha256": "dcb5960d882a294abf7a8af8796b9d9b2d647d38020e2a944c26070a4372e62e",
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "size": 14473485,
+            "type": "archive",
+            "url": "https://github.com/tote-bag-labs/valentine/releases/download/v1.0.1/valentine-1.0.1-Linux.zip"
+          },
+          {
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "component",
+              "vst3"
+            ],
+            "format": "dmg",
+            "sha256": "b946940305be64efbc7080e233eb3e51a77d69c0d2905703a3fc9ce336a0e687",
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "size": 5934049,
+            "type": "installer",
+            "url": "https://github.com/tote-bag-labs/valentine/releases/download/v1.0.1/valentine-1.0.1-macOS.dmg"
+          },
+          {
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "format": "exe",
+            "sha256": "414f80a8ef39df10db6fe5a47f5582bd0f20bdd13dabc63721fec9a6135d4f2d",
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "size": 2792291,
+            "type": "installer",
+            "url": "https://github.com/tote-bag-labs/valentine/releases/download/v1.0.1/valentine-1.0.1-windows.exe"
+          }
+        ],
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/tote-bag-labs/valentine/valentine.jpg",
+        "license": "gpl-3.0",
+        "name": "Valentine",
+        "tags": [
+          "Effect",
+          "Compressor",
+          "Distortion"
+        ],
+        "type": "effect",
+        "url": "https://github.com/Tote-Bag-Labs/Valentine"
+      }
+    }
+  }
+}
