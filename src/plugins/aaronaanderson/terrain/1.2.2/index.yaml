@@ -1,5 +1,5 @@
 ---
-audio: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/midilab/jc303/jc303.flac
+audio: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/aaronaanderson/terrain/terrain.flac
 author: Aaron Anderson 
 changes: |
   - Add Tuning System Name, refreshed automatically
@@ -47,7 +47,7 @@ files:
     size: 6277710
     type: archive
     url: https://github.com/aaronaanderson/Terrain/releases/download/1.2.2/Terrain_1.2.2_Windows.zip
-image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/aaronaanderson/terrain/Terrain.jpg
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/aaronaanderson/terrain/terrain.jpg
 license: gpl-3.0
 name: Terrain
 tags:
