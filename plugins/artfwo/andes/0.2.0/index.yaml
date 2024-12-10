@@ -12,7 +12,7 @@ files:
     contains:
       - so
     format: tar.gz
-    sha256: 1fbe400fc5b88905044c69a6c4492b512757a764588fcb0aeef86ab1ae3a1c82
+    sha256: 227cc22ef7b7cbf0945a6c428b6134911c7b09400908908132024ecd6563e3cc
     systems:
       - type: linux
     size: 6073667
@@ -23,7 +23,7 @@ files:
     contains:
       - vst
     format: zip
-    sha256: 8e71d60e7e35fc8bdbc663801bbc2c5cfac4d70d6eda91ed755e187b0ad7a0f0
+    sha256: 42165bcf77b99e1dbecf31528402c2d0bbb80c1c1153f64a686a5f0645d85a1f
     systems:
       - type: mac
     size: 5229715
@@ -34,7 +34,7 @@ files:
     contains:
       - dll
     format: zip
-    sha256: b331fecc6e8c27a78d437836144371e8486383ebde570cb6f3f1566e26a79e6d
+    sha256: 878781faf4acd931b6f30ce55f3bada63f83825a1436e19f116bf9680302cb9a
     systems:
       - type: win
     size: 3463564

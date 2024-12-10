@@ -526,7 +526,7 @@
               "vst3"
             ],
             "format": "zip",
-            "sha256": "8c2de75617e4e5b1051924d42b3b0306e5d1c3fea12c51c87d8505ba7857ca51",
+            "sha256": "dd431b75f5fa197c4bffa6ca27ca46970f0a94c834119bb1db7decdeec4c28db",
             "systems": [
               {
                 "type": "linux"
@@ -548,7 +548,7 @@
               "vst3"
             ],
             "format": "zip",
-            "sha256": "b453e32c28594c20dcb059e2ca8ec3dc01c3f844500d5519680c15c3e7a262ea",
+            "sha256": "37d8d809693adc86587b7bc75a2384fc4e905f259aa9b9a21777749d36fbf8aa",
             "systems": [
               {
                 "type": "mac"
@@ -568,7 +568,7 @@
               "vst3"
             ],
             "format": "zip",
-            "sha256": "9b9d3032985085dd662e06c4318c799919bcec0b4082a6afb2562c5538cf0853",
+            "sha256": "564e162c560af07ad4ed47fe1bfcd827cf97a575de30d06c48249aad2e7c35e6",
             "systems": [
               {
                 "type": "win"
@@ -608,7 +608,7 @@
               "vst3"
             ],
             "format": "zip",
-            "sha256": "d10a757380cea4b404e8b38482c12fa12be55adfe3d03e9886fef51d0a7828a4",
+            "sha256": "7b496b677da8fa6abf609e8a3d14d73ad1758cfeff42f1d41037e1e12ecb4be7",
             "systems": [
               {
                 "type": "linux"
@@ -630,7 +630,7 @@
               "vst3"
             ],
             "format": "zip",
-            "sha256": "e2a7d5d040157539b0a4f12dfe797646ba14ebde6f01ce8d54d3ce2e553db552",
+            "sha256": "dd163c922bfcc4b14fa90184797846c1c07df73c7498cd47442c111c8552d6bc",
             "systems": [
               {
                 "type": "mac"
@@ -650,7 +650,7 @@
               "vst3"
             ],
             "format": "zip",
-            "sha256": "5f3ba38245c1762108963337aea3003b51dc9e20e094409d98a4f016a6f4e400",
+            "sha256": "e6e1c7911127fa9e419f1c97551a00fc072246ac8b4a6b9493b835502c3a7288",
             "systems": [
               {
                 "type": "win"
@@ -783,7 +783,7 @@
               "sfz"
             ],
             "format": "zip",
-            "sha256": "551f520342622d83bfbfe5f8a10785d8dad8351281e388014e96f66357f61b7c",
+            "sha256": "c4f15aa29d54e5f3b06e8db6bb6d4182317c1bbdfabd61ed3146492e908d429c",
             "systems": [
               {
                 "type": "linux"
@@ -836,7 +836,7 @@
               "sfz"
             ],
             "format": "zip",
-            "sha256": "7b67f7439938647dc9c9cdc9d06169027c0fef1b68567e5eb7175b6276b8ba2c",
+            "sha256": "4a4ac29d1a373b8e4beb76995659198c6674907df9abd48ccd8736fb72d3e59a",
             "systems": [
               {
                 "type": "linux"
@@ -886,13 +886,13 @@
               "vst3"
             ],
             "format": "tar.gz",
-            "sha256": "5f48937aa823260c1576350ee53c57bde3b4bea0971926f7de84335573d7d342",
+            "sha256": "ae1a0ea014eae9923b2b8e7b90d35dcebc309301fd82abaf13cbb55f01581c76",
             "systems": [
               {
                 "type": "linux"
               }
             ],
-            "size": 19102967,
+            "size": 36291101,
             "type": "archive",
             "url": "https://github.com/sfztools/sfizz-ui/releases/download/1.2.3/sfizz-1.2.3.tar.gz"
           },
@@ -907,7 +907,7 @@
               "vst3"
             ],
             "format": "tar.gz",
-            "sha256": "cd17468db1d870199d9687c5d573d1126e4f2e8f3e989f4efc095d6808d67f89",
+            "sha256": "f3c2b4c562abfb1d182fb950503285637e7dee6c9b45baa2a06172923c76a4c7",
             "systems": [
               {
                 "type": "mac"
@@ -926,7 +926,7 @@
               "vst3"
             ],
             "format": "zip",
-            "sha256": "b361453bc1588623344e8712db4580655ed688fe5c642148e7abf7d08ff70eee",
+            "sha256": "56f57dfe443018e947b82b8e2bf4c9d824a9c961ff2b8eb6c5e929030b71b937",
             "systems": [
               {
                 "type": "win"
@@ -1078,7 +1078,7 @@
               "sfz"
             ],
             "format": "zip",
-            "sha256": "a1ed29dcf5a66ce931a3945282b797253cc658cb0a7f76b00a60130731ec3552",
+            "sha256": "343c4cfd51fa8397ec911255e1407b8bc9b87c0dd264db75f17c2609cd458b52",
             "systems": [
               {
                 "type": "linux"
@@ -1131,7 +1131,7 @@
               "sfz"
             ],
             "format": "zip",
-            "sha256": "74d11c1ea0fcfe77eb80d6a48e960cbfc42716bdfd74a621eca5799f1680cb5c",
+            "sha256": "a60b39f507721b4a2ee0380dbfe5267f8c7190e5a5c4590aed91bba496fc69c6",
             "systems": [
               {
                 "type": "linux"
@@ -1143,7 +1143,7 @@
                 "type": "win"
               }
             ],
-            "size": 748476973,
+            "size": 36195708,
             "type": "archive",
             "url": "https://github.com/sfzinstruments/SamsSonor/archive/refs/heads/master.zip"
           }
@@ -1289,7 +1289,7 @@
               "sfz"
             ],
             "format": "zip",
-            "sha256": "2d91315a81024866b5ede8dc8b523b8b2c49e9c7d454c791da0489216464b448",
+            "sha256": "ee547fb57ab4d04a3efeef101c7f591d0a67300f1c5459e02841c123ed643edd",
             "systems": [
               {
                 "type": "linux"
@@ -1342,7 +1342,7 @@
               "sfz"
             ],
             "format": "zip",
-            "sha256": "0a9ccd6d5d9231f8036734ecb03d087f17f69849841e826472ff575da574e970",
+            "sha256": "553180446445f00b32548131aaf6a5ff3962c9b796abf02911b38caae532c4ed",
             "systems": [
               {
                 "type": "linux"
@@ -1395,7 +1395,7 @@
               "sfz"
             ],
             "format": "zip",
-            "sha256": "2a7e5bdb6a626126b9e4b78e369332d0fa901eea366f77e006d1a4d50e26ccf8",
+            "sha256": "49962554dc9480870ee9ae959e36789448d940709164291799c8027f6e276119",
             "systems": [
               {
                 "type": "linux"
@@ -1448,7 +1448,7 @@
               "sfz"
             ],
             "format": "zip",
-            "sha256": "03f2f03c9ec2b81a960739d265341ea3b3b04df4af9677498696b5662efaeb54",
+            "sha256": "52157e831b82e0b1c512abda701f9133b8cd415b42a696b4d9b133946fa2e458",
             "systems": [
               {
                 "type": "linux"
@@ -1501,7 +1501,7 @@
               "sfz"
             ],
             "format": "zip",
-            "sha256": "85d114e3f3e1a505475ada5dce3443a272697ad5b32630bd769d9e3c496b3671",
+            "sha256": "380986bb52ee6b6469d28e9089792a3ed37cbd163fe5a19160bf4f98785e7ccb",
             "systems": [
               {
                 "type": "linux"
@@ -1554,7 +1554,7 @@
               "sfz"
             ],
             "format": "zip",
-            "sha256": "69f29730c4af998e1e56486f4e8fa9c23b095669357c3d32dd9564d42d34d4c4",
+            "sha256": "ba95221d32fb6386c5d0a0799b93904fd55520aca017c5f121da290075c140c0",
             "systems": [
               {
                 "type": "linux"
@@ -1607,7 +1607,7 @@
               "sfz"
             ],
             "format": "zip",
-            "sha256": "c60396b64530172e6dd03f761cab2606a652666dbf7767b661b8e0da6bde993f",
+            "sha256": "66c28ea361c86943b2e2bcda6ca48cf105fec4f60a8f40e7c6bbf584be45c654",
             "systems": [
               {
                 "type": "linux"
@@ -1973,7 +1973,7 @@
               "sfz"
             ],
             "format": "zip",
-            "sha256": "a88193aaefc422eb1d6166737d94cb5407be36a26bce9dd4485f8062c0309343",
+            "sha256": "1086afa02c5b0235710b63b7b6794300cb10370cd4f22d63f535227888de4b93",
             "systems": [
               {
                 "type": "linux"
@@ -2025,7 +2025,7 @@
               "so"
             ],
             "format": "deb",
-            "sha256": "db71839de921425e5038a89c3440969be831ddb2312909320d74998e5fa561aa",
+            "sha256": "aedf8b676657f72782513e5ad5f9c61a6bc21fe9357b23052928adafa8215eca",
             "systems": [
               {
                 "type": "linux"
@@ -2045,7 +2045,7 @@
               "vst3"
             ],
             "format": "pkg",
-            "sha256": "772427b7fb8552bdf924d6735d27003b813e7a6999cfb5e7c9a06672aaa417b4",
+            "sha256": "1bfac2c016d7dd5cd51e714fa6d9facef4e1db52617ff7dd52748dbec1400ebf",
             "systems": [
               {
                 "type": "mac"
@@ -2064,7 +2064,7 @@
               "vst3"
             ],
             "format": "msi",
-            "sha256": "c86ee5676040d3753b356eeb643f732cbd78cc31596bc8150bc5fb38ffd25412",
+            "sha256": "cdd711f3848c49e6b321ddc47fa5c5a62fc2d67744cfcafc7aa2ac3daad97747",
             "systems": [
               {
                 "type": "win"
@@ -2108,7 +2108,7 @@
               "so"
             ],
             "format": "tar.gz",
-            "sha256": "95011e8e99bd2d0985cfe6c0fe3ad0a855fb3b908deab808993923f2f2cbbbda",
+            "sha256": "e4ee704d6e74c8dd3f23fccc26fb8ab634333e8c14da915eb9e23e2774cca635",
             "systems": [
               {
                 "type": "linux"
@@ -2127,7 +2127,7 @@
               "vst3"
             ],
             "format": "dmg",
-            "sha256": "6ed21fe14b636c1c43de4a62aae69816372566eafa76095d6da57b92a44f4a70",
+            "sha256": "260e2e934ef9b9994a513f25ef11396159669c167823cab229eabff72b9b786f",
             "systems": [
               {
                 "type": "mac"
@@ -2146,7 +2146,7 @@
               "vst3"
             ],
             "format": "zip",
-            "sha256": "529d97fb9161453a01a91145f28fe2c3ae59680122b5232a57f1bef14bd2430e",
+            "sha256": "d0fe5d00d9f6b107eaf912694e1295343b5a05ca1581335dd251942832035282",
             "systems": [
               {
                 "type": "win"
@@ -2281,7 +2281,7 @@
               "vst3"
             ],
             "format": "tar.gz",
-            "sha256": "08a22e0c83b85f9a7e3b510e2ca983c81e7b8a573ce00b28919d6debd3835ae7",
+            "sha256": "59f1593120de82e31dd194e2ab1536af14fec2b3ec6ec45abf6d9c8ac02ef430",
             "systems": [
               {
                 "type": "linux"
@@ -2303,7 +2303,7 @@
               "vst3"
             ],
             "format": "tar.gz",
-            "sha256": "08a22e0c83b85f9a7e3b510e2ca983c81e7b8a573ce00b28919d6debd3835ae7",
+            "sha256": "59f1593120de82e31dd194e2ab1536af14fec2b3ec6ec45abf6d9c8ac02ef430",
             "systems": [
               {
                 "type": "linux"
@@ -2326,7 +2326,7 @@
               "vst3"
             ],
             "format": "dmg",
-            "sha256": "ed79085c95d84217d7b091aacd7741acd7397988a5e0b611972656d397f47ea8",
+            "sha256": "e0b854b92a4e51ce5851320fb1a9f91ab1a4309f997de070e175b3e5cab4adaf",
             "systems": [
               {
                 "type": "mac"
@@ -2348,7 +2348,7 @@
               "vst3"
             ],
             "format": "zip",
-            "sha256": "3275d76b985be3c1fce38e7cba231693a9e06a7736dab233df67a4712e8fc01d",
+            "sha256": "ca5f35f9dcd9a33f06490d3c92f04061a1a798cb81257d5ca5851bdda0824c66",
             "systems": [
               {
                 "type": "win"
@@ -2394,7 +2394,7 @@
               "sfz"
             ],
             "format": "zip",
-            "sha256": "486044b6b16eeb86f5d27df60f472e72a806b0b7aa8871a813a0f3c6f01d7083",
+            "sha256": "3b7d45eecb1201179ce618c71ce501732214684284ac1ddecf9ab251d58e9128",
             "systems": [
               {
                 "type": "linux"
@@ -2586,7 +2586,7 @@
               "so"
             ],
             "format": "deb",
-            "sha256": "64fff833bc67ef80f6fa65bb27097a36f2c8d68cbab4817bdf5159ff8eddaabb",
+            "sha256": "284fb7271dbdf399d3bc06464bf06726fa97554becfecf3b998615cf976e0fc6",
             "systems": [
               {
                 "type": "linux"
@@ -2609,7 +2609,7 @@
               "vst3"
             ],
             "format": "7z",
-            "sha256": "e7c1055e730a2f23c11d79b0737637d5841b7bb5fa562540d67d32fe6cb07eeb",
+            "sha256": "f874683fd0899fd83e9bc7568aa0079035df084cadeea2569826933b2dcee315",
             "systems": [
               {
                 "type": "mac"
@@ -2630,7 +2630,7 @@
               "vst3"
             ],
             "format": "7z",
-            "sha256": "514a3037819e907f89e466d27a34be45ac40950f1ae53fa19f9ace2e8129ed50",
+            "sha256": "f65675b01c4a43fd85bd1c9a188fd1725bd2595719ca878e466ef83b42fdc8e2",
             "systems": [
               {
                 "type": "win"
@@ -2675,7 +2675,7 @@
               "so"
             ],
             "format": "deb",
-            "sha256": "5e16542042dd6f974932983b2fe2caad7a0398fa9786832f4690d849e01c4041",
+            "sha256": "7e3f433f93f861f475e80d571e79ab0ada157590b276179d82f07797cb27d01b",
             "systems": [
               {
                 "type": "linux"
@@ -2698,7 +2698,7 @@
               "vst3"
             ],
             "format": "7z",
-            "sha256": "4f1aa2a6ee546fc6f5418d511e53665e1b388a4bcc1aa9e08832b71a8a1014e5",
+            "sha256": "44d2f6e34ca02f51a11ef64be1208dc50f553ce02a3f1ef9fa36a90c34699934",
             "systems": [
               {
                 "type": "mac"
@@ -2719,7 +2719,7 @@
               "vst3"
             ],
             "format": "7z",
-            "sha256": "76e51b05e8a2e551fa4d05eef16a575cfde54cb6a91ac16f4942e78634c4ffaa",
+            "sha256": "bad70fcb3b9debcebb2abe840bfd93fa40f743ab8f02bb3f438d104a044f6882",
             "systems": [
               {
                 "type": "win"
@@ -2994,7 +2994,7 @@
               "sfz"
             ],
             "format": "zip",
-            "sha256": "6ff35278e1e06d2c886ff71bdbb1cc456026c585b5b1f5b2d23a04822b1269b8",
+            "sha256": "3d602dcff94bcf9fb9b2d78df8c689814c895fd2776ee104a95b73c44bdc7e18",
             "systems": [
               {
                 "type": "linux"
@@ -3047,7 +3047,7 @@
               "sfz"
             ],
             "format": "zip",
-            "sha256": "b4eb79d2c0e8ba8fe9494cf9b236231f99ac0c40a81fa85118093e21563351e4",
+            "sha256": "07d58651820247ba2b57d0e3cac0b1e0734a9773d92c3bcddc48bbb9f3fcdeb8",
             "systems": [
               {
                 "type": "linux"
@@ -3100,7 +3100,7 @@
               "sfz"
             ],
             "format": "zip",
-            "sha256": "d107a8f65e03ed46b6d1991621ae603a80a8ef60b78049630f060fe7465acc22",
+            "sha256": "173f775222991061291767724d57c7c21242a3c3254407b266aabd548df23dbb",
             "systems": [
               {
                 "type": "linux"
@@ -3153,7 +3153,7 @@
               "sfz"
             ],
             "format": "7z",
-            "sha256": "17694f513c876af4ce344f21b3b2b458cd568318e078b0e568133faf290f04a6",
+            "sha256": "dea56a898c88b838e37f92967fe0edfe41b1bd2aa16ed9a240e3f44efb525a5c",
             "systems": [
               {
                 "type": "linux"
@@ -3206,7 +3206,7 @@
               "sfz"
             ],
             "format": "zip",
-            "sha256": "009e789d3762c5862bb927e9509fb4701f6f95d1ae181d42d7c7bc9e1bdf325b",
+            "sha256": "9506bd3f9021f1cbc431c7a6a0ba193fa38e4f3b4f3126b308edcfab56a066ee",
             "systems": [
               {
                 "type": "linux"
@@ -3259,7 +3259,7 @@
               "vst"
             ],
             "format": "zip",
-            "sha256": "0dc42eff57c76394e5f8074075d7d3693fad3547356f433271815826b0e311c9",
+            "sha256": "d797ec83ac9bbd402cb116d1b562cbb6d786b355f42233436546fbf2bc4015e9",
             "systems": [
               {
                 "type": "mac"
@@ -3279,7 +3279,7 @@
               "lv2"
             ],
             "format": "zip",
-            "sha256": "437a4a46810ac28b8c03fd4fe17805e7a6d923c20b9eb5b768fcc113e1e563e1",
+            "sha256": "de0091c4cc5fdcfdb4f589434d6e23554790d9b6c484908f7e31afebfd627565",
             "systems": [
               {
                 "type": "win"
@@ -3325,7 +3325,7 @@
               "sfz"
             ],
             "format": "zip",
-            "sha256": "4ec33ed6244b166b7e68e594086487d177868171d3176e07560bacf81f7c144a",
+            "sha256": "bce8fa0cb01b4ad2d4d5e7e5d297dc26be3d4af761807fae1e7b960d47dfc00b",
             "systems": [
               {
                 "type": "linux"
@@ -3378,7 +3378,7 @@
               "vst3"
             ],
             "format": "tar.gz",
-            "sha256": "5977d90319d5bdc87b471a1b0094f306417098a3d0d9841de4cbe1d48e2500cc",
+            "sha256": "f3251277b3083c363c84908656b24e213b65468ee24e85f5a10bad406b78f877",
             "systems": [
               {
                 "type": "linux"
@@ -3400,7 +3400,7 @@
               "vst3"
             ],
             "format": "tar.gz",
-            "sha256": "6bc00af3dce6c96fa0b828bb5c68c4bb3ca4cb4bba2f1c9a7c1bc7bd08f777d8",
+            "sha256": "8088e362f9f68fea179abe9f96b83fca07693224ffcf46837c24ff8b59b119cb",
             "systems": [
               {
                 "type": "linux"
@@ -3423,7 +3423,7 @@
               "vst3"
             ],
             "format": "dmg",
-            "sha256": "25eaf9cd8ba2e7c3738008b2192256be85e6e41174f7afe054e4435c469c00b2",
+            "sha256": "94b996c898a7ba160561113d1c48c4700a6ef65d33f4092ea7289b1af44059e1",
             "systems": [
               {
                 "type": "mac"
@@ -3445,7 +3445,7 @@
               "vst3"
             ],
             "format": "zip",
-            "sha256": "a9930df6fcf62c48297b1f7ec6f5970fb1c5ffc023e10f9e94c0b45868ebabb7",
+            "sha256": "fdc609e0936e9c999395b9ddd98a9a72739cb672d8838ab71849469aee50ad98",
             "systems": [
               {
                 "type": "win"
@@ -3574,7 +3574,7 @@
               "vst3"
             ],
             "format": "deb",
-            "sha256": "4e681d24412fcba1348799a76c3a57268e8b17b66781bbf5ac59218b391e4441",
+            "sha256": "71aaae1c454ac83ac16b248d4cc99c12bf6d11452a87376fcb6b1e79060e3a5c",
             "systems": [
               {
                 "type": "linux"
@@ -3596,7 +3596,7 @@
               "vst3"
             ],
             "format": "zip",
-            "sha256": "294719960207834d12e2f4662dc346a2fe3f5f1194a19e0a149a14d0bbab476b",
+            "sha256": "9b37e2b6cb6c0a839ee9c65e1a958834ca647b3edfc4bd144115c483b4d64f82",
             "systems": [
               {
                 "type": "mac"
@@ -3616,7 +3616,7 @@
               "vst3"
             ],
             "format": "exe",
-            "sha256": "80df51c369e0b6d4a75a44e55cb75db1eb0a0838aac8dcce8bfd922a53b5232d",
+            "sha256": "8ba6e91196067244837877d9ca4a8e4a1f5bfad60cf33fa699c8a5b41f1211bf",
             "systems": [
               {
                 "type": "win"
@@ -3662,7 +3662,7 @@
               "vst3"
             ],
             "format": "deb",
-            "sha256": "0e0aa9187a43db2887f4a817c8e78ea9bfef2961f5c9627296eafd6803a0f4b7",
+            "sha256": "332749bba2fcfefeb68c105b9f55fd71aa7a8bfb524f592cbb68cc6c0581a767",
             "systems": [
               {
                 "type": "linux"
@@ -3684,7 +3684,7 @@
               "vst3"
             ],
             "format": "zip",
-            "sha256": "075822551685534c7c5acc3738807afdb94222d38a6409cbe3a39bf2485de61d",
+            "sha256": "11705e4cfb023525e8b6830fb29feb046eac05688428a12a8fdad48dc9a9fdcf",
             "systems": [
               {
                 "type": "mac"
@@ -3704,7 +3704,7 @@
               "vst3"
             ],
             "format": "exe",
-            "sha256": "3a2db17a628a5638a64608d7d89df37aeb3be814516aa95cc434f46a4ec4c916",
+            "sha256": "b1e2451ae66362bf82112e77fccc48a1233780b6cbfb58fe1a588b17a77456c5",
             "systems": [
               {
                 "type": "win"
@@ -3750,7 +3750,7 @@
               "vst3"
             ],
             "format": "tar.gz",
-            "sha256": "b2378af2ed2aa9c52fee594a9e0ce0de141b33915fed6cd07f92e15d32476513",
+            "sha256": "0321213ead513da5e95b69eba89f37e28cb480b4737a22713fdd966124b8e340",
             "systems": [
               {
                 "type": "mac"
@@ -3770,7 +3770,7 @@
               "vst3"
             ],
             "format": "zip",
-            "sha256": "a391215a955583c87916a042cb909db0bafc16972a63a38f94f3a46dea1bf74e",
+            "sha256": "21a706090d0a72511756dfd65d6a3c0711257c94b707679346e04d182dc178a0",
             "systems": [
               {
                 "type": "win"
@@ -3816,7 +3816,7 @@
               "vst3"
             ],
             "format": "pkg",
-            "sha256": "9c77ed2f3dac5f7bd2e2eb2cd06fe276f97069f6aa90adda2f50a40b1289bf01",
+            "sha256": "51dbe21c46b400034f796ae53cc5a31d278ab2dcffe49b37e2f61936b48af54f",
             "systems": [
               {
                 "type": "mac"
@@ -3835,7 +3835,7 @@
               "lv2"
             ],
             "format": "zip",
-            "sha256": "fcda62b77b2185c416c39cef40492e711df28c72953095648afedc96d28e3656",
+            "sha256": "deca1305320f3debdf1d96299f4850a5de3b3d2c3f6142a78fb7afca633d787c",
             "systems": [
               {
                 "type": "win"
@@ -3880,7 +3880,7 @@
               "vst3"
             ],
             "format": "zip",
-            "sha256": "28c00eb6c2ab6172ef2650f384d4a0299c654d3b21b3f8a124f4fad0beff15f1",
+            "sha256": "5d026f53504f9303ae2a4a635cf6fdfc50ab9c947cbc0a20ecb5c8f323402dab",
             "systems": [
               {
                 "type": "linux"
@@ -3901,7 +3901,7 @@
               "vst3"
             ],
             "format": "zip",
-            "sha256": "f85655398a60b924e90eca127fd7c40a0794546fea205fc613b9d7f216b2627d",
+            "sha256": "3be32f98e56b40d9555a4069368c7307b8bae3368459bb087cf6195ae7538704",
             "systems": [
               {
                 "type": "mac"
@@ -3921,7 +3921,7 @@
               "vst3"
             ],
             "format": "zip",
-            "sha256": "346f729c94e409b90ca3e0148ccf061794d288c7cc2f4d9ff3f13db945e6d78b",
+            "sha256": "5df11ce77baf8e02af0bc35fe4981593ce1afdf70d67fe8cde65174b4f8a57ca",
             "systems": [
               {
                 "type": "win"
@@ -3964,7 +3964,7 @@
               "so"
             ],
             "format": "tar.gz",
-            "sha256": "1fbe400fc5b88905044c69a6c4492b512757a764588fcb0aeef86ab1ae3a1c82",
+            "sha256": "227cc22ef7b7cbf0945a6c428b6134911c7b09400908908132024ecd6563e3cc",
             "systems": [
               {
                 "type": "linux"
@@ -3982,7 +3982,7 @@
               "vst"
             ],
             "format": "zip",
-            "sha256": "8e71d60e7e35fc8bdbc663801bbc2c5cfac4d70d6eda91ed755e187b0ad7a0f0",
+            "sha256": "42165bcf77b99e1dbecf31528402c2d0bbb80c1c1153f64a686a5f0645d85a1f",
             "systems": [
               {
                 "type": "mac"
@@ -4000,7 +4000,7 @@
               "dll"
             ],
             "format": "zip",
-            "sha256": "b331fecc6e8c27a78d437836144371e8486383ebde570cb6f3f1566e26a79e6d",
+            "sha256": "878781faf4acd931b6f30ce55f3bada63f83825a1436e19f116bf9680302cb9a",
             "systems": [
               {
                 "type": "win"
@@ -4044,7 +4044,7 @@
               "vst3"
             ],
             "format": "zip",
-            "sha256": "402c4b762546f679a5e285d2620891daf85eb3e0b2d19755727e508245414856",
+            "sha256": "8ef8e5f0888443a8b672f62e19101f63de02e56d76a3282375276134a3924046",
             "systems": [
               {
                 "type": "linux"
@@ -4063,7 +4063,7 @@
               "vst3"
             ],
             "format": "zip",
-            "sha256": "003338513913c9b5da3f8cf19b47bcce2bde3c1deb7a9eb0d7aef8d8186d6ab0",
+            "sha256": "ceb6ea2261e4b4c059d51a9c93be1f21695cc837c0ed96df07d56926ba0db6ce",
             "systems": [
               {
                 "type": "mac"
@@ -4082,7 +4082,7 @@
               "vst3"
             ],
             "format": "zip",
-            "sha256": "65bc36508f9475d685a8845fd245230ae1ccafcccc7e0e9b85ecbfc874f7dc48",
+            "sha256": "2ce5b9b61ebe379dd41ef97d2728415a573c0162f72c2d62ec74678409286a19",
             "systems": [
               {
                 "type": "win"
@@ -4126,7 +4126,7 @@
               "vst3"
             ],
             "format": "zip",
-            "sha256": "47ebe88500fb90f501f2d07e02e0aaa45fb3eb43536df0a976ffd8a42cf10eda",
+            "sha256": "1149b172665d2accfa8ef597361eab3d7e9da65784424f6201d3bb0cded52cbd",
             "systems": [
               {
                 "type": "linux"
@@ -4146,7 +4146,7 @@
               "vst3"
             ],
             "format": "zip",
-            "sha256": "59d859fbad34a83ecdca387116299f9aed32f5f641e74a80e0b93e249c38e9fe",
+            "sha256": "efd61d1fb05364676933c928f436e42fce070bc6023d9c59ec7bf14a163dd6b6",
             "systems": [
               {
                 "type": "mac"
@@ -4166,7 +4166,7 @@
               "vst3"
             ],
             "format": "zip",
-            "sha256": "36a8c5b9daceeafbbeacd598e6fba6baaf5e0e8a3372ef1d6110d627c8902b19",
+            "sha256": "6982220abde622395ef8cabc108dcf2cc5b4b61f8676fd82d6d9ed8fe51a5a62",
             "systems": [
               {
                 "type": "mac"
@@ -4186,7 +4186,7 @@
               "vst3"
             ],
             "format": "zip",
-            "sha256": "eae4bb316379f1094c716c02b78aefb2d58153bb24314e453d72cf34a1d6d3ce",
+            "sha256": "c8177422d8d25eaef575651fde821773a41765a9c00b7f6471d5e81247078db3",
             "systems": [
               {
                 "type": "win"
@@ -4229,7 +4229,7 @@
               "vst3"
             ],
             "format": "zip",
-            "sha256": "34625e3d01997b97423f5747c1ea98c1a10192bb7401efc27f91cbd9781536ac",
+            "sha256": "13a275e0dba11f6a3028e8e4bb1269befcedfcb54697c754fc13ff135e4ba825",
             "systems": [
               {
                 "type": "linux"
@@ -4248,7 +4248,7 @@
               "vst3"
             ],
             "format": "zip",
-            "sha256": "87cad013d0bef30d71cef53d7661e2cdc3c9a8b8bca0bf04bba601889b0d4636",
+            "sha256": "69f16088ee57b6c0981cf4f49ce8a823492e0ef87ecb24255adb19bf38ddb095",
             "systems": [
               {
                 "type": "mac"
@@ -4267,7 +4267,7 @@
               "vst3"
             ],
             "format": "zip",
-            "sha256": "cb7d80351b1d934f4829a032b36cf31018e93aac450202a2c62b32e53243abf5",
+            "sha256": "4ea2fedb0efa1ce5dd0749924e65189f1e4575c3f5ef83d92124495a1374c46f",
             "systems": [
               {
                 "type": "mac"
@@ -4286,7 +4286,7 @@
               "vst3"
             ],
             "format": "zip",
-            "sha256": "266e468aa210c064ee072e81b570e675fff2a00c409264750b3b89124d642fd3",
+            "sha256": "aa76f3cf00ca8449a324f3fbbbdf8229ee20de68000ce89c8b458ad65bd33599",
             "systems": [
               {
                 "type": "win"
@@ -4329,7 +4329,7 @@
               "vst3"
             ],
             "format": "zip",
-            "sha256": "1e73f80619f771c4b6f0c5965bbf809be8f180b425ef8e21c4329072591b0a5b",
+            "sha256": "4bf665db88cfc3f85808241f85d7a1173131224ca6f4ac1a7ebd77a80c6c55d2",
             "systems": [
               {
                 "type": "linux"
@@ -4348,7 +4348,7 @@
               "vst3"
             ],
             "format": "zip",
-            "sha256": "6826402798eb3c0d5ce87355910da1a0057e95e9cb2b0922d73efdad23853ff5",
+            "sha256": "9d9d7ec00c80ef955203e452a4b2fecd1b7ecf9a0b60d5ab9a4829f7d9be06b1",
             "systems": [
               {
                 "type": "mac"
@@ -4367,7 +4367,7 @@
               "vst3"
             ],
             "format": "zip",
-            "sha256": "7dfcef988b16c86e3cd4502434614a443da339861512ec270e7c8eeaf7b3db93",
+            "sha256": "11c628bea7d5ffbc8c0bd3292c12abdbaf27525ee375f4dc20ba3cadfe7bd66c",
             "systems": [
               {
                 "type": "win"
@@ -4411,7 +4411,7 @@
               "vst3"
             ],
             "format": "zip",
-            "sha256": "e3896662d270f685b2bbfa34ee129d5afcae649e4c2d05ed6016d9d3d11ddbe3",
+            "sha256": "9733ac876eb9d0089885b2f40f3571ef8558a294005efdbbeb0012f586f9b1c3",
             "systems": [
               {
                 "type": "linux"
@@ -4430,7 +4430,7 @@
               "vst3"
             ],
             "format": "zip",
-            "sha256": "e0b58f4f2dab0ce8465d39ef69af511966d1ff0e8de9296e111b339eb5db287c",
+            "sha256": "c3a8849bdd39d9f804136c4e2bdc31b7daa6b4f3ba7f0a185d474929df6fc045",
             "systems": [
               {
                 "type": "mac"
@@ -4449,7 +4449,7 @@
               "vst3"
             ],
             "format": "zip",
-            "sha256": "165186e53fc8821d292f353cb29109bd55c22164899480188918d52325cb08a5",
+            "sha256": "afe178504be8425cc38717280955594a0003c9683132a3301be587c7124b0343",
             "systems": [
               {
                 "type": "mac"
@@ -4468,7 +4468,7 @@
               "vst3"
             ],
             "format": "zip",
-            "sha256": "6b142ca979507d61821347ca58bdacae6def9677e463db92dfe61b45cf970a1e",
+            "sha256": "348a0f6c50bc5ef077573aff85cf5234c487df7fd5d3fe81c4bd9daaabfe0515",
             "systems": [
               {
                 "type": "win"
@@ -4511,7 +4511,7 @@
               "so"
             ],
             "format": "zip",
-            "sha256": "f5db2d505adf6de995f2034cb6af950f4a65662155378dd0d252132a72e9f67f",
+            "sha256": "9cd18d5d6dfcafaf9741c7796fe49bd305146f11dde14bee16204915fb55ce29",
             "systems": [
               {
                 "type": "linux"
@@ -4529,7 +4529,7 @@
               "vst"
             ],
             "format": "zip",
-            "sha256": "2e2426e7fb83d95ae1aeeff91dd38cf01cb57f9b47e20b8c11563115b738405a",
+            "sha256": "df5bba5f152ac7f3cd72342e69d49aae94a38856ff99f78ccb5a6a8eff130f08",
             "systems": [
               {
                 "type": "mac"
@@ -4547,7 +4547,7 @@
               "dll"
             ],
             "format": "zip",
-            "sha256": "913827a85253ac711a021bcc5f20b96b23df97260a7ee10336dd6779f9c295b7",
+            "sha256": "5532a02b2082848177b538774dae82885311d22304324d0178980d77fd96ecb9",
             "systems": [
               {
                 "type": "win"
@@ -4593,7 +4593,7 @@
               "sfz"
             ],
             "format": "zip",
-            "sha256": "4bb27f9c5be1d52c2c338513d4106542a15d7be9a971901b5744004d3b01a6d8",
+            "sha256": "ff06fd29fd78629ae6146c3159fbdf6c5362cc98ac9b6f2ac6fcbc2727ac536c",
             "systems": [
               {
                 "type": "linux"
@@ -4605,7 +4605,7 @@
                 "type": "win"
               }
             ],
-            "size": 111866919,
+            "size": 112081142,
             "type": "archive",
             "url": "https://github.com/airwindows/airwindows/archive/refs/heads/master.zip"
           }

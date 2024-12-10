@@ -15,10 +15,10 @@ files:
       - lv2
       - vst3
     format: tar.gz
-    sha256: 5f48937aa823260c1576350ee53c57bde3b4bea0971926f7de84335573d7d342
+    sha256: ae1a0ea014eae9923b2b8e7b90d35dcebc309301fd82abaf13cbb55f01581c76
     systems:
       - type: linux
-    size: 19102967
+    size: 36291101
     type: archive
     url: https://github.com/sfztools/sfizz-ui/releases/download/1.2.3/sfizz-1.2.3.tar.gz
   - architectures:
@@ -29,7 +29,7 @@ files:
       - lv2
       - vst3
     format: tar.gz
-    sha256: cd17468db1d870199d9687c5d573d1126e4f2e8f3e989f4efc095d6808d67f89
+    sha256: f3c2b4c562abfb1d182fb950503285637e7dee6c9b45baa2a06172923c76a4c7
     systems:
       - type: mac
     size: 1748833
@@ -41,7 +41,7 @@ files:
       - dll
       - vst3
     format: zip
-    sha256: b361453bc1588623344e8712db4580655ed688fe5c642148e7abf7d08ff70eee
+    sha256: 56f57dfe443018e947b82b8e2bf4c9d824a9c961ff2b8eb6c5e929030b71b937
     systems:
       - type: win
     size: 3626650
