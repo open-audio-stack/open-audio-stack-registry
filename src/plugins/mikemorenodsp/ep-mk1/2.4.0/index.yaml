@@ -12,7 +12,7 @@ files:
       - elf
       - so
     format: tar.gz
-    sha256: 95011e8e99bd2d0985cfe6c0fe3ad0a855fb3b908deab808993923f2f2cbbbda
+    sha256: e4ee704d6e74c8dd3f23fccc26fb8ab634333e8c14da915eb9e23e2774cca635
     systems:
       - type: linux
     size: 3657547
@@ -24,7 +24,7 @@ files:
       - vst
       - vst3
     format: dmg
-    sha256: 6ed21fe14b636c1c43de4a62aae69816372566eafa76095d6da57b92a44f4a70
+    sha256: 260e2e934ef9b9994a513f25ef11396159669c167823cab229eabff72b9b786f
     systems:
       - type: mac
     size: 5258069
@@ -36,7 +36,7 @@ files:
       - dll
       - vst3
     format: zip
-    sha256: 529d97fb9161453a01a91145f28fe2c3ae59680122b5232a57f1bef14bd2430e
+    sha256: d0fe5d00d9f6b107eaf912694e1295343b5a05ca1581335dd251942832035282
     systems:
       - type: win
     size: 4706043
