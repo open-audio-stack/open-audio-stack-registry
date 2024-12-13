@@ -2,14 +2,13 @@
 audio: https://open-audio-stack.github.io/open-audio-stack-registry/src/plugins/sdatkinson/neural-amp-modeler/neuralampmodeler.flac
 author: sdatkinson
 changes: |
-  - Refactor settings page with IContainerBaseWithNamedChildren by @sdatkinson in #521
-  - [FEATURE] Display model sample rate on settings page by @sdatkinson in #522
-  - Rearrange about info by @sdatkinson in #523
-  - [FEATURE] Input level calibration by @sdatkinson in #525
-  - [FEATURE] Output calibration by @sdatkinson in #531
-  - [FEATURE] Backward-compatible unserialization to v0.7.3 by @sdatkinson in #532
-  - [FEATURE] Add tooltip for output mode by @sdatkinson in #537
-  - Full Changelog: v0.7.11...v0.7.12
+  - Refactor settings page with IContainerBaseWithNamedChildren
+  - Display model sample rate on settings page
+  - Rearrange about info
+  - Input level calibration
+  - Output calibration
+  - Backward-compatible unserialization to v0.7.3
+  - Add tooltip for output mode
 date: '2024-12-02T07:00:00.000Z'
 description:  Plugin for Neural Amp Modeler.
 files:
