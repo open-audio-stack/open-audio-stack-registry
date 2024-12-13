@@ -5,7 +5,7 @@
     "1.0.5": {
       "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/igorski/regrader/regrader.flac",
       "author": "Igor Zinken",
-      "changes": "- Built using Steinberg SDK version 3.7.10.14\n",
+      "changes": "- Version 1.0.5 verified to build using Steinberg SDK version 3.7.10.14\n- Note : MacOS Audio Unit supports Intel architecture only. Use the VST variants for ARM support.\n",
       "date": "2024-03-16T07:00:00.000Z",
       "description": "Delay effect in which the repeats degrade in various ways. Delay repeats can be synced to the host tempo and time signature and be fully automated.",
       "files": [
@@ -27,10 +27,11 @@
           ],
           "size": 10002246,
           "type": "archive",
-          "url": "https://www.igorski.nl/download/retrieve/f906e0f712838e188155bfdf1bbc4510e204fdd54e9c85fe661da357b7ad91d5/2"
+          "url": "https://github.com/igorski/regrader/releases/download/1.0.5-3.7.10/regrader.1.0.5_macos.zip"
         },
         {
           "architectures": [
+            "x32",
             "x64"
           ],
           "contains": [
@@ -46,7 +47,7 @@
           ],
           "size": 2858396,
           "type": "archive",
-          "url": "https://www.igorski.nl/download/retrieve/f906e0f712838e188155bfdf1bbc4510e204fdd54e9c85fe661da357b7ad91d5"
+          "url": "https://github.com/igorski/regrader/releases/download/1.0.5-3.7.10/regrader.1.0.5_windows.zip"
         }
       ],
       "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/igorski/regrader/regrader.jpg",
