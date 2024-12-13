@@ -2808,6 +2808,71 @@
       }
     }
   },
+  "igorski/fogpad": {
+    "slug": "igorski/fogpad",
+    "version": "1.0.3",
+    "versions": {
+      "1.0.3": {
+        "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/igorski/fogpad/fogpad.flac",
+        "author": "Igor Zinken",
+        "changes": "- Version 1.0.3 verified to build using Steinberg SDK version 3.7.10.14\n- Note : MacOS Audio Unit supports Intel architecture only. Use the VST variants for ARM support.\n",
+        "date": "2024-03-16T07:00:00.000Z",
+        "description": "A VST reverb effect in which the reflections can be frozen, filtered, pitch shifted and ultimately disintegrated.",
+        "files": [
+          {
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "au",
+              "dll",
+              "vst3"
+            ],
+            "format": "zip",
+            "sha256": "3ce41db5d487d2f92e1a1e337987786cd58ad9ea5689a62b7126dfee41f5462c",
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "size": 9612204,
+            "type": "archive",
+            "url": "https://github.com/igorski/fogpad/releases/download/1.0.3-3.7.10/fogpad.1.0.3_macos.zip"
+          },
+          {
+            "architectures": [
+              "x32",
+              "x64"
+            ],
+            "contains": [
+              "dll",
+              "vst3"
+            ],
+            "format": "zip",
+            "sha256": "3c1bb2f8ca87966a3047a73c2bab4ea9af629af0d7356103bd6ff940de2da45c",
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "size": 2428873,
+            "type": "archive",
+            "url": "https://github.com/igorski/fogpad/releases/download/1.0.3-3.7.10/fogpad.1.0.3_windows.zip"
+          }
+        ],
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/igorski/fogpad/fogpad.jpg",
+        "license": "mit",
+        "name": "FogPad",
+        "tags": [
+          "Effect",
+          "Pitch Shifter",
+          "Reverb"
+        ],
+        "type": "effect",
+        "url": "https://github.com/igorski/fogpad"
+      }
+    }
+  },
   "guitarml/smartguitaramp": {
     "slug": "guitarml/smartguitaramp",
     "version": "1.3.0",
