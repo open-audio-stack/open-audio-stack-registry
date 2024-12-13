@@ -1,0 +1,63 @@
+{
+  "slug": "sdatkinson/neural-amp-modeler",
+  "version": "0.7.12",
+  "versions": {
+    "0.7.12": {
+      "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/src/plugins/sdatkinson/neural-amp-modeler/neuralampmodeler.flac",
+      "author": "sdatkinson",
+      "changes": "- Refactor settings page with IContainerBaseWithNamedChildren\n- Display model sample rate on settings page\n- Rearrange about info\n- Input level calibration\n- Output calibration\n- Backward-compatible unserialization to v0.7.3\n- Add tooltip for output mode\n",
+      "date": "2024-12-02T07:00:00.000Z",
+      "description": "Plugin for Neural Amp Modeler.",
+      "files": [
+        {
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "au",
+            "vst3"
+          ],
+          "format": "dmg",
+          "sha256": "284bbc02b29dc0e10cc9bab77de4f8eac6c0b181c403c4e5e29f6854165d3a14",
+          "systems": [
+            {
+              "type": "mac"
+            }
+          ],
+          "size": 10743432,
+          "type": "installer",
+          "url": "https://github.com/sdatkinson/NeuralAmpModelerPlugin/releases/download/v0.7.12/NeuralAmpModeler-v0.7.12-mac.dmg"
+        },
+        {
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "exe",
+            "vst3"
+          ],
+          "format": "zip",
+          "sha256": "2166a4fd960714a353c857a538095428c781adad4d0b6c389b0892b822e04bd6",
+          "systems": [
+            {
+              "type": "win"
+            }
+          ],
+          "size": 3637173,
+          "type": "installer",
+          "url": "https://github.com/sdatkinson/NeuralAmpModelerPlugin/releases/download/v0.7.12/NeuralAmpModeler-v0.7.12-win.zip"
+        }
+      ],
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/src/plugins/sdatkinson/neural-amp-modeler/neuralampmodeler.jpg",
+      "license": "mit",
+      "name": "Neural Amp Modeler",
+      "tags": [
+        "Amp",
+        "Emulation",
+        "Noise Gate"
+      ],
+      "type": "effect",
+      "url": "https://github.com/sdatkinson/NeuralAmpModelerPlugin"
+    }
+  }
+}
