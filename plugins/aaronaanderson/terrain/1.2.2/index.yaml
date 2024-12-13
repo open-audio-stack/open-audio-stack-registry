@@ -1,13 +1,13 @@
 ---
 audio: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/aaronaanderson/terrain/terrain.flac
-author: Aaron Anderson 
+author: Aaron Anderson
 changes: |
   - Add Tuning System Name, refreshed automatically
   - Double-click default pitch-bend to 2 semitones
   - Fix Slider->knob resizing issue
   - Add MTS-ESP labeling
 date: '2024-11-01T07:00:00.000Z'
-description: A Wave Terrain Synth 
+description: A Wave Terrain Synth
 files:
   - architectures:
       - x64
