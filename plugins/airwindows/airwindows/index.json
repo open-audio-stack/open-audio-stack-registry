@@ -3,24 +3,26 @@
   "version": "1.0.0",
   "versions": {
     "1.0.0": {
-      "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/airwindows/airwindows/airwindows.flac",
+      "name": "Airwindows",
       "author": "Chris Johnson",
-      "changes": "",
-      "date": "2020-02-20T07:00:00.000Z",
       "description": "Huge collection of effects using simple UI controls.",
+      "license": "mit",
+      "type": "sampler",
+      "tags": [
+        "Effect",
+        "Chorus",
+        "Distortion",
+        "EQ",
+        "Filter",
+        "Reverb"
+      ],
+      "url": "https://github.com/airwindows/airwindows",
+      "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/airwindows/airwindows/airwindows.flac",
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/airwindows/airwindows/airwindows.jpg",
+      "date": "2020-02-20T07:00:00.000Z",
+      "changes": "",
       "files": [
         {
-          "architectures": [
-            "arm32",
-            "arm64",
-            "x32",
-            "x64"
-          ],
-          "contains": [
-            "sfz"
-          ],
-          "format": "zip",
-          "sha256": "ff06fd29fd78629ae6146c3159fbdf6c5362cc98ac9b6f2ac6fcbc2727ac536c",
           "systems": [
             {
               "type": "linux"
@@ -32,24 +34,22 @@
               "type": "win"
             }
           ],
-          "size": 112081142,
+          "architectures": [
+            "arm32",
+            "arm64",
+            "x32",
+            "x64"
+          ],
+          "contains": [
+            "sfz"
+          ],
+          "format": "zip",
           "type": "archive",
+          "size": 112081142,
+          "sha256": "ff06fd29fd78629ae6146c3159fbdf6c5362cc98ac9b6f2ac6fcbc2727ac536c",
           "url": "https://github.com/airwindows/airwindows/archive/refs/heads/master.zip"
         }
-      ],
-      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/airwindows/airwindows/airwindows.jpg",
-      "license": "mit",
-      "name": "Airwindows",
-      "tags": [
-        "Effect",
-        "Chorus",
-        "Distortion",
-        "EQ",
-        "Filter",
-        "Reverb"
-      ],
-      "type": "sampler",
-      "url": "https://github.com/airwindows/airwindows"
+      ]
     }
   }
 }

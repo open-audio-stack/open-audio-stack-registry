@@ -1,30 +1,25 @@
 {
-  "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ardura/interleaf/interleaf.flac",
+  "name": "Interleaf",
   "author": "Ardura",
-  "changes": "- New build files for better organization\n",
-  "date": "2024-07-12T07:00:00.000Z",
   "description": "A simple scrolling oscilloscope in rust with multichannel inputs and an analyzer.",
+  "license": "gpl-3.0",
+  "type": "effect",
+  "tags": [
+    "Effect",
+    "EQ"
+  ],
+  "url": "https://github.com/ardura/Interleaf",
+  "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ardura/interleaf/interleaf.flac",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ardura/interleaf/interleaf.jpg",
+  "date": "2024-07-12T07:00:00.000Z",
+  "changes": "- New build files for better organization\n",
   "files": [
     {
-      "architectures": [
-        "x64"
-      ],
-      "contains": [
-        "clap",
-        "vst3"
-      ],
-      "format": "zip",
-      "sha256": "13a275e0dba11f6a3028e8e4bb1269befcedfcb54697c754fc13ff135e4ba825",
       "systems": [
         {
           "type": "linux"
         }
       ],
-      "size": 3822972,
-      "type": "archive",
-      "url": "https://github.com/ardura/Interleaf/releases/download/v1.0/linux_build.zip"
-    },
-    {
       "architectures": [
         "x64"
       ],
@@ -33,17 +28,36 @@
         "vst3"
       ],
       "format": "zip",
-      "sha256": "69f16088ee57b6c0981cf4f49ce8a823492e0ef87ecb24255adb19bf38ddb095",
+      "type": "archive",
+      "size": 3822972,
+      "sha256": "13a275e0dba11f6a3028e8e4bb1269befcedfcb54697c754fc13ff135e4ba825",
+      "url": "https://github.com/ardura/Interleaf/releases/download/v1.0/linux_build.zip"
+    },
+    {
       "systems": [
         {
           "type": "mac"
         }
       ],
-      "size": 3481740,
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "clap",
+        "vst3"
+      ],
+      "format": "zip",
       "type": "archive",
+      "size": 3481740,
+      "sha256": "69f16088ee57b6c0981cf4f49ce8a823492e0ef87ecb24255adb19bf38ddb095",
       "url": "https://github.com/ardura/Interleaf/releases/download/v1.0/macos_build.zip"
     },
     {
+      "systems": [
+        {
+          "type": "mac"
+        }
+      ],
       "architectures": [
         "arm64"
       ],
@@ -52,17 +66,17 @@
         "vst3"
       ],
       "format": "zip",
-      "sha256": "4ea2fedb0efa1ce5dd0749924e65189f1e4575c3f5ef83d92124495a1374c46f",
-      "systems": [
-        {
-          "type": "mac"
-        }
-      ],
-      "size": 3365550,
       "type": "archive",
+      "size": 3365550,
+      "sha256": "4ea2fedb0efa1ce5dd0749924e65189f1e4575c3f5ef83d92124495a1374c46f",
       "url": "https://github.com/ardura/Interleaf/releases/download/v1.0/macos_m1_build.zip"
     },
     {
+      "systems": [
+        {
+          "type": "win"
+        }
+      ],
       "architectures": [
         "x64"
       ],
@@ -71,24 +85,10 @@
         "vst3"
       ],
       "format": "zip",
-      "sha256": "aa76f3cf00ca8449a324f3fbbbdf8229ee20de68000ce89c8b458ad65bd33599",
-      "systems": [
-        {
-          "type": "win"
-        }
-      ],
-      "size": 3194614,
       "type": "archive",
+      "size": 3194614,
+      "sha256": "aa76f3cf00ca8449a324f3fbbbdf8229ee20de68000ce89c8b458ad65bd33599",
       "url": "https://github.com/ardura/Interleaf/releases/download/v1.0/windows_build.zip"
     }
-  ],
-  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ardura/interleaf/interleaf.jpg",
-  "license": "gpl-3.0",
-  "name": "Interleaf",
-  "tags": [
-    "Effect",
-    "EQ"
-  ],
-  "type": "effect",
-  "url": "https://github.com/ardura/Interleaf"
+  ]
 }

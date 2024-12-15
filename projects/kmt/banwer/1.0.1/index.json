@@ -1,22 +1,24 @@
 {
-  "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/projects/kmt/banwer/banwer.flac",
+  "plugins": {
+    "surge-synth/surge": "1.3.1"
+  },
+  "name": "Banwer",
   "author": "KMT",
-  "changes": "- First version\n",
-  "date": "2024-03-02T00:00:00.000Z",
   "description": "Song idea using synthesizers.",
+  "license": "gpl-3.0",
+  "type": "song",
+  "tags": [
+    "Idea",
+    "Synth",
+    "Modulation"
+  ],
+  "url": "https://soundcloud.com/kmt-london",
+  "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/projects/kmt/banwer/banwer.flac",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/projects/kmt/banwer/banwer.jpg",
+  "date": "2024-03-02T00:00:00.000Z",
+  "changes": "- First version\n",
   "files": [
     {
-      "architectures": [
-        "arm32",
-        "arm64",
-        "x32",
-        "x64"
-      ],
-      "contains": [
-        "als"
-      ],
-      "format": "zip",
-      "sha256": "77e2d542235889b027f2ecbe66b753978a5232fabac9c97151a86173048e2eaf",
       "systems": [
         {
           "type": "linux"
@@ -28,22 +30,20 @@
           "type": "win"
         }
       ],
-      "size": 216863,
+      "architectures": [
+        "arm32",
+        "arm64",
+        "x32",
+        "x64"
+      ],
+      "contains": [
+        "als"
+      ],
+      "format": "zip",
       "type": "archive",
+      "size": 216863,
+      "sha256": "77e2d542235889b027f2ecbe66b753978a5232fabac9c97151a86173048e2eaf",
       "url": "https://open-audio-stack.github.io/open-audio-stack-registry/projects/kmt/banwer/1.0.1/banwer.zip"
     }
-  ],
-  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/projects/kmt/banwer/banwer.jpg",
-  "license": "gpl-3.0",
-  "name": "Banwer",
-  "plugins": {
-    "surge-synth/surge": "1.3.1"
-  },
-  "tags": [
-    "Idea",
-    "Synth",
-    "Modulation"
-  ],
-  "type": "song",
-  "url": "https://soundcloud.com/kmt-london"
+  ]
 }

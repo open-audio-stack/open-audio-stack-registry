@@ -4,13 +4,28 @@
     "version": "0.2.0",
     "versions": {
       "0.2.0": {
-        "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/clearly-broken-software/ninjas2/ninjas2.flac",
+        "name": "Ninjas 2",
         "author": "Clearly Broken",
-        "changes": "- Controls grouped by Global, Slicing and Slice\n- Slice box shows the currently selected slice number\n- Click on key to play slice\n- Red dot to indicate currently selected slice\n- Keys unmapped are greyed out\n",
-        "date": "2020-01-17T07:00:00.000Z",
         "description": "Easy to use sample slicer, quick slicing of sample and auto-mapping slices to midi note numbers.",
+        "license": "gpl-3.0",
+        "type": "instrument",
+        "tags": [
+          "Instrument",
+          "Sampler",
+          "Slicer"
+        ],
+        "url": "https://github.com/clearly-broken-software/ninjas2",
+        "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/clearly-broken-software/ninjas2/ninjas2.flac",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/clearly-broken-software/ninjas2/ninjas2.jpg",
+        "date": "2020-01-17T07:00:00.000Z",
+        "changes": "- Controls grouped by Global, Slicing and Slice\n- Slice box shows the currently selected slice number\n- Click on key to play slice\n- Red dot to indicate currently selected slice\n- Keys unmapped are greyed out\n",
         "files": [
           {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
             "architectures": [
               "x64"
             ],
@@ -19,17 +34,17 @@
               "so"
             ],
             "format": "zip",
-            "sha256": "714c10fa2f6c0163b98c3186361f6ed673eb67b566d8e81284da3babff67f581",
-            "systems": [
-              {
-                "type": "linux"
-              }
-            ],
-            "size": 1437316,
             "type": "archive",
+            "size": 1437316,
+            "sha256": "714c10fa2f6c0163b98c3186361f6ed673eb67b566d8e81284da3babff67f581",
             "url": "https://github.com/clearly-broken-software/ninjas2/releases/download/v0.2.0/ninjas2-linux64.zip"
           },
           {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
             "architectures": [
               "x64"
             ],
@@ -38,17 +53,17 @@
               "vst"
             ],
             "format": "zip",
-            "sha256": "d0068e3eefb24265880702f2e11d8129f8b5acfd3a3a5d0faa9a6ecb136ac02c",
-            "systems": [
-              {
-                "type": "mac"
-              }
-            ],
-            "size": 5123506,
             "type": "archive",
+            "size": 5123506,
+            "sha256": "d0068e3eefb24265880702f2e11d8129f8b5acfd3a3a5d0faa9a6ecb136ac02c",
             "url": "https://github.com/clearly-broken-software/ninjas2/releases/download/v0.2.0/ninjas2-macos.zip"
           },
           {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
             "architectures": [
               "x64"
             ],
@@ -57,27 +72,12 @@
               "lv2"
             ],
             "format": "zip",
-            "sha256": "238725071586c29746f77ff205afcc407809f454ee9e6c5d9bde0362dc2e91a5",
-            "systems": [
-              {
-                "type": "win"
-              }
-            ],
-            "size": 5988233,
             "type": "archive",
+            "size": 5988233,
+            "sha256": "238725071586c29746f77ff205afcc407809f454ee9e6c5d9bde0362dc2e91a5",
             "url": "https://github.com/clearly-broken-software/ninjas2/releases/download/v0.2.0/ninjas2-win64.zip"
           }
-        ],
-        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/clearly-broken-software/ninjas2/ninjas2.jpg",
-        "license": "gpl-3.0",
-        "name": "Ninjas 2",
-        "tags": [
-          "Instrument",
-          "Sampler",
-          "Slicer"
-        ],
-        "type": "instrument",
-        "url": "https://github.com/clearly-broken-software/ninjas2"
+        ]
       }
     }
   }

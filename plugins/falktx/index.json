@@ -4,13 +4,28 @@
     "version": "2.5.9",
     "versions": {
       "2.5.9": {
-        "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/falktx/carla/carla.flac",
+        "name": "Carla",
         "author": "Filipe Coelho",
-        "changes": "- Do not show crash dialogs for plugin bridges\n- Fix build against latest liblo\n- Fix crash showing plugin UIs in wayland\n- Fix minimum width of CanvasPort labels\n- Fix missing painter.restore() in case of CanvasPort errors\n- Fix OSC unregister handling\n",
-        "date": "2024-09-22T07:00:00.000Z",
         "description": "Audio plugin host, with support for many audio drivers and plugin formats.",
+        "license": "gpl-3.0",
+        "type": "tool",
+        "tags": [
+          "Host",
+          "Player",
+          "Automation"
+        ],
+        "url": "https://github.com/falkTX/Carla",
+        "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/falktx/carla/carla.flac",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/falktx/carla/carla.jpg",
+        "date": "2024-09-22T07:00:00.000Z",
+        "changes": "- Do not show crash dialogs for plugin bridges\n- Fix build against latest liblo\n- Fix crash showing plugin UIs in wayland\n- Fix minimum width of CanvasPort labels\n- Fix missing painter.restore() in case of CanvasPort errors\n- Fix OSC unregister handling\n",
         "files": [
           {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
             "architectures": [
               "arm64",
               "x64"
@@ -21,17 +36,17 @@
               "vst"
             ],
             "format": "zip",
-            "sha256": "d797ec83ac9bbd402cb116d1b562cbb6d786b355f42233436546fbf2bc4015e9",
-            "systems": [
-              {
-                "type": "mac"
-              }
-            ],
-            "size": 381733941,
             "type": "archive",
+            "size": 381733941,
+            "sha256": "d797ec83ac9bbd402cb116d1b562cbb6d786b355f42233436546fbf2bc4015e9",
             "url": "https://github.com/falkTX/Carla/releases/download/v2.5.9/Carla-2.5.9-macOS-universal.dmg"
           },
           {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
             "architectures": [
               "x64"
             ],
@@ -41,27 +56,12 @@
               "lv2"
             ],
             "format": "zip",
-            "sha256": "de0091c4cc5fdcfdb4f589434d6e23554790d9b6c484908f7e31afebfd627565",
-            "systems": [
-              {
-                "type": "win"
-              }
-            ],
-            "size": 246800688,
             "type": "archive",
+            "size": 246800688,
+            "sha256": "de0091c4cc5fdcfdb4f589434d6e23554790d9b6c484908f7e31afebfd627565",
             "url": "https://github.com/falkTX/Carla/releases/download/v2.5.9/Carla-2.5.9-win64.zip"
           }
-        ],
-        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/falktx/carla/carla.jpg",
-        "license": "gpl-3.0",
-        "name": "Carla",
-        "tags": [
-          "Host",
-          "Player",
-          "Automation"
-        ],
-        "type": "tool",
-        "url": "https://github.com/falkTX/Carla"
+        ]
       }
     }
   }

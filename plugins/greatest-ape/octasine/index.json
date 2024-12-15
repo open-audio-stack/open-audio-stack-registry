@@ -3,13 +3,28 @@
   "version": "0.9.1",
   "versions": {
     "0.9.1": {
-      "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/greatest-ape/octasine/octasine.flac",
+      "name": "OctaSine",
       "author": "Joakim Frostegård",
-      "changes": "- Fix GUI issues using the clap in Bitwig\n- Fix issue activating operator 2 modulation target from GUI matrix\n- Show file save/load dialogs above plugin window macOS\n- Save selected patch index (and restore it on load)\n",
-      "date": "2024-07-03T07:00:00.000Z",
       "description": "Frequency modulation-based synthesizer plugin.",
+      "license": "agpl-3.0",
+      "type": "instrument",
+      "tags": [
+        "Instrument",
+        "Synth",
+        "Modulation"
+      ],
+      "url": "https://github.com/greatest-ape/OctaSine",
+      "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/greatest-ape/octasine/octasine.flac",
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/greatest-ape/octasine/octasine.jpg",
+      "date": "2024-07-03T07:00:00.000Z",
+      "changes": "- Fix GUI issues using the clap in Bitwig\n- Fix issue activating operator 2 modulation target from GUI matrix\n- Show file save/load dialogs above plugin window macOS\n- Save selected patch index (and restore it on load)\n",
       "files": [
         {
+          "systems": [
+            {
+              "type": "linux"
+            }
+          ],
           "architectures": [
             "x64"
           ],
@@ -18,17 +33,17 @@
             "so"
           ],
           "format": "zip",
-          "sha256": "cfa2a955bffdb3537bf782b70c175f3ae2071aded2832b464b6b30e5161de173",
-          "systems": [
-            {
-              "type": "linux"
-            }
-          ],
-          "size": 5760864,
           "type": "archive",
+          "size": 5760864,
+          "sha256": "cfa2a955bffdb3537bf782b70c175f3ae2071aded2832b464b6b30e5161de173",
           "url": "https://github.com/greatest-ape/OctaSine/releases/download/v0.9.1/OctaSine-v0.9.1-Ubuntu-20_04.zip"
         },
         {
+          "systems": [
+            {
+              "type": "mac"
+            }
+          ],
           "architectures": [
             "x64"
           ],
@@ -37,17 +52,17 @@
             "vst"
           ],
           "format": "zip",
-          "sha256": "449f99fdb00febc8f716ccebbc74767ff73e268f3f7b27717478d1dfa1fea468",
-          "systems": [
-            {
-              "type": "mac"
-            }
-          ],
-          "size": 10292979,
           "type": "archive",
+          "size": 10292979,
+          "sha256": "449f99fdb00febc8f716ccebbc74767ff73e268f3f7b27717478d1dfa1fea468",
           "url": "https://github.com/greatest-ape/OctaSine/releases/download/v0.9.1/OctaSine-v0.9.1-macOS.zip"
         },
         {
+          "systems": [
+            {
+              "type": "win"
+            }
+          ],
           "architectures": [
             "x64"
           ],
@@ -56,27 +71,12 @@
             "dll"
           ],
           "format": "zip",
-          "sha256": "7ac928ddfe8f54a26c4264b95d3f1c4ccd047db106694bf5c722748662cb2d5f",
-          "systems": [
-            {
-              "type": "win"
-            }
-          ],
-          "size": 4624717,
           "type": "archive",
+          "size": 4624717,
+          "sha256": "7ac928ddfe8f54a26c4264b95d3f1c4ccd047db106694bf5c722748662cb2d5f",
           "url": "https://github.com/greatest-ape/OctaSine/releases/download/v0.9.1/OctaSine-v0.9.1-Windows.zip"
         }
-      ],
-      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/greatest-ape/octasine/octasine.jpg",
-      "license": "agpl-3.0",
-      "name": "OctaSine",
-      "tags": [
-        "Instrument",
-        "Synth",
-        "Modulation"
-      ],
-      "type": "instrument",
-      "url": "https://github.com/greatest-ape/OctaSine"
+      ]
     }
   }
 }

@@ -1,11 +1,24 @@
----
-audio: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/double-bass/double-bass.flac
+name: Double Bass
 author: DSmolken
-changes: ''
-date: '2022-09-04T07:00:00.000Z'
 description: 1958 Otto Rubner double bass played arco and pizzicato with additional miscellaneous noises.
+license: cc0-1.0
+type: sampler
+tags:
+  - Instrument
+  - String
+  - Bass
+  - sfz
+url: https://github.com/sfzinstruments/dsmolken.double-bass
+audio: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/double-bass/double-bass.flac
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/double-bass/double-bass.jpg
+date: '2022-09-04T07:00:00.000Z'
+changes: ''
 files:
-  - architectures:
+  - systems:
+      - type: linux
+      - type: mac
+      - type: win
+    architectures:
       - arm32
       - arm64
       - x32
@@ -13,21 +26,7 @@ files:
     contains:
       - sfz
     format: zip
-    sha256: 380986bb52ee6b6469d28e9089792a3ed37cbd163fe5a19160bf4f98785e7ccb
-    systems:
-      - type: linux
-      - type: mac
-      - type: win
-    size: 265232156
     type: archive
+    size: 265232156
+    sha256: 380986bb52ee6b6469d28e9089792a3ed37cbd163fe5a19160bf4f98785e7ccb
     url: https://github.com/sfzinstruments/dsmolken.double-bass/releases/download/v1.001/DSmolken.double_bass.v1.001.zip
-image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/double-bass/double-bass.jpg
-license: cc0-1.0
-name: Double Bass
-tags:
-  - Instrument
-  - String
-  - Bass
-  - sfz
-type: sampler
-url: https://github.com/sfzinstruments/dsmolken.double-bass

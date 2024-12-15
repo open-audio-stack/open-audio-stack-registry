@@ -1,22 +1,22 @@
 {
-  "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/horse-pulse/horse-pulse.flac",
+  "name": "Horse Pulse",
   "author": "DSmolken",
-  "changes": "",
-  "date": "2022-04-01T07:00:00.000Z",
   "description": "Bass Tagelharpa played pizzicato.",
+  "license": "cc0-1.0",
+  "type": "sampler",
+  "tags": [
+    "Instrument",
+    "String",
+    "Pluck",
+    "sfz"
+  ],
+  "url": "https://github.com/sfzinstruments/Karoryfer.HorsePulse",
+  "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/horse-pulse/horse-pulse.flac",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/horse-pulse/horse-pulse.jpg",
+  "date": "2022-04-01T07:00:00.000Z",
+  "changes": "",
   "files": [
     {
-      "architectures": [
-        "arm32",
-        "arm64",
-        "x32",
-        "x64"
-      ],
-      "contains": [
-        "sfz"
-      ],
-      "format": "zip",
-      "sha256": "52157e831b82e0b1c512abda701f9133b8cd415b42a696b4d9b133946fa2e458",
       "systems": [
         {
           "type": "linux"
@@ -28,20 +28,20 @@
           "type": "win"
         }
       ],
-      "size": 147505176,
+      "architectures": [
+        "arm32",
+        "arm64",
+        "x32",
+        "x64"
+      ],
+      "contains": [
+        "sfz"
+      ],
+      "format": "zip",
       "type": "archive",
+      "size": 147505176,
+      "sha256": "52157e831b82e0b1c512abda701f9133b8cd415b42a696b4d9b133946fa2e458",
       "url": "https://github.com/sfzinstruments/Karoryfer.HorsePulse/releases/download/v1.000/Karoryfer_Horse_Pulse_1000.zip"
     }
-  ],
-  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/horse-pulse/horse-pulse.jpg",
-  "license": "cc0-1.0",
-  "name": "Horse Pulse",
-  "tags": [
-    "Instrument",
-    "String",
-    "Pluck",
-    "sfz"
-  ],
-  "type": "sampler",
-  "url": "https://github.com/sfzinstruments/Karoryfer.HorsePulse"
+  ]
 }

@@ -1,40 +1,39 @@
----
-audio: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/resonantdsp/swankyamp/swankyamp.flac
+name: Swanky Amp
 author: Resonant DSP
-changes: ''
-date: '2021-04-21T07:00:00.000Z'
 description: Tube amplifier simulation DSP plugin which aims to capture the details in the dynamics of tube amplifiers.
+license: gpl-3.0
+type: effect
+tags:
+  - Effect
+  - Amplifier
+  - Tube
+url: https://github.com/resonantdsp/swankyamp
+audio: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/resonantdsp/swankyamp/swankyamp.flac
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/resonantdsp/swankyamp/swankyamp.jpg
+date: '2021-04-21T07:00:00.000Z'
+changes: ''
 files:
-  - architectures:
+  - systems:
+      - type: mac
+    architectures:
       - x64
     contains:
       - app
       - vst
     format: zip
-    sha256: 9c1410ac2e233309228fe78ba2b151063088bae2259162aa32002cde4cfa2e1a
-    systems:
-      - type: mac
-    size: 5138961
     type: archive
+    size: 5138961
+    sha256: 9c1410ac2e233309228fe78ba2b151063088bae2259162aa32002cde4cfa2e1a
     url: https://www.resonantdsp.com/swankyamp/downloads/v1.4.0/mac/SwankyAmp-vst3.dmg
-  - architectures:
+  - systems:
+      - type: win
+    architectures:
       - x64
     contains:
       - exe
       - dll
     format: zip
-    sha256: 120009c91482a947803e1714a5b3219f6328ab9c2382775b8d930250e2f69342
-    systems:
-      - type: win
-    size: 4580864
     type: installer
+    size: 4580864
+    sha256: 120009c91482a947803e1714a5b3219f6328ab9c2382775b8d930250e2f69342
     url: https://www.resonantdsp.com/swankyamp/downloads/v1.4.0/win/SwankyAmp.vst3
-image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/resonantdsp/swankyamp/swankyamp.jpg
-license: gpl-3.0
-name: Swanky Amp
-tags:
-  - Effect
-  - Amplifier
-  - Tube
-type: effect
-url: https://github.com/resonantdsp/swankyamp

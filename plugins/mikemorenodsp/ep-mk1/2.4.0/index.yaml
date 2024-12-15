@@ -1,54 +1,53 @@
----
-audio: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/mikemorenodsp/ep-mk1/ep-mk1.flac
-author: Miguel Moreno
-changes: |
-  - Update to Camomile 1.0.7
-date: '2020-09-28T07:00:00.000Z'
-description: Real-time physical model of an Electric Piano.
-files:
-  - architectures:
-      - x64
-    contains:
-      - elf
-      - so
-    format: tar.gz
-    sha256: e4ee704d6e74c8dd3f23fccc26fb8ab634333e8c14da915eb9e23e2774cca635
-    systems:
-      - type: linux
-    size: 3657547
-    type: archive
-    url: https://github.com/MikeMorenoDSP/EP-MK1/releases/download/v2.4/EP-MK1-Linux64.zip
-  - architectures:
-      - x64
-    contains:
-      - vst
-      - vst3
-    format: dmg
-    sha256: 260e2e934ef9b9994a513f25ef11396159669c167823cab229eabff72b9b786f
-    systems:
-      - type: mac
-    size: 5258069
-    type: archive
-    url: https://github.com/MikeMorenoDSP/EP-MK1/releases/download/v2.4/EP-MK1-MacOS.zip
-  - architectures:
-      - x64
-    contains:
-      - dll
-      - vst3
-    format: zip
-    sha256: d0fe5d00d9f6b107eaf912694e1295343b5a05ca1581335dd251942832035282
-    systems:
-      - type: win
-    size: 4706043
-    type: archive
-    url: https://github.com/MikeMorenoDSP/EP-MK1/releases/download/v2.4/EP-MK1-Windows64.zip
-image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/mikemorenodsp/ep-mk1/ep-mk1.jpg
-license: gpl-3.0
 name: EP-MK1
+author: Miguel Moreno
+description: Real-time physical model of an Electric Piano.
+license: gpl-3.0
+type: instrument
 tags:
   - Instrument
   - Synth
   - Electric
   - Piano
-type: instrument
 url: https://github.com/MikeMorenoDSP/EP-MK1
+audio: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/mikemorenodsp/ep-mk1/ep-mk1.flac
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/mikemorenodsp/ep-mk1/ep-mk1.jpg
+date: '2020-09-28T07:00:00.000Z'
+changes: |
+  - Update to Camomile 1.0.7
+files:
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - elf
+      - so
+    format: tar.gz
+    type: archive
+    size: 3657547
+    sha256: e4ee704d6e74c8dd3f23fccc26fb8ab634333e8c14da915eb9e23e2774cca635
+    url: https://github.com/MikeMorenoDSP/EP-MK1/releases/download/v2.4/EP-MK1-Linux64.zip
+  - systems:
+      - type: mac
+    architectures:
+      - x64
+    contains:
+      - vst
+      - vst3
+    format: dmg
+    type: archive
+    size: 5258069
+    sha256: 260e2e934ef9b9994a513f25ef11396159669c167823cab229eabff72b9b786f
+    url: https://github.com/MikeMorenoDSP/EP-MK1/releases/download/v2.4/EP-MK1-MacOS.zip
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - dll
+      - vst3
+    format: zip
+    type: archive
+    size: 4706043
+    sha256: d0fe5d00d9f6b107eaf912694e1295343b5a05ca1581335dd251942832035282
+    url: https://github.com/MikeMorenoDSP/EP-MK1/releases/download/v2.4/EP-MK1-Windows64.zip

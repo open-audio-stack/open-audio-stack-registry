@@ -1,11 +1,24 @@
----
-audio: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/open-soundfonts/virtual-playing-orchestra/virtual-playing-orchestra.flac
+name: Virtual Playing Orchestra
 author: Paul Battersby
-changes: |
-date: '2020-10-17T00:00:00.000Z'
 description: Orchestral sample library featuring section and solo instruments for woodwinds, brass, strings and percussion.
+license: gpl-3.0
+type: sampler
+tags:
+  - Instrument
+  - Orchestral
+  - Strings
+  - sfz
+url: https://github.com/open-soundfonts/Virtual_Playing_Orchestra_3
+audio: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/open-soundfonts/virtual-playing-orchestra/virtual-playing-orchestra.flac
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/open-soundfonts/virtual-playing-orchestra/virtual-playing-orchestra.jpg
+date: '2020-10-17T00:00:00.000Z'
+changes: ''
 files:
-  - architectures:
+  - systems:
+      - type: linux
+      - type: mac
+      - type: win
+    architectures:
       - arm32
       - arm64
       - x32
@@ -13,21 +26,7 @@ files:
     contains:
       - sfz
     format: zip
-    sha256: 1086afa02c5b0235710b63b7b6794300cb10370cd4f22d63f535227888de4b93
-    systems:
-      - type: linux
-      - type: mac
-      - type: win
-    size: 618138108
     type: archive
+    size: 618138108
+    sha256: 1086afa02c5b0235710b63b7b6794300cb10370cd4f22d63f535227888de4b93
     url: https://github.com/open-soundfonts/Virtual_Playing_Orchestra_3/archive/refs/heads/master.zip
-image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/open-soundfonts/virtual-playing-orchestra/virtual-playing-orchestra.jpg
-license: gpl-3.0
-name: Virtual Playing Orchestra
-tags:
-  - Instrument
-  - Orchestral
-  - Strings
-  - sfz
-type: sampler
-url: https://github.com/open-soundfonts/Virtual_Playing_Orchestra_3

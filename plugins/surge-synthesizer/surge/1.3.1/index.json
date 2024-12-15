@@ -1,11 +1,26 @@
 {
-  "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/surge-synthesizer/surge/surge.flac",
+  "name": "Surge XT",
   "author": "Surge Synth Team",
-  "changes": "- Fixed bug with audio\n- New feature added\n",
-  "date": "2024-03-02T00:00:00.000Z",
   "description": "Hybrid synthesizer featuring many synthesis techniques, a great selection of filters, a flexible modulation engine, a smorgasbord of effects, and modern features like MPE and microtuning.",
+  "license": "gpl-3.0",
+  "type": "instrument",
+  "tags": [
+    "Instrument",
+    "Synth",
+    "Modulation"
+  ],
+  "url": "https://github.com/surge-synthesizer/surge",
+  "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/surge-synthesizer/surge/surge.flac",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/surge-synthesizer/surge/surge.jpg",
+  "date": "2024-03-02T00:00:00.000Z",
+  "changes": "- Fixed bug with audio\n- New feature added\n",
   "files": [
     {
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
       "architectures": [
         "x64"
       ],
@@ -16,17 +31,17 @@
         "vst3"
       ],
       "format": "zip",
-      "sha256": "7b496b677da8fa6abf609e8a3d14d73ad1758cfeff42f1d41037e1e12ecb4be7",
-      "systems": [
-        {
-          "type": "linux"
-        }
-      ],
-      "size": 94448096,
       "type": "archive",
+      "size": 94448096,
+      "sha256": "7b496b677da8fa6abf609e8a3d14d73ad1758cfeff42f1d41037e1e12ecb4be7",
       "url": "https://github.com/surge-synthesizer/releases-xt/releases/download/1.3.1/surge-xt-linux-1.3.1-pluginsonly.tar.gz"
     },
     {
+      "systems": [
+        {
+          "type": "mac"
+        }
+      ],
       "architectures": [
         "arm64",
         "x64"
@@ -38,17 +53,17 @@
         "vst3"
       ],
       "format": "zip",
-      "sha256": "dd163c922bfcc4b14fa90184797846c1c07df73c7498cd47442c111c8552d6bc",
-      "systems": [
-        {
-          "type": "mac"
-        }
-      ],
-      "size": 180726292,
       "type": "archive",
+      "size": 180726292,
+      "sha256": "dd163c922bfcc4b14fa90184797846c1c07df73c7498cd47442c111c8552d6bc",
       "url": "https://github.com/surge-synthesizer/releases-xt/releases/download/1.3.1/surge-xt-macos-1.3.1-pluginsonly.zip"
     },
     {
+      "systems": [
+        {
+          "type": "win"
+        }
+      ],
       "architectures": [
         "x64"
       ],
@@ -58,25 +73,10 @@
         "vst3"
       ],
       "format": "zip",
-      "sha256": "e6e1c7911127fa9e419f1c97551a00fc072246ac8b4a6b9493b835502c3a7288",
-      "systems": [
-        {
-          "type": "win"
-        }
-      ],
-      "size": 48165645,
       "type": "archive",
+      "size": 48165645,
+      "sha256": "e6e1c7911127fa9e419f1c97551a00fc072246ac8b4a6b9493b835502c3a7288",
       "url": "https://github.com/surge-synthesizer/releases-xt/releases/download/1.3.1/surge-xt-win64-1.3.1-pluginsonly.zip"
     }
-  ],
-  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/surge-synthesizer/surge/surge.jpg",
-  "license": "gpl-3.0",
-  "name": "Surge XT",
-  "tags": [
-    "Instrument",
-    "Synth",
-    "Modulation"
-  ],
-  "type": "instrument",
-  "url": "https://github.com/surge-synthesizer/surge"
+  ]
 }

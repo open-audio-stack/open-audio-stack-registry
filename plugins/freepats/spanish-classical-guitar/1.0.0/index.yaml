@@ -1,11 +1,24 @@
----
-audio: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/freepats/spanish-classical-guitar/spanish-classical-guitar.flac
+name: Spanish Classical Guitar
 author: Freepats
-changes: |
-date: '2019-06-18T07:00:00.000Z'
 description: Spanish classical guitar with nylon strings, recorded with an AKG Perception 120 microphone.
+license: cc0-1.0
+type: sampler
+tags:
+  - Instrument
+  - Guitar
+  - Classical
+  - sfz
+url: https://github.com/freepats/spanish-classical-guitar
+audio: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/freepats/spanish-classical-guitar/spanish-classical-guitar.flac
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/freepats/spanish-classical-guitar/spanish-classical-guitar.jpg
+date: '2019-06-18T07:00:00.000Z'
+changes: ''
 files:
-  - architectures:
+  - systems:
+      - type: linux
+      - type: mac
+      - type: win
+    architectures:
       - arm32
       - arm64
       - x32
@@ -13,21 +26,7 @@ files:
     contains:
       - sfz
     format: zip
-    sha256: 173f775222991061291767724d57c7c21242a3c3254407b266aabd548df23dbb
-    systems:
-      - type: linux
-      - type: mac
-      - type: win
-    size: 4943846
     type: archive
+    size: 4943846
+    sha256: 173f775222991061291767724d57c7c21242a3c3254407b266aabd548df23dbb
     url: https://github.com/freepats/spanish-classical-guitar/releases/download/v1.0.0/SpanishClassicalGuitar-20190618.zip
-image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/freepats/spanish-classical-guitar/spanish-classical-guitar.jpg
-license: cc0-1.0
-name: Spanish Classical Guitar
-tags:
-  - Instrument
-  - Guitar
-  - Classical
-  - sfz
-type: sampler
-url: https://github.com/freepats/spanish-classical-guitar

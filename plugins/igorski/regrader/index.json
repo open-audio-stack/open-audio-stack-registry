@@ -3,13 +3,28 @@
   "version": "1.0.5",
   "versions": {
     "1.0.5": {
-      "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/igorski/regrader/regrader.flac",
+      "name": "Regrader",
       "author": "Igor Zinken",
-      "changes": "- Version 1.0.5 verified to build using Steinberg SDK version 3.7.10.14\n- Note : MacOS Audio Unit supports Intel architecture only. Use the VST variants for ARM support.\n",
-      "date": "2024-03-16T07:00:00.000Z",
       "description": "Delay effect in which the repeats degrade in various ways. Delay repeats can be synced to the host tempo and time signature and be fully automated.",
+      "license": "mit",
+      "type": "effect",
+      "tags": [
+        "Effect",
+        "Delay",
+        "Sync"
+      ],
+      "url": "https://github.com/igorski/regrader",
+      "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/igorski/regrader/regrader.flac",
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/igorski/regrader/regrader.jpg",
+      "date": "2024-03-16T07:00:00.000Z",
+      "changes": "- Version 1.0.5 verified to build using Steinberg SDK version 3.7.10.14\n- Note : MacOS Audio Unit supports Intel architecture only. Use the VST variants for ARM support.\n",
       "files": [
         {
+          "systems": [
+            {
+              "type": "mac"
+            }
+          ],
           "architectures": [
             "x64"
           ],
@@ -19,17 +34,17 @@
             "vst3"
           ],
           "format": "zip",
-          "sha256": "cd35563df0b5fef0d5afcc7ccddd69eeb2fb40b1c85a8dc99347d3b56a2a67db",
-          "systems": [
-            {
-              "type": "mac"
-            }
-          ],
-          "size": 10002246,
           "type": "archive",
+          "size": 10002246,
+          "sha256": "cd35563df0b5fef0d5afcc7ccddd69eeb2fb40b1c85a8dc99347d3b56a2a67db",
           "url": "https://github.com/igorski/regrader/releases/download/1.0.5-3.7.10/regrader.1.0.5_macos.zip"
         },
         {
+          "systems": [
+            {
+              "type": "win"
+            }
+          ],
           "architectures": [
             "x32",
             "x64"
@@ -39,27 +54,12 @@
             "vst3"
           ],
           "format": "zip",
-          "sha256": "3141f43f3e6445f154395c1da1221c2931b1dfd5140f0207b8a4b8052b8fb574",
-          "systems": [
-            {
-              "type": "win"
-            }
-          ],
-          "size": 2858396,
           "type": "archive",
+          "size": 2858396,
+          "sha256": "3141f43f3e6445f154395c1da1221c2931b1dfd5140f0207b8a4b8052b8fb574",
           "url": "https://github.com/igorski/regrader/releases/download/1.0.5-3.7.10/regrader.1.0.5_windows.zip"
         }
-      ],
-      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/igorski/regrader/regrader.jpg",
-      "license": "mit",
-      "name": "Regrader",
-      "tags": [
-        "Effect",
-        "Delay",
-        "Sync"
-      ],
-      "type": "effect",
-      "url": "https://github.com/igorski/regrader"
+      ]
     }
   }
 }

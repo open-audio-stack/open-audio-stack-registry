@@ -4,13 +4,28 @@
     "version": "0.2.0",
     "versions": {
       "0.2.0": {
-        "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/artfwo/andes/andes.flac",
+        "name": "Andes",
         "author": "Artem Popov",
-        "changes": "- Replaces XY modulation with Gradient offset and Warping parameters\n- Uses Simplex noise instead of the classic Perlin noise for the oscillator\n",
-        "date": "2018-06-01T07:00:00.000Z",
         "description": "Andes is a software synthesiser plugin in early stages of development. The core of Andes is an original oscillator which uses a pseudo-3D version of Perlin noise to produce distinctively digital sound.",
+        "license": "gpl-3.0",
+        "type": "instrument",
+        "tags": [
+          "Instrument",
+          "Synth",
+          "Oscillator"
+        ],
+        "url": "https://github.com/artfwo/andes",
+        "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/artfwo/andes/andes.flac",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/artfwo/andes/andes.jpg",
+        "date": "2018-06-01T07:00:00.000Z",
+        "changes": "- Replaces XY modulation with Gradient offset and Warping parameters\n- Uses Simplex noise instead of the classic Perlin noise for the oscillator\n",
         "files": [
           {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
             "architectures": [
               "x64"
             ],
@@ -18,17 +33,17 @@
               "so"
             ],
             "format": "tar.gz",
-            "sha256": "227cc22ef7b7cbf0945a6c428b6134911c7b09400908908132024ecd6563e3cc",
-            "systems": [
-              {
-                "type": "linux"
-              }
-            ],
-            "size": 6073667,
             "type": "archive",
+            "size": 6073667,
+            "sha256": "227cc22ef7b7cbf0945a6c428b6134911c7b09400908908132024ecd6563e3cc",
             "url": "https://github.com/artfwo/andes/releases/download/v0.2/Andes1-v0.2-linux64.tar.gz"
           },
           {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
             "architectures": [
               "x64"
             ],
@@ -36,17 +51,17 @@
               "vst"
             ],
             "format": "zip",
-            "sha256": "42165bcf77b99e1dbecf31528402c2d0bbb80c1c1153f64a686a5f0645d85a1f",
-            "systems": [
-              {
-                "type": "mac"
-              }
-            ],
-            "size": 5229715,
             "type": "archive",
+            "size": 5229715,
+            "sha256": "42165bcf77b99e1dbecf31528402c2d0bbb80c1c1153f64a686a5f0645d85a1f",
             "url": "https://github.com/artfwo/andes/releases/download/v0.2/Andes1-v0.2-mac.zip"
           },
           {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
             "architectures": [
               "x64"
             ],
@@ -54,27 +69,12 @@
               "dll"
             ],
             "format": "zip",
-            "sha256": "878781faf4acd931b6f30ce55f3bada63f83825a1436e19f116bf9680302cb9a",
-            "systems": [
-              {
-                "type": "win"
-              }
-            ],
-            "size": 3463564,
             "type": "archive",
+            "size": 3463564,
+            "sha256": "878781faf4acd931b6f30ce55f3bada63f83825a1436e19f116bf9680302cb9a",
             "url": "https://github.com/artfwo/andes/releases/download/v0.2/Andes1-v0.2-win64.zip"
           }
-        ],
-        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/artfwo/andes/andes.jpg",
-        "license": "gpl-3.0",
-        "name": "Andes",
-        "tags": [
-          "Instrument",
-          "Synth",
-          "Oscillator"
-        ],
-        "type": "instrument",
-        "url": "https://github.com/artfwo/andes"
+        ]
       }
     }
   }

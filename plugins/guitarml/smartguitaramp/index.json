@@ -3,13 +3,28 @@
   "version": "1.3.0",
   "versions": {
     "1.3.0": {
-      "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/guitarml/smartguitaramp/smartguitaramp.flac",
+      "name": "SmartGuitarAmp",
       "author": "GuitarML",
-      "changes": "- Added cmake and general best practices updates\n- Added installers for Win/Mac/Linux\n- Fixed graphics handling\n- Removed custom load button to simplify plugin\n- Fixed param saving in DAW for saved sessions\n- Updated to JUCE 7 and latest Eigen modules\n",
-      "date": "2022-08-31T07:00:00.000Z",
       "description": "Uses a WaveNet model to recreate the sound of real world hardware. Models a small tube amp with a clean/lead channel. Gain and EQ knobs modulate the modeled sound.",
+      "license": "apache-2.0",
+      "type": "effect",
+      "tags": [
+        "Effect",
+        "Guitar",
+        "Amp"
+      ],
+      "url": "https://github.com/GuitarML/SmartGuitarAmp",
+      "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/guitarml/smartguitaramp/smartguitaramp.flac",
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/guitarml/smartguitaramp/smartguitaramp.jpg",
+      "date": "2022-08-31T07:00:00.000Z",
+      "changes": "- Added cmake and general best practices updates\n- Added installers for Win/Mac/Linux\n- Fixed graphics handling\n- Removed custom load button to simplify plugin\n- Fixed param saving in DAW for saved sessions\n- Updated to JUCE 7 and latest Eigen modules\n",
       "files": [
         {
+          "systems": [
+            {
+              "type": "linux"
+            }
+          ],
           "architectures": [
             "x64"
           ],
@@ -18,17 +33,17 @@
             "vst3"
           ],
           "format": "deb",
-          "sha256": "78b59aa99c0c2cf637de90a47f46d852b6f3ac59ccee1bcab2d3d77dc37a0586",
-          "systems": [
-            {
-              "type": "linux"
-            }
-          ],
-          "size": 2172048,
           "type": "archive",
+          "size": 2172048,
+          "sha256": "78b59aa99c0c2cf637de90a47f46d852b6f3ac59ccee1bcab2d3d77dc37a0586",
           "url": "https://github.com/GuitarML/SmartGuitarAmp/releases/download/v1.3/SmartAmp-Linux-x64-1.3.deb"
         },
         {
+          "systems": [
+            {
+              "type": "mac"
+            }
+          ],
           "architectures": [
             "x64"
           ],
@@ -38,17 +53,17 @@
             "vst3"
           ],
           "format": "dmg",
-          "sha256": "89d8ddaa625689db0f0b5dec0c61fe8d129b4533bc0f797af212534e8fb3c9a4",
-          "systems": [
-            {
-              "type": "mac"
-            }
-          ],
-          "size": 10830999,
           "type": "archive",
+          "size": 10830999,
+          "sha256": "89d8ddaa625689db0f0b5dec0c61fe8d129b4533bc0f797af212534e8fb3c9a4",
           "url": "https://github.com/GuitarML/SmartGuitarAmp/releases/download/v1.3/Install-SmartAmp-v1.3-Mac.dmg"
         },
         {
+          "systems": [
+            {
+              "type": "win"
+            }
+          ],
           "architectures": [
             "x64"
           ],
@@ -57,27 +72,12 @@
             "vst3"
           ],
           "format": "exe",
-          "sha256": "29be822eec1c40f119303560338e1e4aa03ef69844d49ef4f75cdf3cada46117",
-          "systems": [
-            {
-              "type": "win"
-            }
-          ],
-          "size": 4026478,
           "type": "archive",
+          "size": 4026478,
+          "sha256": "29be822eec1c40f119303560338e1e4aa03ef69844d49ef4f75cdf3cada46117",
           "url": "https://github.com/GuitarML/SmartGuitarAmp/releases/download/v1.3/SmartAmp-Win-1.3.exe"
         }
-      ],
-      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/guitarml/smartguitaramp/smartguitaramp.jpg",
-      "license": "apache-2.0",
-      "name": "SmartGuitarAmp",
-      "tags": [
-        "Effect",
-        "Guitar",
-        "Amp"
-      ],
-      "type": "effect",
-      "url": "https://github.com/GuitarML/SmartGuitarAmp"
+      ]
     }
   }
 }

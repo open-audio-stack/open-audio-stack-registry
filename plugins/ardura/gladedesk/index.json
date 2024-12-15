@@ -3,80 +3,80 @@
   "version": "1.0.0",
   "versions": {
     "1.0.0": {
-      "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ardura/gladedesk/gladedesk.flac",
-      "author": "Ardura",
-      "changes": "- Slight gui change\n",
-      "date": "2024-07-19T07:00:00.000Z",
-      "description": "Custom Console Idea.",
-      "files": [
-        {
-          "architectures": [
-            "x64"
-          ],
-          "contains": [
-            "clap",
-            "vst3"
-          ],
-          "format": "zip",
-          "sha256": "4bf665db88cfc3f85808241f85d7a1173131224ca6f4ac1a7ebd77a80c6c55d2",
-          "systems": [
-            {
-              "type": "linux"
-            }
-          ],
-          "size": 4202182,
-          "type": "archive",
-          "url": "https://github.com/ardura/GladeDesk/releases/download/v1.0b/linux_build.zip"
-        },
-        {
-          "architectures": [
-            "x64"
-          ],
-          "contains": [
-            "clap",
-            "vst3"
-          ],
-          "format": "zip",
-          "sha256": "9d9d7ec00c80ef955203e452a4b2fecd1b7ecf9a0b60d5ab9a4829f7d9be06b1",
-          "systems": [
-            {
-              "type": "mac"
-            }
-          ],
-          "size": 3703002,
-          "type": "archive",
-          "url": "https://github.com/ardura/GladeDesk/releases/download/v1.0b/macos_build.zip"
-        },
-        {
-          "architectures": [
-            "x64"
-          ],
-          "contains": [
-            "clap",
-            "vst3"
-          ],
-          "format": "zip",
-          "sha256": "11c628bea7d5ffbc8c0bd3292c12abdbaf27525ee375f4dc20ba3cadfe7bd66c",
-          "systems": [
-            {
-              "type": "win"
-            }
-          ],
-          "size": 3451574,
-          "type": "archive",
-          "url": "https://github.com/ardura/GladeDesk/releases/download/v1.0b/windows_build.zip"
-        }
-      ],
-      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ardura/gladedesk/gladedesk.jpg",
-      "license": "gpl-3.0",
       "name": "Glade Desk",
+      "author": "Ardura",
+      "description": "Custom Console Idea.",
+      "license": "gpl-3.0",
+      "type": "effect",
       "tags": [
         "Effect",
         "Console",
         "Emulation"
       ],
-      "type": "effect",
-      "url": "https://github.com/ardura/GladeDesk"
+      "url": "https://github.com/ardura/GladeDesk",
+      "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ardura/gladedesk/gladedesk.flac",
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ardura/gladedesk/gladedesk.jpg",
+      "date": "2024-07-19T07:00:00.000Z",
+      "changes": "- Slight gui change\n",
+      "files": [
+        {
+          "systems": [
+            {
+              "type": "linux"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "clap",
+            "vst3"
+          ],
+          "format": "zip",
+          "type": "archive",
+          "size": 4202182,
+          "sha256": "4bf665db88cfc3f85808241f85d7a1173131224ca6f4ac1a7ebd77a80c6c55d2",
+          "url": "https://github.com/ardura/GladeDesk/releases/download/v1.0b/linux_build.zip"
+        },
+        {
+          "systems": [
+            {
+              "type": "mac"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "clap",
+            "vst3"
+          ],
+          "format": "zip",
+          "type": "archive",
+          "size": 3703002,
+          "sha256": "9d9d7ec00c80ef955203e452a4b2fecd1b7ecf9a0b60d5ab9a4829f7d9be06b1",
+          "url": "https://github.com/ardura/GladeDesk/releases/download/v1.0b/macos_build.zip"
+        },
+        {
+          "systems": [
+            {
+              "type": "win"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "clap",
+            "vst3"
+          ],
+          "format": "zip",
+          "type": "archive",
+          "size": 3451574,
+          "sha256": "11c628bea7d5ffbc8c0bd3292c12abdbaf27525ee375f4dc20ba3cadfe7bd66c",
+          "url": "https://github.com/ardura/GladeDesk/releases/download/v1.0b/windows_build.zip"
+        }
+      ]
     }
   }
 }

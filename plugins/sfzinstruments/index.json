@@ -4,24 +4,24 @@
     "version": "1.0.2",
     "versions": {
       "1.0.2": {
-        "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/war-tuba/war-tuba.flac",
+        "name": "War Tuba",
         "author": "DSmolken",
-        "changes": "",
-        "date": "2022-11-04T07:00:00.000Z",
         "description": "Tuba played by Jakub Lewicki (aka Ignacy Woland of the band Hañba).",
+        "license": "cc-by-4.0",
+        "type": "sampler",
+        "tags": [
+          "Instrument",
+          "Brass",
+          "Tuba",
+          "sfz"
+        ],
+        "url": "https://github.com/sfzinstruments/karoryfer.war-tuba",
+        "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/war-tuba/war-tuba.flac",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/war-tuba/war-tuba.jpg",
+        "date": "2022-11-04T07:00:00.000Z",
+        "changes": "",
         "files": [
           {
-            "architectures": [
-              "arm32",
-              "arm64",
-              "x32",
-              "x64"
-            ],
-            "contains": [
-              "sfz"
-            ],
-            "format": "zip",
-            "sha256": "4f0b065c18b89111df4281df34c5120cd2d5b9a0c6b316835ec08d7891fd88d9",
             "systems": [
               {
                 "type": "linux"
@@ -33,22 +33,22 @@
                 "type": "win"
               }
             ],
-            "size": 109135588,
+            "architectures": [
+              "arm32",
+              "arm64",
+              "x32",
+              "x64"
+            ],
+            "contains": [
+              "sfz"
+            ],
+            "format": "zip",
             "type": "archive",
+            "size": 109135588,
+            "sha256": "4f0b065c18b89111df4281df34c5120cd2d5b9a0c6b316835ec08d7891fd88d9",
             "url": "https://github.com/sfzinstruments/karoryfer.war-tuba/releases/download/v1.002/Karoryfer_War_Tuba_v1002.zip"
           }
-        ],
-        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/war-tuba/war-tuba.jpg",
-        "license": "cc-by-4.0",
-        "name": "War Tuba",
-        "tags": [
-          "Instrument",
-          "Brass",
-          "Tuba",
-          "sfz"
-        ],
-        "type": "sampler",
-        "url": "https://github.com/sfzinstruments/karoryfer.war-tuba"
+        ]
       }
     }
   },
@@ -57,24 +57,24 @@
     "version": "0.9.24",
     "versions": {
       "0.9.24": {
-        "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/virtuosity_drums/virtuosity-drums.flac",
+        "name": "Virtuosity Drums",
         "author": "Versilian Studios",
-        "changes": "- Bugfix release for ride and crash cymbal mappings.\n",
-        "date": "2022-09-21T07:00:00.000Z",
         "description": "Contemporary Jazz drum kit library, performed with sticks, recorded at Virtuosity Musical Instruments in Boston, MA.",
+        "license": "cc0-1.0",
+        "type": "sampler",
+        "tags": [
+          "Instrument",
+          "Drums",
+          "Jazz",
+          "sfz"
+        ],
+        "url": "https://github.com/sfzinstruments/virtuosity_drums",
+        "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/virtuosity_drums/virtuosity-drums.flac",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/virtuosity_drums/virtuosity-drums.jpg",
+        "date": "2022-09-21T07:00:00.000Z",
+        "changes": "- Bugfix release for ride and crash cymbal mappings.\n",
         "files": [
           {
-            "architectures": [
-              "arm32",
-              "arm64",
-              "x32",
-              "x64"
-            ],
-            "contains": [
-              "sfz"
-            ],
-            "format": "zip",
-            "sha256": "a8e0da36cfe0a3832f09c24116139e3f72806144d10f3091dcc91e1636118fab",
             "systems": [
               {
                 "type": "linux"
@@ -86,22 +86,22 @@
                 "type": "win"
               }
             ],
-            "size": 1227222816,
+            "architectures": [
+              "arm32",
+              "arm64",
+              "x32",
+              "x64"
+            ],
+            "contains": [
+              "sfz"
+            ],
+            "format": "zip",
             "type": "archive",
+            "size": 1227222816,
+            "sha256": "a8e0da36cfe0a3832f09c24116139e3f72806144d10f3091dcc91e1636118fab",
             "url": "https://github.com/sfzinstruments/virtuosity_drums/releases/download/v0.924/Virtuosity_Drums_v0.924.zip"
           }
-        ],
-        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/virtuosity_drums/virtuosity-drums.jpg",
-        "license": "cc0-1.0",
-        "name": "Virtuosity Drums",
-        "tags": [
-          "Instrument",
-          "Drums",
-          "Jazz",
-          "sfz"
-        ],
-        "type": "sampler",
-        "url": "https://github.com/sfzinstruments/virtuosity_drums"
+        ]
       }
     }
   },
@@ -110,24 +110,24 @@
     "version": "1.0.0",
     "versions": {
       "1.0.0": {
-        "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/splendidgrandpiano/splendid-grand-piano.flac",
+        "name": "Splendid Grand Piano",
         "author": "Akai",
-        "changes": "- Add Half-pedalling by Peter Eastman\n- Add String Resonance simulation created by Peter Eastman\n- Cosmetic update\n- Optimizing polyphony\n- Increase hold and decay time, suggested by Peter Eastman\n",
-        "date": "2022-01-02T07:00:00.000Z",
         "description": "Steinway piano with 4 velocity layers.",
+        "license": "bsd-2-clause",
+        "type": "sampler",
+        "tags": [
+          "Instrument",
+          "Keys",
+          "Piano",
+          "sfz"
+        ],
+        "url": "https://github.com/sfzinstruments/splendidgrandpiano",
+        "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/splendidgrandpiano/splendid-grand-piano.flac",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/splendidgrandpiano/splendid-grand-piano.jpg",
+        "date": "2022-01-02T07:00:00.000Z",
+        "changes": "- Add Half-pedalling by Peter Eastman\n- Add String Resonance simulation created by Peter Eastman\n- Cosmetic update\n- Optimizing polyphony\n- Increase hold and decay time, suggested by Peter Eastman\n",
         "files": [
           {
-            "architectures": [
-              "arm32",
-              "arm64",
-              "x32",
-              "x64"
-            ],
-            "contains": [
-              "sfz"
-            ],
-            "format": "zip",
-            "sha256": "343c4cfd51fa8397ec911255e1407b8bc9b87c0dd264db75f17c2609cd458b52",
             "systems": [
               {
                 "type": "linux"
@@ -139,22 +139,22 @@
                 "type": "win"
               }
             ],
-            "size": 74508517,
+            "architectures": [
+              "arm32",
+              "arm64",
+              "x32",
+              "x64"
+            ],
+            "contains": [
+              "sfz"
+            ],
+            "format": "zip",
             "type": "archive",
+            "size": 74508517,
+            "sha256": "343c4cfd51fa8397ec911255e1407b8bc9b87c0dd264db75f17c2609cd458b52",
             "url": "https://github.com/sfzinstruments/SplendidGrandPiano/archive/refs/heads/master.zip"
           }
-        ],
-        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/splendidgrandpiano/splendid-grand-piano.jpg",
-        "license": "bsd-2-clause",
-        "name": "Splendid Grand Piano",
-        "tags": [
-          "Instrument",
-          "Keys",
-          "Piano",
-          "sfz"
-        ],
-        "type": "sampler",
-        "url": "https://github.com/sfzinstruments/splendidgrandpiano"
+        ]
       }
     }
   },
@@ -163,24 +163,24 @@
     "version": "1.0.0",
     "versions": {
       "1.0.0": {
-        "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/samssonor/samssonor.flac",
+        "name": "Salamander Grand Piano",
         "author": "Sam Greene",
-        "changes": "",
-        "date": "2022-08-28T07:00:00.000Z",
         "description": "Sonor Force 3001 drum kit sampled with 4 velocity levels for each part.",
+        "license": "cc-by-sa-4.0",
+        "type": "sampler",
+        "tags": [
+          "Instrument",
+          "Drums",
+          "Kit",
+          "sfz"
+        ],
+        "url": "https://github.com/sfzinstruments/SamsSonor",
+        "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/samssonor/samssonor.flac",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/samssonor/samssonor.jpg",
+        "date": "2022-08-28T07:00:00.000Z",
+        "changes": "",
         "files": [
           {
-            "architectures": [
-              "arm32",
-              "arm64",
-              "x32",
-              "x64"
-            ],
-            "contains": [
-              "sfz"
-            ],
-            "format": "zip",
-            "sha256": "a60b39f507721b4a2ee0380dbfe5267f8c7190e5a5c4590aed91bba496fc69c6",
             "systems": [
               {
                 "type": "linux"
@@ -192,22 +192,22 @@
                 "type": "win"
               }
             ],
-            "size": 36195708,
+            "architectures": [
+              "arm32",
+              "arm64",
+              "x32",
+              "x64"
+            ],
+            "contains": [
+              "sfz"
+            ],
+            "format": "zip",
             "type": "archive",
+            "size": 36195708,
+            "sha256": "a60b39f507721b4a2ee0380dbfe5267f8c7190e5a5c4590aed91bba496fc69c6",
             "url": "https://github.com/sfzinstruments/SamsSonor/archive/refs/heads/master.zip"
           }
-        ],
-        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/samssonor/samssonor.jpg",
-        "license": "cc-by-sa-4.0",
-        "name": "Salamander Grand Piano",
-        "tags": [
-          "Instrument",
-          "Drums",
-          "Kit",
-          "sfz"
-        ],
-        "type": "sampler",
-        "url": "https://github.com/sfzinstruments/SamsSonor"
+        ]
       }
     }
   },
@@ -216,24 +216,24 @@
     "version": "1.0.0",
     "versions": {
       "1.0.0": {
-        "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/splendidgrandpiano/splendid-grand-piano.flac",
+        "name": "Salamander Grand Piano",
         "author": "Alexander Holm",
-        "changes": "",
-        "date": "2022-01-02T07:00:00.000Z",
         "description": "Yamaha C5, recorded with two AKG c414 disposed in an AB position ~12cm above the strings.",
+        "license": "cc-by-4.0",
+        "type": "sampler",
+        "tags": [
+          "Instrument",
+          "Piano",
+          "Yamaha",
+          "sfz"
+        ],
+        "url": "https://github.com/sfzinstruments/SalamanderGrandPiano",
+        "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/splendidgrandpiano/splendid-grand-piano.flac",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/splendidgrandpiano/splendid-grand-piano.jpg",
+        "date": "2022-01-02T07:00:00.000Z",
+        "changes": "",
         "files": [
           {
-            "architectures": [
-              "arm32",
-              "arm64",
-              "x32",
-              "x64"
-            ],
-            "contains": [
-              "sfz"
-            ],
-            "format": "zip",
-            "sha256": "74d11c1ea0fcfe77eb80d6a48e960cbfc42716bdfd74a621eca5799f1680cb5c",
             "systems": [
               {
                 "type": "linux"
@@ -245,22 +245,22 @@
                 "type": "win"
               }
             ],
-            "size": 748476973,
+            "architectures": [
+              "arm32",
+              "arm64",
+              "x32",
+              "x64"
+            ],
+            "contains": [
+              "sfz"
+            ],
+            "format": "zip",
             "type": "archive",
+            "size": 748476973,
+            "sha256": "74d11c1ea0fcfe77eb80d6a48e960cbfc42716bdfd74a621eca5799f1680cb5c",
             "url": "https://github.com/sfzinstruments/SalamanderGrandPiano/archive/refs/heads/master.zip"
           }
-        ],
-        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/splendidgrandpiano/splendid-grand-piano.jpg",
-        "license": "cc-by-4.0",
-        "name": "Salamander Grand Piano",
-        "tags": [
-          "Instrument",
-          "Piano",
-          "Yamaha",
-          "sfz"
-        ],
-        "type": "sampler",
-        "url": "https://github.com/sfzinstruments/SalamanderGrandPiano"
+        ]
       }
     }
   },
@@ -269,24 +269,23 @@
     "version": "1.0.0",
     "versions": {
       "1.0.0": {
-        "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/nakeddrums/nakeddrums.flac",
+        "name": "Naked Drums",
         "author": "Wilkinson Audio",
-        "changes": "",
-        "date": "2021-11-08T07:00:00.000Z",
         "description": "Multi-mic drumkit, with 10 round-robins, up to 5 velocity layers and several mic layers (Direct, OH, Close room, Far rooms, Mid-side and Wide OH).",
+        "license": "cc-by-4.0",
+        "type": "sampler",
+        "tags": [
+          "Instrument",
+          "Drums",
+          "sfz"
+        ],
+        "url": "https://github.com/sfzinstruments/WilkinsonAudio.NakedDrums",
+        "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/nakeddrums/nakeddrums.flac",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/nakeddrums/nakeddrums.jpg",
+        "date": "2021-11-08T07:00:00.000Z",
+        "changes": "",
         "files": [
           {
-            "architectures": [
-              "arm32",
-              "arm64",
-              "x32",
-              "x64"
-            ],
-            "contains": [
-              "sfz"
-            ],
-            "format": "zip",
-            "sha256": "78201a1a9a7ba3596d49e2bfa88b76ed827ca5cdc95026666b6f88cd5100610b",
             "systems": [
               {
                 "type": "linux"
@@ -298,21 +297,22 @@
                 "type": "win"
               }
             ],
-            "size": 1282802809,
+            "architectures": [
+              "arm32",
+              "arm64",
+              "x32",
+              "x64"
+            ],
+            "contains": [
+              "sfz"
+            ],
+            "format": "zip",
             "type": "archive",
+            "size": 1282802809,
+            "sha256": "78201a1a9a7ba3596d49e2bfa88b76ed827ca5cdc95026666b6f88cd5100610b",
             "url": "https://github.com/sfzinstruments/WilkinsonAudio.NakedDrums/archive/refs/heads/master.zip"
           }
-        ],
-        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/nakeddrums/nakeddrums.jpg",
-        "license": "cc-by-4.0",
-        "name": "Naked Drums",
-        "tags": [
-          "Instrument",
-          "Drums",
-          "sfz"
-        ],
-        "type": "sampler",
-        "url": "https://github.com/sfzinstruments/WilkinsonAudio.NakedDrums"
+        ]
       }
     }
   },
@@ -321,24 +321,24 @@
     "version": "1.0.0",
     "versions": {
       "1.0.0": {
-        "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/jsteeldrum/jsteeldrum.flac",
+        "name": "jSteelDrum",
         "author": "Jeff Learman",
-        "changes": "",
-        "date": "2022-09-23T07:00:00.000Z",
         "description": "C Steel Drum (a.k.a. 'steel pan') hand-made in Trinidad.",
+        "license": "unlicense",
+        "type": "sampler",
+        "tags": [
+          "Instrument",
+          "Steel",
+          "Drum",
+          "sfz"
+        ],
+        "url": "https://github.com/sfzinstruments/jlearman.SteelDrum",
+        "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/jsteeldrum/jsteeldrum.flac",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/jsteeldrum/jsteeldrum.jpg",
+        "date": "2022-09-23T07:00:00.000Z",
+        "changes": "",
         "files": [
           {
-            "architectures": [
-              "arm32",
-              "arm64",
-              "x32",
-              "x64"
-            ],
-            "contains": [
-              "sfz"
-            ],
-            "format": "zip",
-            "sha256": "ee547fb57ab4d04a3efeef101c7f591d0a67300f1c5459e02841c123ed643edd",
             "systems": [
               {
                 "type": "linux"
@@ -350,22 +350,22 @@
                 "type": "win"
               }
             ],
-            "size": 39751862,
+            "architectures": [
+              "arm32",
+              "arm64",
+              "x32",
+              "x64"
+            ],
+            "contains": [
+              "sfz"
+            ],
+            "format": "zip",
             "type": "archive",
+            "size": 39751862,
+            "sha256": "ee547fb57ab4d04a3efeef101c7f591d0a67300f1c5459e02841c123ed643edd",
             "url": "https://github.com/sfzinstruments/jlearman.SteelDrum/archive/refs/heads/main.zip"
           }
-        ],
-        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/jsteeldrum/jsteeldrum.jpg",
-        "license": "unlicense",
-        "name": "jSteelDrum",
-        "tags": [
-          "Instrument",
-          "Steel",
-          "Drum",
-          "sfz"
-        ],
-        "type": "sampler",
-        "url": "https://github.com/sfzinstruments/jlearman.SteelDrum"
+        ]
       }
     }
   },
@@ -374,24 +374,24 @@
     "version": "1.0.0",
     "versions": {
       "1.0.0": {
-        "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/jrhodes3c/jrhodes3c.flac",
+        "name": "jRhodes3c",
         "author": "Jeff Learman",
-        "changes": "",
-        "date": "2023-07-04T07:00:00.000Z",
         "description": "1977 Rhodes Mark I Stage 73 piano.",
+        "license": "cc-by-sa-4.0",
+        "type": "sampler",
+        "tags": [
+          "Instrument",
+          "Keys",
+          "Rhodes",
+          "sfz"
+        ],
+        "url": "https://github.com/sfzinstruments/jlearman.jRhodes3c",
+        "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/jrhodes3c/jrhodes3c.flac",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/jrhodes3c/jrhodes3c.jpg",
+        "date": "2023-07-04T07:00:00.000Z",
+        "changes": "",
         "files": [
           {
-            "architectures": [
-              "arm32",
-              "arm64",
-              "x32",
-              "x64"
-            ],
-            "contains": [
-              "sfz"
-            ],
-            "format": "zip",
-            "sha256": "553180446445f00b32548131aaf6a5ff3962c9b796abf02911b38caae532c4ed",
             "systems": [
               {
                 "type": "linux"
@@ -403,22 +403,22 @@
                 "type": "win"
               }
             ],
-            "size": 18111475,
+            "architectures": [
+              "arm32",
+              "arm64",
+              "x32",
+              "x64"
+            ],
+            "contains": [
+              "sfz"
+            ],
+            "format": "zip",
             "type": "archive",
+            "size": 18111475,
+            "sha256": "553180446445f00b32548131aaf6a5ff3962c9b796abf02911b38caae532c4ed",
             "url": "https://github.com/sfzinstruments/jlearman.jRhodes3c/archive/refs/heads/master.zip"
           }
-        ],
-        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/jrhodes3c/jrhodes3c.jpg",
-        "license": "cc-by-sa-4.0",
-        "name": "jRhodes3c",
-        "tags": [
-          "Instrument",
-          "Keys",
-          "Rhodes",
-          "sfz"
-        ],
-        "type": "sampler",
-        "url": "https://github.com/sfzinstruments/jlearman.jRhodes3c"
+        ]
       }
     }
   },
@@ -427,24 +427,24 @@
     "version": "1.0.1",
     "versions": {
       "1.0.1": {
-        "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/hungarian-zither/hungarian-zither.flac",
+        "name": "Horse Pulse",
         "author": "DSmolken",
-        "changes": "",
-        "date": "2022-09-28T07:00:00.000Z",
         "description": "Hungarian 'prime' zither. A rectangular instrument with over a dozen strings, mostly tuned to G, with two melody courses and the rest as drones.",
+        "license": "cc0-1.0",
+        "type": "sampler",
+        "tags": [
+          "Instrument",
+          "Strings",
+          "Classical",
+          "sfz"
+        ],
+        "url": "https://github.com/sfzinstruments/hungarian_zither",
+        "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/hungarian-zither/hungarian-zither.flac",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/hungarian-zither/hungarian-zither.jpg",
+        "date": "2022-09-28T07:00:00.000Z",
+        "changes": "",
         "files": [
           {
-            "architectures": [
-              "arm32",
-              "arm64",
-              "x32",
-              "x64"
-            ],
-            "contains": [
-              "sfz"
-            ],
-            "format": "zip",
-            "sha256": "49962554dc9480870ee9ae959e36789448d940709164291799c8027f6e276119",
             "systems": [
               {
                 "type": "linux"
@@ -456,22 +456,22 @@
                 "type": "win"
               }
             ],
-            "size": 176636805,
+            "architectures": [
+              "arm32",
+              "arm64",
+              "x32",
+              "x64"
+            ],
+            "contains": [
+              "sfz"
+            ],
+            "format": "zip",
             "type": "archive",
+            "size": 176636805,
+            "sha256": "49962554dc9480870ee9ae959e36789448d940709164291799c8027f6e276119",
             "url": "https://github.com/sfzinstruments/hungarian_zither/releases/download/v1.001/hungarian_prime_zither_1001.zip"
           }
-        ],
-        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/hungarian-zither/hungarian-zither.jpg",
-        "license": "cc0-1.0",
-        "name": "Horse Pulse",
-        "tags": [
-          "Instrument",
-          "Strings",
-          "Classical",
-          "sfz"
-        ],
-        "type": "sampler",
-        "url": "https://github.com/sfzinstruments/hungarian_zither"
+        ]
       }
     }
   },
@@ -480,24 +480,24 @@
     "version": "1.0.0",
     "versions": {
       "1.0.0": {
-        "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/horse-pulse/horse-pulse.flac",
+        "name": "Horse Pulse",
         "author": "DSmolken",
-        "changes": "",
-        "date": "2022-04-01T07:00:00.000Z",
         "description": "Bass Tagelharpa played pizzicato.",
+        "license": "cc0-1.0",
+        "type": "sampler",
+        "tags": [
+          "Instrument",
+          "String",
+          "Pluck",
+          "sfz"
+        ],
+        "url": "https://github.com/sfzinstruments/Karoryfer.HorsePulse",
+        "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/horse-pulse/horse-pulse.flac",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/horse-pulse/horse-pulse.jpg",
+        "date": "2022-04-01T07:00:00.000Z",
+        "changes": "",
         "files": [
           {
-            "architectures": [
-              "arm32",
-              "arm64",
-              "x32",
-              "x64"
-            ],
-            "contains": [
-              "sfz"
-            ],
-            "format": "zip",
-            "sha256": "52157e831b82e0b1c512abda701f9133b8cd415b42a696b4d9b133946fa2e458",
             "systems": [
               {
                 "type": "linux"
@@ -509,22 +509,22 @@
                 "type": "win"
               }
             ],
-            "size": 147505176,
+            "architectures": [
+              "arm32",
+              "arm64",
+              "x32",
+              "x64"
+            ],
+            "contains": [
+              "sfz"
+            ],
+            "format": "zip",
             "type": "archive",
+            "size": 147505176,
+            "sha256": "52157e831b82e0b1c512abda701f9133b8cd415b42a696b4d9b133946fa2e458",
             "url": "https://github.com/sfzinstruments/Karoryfer.HorsePulse/releases/download/v1.000/Karoryfer_Horse_Pulse_1000.zip"
           }
-        ],
-        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/horse-pulse/horse-pulse.jpg",
-        "license": "cc0-1.0",
-        "name": "Horse Pulse",
-        "tags": [
-          "Instrument",
-          "String",
-          "Pluck",
-          "sfz"
-        ],
-        "type": "sampler",
-        "url": "https://github.com/sfzinstruments/Karoryfer.HorsePulse"
+        ]
       }
     }
   },
@@ -533,24 +533,24 @@
     "version": "1.0.1",
     "versions": {
       "1.0.1": {
-        "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/double-bass/double-bass.flac",
+        "name": "Double Bass",
         "author": "DSmolken",
-        "changes": "",
-        "date": "2022-09-04T07:00:00.000Z",
         "description": "1958 Otto Rubner double bass played arco and pizzicato with additional miscellaneous noises.",
+        "license": "cc0-1.0",
+        "type": "sampler",
+        "tags": [
+          "Instrument",
+          "String",
+          "Bass",
+          "sfz"
+        ],
+        "url": "https://github.com/sfzinstruments/dsmolken.double-bass",
+        "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/double-bass/double-bass.flac",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/double-bass/double-bass.jpg",
+        "date": "2022-09-04T07:00:00.000Z",
+        "changes": "",
         "files": [
           {
-            "architectures": [
-              "arm32",
-              "arm64",
-              "x32",
-              "x64"
-            ],
-            "contains": [
-              "sfz"
-            ],
-            "format": "zip",
-            "sha256": "380986bb52ee6b6469d28e9089792a3ed37cbd163fe5a19160bf4f98785e7ccb",
             "systems": [
               {
                 "type": "linux"
@@ -562,22 +562,22 @@
                 "type": "win"
               }
             ],
-            "size": 265232156,
+            "architectures": [
+              "arm32",
+              "arm64",
+              "x32",
+              "x64"
+            ],
+            "contains": [
+              "sfz"
+            ],
+            "format": "zip",
             "type": "archive",
+            "size": 265232156,
+            "sha256": "380986bb52ee6b6469d28e9089792a3ed37cbd163fe5a19160bf4f98785e7ccb",
             "url": "https://github.com/sfzinstruments/dsmolken.double-bass/releases/download/v1.001/DSmolken.double_bass.v1.001.zip"
           }
-        ],
-        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/double-bass/double-bass.jpg",
-        "license": "cc0-1.0",
-        "name": "Double Bass",
-        "tags": [
-          "Instrument",
-          "String",
-          "Bass",
-          "sfz"
-        ],
-        "type": "sampler",
-        "url": "https://github.com/sfzinstruments/dsmolken.double-bass"
+        ]
       }
     }
   },
@@ -586,24 +586,24 @@
     "version": "1.0.0",
     "versions": {
       "1.0.0": {
-        "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/black-and-green-guitars/black-and-green-guitars.flac",
+        "name": "Black and Green Guitars",
         "author": "DSmolken",
-        "changes": "",
-        "date": "2022-08-08T07:00:00.000Z",
         "description": "Black Hofner Club and Green Gretsch Anniversary electric guitars.",
+        "license": "cc0-1.0",
+        "type": "sampler",
+        "tags": [
+          "Instrument",
+          "Guitar",
+          "Electric",
+          "sfz"
+        ],
+        "url": "https://github.com/sfzinstruments/karoryfer.black-and-green-guitars",
+        "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/black-and-green-guitars/black-and-green-guitars.flac",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/black-and-green-guitars/black-and-green-guitars.jpg",
+        "date": "2022-08-08T07:00:00.000Z",
+        "changes": "",
         "files": [
           {
-            "architectures": [
-              "arm32",
-              "arm64",
-              "x32",
-              "x64"
-            ],
-            "contains": [
-              "sfz"
-            ],
-            "format": "zip",
-            "sha256": "ba95221d32fb6386c5d0a0799b93904fd55520aca017c5f121da290075c140c0",
             "systems": [
               {
                 "type": "linux"
@@ -615,22 +615,22 @@
                 "type": "win"
               }
             ],
-            "size": 481838512,
+            "architectures": [
+              "arm32",
+              "arm64",
+              "x32",
+              "x64"
+            ],
+            "contains": [
+              "sfz"
+            ],
+            "format": "zip",
             "type": "archive",
+            "size": 481838512,
+            "sha256": "ba95221d32fb6386c5d0a0799b93904fd55520aca017c5f121da290075c140c0",
             "url": "https://github.com/sfzinstruments/karoryfer.black-and-green-guitars/releases/download/v1.000/Karoryfer_Black_And_Green_Guitars_1000.zip"
           }
-        ],
-        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/black-and-green-guitars/black-and-green-guitars.jpg",
-        "license": "cc0-1.0",
-        "name": "Black and Green Guitars",
-        "tags": [
-          "Instrument",
-          "Guitar",
-          "Electric",
-          "sfz"
-        ],
-        "type": "sampler",
-        "url": "https://github.com/sfzinstruments/karoryfer.black-and-green-guitars"
+        ]
       }
     }
   },
@@ -639,24 +639,24 @@
     "version": "1.0.4",
     "versions": {
       "1.0.4": {
-        "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/bear-sax/bear-sax.flac",
+        "name": "Bear Sax",
         "author": "DSmolken",
-        "changes": "",
-        "date": "2021-09-11T07:00:00.000Z",
         "description": "1926 Conn baritone saxophone including sustained notes and breath noise.",
+        "license": "cc0-1.0",
+        "type": "sampler",
+        "tags": [
+          "Instrument",
+          "Brass",
+          "Saxophone",
+          "sfz"
+        ],
+        "url": "https://github.com/sfzinstruments/karoryfer.bear-sax",
+        "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/bear-sax/bear-sax.flac",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/bear-sax/bear-sax.jpg",
+        "date": "2021-09-11T07:00:00.000Z",
+        "changes": "",
         "files": [
           {
-            "architectures": [
-              "arm32",
-              "arm64",
-              "x32",
-              "x64"
-            ],
-            "contains": [
-              "sfz"
-            ],
-            "format": "zip",
-            "sha256": "66c28ea361c86943b2e2bcda6ca48cf105fec4f60a8f40e7c6bbf584be45c654",
             "systems": [
               {
                 "type": "linux"
@@ -668,22 +668,22 @@
                 "type": "win"
               }
             ],
-            "size": 131505201,
+            "architectures": [
+              "arm32",
+              "arm64",
+              "x32",
+              "x64"
+            ],
+            "contains": [
+              "sfz"
+            ],
+            "format": "zip",
             "type": "archive",
+            "size": 131505201,
+            "sha256": "66c28ea361c86943b2e2bcda6ca48cf105fec4f60a8f40e7c6bbf584be45c654",
             "url": "https://github.com/sfzinstruments/karoryfer.bear-sax/releases/download/v1.004/Karoryfer.Bear_Sax.v1.004.zip"
           }
-        ],
-        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/bear-sax/bear-sax.jpg",
-        "license": "cc0-1.0",
-        "name": "Bear Sax",
-        "tags": [
-          "Instrument",
-          "Brass",
-          "Saxophone",
-          "sfz"
-        ],
-        "type": "sampler",
-        "url": "https://github.com/sfzinstruments/karoryfer.bear-sax"
+        ]
       }
     }
   }

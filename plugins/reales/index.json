@@ -4,13 +4,28 @@
     "version": "2.4.0",
     "versions": {
       "2.4.0": {
-        "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/reales/opl/opl.flac",
+        "name": "OPL",
         "author": "discoDSP",
-        "changes": "",
-        "date": "2024-08-08T07:00:00.000Z",
         "description": "OPL FM synth plugin emulates a digital sound synthesis chip developed by Yamaha in the mid 1980s.",
+        "license": "gpl-3.0",
+        "type": "instrument",
+        "tags": [
+          "Instrument",
+          "Synth",
+          "FM"
+        ],
+        "url": "https://github.com/reales/OPL",
+        "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/reales/opl/opl.flac",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/reales/opl/opl.jpg",
+        "date": "2024-08-08T07:00:00.000Z",
+        "changes": "",
         "files": [
           {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
             "architectures": [
               "x64"
             ],
@@ -20,17 +35,17 @@
               "vst3"
             ],
             "format": "zip",
-            "sha256": "3a45bdd0d8b9ba7f3f83ef0af53a87dc6639358e4eab1e4c6c2b9a1848bcaaa0",
-            "systems": [
-              {
-                "type": "linux"
-              }
-            ],
-            "size": 12779876,
             "type": "archive",
+            "size": 12779876,
+            "sha256": "3a45bdd0d8b9ba7f3f83ef0af53a87dc6639358e4eab1e4c6c2b9a1848bcaaa0",
             "url": "https://www.discodsp.com/download/?id=28"
           },
           {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
             "architectures": [
               "arm64",
               "x64"
@@ -42,17 +57,17 @@
               "vst3"
             ],
             "format": "zip",
-            "sha256": "243a91132895d8271fae0496f93f101733779fbd5e385c9da8370fa6755c559c",
-            "systems": [
-              {
-                "type": "mac"
-              }
-            ],
-            "size": 14308855,
             "type": "archive",
+            "size": 14308855,
+            "sha256": "243a91132895d8271fae0496f93f101733779fbd5e385c9da8370fa6755c559c",
             "url": "https://www.discodsp.com/download/?id=23"
           },
           {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
             "architectures": [
               "x64"
             ],
@@ -61,27 +76,12 @@
               "dll"
             ],
             "format": "zip",
-            "sha256": "0cdb4867afa88767e4c393fe7786114c01d03adcb5f79344725d610e41adad2b",
-            "systems": [
-              {
-                "type": "win"
-              }
-            ],
-            "size": 7936780,
             "type": "installer",
+            "size": 7936780,
+            "sha256": "0cdb4867afa88767e4c393fe7786114c01d03adcb5f79344725d610e41adad2b",
             "url": "https://www.discodsp.com/download/?id=27"
           }
-        ],
-        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/reales/opl/opl.jpg",
-        "license": "gpl-3.0",
-        "name": "OPL",
-        "tags": [
-          "Instrument",
-          "Synth",
-          "FM"
-        ],
-        "type": "instrument",
-        "url": "https://github.com/reales/OPL"
+        ]
       }
     }
   },
@@ -90,13 +90,28 @@
     "version": "3.5.0",
     "versions": {
       "3.5.0": {
-        "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/reales/ob-xd/obxd.flac",
+        "name": "OB-Xd",
         "author": "discoDSP",
-        "changes": "- Unlock Bi-Directional MIDI Control\n- New Unison Voices\n- Enhanced Oscillator Features\n- Advanced Filter Capabilities\n- Refined Attack Envelope Shape\n- Oversampling Selection\n- MIDI and Preset Bar Enhancements\n- LFO Synchronization\n",
-        "date": "2021-05-30T07:00:00.000Z",
         "description": "Recreates the sound and behaviours of the Oberheim OB-X, without the limitations of the original hardware including features such as micro random detuning.",
+        "license": "gpl-3.0",
+        "type": "instrument",
+        "tags": [
+          "Instrument",
+          "Synth",
+          "OB-X"
+        ],
+        "url": "https://github.com/reales/OB-Xd",
+        "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/reales/ob-xd/obxd.flac",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/reales/ob-xd/obxd.jpg",
+        "date": "2021-05-30T07:00:00.000Z",
+        "changes": "- Unlock Bi-Directional MIDI Control\n- New Unison Voices\n- Enhanced Oscillator Features\n- Advanced Filter Capabilities\n- Refined Attack Envelope Shape\n- Oversampling Selection\n- MIDI and Preset Bar Enhancements\n- LFO Synchronization\n",
         "files": [
           {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
             "architectures": [
               "x64"
             ],
@@ -105,17 +120,17 @@
               "so"
             ],
             "format": "zip",
-            "sha256": "376f794b1ec15ff3ae614d4e094b499b3647c4a3ec0cc21e73cdd4fe62d7e7d9",
-            "systems": [
-              {
-                "type": "linux"
-              }
-            ],
-            "size": 49557284,
             "type": "archive",
+            "size": 49557284,
+            "sha256": "376f794b1ec15ff3ae614d4e094b499b3647c4a3ec0cc21e73cdd4fe62d7e7d9",
             "url": "https://www.discodsp.com/download/?id=9"
           },
           {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
             "architectures": [
               "x64"
             ],
@@ -124,17 +139,17 @@
               "vst"
             ],
             "format": "zip",
-            "sha256": "c2f6d5b856f9225594c692633d5a45f664d9820178b7d2b5c0e2eebbe3ec05a7",
-            "systems": [
-              {
-                "type": "mac"
-              }
-            ],
-            "size": 63317149,
             "type": "archive",
+            "size": 63317149,
+            "sha256": "c2f6d5b856f9225594c692633d5a45f664d9820178b7d2b5c0e2eebbe3ec05a7",
             "url": "https://www.discodsp.com/download/?id=2"
           },
           {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
             "architectures": [
               "x64"
             ],
@@ -143,27 +158,12 @@
               "dll"
             ],
             "format": "zip",
-            "sha256": "21100985a638cf93fa25fc5356e9eedfce2eae7604b6a24cee44267b82e78242",
-            "systems": [
-              {
-                "type": "win"
-              }
-            ],
-            "size": 52845717,
             "type": "installer",
+            "size": 52845717,
+            "sha256": "21100985a638cf93fa25fc5356e9eedfce2eae7604b6a24cee44267b82e78242",
             "url": "https://www.discodsp.com/download/?id=3"
           }
-        ],
-        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/reales/ob-xd/obxd.jpg",
-        "license": "gpl-3.0",
-        "name": "OB-Xd",
-        "tags": [
-          "Instrument",
-          "Synth",
-          "OB-X"
-        ],
-        "type": "instrument",
-        "url": "https://github.com/reales/OB-Xd"
+        ]
       }
     }
   }

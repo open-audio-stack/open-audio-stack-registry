@@ -3,13 +3,28 @@
   "version": "0.1.1",
   "versions": {
     "0.1.1": {
-      "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/antonok-edm/ampli-fe/ampli-fe.flac",
+      "name": "ampli-Fe",
       "author": "Anton Lazarev",
-      "changes": "- Updates wgpu dependency to fix graphics on some platforms\n- Fixes a panic from click coordinate math\n",
-      "date": "2021-11-02T08:00:00.000Z",
       "description": "Amplifier effect which allows the volume to be changed from 0% to 200%.",
+      "license": "mit",
+      "type": "effect",
+      "tags": [
+        "Effect",
+        "Amplifier",
+        "Volume"
+      ],
+      "url": "https://github.com/antonok-edm/ampli-Fe",
+      "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/antonok-edm/ampli-fe/ampli-fe.flac",
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/antonok-edm/ampli-fe/ampli-fe.jpg",
+      "date": "2021-11-02T08:00:00.000Z",
+      "changes": "- Updates wgpu dependency to fix graphics on some platforms\n- Fixes a panic from click coordinate math\n",
       "files": [
         {
+          "systems": [
+            {
+              "type": "linux"
+            }
+          ],
           "architectures": [
             "x64"
           ],
@@ -17,17 +32,17 @@
             "so"
           ],
           "format": "zip",
-          "sha256": "9cd18d5d6dfcafaf9741c7796fe49bd305146f11dde14bee16204915fb55ce29",
-          "systems": [
-            {
-              "type": "linux"
-            }
-          ],
-          "size": 4333771,
           "type": "archive",
+          "size": 4333771,
+          "sha256": "9cd18d5d6dfcafaf9741c7796fe49bd305146f11dde14bee16204915fb55ce29",
           "url": "https://github.com/antonok-edm/ampli-Fe/releases/download/v0.1.1/ampli-Fe_linux-x86-64.zip"
         },
         {
+          "systems": [
+            {
+              "type": "mac"
+            }
+          ],
           "architectures": [
             "x64"
           ],
@@ -35,17 +50,17 @@
             "vst"
           ],
           "format": "zip",
-          "sha256": "df5bba5f152ac7f3cd72342e69d49aae94a38856ff99f78ccb5a6a8eff130f08",
-          "systems": [
-            {
-              "type": "mac"
-            }
-          ],
-          "size": 2540024,
           "type": "archive",
+          "size": 2540024,
+          "sha256": "df5bba5f152ac7f3cd72342e69d49aae94a38856ff99f78ccb5a6a8eff130f08",
           "url": "https://github.com/antonok-edm/ampli-Fe/releases/download/v0.1.1/ampli-Fe_macos-x86-64.zip"
         },
         {
+          "systems": [
+            {
+              "type": "win"
+            }
+          ],
           "architectures": [
             "x64"
           ],
@@ -53,27 +68,12 @@
             "dll"
           ],
           "format": "zip",
-          "sha256": "5532a02b2082848177b538774dae82885311d22304324d0178980d77fd96ecb9",
-          "systems": [
-            {
-              "type": "win"
-            }
-          ],
-          "size": 2765142,
           "type": "archive",
+          "size": 2765142,
+          "sha256": "5532a02b2082848177b538774dae82885311d22304324d0178980d77fd96ecb9",
           "url": "https://github.com/antonok-edm/ampli-Fe/releases/download/v0.1.1/ampli-Fe_windows-x86-64.zip"
         }
-      ],
-      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/antonok-edm/ampli-fe/ampli-fe.jpg",
-      "license": "mit",
-      "name": "ampli-Fe",
-      "tags": [
-        "Effect",
-        "Amplifier",
-        "Volume"
-      ],
-      "type": "effect",
-      "url": "https://github.com/antonok-edm/ampli-Fe"
+      ]
     }
   }
 }

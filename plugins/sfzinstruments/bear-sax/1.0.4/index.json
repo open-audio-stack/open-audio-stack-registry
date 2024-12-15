@@ -1,22 +1,22 @@
 {
-  "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/bear-sax/bear-sax.flac",
+  "name": "Bear Sax",
   "author": "DSmolken",
-  "changes": "",
-  "date": "2021-09-11T07:00:00.000Z",
   "description": "1926 Conn baritone saxophone including sustained notes and breath noise.",
+  "license": "cc0-1.0",
+  "type": "sampler",
+  "tags": [
+    "Instrument",
+    "Brass",
+    "Saxophone",
+    "sfz"
+  ],
+  "url": "https://github.com/sfzinstruments/karoryfer.bear-sax",
+  "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/bear-sax/bear-sax.flac",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/bear-sax/bear-sax.jpg",
+  "date": "2021-09-11T07:00:00.000Z",
+  "changes": "",
   "files": [
     {
-      "architectures": [
-        "arm32",
-        "arm64",
-        "x32",
-        "x64"
-      ],
-      "contains": [
-        "sfz"
-      ],
-      "format": "zip",
-      "sha256": "66c28ea361c86943b2e2bcda6ca48cf105fec4f60a8f40e7c6bbf584be45c654",
       "systems": [
         {
           "type": "linux"
@@ -28,20 +28,20 @@
           "type": "win"
         }
       ],
-      "size": 131505201,
+      "architectures": [
+        "arm32",
+        "arm64",
+        "x32",
+        "x64"
+      ],
+      "contains": [
+        "sfz"
+      ],
+      "format": "zip",
       "type": "archive",
+      "size": 131505201,
+      "sha256": "66c28ea361c86943b2e2bcda6ca48cf105fec4f60a8f40e7c6bbf584be45c654",
       "url": "https://github.com/sfzinstruments/karoryfer.bear-sax/releases/download/v1.004/Karoryfer.Bear_Sax.v1.004.zip"
     }
-  ],
-  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/bear-sax/bear-sax.jpg",
-  "license": "cc0-1.0",
-  "name": "Bear Sax",
-  "tags": [
-    "Instrument",
-    "Brass",
-    "Saxophone",
-    "sfz"
-  ],
-  "type": "sampler",
-  "url": "https://github.com/sfzinstruments/karoryfer.bear-sax"
+  ]
 }

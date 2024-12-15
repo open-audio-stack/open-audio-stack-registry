@@ -3,13 +3,28 @@
   "version": "4.2.0",
   "versions": {
     "4.2.0": {
-      "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/paynebc/tunefish/tunefish.flac",
+      "name": "Tunefish",
       "author": "Brain Control",
-      "changes": "",
-      "date": "2018-05-04T07:00:00.000Z",
       "description": "Tunefish is a tiny virtual analogue synth that was originally developed  for the 64k intros of the demo group Brain Control.",
+      "license": "gpl-3.0",
+      "type": "instrument",
+      "tags": [
+        "Instrument",
+        "Synth",
+        "Analog"
+      ],
+      "url": "https://github.com/paynebc/tunefish",
+      "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/paynebc/tunefish/tunefish.flac",
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/paynebc/tunefish/tunefish.jpg",
+      "date": "2018-05-04T07:00:00.000Z",
+      "changes": "",
       "files": [
         {
+          "systems": [
+            {
+              "type": "linux"
+            }
+          ],
           "architectures": [
             "x64"
           ],
@@ -17,17 +32,17 @@
             "so"
           ],
           "format": "tar.gz",
-          "sha256": "0b4c8d7e578e576e5c473bb94dd6d896e9cbe462ab45a8ad093fa3923bfdfd09",
-          "systems": [
-            {
-              "type": "linux"
-            }
-          ],
-          "size": 3573674,
           "type": "archive",
+          "size": 3573674,
+          "sha256": "0b4c8d7e578e576e5c473bb94dd6d896e9cbe462ab45a8ad093fa3923bfdfd09",
           "url": "https://tunefish-synth.com/downloads/tunefish-v4.2.0-linux64-vst24.tar.gz"
         },
         {
+          "systems": [
+            {
+              "type": "mac"
+            }
+          ],
           "architectures": [
             "x64"
           ],
@@ -37,17 +52,17 @@
             "vst3"
           ],
           "format": "zip",
-          "sha256": "17697bf78f29732f04088bdc7239726eadd754099006729eff6950680be57089",
-          "systems": [
-            {
-              "type": "mac"
-            }
-          ],
-          "size": 6443515,
           "type": "archive",
+          "size": 6443515,
+          "sha256": "17697bf78f29732f04088bdc7239726eadd754099006729eff6950680be57089",
           "url": "https://tunefish-synth.com/downloads/tunefish-v4.2.0-mac-vst-au.zip"
         },
         {
+          "systems": [
+            {
+              "type": "win"
+            }
+          ],
           "architectures": [
             "x64"
           ],
@@ -56,27 +71,12 @@
             "vst3"
           ],
           "format": "zip",
-          "sha256": "8afbbf5609c37072a9cfd978a2e48b471c046d30283f0a7760971970aa11d8a8",
-          "systems": [
-            {
-              "type": "win"
-            }
-          ],
-          "size": 4147020,
           "type": "archive",
+          "size": 4147020,
+          "sha256": "8afbbf5609c37072a9cfd978a2e48b471c046d30283f0a7760971970aa11d8a8",
           "url": "https://tunefish-synth.com/downloads/tunefish-v4.2.0-win64-vst.zip"
         }
-      ],
-      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/paynebc/tunefish/tunefish.jpg",
-      "license": "gpl-3.0",
-      "name": "Tunefish",
-      "tags": [
-        "Instrument",
-        "Synth",
-        "Analog"
-      ],
-      "type": "instrument",
-      "url": "https://github.com/paynebc/tunefish"
+      ]
     }
   }
 }

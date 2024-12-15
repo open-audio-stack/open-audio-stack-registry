@@ -1,11 +1,26 @@
 {
-  "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/aaronaanderson/terrain/terrain.flac",
+  "name": "Terrain",
   "author": "Aaron Anderson",
-  "changes": "- Add Tuning System Name, refreshed automatically\n- Double-click default pitch-bend to 2 semitones\n- Fix Slider->knob resizing issue\n- Add MTS-ESP labeling\n",
-  "date": "2024-11-01T07:00:00.000Z",
   "description": "A Wave Terrain Synth",
+  "license": "gpl-3.0",
+  "type": "instrument",
+  "tags": [
+    "Instrument",
+    "Synthesizer",
+    "Wavetable"
+  ],
+  "url": "https://github.com/aaronaanderson/Terrain",
+  "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/aaronaanderson/terrain/terrain.flac",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/aaronaanderson/terrain/terrain.jpg",
+  "date": "2024-11-01T07:00:00.000Z",
+  "changes": "- Add Tuning System Name, refreshed automatically\n- Double-click default pitch-bend to 2 semitones\n- Fix Slider->knob resizing issue\n- Add MTS-ESP labeling\n",
   "files": [
     {
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
       "architectures": [
         "x64"
       ],
@@ -15,17 +30,17 @@
         "vst3"
       ],
       "format": "tar.gz",
-      "sha256": "0039004fc91161ac1b7a5429b2aaebffc8cb41b9106b2c076e5cee5dad6922c6",
-      "systems": [
-        {
-          "type": "linux"
-        }
-      ],
-      "size": 6792615,
       "type": "archive",
+      "size": 6792615,
+      "sha256": "0039004fc91161ac1b7a5429b2aaebffc8cb41b9106b2c076e5cee5dad6922c6",
       "url": "https://github.com/aaronaanderson/Terrain/releases/download/1.2.2/Terrain_1.2.2_Linux.tar.gz"
     },
     {
+      "systems": [
+        {
+          "type": "mac"
+        }
+      ],
       "architectures": [
         "arm64",
         "x64"
@@ -35,17 +50,17 @@
         "vst3"
       ],
       "format": "zip",
-      "sha256": "28f8270b4f1edfc6dcbe8adadcfec2651b68572ece4a53c7894485ebde5be9b9",
-      "systems": [
-        {
-          "type": "mac"
-        }
-      ],
-      "size": 11921549,
       "type": "archive",
+      "size": 11921549,
+      "sha256": "28f8270b4f1edfc6dcbe8adadcfec2651b68572ece4a53c7894485ebde5be9b9",
       "url": "https://github.com/aaronaanderson/Terrain/releases/download/1.2.2/Terrain_1.2.2_Mac.zip"
     },
     {
+      "systems": [
+        {
+          "type": "win"
+        }
+      ],
       "architectures": [
         "x64"
       ],
@@ -54,25 +69,10 @@
         "vst3"
       ],
       "format": "zip",
-      "sha256": "214e68cff03bb8a9dc9219698bb827554a0f3aaa58329bdfbb054fc3573194c3",
-      "systems": [
-        {
-          "type": "win"
-        }
-      ],
-      "size": 6277710,
       "type": "archive",
+      "size": 6277710,
+      "sha256": "214e68cff03bb8a9dc9219698bb827554a0f3aaa58329bdfbb054fc3573194c3",
       "url": "https://github.com/aaronaanderson/Terrain/releases/download/1.2.2/Terrain_1.2.2_Windows.zip"
     }
-  ],
-  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/aaronaanderson/terrain/terrain.jpg",
-  "license": "gpl-3.0",
-  "name": "Terrain",
-  "tags": [
-    "Instrument",
-    "Synthesizer",
-    "Wavetable"
-  ],
-  "type": "instrument",
-  "url": "https://github.com/aaronaanderson/Terrain"
+  ]
 }

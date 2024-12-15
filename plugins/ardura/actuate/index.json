@@ -3,32 +3,28 @@
   "version": "1.3.5",
   "versions": {
     "1.3.5": {
-      "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ardura/actuate/actuate.flac",
+      "name": "Actuate",
       "author": "Ardura",
-      "changes": "- Polyfilter update now works on additive, sampler, and granular sources\n- Tilt filter was rewritten to have less crashes/bugs\n- VCF Filter instability was fixed with some more safety and balancing changes\n- New preset browser and format\n",
-      "date": "2024-07-12T07:00:00.000Z",
       "description": "A Subtractive and Additive Synthesizer, Sampler, and Granulizer built in Rust + Nih-Plug.",
+      "license": "gpl-3.0",
+      "type": "effect",
+      "tags": [
+        "Instrument",
+        "Synth",
+        "Sampler"
+      ],
+      "url": "https://github.com/ardura/Actuate",
+      "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ardura/actuate/actuate.flac",
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ardura/actuate/actuate.jpg",
+      "date": "2024-07-12T07:00:00.000Z",
+      "changes": "- Polyfilter update now works on additive, sampler, and granular sources\n- Tilt filter was rewritten to have less crashes/bugs\n- VCF Filter instability was fixed with some more safety and balancing changes\n- New preset browser and format\n",
       "files": [
         {
-          "architectures": [
-            "x64"
-          ],
-          "contains": [
-            "clap",
-            "vst3"
-          ],
-          "format": "zip",
-          "sha256": "9733ac876eb9d0089885b2f40f3571ef8558a294005efdbbeb0012f586f9b1c3",
           "systems": [
             {
               "type": "linux"
             }
           ],
-          "size": 8369198,
-          "type": "archive",
-          "url": "https://github.com/ardura/Actuate/releases/download/v1.3.5/Actuate_v135_linux_build.zip"
-        },
-        {
           "architectures": [
             "x64"
           ],
@@ -37,17 +33,36 @@
             "vst3"
           ],
           "format": "zip",
-          "sha256": "c3a8849bdd39d9f804136c4e2bdc31b7daa6b4f3ba7f0a185d474929df6fc045",
+          "type": "archive",
+          "size": 8369198,
+          "sha256": "9733ac876eb9d0089885b2f40f3571ef8558a294005efdbbeb0012f586f9b1c3",
+          "url": "https://github.com/ardura/Actuate/releases/download/v1.3.5/Actuate_v135_linux_build.zip"
+        },
+        {
           "systems": [
             {
               "type": "mac"
             }
           ],
-          "size": 6125534,
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "clap",
+            "vst3"
+          ],
+          "format": "zip",
           "type": "archive",
+          "size": 6125534,
+          "sha256": "c3a8849bdd39d9f804136c4e2bdc31b7daa6b4f3ba7f0a185d474929df6fc045",
           "url": "https://github.com/ardura/Actuate/releases/download/v1.3.5/Actuate_v135_macos_build.zip"
         },
         {
+          "systems": [
+            {
+              "type": "mac"
+            }
+          ],
           "architectures": [
             "arm64"
           ],
@@ -56,17 +71,17 @@
             "vst3"
           ],
           "format": "zip",
-          "sha256": "afe178504be8425cc38717280955594a0003c9683132a3301be587c7124b0343",
-          "systems": [
-            {
-              "type": "mac"
-            }
-          ],
-          "size": 5670254,
           "type": "archive",
+          "size": 5670254,
+          "sha256": "afe178504be8425cc38717280955594a0003c9683132a3301be587c7124b0343",
           "url": "https://github.com/ardura/Actuate/releases/download/v1.3.5/Actuate_v135_macos_m1_build.zip"
         },
         {
+          "systems": [
+            {
+              "type": "win"
+            }
+          ],
           "architectures": [
             "x64"
           ],
@@ -75,27 +90,12 @@
             "vst3"
           ],
           "format": "zip",
-          "sha256": "348a0f6c50bc5ef077573aff85cf5234c487df7fd5d3fe81c4bd9daaabfe0515",
-          "systems": [
-            {
-              "type": "win"
-            }
-          ],
-          "size": 5573640,
           "type": "archive",
+          "size": 5573640,
+          "sha256": "348a0f6c50bc5ef077573aff85cf5234c487df7fd5d3fe81c4bd9daaabfe0515",
           "url": "https://github.com/ardura/Actuate/releases/download/v1.3.5/Actuate_v135_windows_build.zip"
         }
-      ],
-      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ardura/actuate/actuate.jpg",
-      "license": "gpl-3.0",
-      "name": "Actuate",
-      "tags": [
-        "Instrument",
-        "Synth",
-        "Sampler"
-      ],
-      "type": "effect",
-      "url": "https://github.com/ardura/Actuate"
+      ]
     }
   }
 }

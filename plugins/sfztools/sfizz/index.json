@@ -3,13 +3,28 @@
   "version": "1.2.3",
   "versions": {
     "1.2.3": {
-      "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfztools/sfizz/sfizz.flac",
+      "name": "Sfizz",
       "author": "SFZTools",
-      "changes": "- Curvecc opcodes on v1 EGs and lotimer/hitimer\n- Allow polyphonic aftertouch (cc 130) to respect the note number\n- Adjusted the gain compensation on pan stages\n- Ensure that voices are cleaned up before being force-reused\n",
-      "date": "2024-01-14T00:00:00.000Z",
       "description": "SFZ parser and synth c++ library, providing AU / LV2 / VST3 plugins and JACK standalone client.",
+      "license": "bsd-2-clause",
+      "type": "sampler",
+      "tags": [
+        "Instrument",
+        "Sampler",
+        "Synth"
+      ],
+      "url": "https://github.com/sfztools/sfizz",
+      "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfztools/sfizz/sfizz.flac",
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfztools/sfizz/sfizz.jpg",
+      "date": "2024-01-14T00:00:00.000Z",
+      "changes": "- Curvecc opcodes on v1 EGs and lotimer/hitimer\n- Allow polyphonic aftertouch (cc 130) to respect the note number\n- Adjusted the gain compensation on pan stages\n- Ensure that voices are cleaned up before being force-reused\n",
       "files": [
         {
+          "systems": [
+            {
+              "type": "linux"
+            }
+          ],
           "architectures": [
             "x64"
           ],
@@ -18,17 +33,17 @@
             "vst3"
           ],
           "format": "tar.gz",
-          "sha256": "ae1a0ea014eae9923b2b8e7b90d35dcebc309301fd82abaf13cbb55f01581c76",
-          "systems": [
-            {
-              "type": "linux"
-            }
-          ],
-          "size": 36291101,
           "type": "archive",
+          "size": 36291101,
+          "sha256": "ae1a0ea014eae9923b2b8e7b90d35dcebc309301fd82abaf13cbb55f01581c76",
           "url": "https://github.com/sfztools/sfizz-ui/releases/download/1.2.3/sfizz-1.2.3.tar.gz"
         },
         {
+          "systems": [
+            {
+              "type": "mac"
+            }
+          ],
           "architectures": [
             "arm64",
             "x64"
@@ -39,17 +54,17 @@
             "vst3"
           ],
           "format": "tar.gz",
-          "sha256": "f3c2b4c562abfb1d182fb950503285637e7dee6c9b45baa2a06172923c76a4c7",
-          "systems": [
-            {
-              "type": "mac"
-            }
-          ],
-          "size": 1748833,
           "type": "installer",
+          "size": 1748833,
+          "sha256": "f3c2b4c562abfb1d182fb950503285637e7dee6c9b45baa2a06172923c76a4c7",
           "url": "https://github.com/sfztools/sfizz/releases/download/1.2.3/sfizz-1.2.3-macos.tar.gz"
         },
         {
+          "systems": [
+            {
+              "type": "win"
+            }
+          ],
           "architectures": [
             "x64"
           ],
@@ -58,27 +73,12 @@
             "vst3"
           ],
           "format": "zip",
-          "sha256": "56f57dfe443018e947b82b8e2bf4c9d824a9c961ff2b8eb6c5e929030b71b937",
-          "systems": [
-            {
-              "type": "win"
-            }
-          ],
-          "size": 3626650,
           "type": "installer",
+          "size": 3626650,
+          "sha256": "56f57dfe443018e947b82b8e2bf4c9d824a9c961ff2b8eb6c5e929030b71b937",
           "url": "https://github.com/sfztools/sfizz-ui/releases/download/1.2.3/sfizz-1.2.3-win64.exe"
         }
-      ],
-      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfztools/sfizz/sfizz.jpg",
-      "license": "bsd-2-clause",
-      "name": "Sfizz",
-      "tags": [
-        "Instrument",
-        "Sampler",
-        "Synth"
-      ],
-      "type": "sampler",
-      "url": "https://github.com/sfztools/sfizz"
+      ]
     }
   }
 }

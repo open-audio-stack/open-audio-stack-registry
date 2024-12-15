@@ -3,13 +3,28 @@
   "version": "3.2.10",
   "versions": {
     "3.2.10": {
-      "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/michaelwillis/dragonfly-reverb/dragonfly-reverb.flac",
+      "name": "Dragonfly Reverb",
       "author": "Michael Willis",
-      "changes": "- Denormal protection\n",
-      "date": "2023-04-22T07:00:00.000Z",
       "description": "Dragonfly Reverb is a bundle of free audio effect plugins for Linux, MacOS, and Windows.",
+      "license": "gpl-3.0",
+      "type": "effect",
+      "tags": [
+        "Effect",
+        "Reverb",
+        "Plate"
+      ],
+      "url": "https://github.com/michaelwillis/dragonfly-reverb",
+      "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/michaelwillis/dragonfly-reverb/dragonfly-reverb.flac",
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/michaelwillis/dragonfly-reverb/dragonfly-reverb.jpg",
+      "date": "2023-04-22T07:00:00.000Z",
+      "changes": "- Denormal protection\n",
       "files": [
         {
+          "systems": [
+            {
+              "type": "linux"
+            }
+          ],
           "architectures": [
             "arm64"
           ],
@@ -21,17 +36,17 @@
             "vst3"
           ],
           "format": "tar.gz",
+          "type": "archive",
+          "size": 2267368,
           "sha256": "59f1593120de82e31dd194e2ab1536af14fec2b3ec6ec45abf6d9c8ac02ef430",
+          "url": "https://github.com/michaelwillis/dragonfly-reverb/releases/download/3.2.10/dragonfly-reverb-3.2.10-linux-x86_64.tar.xz"
+        },
+        {
           "systems": [
             {
               "type": "linux"
             }
           ],
-          "size": 2267368,
-          "type": "archive",
-          "url": "https://github.com/michaelwillis/dragonfly-reverb/releases/download/3.2.10/dragonfly-reverb-3.2.10-linux-x86_64.tar.xz"
-        },
-        {
           "architectures": [
             "x64"
           ],
@@ -43,17 +58,17 @@
             "vst3"
           ],
           "format": "tar.gz",
-          "sha256": "59f1593120de82e31dd194e2ab1536af14fec2b3ec6ec45abf6d9c8ac02ef430",
-          "systems": [
-            {
-              "type": "linux"
-            }
-          ],
-          "size": 2267368,
           "type": "archive",
+          "size": 2267368,
+          "sha256": "59f1593120de82e31dd194e2ab1536af14fec2b3ec6ec45abf6d9c8ac02ef430",
           "url": "https://github.com/michaelwillis/dragonfly-reverb/releases/download/3.2.10/dragonfly-reverb-3.2.10-linux-x86_64.tar.xz"
         },
         {
+          "systems": [
+            {
+              "type": "mac"
+            }
+          ],
           "architectures": [
             "arm64",
             "x64"
@@ -66,17 +81,17 @@
             "vst3"
           ],
           "format": "dmg",
-          "sha256": "e0b854b92a4e51ce5851320fb1a9f91ab1a4309f997de070e175b3e5cab4adaf",
-          "systems": [
-            {
-              "type": "mac"
-            }
-          ],
-          "size": 24954281,
           "type": "archive",
+          "size": 24954281,
+          "sha256": "e0b854b92a4e51ce5851320fb1a9f91ab1a4309f997de070e175b3e5cab4adaf",
           "url": "https://github.com/michaelwillis/dragonfly-reverb/releases/download/3.2.10/dragonfly-reverb-3.2.10-macos-universal.dmg"
         },
         {
+          "systems": [
+            {
+              "type": "win"
+            }
+          ],
           "architectures": [
             "x64"
           ],
@@ -88,27 +103,12 @@
             "vst3"
           ],
           "format": "zip",
-          "sha256": "ca5f35f9dcd9a33f06490d3c92f04061a1a798cb81257d5ca5851bdda0824c66",
-          "systems": [
-            {
-              "type": "win"
-            }
-          ],
-          "size": 22447365,
           "type": "archive",
+          "size": 22447365,
+          "sha256": "ca5f35f9dcd9a33f06490d3c92f04061a1a798cb81257d5ca5851bdda0824c66",
           "url": "https://github.com/michaelwillis/dragonfly-reverb/releases/download/3.2.10/dragonfly-reverb-3.2.10-win64.zip"
         }
-      ],
-      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/michaelwillis/dragonfly-reverb/dragonfly-reverb.jpg",
-      "license": "gpl-3.0",
-      "name": "Dragonfly Reverb",
-      "tags": [
-        "Effect",
-        "Reverb",
-        "Plate"
-      ],
-      "type": "effect",
-      "url": "https://github.com/michaelwillis/dragonfly-reverb"
+      ]
     }
   }
 }

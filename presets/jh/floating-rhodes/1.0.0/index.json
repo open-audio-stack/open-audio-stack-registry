@@ -1,22 +1,24 @@
 {
-  "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/presets/jh/floating-rhodes/floating-rhodes.flac",
+  "plugins": {
+    "surge-synth/surge": "1.3.1"
+  },
+  "name": "Floating Rhodes",
   "author": "JH",
-  "changes": "- First version\n",
-  "date": "2024-03-02T00:00:00.000Z",
   "description": "Floating Rhodes sounds.",
+  "license": "gpl-3.0",
+  "type": "patch",
+  "tags": [
+    "Preset",
+    "Synth",
+    "Rhodes"
+  ],
+  "url": "https://presetshare.com/p763",
+  "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/presets/jh/floating-rhodes/floating-rhodes.flac",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/presets/jh/floating-rhodes/floating-rhodes.jpg",
+  "date": "2024-03-02T00:00:00.000Z",
+  "changes": "- First version\n",
   "files": [
     {
-      "architectures": [
-        "arm32",
-        "arm64",
-        "x32",
-        "x64"
-      ],
-      "contains": [
-        "fxp"
-      ],
-      "format": "zip",
-      "sha256": "ddc328295ca5a25303a42c45b184f99b7e923bbcbb92b8061e33191f79f19ad9",
       "systems": [
         {
           "type": "linux"
@@ -28,22 +30,20 @@
           "type": "win"
         }
       ],
-      "size": 3773,
+      "architectures": [
+        "arm32",
+        "arm64",
+        "x32",
+        "x64"
+      ],
+      "contains": [
+        "fxp"
+      ],
+      "format": "zip",
       "type": "archive",
+      "size": 3773,
+      "sha256": "ddc328295ca5a25303a42c45b184f99b7e923bbcbb92b8061e33191f79f19ad9",
       "url": "https://open-audio-stack.github.io/open-audio-stack-registry/presets/jh/floating-rhodes/1.0.0/floating-rhodes.zip"
     }
-  ],
-  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/presets/jh/floating-rhodes/floating-rhodes.jpg",
-  "license": "gpl-3.0",
-  "name": "Floating Rhodes",
-  "plugins": {
-    "surge-synth/surge": "1.3.1"
-  },
-  "tags": [
-    "Preset",
-    "Synth",
-    "Rhodes"
-  ],
-  "type": "patch",
-  "url": "https://presetshare.com/p763"
+  ]
 }

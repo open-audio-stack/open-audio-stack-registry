@@ -3,13 +3,28 @@
   "version": "1.0.0",
   "versions": {
     "1.0.0": {
-      "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/wolf-plugins/wolf-spectrum/wolf-spectrum.flac",
+      "name": "Wolf Spectrum",
       "author": "Wolf Plugins",
-      "changes": "",
-      "date": "2019-04-14T07:00:00.000Z",
       "description": "Spectrogram plugin which supports both log and linear frequency scaling.",
+      "license": "gpl-3.0",
+      "type": "effect",
+      "tags": [
+        "Effect",
+        "Spectrogram",
+        "Frequency"
+      ],
+      "url": "https://github.com/wolf-plugins/wolf-spectrum",
+      "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/wolf-plugins/wolf-spectrum/wolf-spectrum.flac",
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/wolf-plugins/wolf-spectrum/wolf-spectrum.jpg",
+      "date": "2019-04-14T07:00:00.000Z",
+      "changes": "",
       "files": [
         {
+          "systems": [
+            {
+              "type": "linux"
+            }
+          ],
           "architectures": [
             "x64"
           ],
@@ -17,17 +32,17 @@
             "so"
           ],
           "format": "tar.gz",
-          "sha256": "858c16bf594ace122cee1854024fb8719c232f593d3ecf3dccee72f22c0b2a08",
-          "systems": [
-            {
-              "type": "linux"
-            }
-          ],
-          "size": 491519,
           "type": "archive",
+          "size": 491519,
+          "sha256": "858c16bf594ace122cee1854024fb8719c232f593d3ecf3dccee72f22c0b2a08",
           "url": "https://github.com/wolf-plugins/wolf-spectrum/releases/download/v1.0.0/wolf-spectrum-v1.0.0-linux-vst2.tar.gz"
         },
         {
+          "systems": [
+            {
+              "type": "win"
+            }
+          ],
           "architectures": [
             "x64"
           ],
@@ -35,27 +50,12 @@
             "dll"
           ],
           "format": "zip",
-          "sha256": "7728372c985c4cb0019f5000858d9486a0444f70fed3c44cac724c05db19c94d",
-          "systems": [
-            {
-              "type": "win"
-            }
-          ],
-          "size": 853466,
           "type": "archive",
+          "size": 853466,
+          "sha256": "7728372c985c4cb0019f5000858d9486a0444f70fed3c44cac724c05db19c94d",
           "url": "https://github.com/wolf-plugins/wolf-spectrum/releases/download/v1.0.0/wolf-spectrum-v1.0.0-windows-vst2.zip"
         }
-      ],
-      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/wolf-plugins/wolf-spectrum/wolf-spectrum.jpg",
-      "license": "gpl-3.0",
-      "name": "Wolf Spectrum",
-      "tags": [
-        "Effect",
-        "Spectrogram",
-        "Frequency"
-      ],
-      "type": "effect",
-      "url": "https://github.com/wolf-plugins/wolf-spectrum"
+      ]
     }
   }
 }

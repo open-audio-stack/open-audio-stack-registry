@@ -3,13 +3,28 @@
   "version": "2.3.4",
   "versions": {
     "2.3.4": {
-      "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/thewavewarden/odin/odin.flac",
+      "name": "Odin",
       "author": "TheWaveWarden",
-      "changes": "",
-      "date": "2020-11-09T07:00:00.000Z",
       "description": "12-voice polyphonic semi-modular synthesizer. Earth shattering basses, exquisite leads or mad FX, Odin's got them all! Use the classic sound of analog waveforms - or draw your own.",
+      "license": "gpl-3.0",
+      "type": "instrument",
+      "tags": [
+        "Instrument",
+        "Synth",
+        "Moog"
+      ],
+      "url": "https://github.com/TheWaveWarden/odin2",
+      "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/thewavewarden/odin/odin.flac",
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/thewavewarden/odin/odin.jpg",
+      "date": "2020-11-09T07:00:00.000Z",
+      "changes": "",
       "files": [
         {
+          "systems": [
+            {
+              "type": "linux"
+            }
+          ],
           "architectures": [
             "x64"
           ],
@@ -19,17 +34,17 @@
             "vst3"
           ],
           "format": "zip",
-          "sha256": "39aa2104a970ee80119bd05e2d8415f58488159452903e4b49200de74dac3daf",
-          "systems": [
-            {
-              "type": "linux"
-            }
-          ],
-          "size": 141204627,
           "type": "archive",
+          "size": 141204627,
+          "sha256": "39aa2104a970ee80119bd05e2d8415f58488159452903e4b49200de74dac3daf",
           "url": "https://github.com/TheWaveWarden/odin2/releases/download/NightlyDevel/Odin2.3.4Linux.zip"
         },
         {
+          "systems": [
+            {
+              "type": "mac"
+            }
+          ],
           "architectures": [
             "x64"
           ],
@@ -39,17 +54,17 @@
             "vst3"
           ],
           "format": "pkg",
-          "sha256": "ecfcbdf9058f6ddc6cdbc344fc32bee5f7cc0ffe135432607c36a6274e47624b",
-          "systems": [
-            {
-              "type": "mac"
-            }
-          ],
-          "size": 282803372,
           "type": "archive",
+          "size": 282803372,
+          "sha256": "ecfcbdf9058f6ddc6cdbc344fc32bee5f7cc0ffe135432607c36a6274e47624b",
           "url": "https://github.com/TheWaveWarden/odin2/releases/download/NightlyDevel/Odin2.3.4MacInstaller.pkg"
         },
         {
+          "systems": [
+            {
+              "type": "win"
+            }
+          ],
           "architectures": [
             "x64"
           ],
@@ -59,27 +74,12 @@
             "vst3"
           ],
           "format": "zip",
-          "sha256": "828d99b67406adfb354553695df9ea1786772e2ac7fea77fe6197897b9788310",
-          "systems": [
-            {
-              "type": "win"
-            }
-          ],
-          "size": 92172129,
           "type": "archive",
+          "size": 92172129,
+          "sha256": "828d99b67406adfb354553695df9ea1786772e2ac7fea77fe6197897b9788310",
           "url": "https://github.com/TheWaveWarden/odin2/releases/download/NightlyDevel/Odin2.3.4WinInstaller.exe"
         }
-      ],
-      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/thewavewarden/odin/odin.jpg",
-      "license": "gpl-3.0",
-      "name": "Odin",
-      "tags": [
-        "Instrument",
-        "Synth",
-        "Moog"
-      ],
-      "type": "instrument",
-      "url": "https://github.com/TheWaveWarden/odin2"
+      ]
     }
   }
 }

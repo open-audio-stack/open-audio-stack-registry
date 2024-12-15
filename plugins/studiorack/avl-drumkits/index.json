@@ -3,24 +3,23 @@
   "version": "1.1.0",
   "versions": {
     "1.1.0": {
-      "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/studiorack/avl-drumkits/avl-drumkits.flac",
+      "name": "AVL Drumkits",
       "author": "Glen MacArthur",
-      "changes": "",
-      "date": "2022-02-20T07:00:00.000Z",
       "description": "Black Pearl and Red Zepplin drumkits recorded with 5 velocity layers per kit piece.",
+      "license": "cc-by-sa-4.0",
+      "type": "sampler",
+      "tags": [
+        "Instrument",
+        "Drums",
+        "sfz"
+      ],
+      "url": "https://github.com/studiorack/avl-drumkits",
+      "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/studiorack/avl-drumkits/avl-drumkits.flac",
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/studiorack/avl-drumkits/avl-drumkits.jpg",
+      "date": "2022-02-20T07:00:00.000Z",
+      "changes": "",
       "files": [
         {
-          "architectures": [
-            "arm32",
-            "arm64",
-            "x32",
-            "x64"
-          ],
-          "contains": [
-            "sfz"
-          ],
-          "format": "zip",
-          "sha256": "4a4ac29d1a373b8e4beb76995659198c6674907df9abd48ccd8736fb72d3e59a",
           "systems": [
             {
               "type": "linux"
@@ -32,21 +31,22 @@
               "type": "win"
             }
           ],
-          "size": 16025852,
+          "architectures": [
+            "arm32",
+            "arm64",
+            "x32",
+            "x64"
+          ],
+          "contains": [
+            "sfz"
+          ],
+          "format": "zip",
           "type": "archive",
+          "size": 16025852,
+          "sha256": "4a4ac29d1a373b8e4beb76995659198c6674907df9abd48ccd8736fb72d3e59a",
           "url": "https://github.com/studiorack/avl-drumkits/releases/download/v1.1.0/avl-drumkits.zip"
         }
-      ],
-      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/studiorack/avl-drumkits/avl-drumkits.jpg",
-      "license": "cc-by-sa-4.0",
-      "name": "AVL Drumkits",
-      "tags": [
-        "Instrument",
-        "Drums",
-        "sfz"
-      ],
-      "type": "sampler",
-      "url": "https://github.com/studiorack/avl-drumkits"
+      ]
     }
   }
 }

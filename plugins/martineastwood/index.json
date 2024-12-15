@@ -4,13 +4,27 @@
     "version": "1.0.0",
     "versions": {
       "1.0.0": {
-        "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/martineastwood/mverb/mverb.flac",
+        "name": "Mverb",
         "author": "Martin Eastwood",
-        "changes": "",
-        "date": "2013-03-25T07:00:00.000Z",
         "description": "Studio quality, open-source reverb. Its release was intended to provide a practical demonstration of Dattorro's figure-of-eight reverb structure and provide the open source community with a high quality reverb.",
+        "license": "gpl-3.0",
+        "type": "effect",
+        "tags": [
+          "Effect",
+          "Reverb"
+        ],
+        "url": "https://github.com/martineastwood/mverb",
+        "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/martineastwood/mverb/mverb.flac",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/martineastwood/mverb/mverb.jpg",
+        "date": "2013-03-25T07:00:00.000Z",
+        "changes": "",
         "files": [
           {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
             "architectures": [
               "x64"
             ],
@@ -18,17 +32,17 @@
               "so"
             ],
             "format": "zip",
-            "sha256": "101ecc4d4634c257fd91f89e3ba8cafdd56d5b79ee9eda66102ff78777460520",
-            "systems": [
-              {
-                "type": "linux"
-              }
-            ],
-            "size": 188933,
             "type": "archive",
+            "size": 188933,
+            "sha256": "101ecc4d4634c257fd91f89e3ba8cafdd56d5b79ee9eda66102ff78777460520",
             "url": "https://rekkerd.org/bin/martineastwood/MVerb_LINUX.zip"
           },
           {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
             "architectures": [
               "x64"
             ],
@@ -37,17 +51,17 @@
               "vst"
             ],
             "format": "zip",
-            "sha256": "648bd13355a3b8c40c0ce2fba3ec62c09e222ed291af44444b72d3cf29ebf7aa",
-            "systems": [
-              {
-                "type": "mac"
-              }
-            ],
-            "size": 674694,
             "type": "archive",
+            "size": 674694,
+            "sha256": "648bd13355a3b8c40c0ce2fba3ec62c09e222ed291af44444b72d3cf29ebf7aa",
             "url": "https://rekkerd.org/bin/martineastwood/MVerb_MAC.zip"
           },
           {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
             "architectures": [
               "x64"
             ],
@@ -55,26 +69,12 @@
               "dll"
             ],
             "format": "zip",
-            "sha256": "0eeecde752bf6f2c80797faa8a2a17dc5b6951fbfbc63bbf0f2e1847b8f53070",
-            "systems": [
-              {
-                "type": "win"
-              }
-            ],
-            "size": 283901,
             "type": "archive",
+            "size": 283901,
+            "sha256": "0eeecde752bf6f2c80797faa8a2a17dc5b6951fbfbc63bbf0f2e1847b8f53070",
             "url": "https://rekkerd.org/bin/martineastwood/MVerb_PC.zip"
           }
-        ],
-        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/martineastwood/mverb/mverb.jpg",
-        "license": "gpl-3.0",
-        "name": "Mverb",
-        "tags": [
-          "Effect",
-          "Reverb"
-        ],
-        "type": "effect",
-        "url": "https://github.com/martineastwood/mverb"
+        ]
       }
     }
   }

@@ -1,16 +1,26 @@
----
-audio: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/chowdhury-dsp/chowmatrix/chowmatrix.flac
+name: CHOW Matrix
 author: Chowdhury DSP
+description: Delay effect, made up of an infinitely growable tree of delay lines, each with individual controls for feedback, panning, distortion, and more.
+license: bsd-3-clause
+type: effect
+tags:
+  - Effect
+  - Delay
+  - Feedback
+url: https://github.com/Chowdhury-DSP/ChowMatrix
+audio: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/chowdhury-dsp/chowmatrix/chowmatrix.flac
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/chowdhury-dsp/chowmatrix/chowmatrix.jpg
+date: '2021-12-21T07:00:00.000Z'
 changes: |
   - iOS/AUv3 and Pro Tools/AAX support.
   - Forwarding parameters to expose node parameters to DAWs.
   - "Alien" and "Reverse" delay parameters.
   - Optional automatic gain compensation for wet signal.
   - Lock/unlock options for parameter randomisation.
-date: '2021-12-21T07:00:00.000Z'
-description: Delay effect, made up of an infinitely growable tree of delay lines, each with individual controls for feedback, panning, distortion, and more.
 files:
-  - architectures:
+  - systems:
+      - type: linux
+    architectures:
       - x64
     contains:
       - elf
@@ -18,13 +28,13 @@ files:
       - so
       - vst3
     format: deb
-    sha256: 332749bba2fcfefeb68c105b9f55fd71aa7a8bfb524f592cbb68cc6c0581a767
-    systems:
-      - type: linux
-    size: 2990012
     type: archive
+    size: 2990012
+    sha256: 332749bba2fcfefeb68c105b9f55fd71aa7a8bfb524f592cbb68cc6c0581a767
     url: https://github.com/Chowdhury-DSP/ChowMatrix/releases/download/v1.3.0/ChowMatrix-Linux-x64-1.3.0.deb
-  - architectures:
+  - systems:
+      - type: mac
+    architectures:
       - x64
     contains:
       - aax
@@ -33,31 +43,20 @@ files:
       - vst
       - vst3
     format: zip
-    sha256: 11705e4cfb023525e8b6830fb29feb046eac05688428a12a8fdad48dc9a9fdcf
-    systems:
-      - type: mac
-    size: 17091478
     type: archive
+    size: 17091478
+    sha256: 11705e4cfb023525e8b6830fb29feb046eac05688428a12a8fdad48dc9a9fdcf
     url: https://github.com/Chowdhury-DSP/ChowMatrix/releases/download/v1.3.0/ChowMatrix-Mac-1.3.0.dmg
-  - architectures:
+  - systems:
+      - type: win
+    architectures:
       - x64
     contains:
       - dll
       - exe
       - vst3
     format: exe
-    sha256: b1e2451ae66362bf82112e77fccc48a1233780b6cbfb58fe1a588b17a77456c5
-    systems:
-      - type: win
-    size: 7958887
     type: archive
+    size: 7958887
+    sha256: b1e2451ae66362bf82112e77fccc48a1233780b6cbfb58fe1a588b17a77456c5
     url: https://github.com/Chowdhury-DSP/ChowMatrix/releases/download/v1.3.0/ChowMatrix-Win-1.3.0.exe
-image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/chowdhury-dsp/chowmatrix/chowmatrix.jpg
-license: bsd-3-clause
-name: CHOW Matrix
-tags:
-  - Effect
-  - Delay
-  - Feedback
-type: effect
-url: https://github.com/Chowdhury-DSP/ChowMatrix

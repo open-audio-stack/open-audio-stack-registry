@@ -4,13 +4,28 @@
     "version": "1.0.2",
     "versions": {
       "1.0.2": {
-        "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/jpcima/opnplug/opnplug.flac",
+        "name": "OPNplug",
         "author": "Jean Pierre Cimalando",
-        "changes": "- English translation of the user manual\n- KSL editing behavior to make it linear with regards to attenuation\n- Build option to link with system-wide libfmt\n- Resource system compatible with unsigned-char targets\n",
-        "date": "2020-08-05T08:00:00.000Z",
         "description": "FM synthesizer based on OPL3 and OPN2 sound chip emulations. Synthesis of melodic and percussive instruments, support for dynamic parameterization and automation.",
+        "license": "bsl-1.0",
+        "type": "instrument",
+        "tags": [
+          "Instrument",
+          "Synth",
+          "FM"
+        ],
+        "url": "https://github.com/jpcima/ADLplug",
+        "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/jpcima/opnplug/opnplug.flac",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/jpcima/opnplug/opnplug.jpg",
+        "date": "2020-08-05T08:00:00.000Z",
+        "changes": "- English translation of the user manual\n- KSL editing behavior to make it linear with regards to attenuation\n- Build option to link with system-wide libfmt\n- Resource system compatible with unsigned-char targets\n",
         "files": [
           {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
             "architectures": [
               "x64"
             ],
@@ -20,17 +35,17 @@
               "so"
             ],
             "format": "deb",
-            "sha256": "284fb7271dbdf399d3bc06464bf06726fa97554becfecf3b998615cf976e0fc6",
-            "systems": [
-              {
-                "type": "linux"
-              }
-            ],
-            "size": 3876232,
             "type": "archive",
+            "size": 3876232,
+            "sha256": "284fb7271dbdf399d3bc06464bf06726fa97554becfecf3b998615cf976e0fc6",
             "url": "https://github.com/jpcima/ADLplug/releases/download/v1.0.2/opnplug_amd64.deb"
           },
           {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
             "architectures": [
               "arm64",
               "x64"
@@ -43,17 +58,17 @@
               "vst3"
             ],
             "format": "7z",
-            "sha256": "f874683fd0899fd83e9bc7568aa0079035df084cadeea2569826933b2dcee315",
-            "systems": [
-              {
-                "type": "mac"
-              }
-            ],
-            "size": 10965202,
             "type": "archive",
+            "size": 10965202,
+            "sha256": "f874683fd0899fd83e9bc7568aa0079035df084cadeea2569826933b2dcee315",
             "url": "https://github.com/jpcima/ADLplug/releases/download/v1.0.2/OPNplug-1.0.2-mac.7z"
           },
           {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
             "architectures": [
               "x64"
             ],
@@ -64,27 +79,12 @@
               "vst3"
             ],
             "format": "7z",
-            "sha256": "f65675b01c4a43fd85bd1c9a188fd1725bd2595719ca878e466ef83b42fdc8e2",
-            "systems": [
-              {
-                "type": "win"
-              }
-            ],
-            "size": 18709184,
             "type": "archive",
+            "size": 18709184,
+            "sha256": "f65675b01c4a43fd85bd1c9a188fd1725bd2595719ca878e466ef83b42fdc8e2",
             "url": "https://github.com/jpcima/ADLplug/releases/download/v1.0.2/OPNplug-1.0.2-win64.7z"
           }
-        ],
-        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/jpcima/opnplug/opnplug.jpg",
-        "license": "bsl-1.0",
-        "name": "OPNplug",
-        "tags": [
-          "Instrument",
-          "Synth",
-          "FM"
-        ],
-        "type": "instrument",
-        "url": "https://github.com/jpcima/ADLplug"
+        ]
       }
     }
   },
@@ -93,13 +93,28 @@
     "version": "1.0.2",
     "versions": {
       "1.0.2": {
-        "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/jpcima/adlplug/adlplug.flac",
+        "name": "ADLplug",
         "author": "Jean Pierre Cimalando",
-        "changes": "- English translation of the user manual\n- KSL editing behavior to make it linear with regards to attenuation\n- Build option to link with system-wide libfmt\n- Resource system compatible with unsigned-char targets\n",
-        "date": "2020-08-05T08:00:00.000Z",
         "description": "FM synthesizer based on OPL3 and OPN2 sound chip emulations. Synthesis of melodic and percussive instruments, support for dynamic parameterization and automation.",
+        "license": "bsl-1.0",
+        "type": "instrument",
+        "tags": [
+          "Instrument",
+          "Synth",
+          "FM"
+        ],
+        "url": "https://github.com/jpcima/ADLplug",
+        "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/jpcima/adlplug/adlplug.flac",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/jpcima/adlplug/adlplug.jpg",
+        "date": "2020-08-05T08:00:00.000Z",
+        "changes": "- English translation of the user manual\n- KSL editing behavior to make it linear with regards to attenuation\n- Build option to link with system-wide libfmt\n- Resource system compatible with unsigned-char targets\n",
         "files": [
           {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
             "architectures": [
               "x64"
             ],
@@ -109,17 +124,17 @@
               "so"
             ],
             "format": "deb",
-            "sha256": "7e3f433f93f861f475e80d571e79ab0ada157590b276179d82f07797cb27d01b",
-            "systems": [
-              {
-                "type": "linux"
-              }
-            ],
-            "size": 3822930,
             "type": "archive",
+            "size": 3822930,
+            "sha256": "7e3f433f93f861f475e80d571e79ab0ada157590b276179d82f07797cb27d01b",
             "url": "https://github.com/jpcima/ADLplug/releases/download/v1.0.2/adlplug_amd64.deb"
           },
           {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
             "architectures": [
               "arm64",
               "x64"
@@ -132,17 +147,17 @@
               "vst3"
             ],
             "format": "7z",
-            "sha256": "44d2f6e34ca02f51a11ef64be1208dc50f553ce02a3f1ef9fa36a90c34699934",
-            "systems": [
-              {
-                "type": "mac"
-              }
-            ],
-            "size": 10663602,
             "type": "archive",
+            "size": 10663602,
+            "sha256": "44d2f6e34ca02f51a11ef64be1208dc50f553ce02a3f1ef9fa36a90c34699934",
             "url": "https://github.com/jpcima/ADLplug/releases/download/v1.0.2/ADLplug-1.0.2-mac.7z"
           },
           {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
             "architectures": [
               "x64"
             ],
@@ -153,27 +168,12 @@
               "vst3"
             ],
             "format": "7z",
-            "sha256": "bad70fcb3b9debcebb2abe840bfd93fa40f743ab8f02bb3f438d104a044f6882",
-            "systems": [
-              {
-                "type": "win"
-              }
-            ],
-            "size": 18562585,
             "type": "archive",
+            "size": 18562585,
+            "sha256": "bad70fcb3b9debcebb2abe840bfd93fa40f743ab8f02bb3f438d104a044f6882",
             "url": "https://github.com/jpcima/ADLplug/releases/download/v1.0.2/ADLplug-1.0.2-win64.7z"
           }
-        ],
-        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/jpcima/adlplug/adlplug.jpg",
-        "license": "bsl-1.0",
-        "name": "ADLplug",
-        "tags": [
-          "Instrument",
-          "Synth",
-          "FM"
-        ],
-        "type": "instrument",
-        "url": "https://github.com/jpcima/ADLplug"
+        ]
       }
     }
   }
