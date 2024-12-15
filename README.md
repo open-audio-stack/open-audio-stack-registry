@@ -34,43 +34,20 @@ Create yaml files for each version of the package using [Semantic Versioning](ht
 
 Semantic versioning allows a compatible installer to install the latest non-breaking version of a package.
 
-Use the below template yaml file as a starting point. Open Audio Stack Registry validates each package's metadata,
+Use the below template yaml files as a starting point. Open Audio Stack Registry validates each package's metadata,
 if you miss or enter incorrect information, your package will not be included in the registry.
 
-    ---
-    audio: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/surge-synthesizer/surge/surge.flac
-    author: Surge Synth Team
-    changes: |
-      - Fixed bug with audio
-      - New feature added
-    date: '2024-03-02T00:00:00.000Z'
-    description: Hybrid synthesizer featuring many synthesis techniques, a great selection
-      of filters, a flexible modulation engine, a smorgasbord of effects, and modern features
-      like MPE and microtuning.
-    files:
-      - architectures:
-          - x64
-        contains:
-          - elf
-          - clap
-          - lv2
-          - vst3
-        format: zip
-        sha256: 42ad977d43d6caa75361cd2ad8794e36
-        systems:
-          - type: linux
-        size: 94448096
-        type: archive
-        url: https://github.com/surge-synthesizer/releases-xt/releases/download/1.3.1/surge-xt-linux-1.3.1-pluginsonly.tar.gz
-    image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/surge-synthesizer/surge/surge.jpg
-    license: gpl-3.0
-    name: Surge XT
-    tags:
-      - Instrument
-      - Synth
-      - Modulation
-    type: instrument
-    url: https://github.com/surge-synthesizer/surge
+Plugin example:
+
+    src/plugins/surge-synthesizer/surge/1.3.4/index.yaml
+
+Preset example:
+
+    src/presets/jh/floating-rhodes/1.0.0/index.yaml
+
+Project example:
+
+    src/projects/kmt/banwer/1.0.1/index.yaml
 
 For file downloads, we recommend `.zip` files which are cross-platform and can be extracted automatically and placed into the correct locations without user interaction.
 
