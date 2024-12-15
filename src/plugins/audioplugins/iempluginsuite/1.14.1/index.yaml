@@ -1,15 +1,25 @@
----
-audio: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/audioplugins/iempluginsuite/iempluginsuite.flac
+name: IEM Plugin Suite
 author: Institute of Electronic Music and Acoustics
+description: Collection of ambisonic plug-ins including Compressors, Delays, Reverb, Encoders, Decoders and Visualizers.
+license: gpl-3.0
+type: effect
+tags:
+  - Effect
+  - Reverb
+  - Delay
+url: https://git.iem.at/audioplugins/IEMPluginSuite
+audio: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/audioplugins/iempluginsuite/iempluginsuite.flac
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/audioplugins/iempluginsuite/iempluginsuite.jpg
+date: '2023-02-23T07:00:00.000Z'
 changes: |
   - Use JUCE 7.0.5 and support Windows Vista and 7
   - AllRADecoder and SimpleDecoder
   - Wrap azimuth exceeding 180° and elevation exceeding 90° for correct im-/export of layouts
   - Update IEM Cube decoder preset and GranularEncoder
-date: '2023-02-23T07:00:00.000Z'
-description: Collection of ambisonic plug-ins including Compressors, Delays, Reverb, Encoders, Decoders and Visualizers.
 files:
-  - architectures:
+  - systems:
+      - type: mac
+    architectures:
       - arm64
       - x64
     contains:
@@ -17,30 +27,19 @@ files:
       - vst
       - vst3
     format: pkg
-    sha256: 51dbe21c46b400034f796ae53cc5a31d278ab2dcffe49b37e2f61936b48af54f
-    systems:
-      - type: mac
-    size: 201757713
     type: installer
+    size: 201757713
+    sha256: 51dbe21c46b400034f796ae53cc5a31d278ab2dcffe49b37e2f61936b48af54f
     url: https://users.iem.at/holzmueller/IEM-Audioplugins/IEMPluginSuite/v1.14.1/IEMPluginSuite_v1.14.1.pkg
-  - architectures:
+  - systems:
+      - type: win
+    architectures:
       - x64
     contains:
       - dll
       - lv2
     format: zip
-    sha256: deca1305320f3debdf1d96299f4850a5de3b3d2c3f6142a78fb7afca633d787c
-    systems:
-      - type: win
-    size: 86958075
     type: archive
+    size: 86958075
+    sha256: deca1305320f3debdf1d96299f4850a5de3b3d2c3f6142a78fb7afca633d787c
     url: https://users.iem.at/holzmueller/IEM-Audioplugins/IEMPluginSuite/v1.14.1/IEMPluginSuite_v1.14.1_x64.zip
-image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/audioplugins/iempluginsuite/iempluginsuite.jpg
-license: gpl-3.0
-name: IEM Plugin Suite
-tags:
-  - Effect
-  - Reverb
-  - Delay
-type: effect
-url: https://git.iem.at/audioplugins/IEMPluginSuite

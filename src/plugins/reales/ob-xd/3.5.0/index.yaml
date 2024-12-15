@@ -1,6 +1,16 @@
----
-audio: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/reales/ob-xd/obxd.flac
+name: OB-Xd
 author: discoDSP
+description: Recreates the sound and behaviours of the Oberheim OB-X, without the limitations of the original hardware including features such as micro random detuning.
+license: gpl-3.0
+type: instrument
+tags:
+  - Instrument
+  - Synth
+  - OB-X
+url: https://github.com/reales/OB-Xd
+audio: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/reales/ob-xd/obxd.flac
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/reales/ob-xd/obxd.jpg
+date: '2021-05-30T07:00:00.000Z'
 changes: |
   - Unlock Bi-Directional MIDI Control
   - New Unison Voices
@@ -10,51 +20,40 @@ changes: |
   - Oversampling Selection
   - MIDI and Preset Bar Enhancements
   - LFO Synchronization
-date: '2021-05-30T07:00:00.000Z'
-description: Recreates the sound and behaviours of the Oberheim OB-X, without the limitations of the original hardware including features such as micro random detuning.
 files:
-  - architectures:
+  - systems:
+      - type: linux
+    architectures:
       - x64
     contains:
       - elf
       - so
     format: zip
-    sha256: 376f794b1ec15ff3ae614d4e094b499b3647c4a3ec0cc21e73cdd4fe62d7e7d9
-    systems:
-      - type: linux
-    size: 49557284
     type: archive
+    size: 49557284
+    sha256: 376f794b1ec15ff3ae614d4e094b499b3647c4a3ec0cc21e73cdd4fe62d7e7d9
     url: https://www.discodsp.com/download/?id=9
-  - architectures:
+  - systems:
+      - type: mac
+    architectures:
       - x64
     contains:
       - app
       - vst
     format: zip
-    sha256: c2f6d5b856f9225594c692633d5a45f664d9820178b7d2b5c0e2eebbe3ec05a7
-    systems:
-      - type: mac
-    size: 63317149
     type: archive
+    size: 63317149
+    sha256: c2f6d5b856f9225594c692633d5a45f664d9820178b7d2b5c0e2eebbe3ec05a7
     url: https://www.discodsp.com/download/?id=2
-  - architectures:
+  - systems:
+      - type: win
+    architectures:
       - x64
     contains:
       - exe
       - dll
     format: zip
-    sha256: 21100985a638cf93fa25fc5356e9eedfce2eae7604b6a24cee44267b82e78242
-    systems:
-      - type: win
-    size: 52845717
     type: installer
+    size: 52845717
+    sha256: 21100985a638cf93fa25fc5356e9eedfce2eae7604b6a24cee44267b82e78242
     url: https://www.discodsp.com/download/?id=3
-image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/reales/ob-xd/obxd.jpg
-license: gpl-3.0
-name: OB-Xd
-tags:
-  - Instrument
-  - Synth
-  - OB-X
-type: instrument
-url: https://github.com/reales/OB-Xd

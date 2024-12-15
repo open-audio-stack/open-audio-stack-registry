@@ -1,29 +1,40 @@
----
-audio: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/surge-synthesizer/monique-monosynth/monique.flac
+name: Monique
 author: Surge Synth Team
+description: Monophonic, realtime, subtractive-synthesis bass-and-lead software synthesizer.
+license: gpl-3.0
+type: instrument
+tags:
+  - Instrument
+  - Synth
+  - Bass
+  - Lead
+url: https://github.com/surge-synthesizer/monique-monosynth
+audio: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/surge-synthesizer/monique-monosynth/monique.flac
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/surge-synthesizer/monique-monosynth/monique.jpg
+date: '2021-12-13T07:00:00.000Z'
 changes: |
   - More docker corrections
   - Correct the docker release action
   - Add a linux docker build (#138)
   - Tweak to release pipeline
   - Just bump for pipeline test
-date: '2021-12-13T07:00:00.000Z'
-description: Monophonic, realtime, subtractive-synthesis bass-and-lead software synthesizer.
 files:
-  - architectures:
+  - systems:
+      - type: linux
+    architectures:
       - x64
     contains:
       - elf
       - clap
       - vst3
     format: zip
-    sha256: a9a9a9b42e111bd41ee24157368ca2499cace806c505f7f8ccd9aeec03f251b7
-    systems:
-      - type: linux
-    size: 11138914
     type: archive
+    size: 11138914
+    sha256: a9a9a9b42e111bd41ee24157368ca2499cace806c505f7f8ccd9aeec03f251b7
     url: https://github.com/surge-synthesizer/monique-monosynth/releases/download/Nightly/MoniqueMonosynth-2024-08-07-df7d339-Linux.zip
-  - architectures:
+  - systems:
+      - type: mac
+    architectures:
       - x64
     contains:
       - app
@@ -31,32 +42,20 @@ files:
       - component
       - vst3
     format: dmg
-    sha256: 7a3097c486c002d6533b55bae6ffd3024e9ccbc266e79ef008d2763719925843
-    systems:
-      - type: mac
-    size: 26204639
     type: archive
+    size: 26204639
+    sha256: 7a3097c486c002d6533b55bae6ffd3024e9ccbc266e79ef008d2763719925843
     url: https://github.com/surge-synthesizer/monique-monosynth/releases/download/Nightly/moniquemonosynth-macOS-2024-08-07-df7d339.dmg
-  - architectures:
+  - systems:
+      - type: win
+    architectures:
       - x64
     contains:
       - exe
       - clap
       - vst3
     format: zip
-    sha256: 483d957388e5655639a1a43092ce0f9677e512ee016186a3110909112d99b9f4
-    systems:
-      - type: win
-    size: 11473649
     type: archive
+    size: 11473649
+    sha256: 483d957388e5655639a1a43092ce0f9677e512ee016186a3110909112d99b9f4
     url: https://github.com/surge-synthesizer/monique-monosynth/releases/download/Nightly/MoniqueMonosynth-2024-08-07-df7d339-Windows-64bit.zip
-image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/surge-synthesizer/monique-monosynth/monique.jpg
-license: gpl-3.0
-name: Monique
-tags:
-  - Instrument
-  - Synth
-  - Bass
-  - Lead
-type: instrument
-url: https://github.com/surge-synthesizer/monique-monosynth
