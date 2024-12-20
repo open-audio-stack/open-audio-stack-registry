@@ -4,9 +4,9 @@ import {
   dirExists,
   fileCreate,
   fileExists,
+  fileJsonCreate,
   fileReadYaml,
   fileValidateMetadata,
-  logReport,
   packageRecommendations,
   PackageValidationRec,
   PackageVersionValidator,
@@ -19,6 +19,7 @@ import {
   ProjectFile,
 } from '@open-audio-stack/core';
 import path from 'path';
+import { getReport, updateReport } from './report.js';
 
 const DIR_DOWNLOADS: string = 'downloads';
 const filePath: string = process.argv[2];
@@ -37,7 +38,7 @@ const pkgFile: PluginInterface = fileReadYaml(filePath) as PluginInterface;
 // Package metadata validation
 const errors = PackageVersionValidator.safeParse(pkgFile).error?.issues;
 const recs: PackageValidationRec[] = packageRecommendations(pkgFile);
-logReport(`${pkgSlug} | ${pkgVersion} | ${filePath}`, errors, recs);
+updateReport(pkgSlug, pkgVersion, filePath, errors, recs);
 
 // Loop through files in yaml file
 for (const type in pkgFile.files) {
@@ -56,5 +57,7 @@ for (const type in pkgFile.files) {
 
   // Validate file vs package metadata and output errors
   const errorsFile = await fileValidateMetadata(fileLocalPath, file);
-  logReport(`${pkgSlug} | ${pkgVersion} | ${fileLocalPath}`, errorsFile);
+  updateReport(pkgSlug, pkgVersion, fileLocalPath, errorsFile);
 }
+
+fileJsonCreate(filePath.replace('src', 'out').replace('index.yaml', 'report.json'), getReport());

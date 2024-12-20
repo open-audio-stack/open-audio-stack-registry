@@ -3,7 +3,6 @@ import {
   dirRead,
   fileJsonCreate,
   fileReadYaml,
-  logReport,
   pathGetSlug,
   pathGetVersion,
   Config,
@@ -16,16 +15,10 @@ import {
   ProjectInterface,
   PackageVersionValidator,
 } from '@open-audio-stack/core';
+import { getReport, updateReport } from './report.js';
 
 const config: Config = new Config();
-const registry: Registry = new Registry({
-  name: 'Open Audio Registry',
-  plugins: {},
-  presets: {},
-  projects: {},
-  url: 'https://open-audio-stack.github.io/open-audio-stack-registry',
-  version: '1.0.0',
-});
+const registry: Registry = new Registry();
 
 export function generateConfig(dirRoot: string, items: any) {
   items.forEach((item: any) => {
@@ -47,16 +40,16 @@ export function generateYaml(pathIn: string, pathOut: string, pathType: string, 
 
     const errors = PackageVersionValidator.safeParse(pkgFile).error?.issues;
     const recs: PackageValidationRec[] = packageRecommendations(pkgFile);
-    logReport(`${pkgSlug} | ${pkgVersion} | ${filePath}`, errors, recs);
-    registry.packageVersionAdd(pkgSlug, type, pkgVersion, pkgFile);
+    updateReport(pkgSlug, pkgVersion, filePath, errors, recs);
+    registry.packageVersionAdd(type, pkgSlug, pkgVersion, pkgFile);
 
     dirCreate(`${pathOut}/${pathType}/${pkgSlug}/${pkgVersion}`);
     fileJsonCreate(`${pathOut}/${pathType}/${pkgSlug}/${pkgVersion}/index.json`, pkgFile);
-    fileJsonCreate(`${pathOut}/${pathType}/${pkgSlug}/index.json`, registry.package(pkgSlug, type));
+    fileJsonCreate(`${pathOut}/${pathType}/${pkgSlug}/index.json`, registry.package(type, pkgSlug));
 
     const pkgOrg: string = pkgSlug.split('/')[0];
     if (!packagesByOrg[pkgOrg]) packagesByOrg[pkgOrg] = {};
-    packagesByOrg[pkgOrg][pkgSlug] = registry.package(pkgSlug, type);
+    packagesByOrg[pkgOrg][pkgSlug] = registry.package(type, pkgSlug);
   });
   for (const orgId in packagesByOrg) {
     dirCreate(`${pathOut}/${pathType}/${orgId}`);
@@ -83,3 +76,4 @@ generateYaml('src', 'out', 'presets', RegistryType.Presets);
 generateYaml('src', 'out', 'projects', RegistryType.Projects);
 
 fileJsonCreate('out/index.json', registry.get());
+fileJsonCreate('out/report.json', getReport());
