@@ -1,0 +1,470 @@
+{
+  "wolf-plugins/wolf-spectrum": {
+    "1.0.0": {
+      "recs": [
+        {
+          "field": "architectures",
+          "rec": "should support arm64"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Mac"
+        }
+      ]
+    }
+  },
+  "utokusa/os-251": {
+    "1.2.1": {
+      "recs": [
+        {
+          "field": "architectures",
+          "rec": "should support arm64"
+        }
+      ]
+    }
+  },
+  "tote-bag-labs/valentine": {
+    "1.0.1": {
+      "recs": [
+        {
+          "field": "architectures",
+          "rec": "should support arm64"
+        }
+      ]
+    }
+  },
+  "tobanteaudio/modeq": {
+    "0.4.0": {
+      "recs": [
+        {
+          "field": "architectures",
+          "rec": "should support arm64"
+        }
+      ]
+    }
+  },
+  "thewavewarden/odin": {
+    "2.3.4": {
+      "recs": [
+        {
+          "field": "architectures",
+          "rec": "should support arm64"
+        }
+      ]
+    }
+  },
+  "surge-synthesizer/monique-monosynth": {
+    "1.2.0": {
+      "recs": [
+        {
+          "field": "architectures",
+          "rec": "should support arm64"
+        }
+      ]
+    }
+  },
+  "sdatkinson/neural-amp-modeler": {
+    "0.7.12": {
+      "recs": [
+        {
+          "field": "architectures",
+          "rec": "should support arm64"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Linux"
+        }
+      ]
+    }
+  },
+  "resonantdsp/swankyamp": {
+    "1.4.0": {
+      "recs": [
+        {
+          "field": "url",
+          "rec": "should point to GitHub"
+        },
+        {
+          "field": "url",
+          "rec": "should point to GitHub"
+        },
+        {
+          "field": "architectures",
+          "rec": "should support arm64"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Linux"
+        }
+      ]
+    }
+  },
+  "reales/opl": {
+    "2.4.0": {
+      "recs": [
+        {
+          "field": "url",
+          "rec": "should point to GitHub"
+        },
+        {
+          "field": "url",
+          "rec": "should point to GitHub"
+        },
+        {
+          "field": "url",
+          "rec": "should point to GitHub"
+        }
+      ]
+    }
+  },
+  "reales/ob-xd": {
+    "3.5.0": {
+      "recs": [
+        {
+          "field": "url",
+          "rec": "should point to GitHub"
+        },
+        {
+          "field": "url",
+          "rec": "should point to GitHub"
+        },
+        {
+          "field": "url",
+          "rec": "should point to GitHub"
+        },
+        {
+          "field": "architectures",
+          "rec": "should support arm64"
+        }
+      ]
+    }
+  },
+  "paynebc/tunefish": {
+    "4.2.0": {
+      "recs": [
+        {
+          "field": "url",
+          "rec": "should point to GitHub"
+        },
+        {
+          "field": "url",
+          "rec": "should point to GitHub"
+        },
+        {
+          "field": "url",
+          "rec": "should point to GitHub"
+        },
+        {
+          "field": "architectures",
+          "rec": "should support arm64"
+        }
+      ]
+    }
+  },
+  "mtytel/helm": {
+    "0.9.0": {
+      "recs": [
+        {
+          "field": "url",
+          "rec": "should point to GitHub"
+        },
+        {
+          "field": "url",
+          "rec": "should point to GitHub"
+        },
+        {
+          "field": "url",
+          "rec": "should point to GitHub"
+        },
+        {
+          "field": "architectures",
+          "rec": "should support arm64"
+        },
+        {
+          "field": "format",
+          "rec": "should support all Linux distributions, consider using AppImage or Tarball instead"
+        }
+      ]
+    }
+  },
+  "mikemorenodsp/ep-mk1": {
+    "2.4.0": {
+      "recs": [
+        {
+          "field": "architectures",
+          "rec": "should support arm64"
+        }
+      ]
+    }
+  },
+  "martineastwood/mverb": {
+    "1.0.0": {
+      "recs": [
+        {
+          "field": "url",
+          "rec": "should point to GitHub"
+        },
+        {
+          "field": "url",
+          "rec": "should point to GitHub"
+        },
+        {
+          "field": "url",
+          "rec": "should point to GitHub"
+        },
+        {
+          "field": "architectures",
+          "rec": "should support arm64"
+        }
+      ]
+    }
+  },
+  "keijiro/vst2413": {
+    "1.0.2": {
+      "recs": [
+        {
+          "field": "url",
+          "rec": "should point to GitHub"
+        },
+        {
+          "field": "url",
+          "rec": "should point to GitHub"
+        },
+        {
+          "field": "architectures",
+          "rec": "should support arm64"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Linux"
+        }
+      ]
+    }
+  },
+  "jpcima/opnplug": {
+    "1.0.2": {
+      "recs": [
+        {
+          "field": "format",
+          "rec": "should support all Linux distributions, consider using AppImage or Tarball instead"
+        }
+      ]
+    }
+  },
+  "jpcima/adlplug": {
+    "1.0.2": {
+      "recs": [
+        {
+          "field": "format",
+          "rec": "should support all Linux distributions, consider using AppImage or Tarball instead"
+        }
+      ]
+    }
+  },
+  "igorski/regrader": {
+    "1.0.5": {
+      "recs": [
+        {
+          "field": "architectures",
+          "rec": "should support arm64"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Linux"
+        }
+      ]
+    }
+  },
+  "igorski/fogpad": {
+    "1.0.3": {
+      "recs": [
+        {
+          "field": "architectures",
+          "rec": "should support arm64"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Linux"
+        }
+      ]
+    }
+  },
+  "guitarml/smartguitaramp": {
+    "1.3.0": {
+      "recs": [
+        {
+          "field": "architectures",
+          "rec": "should support arm64"
+        },
+        {
+          "field": "format",
+          "rec": "should support all Linux distributions, consider using AppImage or Tarball instead"
+        }
+      ]
+    }
+  },
+  "greatest-ape/octasine": {
+    "0.9.1": {
+      "recs": [
+        {
+          "field": "architectures",
+          "rec": "should support arm64"
+        }
+      ]
+    }
+  },
+  "falktx/carla": {
+    "2.5.9": {
+      "recs": [
+        {
+          "field": "systems",
+          "rec": "should support Linux"
+        }
+      ]
+    }
+  },
+  "clearly-broken-software/ninjas2": {
+    "0.2.0": {
+      "recs": [
+        {
+          "field": "architectures",
+          "rec": "should support arm64"
+        }
+      ]
+    }
+  },
+  "chowdhury-dsp/chowtapemodel": {
+    "2.11.4": {
+      "recs": [
+        {
+          "field": "architectures",
+          "rec": "should support arm64"
+        },
+        {
+          "field": "format",
+          "rec": "should support all Linux distributions, consider using AppImage or Tarball instead"
+        }
+      ]
+    }
+  },
+  "chowdhury-dsp/chowmatrix": {
+    "1.3.0": {
+      "recs": [
+        {
+          "field": "architectures",
+          "rec": "should support arm64"
+        },
+        {
+          "field": "format",
+          "rec": "should support all Linux distributions, consider using AppImage or Tarball instead"
+        }
+      ]
+    }
+  },
+  "birch-san/juicysfplugin": {
+    "3.1.0": {
+      "recs": [
+        {
+          "field": "architectures",
+          "rec": "should support arm64"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Linux"
+        }
+      ]
+    }
+  },
+  "audioplugins/iempluginsuite": {
+    "1.14.1": {
+      "recs": [
+        {
+          "field": "url",
+          "rec": "should point to GitHub"
+        },
+        {
+          "field": "url",
+          "rec": "should point to GitHub"
+        },
+        {
+          "field": "url",
+          "rec": "should point to GitHub"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Linux"
+        }
+      ]
+    }
+  },
+  "asb2m10/dexed": {
+    "0.9.8": {
+      "recs": [
+        {
+          "field": "architectures",
+          "rec": "should support arm64"
+        }
+      ]
+    }
+  },
+  "artfwo/andes": {
+    "0.2.0": {
+      "recs": [
+        {
+          "field": "architectures",
+          "rec": "should support arm64"
+        }
+      ]
+    }
+  },
+  "ardura/subhoofer": {
+    "2.2.2": {
+      "recs": [
+        {
+          "field": "architectures",
+          "rec": "should support arm64"
+        }
+      ]
+    }
+  },
+  "ardura/gladedesk": {
+    "1.0.0": {
+      "recs": [
+        {
+          "field": "architectures",
+          "rec": "should support arm64"
+        }
+      ]
+    }
+  },
+  "antonok-edm/ampli-fe": {
+    "0.1.1": {
+      "recs": [
+        {
+          "field": "architectures",
+          "rec": "should support arm64"
+        }
+      ]
+    }
+  },
+  "jh/floating-rhodes": {
+    "1.0.0": {
+      "recs": [
+        {
+          "field": "url",
+          "rec": "should point to GitHub"
+        }
+      ]
+    }
+  },
+  "kmt/banwer": {
+    "1.0.1": {
+      "recs": [
+        {
+          "field": "url",
+          "rec": "should point to GitHub"
+        }
+      ]
+    }
+  }
+}
