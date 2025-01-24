@@ -1,3 +1,24 @@
+<div align="center">
+	<h1>
+	<img src="https://avatars.githubusercontent.com/u/184897286?s=200&v=4" alt="Open Audio Stack Logo"><br>Open Audio Stack
+	</h1>
+	<p>Audio registry with searchable list of packages</p>
+	<p>
+		<a href="https://studiorack.github.io/studiorack-site">StudioRack Site</a>
+		⦁︎
+		<a href="https://github.com/open-audio-stack/open-audio-stack-core/wiki/Open-Audio-Stack-%E2%80%90-Registry-%E2%80%90-Specification-1.0.0">Registry Specification</a>
+		⦁︎
+        <a href=https://docs.google.com/document/d/1Txsx98QPjp8UXvbOE3bW5tFJ3cIzlBRtCPmClYcfepU/edit">Download Specification</a>
+		⦁︎
+		<a href="https://github.com/orgs/open-audio-stack/projects">Roadmap</a>
+	</p>
+	<p>
+		<a href="https://discord.com/invite/9D94f98PxP"><img src="https://img.shields.io/badge/chat-on%20discord-7289DA.svg" alt="Join the chat at Discord"></a>
+	</p>
+</div>
+
+
+
 # open-audio-stack-registry
 
 ![Test](https://github.com/open-audio-stack/open-audio-stack-registry/workflows/Test/badge.svg)
