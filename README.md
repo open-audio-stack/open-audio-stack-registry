@@ -13,6 +13,9 @@
 		<a href="https://github.com/orgs/open-audio-stack/projects">Roadmap</a>
 	</p>
 	<p>
+
+![Test](https://github.com/open-audio-stack/open-audio-stack-registry/workflows/Test/badge.svg)
+![Release](https://github.com/open-audio-stack/open-audio-stack-registry/workflows/Release/badge.svg)
 		<a href="https://discord.com/invite/9D94f98PxP"><img src="https://img.shields.io/badge/chat-on%20discord-7289DA.svg" alt="Join the chat at Discord"></a>
 	</p>
 </div>
@@ -20,9 +23,6 @@
 
 
 # open-audio-stack-registry
-
-![Test](https://github.com/open-audio-stack/open-audio-stack-registry/workflows/Test/badge.svg)
-![Release](https://github.com/open-audio-stack/open-audio-stack-registry/workflows/Release/badge.svg)
 
 Audio registry with searchable list of packages containing Plugins, Presets and Projects. Provides an API with file metadata and urls to binaries for installation.
 
