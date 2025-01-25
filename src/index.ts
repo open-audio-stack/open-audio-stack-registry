@@ -1,7 +1,7 @@
 import {
   dirCreate,
   dirRead,
-  fileJsonCreate,
+  fileCreateJson,
   fileReadYaml,
   pathGetSlug,
   pathGetVersion,
@@ -14,26 +14,34 @@ import {
   PresetInterface,
   ProjectInterface,
   PackageVersionValidator,
+  Package,
+  Manager,
 } from '@open-audio-stack/core';
 import { getReport, updateReport } from './report.js';
 
 const config: Config = new Config();
-const registry: Registry = new Registry();
+const registry: Registry = new Registry(
+  'Open Audio Registry',
+  'https://open-audio-stack.github.io/open-audio-stack-registry',
+  '1.0.0',
+);
 
 export function generateConfig(dirRoot: string, items: any) {
   items.forEach((item: any) => {
     const dirItem: string = `${dirRoot}/${item.value}`;
     dirCreate(dirItem);
-    fileJsonCreate(`${dirItem}/index.json`, item);
+    fileCreateJson(`${dirItem}/index.json`, item);
   });
-  fileJsonCreate(`${dirRoot}/index.json`, items);
+  fileCreateJson(`${dirRoot}/index.json`, items);
 }
 
-export function generateYaml(pathIn: string, pathOut: string, pathType: string, type: RegistryType) {
+export function generateYaml(pathIn: string, pathOut: string, type: RegistryType) {
+  const manager = new Manager(type);
+  registry.addManager(manager);
   const packagesByOrg: any = {};
-  const filePaths: string[] = dirRead(`${pathIn}/${pathType}/**/*.yaml`);
+  const filePaths: string[] = dirRead(`${pathIn}/${type}/**/*.yaml`);
   filePaths.forEach((filePath: string) => {
-    const subPath: string = filePath.replace(`${pathIn}/${pathType}/`, '');
+    const subPath: string = filePath.replace(`${pathIn}/${type}/`, '');
     const pkgSlug: string = pathGetSlug(subPath);
     const pkgVersion: string = pathGetVersion(subPath);
     const pkgFile = fileReadYaml(filePath) as PluginInterface | PresetInterface | ProjectInterface;
@@ -41,22 +49,25 @@ export function generateYaml(pathIn: string, pathOut: string, pathType: string, 
     const errors = PackageVersionValidator.safeParse(pkgFile).error?.issues;
     const recs: PackageValidationRec[] = packageRecommendations(pkgFile);
     updateReport(pkgSlug, pkgVersion, filePath, errors, recs);
-    registry.packageVersionAdd(type, pkgSlug, pkgVersion, pkgFile);
 
-    dirCreate(`${pathOut}/${pathType}/${pkgSlug}/${pkgVersion}`);
-    fileJsonCreate(`${pathOut}/${pathType}/${pkgSlug}/${pkgVersion}/index.json`, pkgFile);
-    fileJsonCreate(`${pathOut}/${pathType}/${pkgSlug}/index.json`, registry.package(type, pkgSlug));
+    const pkg = new Package(pkgSlug);
+    pkg.addVersion(pkgVersion, pkgFile);
+    manager.addPackage(pkg);
+
+    dirCreate(`${pathOut}/${type}/${pkgSlug}/${pkgVersion}`);
+    fileCreateJson(`${pathOut}/${type}/${pkgSlug}/${pkgVersion}/index.json`, pkgFile);
+    fileCreateJson(`${pathOut}/${type}/${pkgSlug}/index.json`, pkg.toJSON());
 
     const pkgOrg: string = pkgSlug.split('/')[0];
     if (!packagesByOrg[pkgOrg]) packagesByOrg[pkgOrg] = {};
-    packagesByOrg[pkgOrg][pkgSlug] = registry.package(type, pkgSlug);
+    packagesByOrg[pkgOrg][pkgSlug] = pkg.toJSON();
   });
   for (const orgId in packagesByOrg) {
-    dirCreate(`${pathOut}/${pathType}/${orgId}`);
-    fileJsonCreate(`${pathOut}/${pathType}/${orgId}/index.json`, packagesByOrg[orgId]);
+    dirCreate(`${pathOut}/${type}/${orgId}`);
+    fileCreateJson(`${pathOut}/${type}/${orgId}/index.json`, packagesByOrg[orgId]);
   }
-  dirCreate(`${pathOut}/${pathType}`);
-  fileJsonCreate(`${pathOut}/${pathType}/index.json`, registry.packages(type));
+  dirCreate(`${pathOut}/${type}`);
+  fileCreateJson(`${pathOut}/${type}/index.json`, manager.toJSON());
 }
 
 generateConfig('out/config/architectures', config.architectures());
@@ -71,9 +82,9 @@ generateConfig('out/config/project-formats', config.projectFormats());
 generateConfig('out/config/project-types', config.projectTypes());
 generateConfig('out/config/systems', config.systems());
 
-generateYaml('src', 'out', 'plugins', RegistryType.Plugins);
-generateYaml('src', 'out', 'presets', RegistryType.Presets);
-generateYaml('src', 'out', 'projects', RegistryType.Projects);
+generateYaml('src', 'out', RegistryType.Plugins);
+generateYaml('src', 'out', RegistryType.Presets);
+generateYaml('src', 'out', RegistryType.Projects);
 
-fileJsonCreate('out/index.json', registry.get());
-fileJsonCreate('out/report.json', getReport());
+fileCreateJson('out/index.json', registry.toJSON());
+fileCreateJson('out/report.json', getReport());
