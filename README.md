@@ -1,6 +1,6 @@
 <div align="center">
 <h1>
-  <img src="https://avatars.githubusercontent.com/u/184897286?s=200&v=4" alt="Open Audio Stack Logo"><br />
+  <img src="https://raw.githubusercontent.com/open-audio-stack/open-audio-stack-registry/refs/heads/main/src/assets/open-audio-stack-logo.svg" alt="Open Audio Stack Logo"><br />
   Open Audio Stack
 </h1>
 <p>Audio registry specification and API with searchable list of packages</p>
