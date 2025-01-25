@@ -15,9 +15,9 @@
 
 ![Test](https://github.com/open-audio-stack/open-audio-stack-registry/workflows/Test/badge.svg)
 ![Release](https://github.com/open-audio-stack/open-audio-stack-registry/workflows/Release/badge.svg)
-<a href="https://discord.com/invite/9D94f98PxP"><img src="https://img.shields.io/badge/chat-on%20discord-7289DA.svg" alt="Join the chat at Discord"></a>
+<a href="https://discord.com/invite/9D94f98PxP" target="_blank"><img src="https://img.shields.io/badge/chat-on%20discord-7289DA.svg" alt="Join the chat at Discord"></a>
 
-![Open Audio Stack - Registry - Specification 1.0.0](https://github.com/open-audio-stack/open-audio-stack-registry/blob/main/src/assets/Open%20Audio%20Stack%20-%20Registry%20-%20Specification%201.0.0.svg)
+![Open Audio Stack - Registry - Specification 1.0.0](/src/assets/open-audio-stack-diagram.svg)
 
 </div>
 
@@ -81,6 +81,18 @@ Validate your changes locally by running these command:
 Ensure you provide the path to the yaml file you changed.
 
 After validation passes, push your branch to GitHub to have the automated GitHub Action run additional checks and return any issues with your changes.
+
+## Badges
+
+If your project utilizes the Open Stack Audio specification or API, we encourage linking back to this project using a badge:
+
+```
+<a href="https://github.com/open-audio-stack" target="_blank"><img src="https://raw.githubusercontent.com/open-audio-stack/open-audio-stack-registry/refs/heads/main/src/assets/powered-by-open-audio-stack.svg" alt="Powered by Open Audio Stack"></a>
+```
+
+Example:
+
+<a href="https://github.com/open-audio-stack" target="_blank"><img src="https://raw.githubusercontent.com/open-audio-stack/open-audio-stack-registry/refs/heads/main/src/assets/powered-by-open-audio-stack.svg" alt="Powered by Open Audio Stack"></a>
 
 ## Developer information
 
