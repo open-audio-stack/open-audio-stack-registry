@@ -3,8 +3,8 @@ import {
   dirCreate,
   dirExists,
   fileCreate,
+  fileCreateJson,
   fileExists,
-  fileJsonCreate,
   fileReadYaml,
   fileValidateMetadata,
   packageRecommendations,
@@ -60,4 +60,4 @@ for (const type in pkgFile.files) {
   updateReport(pkgSlug, pkgVersion, fileLocalPath, errorsFile);
 }
 
-fileJsonCreate(filePath.replace('src', 'out').replace('index.yaml', 'report.json'), getReport());
+fileCreateJson(filePath.replace('src', 'out').replace('index.yaml', 'report.json'), getReport());
