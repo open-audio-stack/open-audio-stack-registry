@@ -54,20 +54,13 @@ Create yaml files for each version of the package using [Semantic Versioning](ht
 
 Semantic versioning allows a compatible installer to install the latest non-breaking version of a package.
 
-Use the below template yaml files as a starting point. Open Audio Stack Registry validates each package's metadata,
-if you miss or enter incorrect information, your package will not be included in the registry.
+Open Audio Stack Registry validates each package's metadata, if you miss or enter incorrect information, your package will not be included in the registry. Use an existing yaml file as a starting point:
 
-Plugin example:
+- Plugin: [src/plugins/surge-synthesizer/surge/1.3.4/index.yaml](hhttps://github.com/open-audio-stack/open-audio-stack-registry/blob/main/src/plugins/surge-synthesizer/surge/1.3.4/index.yaml)
 
-    src/plugins/surge-synthesizer/surge/1.3.4/index.yaml
+- Preset: [src/presets/jh/floating-rhodes/1.0.0/index.yaml](https://github.com/open-audio-stack/open-audio-stack-registry/blob/main/src/presets/jh/floating-rhodes/1.0.0/index.yaml)
 
-Preset example:
-
-    src/presets/jh/floating-rhodes/1.0.0/index.yaml
-
-Project example:
-
-    src/projects/kmt/banwer/1.0.1/index.yaml
+- Project: [src/projects/kmt/banwer/1.0.1/index.yaml](https://github.com/open-audio-stack/open-audio-stack-registry/blob/main/src/projects/kmt/banwer/1.0.1/index.yaml)
 
 For file downloads, we recommend `.zip` files which are cross-platform and can be extracted automatically and placed into the correct locations without user interaction.
 
