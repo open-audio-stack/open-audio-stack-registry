@@ -1,5 +1,7 @@
 {
   "name": "Open Audio Registry",
+  "url": "https://open-audio-stack.github.io/open-audio-stack-registry",
+  "version": "1.0.0",
   "plugins": {
     "wolf-plugins/wolf-spectrum": {
       "slug": "wolf-plugins/wolf-spectrum",
@@ -4955,7 +4957,5 @@
         }
       }
     }
-  },
-  "url": "https://open-audio-stack.github.io/open-audio-stack-registry",
-  "version": "1.0.0"
+  }
 }

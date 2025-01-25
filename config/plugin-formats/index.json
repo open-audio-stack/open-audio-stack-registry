@@ -35,14 +35,14 @@
     "name": "MacOS Standalone"
   },
   {
-    "description": "Widely used format for sound samples in musical instruments.",
-    "value": "sf2",
-    "name": "SoundFont 2"
-  },
-  {
     "description": "An open standard for defining instrument patches and sound samples.",
     "value": "sfz",
     "name": "SFZ"
+  },
+  {
+    "description": "Widely used format for sound samples in musical instruments.",
+    "value": "sf2",
+    "name": "SoundFont 2"
   },
   {
     "description": "Legacy plugin format used in early Pro Tools systems.",
