@@ -56,7 +56,7 @@ Semantic versioning allows a compatible installer to install the latest non-brea
 
 Open Audio Stack Registry validates each package's metadata, if you miss or enter incorrect information, your package will not be included in the registry. Use an existing yaml file as a starting point:
 
-- Plugin: [src/plugins/surge-synthesizer/surge/1.3.4/index.yaml](hhttps://github.com/open-audio-stack/open-audio-stack-registry/blob/main/src/plugins/surge-synthesizer/surge/1.3.4/index.yaml)
+- Plugin: [src/plugins/surge-synthesizer/surge/1.3.4/index.yaml](https://github.com/open-audio-stack/open-audio-stack-registry/blob/main/src/plugins/surge-synthesizer/surge/1.3.4/index.yaml)
 
 - Preset: [src/presets/jh/floating-rhodes/1.0.0/index.yaml](https://github.com/open-audio-stack/open-audio-stack-registry/blob/main/src/presets/jh/floating-rhodes/1.0.0/index.yaml)
 
