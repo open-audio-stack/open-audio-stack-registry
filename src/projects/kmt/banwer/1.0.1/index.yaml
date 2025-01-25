@@ -1,5 +1,3 @@
-plugins:
-  surge-synth/surge: 1.3.1
 name: Banwer
 author: KMT
 description: Song idea using synthesizers.
@@ -32,3 +30,5 @@ files:
     size: 216863
     sha256: 77e2d542235889b027f2ecbe66b753978a5232fabac9c97151a86173048e2eaf
     url: https://open-audio-stack.github.io/open-audio-stack-registry/projects/kmt/banwer/1.0.1/banwer.zip
+plugins:
+  surge-synth/surge: 1.3.1
