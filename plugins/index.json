@@ -1281,6 +1281,7 @@
           "Instrument",
           "Steel",
           "Drum",
+          "Orchestra",
           "sfz"
         ],
         "url": "https://github.com/sfzinstruments/jlearman.SteelDrum",
@@ -2449,6 +2450,7 @@
           "Instrument",
           "Wind",
           "Harmonica",
+          "Orchestra",
           "sfz"
         ],
         "url": "https://github.com/michael02022/basic-harmonica",
@@ -4709,7 +4711,7 @@
         "author": "Chris Johnson",
         "description": "Huge collection of effects using simple UI controls.",
         "license": "mit",
-        "type": "sampler",
+        "type": "effect",
         "tags": [
           "Effect",
           "Chorus",
