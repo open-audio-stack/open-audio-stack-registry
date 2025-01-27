@@ -8,8 +8,8 @@ tags:
   - Emulation
   - Noise Gate
 url: https://github.com/sdatkinson/NeuralAmpModelerPlugin
-audio: https://open-audio-stack.github.io/open-audio-stack-registry/src/plugins/sdatkinson/neural-amp-modeler/neuralampmodeler.flac
-image: https://open-audio-stack.github.io/open-audio-stack-registry/src/plugins/sdatkinson/neural-amp-modeler/neuralampmodeler.jpg
+audio: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sdatkinson/neural-amp-modeler/neuralampmodeler.flac
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sdatkinson/neural-amp-modeler/neuralampmodeler.jpg
 date: '2024-12-02T07:00:00.000Z'
 changes: |
   - Refactor settings page with IContainerBaseWithNamedChildren

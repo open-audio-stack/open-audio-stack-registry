@@ -10,8 +10,8 @@
     "Noise Gate"
   ],
   "url": "https://github.com/sdatkinson/NeuralAmpModelerPlugin",
-  "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/src/plugins/sdatkinson/neural-amp-modeler/neuralampmodeler.flac",
-  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/src/plugins/sdatkinson/neural-amp-modeler/neuralampmodeler.jpg",
+  "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sdatkinson/neural-amp-modeler/neuralampmodeler.flac",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sdatkinson/neural-amp-modeler/neuralampmodeler.jpg",
   "date": "2024-12-02T07:00:00.000Z",
   "changes": "- Refactor settings page with IContainerBaseWithNamedChildren\n- Display model sample rate on settings page\n- Rearrange about info\n- Input level calibration\n- Output calibration\n- Backward-compatible unserialization to v0.7.3\n- Add tooltip for output mode\n",
   "files": [
