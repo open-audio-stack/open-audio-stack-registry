@@ -60,4 +60,6 @@ for (const type in pkgFile.files) {
   updateReport(pkgSlug, pkgVersion, fileLocalPath, errorsFile);
 }
 
-fileCreateJson(filePath.replace('src', 'out').replace('index.yaml', 'report.json'), getReport());
+const reportPath: string = filePath.replace('src', 'out').replace('index.yaml', 'report.json');
+dirCreate(path.dirname(reportPath));
+fileCreateJson(reportPath, getReport());
