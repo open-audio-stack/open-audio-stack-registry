@@ -30,11 +30,11 @@
         "lv2",
         "vst3"
       ],
-      "format": "zip",
-      "type": "archive",
-      "size": 97294804,
-      "sha256": "dd431b75f5fa197c4bffa6ca27ca46970f0a94c834119bb1db7decdeec4c28db",
-      "url": "https://github.com/surge-synthesizer/releases-xt/releases/download/1.3.4/surge-xt-linux-1.3.4-pluginsonly.tar.gz"
+      "format": "deb",
+      "type": "installer",
+      "size": 223339140,
+      "sha256": "a6e55064487f624147d515b9ae5fc79a568b69746675b2083abde628ca7bb151",
+      "url": "https://github.com/surge-synthesizer/releases-xt/releases/download/1.3.4/surge-xt-linux-x64-1.3.4.deb"
     },
     {
       "systems": [
@@ -52,11 +52,11 @@
         "component",
         "vst3"
       ],
-      "format": "zip",
-      "type": "archive",
-      "size": 186958216,
-      "sha256": "37d8d809693adc86587b7bc75a2384fc4e905f259aa9b9a21777749d36fbf8aa",
-      "url": "https://github.com/surge-synthesizer/releases-xt/releases/download/1.3.4/surge-xt-macos-1.3.4-pluginsonly.zip"
+      "format": "dmg",
+      "type": "installer",
+      "size": 416715686,
+      "sha256": "b56e8d51a8dc2382ae668c9ff4e96bae38dbd452af4e584d5a5ef50ab2d09b07",
+      "url": "https://github.com/surge-synthesizer/releases-xt/releases/download/1.3.4/surge-xt-macOS-1.3.4.dmg"
     },
     {
       "systems": [
@@ -72,11 +72,11 @@
         "clap",
         "vst3"
       ],
-      "format": "zip",
-      "type": "archive",
-      "size": 49093875,
-      "sha256": "564e162c560af07ad4ed47fe1bfcd827cf97a575de30d06c48249aad2e7c35e6",
-      "url": "https://github.com/surge-synthesizer/releases-xt/releases/download/1.3.4/surge-xt-win64-1.3.4-pluginsonly.zip"
+      "format": "exe",
+      "type": "installer",
+      "size": 180883859,
+      "sha256": "6fe3fb20ef21672666dddb816ad73f2966e98b70edad9189183451a255c2b2d1",
+      "url": "https://github.com/surge-synthesizer/releases-xt/releases/download/1.3.4/surge-xt-win32-1.3.4-setup.exe"
     }
   ]
 }

@@ -53,6 +53,24 @@
       ]
     }
   },
+  "surge-synthesizer/surge": {
+    "1.3.4": {
+      "recs": [
+        {
+          "field": "format",
+          "rec": "should support all Linux distributions, consider using AppImage or Tarball instead"
+        }
+      ]
+    },
+    "1.3.1": {
+      "recs": [
+        {
+          "field": "format",
+          "rec": "should support all Linux distributions, consider using AppImage or Tarball instead"
+        }
+      ]
+    }
+  },
   "surge-synthesizer/monique-monosynth": {
     "1.2.0": {
       "recs": [
