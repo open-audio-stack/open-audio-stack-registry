@@ -549,6 +549,27 @@
           {
             "systems": [
               {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "elf",
+              "clap",
+              "lv2",
+              "vst3"
+            ],
+            "format": "rpm",
+            "type": "installer",
+            "size": 349080230,
+            "sha256": "aa57df9b79735db392b147e5ca6a9db7e9e9e5ba2907717aa055c501f3f59659",
+            "url": "https://github.com/surge-synthesizer/releases-xt/releases/download/1.3.4/surge-xt-x86_64-1.3.4.rpm"
+          },
+          {
+            "systems": [
+              {
                 "type": "mac"
               }
             ],
@@ -575,6 +596,25 @@
               }
             ],
             "architectures": [
+              "x32"
+            ],
+            "contains": [
+              "exe",
+              "vst3"
+            ],
+            "format": "exe",
+            "type": "installer",
+            "size": 180883859,
+            "sha256": "6fe3fb20ef21672666dddb816ad73f2966e98b70edad9189183451a255c2b2d1",
+            "url": "https://github.com/surge-synthesizer/releases-xt/releases/download/1.3.4/surge-xt-win32-1.3.4-setup.exe"
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
               "x64"
             ],
             "contains": [
@@ -584,9 +624,9 @@
             ],
             "format": "exe",
             "type": "installer",
-            "size": 180883859,
-            "sha256": "6fe3fb20ef21672666dddb816ad73f2966e98b70edad9189183451a255c2b2d1",
-            "url": "https://github.com/surge-synthesizer/releases-xt/releases/download/1.3.4/surge-xt-win32-1.3.4-setup.exe"
+            "size": 183385478,
+            "sha256": "6e221e05f29254508142b9e0ed76a85f22fa1b512501bebde571951e7eefecca",
+            "url": "https://github.com/surge-synthesizer/releases-xt/releases/download/1.3.4/surge-xt-win64-1.3.4-setup.exe"
           }
         ]
       },
@@ -631,6 +671,27 @@
           {
             "systems": [
               {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "elf",
+              "clap",
+              "lv2",
+              "vst3"
+            ],
+            "format": "rpm",
+            "type": "installer",
+            "size": 346260010,
+            "sha256": "135e9b8d3e71ab4dd502eee464b99f82c733be2ae23e8fca3724773dee3d54e8",
+            "url": "https://github.com/surge-synthesizer/releases-xt/releases/download/1.3.1/surge-xt-x86_64-1.3.1.rpm"
+          },
+          {
+            "systems": [
+              {
                 "type": "mac"
               }
             ],
@@ -657,6 +718,25 @@
               }
             ],
             "architectures": [
+              "x32"
+            ],
+            "contains": [
+              "exe",
+              "vst3"
+            ],
+            "format": "exe",
+            "type": "installer",
+            "size": 180270273,
+            "sha256": "3d766adb0d04b86f7aca8c136bc4c7b0727d316ec10895f679f1c01b0c236a00",
+            "url": "https://github.com/surge-synthesizer/releases-xt/releases/download/1.3.1/surge-xt-win32-1.3.1-setup.exe"
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
               "x64"
             ],
             "contains": [
@@ -666,9 +746,9 @@
             ],
             "format": "exe",
             "type": "installer",
-            "size": 180270273,
-            "sha256": "3d766adb0d04b86f7aca8c136bc4c7b0727d316ec10895f679f1c01b0c236a00",
-            "url": "https://github.com/surge-synthesizer/releases-xt/releases/download/1.3.1/surge-xt-win32-1.3.1-setup.exe"
+            "size": 182890274,
+            "sha256": "2bac9c87c3e4293ecc4110087f5bb90a5218427921613409b84673f513f02bd3",
+            "url": "https://github.com/surge-synthesizer/releases-xt/releases/download/1.3.1/surge-xt-win64-1.3.1-setup.exe"
           }
         ]
       }

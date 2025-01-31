@@ -17,6 +17,10 @@
     "1.2.1": {
       "recs": [
         {
+          "field": "format",
+          "rec": "should match url field"
+        },
+        {
           "field": "architectures",
           "rec": "should support arm64"
         }
@@ -26,6 +30,10 @@
   "tote-bag-labs/valentine": {
     "1.0.1": {
       "recs": [
+        {
+          "field": "format",
+          "rec": "requires mounting step, consider .pkg instead"
+        },
         {
           "field": "architectures",
           "rec": "should support arm64"
@@ -47,6 +55,10 @@
     "2.3.4": {
       "recs": [
         {
+          "field": "format",
+          "rec": "should match url field"
+        },
+        {
           "field": "architectures",
           "rec": "should support arm64"
         }
@@ -58,7 +70,7 @@
       "recs": [
         {
           "field": "format",
-          "rec": "should support all Linux distributions, consider using AppImage or Tarball instead"
+          "rec": "requires mounting step, consider .pkg instead"
         }
       ]
     },
@@ -66,7 +78,7 @@
       "recs": [
         {
           "field": "format",
-          "rec": "should support all Linux distributions, consider using AppImage or Tarball instead"
+          "rec": "requires mounting step, consider .pkg instead"
         }
       ]
     }
@@ -75,8 +87,30 @@
     "1.2.0": {
       "recs": [
         {
+          "field": "format",
+          "rec": "requires mounting step, consider .pkg instead"
+        },
+        {
           "field": "architectures",
           "rec": "should support arm64"
+        }
+      ]
+    }
+  },
+  "sfztools/sfizz": {
+    "1.2.3": {
+      "recs": [
+        {
+          "field": "type",
+          "rec": "should match format field"
+        },
+        {
+          "field": "format",
+          "rec": "should match url field"
+        },
+        {
+          "field": "type",
+          "rec": "should match format field"
         }
       ]
     }
@@ -84,6 +118,14 @@
   "sdatkinson/neural-amp-modeler": {
     "0.7.12": {
       "recs": [
+        {
+          "field": "format",
+          "rec": "requires mounting step, consider .pkg instead"
+        },
+        {
+          "field": "type",
+          "rec": "should match format field"
+        },
         {
           "field": "architectures",
           "rec": "should support arm64"
@@ -103,8 +145,20 @@
           "rec": "should point to GitHub"
         },
         {
+          "field": "format",
+          "rec": "should match url field"
+        },
+        {
           "field": "url",
           "rec": "should point to GitHub"
+        },
+        {
+          "field": "format",
+          "rec": "should match url field"
+        },
+        {
+          "field": "type",
+          "rec": "should match format field"
         },
         {
           "field": "architectures",
@@ -125,12 +179,28 @@
           "rec": "should point to GitHub"
         },
         {
-          "field": "url",
-          "rec": "should point to GitHub"
+          "field": "format",
+          "rec": "should match url field"
         },
         {
           "field": "url",
           "rec": "should point to GitHub"
+        },
+        {
+          "field": "format",
+          "rec": "should match url field"
+        },
+        {
+          "field": "url",
+          "rec": "should point to GitHub"
+        },
+        {
+          "field": "format",
+          "rec": "should match url field"
+        },
+        {
+          "field": "type",
+          "rec": "should match format field"
         }
       ]
     }
@@ -143,12 +213,28 @@
           "rec": "should point to GitHub"
         },
         {
-          "field": "url",
-          "rec": "should point to GitHub"
+          "field": "format",
+          "rec": "should match url field"
         },
         {
           "field": "url",
           "rec": "should point to GitHub"
+        },
+        {
+          "field": "format",
+          "rec": "should match url field"
+        },
+        {
+          "field": "url",
+          "rec": "should point to GitHub"
+        },
+        {
+          "field": "format",
+          "rec": "should match url field"
+        },
+        {
+          "field": "type",
+          "rec": "should match format field"
         },
         {
           "field": "architectures",
@@ -197,10 +283,6 @@
         {
           "field": "architectures",
           "rec": "should support arm64"
-        },
-        {
-          "field": "format",
-          "rec": "should support all Linux distributions, consider using AppImage or Tarball instead"
         }
       ]
     }
@@ -209,8 +291,38 @@
     "2.4.0": {
       "recs": [
         {
+          "field": "format",
+          "rec": "should match url field"
+        },
+        {
+          "field": "format",
+          "rec": "requires mounting step, consider .pkg instead"
+        },
+        {
+          "field": "format",
+          "rec": "should match url field"
+        },
+        {
           "field": "architectures",
           "rec": "should support arm64"
+        }
+      ]
+    }
+  },
+  "michaelwillis/dragonfly-reverb": {
+    "3.2.10": {
+      "recs": [
+        {
+          "field": "format",
+          "rec": "should match url field"
+        },
+        {
+          "field": "format",
+          "rec": "should match url field"
+        },
+        {
+          "field": "format",
+          "rec": "requires mounting step, consider .pkg instead"
         }
       ]
     }
@@ -259,26 +371,6 @@
       ]
     }
   },
-  "jpcima/opnplug": {
-    "1.0.2": {
-      "recs": [
-        {
-          "field": "format",
-          "rec": "should support all Linux distributions, consider using AppImage or Tarball instead"
-        }
-      ]
-    }
-  },
-  "jpcima/adlplug": {
-    "1.0.2": {
-      "recs": [
-        {
-          "field": "format",
-          "rec": "should support all Linux distributions, consider using AppImage or Tarball instead"
-        }
-      ]
-    }
-  },
   "igorski/regrader": {
     "1.0.5": {
       "recs": [
@@ -311,12 +403,12 @@
     "1.3.0": {
       "recs": [
         {
-          "field": "architectures",
-          "rec": "should support arm64"
+          "field": "format",
+          "rec": "requires mounting step, consider .pkg instead"
         },
         {
-          "field": "format",
-          "rec": "should support all Linux distributions, consider using AppImage or Tarball instead"
+          "field": "architectures",
+          "rec": "should support arm64"
         }
       ]
     }
@@ -335,8 +427,30 @@
     "2.5.9": {
       "recs": [
         {
+          "field": "format",
+          "rec": "should match url field"
+        },
+        {
           "field": "systems",
           "rec": "should support Linux"
+        }
+      ]
+    }
+  },
+  "distrho/dpf-plugins": {
+    "1.7.0": {
+      "recs": [
+        {
+          "field": "format",
+          "rec": "should match url field"
+        },
+        {
+          "field": "format",
+          "rec": "should match url field"
+        },
+        {
+          "field": "format",
+          "rec": "requires mounting step, consider .pkg instead"
         }
       ]
     }
@@ -355,12 +469,12 @@
     "2.11.4": {
       "recs": [
         {
-          "field": "architectures",
-          "rec": "should support arm64"
+          "field": "format",
+          "rec": "should match url field"
         },
         {
-          "field": "format",
-          "rec": "should support all Linux distributions, consider using AppImage or Tarball instead"
+          "field": "architectures",
+          "rec": "should support arm64"
         }
       ]
     }
@@ -369,12 +483,12 @@
     "1.3.0": {
       "recs": [
         {
-          "field": "architectures",
-          "rec": "should support arm64"
+          "field": "format",
+          "rec": "should match url field"
         },
         {
-          "field": "format",
-          "rec": "should support all Linux distributions, consider using AppImage or Tarball instead"
+          "field": "architectures",
+          "rec": "should support arm64"
         }
       ]
     }
@@ -382,6 +496,10 @@
   "birch-san/juicysfplugin": {
     "3.1.0": {
       "recs": [
+        {
+          "field": "format",
+          "rec": "should match url field"
+        },
         {
           "field": "architectures",
           "rec": "should support arm64"
