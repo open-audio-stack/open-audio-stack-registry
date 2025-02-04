@@ -13,8 +13,9 @@
     "build"
   ],
   "scripts": {
-    "copy": "cp -rf ./src/plugins ./out && cp -rf ./src/presets ./out && cp -rf ./src/projects ./out",
     "build": "tsc -p tsconfig.json",
+    "check": "npm run format && npm run lint && npm run build",
+    "copy": "cp -rf ./src/plugins ./out && cp -rf ./src/presets ./out && cp -rf ./src/projects ./out",
     "dev": "tsx ./src/index.ts",
     "dev:reorder": "tsx ./src/reorder.ts",
     "dev:validate": "tsx ./src/validate.ts",
@@ -58,7 +59,7 @@
     "vitest": "^2.1.4"
   },
   "dependencies": {
-    "@open-audio-stack/core": "^0.1.6",
+    "@open-audio-stack/core": "^0.1.10",
     "chalk": "^5.3.0",
     "js-yaml": "^4.1.0"
   },
