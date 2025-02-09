@@ -1,0 +1,48 @@
+name: Key Repeat
+author: Midilab
+description: A lightweight beat repeat sampler.
+license: gpl-3.0
+type: sampler
+tags:
+  - Instrument
+  - Samplers
+  - Repeat
+url: https://github.com/michael-jan/key-repeat
+audio: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/michael-jan/key-repeat/key-repeat.flac
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/michael-jan/key-repeat/key-repeat.jpg
+date: '2020-01-07T07:00:00.000Z'
+changes: Key Repeat's first release! Available on Windows (VST3) and macOS (VST3 or AU).
+files:
+  - systems:
+      - type: mac
+    architectures:
+      - x64
+    contains:
+      - component
+    format: zip
+    type: archive
+    size: 1387213
+    sha256: a47e0ff24de8dc527bd9dec5f073306bdafb40f4d402ea49748dc9c83b321713
+    url: https://github.com/michael-jan/key-repeat/releases/download/v1.0.0/Key-Repeat-1.0.0-macOS-AU.zip
+  - systems:
+      - type: mac
+    architectures:
+      - x64
+    contains:
+      - vst3
+    format: zip
+    type: archive
+    size: 1376064
+    sha256: 448ba023b89529cea58fa70fe078223ecfb3085677850f59d5e12fea18e911c1
+    url: https://github.com/michael-jan/key-repeat/releases/download/v1.0.0/Key-Repeat-1.0.0-macOS-VST3.zip
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - vst3
+    format: zip
+    type: archive
+    size: 1933137
+    sha256: 83035dc5c0ab471d5e51fe78a00c672a6d70d72d931c72a8f10b0025b46e7b71
+    url: https://github.com/michael-jan/key-repeat/releases/download/v1.0.0/Key-Repeat-1.0.0-Windows-VST3.zip
