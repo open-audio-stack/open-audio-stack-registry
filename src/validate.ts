@@ -60,6 +60,18 @@ for (const type in pkgFile.files) {
   updateReport(pkgSlug, pkgVersion, fileLocalPath, errorsFile);
 }
 
+// Ensure image and audio files exist locally in registry
+const audioPathLocal: string = pkgFile.audio.replace(
+  'https://open-audio-stack.github.io/open-audio-stack-registry/',
+  'src/',
+);
+const imagePathLocal: string = pkgFile.image.replace(
+  'https://open-audio-stack.github.io/open-audio-stack-registry/',
+  'src/',
+);
+if (!fileExists(audioPathLocal)) console.log(`- File does not exist locally: ${audioPathLocal}`);
+if (!fileExists(imagePathLocal)) console.log(`- File does not exist locally: ${imagePathLocal}`);
+
 const reportPath: string = filePath.replace('src', 'out').replace('index.yaml', 'report.json');
 dirCreate(path.dirname(reportPath));
 fileCreateJson(reportPath, getReport());
