@@ -1,0 +1,64 @@
+{
+  "slug": "the-synister/synister",
+  "version": "1.0.3",
+  "versions": {
+    "1.0.3": {
+      "name": "Synister",
+      "author": "TU Berlin",
+      "description": "A substractive software synthesizer.",
+      "license": "gpl-3.0",
+      "type": "instrument",
+      "tags": [
+        "Instrument",
+        "Synth",
+        "Modulation"
+      ],
+      "url": "https://github.com/the-synister/the-source",
+      "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/the-synister/synister/synister.flac",
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/the-synister/synister/synister.jpg",
+      "date": "2016-03-19T08:00:00.000Z",
+      "changes": "This is the first public release of Synister, a synthesizer by students of the TU Berlin.",
+      "files": [
+        {
+          "systems": [
+            {
+              "type": "mac"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "app",
+            "vst"
+          ],
+          "format": "zip",
+          "type": "archive",
+          "size": 6048066,
+          "sha256": "10ae7585d5b62e5c553635f48124251e7b61331fb69ea525dd41ee03da6d5009",
+          "url": "https://github.com/the-synister/the-source/releases/download/v1.0.3/synister-Mac-1.0.3.zip"
+        },
+        {
+          "systems": [
+            {
+              "type": "win"
+            }
+          ],
+          "architectures": [
+            "x32",
+            "x64"
+          ],
+          "contains": [
+            "exe",
+            "dll"
+          ],
+          "format": "exe",
+          "type": "installer",
+          "size": 5482634,
+          "sha256": "1298630e1343030dd884ad19e72f42301b51979bf721b240e26ff0de027bd789",
+          "url": "https://github.com/the-synister/the-source/releases/download/v1.0.3/synister-Win-1.0.3.exe"
+        }
+      ]
+    }
+  }
+}

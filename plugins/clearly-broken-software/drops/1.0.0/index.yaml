@@ -1,0 +1,30 @@
+name: Drops
+author: Clearly Broken
+description: Drops is a single audio file sample player. Load an audio file, play it, loop it, pitch shift it, and make it into something entirely new.
+license: gpl-3.0
+type: instrument
+tags:
+  - Instrument
+  - Sampler
+  - Filter
+url: https://github.com/clearly-broken-software/drops
+audio: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/clearly-broken-software/drops/drops.flac
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/clearly-broken-software/drops/drops.jpg
+date: '2022-01-15T07:00:00.000Z'
+changes: |
+  - Add No Pitch option
+  - Update sfizz to 1.1.1
+  - Fix no sound at buffersize 2048 and higher
+files:
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - lv2
+      - so
+    format: zip
+    type: archive
+    size: 4131243
+    sha256: 0cb3d4dfed087d68ad59c261d2440bd199e97a2803d4229d3614bf748abd1d4b
+    url: https://github.com/clearly-broken-software/drops/releases/download/v1.0-beta.2/drops_binaries.zip

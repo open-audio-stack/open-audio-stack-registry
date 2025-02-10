@@ -1,0 +1,43 @@
+{
+  "slug": "pentagrampro/owlbass",
+  "version": "1.0.0",
+  "versions": {
+    "1.0.0": {
+      "name": "OwlBass",
+      "author": "PentagramPro",
+      "description": "An additive single voice bass synthesizer.",
+      "license": "gpl-3.0",
+      "type": "instrument",
+      "tags": [
+        "Instrument",
+        "Synth",
+        "Bass"
+      ],
+      "url": "https://github.com/PentagramPro/OwlBass",
+      "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/pentagrampro/owlbass/owlbass.flac",
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/pentagrampro/owlbass/owlbass.jpg",
+      "date": "2019-01-13T08:00:00.000Z",
+      "changes": "This is a very first release of OwlBass VST plugin. Some features may not work as expected.",
+      "files": [
+        {
+          "systems": [
+            {
+              "type": "win"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "dll"
+          ],
+          "format": "zip",
+          "type": "archive",
+          "size": 1671878,
+          "sha256": "41843439727f9eb1f8e30ebbd367da0a1aba5194e9d290d22192285accefa26a",
+          "url": "https://github.com/PentagramPro/OwlBass/releases/download/v1.0/owlbass.zip"
+        }
+      ]
+    }
+  }
+}

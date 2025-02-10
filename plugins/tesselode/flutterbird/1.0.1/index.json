@@ -1,0 +1,55 @@
+{
+  "name": "Cocoa Delay",
+  "author": "tesselode",
+  "description": "Add pitch and volume fluctuation to incoming audio. Create wow/flutter effects as well as more chaotic, extreme modulation.",
+  "license": "mit",
+  "type": "effect",
+  "tags": [
+    "Effect",
+    "Pitch",
+    "Modulation"
+  ],
+  "url": "https://github.com/tesselode/flutterbird",
+  "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/tesselode/flutterbird/flutterbird.flac",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/tesselode/flutterbird/flutterbird.jpg",
+  "date": "2018-09-06T07:00:00.000Z",
+  "changes": "Fixed an incorrect parameter name.",
+  "files": [
+    {
+      "systems": [
+        {
+          "type": "win"
+        }
+      ],
+      "architectures": [
+        "x32"
+      ],
+      "contains": [
+        "dll"
+      ],
+      "format": "zip",
+      "type": "archive",
+      "size": 748544,
+      "sha256": "c54239e90102112a98b194d510169a7b7405da05fd51394c0f906d61c7358aeb",
+      "url": "https://github.com/tesselode/flutterbird/releases/download/v1.0.1/Flutterbird32.dll"
+    },
+    {
+      "systems": [
+        {
+          "type": "win"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "dll"
+      ],
+      "format": "zip",
+      "type": "archive",
+      "size": 797184,
+      "sha256": "10d3867e85e88d7638f6cd414b8ce3b446d98eb2582fd7883064406686ffbcbf",
+      "url": "https://github.com/tesselode/flutterbird/releases/download/v1.0.1/Flutterbird64.dll"
+    }
+  ]
+}

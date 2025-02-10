@@ -1,0 +1,185 @@
+{
+  "tesselode/mika-micro": {
+    "slug": "tesselode/mika-micro",
+    "version": "2.0.1",
+    "versions": {
+      "2.0.1": {
+        "name": "Mika Micro",
+        "author": "tesselode",
+        "description": "Small, expressive subtractive synthesizer.",
+        "license": "mit",
+        "type": "instrument",
+        "tags": [
+          "Instrument",
+          "Synth",
+          "Oscillators"
+        ],
+        "url": "https://github.com/tesselode/mika-micro",
+        "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/tesselode/mika-micro/mika-micro.flac",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/tesselode/mika-micro/mika-micro.jpg",
+        "date": "2018-05-17T07:00:00.000Z",
+        "changes": "- Changed filter cutoff smoothing to only apply to the knob, allowing for much snappier filter envelopes\n- Added and updated some presets\n",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x32"
+            ],
+            "contains": [
+              "dll"
+            ],
+            "format": "zip",
+            "type": "archive",
+            "size": 649728,
+            "sha256": "8601f16a0e6f96eb2797ad1795e2d2c0da07d96ca89ff910f07f268d146673cf",
+            "url": "https://github.com/tesselode/mika-micro/releases/download/v2.0.1/MikaMicro32.dll"
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "dll"
+            ],
+            "format": "zip",
+            "type": "archive",
+            "size": 711168,
+            "sha256": "fe3ac30518e3d7d5014afecfae21091139569927805661564eb939f6197dcc78",
+            "url": "https://github.com/tesselode/mika-micro/releases/download/v2.0.1/MikaMicro64.dll"
+          }
+        ]
+      }
+    }
+  },
+  "tesselode/flutterbird": {
+    "slug": "tesselode/flutterbird",
+    "version": "1.0.1",
+    "versions": {
+      "1.0.1": {
+        "name": "Cocoa Delay",
+        "author": "tesselode",
+        "description": "Add pitch and volume fluctuation to incoming audio. Create wow/flutter effects as well as more chaotic, extreme modulation.",
+        "license": "mit",
+        "type": "effect",
+        "tags": [
+          "Effect",
+          "Pitch",
+          "Modulation"
+        ],
+        "url": "https://github.com/tesselode/flutterbird",
+        "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/tesselode/flutterbird/flutterbird.flac",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/tesselode/flutterbird/flutterbird.jpg",
+        "date": "2018-09-06T07:00:00.000Z",
+        "changes": "Fixed an incorrect parameter name.",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x32"
+            ],
+            "contains": [
+              "dll"
+            ],
+            "format": "zip",
+            "type": "archive",
+            "size": 748544,
+            "sha256": "c54239e90102112a98b194d510169a7b7405da05fd51394c0f906d61c7358aeb",
+            "url": "https://github.com/tesselode/flutterbird/releases/download/v1.0.1/Flutterbird32.dll"
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "dll"
+            ],
+            "format": "zip",
+            "type": "archive",
+            "size": 797184,
+            "sha256": "10d3867e85e88d7638f6cd414b8ce3b446d98eb2582fd7883064406686ffbcbf",
+            "url": "https://github.com/tesselode/flutterbird/releases/download/v1.0.1/Flutterbird64.dll"
+          }
+        ]
+      }
+    }
+  },
+  "tesselode/cocoa-delay": {
+    "slug": "tesselode/cocoa-delay",
+    "version": "1.0.0",
+    "versions": {
+      "1.0.0": {
+        "name": "Cocoa Delay",
+        "author": "tesselode",
+        "description": "A tasty, cozy delay plugin. Focusing on clean design, easy operation, and a warm, lively sound.",
+        "license": "mit",
+        "type": "effect",
+        "tags": [
+          "Effect",
+          "Delay",
+          "Warm"
+        ],
+        "url": "https://github.com/tesselode/cocoa-delay",
+        "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/tesselode/cocoa-delay/cocoa-delay.flac",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/tesselode/cocoa-delay/cocoa-delay.jpg",
+        "date": "2018-09-01T07:00:00.000Z",
+        "changes": "Fix delay time having to slide to its correct value when input is first received in some DAWs.",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x32"
+            ],
+            "contains": [
+              "dll"
+            ],
+            "format": "zip",
+            "type": "archive",
+            "size": 463872,
+            "sha256": "ff39308b2546d2ac9d55a82acdeacf202d40ee85daabdb4c52cb81dafbab6bc8",
+            "url": "https://github.com/tesselode/cocoa-delay/releases/download/v1.0/CocoaDelay32.dll"
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "dll"
+            ],
+            "format": "zip",
+            "type": "archive",
+            "size": 516096,
+            "sha256": "2847fdd79d7452e87ea5eda003d4c5aa48408ee622b5077466e3c11cedbab06a",
+            "url": "https://github.com/tesselode/cocoa-delay/releases/download/v1.0/CocoaDelay64.dll"
+          }
+        ]
+      }
+    }
+  }
+}

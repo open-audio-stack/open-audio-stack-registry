@@ -1,0 +1,60 @@
+{
+  "name": "CHOW",
+  "author": "Chowdhury DSP",
+  "description": "Digital ditortion effect designed for maximum truculence, somewhere between a true half-wave rectifier and a noisy vintage compressor. Useful for mixing guitars, drums, even vocals when a heavily degraded sound is desired.",
+  "license": "gpl-3.0",
+  "type": "effect",
+  "tags": [
+    "Effect",
+    "Distortion",
+    "Noise"
+  ],
+  "url": "https://github.com/Chowdhury-DSP/CHOW",
+  "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/chowdhury-dsp/chow/chow.flac",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/chowdhury-dsp/chow/chow.jpg",
+  "date": "2019-01-11T07:00:00.000Z",
+  "changes": "Mac testing has been limited. Mac installer coming soon.",
+  "files": [
+    {
+      "systems": [
+        {
+          "type": "mac"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "app",
+        "component",
+        "vst",
+        "vst3"
+      ],
+      "format": "zip",
+      "type": "archive",
+      "size": 2029118,
+      "sha256": "5e2510d6794e308169b6fab3d0874845d608dd66447d78b9ed9a643d0ac012e5",
+      "url": "https://github.com/Chowdhury-DSP/CHOW/releases/download/1.0.0/CHOW-mac.zip"
+    },
+    {
+      "systems": [
+        {
+          "type": "win"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "exe",
+        "dll",
+        "vst3"
+      ],
+      "format": "zip",
+      "type": "archive",
+      "size": 5443871,
+      "sha256": "ffc3a8fad2e6044467cc413ec2929d6f8ff4c29dc3a12ab5828c14ec09a55f80",
+      "url": "https://github.com/Chowdhury-DSP/CHOW/releases/download/1.0.0/CHOW-win.zip"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "slug": "dropsnorz/wobbleizer",
+  "version": "2.3.2",
+  "versions": {
+    "2.3.2": {
+      "name": "Wobbleizer",
+      "author": "Dropsnorz",
+      "description": "A frequency filter with LFO modulation.",
+      "license": "mit",
+      "type": "effect",
+      "tags": [
+        "Effect",
+        "Filter",
+        "LFO"
+      ],
+      "url": "https://github.com/dropsnorz/wobbleizer",
+      "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/dropsnorz/wobbleizer/wobbleizer.flac",
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/dropsnorz/wobbleizer/wobbleizer.jpg",
+      "date": "2012-02-25T07:00:00.000Z",
+      "changes": "",
+      "files": [
+        {
+          "systems": [
+            {
+              "type": "mac"
+            }
+          ],
+          "architectures": [
+            "x32",
+            "x64"
+          ],
+          "contains": [
+            "vst"
+          ],
+          "format": "zip",
+          "type": "archive",
+          "size": 3244799,
+          "sha256": "17b98b8eda7271f16ec82571bed34ab45192621c98fcada217cde7c54bddb793",
+          "url": "https://central.owlplug.com/products/com.dropsnorz.wobbleizer/bundles/wobbleizer-vst-osx.zip"
+        },
+        {
+          "systems": [
+            {
+              "type": "win"
+            }
+          ],
+          "architectures": [
+            "x32",
+            "x64"
+          ],
+          "contains": [
+            "dll"
+          ],
+          "format": "zip",
+          "type": "archive",
+          "size": 2924910,
+          "sha256": "35f9446c4494e055938ebe46df60af5162949936416816582cc738a809ab5ccd",
+          "url": "https://central.owlplug.com/products/com.dropsnorz.wobbleizer/bundles/wobbleizer-vst-win32win64.zip"
+        }
+      ]
+    }
+  }
+}

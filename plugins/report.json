@@ -65,6 +65,98 @@
       ]
     }
   },
+  "the-synister/synister": {
+    "1.0.3": {
+      "recs": [
+        {
+          "field": "architectures",
+          "rec": "should support arm64"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Linux"
+        }
+      ]
+    }
+  },
+  "tesselode/mika-micro": {
+    "2.0.1": {
+      "recs": [
+        {
+          "field": "format",
+          "rec": "should match url field"
+        },
+        {
+          "field": "format",
+          "rec": "should match url field"
+        },
+        {
+          "field": "architectures",
+          "rec": "should support arm64"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Linux"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Mac"
+        }
+      ]
+    }
+  },
+  "tesselode/flutterbird": {
+    "1.0.1": {
+      "recs": [
+        {
+          "field": "format",
+          "rec": "should match url field"
+        },
+        {
+          "field": "format",
+          "rec": "should match url field"
+        },
+        {
+          "field": "architectures",
+          "rec": "should support arm64"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Linux"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Mac"
+        }
+      ]
+    }
+  },
+  "tesselode/cocoa-delay": {
+    "1.0.0": {
+      "recs": [
+        {
+          "field": "format",
+          "rec": "should match url field"
+        },
+        {
+          "field": "format",
+          "rec": "should match url field"
+        },
+        {
+          "field": "architectures",
+          "rec": "should support arm64"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Linux"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Mac"
+        }
+      ]
+    }
+  },
   "surge-synthesizer/surge": {
     "1.3.4": {
       "recs": [
@@ -243,6 +335,24 @@
       ]
     }
   },
+  "pentagrampro/owlbass": {
+    "1.0.0": {
+      "recs": [
+        {
+          "field": "architectures",
+          "rec": "should support arm64"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Linux"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Mac"
+        }
+      ]
+    }
+  },
   "paynebc/tunefish": {
     "4.2.0": {
       "recs": [
@@ -261,6 +371,20 @@
         {
           "field": "architectures",
           "rec": "should support arm64"
+        }
+      ]
+    }
+  },
+  "mzuther/squeezer": {
+    "2.5.4": {
+      "recs": [
+        {
+          "field": "architectures",
+          "rec": "should support arm64"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Mac"
         }
       ]
     }
@@ -327,6 +451,20 @@
       ]
     }
   },
+  "michael-jan/key-repeat": {
+    "1.0.0": {
+      "recs": [
+        {
+          "field": "architectures",
+          "rec": "should support arm64"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Linux"
+        }
+      ]
+    }
+  },
   "martineastwood/mverb": {
     "1.0.0": {
       "recs": [
@@ -345,6 +483,20 @@
         {
           "field": "architectures",
           "rec": "should support arm64"
+        }
+      ]
+    }
+  },
+  "khrykin/blackbird": {
+    "0.1.0": {
+      "recs": [
+        {
+          "field": "architectures",
+          "rec": "should support arm64"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Linux"
         }
       ]
     }
@@ -437,6 +589,28 @@
       ]
     }
   },
+  "dropsnorz/wobbleizer": {
+    "2.3.2": {
+      "recs": [
+        {
+          "field": "url",
+          "rec": "should point to GitHub"
+        },
+        {
+          "field": "url",
+          "rec": "should point to GitHub"
+        },
+        {
+          "field": "architectures",
+          "rec": "should support arm64"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Linux"
+        }
+      ]
+    }
+  },
   "distrho/dpf-plugins": {
     "1.7.0": {
       "recs": [
@@ -465,6 +639,24 @@
       ]
     }
   },
+  "clearly-broken-software/drops": {
+    "1.0.0": {
+      "recs": [
+        {
+          "field": "architectures",
+          "rec": "should support arm64"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Mac"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Windows"
+        }
+      ]
+    }
+  },
   "chowdhury-dsp/chowtapemodel": {
     "2.11.4": {
       "recs": [
@@ -489,6 +681,20 @@
         {
           "field": "architectures",
           "rec": "should support arm64"
+        }
+      ]
+    }
+  },
+  "chowdhury-dsp/chow": {
+    "1.0.0": {
+      "recs": [
+        {
+          "field": "architectures",
+          "rec": "should support arm64"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Linux"
         }
       ]
     }

@@ -1,0 +1,62 @@
+{
+  "slug": "khrykin/blackbird",
+  "version": "0.1.0",
+  "versions": {
+    "0.1.0": {
+      "name": "BlackBird",
+      "author": "Dmitry Khrykin",
+      "description": "Analog-inspired software synth with its own voice, filters. modulation and envelope.",
+      "license": "gpl-3.0",
+      "type": "instrument",
+      "tags": [
+        "Instrument",
+        "Synth",
+        "Analog"
+      ],
+      "url": "https://github.com/khrykin/BlackBird",
+      "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/khrykin/blackbird/blackbird.flac",
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/khrykin/blackbird/blackbird.jpg",
+      "date": "2020-11-11T07:00:00.000Z",
+      "changes": "Rename to BlackBird",
+      "files": [
+        {
+          "systems": [
+            {
+              "type": "mac"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "component",
+            "vst3"
+          ],
+          "format": "pkg",
+          "type": "installer",
+          "size": 3578245,
+          "sha256": "219d28db830d7019c20d1f9533f29515053d0f2f983e8fb9275e6a2fbbb9ef06",
+          "url": "https://github.com/khrykin/BlackBird/releases/download/v0.1.0/BlackBird-0.1.0.pkg"
+        },
+        {
+          "systems": [
+            {
+              "type": "win"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "vst3"
+          ],
+          "format": "exe",
+          "type": "installer",
+          "size": 4189654,
+          "sha256": "0ab14fe4c89193fbfb12b7fa106228ffa37808c4401d8e161813184cec6fcde1",
+          "url": "https://github.com/khrykin/BlackBird/releases/download/v0.1.0/BlackBird-0.1.0-windows-x64.exe"
+        }
+      ]
+    }
+  }
+}

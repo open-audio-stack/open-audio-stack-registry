@@ -1,0 +1,55 @@
+{
+  "name": "Mika Micro",
+  "author": "tesselode",
+  "description": "Small, expressive subtractive synthesizer.",
+  "license": "mit",
+  "type": "instrument",
+  "tags": [
+    "Instrument",
+    "Synth",
+    "Oscillators"
+  ],
+  "url": "https://github.com/tesselode/mika-micro",
+  "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/tesselode/mika-micro/mika-micro.flac",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/tesselode/mika-micro/mika-micro.jpg",
+  "date": "2018-05-17T07:00:00.000Z",
+  "changes": "- Changed filter cutoff smoothing to only apply to the knob, allowing for much snappier filter envelopes\n- Added and updated some presets\n",
+  "files": [
+    {
+      "systems": [
+        {
+          "type": "win"
+        }
+      ],
+      "architectures": [
+        "x32"
+      ],
+      "contains": [
+        "dll"
+      ],
+      "format": "zip",
+      "type": "archive",
+      "size": 649728,
+      "sha256": "8601f16a0e6f96eb2797ad1795e2d2c0da07d96ca89ff910f07f268d146673cf",
+      "url": "https://github.com/tesselode/mika-micro/releases/download/v2.0.1/MikaMicro32.dll"
+    },
+    {
+      "systems": [
+        {
+          "type": "win"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "dll"
+      ],
+      "format": "zip",
+      "type": "archive",
+      "size": 711168,
+      "sha256": "fe3ac30518e3d7d5014afecfae21091139569927805661564eb939f6197dcc78",
+      "url": "https://github.com/tesselode/mika-micro/releases/download/v2.0.1/MikaMicro64.dll"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "name": "Squeezer",
+  "author": "Martin Zuther",
+  "description": "Flexible general-purpose audio compressor with a touch of citruss.",
+  "license": "gpl-3.0",
+  "type": "effect",
+  "tags": [
+    "Effect",
+    "Compressor"
+  ],
+  "url": "https://github.com/mzuther/Squeezer",
+  "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/mzuther/squeezer/squeezer.flac",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/mzuther/squeezer/squeezer.jpg",
+  "date": "2020-04-17T07:00:00.000Z",
+  "changes": "- input trim and make-up gain\n- release time allows fine-tuning of distortion effects\n- customize Jack daemon client name\n- drop support for LV2\n- minor fixes and improvements\n- update JUCE framework and libraries\n- update manual\n",
+  "files": [
+    {
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "so"
+      ],
+      "format": "tar.gz",
+      "type": "archive",
+      "size": 12394844,
+      "sha256": "a396fe8e0dbb832b7a1b776e6ad8a3752fd920e6e4425fec32d64b1efb7ebf3b",
+      "url": "https://github.com/mzuther/Squeezer/releases/download/v2.5.4/squeezer-linux64-vst2_2.5.4.tar.gz"
+    },
+    {
+      "systems": [
+        {
+          "type": "win"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "dll"
+      ],
+      "format": "zip",
+      "type": "archive",
+      "size": 4679467,
+      "sha256": "c45a2aa751eef75acaef52ad3ceafcf2cdaabe07f6b9329cc0dcdcacae0160dc",
+      "url": "https://github.com/mzuther/Squeezer/releases/download/v2.5.4/squeezer-w64-vst2_2.5.4.zip"
+    },
+    {
+      "systems": [
+        {
+          "type": "win"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3"
+      ],
+      "format": "zip",
+      "type": "archive",
+      "size": 2682832,
+      "sha256": "d98a867a862078e32f7f10d6574de525cbb67fd6b629de1e1ecef2f571d47d39",
+      "url": "https://github.com/mzuther/Squeezer/releases/download/v2.5.4/squeezer-w64-vst3_2.5.4.zip"
+    }
+  ]
+}
