@@ -34,7 +34,7 @@
               "vst3"
             ],
             "format": "deb",
-            "type": "archive",
+            "type": "installer",
             "size": 2172048,
             "sha256": "78b59aa99c0c2cf637de90a47f46d852b6f3ac59ccee1bcab2d3d77dc37a0586",
             "url": "https://github.com/GuitarML/SmartGuitarAmp/releases/download/v1.3/SmartAmp-Linux-x64-1.3.deb"
@@ -54,7 +54,7 @@
               "vst3"
             ],
             "format": "dmg",
-            "type": "archive",
+            "type": "installer",
             "size": 10830999,
             "sha256": "89d8ddaa625689db0f0b5dec0c61fe8d129b4533bc0f797af212534e8fb3c9a4",
             "url": "https://github.com/GuitarML/SmartGuitarAmp/releases/download/v1.3/Install-SmartAmp-v1.3-Mac.dmg"
@@ -73,7 +73,7 @@
               "vst3"
             ],
             "format": "exe",
-            "type": "archive",
+            "type": "installer",
             "size": 4026478,
             "sha256": "29be822eec1c40f119303560338e1e4aa03ef69844d49ef4f75cdf3cada46117",
             "url": "https://github.com/GuitarML/SmartGuitarAmp/releases/download/v1.3/SmartAmp-Win-1.3.exe"

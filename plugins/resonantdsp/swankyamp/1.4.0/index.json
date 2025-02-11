@@ -28,8 +28,8 @@
         "app",
         "vst"
       ],
-      "format": "zip",
-      "type": "archive",
+      "format": "dmg",
+      "type": "installer",
       "size": 5138961,
       "sha256": "9c1410ac2e233309228fe78ba2b151063088bae2259162aa32002cde4cfa2e1a",
       "url": "https://www.resonantdsp.com/swankyamp/downloads/v1.4.0/mac/SwankyAmp-vst3.dmg"
@@ -47,11 +47,11 @@
         "exe",
         "dll"
       ],
-      "format": "zip",
+      "format": "msi",
       "type": "installer",
-      "size": 4580864,
-      "sha256": "120009c91482a947803e1714a5b3219f6328ab9c2382775b8d930250e2f69342",
-      "url": "https://www.resonantdsp.com/swankyamp/downloads/v1.4.0/win/SwankyAmp.vst3"
+      "size": 2469888,
+      "sha256": "5c8f1414faf84b8258bd0ab217eb149d9724125d0434c452e58f69f864aa1383",
+      "url": "https://www.resonantdsp.com/swankyamp/downloads/v1.4.0/win/SwankyAmp-win64.msi"
     }
   ]
 }

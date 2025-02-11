@@ -36,7 +36,7 @@
               "vst3"
             ],
             "format": "deb",
-            "type": "archive",
+            "type": "installer",
             "size": 5112948,
             "sha256": "71aaae1c454ac83ac16b248d4cc99c12bf6d11452a87376fcb6b1e79060e3a5c",
             "url": "https://github.com/jatinchowdhury18/AnalogTapeModel/releases/download/v2.11.4/ChowTapeModel-Linux-x64-2.11.4.deb"
@@ -57,8 +57,8 @@
               "vst",
               "vst3"
             ],
-            "format": "zip",
-            "type": "archive",
+            "format": "dmg",
+            "type": "installer",
             "size": 28745196,
             "sha256": "9b37e2b6cb6c0a839ee9c65e1a958834ca647b3edfc4bd144115c483b4d64f82",
             "url": "https://github.com/jatinchowdhury18/AnalogTapeModel/releases/download/v2.11.4/ChowTapeModel-Mac-2.11.4.dmg"
@@ -78,7 +78,7 @@
               "vst3"
             ],
             "format": "exe",
-            "type": "archive",
+            "type": "installer",
             "size": 10646528,
             "sha256": "8ba6e91196067244837877d9ca4a8e4a1f5bfad60cf33fa699c8a5b41f1211bf",
             "url": "https://github.com/jatinchowdhury18/AnalogTapeModel/releases/download/v2.11.4/ChowTapeModel-Win-64bit-2.11.4.exe"
@@ -124,7 +124,7 @@
               "vst3"
             ],
             "format": "deb",
-            "type": "archive",
+            "type": "installer",
             "size": 2990012,
             "sha256": "332749bba2fcfefeb68c105b9f55fd71aa7a8bfb524f592cbb68cc6c0581a767",
             "url": "https://github.com/Chowdhury-DSP/ChowMatrix/releases/download/v1.3.0/ChowMatrix-Linux-x64-1.3.0.deb"
@@ -145,8 +145,8 @@
               "vst",
               "vst3"
             ],
-            "format": "zip",
-            "type": "archive",
+            "format": "dmg",
+            "type": "installer",
             "size": 17091478,
             "sha256": "11705e4cfb023525e8b6830fb29feb046eac05688428a12a8fdad48dc9a9fdcf",
             "url": "https://github.com/Chowdhury-DSP/ChowMatrix/releases/download/v1.3.0/ChowMatrix-Mac-1.3.0.dmg"
@@ -166,7 +166,7 @@
               "vst3"
             ],
             "format": "exe",
-            "type": "archive",
+            "type": "installer",
             "size": 7958887,
             "sha256": "b1e2451ae66362bf82112e77fccc48a1233780b6cbfb58fe1a588b17a77456c5",
             "url": "https://github.com/Chowdhury-DSP/ChowMatrix/releases/download/v1.3.0/ChowMatrix-Win-1.3.0.exe"

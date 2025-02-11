@@ -231,8 +231,8 @@
                 "component",
                 "vst3"
               ],
-              "format": "zip",
-              "type": "archive",
+              "format": "dmg",
+              "type": "installer",
               "size": 15516420,
               "sha256": "80a5547f4a3f644bca472f7c1cb33da193c6032ca20d9793109facde7d1fc857",
               "url": "https://github.com/utokusa/OS-251/releases/download/v1.2.1/OS-251-macOS.dmg"
@@ -479,7 +479,7 @@
                 "vst3"
               ],
               "format": "pkg",
-              "type": "archive",
+              "type": "installer",
               "size": 282803372,
               "sha256": "ecfcbdf9058f6ddc6cdbc344fc32bee5f7cc0ffe135432607c36a6274e47624b",
               "url": "https://github.com/TheWaveWarden/odin2/releases/download/NightlyDevel/Odin2.3.4MacInstaller.pkg"
@@ -498,8 +498,8 @@
                 "dll",
                 "vst3"
               ],
-              "format": "zip",
-              "type": "archive",
+              "format": "exe",
+              "type": "installer",
               "size": 92172129,
               "sha256": "828d99b67406adfb354553695df9ea1786772e2ac7fea77fe6197897b9788310",
               "url": "https://github.com/TheWaveWarden/odin2/releases/download/NightlyDevel/Odin2.3.4WinInstaller.exe"
@@ -1063,7 +1063,7 @@
                 "vst3"
               ],
               "format": "dmg",
-              "type": "archive",
+              "type": "installer",
               "size": 26204639,
               "sha256": "7a3097c486c002d6533b55bae6ffd3024e9ccbc266e79ef008d2763719925843",
               "url": "https://github.com/surge-synthesizer/monique-monosynth/releases/download/Nightly/moniquemonosynth-macOS-2024-08-07-df7d339.dmg"
@@ -1253,7 +1253,7 @@
                 "vst3"
               ],
               "format": "tar.gz",
-              "type": "installer",
+              "type": "archive",
               "size": 1748833,
               "sha256": "f3c2b4c562abfb1d182fb950503285637e7dee6c9b45baa2a06172923c76a4c7",
               "url": "https://github.com/sfztools/sfizz/releases/download/1.2.3/sfizz-1.2.3-macos.tar.gz"
@@ -1271,7 +1271,7 @@
                 "dll",
                 "vst3"
               ],
-              "format": "zip",
+              "format": "exe",
               "type": "installer",
               "size": 3626650,
               "sha256": "56f57dfe443018e947b82b8e2bf4c9d824a9c961ff2b8eb6c5e929030b71b937",
@@ -2024,7 +2024,7 @@
                 "vst3"
               ],
               "format": "zip",
-              "type": "installer",
+              "type": "archive",
               "size": 3637173,
               "sha256": "2166a4fd960714a353c857a538095428c781adad4d0b6c389b0892b822e04bd6",
               "url": "https://github.com/sdatkinson/NeuralAmpModelerPlugin/releases/download/v0.7.12/NeuralAmpModeler-v0.7.12-win.zip"
@@ -2067,8 +2067,8 @@
                 "app",
                 "vst"
               ],
-              "format": "zip",
-              "type": "archive",
+              "format": "dmg",
+              "type": "installer",
               "size": 5138961,
               "sha256": "9c1410ac2e233309228fe78ba2b151063088bae2259162aa32002cde4cfa2e1a",
               "url": "https://www.resonantdsp.com/swankyamp/downloads/v1.4.0/mac/SwankyAmp-vst3.dmg"
@@ -2086,11 +2086,11 @@
                 "exe",
                 "dll"
               ],
-              "format": "zip",
+              "format": "msi",
               "type": "installer",
-              "size": 4580864,
-              "sha256": "120009c91482a947803e1714a5b3219f6328ab9c2382775b8d930250e2f69342",
-              "url": "https://www.resonantdsp.com/swankyamp/downloads/v1.4.0/win/SwankyAmp.vst3"
+              "size": 2469888,
+              "sha256": "5c8f1414faf84b8258bd0ab217eb149d9724125d0434c452e58f69f864aa1383",
+              "url": "https://www.resonantdsp.com/swankyamp/downloads/v1.4.0/win/SwankyAmp-win64.msi"
             }
           ]
         }
@@ -2173,7 +2173,7 @@
                 "dll"
               ],
               "format": "zip",
-              "type": "installer",
+              "type": "archive",
               "size": 7936780,
               "sha256": "0cdb4867afa88767e4c393fe7786114c01d03adcb5f79344725d610e41adad2b",
               "url": "https://www.discodsp.com/download/?id=27"
@@ -2255,7 +2255,7 @@
                 "dll"
               ],
               "format": "zip",
-              "type": "installer",
+              "type": "archive",
               "size": 52845717,
               "sha256": "21100985a638cf93fa25fc5356e9eedfce2eae7604b6a24cee44267b82e78242",
               "url": "https://www.discodsp.com/download/?id=3"
@@ -2556,7 +2556,7 @@
                 "so"
               ],
               "format": "deb",
-              "type": "archive",
+              "type": "installer",
               "size": 8328284,
               "sha256": "aedf8b676657f72782513e5ad5f9c61a6bc21fe9357b23052928adafa8215eca",
               "url": "https://tytel.org/static/dist/helm_0.9.0_amd64_r.deb"
@@ -2576,7 +2576,7 @@
                 "vst3"
               ],
               "format": "pkg",
-              "type": "archive",
+              "type": "installer",
               "size": 17258268,
               "sha256": "1bfac2c016d7dd5cd51e714fa6d9facef4e1db52617ff7dd52748dbec1400ebf",
               "url": "https://tytel.org/static/dist/Helm_v0_9_0_r.pkg"
@@ -2639,7 +2639,7 @@
                 "elf",
                 "so"
               ],
-              "format": "tar.gz",
+              "format": "zip",
               "type": "archive",
               "size": 3657547,
               "sha256": "e4ee704d6e74c8dd3f23fccc26fb8ab634333e8c14da915eb9e23e2774cca635",
@@ -2658,7 +2658,7 @@
                 "vst",
                 "vst3"
               ],
-              "format": "dmg",
+              "format": "zip",
               "type": "archive",
               "size": 5258069,
               "sha256": "260e2e934ef9b9994a513f25ef11396159669c167823cab229eabff72b9b786f",
@@ -2857,7 +2857,7 @@
                 "vst3"
               ],
               "format": "dmg",
-              "type": "archive",
+              "type": "installer",
               "size": 24954281,
               "sha256": "e0b854b92a4e51ce5851320fb1a9f91ab1a4309f997de070e175b3e5cab4adaf",
               "url": "https://github.com/michaelwillis/dragonfly-reverb/releases/download/3.2.10/dragonfly-reverb-3.2.10-macos-universal.dmg"
@@ -3259,7 +3259,7 @@
                 "so"
               ],
               "format": "deb",
-              "type": "archive",
+              "type": "installer",
               "size": 3876232,
               "sha256": "284fb7271dbdf399d3bc06464bf06726fa97554becfecf3b998615cf976e0fc6",
               "url": "https://github.com/jpcima/ADLplug/releases/download/v1.0.2/opnplug_amd64.deb"
@@ -3348,7 +3348,7 @@
                 "so"
               ],
               "format": "deb",
-              "type": "archive",
+              "type": "installer",
               "size": 3822930,
               "sha256": "7e3f433f93f861f475e80d571e79ab0ada157590b276179d82f07797cb27d01b",
               "url": "https://github.com/jpcima/ADLplug/releases/download/v1.0.2/adlplug_amd64.deb"
@@ -3566,7 +3566,7 @@
                 "vst3"
               ],
               "format": "deb",
-              "type": "archive",
+              "type": "installer",
               "size": 2172048,
               "sha256": "78b59aa99c0c2cf637de90a47f46d852b6f3ac59ccee1bcab2d3d77dc37a0586",
               "url": "https://github.com/GuitarML/SmartGuitarAmp/releases/download/v1.3/SmartAmp-Linux-x64-1.3.deb"
@@ -3586,7 +3586,7 @@
                 "vst3"
               ],
               "format": "dmg",
-              "type": "archive",
+              "type": "installer",
               "size": 10830999,
               "sha256": "89d8ddaa625689db0f0b5dec0c61fe8d129b4533bc0f797af212534e8fb3c9a4",
               "url": "https://github.com/GuitarML/SmartGuitarAmp/releases/download/v1.3/Install-SmartAmp-v1.3-Mac.dmg"
@@ -3605,7 +3605,7 @@
                 "vst3"
               ],
               "format": "exe",
-              "type": "archive",
+              "type": "installer",
               "size": 4026478,
               "sha256": "29be822eec1c40f119303560338e1e4aa03ef69844d49ef4f75cdf3cada46117",
               "url": "https://github.com/GuitarML/SmartGuitarAmp/releases/download/v1.3/SmartAmp-Win-1.3.exe"
@@ -3997,8 +3997,8 @@
                 "lv2",
                 "vst"
               ],
-              "format": "zip",
-              "type": "archive",
+              "format": "dmg",
+              "type": "installer",
               "size": 381733941,
               "sha256": "d797ec83ac9bbd402cb116d1b562cbb6d786b355f42233436546fbf2bc4015e9",
               "url": "https://github.com/falkTX/Carla/releases/download/v2.5.9/Carla-2.5.9-macOS-universal.dmg"
@@ -4107,7 +4107,6 @@
                 }
               ],
               "architectures": [
-                "x32",
                 "x64"
               ],
               "contains": [
@@ -4115,9 +4114,9 @@
               ],
               "format": "zip",
               "type": "archive",
-              "size": 3244799,
-              "sha256": "17b98b8eda7271f16ec82571bed34ab45192621c98fcada217cde7c54bddb793",
-              "url": "https://central.owlplug.com/products/com.dropsnorz.wobbleizer/bundles/wobbleizer-vst-osx.zip"
+              "size": 1595902,
+              "sha256": "55827a53f1862f19d7017e5db4d31fd82732fb3bce0d704662143bde75cb35c2",
+              "url": "https://github.com/DropSnorz/wobbleizer/releases/download/v2.3.0/wobbleizer-vst-osx64.zip"
             },
             {
               "systems": [
@@ -4126,7 +4125,6 @@
                 }
               ],
               "architectures": [
-                "x32",
                 "x64"
               ],
               "contains": [
@@ -4134,9 +4132,9 @@
               ],
               "format": "zip",
               "type": "archive",
-              "size": 2924910,
-              "sha256": "35f9446c4494e055938ebe46df60af5162949936416816582cc738a809ab5ccd",
-              "url": "https://central.owlplug.com/products/com.dropsnorz.wobbleizer/bundles/wobbleizer-vst-win32win64.zip"
+              "size": 1466718,
+              "sha256": "988803f6c7810bcef13289cc8aa32437ebb343134e051123b04e1b8815ec99c3",
+              "url": "https://github.com/DropSnorz/wobbleizer/releases/download/v2.3.0/wobbleizer-vst-win64.zip"
             }
           ]
         }
@@ -4226,7 +4224,7 @@
                 "vst3"
               ],
               "format": "dmg",
-              "type": "archive",
+              "type": "installer",
               "size": 57933584,
               "sha256": "94b996c898a7ba160561113d1c48c4700a6ef65d33f4092ea7289b1af44059e1",
               "url": "https://github.com/DISTRHO/DPF-Plugins/releases/download/v1.7/DPF-Plugins-v1.7-macos-universal.dmg"
@@ -4420,7 +4418,7 @@
                 "vst3"
               ],
               "format": "deb",
-              "type": "archive",
+              "type": "installer",
               "size": 5112948,
               "sha256": "71aaae1c454ac83ac16b248d4cc99c12bf6d11452a87376fcb6b1e79060e3a5c",
               "url": "https://github.com/jatinchowdhury18/AnalogTapeModel/releases/download/v2.11.4/ChowTapeModel-Linux-x64-2.11.4.deb"
@@ -4441,8 +4439,8 @@
                 "vst",
                 "vst3"
               ],
-              "format": "zip",
-              "type": "archive",
+              "format": "dmg",
+              "type": "installer",
               "size": 28745196,
               "sha256": "9b37e2b6cb6c0a839ee9c65e1a958834ca647b3edfc4bd144115c483b4d64f82",
               "url": "https://github.com/jatinchowdhury18/AnalogTapeModel/releases/download/v2.11.4/ChowTapeModel-Mac-2.11.4.dmg"
@@ -4462,7 +4460,7 @@
                 "vst3"
               ],
               "format": "exe",
-              "type": "archive",
+              "type": "installer",
               "size": 10646528,
               "sha256": "8ba6e91196067244837877d9ca4a8e4a1f5bfad60cf33fa699c8a5b41f1211bf",
               "url": "https://github.com/jatinchowdhury18/AnalogTapeModel/releases/download/v2.11.4/ChowTapeModel-Win-64bit-2.11.4.exe"
@@ -4508,7 +4506,7 @@
                 "vst3"
               ],
               "format": "deb",
-              "type": "archive",
+              "type": "installer",
               "size": 2990012,
               "sha256": "332749bba2fcfefeb68c105b9f55fd71aa7a8bfb524f592cbb68cc6c0581a767",
               "url": "https://github.com/Chowdhury-DSP/ChowMatrix/releases/download/v1.3.0/ChowMatrix-Linux-x64-1.3.0.deb"
@@ -4529,8 +4527,8 @@
                 "vst",
                 "vst3"
               ],
-              "format": "zip",
-              "type": "archive",
+              "format": "dmg",
+              "type": "installer",
               "size": 17091478,
               "sha256": "11705e4cfb023525e8b6830fb29feb046eac05688428a12a8fdad48dc9a9fdcf",
               "url": "https://github.com/Chowdhury-DSP/ChowMatrix/releases/download/v1.3.0/ChowMatrix-Mac-1.3.0.dmg"
@@ -4550,7 +4548,7 @@
                 "vst3"
               ],
               "format": "exe",
-              "type": "archive",
+              "type": "installer",
               "size": 7958887,
               "sha256": "b1e2451ae66362bf82112e77fccc48a1233780b6cbfb58fe1a588b17a77456c5",
               "url": "https://github.com/Chowdhury-DSP/ChowMatrix/releases/download/v1.3.0/ChowMatrix-Win-1.3.0.exe"

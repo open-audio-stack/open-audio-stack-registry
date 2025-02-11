@@ -35,7 +35,7 @@
               "so"
             ],
             "format": "deb",
-            "type": "archive",
+            "type": "installer",
             "size": 3876232,
             "sha256": "284fb7271dbdf399d3bc06464bf06726fa97554becfecf3b998615cf976e0fc6",
             "url": "https://github.com/jpcima/ADLplug/releases/download/v1.0.2/opnplug_amd64.deb"
@@ -124,7 +124,7 @@
               "so"
             ],
             "format": "deb",
-            "type": "archive",
+            "type": "installer",
             "size": 3822930,
             "sha256": "7e3f433f93f861f475e80d571e79ab0ada157590b276179d82f07797cb27d01b",
             "url": "https://github.com/jpcima/ADLplug/releases/download/v1.0.2/adlplug_amd64.deb"

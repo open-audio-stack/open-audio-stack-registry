@@ -18,7 +18,7 @@
       "recs": [
         {
           "field": "format",
-          "rec": "should match url field"
+          "rec": "requires mounting step, consider .pkg instead"
         },
         {
           "field": "architectures",
@@ -54,10 +54,6 @@
   "thewavewarden/odin": {
     "2.3.4": {
       "recs": [
-        {
-          "field": "format",
-          "rec": "should match url field"
-        },
         {
           "field": "architectures",
           "rec": "should support arm64"
@@ -189,34 +185,12 @@
       ]
     }
   },
-  "sfztools/sfizz": {
-    "1.2.3": {
-      "recs": [
-        {
-          "field": "type",
-          "rec": "should match format field"
-        },
-        {
-          "field": "format",
-          "rec": "should match url field"
-        },
-        {
-          "field": "type",
-          "rec": "should match format field"
-        }
-      ]
-    }
-  },
   "sdatkinson/neural-amp-modeler": {
     "0.7.12": {
       "recs": [
         {
           "field": "format",
           "rec": "requires mounting step, consider .pkg instead"
-        },
-        {
-          "field": "type",
-          "rec": "should match format field"
         },
         {
           "field": "architectures",
@@ -238,19 +212,11 @@
         },
         {
           "field": "format",
-          "rec": "should match url field"
+          "rec": "requires mounting step, consider .pkg instead"
         },
         {
           "field": "url",
           "rec": "should point to GitHub"
-        },
-        {
-          "field": "format",
-          "rec": "should match url field"
-        },
-        {
-          "field": "type",
-          "rec": "should match format field"
         },
         {
           "field": "architectures",
@@ -289,10 +255,6 @@
         {
           "field": "format",
           "rec": "should match url field"
-        },
-        {
-          "field": "type",
-          "rec": "should match format field"
         }
       ]
     }
@@ -323,10 +285,6 @@
         {
           "field": "format",
           "rec": "should match url field"
-        },
-        {
-          "field": "type",
-          "rec": "should match format field"
         },
         {
           "field": "architectures",
@@ -414,18 +372,6 @@
   "mikemorenodsp/ep-mk1": {
     "2.4.0": {
       "recs": [
-        {
-          "field": "format",
-          "rec": "should match url field"
-        },
-        {
-          "field": "format",
-          "rec": "requires mounting step, consider .pkg instead"
-        },
-        {
-          "field": "format",
-          "rec": "should match url field"
-        },
         {
           "field": "architectures",
           "rec": "should support arm64"
@@ -580,7 +526,7 @@
       "recs": [
         {
           "field": "format",
-          "rec": "should match url field"
+          "rec": "requires mounting step, consider .pkg instead"
         },
         {
           "field": "systems",
@@ -592,14 +538,6 @@
   "dropsnorz/wobbleizer": {
     "2.3.2": {
       "recs": [
-        {
-          "field": "url",
-          "rec": "should point to GitHub"
-        },
-        {
-          "field": "url",
-          "rec": "should point to GitHub"
-        },
         {
           "field": "architectures",
           "rec": "should support arm64"
@@ -662,7 +600,7 @@
       "recs": [
         {
           "field": "format",
-          "rec": "should match url field"
+          "rec": "requires mounting step, consider .pkg instead"
         },
         {
           "field": "architectures",
@@ -676,7 +614,7 @@
       "recs": [
         {
           "field": "format",
-          "rec": "should match url field"
+          "rec": "requires mounting step, consider .pkg instead"
         },
         {
           "field": "architectures",

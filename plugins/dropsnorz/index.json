@@ -27,7 +27,6 @@
               }
             ],
             "architectures": [
-              "x32",
               "x64"
             ],
             "contains": [
@@ -35,9 +34,9 @@
             ],
             "format": "zip",
             "type": "archive",
-            "size": 3244799,
-            "sha256": "17b98b8eda7271f16ec82571bed34ab45192621c98fcada217cde7c54bddb793",
-            "url": "https://central.owlplug.com/products/com.dropsnorz.wobbleizer/bundles/wobbleizer-vst-osx.zip"
+            "size": 1595902,
+            "sha256": "55827a53f1862f19d7017e5db4d31fd82732fb3bce0d704662143bde75cb35c2",
+            "url": "https://github.com/DropSnorz/wobbleizer/releases/download/v2.3.0/wobbleizer-vst-osx64.zip"
           },
           {
             "systems": [
@@ -46,7 +45,6 @@
               }
             ],
             "architectures": [
-              "x32",
               "x64"
             ],
             "contains": [
@@ -54,9 +52,9 @@
             ],
             "format": "zip",
             "type": "archive",
-            "size": 2924910,
-            "sha256": "35f9446c4494e055938ebe46df60af5162949936416816582cc738a809ab5ccd",
-            "url": "https://central.owlplug.com/products/com.dropsnorz.wobbleizer/bundles/wobbleizer-vst-win32win64.zip"
+            "size": 1466718,
+            "sha256": "988803f6c7810bcef13289cc8aa32437ebb343134e051123b04e1b8815ec99c3",
+            "url": "https://github.com/DropSnorz/wobbleizer/releases/download/v2.3.0/wobbleizer-vst-win64.zip"
           }
         ]
       }

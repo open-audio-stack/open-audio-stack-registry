@@ -30,7 +30,7 @@
         "so"
       ],
       "format": "deb",
-      "type": "archive",
+      "type": "installer",
       "size": 8328284,
       "sha256": "aedf8b676657f72782513e5ad5f9c61a6bc21fe9357b23052928adafa8215eca",
       "url": "https://tytel.org/static/dist/helm_0.9.0_amd64_r.deb"
@@ -50,7 +50,7 @@
         "vst3"
       ],
       "format": "pkg",
-      "type": "archive",
+      "type": "installer",
       "size": 17258268,
       "sha256": "1bfac2c016d7dd5cd51e714fa6d9facef4e1db52617ff7dd52748dbec1400ebf",
       "url": "https://tytel.org/static/dist/Helm_v0_9_0_r.pkg"
