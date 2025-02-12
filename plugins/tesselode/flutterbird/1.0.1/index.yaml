@@ -19,7 +19,6 @@ files:
       - x32
     contains:
       - dll
-    format: zip
     type: archive
     size: 748544
     sha256: c54239e90102112a98b194d510169a7b7405da05fd51394c0f906d61c7358aeb
@@ -30,7 +29,6 @@ files:
       - x64
     contains:
       - dll
-    format: zip
     type: archive
     size: 797184
     sha256: 10d3867e85e88d7638f6cd414b8ce3b446d98eb2582fd7883064406686ffbcbf

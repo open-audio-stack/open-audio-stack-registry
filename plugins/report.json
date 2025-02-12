@@ -3,6 +3,10 @@
     "1.0.0": {
       "recs": [
         {
+          "field": "url",
+          "rec": "not a supported format"
+        },
+        {
           "field": "architectures",
           "rec": "should support arm64"
         },
@@ -17,7 +21,7 @@
     "1.2.1": {
       "recs": [
         {
-          "field": "format",
+          "field": "url",
           "rec": "requires mounting step, consider .pkg instead"
         },
         {
@@ -31,7 +35,7 @@
     "1.0.1": {
       "recs": [
         {
-          "field": "format",
+          "field": "url",
           "rec": "requires mounting step, consider .pkg instead"
         },
         {
@@ -79,12 +83,12 @@
     "2.0.1": {
       "recs": [
         {
-          "field": "format",
-          "rec": "should match url field"
+          "field": "url",
+          "rec": "not a supported format"
         },
         {
-          "field": "format",
-          "rec": "should match url field"
+          "field": "url",
+          "rec": "not a supported format"
         },
         {
           "field": "architectures",
@@ -105,12 +109,12 @@
     "1.0.1": {
       "recs": [
         {
-          "field": "format",
-          "rec": "should match url field"
+          "field": "url",
+          "rec": "not a supported format"
         },
         {
-          "field": "format",
-          "rec": "should match url field"
+          "field": "url",
+          "rec": "not a supported format"
         },
         {
           "field": "architectures",
@@ -131,12 +135,12 @@
     "1.0.0": {
       "recs": [
         {
-          "field": "format",
-          "rec": "should match url field"
+          "field": "url",
+          "rec": "not a supported format"
         },
         {
-          "field": "format",
-          "rec": "should match url field"
+          "field": "url",
+          "rec": "not a supported format"
         },
         {
           "field": "architectures",
@@ -157,7 +161,7 @@
     "1.3.4": {
       "recs": [
         {
-          "field": "format",
+          "field": "url",
           "rec": "requires mounting step, consider .pkg instead"
         }
       ]
@@ -165,7 +169,7 @@
     "1.3.1": {
       "recs": [
         {
-          "field": "format",
+          "field": "url",
           "rec": "requires mounting step, consider .pkg instead"
         }
       ]
@@ -175,7 +179,7 @@
     "1.2.0": {
       "recs": [
         {
-          "field": "format",
+          "field": "url",
           "rec": "requires mounting step, consider .pkg instead"
         },
         {
@@ -185,11 +189,25 @@
       ]
     }
   },
+  "sfztools/sfizz": {
+    "1.2.3": {
+      "recs": [
+        {
+          "field": "url",
+          "rec": "not a supported format"
+        },
+        {
+          "field": "url",
+          "rec": "not a supported format"
+        }
+      ]
+    }
+  },
   "sdatkinson/neural-amp-modeler": {
     "0.7.12": {
       "recs": [
         {
-          "field": "format",
+          "field": "url",
           "rec": "requires mounting step, consider .pkg instead"
         },
         {
@@ -211,7 +229,7 @@
           "rec": "should point to GitHub"
         },
         {
-          "field": "format",
+          "field": "url",
           "rec": "requires mounting step, consider .pkg instead"
         },
         {
@@ -237,24 +255,24 @@
           "rec": "should point to GitHub"
         },
         {
-          "field": "format",
-          "rec": "should match url field"
+          "field": "url",
+          "rec": "not a supported format"
         },
         {
           "field": "url",
           "rec": "should point to GitHub"
         },
         {
-          "field": "format",
-          "rec": "should match url field"
+          "field": "url",
+          "rec": "not a supported format"
         },
         {
           "field": "url",
           "rec": "should point to GitHub"
         },
         {
-          "field": "format",
-          "rec": "should match url field"
+          "field": "url",
+          "rec": "not a supported format"
         }
       ]
     }
@@ -267,24 +285,24 @@
           "rec": "should point to GitHub"
         },
         {
-          "field": "format",
-          "rec": "should match url field"
+          "field": "url",
+          "rec": "not a supported format"
         },
         {
           "field": "url",
           "rec": "should point to GitHub"
         },
         {
-          "field": "format",
-          "rec": "should match url field"
+          "field": "url",
+          "rec": "not a supported format"
         },
         {
           "field": "url",
           "rec": "should point to GitHub"
         },
         {
-          "field": "format",
-          "rec": "should match url field"
+          "field": "url",
+          "rec": "not a supported format"
         },
         {
           "field": "architectures",
@@ -320,6 +338,10 @@
         },
         {
           "field": "url",
+          "rec": "not a supported format"
+        },
+        {
+          "field": "url",
           "rec": "should point to GitHub"
         },
         {
@@ -336,6 +358,10 @@
   "mzuther/squeezer": {
     "2.5.4": {
       "recs": [
+        {
+          "field": "url",
+          "rec": "not a supported format"
+        },
         {
           "field": "architectures",
           "rec": "should support arm64"
@@ -383,15 +409,15 @@
     "3.2.10": {
       "recs": [
         {
-          "field": "format",
-          "rec": "should match url field"
+          "field": "url",
+          "rec": "not a supported format"
         },
         {
-          "field": "format",
-          "rec": "should match url field"
+          "field": "url",
+          "rec": "not a supported format"
         },
         {
-          "field": "format",
+          "field": "url",
           "rec": "requires mounting step, consider .pkg instead"
         }
       ]
@@ -501,7 +527,7 @@
     "1.3.0": {
       "recs": [
         {
-          "field": "format",
+          "field": "url",
           "rec": "requires mounting step, consider .pkg instead"
         },
         {
@@ -525,7 +551,7 @@
     "2.5.9": {
       "recs": [
         {
-          "field": "format",
+          "field": "url",
           "rec": "requires mounting step, consider .pkg instead"
         },
         {
@@ -553,15 +579,15 @@
     "1.7.0": {
       "recs": [
         {
-          "field": "format",
-          "rec": "should match url field"
+          "field": "url",
+          "rec": "not a supported format"
         },
         {
-          "field": "format",
-          "rec": "should match url field"
+          "field": "url",
+          "rec": "not a supported format"
         },
         {
-          "field": "format",
+          "field": "url",
           "rec": "requires mounting step, consider .pkg instead"
         }
       ]
@@ -599,7 +625,7 @@
     "2.11.4": {
       "recs": [
         {
-          "field": "format",
+          "field": "url",
           "rec": "requires mounting step, consider .pkg instead"
         },
         {
@@ -613,7 +639,7 @@
     "1.3.0": {
       "recs": [
         {
-          "field": "format",
+          "field": "url",
           "rec": "requires mounting step, consider .pkg instead"
         },
         {
@@ -641,8 +667,8 @@
     "3.1.0": {
       "recs": [
         {
-          "field": "format",
-          "rec": "should match url field"
+          "field": "url",
+          "rec": "not a supported format"
         },
         {
           "field": "architectures",
@@ -691,6 +717,10 @@
     "0.2.0": {
       "recs": [
         {
+          "field": "url",
+          "rec": "not a supported format"
+        },
+        {
           "field": "architectures",
           "rec": "should support arm64"
         }
@@ -723,6 +753,16 @@
         {
           "field": "architectures",
           "rec": "should support arm64"
+        }
+      ]
+    }
+  },
+  "aaronaanderson/terrain": {
+    "1.2.2": {
+      "recs": [
+        {
+          "field": "url",
+          "rec": "not a supported format"
         }
       ]
     }

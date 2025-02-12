@@ -36,7 +36,6 @@
               "contains": [
                 "so"
               ],
-              "format": "tar.gz",
               "type": "archive",
               "size": 491519,
               "sha256": "858c16bf594ace122cee1854024fb8719c232f593d3ecf3dccee72f22c0b2a08",
@@ -54,7 +53,6 @@
               "contains": [
                 "dll"
               ],
-              "format": "zip",
               "type": "archive",
               "size": 853466,
               "sha256": "7728372c985c4cb0019f5000858d9486a0444f70fed3c44cac724c05db19c94d",
@@ -101,7 +99,6 @@
                 "so",
                 "vst3"
               ],
-              "format": "zip",
               "type": "archive",
               "size": 4923270,
               "sha256": "79a2e37416be98b8b393d0732c0e49af4f769cc9d0010ecd60e0d740233b46c2",
@@ -123,7 +120,6 @@
                 "so",
                 "vst3"
               ],
-              "format": "zip",
               "type": "archive",
               "size": 5089663,
               "sha256": "8b844e9b535d2b8a8a07fc6cec207beae8161f7d6da36e4a856a766aa441b848",
@@ -146,7 +142,6 @@
                 "vst",
                 "vst3"
               ],
-              "format": "zip",
               "type": "archive",
               "size": 5980398,
               "sha256": "19bba017c8eed9b697712d0f1e769ab30eb785534c152e6783017735fe73de03",
@@ -168,7 +163,6 @@
                 "lv2",
                 "vst3"
               ],
-              "format": "zip",
               "type": "archive",
               "size": 5481008,
               "sha256": "42a703a5f71b19855d9213d57f2261d2182c73c73d39730775188df3e4c47da9",
@@ -212,7 +206,6 @@
                 "lv2",
                 "vst3"
               ],
-              "format": "zip",
               "type": "archive",
               "size": 8872405,
               "sha256": "cc0563dbb7203a318a76ae90a2eb6fa2a2d548f18033cc791a06dac0fd500332",
@@ -231,7 +224,6 @@
                 "component",
                 "vst3"
               ],
-              "format": "dmg",
               "type": "installer",
               "size": 15516420,
               "sha256": "80a5547f4a3f644bca472f7c1cb33da193c6032ca20d9793109facde7d1fc857",
@@ -250,7 +242,6 @@
                 "dll",
                 "vst3"
               ],
-              "format": "zip",
               "type": "archive",
               "size": 2495739,
               "sha256": "b7d2c0ba3f25d5b8a81ef439a6822a6de9664100811bab6d3b1a1f1ec20e68c3",
@@ -294,7 +285,6 @@
                 "elf",
                 "vst3"
               ],
-              "format": "zip",
               "type": "archive",
               "size": 14473485,
               "sha256": "dcb5960d882a294abf7a8af8796b9d9b2d647d38020e2a944c26070a4372e62e",
@@ -313,7 +303,6 @@
                 "component",
                 "vst3"
               ],
-              "format": "dmg",
               "type": "installer",
               "size": 5934049,
               "sha256": "b946940305be64efbc7080e233eb3e51a77d69c0d2905703a3fc9ce336a0e687",
@@ -331,7 +320,6 @@
               "contains": [
                 "vst3"
               ],
-              "format": "exe",
               "type": "installer",
               "size": 2792291,
               "sha256": "414f80a8ef39df10db6fe5a47f5582bd0f20bdd13dabc63721fec9a6135d4f2d",
@@ -374,7 +362,6 @@
               "contains": [
                 "elf"
               ],
-              "format": "zip",
               "type": "archive",
               "size": 7109975,
               "sha256": "953be01e0c0def6b46cfb76154dda53971fa930563c71d2449b5f413621964e7",
@@ -394,7 +381,6 @@
                 "component",
                 "vst3"
               ],
-              "format": "zip",
               "type": "archive",
               "size": 3209964,
               "sha256": "52dd7824dd728477c56d98ceff91fc269b90f9e57cff864b7d954ad1d84e4a57",
@@ -413,7 +399,6 @@
                 "exe",
                 "vst3"
               ],
-              "format": "zip",
               "type": "archive",
               "size": 3719312,
               "sha256": "e9688f6eda4e7076804c3abf68184c12f4c898fd59ca1333d06a15781b4a4341",
@@ -458,7 +443,6 @@
                 "lv2",
                 "vst3"
               ],
-              "format": "zip",
               "type": "archive",
               "size": 141204627,
               "sha256": "39aa2104a970ee80119bd05e2d8415f58488159452903e4b49200de74dac3daf",
@@ -478,7 +462,6 @@
                 "component",
                 "vst3"
               ],
-              "format": "pkg",
               "type": "installer",
               "size": 282803372,
               "sha256": "ecfcbdf9058f6ddc6cdbc344fc32bee5f7cc0ffe135432607c36a6274e47624b",
@@ -498,7 +481,6 @@
                 "dll",
                 "vst3"
               ],
-              "format": "exe",
               "type": "installer",
               "size": 92172129,
               "sha256": "828d99b67406adfb354553695df9ea1786772e2ac7fea77fe6197897b9788310",
@@ -542,7 +524,6 @@
                 "app",
                 "vst"
               ],
-              "format": "zip",
               "type": "archive",
               "size": 6048066,
               "sha256": "10ae7585d5b62e5c553635f48124251e7b61331fb69ea525dd41ee03da6d5009",
@@ -562,7 +543,6 @@
                 "exe",
                 "dll"
               ],
-              "format": "exe",
               "type": "installer",
               "size": 5482634,
               "sha256": "1298630e1343030dd884ad19e72f42301b51979bf721b240e26ff0de027bd789",
@@ -605,7 +585,6 @@
               "contains": [
                 "dll"
               ],
-              "format": "zip",
               "type": "archive",
               "size": 649728,
               "sha256": "8601f16a0e6f96eb2797ad1795e2d2c0da07d96ca89ff910f07f268d146673cf",
@@ -623,7 +602,6 @@
               "contains": [
                 "dll"
               ],
-              "format": "zip",
               "type": "archive",
               "size": 711168,
               "sha256": "fe3ac30518e3d7d5014afecfae21091139569927805661564eb939f6197dcc78",
@@ -666,7 +644,6 @@
               "contains": [
                 "dll"
               ],
-              "format": "zip",
               "type": "archive",
               "size": 748544,
               "sha256": "c54239e90102112a98b194d510169a7b7405da05fd51394c0f906d61c7358aeb",
@@ -684,7 +661,6 @@
               "contains": [
                 "dll"
               ],
-              "format": "zip",
               "type": "archive",
               "size": 797184,
               "sha256": "10d3867e85e88d7638f6cd414b8ce3b446d98eb2582fd7883064406686ffbcbf",
@@ -727,7 +703,6 @@
               "contains": [
                 "dll"
               ],
-              "format": "zip",
               "type": "archive",
               "size": 463872,
               "sha256": "ff39308b2546d2ac9d55a82acdeacf202d40ee85daabdb4c52cb81dafbab6bc8",
@@ -745,7 +720,6 @@
               "contains": [
                 "dll"
               ],
-              "format": "zip",
               "type": "archive",
               "size": 516096,
               "sha256": "2847fdd79d7452e87ea5eda003d4c5aa48408ee622b5077466e3c11cedbab06a",
@@ -791,7 +765,6 @@
                 "lv2",
                 "vst3"
               ],
-              "format": "deb",
               "type": "installer",
               "size": 223339140,
               "sha256": "a6e55064487f624147d515b9ae5fc79a568b69746675b2083abde628ca7bb151",
@@ -812,7 +785,6 @@
                 "lv2",
                 "vst3"
               ],
-              "format": "rpm",
               "type": "installer",
               "size": 349080230,
               "sha256": "aa57df9b79735db392b147e5ca6a9db7e9e9e5ba2907717aa055c501f3f59659",
@@ -834,7 +806,6 @@
                 "component",
                 "vst3"
               ],
-              "format": "dmg",
               "type": "installer",
               "size": 416715686,
               "sha256": "b56e8d51a8dc2382ae668c9ff4e96bae38dbd452af4e584d5a5ef50ab2d09b07",
@@ -853,7 +824,6 @@
                 "exe",
                 "vst3"
               ],
-              "format": "exe",
               "type": "installer",
               "size": 180883859,
               "sha256": "6fe3fb20ef21672666dddb816ad73f2966e98b70edad9189183451a255c2b2d1",
@@ -873,7 +843,6 @@
                 "clap",
                 "vst3"
               ],
-              "format": "exe",
               "type": "installer",
               "size": 183385478,
               "sha256": "6e221e05f29254508142b9e0ed76a85f22fa1b512501bebde571951e7eefecca",
@@ -913,7 +882,6 @@
                 "lv2",
                 "vst3"
               ],
-              "format": "deb",
               "type": "installer",
               "size": 220693484,
               "sha256": "729d92b5a4288f4c22587b8e84244c26aef34e58312ab5b4f4d1f196699b802e",
@@ -934,7 +902,6 @@
                 "lv2",
                 "vst3"
               ],
-              "format": "rpm",
               "type": "installer",
               "size": 346260010,
               "sha256": "135e9b8d3e71ab4dd502eee464b99f82c733be2ae23e8fca3724773dee3d54e8",
@@ -956,7 +923,6 @@
                 "component",
                 "vst3"
               ],
-              "format": "dmg",
               "type": "installer",
               "size": 411860016,
               "sha256": "e30b218700d4067edb3a0eadb4128784e41f91f663cff19e3fbb38460883cf59",
@@ -975,7 +941,6 @@
                 "exe",
                 "vst3"
               ],
-              "format": "exe",
               "type": "installer",
               "size": 180270273,
               "sha256": "3d766adb0d04b86f7aca8c136bc4c7b0727d316ec10895f679f1c01b0c236a00",
@@ -995,7 +960,6 @@
                 "clap",
                 "vst3"
               ],
-              "format": "exe",
               "type": "installer",
               "size": 182890274,
               "sha256": "2bac9c87c3e4293ecc4110087f5bb90a5218427921613409b84673f513f02bd3",
@@ -1041,7 +1005,6 @@
                 "clap",
                 "vst3"
               ],
-              "format": "zip",
               "type": "archive",
               "size": 11138914,
               "sha256": "a9a9a9b42e111bd41ee24157368ca2499cace806c505f7f8ccd9aeec03f251b7",
@@ -1062,7 +1025,6 @@
                 "component",
                 "vst3"
               ],
-              "format": "dmg",
               "type": "installer",
               "size": 26204639,
               "sha256": "7a3097c486c002d6533b55bae6ffd3024e9ccbc266e79ef008d2763719925843",
@@ -1082,7 +1044,6 @@
                 "clap",
                 "vst3"
               ],
-              "format": "zip",
               "type": "archive",
               "size": 11473649,
               "sha256": "483d957388e5655639a1a43092ce0f9677e512ee016186a3110909112d99b9f4",
@@ -1135,7 +1096,6 @@
               "contains": [
                 "sfz"
               ],
-              "format": "zip",
               "type": "archive",
               "size": 1729446,
               "sha256": "c4f15aa29d54e5f3b06e8db6bb6d4182317c1bbdfabd61ed3146492e908d429c",
@@ -1187,7 +1147,6 @@
               "contains": [
                 "sfz"
               ],
-              "format": "zip",
               "type": "archive",
               "size": 16025852,
               "sha256": "4a4ac29d1a373b8e4beb76995659198c6674907df9abd48ccd8736fb72d3e59a",
@@ -1231,7 +1190,6 @@
                 "lv2",
                 "vst3"
               ],
-              "format": "tar.gz",
               "type": "archive",
               "size": 36291101,
               "sha256": "ae1a0ea014eae9923b2b8e7b90d35dcebc309301fd82abaf13cbb55f01581c76",
@@ -1252,7 +1210,6 @@
                 "lv2",
                 "vst3"
               ],
-              "format": "tar.gz",
               "type": "archive",
               "size": 1748833,
               "sha256": "f3c2b4c562abfb1d182fb950503285637e7dee6c9b45baa2a06172923c76a4c7",
@@ -1271,7 +1228,6 @@
                 "dll",
                 "vst3"
               ],
-              "format": "exe",
               "type": "installer",
               "size": 3626650,
               "sha256": "56f57dfe443018e947b82b8e2bf4c9d824a9c961ff2b8eb6c5e929030b71b937",
@@ -1324,7 +1280,6 @@
               "contains": [
                 "sfz"
               ],
-              "format": "zip",
               "type": "archive",
               "size": 109135588,
               "sha256": "4f0b065c18b89111df4281df34c5120cd2d5b9a0c6b316835ec08d7891fd88d9",
@@ -1377,7 +1332,6 @@
               "contains": [
                 "sfz"
               ],
-              "format": "zip",
               "type": "archive",
               "size": 1227222816,
               "sha256": "a8e0da36cfe0a3832f09c24116139e3f72806144d10f3091dcc91e1636118fab",
@@ -1430,7 +1384,6 @@
               "contains": [
                 "sfz"
               ],
-              "format": "zip",
               "type": "archive",
               "size": 74508517,
               "sha256": "343c4cfd51fa8397ec911255e1407b8bc9b87c0dd264db75f17c2609cd458b52",
@@ -1483,7 +1436,6 @@
               "contains": [
                 "sfz"
               ],
-              "format": "zip",
               "type": "archive",
               "size": 36195708,
               "sha256": "a60b39f507721b4a2ee0380dbfe5267f8c7190e5a5c4590aed91bba496fc69c6",
@@ -1536,7 +1488,6 @@
               "contains": [
                 "sfz"
               ],
-              "format": "zip",
               "type": "archive",
               "size": 748476973,
               "sha256": "74d11c1ea0fcfe77eb80d6a48e960cbfc42716bdfd74a621eca5799f1680cb5c",
@@ -1588,7 +1539,6 @@
               "contains": [
                 "sfz"
               ],
-              "format": "zip",
               "type": "archive",
               "size": 1282802809,
               "sha256": "78201a1a9a7ba3596d49e2bfa88b76ed827ca5cdc95026666b6f88cd5100610b",
@@ -1642,7 +1592,6 @@
               "contains": [
                 "sfz"
               ],
-              "format": "zip",
               "type": "archive",
               "size": 39751862,
               "sha256": "ee547fb57ab4d04a3efeef101c7f591d0a67300f1c5459e02841c123ed643edd",
@@ -1695,7 +1644,6 @@
               "contains": [
                 "sfz"
               ],
-              "format": "zip",
               "type": "archive",
               "size": 18111475,
               "sha256": "553180446445f00b32548131aaf6a5ff3962c9b796abf02911b38caae532c4ed",
@@ -1748,7 +1696,6 @@
               "contains": [
                 "sfz"
               ],
-              "format": "zip",
               "type": "archive",
               "size": 176636805,
               "sha256": "49962554dc9480870ee9ae959e36789448d940709164291799c8027f6e276119",
@@ -1801,7 +1748,6 @@
               "contains": [
                 "sfz"
               ],
-              "format": "zip",
               "type": "archive",
               "size": 147505176,
               "sha256": "52157e831b82e0b1c512abda701f9133b8cd415b42a696b4d9b133946fa2e458",
@@ -1854,7 +1800,6 @@
               "contains": [
                 "sfz"
               ],
-              "format": "zip",
               "type": "archive",
               "size": 265232156,
               "sha256": "380986bb52ee6b6469d28e9089792a3ed37cbd163fe5a19160bf4f98785e7ccb",
@@ -1907,7 +1852,6 @@
               "contains": [
                 "sfz"
               ],
-              "format": "zip",
               "type": "archive",
               "size": 481838512,
               "sha256": "ba95221d32fb6386c5d0a0799b93904fd55520aca017c5f121da290075c140c0",
@@ -1960,7 +1904,6 @@
               "contains": [
                 "sfz"
               ],
-              "format": "zip",
               "type": "archive",
               "size": 131505201,
               "sha256": "66c28ea361c86943b2e2bcda6ca48cf105fec4f60a8f40e7c6bbf584be45c654",
@@ -2004,7 +1947,6 @@
                 "au",
                 "vst3"
               ],
-              "format": "dmg",
               "type": "installer",
               "size": 10743432,
               "sha256": "284bbc02b29dc0e10cc9bab77de4f8eac6c0b181c403c4e5e29f6854165d3a14",
@@ -2023,7 +1965,6 @@
                 "exe",
                 "vst3"
               ],
-              "format": "zip",
               "type": "archive",
               "size": 3637173,
               "sha256": "2166a4fd960714a353c857a538095428c781adad4d0b6c389b0892b822e04bd6",
@@ -2067,7 +2008,6 @@
                 "app",
                 "vst"
               ],
-              "format": "dmg",
               "type": "installer",
               "size": 5138961,
               "sha256": "9c1410ac2e233309228fe78ba2b151063088bae2259162aa32002cde4cfa2e1a",
@@ -2086,7 +2026,6 @@
                 "exe",
                 "dll"
               ],
-              "format": "msi",
               "type": "installer",
               "size": 2469888,
               "sha256": "5c8f1414faf84b8258bd0ab217eb149d9724125d0434c452e58f69f864aa1383",
@@ -2131,7 +2070,6 @@
                 "so",
                 "vst3"
               ],
-              "format": "zip",
               "type": "archive",
               "size": 12779876,
               "sha256": "3a45bdd0d8b9ba7f3f83ef0af53a87dc6639358e4eab1e4c6c2b9a1848bcaaa0",
@@ -2153,7 +2091,6 @@
                 "vst",
                 "vst3"
               ],
-              "format": "zip",
               "type": "archive",
               "size": 14308855,
               "sha256": "243a91132895d8271fae0496f93f101733779fbd5e385c9da8370fa6755c559c",
@@ -2172,7 +2109,6 @@
                 "exe",
                 "dll"
               ],
-              "format": "zip",
               "type": "archive",
               "size": 7936780,
               "sha256": "0cdb4867afa88767e4c393fe7786114c01d03adcb5f79344725d610e41adad2b",
@@ -2216,7 +2152,6 @@
                 "elf",
                 "so"
               ],
-              "format": "zip",
               "type": "archive",
               "size": 49557284,
               "sha256": "376f794b1ec15ff3ae614d4e094b499b3647c4a3ec0cc21e73cdd4fe62d7e7d9",
@@ -2235,7 +2170,6 @@
                 "app",
                 "vst"
               ],
-              "format": "zip",
               "type": "archive",
               "size": 63317149,
               "sha256": "c2f6d5b856f9225594c692633d5a45f664d9820178b7d2b5c0e2eebbe3ec05a7",
@@ -2254,7 +2188,6 @@
                 "exe",
                 "dll"
               ],
-              "format": "zip",
               "type": "archive",
               "size": 52845717,
               "sha256": "21100985a638cf93fa25fc5356e9eedfce2eae7604b6a24cee44267b82e78242",
@@ -2297,7 +2230,6 @@
               "contains": [
                 "dll"
               ],
-              "format": "zip",
               "type": "archive",
               "size": 1671878,
               "sha256": "41843439727f9eb1f8e30ebbd367da0a1aba5194e9d290d22192285accefa26a",
@@ -2340,7 +2272,6 @@
               "contains": [
                 "so"
               ],
-              "format": "tar.gz",
               "type": "archive",
               "size": 3573674,
               "sha256": "0b4c8d7e578e576e5c473bb94dd6d896e9cbe462ab45a8ad093fa3923bfdfd09",
@@ -2360,7 +2291,6 @@
                 "vst",
                 "vst3"
               ],
-              "format": "zip",
               "type": "archive",
               "size": 6443515,
               "sha256": "17697bf78f29732f04088bdc7239726eadd754099006729eff6950680be57089",
@@ -2379,7 +2309,6 @@
                 "dll",
                 "vst3"
               ],
-              "format": "zip",
               "type": "archive",
               "size": 4147020,
               "sha256": "8afbbf5609c37072a9cfd978a2e48b471c046d30283f0a7760971970aa11d8a8",
@@ -2432,7 +2361,6 @@
               "contains": [
                 "sfz"
               ],
-              "format": "zip",
               "type": "archive",
               "size": 618138108,
               "sha256": "1086afa02c5b0235710b63b7b6794300cb10370cd4f22d63f535227888de4b93",
@@ -2474,7 +2402,6 @@
               "contains": [
                 "so"
               ],
-              "format": "tar.gz",
               "type": "archive",
               "size": 12394844,
               "sha256": "a396fe8e0dbb832b7a1b776e6ad8a3752fd920e6e4425fec32d64b1efb7ebf3b",
@@ -2492,7 +2419,6 @@
               "contains": [
                 "dll"
               ],
-              "format": "zip",
               "type": "archive",
               "size": 4679467,
               "sha256": "c45a2aa751eef75acaef52ad3ceafcf2cdaabe07f6b9329cc0dcdcacae0160dc",
@@ -2510,7 +2436,6 @@
               "contains": [
                 "vst3"
               ],
-              "format": "zip",
               "type": "archive",
               "size": 2682832,
               "sha256": "d98a867a862078e32f7f10d6574de525cbb67fd6b629de1e1ecef2f571d47d39",
@@ -2555,7 +2480,6 @@
                 "lv2",
                 "so"
               ],
-              "format": "deb",
               "type": "installer",
               "size": 8328284,
               "sha256": "aedf8b676657f72782513e5ad5f9c61a6bc21fe9357b23052928adafa8215eca",
@@ -2575,7 +2499,6 @@
                 "component",
                 "vst3"
               ],
-              "format": "pkg",
               "type": "installer",
               "size": 17258268,
               "sha256": "1bfac2c016d7dd5cd51e714fa6d9facef4e1db52617ff7dd52748dbec1400ebf",
@@ -2594,7 +2517,6 @@
                 "dll",
                 "vst3"
               ],
-              "format": "msi",
               "type": "installer",
               "size": 11001856,
               "sha256": "cdd711f3848c49e6b321ddc47fa5c5a62fc2d67744cfcafc7aa2ac3daad97747",
@@ -2639,7 +2561,6 @@
                 "elf",
                 "so"
               ],
-              "format": "zip",
               "type": "archive",
               "size": 3657547,
               "sha256": "e4ee704d6e74c8dd3f23fccc26fb8ab634333e8c14da915eb9e23e2774cca635",
@@ -2658,7 +2579,6 @@
                 "vst",
                 "vst3"
               ],
-              "format": "zip",
               "type": "archive",
               "size": 5258069,
               "sha256": "260e2e934ef9b9994a513f25ef11396159669c167823cab229eabff72b9b786f",
@@ -2677,7 +2597,6 @@
                 "dll",
                 "vst3"
               ],
-              "format": "zip",
               "type": "archive",
               "size": 4706043,
               "sha256": "d0fe5d00d9f6b107eaf912694e1295343b5a05ca1581335dd251942832035282",
@@ -2722,7 +2641,6 @@
                 "lv2",
                 "vst3"
               ],
-              "format": "zip",
               "type": "archive",
               "size": 12991955,
               "sha256": "6d2fb6e5aaadcafa221892ff80dbbb8ee8e4530bc0e4f3a4abd594c2b307c96e",
@@ -2744,7 +2662,6 @@
                 "lv2",
                 "vst3"
               ],
-              "format": "zip",
               "type": "archive",
               "size": 10826437,
               "sha256": "104a071c080a3a5580cd865b69bb57044184ca836bd31a5efb58bbef647aedc7",
@@ -2764,7 +2681,6 @@
                 "lv2",
                 "vst3"
               ],
-              "format": "zip",
               "type": "archive",
               "size": 5331340,
               "sha256": "f0fd945a386df7fd2fa006c679bc5c6262af7458b03a2989cc343845d389633f",
@@ -2811,7 +2727,6 @@
                 "so",
                 "vst3"
               ],
-              "format": "tar.gz",
               "type": "archive",
               "size": 2267368,
               "sha256": "59f1593120de82e31dd194e2ab1536af14fec2b3ec6ec45abf6d9c8ac02ef430",
@@ -2833,7 +2748,6 @@
                 "so",
                 "vst3"
               ],
-              "format": "tar.gz",
               "type": "archive",
               "size": 2267368,
               "sha256": "59f1593120de82e31dd194e2ab1536af14fec2b3ec6ec45abf6d9c8ac02ef430",
@@ -2856,7 +2770,6 @@
                 "vst",
                 "vst3"
               ],
-              "format": "dmg",
               "type": "installer",
               "size": 24954281,
               "sha256": "e0b854b92a4e51ce5851320fb1a9f91ab1a4309f997de070e175b3e5cab4adaf",
@@ -2878,7 +2791,6 @@
                 "lv2",
                 "vst3"
               ],
-              "format": "zip",
               "type": "archive",
               "size": 22447365,
               "sha256": "ca5f35f9dcd9a33f06490d3c92f04061a1a798cb81257d5ca5851bdda0824c66",
@@ -2932,7 +2844,6 @@
               "contains": [
                 "sfz"
               ],
-              "format": "zip",
               "type": "archive",
               "size": 1019941,
               "sha256": "3b7d45eecb1201179ce618c71ce501732214684284ac1ddecf9ab251d58e9128",
@@ -2975,7 +2886,6 @@
               "contains": [
                 "component"
               ],
-              "format": "zip",
               "type": "archive",
               "size": 1387213,
               "sha256": "a47e0ff24de8dc527bd9dec5f073306bdafb40f4d402ea49748dc9c83b321713",
@@ -2993,7 +2903,6 @@
               "contains": [
                 "vst3"
               ],
-              "format": "zip",
               "type": "archive",
               "size": 1376064,
               "sha256": "448ba023b89529cea58fa70fe078223ecfb3085677850f59d5e12fea18e911c1",
@@ -3011,7 +2920,6 @@
               "contains": [
                 "vst3"
               ],
-              "format": "zip",
               "type": "archive",
               "size": 1933137,
               "sha256": "83035dc5c0ab471d5e51fe78a00c672a6d70d72d931c72a8f10b0025b46e7b71",
@@ -3053,7 +2961,6 @@
               "contains": [
                 "so"
               ],
-              "format": "zip",
               "type": "archive",
               "size": 188933,
               "sha256": "101ecc4d4634c257fd91f89e3ba8cafdd56d5b79ee9eda66102ff78777460520",
@@ -3072,7 +2979,6 @@
                 "component",
                 "vst"
               ],
-              "format": "zip",
               "type": "archive",
               "size": 674694,
               "sha256": "648bd13355a3b8c40c0ce2fba3ec62c09e222ed291af44444b72d3cf29ebf7aa",
@@ -3090,7 +2996,6 @@
               "contains": [
                 "dll"
               ],
-              "format": "zip",
               "type": "archive",
               "size": 283901,
               "sha256": "0eeecde752bf6f2c80797faa8a2a17dc5b6951fbfbc63bbf0f2e1847b8f53070",
@@ -3134,7 +3039,6 @@
                 "component",
                 "vst3"
               ],
-              "format": "pkg",
               "type": "installer",
               "size": 3578245,
               "sha256": "219d28db830d7019c20d1f9533f29515053d0f2f983e8fb9275e6a2fbbb9ef06",
@@ -3152,7 +3056,6 @@
               "contains": [
                 "vst3"
               ],
-              "format": "exe",
               "type": "installer",
               "size": 4189654,
               "sha256": "0ab14fe4c89193fbfb12b7fa106228ffa37808c4401d8e161813184cec6fcde1",
@@ -3195,7 +3098,6 @@
               "contains": [
                 "vst"
               ],
-              "format": "zip",
               "type": "archive",
               "size": 177262,
               "sha256": "e561ae5da234e861e2fe9034904f1c8aef39ba95a820933cdc9237a2982559c9",
@@ -3213,7 +3115,6 @@
               "contains": [
                 "dll"
               ],
-              "format": "zip",
               "type": "archive",
               "size": 227212,
               "sha256": "8065e9b7eeb779315939a78f7470c4bbd4058408f844ccd28e61e8b7c43f9247",
@@ -3258,7 +3159,6 @@
                 "lv2",
                 "so"
               ],
-              "format": "deb",
               "type": "installer",
               "size": 3876232,
               "sha256": "284fb7271dbdf399d3bc06464bf06726fa97554becfecf3b998615cf976e0fc6",
@@ -3281,7 +3181,6 @@
                 "vst",
                 "vst3"
               ],
-              "format": "7z",
               "type": "archive",
               "size": 10965202,
               "sha256": "f874683fd0899fd83e9bc7568aa0079035df084cadeea2569826933b2dcee315",
@@ -3302,7 +3201,6 @@
                 "lv2",
                 "vst3"
               ],
-              "format": "7z",
               "type": "archive",
               "size": 18709184,
               "sha256": "f65675b01c4a43fd85bd1c9a188fd1725bd2595719ca878e466ef83b42fdc8e2",
@@ -3347,7 +3245,6 @@
                 "lv2",
                 "so"
               ],
-              "format": "deb",
               "type": "installer",
               "size": 3822930,
               "sha256": "7e3f433f93f861f475e80d571e79ab0ada157590b276179d82f07797cb27d01b",
@@ -3370,7 +3267,6 @@
                 "vst",
                 "vst3"
               ],
-              "format": "7z",
               "type": "archive",
               "size": 10663602,
               "sha256": "44d2f6e34ca02f51a11ef64be1208dc50f553ce02a3f1ef9fa36a90c34699934",
@@ -3391,7 +3287,6 @@
                 "lv2",
                 "vst3"
               ],
-              "format": "7z",
               "type": "archive",
               "size": 18562585,
               "sha256": "bad70fcb3b9debcebb2abe840bfd93fa40f743ab8f02bb3f438d104a044f6882",
@@ -3436,7 +3331,6 @@
                 "vst",
                 "vst3"
               ],
-              "format": "zip",
               "type": "archive",
               "size": 10002246,
               "sha256": "cd35563df0b5fef0d5afcc7ccddd69eeb2fb40b1c85a8dc99347d3b56a2a67db",
@@ -3456,7 +3350,6 @@
                 "dll",
                 "vst3"
               ],
-              "format": "zip",
               "type": "archive",
               "size": 2858396,
               "sha256": "3141f43f3e6445f154395c1da1221c2931b1dfd5140f0207b8a4b8052b8fb574",
@@ -3501,7 +3394,6 @@
                 "dll",
                 "vst3"
               ],
-              "format": "zip",
               "type": "archive",
               "size": 9612204,
               "sha256": "3ce41db5d487d2f92e1a1e337987786cd58ad9ea5689a62b7126dfee41f5462c",
@@ -3521,7 +3413,6 @@
                 "dll",
                 "vst3"
               ],
-              "format": "zip",
               "type": "archive",
               "size": 2428873,
               "sha256": "3c1bb2f8ca87966a3047a73c2bab4ea9af629af0d7356103bd6ff940de2da45c",
@@ -3565,7 +3456,6 @@
                 "lv2",
                 "vst3"
               ],
-              "format": "deb",
               "type": "installer",
               "size": 2172048,
               "sha256": "78b59aa99c0c2cf637de90a47f46d852b6f3ac59ccee1bcab2d3d77dc37a0586",
@@ -3585,7 +3475,6 @@
                 "component",
                 "vst3"
               ],
-              "format": "dmg",
               "type": "installer",
               "size": 10830999,
               "sha256": "89d8ddaa625689db0f0b5dec0c61fe8d129b4533bc0f797af212534e8fb3c9a4",
@@ -3604,7 +3493,6 @@
                 "aax",
                 "vst3"
               ],
-              "format": "exe",
               "type": "installer",
               "size": 4026478,
               "sha256": "29be822eec1c40f119303560338e1e4aa03ef69844d49ef4f75cdf3cada46117",
@@ -3648,7 +3536,6 @@
                 "clap",
                 "so"
               ],
-              "format": "zip",
               "type": "archive",
               "size": 5760864,
               "sha256": "cfa2a955bffdb3537bf782b70c175f3ae2071aded2832b464b6b30e5161de173",
@@ -3667,7 +3554,6 @@
                 "clap",
                 "vst"
               ],
-              "format": "zip",
               "type": "archive",
               "size": 10292979,
               "sha256": "449f99fdb00febc8f716ccebbc74767ff73e268f3f7b27717478d1dfa1fea468",
@@ -3686,7 +3572,6 @@
                 "clap",
                 "dll"
               ],
-              "format": "zip",
               "type": "archive",
               "size": 4624717,
               "sha256": "7ac928ddfe8f54a26c4264b95d3f1c4ccd047db106694bf5c722748662cb2d5f",
@@ -3739,7 +3624,6 @@
               "contains": [
                 "sfz"
               ],
-              "format": "zip",
               "type": "archive",
               "size": 32413525,
               "sha256": "3d602dcff94bcf9fb9b2d78df8c689814c895fd2776ee104a95b73c44bdc7e18",
@@ -3792,7 +3676,6 @@
               "contains": [
                 "sfz"
               ],
-              "format": "zip",
               "type": "archive",
               "size": 1663420,
               "sha256": "07d58651820247ba2b57d0e3cac0b1e0734a9773d92c3bcddc48bbb9f3fcdeb8",
@@ -3845,7 +3728,6 @@
               "contains": [
                 "sfz"
               ],
-              "format": "zip",
               "type": "archive",
               "size": 4943846,
               "sha256": "173f775222991061291767724d57c7c21242a3c3254407b266aabd548df23dbb",
@@ -3898,7 +3780,6 @@
               "contains": [
                 "sfz"
               ],
-              "format": "7z",
               "type": "archive",
               "size": 13478020,
               "sha256": "dea56a898c88b838e37f92967fe0edfe41b1bd2aa16ed9a240e3f44efb525a5c",
@@ -3951,7 +3832,6 @@
               "contains": [
                 "sfz"
               ],
-              "format": "zip",
               "type": "archive",
               "size": 10628855,
               "sha256": "9506bd3f9021f1cbc431c7a6a0ba193fa38e4f3b4f3126b308edcfab56a066ee",
@@ -3997,7 +3877,6 @@
                 "lv2",
                 "vst"
               ],
-              "format": "dmg",
               "type": "installer",
               "size": 381733941,
               "sha256": "d797ec83ac9bbd402cb116d1b562cbb6d786b355f42233436546fbf2bc4015e9",
@@ -4017,7 +3896,6 @@
                 "exe",
                 "lv2"
               ],
-              "format": "zip",
               "type": "archive",
               "size": 246800688,
               "sha256": "de0091c4cc5fdcfdb4f589434d6e23554790d9b6c484908f7e31afebfd627565",
@@ -4069,7 +3947,6 @@
               "contains": [
                 "sfz"
               ],
-              "format": "zip",
               "type": "archive",
               "size": 24091,
               "sha256": "bce8fa0cb01b4ad2d4d5e7e5d297dc26be3d4af761807fae1e7b960d47dfc00b",
@@ -4112,7 +3989,6 @@
               "contains": [
                 "vst"
               ],
-              "format": "zip",
               "type": "archive",
               "size": 1595902,
               "sha256": "55827a53f1862f19d7017e5db4d31fd82732fb3bce0d704662143bde75cb35c2",
@@ -4130,7 +4006,6 @@
               "contains": [
                 "dll"
               ],
-              "format": "zip",
               "type": "archive",
               "size": 1466718,
               "sha256": "988803f6c7810bcef13289cc8aa32437ebb343134e051123b04e1b8815ec99c3",
@@ -4178,7 +4053,6 @@
                 "so",
                 "vst3"
               ],
-              "format": "tar.gz",
               "type": "archive",
               "size": 9063488,
               "sha256": "f3251277b3083c363c84908656b24e213b65468ee24e85f5a10bad406b78f877",
@@ -4200,7 +4074,6 @@
                 "so",
                 "vst3"
               ],
-              "format": "tar.gz",
               "type": "archive",
               "size": 9827340,
               "sha256": "8088e362f9f68fea179abe9f96b83fca07693224ffcf46837c24ff8b59b119cb",
@@ -4223,7 +4096,6 @@
                 "vst",
                 "vst3"
               ],
-              "format": "dmg",
               "type": "installer",
               "size": 57933584,
               "sha256": "94b996c898a7ba160561113d1c48c4700a6ef65d33f4092ea7289b1af44059e1",
@@ -4245,7 +4117,6 @@
                 "lv2",
                 "vst3"
               ],
-              "format": "zip",
               "type": "archive",
               "size": 74524341,
               "sha256": "fdc609e0936e9c999395b9ddd98a9a72739cb672d8838ab71849469aee50ad98",
@@ -4289,7 +4160,6 @@
                 "lv2",
                 "so"
               ],
-              "format": "zip",
               "type": "archive",
               "size": 1437316,
               "sha256": "714c10fa2f6c0163b98c3186361f6ed673eb67b566d8e81284da3babff67f581",
@@ -4308,7 +4178,6 @@
                 "lv2",
                 "vst"
               ],
-              "format": "zip",
               "type": "archive",
               "size": 5123506,
               "sha256": "d0068e3eefb24265880702f2e11d8129f8b5acfd3a3a5d0faa9a6ecb136ac02c",
@@ -4327,7 +4196,6 @@
                 "dll",
                 "lv2"
               ],
-              "format": "zip",
               "type": "archive",
               "size": 5988233,
               "sha256": "238725071586c29746f77ff205afcc407809f454ee9e6c5d9bde0362dc2e91a5",
@@ -4371,7 +4239,6 @@
                 "lv2",
                 "so"
               ],
-              "format": "zip",
               "type": "archive",
               "size": 4131243,
               "sha256": "0cb3d4dfed087d68ad59c261d2440bd199e97a2803d4229d3614bf748abd1d4b",
@@ -4417,7 +4284,6 @@
                 "so",
                 "vst3"
               ],
-              "format": "deb",
               "type": "installer",
               "size": 5112948,
               "sha256": "71aaae1c454ac83ac16b248d4cc99c12bf6d11452a87376fcb6b1e79060e3a5c",
@@ -4439,7 +4305,6 @@
                 "vst",
                 "vst3"
               ],
-              "format": "dmg",
               "type": "installer",
               "size": 28745196,
               "sha256": "9b37e2b6cb6c0a839ee9c65e1a958834ca647b3edfc4bd144115c483b4d64f82",
@@ -4459,7 +4324,6 @@
                 "exe",
                 "vst3"
               ],
-              "format": "exe",
               "type": "installer",
               "size": 10646528,
               "sha256": "8ba6e91196067244837877d9ca4a8e4a1f5bfad60cf33fa699c8a5b41f1211bf",
@@ -4505,7 +4369,6 @@
                 "so",
                 "vst3"
               ],
-              "format": "deb",
               "type": "installer",
               "size": 2990012,
               "sha256": "332749bba2fcfefeb68c105b9f55fd71aa7a8bfb524f592cbb68cc6c0581a767",
@@ -4527,7 +4390,6 @@
                 "vst",
                 "vst3"
               ],
-              "format": "dmg",
               "type": "installer",
               "size": 17091478,
               "sha256": "11705e4cfb023525e8b6830fb29feb046eac05688428a12a8fdad48dc9a9fdcf",
@@ -4547,7 +4409,6 @@
                 "exe",
                 "vst3"
               ],
-              "format": "exe",
               "type": "installer",
               "size": 7958887,
               "sha256": "b1e2451ae66362bf82112e77fccc48a1233780b6cbfb58fe1a588b17a77456c5",
@@ -4593,7 +4454,6 @@
                 "vst",
                 "vst3"
               ],
-              "format": "zip",
               "type": "archive",
               "size": 2029118,
               "sha256": "5e2510d6794e308169b6fab3d0874845d608dd66447d78b9ed9a643d0ac012e5",
@@ -4613,7 +4473,6 @@
                 "dll",
                 "vst3"
               ],
-              "format": "zip",
               "type": "archive",
               "size": 5443871,
               "sha256": "ffc3a8fad2e6044467cc413ec2929d6f8ff4c29dc3a12ab5828c14ec09a55f80",
@@ -4659,7 +4518,6 @@
                 "vst",
                 "vst3"
               ],
-              "format": "tar.gz",
               "type": "archive",
               "size": 28813905,
               "sha256": "0321213ead513da5e95b69eba89f37e28cb480b4737a22713fdd966124b8e340",
@@ -4679,7 +4537,6 @@
                 "exe",
                 "vst3"
               ],
-              "format": "zip",
               "type": "archive",
               "size": 16237789,
               "sha256": "21a706090d0a72511756dfd65d6a3c0711257c94b707679346e04d182dc178a0",
@@ -4725,7 +4582,6 @@
                 "vst",
                 "vst3"
               ],
-              "format": "pkg",
               "type": "installer",
               "size": 201757713,
               "sha256": "51dbe21c46b400034f796ae53cc5a31d278ab2dcffe49b37e2f61936b48af54f",
@@ -4744,7 +4600,6 @@
                 "dll",
                 "lv2"
               ],
-              "format": "zip",
               "type": "archive",
               "size": 86958075,
               "sha256": "deca1305320f3debdf1d96299f4850a5de3b3d2c3f6142a78fb7afca633d787c",
@@ -4789,7 +4644,6 @@
                 "clap",
                 "vst3"
               ],
-              "format": "zip",
               "type": "archive",
               "size": 7612454,
               "sha256": "5d026f53504f9303ae2a4a635cf6fdfc50ab9c947cbc0a20ecb5c8f323402dab",
@@ -4810,7 +4664,6 @@
                 "component",
                 "vst3"
               ],
-              "format": "zip",
               "type": "archive",
               "size": 17072451,
               "sha256": "3be32f98e56b40d9555a4069368c7307b8bae3368459bb087cf6195ae7538704",
@@ -4830,7 +4683,6 @@
                 "clap",
                 "vst3"
               ],
-              "format": "zip",
               "type": "archive",
               "size": 10388001,
               "sha256": "5df11ce77baf8e02af0bc35fe4981593ce1afdf70d67fe8cde65174b4f8a57ca",
@@ -4873,7 +4725,6 @@
               "contains": [
                 "so"
               ],
-              "format": "tar.gz",
               "type": "archive",
               "size": 6073667,
               "sha256": "227cc22ef7b7cbf0945a6c428b6134911c7b09400908908132024ecd6563e3cc",
@@ -4891,7 +4742,6 @@
               "contains": [
                 "vst"
               ],
-              "format": "zip",
               "type": "archive",
               "size": 5229715,
               "sha256": "42165bcf77b99e1dbecf31528402c2d0bbb80c1c1153f64a686a5f0645d85a1f",
@@ -4909,7 +4759,6 @@
               "contains": [
                 "dll"
               ],
-              "format": "zip",
               "type": "archive",
               "size": 3463564,
               "sha256": "878781faf4acd931b6f30ce55f3bada63f83825a1436e19f116bf9680302cb9a",
@@ -4952,7 +4801,6 @@
                 "clap",
                 "vst3"
               ],
-              "format": "zip",
               "type": "archive",
               "size": 5916842,
               "sha256": "8ef8e5f0888443a8b672f62e19101f63de02e56d76a3282375276134a3924046",
@@ -4971,7 +4819,6 @@
                 "clap",
                 "vst3"
               ],
-              "format": "zip",
               "type": "archive",
               "size": 4009494,
               "sha256": "ceb6ea2261e4b4c059d51a9c93be1f21695cc837c0ed96df07d56926ba0db6ce",
@@ -4990,7 +4837,6 @@
                 "clap",
                 "vst3"
               ],
-              "format": "zip",
               "type": "archive",
               "size": 3456424,
               "sha256": "2ce5b9b61ebe379dd41ef97d2728415a573c0162f72c2d62ec74678409286a19",
@@ -5034,7 +4880,6 @@
                 "elf",
                 "vst3"
               ],
-              "format": "zip",
               "type": "archive",
               "size": 7528497,
               "sha256": "1149b172665d2accfa8ef597361eab3d7e9da65784424f6201d3bb0cded52cbd",
@@ -5054,7 +4899,6 @@
                 "clap",
                 "vst3"
               ],
-              "format": "zip",
               "type": "archive",
               "size": 6925944,
               "sha256": "efd61d1fb05364676933c928f436e42fce070bc6023d9c59ec7bf14a163dd6b6",
@@ -5074,7 +4918,6 @@
                 "clap",
                 "vst3"
               ],
-              "format": "zip",
               "type": "archive",
               "size": 6413946,
               "sha256": "6982220abde622395ef8cabc108dcf2cc5b4b61f8676fd82d6d9ed8fe51a5a62",
@@ -5094,7 +4937,6 @@
                 "exe",
                 "vst3"
               ],
-              "format": "zip",
               "type": "archive",
               "size": 6749313,
               "sha256": "c8177422d8d25eaef575651fde821773a41765a9c00b7f6471d5e81247078db3",
@@ -5137,7 +4979,6 @@
                 "clap",
                 "vst3"
               ],
-              "format": "zip",
               "type": "archive",
               "size": 3822972,
               "sha256": "13a275e0dba11f6a3028e8e4bb1269befcedfcb54697c754fc13ff135e4ba825",
@@ -5156,7 +4997,6 @@
                 "clap",
                 "vst3"
               ],
-              "format": "zip",
               "type": "archive",
               "size": 3481740,
               "sha256": "69f16088ee57b6c0981cf4f49ce8a823492e0ef87ecb24255adb19bf38ddb095",
@@ -5175,7 +5015,6 @@
                 "clap",
                 "vst3"
               ],
-              "format": "zip",
               "type": "archive",
               "size": 3365550,
               "sha256": "4ea2fedb0efa1ce5dd0749924e65189f1e4575c3f5ef83d92124495a1374c46f",
@@ -5194,7 +5033,6 @@
                 "clap",
                 "vst3"
               ],
-              "format": "zip",
               "type": "archive",
               "size": 3194614,
               "sha256": "aa76f3cf00ca8449a324f3fbbbdf8229ee20de68000ce89c8b458ad65bd33599",
@@ -5238,7 +5076,6 @@
                 "clap",
                 "vst3"
               ],
-              "format": "zip",
               "type": "archive",
               "size": 4202182,
               "sha256": "4bf665db88cfc3f85808241f85d7a1173131224ca6f4ac1a7ebd77a80c6c55d2",
@@ -5257,7 +5094,6 @@
                 "clap",
                 "vst3"
               ],
-              "format": "zip",
               "type": "archive",
               "size": 3703002,
               "sha256": "9d9d7ec00c80ef955203e452a4b2fecd1b7ecf9a0b60d5ab9a4829f7d9be06b1",
@@ -5276,7 +5112,6 @@
                 "clap",
                 "vst3"
               ],
-              "format": "zip",
               "type": "archive",
               "size": 3451574,
               "sha256": "11c628bea7d5ffbc8c0bd3292c12abdbaf27525ee375f4dc20ba3cadfe7bd66c",
@@ -5320,7 +5155,6 @@
                 "clap",
                 "vst3"
               ],
-              "format": "zip",
               "type": "archive",
               "size": 8369198,
               "sha256": "9733ac876eb9d0089885b2f40f3571ef8558a294005efdbbeb0012f586f9b1c3",
@@ -5339,7 +5173,6 @@
                 "clap",
                 "vst3"
               ],
-              "format": "zip",
               "type": "archive",
               "size": 6125534,
               "sha256": "c3a8849bdd39d9f804136c4e2bdc31b7daa6b4f3ba7f0a185d474929df6fc045",
@@ -5358,7 +5191,6 @@
                 "clap",
                 "vst3"
               ],
-              "format": "zip",
               "type": "archive",
               "size": 5670254,
               "sha256": "afe178504be8425cc38717280955594a0003c9683132a3301be587c7124b0343",
@@ -5377,7 +5209,6 @@
                 "clap",
                 "vst3"
               ],
-              "format": "zip",
               "type": "archive",
               "size": 5573640,
               "sha256": "348a0f6c50bc5ef077573aff85cf5234c487df7fd5d3fe81c4bd9daaabfe0515",
@@ -5420,7 +5251,6 @@
               "contains": [
                 "so"
               ],
-              "format": "zip",
               "type": "archive",
               "size": 4333771,
               "sha256": "9cd18d5d6dfcafaf9741c7796fe49bd305146f11dde14bee16204915fb55ce29",
@@ -5438,7 +5268,6 @@
               "contains": [
                 "vst"
               ],
-              "format": "zip",
               "type": "archive",
               "size": 2540024,
               "sha256": "df5bba5f152ac7f3cd72342e69d49aae94a38856ff99f78ccb5a6a8eff130f08",
@@ -5456,7 +5285,6 @@
               "contains": [
                 "dll"
               ],
-              "format": "zip",
               "type": "archive",
               "size": 2765142,
               "sha256": "5532a02b2082848177b538774dae82885311d22304324d0178980d77fd96ecb9",
@@ -5511,7 +5339,6 @@
               "contains": [
                 "sfz"
               ],
-              "format": "zip",
               "type": "archive",
               "size": 112081142,
               "sha256": "ff06fd29fd78629ae6146c3159fbdf6c5362cc98ac9b6f2ac6fcbc2727ac536c",
@@ -5556,7 +5383,6 @@
                 "deb",
                 "vst3"
               ],
-              "format": "tar.gz",
               "type": "archive",
               "size": 6792615,
               "sha256": "0039004fc91161ac1b7a5429b2aaebffc8cb41b9106b2c076e5cee5dad6922c6",
@@ -5576,7 +5402,6 @@
                 "clap",
                 "vst3"
               ],
-              "format": "zip",
               "type": "archive",
               "size": 11921549,
               "sha256": "28f8270b4f1edfc6dcbe8adadcfec2651b68572ece4a53c7894485ebde5be9b9",
@@ -5595,7 +5420,6 @@
                 "clap",
                 "vst3"
               ],
-              "format": "zip",
               "type": "archive",
               "size": 6277710,
               "sha256": "214e68cff03bb8a9dc9219698bb827554a0f3aaa58329bdfbb054fc3573194c3",
@@ -5649,7 +5473,6 @@
               "contains": [
                 "fxp"
               ],
-              "format": "zip",
               "type": "archive",
               "size": 3773,
               "sha256": "ddc328295ca5a25303a42c45b184f99b7e923bbcbb92b8061e33191f79f19ad9",
@@ -5706,7 +5529,6 @@
               "contains": [
                 "als"
               ],
-              "format": "zip",
               "type": "archive",
               "size": 216863,
               "sha256": "77e2d542235889b027f2ecbe66b753978a5232fabac9c97151a86173048e2eaf",
