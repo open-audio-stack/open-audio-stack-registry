@@ -25,7 +25,6 @@ files:
       - clap
       - deb
       - vst3
-    format: tar.gz
     type: archive
     size: 6792615
     sha256: 0039004fc91161ac1b7a5429b2aaebffc8cb41b9106b2c076e5cee5dad6922c6
@@ -38,7 +37,6 @@ files:
     contains:
       - clap
       - vst3
-    format: zip
     type: archive
     size: 11921549
     sha256: 28f8270b4f1edfc6dcbe8adadcfec2651b68572ece4a53c7894485ebde5be9b9
@@ -50,7 +48,6 @@ files:
     contains:
       - clap
       - vst3
-    format: zip
     type: archive
     size: 6277710
     sha256: 214e68cff03bb8a9dc9219698bb827554a0f3aaa58329bdfbb054fc3573194c3

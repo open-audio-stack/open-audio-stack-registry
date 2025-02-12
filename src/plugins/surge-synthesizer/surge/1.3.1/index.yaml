@@ -24,7 +24,6 @@ files:
       - clap
       - lv2
       - vst3
-    format: deb
     type: installer
     size: 220693484
     sha256: 729d92b5a4288f4c22587b8e84244c26aef34e58312ab5b4f4d1f196699b802e
@@ -38,7 +37,6 @@ files:
       - clap
       - lv2
       - vst3
-    format: rpm
     type: installer
     size: 346260010
     sha256: 135e9b8d3e71ab4dd502eee464b99f82c733be2ae23e8fca3724773dee3d54e8
@@ -53,7 +51,6 @@ files:
       - clap
       - component
       - vst3
-    format: dmg
     type: installer
     size: 411860016
     sha256: e30b218700d4067edb3a0eadb4128784e41f91f663cff19e3fbb38460883cf59
@@ -65,7 +62,6 @@ files:
     contains:
       - exe
       - vst3
-    format: exe
     type: installer
     size: 180270273
     sha256: 3d766adb0d04b86f7aca8c136bc4c7b0727d316ec10895f679f1c01b0c236a00
@@ -78,7 +74,6 @@ files:
       - exe
       - clap
       - vst3
-    format: exe
     type: installer
     size: 182890274
     sha256: 2bac9c87c3e4293ecc4110087f5bb90a5218427921613409b84673f513f02bd3

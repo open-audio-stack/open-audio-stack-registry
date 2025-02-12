@@ -27,7 +27,6 @@ files:
       - lv2
       - so
       - vst3
-    format: deb
     type: installer
     size: 2990012
     sha256: 332749bba2fcfefeb68c105b9f55fd71aa7a8bfb524f592cbb68cc6c0581a767
@@ -42,7 +41,6 @@ files:
       - component
       - vst
       - vst3
-    format: dmg
     type: installer
     size: 17091478
     sha256: 11705e4cfb023525e8b6830fb29feb046eac05688428a12a8fdad48dc9a9fdcf
@@ -55,7 +53,6 @@ files:
       - dll
       - exe
       - vst3
-    format: exe
     type: installer
     size: 7958887
     sha256: b1e2451ae66362bf82112e77fccc48a1233780b6cbfb58fe1a588b17a77456c5

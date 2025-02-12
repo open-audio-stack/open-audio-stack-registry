@@ -23,7 +23,6 @@ files:
       - component
       - vst
       - vst3
-    format: zip
     type: archive
     size: 10002246
     sha256: cd35563df0b5fef0d5afcc7ccddd69eeb2fb40b1c85a8dc99347d3b56a2a67db
@@ -36,7 +35,6 @@ files:
     contains:
       - dll
       - vst3
-    format: zip
     type: archive
     size: 2858396
     sha256: 3141f43f3e6445f154395c1da1221c2931b1dfd5140f0207b8a4b8052b8fb574
