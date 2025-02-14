@@ -5,7 +5,7 @@
 </h1>
 <p>Audio registry specification and API with searchable list of packages</p>
   <p>
-    <a href="https://github.com/open-audio-stack/open-audio-stack-core/wiki/Open-Audio-Stack-%E2%80%90-Registry-%E2%80%90-Specification-1.0.0">Registry Specification</a>
+    <a href="specification.md">Registry Specification</a>
     ⦁︎
     <a href="https://open-audio-stack.github.io/open-audio-stack-registry">Registry API</a>
     ⦁︎
