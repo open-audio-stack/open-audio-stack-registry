@@ -1,0 +1,147 @@
+{
+  "slug": "joepvanlier/ysfx",
+  "version": "0.0.33",
+  "versions": {
+    "0.0.33": {
+      "name": "ysfx",
+      "author": "Jean Pierre Cimalando / Joep Vanlier",
+      "description": "Hosting library for JSFX",
+      "license": "gpl-3.0",
+      "type": "tool",
+      "tags": [
+        "Instrument",
+        "Synth",
+        "JSFX"
+      ],
+      "url": "https://github.com/JoepVanlier/ysfx",
+      "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/joepvanlier/ysfx/ysfx.flac",
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/joepvanlier/ysfx/ysfx.jpg",
+      "date": "2025-02-09T18:50:00.000Z",
+      "changes": "See https://github.com/JoepVanlier/ysfx/releases/tag/v0.0.33",
+      "files": [
+        {
+          "systems": [
+            {
+              "type": "linux"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "vst3"
+          ],
+          "type": "archive",
+          "size": 10433063,
+          "sha256": "3447478274b48a26e9992e5cdd0dee038264548d596a41094735eef21587e535",
+          "url": "https://github.com/JoepVanlier/ysfx/releases/download/v0.0.33/Linux.64-bit.VST3.zip"
+        },
+        {
+          "systems": [
+            {
+              "type": "linux"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "clap"
+          ],
+          "type": "archive",
+          "size": 9995425,
+          "sha256": "35b662a0c6c2db350d4c67d74f1fa9cfc4937639ce5f0971cc030dcef0979357",
+          "url": "https://github.com/JoepVanlier/ysfx/releases/download/v0.0.33/Linux.64-bit.CLAP.zip"
+        },
+        {
+          "systems": [
+            {
+              "type": "mac"
+            }
+          ],
+          "architectures": [
+            "arm64",
+            "x64"
+          ],
+          "contains": [
+            "component"
+          ],
+          "type": "archive",
+          "size": 15887667,
+          "sha256": "7ff51e326626bed80748194da8fc48acee3dea595e39b3ed1625ac595f98a8cd",
+          "url": "https://github.com/JoepVanlier/ysfx/releases/download/v0.0.33/macOS.AU.zip"
+        },
+        {
+          "systems": [
+            {
+              "type": "mac"
+            }
+          ],
+          "architectures": [
+            "arm64",
+            "x64"
+          ],
+          "contains": [
+            "clap"
+          ],
+          "type": "archive",
+          "size": 15562498,
+          "sha256": "533b43fe8643be76601c40a223ac3adb6ed4ab3a29fbb028d642bb1e97639591",
+          "url": "https://github.com/JoepVanlier/ysfx/releases/download/v0.0.33/macOS.CLAP.zip"
+        },
+        {
+          "systems": [
+            {
+              "type": "mac"
+            }
+          ],
+          "architectures": [
+            "arm64",
+            "x64"
+          ],
+          "contains": [
+            "vst3"
+          ],
+          "type": "archive",
+          "size": 16280528,
+          "sha256": "f72379fe4bdd73f766fedb12975a39a3577c13f3c6275b8bc918524ad656a4a1",
+          "url": "https://github.com/JoepVanlier/ysfx/releases/download/v0.0.33/macOS.VST3.zip"
+        },
+        {
+          "systems": [
+            {
+              "type": "win"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "vst3"
+          ],
+          "type": "archive",
+          "size": 6557251,
+          "sha256": "5d5e408e77b4e264f49a2db380ea61e45b8ecc2f842bf5f35f74c545038200de",
+          "url": "https://github.com/JoepVanlier/ysfx/releases/download/v0.0.33/Windows.64-bit.VST3.zip"
+        },
+        {
+          "systems": [
+            {
+              "type": "win"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "clap"
+          ],
+          "type": "archive",
+          "size": 6497650,
+          "sha256": "829cb073b476fcc2a08e2c3e69fc2ee6f9edda24317fb701b1c76330270f5fd5",
+          "url": "https://github.com/JoepVanlier/ysfx/releases/download/v0.0.33/Windows.64-bit.CLAP.zip"
+        }
+      ]
+    }
+  }
+}
