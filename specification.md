@@ -366,7 +366,6 @@ GET /plugins/{slug}/{version}
 | Effect     | Digital signal processing based on an existing audio signal.                        | `effect`     |
 | Generator  | Generates midi patterns or samples which can be fed into other instruments/effects. | `generator`  |
 | Instrument | Sound synthesis based on audio or midi input.                                       | `instrument` |
-| Preset     | Preset containing predefined settings for an instrument or effect.                  | `preset`     |
 | Sampler    | Sample playback based on audio or midi input.                                       | `sampler`    |
 | Tool       | Helper tool which provides automations and other useful functions for music.        | `tool`       |
 
