@@ -17,7 +17,7 @@ This document describes an open specification for audio package metadata stored 
 
 This dotted line in the diagram indicates the scope of this specification. A second specification focuses on the lower area of the diagram: audio package managers (apps, cli, websites): [Open Audio Stack - Manager - Specification 1.0.0](https://github.com/open-audio-stack/open-audio-stack-core/blob/main/specification.md)
 
-## Definitions
+### Definitions
 
 - **Developer** \- Audio plugin developer who releases audio plugins.
 - **Package** \- Collection of files to be distributed along with metadata about those files:
@@ -33,7 +33,7 @@ This dotted line in the diagram indicates the scope of this specification. A sec
 - **User \-** Musician using a computer to run audio software.
   - **Digital Audio Workstation (DAW)** \- software that allows users to record, edit, and produce audio.
 
-## Problems solved
+### Problems solved
 
 Musicians install Digital Audio Workstation (DAW) software on computers to record and arrange music. They add audio plugins such as instruments and effects to extend their DAW functionality. The method of downloading and installing audio plugins differs depending on the company or individual distributing the software. The result is:
 
@@ -50,7 +50,7 @@ Musicians install Digital Audio Workstation (DAW) software on computers to recor
 
 This specification aims to solve these issues by applying established conventions and best practices from other well-known software package managers such as [npm](https://docs.npmjs.com), [pip](https://pip.pypa.io/en/stable/), [maven](https://maven.apache.org), [gems](https://guides.rubygems.org) and [composer](https://getcomposer.org). Audio plugin managers adopting this specification will be compatible and interoperable with each other. Musicians using compatible audio plugin managers will benefit from well-established package management features.
 
-## Use cases
+### Use cases
 
 1. Search for audio plugins and filter by metadata attributes such as platform or license.
 2. View audio plugin details such as description and size and preview image and audio.
@@ -58,8 +58,6 @@ This specification aims to solve these issues by applying established convention
 4. Install a list of multiple plugin versions automatically choosing the best version for your system.
 5. Downloading and extracting files into configured directories.
 6. Extend existing plugin functionality by installing additional presets.
-
----
 
 ## Registry
 
@@ -82,9 +80,9 @@ All endpoints in this specification are assumed to start with root url and optio
 | Field    | Type                      | Description                                                                                     | Example                                                          |
 | :------- | :------------------------ | :---------------------------------------------------------------------------------------------- | :--------------------------------------------------------------- |
 | name     | string                    | Registry name brand-specific                                                                    | `"Open Audio Registry"`                                          |
-| plugins  | \[slug: string\]: Package | Registry plugin packages                                                                        | `"plugins": {}`                                                  |
-| presets  | \[slug: string\]: Package | Registry preset packages                                                                        | `"presets": {}`                                                  |
-| projects | \[slug: string\]: Package | Registry project packages                                                                       | `"projects": {}`                                                 |
+| plugins  | \[slug: string\]: Package | Registry plugin packages                                                                        | `"plugins": { ... }`                                             |
+| presets  | \[slug: string\]: Package | Registry preset packages                                                                        | `"presets": { ... }`                                             |
+| projects | \[slug: string\]: Package | Registry project packages                                                                       | `"projects": { ... }`                                            |
 | url      | string                    | Registry url (https) where it is hosted, also can be used for base/root url for other requests. | `"https://open-audio-stack.github.io/open-audio-stack-registry"` |
 | version  | string                    | Registry [Semantic Version](https://semver.org) which should match this specification version.  | `"1.0.0"`                                                        |
 
@@ -94,15 +92,13 @@ All endpoints in this specification are assumed to start with root url and optio
 GET /
 {
   "name": "Open Audio Registry",
-  "plugins": {},
-  "presets": {},
-  "projects": {},
+  "plugins": { ... },
+  "presets": { ... },
+  "projects": { ... },
   "url": "https://open-audio-stack.github.io/open-audio-stack-registry",
   "version": "1.0.0"
 }
 ```
-
----
 
 ## Config
 
@@ -241,8 +237,6 @@ GET /config/licenses/{id}
 }
 ```
 
----
-
 ## Package
 
 Package is a common wrapper for all Plugin, Project and Preset metadata which handles unique slug/id and versioning.
@@ -254,8 +248,6 @@ Package is a common wrapper for all Plugin, Project and Preset metadata which ha
 | slug     | string              | Package slug                                                        | `"surge-synthesizer/surge"` |
 | version  | string              | Package latest version using [Semantic Version](https://semver.org) | `"1.3.1"`                   |
 | versions | \[version: string\] | Package versions Object containing all released versions.           | `"versions": [ ... ]`       |
-
-#### ---
 
 ## Plugin
 
@@ -397,8 +389,6 @@ Recommended file formats:
 - `.jpg` \- to optimize loading times on compatible websites.
 - `.flac` \- to optimize loading times and cross-browser compatibility.
 
-## ---
-
 ## Project
 
 ### Projects directory
@@ -513,8 +503,6 @@ GET /projects/{slug}/{version}
 | Song        | Composing, recording, and producing original songs with multiple instruments and vocals. | `song`        |
 | Score       | Composing and producing music for film, TV, video games, or other visual media.          | `score`       |
 
----
-
 ## Preset
 
 ### Presets directory
@@ -615,8 +603,6 @@ GET /presets/{slug}/{version}
 | Virtual Studio Technology preset      | Standard preset format for VST plugins, allowing users to save and load settings. | `fxp`        |
 | Virtual Studio Technology 3 preset    | Preset format for VST3 plugins including new features.                            | `vstpreset`  |
 
-###
-
 ### Preset types
 
 | Name    | Description                                                                                                                                                  | Value     |
@@ -628,19 +614,17 @@ GET /presets/{slug}/{version}
 | Pattern | Rhythmic and harmonic variations of MIDI data.                                                                                                               | `pattern` |
 | Theme   | Visual customizations that change the interface design, colors, or style of a plugin, providing a personalized or visually enhanced experience.              | `theme`   |
 
-## ---
-
 ## File
 
-| Field         | Type                  | Description                                                                                                                                                                    | Example                                                                                                              |
-| :------------ | :-------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------- |
-| architectures | Architecture\[\]      | System architectures supported by this binary file.                                                                                                                            | `[  "x32" , "x64" ]`                                                                                                 |
-| contains      | array\<PluginFormat\> | Plugin/Project/Preset formats (see tables for list of possible values).                                                                                                        | `["vst3"]`                                                                                                           |
-| sha256        | string                | File checksum for security validation that the published file matches the downloaded file.                                                                                     | `"3af35f02121a3c7ad6375bfe9c29a382f5882fa443bbf4c2df347a255c0edf2a"`                                                 |
-| size          | number                | Total size of the file in bits.                                                                                                                                                | `94448096`                                                                                                           |
-| systems       | System\[\]            | Operating systems supported, optionally including min/max version check.                                                                                                       | `[  { "min": 11.1,  "max": 20.5,  "type": "linux"} ]`                                                                |
-| type          | FileType              | File type from list in below table.                                                                                                                                            | `"archive"`                                                                                                          |
-| url           | string                | File download url (https). Files can be hosted anywhere on the web, but we recommend using GitHub Releases because it provides auditability of who changed the files and when. | `"https://github.com/surge-synthesizer/releases-xt/releases/download/1.3.1/surge-xt-linux-1.3.1-pluginsonly.tar.gz"` |
+| Field         | Type                                                   | Description                                                                                                                                                                    | Example                                                                                                              |
+| :------------ | :----------------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------- |
+| architectures | Architecture\[\]                                       | System architectures supported by this binary file.                                                                                                                            | `[  "x32" , "x64" ]`                                                                                                 |
+| contains      | array\<PluginFormat \| PresetFormat \| ProjectFormat\> | Plugin/Project/Preset formats (see tables for list of possible values).                                                                                                        | `["vst3"]`                                                                                                           |
+| sha256        | string                                                 | File checksum for security validation that the published file matches the downloaded file.                                                                                     | `"3af35f02121a3c7ad6375bfe9c29a382f5882fa443bbf4c2df347a255c0edf2a"`                                                 |
+| size          | number                                                 | Total size of the file in bits.                                                                                                                                                | `94448096`                                                                                                           |
+| systems       | System\[\]                                             | Operating systems supported, optionally including min/max version check.                                                                                                       | `[  { "min": 11.1,  "max": 20.5,  "type": "linux"} ]`                                                                |
+| type          | FileType                                               | File type from list in below table.                                                                                                                                            | `"archive"`                                                                                                          |
+| url           | string                                                 | File download url (https). Files can be hosted anywhere on the web, but we recommend using GitHub Releases because it provides auditability of who changed the files and when. | `"https://github.com/surge-synthesizer/releases-xt/releases/download/1.3.1/surge-xt-linux-1.3.1-pluginsonly.tar.gz"` |
 
 ### File formats
 
@@ -666,5 +650,3 @@ Plugin manager will download and extract archives into a temporary directory. Th
 | :-------- | :------------------------------------------------------------------------------------ | :---------- |
 | Archive   | Composed of one or more files along with metadata and compression.                    | `archive`   |
 | Installer | Installs one or multiple files into specific locations along with script automations. | `installer` |
-
-## ---
