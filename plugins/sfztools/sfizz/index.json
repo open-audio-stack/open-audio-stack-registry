@@ -1,8 +1,8 @@
 {
   "slug": "sfztools/sfizz",
-  "version": "1.2.3",
+  "version": "1.2.1",
   "versions": {
-    "1.2.3": {
+    "1.2.1": {
       "name": "Sfizz",
       "author": "SFZTools",
       "description": "SFZ parser and synth c++ library, providing AU / LV2 / VST3 plugins and JACK standalone client.",
@@ -17,7 +17,7 @@
       "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfztools/sfizz/sfizz.flac",
       "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfztools/sfizz/sfizz.jpg",
       "date": "2024-01-14T00:00:00.000Z",
-      "changes": "- Curvecc opcodes on v1 EGs and lotimer/hitimer\n- Allow polyphonic aftertouch (cc 130) to respect the note number\n- Adjusted the gain compensation on pan stages\n- Ensure that voices are cleaned up before being force-reused\n",
+      "changes": "- Mac OS Installer\n- Updated bundled dependencies and added more options to use those\n- preinstalled in system\n- CI: Various updates and fixes for GitHub Actions; removed Travis and Appveyor\n- Add LFO frequency as an EG target\n",
       "files": [
         {
           "systems": [
@@ -33,9 +33,9 @@
             "vst3"
           ],
           "type": "archive",
-          "size": 36291101,
-          "sha256": "ae1a0ea014eae9923b2b8e7b90d35dcebc309301fd82abaf13cbb55f01581c76",
-          "url": "https://github.com/sfztools/sfizz-ui/releases/download/1.2.3/sfizz-1.2.3.tar.gz"
+          "size": 33969828,
+          "sha256": "5a4af23b2a4f1646aaa208d1e71adcf1e706dd6375c4e898b6e49592d85ac298",
+          "url": "https://github.com/sfztools/sfizz/releases/download/1.2.1/sfizz-1.2.1.tar.gz"
         },
         {
           "systems": [
@@ -52,10 +52,10 @@
             "lv2",
             "vst3"
           ],
-          "type": "archive",
-          "size": 1748833,
-          "sha256": "f3c2b4c562abfb1d182fb950503285637e7dee6c9b45baa2a06172923c76a4c7",
-          "url": "https://github.com/sfztools/sfizz/releases/download/1.2.3/sfizz-1.2.3-macos.tar.gz"
+          "type": "installer",
+          "size": 6605399,
+          "sha256": "78f89627fd0685be3c8eacaed79311d8063e2981f8dad96f99a194704e1b383c",
+          "url": "https://github.com/sfztools/sfizz/releases/download/1.2.1/sfizz-1.2.1-macos.pkg"
         },
         {
           "systems": [
@@ -71,9 +71,9 @@
             "vst3"
           ],
           "type": "installer",
-          "size": 3626650,
-          "sha256": "56f57dfe443018e947b82b8e2bf4c9d824a9c961ff2b8eb6c5e929030b71b937",
-          "url": "https://github.com/sfztools/sfizz-ui/releases/download/1.2.3/sfizz-1.2.3-win64.exe"
+          "size": 3528441,
+          "sha256": "c882d031a7e0e43c1befca68907d523a981db16dedafe6f3c8f10f3fe90aee54",
+          "url": "https://github.com/sfztools/sfizz/releases/download/1.2.1/sfizz-1.2.1-win64.exe"
         }
       ]
     }
