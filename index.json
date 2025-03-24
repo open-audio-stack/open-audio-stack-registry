@@ -444,8 +444,8 @@
                 "vst3"
               ],
               "type": "archive",
-              "size": 141204627,
-              "sha256": "39aa2104a970ee80119bd05e2d8415f58488159452903e4b49200de74dac3daf",
+              "size": 142093215,
+              "sha256": "72621ff6b68c340400eaaa8b0d52cfcf8ab7de4931bc364746a626764d189eeb",
               "url": "https://github.com/TheWaveWarden/odin2/releases/download/NightlyDevel/Odin2.3.4Linux.zip"
             },
             {
@@ -463,8 +463,8 @@
                 "vst3"
               ],
               "type": "installer",
-              "size": 282803372,
-              "sha256": "ecfcbdf9058f6ddc6cdbc344fc32bee5f7cc0ffe135432607c36a6274e47624b",
+              "size": 282935423,
+              "sha256": "1040f6e46c73cd878fe2b6ac3f20e97fa20eecd03fd206d6b0c01dc2a80e5761",
               "url": "https://github.com/TheWaveWarden/odin2/releases/download/NightlyDevel/Odin2.3.4MacInstaller.pkg"
             },
             {
@@ -482,8 +482,8 @@
                 "vst3"
               ],
               "type": "installer",
-              "size": 92172129,
-              "sha256": "828d99b67406adfb354553695df9ea1786772e2ac7fea77fe6197897b9788310",
+              "size": 92297906,
+              "sha256": "c070b5ed7b4a1c41615f582b5e17194729ea16e88f0e2f26c64994468766ff12",
               "url": "https://github.com/TheWaveWarden/odin2/releases/download/NightlyDevel/Odin2.3.4WinInstaller.exe"
             }
           ]
@@ -2153,8 +2153,8 @@
                 "so"
               ],
               "type": "archive",
-              "size": 49557284,
-              "sha256": "376f794b1ec15ff3ae614d4e094b499b3647c4a3ec0cc21e73cdd4fe62d7e7d9",
+              "size": 54109315,
+              "sha256": "e0230183786820df714634b219ffeb0f5f5294b8a023a6a81b0aec5f8e9ea3a4",
               "url": "https://www.discodsp.com/download/?id=9"
             },
             {
@@ -2171,8 +2171,8 @@
                 "vst"
               ],
               "type": "archive",
-              "size": 63317149,
-              "sha256": "c2f6d5b856f9225594c692633d5a45f664d9820178b7d2b5c0e2eebbe3ec05a7",
+              "size": 66015583,
+              "sha256": "235d8dfca056f3b82b076c243d1aba5d42624c82e8a28d4d2b3ee85b71e174ec",
               "url": "https://www.discodsp.com/download/?id=2"
             },
             {
@@ -2189,8 +2189,8 @@
                 "dll"
               ],
               "type": "archive",
-              "size": 52845717,
-              "sha256": "21100985a638cf93fa25fc5356e9eedfce2eae7604b6a24cee44267b82e78242",
+              "size": 53948152,
+              "sha256": "4a0bab6628824758e48af8d625857dd6036b1ac8af993490a0f4079dbe84020d",
               "url": "https://www.discodsp.com/download/?id=3"
             }
           ]
@@ -3479,9 +3479,9 @@
                 "vst3"
               ],
               "type": "archive",
-              "size": 10002246,
-              "sha256": "cd35563df0b5fef0d5afcc7ccddd69eeb2fb40b1c85a8dc99347d3b56a2a67db",
-              "url": "https://github.com/igorski/regrader/releases/download/1.0.5-3.7.10/regrader.1.0.5_macos.zip"
+              "size": 9892847,
+              "sha256": "babf4b0d4298f9561df471d7f052de92e667b3c030feebee821f4d5104520269",
+              "url": "https://github.com/igorski/regrader/releases/download/v1.0.5/regrader.1.0.5_macos.zip"
             },
             {
               "systems": [
@@ -3500,7 +3500,7 @@
               "type": "archive",
               "size": 2858396,
               "sha256": "3141f43f3e6445f154395c1da1221c2931b1dfd5140f0207b8a4b8052b8fb574",
-              "url": "https://github.com/igorski/regrader/releases/download/1.0.5-3.7.10/regrader.1.0.5_windows.zip"
+              "url": "https://github.com/igorski/regrader/releases/download/v1.0.5/regrader.1.0.5_windows.zip"
             }
           ]
         }
@@ -3542,9 +3542,9 @@
                 "vst3"
               ],
               "type": "archive",
-              "size": 9612204,
-              "sha256": "3ce41db5d487d2f92e1a1e337987786cd58ad9ea5689a62b7126dfee41f5462c",
-              "url": "https://github.com/igorski/fogpad/releases/download/1.0.3-3.7.10/fogpad.1.0.3_macos.zip"
+              "size": 9492858,
+              "sha256": "a8138e6343f1ec2efb73895bf6dc38d1354153f4df8db88f1f5061e9a73adf00",
+              "url": "https://github.com/igorski/fogpad/releases/download/v1.0.3/fogpad.1.0.3_macos.zip"
             },
             {
               "systems": [
@@ -3563,7 +3563,7 @@
               "type": "archive",
               "size": 2428873,
               "sha256": "3c1bb2f8ca87966a3047a73c2bab4ea9af629af0d7356103bd6ff940de2da45c",
-              "url": "https://github.com/igorski/fogpad/releases/download/1.0.3-3.7.10/fogpad.1.0.3_windows.zip"
+              "url": "https://github.com/igorski/fogpad/releases/download/v1.0.3/fogpad.1.0.3_windows.zip"
             }
           ]
         }
