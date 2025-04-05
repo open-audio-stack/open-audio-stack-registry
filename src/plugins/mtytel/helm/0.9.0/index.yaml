@@ -1,54 +1,50 @@
----
-audio: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/mtytel/helm/helm.flac
+name: Helm
 author: Matt Tytel
-changes: ''
-date: '2017-07-08T08:00:00.000Z'
 description: Polyphonic semi-modular synthesizer with a flexible modulation system.
+license: gpl-3.0
+type: instrument
+tags:
+  - Instrument
+  - Synth
+  - Modulation
+url: https://github.com/mtytel/helm
+audio: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/mtytel/helm/helm.flac
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/mtytel/helm/helm.jpg
+date: '2017-07-08T08:00:00.000Z'
+changes: ''
 files:
-  - architectures:
+  - systems:
+      - type: linux
+    architectures:
       - x64
     contains:
       - elf
       - lv2
       - so
-    format: deb
-    sha256: db71839de921425e5038a89c3440969be831ddb2312909320d74998e5fa561aa
-    systems:
-      - type: linux
+    type: installer
     size: 8328284
-    type: archive
+    sha256: aedf8b676657f72782513e5ad5f9c61a6bc21fe9357b23052928adafa8215eca
     url: https://tytel.org/static/dist/helm_0.9.0_amd64_r.deb
-  - architectures:
+  - systems:
+      - type: mac
+    architectures:
       - x64
     contains:
       - app
       - component
       - vst3
-    format: pkg
-    sha256: 772427b7fb8552bdf924d6735d27003b813e7a6999cfb5e7c9a06672aaa417b4
-    systems:
-      - type: mac
+    type: installer
     size: 17258268
-    type: archive
+    sha256: 1bfac2c016d7dd5cd51e714fa6d9facef4e1db52617ff7dd52748dbec1400ebf
     url: https://tytel.org/static/dist/Helm_v0_9_0_r.pkg
-  - architectures:
+  - systems:
+      - type: win
+    architectures:
       - x64
     contains:
       - dll
       - vst3
-    format: msi
-    sha256: c86ee5676040d3753b356eeb643f732cbd78cc31596bc8150bc5fb38ffd25412
-    systems:
-      - type: win
-    size: 11001856
     type: installer
+    size: 11001856
+    sha256: cdd711f3848c49e6b321ddc47fa5c5a62fc2d67744cfcafc7aa2ac3daad97747
     url: https://tytel.org/static/dist/Helm_32bit_v0_9_0_r.msi
-image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/mtytel/helm/helm.jpg
-license: gpl-3.0
-name: Helm
-tags:
-  - Instrument
-  - Synth
-  - Modulation
-type: instrument
-url: https://github.com/mtytel/helm

@@ -1,28 +1,37 @@
----
-audio: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/jpcima/adlplug/adlplug.flac
+name: ADLplug
 author: Jean Pierre Cimalando
+description: FM synthesizer based on OPL3 and OPN2 sound chip emulations. Synthesis of melodic and percussive instruments, support for dynamic parameterization and automation.
+license: bsl-1.0
+type: instrument
+tags:
+  - Instrument
+  - Synth
+  - FM
+url: https://github.com/jpcima/ADLplug
+audio: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/jpcima/adlplug/adlplug.flac
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/jpcima/adlplug/adlplug.jpg
+date: '2020-08-05T08:00:00.000Z'
 changes: |
   - English translation of the user manual
   - KSL editing behavior to make it linear with regards to attenuation
   - Build option to link with system-wide libfmt
   - Resource system compatible with unsigned-char targets
-date: '2020-08-05T08:00:00.000Z'
-description: FM synthesizer based on OPL3 and OPN2 sound chip emulations. Synthesis of melodic and percussive instruments, support for dynamic parameterization and automation.
 files:
-  - architectures:
+  - systems:
+      - type: linux
+    architectures:
       - x64
     contains:
       - elf
       - lv2
       - so
-    format: deb
-    sha256: 5e16542042dd6f974932983b2fe2caad7a0398fa9786832f4690d849e01c4041
-    systems:
-      - type: linux
+    type: installer
     size: 3822930
-    type: archive
+    sha256: 7e3f433f93f861f475e80d571e79ab0ada157590b276179d82f07797cb27d01b
     url: https://github.com/jpcima/ADLplug/releases/download/v1.0.2/adlplug_amd64.deb
-  - architectures:
+  - systems:
+      - type: mac
+    architectures:
       - arm64
       - x64
     contains:
@@ -31,33 +40,20 @@ files:
       - lv2
       - vst
       - vst3
-    format: 7z
-    sha256: 4f1aa2a6ee546fc6f5418d511e53665e1b388a4bcc1aa9e08832b71a8a1014e5
-    systems:
-      - type: mac
-    size: 10663602
     type: archive
+    size: 10663602
+    sha256: 44d2f6e34ca02f51a11ef64be1208dc50f553ce02a3f1ef9fa36a90c34699934
     url: https://github.com/jpcima/ADLplug/releases/download/v1.0.2/ADLplug-1.0.2-mac.7z
-  - architectures:
+  - systems:
+      - type: win
+    architectures:
       - x64
     contains:
       - dll
       - exe
       - lv2
       - vst3
-    format: 7z
-    sha256: 76e51b05e8a2e551fa4d05eef16a575cfde54cb6a91ac16f4942e78634c4ffaa
-    systems:
-      - type: win
-    size: 18562585
     type: archive
+    size: 18562585
+    sha256: bad70fcb3b9debcebb2abe840bfd93fa40f743ab8f02bb3f438d104a044f6882
     url: https://github.com/jpcima/ADLplug/releases/download/v1.0.2/ADLplug-1.0.2-win64.7z
-image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/jpcima/adlplug/adlplug.jpg
-license: bsl-1.0
-name: ADLplug
-tags:
-  - Instrument
-  - Synth
-  - FM
-type: instrument
-url: https://github.com/jpcima/ADLplug

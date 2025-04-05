@@ -1,0 +1,55 @@
+name: Sfizz
+author: SFZTools
+description: SFZ parser and synth c++ library, providing AU / LV2 / VST3 plugins and JACK standalone client.
+license: bsd-2-clause
+type: sampler
+tags:
+  - Instrument
+  - Sampler
+  - Synth
+url: https://github.com/sfztools/sfizz
+audio: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfztools/sfizz/sfizz.flac
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfztools/sfizz/sfizz.jpg
+date: '2024-01-14T00:00:00.000Z'
+changes: |
+  - Mac OS Installer
+  - Updated bundled dependencies and added more options to use those
+  - preinstalled in system
+  - CI: Various updates and fixes for GitHub Actions; removed Travis and Appveyor
+  - Add LFO frequency as an EG target
+files:
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - lv2
+      - vst3
+    type: archive
+    size: 33969828
+    sha256: 5a4af23b2a4f1646aaa208d1e71adcf1e706dd6375c4e898b6e49592d85ac298
+    url: https://github.com/sfztools/sfizz/releases/download/1.2.1/sfizz-1.2.1.tar.gz
+  - systems:
+      - type: mac
+    architectures:
+      - arm64
+      - x64
+    contains:
+      - component
+      - lv2
+      - vst3
+    type: installer
+    size: 6605399
+    sha256: 78f89627fd0685be3c8eacaed79311d8063e2981f8dad96f99a194704e1b383c
+    url: https://github.com/sfztools/sfizz/releases/download/1.2.1/sfizz-1.2.1-macos.pkg
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - dll
+      - vst3
+    type: installer
+    size: 3528441
+    sha256: c882d031a7e0e43c1befca68907d523a981db16dedafe6f3c8f10f3fe90aee54
+    url: https://github.com/sfztools/sfizz/releases/download/1.2.1/sfizz-1.2.1-win64.exe

@@ -1,14 +1,25 @@
----
-audio: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/distrho/dpf-plugins/dpf-plugins.flac
+name: DPF Plugins
 author: Filipe Coelho
+description: Collection of DPF-based plugin effects.
+license: gpl-3.0
+type: effect
+tags:
+  - Effect
+  - Delay
+  - Feedback
+  - Reverb
+url: https://github.com/DISTRHO/DPF-Plugins
+audio: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/distrho/dpf-plugins/dpf-plugins.flac
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/distrho/dpf-plugins/dpf-plugins.jpg
+date: '2023-04-15T07:00:00.000Z'
 changes: |
   - Fix build with clang on non-macOS systems
   - Fix CLAP plugins not saving state under Bitwig
   - Fix Nekobi tuning parameter
-date: '2023-04-15T07:00:00.000Z'
-description: Collection of DPF-based plugin effects.
 files:
-  - architectures:
+  - systems:
+      - type: linux
+    architectures:
       - arm64
     contains:
       - elf
@@ -16,14 +27,13 @@ files:
       - lv2
       - so
       - vst3
-    format: tar.gz
-    sha256: 5977d90319d5bdc87b471a1b0094f306417098a3d0d9841de4cbe1d48e2500cc
-    systems:
-      - type: linux
-    size: 9063488
     type: archive
+    size: 9063488
+    sha256: f3251277b3083c363c84908656b24e213b65468ee24e85f5a10bad406b78f877
     url: https://github.com/DISTRHO/DPF-Plugins/releases/download/v1.7/DPF-Plugins-v1.7-linux-arm64.tar.xz
-  - architectures:
+  - systems:
+      - type: linux
+    architectures:
       - x64
     contains:
       - elf
@@ -31,14 +41,13 @@ files:
       - lv2
       - so
       - vst3
-    format: tar.gz
-    sha256: 6bc00af3dce6c96fa0b828bb5c68c4bb3ca4cb4bba2f1c9a7c1bc7bd08f777d8
-    systems:
-      - type: linux
-    size: 9827340
     type: archive
+    size: 9827340
+    sha256: 8088e362f9f68fea179abe9f96b83fca07693224ffcf46837c24ff8b59b119cb
     url: https://github.com/DISTRHO/DPF-Plugins/releases/download/v1.7/DPF-Plugins-v1.7-linux-x86_64.tar.xz
-  - architectures:
+  - systems:
+      - type: mac
+    architectures:
       - arm64
       - x64
     contains:
@@ -47,14 +56,13 @@ files:
       - lv2
       - vst
       - vst3
-    format: dmg
-    sha256: 25eaf9cd8ba2e7c3738008b2192256be85e6e41174f7afe054e4435c469c00b2
-    systems:
-      - type: mac
+    type: installer
     size: 57933584
-    type: archive
+    sha256: 94b996c898a7ba160561113d1c48c4700a6ef65d33f4092ea7289b1af44059e1
     url: https://github.com/DISTRHO/DPF-Plugins/releases/download/v1.7/DPF-Plugins-v1.7-macos-universal.dmg
-  - architectures:
+  - systems:
+      - type: win
+    architectures:
       - x64
     contains:
       - clap
@@ -62,20 +70,7 @@ files:
       - exe
       - lv2
       - vst3
-    format: zip
-    sha256: a9930df6fcf62c48297b1f7ec6f5970fb1c5ffc023e10f9e94c0b45868ebabb7
-    systems:
-      - type: win
-    size: 74524341
     type: archive
+    size: 74524341
+    sha256: fdc609e0936e9c999395b9ddd98a9a72739cb672d8838ab71849469aee50ad98
     url: https://github.com/DISTRHO/DPF-Plugins/releases/download/v1.7/DPF-Plugins-v1.7-win64.zip
-image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/distrho/dpf-plugins/dpf-plugins.jpg
-license: gpl-3.0
-name: DPF Plugins
-tags:
-  - Effect
-  - Delay
-  - Feedback
-  - Reverb
-type: effect
-url: https://github.com/DISTRHO/DPF-Plugins

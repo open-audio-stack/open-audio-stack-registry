@@ -1,7 +1,27 @@
-# open-audio-stack-registry
+<div align="center">
+<h1>
+  <img src="https://raw.githubusercontent.com/open-audio-stack/open-audio-stack-registry/refs/heads/main/src/assets/open-audio-stack-logo.svg" alt="Open Audio Stack Logo"><br />
+  Open Audio Stack
+</h1>
+<p>Audio registry specification and API with searchable list of packages</p>
+  <p>
+    <a href="specification.md">Registry Specification</a>
+    ⦁︎
+    <a href="https://open-audio-stack.github.io/open-audio-stack-registry">Registry API</a>
+    ⦁︎
+    <a href="https://github.com/orgs/open-audio-stack/projects">Roadmap</a>
+  </p>
+<p>
 
 ![Test](https://github.com/open-audio-stack/open-audio-stack-registry/workflows/Test/badge.svg)
 ![Release](https://github.com/open-audio-stack/open-audio-stack-registry/workflows/Release/badge.svg)
+<a href="https://discord.com/invite/9D94f98PxP" target="_blank"><img src="https://img.shields.io/badge/chat-on%20discord-7289DA.svg" alt="Join the chat at Discord"></a>
+
+![Open Audio Stack - Registry - Specification 1.0.0](/src/assets/open-audio-stack-diagram-registry.svg)
+
+</div>
+
+# open-audio-stack-registry
 
 Audio registry with searchable list of packages containing Plugins, Presets and Projects. Provides an API with file metadata and urls to binaries for installation.
 
@@ -34,43 +54,13 @@ Create yaml files for each version of the package using [Semantic Versioning](ht
 
 Semantic versioning allows a compatible installer to install the latest non-breaking version of a package.
 
-Use the below template yaml file as a starting point. Open Audio Stack Registry validates each package's metadata,
-if you miss or enter incorrect information, your package will not be included in the registry.
+Open Audio Stack Registry validates each package's metadata, if you miss or enter incorrect information, your package will not be included in the registry. Use an existing yaml file as a starting point:
 
-    ---
-    audio: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/surge-synthesizer/surge/surge.flac
-    author: Surge Synth Team
-    changes: |
-      - Fixed bug with audio
-      - New feature added
-    date: '2024-03-02T00:00:00.000Z'
-    description: Hybrid synthesizer featuring many synthesis techniques, a great selection
-      of filters, a flexible modulation engine, a smorgasbord of effects, and modern features
-      like MPE and microtuning.
-    files:
-      - architectures:
-          - x64
-        contains:
-          - elf
-          - clap
-          - lv2
-          - vst3
-        format: zip
-        sha256: 42ad977d43d6caa75361cd2ad8794e36
-        systems:
-          - type: linux
-        size: 94448096
-        type: archive
-        url: https://github.com/surge-synthesizer/releases-xt/releases/download/1.3.1/surge-xt-linux-1.3.1-pluginsonly.tar.gz
-    image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/surge-synthesizer/surge/surge.jpg
-    license: gpl-3.0
-    name: Surge XT
-    tags:
-      - Instrument
-      - Synth
-      - Modulation
-    type: instrument
-    url: https://github.com/surge-synthesizer/surge
+- Plugin: [src/plugins/surge-synthesizer/surge/1.3.4/index.yaml](https://github.com/open-audio-stack/open-audio-stack-registry/blob/main/src/plugins/surge-synthesizer/surge/1.3.4/index.yaml)
+
+- Preset: [src/presets/jh/floating-rhodes/1.0.0/index.yaml](https://github.com/open-audio-stack/open-audio-stack-registry/blob/main/src/presets/jh/floating-rhodes/1.0.0/index.yaml)
+
+- Project: [src/projects/kmt/banwer/1.0.1/index.yaml](https://github.com/open-audio-stack/open-audio-stack-registry/blob/main/src/projects/kmt/banwer/1.0.1/index.yaml)
 
 For file downloads, we recommend `.zip` files which are cross-platform and can be extracted automatically and placed into the correct locations without user interaction.
 
@@ -84,6 +74,18 @@ Validate your changes locally by running these command:
 Ensure you provide the path to the yaml file you changed.
 
 After validation passes, push your branch to GitHub to have the automated GitHub Action run additional checks and return any issues with your changes.
+
+## Badges
+
+If your project utilizes the Open Stack Audio specification or API, we encourage linking back to this project using a badge:
+
+```
+<a href="https://github.com/open-audio-stack" target="_blank"><img src="https://raw.githubusercontent.com/open-audio-stack/open-audio-stack-registry/refs/heads/main/src/assets/powered-by-open-audio-stack.svg" alt="Powered by Open Audio Stack"></a>
+```
+
+Example:
+
+<a href="https://github.com/open-audio-stack" target="_blank"><img src="https://raw.githubusercontent.com/open-audio-stack/open-audio-stack-registry/refs/heads/main/src/assets/powered-by-open-audio-stack.svg" alt="Powered by Open Audio Stack"></a>
 
 ## Developer information
 

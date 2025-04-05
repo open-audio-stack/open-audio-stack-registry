@@ -1,33 +1,31 @@
----
-audio: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/freepats/glasses-of-water/glasses-of-water.flac
+name: Glasses Of Water
 author: Freepats
-changes: |
-date: '2019-12-27T07:00:00.000Z'
 description: Musical instrument made with glasses of water, recorded with an AKG Perception 120 microphone.
+license: cc0-1.0
+type: sampler
+tags:
+  - Instrument
+  - Orchestra
+  - Glass
+  - sfz
+url: https://github.com/freepats/glass
+audio: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/freepats/glasses-of-water/glasses-of-water.flac
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/freepats/glasses-of-water/glasses-of-water.jpg
+date: '2019-12-27T07:00:00.000Z'
+changes: ''
 files:
-  - architectures:
+  - systems:
+      - type: linux
+      - type: mac
+      - type: win
+    architectures:
       - arm32
       - arm64
       - x32
       - x64
     contains:
       - sfz
-    format: zip
-    sha256: 009e789d3762c5862bb927e9509fb4701f6f95d1ae181d42d7c7bc9e1bdf325b
-    systems:
-      - type: linux
-      - type: mac
-      - type: win
-    size: 10628855
     type: archive
+    size: 10628855
+    sha256: 9506bd3f9021f1cbc431c7a6a0ba193fa38e4f3b4f3126b308edcfab56a066ee
     url: https://github.com/freepats/glass/releases/download/v1.0.0/Glass-20191227.zip
-image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/freepats/glasses-of-water/glasses-of-water.jpg
-license: cc0-1.0
-name: Glasses Of Water
-tags:
-  - Instrument
-  - Orchestra
-  - Glass
-  - sfz
-type: sampler
-url: https://github.com/freepats/glass

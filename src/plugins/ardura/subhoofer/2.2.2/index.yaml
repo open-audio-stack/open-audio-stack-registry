@@ -1,53 +1,49 @@
----
-audio: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ardura/subhoofer/subhoofer.flac
-author: Ardura
-changes: |
-  - Stereo view
-  - Bug fixes
-date: '2024-08-02T07:00:00.000Z'
-description: Sub and Bass enhancement plugin.
-files:
-  - architectures:
-      - x64
-    contains:
-      - clap
-      - vst3
-    format: zip
-    sha256: 402c4b762546f679a5e285d2620891daf85eb3e0b2d19755727e508245414856
-    systems:
-      - type: linux
-    size: 5916842
-    type: archive
-    url: https://github.com/ardura/Subhoofer/releases/download/v2.2.2/Subhoofer_v222_Linux.zip
-  - architectures:
-      - x64
-    contains:
-      - clap
-      - vst3
-    format: zip
-    sha256: 003338513913c9b5da3f8cf19b47bcce2bde3c1deb7a9eb0d7aef8d8186d6ab0
-    systems:
-      - type: mac
-    size: 4009494
-    type: archive
-    url: https://github.com/ardura/Subhoofer/releases/download/v2.2.2/Subhoofer_v222_MacOS.zip
-  - architectures:
-      - x64
-    contains:
-      - clap
-      - vst3
-    format: zip
-    sha256: 65bc36508f9475d685a8845fd245230ae1ccafcccc7e0e9b85ecbfc874f7dc48
-    systems:
-      - type: win
-    size: 3456424
-    type: archive
-    url: https://github.com/ardura/Subhoofer/releases/download/v2.2.2/Subhoofer_v222_Windows.zip
-image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ardura/subhoofer/subhoofer.jpg
-license: gpl-3.0
 name: Subhoofer
+author: Ardura
+description: Sub and Bass enhancement plugin.
+license: gpl-3.0
+type: effect
 tags:
   - Effect
   - Distortion
-type: effect
 url: https://github.com/ardura/Subhoofer
+audio: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ardura/subhoofer/subhoofer.flac
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ardura/subhoofer/subhoofer.jpg
+date: '2024-08-02T07:00:00.000Z'
+changes: |
+  - Stereo view
+  - Bug fixes
+files:
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - clap
+      - vst3
+    type: archive
+    size: 5916842
+    sha256: 8ef8e5f0888443a8b672f62e19101f63de02e56d76a3282375276134a3924046
+    url: https://github.com/ardura/Subhoofer/releases/download/v2.2.2/Subhoofer_v222_Linux.zip
+  - systems:
+      - type: mac
+    architectures:
+      - x64
+    contains:
+      - clap
+      - vst3
+    type: archive
+    size: 4009494
+    sha256: ceb6ea2261e4b4c059d51a9c93be1f21695cc837c0ed96df07d56926ba0db6ce
+    url: https://github.com/ardura/Subhoofer/releases/download/v2.2.2/Subhoofer_v222_MacOS.zip
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - clap
+      - vst3
+    type: archive
+    size: 3456424
+    sha256: 2ce5b9b61ebe379dd41ef97d2728415a573c0162f72c2d62ec74678409286a19
+    url: https://github.com/ardura/Subhoofer/releases/download/v2.2.2/Subhoofer_v222_Windows.zip

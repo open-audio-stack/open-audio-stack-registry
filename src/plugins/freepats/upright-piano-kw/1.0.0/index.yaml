@@ -1,33 +1,31 @@
----
-audio: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/freepats/upright-piano-kw/upright-piano-kw.flac
+name: Upright Piano KW
 author: Freepats
-changes: |
-date: '2022-02-21T07:00:00.000Z'
 description: Kawai upright piano, recorded in a living room using a Zoom H1 portable recorder mounted on a tripod in front of the piano.
+license: cc0-1.0
+type: sampler
+tags:
+  - Instrument
+  - Keys
+  - Piano
+  - sfz
+url: https://github.com/freepats/upright-piano-kw
+audio: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/freepats/upright-piano-kw/upright-piano-kw.flac
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/freepats/upright-piano-kw/upright-piano-kw.jpg
+date: '2022-02-21T07:00:00.000Z'
+changes: ''
 files:
-  - architectures:
+  - systems:
+      - type: linux
+      - type: mac
+      - type: win
+    architectures:
       - arm32
       - arm64
       - x32
       - x64
     contains:
       - sfz
-    format: zip
-    sha256: 6ff35278e1e06d2c886ff71bdbb1cc456026c585b5b1f5b2d23a04822b1269b8
-    systems:
-      - type: linux
-      - type: mac
-      - type: win
-    size: 32413525
     type: archive
+    size: 32413525
+    sha256: 3d602dcff94bcf9fb9b2d78df8c689814c895fd2776ee104a95b73c44bdc7e18
     url: https://github.com/freepats/upright-piano-KW/releases/download/v1.0.0/UprightPianoKW-20220221.zip
-image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/freepats/upright-piano-kw/upright-piano-kw.jpg
-license: cc0-1.0
-name: Upright Piano KW
-tags:
-  - Instrument
-  - Keys
-  - Piano
-  - sfz
-type: sampler
-url: https://github.com/freepats/upright-piano-kw

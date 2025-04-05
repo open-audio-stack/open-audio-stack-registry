@@ -33,7 +33,7 @@ jobs:
             node ./build/validate.js $file
           done
           echo 'Downloads:'
-          ls ./downloads/
+          ls ./downloads/ || true
 
       - name: VirusTotal Scan
         id: virustotal

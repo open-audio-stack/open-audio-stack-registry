@@ -1,38 +1,35 @@
----
-audio: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/keijiro/vst2413/vst2413.flac
-author: Keijiro Takahashi
-changes: ''
-date: '2013-04-21T07:00:00.000Z'
-description: FM synthesizer based on YM2413 (OPLL) emulator. YM2413 is well known as low-cost FM sound chip, used on Sega Master System and FM-PAC sound expansion cartridge for MSX. Well-suited for use in 'post 8-bit era style' chiptune music.
-files:
-  - architectures:
-      - x64
-    contains:
-      - vst
-    format: zip
-    sha256: e561ae5da234e861e2fe9034904f1c8aef39ba95a820933cdc9237a2982559c9
-    systems:
-      - type: mac
-    size: 177262
-    type: archive
-    url: https://www.keijiro.tokyo/vst2413/build/vst2413-20130421-osx.zip
-  - architectures:
-      - x64
-    contains:
-      - dll
-    format: zip
-    sha256: 8065e9b7eeb779315939a78f7470c4bbd4058408f844ccd28e61e8b7c43f9247
-    systems:
-      - type: win
-    size: 227212
-    type: archive
-    url: https://www.keijiro.tokyo/vst2413/build/vst2413-20130418-windows.zip
-image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/keijiro/vst2413/vst2413.jpg
-license: zlib
 name: VST2413
+author: Keijiro Takahashi
+description: FM synthesizer based on YM2413 (OPLL) emulator. YM2413 is well known as low-cost FM sound chip, used on Sega Master System and FM-PAC sound expansion cartridge for MSX. Well-suited for use in 'post 8-bit era style' chiptune music.
+license: zlib
+type: instrument
 tags:
   - Instrument
   - Synth
   - Bit
-type: instrument
 url: https://github.com/keijiro/vst2413
+audio: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/keijiro/vst2413/vst2413.flac
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/keijiro/vst2413/vst2413.jpg
+date: '2013-04-21T07:00:00.000Z'
+changes: ''
+files:
+  - systems:
+      - type: mac
+    architectures:
+      - x64
+    contains:
+      - vst
+    type: archive
+    size: 177262
+    sha256: e561ae5da234e861e2fe9034904f1c8aef39ba95a820933cdc9237a2982559c9
+    url: https://www.keijiro.tokyo/vst2413/build/vst2413-20130421-osx.zip
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - dll
+    type: archive
+    size: 227212
+    sha256: 8065e9b7eeb779315939a78f7470c4bbd4058408f844ccd28e61e8b7c43f9247
+    url: https://www.keijiro.tokyo/vst2413/build/vst2413-20130418-windows.zip

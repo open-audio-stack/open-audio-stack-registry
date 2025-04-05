@@ -1,33 +1,31 @@
----
-audio: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/freepats/synthesizer-percussion/synthesizer-percussion.flac
+name: Synthesizer Percussion
 author: Freepats
-changes: |
-date: '2022-07-18T07:00:00.000Z'
 description: Drumkit sounds commonly used in vintage electronic music made with analog synthesizers.
+license: cc0-1.0
+type: sampler
+tags:
+  - Instrument
+  - Drums
+  - Electro
+  - sfz
+url: https://github.com/freepats/synthesizer-percussion
+audio: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/freepats/synthesizer-percussion/synthesizer-percussion.flac
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/freepats/synthesizer-percussion/synthesizer-percussion.jpg
+date: '2022-07-18T07:00:00.000Z'
+changes: ''
 files:
-  - architectures:
+  - systems:
+      - type: linux
+      - type: mac
+      - type: win
+    architectures:
       - arm32
       - arm64
       - x32
       - x64
     contains:
       - sfz
-    format: zip
-    sha256: b4eb79d2c0e8ba8fe9494cf9b236231f99ac0c40a81fa85118093e21563351e4
-    systems:
-      - type: linux
-      - type: mac
-      - type: win
-    size: 1663420
     type: archive
+    size: 1663420
+    sha256: 07d58651820247ba2b57d0e3cac0b1e0734a9773d92c3bcddc48bbb9f3fcdeb8
     url: https://github.com/freepats/synthesizer-percussion/releases/download/v1.0.0/SynthesizerPercussion-20220718.zip
-image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/freepats/synthesizer-percussion/synthesizer-percussion.jpg
-license: cc0-1.0
-name: Synthesizer Percussion
-tags:
-  - Instrument
-  - Drums
-  - Electro
-  - sfz
-type: sampler
-url: https://github.com/freepats/synthesizer-percussion

@@ -1,69 +1,64 @@
----
-audio: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ardura/scrollscope/scrollscope.flac
+name: Scrollscope
 author: Ardura
+description: A simple scrolling oscilloscope in rust with multichannel inputs and an analyzer.
+license: gpl-3.0
+type: effect
+tags:
+  - Effect
+  - Analysis
+url: https://github.com/ardura/Scrollscope
+audio: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ardura/scrollscope/scrollscope.flac
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ardura/scrollscope/scrollscope.jpg
+date: '2024-07-12T07:00:00.000Z'
 changes: |
   - Stereo view
   - Bug fixes
-date: '2024-07-12T07:00:00.000Z'
-description: A simple scrolling oscilloscope in rust with multichannel inputs and an analyzer.
 files:
-  - architectures:
+  - systems:
+      - type: linux
+    architectures:
       - x64
     contains:
       - clap
       - elf
       - vst3
-    format: zip
-    sha256: 47ebe88500fb90f501f2d07e02e0aaa45fb3eb43536df0a976ffd8a42cf10eda
-    systems:
-      - type: linux
-    size: 7528497
     type: archive
+    size: 7528497
+    sha256: 1149b172665d2accfa8ef597361eab3d7e9da65784424f6201d3bb0cded52cbd
     url: https://github.com/ardura/Scrollscope/releases/download/v1.4.1/Scrollscope_v141_linux_build.zip
-  - architectures:
+  - systems:
+      - type: mac
+    architectures:
       - x64
     contains:
       - app
       - clap
       - vst3
-    format: zip
-    sha256: 59d859fbad34a83ecdca387116299f9aed32f5f641e74a80e0b93e249c38e9fe
-    systems:
-      - type: mac
-    size: 6925944
     type: archive
+    size: 6925944
+    sha256: efd61d1fb05364676933c928f436e42fce070bc6023d9c59ec7bf14a163dd6b6
     url: https://github.com/ardura/Scrollscope/releases/download/v1.4.1/Scrollscope_v141_macos_build.zip
-  - architectures:
+  - systems:
+      - type: mac
+    architectures:
       - arm64
     contains:
       - app
       - clap
       - vst3
-    format: zip
-    sha256: 36a8c5b9daceeafbbeacd598e6fba6baaf5e0e8a3372ef1d6110d627c8902b19
-    systems:
-      - type: mac
-    size: 6413946
     type: archive
+    size: 6413946
+    sha256: 6982220abde622395ef8cabc108dcf2cc5b4b61f8676fd82d6d9ed8fe51a5a62
     url: https://github.com/ardura/Scrollscope/releases/download/v1.4.1/Scrollscope_v141_macos_m1_build.zip
-  - architectures:
+  - systems:
+      - type: win
+    architectures:
       - x64
     contains:
       - clap
       - exe
       - vst3
-    format: zip
-    sha256: eae4bb316379f1094c716c02b78aefb2d58153bb24314e453d72cf34a1d6d3ce
-    systems:
-      - type: win
-    size: 6749313
     type: archive
+    size: 6749313
+    sha256: c8177422d8d25eaef575651fde821773a41765a9c00b7f6471d5e81247078db3
     url: https://github.com/ardura/Scrollscope/releases/download/v1.4.1/Scrollscope_v141_windows_build.zip
-image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ardura/scrollscope/scrollscope.jpg
-license: gpl-3.0
-name: Scrollscope
-tags:
-  - Effect
-  - Analysis
-type: effect
-url: https://github.com/ardura/Scrollscope

@@ -3,10 +3,10 @@ import {
   dirCreate,
   dirExists,
   fileCreate,
+  fileCreateJson,
   fileExists,
   fileReadYaml,
   fileValidateMetadata,
-  logReport,
   packageRecommendations,
   PackageValidationRec,
   PackageVersionValidator,
@@ -19,6 +19,7 @@ import {
   ProjectFile,
 } from '@open-audio-stack/core';
 import path from 'path';
+import { getReport, updateReport } from './report.js';
 
 const DIR_DOWNLOADS: string = 'downloads';
 const filePath: string = process.argv[2];
@@ -37,7 +38,7 @@ const pkgFile: PluginInterface = fileReadYaml(filePath) as PluginInterface;
 // Package metadata validation
 const errors = PackageVersionValidator.safeParse(pkgFile).error?.issues;
 const recs: PackageValidationRec[] = packageRecommendations(pkgFile);
-logReport(`${pkgSlug} | ${pkgVersion} | ${filePath}`, errors, recs);
+updateReport(pkgSlug, pkgVersion, filePath, errors, recs);
 
 // Loop through files in yaml file
 for (const type in pkgFile.files) {
@@ -56,5 +57,21 @@ for (const type in pkgFile.files) {
 
   // Validate file vs package metadata and output errors
   const errorsFile = await fileValidateMetadata(fileLocalPath, file);
-  logReport(`${pkgSlug} | ${pkgVersion} | ${fileLocalPath}`, errorsFile);
+  updateReport(pkgSlug, pkgVersion, fileLocalPath, errorsFile);
 }
+
+// Ensure image and audio files exist locally in registry
+const audioPathLocal: string = pkgFile.audio.replace(
+  'https://open-audio-stack.github.io/open-audio-stack-registry/',
+  'src/',
+);
+const imagePathLocal: string = pkgFile.image.replace(
+  'https://open-audio-stack.github.io/open-audio-stack-registry/',
+  'src/',
+);
+if (!fileExists(audioPathLocal)) console.log(`- File does not exist locally: ${audioPathLocal}`);
+if (!fileExists(imagePathLocal)) console.log(`- File does not exist locally: ${imagePathLocal}`);
+
+const reportPath: string = filePath.replace('src', 'out').replace('index.yaml', 'report.json');
+dirCreate(path.dirname(reportPath));
+fileCreateJson(reportPath, getReport());
