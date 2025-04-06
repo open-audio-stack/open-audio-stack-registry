@@ -1,4 +1,4 @@
-name: jc303
+name: JC303
 author: Midilab
 description: A bass synthesizer designed to simulate bass guitars. Based on the Roland TB-303 Bass Line.
 license: gpl-3.0
@@ -13,10 +13,10 @@ audio: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/midi
 image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/midilab/jc303/jc303.jpg
 date: '2024-04-01T07:00:00.000Z'
 changes: |
-  - Built-in Overdrive based on GuitarML research and BYOD DSP implementation.
-  - Comes with 37 built-in models to try out.
-  - Over 180 additional models available for download from the [GuitarML TonePro Library Pack](https://github.com/GuitarML/ToneLibrary/releases/download/v1.0/ProteuPack](https://github.com/GuitarML/ToneLibrary/relases/download/v1.0/Proteus_Tone_Packs.zip).
-  - To install or delete new models after running the plugin for the first time, use the newly created folder Documents/midilab/JC303/overdrive_models/ to copy or delete one or more model files inside.
+  - Built-in Overdrive based on GuitarML research and BYOD DSP.
+  - 37 built-in models.
+  - 180+ additional models from the GuitarML TonePro Library Pack.
+  - Use the newly created folder Documents/midilab/JC303/overdrive_models/ to copy or delete files.
 files:
   - systems:
       - type: linux
