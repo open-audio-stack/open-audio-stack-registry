@@ -16,6 +16,7 @@ const yamlOrder = [
   'type',
   'tags',
   'url',
+  'donate',
   'audio',
   'image',
   'date',
