@@ -3,10 +3,6 @@
     "1.0.0": {
       "recs": [
         {
-          "field": "url",
-          "rec": "not a supported format"
-        },
-        {
           "field": "architectures",
           "rec": "should support arm64"
         },
@@ -189,16 +185,6 @@
       ]
     }
   },
-  "sfztools/sfizz": {
-    "1.2.1": {
-      "recs": [
-        {
-          "field": "url",
-          "rec": "not a supported format"
-        }
-      ]
-    }
-  },
   "sdatkinson/neural-amp-modeler": {
     "0.7.12": {
       "recs": [
@@ -334,10 +320,6 @@
         },
         {
           "field": "url",
-          "rec": "not a supported format"
-        },
-        {
-          "field": "url",
           "rec": "should point to GitHub"
         },
         {
@@ -354,10 +336,6 @@
   "mzuther/squeezer": {
     "2.5.4": {
       "recs": [
-        {
-          "field": "url",
-          "rec": "not a supported format"
-        },
         {
           "field": "architectures",
           "rec": "should support arm64"
@@ -713,10 +691,6 @@
     "0.2.0": {
       "recs": [
         {
-          "field": "url",
-          "rec": "not a supported format"
-        },
-        {
           "field": "architectures",
           "rec": "should support arm64"
         }
@@ -749,16 +723,6 @@
         {
           "field": "architectures",
           "rec": "should support arm64"
-        }
-      ]
-    }
-  },
-  "aaronaanderson/terrain": {
-    "1.2.2": {
-      "recs": [
-        {
-          "field": "url",
-          "rec": "not a supported format"
         }
       ]
     }

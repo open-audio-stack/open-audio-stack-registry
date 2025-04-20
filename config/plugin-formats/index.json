@@ -15,9 +15,12 @@
     "name": "Clever Audio Plugin"
   },
   {
-    "description": "Real-time plugin format used in Avid's Pro Tools.",
-    "value": "rta",
-    "name": "Real-Time AudioSuite"
+    "description": "Simple text files which become full featured plug-ins when loaded.",
+    "value": "jsfx",
+    "name": "Jesusonic Plugin",
+    "players": [
+      "joepvanlier/ysfx"
+    ]
   },
   {
     "description": "Linux-friendly plugin format primarily used in open-source environments.",
@@ -35,14 +38,25 @@
     "name": "MacOS Standalone"
   },
   {
+    "description": "Real-time plugin format used in Avid's Pro Tools.",
+    "value": "rta",
+    "name": "Real-Time AudioSuite"
+  },
+  {
     "description": "An open standard for defining instrument patches and sound samples.",
     "value": "sfz",
-    "name": "SFZ"
+    "name": "SFZ",
+    "players": [
+      "sfztools/sfizz"
+    ]
   },
   {
     "description": "Widely used format for sound samples in musical instruments.",
     "value": "sf2",
-    "name": "SoundFont 2"
+    "name": "SoundFont 2",
+    "players": [
+      "birch-san/juicysfplugin"
+    ]
   },
   {
     "description": "Legacy plugin format used in early Pro Tools systems.",

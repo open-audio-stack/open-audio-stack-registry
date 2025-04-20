@@ -1,5 +1,8 @@
 {
   "description": "Widely used format for sound samples in musical instruments.",
   "value": "sf2",
-  "name": "SoundFont 2"
+  "name": "SoundFont 2",
+  "players": [
+    "birch-san/juicysfplugin"
+  ]
 }

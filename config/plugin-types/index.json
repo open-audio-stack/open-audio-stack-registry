@@ -15,11 +15,6 @@
     "name": "Instrument"
   },
   {
-    "description": "Preset containing predefined settings for an instrument or effect.",
-    "value": "preset",
-    "name": "Preset"
-  },
-  {
     "description": "Sample playback based on audio or midi input.",
     "value": "sampler",
     "name": "Sampler"
