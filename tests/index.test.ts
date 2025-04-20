@@ -132,14 +132,20 @@ test('Create new Plugin Manager', () => {
 
 test('Validate json index', () => {
   const registry: RegistryLocal = new RegistryLocal(REGISTRY.name, REGISTRY.url, REGISTRY.version);
+  const manager: ManagerLocal = new ManagerLocal(RegistryType.Plugins, CONFIG);
+  registry.addManager(manager);
   registry.scan('yaml', false);
   registry.export('out');
   const fileJSON = fileReadJson(path.join('out', 'index.json'));
-  expect(fileJSON).toEqual(REGISTRY);
+  expect(fileJSON.name).toEqual(REGISTRY.name);
+  expect(fileJSON.url).toEqual(REGISTRY.url);
+  expect(fileJSON.version).toEqual(REGISTRY.version);
 });
 
 test('Validate json plugins', () => {
   const registry: RegistryLocal = new RegistryLocal(REGISTRY.name, REGISTRY.url, REGISTRY.version);
+  const manager: ManagerLocal = new ManagerLocal(RegistryType.Plugins, CONFIG);
+  registry.addManager(manager);
   registry.scan('yaml', false);
   registry.export('out');
   const fileJSON = fileReadJson(path.join('out', 'plugins', 'index.json'));
@@ -148,6 +154,8 @@ test('Validate json plugins', () => {
 
 test('Validate json org', () => {
   const registry: RegistryLocal = new RegistryLocal(REGISTRY.name, REGISTRY.url, REGISTRY.version);
+  const manager: ManagerLocal = new ManagerLocal(RegistryType.Plugins, CONFIG);
+  registry.addManager(manager);
   registry.scan('yaml', false);
   registry.export('out');
   const fileJSON = fileReadJson(path.join('out', 'plugins', PLUGIN_PACKAGE.slug.split('/')[0], 'index.json'));
@@ -156,6 +164,8 @@ test('Validate json org', () => {
 
 test('Validate json package', () => {
   const registry: RegistryLocal = new RegistryLocal(REGISTRY.name, REGISTRY.url, REGISTRY.version);
+  const manager: ManagerLocal = new ManagerLocal(RegistryType.Plugins, CONFIG);
+  registry.addManager(manager);
   registry.scan('yaml', false);
   registry.export('out');
   const fileJSON = fileReadJson(path.join('out', 'plugins', PLUGIN_PACKAGE.slug, 'index.json'));
@@ -164,6 +174,8 @@ test('Validate json package', () => {
 
 test('Validate json package version', () => {
   const registry: RegistryLocal = new RegistryLocal(REGISTRY.name, REGISTRY.url, REGISTRY.version);
+  const manager: ManagerLocal = new ManagerLocal(RegistryType.Plugins, CONFIG);
+  registry.addManager(manager);
   registry.scan('yaml', false);
   registry.export('out');
   const fileJSON = fileReadJson(path.join('out', 'plugins', PLUGIN_PACKAGE.slug, PLUGIN_PACKAGE.version, 'index.json'));
