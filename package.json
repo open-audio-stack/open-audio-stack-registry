@@ -23,7 +23,7 @@
     "format": "prettier . --write",
     "lint": "eslint .",
     "start": "node build/index.js && npm run copy",
-    "test": "vitest run --config vitest.config.ts",
+    "test": "vitest run ./tests --hook-timeout=60000 --test-timeout=60000 --no-file-parallelism",
     "test:api": "playwright test --debug",
     "test:watch": "vitest ./tests"
   },
@@ -59,7 +59,7 @@
     "vitest": "^3.0.5"
   },
   "dependencies": {
-    "@open-audio-stack/core": "^0.1.13",
+    "@open-audio-stack/core": "^0.1.31",
     "chalk": "^5.3.0",
     "js-yaml": "^4.1.0"
   },
