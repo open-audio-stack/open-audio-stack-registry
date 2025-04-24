@@ -633,19 +633,27 @@ GET /presets/{slug}/{version}
 
 ### File formats
 
-| Name                       | Description                                                                                                    | Value      |
-| :------------------------- | :------------------------------------------------------------------------------------------------------------- | :--------- |
-| AppImage (not recommended) | App package for Linux systems. Not recommended for use as it does not support headless automatic installation. | `appimage` |
-| Apple Disk Image           | Disk image format used on macOS. Has to be mounted to access the installer inside.                             | `dmg`      |
-| Apple package              | macOS and iOS software package installer.                                                                      | `pkg`      |
-| Debian package             | Package for Debian-based Linux such as Ubuntu                                                                  | `deb`      |
-| Executable installer       | Executable file format used by Windows.                                                                        | `exe`      |
-| Red Hat package            | Originally developed for Red Hat, but is now used in many other Linux distributions.                           | `rpm`      |
-| Tarball                    | Compressed archive format common on Linux and Unix systems.                                                    | `tar.gz`   |
-| Tarball (alt)              | Legacy compressed archive format similar to .tar.gz.                                                           | `tgz`      |
-| Windows installer          | Installer format for Windows.                                                                                  | `msi`      |
-| Zip                        | Widely-used compressed file format compatible with many operating systems.                                     | `zip`      |
-| 7-Zip                      | Archive file format which compresses files and folders into a single file.                                     | `7z`       |
+| Name                 | Description                                                                          | Value      | Recommended format   |
+| :------------------- | :----------------------------------------------------------------------------------- | :--------- | :------------------- |
+| AppImage             | App package for Linux systems. Does not support headless installation.               | `appimage` |                      |
+| Apple Disk Image     | Disk image format used on macOS. User friendly, but can result in nested installers. | `dmg`      |                      |
+| Apple package        | macOS and iOS software package installer.                                            | `pkg`      | ✅ Mac installer     |
+| Debian package       | Package for Debian-based Linux such as Ubuntu                                        | `deb`      | ✅ Linux installer   |
+| Executable installer | Executable file format used by Windows.                                              | `exe`      |                      |
+| Red Hat package      | Originally developed for Red Hat based enterprise systems.                           | `rpm`      |                      |
+| Tarball              | Compressed archive format common on Linux and Unix systems.                          | `tar.gz`   |                      |
+| Tarball (alt)        | Legacy compressed archive format similar to .tar.gz.                                 | `tgz`      |                      |
+| Windows installer    | Installer format for Windows.                                                        | `msi`      | ✅ Windows installer |
+| Zip                  | Widely-used compressed file format compatible with many operating systems.           | `zip`      | ✅ Archive           |
+| 7-Zip                | Archive file format which compresses files and folders into a single file.           | `7z`       |                      |
+
+### File format recommendations
+
+- Use an installer if you want to specify the installation paths
+- Archives will be extracted and installed based on the package manager configuration.
+- Avoid file formats which don't support automatic installation e.g. appimage
+- Avoid nesting files such as an archive `plugin.zip` which contains an installer `plugin.msi`.
+- Consider using a package generator such as [CPack](https://cmake.org/cmake/help/book/mastering-cmake/chapter/Packaging%20With%20CPack.html) or [JUCE](https://juce.com/tutorials/tutorial_app_plugin_packaging/) to build cross-platform packages for distribution.
 
 ### File types
 
