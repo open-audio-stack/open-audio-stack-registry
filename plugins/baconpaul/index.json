@@ -1,0 +1,87 @@
+{
+  "baconpaul/six-sines": {
+    "slug": "baconpaul/six-sines",
+    "version": "1.1.0",
+    "versions": {
+      "1.1.0": {
+        "name": "Six Sines",
+        "author": "BaconPaul",
+        "description": "Obtuse? Expressive? Amazing? FM? RM? AM? PM? YES!. As one fellow dev said, \"With my synth its hard to make a bad sound, and its nice that Six Sines is the opposite\"",
+        "license": "mit",
+        "type": "instrument",
+        "tags": [
+          "Instrument",
+          "Synth",
+          "FM"
+        ],
+        "url": "https://github.com/baconpaul/six-sines",
+        "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/baconpaul/six-sines/six-sines.flac",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/baconpaul/six-sines/six-sines.jpg",
+        "date": "2025-03-18T00:00:00.000Z",
+        "changes": "You can read changes from 1.0 here https://github.com/baconpaul/six-sines/blob/main/doc/changelog.md",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "elf",
+              "clap",
+              "vst3"
+            ],
+            "type": "archive",
+            "sha256": "fae7c1c325fde7ed49c978358397cb4bcf69012c4e6eefe2a5968fe6a36d0421",
+            "size": 19665323,
+            "url": "https://github.com/baconpaul/six-sines/releases/download/v1.1.0/six-sines-linux-2025-03-18-43d10b2.tgz"
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "app",
+              "clap",
+              "component",
+              "vst3",
+              "auv2"
+            ],
+            "type": "installer",
+            "sha256": "d6fdf29179cd5b35aa024f25912a50bd14df59fa73cea9ce3da6f3fbf1abe55a",
+            "size": 43527509,
+            "url": "https://github.com/baconpaul/six-sines/releases/download/v1.1.0/six-sines-macOS-2025-03-18-43d10b2.dmg"
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "exe",
+              "clap",
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 15983506,
+            "sha256": "7af26e3a4674fac3eecf72061a6f8d9aa13a677c511f116f4f507e6959e002ad",
+            "url": "https://github.com/baconpaul/six-sines/releases/download/v1.1.0/six-sines-windows-2025-03-18-43d10b2.zip"
+          }
+        ]
+      }
+    }
+  }
+}
