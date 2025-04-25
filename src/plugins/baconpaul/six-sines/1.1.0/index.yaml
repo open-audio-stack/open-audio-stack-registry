@@ -9,8 +9,9 @@ tags:
   - FM
 url: https://github.com/baconpaul/six-sines
 audio: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/baconpaul/six-sines/six-sines.flac
-image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/baconpaul/six-sines/six-sines.png
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/baconpaul/six-sines/six-sines.jpg
 date: '2025-03-18T00:00:00.000Z'
+changes: You can read changes from 1.0 here https://github.com/baconpaul/six-sines/blob/main/doc/changelog.md
 files:
   - systems:
       - type: linux
@@ -20,6 +21,7 @@ files:
       - elf
       - clap
       - vst3
+    type: archive
     sha256: fae7c1c325fde7ed49c978358397cb4bcf69012c4e6eefe2a5968fe6a36d0421
     size: 19665323
     url: https://github.com/baconpaul/six-sines/releases/download/v1.1.0/six-sines-linux-2025-03-18-43d10b2.tgz
@@ -46,7 +48,7 @@ files:
       - exe
       - clap
       - vst3
-    type: installer
+    type: archive
     size: 15983506
     sha256: 7af26e3a4674fac3eecf72061a6f8d9aa13a677c511f116f4f507e6959e002ad
     url: https://github.com/baconpaul/six-sines/releases/download/v1.1.0/six-sines-windows-2025-03-18-43d10b2.zip
