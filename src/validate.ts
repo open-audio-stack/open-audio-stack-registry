@@ -18,29 +18,17 @@ import { ZodIssue } from 'zod';
 
 const filePath: string = process.argv[2];
 const subPath: string = filePath.split(path.sep).slice(2).join(path.sep);
-const type: string = filePath.split(path.sep).slice(1, 2).join(path.sep);
+// const type: string = filePath.split(path.sep).slice(1, 2).join(path.sep);
 const slug: string = pathGetSlug(subPath, path.sep);
 const version: string = pathGetVersion(subPath, path.sep);
 
-console.log('-------- Params --------');
-console.log('filePath', filePath);
-console.log('subPath', subPath);
-console.log('type', type);
-console.log('slug', slug);
-console.log('version', version);
-
+// Validate metadata
 const pkgJson = fileReadYaml(filePath) as PackageVersion;
 const pkg = new Package(slug);
-pkg.logEnable();
 pkg.addVersion(version, pkgJson);
+pkg.logEnable();
+pkg.outputReport();
 
-console.log('-------- Input --------');
-console.log(pkgJson);
-
-console.log('-------- Output --------');
-console.log(pkg.toJSON());
-
-console.log('-------- Files --------');
 // Loop through files in yaml file
 for (const type in pkgJson.files) {
   const file: PluginFile | PresetFile | ProjectFile = pkgJson.files[type];
@@ -66,7 +54,6 @@ const audioPathLocal: string = pkgJson.audio.replace(
   'https://open-audio-stack.github.io/open-audio-stack-registry/',
   'src/',
 );
-console.log('⎋', audioPathLocal);
 if (!fileExists(audioPathLocal)) {
   pkg.logErrors([
     {
@@ -79,7 +66,6 @@ const imagePathLocal: string = pkgJson.image.replace(
   'https://open-audio-stack.github.io/open-audio-stack-registry/',
   'src/',
 );
-console.log('⎋', imagePathLocal);
 if (!fileExists(imagePathLocal)) {
   pkg.logErrors([
     {
@@ -88,9 +74,6 @@ if (!fileExists(imagePathLocal)) {
     },
   ] as ZodIssue[]);
 }
-
-console.log('-------- Report --------');
-console.log(JSON.stringify(pkg.getReport(), null, 2));
 
 // Test a real installation on this operating system
 // console.log('-------- Install --------');
