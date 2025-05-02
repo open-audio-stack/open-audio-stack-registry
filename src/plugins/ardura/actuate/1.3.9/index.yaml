@@ -12,18 +12,13 @@ audio: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ardu
 image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ardura/actuate/actuate.jpg
 date: '2025-05-01T07:00:00.000Z'
 changes: |
-  - Preset downloader and installer included
-  - Additive engine code changes
-  - State Variable filter code changes
-  - Saturation effect changes
-  - Multiple Stereo spread and blending changes for better width sound
-  - Fixed selected file not persisting in import/export window
-  - Fixed resonance mod not working in some mod combinations
-  - Fixed detune for multiplied/unison voices
-  - Fixed crashes when clicking labels
-  - Updated dependencies
-  - Better GUI performance
-  - Fixed multiple bugs preventing stability
+  - Preset downloader and installer
+  - Additive engine code
+  - State Variable filter
+  - Saturation effect and multiple Stereo spread
+  - Fixed resonance mod, detune and crashes
+  - Updated dependencies and GUI performance
+  - Fixed multiple bugs
 files:
   - systems:
       - type: linux
