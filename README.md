@@ -62,18 +62,46 @@ Open Audio Stack Registry validates each package's metadata, if you miss or ente
 
 - Project: [src/projects/kmt/banwer/1.0.1/index.yaml](https://github.com/open-audio-stack/open-audio-stack-registry/blob/main/src/projects/kmt/banwer/1.0.1/index.yaml)
 
-For file downloads, we recommend `.zip` files which are cross-platform and can be extracted automatically and placed into the correct locations without user interaction.
+Update the .yaml details to match your plugin. Refer to the <a href="specification.md">Open Audio Registry Specification</a> for all the possible fields and values allowed.
 
-If you use other formats such as `deb, dmg, exe, msi` compatible apps will download and copy the file to the users directory, but might not support full installation.
+For adding a plugin refer to:
 
-Validate your changes locally by running these command:
+- <a href="specification.md#plugin-1">Plugin fields/values</a>
+- <a href="specification.md#plugin-formats">Plugin formats</a>
+- <a href="specification.md#plugin-types">Plugin types</a>
+
+For adding files refer to:
+
+- <a href="specification.md#file">File fields/values</a>
+- <a href="specification.md#file-formats">File formats</a>
+- <a href="specification.md#file-format-recommendations">File format recommendations</a>
+- <a href="specification.md#file-types">File types</a>
+
+After making your changes, validate them locally by running these commands:
 
     npm install
     npm run dev:validate -- src/plugins/surge-synthesizer/surge/1.3.1/index.yaml
 
-Ensure you provide the path to the yaml file you changed.
+Ensure you provide the path to the yaml file which you have added/changed. The script will output any issues, for example:
 
-After validation passes, push your branch to GitHub to have the automated GitHub Action run additional checks and return any issues with your changes.
+    X surge-synthesizer/surge/1.3.1
+    - changes (String must contain at most 256 character(s))
+
+This error tells you the `changes` field is too long and needs to be shortened.
+
+During file validation you may recieve a `size` or `sha256` error such as:
+
+    X surge-synthesizer/surge/1.3.1
+    - sha256 (Required) received 'e30b218700d4067edb3a0eadb4128784e41f91f663cff19e3fbb38460883cf59' expected '3d766adb0d04b86f7aca8c136bc4c7b0727d316ec10895f679f1c01b0c236a00'
+    - size (Required) received '411860016' expected '68741234'
+
+File `size` field informs users how big the file is before it is downloaded. If the file size does not match, this could create a bad user experience where the user thinks they are downloading a small package, which turns out to be larger.
+
+File `sha256` field is a hash of the file, if the file is modified in any way the hash will change. This is for security to ensure the file downloaded matches the file intended for distribution.
+
+When displaying errors, the script will output the `received` and `expected` values. Confirm the file url is correct, and confirm the downloaded file contains the correct version of the package. Then update `size` and `sha256` values to resolve the error.
+
+After validation passes, push your branch to GitHub and open a PR. During the PR review the automated GitHub Action will run test, validation and additional virus scanning checks which need to pass before your code is merged.
 
 ## Badges
 
