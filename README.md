@@ -36,6 +36,8 @@ Compatible command-line tools, apps and websites can read the json files to disc
 
 ## Contributing a package
 
+You can use this website for filling out metadata https://open-audio-stack.github.io/open-audio-stack-site
+
 Create a fork of the repo `open-audio-stack-registry`. Add new folders for your organization and package using [kebab-case](https://developer.mozilla.org/en-US/docs/Glossary/Kebab_case):
 
     ./src/plugins/org-name/package-name
