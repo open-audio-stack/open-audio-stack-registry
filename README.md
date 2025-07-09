@@ -10,6 +10,8 @@
     <a href="https://open-audio-stack.github.io/open-audio-stack-registry">Registry API</a>
     ⦁︎
     <a href="https://github.com/orgs/open-audio-stack/projects">Roadmap</a>
+    ⦁︎
+    <a href="https://open-audio-stack.github.io/open-audio-stack-site">Upload files</a>
   </p>
 <p>
 
