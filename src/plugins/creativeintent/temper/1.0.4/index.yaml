@@ -1,0 +1,55 @@
+name: Temper
+author: Creative Intent
+description: Digital distortion plugin built upon traditional waveshaping techniques. Uses modulated filter coefficients to produce a unique phase distortion.
+license: gpl-3.0
+type: instrument
+tags:
+  - Distortion
+  - Effect
+url: https://github.com/creativeintent/temper
+audio: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/creativeintent/temper/temper.flac
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/creativeintent/temper/temper.jpg
+date: '2025-07-08T12:00:00.000Z'
+changes: |
+  - New Juice Version
+  - Update Build environment to Cmake
+  - Add Linux Support
+  - Drop VST2 Support
+files:
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - vst3
+      - lv2
+      - elf
+    type: archive
+    size: 18899845
+    sha256: b6464d0d84b7226d85d29354cdeec523d3e77ac7c55d2a70523fa9f8c2d38512
+    url: https://github.com/CapRat/temper/releases/download/v1.0.4/temper_ubuntu-clang.zip
+  - systems:
+      - type: mac
+    architectures:
+      - x64
+    contains:
+      - vst3
+      - app
+      - component
+      - lv2
+    type: archive
+    size: 20389162
+    sha256: 659740f374efb70d465669b7992131aa4c898496978ef9ef45c9e1fdc5a0b3c8
+    url: https://github.com/CapRat/temper/releases/download/v1.0.4/temper_macos.zip
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - vst3
+      - exe
+      - lv2
+    type: archive
+    size: 70456585
+    sha256: 8faebb86784d4baa6ebda51864fb15771b3237d8cb7800b370d38c31c8ba4dfb
+    url: https://github.com/CapRat/temper/releases/download/v1.0.4/temper_windows.zip
