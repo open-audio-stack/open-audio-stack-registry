@@ -172,6 +172,90 @@
         }
       }
     },
+    "vvvar/peakeater": {
+      "slug": "vvvar/peakeater",
+      "version": "0.8.2",
+      "versions": {
+        "0.8.2": {
+          "name": "PeakEater",
+          "author": "vvvar",
+          "description": "Wave shaper plugin",
+          "license": "gpl-3.0",
+          "type": "effect",
+          "tags": [
+            "Modulation",
+            "Distortion",
+            "Gain"
+          ],
+          "url": "https://github.com/vvvar/PeakEater",
+          "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/vvvar/peakeater/peakeater.flac",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/vvvar/peakeater/peakeater.jpg",
+          "date": "2023-08-21T00:00:00.000Z",
+          "changes": "- DSP Switch from IIR to the FIR filter for the Oversampler\n- DSP Fix the comb filter effect that happened during Dry/Wet usage in the Oversampling mode\n- DSP Fix latency reporting to the DAW\n",
+          "files": [
+            {
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "clap",
+                "lv2",
+                "vst3"
+              ],
+              "sha256": "0ddf7d839fa436e62c2e9d5b1f188d695424d5aba2f242ad0a89bb8634f299b9",
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "size": 4586800,
+              "type": "archive",
+              "url": "https://github.com/vvvar/PeakEater/releases/download/v0.8.2/peakeater-v0.8.2-Linux-x86_64.zip"
+            },
+            {
+              "architectures": [
+                "arm64",
+                "x64"
+              ],
+              "contains": [
+                "component",
+                "clap",
+                "lv2",
+                "vst3"
+              ],
+              "sha256": "0df88ee26481843d0cc7762377bfefbb489a147a96fe6a9f2b9962834b92ba06",
+              "systems": [
+                {
+                  "type": "mac"
+                }
+              ],
+              "size": 10279669,
+              "type": "installer",
+              "url": "https://github.com/vvvar/PeakEater/releases/download/v0.8.2/peakeater-v0.8.2-macOS-universal.dmg"
+            },
+            {
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "clap",
+                "lv2",
+                "vst3"
+              ],
+              "sha256": "6bae14feb7ea19beed6faf4a6984168521d2deb1351db9da5c208d274254e075",
+              "systems": [
+                {
+                  "type": "win"
+                }
+              ],
+              "size": 3727973,
+              "type": "archive",
+              "url": "https://github.com/vvvar/PeakEater/releases/download/v0.8.2/peakeater-v0.8.2-Windows-x86_64.zip"
+            }
+          ]
+        }
+      }
+    },
     "utokusa/os-251": {
       "slug": "utokusa/os-251",
       "version": "1.2.1",
