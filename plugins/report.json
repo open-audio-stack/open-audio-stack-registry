@@ -747,6 +747,20 @@
       ]
     }
   },
+  "ardenbutterfield/maim": {
+    "1.1.1": {
+      "recs": [
+        {
+          "field": "url",
+          "rec": "requires mounting step, consider .pkg instead"
+        },
+        {
+          "field": "architectures",
+          "rec": "should support arm64"
+        }
+      ]
+    }
+  },
   "antonok-edm/ampli-fe": {
     "0.1.1": {
       "recs": [

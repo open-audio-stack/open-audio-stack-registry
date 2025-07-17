@@ -5881,6 +5881,85 @@
         }
       }
     },
+    "ardenbutterfield/maim": {
+      "slug": "ardenbutterfield/maim",
+      "version": "1.1.1",
+      "versions": {
+        "1.1.1": {
+          "name": "Maim",
+          "author": "Arden Butterfield",
+          "description": "Circuit bends MP3 and Opus encoders in real time to create distortion and digital glitches.",
+          "license": "gpl-3.0",
+          "type": "effect",
+          "tags": [
+            "Instrument",
+            "Modulation",
+            "Distortion"
+          ],
+          "url": "https://github.com/ArdenButterfield/Maim",
+          "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ardenbutterfield/maim/maim.flac",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ardenbutterfield/maim/maim.jpg",
+          "date": "2025-05-20T00:00:00.000Z",
+          "changes": "- Add OPUS encoder\n- Add error parameter to Blade and Lame\n",
+          "files": [
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "vst3",
+                "elf"
+              ],
+              "type": "archive",
+              "size": 21132389,
+              "sha256": "deb7a8457c9d3320293dab4eab50f4ca7f294539b291d78c66f35d9bfe13715f",
+              "url": "https://github.com/ArdenButterfield/Maim/releases/download/v1.1.1/Maim-1.1.1-Linux.zip"
+            },
+            {
+              "systems": [
+                {
+                  "type": "mac"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "component",
+                "vst3"
+              ],
+              "type": "installer",
+              "size": 17636483,
+              "sha256": "6527b266948277b9bcc281a35d9a4bb6a70bd5667baf98664a6579b793919ee4",
+              "url": "https://github.com/ArdenButterfield/Maim/releases/download/v1.1.1/Maim-1.1.1-macOS.dmg"
+            },
+            {
+              "systems": [
+                {
+                  "type": "win"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "exe",
+                "vst3"
+              ],
+              "type": "installer",
+              "size": 5599030,
+              "sha256": "d3498b897bfdf967c645b6e14ef981007eef27d57803b00545d049c6e78ab392",
+              "url": "https://github.com/ArdenButterfield/Maim/releases/download/v1.1.1/Maim-1.1.1-Windows.exe"
+            }
+          ]
+        }
+      }
+    },
     "antonok-edm/ampli-fe": {
       "slug": "antonok-edm/ampli-fe",
       "version": "0.1.1",
