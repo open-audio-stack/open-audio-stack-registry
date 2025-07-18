@@ -1,0 +1,50 @@
+name: TIME-12
+author: TiagoLr
+description: Delay modulator similar to plugins like GrossBeat or TimeShaper. Can be used for stutter effects, tape stop, glitch, scratch, reverse, pitch shift and more.
+license: gpl-3.0
+type: effect
+tags:
+  - Effect
+  - Modulation
+  - Delay
+url: https://github.com/tiagolr/time12
+audio: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/tiagolr/time12/time12.flac
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/tiagolr/time12/time12.jpg
+date: '2025-06-12T00:00:00.000Z'
+changes: |
+  - Move import/export patterns into load menu.
+files:
+  - architectures:
+      - x64
+    contains:
+      - lv2
+      - vst3
+    sha256: aab7ea766a5b3a52a84eee6d4f8f27cc9c06d3730a2fd031b24f71799887fbf1
+    systems:
+      - type: linux
+    size: 5062415
+    type: archive
+    url: https://github.com/tiagolr/time12/releases/download/v1.1.8/time12-linux-v1.1.8.zip
+  - architectures:
+      - x64
+    contains:
+      - component
+      - lv2
+      - vst3
+    sha256: 6d8fe4704c236fc6f3f186361ed8cbee216b3e5a3a6c7c0800beffc4481ee0df
+    systems:
+      - type: mac
+    size: 12402163
+    type: archive
+    url: https://github.com/tiagolr/time12/releases/download/v1.1.8/time12-macos-v1.1.8.zip
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - lv2
+      - vst3
+    type: archive
+    size: 5512940
+    sha256: 74956708450ba450728dbd69400094e1568731c315a41a16b9593f5c689aa7d3
+    url: https://github.com/tiagolr/time12/releases/download/v1.1.8/time12-win-v1.1.8.zip
