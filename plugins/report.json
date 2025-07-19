@@ -71,6 +71,16 @@
       ]
     }
   },
+  "tiagolr/gate12": {
+    "1.1.8": {
+      "recs": [
+        {
+          "field": "architectures",
+          "rec": "should support arm64"
+        }
+      ]
+    }
+  },
   "thewavewarden/odin": {
     "2.3.4": {
       "recs": [

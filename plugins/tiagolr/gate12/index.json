@@ -1,0 +1,79 @@
+{
+  "slug": "tiagolr/gate12",
+  "version": "1.1.8",
+  "versions": {
+    "1.1.8": {
+      "name": "GATE-12",
+      "author": "TiagoLr",
+      "description": "Cross-platform envelope generator for gate/volume control inspired by plugins like GrossBeat and ShaperBox.",
+      "license": "gpl-3.0",
+      "type": "effect",
+      "tags": [
+        "Effect",
+        "Gate"
+      ],
+      "url": "https://github.com/tiagolr/gate12",
+      "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/tiagolr/gate12/gate12.flac",
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/tiagolr/gate12/gate12.jpg",
+      "date": "2025-06-14T00:00:00.000Z",
+      "changes": "- Add import/export patterns.\n",
+      "files": [
+        {
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "vst3",
+            "lv2"
+          ],
+          "sha256": "de54e46836446cb3d477e7d7141be5d19c45104b782ac52b61ba9271d6d5b2cf",
+          "systems": [
+            {
+              "type": "linux"
+            }
+          ],
+          "size": 5058513,
+          "type": "archive",
+          "url": "https://github.com/tiagolr/gate12/releases/download/v1.1.8/gate12-linux-v1.1.8.zip"
+        },
+        {
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "component",
+            "lv2",
+            "vst3"
+          ],
+          "sha256": "8a9187a9a1b837ca342c9bd7a42606651b6925096f6e9646b52de374d217e692",
+          "systems": [
+            {
+              "type": "mac"
+            }
+          ],
+          "size": 12375325,
+          "type": "archive",
+          "url": "https://github.com/tiagolr/gate12/releases/download/v1.1.8/gate12-macos-v1.1.8.zip"
+        },
+        {
+          "systems": [
+            {
+              "type": "win"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "vst3",
+            "lv2"
+          ],
+          "type": "archive",
+          "size": 5504311,
+          "sha256": "a40896657890c5ca94db5c188d7fbb038a363c65d2a16a79fc69fb309ccd827f",
+          "url": "https://github.com/tiagolr/gate12/releases/download/v1.1.8/gate12-win-v1.1.8.zip"
+        }
+      ]
+    }
+  }
+}
