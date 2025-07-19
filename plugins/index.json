@@ -647,6 +647,86 @@
       }
     }
   },
+  "tiagolr/filtr": {
+    "slug": "tiagolr/filtr",
+    "version": "1.1.8",
+    "versions": {
+      "1.1.8": {
+        "name": "FILT-R",
+        "author": "TiagoLr",
+        "description": "Cross-platform filter modulator based on plugins like ShaperBox and FilterShaper.",
+        "license": "gpl-3.0",
+        "type": "effect",
+        "tags": [
+          "Envelope",
+          "Modulation",
+          "Filter"
+        ],
+        "url": "https://github.com/tiagolr/filtr",
+        "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/tiagolr/filtr/filtr.flac",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/tiagolr/filtr/filtr.jpg",
+        "date": "2025-06-14T00:00:00.000Z",
+        "changes": "- Import export patterns.\n",
+        "files": [
+          {
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "lv2"
+            ],
+            "sha256": "452ff4e533b55c0d348a1c7a494cc908dc4f51da53af4ace5f6b934a1028adc4",
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "size": 5306308,
+            "type": "archive",
+            "url": "https://github.com/tiagolr/filtr/releases/download/v1.0.9/filtr-linux-v1.0.9.zip"
+          },
+          {
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "component",
+              "lv2",
+              "vst3"
+            ],
+            "sha256": "7e3531ceb801249e15d3a5885bef1d7b9b2f67ebdd382c5b382a77d30fc42dbd",
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "size": 13063606,
+            "type": "archive",
+            "url": "https://github.com/tiagolr/filtr/releases/download/v1.0.9/filtr-macos-v1.0.9.zip"
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "lv2"
+            ],
+            "type": "archive",
+            "size": 6467999,
+            "sha256": "fb80afe8cf8641427864a4b985aa56e737e69a4f42e5c6f866d6bf92ae41eeef",
+            "url": "https://github.com/tiagolr/filtr/releases/download/v1.0.9/filtr-win-v1.0.9.zip"
+          }
+        ]
+      }
+    }
+  },
   "thewavewarden/odin": {
     "slug": "thewavewarden/odin",
     "version": "2.3.4",
