@@ -617,6 +617,16 @@
       ]
     }
   },
+  "damrsn/neuralnote": {
+    "1.1.0": {
+      "recs": [
+        {
+          "field": "architectures",
+          "rec": "should support arm64"
+        }
+      ]
+    }
+  },
   "creativeintent/temper": {
     "1.0.4": {
       "recs": [

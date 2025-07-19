@@ -1,0 +1,90 @@
+{
+  "name": "NeuralNote",
+  "author": "DamRsn",
+  "description": "Audio Plugin for polyphonic Audio to MIDI transcription using deep learning.",
+  "license": "apache-2.0",
+  "type": "tool",
+  "tags": [
+    "Tool",
+    "Transcription",
+    "Audio-to-MIDI"
+  ],
+  "url": "https://github.com/DamRsn/NeuralNote",
+  "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/damrsn/neuralnote/neuralnote.flac",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/damrsn/neuralnote/neuralnote.jpg",
+  "date": "2025-01-11T00:00:00.000Z",
+  "changes": "- Linux (x86_64) support (VST3 and Standalone).\n- Horizontal zoom control on audio and piano roll regions.\n- Keyboard shortcuts for play/pause, reset, record, clear, center and mute buttons.\n- Tooltips, with the option to enable/disable them.\n",
+  "files": [
+    {
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "elf"
+      ],
+      "sha256": "d74166ed126fe583275578c5e7331c4823ffb8c3fe4bc6f2c7ca56ac93ef3841",
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "size": 5621195,
+      "type": "archive",
+      "url": "https://github.com/DamRsn/NeuralNote/releases/download/v1.1.0/NeuralNote_Standalone_Linux.zip"
+    },
+    {
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3"
+      ],
+      "sha256": "0c2c1fa2a407d69a0151bb5f16187f0626867c1c2f97a456567eb24faa60951c",
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "size": 5876490,
+      "type": "archive",
+      "url": "https://github.com/DamRsn/NeuralNote/releases/download/v1.1.0/NeuralNote_VST3_Linux.zip"
+    },
+    {
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "app",
+        "component",
+        "vst3"
+      ],
+      "sha256": "67e6d08ffd6691cdb346ec49866b3765f83725e8bbc7f8470c5d26669c98ef74",
+      "systems": [
+        {
+          "type": "mac"
+        }
+      ],
+      "size": 27549300,
+      "type": "installer",
+      "url": "https://github.com/DamRsn/NeuralNote/releases/download/v1.1.0/NeuralNote_Installer_Mac.pkg"
+    },
+    {
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "exe",
+        "vst3"
+      ],
+      "sha256": "ec31337bce634926ddb1305d8b3dabb09315594ffbdeddd514ecd97621930566",
+      "systems": [
+        {
+          "type": "win"
+        }
+      ],
+      "size": 8569710,
+      "type": "installer",
+      "url": "https://github.com/DamRsn/NeuralNote/releases/download/v1.1.0/NeuralNote_Installer_Windows.exe"
+    }
+  ]
+}
