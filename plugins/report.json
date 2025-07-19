@@ -71,6 +71,16 @@
       ]
     }
   },
+  "tiagolr/reevr": {
+    "1.0.2": {
+      "recs": [
+        {
+          "field": "architectures",
+          "rec": "should support arm64"
+        }
+      ]
+    }
+  },
   "tiagolr/gate12": {
     "1.1.8": {
       "recs": [
@@ -82,7 +92,7 @@
     }
   },
   "tiagolr/filtr": {
-    "1.1.8": {
+    "1.0.9": {
       "recs": [
         {
           "field": "architectures",

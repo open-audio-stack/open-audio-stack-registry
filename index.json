@@ -572,6 +572,86 @@
         }
       }
     },
+    "tiagolr/reevr": {
+      "slug": "tiagolr/reevr",
+      "version": "1.0.2",
+      "versions": {
+        "1.0.2": {
+          "name": "REEV-R",
+          "author": "TiagoLr",
+          "description": "Convolution reverb with modulation for pre/send and post/volume signals.",
+          "license": "gpl-3.0",
+          "type": "effect",
+          "tags": [
+            "Modulation",
+            "Convolution",
+            "Reverb"
+          ],
+          "url": "https://github.com/tiagolr/reevr",
+          "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/tiagolr/reevr/reevr.flac",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/tiagolr/reevr/reevr.jpg",
+          "date": "2025-06-17T00:00:00.000Z",
+          "changes": "- Revert small change to FFT block size calc, very long IRs should work now.\n",
+          "files": [
+            {
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "vst3",
+                "lv2"
+              ],
+              "sha256": "e6291c6a1648ac92b911eb9072c8ec1b2b94f6679fb24dc2c61fb2a4c1256353",
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "size": 6746832,
+              "type": "archive",
+              "url": "https://github.com/tiagolr/reevr/releases/download/v1.0.2/reevr-linux-v1.0.2.zip"
+            },
+            {
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "component",
+                "lv2",
+                "vst3"
+              ],
+              "sha256": "03b7f4053d9b6803cc26ed9463ec22d068e75ad4c4a7f90cda35d0fa68476cf4",
+              "systems": [
+                {
+                  "type": "mac"
+                }
+              ],
+              "size": 17150475,
+              "type": "archive",
+              "url": "https://github.com/tiagolr/reevr/releases/download/v1.0.2/reevr-macos-v1.0.2.zip"
+            },
+            {
+              "systems": [
+                {
+                  "type": "win"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "vst3",
+                "lv2"
+              ],
+              "type": "archive",
+              "size": 6938907,
+              "sha256": "9c3ebb5e586c56b75b8a20cd51b0e1010bf99e1b934eae56c3f566dc0f35e229",
+              "url": "https://github.com/tiagolr/reevr/releases/download/v1.0.2/reevr-win-v1.0.2.zip"
+            }
+          ]
+        }
+      }
+    },
     "tiagolr/gate12": {
       "slug": "tiagolr/gate12",
       "version": "1.1.8",
@@ -653,9 +733,9 @@
     },
     "tiagolr/filtr": {
       "slug": "tiagolr/filtr",
-      "version": "1.1.8",
+      "version": "1.0.9",
       "versions": {
-        "1.1.8": {
+        "1.0.9": {
           "name": "FILT-R",
           "author": "TiagoLr",
           "description": "Cross-platform filter modulator based on plugins like ShaperBox and FilterShaper.",
