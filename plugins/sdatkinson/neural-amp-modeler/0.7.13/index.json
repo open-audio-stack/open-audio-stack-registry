@@ -1,0 +1,55 @@
+{
+  "name": "Neural Amp Modeler",
+  "author": "sdatkinson",
+  "description": "Plugin for Neural Amp Modeler.",
+  "license": "mit",
+  "type": "effect",
+  "tags": [
+    "Amp",
+    "Emulation",
+    "Noise Gate"
+  ],
+  "url": "https://github.com/sdatkinson/NeuralAmpModelerPlugin",
+  "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sdatkinson/neural-amp-modeler/neuralampmodeler.flac",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sdatkinson/neural-amp-modeler/neuralampmodeler.jpg",
+  "date": "2024-12-21T00:00:00.000Z",
+  "changes": "- Fixing issue #541 where Nexus and potentially other VST/plugin hosts crash and exit unexpectedly on NAM Plugin UI open by @synchu in #543\n",
+  "files": [
+    {
+      "systems": [
+        {
+          "type": "mac"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "au",
+        "vst3"
+      ],
+      "type": "installer",
+      "size": 10743450,
+      "sha256": "e9cea7a409fd167e05314d423a298ecb3b2c915eba2f8a514ee0c48a70f39173",
+      "url": "https://github.com/sdatkinson/NeuralAmpModelerPlugin/releases/download/v0.7.13/NeuralAmpModeler-v0.7.13-mac.dmg"
+    },
+    {
+      "systems": [
+        {
+          "type": "win"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "exe",
+        "vst3"
+      ],
+      "type": "archive",
+      "size": 3637345,
+      "sha256": "8da37afde1f0797c773d6b8709da89bdda40c0e45f67cf3e4d87291e9b5e9da5",
+      "url": "https://github.com/sdatkinson/NeuralAmpModelerPlugin/releases/download/v0.7.13/NeuralAmpModeler-v0.7.13-win.zip"
+    }
+  ]
+}

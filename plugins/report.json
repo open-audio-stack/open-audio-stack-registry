@@ -236,6 +236,22 @@
     }
   },
   "sdatkinson/neural-amp-modeler": {
+    "0.7.13": {
+      "recs": [
+        {
+          "field": "url",
+          "rec": "requires mounting step, consider .pkg instead"
+        },
+        {
+          "field": "architectures",
+          "rec": "should support arm64"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Linux"
+        }
+      ]
+    },
     "0.7.12": {
       "recs": [
         {
