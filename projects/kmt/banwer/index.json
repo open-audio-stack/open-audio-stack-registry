@@ -13,11 +13,11 @@
         "Synth",
         "Modulation"
       ],
-      "url": "https://soundcloud.com/kmt-london",
+      "url": "https://github.com/kmturley/banwer",
       "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/projects/kmt/banwer/banwer.flac",
       "image": "https://open-audio-stack.github.io/open-audio-stack-registry/projects/kmt/banwer/banwer.jpg",
       "date": "2024-03-02T00:00:00.000Z",
-      "changes": "- First version\n",
+      "changes": "- Collect and save files\n",
       "files": [
         {
           "systems": [
@@ -41,9 +41,9 @@
             "als"
           ],
           "type": "archive",
-          "size": 216863,
-          "sha256": "77e2d542235889b027f2ecbe66b753978a5232fabac9c97151a86173048e2eaf",
-          "url": "https://open-audio-stack.github.io/open-audio-stack-registry/projects/kmt/banwer/1.0.1/banwer.zip"
+          "size": 3720765,
+          "sha256": "e99fa24234d02814e3cb788d106b766876a065113c71d4855faf83cb9476ab98",
+          "url": "https://github.com/kmturley/banwer/releases/download/v1.0.1/banwer.zip"
         }
       ],
       "open": "Banwer.als",
