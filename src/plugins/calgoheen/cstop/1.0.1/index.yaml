@@ -1,0 +1,38 @@
+name: cStop
+author: calgoheen
+description: Tape stop audio effect plugin.
+type: instrument
+license: mit
+tags:
+  - Effect
+  - Tape
+url: https://github.com/calgoheen/cStop
+audio: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/calgoheen/cstop/cstop.flac
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/calgoheen/cstop/cstop.jpg
+date: '2025-06-26T00:00:00.000Z'
+changes: |
+  - Add CLAP support and Windows installer
+files:
+  - architectures:
+      - x64
+    contains:
+      - clap
+      - component
+      - vst3
+    sha256: 268dbeb53500e66ecfdc8f9064dc58c26fca39346c34cfdea01c994e44bb3dc3
+    systems:
+      - type: mac
+    size: 9708234
+    type: installer
+    url: https://github.com/calgoheen/cStop/releases/download/v1.0.1/cStop.v1.0.1.pkg
+  - architectures:
+      - x64
+    contains:
+      - clap
+      - vst3
+    sha256: ddb6f9630d94d1e4e45cbb1bf32c2a556e524559a934a1a5f91ed5f996b9053e
+    systems:
+      - type: win
+    size: 4908691
+    type: installer
+    url: https://github.com/calgoheen/cStop/releases/download/v1.0.1/cStop.v1.0.1.exe
