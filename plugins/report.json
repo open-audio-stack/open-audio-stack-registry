@@ -499,6 +499,16 @@
       ]
     }
   },
+  "magnetophon/lamb-rs": {
+    "2.1.0": {
+      "recs": [
+        {
+          "field": "architectures",
+          "rec": "should support arm64"
+        }
+      ]
+    }
+  },
   "khrykin/blackbird": {
     "0.1.0": {
       "recs": [
