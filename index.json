@@ -6696,6 +6696,61 @@
           }
         }
       }
+    },
+    "antoinegehinstudios/synthpunk": {
+      "slug": "antoinegehinstudios/synthpunk",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "name": "Synthpunk",
+          "author": "Antoine Géhin",
+          "description": "Your finger = Synthpunk power.",
+          "license": "gpl-3.0",
+          "type": "patch",
+          "tags": [
+            "Synth",
+            "cyberpunk",
+            "OneManSynth",
+            "Surge"
+          ],
+          "url": "https://github.com/antoinegehinstudios/surgeXT-preset",
+          "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/presets/antoinegehinstudios/synthpunk/synthpunk.flac",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/presets/antoinegehinstudios/synthpunk/synthpunk.jpg",
+          "date": "2025-07-26T00:00:00.000Z",
+          "changes": "- First version\n",
+          "plugins": {
+            "surge-synthesizer/surge": "1.3.1"
+          },
+          "files": [
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                },
+                {
+                  "type": "mac"
+                },
+                {
+                  "type": "win"
+                }
+              ],
+              "architectures": [
+                "arm32",
+                "arm64",
+                "x32",
+                "x64"
+              ],
+              "contains": [
+                "fxp"
+              ],
+              "type": "archive",
+              "size": 110771,
+              "sha256": "3f8ceda4666e29c425e2e0042b8fac7a31db5c3262a62f8b9b6baee942b9b58a",
+              "url": "https://github.com/antoinegehinstudios/surgeXT-preset/raw/refs/heads/main/One-key/Synthpunk.fxp"
+            }
+          ]
+        }
+      }
     }
   },
   "projects": {
