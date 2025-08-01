@@ -1,52 +1,5 @@
 {
   "slug": "freepats/synthesizer-percussion",
-  "version": "1.0.0",
-  "versions": {
-    "1.0.0": {
-      "name": "Synthesizer Percussion",
-      "author": "Freepats",
-      "description": "Drumkit sounds commonly used in vintage electronic music made with analog synthesizers.",
-      "license": "cc0-1.0",
-      "type": "sampler",
-      "tags": [
-        "Instrument",
-        "Drums",
-        "Electro",
-        "sfz"
-      ],
-      "url": "https://github.com/freepats/synthesizer-percussion",
-      "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/freepats/synthesizer-percussion/synthesizer-percussion.flac",
-      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/freepats/synthesizer-percussion/synthesizer-percussion.jpg",
-      "date": "2022-07-18T07:00:00.000Z",
-      "changes": "",
-      "files": [
-        {
-          "systems": [
-            {
-              "type": "linux"
-            },
-            {
-              "type": "mac"
-            },
-            {
-              "type": "win"
-            }
-          ],
-          "architectures": [
-            "arm32",
-            "arm64",
-            "x32",
-            "x64"
-          ],
-          "contains": [
-            "sfz"
-          ],
-          "type": "archive",
-          "size": 1663420,
-          "sha256": "07d58651820247ba2b57d0e3cac0b1e0734a9773d92c3bcddc48bbb9f3fcdeb8",
-          "url": "https://github.com/freepats/synthesizer-percussion/releases/download/v1.0.0/SynthesizerPercussion-20220718.zip"
-        }
-      ]
-    }
-  }
+  "version": "0.0.0",
+  "versions": {}
 }

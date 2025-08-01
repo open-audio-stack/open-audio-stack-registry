@@ -1,52 +1,5 @@
 {
   "slug": "studiorack/avl-percussions",
-  "version": "1.1.0",
-  "versions": {
-    "1.1.0": {
-      "name": "AVL Percussions",
-      "author": "Glen MacArthur",
-      "description": "11 percussions instruments (Cajon, Woodblock, Handclap, Fingersnap, Bongos, Maracas, Tambourine, Cowbell, Claves, Waterglass) recorded with 5 velocity layers per piece.",
-      "license": "cc-by-sa-4.0",
-      "type": "sampler",
-      "tags": [
-        "Instrument",
-        "Drums",
-        "Percussions",
-        "sfz"
-      ],
-      "url": "https://github.com/studiorack/avl-percussions",
-      "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/studiorack/avl-percussions/avl-percussions.flac",
-      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/studiorack/avl-percussions/avl-percussions.jpg",
-      "date": "2022-02-21T07:00:00.000Z",
-      "changes": "",
-      "files": [
-        {
-          "systems": [
-            {
-              "type": "linux"
-            },
-            {
-              "type": "mac"
-            },
-            {
-              "type": "win"
-            }
-          ],
-          "architectures": [
-            "arm32",
-            "arm64",
-            "x32",
-            "x64"
-          ],
-          "contains": [
-            "sfz"
-          ],
-          "type": "archive",
-          "size": 1729446,
-          "sha256": "c4f15aa29d54e5f3b06e8db6bb6d4182317c1bbdfabd61ed3146492e908d429c",
-          "url": "https://github.com/studiorack/avl-percussions/releases/download/v1.1.0/avl-percussions.zip"
-        }
-      ]
-    }
-  }
+  "version": "0.0.0",
+  "versions": {}
 }

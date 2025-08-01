@@ -1,52 +1,5 @@
 {
   "slug": "sfzinstruments/jrhodes3c",
-  "version": "1.0.0",
-  "versions": {
-    "1.0.0": {
-      "name": "jRhodes3c",
-      "author": "Jeff Learman",
-      "description": "1977 Rhodes Mark I Stage 73 piano.",
-      "license": "cc-by-sa-4.0",
-      "type": "sampler",
-      "tags": [
-        "Instrument",
-        "Keys",
-        "Rhodes",
-        "sfz"
-      ],
-      "url": "https://github.com/sfzinstruments/jlearman.jRhodes3c",
-      "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/jrhodes3c/jrhodes3c.flac",
-      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/jrhodes3c/jrhodes3c.jpg",
-      "date": "2023-07-04T07:00:00.000Z",
-      "changes": "",
-      "files": [
-        {
-          "systems": [
-            {
-              "type": "linux"
-            },
-            {
-              "type": "mac"
-            },
-            {
-              "type": "win"
-            }
-          ],
-          "architectures": [
-            "arm32",
-            "arm64",
-            "x32",
-            "x64"
-          ],
-          "contains": [
-            "sfz"
-          ],
-          "type": "archive",
-          "size": 18111475,
-          "sha256": "553180446445f00b32548131aaf6a5ff3962c9b796abf02911b38caae532c4ed",
-          "url": "https://github.com/sfzinstruments/jlearman.jRhodes3c/archive/refs/heads/master.zip"
-        }
-      ]
-    }
-  }
+  "version": "0.0.0",
+  "versions": {}
 }
