@@ -1,0 +1,35 @@
+name: Gossip glitchborg
+author: Antoine Géhin
+description: Gossip from Glitchborg here and there
+license: gpl-3.0
+type: patch
+tags:
+  - Surge
+  - scene
+  - cyberpunk
+  - android
+  - robots
+url: https://github.com/antoinegehinstudios/surgeXT-preset
+audio: https://open-audio-stack.github.io/open-audio-stack-registry/presets/antoinegehinstudios/gossip/gossip.flac
+image: https://open-audio-stack.github.io/open-audio-stack-registry/presets/antoinegehinstudios/gossip/gossip.jpg
+date: '2025-07-28T19:00:00.000Z'
+changes: |
+  - First version
+plugins:
+  surge-synthesizer/surge: 1.3.1
+files:
+  - systems:
+      - type: linux
+      - type: mac
+      - type: win
+    architectures:
+      - arm32
+      - arm64
+      - x32
+      - x64
+    contains:
+      - fxp
+    type: archive
+    size: 34957
+    sha256: 8e3eb92515429989dc56f0e42f931e3853bd584a47a1c878340a4811f82ed76b
+    url: https://github.com/antoinegehinstudios/surgeXT-preset/raw/refs/heads/main/scenes/Gossip%20Glitchborgs.fxp
