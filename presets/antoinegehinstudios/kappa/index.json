@@ -1,0 +1,57 @@
+{
+  "slug": "antoinegehinstudios/kappa",
+  "version": "1.0.0",
+  "versions": {
+    "1.0.0": {
+      "name": "Kappa plays in water",
+      "author": "Antoine Géhin",
+      "description": "Scene of Kappa(s) playing in water",
+      "license": "gpl-3.0",
+      "type": "patch",
+      "tags": [
+        "Surge",
+        "scene",
+        "animals",
+        "water",
+        "kappa",
+        "yokai"
+      ],
+      "url": "https://github.com/antoinegehinstudios/surgeXT-preset",
+      "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/presets/antoinegehinstudios/kappa/kappa.flac",
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/presets/antoinegehinstudios/kappa/kappa.jpg",
+      "date": "2025-07-28T19:00:00.000Z",
+      "changes": "- First version\n",
+      "plugins": {
+        "surge-synthesizer/surge": "1.3.1"
+      },
+      "files": [
+        {
+          "systems": [
+            {
+              "type": "linux"
+            },
+            {
+              "type": "mac"
+            },
+            {
+              "type": "win"
+            }
+          ],
+          "architectures": [
+            "arm32",
+            "arm64",
+            "x32",
+            "x64"
+          ],
+          "contains": [
+            "fxp"
+          ],
+          "type": "archive",
+          "size": 181547,
+          "sha256": "4b5f1d54d517ecbde30272f8ca7c996e5b266d9b6b1c0113ad3cdf4f9102ca0a",
+          "url": "https://github.com/antoinegehinstudios/surgeXT-preset/raw/refs/heads/main/scenes/Kappa%20plays%20in%20water.fxp"
+        }
+      ]
+    }
+  }
+}
