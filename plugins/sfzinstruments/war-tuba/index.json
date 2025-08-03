@@ -1,5 +1,53 @@
 {
   "slug": "sfzinstruments/war-tuba",
-  "version": "0.0.0",
-  "versions": {}
+  "version": "1.0.2",
+  "versions": {
+    "1.0.2": {
+      "name": "War Tuba",
+      "author": "DSmolken",
+      "description": "Tuba played by Jakub Lewicki (aka Ignacy Woland of the band Hañba).",
+      "license": "cc-by-4.0",
+      "type": "sampler",
+      "tags": [
+        "Instrument",
+        "Brass",
+        "Tuba",
+        "sfz"
+      ],
+      "url": "https://github.com/sfzinstruments/karoryfer.war-tuba",
+      "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/war-tuba/war-tuba.flac",
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/war-tuba/war-tuba.jpg",
+      "date": "2022-11-04T07:00:00.000Z",
+      "changes": " ",
+      "files": [
+        {
+          "systems": [
+            {
+              "type": "linux"
+            },
+            {
+              "type": "mac"
+            },
+            {
+              "type": "win"
+            }
+          ],
+          "architectures": [
+            "arm32",
+            "arm64",
+            "x32",
+            "x64"
+          ],
+          "contains": [
+            "sfz"
+          ],
+          "type": "archive",
+          "size": 109135588,
+          "sha256": "4f0b065c18b89111df4281df34c5120cd2d5b9a0c6b316835ec08d7891fd88d9",
+          "url": "https://github.com/sfzinstruments/karoryfer.war-tuba/releases/download/v1.002/Karoryfer_War_Tuba_v1002.zip"
+        }
+      ],
+      "verified": true
+    }
+  }
 }

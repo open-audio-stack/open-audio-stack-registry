@@ -1,5 +1,52 @@
 {
   "slug": "studiorack/avl-drumkits",
-  "version": "0.0.0",
-  "versions": {}
+  "version": "1.1.0",
+  "versions": {
+    "1.1.0": {
+      "name": "AVL Drumkits",
+      "author": "Glen MacArthur",
+      "description": "Black Pearl and Red Zepplin drumkits recorded with 5 velocity layers per kit piece.",
+      "license": "cc-by-sa-4.0",
+      "type": "sampler",
+      "tags": [
+        "Instrument",
+        "Drums",
+        "sfz"
+      ],
+      "url": "https://github.com/studiorack/avl-drumkits",
+      "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/studiorack/avl-drumkits/avl-drumkits.flac",
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/studiorack/avl-drumkits/avl-drumkits.jpg",
+      "date": "2022-02-20T07:00:00.000Z",
+      "changes": " ",
+      "files": [
+        {
+          "systems": [
+            {
+              "type": "linux"
+            },
+            {
+              "type": "mac"
+            },
+            {
+              "type": "win"
+            }
+          ],
+          "architectures": [
+            "arm32",
+            "arm64",
+            "x32",
+            "x64"
+          ],
+          "contains": [
+            "sfz"
+          ],
+          "type": "archive",
+          "size": 16025852,
+          "sha256": "4a4ac29d1a373b8e4beb76995659198c6674907df9abd48ccd8736fb72d3e59a",
+          "url": "https://github.com/studiorack/avl-drumkits/releases/download/v1.1.0/avl-drumkits.zip"
+        }
+      ],
+      "verified": true
+    }
+  }
 }

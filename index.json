@@ -5,8 +5,63 @@
   "plugins": {
     "wolf-plugins/wolf-spectrum": {
       "slug": "wolf-plugins/wolf-spectrum",
-      "version": "0.0.0",
-      "versions": {}
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "name": "Wolf Spectrum",
+          "author": "Wolf Plugins",
+          "description": "Spectrogram plugin which supports both log and linear frequency scaling.",
+          "license": "gpl-3.0",
+          "type": "effect",
+          "tags": [
+            "Effect",
+            "Spectrogram",
+            "Frequency"
+          ],
+          "url": "https://github.com/wolf-plugins/wolf-spectrum",
+          "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/wolf-plugins/wolf-spectrum/wolf-spectrum.flac",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/wolf-plugins/wolf-spectrum/wolf-spectrum.jpg",
+          "date": "2019-04-14T07:00:00.000Z",
+          "changes": " ",
+          "files": [
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "so"
+              ],
+              "type": "archive",
+              "size": 491519,
+              "sha256": "858c16bf594ace122cee1854024fb8719c232f593d3ecf3dccee72f22c0b2a08",
+              "url": "https://github.com/wolf-plugins/wolf-spectrum/releases/download/v1.0.0/wolf-spectrum-v1.0.0-linux-vst2.tar.gz"
+            },
+            {
+              "systems": [
+                {
+                  "type": "win"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "dll"
+              ],
+              "type": "archive",
+              "size": 853466,
+              "sha256": "7728372c985c4cb0019f5000858d9486a0444f70fed3c44cac724c05db19c94d",
+              "url": "https://github.com/wolf-plugins/wolf-spectrum/releases/download/v1.0.0/wolf-spectrum-v1.0.0-windows-vst2.zip"
+            }
+          ],
+          "verified": true
+        }
+      }
     },
     "wolf-plugins/wolf-shaper": {
       "slug": "wolf-plugins/wolf-shaper",
@@ -365,8 +420,83 @@
     },
     "tobanteaudio/modeq": {
       "slug": "tobanteaudio/modeq",
-      "version": "0.0.0",
-      "versions": {}
+      "version": "0.4.0",
+      "versions": {
+        "0.4.0": {
+          "name": "modEQ",
+          "author": "Tobante Audio",
+          "description": "EQ audio effects plugin with modulation.",
+          "license": "gpl-3.0",
+          "type": "effect",
+          "tags": [
+            "Effect",
+            "EQ",
+            "Modulation"
+          ],
+          "url": "https://github.com/tobanteAudio/modEQ",
+          "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/tobanteaudio/modeq/modeq.flac",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/tobanteaudio/modeq/modeq.jpg",
+          "date": "2019-05-17T07:00:00.000Z",
+          "changes": " ",
+          "files": [
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "elf"
+              ],
+              "type": "archive",
+              "size": 7109975,
+              "sha256": "953be01e0c0def6b46cfb76154dda53971fa930563c71d2449b5f413621964e7",
+              "url": "https://github.com/tobanteAudio/modEQ/releases/download/v0.4.0/modEQ-v0.4.0-linux.zip"
+            },
+            {
+              "systems": [
+                {
+                  "type": "mac"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "app",
+                "component",
+                "vst3"
+              ],
+              "type": "archive",
+              "size": 3209964,
+              "sha256": "52dd7824dd728477c56d98ceff91fc269b90f9e57cff864b7d954ad1d84e4a57",
+              "url": "https://github.com/tobanteAudio/modEQ/releases/download/v0.4.0/modEQ-v0.4.0-macOS.zip"
+            },
+            {
+              "systems": [
+                {
+                  "type": "win"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "exe",
+                "vst3"
+              ],
+              "type": "archive",
+              "size": 3719312,
+              "sha256": "e9688f6eda4e7076804c3abf68184c12f4c898fd59ca1333d06a15781b4a4341",
+              "url": "https://github.com/tobanteAudio/modEQ/releases/download/v0.4.0/modEQ-v0.4.0-win64.zip"
+            }
+          ],
+          "verified": true
+        }
+      }
     },
     "tiagolr/time12": {
       "slug": "tiagolr/time12",
@@ -693,8 +823,86 @@
     },
     "thewavewarden/odin": {
       "slug": "thewavewarden/odin",
-      "version": "0.0.0",
-      "versions": {}
+      "version": "2.3.4",
+      "versions": {
+        "2.3.4": {
+          "name": "Odin",
+          "author": "TheWaveWarden",
+          "description": "12-voice polyphonic semi-modular synthesizer. Earth shattering basses, exquisite leads or mad FX, Odin's got them all! Use the classic sound of analog waveforms - or draw your own.",
+          "license": "gpl-3.0",
+          "type": "instrument",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "Moog"
+          ],
+          "url": "https://github.com/TheWaveWarden/odin2",
+          "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/thewavewarden/odin/odin.flac",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/thewavewarden/odin/odin.jpg",
+          "date": "2020-11-09T07:00:00.000Z",
+          "changes": " ",
+          "files": [
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "clap",
+                "lv2",
+                "vst3"
+              ],
+              "type": "archive",
+              "size": 142093215,
+              "sha256": "72621ff6b68c340400eaaa8b0d52cfcf8ab7de4931bc364746a626764d189eeb",
+              "url": "https://github.com/TheWaveWarden/odin2/releases/download/NightlyDevel/Odin2.3.4Linux.zip"
+            },
+            {
+              "systems": [
+                {
+                  "type": "mac"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "clap",
+                "component",
+                "vst3"
+              ],
+              "type": "installer",
+              "size": 282935423,
+              "sha256": "1040f6e46c73cd878fe2b6ac3f20e97fa20eecd03fd206d6b0c01dc2a80e5761",
+              "url": "https://github.com/TheWaveWarden/odin2/releases/download/NightlyDevel/Odin2.3.4MacInstaller.pkg"
+            },
+            {
+              "systems": [
+                {
+                  "type": "win"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "clap",
+                "dll",
+                "vst3"
+              ],
+              "type": "installer",
+              "size": 92297906,
+              "sha256": "c070b5ed7b4a1c41615f582b5e17194729ea16e88f0e2f26c64994468766ff12",
+              "url": "https://github.com/TheWaveWarden/odin2/releases/download/NightlyDevel/Odin2.3.4WinInstaller.exe"
+            }
+          ],
+          "verified": true
+        }
+      }
     },
     "the-synister/synister": {
       "slug": "the-synister/synister",
@@ -1268,13 +1476,108 @@
     },
     "studiorack/avl-percussions": {
       "slug": "studiorack/avl-percussions",
-      "version": "0.0.0",
-      "versions": {}
+      "version": "1.1.0",
+      "versions": {
+        "1.1.0": {
+          "name": "AVL Percussions",
+          "author": "Glen MacArthur",
+          "description": "11 percussions instruments (Cajon, Woodblock, Handclap, Fingersnap, Bongos, Maracas, Tambourine, Cowbell, Claves, Waterglass) recorded with 5 velocity layers per piece.",
+          "license": "cc-by-sa-4.0",
+          "type": "sampler",
+          "tags": [
+            "Instrument",
+            "Drums",
+            "Percussions",
+            "sfz"
+          ],
+          "url": "https://github.com/studiorack/avl-percussions",
+          "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/studiorack/avl-percussions/avl-percussions.flac",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/studiorack/avl-percussions/avl-percussions.jpg",
+          "date": "2022-02-21T07:00:00.000Z",
+          "changes": " ",
+          "files": [
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                },
+                {
+                  "type": "mac"
+                },
+                {
+                  "type": "win"
+                }
+              ],
+              "architectures": [
+                "arm32",
+                "arm64",
+                "x32",
+                "x64"
+              ],
+              "contains": [
+                "sfz"
+              ],
+              "type": "archive",
+              "size": 1729446,
+              "sha256": "c4f15aa29d54e5f3b06e8db6bb6d4182317c1bbdfabd61ed3146492e908d429c",
+              "url": "https://github.com/studiorack/avl-percussions/releases/download/v1.1.0/avl-percussions.zip"
+            }
+          ],
+          "verified": true
+        }
+      }
     },
     "studiorack/avl-drumkits": {
       "slug": "studiorack/avl-drumkits",
-      "version": "0.0.0",
-      "versions": {}
+      "version": "1.1.0",
+      "versions": {
+        "1.1.0": {
+          "name": "AVL Drumkits",
+          "author": "Glen MacArthur",
+          "description": "Black Pearl and Red Zepplin drumkits recorded with 5 velocity layers per kit piece.",
+          "license": "cc-by-sa-4.0",
+          "type": "sampler",
+          "tags": [
+            "Instrument",
+            "Drums",
+            "sfz"
+          ],
+          "url": "https://github.com/studiorack/avl-drumkits",
+          "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/studiorack/avl-drumkits/avl-drumkits.flac",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/studiorack/avl-drumkits/avl-drumkits.jpg",
+          "date": "2022-02-20T07:00:00.000Z",
+          "changes": " ",
+          "files": [
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                },
+                {
+                  "type": "mac"
+                },
+                {
+                  "type": "win"
+                }
+              ],
+              "architectures": [
+                "arm32",
+                "arm64",
+                "x32",
+                "x64"
+              ],
+              "contains": [
+                "sfz"
+              ],
+              "type": "archive",
+              "size": 16025852,
+              "sha256": "4a4ac29d1a373b8e4beb76995659198c6674907df9abd48ccd8736fb72d3e59a",
+              "url": "https://github.com/studiorack/avl-drumkits/releases/download/v1.1.0/avl-drumkits.zip"
+            }
+          ],
+          "verified": true
+        }
+      }
     },
     "sfztools/sfizz": {
       "slug": "sfztools/sfizz",
@@ -1360,8 +1663,56 @@
     },
     "sfzinstruments/war-tuba": {
       "slug": "sfzinstruments/war-tuba",
-      "version": "0.0.0",
-      "versions": {}
+      "version": "1.0.2",
+      "versions": {
+        "1.0.2": {
+          "name": "War Tuba",
+          "author": "DSmolken",
+          "description": "Tuba played by Jakub Lewicki (aka Ignacy Woland of the band Hañba).",
+          "license": "cc-by-4.0",
+          "type": "sampler",
+          "tags": [
+            "Instrument",
+            "Brass",
+            "Tuba",
+            "sfz"
+          ],
+          "url": "https://github.com/sfzinstruments/karoryfer.war-tuba",
+          "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/war-tuba/war-tuba.flac",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/war-tuba/war-tuba.jpg",
+          "date": "2022-11-04T07:00:00.000Z",
+          "changes": " ",
+          "files": [
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                },
+                {
+                  "type": "mac"
+                },
+                {
+                  "type": "win"
+                }
+              ],
+              "architectures": [
+                "arm32",
+                "arm64",
+                "x32",
+                "x64"
+              ],
+              "contains": [
+                "sfz"
+              ],
+              "type": "archive",
+              "size": 109135588,
+              "sha256": "4f0b065c18b89111df4281df34c5120cd2d5b9a0c6b316835ec08d7891fd88d9",
+              "url": "https://github.com/sfzinstruments/karoryfer.war-tuba/releases/download/v1.002/Karoryfer_War_Tuba_v1002.zip"
+            }
+          ],
+          "verified": true
+        }
+      }
     },
     "sfzinstruments/virtuosity_drums": {
       "slug": "sfzinstruments/virtuosity_drums",
@@ -1471,53 +1822,533 @@
     },
     "sfzinstruments/samssonor": {
       "slug": "sfzinstruments/samssonor",
-      "version": "0.0.0",
-      "versions": {}
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "name": "Sam's Sonor",
+          "author": "Sam Greene",
+          "description": "Sonor Force 3001 drum kit sampled with 4 velocity levels for each part.",
+          "license": "cc-by-sa-4.0",
+          "type": "sampler",
+          "tags": [
+            "Instrument",
+            "Drums",
+            "Kit",
+            "sfz"
+          ],
+          "url": "https://github.com/sfzinstruments/SamsSonor",
+          "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/samssonor/samssonor.flac",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/samssonor/samssonor.jpg",
+          "date": "2022-08-28T07:00:00.000Z",
+          "changes": " ",
+          "files": [
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                },
+                {
+                  "type": "mac"
+                },
+                {
+                  "type": "win"
+                }
+              ],
+              "architectures": [
+                "arm32",
+                "arm64",
+                "x32",
+                "x64"
+              ],
+              "contains": [
+                "sfz"
+              ],
+              "type": "archive",
+              "size": 36195708,
+              "sha256": "a60b39f507721b4a2ee0380dbfe5267f8c7190e5a5c4590aed91bba496fc69c6",
+              "url": "https://github.com/sfzinstruments/SamsSonor/archive/refs/heads/master.zip"
+            }
+          ],
+          "verified": true
+        }
+      }
     },
     "sfzinstruments/salamandergrandpiano": {
       "slug": "sfzinstruments/salamandergrandpiano",
-      "version": "0.0.0",
-      "versions": {}
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "name": "Salamander Grand Piano",
+          "author": "Alexander Holm",
+          "description": "Yamaha C5, recorded with two AKG c414 disposed in an AB position ~12cm above the strings.",
+          "license": "cc-by-4.0",
+          "type": "sampler",
+          "tags": [
+            "Instrument",
+            "Piano",
+            "Yamaha",
+            "sfz"
+          ],
+          "url": "https://github.com/sfzinstruments/SalamanderGrandPiano",
+          "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/splendidgrandpiano/splendid-grand-piano.flac",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/splendidgrandpiano/splendid-grand-piano.jpg",
+          "date": "2022-01-02T07:00:00.000Z",
+          "changes": " ",
+          "files": [
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                },
+                {
+                  "type": "mac"
+                },
+                {
+                  "type": "win"
+                }
+              ],
+              "architectures": [
+                "arm32",
+                "arm64",
+                "x32",
+                "x64"
+              ],
+              "contains": [
+                "sfz"
+              ],
+              "type": "archive",
+              "size": 748476973,
+              "sha256": "74d11c1ea0fcfe77eb80d6a48e960cbfc42716bdfd74a621eca5799f1680cb5c",
+              "url": "https://github.com/sfzinstruments/SalamanderGrandPiano/archive/refs/heads/master.zip"
+            }
+          ],
+          "verified": true
+        }
+      }
     },
     "sfzinstruments/nakeddrums": {
       "slug": "sfzinstruments/nakeddrums",
-      "version": "0.0.0",
-      "versions": {}
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "name": "Naked Drums",
+          "author": "Wilkinson Audio",
+          "description": "Multi-mic drumkit, with 10 round-robins, up to 5 velocity layers and several mic layers (Direct, OH, Close room, Far rooms, Mid-side and Wide OH).",
+          "license": "cc-by-4.0",
+          "type": "sampler",
+          "tags": [
+            "Instrument",
+            "Drums",
+            "sfz"
+          ],
+          "url": "https://github.com/sfzinstruments/WilkinsonAudio.NakedDrums",
+          "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/nakeddrums/nakeddrums.flac",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/nakeddrums/nakeddrums.jpg",
+          "date": "2021-11-08T07:00:00.000Z",
+          "changes": " ",
+          "files": [
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                },
+                {
+                  "type": "mac"
+                },
+                {
+                  "type": "win"
+                }
+              ],
+              "architectures": [
+                "arm32",
+                "arm64",
+                "x32",
+                "x64"
+              ],
+              "contains": [
+                "sfz"
+              ],
+              "type": "archive",
+              "size": 1282802809,
+              "sha256": "78201a1a9a7ba3596d49e2bfa88b76ed827ca5cdc95026666b6f88cd5100610b",
+              "url": "https://github.com/sfzinstruments/WilkinsonAudio.NakedDrums/archive/refs/heads/master.zip"
+            }
+          ],
+          "verified": true
+        }
+      }
     },
     "sfzinstruments/jsteeldrum": {
       "slug": "sfzinstruments/jsteeldrum",
-      "version": "0.0.0",
-      "versions": {}
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "name": "jSteelDrum",
+          "author": "Jeff Learman",
+          "description": "C Steel Drum (a.k.a. 'steel pan') hand-made in Trinidad.",
+          "license": "unlicense",
+          "type": "sampler",
+          "tags": [
+            "Instrument",
+            "Steel",
+            "Drum",
+            "Orchestra",
+            "sfz"
+          ],
+          "url": "https://github.com/sfzinstruments/jlearman.SteelDrum",
+          "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/jsteeldrum/jsteeldrum.flac",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/jsteeldrum/jsteeldrum.jpg",
+          "date": "2022-09-23T07:00:00.000Z",
+          "changes": " ",
+          "files": [
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                },
+                {
+                  "type": "mac"
+                },
+                {
+                  "type": "win"
+                }
+              ],
+              "architectures": [
+                "arm32",
+                "arm64",
+                "x32",
+                "x64"
+              ],
+              "contains": [
+                "sfz"
+              ],
+              "type": "archive",
+              "size": 39751862,
+              "sha256": "ee547fb57ab4d04a3efeef101c7f591d0a67300f1c5459e02841c123ed643edd",
+              "url": "https://github.com/sfzinstruments/jlearman.SteelDrum/archive/refs/heads/main.zip"
+            }
+          ],
+          "verified": true
+        }
+      }
     },
     "sfzinstruments/jrhodes3c": {
       "slug": "sfzinstruments/jrhodes3c",
-      "version": "0.0.0",
-      "versions": {}
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "name": "jRhodes3c",
+          "author": "Jeff Learman",
+          "description": "1977 Rhodes Mark I Stage 73 piano.",
+          "license": "cc-by-sa-4.0",
+          "type": "sampler",
+          "tags": [
+            "Instrument",
+            "Keys",
+            "Rhodes",
+            "sfz"
+          ],
+          "url": "https://github.com/sfzinstruments/jlearman.jRhodes3c",
+          "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/jrhodes3c/jrhodes3c.flac",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/jrhodes3c/jrhodes3c.jpg",
+          "date": "2023-07-04T07:00:00.000Z",
+          "changes": " ",
+          "files": [
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                },
+                {
+                  "type": "mac"
+                },
+                {
+                  "type": "win"
+                }
+              ],
+              "architectures": [
+                "arm32",
+                "arm64",
+                "x32",
+                "x64"
+              ],
+              "contains": [
+                "sfz"
+              ],
+              "type": "archive",
+              "size": 18111475,
+              "sha256": "553180446445f00b32548131aaf6a5ff3962c9b796abf02911b38caae532c4ed",
+              "url": "https://github.com/sfzinstruments/jlearman.jRhodes3c/archive/refs/heads/master.zip"
+            }
+          ],
+          "verified": true
+        }
+      }
     },
     "sfzinstruments/hungarian-zither": {
       "slug": "sfzinstruments/hungarian-zither",
-      "version": "0.0.0",
-      "versions": {}
+      "version": "1.0.1",
+      "versions": {
+        "1.0.1": {
+          "name": "Hungarian Zither",
+          "author": "DSmolken",
+          "description": "Hungarian 'prime' zither. A rectangular instrument with over a dozen strings, mostly tuned to G, with two melody courses and the rest as drones.",
+          "license": "cc0-1.0",
+          "type": "sampler",
+          "tags": [
+            "Instrument",
+            "Strings",
+            "Classical",
+            "sfz"
+          ],
+          "url": "https://github.com/sfzinstruments/hungarian_zither",
+          "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/hungarian-zither/hungarian-zither.flac",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/hungarian-zither/hungarian-zither.jpg",
+          "date": "2022-09-28T07:00:00.000Z",
+          "changes": " ",
+          "files": [
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                },
+                {
+                  "type": "mac"
+                },
+                {
+                  "type": "win"
+                }
+              ],
+              "architectures": [
+                "arm32",
+                "arm64",
+                "x32",
+                "x64"
+              ],
+              "contains": [
+                "sfz"
+              ],
+              "type": "archive",
+              "size": 176636805,
+              "sha256": "49962554dc9480870ee9ae959e36789448d940709164291799c8027f6e276119",
+              "url": "https://github.com/sfzinstruments/hungarian_zither/releases/download/v1.001/hungarian_prime_zither_1001.zip"
+            }
+          ],
+          "verified": true
+        }
+      }
     },
     "sfzinstruments/horse-pulse": {
       "slug": "sfzinstruments/horse-pulse",
-      "version": "0.0.0",
-      "versions": {}
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "name": "Horse Pulse",
+          "author": "DSmolken",
+          "description": "Bass Tagelharpa played pizzicato.",
+          "license": "cc0-1.0",
+          "type": "sampler",
+          "tags": [
+            "Instrument",
+            "String",
+            "Pluck",
+            "sfz"
+          ],
+          "url": "https://github.com/sfzinstruments/Karoryfer.HorsePulse",
+          "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/horse-pulse/horse-pulse.flac",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/horse-pulse/horse-pulse.jpg",
+          "date": "2022-04-01T07:00:00.000Z",
+          "changes": " ",
+          "files": [
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                },
+                {
+                  "type": "mac"
+                },
+                {
+                  "type": "win"
+                }
+              ],
+              "architectures": [
+                "arm32",
+                "arm64",
+                "x32",
+                "x64"
+              ],
+              "contains": [
+                "sfz"
+              ],
+              "type": "archive",
+              "size": 147505176,
+              "sha256": "52157e831b82e0b1c512abda701f9133b8cd415b42a696b4d9b133946fa2e458",
+              "url": "https://github.com/sfzinstruments/Karoryfer.HorsePulse/releases/download/v1.000/Karoryfer_Horse_Pulse_1000.zip"
+            }
+          ],
+          "verified": true
+        }
+      }
     },
     "sfzinstruments/double-bass": {
       "slug": "sfzinstruments/double-bass",
-      "version": "0.0.0",
-      "versions": {}
+      "version": "1.0.1",
+      "versions": {
+        "1.0.1": {
+          "name": "Double Bass",
+          "author": "DSmolken",
+          "description": "1958 Otto Rubner double bass played arco and pizzicato with additional miscellaneous noises.",
+          "license": "cc0-1.0",
+          "type": "sampler",
+          "tags": [
+            "Instrument",
+            "String",
+            "Bass",
+            "sfz"
+          ],
+          "url": "https://github.com/sfzinstruments/dsmolken.double-bass",
+          "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/double-bass/double-bass.flac",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/double-bass/double-bass.jpg",
+          "date": "2022-09-04T07:00:00.000Z",
+          "changes": " ",
+          "files": [
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                },
+                {
+                  "type": "mac"
+                },
+                {
+                  "type": "win"
+                }
+              ],
+              "architectures": [
+                "arm32",
+                "arm64",
+                "x32",
+                "x64"
+              ],
+              "contains": [
+                "sfz"
+              ],
+              "type": "archive",
+              "size": 265232156,
+              "sha256": "380986bb52ee6b6469d28e9089792a3ed37cbd163fe5a19160bf4f98785e7ccb",
+              "url": "https://github.com/sfzinstruments/dsmolken.double-bass/releases/download/v1.001/DSmolken.double_bass.v1.001.zip"
+            }
+          ],
+          "verified": true
+        }
+      }
     },
     "sfzinstruments/black-and-green-guitars": {
       "slug": "sfzinstruments/black-and-green-guitars",
-      "version": "0.0.0",
-      "versions": {}
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "name": "Black and Green Guitars",
+          "author": "DSmolken",
+          "description": "Black Hofner Club and Green Gretsch Anniversary electric guitars.",
+          "license": "cc0-1.0",
+          "type": "sampler",
+          "tags": [
+            "Instrument",
+            "Guitar",
+            "Electric",
+            "sfz"
+          ],
+          "url": "https://github.com/sfzinstruments/karoryfer.black-and-green-guitars",
+          "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/black-and-green-guitars/black-and-green-guitars.flac",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/black-and-green-guitars/black-and-green-guitars.jpg",
+          "date": "2022-08-08T07:00:00.000Z",
+          "changes": " ",
+          "files": [
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                },
+                {
+                  "type": "mac"
+                },
+                {
+                  "type": "win"
+                }
+              ],
+              "architectures": [
+                "arm32",
+                "arm64",
+                "x32",
+                "x64"
+              ],
+              "contains": [
+                "sfz"
+              ],
+              "type": "archive",
+              "size": 481838512,
+              "sha256": "ba95221d32fb6386c5d0a0799b93904fd55520aca017c5f121da290075c140c0",
+              "url": "https://github.com/sfzinstruments/karoryfer.black-and-green-guitars/releases/download/v1.000/Karoryfer_Black_And_Green_Guitars_1000.zip"
+            }
+          ],
+          "verified": true
+        }
+      }
     },
     "sfzinstruments/bear-sax": {
       "slug": "sfzinstruments/bear-sax",
-      "version": "0.0.0",
-      "versions": {}
+      "version": "1.0.4",
+      "versions": {
+        "1.0.4": {
+          "name": "Bear Sax",
+          "author": "DSmolken",
+          "description": "1926 Conn baritone saxophone including sustained notes and breath noise.",
+          "license": "cc0-1.0",
+          "type": "sampler",
+          "tags": [
+            "Instrument",
+            "Brass",
+            "Saxophone",
+            "sfz"
+          ],
+          "url": "https://github.com/sfzinstruments/karoryfer.bear-sax",
+          "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/bear-sax/bear-sax.flac",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/bear-sax/bear-sax.jpg",
+          "date": "2021-09-11T07:00:00.000Z",
+          "changes": " ",
+          "files": [
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                },
+                {
+                  "type": "mac"
+                },
+                {
+                  "type": "win"
+                }
+              ],
+              "architectures": [
+                "arm32",
+                "arm64",
+                "x32",
+                "x64"
+              ],
+              "contains": [
+                "sfz"
+              ],
+              "type": "archive",
+              "size": 131505201,
+              "sha256": "66c28ea361c86943b2e2bcda6ca48cf105fec4f60a8f40e7c6bbf584be45c654",
+              "url": "https://github.com/sfzinstruments/karoryfer.bear-sax/releases/download/v1.004/Karoryfer.Bear_Sax.v1.004.zip"
+            }
+          ],
+          "verified": true
+        }
+      }
     },
     "sdatkinson/neural-amp-modeler": {
       "slug": "sdatkinson/neural-amp-modeler",
@@ -1639,13 +2470,149 @@
     },
     "resonantdsp/swankyamp": {
       "slug": "resonantdsp/swankyamp",
-      "version": "0.0.0",
-      "versions": {}
+      "version": "1.4.0",
+      "versions": {
+        "1.4.0": {
+          "name": "Swanky Amp",
+          "author": "Resonant DSP",
+          "description": "Tube amplifier simulation DSP plugin which aims to capture the details in the dynamics of tube amplifiers.",
+          "license": "gpl-3.0",
+          "type": "effect",
+          "tags": [
+            "Effect",
+            "Amplifier",
+            "Tube"
+          ],
+          "url": "https://github.com/resonantdsp/swankyamp",
+          "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/resonantdsp/swankyamp/swankyamp.flac",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/resonantdsp/swankyamp/swankyamp.jpg",
+          "date": "2021-04-21T07:00:00.000Z",
+          "changes": " ",
+          "files": [
+            {
+              "systems": [
+                {
+                  "type": "mac"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "app",
+                "vst"
+              ],
+              "type": "installer",
+              "size": 5138961,
+              "sha256": "9c1410ac2e233309228fe78ba2b151063088bae2259162aa32002cde4cfa2e1a",
+              "url": "https://www.resonantdsp.com/swankyamp/downloads/v1.4.0/mac/SwankyAmp-vst3.dmg"
+            },
+            {
+              "systems": [
+                {
+                  "type": "win"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "exe",
+                "dll"
+              ],
+              "type": "installer",
+              "size": 2469888,
+              "sha256": "5c8f1414faf84b8258bd0ab217eb149d9724125d0434c452e58f69f864aa1383",
+              "url": "https://www.resonantdsp.com/swankyamp/downloads/v1.4.0/win/SwankyAmp-win64.msi"
+            }
+          ],
+          "verified": false
+        }
+      }
     },
     "reales/opl": {
       "slug": "reales/opl",
-      "version": "0.0.0",
-      "versions": {}
+      "version": "2.4.0",
+      "versions": {
+        "2.4.0": {
+          "name": "OPL",
+          "author": "discoDSP",
+          "description": "OPL FM synth plugin emulates a digital sound synthesis chip developed by Yamaha in the mid 1980s.",
+          "license": "gpl-3.0",
+          "type": "instrument",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "FM"
+          ],
+          "url": "https://github.com/reales/OPL",
+          "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/reales/opl/opl.flac",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/reales/opl/opl.jpg",
+          "date": "2024-08-08T07:00:00.000Z",
+          "changes": " ",
+          "files": [
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "elf",
+                "so",
+                "vst3"
+              ],
+              "type": "archive",
+              "size": 12779876,
+              "sha256": "3a45bdd0d8b9ba7f3f83ef0af53a87dc6639358e4eab1e4c6c2b9a1848bcaaa0",
+              "url": "https://www.discodsp.com/download/?id=28"
+            },
+            {
+              "systems": [
+                {
+                  "type": "mac"
+                }
+              ],
+              "architectures": [
+                "arm64",
+                "x64"
+              ],
+              "contains": [
+                "aax",
+                "component",
+                "vst",
+                "vst3"
+              ],
+              "type": "archive",
+              "size": 14308855,
+              "sha256": "243a91132895d8271fae0496f93f101733779fbd5e385c9da8370fa6755c559c",
+              "url": "https://www.discodsp.com/download/?id=23"
+            },
+            {
+              "systems": [
+                {
+                  "type": "win"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "exe",
+                "dll"
+              ],
+              "type": "archive",
+              "size": 7936780,
+              "sha256": "0cdb4867afa88767e4c393fe7786114c01d03adcb5f79344725d610e41adad2b",
+              "url": "https://www.discodsp.com/download/?id=27"
+            }
+          ],
+          "verified": false
+        }
+      }
     },
     "reales/ob-xd": {
       "slug": "reales/ob-xd",
@@ -1772,13 +2739,136 @@
     },
     "paynebc/tunefish": {
       "slug": "paynebc/tunefish",
-      "version": "0.0.0",
-      "versions": {}
+      "version": "4.2.0",
+      "versions": {
+        "4.2.0": {
+          "name": "Tunefish",
+          "author": "Brain Control",
+          "description": "Tunefish is a tiny virtual analogue synth that was originally developed  for the 64k intros of the demo group Brain Control.",
+          "license": "gpl-3.0",
+          "type": "instrument",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "Analog"
+          ],
+          "url": "https://github.com/paynebc/tunefish",
+          "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/paynebc/tunefish/tunefish.flac",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/paynebc/tunefish/tunefish.jpg",
+          "date": "2018-05-04T07:00:00.000Z",
+          "changes": " ",
+          "files": [
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "so"
+              ],
+              "type": "archive",
+              "size": 3573674,
+              "sha256": "0b4c8d7e578e576e5c473bb94dd6d896e9cbe462ab45a8ad093fa3923bfdfd09",
+              "url": "https://tunefish-synth.com/downloads/tunefish-v4.2.0-linux64-vst24.tar.gz"
+            },
+            {
+              "systems": [
+                {
+                  "type": "mac"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "component",
+                "vst",
+                "vst3"
+              ],
+              "type": "archive",
+              "size": 6443515,
+              "sha256": "17697bf78f29732f04088bdc7239726eadd754099006729eff6950680be57089",
+              "url": "https://tunefish-synth.com/downloads/tunefish-v4.2.0-mac-vst-au.zip"
+            },
+            {
+              "systems": [
+                {
+                  "type": "win"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "dll",
+                "vst3"
+              ],
+              "type": "archive",
+              "size": 4147020,
+              "sha256": "8afbbf5609c37072a9cfd978a2e48b471c046d30283f0a7760971970aa11d8a8",
+              "url": "https://tunefish-synth.com/downloads/tunefish-v4.2.0-win64-vst.zip"
+            }
+          ],
+          "verified": false
+        }
+      }
     },
     "open-soundfonts/virtual-playing-orchestra": {
       "slug": "open-soundfonts/virtual-playing-orchestra",
-      "version": "0.0.0",
-      "versions": {}
+      "version": "3.3.2",
+      "versions": {
+        "3.3.2": {
+          "name": "Virtual Playing Orchestra",
+          "author": "Paul Battersby",
+          "description": "Orchestral sample library featuring section and solo instruments for woodwinds, brass, strings and percussion.",
+          "license": "gpl-3.0",
+          "type": "sampler",
+          "tags": [
+            "Instrument",
+            "Orchestral",
+            "Strings",
+            "sfz"
+          ],
+          "url": "https://github.com/open-soundfonts/Virtual_Playing_Orchestra_3",
+          "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/open-soundfonts/virtual-playing-orchestra/virtual-playing-orchestra.flac",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/open-soundfonts/virtual-playing-orchestra/virtual-playing-orchestra.jpg",
+          "date": "2020-10-17T00:00:00.000Z",
+          "changes": " ",
+          "files": [
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                },
+                {
+                  "type": "mac"
+                },
+                {
+                  "type": "win"
+                }
+              ],
+              "architectures": [
+                "arm32",
+                "arm64",
+                "x32",
+                "x64"
+              ],
+              "contains": [
+                "sfz"
+              ],
+              "type": "archive",
+              "size": 618138108,
+              "sha256": "1086afa02c5b0235710b63b7b6794300cb10370cd4f22d63f535227888de4b93",
+              "url": "https://github.com/open-soundfonts/Virtual_Playing_Orchestra_3/archive/refs/heads/master.zip"
+            }
+          ],
+          "verified": true
+        }
+      }
     },
     "mzuther/squeezer": {
       "slug": "mzuther/squeezer",
@@ -1858,8 +2948,85 @@
     },
     "mtytel/helm": {
       "slug": "mtytel/helm",
-      "version": "0.0.0",
-      "versions": {}
+      "version": "0.9.0",
+      "versions": {
+        "0.9.0": {
+          "name": "Helm",
+          "author": "Matt Tytel",
+          "description": "Polyphonic semi-modular synthesizer with a flexible modulation system.",
+          "license": "gpl-3.0",
+          "type": "instrument",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "Modulation"
+          ],
+          "url": "https://github.com/mtytel/helm",
+          "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/mtytel/helm/helm.flac",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/mtytel/helm/helm.jpg",
+          "date": "2017-07-08T08:00:00.000Z",
+          "changes": " ",
+          "files": [
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "elf",
+                "lv2",
+                "so"
+              ],
+              "type": "installer",
+              "size": 8328284,
+              "sha256": "aedf8b676657f72782513e5ad5f9c61a6bc21fe9357b23052928adafa8215eca",
+              "url": "https://tytel.org/static/dist/helm_0.9.0_amd64_r.deb"
+            },
+            {
+              "systems": [
+                {
+                  "type": "mac"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "app",
+                "component",
+                "vst3"
+              ],
+              "type": "installer",
+              "size": 17258268,
+              "sha256": "1bfac2c016d7dd5cd51e714fa6d9facef4e1db52617ff7dd52748dbec1400ebf",
+              "url": "https://tytel.org/static/dist/Helm_v0_9_0_r.pkg"
+            },
+            {
+              "systems": [
+                {
+                  "type": "win"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "dll",
+                "vst3"
+              ],
+              "type": "installer",
+              "size": 11001856,
+              "sha256": "cdd711f3848c49e6b321ddc47fa5c5a62fc2d67744cfcafc7aa2ac3daad97747",
+              "url": "https://tytel.org/static/dist/Helm_32bit_v0_9_0_r.msi"
+            }
+          ],
+          "verified": false
+        }
+      }
     },
     "mikemorenodsp/ep-mk1": {
       "slug": "mikemorenodsp/ep-mk1",
@@ -2220,8 +3387,57 @@
     },
     "michael02022/basic-harmonica": {
       "slug": "michael02022/basic-harmonica",
-      "version": "0.0.0",
-      "versions": {}
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "name": "Basic Harmonica",
+          "author": "michael02022",
+          "description": "Basic harmonica.",
+          "license": "cc0-1.0",
+          "type": "sampler",
+          "tags": [
+            "Instrument",
+            "Wind",
+            "Harmonica",
+            "Orchestra",
+            "sfz"
+          ],
+          "url": "https://github.com/michael02022/basic-harmonica",
+          "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/michael02022/basic-harmonica/basic-harmonica.flac",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/michael02022/basic-harmonica/basic-harmonica.jpg",
+          "date": "2022-10-07T07:00:00.000Z",
+          "changes": " ",
+          "files": [
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                },
+                {
+                  "type": "mac"
+                },
+                {
+                  "type": "win"
+                }
+              ],
+              "architectures": [
+                "arm32",
+                "arm64",
+                "x32",
+                "x64"
+              ],
+              "contains": [
+                "sfz"
+              ],
+              "type": "archive",
+              "size": 1019941,
+              "sha256": "3b7d45eecb1201179ce618c71ce501732214684284ac1ddecf9ab251d58e9128",
+              "url": "https://github.com/michael02022/basic-harmonica/archive/refs/heads/main.zip"
+            }
+          ],
+          "verified": true
+        }
+      }
     },
     "michael-jan/key-repeat": {
       "slug": "michael-jan/key-repeat",
@@ -2302,8 +3518,80 @@
     },
     "martineastwood/mverb": {
       "slug": "martineastwood/mverb",
-      "version": "0.0.0",
-      "versions": {}
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "name": "Mverb",
+          "author": "Martin Eastwood",
+          "description": "Studio quality, open-source reverb. Its release was intended to provide a practical demonstration of Dattorro's figure-of-eight reverb structure and provide the open source community with a high quality reverb.",
+          "license": "gpl-3.0",
+          "type": "effect",
+          "tags": [
+            "Effect",
+            "Reverb"
+          ],
+          "url": "https://github.com/martineastwood/mverb",
+          "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/martineastwood/mverb/mverb.flac",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/martineastwood/mverb/mverb.jpg",
+          "date": "2013-03-25T07:00:00.000Z",
+          "changes": " ",
+          "files": [
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "so"
+              ],
+              "type": "archive",
+              "size": 188933,
+              "sha256": "101ecc4d4634c257fd91f89e3ba8cafdd56d5b79ee9eda66102ff78777460520",
+              "url": "https://rekkerd.org/bin/martineastwood/MVerb_LINUX.zip"
+            },
+            {
+              "systems": [
+                {
+                  "type": "mac"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "component",
+                "vst"
+              ],
+              "type": "archive",
+              "size": 674694,
+              "sha256": "648bd13355a3b8c40c0ce2fba3ec62c09e222ed291af44444b72d3cf29ebf7aa",
+              "url": "https://rekkerd.org/bin/martineastwood/MVerb_MAC.zip"
+            },
+            {
+              "systems": [
+                {
+                  "type": "win"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "dll"
+              ],
+              "type": "archive",
+              "size": 283901,
+              "sha256": "0eeecde752bf6f2c80797faa8a2a17dc5b6951fbfbc63bbf0f2e1847b8f53070",
+              "url": "https://rekkerd.org/bin/martineastwood/MVerb_PC.zip"
+            }
+          ],
+          "verified": false
+        }
+      }
     },
     "magnetophon/lamb-rs": {
       "slug": "magnetophon/lamb-rs",
@@ -2450,8 +3738,63 @@
     },
     "keijiro/vst2413": {
       "slug": "keijiro/vst2413",
-      "version": "0.0.0",
-      "versions": {}
+      "version": "1.0.2",
+      "versions": {
+        "1.0.2": {
+          "name": "VST2413",
+          "author": "Keijiro Takahashi",
+          "description": "FM synthesizer based on YM2413 (OPLL) emulator. YM2413 is well known as low-cost FM sound chip, used on Sega Master System and FM-PAC sound expansion cartridge for MSX. Well-suited for use in 'post 8-bit era style' chiptune music.",
+          "license": "zlib",
+          "type": "instrument",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "Bit"
+          ],
+          "url": "https://github.com/keijiro/vst2413",
+          "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/keijiro/vst2413/vst2413.flac",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/keijiro/vst2413/vst2413.jpg",
+          "date": "2013-04-21T07:00:00.000Z",
+          "changes": " ",
+          "files": [
+            {
+              "systems": [
+                {
+                  "type": "mac"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "vst"
+              ],
+              "type": "archive",
+              "size": 177262,
+              "sha256": "e561ae5da234e861e2fe9034904f1c8aef39ba95a820933cdc9237a2982559c9",
+              "url": "https://www.keijiro.tokyo/vst2413/build/vst2413-20130421-osx.zip"
+            },
+            {
+              "systems": [
+                {
+                  "type": "win"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "dll"
+              ],
+              "type": "archive",
+              "size": 227212,
+              "sha256": "8065e9b7eeb779315939a78f7470c4bbd4058408f844ccd28e61e8b7c43f9247",
+              "url": "https://www.keijiro.tokyo/vst2413/build/vst2413-20130418-windows.zip"
+            }
+          ],
+          "verified": false
+        }
+      }
     },
     "jpcima/opnplug": {
       "slug": "jpcima/opnplug",
@@ -3066,28 +4409,268 @@
     },
     "freepats/upright-piano-kw": {
       "slug": "freepats/upright-piano-kw",
-      "version": "0.0.0",
-      "versions": {}
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "name": "Upright Piano KW",
+          "author": "Freepats",
+          "description": "Kawai upright piano, recorded in a living room using a Zoom H1 portable recorder mounted on a tripod in front of the piano.",
+          "license": "cc0-1.0",
+          "type": "sampler",
+          "tags": [
+            "Instrument",
+            "Keys",
+            "Piano",
+            "sfz"
+          ],
+          "url": "https://github.com/freepats/upright-piano-kw",
+          "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/freepats/upright-piano-kw/upright-piano-kw.flac",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/freepats/upright-piano-kw/upright-piano-kw.jpg",
+          "date": "2022-02-21T07:00:00.000Z",
+          "changes": " ",
+          "files": [
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                },
+                {
+                  "type": "mac"
+                },
+                {
+                  "type": "win"
+                }
+              ],
+              "architectures": [
+                "arm32",
+                "arm64",
+                "x32",
+                "x64"
+              ],
+              "contains": [
+                "sfz"
+              ],
+              "type": "archive",
+              "size": 32413525,
+              "sha256": "3d602dcff94bcf9fb9b2d78df8c689814c895fd2776ee104a95b73c44bdc7e18",
+              "url": "https://github.com/freepats/upright-piano-KW/releases/download/v1.0.0/UprightPianoKW-20220221.zip"
+            }
+          ],
+          "verified": true
+        }
+      }
     },
     "freepats/synthesizer-percussion": {
       "slug": "freepats/synthesizer-percussion",
-      "version": "0.0.0",
-      "versions": {}
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "name": "Synthesizer Percussion",
+          "author": "Freepats",
+          "description": "Drumkit sounds commonly used in vintage electronic music made with analog synthesizers.",
+          "license": "cc0-1.0",
+          "type": "sampler",
+          "tags": [
+            "Instrument",
+            "Drums",
+            "Electro",
+            "sfz"
+          ],
+          "url": "https://github.com/freepats/synthesizer-percussion",
+          "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/freepats/synthesizer-percussion/synthesizer-percussion.flac",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/freepats/synthesizer-percussion/synthesizer-percussion.jpg",
+          "date": "2022-07-18T07:00:00.000Z",
+          "changes": " ",
+          "files": [
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                },
+                {
+                  "type": "mac"
+                },
+                {
+                  "type": "win"
+                }
+              ],
+              "architectures": [
+                "arm32",
+                "arm64",
+                "x32",
+                "x64"
+              ],
+              "contains": [
+                "sfz"
+              ],
+              "type": "archive",
+              "size": 1663420,
+              "sha256": "07d58651820247ba2b57d0e3cac0b1e0734a9773d92c3bcddc48bbb9f3fcdeb8",
+              "url": "https://github.com/freepats/synthesizer-percussion/releases/download/v1.0.0/SynthesizerPercussion-20220718.zip"
+            }
+          ],
+          "verified": true
+        }
+      }
     },
     "freepats/spanish-classical-guitar": {
       "slug": "freepats/spanish-classical-guitar",
-      "version": "0.0.0",
-      "versions": {}
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "name": "Spanish Classical Guitar",
+          "author": "Freepats",
+          "description": "Spanish classical guitar with nylon strings, recorded with an AKG Perception 120 microphone.",
+          "license": "cc0-1.0",
+          "type": "sampler",
+          "tags": [
+            "Instrument",
+            "Guitar",
+            "Classical",
+            "sfz"
+          ],
+          "url": "https://github.com/freepats/spanish-classical-guitar",
+          "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/freepats/spanish-classical-guitar/spanish-classical-guitar.flac",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/freepats/spanish-classical-guitar/spanish-classical-guitar.jpg",
+          "date": "2019-06-18T07:00:00.000Z",
+          "changes": " ",
+          "files": [
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                },
+                {
+                  "type": "mac"
+                },
+                {
+                  "type": "win"
+                }
+              ],
+              "architectures": [
+                "arm32",
+                "arm64",
+                "x32",
+                "x64"
+              ],
+              "contains": [
+                "sfz"
+              ],
+              "type": "archive",
+              "size": 4943846,
+              "sha256": "173f775222991061291767724d57c7c21242a3c3254407b266aabd548df23dbb",
+              "url": "https://github.com/freepats/spanish-classical-guitar/releases/download/v1.0.0/SpanishClassicalGuitar-20190618.zip"
+            }
+          ],
+          "verified": true
+        }
+      }
     },
     "freepats/hang-d-minor": {
       "slug": "freepats/hang-d-minor",
-      "version": "0.0.0",
-      "versions": {}
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "name": "Hang D Minor",
+          "author": "Freepats",
+          "description": "Pitched steel percussion instrument tuned in D minor, recorded using a Zoom H1 portable recorder mounted on a tripod.",
+          "license": "cc0-1.0",
+          "type": "sampler",
+          "tags": [
+            "Instrument",
+            "Orchestra",
+            "Hang",
+            "sfz"
+          ],
+          "url": "https://github.com/freepats/hang-d-minor",
+          "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/freepats/hang-d-minor/hang-d-minor.flac",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/freepats/hang-d-minor/hang-d-minor.jpg",
+          "date": "2022-03-30T07:00:00.000Z",
+          "changes": " ",
+          "files": [
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                },
+                {
+                  "type": "mac"
+                },
+                {
+                  "type": "win"
+                }
+              ],
+              "architectures": [
+                "arm32",
+                "arm64",
+                "x32",
+                "x64"
+              ],
+              "contains": [
+                "sfz"
+              ],
+              "type": "archive",
+              "size": 13478020,
+              "sha256": "dea56a898c88b838e37f92967fe0edfe41b1bd2aa16ed9a240e3f44efb525a5c",
+              "url": "https://github.com/freepats/hang-D-minor/releases/download/2022-03-30/Hang-D-minor-SFZ+FLAC-20220330.7z"
+            }
+          ],
+          "verified": true
+        }
+      }
     },
     "freepats/glasses-of-water": {
       "slug": "freepats/glasses-of-water",
-      "version": "0.0.0",
-      "versions": {}
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "name": "Glasses Of Water",
+          "author": "Freepats",
+          "description": "Musical instrument made with glasses of water, recorded with an AKG Perception 120 microphone.",
+          "license": "cc0-1.0",
+          "type": "sampler",
+          "tags": [
+            "Instrument",
+            "Orchestra",
+            "Glass",
+            "sfz"
+          ],
+          "url": "https://github.com/freepats/glass",
+          "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/freepats/glasses-of-water/glasses-of-water.flac",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/freepats/glasses-of-water/glasses-of-water.jpg",
+          "date": "2019-12-27T07:00:00.000Z",
+          "changes": " ",
+          "files": [
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                },
+                {
+                  "type": "mac"
+                },
+                {
+                  "type": "win"
+                }
+              ],
+              "architectures": [
+                "arm32",
+                "arm64",
+                "x32",
+                "x64"
+              ],
+              "contains": [
+                "sfz"
+              ],
+              "type": "archive",
+              "size": 10628855,
+              "sha256": "9506bd3f9021f1cbc431c7a6a0ba193fa38e4f3b4f3126b308edcfab56a066ee",
+              "url": "https://github.com/freepats/glass/releases/download/v1.0.0/Glass-20191227.zip"
+            }
+          ],
+          "verified": true
+        }
+      }
     },
     "falktx/carla": {
       "slug": "falktx/carla",
@@ -3156,13 +4739,115 @@
     },
     "endolith/salamander-drumkit": {
       "slug": "endolith/salamander-drumkit",
-      "version": "0.0.0",
-      "versions": {}
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "name": "Salamander Drumkit",
+          "author": "Rytmenpinne",
+          "description": "Drumkit recorded in the garage with an acoustic sound/feel.",
+          "license": "cc-by-sa-4.0",
+          "type": "sampler",
+          "tags": [
+            "Instrument",
+            "Drums",
+            "sfz"
+          ],
+          "url": "https://github.com/endolith/salamander-drumkit",
+          "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/endolith/salamander-drumkit/salamander-drumkit.flac",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/endolith/salamander-drumkit/salamander-drumkit.jpg",
+          "date": "2012-02-25T07:00:00.000Z",
+          "changes": " ",
+          "files": [
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                },
+                {
+                  "type": "mac"
+                },
+                {
+                  "type": "win"
+                }
+              ],
+              "architectures": [
+                "arm32",
+                "arm64",
+                "x32",
+                "x64"
+              ],
+              "contains": [
+                "sfz"
+              ],
+              "type": "archive",
+              "size": 24091,
+              "sha256": "bce8fa0cb01b4ad2d4d5e7e5d297dc26be3d4af761807fae1e7b960d47dfc00b",
+              "url": "https://github.com/endolith/Salamander-Drumkit/archive/refs/heads/master.zip"
+            }
+          ],
+          "verified": true
+        }
+      }
     },
     "dropsnorz/wobbleizer": {
       "slug": "dropsnorz/wobbleizer",
-      "version": "0.0.0",
-      "versions": {}
+      "version": "2.3.2",
+      "versions": {
+        "2.3.2": {
+          "name": "Wobbleizer",
+          "author": "Dropsnorz",
+          "description": "A frequency filter with LFO modulation.",
+          "license": "mit",
+          "type": "effect",
+          "tags": [
+            "Effect",
+            "Filter",
+            "LFO"
+          ],
+          "url": "https://github.com/dropsnorz/wobbleizer",
+          "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/dropsnorz/wobbleizer/wobbleizer.flac",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/dropsnorz/wobbleizer/wobbleizer.jpg",
+          "date": "2012-02-25T07:00:00.000Z",
+          "changes": " ",
+          "files": [
+            {
+              "systems": [
+                {
+                  "type": "mac"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "vst"
+              ],
+              "type": "archive",
+              "size": 1595902,
+              "sha256": "55827a53f1862f19d7017e5db4d31fd82732fb3bce0d704662143bde75cb35c2",
+              "url": "https://github.com/DropSnorz/wobbleizer/releases/download/v2.3.0/wobbleizer-vst-osx64.zip"
+            },
+            {
+              "systems": [
+                {
+                  "type": "win"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "dll"
+              ],
+              "type": "archive",
+              "size": 1466718,
+              "sha256": "988803f6c7810bcef13289cc8aa32437ebb343134e051123b04e1b8815ec99c3",
+              "url": "https://github.com/DropSnorz/wobbleizer/releases/download/v2.3.0/wobbleizer-vst-win64.zip"
+            }
+          ],
+          "verified": true
+        }
+      }
     },
     "distrho/dpf-plugins": {
       "slug": "distrho/dpf-plugins",
@@ -4995,8 +6680,58 @@
     },
     "airwindows/airwindows": {
       "slug": "airwindows/airwindows",
-      "version": "0.0.0",
-      "versions": {}
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "name": "Airwindows",
+          "author": "Chris Johnson",
+          "description": "Huge collection of effects using simple UI controls.",
+          "license": "mit",
+          "type": "effect",
+          "tags": [
+            "Effect",
+            "Chorus",
+            "Distortion",
+            "EQ",
+            "Filter",
+            "Reverb"
+          ],
+          "url": "https://github.com/airwindows/airwindows",
+          "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/airwindows/airwindows/airwindows.flac",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/airwindows/airwindows/airwindows.jpg",
+          "date": "2020-02-20T07:00:00.000Z",
+          "changes": " ",
+          "files": [
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                },
+                {
+                  "type": "mac"
+                },
+                {
+                  "type": "win"
+                }
+              ],
+              "architectures": [
+                "arm32",
+                "arm64",
+                "x32",
+                "x64"
+              ],
+              "contains": [
+                "sfz"
+              ],
+              "type": "archive",
+              "size": 112081142,
+              "sha256": "ff06fd29fd78629ae6146c3159fbdf6c5362cc98ac9b6f2ac6fcbc2727ac536c",
+              "url": "https://github.com/airwindows/airwindows/archive/refs/heads/master.zip"
+            }
+          ],
+          "verified": true
+        }
+      }
     },
     "aaronaanderson/terrain": {
       "slug": "aaronaanderson/terrain",

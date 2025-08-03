@@ -1,7 +1,54 @@
 {
   "endolith/salamander-drumkit": {
     "slug": "endolith/salamander-drumkit",
-    "version": "0.0.0",
-    "versions": {}
+    "version": "1.0.0",
+    "versions": {
+      "1.0.0": {
+        "name": "Salamander Drumkit",
+        "author": "Rytmenpinne",
+        "description": "Drumkit recorded in the garage with an acoustic sound/feel.",
+        "license": "cc-by-sa-4.0",
+        "type": "sampler",
+        "tags": [
+          "Instrument",
+          "Drums",
+          "sfz"
+        ],
+        "url": "https://github.com/endolith/salamander-drumkit",
+        "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/endolith/salamander-drumkit/salamander-drumkit.flac",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/endolith/salamander-drumkit/salamander-drumkit.jpg",
+        "date": "2012-02-25T07:00:00.000Z",
+        "changes": " ",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "linux"
+              },
+              {
+                "type": "mac"
+              },
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "arm32",
+              "arm64",
+              "x32",
+              "x64"
+            ],
+            "contains": [
+              "sfz"
+            ],
+            "type": "archive",
+            "size": 24091,
+            "sha256": "bce8fa0cb01b4ad2d4d5e7e5d297dc26be3d4af761807fae1e7b960d47dfc00b",
+            "url": "https://github.com/endolith/Salamander-Drumkit/archive/refs/heads/master.zip"
+          }
+        ],
+        "verified": true
+      }
+    }
   }
 }

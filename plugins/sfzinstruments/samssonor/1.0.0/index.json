@@ -1,0 +1,47 @@
+{
+  "name": "Sam's Sonor",
+  "author": "Sam Greene",
+  "description": "Sonor Force 3001 drum kit sampled with 4 velocity levels for each part.",
+  "license": "cc-by-sa-4.0",
+  "type": "sampler",
+  "tags": [
+    "Instrument",
+    "Drums",
+    "Kit",
+    "sfz"
+  ],
+  "url": "https://github.com/sfzinstruments/SamsSonor",
+  "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/samssonor/samssonor.flac",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/samssonor/samssonor.jpg",
+  "date": "2022-08-28T07:00:00.000Z",
+  "changes": " ",
+  "files": [
+    {
+      "systems": [
+        {
+          "type": "linux"
+        },
+        {
+          "type": "mac"
+        },
+        {
+          "type": "win"
+        }
+      ],
+      "architectures": [
+        "arm32",
+        "arm64",
+        "x32",
+        "x64"
+      ],
+      "contains": [
+        "sfz"
+      ],
+      "type": "archive",
+      "size": 36195708,
+      "sha256": "a60b39f507721b4a2ee0380dbfe5267f8c7190e5a5c4590aed91bba496fc69c6",
+      "url": "https://github.com/sfzinstruments/SamsSonor/archive/refs/heads/master.zip"
+    }
+  ],
+  "verified": true
+}

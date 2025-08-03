@@ -1,5 +1,53 @@
 {
   "slug": "sfzinstruments/double-bass",
-  "version": "0.0.0",
-  "versions": {}
+  "version": "1.0.1",
+  "versions": {
+    "1.0.1": {
+      "name": "Double Bass",
+      "author": "DSmolken",
+      "description": "1958 Otto Rubner double bass played arco and pizzicato with additional miscellaneous noises.",
+      "license": "cc0-1.0",
+      "type": "sampler",
+      "tags": [
+        "Instrument",
+        "String",
+        "Bass",
+        "sfz"
+      ],
+      "url": "https://github.com/sfzinstruments/dsmolken.double-bass",
+      "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/double-bass/double-bass.flac",
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/double-bass/double-bass.jpg",
+      "date": "2022-09-04T07:00:00.000Z",
+      "changes": " ",
+      "files": [
+        {
+          "systems": [
+            {
+              "type": "linux"
+            },
+            {
+              "type": "mac"
+            },
+            {
+              "type": "win"
+            }
+          ],
+          "architectures": [
+            "arm32",
+            "arm64",
+            "x32",
+            "x64"
+          ],
+          "contains": [
+            "sfz"
+          ],
+          "type": "archive",
+          "size": 265232156,
+          "sha256": "380986bb52ee6b6469d28e9089792a3ed37cbd163fe5a19160bf4f98785e7ccb",
+          "url": "https://github.com/sfzinstruments/dsmolken.double-bass/releases/download/v1.001/DSmolken.double_bass.v1.001.zip"
+        }
+      ],
+      "verified": true
+    }
+  }
 }

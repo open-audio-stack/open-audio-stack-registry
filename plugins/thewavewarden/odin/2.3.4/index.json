@@ -1,0 +1,77 @@
+{
+  "name": "Odin",
+  "author": "TheWaveWarden",
+  "description": "12-voice polyphonic semi-modular synthesizer. Earth shattering basses, exquisite leads or mad FX, Odin's got them all! Use the classic sound of analog waveforms - or draw your own.",
+  "license": "gpl-3.0",
+  "type": "instrument",
+  "tags": [
+    "Instrument",
+    "Synth",
+    "Moog"
+  ],
+  "url": "https://github.com/TheWaveWarden/odin2",
+  "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/thewavewarden/odin/odin.flac",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/thewavewarden/odin/odin.jpg",
+  "date": "2020-11-09T07:00:00.000Z",
+  "changes": " ",
+  "files": [
+    {
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "clap",
+        "lv2",
+        "vst3"
+      ],
+      "type": "archive",
+      "size": 142093215,
+      "sha256": "72621ff6b68c340400eaaa8b0d52cfcf8ab7de4931bc364746a626764d189eeb",
+      "url": "https://github.com/TheWaveWarden/odin2/releases/download/NightlyDevel/Odin2.3.4Linux.zip"
+    },
+    {
+      "systems": [
+        {
+          "type": "mac"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "clap",
+        "component",
+        "vst3"
+      ],
+      "type": "installer",
+      "size": 282935423,
+      "sha256": "1040f6e46c73cd878fe2b6ac3f20e97fa20eecd03fd206d6b0c01dc2a80e5761",
+      "url": "https://github.com/TheWaveWarden/odin2/releases/download/NightlyDevel/Odin2.3.4MacInstaller.pkg"
+    },
+    {
+      "systems": [
+        {
+          "type": "win"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "clap",
+        "dll",
+        "vst3"
+      ],
+      "type": "installer",
+      "size": 92297906,
+      "sha256": "c070b5ed7b4a1c41615f582b5e17194729ea16e88f0e2f26c64994468766ff12",
+      "url": "https://github.com/TheWaveWarden/odin2/releases/download/NightlyDevel/Odin2.3.4WinInstaller.exe"
+    }
+  ],
+  "verified": true
+}

@@ -1,0 +1,47 @@
+{
+  "name": "Hungarian Zither",
+  "author": "DSmolken",
+  "description": "Hungarian 'prime' zither. A rectangular instrument with over a dozen strings, mostly tuned to G, with two melody courses and the rest as drones.",
+  "license": "cc0-1.0",
+  "type": "sampler",
+  "tags": [
+    "Instrument",
+    "Strings",
+    "Classical",
+    "sfz"
+  ],
+  "url": "https://github.com/sfzinstruments/hungarian_zither",
+  "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/hungarian-zither/hungarian-zither.flac",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/hungarian-zither/hungarian-zither.jpg",
+  "date": "2022-09-28T07:00:00.000Z",
+  "changes": " ",
+  "files": [
+    {
+      "systems": [
+        {
+          "type": "linux"
+        },
+        {
+          "type": "mac"
+        },
+        {
+          "type": "win"
+        }
+      ],
+      "architectures": [
+        "arm32",
+        "arm64",
+        "x32",
+        "x64"
+      ],
+      "contains": [
+        "sfz"
+      ],
+      "type": "archive",
+      "size": 176636805,
+      "sha256": "49962554dc9480870ee9ae959e36789448d940709164291799c8027f6e276119",
+      "url": "https://github.com/sfzinstruments/hungarian_zither/releases/download/v1.001/hungarian_prime_zither_1001.zip"
+    }
+  ],
+  "verified": true
+}

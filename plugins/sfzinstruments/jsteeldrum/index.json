@@ -1,5 +1,54 @@
 {
   "slug": "sfzinstruments/jsteeldrum",
-  "version": "0.0.0",
-  "versions": {}
+  "version": "1.0.0",
+  "versions": {
+    "1.0.0": {
+      "name": "jSteelDrum",
+      "author": "Jeff Learman",
+      "description": "C Steel Drum (a.k.a. 'steel pan') hand-made in Trinidad.",
+      "license": "unlicense",
+      "type": "sampler",
+      "tags": [
+        "Instrument",
+        "Steel",
+        "Drum",
+        "Orchestra",
+        "sfz"
+      ],
+      "url": "https://github.com/sfzinstruments/jlearman.SteelDrum",
+      "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/jsteeldrum/jsteeldrum.flac",
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/jsteeldrum/jsteeldrum.jpg",
+      "date": "2022-09-23T07:00:00.000Z",
+      "changes": " ",
+      "files": [
+        {
+          "systems": [
+            {
+              "type": "linux"
+            },
+            {
+              "type": "mac"
+            },
+            {
+              "type": "win"
+            }
+          ],
+          "architectures": [
+            "arm32",
+            "arm64",
+            "x32",
+            "x64"
+          ],
+          "contains": [
+            "sfz"
+          ],
+          "type": "archive",
+          "size": 39751862,
+          "sha256": "ee547fb57ab4d04a3efeef101c7f591d0a67300f1c5459e02841c123ed643edd",
+          "url": "https://github.com/sfzinstruments/jlearman.SteelDrum/archive/refs/heads/main.zip"
+        }
+      ],
+      "verified": true
+    }
+  }
 }

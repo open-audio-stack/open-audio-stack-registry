@@ -1,5 +1,53 @@
 {
   "slug": "sfzinstruments/horse-pulse",
-  "version": "0.0.0",
-  "versions": {}
+  "version": "1.0.0",
+  "versions": {
+    "1.0.0": {
+      "name": "Horse Pulse",
+      "author": "DSmolken",
+      "description": "Bass Tagelharpa played pizzicato.",
+      "license": "cc0-1.0",
+      "type": "sampler",
+      "tags": [
+        "Instrument",
+        "String",
+        "Pluck",
+        "sfz"
+      ],
+      "url": "https://github.com/sfzinstruments/Karoryfer.HorsePulse",
+      "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/horse-pulse/horse-pulse.flac",
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/horse-pulse/horse-pulse.jpg",
+      "date": "2022-04-01T07:00:00.000Z",
+      "changes": " ",
+      "files": [
+        {
+          "systems": [
+            {
+              "type": "linux"
+            },
+            {
+              "type": "mac"
+            },
+            {
+              "type": "win"
+            }
+          ],
+          "architectures": [
+            "arm32",
+            "arm64",
+            "x32",
+            "x64"
+          ],
+          "contains": [
+            "sfz"
+          ],
+          "type": "archive",
+          "size": 147505176,
+          "sha256": "52157e831b82e0b1c512abda701f9133b8cd415b42a696b4d9b133946fa2e458",
+          "url": "https://github.com/sfzinstruments/Karoryfer.HorsePulse/releases/download/v1.000/Karoryfer_Horse_Pulse_1000.zip"
+        }
+      ],
+      "verified": true
+    }
+  }
 }

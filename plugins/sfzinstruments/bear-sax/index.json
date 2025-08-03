@@ -1,5 +1,53 @@
 {
   "slug": "sfzinstruments/bear-sax",
-  "version": "0.0.0",
-  "versions": {}
+  "version": "1.0.4",
+  "versions": {
+    "1.0.4": {
+      "name": "Bear Sax",
+      "author": "DSmolken",
+      "description": "1926 Conn baritone saxophone including sustained notes and breath noise.",
+      "license": "cc0-1.0",
+      "type": "sampler",
+      "tags": [
+        "Instrument",
+        "Brass",
+        "Saxophone",
+        "sfz"
+      ],
+      "url": "https://github.com/sfzinstruments/karoryfer.bear-sax",
+      "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/bear-sax/bear-sax.flac",
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/bear-sax/bear-sax.jpg",
+      "date": "2021-09-11T07:00:00.000Z",
+      "changes": " ",
+      "files": [
+        {
+          "systems": [
+            {
+              "type": "linux"
+            },
+            {
+              "type": "mac"
+            },
+            {
+              "type": "win"
+            }
+          ],
+          "architectures": [
+            "arm32",
+            "arm64",
+            "x32",
+            "x64"
+          ],
+          "contains": [
+            "sfz"
+          ],
+          "type": "archive",
+          "size": 131505201,
+          "sha256": "66c28ea361c86943b2e2bcda6ca48cf105fec4f60a8f40e7c6bbf584be45c654",
+          "url": "https://github.com/sfzinstruments/karoryfer.bear-sax/releases/download/v1.004/Karoryfer.Bear_Sax.v1.004.zip"
+        }
+      ],
+      "verified": true
+    }
+  }
 }
