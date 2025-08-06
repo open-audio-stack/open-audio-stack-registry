@@ -1,0 +1,34 @@
+name: PokeySynth
+author: ivop
+description: Atari Pokey LV2 synth plugin with FLTK.
+type: instrument
+license: gpl-2.0
+tags:
+  - 8bit
+  - Synth
+url: https://github.com/ivop/pokeysynth
+audio: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ivop/pokeysynth/pokeysynth.flac
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ivop/pokeysynth/pokeysynth.jpg
+date: '2025-04-20T00:00:00.000Z'
+changes: First release.
+files:
+  - architectures:
+      - x64
+    contains:
+      - lv2
+    sha256: b4598ca2c075232e63c9837ad6c411a2acd154cb93eb2093c6a14fdef550c512
+    systems:
+      - type: linux
+    size: 287956
+    type: archive
+    url: https://github.com/ivop/pokeysynth/releases/download/release-0.9.0/pokeysynth-0.9.0-linux64.tar.xz
+  - architectures:
+      - x64
+    contains:
+      - lv2
+    sha256: e3c992c6f105a7a482df22e4930d6bcab8cd69e4d8575fcea02523756d9a9d56
+    systems:
+      - type: win
+    size: 1157999
+    type: archive
+    url: https://github.com/ivop/pokeysynth/releases/download/release-0.9.0/pokeysynth-0.9.0-win64.zip
