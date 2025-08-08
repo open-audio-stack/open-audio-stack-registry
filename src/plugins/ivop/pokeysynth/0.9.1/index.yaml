@@ -16,19 +16,19 @@ files:
       - x64
     contains:
       - lv2
-    sha256: b4598ca2c075232e63c9837ad6c411a2acd154cb93eb2093c6a14fdef550c512
+    sha256: 47134be501ba3cd63689e9497f91ac9bd9dca37e34c96fb0eaa89bdd5ee308d3
     systems:
       - type: linux
-    size: 287956
+    size: 360079
     type: archive
-    url: https://github.com/ivop/pokeysynth/releases/download/release-0.9.0/pokeysynth-0.9.0-linux64.tar.xz
+    url: https://github.com/ivop/pokeysynth/releases/download/release-0.9.1/pokeysynth-0.9.1-linux64.tar.gz
   - architectures:
       - x64
     contains:
       - lv2
-    sha256: e3c992c6f105a7a482df22e4930d6bcab8cd69e4d8575fcea02523756d9a9d56
+    sha256: b7a8fbd6a62d7717c7434ea95080b73eee6f84ab7280953635ad36a4747a4ffa
     systems:
       - type: win
-    size: 1157999
+    size: 1197684
     type: archive
-    url: https://github.com/ivop/pokeysynth/releases/download/release-0.9.0/pokeysynth-0.9.0-win64.zip
+    url: https://github.com/ivop/pokeysynth/releases/download/release-0.9.1/pokeysynth-0.9.1-win64.zip
