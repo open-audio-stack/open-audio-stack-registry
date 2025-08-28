@@ -3671,6 +3671,118 @@
       }
     }
   },
+  "lsp-plugins/lsp-plugins": {
+    "slug": "lsp-plugins/lsp-plugins",
+    "version": "1.2.23",
+    "versions": {
+      "1.2.23": {
+        "name": "LSP Plugins",
+        "author": "Vladimir Sadovnikov",
+        "description": "A collection of open-source audio effects, synthesizers, and tools designed for music and sound production, primarily on the GNU/Linux platform.",
+        "license": "lgpl-3.0",
+        "type": "effect",
+        "tags": [
+          "Delay",
+          "Chorus",
+          "Compressor",
+          "Filter",
+          "Flanger",
+          "Gate",
+          "Mixer",
+          "Sampler"
+        ],
+        "url": "https://github.com/lsp-plugins/lsp-plugins",
+        "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/lsp-plugins/lsp-plugins/lsp-plugins.flac",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/lsp-plugins/lsp-plugins/lsp-plugins.jpg",
+        "donate": "https://www.patreon.com/c/sadko4u",
+        "date": "2025-08-26T00:00:00.000Z",
+        "changes": "- Experimental UI for MacOS\n- Human-friendly preset management\n- Not backward-compatible\n- AHDBSSR envelope control\n- DC offset control\n- Frequency linking button\n- Linear axis for frequency\n- Frequency inspection mode\n- Minimum-phase filter mode\n",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "arm64"
+            ],
+            "contains": [
+              "clap",
+              "lv2",
+              "vst3",
+              "so"
+            ],
+            "type": "archive",
+            "size": 10394950,
+            "sha256": "75a3c46eee01fa83e836cdae21f7af73cefe8e68e9dae93693f6d30173591c6e",
+            "url": "https://github.com/lsp-plugins/lsp-plugins/releases/download/1.2.23/lsp-plugins-1.2.23-Linux-aarch64.7z"
+          },
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "arm32"
+            ],
+            "contains": [
+              "clap",
+              "lv2",
+              "vst3",
+              "so"
+            ],
+            "type": "archive",
+            "size": 6349185,
+            "sha256": "6dc056478ac52cf44d1d887f2cab16914cc12fa21f19bed032ff6cae9bcd2695",
+            "url": "https://github.com/lsp-plugins/lsp-plugins/releases/download/1.2.23/lsp-plugins-1.2.23-Linux-arm32.7z"
+          },
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x32"
+            ],
+            "contains": [
+              "clap",
+              "lv2",
+              "vst3",
+              "so"
+            ],
+            "type": "archive",
+            "size": 6724132,
+            "sha256": "cd6214429ef8fa3a7745f88778d20da08d88e1e91e3d3c11cd64840b5ed6030d",
+            "url": "https://github.com/lsp-plugins/lsp-plugins/releases/download/1.2.23/lsp-plugins-1.2.23-Linux-i586.7z"
+          },
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "clap",
+              "lv2",
+              "vst3",
+              "so"
+            ],
+            "type": "archive",
+            "size": 9701176,
+            "sha256": "bd99fd7d429e808f7090af8b054c401ea599178b9be738981ae6a93c96c2e824",
+            "url": "https://github.com/lsp-plugins/lsp-plugins/releases/download/1.2.23/lsp-plugins-1.2.23-Linux-x86_64.7z"
+          }
+        ],
+        "verified": true
+      }
+    }
+  },
   "khrykin/blackbird": {
     "slug": "khrykin/blackbird",
     "version": "0.1.0",

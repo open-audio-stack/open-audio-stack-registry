@@ -509,6 +509,20 @@
       ]
     }
   },
+  "lsp-plugins/lsp-plugins": {
+    "1.2.23": {
+      "recs": [
+        {
+          "field": "systems",
+          "rec": "should support Mac"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Windows"
+        }
+      ]
+    }
+  },
   "khrykin/blackbird": {
     "0.1.0": {
       "recs": [
