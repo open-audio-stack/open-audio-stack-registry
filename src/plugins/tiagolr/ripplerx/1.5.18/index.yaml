@@ -1,0 +1,53 @@
+name: RipplerX
+author: Tilr
+description: A physically modeled synth
+license: gpl-3.0
+type: instrument
+tags:
+  - Physical-modelling
+  - JUCE
+  - Chromaphone
+  - Modal Synthesis
+  - Open source
+url: https://github.com/tiagolr/ripplerx
+donate: https://www.buymeacoffee.com/tilr
+audio: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/tiagolr/ripplerx/ripplerx.flac
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/tiagolr/ripplerx/ripplerx.jpg
+date: '2025-09-12T00:00:00.000Z'
+changes: Polyphony fix for notes pressed at the same time
+files:
+  - architectures:
+      - x64
+    contains:
+      - lv2
+      - vst3
+    sha256: 1a3221028561920c8dbea49b9cebc95a8758ed45028aa8cd6bd2cb9547535a09
+    systems:
+      - type: win
+    size: 6646743
+    type: archive
+    url: https://github.com/tiagolr/ripplerx/releases/download/v1.5.18/ripplerx-win-v1.5.18.zip
+  - architectures:
+      - x64
+      - arm64
+    contains:
+      - component
+      - lv2
+      - vst3
+    sha256: eae6bf8c9c4d4fbd43eea83b1d64d7581fda362d88983aa72bffc730fb2f035a
+    systems:
+      - type: mac
+    size: 15073045
+    type: archive
+    url: https://github.com/tiagolr/ripplerx/releases/download/v1.5.18/ripplerx-macos-v1.5.18.zip
+  - architectures:
+      - x64
+    contains:
+      - lv2
+      - vst3
+    sha256: 1395640d324d3c01a51085b8e5b71aedf0ee29f56d190db8042634bd496acf44
+    systems:
+      - type: linux
+    size: 6082550
+    type: archive
+    url: https://github.com/tiagolr/ripplerx/releases/download/v1.5.18/ripplerx-linux-v1.5.18.zip
