@@ -13,20 +13,20 @@ url: https://github.com/tiagolr/ripplerx
 donate: https://www.buymeacoffee.com/tilr
 audio: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/tiagolr/ripplerx/ripplerx.flac
 image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/tiagolr/ripplerx/ripplerx.jpg
-date: '2025-09-08T17:03:00.000Z'
-changes: Fix anti-virus false flags by encoding waveforms as FLAC
+date: '2025-09-12T00:00:00.000Z'
+changes: Polyphony fix for notes pressed at the same time
 files:
   - architectures:
       - x64
     contains:
       - lv2
       - vst3
-    sha256: f15c560a71ddef563669367c664d8521bba23c9ad82662d46f636af41b4c91e4
+    sha256: 1395640d324d3c01a51085b8e5b71aedf0ee29f56d190db8042634bd496acf44
     systems:
       - type: win
-    size: 6646747
+    size: 6082550
     type: archive
-    url: https://github.com/tiagolr/ripplerx/releases/download/v1.5.13/ripplerx-win-v1.5.13.zip
+    url: https://github.com/tiagolr/ripplerx/releases/download/v1.5.18/ripplerx-linux-v1.5.18.zip
   - architectures:
       - x64
       - arm64
@@ -34,20 +34,20 @@ files:
       - component
       - lv2
       - vst3
-    sha256: 9c7d1af72021fcb3675ca676f5badce70044d9748a885441b2131db097c83348
+    sha256: eae6bf8c9c4d4fbd43eea83b1d64d7581fda362d88983aa72bffc730fb2f035a
     systems:
       - type: mac
-    size: 15065581
+    size: 15073045
     type: archive
-    url: https://github.com/tiagolr/ripplerx/releases/download/v1.5.13/ripplerx-macos-v1.5.13.zip
+    url: https://github.com/tiagolr/ripplerx/releases/download/v1.5.18/ripplerx-macos-v1.5.18.zip
   - architectures:
       - x64
     contains:
       - lv2
       - vst3
-    sha256: ce0b663188384b6bb91b429e2d981a9d96edd08e329c6650b120f327d568cd0a
+    sha256: 1395640d324d3c01a51085b8e5b71aedf0ee29f56d190db8042634bd496acf44
     systems:
       - type: linux
-    size: 6081321
+    size: 6082550
     type: archive
-    url: https://github.com/tiagolr/ripplerx/releases/download/v1.5.13/ripplerx-linux-v1.5.13.zip
+    url: https://github.com/tiagolr/ripplerx/releases/download/v1.5.18/ripplerx-linux-v1.5.18.zip
