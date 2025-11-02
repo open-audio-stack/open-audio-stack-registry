@@ -21,12 +21,12 @@ files:
     contains:
       - lv2
       - vst3
-    sha256: 1395640d324d3c01a51085b8e5b71aedf0ee29f56d190db8042634bd496acf44
+    sha256: 1a3221028561920c8dbea49b9cebc95a8758ed45028aa8cd6bd2cb9547535a09
     systems:
       - type: win
-    size: 6082550
+    size: 6646743
     type: archive
-    url: https://github.com/tiagolr/ripplerx/releases/download/v1.5.18/ripplerx-linux-v1.5.18.zip
+    url: https://github.com/tiagolr/ripplerx/releases/download/v1.5.18/ripplerx-win-v1.5.18.zip
   - architectures:
       - x64
       - arm64
