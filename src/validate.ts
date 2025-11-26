@@ -50,11 +50,11 @@ for (const type in pkgJson.files) {
 }
 
 // Ensure image and audio files exist locally in registry
-const audioPathLocal: string = pkgJson.audio.replace(
+const audioPathLocal: string = pkgJson.audio?.replace(
   'https://open-audio-stack.github.io/open-audio-stack-registry/',
   'src/',
 );
-if (!fileExists(audioPathLocal)) {
+if (audioPathLocal && !fileExists(audioPathLocal)) {
   pkg.logErrors([
     {
       message: 'File does not exist locally',
