@@ -2,6 +2,7 @@ import { ConfigInterface, ConfigLocal, RegistryLocal, RegistryType, ManagerLocal
 
 const managerConfig: ConfigInterface = {
   appDir: 'src',
+  appsDir: 'src/apps',
   pluginsDir: 'src/plugins',
   presetsDir: 'src/presets',
   projectsDir: 'src/projects',
@@ -13,6 +14,10 @@ const registry: RegistryLocal = new RegistryLocal(
   '1.0.0',
 );
 registry.logEnable();
+
+const managerApps: ManagerLocal = new ManagerLocal(RegistryType.Apps, managerConfig);
+managerApps.logEnable();
+registry.addManager(managerApps);
 
 const managerPlugins: ManagerLocal = new ManagerLocal(RegistryType.Plugins, managerConfig);
 managerPlugins.logEnable();
