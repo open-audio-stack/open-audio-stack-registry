@@ -1,0 +1,73 @@
+{
+  "tracktion/pluginval": {
+    "slug": "tracktion/pluginval",
+    "version": "1.0.4",
+    "versions": {
+      "1.0.4": {
+        "name": "Pluginval",
+        "author": "Tracktion",
+        "description": "Cross-platform plugin validation tool for VST, VST3, AU and AAX formats",
+        "license": "gpl-3.0",
+        "type": "tool",
+        "tags": [
+          "CLI",
+          "Plugin",
+          "Validation"
+        ],
+        "url": "https://github.com/Tracktion/pluginval",
+        "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/apps/tracktion/pluginval/pluginval.flac",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/apps/tracktion/pluginval/pluginval.jpg",
+        "date": "2024-12-04T00:00:00.000Z",
+        "changes": "- Limit auval's stress test to 20 seconds (vs 600)\n- Fixed incorrect \"ALL TESTS PASSED\" message\n- Updated juce to 8.0.3\n- Added LV2 support\n- Provide CMake module for CTest\n- Changed minimum Linux version to Ubuntu 22.04\n",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "type": "archive",
+            "open": "pluginval",
+            "size": 5911681,
+            "sha256": "c01c49d8063965c4c2dea8324468336768f5c9139e0b1caebde14c2400b55352",
+            "url": "https://github.com/Tracktion/pluginval/releases/download/v1.0.4/pluginval_Linux.zip"
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "type": "archive",
+            "open": "pluginval",
+            "size": 9202795,
+            "sha256": "3c4c533bda0c5059eea3ddaea752d757ee2025041f0f47e6bcb0e87f6082b29f",
+            "url": "https://github.com/Tracktion/pluginval/releases/download/v1.0.4/pluginval_macOS.zip"
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "type": "archive",
+            "open": "pluginval.exe",
+            "size": 2408590,
+            "sha256": "c08e61ce3b96db41636f8ec7e76f4c7e2c13ebdac7fa1b5a1f52b4f32ec715ab",
+            "url": "https://github.com/Tracktion/pluginval/releases/download/v1.0.4/pluginval_Windows.zip"
+          }
+        ],
+        "verified": true
+      }
+    }
+  }
+}

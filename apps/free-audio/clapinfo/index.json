@@ -1,0 +1,87 @@
+{
+  "slug": "free-audio/clapinfo",
+  "version": "1.2.2",
+  "versions": {
+    "1.2.2": {
+      "name": "Clapinfo",
+      "author": "Free Audio",
+      "description": "Command-line tool to display information about CLAP plugins",
+      "license": "mit",
+      "type": "tool",
+      "tags": [
+        "CLI",
+        "Plugin",
+        "Information"
+      ],
+      "url": "https://github.com/free-audio/clap-info",
+      "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/apps/free-audio/clapinfo/clapinfo.flac",
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/apps/free-audio/clapinfo/clapinfo.jpg",
+      "date": "2024-10-27T00:00:00.000Z",
+      "changes": "Name the zips with architectures consistently",
+      "files": [
+        {
+          "systems": [
+            {
+              "type": "linux"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "type": "archive",
+          "open": "clap-info",
+          "size": 223461,
+          "sha256": "6ce7185de6d191b681f337ca85b224d3b11c76ff85f2e4538f049db54d1f1a3b",
+          "url": "https://github.com/free-audio/clap-info/releases/download/v1.2.2/clap-info-linux-x64.zip"
+        },
+        {
+          "systems": [
+            {
+              "type": "mac"
+            }
+          ],
+          "architectures": [
+            "arm64",
+            "x64"
+          ],
+          "type": "archive",
+          "open": "clap-info",
+          "size": 439006,
+          "sha256": "afaa46e9f64c7bb4236bdf60aacac2f5874a4c1c20680bcd88dfd121be480c42",
+          "url": "https://github.com/free-audio/clap-info/releases/download/v1.2.2/clap-info-mac-universal.zip"
+        },
+        {
+          "systems": [
+            {
+              "type": "win"
+            }
+          ],
+          "architectures": [
+            "arm64"
+          ],
+          "type": "archive",
+          "open": "clap-info.exe",
+          "size": 279611,
+          "sha256": "11d433eb1e3a39dbeb874ac4107650944d6041d7c2f3dacc9cfaf0b520d2a03a",
+          "url": "https://github.com/free-audio/clap-info/releases/download/v1.2.2/clap-info-win-arm64ec.zip"
+        },
+        {
+          "systems": [
+            {
+              "type": "win"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "type": "archive",
+          "open": "clap-info.exe",
+          "size": 292331,
+          "sha256": "bc258a0e1cfb000d8598cadca56a0ce22c67edc4d420bb80ed75638e5a79e41b",
+          "url": "https://github.com/free-audio/clap-info/releases/download/v1.2.2/clap-info-win-x64.zip"
+        }
+      ],
+      "verified": true
+    }
+  }
+}

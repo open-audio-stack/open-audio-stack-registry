@@ -1,0 +1,71 @@
+{
+  "slug": "steinberg/validator",
+  "version": "0.0.1",
+  "versions": {
+    "0.0.1": {
+      "name": "VST3 Validator",
+      "author": "Steinberg",
+      "description": "Official VST3 plugin validation tool included in the VST3 SDK",
+      "license": "mit",
+      "type": "tool",
+      "tags": [
+        "CLI",
+        "Plugin",
+        "Validation"
+      ],
+      "url": "https://steinbergmedia.github.io/vst3_dev_portal/pages/What+is+the+VST+3+SDK/Validator.html",
+      "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/apps/steinberg/validator/validator.flac",
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/apps/steinberg/validator/validator.jpg",
+      "date": "2020-12-24T00:00:00.000Z",
+      "changes": "Use macos build metadata",
+      "files": [
+        {
+          "systems": [
+            {
+              "type": "linux"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "type": "archive",
+          "open": "validator",
+          "size": 451990,
+          "sha256": "a22e18d658c3a37a21f339074fc057a6301d3e03c758e4a11a261824c8d7587e",
+          "url": "https://github.com/studiorack/studiorack-template-steinberg/releases/download/v0.0.1/validator-linux.zip"
+        },
+        {
+          "systems": [
+            {
+              "type": "mac"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "type": "archive",
+          "open": "validator",
+          "size": 289175,
+          "sha256": "85b4f106b2ba921e3fbb87132cfb9676cc16b787d539b90ee4567751a11df6ec",
+          "url": "https://github.com/studiorack/studiorack-template-steinberg/releases/download/v0.0.1/validator-mac.zip"
+        },
+        {
+          "systems": [
+            {
+              "type": "win"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "type": "archive",
+          "open": "validator.exe",
+          "size": 178322,
+          "sha256": "95dd10d1cab1ab676174b815cc53f2279c876025b3f992fbf3c02a5d89a8ceda",
+          "url": "https://github.com/studiorack/studiorack-template-steinberg/releases/download/v0.0.1/validator-win.zip"
+        }
+      ],
+      "verified": false
+    }
+  }
+}

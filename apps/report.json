@@ -1,0 +1,22 @@
+{
+  "tracktion/pluginval": {
+    "1.0.4": {
+      "recs": [
+        {
+          "field": "architectures",
+          "rec": "should support arm64"
+        }
+      ]
+    }
+  },
+  "steinberg/validator": {
+    "0.0.1": {
+      "recs": [
+        {
+          "field": "architectures",
+          "rec": "should support arm64"
+        }
+      ]
+    }
+  }
+}

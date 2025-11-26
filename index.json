@@ -2,6 +2,237 @@
   "name": "Open Audio Registry",
   "url": "https://open-audio-stack.github.io/open-audio-stack-registry",
   "version": "1.0.0",
+  "apps": {
+    "tracktion/pluginval": {
+      "slug": "tracktion/pluginval",
+      "version": "1.0.4",
+      "versions": {
+        "1.0.4": {
+          "name": "Pluginval",
+          "author": "Tracktion",
+          "description": "Cross-platform plugin validation tool for VST, VST3, AU and AAX formats",
+          "license": "gpl-3.0",
+          "type": "tool",
+          "tags": [
+            "CLI",
+            "Plugin",
+            "Validation"
+          ],
+          "url": "https://github.com/Tracktion/pluginval",
+          "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/apps/tracktion/pluginval/pluginval.flac",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/apps/tracktion/pluginval/pluginval.jpg",
+          "date": "2024-12-04T00:00:00.000Z",
+          "changes": "- Limit auval's stress test to 20 seconds (vs 600)\n- Fixed incorrect \"ALL TESTS PASSED\" message\n- Updated juce to 8.0.3\n- Added LV2 support\n- Provide CMake module for CTest\n- Changed minimum Linux version to Ubuntu 22.04\n",
+          "files": [
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "type": "archive",
+              "open": "pluginval",
+              "size": 5911681,
+              "sha256": "c01c49d8063965c4c2dea8324468336768f5c9139e0b1caebde14c2400b55352",
+              "url": "https://github.com/Tracktion/pluginval/releases/download/v1.0.4/pluginval_Linux.zip"
+            },
+            {
+              "systems": [
+                {
+                  "type": "mac"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "type": "archive",
+              "open": "pluginval",
+              "size": 9202795,
+              "sha256": "3c4c533bda0c5059eea3ddaea752d757ee2025041f0f47e6bcb0e87f6082b29f",
+              "url": "https://github.com/Tracktion/pluginval/releases/download/v1.0.4/pluginval_macOS.zip"
+            },
+            {
+              "systems": [
+                {
+                  "type": "win"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "type": "archive",
+              "open": "pluginval.exe",
+              "size": 2408590,
+              "sha256": "c08e61ce3b96db41636f8ec7e76f4c7e2c13ebdac7fa1b5a1f52b4f32ec715ab",
+              "url": "https://github.com/Tracktion/pluginval/releases/download/v1.0.4/pluginval_Windows.zip"
+            }
+          ],
+          "verified": true
+        }
+      }
+    },
+    "steinberg/validator": {
+      "slug": "steinberg/validator",
+      "version": "0.0.1",
+      "versions": {
+        "0.0.1": {
+          "name": "VST3 Validator",
+          "author": "Steinberg",
+          "description": "Official VST3 plugin validation tool included in the VST3 SDK",
+          "license": "mit",
+          "type": "tool",
+          "tags": [
+            "CLI",
+            "Plugin",
+            "Validation"
+          ],
+          "url": "https://steinbergmedia.github.io/vst3_dev_portal/pages/What+is+the+VST+3+SDK/Validator.html",
+          "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/apps/steinberg/validator/validator.flac",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/apps/steinberg/validator/validator.jpg",
+          "date": "2020-12-24T00:00:00.000Z",
+          "changes": "Use macos build metadata",
+          "files": [
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "type": "archive",
+              "open": "validator",
+              "size": 451990,
+              "sha256": "a22e18d658c3a37a21f339074fc057a6301d3e03c758e4a11a261824c8d7587e",
+              "url": "https://github.com/studiorack/studiorack-template-steinberg/releases/download/v0.0.1/validator-linux.zip"
+            },
+            {
+              "systems": [
+                {
+                  "type": "mac"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "type": "archive",
+              "open": "validator",
+              "size": 289175,
+              "sha256": "85b4f106b2ba921e3fbb87132cfb9676cc16b787d539b90ee4567751a11df6ec",
+              "url": "https://github.com/studiorack/studiorack-template-steinberg/releases/download/v0.0.1/validator-mac.zip"
+            },
+            {
+              "systems": [
+                {
+                  "type": "win"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "type": "archive",
+              "open": "validator.exe",
+              "size": 178322,
+              "sha256": "95dd10d1cab1ab676174b815cc53f2279c876025b3f992fbf3c02a5d89a8ceda",
+              "url": "https://github.com/studiorack/studiorack-template-steinberg/releases/download/v0.0.1/validator-win.zip"
+            }
+          ],
+          "verified": false
+        }
+      }
+    },
+    "free-audio/clapinfo": {
+      "slug": "free-audio/clapinfo",
+      "version": "1.2.2",
+      "versions": {
+        "1.2.2": {
+          "name": "Clapinfo",
+          "author": "Free Audio",
+          "description": "Command-line tool to display information about CLAP plugins",
+          "license": "mit",
+          "type": "tool",
+          "tags": [
+            "CLI",
+            "Plugin",
+            "Information"
+          ],
+          "url": "https://github.com/free-audio/clap-info",
+          "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/apps/free-audio/clapinfo/clapinfo.flac",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/apps/free-audio/clapinfo/clapinfo.jpg",
+          "date": "2024-10-27T00:00:00.000Z",
+          "changes": "Name the zips with architectures consistently",
+          "files": [
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "type": "archive",
+              "open": "clap-info",
+              "size": 223461,
+              "sha256": "6ce7185de6d191b681f337ca85b224d3b11c76ff85f2e4538f049db54d1f1a3b",
+              "url": "https://github.com/free-audio/clap-info/releases/download/v1.2.2/clap-info-linux-x64.zip"
+            },
+            {
+              "systems": [
+                {
+                  "type": "mac"
+                }
+              ],
+              "architectures": [
+                "arm64",
+                "x64"
+              ],
+              "type": "archive",
+              "open": "clap-info",
+              "size": 439006,
+              "sha256": "afaa46e9f64c7bb4236bdf60aacac2f5874a4c1c20680bcd88dfd121be480c42",
+              "url": "https://github.com/free-audio/clap-info/releases/download/v1.2.2/clap-info-mac-universal.zip"
+            },
+            {
+              "systems": [
+                {
+                  "type": "win"
+                }
+              ],
+              "architectures": [
+                "arm64"
+              ],
+              "type": "archive",
+              "open": "clap-info.exe",
+              "size": 279611,
+              "sha256": "11d433eb1e3a39dbeb874ac4107650944d6041d7c2f3dacc9cfaf0b520d2a03a",
+              "url": "https://github.com/free-audio/clap-info/releases/download/v1.2.2/clap-info-win-arm64ec.zip"
+            },
+            {
+              "systems": [
+                {
+                  "type": "win"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "type": "archive",
+              "open": "clap-info.exe",
+              "size": 292331,
+              "sha256": "bc258a0e1cfb000d8598cadca56a0ce22c67edc4d420bb80ed75638e5a79e41b",
+              "url": "https://github.com/free-audio/clap-info/releases/download/v1.2.2/clap-info-win-x64.zip"
+            }
+          ],
+          "verified": true
+        }
+      }
+    }
+  },
   "plugins": {
     "wolf-plugins/wolf-spectrum": {
       "slug": "wolf-plugins/wolf-spectrum",
@@ -7200,12 +7431,12 @@
                 "als"
               ],
               "type": "archive",
+              "open": "Banwer.als",
               "size": 3720765,
               "sha256": "e99fa24234d02814e3cb788d106b766876a065113c71d4855faf83cb9476ab98",
               "url": "https://github.com/kmturley/banwer/releases/download/v1.0.1/banwer.zip"
             }
           ],
-          "open": "Banwer.als",
           "plugins": {
             "surge-synthesizer/surge": "1.3.1"
           },
