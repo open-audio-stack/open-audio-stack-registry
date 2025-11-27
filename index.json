@@ -19,7 +19,6 @@
             "Validation"
           ],
           "url": "https://github.com/Tracktion/pluginval",
-          "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/apps/tracktion/pluginval/pluginval.flac",
           "image": "https://open-audio-stack.github.io/open-audio-stack-registry/apps/tracktion/pluginval/pluginval.jpg",
           "date": "2024-12-04T00:00:00.000Z",
           "changes": "- Limit auval's stress test to 20 seconds (vs 600)\n- Fixed incorrect \"ALL TESTS PASSED\" message\n- Updated juce to 8.0.3\n- Added LV2 support\n- Provide CMake module for CTest\n- Changed minimum Linux version to Ubuntu 22.04\n",
@@ -90,7 +89,6 @@
             "Validation"
           ],
           "url": "https://steinbergmedia.github.io/vst3_dev_portal/pages/What+is+the+VST+3+SDK/Validator.html",
-          "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/apps/steinberg/validator/validator.flac",
           "image": "https://open-audio-stack.github.io/open-audio-stack-registry/apps/steinberg/validator/validator.jpg",
           "date": "2020-12-24T00:00:00.000Z",
           "changes": "Use macos build metadata",
@@ -161,7 +159,6 @@
             "Information"
           ],
           "url": "https://github.com/free-audio/clap-info",
-          "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/apps/free-audio/clapinfo/clapinfo.flac",
           "image": "https://open-audio-stack.github.io/open-audio-stack-registry/apps/free-audio/clapinfo/clapinfo.jpg",
           "date": "2024-10-27T00:00:00.000Z",
           "changes": "Name the zips with architectures consistently",
