@@ -3905,8 +3905,115 @@
     },
     "lsp-plugins/lsp-plugins": {
       "slug": "lsp-plugins/lsp-plugins",
-      "version": "1.2.23",
+      "version": "1.2.26",
       "versions": {
+        "1.2.26": {
+          "name": "LSP Plugins",
+          "author": "Vladimir Sadovnikov",
+          "description": "A collection of open-source audio effects, synthesizers, and tools designed for music and sound production, primarily on the GNU/Linux platform.",
+          "license": "lgpl-3.0",
+          "version": "1.2.26",
+          "type": "effect",
+          "url": "https://github.com/lsp-plugins/lsp-plugins",
+          "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/lsp-plugins/lsp-plugins/lsp-plugins.flac",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/lsp-plugins/lsp-plugins/lsp-plugins.jpg",
+          "donate": "https://www.patreon.com/c/sadko4u",
+          "date": "2025-12-21T00:00:00.000Z",
+          "tags": [
+            "Delay",
+            "Chorus",
+            "Compressor",
+            "Filter",
+            "Flanger",
+            "Gate",
+            "Mixer",
+            "Sampler"
+          ],
+          "changes": "- Matcher plugin series\n- Metadata revisioning\n- Host/user-friendly values\n- Smooth parameter\n- Optimized spectrum analyzer module\n- Port mapping optimizations\n- Out-of sync ALR attack\n- moduleinfo.json generation\n- KVT BLOB serialization\n",
+          "files": [
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "arm64"
+              ],
+              "contains": [
+                "clap",
+                "lv2",
+                "vst3",
+                "so"
+              ],
+              "type": "archive",
+              "size": 10853562,
+              "sha256": "877130079a0ed892d3a9457edb373a97cae80340f66d79bc869ca9865f8aacc9",
+              "url": "https://github.com/lsp-plugins/lsp-plugins/releases/download/1.2.26/lsp-plugins-1.2.26-Linux-aarch64.7z"
+            },
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "arm32"
+              ],
+              "contains": [
+                "clap",
+                "lv2",
+                "vst3",
+                "so"
+              ],
+              "type": "archive",
+              "size": 6569799,
+              "sha256": "550d3e585a22374b15403930dcb8e2b80046b432db86cff550641fed421339a8",
+              "url": "https://github.com/lsp-plugins/lsp-plugins/releases/download/1.2.26/lsp-plugins-1.2.26-Linux-arm32.7z"
+            },
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "x32"
+              ],
+              "contains": [
+                "clap",
+                "lv2",
+                "vst3",
+                "so"
+              ],
+              "type": "archive",
+              "size": 6967196,
+              "sha256": "14218700390cf103167a6cc0e3b0b145c6ff8a4ce3da888161f3cb1f07bc1b45",
+              "url": "https://github.com/lsp-plugins/lsp-plugins/releases/download/1.2.26/lsp-plugins-1.2.26-Linux-i586.7z"
+            },
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "clap",
+                "lv2",
+                "vst3",
+                "so"
+              ],
+              "type": "archive",
+              "size": 11128362,
+              "sha256": "7e6da96ca484f6d540471680e8423b46a8508ada0a5440131a3fab3e68ed9c29",
+              "url": "https://github.com/lsp-plugins/lsp-plugins/releases/download/1.2.26/lsp-plugins-1.2.26-Linux-x86_64.7z"
+            }
+          ],
+          "verified": true
+        },
         "1.2.23": {
           "name": "LSP Plugins",
           "author": "Vladimir Sadovnikov",
