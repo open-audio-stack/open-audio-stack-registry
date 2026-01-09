@@ -656,6 +656,91 @@
       }
     }
   },
+  "tiagolr/qdelay": {
+    "slug": "tiagolr/qdelay",
+    "version": "1.0.3",
+    "versions": {
+      "1.0.3": {
+        "name": "QDelay",
+        "author": "TiagoLr",
+        "description": "A dual-delay with more features than it should.",
+        "license": "gpl-3.0",
+        "type": "effect",
+        "tags": [
+          "Delay",
+          "Reverb",
+          "Pitch-shifter",
+          "Tape Delay",
+          "Analog Delay",
+          "Saturation",
+          "Ping-pong delay"
+        ],
+        "url": "https://github.com/tiagolr/qdelay",
+        "donate": "https://www.buymeacoffee.com/tilr",
+        "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/tiagolr/qdelay/qdelay.flac",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/tiagolr/qdelay/qdelay.jpg",
+        "date": "2026-01-05T13:40:00.000Z",
+        "changes": "- Added reverse delay mode.\n",
+        "files": [
+          {
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "lv2"
+            ],
+            "sha256": "5e6252e954ee68078bd8264311f6bc69f2f4807d2c06cc393494f0ff13cff6dd",
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "size": 5321492,
+            "type": "archive",
+            "url": "https://github.com/tiagolr/qdelay/releases/download/v1.0.3/qdelay-linux-v1.0.3.zip"
+          },
+          {
+            "architectures": [
+              "x64",
+              "arm64"
+            ],
+            "contains": [
+              "vst3",
+              "component"
+            ],
+            "sha256": "a594020a8a2e209a0dea6e24e7d2c295ddde837a3ce9b1bccc9bf6f888f17d3c",
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "size": 8555288,
+            "type": "archive",
+            "url": "https://github.com/tiagolr/qdelay/releases/download/v1.0.3/qdelay-macos-v1.0.3.zip"
+          },
+          {
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "sha256": "5a28b6c120d6e2b7ddcf9e39f3ef2f2d54c354de40cf4d7b2524857c9cd76359",
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "size": 3313447,
+            "type": "archive",
+            "url": "https://github.com/tiagolr/qdelay/releases/download/v1.0.3/qdelay-win-v1.0.3.zip"
+          }
+        ],
+        "verified": true
+      }
+    }
+  },
   "tiagolr/gate12": {
     "slug": "tiagolr/gate12",
     "version": "1.1.8",
