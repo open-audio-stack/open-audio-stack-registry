@@ -80,6 +80,7 @@ All endpoints in this specification are assumed to start with root url and optio
 | Field    | Type                      | Description                                                                                     | Example                                                          |
 | :------- | :------------------------ | :---------------------------------------------------------------------------------------------- | :--------------------------------------------------------------- |
 | name     | string                    | Registry name brand-specific                                                                    | `"Open Audio Registry"`                                          |
+| apps     | \[slug: string\]: Package | Registry app packages                                                                           | `"apps": { ... }`                                                |
 | plugins  | \[slug: string\]: Package | Registry plugin packages                                                                        | `"plugins": { ... }`                                             |
 | presets  | \[slug: string\]: Package | Registry preset packages                                                                        | `"presets": { ... }`                                             |
 | projects | \[slug: string\]: Package | Registry project packages                                                                       | `"projects": { ... }`                                            |
@@ -92,6 +93,7 @@ All endpoints in this specification are assumed to start with root url and optio
 GET /
 {
   "name": "Open Audio Registry",
+  "apps": { ... },
   "plugins": { ... },
   "presets": { ... },
   "projects": { ... },
@@ -248,6 +250,126 @@ Package is a common wrapper for all Plugin, Project and Preset metadata which ha
 | slug     | string              | Package slug                                                        | `"surge-synthesizer/surge"` |
 | version  | string              | Package latest version using [Semantic Version](https://semver.org) | `"1.3.1"`                   |
 | versions | \[version: string\] | Package versions Object containing all released versions.           | `"versions": [ ... ]`       |
+
+## App
+
+### Apps directory
+
+Default app installation path per platform. Users are able to change the path via settings.
+
+| Platform         | Path                                           |
+| :--------------- | :--------------------------------------------- |
+| Linux platform   | `$HOME/.local/bin`                             |
+| Mac platform     | `/Applications`                                |
+| Windows platform | `C:\Program Files` or `C:\Program Files (x86)` |
+
+### App sub-directory
+
+Recommended sub-directory hierarchy to keep installed apps separate and easier to manage:  
+`$app_dir/$app_slug/$app_version/`
+
+For example:  
+`$app_dir/free-audio/clapinfo/1.2.2/clap-info`
+
+### App
+
+| Field       | Type             | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                         | Example                                                                                                                            |
+| :---------- | :--------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------- |
+| author      | string           | App author name                                                                                                                                                                                                                                                                                                                                                                                                                                                                     | `"Free Audio"`                                                                                                                     |
+| changes     | string           | App changes made since previous version                                                                                                                                                                                                                                                                                                                                                                                                                                             | `"- Fixed bug with CLI\n- New feature added"`                                                                                      |
+| date        | string           | App release datetime in Unix timestamp format in UTC timezone.                                                                                                                                                                                                                                                                                                                                                                                                                      | `"2024-03-02T00:00:00.000Z"`                                                                                                       |
+| description | string           | App description                                                                                                                                                                                                                                                                                                                                                                                                                                                                     | `"Command-line tool to display information about CLAP plugins"`                                                                    |
+| donate      | string           | Donation url                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | `"https://paypal.me/example"`                                                                                                      |
+| files       | array\<AppFile\> | App files available                                                                                                                                                                                                                                                                                                                                                                                                                                                                 | `{   "open": "clap-info",   "sha256": "3af35f0212",  "systems": ["mac"]   "size": 94448096,   "url": "https://a.com/b/file.zip" }` |
+| image       | string           | Image preview url (https). Allows users to preview the user interface of the app before downloading. Technically this could be any [image file format](https://caniuse.com/?search=image%20format), but we recommend `.jpg` as it is compressed and widely supported. Tips: Crop to app UI edges, avoid backgrounds, borders and/or drop-shadows. Can be any shape/dimension (square, rectangle) but limit size to around 1000px to optimize loading times for large lists of apps. | `"https://myapp.com/image.jpg"`                                                                                                    |
+| license     | License          | App license id                                                                                                                                                                                                                                                                                                                                                                                                                                                                      | `"mit"`                                                                                                                            |
+| name        | string           | App name                                                                                                                                                                                                                                                                                                                                                                                                                                                                            | `"Clapinfo"`                                                                                                                       |
+| tags        | array\<string\>  | App tags/keywords                                                                                                                                                                                                                                                                                                                                                                                                                                                                   | `[   "CLI",   "Plugin",   "Information" ]`                                                                                         |
+| type        | AppType          | App type from table below                                                                                                                                                                                                                                                                                                                                                                                                                                                           | `"tool"`                                                                                                                           |
+| url         | string           | Website url (https). This could be anywhere, but we recommend GitHub.                                                                                                                                                                                                                                                                                                                                                                                                               | `"https://github.com/free-audio/clap-info"`                                                                                        |
+| verified    | boolean          | Computed during registry build, set to `true` if the package slug matches the download url                                                                                                                                                                                                                                                                                                                                                                                          | `true`                                                                                                                             |
+
+#### List apps
+
+```
+GET /apps
+{
+  "free-audio/clapinfo": { "slug": "free-audio/clapinfo", "version": "1.2.2", "versions": [ ... ]},
+}
+```
+
+#### Get app by org
+
+```
+GET /apps/{org}
+{
+  "free-audio/clapinfo": {
+    "slug": "free-audio/clapinfo",
+    "version": "1.2.2",
+    "versions": [ ... ]
+  }
+}
+```
+
+#### Get app by org \+ package id \= slug
+
+```
+GET /apps/{slug}
+{
+  "slug": "free-audio/clapinfo",
+  "version": "1.2.2",
+  "versions": [ ... ]
+}
+```
+
+#### Get app package by slug and version
+
+```
+GET /apps/{slug}/{version}
+{
+  "author": "Free Audio",
+  "changes": "- Fixed bug with CLI\n- New feature added",
+  "date": "2024-03-02T00:00:00.000Z",
+  "description": "Command-line tool to display information about CLAP plugins",
+  "donate": "https://paypal.me/example",
+  "files": [ ... ],
+  "image": "https://myapp.com/image.jpg",
+  "license": "mit",
+  "name": "Clapinfo",
+  "tags": ["CLI", "Plugin", "Information"],
+  "type": "tool",
+  "url": "https://github.com/free-audio/clap-info"
+}
+```
+
+### App types
+
+| Name      | Description                                                                                    | Value       |
+| :-------- | :--------------------------------------------------------------------------------------------- | :---------- |
+| DAW       | Digital Audio Workstation software for recording, editing, and producing audio.                | `daw`       |
+| Editor    | Audio editing software for manipulating and processing audio files.                            | `editor`    |
+| Manager   | Package manager or installer for audio plugins and related software.                           | `manager`   |
+| Player    | Audio player software for playing back audio files and media.                                  | `player`    |
+| Recorder  | Audio recording software for capturing audio input from various sources.                       | `recorder`  |
+| Tool      | Command-line or utility tool for audio processing, analysis, or other audio-related functions. | `tool`      |
+| Validator | Software for validating, testing, or analyzing audio plugins and files.                        | `validator` |
+
+### App files
+
+Recommended minimum cross-platform binaries:
+
+- `app-name-linux-x64.zip`
+- `app-name-mac-x64.zip`
+- `app-name-win-x64.zip`
+
+Recommended image preview:
+
+- `app-name.jpg`
+
+Recommended file formats:
+
+- `.zip` \- which has cross-platform support and can be extracted automatically.
+- `.jpg` \- to optimize loading times on compatible websites.
 
 ## Plugin
 
