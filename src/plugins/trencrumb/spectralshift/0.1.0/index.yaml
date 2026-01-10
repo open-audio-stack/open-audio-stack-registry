@@ -1,0 +1,59 @@
+name: Spectral Shift
+author: Trencrumb
+description: Spectral Shift is a pitch-shifting plugin which uses 2D space to shift semitones and formants.
+license: mit
+type: effect
+tags:
+  - Effect
+  - PitchShift
+  - Pitch
+  - Shift
+  - Tilt
+url: https://github.com/trencrumb/SpectralShift
+audio: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/trencrumb/spectralshift/spectralshift.flac
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/trencrumb/spectralshift/spectralshift.jpg
+date: '2026-01-07T15:17:00.000Z'
+changes: |
+  - Increased pitch/formant semitone range to -24 to 24
+files:
+  - architectures:
+      - x64
+    contains:
+      - clap
+      - lv2
+      - elf
+      - vst3
+    sha256: cbc5d65b25f94d56e0836ecbf498fb3767c20ce96b1fe171bcf5a301cf364c87
+    systems:
+      - type: linux
+    size: 8521430
+    type: archive
+    url: https://github.com/trencrumb/SpectralShift/releases/download/v0.1.0/Spectral.Shift-0.1.0-Linux.zip
+  - architectures:
+      - x64
+      - arm64
+    contains:
+      - component
+      - clap
+      - lv2
+      - vst3
+      - app
+    sha256: 02571e22490b7ed62bd7de1ea4e4c163fe828ee02f402bc6209bbfac2e4fbfaf
+    systems:
+      - type: mac
+    size: 18460519
+    type: installer
+    url: https://github.com/trencrumb/SpectralShift/releases/download/v0.1.0/Spectral.Shift-0.1.0-macOS.pkg
+  - architectures:
+      - x64
+    contains:
+      - clap
+      - lv2
+      - vst3
+      - exe
+    sha256: f13c8832966fe670c01412072ca06b70669db0413b826e55afe687d7aba913ca
+    systems:
+      - type: win
+    size: 7514728
+    type: installer
+    url: https://github.com/trencrumb/SpectralShift/releases/download/v0.1.0/Spectral.Shift-0.1.0-Windows.exe
