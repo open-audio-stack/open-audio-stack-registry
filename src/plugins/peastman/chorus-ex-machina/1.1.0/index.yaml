@@ -10,8 +10,13 @@ tags:
 url: https://github.com/peastman/ChorusExMachina
 audio: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/peastman/chorus-ex-machina/chorus-ex-machina.flac
 image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/peastman/chorus-ex-machina/chorus-ex-machina.jpg
-date: ''
-changes: ''
+date: '2026-01-08T04:11:48Z'
+changes: |
+  - Made legato slightly smoother
+  - Update to newer egui-baseview
+  - Right align slider labels
+  - Added lowpass filter to sampled consonants
+  - Modified some defaults
 files:
   - architectures:
       - x64
