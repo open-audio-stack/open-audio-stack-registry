@@ -1,0 +1,94 @@
+{
+  "name": "Chorus Ex Machina",
+  "author": "Peter Eastman",
+  "description": "Physically modelled chorus synthesizer, able to sing realistically in a variety of languages.",
+  "type": "instrument",
+  "license": "lgpl-2.1",
+  "tags": [
+    "Instrument",
+    "Synth",
+    "Vocal"
+  ],
+  "url": "https://github.com/peastman/ChorusExMachina",
+  "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/peastman/chorus-ex-machina/chorus-ex-machina.flac",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/peastman/chorus-ex-machina/chorus-ex-machina.jpg",
+  "date": "2026-01-08T04:11:48Z",
+  "changes": "- Made legato slightly smoother\n- Update to newer egui-baseview\n- Right align slider labels\n- Added lowpass filter to sampled consonants\n- Modified some defaults\n",
+  "files": [
+    {
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "clap",
+        "vst3"
+      ],
+      "sha256": "b152cc86f604d2d1805e9ce10e105dea6787a3bd9d7b27db6a7062daaa2ce674",
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "size": 8622522,
+      "type": "archive",
+      "url": "https://github.com/peastman/ChorusExMachina/releases/download/v1.1/chorus_ex_machina-linux-x86.zip"
+    },
+    {
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "component",
+        "clap",
+        "vst3"
+      ],
+      "sha256": "941e72def3ac486546037af742af8041bfdc9219e687c551ae067d0a0f37a938",
+      "systems": [
+        {
+          "type": "mac"
+        }
+      ],
+      "size": 12124958,
+      "type": "archive",
+      "url": "https://github.com/peastman/ChorusExMachina/releases/download/v1.1/chorus_ex_machina-mac-x86.zip"
+    },
+    {
+      "architectures": [
+        "arm64"
+      ],
+      "contains": [
+        "component",
+        "clap",
+        "vst3"
+      ],
+      "sha256": "390bcad8c3b299bad941a8df097216be5c0738a583a34358549756faaff285f0",
+      "systems": [
+        {
+          "type": "mac"
+        }
+      ],
+      "size": 11831646,
+      "type": "archive",
+      "url": "https://github.com/peastman/ChorusExMachina/releases/download/v1.1/chorus_ex_machina-mac-arm.zip"
+    },
+    {
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "clap",
+        "vst3"
+      ],
+      "sha256": "f9956b8634a0ea5bd2812b063118342baa42356fee1e755c6fcd8116c1f5dae9",
+      "systems": [
+        {
+          "type": "win"
+        }
+      ],
+      "size": 7204517,
+      "type": "archive",
+      "url": "https://github.com/peastman/ChorusExMachina/releases/download/v1.1/chorus_ex_machina-windows-x86.zip"
+    }
+  ],
+  "verified": true
+}
