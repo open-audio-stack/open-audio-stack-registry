@@ -779,6 +779,7 @@ GET /presets/{slug}/{version}
 - Avoid file formats which don't support automatic installation e.g. appimage
 - Avoid nesting files such as an archive `plugin.zip` which contains an installer `plugin.msi`.
 - Consider using a package generator such as [CPack](https://cmake.org/cmake/help/book/mastering-cmake/chapter/Packaging%20With%20CPack.html) or [JUCE](https://juce.com/tutorials/tutorial_app_plugin_packaging/) to build cross-platform packages for distribution.
+- WiX creates Microsoft Installer (.msi) files, which is a standard Windows installation format. This standard nature might inherently be viewed as slightly more legitimate by some AV engines compared to custom .exe installers.
 
 ### File types
 
