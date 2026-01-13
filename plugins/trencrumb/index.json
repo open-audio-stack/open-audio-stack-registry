@@ -1,0 +1,92 @@
+{
+  "trencrumb/spectralshift": {
+    "slug": "trencrumb/spectralshift",
+    "version": "0.1.1",
+    "versions": {
+      "0.1.1": {
+        "name": "Spectral Shift",
+        "author": "Trencrumb",
+        "description": "Spectral Shift is a pitch-shifting plugin which uses 2D space to shift semitones and formants.",
+        "license": "mit",
+        "type": "effect",
+        "tags": [
+          "Effect",
+          "PitchShift",
+          "Pitch",
+          "Shift",
+          "Tilt"
+        ],
+        "url": "https://github.com/trencrumb/SpectralShift",
+        "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/trencrumb/spectralshift/spectralshift.flac",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/trencrumb/spectralshift/spectralshift.jpg",
+        "date": "2026-01-07T15:17:00.000Z",
+        "changes": "- Increased pitch/formant semitone range to -24 to 24\n",
+        "files": [
+          {
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "clap",
+              "lv2",
+              "elf",
+              "vst3"
+            ],
+            "sha256": "86a206ad864a1c9e3c389a19959c6ebd93b2a035af699b4da94e77dd845f203e",
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "size": 8521431,
+            "type": "archive",
+            "url": "https://github.com/trencrumb/SpectralShift/releases/download/v0.1.1/Spectral.Shift-0.1.1-Linux.zip"
+          },
+          {
+            "architectures": [
+              "x64",
+              "arm64"
+            ],
+            "contains": [
+              "component",
+              "clap",
+              "lv2",
+              "vst3",
+              "app"
+            ],
+            "sha256": "dc04dfc74a53fee1eafb2b2d624f69fdaa9e788edbfa59275bbc06a1f3e0fc62",
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "size": 18460439,
+            "type": "installer",
+            "url": "https://github.com/trencrumb/SpectralShift/releases/download/v0.1.1/Spectral.Shift-0.1.1-macOS.pkg"
+          },
+          {
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "clap",
+              "lv2",
+              "vst3",
+              "msi"
+            ],
+            "sha256": "0cce9ba262b9001ab2056063df218f64582048dbb4f4cae3d3a1b984c80337b5",
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "size": 11325440,
+            "type": "installer",
+            "url": "https://github.com/trencrumb/SpectralShift/releases/download/v0.1.1/Spectral.Shift-0.1.1-Windows.msi"
+          }
+        ],
+        "verified": true
+      }
+    }
+  }
+}
