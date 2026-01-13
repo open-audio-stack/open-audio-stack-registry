@@ -1,49 +1,39 @@
 import {
   apiBuffer,
   dirCreate,
-  dirExists,
   fileCreate,
   fileExists,
   fileReadYaml,
   fileValidateMetadata,
-  logReport,
-  packageRecommendations,
-  PackageValidationRec,
-  PackageVersionValidator,
-  pathGetExt,
+  Package,
+  PackageVersion,
   pathGetSlug,
   pathGetVersion,
   PluginFile,
-  PluginInterface,
   PresetFile,
   ProjectFile,
 } from '@open-audio-stack/core';
 import path from 'path';
+import { ZodIssue } from 'zod';
 
-const DIR_DOWNLOADS: string = 'downloads';
 const filePath: string = process.argv[2];
-const ext: string = pathGetExt(filePath);
-if (ext !== 'yaml') throw new Error(`${ext} not supported | ${filePath}`);
+const subPath: string = filePath.split(path.sep).slice(2).join(path.sep);
+// const type: string = filePath.split(path.sep).slice(1, 2).join(path.sep);
+const slug: string = pathGetSlug(subPath, path.sep);
+const version: string = pathGetVersion(subPath, path.sep);
 
-// Ensure directory and log file exist
-if (!dirExists(DIR_DOWNLOADS)) dirCreate(DIR_DOWNLOADS);
-
-// Validate the schema and fields
-const subPath: string = filePath.replace('src/plugins/', '').replace('src/presets/', '').replace('src/projects/', '');
-const pkgSlug: string = pathGetSlug(subPath);
-const pkgVersion: string = pathGetVersion(subPath);
-const pkgFile: PluginInterface = fileReadYaml(filePath) as PluginInterface;
-
-// Package metadata validation
-const errors = PackageVersionValidator.safeParse(pkgFile).error?.issues;
-const recs: PackageValidationRec[] = packageRecommendations(pkgFile);
-logReport(`${pkgSlug} | ${pkgVersion} | ${filePath}`, errors, recs);
+// Validate metadata
+const pkgJson = fileReadYaml(filePath) as PackageVersion;
+const pkg = new Package(slug);
+pkg.addVersion(version, pkgJson);
+pkg.logEnable();
+pkg.outputReport();
 
 // Loop through files in yaml file
-for (const type in pkgFile.files) {
-  const file: PluginFile | PresetFile | ProjectFile = pkgFile.files[type];
+for (const type in pkgJson.files) {
+  const file: PluginFile | PresetFile | ProjectFile = pkgJson.files[type];
   const fileName: string = path.basename(file.url);
-  const fileLocalPath: string = path.join(DIR_DOWNLOADS, pkgSlug, pkgVersion, fileName);
+  const fileLocalPath: string = path.join('test', 'downloads', slug, version, fileName);
 
   // Download file if it doesn't already exist
   // Downloads directory is scanned for viruses in the next GitHub Action
@@ -56,5 +46,41 @@ for (const type in pkgFile.files) {
 
   // Validate file vs package metadata and output errors
   const errorsFile = await fileValidateMetadata(fileLocalPath, file);
-  logReport(`${pkgSlug} | ${pkgVersion} | ${fileLocalPath}`, errorsFile);
+  pkg.logErrors(errorsFile);
 }
+
+// Ensure image and audio files exist locally in registry
+const audioPathLocal = pkgJson.audio?.replace('https://open-audio-stack.github.io/open-audio-stack-registry/', 'src/');
+if (audioPathLocal && !fileExists(audioPathLocal)) {
+  pkg.logErrors([
+    {
+      message: 'File does not exist locally',
+      path: [audioPathLocal],
+    },
+  ] as ZodIssue[]);
+}
+const imagePathLocal: string = pkgJson.image.replace(
+  'https://open-audio-stack.github.io/open-audio-stack-registry/',
+  'src/',
+);
+if (!fileExists(imagePathLocal)) {
+  pkg.logErrors([
+    {
+      message: 'File does not exist locally',
+      path: [imagePathLocal],
+    },
+  ] as ZodIssue[]);
+}
+
+// Test a real installation on this operating system
+// console.log('-------- Install --------');
+// const managerConfig: ConfigInterface = {
+//   appDir: 'test',
+//   pluginsDir: 'test/plugins',
+//   presetsDir: 'test/presets',
+//   projectsDir: 'test/projects',
+// };
+// const manager: ManagerLocal = new ManagerLocal(type as RegistryType, managerConfig);
+// manager.logEnable();
+// manager.addPackage(pkg);
+// manager.install(slug, version);

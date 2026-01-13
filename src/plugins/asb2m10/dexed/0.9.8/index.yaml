@@ -1,60 +1,56 @@
----
-audio: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/asb2m10/dexed/dexed.flac
+name: Dexed
 author: Pascal Gauthier
+description: Synthesizer closely modeled on the Yamaha DX7.
+license: gpl-3.0
+type: instrument
+tags:
+  - Instrument
+  - Synth
+  - FM
+url: https://github.com/asb2m10/dexed
+audio: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/asb2m10/dexed/dexed.flac
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/asb2m10/dexed/dexed.jpg
+date: '2024-10-08T07:00:00.000Z'
 changes: |
   - Accessibility and UI component refresh
   - Mono/Poly parameter plugin parameter
   - Corrections of graphs for Algorithms 15 and 14
   - Fixes for MidiMonitor and DexedTheme v2
-date: '2024-10-08T07:00:00.000Z'
-description: Synthesizer closely modeled on the Yamaha DX7.
 files:
-  - architectures:
+  - systems:
+      - type: linux
+    architectures:
       - x64
     contains:
       - elf
       - clap
       - vst3
-    format: zip
-    sha256: 28c00eb6c2ab6172ef2650f384d4a0299c654d3b21b3f8a124f4fad0beff15f1
-    systems:
-      - type: linux
-    size: 7612454
     type: archive
+    size: 7612454
+    sha256: 5d026f53504f9303ae2a4a635cf6fdfc50ab9c947cbc0a20ecb5c8f323402dab
     url: https://github.com/asb2m10/dexed/releases/download/v0.9.8/dexed-0.9.8-lnx.zip
-  - architectures:
+  - systems:
+      - type: mac
+    architectures:
       - x64
     contains:
       - app
       - clap
       - component
       - vst3
-    format: zip
-    sha256: f85655398a60b924e90eca127fd7c40a0794546fea205fc613b9d7f216b2627d
-    systems:
-      - type: mac
-    size: 17072451
     type: archive
+    size: 17072451
+    sha256: 3be32f98e56b40d9555a4069368c7307b8bae3368459bb087cf6195ae7538704
     url: https://github.com/asb2m10/dexed/releases/download/v0.9.8/dexed-0.9.8-macos.zip
-  - architectures:
+  - systems:
+      - type: win
+    architectures:
       - x64
     contains:
       - exe
       - clap
       - vst3
-    format: zip
-    sha256: 346f729c94e409b90ca3e0148ccf061794d288c7cc2f4d9ff3f13db945e6d78b
-    systems:
-      - type: win
-    size: 10388001
     type: archive
+    size: 10388001
+    sha256: 5df11ce77baf8e02af0bc35fe4981593ce1afdf70d67fe8cde65174b4f8a57ca
     url: https://github.com/asb2m10/dexed/releases/download/v0.9.8/dexed-0.9.8-win.zip
-image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/asb2m10/dexed/dexed.jpg
-license: gpl-3.0
-name: Dexed
-tags:
-  - Instrument
-  - Synth
-  - FM
-type: instrument
-url: https://github.com/asb2m10/dexed

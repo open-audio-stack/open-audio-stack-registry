@@ -1,0 +1,34 @@
+name: Synthpunk
+author: Antoine Géhin
+description: Your finger = Synthpunk power.
+license: gpl-3.0
+type: patch
+tags:
+  - Synth
+  - cyberpunk
+  - OneManSynth
+  - Surge
+url: https://github.com/antoinegehinstudios/surgeXT-preset
+audio: https://open-audio-stack.github.io/open-audio-stack-registry/presets/antoinegehinstudios/synthpunk/synthpunk.flac
+image: https://open-audio-stack.github.io/open-audio-stack-registry/presets/antoinegehinstudios/synthpunk/synthpunk.jpg
+date: '2025-07-26T00:00:00.000Z'
+changes: |
+  - First version
+plugins:
+  surge-synthesizer/surge: 1.3.1
+files:
+  - systems:
+      - type: linux
+      - type: mac
+      - type: win
+    architectures:
+      - arm32
+      - arm64
+      - x32
+      - x64
+    contains:
+      - fxp
+    type: archive
+    size: 64322
+    sha256: f1d039a6ddddb7fc6fcf0859e13d94260688b266c77ba951ee8d525ad4409ad9
+    url: https://github.com/antoinegehinstudios/surgeXT-preset/releases/download/Presets/Synthpunk.fxp.zip

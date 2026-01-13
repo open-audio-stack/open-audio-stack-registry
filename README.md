@@ -1,7 +1,29 @@
-# open-audio-stack-registry
+<div align="center">
+<h1>
+  <img src="https://raw.githubusercontent.com/open-audio-stack/open-audio-stack-registry/refs/heads/main/src/assets/open-audio-stack-logo.svg" alt="Open Audio Stack Logo"><br />
+  Open Audio Stack
+</h1>
+<p>Audio registry specification and API with searchable list of packages</p>
+  <p>
+    <a href="specification.md">Registry Specification</a>
+    ⦁︎
+    <a href="https://open-audio-stack.github.io/open-audio-stack-registry">Registry API</a>
+    ⦁︎
+    <a href="https://github.com/orgs/open-audio-stack/projects">Roadmap</a>
+    ⦁︎
+    <a href="https://open-audio-stack.github.io/open-audio-stack-site">Upload files</a>
+  </p>
+<p>
 
 ![Test](https://github.com/open-audio-stack/open-audio-stack-registry/workflows/Test/badge.svg)
 ![Release](https://github.com/open-audio-stack/open-audio-stack-registry/workflows/Release/badge.svg)
+<a href="https://discord.com/invite/9D94f98PxP" target="_blank"><img src="https://img.shields.io/badge/chat-on%20discord-7289DA.svg" alt="Join the chat at Discord"></a>
+
+![Open Audio Stack - Registry - Specification 1.0.0](/src/assets/open-audio-stack-diagram-registry.svg)
+
+</div>
+
+# open-audio-stack-registry
 
 Audio registry with searchable list of packages containing Plugins, Presets and Projects. Provides an API with file metadata and urls to binaries for installation.
 
@@ -15,6 +37,8 @@ GitHub Actions generates a GitHub static site containing json files for each par
 Compatible command-line tools, apps and websites can read the json files to discover packages.
 
 ## Contributing a package
+
+You can use this website for filling out metadata https://open-audio-stack.github.io/open-audio-stack-site
 
 Create a fork of the repo `open-audio-stack-registry`. Add new folders for your organization and package using [kebab-case](https://developer.mozilla.org/en-US/docs/Glossary/Kebab_case):
 
@@ -34,56 +58,66 @@ Create yaml files for each version of the package using [Semantic Versioning](ht
 
 Semantic versioning allows a compatible installer to install the latest non-breaking version of a package.
 
-Use the below template yaml file as a starting point. Open Audio Stack Registry validates each package's metadata,
-if you miss or enter incorrect information, your package will not be included in the registry.
+Open Audio Stack Registry validates each package's metadata, if you miss or enter incorrect information, your package will not be included in the registry. Use an existing yaml file as a starting point:
 
-    ---
-    audio: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/surge-synthesizer/surge/surge.flac
-    author: Surge Synth Team
-    changes: |
-      - Fixed bug with audio
-      - New feature added
-    date: '2024-03-02T00:00:00.000Z'
-    description: Hybrid synthesizer featuring many synthesis techniques, a great selection
-      of filters, a flexible modulation engine, a smorgasbord of effects, and modern features
-      like MPE and microtuning.
-    files:
-      - architectures:
-          - x64
-        contains:
-          - elf
-          - clap
-          - lv2
-          - vst3
-        format: zip
-        sha256: 42ad977d43d6caa75361cd2ad8794e36
-        systems:
-          - type: linux
-        size: 94448096
-        type: archive
-        url: https://github.com/surge-synthesizer/releases-xt/releases/download/1.3.1/surge-xt-linux-1.3.1-pluginsonly.tar.gz
-    image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/surge-synthesizer/surge/surge.jpg
-    license: gpl-3.0
-    name: Surge XT
-    tags:
-      - Instrument
-      - Synth
-      - Modulation
-    type: instrument
-    url: https://github.com/surge-synthesizer/surge
+- Plugin: [src/plugins/surge-synthesizer/surge/1.3.4/index.yaml](https://github.com/open-audio-stack/open-audio-stack-registry/blob/main/src/plugins/surge-synthesizer/surge/1.3.4/index.yaml)
 
-For file downloads, we recommend `.zip` files which are cross-platform and can be extracted automatically and placed into the correct locations without user interaction.
+- Preset: [src/presets/jh/floating-rhodes/1.0.0/index.yaml](https://github.com/open-audio-stack/open-audio-stack-registry/blob/main/src/presets/jh/floating-rhodes/1.0.0/index.yaml)
 
-If you use other formats such as `deb, dmg, exe, msi` compatible apps will download and copy the file to the users directory, but might not support full installation.
+- Project: [src/projects/kmt/banwer/1.0.1/index.yaml](https://github.com/open-audio-stack/open-audio-stack-registry/blob/main/src/projects/kmt/banwer/1.0.1/index.yaml)
 
-Validate your changes locally by running these command:
+Update the .yaml details to match your plugin. Refer to the <a href="specification.md">Open Audio Registry Specification</a> for all the possible fields and values allowed.
+
+For adding a plugin refer to:
+
+- <a href="specification.md#plugin-1">Plugin fields/values</a>
+- <a href="specification.md#plugin-formats">Plugin formats</a>
+- <a href="specification.md#plugin-types">Plugin types</a>
+
+For adding files refer to:
+
+- <a href="specification.md#file">File fields/values</a>
+- <a href="specification.md#file-formats">File formats</a>
+- <a href="specification.md#file-format-recommendations">File format recommendations</a>
+- <a href="specification.md#file-types">File types</a>
+
+After making your changes, validate them locally by running these commands:
 
     npm install
     npm run dev:validate -- src/plugins/surge-synthesizer/surge/1.3.1/index.yaml
 
-Ensure you provide the path to the yaml file you changed.
+Ensure you provide the path to the yaml file which you have added/changed. The script will output any issues, for example:
 
-After validation passes, push your branch to GitHub to have the automated GitHub Action run additional checks and return any issues with your changes.
+    X surge-synthesizer/surge/1.3.1
+    - changes (String must contain at most 256 character(s))
+
+This error tells you the `changes` field is too long and needs to be shortened.
+
+During file validation you may recieve a `size` or `sha256` error such as:
+
+    X surge-synthesizer/surge/1.3.1
+    - sha256 (Required) received 'e30b218700d4067edb3a0eadb4128784e41f91f663cff19e3fbb38460883cf59' expected '3d766adb0d04b86f7aca8c136bc4c7b0727d316ec10895f679f1c01b0c236a00'
+    - size (Required) received '411860016' expected '68741234'
+
+File `size` field informs users how big the file is before it is downloaded. If the file size does not match, this could create a bad user experience where the user thinks they are downloading a small package, which turns out to be larger.
+
+File `sha256` field is a hash of the file, if the file is modified in any way the hash will change. This is for security to ensure the file downloaded matches the file intended for distribution.
+
+When displaying errors, the script will output the `received` and `expected` values. Confirm the file url is correct, and confirm the downloaded file contains the correct version of the package. Then update `size` and `sha256` values to resolve the error.
+
+After validation passes, push your branch to GitHub and open a PR. During the PR review the automated GitHub Action will run test, validation and additional virus scanning checks which need to pass before your code is merged.
+
+## Badges
+
+If your project utilizes the Open Stack Audio specification or API, we encourage linking back to this project using a badge:
+
+```
+<a href="https://github.com/open-audio-stack" target="_blank"><img src="https://raw.githubusercontent.com/open-audio-stack/open-audio-stack-registry/refs/heads/main/src/assets/powered-by-open-audio-stack.svg" alt="Powered by Open Audio Stack"></a>
+```
+
+Example:
+
+<a href="https://github.com/open-audio-stack" target="_blank"><img src="https://raw.githubusercontent.com/open-audio-stack/open-audio-stack-registry/refs/heads/main/src/assets/powered-by-open-audio-stack.svg" alt="Powered by Open Audio Stack"></a>
 
 ## Developer information
 

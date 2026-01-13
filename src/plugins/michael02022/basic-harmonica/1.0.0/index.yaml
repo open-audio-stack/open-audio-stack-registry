@@ -1,33 +1,32 @@
----
-audio: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/michael02022/basic-harmonica/basic-harmonica.flac
+name: Basic Harmonica
 author: michael02022
-changes: |
-date: '2022-10-07T07:00:00.000Z'
 description: Basic harmonica.
+license: cc0-1.0
+type: sampler
+tags:
+  - Instrument
+  - Wind
+  - Harmonica
+  - Orchestra
+  - sfz
+url: https://github.com/michael02022/basic-harmonica
+audio: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/michael02022/basic-harmonica/basic-harmonica.flac
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/michael02022/basic-harmonica/basic-harmonica.jpg
+date: '2022-10-07T07:00:00.000Z'
+changes: ' '
 files:
-  - architectures:
+  - systems:
+      - type: linux
+      - type: mac
+      - type: win
+    architectures:
       - arm32
       - arm64
       - x32
       - x64
     contains:
       - sfz
-    format: zip
-    sha256: 486044b6b16eeb86f5d27df60f472e72a806b0b7aa8871a813a0f3c6f01d7083
-    systems:
-      - type: linux
-      - type: mac
-      - type: win
-    size: 1019941
     type: archive
+    size: 1019941
+    sha256: 3b7d45eecb1201179ce618c71ce501732214684284ac1ddecf9ab251d58e9128
     url: https://github.com/michael02022/basic-harmonica/archive/refs/heads/main.zip
-image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/michael02022/basic-harmonica/basic-harmonica.jpg
-license: cc0-1.0
-name: Basic Harmonica
-tags:
-  - Instrument
-  - Wind
-  - Harmonica
-  - sfz
-type: sampler
-url: https://github.com/michael02022/basic-harmonica

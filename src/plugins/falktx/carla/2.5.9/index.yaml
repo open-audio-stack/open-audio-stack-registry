@@ -1,6 +1,16 @@
----
-audio: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/falktx/carla/carla.flac
+name: Carla
 author: Filipe Coelho
+description: Audio plugin host, with support for many audio drivers and plugin formats.
+license: gpl-3.0
+type: tool
+tags:
+  - Host
+  - Player
+  - Automation
+url: https://github.com/falkTX/Carla
+audio: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/falktx/carla/carla.flac
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/falktx/carla/carla.jpg
+date: '2024-09-22T07:00:00.000Z'
 changes: |
   - Do not show crash dialogs for plugin bridges
   - Fix build against latest liblo
@@ -8,42 +18,29 @@ changes: |
   - Fix minimum width of CanvasPort labels
   - Fix missing painter.restore() in case of CanvasPort errors
   - Fix OSC unregister handling
-date: '2024-09-22T07:00:00.000Z'
-description: Audio plugin host, with support for many audio drivers and plugin formats.
 files:
-  - architectures:
+  - systems:
+      - type: mac
+    architectures:
       - arm64
       - x64
     contains:
       - app
       - lv2
       - vst
-    format: zip
-    sha256: 0dc42eff57c76394e5f8074075d7d3693fad3547356f433271815826b0e311c9
-    systems:
-      - type: mac
+    type: installer
     size: 381733941
-    type: archive
+    sha256: d797ec83ac9bbd402cb116d1b562cbb6d786b355f42233436546fbf2bc4015e9
     url: https://github.com/falkTX/Carla/releases/download/v2.5.9/Carla-2.5.9-macOS-universal.dmg
-  - architectures:
+  - systems:
+      - type: win
+    architectures:
       - x64
     contains:
       - dll
       - exe
       - lv2
-    format: zip
-    sha256: 437a4a46810ac28b8c03fd4fe17805e7a6d923c20b9eb5b768fcc113e1e563e1
-    systems:
-      - type: win
-    size: 246800688
     type: archive
+    size: 246800688
+    sha256: de0091c4cc5fdcfdb4f589434d6e23554790d9b6c484908f7e31afebfd627565
     url: https://github.com/falkTX/Carla/releases/download/v2.5.9/Carla-2.5.9-win64.zip
-image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/falktx/carla/carla.jpg
-license: gpl-3.0
-name: Carla
-tags:
-  - Host
-  - Player
-  - Automation
-type: tool
-url: https://github.com/falkTX/Carla

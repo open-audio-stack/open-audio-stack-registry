@@ -1,35 +1,34 @@
----
-audio: https://open-audio-stack.github.io/open-audio-stack-registry/projects/kmt/banwer/banwer.flac
+name: Banwer
 author: KMT
-changes: |
-  - First version
-date: '2024-03-02T00:00:00.000Z'
 description: Song idea using synthesizers.
+license: gpl-3.0
+type: song
+tags:
+  - Idea
+  - Synth
+  - Modulation
+url: https://github.com/kmturley/banwer
+audio: https://open-audio-stack.github.io/open-audio-stack-registry/projects/kmt/banwer/banwer.flac
+image: https://open-audio-stack.github.io/open-audio-stack-registry/projects/kmt/banwer/banwer.jpg
+date: '2024-03-02T00:00:00.000Z'
+changes: |
+  - Collect and save files
 files:
-  - architectures:
+  - systems:
+      - type: linux
+      - type: mac
+      - type: win
+    architectures:
       - arm32
       - arm64
       - x32
       - x64
     contains:
       - als
-    format: zip
-    sha256: 77e2d542235889b027f2ecbe66b753978a5232fabac9c97151a86173048e2eaf
-    systems:
-      - type: linux
-      - type: mac
-      - type: win
-    size: 216863
     type: archive
-    url: https://open-audio-stack.github.io/open-audio-stack-registry/projects/kmt/banwer/1.0.1/banwer.zip
-image: https://open-audio-stack.github.io/open-audio-stack-registry/projects/kmt/banwer/banwer.jpg
-license: gpl-3.0
-name: Banwer
+    open: Banwer.als
+    size: 3720765
+    sha256: e99fa24234d02814e3cb788d106b766876a065113c71d4855faf83cb9476ab98
+    url: https://github.com/kmturley/banwer/releases/download/v1.0.1/banwer.zip
 plugins:
-  surge-synth/surge: 1.3.1
-tags:
-  - Idea
-  - Synth
-  - Modulation
-type: song
-url: https://soundcloud.com/kmt-london
+  surge-synthesizer/surge: 1.3.1
