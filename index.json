@@ -3269,6 +3269,63 @@
         }
       }
     },
+    "peastman/sonatina-symphonic-orchestra": {
+      "slug": "peastman/sonatina-symphonic-orchestra",
+      "version": "4.0.0",
+      "versions": {
+        "4.0.0": {
+          "name": "Sonatina Symphonic Orchestra",
+          "author": "Peter Eastman",
+          "description": "Orchestral instrument library containing a full set of section and solo instruments with lots of articulations.",
+          "type": "sampler",
+          "license": "other",
+          "tags": [
+            "Instrument",
+            "Orchestra",
+            "Strings",
+            "Winds",
+            "Brass",
+            "Piano",
+            "Organ",
+            "sfz"
+          ],
+          "url": "https://github.com/peastman/sso",
+          "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/peastman/sonatina-symphonic-orchestra/sonatina-symphonic-orchestra.flac",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/peastman/sonatina-symphonic-orchestra/sonatina-symphonic-orchestra.jpg",
+          "date": "2024-12-24T03:28:20Z",
+          "changes": "- Added vibraphone.\n- Added harmonics for solo strings.\n- Added staccato for solo violins.\n",
+          "files": [
+            {
+              "architectures": [
+                "x64",
+                "x32",
+                "arm64",
+                "arm32"
+              ],
+              "contains": [
+                "sfz"
+              ],
+              "sha256": "5583e19482b0852ca735c6270a8a6106ad0eda29e9cff0292aec1355f8f69564",
+              "systems": [
+                {
+                  "type": "win"
+                },
+                {
+                  "type": "linux"
+                },
+                {
+                  "type": "mac"
+                }
+              ],
+              "size": 1377225261,
+              "type": "archive",
+              "url": "https://github.com/peastman/sso/archive/refs/tags/v4.0.zip"
+            }
+          ],
+          "verified": true
+        }
+      }
+    },
     "peastman/chorus-ex-machina": {
       "slug": "peastman/chorus-ex-machina",
       "version": "1.1.0",
