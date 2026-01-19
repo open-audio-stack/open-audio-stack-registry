@@ -15,8 +15,11 @@ tags:
 url: https://github.com/peastman/sso
 audio: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/peastman/sonatina-symphonic-orchestra/sonatina-symphonic-orchestra.flac
 image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/peastman/sonatina-symphonic-orchestra/sonatina-symphonic-orchestra.jpg
-date: ''
-changes: ''
+date: '2024-12-24T03:28:20Z'
+changes: |
+  - Added vibraphone.
+  - Added harmonics for solo strings.
+  - Added staccato for solo violins.
 files:
   - architectures:
       - x64
