@@ -1,8 +1,99 @@
 {
   "ardura/subhoofer": {
     "slug": "ardura/subhoofer",
-    "version": "2.2.2",
+    "version": "2.2.3",
     "versions": {
+      "2.2.3": {
+        "name": "Subhoofer",
+        "author": "Ardura",
+        "description": "Sub and Bass enhancement plugin.",
+        "license": "gpl-3.0",
+        "type": "effect",
+        "tags": [
+          "Effect",
+          "Distortion"
+        ],
+        "url": "https://github.com/ardura/Subhoofer",
+        "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ardura/subhoofer/subhoofer.flac",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ardura/subhoofer/subhoofer.jpg",
+        "date": "2026-01-07T00:00:00.000Z",
+        "changes": "- This update fixes the issue #9 and is all dependency updates and newer code from Actuate for the knobs.\n- No functionality has been changed in the plugin, but enjoy!",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "clap",
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 6916948,
+            "sha256": "4ebd57d5f53c7ed86e39e1b27c14b228b29de308035886a5d266f3f312eaff05",
+            "url": "https://github.com/ardura/Subhoofer/releases/download/v2.2.3/Subhoofer_v223_linux_build.zip"
+          },
+          {
+            "architectures": [
+              "arm64"
+            ],
+            "contains": [
+              "clap",
+              "vst3"
+            ],
+            "sha256": "60c7598df1d4514fa7c4f36186dc5eaede7576cdfb6727595a213fa3305ff55c",
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "size": 4188028,
+            "type": "archive",
+            "url": "https://github.com/ardura/Subhoofer/releases/download/v2.2.3/Subhoofer_v223_macos_m1_build.zip"
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "clap",
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 4344866,
+            "sha256": "4e109f25c270c0c032510e350cfd26c5a28f8ca735500b648e6a63b35189d6bb",
+            "url": "https://github.com/ardura/Subhoofer/releases/download/v2.2.3/Subhoofer_v223_macos_build.zip"
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "clap",
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 3779322,
+            "sha256": "0f8543eabdc9747a201ad3c47863fef6a58e10bb22f393c4279769fb3bf96181",
+            "url": "https://github.com/ardura/Subhoofer/releases/download/v2.2.3/Subhoofer_v223_windows_build.zip"
+          }
+        ],
+        "verified": true
+      },
       "2.2.2": {
         "name": "Subhoofer",
         "author": "Ardura",
