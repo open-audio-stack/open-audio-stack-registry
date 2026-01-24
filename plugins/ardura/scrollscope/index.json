@@ -1,7 +1,102 @@
 {
   "slug": "ardura/scrollscope",
-  "version": "1.4.2",
+  "version": "1.4.3",
   "versions": {
+    "1.4.3": {
+      "name": "Scrollscope",
+      "author": "Ardura",
+      "description": "A simple scrolling oscilloscope in rust with multichannel inputs and an analyzer.",
+      "license": "gpl-3.0",
+      "type": "effect",
+      "tags": [
+        "Effect",
+        "Analysis"
+      ],
+      "url": "https://github.com/ardura/Scrollscope",
+      "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ardura/scrollscope/scrollscope.flac",
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ardura/scrollscope/scrollscope.jpg",
+      "date": "2025-08-27T07:00:00.000Z",
+      "changes": "- Click and drag the display around\n- zoom in with ctrl and scroll wheel\n- focus on a box with right click and drag\n- reset view by double clicking",
+      "files": [
+        {
+          "systems": [
+            {
+              "type": "linux"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "clap",
+            "elf",
+            "vst3"
+          ],
+          "type": "archive",
+          "size": 7807675,
+          "sha256": "d82d0fcebf216a743fdf26a64f939647e32528bdace57d08d125cb0f79a7d056",
+          "url": "https://github.com/ardura/Scrollscope/releases/download/v1.4.3/Scrollscope_v143_linux_build.zip"
+        },
+        {
+          "systems": [
+            {
+              "type": "mac"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "app",
+            "clap",
+            "vst3"
+          ],
+          "type": "archive",
+          "size": 7197902,
+          "sha256": "92419a6de0270b3c1ea63df7eaa6603a62804668674d73510d2d164e104dcf98",
+          "url": "https://github.com/ardura/Scrollscope/releases/download/v1.4.3/Scrollscope_v143_macos_build.zip"
+        },
+        {
+          "systems": [
+            {
+              "type": "mac"
+            }
+          ],
+          "architectures": [
+            "arm64"
+          ],
+          "contains": [
+            "app",
+            "clap",
+            "vst3"
+          ],
+          "type": "archive",
+          "size": 6600898,
+          "sha256": "c6af33fc1008d58a1e00e670bbc9fb8afb9934a28bcf21bd4d9b10425d8f1963",
+          "url": "https://github.com/ardura/Scrollscope/releases/download/v1.4.3/Scrollscope_v143_macos_m1_build.zip"
+        },
+        {
+          "systems": [
+            {
+              "type": "win"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "clap",
+            "exe",
+            "vst3"
+          ],
+          "type": "archive",
+          "size": 6846957,
+          "sha256": "ec04c71cf09e0083a42453cdc7539fba45bce9b244c4998d7c74c37f7a5725b4",
+          "url": "https://github.com/ardura/Scrollscope/releases/download/v1.4.3/Scrollscope_v143_windows_build.zip"
+        }
+      ],
+      "verified": true
+    },
     "1.4.2": {
       "name": "Scrollscope",
       "author": "Ardura",
