@@ -1,0 +1,89 @@
+name: ZL Equalizer 2
+author: ZL Audio
+description: Dynamic equalizer plugin.
+license: agpl-3.0
+type: effect
+tags:
+  - Effect
+  - Equalizer
+url: https://zl-audio.github.io/plugins/zlequalizer2/
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/zl-audio/zlequalizer2/zlequalizer2.jpg
+date: '2025-12-13T07:00:00.000Z'
+changes: |
+  - Add extra dynamic parameters
+  - Add FFT analyzer stereo channel
+  - Fix stereo dynamic handling
+  - Fix parallel bypass behavior
+  - Fix floating window overlap
+  - Fix displayed values close to zero
+  - Fix copy/paste from ZL Compressor
+files:
+  - architectures:
+      - x64
+    contains:
+      - vst3
+      - lv2
+    sha256: 408858fda0c42d5ce52e8019685412848d1f5b62664d5974bb6af44b6d3c8824
+    systems:
+      - type: linux
+    size: 17295648
+    type: archive
+    url: https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.1.0/ZL.Equalizer.2-1.1.0-Linux-x86.zip
+  - architectures:
+      - arm64
+    contains:
+      - vst3
+      - lv2
+    sha256: 51af90fd880c7cb4c0bae878f9acd0dbe52bd2b24846839e7937c76b5bad4906
+    systems:
+      - type: linux
+    size: 11547522
+    type: archive
+    url: https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.1.0/ZL.Equalizer.2-1.1.0-Linux-arm.zip
+  - architectures:
+      - x64
+    contains:
+      - vst3
+      - component
+      - aax
+    sha256: a8f8b04bc81f3d0c86abd525eda97a6b563e99aece16b3120d31ff5488c600d1
+    systems:
+      - type: mac
+    size: 22915912
+    type: installer
+    url: https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.1.0/ZL.Equalizer.2-1.1.0-macOS-x86.dmg
+  - architectures:
+      - arm64
+    contains:
+      - vst3
+      - component
+      - aax
+    sha256: 702fc9e7cb9f31ab93d1b60f46938c33a345b9b589cfb591e5438b179fb642c5
+    systems:
+      - type: mac
+    size: 15238667
+    type: installer
+    url: https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.1.0/ZL.Equalizer.2-1.1.0-macOS-arm.dmg
+  - architectures:
+      - x64
+    contains:
+      - vst3
+      - lv2
+      - aax
+    sha256: 9e28facbe77e49a0065796d622e535e6e1ff91b6e6599d609405e4809b09892c
+    systems:
+      - type: win
+    size: 11918930
+    type: installer
+    url: https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.1.0/ZL.Equalizer.2-1.1.0-Windows-x86.exe
+  - architectures:
+      - arm64
+    contains:
+      - vst3
+      - lv2
+    sha256: c5baf9b019ee510620ba89d0555bb35c484b450dcbcacd6fd22c7e9aac91a7db
+    systems:
+      - type: win
+    size: 8247800
+    type: installer
+    url: https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.1.0/ZL.Equalizer.2-1.1.0-Windows-arm.exe
