@@ -90,6 +90,14 @@
     }
   },
   "tiagolr/gate12": {
+    "1.3.3": {
+      "recs": [
+        {
+          "field": "architectures",
+          "rec": "should support arm64"
+        }
+      ]
+    },
     "1.1.8": {
       "recs": [
         {
