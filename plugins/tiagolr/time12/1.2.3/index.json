@@ -1,0 +1,75 @@
+{
+  "name": "TIME-12",
+  "author": "TiagoLr",
+  "description": "Delay modulator similar to plugins like GrossBeat or TimeShaper. Can be used for stutter effects, tape stop, glitch, scratch, reverse, pitch shift and more.",
+  "license": "gpl-3.0",
+  "type": "effect",
+  "tags": [
+    "Effect",
+    "Modulation",
+    "Delay"
+  ],
+  "url": "https://github.com/tiagolr/time12",
+  "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/tiagolr/time12/time12.flac",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/tiagolr/time12/time12.jpg",
+  "date": "2026-11-01T00:00:00.000Z",
+  "changes": "- Ignore sub-millisecond playhead movements\n",
+  "files": [
+    {
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "lv2",
+        "vst3"
+      ],
+      "sha256": "d1e19e0c2e5332626af3077d4dd98dcaeb4b4c2b33ee74c267a732c29df10613",
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "size": 5066023,
+      "type": "archive",
+      "url": "https://github.com/tiagolr/time12/releases/download/v1.2.3/time12-linux-v1.2.3.zip"
+    },
+    {
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "component",
+        "lv2",
+        "vst3"
+      ],
+      "sha256": "9066d0f46fe0cbce102296180d157a176708654b9d6488f6d616e9e3d5cf45e4",
+      "systems": [
+        {
+          "type": "mac"
+        }
+      ],
+      "size": 12313409,
+      "type": "archive",
+      "url": "https://github.com/tiagolr/time12/releases/download/v1.2.3/time12-macos-v1.2.3.zip"
+    },
+    {
+      "systems": [
+        {
+          "type": "win"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "lv2",
+        "vst3"
+      ],
+      "type": "archive",
+      "size": 5539406,
+      "sha256": "b5699e49850826a8279e315d51cc8cf92636fc98d5d649bcfadd7ae026982989",
+      "url": "https://github.com/tiagolr/time12/releases/download/v1.2.3/time12-win-v1.2.3.zip"
+    }
+  ],
+  "verified": true
+}
