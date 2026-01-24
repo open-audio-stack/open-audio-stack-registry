@@ -42,7 +42,9 @@ Then proceed to the Validate Changes, Commit Changes, Push Changes, and Submit P
 
 ## Contributing a package
 
-Prompt the user for a GitHub project url. For example they might respond with: `https://github.com/wolf-plugins/wolf-shaper` or a url to the specific GitHub release: https://github.com/wolf-plugins/wolf-shaper/releases/tag/v1.0.2 if they don't specify a release get the latest release. You can get GitHub repo metadata and release filesizes and SHA256 hashes via curl such as:
+Prompt the user for a GitHub project url. For example they might respond with: `https://github.com/wolf-plugins/wolf-shaper` or a url to the specific GitHub release: https://github.com/wolf-plugins/wolf-shaper/releases/tag/v1.0.2 if they don't specify a release get the latest release that corresponds to the date they provided, if they did not provide a specific release or a specific date, then use the most latest release. If the user responds with a url to a site that isn't Github, such as Codeberg or Gitlab, then only fill in the metadata you are able to webscrape.
+
+You can get GitHub repo metadata and release filesizes and SHA256 hashes via curl such as:
 
 ```bash
 curl -s https://api.github.com/repos/wolf-plugins/wolf-shaper
@@ -56,7 +58,7 @@ Add new folders for your organization and package using [kebab-case](https://dev
 
     ./src/plugins/org-name/package-name
 
-Add a jpeg screenshot of the package, and flac audio file previewing the package (Use the existing files if they already exist):
+Add a jpeg screenshot of the package, and a flac audio file previewing the package (Use the existing files if they already exist):
 
     ./src/plugins/org-name/package-name/package-name.flac
     ./src/plugins/org-name/package-name/package-name.jpg
