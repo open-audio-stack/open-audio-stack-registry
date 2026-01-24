@@ -1,0 +1,61 @@
+{
+  "slug": "kiriki-liszt/relief-compressor",
+  "version": "1.0.0",
+  "versions": {
+    "1.0.0": {
+      "name": "Relief Compressor",
+      "author": "Kiriki-liszt",
+      "description": "Compressor for everyday tasks, anywhere from mixing a track to master bus.",
+      "license": "gpl-3.0",
+      "type": "effect",
+      "tags": [
+        "Compressor",
+        "Effect"
+      ],
+      "url": "https://github.com/Kiriki-liszt/Relief_Compressor",
+      "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/kiriki-liszt/relief-compressor/relief-compressor.flac",
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/kiriki-liszt/relief-compressor/relief-compressor.jpg",
+      "date": "2024-10-29T19:36:10.000Z",
+      "changes": "Full release.\n",
+      "files": [
+        {
+          "systems": [
+            {
+              "type": "mac"
+            }
+          ],
+          "architectures": [
+            "arm64",
+            "x64"
+          ],
+          "contains": [
+            "component",
+            "vst3"
+          ],
+          "type": "archive",
+          "size": 3342886,
+          "sha256": "d59cf67050f5c9223ae9140e435d969dee3febaeb7c334c29996d211a9c75eba",
+          "url": "https://github.com/Kiriki-liszt/Relief_Compressor/releases/download/v1.0.0/Relief.Compressor.macOS.v1.0.0.zip"
+        },
+        {
+          "systems": [
+            {
+              "type": "win"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "vst3"
+          ],
+          "type": "archive",
+          "size": 1332431,
+          "sha256": "52843e53ea1ce98e755c64ec79858a5d5ad850a4d91645e64bf7e1dac853a7a6",
+          "url": "https://github.com/Kiriki-liszt/Relief_Compressor/releases/download/v1.0.0/Relief.Compressor.Win.v1.0.0.zip"
+        }
+      ],
+      "verified": true
+    }
+  }
+}
