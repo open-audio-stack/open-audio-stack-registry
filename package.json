@@ -14,7 +14,7 @@
   ],
   "scripts": {
     "build": "tsc -p tsconfig.json",
-    "check": "npm run format && npm run lint && npm run build",
+    "check": "npm run format && npm run lint && npm run build && npm test",
     "copy": "cp -rf ./src/apps ./out && cp -rf ./src/plugins ./out && cp -rf ./src/presets ./out && cp -rf ./src/projects ./out",
     "dev": "tsx ./src/index.ts",
     "dev:reorder": "tsx ./src/reorder.ts",

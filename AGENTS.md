@@ -43,7 +43,12 @@ Then proceed to the Validate Changes, Commit Changes, Push Changes, and Submit P
 ## Contributing a package
 
 Prompt the user for a GitHub project url. For example they might respond with: `https://github.com/wolf-plugins/wolf-shaper`
-Then rpompt the user for the url to the specific GitHub release: https://github.com/wolf-plugins/wolf-shaper/releases/tag/v1.0.2
+Then prompt the user for the url to the specific GitHub release: https://github.com/wolf-plugins/wolf-shaper/releases/tag/v1.0.2
+You can get GitHub release filesizes and SHA256 hashes via curl such as:
+
+```bash
+curl -s https://api.github.com/repos/wolf-plugins/wolf-shaper/releases/tags/v1.0.2
+```
 
 Use these urls to automatically populate the package yaml metadata in the following steps.
 
@@ -51,7 +56,7 @@ Add new folders for your organization and package using [kebab-case](https://dev
 
     ./src/plugins/org-name/package-name
 
-Add a jpeg screenshot of the package, and flac audio file previewing the package:
+Add a jpeg screenshot of the package, and flac audio file previewing the package (Use the existing files if they already exist):
 
     ./src/plugins/org-name/package-name/package-name.flac
     ./src/plugins/org-name/package-name/package-name.jpg
@@ -126,10 +131,7 @@ Then proceed to the Validate Changes, Commit Changes, Push Changes, and Submit P
 Run formatting, linting, tests and build commands to validate your changes:
 
 ```bash
-npm run format
-npm run lint
-npm test
-npm run build
+npm run check
 ```
 
 Verify that all tests pass and there are no linting errors.
