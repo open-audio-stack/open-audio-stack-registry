@@ -75,7 +75,7 @@ Create yaml files for each version of the package using [Semantic Versioning](ht
 
 Semantic versioning allows a compatible installer to install the latest non-breaking version of a package.
 
-Open Audio Stack Registry validates each package's metadata, if you miss or enter incorrect information, your package will not be included in the registry. Use an existing yaml file as a starting point:
+Open Audio Stack Registry validates each package's metadata, if you miss or enter incorrect information, your package will not be included in the registry. Before filling in the metadata of a package, you MUST always use an existing yaml file as a starting point:
 
 - App: [src/apps/free-audio/clapinfo/1.2.2/index.yaml](https://github.com/open-audio-stack/open-audio-stack-registry/blob/main/src/apps/free-audio/clapinfo/1.2.2/index.yaml)
 
