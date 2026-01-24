@@ -1,0 +1,92 @@
+{
+  "name": "Actuate",
+  "author": "Ardura",
+  "description": "A Subtractive and Additive Synthesizer, Sampler, and Granulizer built in Rust + Nih-Plug.",
+  "license": "gpl-3.0",
+  "type": "instrument",
+  "tags": [
+    "Instrument",
+    "Synth",
+    "Sampler"
+  ],
+  "url": "https://github.com/ardura/Actuate",
+  "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ardura/actuate/actuate.flac",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ardura/actuate/actuate.jpg",
+  "date": "2025-10-06T00:00:00.000Z",
+  "changes": "- Fixed some filter processing bugs where resonance could be ignored accidentally\n- Added more detail/decimals to certain knob values and made the steps better between values\n- Changed knob behavior: CTRL + drag is now a fine drag",
+  "files": [
+    {
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "clap",
+        "vst3"
+      ],
+      "type": "archive",
+      "size": 9468044,
+      "sha256": "378d1c16dd90b0fb6c85c703898c302d5a65e7673321160b9f828af863816c84",
+      "url": "https://github.com/ardura/Actuate/releases/download/v1.4.2/Actuate_v142_linux_build.zip"
+    },
+    {
+      "systems": [
+        {
+          "type": "mac"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "clap",
+        "vst3"
+      ],
+      "type": "archive",
+      "size": 8665602,
+      "sha256": "4f0d9c0719d9531b9088602f0ef8100697a025448cea6135243bd2439b09c3f6",
+      "url": "https://github.com/ardura/Actuate/releases/download/v1.4.2/Actuate_v142_macos_build.zip"
+    },
+    {
+      "systems": [
+        {
+          "type": "mac"
+        }
+      ],
+      "architectures": [
+        "arm64"
+      ],
+      "contains": [
+        "clap",
+        "vst3"
+      ],
+      "type": "archive",
+      "size": 7929162,
+      "sha256": "dda549b68adde91c06d430338f9ddfb165542eb9eec7bd26ee816f391b6f643c",
+      "url": "https://github.com/ardura/Actuate/releases/download/v1.4.2/Actuate_v142_macos_m1_build.zip"
+    },
+    {
+      "systems": [
+        {
+          "type": "win"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "clap",
+        "vst3"
+      ],
+      "type": "archive",
+      "size": 8407398,
+      "sha256": "bf4f1056525a9304917baab2f182acac437bd0e85c3cdb3a5cc02f5c1667a737",
+      "url": "https://github.com/ardura/Actuate/releases/download/v1.4.2/Actuate_v142_windows_build.zip"
+    }
+  ],
+  "verified": true
+}
