@@ -42,11 +42,11 @@ Then proceed to the Validate Changes, Commit Changes, Push Changes, and Submit P
 
 ## Contributing a package
 
-Prompt the user for a GitHub project url. For example they might respond with: `https://github.com/wolf-plugins/wolf-shaper`
-Then prompt the user for the url to the specific GitHub release: https://github.com/wolf-plugins/wolf-shaper/releases/tag/v1.0.2
-You can get GitHub release filesizes and SHA256 hashes via curl such as:
+Prompt the user for a GitHub project url. For example they might respond with: `https://github.com/wolf-plugins/wolf-shaper` or a url to the specific GitHub release: https://github.com/wolf-plugins/wolf-shaper/releases/tag/v1.0.2 if they don't specify a release get the latest release. You can get GitHub repo metadata and release filesizes and SHA256 hashes via curl such as:
 
 ```bash
+curl -s https://api.github.com/repos/wolf-plugins/wolf-shaper
+curl -s https://api.github.com/repos/wolf-plugins/wolf-shaper/releases
 curl -s https://api.github.com/repos/wolf-plugins/wolf-shaper/releases/tags/v1.0.2
 ```
 
