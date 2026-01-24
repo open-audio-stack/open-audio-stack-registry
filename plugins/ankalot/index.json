@@ -1,0 +1,63 @@
+{
+  "ankalot/xenroll": {
+    "slug": "ankalot/xenroll",
+    "version": "0.2.2",
+    "versions": {
+      "0.2.2": {
+        "name": "XenRoll",
+        "author": "Ankalot",
+        "description": "Unique cool piano roll audio plugin",
+        "license": "gpl-3.0",
+        "type": "tool",
+        "tags": [
+          "Instrument",
+          "Piano Roll",
+          "Microtonal"
+        ],
+        "url": "https://github.com/Ankalot/XenRoll",
+        "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ankalot/xenroll/xenroll.flac",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ankalot/xenroll/xenroll.jpg",
+        "date": "2026-01-12T00:00:00.000Z",
+        "changes": "- Fixed the display of bended notes;\n- Removed the delay when changing frequencies (now notes after notes with bends do not have a frequency jump at the beginning).",
+        "files": [
+          {
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "so"
+            ],
+            "sha256": "efd2e779dfbcd273e46828e4dced120779da38c99cd8558e1ef4f160cab947b6",
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "size": 3164503,
+            "type": "archive",
+            "url": "https://github.com/Ankalot/XenRoll/releases/download/v0.2.2/XenRoll_v0.2.2_VST3_linux_x86_64.zip"
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 4796876,
+            "sha256": "bfe84b00e63263bc45fa8e34bf67d2155636a85fe972409bfabf7a99f1833329",
+            "url": "https://github.com/Ankalot/XenRoll/releases/download/v0.2.2/XenRoll_v0.2.2_VST3_windows.zip"
+          }
+        ],
+        "verified": true
+      }
+    }
+  }
+}

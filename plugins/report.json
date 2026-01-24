@@ -898,5 +898,19 @@
         }
       ]
     }
+  },
+  "ankalot/xenroll": {
+    "0.2.2": {
+      "recs": [
+        {
+          "field": "architectures",
+          "rec": "should support arm64"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Mac"
+        }
+      ]
+    }
   }
 }
