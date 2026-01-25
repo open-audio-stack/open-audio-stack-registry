@@ -1,72 +1,87 @@
-# Instructions for Agents: Contributing to Open Audio Stack Registry via Command Line
+# Instructions for Agents: Contributing via command line
 
-## Fork the Repository
+## 1. Setup git repo
 
-Use GitHub CLI to fork the repository:
+Check to see if you are inside the registry repository:
+
+```bash
+git status
+```
+
+If you see an error message like `fatal: not a git repository`, then use GitHub CLI to fork the repository:
 
 ```bash
 gh repo fork open-audio-stack/open-audio-stack-registry --clone
 cd open-audio-stack-registry
 ```
 
-## Setup
-
-Install dependencies:
+Ensure you are on the main branch and up-to-date with changes:
 
 ```bash
+git checkout main
+git pull
 npm install
 ```
 
-## Create a Branch
+Then continue to step 2.
 
-Create and switch to a new branch for your contribution. Use descriptive branch names following these conventions:
+## 2. Contributing changes
+
+You can contribute either functional changes to the codebase or add new packages (apps, plugins, presets, projects) to the registry.
+Infer the type of change from the user prompt. If unclear ask them to clarify.
+
+- For functional changes continue to step 2a.
+- For adding new packages continue to step 2b.
+
+## 2a. Contributing functional changes
+
+Create a new branch for your contribution. Use descriptive branch names following these conventions:
 
 - `feature/feature-name` for new features
 - `fix/fix-name` for bug fixes
-- `plugin/plugin-name` for plugin additions
-- `preset/preset-name` for preset additions
-- `project/project-name` for project additions
-- `app/app-name` for app additions
-
-Example:
-
-```bash
-git checkout -b plugin/plugin-name
-```
-
-## Contributing functional changes
 
 Edit TypeScript/JavaScript files in the codebase using your tools. Ensure changes follow the project's coding standards, enforced by Prettier (.prettierrc.json) for code formatting, ESLint (eslint.config.js) for linting, and Vitest (vitest.config.ts) for the test suite.
 
-Then proceed to the Validate Changes, Commit Changes, Push Changes, and Submit Pull Request sections below.
+Then proceed to step 3.
 
-## Contributing a package
+## 2b. Contributing a package
 
-Prompt the user for a GitHub project url. For example they might respond with: `https://github.com/wolf-plugins/wolf-shaper` or a url to the specific GitHub release: https://github.com/wolf-plugins/wolf-shaper/releases/tag/v1.0.2
-- If the user does not specify a release, get the latest release that corresponds to the date they provided.
-- If the user did not provide a specific release or a specific date, then use the most latest release.
-- If the user responds with a url to a site that isn't Github, such as Codeberg or Gitlab, then only fill in the metadata you are able to webscrape.
+Create a new branch for your contribution. Use descriptive branch names following these conventions:
 
-You can get GitHub repo metadata and release filesizes and SHA256 hashes via curl such as:
+- `app/app-name` for app additions
+- `plugin/plugin-name` for plugin additions
+- `preset/preset-name` for preset additions
+- `project/project-name` for project additions
+
+If not already supplied by the user, prompt for a package homepage url. For example they might respond with: `https://github.com/wolf-plugins/wolf-shaper`.
+
+- If the url is a GitHub url then you can use the GitHub API to retrieve the package information.
+- If the url is any other website url, then do your best to scrape the package information from the html page.
+- If the user does not specify file downloads/releases, get the latest that corresponds to the date they provided.
+- If the user did not provide a specific release or a specific date, then use the latest.
+
+For GitHub repos you can get detailed metadata and release filesizes and SHA256 hashes via curl such as:
 
 ```bash
 curl -s https://api.github.com/repos/wolf-plugins/wolf-shaper
+curl -s https://raw.githubusercontent.com/wolf-plugins/wolf-shaper/refs/heads/master/README.md
 curl -s https://api.github.com/repos/wolf-plugins/wolf-shaper/releases
 curl -s https://api.github.com/repos/wolf-plugins/wolf-shaper/releases/tags/v1.0.2
 ```
 
-Use these urls to automatically populate the package yaml metadata in the following steps.
+The information you have gathered will be used to populate the package yaml metadata.
 
-Add new folders for your organization and package using [kebab-case](https://developer.mozilla.org/en-US/docs/Glossary/Kebab_case) In most cases this should match the Github org and repo name. Using our example it would be: `wolf-plugins/wolf-shaper`:
+First add new folders for the organization and package using [kebab-case](https://developer.mozilla.org/en-US/docs/Glossary/Kebab_case) In most cases this should match the Github org and repo name. Using our example it would be: `wolf-plugins/wolf-shaper`. If another website then use the domain name without extension for the org-name:
 
     ./src/plugins/org-name/package-name
 
-Add a jpeg screenshot of the package, and a flac audio file previewing the package (Use the existing files if they already exist):
+If the url has a preview image and/or audio files. Download them to this directory. For GitHub projects these are usually linked from the README.md file.
+Ensure the image is in jpeg format, and audio is in flac format (if files already exist then do not change them):
 
     ./src/plugins/org-name/package-name/package-name.flac
     ./src/plugins/org-name/package-name/package-name.jpg
 
-`.jpg` and `.flac` compressed formats were chosen to optimize loading times on compatible websites.
+`.jpg` and `.flac` compressed formats were chosen to optimize loading times on websites which display these packages.
 
 Create yaml files for each version of the package using [Semantic Versioning](https://semver.org).
 
@@ -74,8 +89,7 @@ Create yaml files for each version of the package using [Semantic Versioning](ht
     ./src/plugins/org-name/package-name/2.0.0/index.yaml
 
 Semantic versioning allows a compatible installer to install the latest non-breaking version of a package.
-
-Open Audio Stack Registry validates each package's metadata, if you miss or enter incorrect information, your package will not be included in the registry. Before filling in the metadata of a package, you MUST always use an existing yaml file as a starting point:
+Use an existing yaml file as a starting point:
 
 - App: [src/apps/free-audio/clapinfo/1.2.2/index.yaml](https://github.com/open-audio-stack/open-audio-stack-registry/blob/main/src/apps/free-audio/clapinfo/1.2.2/index.yaml)
 
@@ -85,13 +99,25 @@ Open Audio Stack Registry validates each package's metadata, if you miss or ente
 
 - Project: [src/projects/kmt/banwer/1.0.1/index.yaml](https://github.com/open-audio-stack/open-audio-stack-registry/blob/main/src/projects/kmt/banwer/1.0.1/index.yaml)
 
-Update the .yaml details to match your plugin. Refer to the <a href="specification.md">Open Audio Registry Specification</a> for all the possible fields and values allowed.
+Update the .yaml details to match your package. Refer to the <a href="specification.md">Open Audio Registry Specification</a> for all the possible fields and values allowed.
+
+For adding an app refer to:
+
+- <a href="specification.md#app">App fields/values</a>
 
 For adding a plugin refer to:
 
 - <a href="specification.md#plugin-1">Plugin fields/values</a>
 - <a href="specification.md#plugin-formats">Plugin formats</a>
 - <a href="specification.md#plugin-types">Plugin types</a>
+
+For adding an preset refer to:
+
+- <a href="specification.md#preset">Preset fields/values</a>
+
+For adding a project refer to:
+
+- <a href="specification.md#project">Project fields/values</a>
 
 For adding files refer to:
 
@@ -106,9 +132,7 @@ After making your changes, validate them locally by running these commands:
 npm run dev:validate -- path/to/your/index.yaml
 ```
 
-Additionally, ensure to run the general validation commands in the Validate Changes section below.
-
-The script will output any issues, for example:
+The script will output any issues as logs (you can't rely on the script exit code), for example:
 
     X surge-synthesizer/surge/1.3.1
     - changes (String must contain at most 256 character(s))
@@ -127,13 +151,11 @@ File `sha256` field is a hash of the file, if the file is modified in any way th
 
 When displaying errors, the script will output the `received` and `expected` values. Confirm the file url is correct, and confirm the downloaded file contains the correct version of the package. Then update `size` and `sha256` values to resolve the error.
 
-After validation passes, push your branch to GitHub and open a PR. During the PR review the automated GitHub Action will run test, validation and additional virus scanning checks which need to pass before your code is merged.
+Then proceed to step 3.
 
-Then proceed to the Validate Changes, Commit Changes, Push Changes, and Submit Pull Request sections below.
+## 3. Validate Changes
 
-## Validate Changes
-
-Run formatting, linting, tests and build commands to validate your changes:
+Run the check command which will run code formatting, linting, tests and build commands to validate the changes:
 
 ```bash
 npm run check
@@ -145,19 +167,19 @@ Return the generated yaml file to the user for them to read/review.
 
 Ask user for [Y/N] approval to proceed to Commit Changes, Push Changes and Submit Pull Request.
 
-- If the user answers Yes or Y, continue to Commit Changes, Push Changes and Submit Pull Request steps below.
-- If the user answers No or N, ask them what changes they would like to make, and iterate until they are happy with the result, each time asking for approval to continue to next steps.
+- If the user answers Yes or Y, continue to step 4.
+- If the user answers No or N, ask them what changes they would like to make, and iterate until they are happy with the result, each time asking for approval before continuing to step 4.
 
-## Commit Changes
+## 4. Commit, push and pr changes
 
 Stage and commit your changes. Use descriptive commit messages with prefixes following these conventions:
 
 - `[feature]` for new features
 - `[fix]` for bug fixes
+- `[app]` for app additions
 - `[plugin]` for plugin additions
 - `[preset]` for preset additions
 - `[project]` for project additions
-- `[app]` for app additions
 
 Example:
 
@@ -166,15 +188,11 @@ git add .
 git commit -m "[feature] Feature name. Add descriptive commit message for your changes"
 ```
 
-## Push Changes
-
 Push the branch to your forked repository:
 
 ```bash
 git push origin feature/your-contribution-name
 ```
-
-## Submit Pull Request
 
 Create a pull request using GitHub CLI:
 
@@ -182,6 +200,8 @@ Create a pull request using GitHub CLI:
 gh pr create --title "Your PR Title" --body "Description of your changes"
 ```
 
-## Conclusion
+Then proceed to step 5.
 
-Respond to the user that the contribution has been submitted for review, with the url to the PR for them to monitor updates.
+## 5. Conclusion
+
+Respond to the user that the contribution has been submitted for review, with the url to the PR for them to view VirusTotal scans and peer review.
