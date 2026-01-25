@@ -57,8 +57,9 @@ If not already supplied by the user, prompt for a package homepage url. For exam
 
 - If the url is a GitHub url then you can use the GitHub API to retrieve the package information.
 - If the url is any other website url, then do your best to scrape the package information from the html page.
-- If the user does not specify file downloads/releases, get the latest that corresponds to the date they provided.
+- If the user did not specify file downloads/releases, get the latest that corresponds to the date they provided.
 - If the user did not provide a specific release or a specific date, then use the latest.
+- If the user provided a link that does not open or have any packages, inform the user and ask them to clarify
 
 For GitHub repos you can get detailed metadata and release filesizes and SHA256 hashes via curl such as:
 
@@ -82,6 +83,8 @@ Ensure the image is in jpeg format, and audio is in flac format (if files alread
     ./src/plugins/org-name/package-name/package-name.jpg
 
 `.jpg` and `.flac` compressed formats were chosen to optimize loading times on websites which display these packages.
+
+If you need to convert an image file to jpeg, use ffmpeg and ensure as little reduction in file quality as possible during conversion.
 
 Create yaml files for each version of the package using [Semantic Versioning](https://semver.org).
 
