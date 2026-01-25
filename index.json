@@ -4733,6 +4733,91 @@
         }
       }
     },
+    "kushview/retuner": {
+      "slug": "kushview/retuner",
+      "version": "1.1.0",
+      "versions": {
+        "1.1.0": {
+          "name": "reTuner",
+          "author": "Kushview",
+          "description": "Precision audio pitch shifting plugin to convert music between different tuning standards, shifting from one reference frequency to another while preserving character and formants.",
+          "license": "gpl-3.0",
+          "type": "effect",
+          "tags": [
+            "Effect",
+            "Pitch Shifter",
+            "Audio Processing"
+          ],
+          "url": "https://github.com/kushview/retuner",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/kushview/retuner/retuner.jpg",
+          "date": "2026-01-04T19:43:00.000Z",
+          "changes": "Added more presets.\n",
+          "files": [
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "clap",
+                "lv2",
+                "vst3",
+                "app"
+              ],
+              "type": "installer",
+              "size": 10750588,
+              "sha256": "4553cc050129fddf9ad731c50efdfb7494ef6bf34685d5c9b303e221ac920310",
+              "url": "https://github.com/kushview/retuner/releases/download/1.1.0/retuner-1.1.0-linux-x86_64.deb"
+            },
+            {
+              "systems": [
+                {
+                  "type": "mac"
+                }
+              ],
+              "architectures": [
+                "arm64",
+                "x64"
+              ],
+              "contains": [
+                "clap",
+                "component",
+                "vst3",
+                "app"
+              ],
+              "type": "installer",
+              "size": 19250617,
+              "sha256": "2b6e980a319b2d4a9ce5d68402626042a1f02b347bcdfe79390f1bdbd963ff24",
+              "url": "https://github.com/kushview/retuner/releases/download/1.1.0/retuner-macos-1.1.0.pkg"
+            },
+            {
+              "systems": [
+                {
+                  "type": "win"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "clap",
+                "vst3",
+                "app"
+              ],
+              "type": "installer",
+              "size": 5902808,
+              "sha256": "a0d9c8e42ff5dc03a861e91fe69696b5e725c0379e021cb27d73fd1fa8eb76e8",
+              "url": "https://github.com/kushview/retuner/releases/download/1.1.0/retuner-win64-1.1.0-setup.exe"
+            }
+          ],
+          "verified": true
+        }
+      }
+    },
     "kiriki-liszt/relief-compressor": {
       "slug": "kiriki-liszt/relief-compressor",
       "version": "1.0.0",
