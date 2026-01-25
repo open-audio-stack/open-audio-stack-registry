@@ -84,6 +84,8 @@ Ensure the image is in jpeg format, and audio is in flac format (if files alread
 
 `.jpg` and `.flac` compressed formats were chosen to optimize loading times on websites which display these packages.
 
+If you need to convert an image file to jpeg, use ffmpeg and ensure as little reduction in file quality as possible during conversion.
+
 Create yaml files for each version of the package using [Semantic Versioning](https://semver.org).
 
     ./src/plugins/org-name/package-name/1.0.0/index.yaml
