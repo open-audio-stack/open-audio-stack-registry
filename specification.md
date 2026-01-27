@@ -106,12 +106,19 @@ GET /
 
 ### Architectures
 
-| Name                            | Description                                                                                   | Value   |
-| :------------------------------ | :-------------------------------------------------------------------------------------------- | :------ |
-| Advanced RISC Machine \- 32-bit | ARM processors are commonly used in battery-powered devices, such as smartphones and tablets. | `arm32` |
-| Advanced RISC Machine \- 64-bit | ARM processors are commonly used in battery-powered devices, such as smartphones and tablets. | `arm64` |
-| x86 machine \- 32-bit           | X86 processors are commonly used in desktop computers and laptops.                            | `x32`   |
-| x86 machine \- 64-bit           | X86 processors are commonly used in desktop computers and laptops.                            | `x64`   |
+| Name                                                   | Description                                                                                   | Value     |
+| :----------------------------------------------------- | :-------------------------------------------------------------------------------------------- | :-------- |
+| Advanced RISC Machine \- 32-bit                        | ARM processors are commonly used in battery-powered devices, such as smartphones and tablets. | `arm32`   |
+| Advanced RISC Machine \- 64-bit                        | ARM processors are commonly used in battery-powered devices, such as smartphones and tablets. | `arm64`   |
+| Advanced RISC Machine \- 64-bit - Emulation Compatible | Windows 11 on Arm feature which allows native ARM64 and x64 code within the same process.     | `arm64ec` |
+| x86 machine \- 32-bit                                  | X86 processors are commonly used in desktop computers and laptops.                            | `x32`     |
+| x86 machine \- 64-bit                                  | X86 processors are commonly used in desktop computers and laptops.                            | `x64`     |
+
+#### Architecture Compatibility and Platform Detection
+
+Managers will detect the current architecture as the default platform, but allow users to override to install plugins from another architecture. Compatibility rules depend entirely on the Host (DAW). Plugin Manager cannot always rely on the system's "Runtime Platform" (which would be ARM64 for a native app) because the user's DAW might be running in a different mode.
+
+For example, if the Plugin Manager is native ARM64, but the DAW is emulated x64, installing a native ARM64 plugin will result in the DAW failing to see or load the plugin. The best practice is that users can manually set a Desired Platform to ensure compatibility with their specific DAW configuration.
 
 #### List architectures
 
