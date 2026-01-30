@@ -1,0 +1,81 @@
+{
+  "garneek/crunchy": {
+    "slug": "garneek/crunchy",
+    "version": "0.2.3",
+    "versions": {
+      "0.2.3": {
+        "name": "crunchy",
+        "author": "Garneek",
+        "description": "Plugin generating distortion and lossy compression artifacts.",
+        "type": "effect",
+        "license": "gpl-3.0",
+        "tags": [
+          "Effect",
+          "Distortion"
+        ],
+        "url": "https://github.com/Garneek/crunchy",
+        "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/garneek/crunchy/crunchy.flac",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/garneek/crunchy/crunchy.jpg",
+        "date": "2025-12-05T12:00:00.000Z",
+        "changes": "Changed the design of knobs and updated dsp",
+        "files": [
+          {
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "clap"
+            ],
+            "sha256": "f24862ecd2f86b28b9b6547e0c8925d9cb247e8633dee6aceb126135adae70dc",
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "size": 7514992,
+            "type": "archive",
+            "url": "https://github.com/Garneek/crunchy/releases/download/v0.2.3/crunchy-0.2.3-linux.zip"
+          },
+          {
+            "architectures": [
+              "arm64"
+            ],
+            "contains": [
+              "clap",
+              "vst3"
+            ],
+            "sha256": "6440cdd926f416959bc0f780ed2a8110c396c39e9156b045b695fec5ca8b6bc9",
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "size": 13203480,
+            "type": "archive",
+            "url": "https://github.com/Garneek/crunchy/releases/download/v0.2.3/crunchy-0.2.3-macOS.zip"
+          },
+          {
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "clap",
+              "vst3"
+            ],
+            "sha256": "8aa21c074b0252b4bcf3e53367c546dcf928eff45daa90ed47e42c87d6f7df63",
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "size": 5997196,
+            "type": "archive",
+            "url": "https://github.com/Garneek/crunchy/releases/download/v0.2.3/crunchy-0.2.3-windows.zip"
+          }
+        ],
+        "verified": true
+      }
+    }
+  }
+}
