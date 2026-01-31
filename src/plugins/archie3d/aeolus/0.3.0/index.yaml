@@ -1,0 +1,139 @@
+name: Aeolus
+author: Archie3d
+description: Pipe organ emulator using additive synthesis.
+license: gpl-3.0
+type: instrument
+tags:
+  - Instrument
+  - Synthesizer
+  - Pipe-organ
+url: https://github.com/Archie3d/aeolus_plugin
+audio: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/archie3d/aeolus/aeolus.flac
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/archie3d/aeolus/aeolus.jpg
+date: '2025-05-31T00:00:00.000Z'
+changes: |
+  - MTS tuning support
+  - UI rescaling
+  - Master limiter
+  - Fix CC123 all notes off
+files:
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - clap
+    type: archive
+    size: 8378137
+    sha256: 498170149337c7d2ce19783156522d3bf489f811c2a61b7323b64071882cc370
+    url: https://github.com/Archie3d/aeolus_plugin/releases/download/v0.3.0/Aeolus-clap-linux-0.3.0.zip
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - lv2
+    type: archive
+    size: 8359044
+    sha256: dad29d9b6a20a1e13364bd6cffd66a1bb20f2319842cc818d44ae3d89f8ae06c
+    url: https://github.com/Archie3d/aeolus_plugin/releases/download/v0.3.0/Aeolus-lv2-linux-0.3.0.zip
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - elf
+    type: archive
+    size: 8339912
+    sha256: f2a16cf6b4c0d3997893fd7f20e9d9508473a94abbb0970d8da5eda6e614ca4f
+    url: https://github.com/Archie3d/aeolus_plugin/releases/download/v0.3.0/Aeolus-standalone-linux-0.3.0.zip
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - vst3
+    type: archive
+    size: 8596224
+    sha256: 1746f87c18d705c42e9a878467d436f97e007b4312bae92910cf0da91e262670
+    url: https://github.com/Archie3d/aeolus_plugin/releases/download/v0.3.0/Aeolus-vst3-linux-0.3.0.zip
+  - systems:
+      - type: mac
+    architectures:
+      - x64
+    contains:
+      - component
+    type: archive
+    size: 14893555
+    sha256: f539a0f10ca2942258f6af922c562483edb98f183633f9acc69ff89cb302634b
+    url: https://github.com/Archie3d/aeolus_plugin/releases/download/v0.3.0/Aeolus-au-mac-0.3.0.zip
+  - systems:
+      - type: mac
+    architectures:
+      - x64
+    contains:
+      - clap
+    type: archive
+    size: 14741696
+    sha256: cdc302b0ad0c4e82d46d73250f74c940f00645cf4603ea1d773be59e29e79252
+    url: https://github.com/Archie3d/aeolus_plugin/releases/download/v0.3.0/Aeolus-clap-mac-0.3.0.zip
+  - systems:
+      - type: mac
+    architectures:
+      - x64
+    contains:
+      - app
+    type: archive
+    size: 14761374
+    sha256: 1b5186317fe508b5f07586f1bd1f71e6f5925dc81c36b3fde22cd50921d41a86
+    url: https://github.com/Archie3d/aeolus_plugin/releases/download/v0.3.0/Aeolus-standalone-mac-0.3.0.zip
+  - systems:
+      - type: mac
+    architectures:
+      - x64
+    contains:
+      - vst3
+    type: archive
+    size: 15251362
+    sha256: 5ef5d4c5057bdbeed79b34b671c01a2a0544273c7636daac2daf1a93d1c923c7
+    url: https://github.com/Archie3d/aeolus_plugin/releases/download/v0.3.0/Aeolus-vst3-mac-0.3.0.zip
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - clap
+    type: archive
+    size: 6994000
+    sha256: a79338d3e15ca9b2077894fdf4da67223b6b89fe2e6d96c4fa569126c500dae2
+    url: https://github.com/Archie3d/aeolus_plugin/releases/download/v0.3.0/Aeolus-clap-win64-0.3.0.zip
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - exe
+    type: archive
+    size: 7136124
+    sha256: a48378a67a8e9ee59856efbc779de9e50b77d4dae0b8175112e3cccf3e4c13c4
+    url: https://github.com/Archie3d/aeolus_plugin/releases/download/v0.3.0/Aeolus-standalone-win64-0.3.0.zip
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - vst
+    type: archive
+    size: 7134855
+    sha256: 749ad544de2af38019809eee0a3cf5ff592893c2a403bd4a904cf8e0dda33466
+    url: https://github.com/Archie3d/aeolus_plugin/releases/download/v0.3.0/Aeolus-vst-win64-0.3.0.zip
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - vst3
+    type: archive
+    size: 7440215
+    sha256: fea448d49656d4f58f9d9e28952939781e1edb4355226a3f0bf909d2fc880970
+    url: https://github.com/Archie3d/aeolus_plugin/releases/download/v0.3.0/Aeolus-vst3-win64-0.3.0.zip
