@@ -4514,6 +4514,86 @@
         }
       }
     },
+    "luna-co-software/4k-eq": {
+      "slug": "luna-co-software/4k-eq",
+      "version": "1.0.9",
+      "versions": {
+        "1.0.9": {
+          "name": "4K EQ",
+          "author": "Luna Co. Audio",
+          "description": "Professional 4-band parametric EQ with Brown/Black modes, analog saturation modeling, and real-time spectrum analyzer. SSL 4000 console EQ emulation with HPF/LPF, M/S processing, and 2x/4x oversampling.",
+          "type": "effect",
+          "license": "gpl-3.0",
+          "tags": [
+            "EQ",
+            "Mixing",
+            "Mastering"
+          ],
+          "url": "https://luna-co-software.github.io/lunacoaudio.github.io/",
+          "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/luna-co-software/4k-eq/4k-eq.flac",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/luna-co-software/4k-eq/4k-eq.jpg",
+          "date": "2026-02-08T23:59:13.000Z",
+          "changes": "- Fix SilkVerb CMakeLists.txt missing file reference\n",
+          "files": [
+            {
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "lv2",
+                "vst3"
+              ],
+              "sha256": "8b6fac051792f0c76e151ecc2bf6a3227f2207d03e0d6bd6d124d61d27c150d0",
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "size": 4117027,
+              "type": "archive",
+              "url": "https://github.com/luna-co-software/plugins/releases/download/4k-eq-v1.0.9/4k-eq-linux.zip"
+            },
+            {
+              "architectures": [
+                "arm64",
+                "x64"
+              ],
+              "contains": [
+                "component",
+                "vst3"
+              ],
+              "sha256": "0a3bb2a76cc56a0a08bb9ceb537de220787d8ff4840dd5dc213458a2c819ae48",
+              "systems": [
+                {
+                  "type": "mac"
+                }
+              ],
+              "size": 6471620,
+              "type": "archive",
+              "url": "https://github.com/luna-co-software/plugins/releases/download/4k-eq-v1.0.9/4k-eq-macos.zip"
+            },
+            {
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "vst3"
+              ],
+              "sha256": "4611c6c90fef1cb5e6a6390ca3d57a71c36f574d587ae1498be8e090f4506d1c",
+              "systems": [
+                {
+                  "type": "win"
+                }
+              ],
+              "size": 2958676,
+              "type": "archive",
+              "url": "https://github.com/luna-co-software/plugins/releases/download/4k-eq-v1.0.9/4k-eq-windows.zip"
+            }
+          ],
+          "verified": true
+        }
+      }
+    },
     "lsp-plugins/lsp-plugins": {
       "slug": "lsp-plugins/lsp-plugins",
       "version": "1.2.26",
