@@ -10,14 +10,14 @@ tags:
   - Chain
   - Wrapper
 url: https://github.com/dlarseninclusive/UhbikWrapper
-image: https://raw.githubusercontent.com/dlarseninclusive/UhbikWrapper/master/docs/screenshot_multiband.png
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/dlarseninclusive/uhbikwrapper/uhbikwrapper.jpg
 date: '2026-03-07T00:00:00.000Z'
 changes: |
-  - Add multiband processing with 3-band Linkwitz-Riley crossover
-  - Add MAIN/LOW/MID/HIGH tab interface for independent effect chains per band
-  - Add plugin type filter (All/Effects/Instruments) with alphabetical sorting
-  - Add instrument plugin hosting (standalone only)
-  - Per-band gain, solo, and mute controls
+  - 3-band multiband processing
+  - Independent effect chains per band
+  - Plugin type filter with alphabetical sorting
+  - Instrument hosting (standalone)
+  - Per-band gain/solo/mute
   - Audio thread optimization with zero-allocation processing
 files:
   - systems:
