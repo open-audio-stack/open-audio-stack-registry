@@ -6062,6 +6062,152 @@
       }
     }
   },
+  "dlarseninclusive/uhbikwrapper": {
+    "slug": "dlarseninclusive/uhbikwrapper",
+    "version": "0.3.0",
+    "versions": {
+      "0.3.0": {
+        "name": "UhbikWrapper",
+        "author": "Dave Larsen",
+        "description": "A rack-style VST3/CLAP meta-plugin for chaining multiple effects with multiband processing, preset management, modulation system, and built-in ducker.",
+        "license": "mit",
+        "type": "effect",
+        "tags": [
+          "Effect",
+          "Rack",
+          "Multiband",
+          "Chain",
+          "Wrapper"
+        ],
+        "url": "https://github.com/dlarseninclusive/UhbikWrapper",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/dlarseninclusive/uhbikwrapper/uhbikwrapper.jpg",
+        "date": "2026-03-07T00:00:00.000Z",
+        "changes": "- 3-band multiband processing\n- Independent effect chains per band\n- Plugin type filter with alphabetical sorting\n- Instrument hosting (standalone)\n- Per-band gain/solo/mute\n- Audio thread optimization with zero-allocation processing\n",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "clap"
+            ],
+            "type": "archive",
+            "size": 2443660,
+            "sha256": "61c73dff9f0fc1ed9331b54b0ae80dd32c3c2fc0b7e9e4ba64a2d0b3efada444",
+            "url": "https://github.com/dlarseninclusive/UhbikWrapper/releases/download/v0.3.0/UhbikWrapper-Linux-CLAP.zip"
+          },
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 2483052,
+            "sha256": "22ba0dc57636cc4bc2dc64ebec67ccd20beeaa6b5c49bcbd2a80595497a0ecb1",
+            "url": "https://github.com/dlarseninclusive/UhbikWrapper/releases/download/v0.3.0/UhbikWrapper-Linux-VST3.zip"
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "component"
+            ],
+            "type": "archive",
+            "size": 1778838,
+            "sha256": "9947b0ffdad0b9fd33810729c7dbf0b6dac000b4264a00e748bdfc3c120f6510",
+            "url": "https://github.com/dlarseninclusive/UhbikWrapper/releases/download/v0.3.0/UhbikWrapper-macOS-AU.zip"
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "clap"
+            ],
+            "type": "archive",
+            "size": 1761811,
+            "sha256": "2195554527f562e09ad935d66fa776bff20111e1d80778fc6cfe9581d6dca8d3",
+            "url": "https://github.com/dlarseninclusive/UhbikWrapper/releases/download/v0.3.0/UhbikWrapper-macOS-CLAP.zip"
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 1770249,
+            "sha256": "9d41a9a79b9e33dd55c5a457ef86bab0472b45ed1cf372e675c7568a17f66980",
+            "url": "https://github.com/dlarseninclusive/UhbikWrapper/releases/download/v0.3.0/UhbikWrapper-macOS-VST3.zip"
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "clap"
+            ],
+            "type": "archive",
+            "size": 2908820,
+            "sha256": "b158f949186445f2cb0e8e1a7589f501fced4f4cbf490a0ac56e9540149d9e62",
+            "url": "https://github.com/dlarseninclusive/UhbikWrapper/releases/download/v0.3.0/UhbikWrapper-Windows-CLAP.zip"
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 2926074,
+            "sha256": "2585298c6cb4011d3f6ce1c2721b18d43df5111b65b6f4a3eea885b3342724b5",
+            "url": "https://github.com/dlarseninclusive/UhbikWrapper/releases/download/v0.3.0/UhbikWrapper-Windows-VST3.zip"
+          }
+        ],
+        "verified": true
+      }
+    }
+  },
   "distrho/dpf-plugins": {
     "slug": "distrho/dpf-plugins",
     "version": "1.7.0",

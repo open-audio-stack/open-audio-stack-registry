@@ -687,6 +687,16 @@
       ]
     }
   },
+  "dlarseninclusive/uhbikwrapper": {
+    "0.3.0": {
+      "recs": [
+        {
+          "field": "architectures",
+          "rec": "should support arm64"
+        }
+      ]
+    }
+  },
   "distrho/dpf-plugins": {
     "1.7.0": {
       "recs": [
