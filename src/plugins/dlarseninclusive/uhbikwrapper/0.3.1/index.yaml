@@ -10,7 +10,7 @@ tags:
   - Chain
   - Wrapper
 url: https://github.com/dlarseninclusive/UhbikWrapper
-image: https://raw.githubusercontent.com/dlarseninclusive/UhbikWrapper/master/docs/screenshot_multiband.png
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/dlarseninclusive/uhbikwrapper/uhbikwrapper.jpg
 date: '2026-03-10T00:00:00.000Z'
 changes: |
   - Fix duplicate CLAP plugins appearing in plugin browser (deduplication by plugin ID)
