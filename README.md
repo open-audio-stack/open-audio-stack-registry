@@ -40,6 +40,8 @@ Compatible command-line tools, apps and websites can read the json files to disc
 
 You can use this website for filling out metadata https://open-audio-stack.github.io/open-audio-stack-site
 
+If using a coding agent point it at `AGENTS.md` to automate the process of submitting a package.
+
 Create a fork of the repo `open-audio-stack-registry`. Add new folders for your organization and package using [kebab-case](https://developer.mozilla.org/en-US/docs/Glossary/Kebab_case):
 
     ./src/plugins/org-name/package-name
@@ -59,6 +61,8 @@ Create yaml files for each version of the package using [Semantic Versioning](ht
 Semantic versioning allows a compatible installer to install the latest non-breaking version of a package.
 
 Open Audio Stack Registry validates each package's metadata, if you miss or enter incorrect information, your package will not be included in the registry. Use an existing yaml file as a starting point:
+
+- App: [src/apps/free-audio/clapinfo/1.2.2/index.yaml](https://github.com/open-audio-stack/open-audio-stack-registry/blob/main/src/apps/free-audio/clapinfo/1.2.2/index.yaml)
 
 - Plugin: [src/plugins/surge-synthesizer/surge/1.3.4/index.yaml](https://github.com/open-audio-stack/open-audio-stack-registry/blob/main/src/plugins/surge-synthesizer/surge/1.3.4/index.yaml)
 
@@ -127,7 +131,7 @@ Open Audio Stack Registry was built using:
 - TypeScript 5.x
 - eslint 9.x
 - prettier 3.x
-- vitest 1.x
+- vitest 3.x
 
 ## Developer installation
 

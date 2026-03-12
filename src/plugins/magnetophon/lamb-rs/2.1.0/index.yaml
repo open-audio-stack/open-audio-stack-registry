@@ -1,9 +1,10 @@
 name: lamb
 author: magnetophon
 description: A lookahead compressor/limiter that's soft as a lamb.
-type: instrument
+type: effect
 license: agpl-3.0
 tags:
+  - Effect
   - Compressor
   - Limiter
 url: https://github.com/magnetophon/lamb-rs
