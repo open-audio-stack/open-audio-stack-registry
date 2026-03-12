@@ -688,6 +688,14 @@
     }
   },
   "dlarseninclusive/uhbikwrapper": {
+    "0.3.1": {
+      "recs": [
+        {
+          "field": "architectures",
+          "rec": "should support arm64"
+        }
+      ]
+    },
     "0.3.0": {
       "recs": [
         {
