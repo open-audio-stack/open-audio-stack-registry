@@ -1,8 +1,115 @@
 {
   "lsp-plugins/lsp-plugins": {
     "slug": "lsp-plugins/lsp-plugins",
-    "version": "1.2.26",
+    "version": "1.2.27",
     "versions": {
+      "1.2.27": {
+        "name": "LSP Plugins",
+        "author": "Vladimir Sadovnikov",
+        "description": "A collection of open-source audio effects, synthesizers, and tools designed for music and sound production, primarily on the GNU/Linux platform.",
+        "license": "lgpl-3.0",
+        "version": "1.2.27",
+        "type": "effect",
+        "url": "https://github.com/lsp-plugins/lsp-plugins",
+        "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/lsp-plugins/lsp-plugins/lsp-plugins.flac",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/lsp-plugins/lsp-plugins/lsp-plugins.jpg",
+        "donate": "https://www.patreon.com/c/sadko4u",
+        "date": "2026-03-12T00:00:00.000Z",
+        "tags": [
+          "Effect",
+          "Rack",
+          "Multiband",
+          "Chain",
+          "Modulation",
+          "Utility",
+          "Dynamics",
+          "Host"
+        ],
+        "changes": "- Plugin launcher for standalone\n- New Paper UI theme\n- Filter decramping for EQ/filters\n- Stereo wet EQ for convolution plugins\n- CLI schema selection\n- Keyboard shortcuts, preset scrolling\n- APO equalizer support\n- UI and delay optimizations\n",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "arm64"
+            ],
+            "contains": [
+              "clap",
+              "lv2",
+              "vst3",
+              "so"
+            ],
+            "type": "archive",
+            "size": 36849369,
+            "sha256": "2111487fdedcbb7ef64585cf2cb65b496bc870f28171e48af859cd74077fc3e5",
+            "url": "https://github.com/lsp-plugins/lsp-plugins/releases/download/1.2.27/lsp-plugins-1.2.27-Linux-aarch64.7z"
+          },
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "arm32"
+            ],
+            "contains": [
+              "clap",
+              "lv2",
+              "vst3",
+              "so"
+            ],
+            "type": "archive",
+            "size": 30612299,
+            "sha256": "b3b6a1c3416469367baadf54660698550bb61675a8be02096908334594fa2802",
+            "url": "https://github.com/lsp-plugins/lsp-plugins/releases/download/1.2.27/lsp-plugins-1.2.27-Linux-arm32.7z"
+          },
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x32"
+            ],
+            "contains": [
+              "clap",
+              "lv2",
+              "vst3",
+              "so"
+            ],
+            "type": "archive",
+            "size": 31290800,
+            "sha256": "df586e6927c9151851a66f58b508fec16dad79e8a515ece574186e4d1f08c4e0",
+            "url": "https://github.com/lsp-plugins/lsp-plugins/releases/download/1.2.27/lsp-plugins-1.2.27-Linux-i586.7z"
+          },
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "clap",
+              "lv2",
+              "vst3",
+              "so"
+            ],
+            "type": "archive",
+            "size": 37161173,
+            "sha256": "8009e011dc7215136cd367f196417fc1b0e238f49792987af5444e8dc9ff2c79",
+            "url": "https://github.com/lsp-plugins/lsp-plugins/releases/download/1.2.27/lsp-plugins-1.2.27-Linux-x86_64.7z"
+          }
+        ],
+        "verified": true
+      },
       "1.2.26": {
         "name": "LSP Plugins",
         "author": "Vladimir Sadovnikov",
