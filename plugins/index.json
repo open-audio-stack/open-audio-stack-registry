@@ -5591,6 +5591,98 @@
       }
     }
   },
+  "hqrrr/perceptomap": {
+    "slug": "hqrrr/perceptomap",
+    "version": "0.14.0",
+    "versions": {
+      "0.14.0": {
+        "name": "PerceptoMap",
+        "author": "hqrrr",
+        "description": "A plugin that visualizes psychoacoustic features of audio signals in real time.",
+        "type": "tool",
+        "license": "agpl-3.0",
+        "tags": [
+          "Spectogram",
+          "Analysis"
+        ],
+        "url": "https://github.com/hqrrr/PerceptoMap",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/hqrrr/perceptomap/perceptomap.jpg",
+        "date": "2025-12-24T00:00:00.000Z",
+        "changes": "- Support more FFT overlap options: 16x (93.75 %), 32x (96.88 %), 64x (98.44 %).",
+        "files": [
+          {
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "sha256": "747ded1bedd340bb81a4560883abf9471041cabb29e18b1e5f1bced12a40cc34",
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "size": 2096931,
+            "type": "archive",
+            "url": "https://github.com/hqrrr/PerceptoMap/releases/download/v0.14/PerceptoMap_vst3_v0.14_linux_x64.zip"
+          },
+          {
+            "architectures": [
+              "arm64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "sha256": "da7125fc800dc4dfd5af1666977fc6f6f381f483300d316757bc7c4a7833e974",
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "size": 1491836,
+            "type": "archive",
+            "url": "https://github.com/hqrrr/PerceptoMap/releases/download/v0.14/PerceptoMap_vst3_v0.14_macOS_arm.zip"
+          },
+          {
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "sha256": "52940b4ce66278f80485e8e64fe5e8bad0af0d975f8ea236b51ef51bf7596cfb",
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "size": 1680901,
+            "type": "archive",
+            "url": "https://github.com/hqrrr/PerceptoMap/releases/download/v0.14/PerceptoMap_vst3_v0.14_macOS_x64.zip"
+          },
+          {
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "sha256": "1ea08a55a7ab36de6023508ca7093c33789ed1e65ebbd592946e9c44b9ec0ebd",
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "size": 2707383,
+            "type": "archive",
+            "url": "https://github.com/hqrrr/PerceptoMap/releases/download/v0.14/PerceptoMap_vst3_v0.14_windows_x64.zip"
+          }
+        ],
+        "verified": true
+      }
+    }
+  },
   "guitarml/smartguitaramp": {
     "slug": "guitarml/smartguitaramp",
     "version": "1.3.0",
