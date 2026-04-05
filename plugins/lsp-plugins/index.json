@@ -1,14 +1,119 @@
 {
   "lsp-plugins/lsp-plugins": {
     "slug": "lsp-plugins/lsp-plugins",
-    "version": "1.2.27",
+    "version": "1.2.29",
     "versions": {
+      "1.2.29": {
+        "name": "LSP Plugins",
+        "author": "Vladimir Sadovnikov",
+        "description": "A collection of open-source audio effects, synthesizers, and tools designed for music and sound production, primarily on the GNU/Linux platform.",
+        "license": "lgpl-3.0",
+        "type": "effect",
+        "url": "https://github.com/lsp-plugins/lsp-plugins",
+        "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/lsp-plugins/lsp-plugins/lsp-plugins.flac",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/lsp-plugins/lsp-plugins/lsp-plugins.jpg",
+        "donate": "https://www.patreon.com/c/sadko4u",
+        "date": "2026-04-01T00:00:00.000Z",
+        "tags": [
+          "Effect",
+          "Rack",
+          "Multiband",
+          "Chain",
+          "Modulation",
+          "Utility",
+          "Dynamics",
+          "Host"
+        ],
+        "changes": "* Launcher multi-plugin launch.\n* Latency Detector sample display.\n* AVX-512 DSP optimizations.\n* Haiku support improvements.\n* Sidechain ring buffer optimization.\n* Parametric EQ note quantization fix.\n* Various bug and memory leak fixes.\n",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "arm64"
+            ],
+            "contains": [
+              "clap",
+              "lv2",
+              "vst3",
+              "so"
+            ],
+            "type": "archive",
+            "size": 36865559,
+            "sha256": "92ae3bc6ed2b09c214a3589668a6d72eef8898243f1e7b9dde11ebc0e6e48da8",
+            "url": "https://github.com/lsp-plugins/lsp-plugins/releases/download/1.2.29/lsp-plugins-1.2.29-Linux-aarch64.7z"
+          },
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "arm32"
+            ],
+            "contains": [
+              "clap",
+              "lv2",
+              "vst3",
+              "so"
+            ],
+            "type": "archive",
+            "size": 30644513,
+            "sha256": "c8999177b45fc06e1576dee30bcc3f91f7653882209379d919465aa1eed1d461",
+            "url": "https://github.com/lsp-plugins/lsp-plugins/releases/download/1.2.29/lsp-plugins-1.2.29-Linux-arm32.7z"
+          },
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x32"
+            ],
+            "contains": [
+              "clap",
+              "lv2",
+              "vst3",
+              "so"
+            ],
+            "type": "archive",
+            "size": 31323869,
+            "sha256": "4a5bab8bc705f7d178b174e4c47894374fa96dc9899fc49c9fb7f72492df8cd9",
+            "url": "https://github.com/lsp-plugins/lsp-plugins/releases/download/1.2.29/lsp-plugins-1.2.29-Linux-i586.7z"
+          },
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "clap",
+              "lv2",
+              "vst3",
+              "so"
+            ],
+            "type": "archive",
+            "size": 37205657,
+            "sha256": "8467dbe83b1a12f0abccf3c197c208f07cc609d11023f2c38d855dafb799034a",
+            "url": "https://github.com/lsp-plugins/lsp-plugins/releases/download/1.2.29/lsp-plugins-1.2.29-Linux-x86_64.7z"
+          }
+        ],
+        "verified": true
+      },
       "1.2.27": {
         "name": "LSP Plugins",
         "author": "Vladimir Sadovnikov",
         "description": "A collection of open-source audio effects, synthesizers, and tools designed for music and sound production, primarily on the GNU/Linux platform.",
         "license": "lgpl-3.0",
-        "version": "1.2.27",
         "type": "effect",
         "url": "https://github.com/lsp-plugins/lsp-plugins",
         "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/lsp-plugins/lsp-plugins/lsp-plugins.flac",
@@ -115,7 +220,6 @@
         "author": "Vladimir Sadovnikov",
         "description": "A collection of open-source audio effects, synthesizers, and tools designed for music and sound production, primarily on the GNU/Linux platform.",
         "license": "lgpl-3.0",
-        "version": "1.2.26",
         "type": "effect",
         "url": "https://github.com/lsp-plugins/lsp-plugins",
         "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/lsp-plugins/lsp-plugins/lsp-plugins.flac",

@@ -8,7 +8,7 @@
   "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/lsp-plugins/lsp-plugins/lsp-plugins.flac",
   "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/lsp-plugins/lsp-plugins/lsp-plugins.jpg",
   "donate": "https://www.patreon.com/c/sadko4u",
-  "date": "2026-03-12T00:00:00.000Z",
+  "date": "2026-04-01T00:00:00.000Z",
   "tags": [
     "Effect",
     "Rack",
@@ -19,7 +19,7 @@
     "Dynamics",
     "Host"
   ],
-  "changes": "- Plugin launcher for standalone\n- New Paper UI theme\n- Filter decramping for EQ/filters\n- Stereo wet EQ for convolution plugins\n- CLI schema selection\n- Keyboard shortcuts, preset scrolling\n- APO equalizer support\n- UI and delay optimizations\n",
+  "changes": "* Launcher multi-plugin launch.\n* Latency Detector sample display.\n* AVX-512 DSP optimizations.\n* Haiku support improvements.\n* Sidechain ring buffer optimization.\n* Parametric EQ note quantization fix.\n* Various bug and memory leak fixes.\n",
   "files": [
     {
       "systems": [
@@ -37,9 +37,9 @@
         "so"
       ],
       "type": "archive",
-      "size": 36849369,
-      "sha256": "2111487fdedcbb7ef64585cf2cb65b496bc870f28171e48af859cd74077fc3e5",
-      "url": "https://github.com/lsp-plugins/lsp-plugins/releases/download/1.2.27/lsp-plugins-1.2.27-Linux-aarch64.7z"
+      "size": 36865559,
+      "sha256": "92ae3bc6ed2b09c214a3589668a6d72eef8898243f1e7b9dde11ebc0e6e48da8",
+      "url": "https://github.com/lsp-plugins/lsp-plugins/releases/download/1.2.29/lsp-plugins-1.2.29-Linux-aarch64.7z"
     },
     {
       "systems": [
@@ -57,9 +57,9 @@
         "so"
       ],
       "type": "archive",
-      "size": 30612299,
-      "sha256": "b3b6a1c3416469367baadf54660698550bb61675a8be02096908334594fa2802",
-      "url": "https://github.com/lsp-plugins/lsp-plugins/releases/download/1.2.27/lsp-plugins-1.2.27-Linux-arm32.7z"
+      "size": 30644513,
+      "sha256": "c8999177b45fc06e1576dee30bcc3f91f7653882209379d919465aa1eed1d461",
+      "url": "https://github.com/lsp-plugins/lsp-plugins/releases/download/1.2.29/lsp-plugins-1.2.29-Linux-arm32.7z"
     },
     {
       "systems": [
@@ -77,9 +77,9 @@
         "so"
       ],
       "type": "archive",
-      "size": 31290800,
-      "sha256": "df586e6927c9151851a66f58b508fec16dad79e8a515ece574186e4d1f08c4e0",
-      "url": "https://github.com/lsp-plugins/lsp-plugins/releases/download/1.2.27/lsp-plugins-1.2.27-Linux-i586.7z"
+      "size": 31323869,
+      "sha256": "4a5bab8bc705f7d178b174e4c47894374fa96dc9899fc49c9fb7f72492df8cd9",
+      "url": "https://github.com/lsp-plugins/lsp-plugins/releases/download/1.2.29/lsp-plugins-1.2.29-Linux-i586.7z"
     },
     {
       "systems": [
@@ -97,9 +97,9 @@
         "so"
       ],
       "type": "archive",
-      "size": 37161173,
-      "sha256": "8009e011dc7215136cd367f196417fc1b0e238f49792987af5444e8dc9ff2c79",
-      "url": "https://github.com/lsp-plugins/lsp-plugins/releases/download/1.2.27/lsp-plugins-1.2.27-Linux-x86_64.7z"
+      "size": 37205657,
+      "sha256": "8467dbe83b1a12f0abccf3c197c208f07cc609d11023f2c38d855dafb799034a",
+      "url": "https://github.com/lsp-plugins/lsp-plugins/releases/download/1.2.29/lsp-plugins-1.2.29-Linux-x86_64.7z"
     }
   ],
   "verified": true
