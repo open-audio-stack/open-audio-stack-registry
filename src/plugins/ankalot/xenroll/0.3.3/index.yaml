@@ -1,0 +1,49 @@
+name: XenRoll
+author: Ankalot
+description: Unique cool piano roll audio plugin
+license: gpl-3.0
+type: tool
+tags:
+  - Instrument
+  - Piano Roll
+  - Microtonal
+url: https://github.com/Ankalot/XenRoll
+audio: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ankalot/xenroll/xenroll.flac
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ankalot/xenroll/xenroll.jpg
+date: '2026-03-13T00:00:00.000Z'
+changes: |
+  - Added clock diagram (you can enable/disable it);
+  - Fixed recording manually played keys & vocal in loop;
+  - Minor UI improvements.
+files:
+  - architectures:
+      - x64
+    contains:
+      - vst3
+      - so
+    sha256: 456b00226a784e450d3f7e58cd304ca9391ee4e0d92e08770e55f73af9a98a0e
+    systems:
+      - type: linux
+    size: 3229196
+    type: archive
+    url: https://github.com/Ankalot/XenRoll/releases/download/v0.3.3/XenRoll_v0.3.3_VST3_linux_x86_64.zip
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - vst3
+    type: archive
+    size: 4848469
+    sha256: 54c1884221198abba3107cc08b05f64aefece9e13bfc6caa4e5aecb7412c9356
+    url: https://github.com/Ankalot/XenRoll/releases/download/v0.3.3/XenRoll_v0.3.3_VST3_windows.zip
+  - architectures:
+      - x64
+    contains:
+      - vst3
+    sha256: 6c8a568e82f73498cef40acec14f223398520803835546e3d4633421d8bc7281
+    systems:
+      - type: mac
+    size: 2617061
+    type: archive
+    url: https://github.com/Ankalot/XenRoll/releases/download/v0.3.3/XenRoll_v0.3.3_VST3_macOS.zip
