@@ -952,6 +952,14 @@
     }
   },
   "ankalot/xenroll": {
+    "0.3.3": {
+      "recs": [
+        {
+          "field": "architectures",
+          "rec": "should support arm64"
+        }
+      ]
+    },
     "0.2.2": {
       "recs": [
         {
