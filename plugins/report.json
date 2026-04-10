@@ -855,6 +855,16 @@
       ]
     }
   },
+  "billydm/ctagdrc": {
+    "1.1.0": {
+      "recs": [
+        {
+          "field": "architectures",
+          "rec": "should support arm64"
+        }
+      ]
+    }
+  },
   "baconpaul/six-sines": {
     "1.1.0": {
       "recs": [

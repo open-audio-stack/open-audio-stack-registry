@@ -1,0 +1,76 @@
+{
+  "name": "CTAG Dynamic Range Compressor",
+  "author": "BillyDM",
+  "description": "An audio compressor plugin",
+  "type": "effect",
+  "license": "gpl-3.0",
+  "tags": [
+    "Effect",
+    "Compressor"
+  ],
+  "url": "https://github.com/BillyDM/CTAGDRC",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/billydm/ctagdrc/ctagdrc.jpg",
+  "date": "2025-12-13T00:00:00.000Z",
+  "changes": "- Sidechain highpass parameter was added\n- Knobs in the UI have been rearranged\n- Fixed an out of bounds bug when processing in mono\n- Fixed an issue with the right input signal not being properly processed (it needed an abs operation added)",
+  "files": [
+    {
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3",
+        "clap",
+        "elf"
+      ],
+      "sha256": "82eb11641479af6a2a9251886de99c6b0073442dec22e32001e8f93144c931a7",
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "size": 7365964,
+      "type": "archive",
+      "url": "https://github.com/BillyDM/CTAGDRC/releases/download/v1.1.0/CTAGDRC-1.1.0-Linux.zip"
+    },
+    {
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3",
+        "clap",
+        "app",
+        "component"
+      ],
+      "sha256": "a1bba6d9b38573932019c005025820929df85c410d4c1ac2c708a750719b0529",
+      "systems": [
+        {
+          "type": "mac"
+        }
+      ],
+      "size": 16501299,
+      "type": "archive",
+      "url": "https://github.com/BillyDM/CTAGDRC/releases/download/v1.1.0/CTAGDRC-1.1.0-macOS.pkg"
+    },
+    {
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3",
+        "clap",
+        "exe"
+      ],
+      "sha256": "dd93086ed0d71f53ea61b495178123f0f9535120e02f2e9407367bd29167f520",
+      "systems": [
+        {
+          "type": "win"
+        }
+      ],
+      "size": 8376369,
+      "type": "installer",
+      "url": "https://github.com/BillyDM/CTAGDRC/releases/download/v1.1.0/CTAGDRC-1.1.0-Windows.exe"
+    }
+  ],
+  "verified": true
+}
