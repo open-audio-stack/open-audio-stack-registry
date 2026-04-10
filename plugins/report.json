@@ -631,6 +631,24 @@
       ]
     }
   },
+  "interspectral6/erode": {
+    "1.0.1": {
+      "recs": [
+        {
+          "field": "architectures",
+          "rec": "should support arm64"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Linux"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Mac"
+        }
+      ]
+    }
+  },
   "igorski/regrader": {
     "1.0.5": {
       "recs": [

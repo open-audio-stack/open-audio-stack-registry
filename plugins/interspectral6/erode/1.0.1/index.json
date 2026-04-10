@@ -1,0 +1,36 @@
+{
+  "name": "Erode",
+  "author": "Interspectral6",
+  "description": "An audio effect inspired by Ableton's Erosion.",
+  "type": "effect",
+  "license": "mit",
+  "tags": [
+    "Effect",
+    "Noise",
+    "Modulation"
+  ],
+  "url": "https://github.com/Interspectral6/Erode",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/interspectral6/erode/erode.jpg",
+  "date": "2026-01-01T00:00:00.000Z",
+  "changes": "- Reduce delay to be inaudible (so that using it on percussive sounds wouldn't be weird)\n- Fix unexpected stereo effects on the cut parameter\n",
+  "files": [
+    {
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3"
+      ],
+      "sha256": "374e5313ffdc47d8dc6851375d005b32d28ea2b8e25d4a54910efeb651de0eed",
+      "systems": [
+        {
+          "type": "win"
+        }
+      ],
+      "size": 2955922,
+      "type": "archive",
+      "url": "https://github.com/Interspectral6/Erode/releases/download/v1.0.1/Erode.vst3.zip"
+    }
+  ],
+  "verified": true
+}
