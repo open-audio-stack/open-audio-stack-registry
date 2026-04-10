@@ -10,6 +10,11 @@
     "name": "Advanced RISC Machine - 64-bit"
   },
   {
+    "description": "Windows 11 on Arm feature which allows native ARM64 and x64 code within the same process.",
+    "value": "arm64ec",
+    "name": "Advanced RISC Machine - 64-bit - Emulation Compatible"
+  },
+  {
     "description": "X86 processors are commonly used in desktop computers and laptops.",
     "value": "x32",
     "name": "x86 machine - 32-bit"
