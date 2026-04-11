@@ -1,0 +1,62 @@
+name: Chorus Ex Machina
+author: Peter Eastman
+description: Physically modelled chorus synthesizer, able to sing realistically in a variety of languages.
+type: instrument
+license: lgpl-2.1
+tags:
+  - Instrument
+  - Synth
+  - Vocal
+url: https://github.com/peastman/ChorusExMachina
+audio: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/peastman/chorus-ex-machina/chorus-ex-machina.flac
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/peastman/chorus-ex-machina/chorus-ex-machina.jpg
+date: '2026-04-05T04:11:00.000Z'
+changes: |
+  This release adds throat radiation, which creates a fuller, more realistic sound.
+files:
+  - architectures:
+      - x64
+    contains:
+      - clap
+      - vst3
+    sha256: ad8631eeace61bf1d02962e0d9ce8792c09f5640817ff19b0fda548c16bfe313
+    systems:
+      - type: linux
+    size: 8570902
+    type: archive
+    url: https://github.com/peastman/ChorusExMachina/releases/download/v1.3/chorus_ex_machina-linux-x86.zip
+  - architectures:
+      - x64
+    contains:
+      - component
+      - clap
+      - vst3
+    sha256: 5a1cf4d3d976488be927175679fbe6fdaaeaf13db385a2fdcafd04df2942cb6e
+    systems:
+      - type: mac
+    size: 12057725
+    type: archive
+    url: https://github.com/peastman/ChorusExMachina/releases/download/v1.3/chorus_ex_machina-mac-x86.zip
+  - architectures:
+      - arm64
+    contains:
+      - component
+      - clap
+      - vst3
+    sha256: 5962558a4313eb1c018ee50c45476a1bd62a08d387aaa86c51519a0b56261c9a
+    systems:
+      - type: mac
+    size: 11767212
+    type: archive
+    url: https://github.com/peastman/ChorusExMachina/releases/download/v1.3/chorus_ex_machina-mac-arm.zip
+  - architectures:
+      - x64
+    contains:
+      - clap
+      - vst3
+    sha256: e9fd7161cbce35a66718e7e88112ebe920f38fd421218c1cc2cf081595ab20e9
+    systems:
+      - type: win
+    size: 7182011
+    type: archive
+    url: https://github.com/peastman/ChorusExMachina/releases/download/v1.3/chorus_ex_machina-windows-x86.zip
