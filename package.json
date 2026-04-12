@@ -18,6 +18,7 @@
     "copy": "cp -rf ./src/apps ./out && cp -rf ./src/plugins ./out && cp -rf ./src/presets ./out && cp -rf ./src/projects ./out",
     "dev": "tsx ./src/index.ts",
     "dev:reorder": "tsx ./src/reorder.ts",
+    "dev:upgrade": "tsx ./src/upgrade.ts",
     "dev:validate": "tsx ./src/validate.ts",
     "dev:validate:all": "for file in $(find src -type f -name '*.yaml'); do node ./build/validate.js $file; done",
     "format": "prettier . --write",
