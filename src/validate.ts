@@ -71,16 +71,3 @@ if (!fileExists(imagePathLocal)) {
     },
   ] as ZodIssue[]);
 }
-
-// Test a real installation on this operating system
-// console.log('-------- Install --------');
-// const managerConfig: ConfigInterface = {
-//   appDir: 'test',
-//   pluginsDir: 'test/plugins',
-//   presetsDir: 'test/presets',
-//   projectsDir: 'test/projects',
-// };
-// const manager: ManagerLocal = new ManagerLocal(type as RegistryType, managerConfig);
-// manager.logEnable();
-// manager.addPackage(pkg);
-// manager.install(slug, version);
