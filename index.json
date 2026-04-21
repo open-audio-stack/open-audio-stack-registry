@@ -3418,6 +3418,107 @@
         }
       }
     },
+    "peastman/viola-ex-machina": {
+      "slug": "peastman/viola-ex-machina",
+      "version": "1.3.0",
+      "versions": {
+        "1.3.0": {
+          "name": "Viola Ex Machina",
+          "author": "Peter Eastman",
+          "description": "Physically inspired synthesizer for stringed instruments: violin, viola, cello, and bass, both solo instruments and ensembles.",
+          "type": "instrument",
+          "license": "lgpl-2.1",
+          "tags": [
+            "Instrument",
+            "Synth",
+            "Strings",
+            "Classical"
+          ],
+          "url": "https://github.com/peastman/ViolaExMachina",
+          "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/peastman/viola-ex-machina/viola-ex-machina.flac",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/peastman/viola-ex-machina/viola-ex-machina.jpg",
+          "date": "2026-04-05T04:11:00.000Z",
+          "changes": "This release adds two new articulations, glissando and col legno battuto. It also has improvements to sound quality, especially for cello and bass.\n",
+          "files": [
+            {
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "clap",
+                "vst3"
+              ],
+              "sha256": "9aa3f039219d987d2495e2edf71f33c35c14022452e5344ce5dfdf98696822ff",
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "size": 12682124,
+              "type": "archive",
+              "url": "https://github.com/peastman/ViolaExMachina/releases/download/v1.3/viola_ex_machina-linux-x86.zip"
+            },
+            {
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "component",
+                "clap",
+                "vst3"
+              ],
+              "sha256": "de31c96ab5c4847d4b09e3612dbf67bd58687fa233fb43e13dd70a27566691c0",
+              "systems": [
+                {
+                  "type": "mac"
+                }
+              ],
+              "size": 17915172,
+              "type": "archive",
+              "url": "https://github.com/peastman/ViolaExMachina/releases/download/v1.3/viola_ex_machina-mac-x86.zip"
+            },
+            {
+              "architectures": [
+                "arm64"
+              ],
+              "contains": [
+                "component",
+                "clap",
+                "vst3"
+              ],
+              "sha256": "194d009443f621d1d368adb48e623b5e565945a49d563e0b205af581a9ccdbe0",
+              "systems": [
+                {
+                  "type": "mac"
+                }
+              ],
+              "size": 16813312,
+              "type": "archive",
+              "url": "https://github.com/peastman/ViolaExMachina/releases/download/v1.3/viola_ex_machina-mac-arm.zip"
+            },
+            {
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "clap",
+                "vst3"
+              ],
+              "sha256": "005ad6c6804c66457acfd7f750ef069b8cd2fa2976339704f6db4672a29273e3",
+              "systems": [
+                {
+                  "type": "win"
+                }
+              ],
+              "size": 10579290,
+              "type": "archive",
+              "url": "https://github.com/peastman/ViolaExMachina/releases/download/v1.3/viola_ex_machina-windows-x86.zip"
+            }
+          ],
+          "verified": true
+        }
+      }
+    },
     "peastman/sonatina-symphonic-orchestra": {
       "slug": "peastman/sonatina-symphonic-orchestra",
       "version": "4.0.0",
