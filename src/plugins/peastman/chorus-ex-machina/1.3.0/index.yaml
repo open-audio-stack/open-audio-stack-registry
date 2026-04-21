@@ -1,7 +1,6 @@
 name: Chorus Ex Machina
 author: Peter Eastman
-description: Physically modelled chorus synthesizer, able to sing realistically in a
-  variety of languages.
+description: Physically modelled chorus synthesizer, able to sing realistically in a variety of languages.
 type: instrument
 license: lgpl-2.1
 tags:
@@ -11,9 +10,9 @@ tags:
 url: https://github.com/peastman/ChorusExMachina
 audio: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/peastman/chorus-ex-machina/chorus-ex-machina.flac
 image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/peastman/chorus-ex-machina/chorus-ex-machina.jpg
-date: '2026-04-05T22:14:43Z'
-changes: Replaces chest resonance with throat radiation.  It produces a similar effect
-  but avoids distorting the consonants.
+date: '2026-04-05T04:11:00.000Z'
+changes: |
+  This release adds throat radiation, which creates a fuller, more realistic sound.
 files:
   - architectures:
       - x64
