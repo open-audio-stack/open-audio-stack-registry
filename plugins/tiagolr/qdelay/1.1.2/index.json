@@ -1,0 +1,79 @@
+{
+  "name": "QDelay",
+  "author": "TiagoLr",
+  "description": "A dual-delay with more features than it should.",
+  "license": "gpl-3.0",
+  "type": "effect",
+  "tags": [
+    "Delay",
+    "Reverb",
+    "Pitch-shifter",
+    "Tape Delay",
+    "Analog Delay",
+    "Saturation",
+    "Ping-pong delay"
+  ],
+  "url": "https://github.com/tiagolr/qdelay",
+  "donate": "https://www.buymeacoffee.com/tilr",
+  "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/tiagolr/qdelay/qdelay.flac",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/tiagolr/qdelay/qdelay.jpg",
+  "date": "2026-03-22T04:33:34Z",
+  "changes": "Clear all on host reset()\r\nRemove clear on stop and clear on loop\r\nInvert time pickers range",
+  "files": [
+    {
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3",
+        "lv2"
+      ],
+      "sha256": "3127713fd2aa9dabfc8dc52912f40be983c9c057c1cee0c090bdc50c98b1c101",
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "size": 5451971,
+      "type": "archive",
+      "url": "https://github.com/tiagolr/qdelay/releases/download/v1.1.2/qdelay-linux-v1.1.2.zip"
+    },
+    {
+      "architectures": [
+        "x64",
+        "arm64"
+      ],
+      "contains": [
+        "vst3",
+        "component"
+      ],
+      "sha256": "44a6e68f62c60f14b6ae3da64e93387af51682aadcd421b51e53078fb6642fcf",
+      "systems": [
+        {
+          "type": "mac"
+        }
+      ],
+      "size": 8795936,
+      "type": "archive",
+      "url": "https://github.com/tiagolr/qdelay/releases/download/v1.1.2/qdelay-macos-v1.1.2.zip"
+    },
+    {
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3"
+      ],
+      "sha256": "629bd9c82daf1f0b6653f47e0a9df7ae8b33f2db847e2bb6c02d7784aec8f9ae",
+      "systems": [
+        {
+          "type": "win"
+        }
+      ],
+      "size": 3341979,
+      "type": "archive",
+      "url": "https://github.com/tiagolr/qdelay/releases/download/v1.1.2/qdelay-win-v1.1.2.zip"
+    }
+  ],
+  "verified": true
+}

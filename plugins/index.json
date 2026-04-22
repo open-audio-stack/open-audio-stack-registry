@@ -257,8 +257,82 @@
   },
   "utokusa/os-251": {
     "slug": "utokusa/os-251",
-    "version": "1.2.1",
+    "version": "1.3.0",
     "versions": {
+      "1.3.0": {
+        "name": "OS-251",
+        "author": "Utokusa",
+        "description": "JUNO style digital subtractive synthesizer with a simple yet powerful DSP algorithm.",
+        "license": "gpl-3.0",
+        "type": "instrument",
+        "tags": [
+          "Instrument",
+          "Synth",
+          "Lo-fi"
+        ],
+        "url": "https://github.com/utokusa/OS-251",
+        "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/utokusa/os-251/os-251.flac",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/utokusa/os-251/os-251.jpg",
+        "date": "2025-01-11T11:02:04Z",
+        "changes": "- Upgrade JUCE to 7.0.12\r\n- Minor UI fix",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "lv2",
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 8621948,
+            "sha256": "862ddc6e7f63fc6a478b513bdb0d257dcb6fa0b32c7f5bd20c47c369c252eda5",
+            "url": "https://github.com/utokusa/OS-251/releases/download/v1.3.0/OS-251-Linux.zip"
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "component",
+              "vst3"
+            ],
+            "type": "installer",
+            "size": 14645710,
+            "sha256": "06b62a2e06301957102526bc3ceb6f070c1a20cae2abc9884054a205df9b7415",
+            "url": "https://github.com/utokusa/OS-251/releases/download/v1.3.0/OS-251-macOS.dmg"
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "dll",
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 2397407,
+            "sha256": "f60d40af58cf55b2131f4d2fdfe283f1434c01a26722fc55389d4db5f7c1b6d1",
+            "url": "https://github.com/utokusa/OS-251/releases/download/v1.3.0/OS-251-Windows.zip"
+          }
+        ],
+        "verified": true
+      },
       "1.2.1": {
         "name": "OS-251",
         "author": "Utokusa",
@@ -663,6 +737,81 @@
         ],
         "verified": true
       },
+      "1.2.2": {
+        "name": "TIME-12",
+        "author": "TiagoLr",
+        "description": "Delay modulator similar to plugins like GrossBeat or TimeShaper. Can be used for stutter effects, tape stop, glitch, scratch, reverse, pitch shift and more.",
+        "license": "gpl-3.0",
+        "type": "effect",
+        "tags": [
+          "Effect",
+          "Modulation",
+          "Delay"
+        ],
+        "url": "https://github.com/tiagolr/time12",
+        "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/tiagolr/time12/time12.flac",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/tiagolr/time12/time12.jpg",
+        "date": "2025-11-16T23:28:06Z",
+        "changes": "Fixed wrong audio display in Ardour DAW",
+        "files": [
+          {
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "lv2",
+              "vst3"
+            ],
+            "sha256": "50b0683162221b445cc447afdb4bbe1a87354d7f2282e33d7c8943b78b913b3a",
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "size": 5065935,
+            "type": "archive",
+            "url": "https://github.com/tiagolr/time12/releases/download/v1.2.2/time12-linux-v1.2.2.zip"
+          },
+          {
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "component",
+              "lv2",
+              "vst3"
+            ],
+            "sha256": "154270fb6d1a30ac65c5642849f1445ff8531572d82ae77feaf78d38ae244a0b",
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "size": 12313228,
+            "type": "archive",
+            "url": "https://github.com/tiagolr/time12/releases/download/v1.2.2/time12-macos-v1.2.2.zip"
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "lv2",
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 5544638,
+            "sha256": "1c80421cda934a5a0c7f75af427d24358921e182b953ad92a120d19d095f0a4e",
+            "url": "https://github.com/tiagolr/time12/releases/download/v1.2.2/time12-win-v1.2.2.zip"
+          }
+        ],
+        "verified": true
+      },
       "1.1.8": {
         "name": "TIME-12",
         "author": "TiagoLr",
@@ -742,8 +891,83 @@
   },
   "tiagolr/reevr": {
     "slug": "tiagolr/reevr",
-    "version": "1.0.2",
+    "version": "1.4.0",
     "versions": {
+      "1.4.0": {
+        "name": "REEV-R",
+        "author": "TiagoLr",
+        "description": "Convolution reverb with modulation for pre/send and post/volume signals.",
+        "license": "gpl-3.0",
+        "type": "effect",
+        "tags": [
+          "Modulation",
+          "Convolution",
+          "Reverb"
+        ],
+        "url": "https://github.com/tiagolr/reevr",
+        "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/tiagolr/reevr/reevr.flac",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/tiagolr/reevr/reevr.jpg",
+        "date": "2026-01-22T17:50:32Z",
+        "changes": "Add band splitting\r\nFix crash when transforming send or reverb amount\r\nFix UI scale not being recalled",
+        "files": [
+          {
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "lv2"
+            ],
+            "sha256": "243da8bd8b90e60372f75ddea9a6ae54c5a1dd7f2071b0050e47ed613c511f8f",
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "size": 7549063,
+            "type": "archive",
+            "url": "https://github.com/tiagolr/reevr/releases/download/v1.4.0/reevr-linux-v1.4.0.zip"
+          },
+          {
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "component",
+              "lv2",
+              "vst3"
+            ],
+            "sha256": "92e069e942ac0f286169b32d0fd175483a10e07da6470a3582c93cc8a741c9e3",
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "size": 19300930,
+            "type": "archive",
+            "url": "https://github.com/tiagolr/reevr/releases/download/v1.4.0/reevr-macos-v1.4.0.zip"
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "lv2"
+            ],
+            "type": "archive",
+            "size": 7730204,
+            "sha256": "d22f2c2421f4d3b52040bad8878ec37c96f1c69413f231f689769833dfffb864",
+            "url": "https://github.com/tiagolr/reevr/releases/download/v1.4.0/reevr-win-v1.4.0.zip"
+          }
+        ],
+        "verified": true
+      },
       "1.0.2": {
         "name": "REEV-R",
         "author": "TiagoLr",
@@ -823,8 +1047,87 @@
   },
   "tiagolr/qdelay": {
     "slug": "tiagolr/qdelay",
-    "version": "1.0.3",
+    "version": "1.1.2",
     "versions": {
+      "1.1.2": {
+        "name": "QDelay",
+        "author": "TiagoLr",
+        "description": "A dual-delay with more features than it should.",
+        "license": "gpl-3.0",
+        "type": "effect",
+        "tags": [
+          "Delay",
+          "Reverb",
+          "Pitch-shifter",
+          "Tape Delay",
+          "Analog Delay",
+          "Saturation",
+          "Ping-pong delay"
+        ],
+        "url": "https://github.com/tiagolr/qdelay",
+        "donate": "https://www.buymeacoffee.com/tilr",
+        "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/tiagolr/qdelay/qdelay.flac",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/tiagolr/qdelay/qdelay.jpg",
+        "date": "2026-03-22T04:33:34Z",
+        "changes": "Clear all on host reset()\r\nRemove clear on stop and clear on loop\r\nInvert time pickers range",
+        "files": [
+          {
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "lv2"
+            ],
+            "sha256": "3127713fd2aa9dabfc8dc52912f40be983c9c057c1cee0c090bdc50c98b1c101",
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "size": 5451971,
+            "type": "archive",
+            "url": "https://github.com/tiagolr/qdelay/releases/download/v1.1.2/qdelay-linux-v1.1.2.zip"
+          },
+          {
+            "architectures": [
+              "x64",
+              "arm64"
+            ],
+            "contains": [
+              "vst3",
+              "component"
+            ],
+            "sha256": "44a6e68f62c60f14b6ae3da64e93387af51682aadcd421b51e53078fb6642fcf",
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "size": 8795936,
+            "type": "archive",
+            "url": "https://github.com/tiagolr/qdelay/releases/download/v1.1.2/qdelay-macos-v1.1.2.zip"
+          },
+          {
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "sha256": "629bd9c82daf1f0b6653f47e0a9df7ae8b33f2db847e2bb6c02d7784aec8f9ae",
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "size": 3341979,
+            "type": "archive",
+            "url": "https://github.com/tiagolr/qdelay/releases/download/v1.1.2/qdelay-win-v1.1.2.zip"
+          }
+        ],
+        "verified": true
+      },
       "1.0.3": {
         "name": "QDelay",
         "author": "TiagoLr",
@@ -984,6 +1287,80 @@
         ],
         "verified": true
       },
+      "1.3.2": {
+        "name": "GATE-12",
+        "author": "TiagoLr",
+        "description": "Cross-platform envelope generator for gate/volume control inspired by plugins like GrossBeat and ShaperBox.",
+        "license": "gpl-3.0",
+        "type": "effect",
+        "tags": [
+          "Effect",
+          "Gate"
+        ],
+        "url": "https://github.com/tiagolr/gate12",
+        "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/tiagolr/gate12/gate12.flac",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/tiagolr/gate12/gate12.jpg",
+        "date": "2026-01-20T17:24:04Z",
+        "changes": "Band split - switch 12dB filters to Linkwitz-Riley Minimum Phase\r\nBand split - add 24dB Linkwitz-Riley",
+        "files": [
+          {
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "lv2"
+            ],
+            "sha256": "580e4728ee9e4cfa32321c6f22783b7ddb570640a4dee398c704613a527656de",
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "size": 5136066,
+            "type": "archive",
+            "url": "https://github.com/tiagolr/gate12/releases/download/v1.3.2/gate12-linux-v1.3.2.zip"
+          },
+          {
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "component",
+              "lv2",
+              "vst3"
+            ],
+            "sha256": "1edc8651811b2d6bf412b5d00d28de46559f2b3d170ffea182206bae95a00b1f",
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "size": 12504581,
+            "type": "archive",
+            "url": "https://github.com/tiagolr/gate12/releases/download/v1.3.2/gate12-macos-v1.3.2.zip"
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "lv2"
+            ],
+            "type": "archive",
+            "size": 6383922,
+            "sha256": "18135fe98d46ac359bf73d7d1929e9141a151663afd7f29479def5c44d85b78f",
+            "url": "https://github.com/tiagolr/gate12/releases/download/v1.3.2/gate12-win-v1.3.2.zip"
+          }
+        ],
+        "verified": true
+      },
       "1.1.8": {
         "name": "GATE-12",
         "author": "TiagoLr",
@@ -1062,8 +1439,83 @@
   },
   "tiagolr/filtr": {
     "slug": "tiagolr/filtr",
-    "version": "1.0.9",
+    "version": "1.1.0",
     "versions": {
+      "1.1.0": {
+        "name": "FILT-R",
+        "author": "TiagoLr",
+        "description": "Cross-platform filter modulator based on plugins like ShaperBox and FilterShaper.",
+        "license": "gpl-3.0",
+        "type": "effect",
+        "tags": [
+          "Envelope",
+          "Modulation",
+          "Filter"
+        ],
+        "url": "https://github.com/tiagolr/filtr",
+        "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/tiagolr/filtr/filtr.flac",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/tiagolr/filtr/filtr.jpg",
+        "date": "2025-11-06T20:26:02Z",
+        "changes": "Points movement no longer constrained by next and prev points.\r\nAdd more time options to sync rate 1/32 1/64 1/128 1/256.\r\nAdded Half Sine point mode.",
+        "files": [
+          {
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "lv2"
+            ],
+            "sha256": "b6388c7869f7f9ea9ee33e055f2768ba734d4e3e4b35770222f314ce000ac57f",
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "size": 5311016,
+            "type": "archive",
+            "url": "https://github.com/tiagolr/filtr/releases/download/v1.1.0/filtr-linux-v1.1.0.zip"
+          },
+          {
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "component",
+              "lv2",
+              "vst3"
+            ],
+            "sha256": "5c1d3995e870bd28b854f104a24dbea3e56754d16a0a37a553c865d0671ab21b",
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "size": 12946282,
+            "type": "archive",
+            "url": "https://github.com/tiagolr/filtr/releases/download/v1.1.0/filtr-macos-v1.1.0.zip"
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "lv2"
+            ],
+            "type": "archive",
+            "size": 6496292,
+            "sha256": "67981cf69f2ad5f95e49888db67f80bcb4eb8fa3f14da636222f1bde1b52a4f3",
+            "url": "https://github.com/tiagolr/filtr/releases/download/v1.1.0/filtr-win-v1.1.0.zip"
+          }
+        ],
+        "verified": true
+      },
       "1.0.9": {
         "name": "FILT-R",
         "author": "TiagoLr",
@@ -1901,8 +2353,131 @@
   },
   "sjoerdvankreel/firefly-synth-2": {
     "slug": "sjoerdvankreel/firefly-synth-2",
-    "version": "2.1.0",
+    "version": "2.1.2",
     "versions": {
+      "2.1.2": {
+        "name": "Firefly Synth 2",
+        "author": "Sjoerd van Kreel",
+        "description": "Semi-modular synth.",
+        "license": "gpl-3.0",
+        "type": "instrument",
+        "tags": [
+          "Instrument",
+          "Synth"
+        ],
+        "url": "https://github.com/sjoerdvankreel/firefly-synth-2",
+        "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sjoerdvankreel/firefly-synth-2/firefly-synth-2.flac",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sjoerdvankreel/firefly-synth-2/firefly-synth-2.jpg",
+        "date": "2026-03-25T19:09:06Z",
+        "changes": "- Add compressor as an effect type.\r\n- Add sidechain support for FX build.\r\n- Master softclip now defaults to off.\r\n- Add new routing controls for FX build GMix for sidechain.\r\n- FX global echo can now target main input and sidechain input.\r\n- FX oscillat",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "clap"
+            ],
+            "type": "archive",
+            "sha256": "bea4b22da4e40e5f1c640cb06700f7fa0718b412230d3f30287d202af23409a4",
+            "size": 5246324,
+            "url": "https://github.com/sjoerdvankreel/firefly-synth-2/releases/download/v2.1.2/FireflySynth2-linux-clap-Release.zip"
+          },
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "sha256": "a9664a1a89431dfd9c3e6b3827006add5a59f9b719acbf9783f72ffcd3a4d3a9",
+            "size": 5278065,
+            "url": "https://github.com/sjoerdvankreel/firefly-synth-2/releases/download/v2.1.2/FireflySynth2-linux-vst3-Release.zip"
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "clap"
+            ],
+            "type": "archive",
+            "sha256": "f6a6078dcfaa9c39b41da831dcbde152a3b15587a28c858c242ea31e5be58296",
+            "size": 7750069,
+            "url": "https://github.com/sjoerdvankreel/firefly-synth-2/releases/download/v2.1.2/FireflySynth2-mac-clap-Release.zip"
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "sha256": "7caf221ba447511e0cb922c4af8303aa72e3f5f9610ce2456ac5112facdf113b",
+            "size": 7782252,
+            "url": "https://github.com/sjoerdvankreel/firefly-synth-2/releases/download/v2.1.2/FireflySynth2-mac-vst3-Release.zip"
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "clap"
+            ],
+            "type": "archive",
+            "sha256": "d860d0fc226cbd2ce5ac9132063707e9362c2c1edd0af5a2d9e2520574f577cb",
+            "size": 5303465,
+            "url": "https://github.com/sjoerdvankreel/firefly-synth-2/releases/download/v2.1.2/FireflySynth2-windows-clap-Release.zip"
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "sha256": "10d03c50b83730654d9a6a628384eb2a1d8bf5de0a33f71a715f0af54055b9fc",
+            "size": 5342217,
+            "url": "https://github.com/sjoerdvankreel/firefly-synth-2/releases/download/v2.1.2/FireflySynth2-windows-vst3-Release.zip"
+          }
+        ],
+        "verified": true
+      },
       "2.1.0": {
         "name": "Firefly Synth 2",
         "author": "Sjoerd van Kreel",
@@ -2165,8 +2740,55 @@
   },
   "sfzinstruments/virtuosity_drums": {
     "slug": "sfzinstruments/virtuosity_drums",
-    "version": "0.9.24",
+    "version": "0.924.0",
     "versions": {
+      "0.924.0": {
+        "name": "Virtuosity Drums",
+        "author": "Versilian Studios",
+        "description": "Contemporary Jazz drum kit library, performed with sticks, recorded at Virtuosity Musical Instruments in Boston, MA.",
+        "license": "cc0-1.0",
+        "type": "sampler",
+        "tags": [
+          "Instrument",
+          "Drums",
+          "Jazz",
+          "sfz"
+        ],
+        "url": "https://github.com/sfzinstruments/virtuosity_drums",
+        "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/virtuosity_drums/virtuosity-drums.flac",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/virtuosity_drums/virtuosity-drums.jpg",
+        "date": "2022-09-21T07:19:31Z",
+        "changes": "Bugfix release for ride and crash cymbal mappings. In earlier versions, velocity of exactly 44 would result in every fourth round robin not playing for the flat ride, ride as ride, crash and sizzle crash keys. Thanks to the anon user who found and fixed t",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "linux"
+              },
+              {
+                "type": "mac"
+              },
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "arm32",
+              "arm64",
+              "x32",
+              "x64"
+            ],
+            "contains": [
+              "sfz"
+            ],
+            "type": "archive",
+            "size": 1227222816,
+            "sha256": "a8e0da36cfe0a3832f09c24116139e3f72806144d10f3091dcc91e1636118fab",
+            "url": "https://github.com/sfzinstruments/virtuosity_drums/releases/download/v0.924/Virtuosity_Drums_v0.924.zip"
+          }
+        ],
+        "verified": true
+      },
       "0.9.24": {
         "name": "Virtuosity Drums",
         "author": "Versilian Studios",
@@ -4879,6 +5501,112 @@
         ],
         "verified": true
       },
+      "1.2.25": {
+        "name": "LSP Plugins",
+        "author": "Vladimir Sadovnikov",
+        "description": "A collection of open-source audio effects, synthesizers, and tools designed for music and sound production, primarily on the GNU/Linux platform.",
+        "license": "lgpl-3.0",
+        "type": "effect",
+        "tags": [
+          "Delay",
+          "Chorus",
+          "Compressor",
+          "Filter",
+          "Flanger",
+          "Gate",
+          "Mixer",
+          "Sampler"
+        ],
+        "url": "https://github.com/lsp-plugins/lsp-plugins",
+        "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/lsp-plugins/lsp-plugins/lsp-plugins.flac",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/lsp-plugins/lsp-plugins/lsp-plugins.jpg",
+        "donate": "https://www.patreon.com/c/sadko4u",
+        "date": "2025-11-03T22:46:25Z",
+        "changes": "* Improved plugin metadata validation tool in plugin framework.\r\n* VST3 data synchronization between DSP and UI is now performed in the UI thread if possible.\r\n* Fixed VST3 crash on JUCE-based hosts related to improper IRunLoop handling.\r\n* Fixed Room Bui",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "arm64"
+            ],
+            "contains": [
+              "clap",
+              "lv2",
+              "vst3",
+              "so"
+            ],
+            "type": "archive",
+            "size": 10662781,
+            "sha256": "0fb5572f81d203d4b6135587c4969362a6f00d63edf9867b24b45b5598e87f21",
+            "url": "https://github.com/lsp-plugins/lsp-plugins/releases/download/1.2.25/lsp-plugins-1.2.25-Linux-aarch64.7z"
+          },
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "arm32"
+            ],
+            "contains": [
+              "clap",
+              "lv2",
+              "vst3",
+              "so"
+            ],
+            "type": "archive",
+            "size": 6510025,
+            "sha256": "e9dd6fe4cb86e5c3f3c1f1398e794a4f4d952e4aa8715259026aefba951ad7d1",
+            "url": "https://github.com/lsp-plugins/lsp-plugins/releases/download/1.2.25/lsp-plugins-1.2.25-Linux-arm32.7z"
+          },
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x32"
+            ],
+            "contains": [
+              "clap",
+              "lv2",
+              "vst3",
+              "so"
+            ],
+            "type": "archive",
+            "size": 6849152,
+            "sha256": "9b1249947c2633d92dc6f911f90b360c4a3fde3bc57360eb8ea59603365403e1",
+            "url": "https://github.com/lsp-plugins/lsp-plugins/releases/download/1.2.25/lsp-plugins-1.2.25-Linux-i586.7z"
+          },
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "clap",
+              "lv2",
+              "vst3",
+              "so"
+            ],
+            "type": "archive",
+            "size": 9870936,
+            "sha256": "e6481e12805f98f26c77919c3b72d15dd87e0f0c1a9458a4d91e5d09fa47872f",
+            "url": "https://github.com/lsp-plugins/lsp-plugins/releases/download/1.2.25/lsp-plugins-1.2.25-Linux-x86_64.7z"
+          }
+        ],
+        "verified": true
+      },
       "1.2.23": {
         "name": "LSP Plugins",
         "author": "Vladimir Sadovnikov",
@@ -6427,7 +7155,7 @@
   },
   "falktx/carla": {
     "slug": "falktx/carla",
-    "version": "2.5.9",
+    "version": "2.5.10",
     "versions": {
       "2.5.9": {
         "name": "Carla",
@@ -6484,6 +7212,65 @@
             "size": 246800688,
             "sha256": "de0091c4cc5fdcfdb4f589434d6e23554790d9b6c484908f7e31afebfd627565",
             "url": "https://github.com/falkTX/Carla/releases/download/v2.5.9/Carla-2.5.9-win64.zip"
+          }
+        ],
+        "verified": true
+      },
+      "2.5.10": {
+        "name": "Carla",
+        "author": "Filipe Coelho",
+        "description": "Audio plugin host, with support for many audio drivers and plugin formats.",
+        "license": "gpl-3.0",
+        "type": "tool",
+        "tags": [
+          "Host",
+          "Player",
+          "Automation"
+        ],
+        "url": "https://github.com/falkTX/Carla",
+        "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/falktx/carla/carla.flac",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/falktx/carla/carla.jpg",
+        "date": "2025-07-31T18:05:01Z",
+        "changes": "- Compatibility with pyliblo3 for Carla-Control\r\n- Fix a few compiler warnings\r\n- Fix alignment of LV2 Atom buffers\r\n- Fix broken MIDI program and bank messages for experimental JACK applications\r\n- Fix use of JackPortIsCV\r\n- Remove false tooltips (remain",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "app",
+              "lv2",
+              "vst"
+            ],
+            "type": "installer",
+            "size": 368461548,
+            "sha256": "a30e98409974493ade18f598566628369fee67f179a84e1c2cc3ae46a71808b1",
+            "url": "https://github.com/falkTX/Carla/releases/download/v2.5.10/Carla-2.5.10-macOS-universal.dmg"
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "dll",
+              "exe",
+              "lv2"
+            ],
+            "type": "archive",
+            "size": 247507775,
+            "sha256": "56264cd860b3e6e7b29221fb1e46d7d8a288fb001500f830bcd739ec7b115650",
+            "url": "https://github.com/falkTX/Carla/releases/download/v2.5.10/Carla-2.5.10-win64.zip"
           }
         ],
         "verified": true
@@ -9241,6 +10028,61 @@
             "size": 2617061,
             "type": "archive",
             "url": "https://github.com/Ankalot/XenRoll/releases/download/v0.3.3/XenRoll_v0.3.3_VST3_macOS.zip"
+          }
+        ],
+        "verified": true
+      },
+      "0.3.2": {
+        "name": "XenRoll",
+        "author": "Ankalot",
+        "description": "Unique cool piano roll audio plugin",
+        "license": "gpl-3.0",
+        "type": "tool",
+        "tags": [
+          "Instrument",
+          "Piano Roll",
+          "Microtonal"
+        ],
+        "url": "https://github.com/Ankalot/XenRoll",
+        "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ankalot/xenroll/xenroll.flac",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ankalot/xenroll/xenroll.jpg",
+        "date": "2026-03-02T12:01:47Z",
+        "changes": "* Added ability to record manually played keys (new button);\r\n* Fixed some small bugs.",
+        "files": [
+          {
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "so"
+            ],
+            "sha256": "d472ebd2eaaf091e7e2403f7250ec053224db6c3389c782608531aaf118397b2",
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "size": 3217817,
+            "type": "archive",
+            "url": "https://github.com/Ankalot/XenRoll/releases/download/v0.3.2/XenRoll_v0.3.2_VST3_linux_x86_64.zip"
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 4840734,
+            "sha256": "75df6996829e0df5f84f270ac00e8bc914472b450b0cf689f053683a03de689f",
+            "url": "https://github.com/Ankalot/XenRoll/releases/download/v0.3.2/XenRoll_v0.3.2_VST3_windows.zip"
           }
         ],
         "verified": true

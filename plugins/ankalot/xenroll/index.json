@@ -74,6 +74,61 @@
       ],
       "verified": true
     },
+    "0.3.2": {
+      "name": "XenRoll",
+      "author": "Ankalot",
+      "description": "Unique cool piano roll audio plugin",
+      "license": "gpl-3.0",
+      "type": "tool",
+      "tags": [
+        "Instrument",
+        "Piano Roll",
+        "Microtonal"
+      ],
+      "url": "https://github.com/Ankalot/XenRoll",
+      "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ankalot/xenroll/xenroll.flac",
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ankalot/xenroll/xenroll.jpg",
+      "date": "2026-03-02T12:01:47Z",
+      "changes": "* Added ability to record manually played keys (new button);\r\n* Fixed some small bugs.",
+      "files": [
+        {
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "vst3",
+            "so"
+          ],
+          "sha256": "d472ebd2eaaf091e7e2403f7250ec053224db6c3389c782608531aaf118397b2",
+          "systems": [
+            {
+              "type": "linux"
+            }
+          ],
+          "size": 3217817,
+          "type": "archive",
+          "url": "https://github.com/Ankalot/XenRoll/releases/download/v0.3.2/XenRoll_v0.3.2_VST3_linux_x86_64.zip"
+        },
+        {
+          "systems": [
+            {
+              "type": "win"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "vst3"
+          ],
+          "type": "archive",
+          "size": 4840734,
+          "sha256": "75df6996829e0df5f84f270ac00e8bc914472b450b0cf689f053683a03de689f",
+          "url": "https://github.com/Ankalot/XenRoll/releases/download/v0.3.2/XenRoll_v0.3.2_VST3_windows.zip"
+        }
+      ],
+      "verified": true
+    },
     "0.2.2": {
       "name": "XenRoll",
       "author": "Ankalot",

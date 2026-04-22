@@ -1,0 +1,75 @@
+{
+  "name": "FILT-R",
+  "author": "TiagoLr",
+  "description": "Cross-platform filter modulator based on plugins like ShaperBox and FilterShaper.",
+  "license": "gpl-3.0",
+  "type": "effect",
+  "tags": [
+    "Envelope",
+    "Modulation",
+    "Filter"
+  ],
+  "url": "https://github.com/tiagolr/filtr",
+  "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/tiagolr/filtr/filtr.flac",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/tiagolr/filtr/filtr.jpg",
+  "date": "2025-11-06T20:26:02Z",
+  "changes": "Points movement no longer constrained by next and prev points.\r\nAdd more time options to sync rate 1/32 1/64 1/128 1/256.\r\nAdded Half Sine point mode.",
+  "files": [
+    {
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3",
+        "lv2"
+      ],
+      "sha256": "b6388c7869f7f9ea9ee33e055f2768ba734d4e3e4b35770222f314ce000ac57f",
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "size": 5311016,
+      "type": "archive",
+      "url": "https://github.com/tiagolr/filtr/releases/download/v1.1.0/filtr-linux-v1.1.0.zip"
+    },
+    {
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "component",
+        "lv2",
+        "vst3"
+      ],
+      "sha256": "5c1d3995e870bd28b854f104a24dbea3e56754d16a0a37a553c865d0671ab21b",
+      "systems": [
+        {
+          "type": "mac"
+        }
+      ],
+      "size": 12946282,
+      "type": "archive",
+      "url": "https://github.com/tiagolr/filtr/releases/download/v1.1.0/filtr-macos-v1.1.0.zip"
+    },
+    {
+      "systems": [
+        {
+          "type": "win"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3",
+        "lv2"
+      ],
+      "type": "archive",
+      "size": 6496292,
+      "sha256": "67981cf69f2ad5f95e49888db67f80bcb4eb8fa3f14da636222f1bde1b52a4f3",
+      "url": "https://github.com/tiagolr/filtr/releases/download/v1.1.0/filtr-win-v1.1.0.zip"
+    }
+  ],
+  "verified": true
+}

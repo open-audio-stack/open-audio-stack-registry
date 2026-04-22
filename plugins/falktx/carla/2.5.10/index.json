@@ -1,0 +1,59 @@
+{
+  "name": "Carla",
+  "author": "Filipe Coelho",
+  "description": "Audio plugin host, with support for many audio drivers and plugin formats.",
+  "license": "gpl-3.0",
+  "type": "tool",
+  "tags": [
+    "Host",
+    "Player",
+    "Automation"
+  ],
+  "url": "https://github.com/falkTX/Carla",
+  "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/falktx/carla/carla.flac",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/falktx/carla/carla.jpg",
+  "date": "2025-07-31T18:05:01Z",
+  "changes": "- Compatibility with pyliblo3 for Carla-Control\r\n- Fix a few compiler warnings\r\n- Fix alignment of LV2 Atom buffers\r\n- Fix broken MIDI program and bank messages for experimental JACK applications\r\n- Fix use of JackPortIsCV\r\n- Remove false tooltips (remain",
+  "files": [
+    {
+      "systems": [
+        {
+          "type": "mac"
+        }
+      ],
+      "architectures": [
+        "arm64",
+        "x64"
+      ],
+      "contains": [
+        "app",
+        "lv2",
+        "vst"
+      ],
+      "type": "installer",
+      "size": 368461548,
+      "sha256": "a30e98409974493ade18f598566628369fee67f179a84e1c2cc3ae46a71808b1",
+      "url": "https://github.com/falkTX/Carla/releases/download/v2.5.10/Carla-2.5.10-macOS-universal.dmg"
+    },
+    {
+      "systems": [
+        {
+          "type": "win"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "dll",
+        "exe",
+        "lv2"
+      ],
+      "type": "archive",
+      "size": 247507775,
+      "sha256": "56264cd860b3e6e7b29221fb1e46d7d8a288fb001500f830bcd739ec7b115650",
+      "url": "https://github.com/falkTX/Carla/releases/download/v2.5.10/Carla-2.5.10-win64.zip"
+    }
+  ],
+  "verified": true
+}

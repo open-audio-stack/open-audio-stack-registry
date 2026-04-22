@@ -1,0 +1,76 @@
+name: Firefly Synth 2
+author: Sjoerd van Kreel
+description: Semi-modular synth.
+license: gpl-3.0
+type: instrument
+tags:
+  - Instrument
+  - Synth
+url: https://github.com/sjoerdvankreel/firefly-synth-2
+audio: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sjoerdvankreel/firefly-synth-2/firefly-synth-2.flac
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sjoerdvankreel/firefly-synth-2/firefly-synth-2.jpg
+date: '2026-03-25T19:09:06Z'
+changes: "- Add compressor as an effect type.\r\n- Add sidechain support for FX build.\r\n- Master softclip now defaults to off.\r\n- Add new routing controls for FX build GMix for sidechain.\r\n- FX global echo can now target main input and sidechain input.\r\n- FX oscillat"
+files:
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - clap
+    type: archive
+    sha256: bea4b22da4e40e5f1c640cb06700f7fa0718b412230d3f30287d202af23409a4
+    size: 5246324
+    url: https://github.com/sjoerdvankreel/firefly-synth-2/releases/download/v2.1.2/FireflySynth2-linux-clap-Release.zip
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - vst3
+    type: archive
+    sha256: a9664a1a89431dfd9c3e6b3827006add5a59f9b719acbf9783f72ffcd3a4d3a9
+    size: 5278065
+    url: https://github.com/sjoerdvankreel/firefly-synth-2/releases/download/v2.1.2/FireflySynth2-linux-vst3-Release.zip
+  - systems:
+      - type: mac
+    architectures:
+      - arm64
+      - x64
+    contains:
+      - clap
+    type: archive
+    sha256: f6a6078dcfaa9c39b41da831dcbde152a3b15587a28c858c242ea31e5be58296
+    size: 7750069
+    url: https://github.com/sjoerdvankreel/firefly-synth-2/releases/download/v2.1.2/FireflySynth2-mac-clap-Release.zip
+  - systems:
+      - type: mac
+    architectures:
+      - arm64
+      - x64
+    contains:
+      - vst3
+    type: archive
+    sha256: 7caf221ba447511e0cb922c4af8303aa72e3f5f9610ce2456ac5112facdf113b
+    size: 7782252
+    url: https://github.com/sjoerdvankreel/firefly-synth-2/releases/download/v2.1.2/FireflySynth2-mac-vst3-Release.zip
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - clap
+    type: archive
+    sha256: d860d0fc226cbd2ce5ac9132063707e9362c2c1edd0af5a2d9e2520574f577cb
+    size: 5303465
+    url: https://github.com/sjoerdvankreel/firefly-synth-2/releases/download/v2.1.2/FireflySynth2-windows-clap-Release.zip
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - vst3
+    type: archive
+    sha256: 10d03c50b83730654d9a6a628384eb2a1d8bf5de0a33f71a715f0af54055b9fc
+    size: 5342217
+    url: https://github.com/sjoerdvankreel/firefly-synth-2/releases/download/v2.1.2/FireflySynth2-windows-vst3-Release.zip

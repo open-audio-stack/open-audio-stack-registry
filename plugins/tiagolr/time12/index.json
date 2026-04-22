@@ -77,6 +77,81 @@
       ],
       "verified": true
     },
+    "1.2.2": {
+      "name": "TIME-12",
+      "author": "TiagoLr",
+      "description": "Delay modulator similar to plugins like GrossBeat or TimeShaper. Can be used for stutter effects, tape stop, glitch, scratch, reverse, pitch shift and more.",
+      "license": "gpl-3.0",
+      "type": "effect",
+      "tags": [
+        "Effect",
+        "Modulation",
+        "Delay"
+      ],
+      "url": "https://github.com/tiagolr/time12",
+      "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/tiagolr/time12/time12.flac",
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/tiagolr/time12/time12.jpg",
+      "date": "2025-11-16T23:28:06Z",
+      "changes": "Fixed wrong audio display in Ardour DAW",
+      "files": [
+        {
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "lv2",
+            "vst3"
+          ],
+          "sha256": "50b0683162221b445cc447afdb4bbe1a87354d7f2282e33d7c8943b78b913b3a",
+          "systems": [
+            {
+              "type": "linux"
+            }
+          ],
+          "size": 5065935,
+          "type": "archive",
+          "url": "https://github.com/tiagolr/time12/releases/download/v1.2.2/time12-linux-v1.2.2.zip"
+        },
+        {
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "component",
+            "lv2",
+            "vst3"
+          ],
+          "sha256": "154270fb6d1a30ac65c5642849f1445ff8531572d82ae77feaf78d38ae244a0b",
+          "systems": [
+            {
+              "type": "mac"
+            }
+          ],
+          "size": 12313228,
+          "type": "archive",
+          "url": "https://github.com/tiagolr/time12/releases/download/v1.2.2/time12-macos-v1.2.2.zip"
+        },
+        {
+          "systems": [
+            {
+              "type": "win"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "lv2",
+            "vst3"
+          ],
+          "type": "archive",
+          "size": 5544638,
+          "sha256": "1c80421cda934a5a0c7f75af427d24358921e182b953ad92a120d19d095f0a4e",
+          "url": "https://github.com/tiagolr/time12/releases/download/v1.2.2/time12-win-v1.2.2.zip"
+        }
+      ],
+      "verified": true
+    },
     "1.1.8": {
       "name": "TIME-12",
       "author": "TiagoLr",

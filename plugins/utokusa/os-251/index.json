@@ -1,7 +1,81 @@
 {
   "slug": "utokusa/os-251",
-  "version": "1.2.1",
+  "version": "1.3.0",
   "versions": {
+    "1.3.0": {
+      "name": "OS-251",
+      "author": "Utokusa",
+      "description": "JUNO style digital subtractive synthesizer with a simple yet powerful DSP algorithm.",
+      "license": "gpl-3.0",
+      "type": "instrument",
+      "tags": [
+        "Instrument",
+        "Synth",
+        "Lo-fi"
+      ],
+      "url": "https://github.com/utokusa/OS-251",
+      "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/utokusa/os-251/os-251.flac",
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/utokusa/os-251/os-251.jpg",
+      "date": "2025-01-11T11:02:04Z",
+      "changes": "- Upgrade JUCE to 7.0.12\r\n- Minor UI fix",
+      "files": [
+        {
+          "systems": [
+            {
+              "type": "linux"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "lv2",
+            "vst3"
+          ],
+          "type": "archive",
+          "size": 8621948,
+          "sha256": "862ddc6e7f63fc6a478b513bdb0d257dcb6fa0b32c7f5bd20c47c369c252eda5",
+          "url": "https://github.com/utokusa/OS-251/releases/download/v1.3.0/OS-251-Linux.zip"
+        },
+        {
+          "systems": [
+            {
+              "type": "mac"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "component",
+            "vst3"
+          ],
+          "type": "installer",
+          "size": 14645710,
+          "sha256": "06b62a2e06301957102526bc3ceb6f070c1a20cae2abc9884054a205df9b7415",
+          "url": "https://github.com/utokusa/OS-251/releases/download/v1.3.0/OS-251-macOS.dmg"
+        },
+        {
+          "systems": [
+            {
+              "type": "win"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "dll",
+            "vst3"
+          ],
+          "type": "archive",
+          "size": 2397407,
+          "sha256": "f60d40af58cf55b2131f4d2fdfe283f1434c01a26722fc55389d4db5f7c1b6d1",
+          "url": "https://github.com/utokusa/OS-251/releases/download/v1.3.0/OS-251-Windows.zip"
+        }
+      ],
+      "verified": true
+    },
     "1.2.1": {
       "name": "OS-251",
       "author": "Utokusa",

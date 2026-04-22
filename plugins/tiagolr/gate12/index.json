@@ -76,6 +76,80 @@
       ],
       "verified": true
     },
+    "1.3.2": {
+      "name": "GATE-12",
+      "author": "TiagoLr",
+      "description": "Cross-platform envelope generator for gate/volume control inspired by plugins like GrossBeat and ShaperBox.",
+      "license": "gpl-3.0",
+      "type": "effect",
+      "tags": [
+        "Effect",
+        "Gate"
+      ],
+      "url": "https://github.com/tiagolr/gate12",
+      "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/tiagolr/gate12/gate12.flac",
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/tiagolr/gate12/gate12.jpg",
+      "date": "2026-01-20T17:24:04Z",
+      "changes": "Band split - switch 12dB filters to Linkwitz-Riley Minimum Phase\r\nBand split - add 24dB Linkwitz-Riley",
+      "files": [
+        {
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "vst3",
+            "lv2"
+          ],
+          "sha256": "580e4728ee9e4cfa32321c6f22783b7ddb570640a4dee398c704613a527656de",
+          "systems": [
+            {
+              "type": "linux"
+            }
+          ],
+          "size": 5136066,
+          "type": "archive",
+          "url": "https://github.com/tiagolr/gate12/releases/download/v1.3.2/gate12-linux-v1.3.2.zip"
+        },
+        {
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "component",
+            "lv2",
+            "vst3"
+          ],
+          "sha256": "1edc8651811b2d6bf412b5d00d28de46559f2b3d170ffea182206bae95a00b1f",
+          "systems": [
+            {
+              "type": "mac"
+            }
+          ],
+          "size": 12504581,
+          "type": "archive",
+          "url": "https://github.com/tiagolr/gate12/releases/download/v1.3.2/gate12-macos-v1.3.2.zip"
+        },
+        {
+          "systems": [
+            {
+              "type": "win"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "vst3",
+            "lv2"
+          ],
+          "type": "archive",
+          "size": 6383922,
+          "sha256": "18135fe98d46ac359bf73d7d1929e9141a151663afd7f29479def5c44d85b78f",
+          "url": "https://github.com/tiagolr/gate12/releases/download/v1.3.2/gate12-win-v1.3.2.zip"
+        }
+      ],
+      "verified": true
+    },
     "1.1.8": {
       "name": "GATE-12",
       "author": "TiagoLr",

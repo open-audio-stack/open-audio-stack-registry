@@ -1,7 +1,54 @@
 {
   "slug": "sfzinstruments/virtuosity_drums",
-  "version": "0.9.24",
+  "version": "0.924.0",
   "versions": {
+    "0.924.0": {
+      "name": "Virtuosity Drums",
+      "author": "Versilian Studios",
+      "description": "Contemporary Jazz drum kit library, performed with sticks, recorded at Virtuosity Musical Instruments in Boston, MA.",
+      "license": "cc0-1.0",
+      "type": "sampler",
+      "tags": [
+        "Instrument",
+        "Drums",
+        "Jazz",
+        "sfz"
+      ],
+      "url": "https://github.com/sfzinstruments/virtuosity_drums",
+      "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/virtuosity_drums/virtuosity-drums.flac",
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/virtuosity_drums/virtuosity-drums.jpg",
+      "date": "2022-09-21T07:19:31Z",
+      "changes": "Bugfix release for ride and crash cymbal mappings. In earlier versions, velocity of exactly 44 would result in every fourth round robin not playing for the flat ride, ride as ride, crash and sizzle crash keys. Thanks to the anon user who found and fixed t",
+      "files": [
+        {
+          "systems": [
+            {
+              "type": "linux"
+            },
+            {
+              "type": "mac"
+            },
+            {
+              "type": "win"
+            }
+          ],
+          "architectures": [
+            "arm32",
+            "arm64",
+            "x32",
+            "x64"
+          ],
+          "contains": [
+            "sfz"
+          ],
+          "type": "archive",
+          "size": 1227222816,
+          "sha256": "a8e0da36cfe0a3832f09c24116139e3f72806144d10f3091dcc91e1636118fab",
+          "url": "https://github.com/sfzinstruments/virtuosity_drums/releases/download/v0.924/Virtuosity_Drums_v0.924.zip"
+        }
+      ],
+      "verified": true
+    },
     "0.9.24": {
       "name": "Virtuosity Drums",
       "author": "Versilian Studios",

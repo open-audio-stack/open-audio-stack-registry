@@ -24,6 +24,18 @@
     }
   },
   "utokusa/os-251": {
+    "1.3.0": {
+      "recs": [
+        {
+          "field": "url",
+          "rec": "requires mounting step, consider .pkg instead"
+        },
+        {
+          "field": "architectures",
+          "rec": "should support arm64"
+        }
+      ]
+    },
     "1.2.1": {
       "recs": [
         {
@@ -70,6 +82,14 @@
         }
       ]
     },
+    "1.2.2": {
+      "recs": [
+        {
+          "field": "architectures",
+          "rec": "should support arm64"
+        }
+      ]
+    },
     "1.1.8": {
       "recs": [
         {
@@ -80,6 +100,14 @@
     }
   },
   "tiagolr/reevr": {
+    "1.4.0": {
+      "recs": [
+        {
+          "field": "architectures",
+          "rec": "should support arm64"
+        }
+      ]
+    },
     "1.0.2": {
       "recs": [
         {
@@ -98,6 +126,14 @@
         }
       ]
     },
+    "1.3.2": {
+      "recs": [
+        {
+          "field": "architectures",
+          "rec": "should support arm64"
+        }
+      ]
+    },
     "1.1.8": {
       "recs": [
         {
@@ -108,6 +144,14 @@
     }
   },
   "tiagolr/filtr": {
+    "1.1.0": {
+      "recs": [
+        {
+          "field": "architectures",
+          "rec": "should support arm64"
+        }
+      ]
+    },
     "1.0.9": {
       "recs": [
         {
@@ -572,6 +616,18 @@
         }
       ]
     },
+    "1.2.25": {
+      "recs": [
+        {
+          "field": "systems",
+          "rec": "should support Mac"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Windows"
+        }
+      ]
+    },
     "1.2.23": {
       "recs": [
         {
@@ -703,6 +759,18 @@
   },
   "falktx/carla": {
     "2.5.9": {
+      "recs": [
+        {
+          "field": "url",
+          "rec": "requires mounting step, consider .pkg instead"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Linux"
+        }
+      ]
+    },
+    "2.5.10": {
       "recs": [
         {
           "field": "url",
@@ -985,6 +1053,18 @@
         {
           "field": "architectures",
           "rec": "should support arm64"
+        }
+      ]
+    },
+    "0.3.2": {
+      "recs": [
+        {
+          "field": "architectures",
+          "rec": "should support arm64"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Mac"
         }
       ]
     },

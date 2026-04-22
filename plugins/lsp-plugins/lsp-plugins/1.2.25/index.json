@@ -1,0 +1,106 @@
+{
+  "name": "LSP Plugins",
+  "author": "Vladimir Sadovnikov",
+  "description": "A collection of open-source audio effects, synthesizers, and tools designed for music and sound production, primarily on the GNU/Linux platform.",
+  "license": "lgpl-3.0",
+  "type": "effect",
+  "tags": [
+    "Delay",
+    "Chorus",
+    "Compressor",
+    "Filter",
+    "Flanger",
+    "Gate",
+    "Mixer",
+    "Sampler"
+  ],
+  "url": "https://github.com/lsp-plugins/lsp-plugins",
+  "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/lsp-plugins/lsp-plugins/lsp-plugins.flac",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/lsp-plugins/lsp-plugins/lsp-plugins.jpg",
+  "donate": "https://www.patreon.com/c/sadko4u",
+  "date": "2025-11-03T22:46:25Z",
+  "changes": "* Improved plugin metadata validation tool in plugin framework.\r\n* VST3 data synchronization between DSP and UI is now performed in the UI thread if possible.\r\n* Fixed VST3 crash on JUCE-based hosts related to improper IRunLoop handling.\r\n* Fixed Room Bui",
+  "files": [
+    {
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "architectures": [
+        "arm64"
+      ],
+      "contains": [
+        "clap",
+        "lv2",
+        "vst3",
+        "so"
+      ],
+      "type": "archive",
+      "size": 10662781,
+      "sha256": "0fb5572f81d203d4b6135587c4969362a6f00d63edf9867b24b45b5598e87f21",
+      "url": "https://github.com/lsp-plugins/lsp-plugins/releases/download/1.2.25/lsp-plugins-1.2.25-Linux-aarch64.7z"
+    },
+    {
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "architectures": [
+        "arm32"
+      ],
+      "contains": [
+        "clap",
+        "lv2",
+        "vst3",
+        "so"
+      ],
+      "type": "archive",
+      "size": 6510025,
+      "sha256": "e9dd6fe4cb86e5c3f3c1f1398e794a4f4d952e4aa8715259026aefba951ad7d1",
+      "url": "https://github.com/lsp-plugins/lsp-plugins/releases/download/1.2.25/lsp-plugins-1.2.25-Linux-arm32.7z"
+    },
+    {
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "architectures": [
+        "x32"
+      ],
+      "contains": [
+        "clap",
+        "lv2",
+        "vst3",
+        "so"
+      ],
+      "type": "archive",
+      "size": 6849152,
+      "sha256": "9b1249947c2633d92dc6f911f90b360c4a3fde3bc57360eb8ea59603365403e1",
+      "url": "https://github.com/lsp-plugins/lsp-plugins/releases/download/1.2.25/lsp-plugins-1.2.25-Linux-i586.7z"
+    },
+    {
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "clap",
+        "lv2",
+        "vst3",
+        "so"
+      ],
+      "type": "archive",
+      "size": 9870936,
+      "sha256": "e6481e12805f98f26c77919c3b72d15dd87e0f0c1a9458a4d91e5d09fa47872f",
+      "url": "https://github.com/lsp-plugins/lsp-plugins/releases/download/1.2.25/lsp-plugins-1.2.25-Linux-x86_64.7z"
+    }
+  ],
+  "verified": true
+}
