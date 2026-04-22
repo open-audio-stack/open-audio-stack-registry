@@ -69,12 +69,15 @@ for (const pkgDir in pkgGroups) {
   const latestYamlFile = path.join(pkgDir, latestVersion, 'index.yaml');
 
   const pkgJson: any = fileReadYaml(latestYamlFile);
-  if (!pkgJson || !pkgJson.url || !pkgJson.url.startsWith('https://github.com')) continue;
+  if (!pkgJson || !pkgJson.url) continue;
 
-  const repo = pkgJson.url.replace('https://github.com/', '').replace(/\/$/, '').split('/').slice(0, 2).join('/');
-  if (!repo || repo.includes(' ')) continue;
-
+  let repo = '';
   try {
+    const url = new URL(pkgJson.url);
+    if (url.hostname !== 'github.com') continue;
+    repo = url.pathname.split('/').filter(Boolean).slice(0, 2).join('/');
+    if (!repo || repo.split('/').length < 2) continue;
+
     let response;
     let retries = 2;
     while (retries >= 0) {
