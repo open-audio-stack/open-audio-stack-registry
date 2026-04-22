@@ -1,0 +1,49 @@
+name: REEV-R
+author: TiagoLr
+description: Convolution reverb with modulation for pre/send and post/volume signals.
+license: gpl-3.0
+type: effect
+tags:
+  - Modulation
+  - Convolution
+  - Reverb
+url: https://github.com/tiagolr/reevr
+audio: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/tiagolr/reevr/reevr.flac
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/tiagolr/reevr/reevr.jpg
+date: '2026-01-22T17:50:32Z'
+changes: "Add band splitting\r\nFix crash when transforming send or reverb amount\r\nFix UI scale not being recalled"
+files:
+  - architectures:
+      - x64
+    contains:
+      - vst3
+      - lv2
+    sha256: 243da8bd8b90e60372f75ddea9a6ae54c5a1dd7f2071b0050e47ed613c511f8f
+    systems:
+      - type: linux
+    size: 7549063
+    type: archive
+    url: https://github.com/tiagolr/reevr/releases/download/v1.4.0/reevr-linux-v1.4.0.zip
+  - architectures:
+      - x64
+    contains:
+      - component
+      - lv2
+      - vst3
+    sha256: 92e069e942ac0f286169b32d0fd175483a10e07da6470a3582c93cc8a741c9e3
+    systems:
+      - type: mac
+    size: 19300930
+    type: archive
+    url: https://github.com/tiagolr/reevr/releases/download/v1.4.0/reevr-macos-v1.4.0.zip
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - vst3
+      - lv2
+    type: archive
+    size: 7730204
+    sha256: d22f2c2421f4d3b52040bad8878ec37c96f1c69413f231f689769833dfffb864
+    url: https://github.com/tiagolr/reevr/releases/download/v1.4.0/reevr-win-v1.4.0.zip
