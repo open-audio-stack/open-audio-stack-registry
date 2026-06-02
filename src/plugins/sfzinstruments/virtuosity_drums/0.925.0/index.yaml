@@ -11,9 +11,8 @@ tags:
 url: https://github.com/sfzinstruments/virtuosity_drums
 audio: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/virtuosity_drums/virtuosity-drums.flac
 image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/virtuosity_drums/virtuosity-drums.jpg
-date: '2022-09-21T07:00:00.000Z'
-changes: |
-  - Bugfix release for ride and crash cymbal mappings.
+date: '2026-04-21T18:40:12Z'
+changes: "Added map for alternate hi-hat pedal setup and GUI.\r\nParametrized hi-hat pedal preroll and closed hi-hat CC range.\r\nCase sensitivity fix for Linux users.\r\nNote_polyphony=MAX opcodes replaced with the correct note_polyphony=0 syntax."
 files:
   - systems:
       - type: linux
