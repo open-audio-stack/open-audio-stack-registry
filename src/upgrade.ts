@@ -23,13 +23,33 @@ function versionCompare(v1: string, v2: string) {
 }
 
 /**
- * Helper to normalize version strings to valid semver if possible
- * @param v Version string
- * @returns Valid semver or original
+ * Convert any GitHub release tag to a valid semver string.
+ *
+ * Handles the common non-semver patterns seen in the wild:
+ *   v1.0b        → 1.0.0   (alpha/beta/rc suffixes stripped)
+ *   1.003        → 1.0.3   (zero-padded two-part: treat as major.patch)
+ *   0.925        → 0.925.0 (two-part without padding)
+ *   2022-03-30   → 20220330.0.0 (date tags collapsed to one numeric component)
+ *   v1001        → 1001.0.0 (bare integer)
  */
 function versionNormalize(v: string): string {
   const clean = v.replace(/^v/, '');
-  return semver.valid(clean) || semver.coerce(clean)?.version || clean;
+
+  // Date tag: YYYY-MM-DD → YYYYMMDD.0.0
+  const dateMatch = clean.match(/^(\d{4})-(\d{2})-(\d{2})$/);
+  if (dateMatch) return `${dateMatch[1]}${dateMatch[2]}${dateMatch[3]}.0.0`;
+
+  // Already valid semver (covers 1.0.0, 1.0.0-beta etc.)
+  const valid = semver.valid(semver.clean(clean) ?? clean);
+  if (valid) return valid;
+
+  // Zero-padded two-part: e.g. 1.003 — treat the decimal as patch, not minor
+  // (1.003 means "patch 3 of 1.0", not "minor 3")
+  const zeroPadded = clean.match(/^(\d+)\.0+(\d+)$/);
+  if (zeroPadded) return `${zeroPadded[1]}.0.${zeroPadded[2]}`;
+
+  // Fall back to semver.coerce which handles: 0.925 → 0.925.0, v1.0b → 1.0.0, v1001 → 1001.0.0
+  return semver.coerce(clean)?.version ?? clean;
 }
 
 /**
@@ -48,6 +68,7 @@ async function fileHash(url: string): Promise<string> {
 
 const yamlFiles = dirRead('src/**/*.yaml');
 const pkgGroups: Record<string, string[]> = {};
+const results = { upgraded: [] as string[], errors: [] as string[] };
 
 if (!process.env.GITHUB_TOKEN) {
   console.warn('Warning: GITHUB_TOKEN is not set. You will likely hit rate limits.');
@@ -158,6 +179,10 @@ for (const pkgDir in pkgGroups) {
             } else {
               // Fallback replacement in URL if no exact asset match found
               file.url = oldUrl.replace(latestVersion, newVersion).replace('v' + latestVersion, release.tag_name);
+              if (file.url === oldUrl) {
+                console.warn(`  Warning: could not update URL for ${file.url} (no version string matched)`);
+                continue;
+              }
               console.log(`  Hashing ${file.url}...`);
               file.sha256 = await fileHash(file.url);
               // We can't know size easily without asset info, leave as is or recalculate if possible
@@ -196,6 +221,7 @@ for (const pkgDir in pkgGroups) {
           }),
         );
         console.log(`./${path.join(newVersionDir, 'index.yaml')}`);
+        results.upgraded.push(`${pkgDir}@${newVersion}`);
 
         // Update local list to avoid duplicates if multiple YAMLs exist (unlikely but safe)
         pkgGroups[pkgDir].push(newVersion);
@@ -203,6 +229,7 @@ for (const pkgDir in pkgGroups) {
       }
     }
   } catch (error) {
+    results.errors.push(repo || pkgDir);
     console.error(`Error processing ${repo}:`, error);
   }
 
@@ -210,3 +237,7 @@ for (const pkgDir in pkgGroups) {
   const delay = process.env.GITHUB_TOKEN ? 200 : 1000;
   await new Promise(resolve => setTimeout(resolve, delay));
 }
+
+console.log(`\nUpgrade complete: ${results.upgraded.length} upgraded, ${results.errors.length} errors`);
+if (results.upgraded.length) console.log('  Upgraded:', results.upgraded.join(', '));
+if (results.errors.length) console.log('  Errors:', results.errors.join(', '));
