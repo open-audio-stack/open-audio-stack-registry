@@ -1,7 +1,62 @@
 {
   "slug": "ankalot/xenroll",
-  "version": "0.3.3",
+  "version": "0.4.2",
   "versions": {
+    "0.4.2": {
+      "name": "XenRoll",
+      "author": "Ankalot",
+      "description": "Unique cool piano roll audio plugin",
+      "license": "gpl-3.0",
+      "type": "tool",
+      "tags": [
+        "Instrument",
+        "Piano Roll",
+        "Microtonal"
+      ],
+      "url": "https://github.com/Ankalot/XenRoll",
+      "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ankalot/xenroll/xenroll.flac",
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ankalot/xenroll/xenroll.jpg",
+      "date": "2026-05-17T13:01:18Z",
+      "changes": "New:  \r\n* Added ability to audition notes under cursor (Alt + RClick/RDrag);  \r\n* Added ability to time-stretch selected notes (Alt + LDrag note's right edge);  \r\n* Now you can set the playhead time (in the DAW) via the top panel (with time) using OSC.  \r",
+      "files": [
+        {
+          "systems": [
+            {
+              "type": "linux"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "vst3",
+            "so"
+          ],
+          "type": "archive",
+          "size": 3333981,
+          "sha256": "8f727c94c9fe08e3c60040035078a8db9699d5b6a4780be135dd8ddd5b7edf61",
+          "url": "https://github.com/Ankalot/XenRoll/releases/download/v0.4.2/XenRoll_v0.4.2_VST3_linux_x86_64.zip"
+        },
+        {
+          "systems": [
+            {
+              "type": "win"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "vst3"
+          ],
+          "type": "archive",
+          "size": 4892501,
+          "sha256": "8cb6ad2674ae339bd962d672597617f01b932f54929f51e8a70bb5a125088416",
+          "url": "https://github.com/Ankalot/XenRoll/releases/download/v0.4.2/XenRoll_v0.4.2_VST3_windows.zip"
+        }
+      ],
+      "verified": true
+    },
     "0.3.3": {
       "name": "XenRoll",
       "author": "Ankalot",

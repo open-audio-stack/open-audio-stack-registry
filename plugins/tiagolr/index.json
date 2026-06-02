@@ -153,6 +153,81 @@
         ],
         "verified": true
       },
+      "1.2.1": {
+        "name": "TIME-12",
+        "author": "TiagoLr",
+        "description": "Delay modulator similar to plugins like GrossBeat or TimeShaper. Can be used for stutter effects, tape stop, glitch, scratch, reverse, pitch shift and more.",
+        "license": "gpl-3.0",
+        "type": "effect",
+        "tags": [
+          "Effect",
+          "Modulation",
+          "Delay"
+        ],
+        "url": "https://github.com/tiagolr/time12",
+        "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/tiagolr/time12/time12.flac",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/tiagolr/time12/time12.jpg",
+        "date": "2025-11-06T21:31:49Z",
+        "changes": "Hotfix mutex lock from last patch.",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "lv2",
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 5065126,
+            "sha256": "87c454ad4f1f5637ad9b9811c09602c80a32d38ac16c36aedca7e5a86601a7e1",
+            "url": "https://github.com/tiagolr/time12/releases/download/v1.2.1/time12-linux-v1.2.1.zip"
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "component",
+              "lv2",
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 12312774,
+            "sha256": "405cdc3745cbdb383e70592cc215b7e2cd73c60933ad42d2981fd339e301fedf",
+            "url": "https://github.com/tiagolr/time12/releases/download/v1.2.1/time12-macos-v1.2.1.zip"
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "lv2",
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 5544660,
+            "sha256": "946220e02499551ca10ad6abbf4734acaf2c75936e9ba0c3e8250ef79dab9a51",
+            "url": "https://github.com/tiagolr/time12/releases/download/v1.2.1/time12-win-v1.2.1.zip"
+          }
+        ],
+        "verified": true
+      },
       "1.1.8": {
         "name": "TIME-12",
         "author": "TiagoLr",
@@ -305,6 +380,81 @@
             "size": 7730204,
             "sha256": "d22f2c2421f4d3b52040bad8878ec37c96f1c69413f231f689769833dfffb864",
             "url": "https://github.com/tiagolr/reevr/releases/download/v1.4.0/reevr-win-v1.4.0.zip"
+          }
+        ],
+        "verified": true
+      },
+      "1.3.2": {
+        "name": "REEV-R",
+        "author": "TiagoLr",
+        "description": "Convolution reverb with modulation for pre/send and post/volume signals.",
+        "license": "gpl-3.0",
+        "type": "effect",
+        "tags": [
+          "Modulation",
+          "Convolution",
+          "Reverb"
+        ],
+        "url": "https://github.com/tiagolr/reevr",
+        "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/tiagolr/reevr/reevr.flac",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/tiagolr/reevr/reevr.jpg",
+        "date": "2026-01-02T18:20:41Z",
+        "changes": "EQ improvements\r\n- Added 6dB slope lowpass and highpass filters\r\n- Other QoL improvements",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "lv2"
+            ],
+            "type": "archive",
+            "size": 7514491,
+            "sha256": "62e2caccbf9ae7c8d76797292f707df555ea4e15c21e11ff4bdbb55ac9d79184",
+            "url": "https://github.com/tiagolr/reevr/releases/download/v1.3.2/reevr-linux-v1.3.2.zip"
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "component",
+              "lv2",
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 19233457,
+            "sha256": "e0b8b51f819693c43faa1f46730b329f3f12ed392a52b482427b319e4c8f3e96",
+            "url": "https://github.com/tiagolr/reevr/releases/download/v1.3.2/reevr-macos-v1.3.2.zip"
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "lv2"
+            ],
+            "type": "archive",
+            "size": 7707968,
+            "sha256": "2a820f123b1e959bb5604dc3ceb315dcd590dcdaf1237caf9f6efed5685024e5",
+            "url": "https://github.com/tiagolr/reevr/releases/download/v1.3.2/reevr-win-v1.3.2.zip"
           }
         ],
         "verified": true
@@ -465,6 +615,85 @@
             "size": 3341979,
             "type": "archive",
             "url": "https://github.com/tiagolr/qdelay/releases/download/v1.1.2/qdelay-win-v1.1.2.zip"
+          }
+        ],
+        "verified": true
+      },
+      "1.1.1": {
+        "name": "QDelay",
+        "author": "TiagoLr",
+        "description": "A dual-delay with more features than it should.",
+        "license": "gpl-3.0",
+        "type": "effect",
+        "tags": [
+          "Delay",
+          "Reverb",
+          "Pitch-shifter",
+          "Tape Delay",
+          "Analog Delay",
+          "Saturation",
+          "Ping-pong delay"
+        ],
+        "url": "https://github.com/tiagolr/qdelay",
+        "donate": "https://www.buymeacoffee.com/tilr",
+        "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/tiagolr/qdelay/qdelay.flac",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/tiagolr/qdelay/qdelay.jpg",
+        "date": "2026-03-09T17:19:14Z",
+        "changes": "Calculate tail seconds for host\r\nClear buffers on song transport jump back\r\nAdd option to not clear buffers on stop",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "lv2"
+            ],
+            "type": "archive",
+            "size": 5453123,
+            "sha256": "d0382092c65ca3f74b2112e9a49f31950f67f8dfd1df368f80c5192a3e12a680",
+            "url": "https://github.com/tiagolr/qdelay/releases/download/v1.1.1/qdelay-linux-v1.1.1.zip"
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "x64",
+              "arm64"
+            ],
+            "contains": [
+              "vst3",
+              "component"
+            ],
+            "type": "archive",
+            "size": 8795400,
+            "sha256": "d622d42e821759f842353b6ecc1381a9d0079b5a50a44bce4acf6ded8b842fe4",
+            "url": "https://github.com/tiagolr/qdelay/releases/download/v1.1.1/qdelay-macos-v1.1.1.zip"
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 3343884,
+            "sha256": "540f739d674de08df4c81a2ecdbdef3dabf82b66dab096fc77f50644c85b7fea",
+            "url": "https://github.com/tiagolr/qdelay/releases/download/v1.1.1/qdelay-win-v1.1.1.zip"
           }
         ],
         "verified": true
@@ -698,6 +927,80 @@
             "size": 6383922,
             "sha256": "18135fe98d46ac359bf73d7d1929e9141a151663afd7f29479def5c44d85b78f",
             "url": "https://github.com/tiagolr/gate12/releases/download/v1.3.2/gate12-win-v1.3.2.zip"
+          }
+        ],
+        "verified": true
+      },
+      "1.3.1": {
+        "name": "GATE-12",
+        "author": "TiagoLr",
+        "description": "Cross-platform envelope generator for gate/volume control inspired by plugins like GrossBeat and ShaperBox.",
+        "license": "gpl-3.0",
+        "type": "effect",
+        "tags": [
+          "Effect",
+          "Gate"
+        ],
+        "url": "https://github.com/tiagolr/gate12",
+        "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/tiagolr/gate12/gate12.flac",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/tiagolr/gate12/gate12.jpg",
+        "date": "2026-01-20T00:02:29Z",
+        "changes": "Fix issues with new band split\r\nFix issues with anti-click\r\nAnti-click supports stereo offset",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "lv2"
+            ],
+            "type": "archive",
+            "size": 5126469,
+            "sha256": "dc7d18405b87e526a20340c02194a73c2249164ae595fb59f0c80132d5151c48",
+            "url": "https://github.com/tiagolr/gate12/releases/download/v1.3.1/gate12-linux-v1.3.1.zip"
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "component",
+              "lv2",
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 12487686,
+            "sha256": "488130fc924a0caea7fc1c5ed9a6d77f4dfbbba01f03d21d1a0ea4420f44d9a9",
+            "url": "https://github.com/tiagolr/gate12/releases/download/v1.3.1/gate12-macos-v1.3.1.zip"
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "lv2"
+            ],
+            "type": "archive",
+            "size": 6382232,
+            "sha256": "b5bd7c47c1ce4da61c67dcb9e8ce581c63124688010889a713219fc22a727fcb",
+            "url": "https://github.com/tiagolr/gate12/releases/download/v1.3.1/gate12-win-v1.3.1.zip"
           }
         ],
         "verified": true

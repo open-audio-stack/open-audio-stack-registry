@@ -81,6 +81,85 @@
       ],
       "verified": true
     },
+    "1.1.1": {
+      "name": "QDelay",
+      "author": "TiagoLr",
+      "description": "A dual-delay with more features than it should.",
+      "license": "gpl-3.0",
+      "type": "effect",
+      "tags": [
+        "Delay",
+        "Reverb",
+        "Pitch-shifter",
+        "Tape Delay",
+        "Analog Delay",
+        "Saturation",
+        "Ping-pong delay"
+      ],
+      "url": "https://github.com/tiagolr/qdelay",
+      "donate": "https://www.buymeacoffee.com/tilr",
+      "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/tiagolr/qdelay/qdelay.flac",
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/tiagolr/qdelay/qdelay.jpg",
+      "date": "2026-03-09T17:19:14Z",
+      "changes": "Calculate tail seconds for host\r\nClear buffers on song transport jump back\r\nAdd option to not clear buffers on stop",
+      "files": [
+        {
+          "systems": [
+            {
+              "type": "linux"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "vst3",
+            "lv2"
+          ],
+          "type": "archive",
+          "size": 5453123,
+          "sha256": "d0382092c65ca3f74b2112e9a49f31950f67f8dfd1df368f80c5192a3e12a680",
+          "url": "https://github.com/tiagolr/qdelay/releases/download/v1.1.1/qdelay-linux-v1.1.1.zip"
+        },
+        {
+          "systems": [
+            {
+              "type": "mac"
+            }
+          ],
+          "architectures": [
+            "x64",
+            "arm64"
+          ],
+          "contains": [
+            "vst3",
+            "component"
+          ],
+          "type": "archive",
+          "size": 8795400,
+          "sha256": "d622d42e821759f842353b6ecc1381a9d0079b5a50a44bce4acf6ded8b842fe4",
+          "url": "https://github.com/tiagolr/qdelay/releases/download/v1.1.1/qdelay-macos-v1.1.1.zip"
+        },
+        {
+          "systems": [
+            {
+              "type": "win"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "vst3"
+          ],
+          "type": "archive",
+          "size": 3343884,
+          "sha256": "540f739d674de08df4c81a2ecdbdef3dabf82b66dab096fc77f50644c85b7fea",
+          "url": "https://github.com/tiagolr/qdelay/releases/download/v1.1.1/qdelay-win-v1.1.1.zip"
+        }
+      ],
+      "verified": true
+    },
     "1.0.3": {
       "name": "QDelay",
       "author": "TiagoLr",

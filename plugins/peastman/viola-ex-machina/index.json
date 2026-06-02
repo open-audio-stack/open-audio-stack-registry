@@ -1,7 +1,102 @@
 {
   "slug": "peastman/viola-ex-machina",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "versions": {
+    "1.4.0": {
+      "name": "Viola Ex Machina",
+      "author": "Peter Eastman",
+      "description": "Physically inspired synthesizer for stringed instruments: violin, viola, cello, and bass, both solo instruments and ensembles.",
+      "license": "lgpl-2.1",
+      "type": "instrument",
+      "tags": [
+        "Instrument",
+        "Synth",
+        "Strings",
+        "Classical"
+      ],
+      "url": "https://github.com/peastman/ViolaExMachina",
+      "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/peastman/viola-ex-machina/viola-ex-machina.flac",
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/peastman/viola-ex-machina/viola-ex-machina.jpg",
+      "date": "2026-05-24T16:12:03Z",
+      "changes": "This release is focused on improving sound quality.",
+      "files": [
+        {
+          "systems": [
+            {
+              "type": "linux"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "clap",
+            "vst3"
+          ],
+          "type": "archive",
+          "size": 12639128,
+          "sha256": "111c5cee51772ff5d0599776ed73979f1cc7df3c959bbfdae4bea0c1128a2b53",
+          "url": "https://github.com/peastman/ViolaExMachina/releases/download/v1.4/viola_ex_machina-linux-x86.zip"
+        },
+        {
+          "systems": [
+            {
+              "type": "mac"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "component",
+            "clap",
+            "vst3"
+          ],
+          "type": "archive",
+          "size": 17821683,
+          "sha256": "532a507cb0432d48db1bc1b3abd41be9017ada8cb237e761cae10ee36ab6830f",
+          "url": "https://github.com/peastman/ViolaExMachina/releases/download/v1.4/viola_ex_machina-mac-x86.zip"
+        },
+        {
+          "systems": [
+            {
+              "type": "mac"
+            }
+          ],
+          "architectures": [
+            "arm64"
+          ],
+          "contains": [
+            "component",
+            "clap",
+            "vst3"
+          ],
+          "type": "archive",
+          "size": 16770889,
+          "sha256": "042ece4408c085423abb72e71a30fa5ea52f6f639d8343d9d8345f49beede55a",
+          "url": "https://github.com/peastman/ViolaExMachina/releases/download/v1.4/viola_ex_machina-mac-arm.zip"
+        },
+        {
+          "systems": [
+            {
+              "type": "win"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "clap",
+            "vst3"
+          ],
+          "type": "archive",
+          "size": 10563252,
+          "sha256": "14808b00f3774beff4672473f038e204b5b976770225e3d7fd783d54552f7c26",
+          "url": "https://github.com/peastman/ViolaExMachina/releases/download/v1.4/viola_ex_machina-windows-x86.zip"
+        }
+      ],
+      "verified": true
+    },
     "1.3.0": {
       "name": "Viola Ex Machina",
       "author": "Peter Eastman",

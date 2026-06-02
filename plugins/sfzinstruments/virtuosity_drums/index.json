@@ -1,8 +1,8 @@
 {
   "slug": "sfzinstruments/virtuosity_drums",
-  "version": "0.924.0",
+  "version": "0.925.0",
   "versions": {
-    "0.924.0": {
+    "0.925.0": {
       "name": "Virtuosity Drums",
       "author": "Versilian Studios",
       "description": "Contemporary Jazz drum kit library, performed with sticks, recorded at Virtuosity Musical Instruments in Boston, MA.",
@@ -17,8 +17,8 @@
       "url": "https://github.com/sfzinstruments/virtuosity_drums",
       "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/virtuosity_drums/virtuosity-drums.flac",
       "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/virtuosity_drums/virtuosity-drums.jpg",
-      "date": "2022-09-21T07:19:31Z",
-      "changes": "Bugfix release for ride and crash cymbal mappings. In earlier versions, velocity of exactly 44 would result in every fourth round robin not playing for the flat ride, ride as ride, crash and sizzle crash keys. Thanks to the anon user who found and fixed t",
+      "date": "2026-04-21T18:40:12Z",
+      "changes": "Added map for alternate hi-hat pedal setup and GUI.\r\nParametrized hi-hat pedal preroll and closed hi-hat CC range.\r\nCase sensitivity fix for Linux users.\r\nNote_polyphony=MAX opcodes replaced with the correct note_polyphony=0 syntax.",
       "files": [
         {
           "systems": [
@@ -49,7 +49,7 @@
       ],
       "verified": true
     },
-    "0.9.24": {
+    "0.924.0": {
       "name": "Virtuosity Drums",
       "author": "Versilian Studios",
       "description": "Contemporary Jazz drum kit library, performed with sticks, recorded at Virtuosity Musical Instruments in Boston, MA.",
@@ -64,8 +64,8 @@
       "url": "https://github.com/sfzinstruments/virtuosity_drums",
       "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/virtuosity_drums/virtuosity-drums.flac",
       "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/virtuosity_drums/virtuosity-drums.jpg",
-      "date": "2022-09-21T07:00:00.000Z",
-      "changes": "- Bugfix release for ride and crash cymbal mappings.\n",
+      "date": "2022-09-21T07:19:31Z",
+      "changes": "Bugfix release for ride and crash cymbal mappings. In earlier versions, velocity of exactly 44 would result in every fourth round robin not playing for the flat ride, ride as ride, crash and sizzle crash keys. Thanks to the anon user who found and fixed t",
       "files": [
         {
           "systems": [

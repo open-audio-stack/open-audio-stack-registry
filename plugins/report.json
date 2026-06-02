@@ -90,6 +90,14 @@
         }
       ]
     },
+    "1.2.1": {
+      "recs": [
+        {
+          "field": "architectures",
+          "rec": "should support arm64"
+        }
+      ]
+    },
     "1.1.8": {
       "recs": [
         {
@@ -101,6 +109,14 @@
   },
   "tiagolr/reevr": {
     "1.4.0": {
+      "recs": [
+        {
+          "field": "architectures",
+          "rec": "should support arm64"
+        }
+      ]
+    },
+    "1.3.2": {
       "recs": [
         {
           "field": "architectures",
@@ -127,6 +143,14 @@
       ]
     },
     "1.3.2": {
+      "recs": [
+        {
+          "field": "architectures",
+          "rec": "should support arm64"
+        }
+      ]
+    },
+    "1.3.1": {
       "recs": [
         {
           "field": "architectures",
@@ -628,6 +652,18 @@
         }
       ]
     },
+    "1.2.24": {
+      "recs": [
+        {
+          "field": "systems",
+          "rec": "should support Mac"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Windows"
+        }
+      ]
+    },
     "1.2.23": {
       "recs": [
         {
@@ -1048,6 +1084,18 @@
     }
   },
   "ankalot/xenroll": {
+    "0.4.2": {
+      "recs": [
+        {
+          "field": "architectures",
+          "rec": "should support arm64"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Mac"
+        }
+      ]
+    },
     "0.3.3": {
       "recs": [
         {
