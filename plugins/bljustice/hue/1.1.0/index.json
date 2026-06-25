@@ -1,0 +1,72 @@
+{
+  "name": "Hue",
+  "author": "bljustice",
+  "description": "A plugin to mix various noise types into your audio signal.",
+  "type": "generator",
+  "license": "gpl-3.0",
+  "tags": [
+    "Effect",
+    "Noise"
+  ],
+  "url": "https://github.com/bljustice/hue",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/bljustice/hue/hue.jpg",
+  "date": "2026-06-08T00:00:00.000Z",
+  "changes": "- Migrate from nih-plug to nice-plug\n- Migrate from vizia to egui for frontend\n- Smooth out frequency response curve\n- Add AUC coloring",
+  "files": [
+    {
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "clap",
+        "vst3"
+      ],
+      "sha256": "f90f91ff275d277926eb6ccbb19adc4471c810ae50b6fac1a3d656d712a1b408",
+      "systems": [
+        {
+          "type": "mac"
+        }
+      ],
+      "size": 11612345,
+      "type": "archive",
+      "url": "https://github.com/bljustice/hue/releases/download/v1.1.0/hue-v1.1.0-macos-universal.zip"
+    },
+    {
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "clap",
+        "vst3"
+      ],
+      "sha256": "9b410fb30024733ad1111dfb407d1ade0009e07131fbd5f72b45c530ec6bfe79",
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "size": 6933843,
+      "type": "archive",
+      "url": "https://github.com/bljustice/hue/releases/download/v1.1.0/hue-v1.1.0-ubuntu-22.04.zip"
+    },
+    {
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "clap",
+        "vst3"
+      ],
+      "sha256": "274f16a4ef5a2f03fc75e2769c3c64cb16c48bed7b20c88f85587c43f0cac8a0",
+      "systems": [
+        {
+          "type": "win"
+        }
+      ],
+      "size": 5418859,
+      "type": "archive",
+      "url": "https://github.com/bljustice/hue/releases/download/v1.1.0/hue-v1.1.0-windows.zip"
+    }
+  ],
+  "verified": true
+}
