@@ -1,0 +1,76 @@
+{
+  "name": "STR-X",
+  "author": "ArborealAudio",
+  "description": "Custom Guitar Amplifier",
+  "type": "effect",
+  "license": "gpl-3.0",
+  "tags": [
+    "Guitar",
+    "Amp"
+  ],
+  "url": "https://github.com/ArborealAudio/STR-X",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/arborealaudio/str-x/str-x.jpg",
+  "date": "2023-09-18T00:00:00.000Z",
+  "changes": "- Fix Linux GLIBC version by compiling on Ubuntu 18.04\n- Fix Linux display issues by updating to JUCE 7.0.5\n- Compile against OSX 12.3 SDK to ensure OSX 10.9 minimum target\n- Fix volume slider color bug\n- Improve button text contrast",
+  "files": [
+    {
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "clap",
+        "lv2",
+        "so",
+        "vst3"
+      ],
+      "sha256": "a2321e3d9d98a5aab5911611cbe04da9af65110f94345859da41fcc57694e4f8",
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "size": 3014420,
+      "type": "archive",
+      "url": "https://github.com/ArborealAudio/STR-X/releases/download/v1.2.1/STR-X-linux.tar.xz"
+    },
+    {
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst",
+        "vst3",
+        "clap"
+      ],
+      "sha256": "e595d439a6ffc1a45aed2e0e9d999163eed00db8973a556b2fd51c0cbe106fb1",
+      "systems": [
+        {
+          "type": "mac"
+        }
+      ],
+      "size": 13072806,
+      "type": "installer",
+      "url": "https://github.com/ArborealAudio/STR-X/releases/download/v1.2.1/STR-X-mac.dmg"
+    },
+    {
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "clap",
+        "dll",
+        "vst3"
+      ],
+      "sha256": "49da6eec7759442f4d054441664ec1121323cf5c6b9bda37e6eca7785f9becf3",
+      "systems": [
+        {
+          "type": "win"
+        }
+      ],
+      "size": 4622210,
+      "type": "installer",
+      "url": "https://github.com/ArborealAudio/STR-X/releases/download/v1.2.1/STR-X-windows.exe"
+    }
+  ],
+  "verified": true
+}
