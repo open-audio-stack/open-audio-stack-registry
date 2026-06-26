@@ -80,5 +80,87 @@
         "verified": true
       }
     }
+  },
+  "arborealaudio/omniamp": {
+    "slug": "arborealaudio/omniamp",
+    "version": "1.0.1",
+    "versions": {
+      "1.0.1": {
+        "name": "OmniAmp",
+        "author": "ArborealAudio",
+        "description": "Multi-purpose audio tool.",
+        "type": "effect",
+        "license": "gpl-3.0",
+        "tags": [
+          "Amp",
+          "Guitar",
+          "Distortion",
+          "Compression",
+          "Reverb",
+          "Bass"
+        ],
+        "url": "https://github.com/ArborealAudio/OmniAmp",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/arborealaudio/omniamp/omniamp.jpg",
+        "date": "2023-08-30T00:00:00.000Z",
+        "changes": "- Relax license check\n- Use OSX 11.3 SDK for compatibility\n- Support Linux\n- Add CI stuff, failing GUI tests on Linux but not a big deal",
+        "files": [
+          {
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "so"
+            ],
+            "sha256": "4cbe8a81ce4e522b1e9aacea5ec35cf9d20a441d583cd8bbd790c1f35a602986",
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "size": 2359408,
+            "type": "archive",
+            "url": "https://github.com/ArborealAudio/OmniAmp/releases/download/v1.0.1/OmniAmp-linux.tar.xz"
+          },
+          {
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "vst"
+            ],
+            "sha256": "cadd025c0d341f19b3672699aa6349f62306919ab6a8819304b5229da63b8b11",
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "size": 9884682,
+            "type": "installer",
+            "url": "https://github.com/ArborealAudio/OmniAmp/releases/download/v1.0.1/OmniAmp-mac.dmg"
+          },
+          {
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "dll"
+            ],
+            "sha256": "ad4cd3cb10f425bf735bbc2b62792c100a55b3d066a1fe0ddd640194202e1e52",
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "size": 4115576,
+            "type": "installer",
+            "url": "https://github.com/ArborealAudio/OmniAmp/releases/download/v1.0.1/OmniAmp-windows.exe"
+          }
+        ],
+        "verified": true
+      }
+    }
   }
 }
