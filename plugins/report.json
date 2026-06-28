@@ -769,6 +769,16 @@
       ]
     }
   },
+  "iamlamprey/altar": {
+    "0.4.0": {
+      "recs": [
+        {
+          "field": "architectures",
+          "rec": "should support arm64"
+        }
+      ]
+    }
+  },
   "guitarml/smartguitaramp": {
     "1.3.0": {
       "recs": [

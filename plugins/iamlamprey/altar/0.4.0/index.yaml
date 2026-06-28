@@ -1,0 +1,53 @@
+name: Altar
+author: iamlamprey
+description: Modular DSP with guitar amplifier models, cab IRs, NAM (A1/A2) support, overdrive pedals, delay, reverb, chorus, ringmod, cab designer, realtime pitch shifting, tuner, recorder, and more.
+type: effect
+license: gpl-3.0
+tags:
+  - guitar
+  - amp
+  - amplifier
+  - cab
+  - NAM
+  - effect
+  - modular
+url: https://github.com/iamlamprey/altar
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/iamlamprey/altar/altar.jpg
+date: '2026-06-15T09:23:53Z'
+changes: Full JUCE rewrite\n- Mac, Linux & Windows support\n- New standalone with ASIO\n- NAM A2 support\n- Rewritten pitch shifter\n- Per-module & full patch randomization\n- Improved EQs, tuner, gain matching, CPU monitoring, and more
+files:
+  - architectures:
+      - x64
+    contains:
+      - vst3
+      - exe
+      - app
+    sha256: f858310e7ec4d3a509110ed36eba0f59e51038b6f75966520dd52017c9ca3107
+    systems:
+      - type: win
+    size: 15177852
+    type: archive
+    url: https://github.com/iamlamprey/altar/releases/download/v0.4.0/Altar-v0.4.0-windows.zip
+  - architectures:
+      - x64
+    contains:
+      - vst3
+      - component
+      - app
+    sha256: 76251cee6ddf0d4bdd6d27ff1ef892fc4887f56cdd1150031c9621a9a61b87b0
+    systems:
+      - type: mac
+    size: 34304953
+    type: archive
+    url: https://github.com/iamlamprey/altar/releases/download/v0.4.0/Altar-v0.4.0-macOS.pkg
+  - architectures:
+      - x64
+    contains:
+      - vst3
+      - elf
+    sha256: cb917eca7e2443ae395b5a94df3793c4ac7628256f9c4aa82503d929c65061d0
+    systems:
+      - type: linux
+    size: 13588315
+    type: archive
+    url: https://github.com/iamlamprey/altar/releases/download/v0.4.0/Altar-v0.4.0-linux-x86_64.tar.gz
