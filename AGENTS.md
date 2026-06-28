@@ -129,6 +129,8 @@ For adding files refer to:
 - <a href="specification.md#file-format-recommendations">File format recommendations</a>
 - <a href="specification.md#file-types">File types</a>
 
+Be careful with "vst" and "vst3", vst refers to vst2 for Mac and vst3 refers to vst3 for all operating systems.
+
 After making your changes, validate them locally by running these commands:
 
 ```bash
