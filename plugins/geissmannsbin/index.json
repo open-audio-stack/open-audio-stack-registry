@@ -1,0 +1,82 @@
+{
+  "geissmannsbin/measure-counter-vst": {
+    "slug": "geissmannsbin/measure-counter-vst",
+    "version": "1.0.0",
+    "versions": {
+      "1.0.0": {
+        "name": "MeasureCounter",
+        "author": "geissmannsbin",
+        "description": "VST3/AU plugin for live performance measure counting with beat-segmented progress bar. Shows current bar/beat, cycle progress (4/8/16/32 bars), and visual warnings. Perfect for staying in sync during shows and rehearsals.",
+        "license": "mit",
+        "type": "tool",
+        "tags": [
+          "Counter",
+          "Measure",
+          "Performance",
+          "Live",
+          "Metronome",
+          "Utility"
+        ],
+        "url": "https://github.com/geissmannsbin/measure-counter-vst",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/geissmannsbin/measure-counter-vst/measure-counter-vst.jpg",
+        "date": "2026-02-11T14:20:29Z",
+        "changes": "Initial v1.0.0 release",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 2042306,
+            "sha256": "33de9a700cb788b70d19358580b6edd4ee2c17b2f0a286a3de5630444328e90d",
+            "url": "https://github.com/geissmannsbin/measure-counter-vst/releases/download/v1.0.0/MeasureCounter-Linux.zip"
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "component"
+            ],
+            "type": "archive",
+            "size": 5982808,
+            "sha256": "b3041a20c402b13c79c76368b0d96c4e9135612f144538708ffd3fd4e02b3e18",
+            "url": "https://github.com/geissmannsbin/measure-counter-vst/releases/download/v1.0.0/MeasureCounter-macOS.zip"
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 2248104,
+            "sha256": "ac468d5310cf113493045553b89d60d533e6e2342671075e3d885e7caa968106",
+            "url": "https://github.com/geissmannsbin/measure-counter-vst/releases/download/v1.0.0/MeasureCounter-Windows.zip"
+          }
+        ],
+        "verified": true
+      }
+    }
+  }
+}

@@ -851,6 +851,16 @@
       ]
     }
   },
+  "geissmannsbin/measure-counter-vst": {
+    "1.0.0": {
+      "recs": [
+        {
+          "field": "architectures",
+          "rec": "should support arm64"
+        }
+      ]
+    }
+  },
   "falktx/carla": {
     "2.5.9": {
       "recs": [
