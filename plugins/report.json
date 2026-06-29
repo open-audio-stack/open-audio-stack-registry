@@ -457,6 +457,20 @@
       ]
     }
   },
+  "publicsamples/quetzalcoatl": {
+    "0.8.7": {
+      "recs": [
+        {
+          "field": "url",
+          "rec": "not a supported format"
+        },
+        {
+          "field": "architectures",
+          "rec": "should support arm64"
+        }
+      ]
+    }
+  },
   "pentagrampro/owlbass": {
     "1.0.0": {
       "recs": [

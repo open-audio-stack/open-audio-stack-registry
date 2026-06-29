@@ -1,0 +1,80 @@
+{
+  "slug": "publicsamples/quetzalcoatl",
+  "version": "0.8.7",
+  "versions": {
+    "0.8.7": {
+      "name": "Quetzalcoatl",
+      "author": "Modular Samples",
+      "description": "Quetzalcoatl is an 8-layer sample playback plugin (rompler) for Mac, Windows & Linux. Features multi-stage crossfading, wavetable mode, wavefolder, extensive modulation/sequencing, filter, and a large built-in sound library.",
+      "license": "gpl-3.0",
+      "type": "instrument",
+      "tags": [
+        "Instrument",
+        "Sampler",
+        "Rompler",
+        "Wavetable",
+        "Pad",
+        "Texture"
+      ],
+      "url": "https://github.com/publicsamples/Quetzalcoatl",
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/publicsamples/quetzalcoatl/quetzalcoatl.jpg",
+      "date": "2024-11-07T15:23:19Z",
+      "changes": "- Fixes linux file order issues\n- Resolves various minor bugs\n- Links redirect to new store\n- Adds more waves to standard version\n- Adds more wavetables to expanded version\n",
+      "files": [
+        {
+          "systems": [
+            {
+              "type": "linux"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "vst3"
+          ],
+          "type": "archive",
+          "size": 506702148,
+          "sha256": "f9b7a60728ece3ddcf13864ce57a154e85bf2f9b70970ada79d7427593550218",
+          "url": "https://github.com/publicsamples/Quetzalcoatl/releases/download/0.8.7/Quetzalcoatl-Linux.VST3.tar.xz"
+        },
+        {
+          "systems": [
+            {
+              "type": "mac"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "vst3",
+            "component"
+          ],
+          "type": "archive",
+          "size": 978422404,
+          "sha256": "9dca0087f939e3641a67b3141675e1b4b6d51e03d39a95afddde7baec6cdd80a",
+          "url": "https://github.com/publicsamples/Quetzalcoatl/releases/download/0.8.7/Quetzalcoatl.Mac.VST3.AU.zip"
+        },
+        {
+          "systems": [
+            {
+              "type": "win"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "vst3"
+          ],
+          "type": "archive",
+          "size": 518146320,
+          "sha256": "3909c98e0c9bf8bcc7c432bfa2fdefd8159eb921e79dfa61b8cfc25b2b5c841e",
+          "url": "https://github.com/publicsamples/Quetzalcoatl/releases/download/0.8.7/Quetzalcoatl.Win.VST3.zip"
+        }
+      ],
+      "verified": true
+    }
+  }
+}
