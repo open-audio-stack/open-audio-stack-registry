@@ -1,0 +1,55 @@
+{
+  "name": "Pult EQ",
+  "author": "Consistent Interruption",
+  "description": "Pult EQ is a free and open source Pultec style tube EQ VST3 plugin. Features low/high boost & attenuation (Pultec trick), mid/side & stereo modes, tube saturation with auto gain and up to 16x oversampling. For adding mojo and coloration.",
+  "license": "gpl-3.0",
+  "type": "effect",
+  "tags": [
+    "Effect",
+    "Equalizer",
+    "Tube",
+    "Saturation",
+    "Pultec"
+  ],
+  "url": "https://github.com/consint/Pult-EQ",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/consint/pult-eq/pult-eq.jpg",
+  "date": "2025-07-21T18:33:47Z",
+  "changes": "Initial release for 64-bit Linux VST3 and 64-bit Windows VST3.",
+  "files": [
+    {
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3"
+      ],
+      "type": "archive",
+      "size": 14699710,
+      "sha256": "5b3b233ed361d8bc41e1a7a987b31f7b33bcf4b66ac7e843ee5fac5756b87092",
+      "url": "https://github.com/consint/Pult-EQ/releases/download/1.0.0/Pult.EQ_1_0_0_Linux_vst3.zip"
+    },
+    {
+      "systems": [
+        {
+          "type": "win"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3"
+      ],
+      "type": "archive",
+      "size": 11963479,
+      "sha256": "506fd14cdd7c5710f978bf01d0c56d9ca9c8518fbd0478aea8e1dac541a2ae7a",
+      "url": "https://github.com/consint/Pult-EQ/releases/download/1.0.0/Pult.EQ_1_0_0_Win_vst3.zip"
+    }
+  ],
+  "verified": true
+}
