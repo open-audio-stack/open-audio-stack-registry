@@ -1222,5 +1222,19 @@
         }
       ]
     }
+  },
+  "a2aaron/nyasynth": {
+    "1.0.0": {
+      "recs": [
+        {
+          "field": "systems",
+          "rec": "should support Linux"
+        },
+        {
+          "field": "license",
+          "rec": "should be more specific"
+        }
+      ]
+    }
   }
 }

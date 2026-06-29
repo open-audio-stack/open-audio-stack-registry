@@ -1,0 +1,49 @@
+name: Nyasynth
+author: Aaron Kofsky
+description: >-
+  Nyasynth is a recreation / modern port of the famous Meowsynth (cat meow
+  synthesizer). A fun, meme-inspired VST3 instrument with cat vocal synthesis.
+  Available for Windows and macOS (ARM + Universal).
+license: other
+type: instrument
+tags:
+  - Instrument
+  - Synth
+  - Cat
+  - Vocal
+url: https://github.com/a2aaron/nyasynth
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/a2aaron/nyasynth/nyasynth.jpg
+date: '2023-03-21T23:26:53Z'
+changes: Initial 1.0 release - The World's Second Meowizer!
+files:
+  - systems:
+      - type: mac
+    architectures:
+      - arm64
+    contains:
+      - vst3
+    type: archive
+    size: 4483634
+    sha256: e8ecdb7285867d89f402dc5d42367c0d8739e2c5d46c2a303238006bbd267752
+    url: https://github.com/a2aaron/nyasynth/releases/download/1.0/Nyasynth.1.0.Mac.OSX.AArch64.zip
+  - systems:
+      - type: mac
+    architectures:
+      - arm64
+      - x64
+    contains:
+      - vst3
+    type: archive
+    size: 8670609
+    sha256: ab6a0d9f9682453b5da21a642d8ba671aed3b51e29d65bd9f0132250962f634b
+    url: https://github.com/a2aaron/nyasynth/releases/download/1.0/Nyasynth.1.0.Mac.OSX.Universal.zip
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - vst3
+    type: archive
+    size: 4208886
+    sha256: 02e504aa26b92fb5b591d8cb4e473a4f02d756c3f1f51f866e0e555a6f287c3f
+    url: https://github.com/a2aaron/nyasynth/releases/download/1.0/Nyasynth.1.0.Windows.x86-64.zip
