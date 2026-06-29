@@ -135,6 +135,13 @@ The script is deterministic — it reads only what GitHub's API and the README p
 
 ### Validating file data
 
+For guitar / amp / pedal plugins:
+If a plugin supports Neural Amp Modeler (NAM (.nam)), tag is as "NAM".
+If a plugin supports AIDA-X (.json / RTNeural), tag is as "AIDA-X".
+If a plugin supports Proteus (GuitarML), tag is as "Proteus".
+
+Be careful with "vst" and "vst3", vst refers to vst2 for Mac and vst3 refers to vst3 for all operating systems.
+
 After reviewing and correcting the YAML fields above, run the validate script against the generated file:
 
 ```bash
