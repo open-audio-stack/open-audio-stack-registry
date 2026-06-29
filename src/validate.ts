@@ -29,6 +29,8 @@ pkg.addVersion(version, pkgJson);
 pkg.logEnable();
 pkg.outputReport();
 
+let hasErrors = false;
+
 // Loop through files in yaml file
 for (const type in pkgJson.files) {
   const file: PluginFile | PresetFile | ProjectFile = pkgJson.files[type];
@@ -46,12 +48,14 @@ for (const type in pkgJson.files) {
 
   // Validate file vs package metadata and output errors
   const errorsFile = await fileValidateMetadata(fileLocalPath, file);
+  if (errorsFile.length > 0) hasErrors = true;
   pkg.logErrors(errorsFile);
 }
 
 // Ensure image and audio files exist locally in registry
 const audioPathLocal = pkgJson.audio?.replace('https://open-audio-stack.github.io/open-audio-stack-registry/', 'src/');
 if (audioPathLocal && !fileExists(audioPathLocal)) {
+  hasErrors = true;
   pkg.logErrors([
     {
       message: 'File does not exist locally',
@@ -64,6 +68,7 @@ const imagePathLocal: string = pkgJson.image.replace(
   'src/',
 );
 if (!fileExists(imagePathLocal)) {
+  hasErrors = true;
   pkg.logErrors([
     {
       message: 'File does not exist locally',
@@ -71,3 +76,5 @@ if (!fileExists(imagePathLocal)) {
     },
   ] as ZodIssue[]);
 }
+
+if (hasErrors) process.exit(1);

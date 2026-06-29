@@ -35,11 +35,13 @@ jobs:
         env:
           CHANGED_FILES: ${{ steps.changed-files.outputs.all_changed_files }}
         run: |
+          exit_code=0
           for file in ${CHANGED_FILES}; do
-            node ./build/validate.js $file
+            node ./build/validate.js $file || exit_code=$?
           done
           echo 'Downloads:'
           ls ./test/downloads/ || true
+          exit $exit_code
 
       - name: VirusTotal Scan
         id: virustotal
