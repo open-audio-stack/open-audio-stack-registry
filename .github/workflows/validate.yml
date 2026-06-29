@@ -130,7 +130,7 @@ jobs:
               });
             }
 
-      - name: Request review
+      - name: Notify plugin authors
         uses: actions/github-script@v7
         env:
           CHANGED_FILES: ${{ steps.changed-files.outputs.all_changed_files }}
@@ -141,30 +141,46 @@ jobs:
             if (!changedFiles) return;
 
             const pr = context.payload.pull_request;
-            const reviewers = new Set();
+            const authors = new Set();
 
             for (const file of changedFiles.split(' ')) {
               if (!file.endsWith('.yaml')) continue;
               try {
                 const content = fs.readFileSync(file, 'utf8');
                 const match = content.match(/^url:\s*https:\/\/github\.com\/([^\/\n\s]+)/m);
-                if (match) reviewers.add(match[1].toLowerCase());
+                if (match) authors.add(match[1].toLowerCase());
               } catch (e) {
                 core.warning(`Could not read ${file}: ${e.message}`);
               }
             }
 
-            for (const reviewer of reviewers) {
-              if (reviewer === pr.user.login.toLowerCase()) continue;
-              try {
-                await github.rest.pulls.requestReviewers({
-                  owner: context.repo.owner,
-                  repo: context.repo.repo,
-                  pull_number: pr.number,
-                  reviewers: [reviewer],
-                });
-                core.info(`Requested review from @${reviewer}`);
-              } catch (e) {
-                core.warning(`Could not request review from @${reviewer}: ${e.message}`);
-              }
+            const mentions = [...authors]
+              .filter(a => a !== pr.user.login.toLowerCase())
+              .map(a => `@${a}`)
+              .join(', ');
+
+            if (!mentions) return;
+
+            const body = `Plugin author notification:\n\n${mentions} — your plugin has been submitted to the Open Audio Stack registry. Please review this PR and let us know if the metadata (name, description, tags, files) is correct.`;
+
+            const { data: comments } = await github.rest.issues.listComments({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: pr.number,
+            });
+            const existing = comments.find(c => c.body.includes('Plugin author notification:'));
+            if (existing) {
+              await github.rest.issues.updateComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                comment_id: existing.id,
+                body,
+              });
+            } else {
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: pr.number,
+                body,
+              });
             }
