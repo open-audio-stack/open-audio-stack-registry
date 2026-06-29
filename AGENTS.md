@@ -86,6 +86,29 @@ If not already supplied by the user, prompt for a package homepage url. For exam
 - If the url is any other website url, then do your best to scrape the package information from the html page.
 - If the user provided a link that does not open or have any packages, inform the user and ask them to clarify
 
+### Checking for duplicates
+
+Before running any scripts, confirm the package does not already exist in the registry. Convert the GitHub URL to the expected kebab-case path and check:
+
+```bash
+# e.g. https://github.com/GuitarML/SmartGuitarAmp -> guitarml/smartguitaramp
+ls src/plugins/<org-name>/<package-name>/
+```
+
+Also check for an open or recently merged PR for the same package:
+
+```bash
+gh pr list --repo open-audio-stack/open-audio-stack-registry --search "<package-name>" --state all
+```
+
+If a match is found, **stop here**. Comment on the issue to let the submitter know the package is already in the registry or is covered by an open PR, and provide the existing registry URL:
+
+```
+https://open-audio-stack.github.io/open-audio-stack-registry/plugins/<org-name>/<package-name>
+```
+
+Only continue to the fetch script if no existing entry or open PR is found.
+
 ### Running the fetch script
 
 For GitHub repos, run the fetch script with the repository url and an optional version tag:
