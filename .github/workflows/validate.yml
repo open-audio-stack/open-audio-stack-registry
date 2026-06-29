@@ -96,7 +96,7 @@ jobs:
             const processedPaths = new Set();
 
             for (const file of files) {
-              const match = file.match(/^src\/(\w+)\/([^/]+)\/([^/]+)\//); 
+              const match = file.match(/^src\/(\w+)\/([^/]+)\/([^/]+)\//);
               if (match) {
                 const [, registryType, orgSlug, packageSlug] = match;
                 const pathKey = `${registryType}/${orgSlug}/${packageSlug}`;
@@ -127,5 +127,60 @@ jobs:
                 repo: context.repo.repo,
                 issue_number: context.payload.number,
                 body: output
+              });
+            }
+
+      - name: Notify plugin authors
+        uses: actions/github-script@v7
+        env:
+          CHANGED_FILES: ${{ steps.changed-files.outputs.all_changed_files }}
+        with:
+          script: |
+            const fs = require('fs');
+            const changedFiles = process.env.CHANGED_FILES;
+            if (!changedFiles) return;
+
+            const pr = context.payload.pull_request;
+            const authors = new Set();
+
+            for (const file of changedFiles.split(' ')) {
+              if (!file.endsWith('.yaml')) continue;
+              try {
+                const content = fs.readFileSync(file, 'utf8');
+                const match = content.match(/^url:\s*https:\/\/github\.com\/([^\/\n\s]+)/m);
+                if (match) authors.add(match[1].toLowerCase());
+              } catch (e) {
+                core.warning(`Could not read ${file}: ${e.message}`);
+              }
+            }
+
+            const mentions = [...authors]
+              .filter(a => a !== pr.user.login.toLowerCase())
+              .map(a => `@${a}`)
+              .join(', ');
+
+            if (!mentions) return;
+
+            const body = `Plugin author notification:\n\n${mentions} — your plugin has been submitted to the Open Audio Stack registry. Please review this PR and let us know if the metadata (name, description, tags, files) is correct.`;
+
+            const { data: comments } = await github.rest.issues.listComments({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: pr.number,
+            });
+            const existing = comments.find(c => c.body.includes('Plugin author notification:'));
+            if (existing) {
+              await github.rest.issues.updateComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                comment_id: existing.id,
+                body,
+              });
+            } else {
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: pr.number,
+                body,
               });
             }

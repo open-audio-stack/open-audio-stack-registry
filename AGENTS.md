@@ -2,6 +2,19 @@
 
 ## 1. Setup git repo
 
+Verify that the GitHub CLI is installed and authenticated:
+
+```bash
+gh --version
+gh auth status
+```
+
+If `gh` is not installed, follow the [installation guide](https://cli.github.com/). If not authenticated, run:
+
+```bash
+gh auth login
+```
+
 Check to see if you are inside the registry repository:
 
 ```bash
@@ -19,8 +32,14 @@ Ensure you are on the main branch and up-to-date with changes:
 
 ```bash
 git checkout main
-git pull
+gh repo sync
 npm install
+```
+
+Note: `gh repo sync` will refuse to run if there are uncommitted or untracked local changes. If that happens, use `git pull` instead:
+
+```bash
+git pull
 ```
 
 Then continue to step 2.
@@ -53,81 +72,68 @@ Create a new branch for your contribution. Use descriptive branch names followin
 - `preset/preset-name` for preset additions
 - `project/project-name` for project additions
 
-If not already supplied by the user, prompt for a package homepage url. For example they might respond with: `https://github.com/wolf-plugins/wolf-shaper`.
-
-- If the url is a GitHub url then you can use the GitHub API to retrieve the package information.
-- If the url is any other website url, then do your best to scrape the package information from the html page.
-- If the user did not specify file downloads/releases, get the latest that corresponds to the date they provided.
-- If the user did not provide a specific release or a specific date, then use the latest.
-- If the user provided a link that does not open or have any packages, inform the user and ask them to clarify
-
-For GitHub repos you can get detailed metadata and release filesizes and SHA256 hashes via curl such as:
+If the user provides a GitHub issue number, read the issue body first to extract the package details:
 
 ```bash
-curl -s https://api.github.com/repos/wolf-plugins/wolf-shaper
-curl -s https://raw.githubusercontent.com/wolf-plugins/wolf-shaper/refs/heads/master/README.md
-curl -s https://api.github.com/repos/wolf-plugins/wolf-shaper/releases
-curl -s https://api.github.com/repos/wolf-plugins/wolf-shaper/releases/tags/v1.0.2
+gh issue view NUMBER --repo open-audio-stack/open-audio-stack-registry
 ```
 
-The information you have gathered will be used to populate the package yaml metadata.
+The issue body will contain pre-filled YAML — use it directly as the basis for the `index.yaml`.
 
-First add new folders for the organization and package using [kebab-case](https://developer.mozilla.org/en-US/docs/Glossary/Kebab_case) In most cases this should match the Github org and repo name. Using our example it would be: `wolf-plugins/wolf-shaper`. If another website then use the domain name without extension for the org-name:
+If not already supplied by the user, prompt for a package homepage url. For example they might respond with: `https://github.com/wolf-plugins/wolf-shaper`.
 
-    ./src/plugins/org-name/package-name
+- If the url is a GitHub url, use the fetch script (see below) to collect metadata automatically.
+- If the url is any other website url, then do your best to scrape the package information from the html page.
+- If the user provided a link that does not open or have any packages, inform the user and ask them to clarify
 
-If the url has a preview image and/or audio files. Download them to this directory. For GitHub projects these are usually linked from the README.md file.
-Ensure the image is in jpeg format, and audio is in flac format (if files already exist then do not change them):
+### Running the fetch script
 
-    ./src/plugins/org-name/package-name/package-name.flac
-    ./src/plugins/org-name/package-name/package-name.jpg
+For GitHub repos, run the fetch script with the repository url and an optional version tag:
 
-`.jpg` and `.flac` compressed formats were chosen to optimize loading times on websites which display these packages.
+```bash
+npm run dev:fetch -- https://github.com/wolf-plugins/wolf-shaper
+npm run dev:fetch -- https://github.com/wolf-plugins/wolf-shaper v1.0.2
+```
 
-If you need to convert an image file to jpeg, use ffmpeg and ensure as little reduction in file quality as possible during conversion.
+The script automatically:
 
-Create yaml files for each version of the package using [Semantic Versioning](https://semver.org).
+- Derives `org-name` and `package-name` from the GitHub URL in kebab-case
+- Fetches repo metadata: name, description, license, topics/tags
+- Finds and downloads a preview image from the README, converting it to JPEG (max 1000px, 70% quality)
+- Finds and downloads a demo audio file from the README, converting it to a 10-second FLAC clip
+- Fetches the latest (or specified) release assets with sizes and SHA256 hashes
+- Infers systems, architectures, and plugin formats from asset filenames and README text
+- Writes `src/plugins/org-name/package-name/version/index.yaml` and the image/audio files
 
-    ./src/plugins/org-name/package-name/1.0.0/index.yaml
-    ./src/plugins/org-name/package-name/2.0.0/index.yaml
+### Reviewing and correcting the output
 
-Semantic versioning allows a compatible installer to install the latest non-breaking version of a package.
-Use an existing yaml file as a starting point:
+The script is deterministic — it reads only what GitHub's API and the README provide. It cannot make editorial judgments. After running it, review every field in the generated YAML and correct where needed:
 
-- App: [src/apps/free-audio/clapinfo/1.2.2/index.yaml](https://github.com/open-audio-stack/open-audio-stack-registry/blob/main/src/apps/free-audio/clapinfo/1.2.2/index.yaml)
+**`name`** — derived from the GitHub repository slug (e.g. `analog-tape-model` → `Analog Tape Model`). Check that it matches the plugin's actual display name. The repo slug often differs from the brand name (e.g. `AnalogTapeModel` → `Chow Tape Model`).
 
-- Plugin: [src/plugins/surge-synthesizer/surge/1.3.4/index.yaml](https://github.com/open-audio-stack/open-audio-stack-registry/blob/main/src/plugins/surge-synthesizer/surge/1.3.4/index.yaml)
+**`author`** — fetched from the GitHub user's display name. If the developer has not set a display name on GitHub, this falls back to their login (e.g. `jatinchowdhury18` instead of `Chowdhury DSP`). Look up the correct author name from the plugin's website or README.
 
-- Preset: [src/presets/jh/floating-rhodes/1.0.0/index.yaml](https://github.com/open-audio-stack/open-audio-stack-registry/blob/main/src/presets/jh/floating-rhodes/1.0.0/index.yaml)
+**`description`** — taken from the GitHub repository "About" field (≤255 characters). This is often shorter or less accurate than the plugin's own documentation. Expand or rewrite if needed.
 
-- Project: [src/projects/kmt/banwer/1.0.1/index.yaml](https://github.com/open-audio-stack/open-audio-stack-registry/blob/main/src/projects/kmt/banwer/1.0.1/index.yaml)
+**`type`** — inferred by scoring keywords in the description, topics, and README. This can misfire, especially for plugins that are clearly effects (tape, distortion, EQ) but whose README doesn't use the expected keywords. Always confirm: `instrument` / `effect` / `sampler` / `generator` / `tool`.
 
-Update the .yaml details to match your package. Refer to the <a href="specification.md">Open Audio Registry Specification</a> for all the possible fields and values allowed.
+**`tags`** — sourced from GitHub repository topics and converted to Title Case. GitHub topics are technical (e.g. `vst3-plugin`, `juce`) while registry tags should be semantic categories (e.g. `Effect`, `Filter`, `Tape`). Replace with meaningful registry tags.
 
-For adding an app refer to:
+**`changes`** — taken verbatim from the GitHub release body, trimmed to 255 characters. Release bodies often include headers, markdown formatting, or unrelated links. Clean up to a concise bullet list of changes.
 
-- <a href="specification.md#app">App fields/values</a>
+**`audio`** — only populated if the README contains a direct link to an audio file. Most READMEs do not. If no audio is found, source a demo clip manually, convert to FLAC (`ffmpeg -i input -t 10 -c:a flac output.flac`), and place it at `src/plugins/org-name/package-name/package-name.flac`.
 
-For adding a plugin refer to:
+**`image`** — downloaded from the first non-badge image found in the README. External images hosted on third-party sites may block downloads (HTTP 403). If the image is missing, find a screenshot from the plugin's website, GitHub, or documentation. Convert it with: `ffmpeg -i input.png -vf "scale='min(1000,iw)':-1" -q:v 10 output.jpg`
 
-- <a href="specification.md#plugin-1">Plugin fields/values</a>
-- <a href="specification.md#plugin-formats">Plugin formats</a>
-- <a href="specification.md#plugin-types">Plugin types</a>
+**`architectures`** — inferred from asset filenames (e.g. `x64`, `arm64`, `m1`). Filenames that give no architecture hint default to `[x64]`. Mac builds that are universal binaries (arm64 + x64) often have no hint in the filename — check the release notes or README to confirm.
 
-For adding an preset refer to:
+**`contains`** — inferred from asset filenames first, then the release body, then the README. For installer packages (`.exe`, `.dmg`, `.deb`) this is especially unreliable because the installer bundles multiple formats internally. Check the release notes or README to find the complete list of formats included.
 
-- <a href="specification.md#preset">Preset fields/values</a>
+**File list** — the script includes every release asset that matches a known platform. Some releases contain multiple distinct products in separate files (e.g. a synth and a companion FX plugin). Remove any files that are not part of the package being added.
 
-For adding a project refer to:
+**`org-name` / `package-name` path** — derived from the GitHub org and repo name in kebab-case. If the developer publishes under a personal GitHub account but the plugin is associated with an organisation or brand, use the brand name instead (e.g. `chowdhury-dsp/chowtapemodel` rather than `jatinchowdhury18/analogtapemodel`). Check `src/plugins/` for any existing entry for the same plugin.
 
-- <a href="specification.md#project">Project fields/values</a>
-
-For adding files refer to:
-
-- <a href="specification.md#file">File fields/values</a>
-- <a href="specification.md#file-formats">File formats</a>
-- <a href="specification.md#file-format-recommendations">File format recommendations</a>
-- <a href="specification.md#file-types">File types</a>
+### Validating file data
 
 For guitar / amp / pedal plugins:
 If a plugin supports Neural Amp Modeler (NAM (.nam)), tag is as "NAM".
@@ -136,32 +142,45 @@ If a plugin supports Proteus (GuitarML), tag is as "Proteus".
 
 Be careful with "vst" and "vst3", vst refers to vst2 for Mac and vst3 refers to vst3 for all operating systems.
 
-After making your changes, validate them locally by running these commands:
+After reviewing and correcting the YAML fields above, run the validate script against the generated file:
 
 ```bash
-npm run dev:validate -- path/to/your/index.yaml
+npm run dev:validate -- src/plugins/org-name/package-name/1.0.0/index.yaml
 ```
 
-The script will output any issues as logs (you can't rely on the script exit code), for example:
+The validate script downloads each release asset and recomputes the `sha256` and `size` values, then compares them against what is in the YAML. This is the authoritative check for file data — it catches cases where:
+
+- The fetch script read a size from the GitHub API that differs from the actual downloaded file (GitHub sometimes reports a pre-compression size)
+- A file URL redirects to a different binary than expected
+- The `architectures` field was inferred from the filename but the binary itself targets a different architecture
+
+The script outputs issues as log lines (you cannot rely on the exit code):
 
     X surge-synthesizer/surge/1.3.1
     - changes (String must contain at most 256 character(s))
 
-This error tells you the `changes` field is too long and needs to be shortened.
-
-During file validation you may recieve a `size` or `sha256` error such as:
-
     X surge-synthesizer/surge/1.3.1
-    - sha256 (Required) received 'e30b218700d4067edb3a0eadb4128784e41f91f663cff19e3fbb38460883cf59' expected '3d766adb0d04b86f7aca8c136bc4c7b0727d316ec10895f679f1c01b0c236a00'
+    - sha256 (Required) received 'e30b218700...' expected '3d766adb0d...'
     - size (Required) received '411860016' expected '68741234'
 
-File `size` field informs users how big the file is before it is downloaded. If the file size does not match, this could create a bad user experience where the user thinks they are downloading a small package, which turns out to be larger.
+When you see a `sha256` or `size` mismatch, confirm the file URL is correct and that the URL resolves to the right version. Then update the values in the YAML to match what the validator reports as `expected`.
 
-File `sha256` field is a hash of the file, if the file is modified in any way the hash will change. This is for security to ensure the file downloaded matches the file intended for distribution.
+If you need to recompute `sha256` and `size` manually:
 
-When displaying errors, the script will output the `received` and `expected` values. Confirm the file url is correct, and confirm the downloaded file contains the correct version of the package. Then update `size` and `sha256` values to resolve the error.
+```bash
+gh release download v1.0.2 --repo wolf-plugins/wolf-shaper --pattern "filename.zip" -D /tmp/
+shasum -a 256 /tmp/filename.zip
+wc -c < /tmp/filename.zip
+```
 
-Then proceed to step 3.
+For reference on all allowed file fields and format values:
+
+- <a href="specification.md#file">File fields/values</a>
+- <a href="specification.md#file-formats">File formats</a>
+- <a href="specification.md#file-format-recommendations">File format recommendations</a>
+- <a href="specification.md#file-types">File types</a>
+
+Once validation passes with no errors, proceed to step 3.
 
 ## 3. Validate Changes
 
@@ -204,10 +223,12 @@ Push the branch to your forked repository:
 git push origin feature/your-contribution-name
 ```
 
-Create a pull request using GitHub CLI:
+Create a pull request using GitHub CLI, referencing the source issue so it is closed automatically on merge:
 
 ```bash
-gh pr create --title "Your PR Title" --body "Description of your changes"
+gh pr create --title "Your PR Title" --body "Description of your changes
+
+Closes #NUMBER"
 ```
 
 Then proceed to step 5.
