@@ -85,6 +85,7 @@ If not already supplied by the user, prompt for a package homepage url. For exam
 - If the url is a GitHub url, use the fetch script (see below) to collect metadata automatically.
 - If the url is any other website url, then do your best to scrape the package information from the html page.
 - If the user provided a link that does not open or have any packages, inform the user and ask them to clarify
+- If the user provided a link that has a collection of plugins, such as a website or a markdown file, you must a) verify what is or is not a plugin in that collection b) confirm if each discovered plugin is FOSS c) confirm it is not a duplicate that has already been added to the repository (check the version number, a newer version is not a duplicate). This can be a resource intensive task so try to avoid going down endless links to discover plugins, use common sense.
 
 ### Checking for duplicates
 
