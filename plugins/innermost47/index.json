@@ -1,0 +1,97 @@
+{
+  "innermost47/ai-dj": {
+    "slug": "innermost47/ai-dj",
+    "version": "327.0.0",
+    "versions": {
+      "327.0.0": {
+        "name": "OBSIDIAN Neural",
+        "author": "Innermost",
+        "description": "AI-powered live performance tool (VST3/AU/Standalone with Ableton Link). 8-track sampler with real-time AI loop generation from text prompts using multiple models. Playable AI instrument for live sets.",
+        "license": "agpl-3.0",
+        "type": "instrument",
+        "tags": [
+          "Instrument",
+          "Ai",
+          "Generative",
+          "Live Performance",
+          "Sampler"
+        ],
+        "url": "https://github.com/innermost47/ai-dj",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/innermost47/ai-dj/ai-dj.jpg",
+        "date": "2026-06-28T07:14:01Z",
+        "changes": "- Latest build v327\n- Various improvements and bug fixes\n",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 6160318,
+            "sha256": "1711a90e81bc8275798658e580fe0eff6528d26eb836fa45086032578bb46eec",
+            "url": "https://github.com/innermost47/ai-dj/releases/download/v327/OBSIDIAN-Neural-Linux-VST3.tar.gz"
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "component"
+            ],
+            "type": "archive",
+            "size": 8615280,
+            "sha256": "f479c46ca6cc7f5c2b5da920b2cecf5cfa6bc8ab93ade5936f0c15e4f4127caf",
+            "url": "https://github.com/innermost47/ai-dj/releases/download/v327/OBSIDIAN-Neural-macOS-AU.zip"
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 8618291,
+            "sha256": "bb4b945c06b41ec0ff3d7831c157686360081c7fdd7e22bfde60f5ef150fd3f1",
+            "url": "https://github.com/innermost47/ai-dj/releases/download/v327/OBSIDIAN-Neural-macOS-VST3.zip"
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 3933373,
+            "sha256": "ea7cf388a6e7b42fc492d0ee1e0596af39db71b32769745a4ad9e4de22cf331c",
+            "url": "https://github.com/innermost47/ai-dj/releases/download/v327/OBSIDIAN-Neural-Windows-VST3.zip"
+          }
+        ],
+        "verified": true
+      }
+    }
+  }
+}
