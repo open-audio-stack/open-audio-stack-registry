@@ -1,0 +1,66 @@
+{
+  "yokemura/magical8bitplug2": {
+    "slug": "yokemura/magical8bitplug2",
+    "version": "1.0.1",
+    "versions": {
+      "1.0.1": {
+        "name": "Magical8bitPlug2",
+        "author": "yokemura",
+        "description": "Magical 8bit Plug 2 is a software synthesizer to generate the tones like the old 8bit game consoles (NES / Game Boy style sounds). Developed from scratch with JUCE.",
+        "license": "gpl-3.0",
+        "type": "instrument",
+        "tags": [
+          "8bit",
+          "chiptune",
+          "nes",
+          "gameboy",
+          "synthesizer",
+          "retro"
+        ],
+        "url": "https://github.com/yokemura/Magical8bitPlug2",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/yokemura/magical8bitplug2/magical8bitplug2.jpg",
+        "date": "2021-05-08T09:33:26Z",
+        "changes": "- Fixed unexpected sounding on note off\n- Respects pitch bend amount applied before note on\n",
+        "files": [
+          {
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "dll"
+            ],
+            "sha256": "6a8bc5fb0c4f623adff07be514696965a411fe3f3f62783e28d5960e5a6e64b7",
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "size": 3718577,
+            "type": "archive",
+            "url": "https://github.com/yokemura/Magical8bitPlug2/releases/download/v1.0.1/Magical8bitPlug2-win-210508.zip"
+          },
+          {
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "vst"
+            ],
+            "sha256": "8da08e5eca722027fed7b661398045ef54f33915dd79271c677ab1a7b30e40af",
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "size": 6050600,
+            "type": "archive",
+            "url": "https://github.com/yokemura/Magical8bitPlug2/releases/download/v1.0.1/Magical8bitPlug2-mac-210508.zip"
+          }
+        ],
+        "verified": true
+      }
+    }
+  }
+}
