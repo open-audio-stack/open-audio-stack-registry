@@ -1,7 +1,96 @@
 {
   "slug": "hqrrr/perceptomap",
-  "version": "0.16.1",
+  "version": "0.18.2",
   "versions": {
+    "0.18.2": {
+      "name": "PerceptoMap",
+      "author": "Qirui Huang",
+      "description": "PerceptoMap is a real-time psychoacoustic visualization VST3 plugin. Displays Mel spectrograms, MFCCs, Chromagram, Tempogram, Spectral Centroid, Contrast, Flatness, Rolloff, Onset markers, and more perceptual audio features.",
+      "license": "agpl-3.0",
+      "type": "tool",
+      "tags": [
+        "Tool",
+        "Analyzer",
+        "Visualizer",
+        "Spectrogram",
+        "Psychoacoustics"
+      ],
+      "url": "https://github.com/hqrrr/PerceptoMap",
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/hqrrr/perceptomap/perceptomap.jpg",
+      "date": "2026-06-13T23:01:59Z",
+      "changes": "- Fixed Windows build issue in GitHub Actions.\n- Functionally identical to v0.18.0 (Onset Markers mode).\n",
+      "files": [
+        {
+          "systems": [
+            {
+              "type": "linux"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "vst3"
+          ],
+          "type": "archive",
+          "size": 2104447,
+          "sha256": "7fb9cf86e8f1a812d0f860295cde6a2ce7750f40b3e63477a18ac5478f420db9",
+          "url": "https://github.com/hqrrr/PerceptoMap/releases/download/v0.18.2/PerceptoMap_vst3_v0.18.2_linux_x64.zip"
+        },
+        {
+          "systems": [
+            {
+              "type": "mac"
+            }
+          ],
+          "architectures": [
+            "arm64"
+          ],
+          "contains": [
+            "vst3"
+          ],
+          "type": "archive",
+          "size": 1501920,
+          "sha256": "23ec4e9e0b9492dfdfbd984dd99db8414e05c37e363abdaae42cdcf52f9517be",
+          "url": "https://github.com/hqrrr/PerceptoMap/releases/download/v0.18.2/PerceptoMap_vst3_v0.18.2_macOS_arm.zip"
+        },
+        {
+          "systems": [
+            {
+              "type": "mac"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "vst3"
+          ],
+          "type": "archive",
+          "size": 1692724,
+          "sha256": "5dd18d1100f17c55d03b645e4a95549ab488bcd2dbba029eb5d5348214951261",
+          "url": "https://github.com/hqrrr/PerceptoMap/releases/download/v0.18.2/PerceptoMap_vst3_v0.18.2_macOS_x64.zip"
+        },
+        {
+          "systems": [
+            {
+              "type": "win"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "vst3"
+          ],
+          "type": "archive",
+          "size": 2717837,
+          "sha256": "3b8ad6f0def5da7dc54fe66777e80c86e9ddd70c1c509351afed7d3acd223d81",
+          "url": "https://github.com/hqrrr/PerceptoMap/releases/download/v0.18.2/PerceptoMap_vst3_v0.18.2_windows_x64.zip"
+        }
+      ],
+      "verified": true
+    },
     "0.16.1": {
       "name": "PerceptoMap",
       "author": "hqrrr",
