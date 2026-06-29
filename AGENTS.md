@@ -2,6 +2,19 @@
 
 ## 1. Setup git repo
 
+Verify that the GitHub CLI is installed and authenticated:
+
+```bash
+gh --version
+gh auth status
+```
+
+If `gh` is not installed, follow the [installation guide](https://cli.github.com/). If not authenticated, run:
+
+```bash
+gh auth login
+```
+
 Check to see if you are inside the registry repository:
 
 ```bash
@@ -19,8 +32,14 @@ Ensure you are on the main branch and up-to-date with changes:
 
 ```bash
 git checkout main
-git pull
+gh repo sync
 npm install
+```
+
+Note: `gh repo sync` will refuse to run if there are uncommitted or untracked local changes. If that happens, use `git pull` instead:
+
+```bash
+git pull
 ```
 
 Then continue to step 2.
@@ -53,6 +72,14 @@ Create a new branch for your contribution. Use descriptive branch names followin
 - `preset/preset-name` for preset additions
 - `project/project-name` for project additions
 
+If the user provides a GitHub issue number, read the issue body first to extract the package details:
+
+```bash
+gh issue view NUMBER --repo open-audio-stack/open-audio-stack-registry
+```
+
+The issue body will contain pre-filled YAML — use it directly as the basis for the `index.yaml`.
+
 If not already supplied by the user, prompt for a package homepage url. For example they might respond with: `https://github.com/wolf-plugins/wolf-shaper`.
 
 - If the url is a GitHub url then you can use the GitHub API to retrieve the package information.
@@ -61,14 +88,16 @@ If not already supplied by the user, prompt for a package homepage url. For exam
 - If the user did not provide a specific release or a specific date, then use the latest.
 - If the user provided a link that does not open or have any packages, inform the user and ask them to clarify
 
-For GitHub repos you can get detailed metadata and release filesizes and SHA256 hashes via curl such as:
+For GitHub repos you can get detailed metadata and release filesizes via the `gh` CLI:
 
 ```bash
-curl -s https://api.github.com/repos/wolf-plugins/wolf-shaper
-curl -s https://raw.githubusercontent.com/wolf-plugins/wolf-shaper/refs/heads/master/README.md
-curl -s https://api.github.com/repos/wolf-plugins/wolf-shaper/releases
-curl -s https://api.github.com/repos/wolf-plugins/wolf-shaper/releases/tags/v1.0.2
+gh repo view wolf-plugins/wolf-shaper --json name,description,homepageUrl,licenseInfo,defaultBranchRef
+gh api repos/wolf-plugins/wolf-shaper/readme | python3 -c "import sys,json,base64; d=json.load(sys.stdin); print(base64.b64decode(d['content']).decode())"
+gh release list --repo wolf-plugins/wolf-shaper
+gh release view v1.0.2 --repo wolf-plugins/wolf-shaper --json tagName,publishedAt,body,assets
 ```
+
+The `assets` field in the release view includes `size` for each file. SHA256 hashes still require downloading the file.
 
 The information you have gathered will be used to populate the package yaml metadata.
 
@@ -152,7 +181,14 @@ File `size` field informs users how big the file is before it is downloaded. If 
 
 File `sha256` field is a hash of the file, if the file is modified in any way the hash will change. This is for security to ensure the file downloaded matches the file intended for distribution.
 
-When displaying errors, the script will output the `received` and `expected` values. Confirm the file url is correct, and confirm the downloaded file contains the correct version of the package. Then update `size` and `sha256` values to resolve the error.
+When displaying errors, the script will output the `received` and `expected` values. Confirm the file url is correct, and confirm the downloaded file contains the correct version of the package. Use the GitHub CLI to download a release asset and compute its SHA256:
+
+```bash
+gh release download v1.0.2 --repo wolf-plugins/wolf-shaper --pattern "filename.zip" -D /tmp/
+shasum -a 256 /tmp/filename.zip
+```
+
+Then update `size` and `sha256` values to resolve the error.
 
 Then proceed to step 3.
 
@@ -197,10 +233,12 @@ Push the branch to your forked repository:
 git push origin feature/your-contribution-name
 ```
 
-Create a pull request using GitHub CLI:
+Create a pull request using GitHub CLI, referencing the source issue so it is closed automatically on merge:
 
 ```bash
-gh pr create --title "Your PR Title" --body "Description of your changes"
+gh pr create --title "Your PR Title" --body "Description of your changes
+
+Closes #NUMBER"
 ```
 
 Then proceed to step 5.
