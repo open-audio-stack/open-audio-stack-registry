@@ -78,7 +78,7 @@ function inferSystems(filename: string): Array<{ type: string }> {
 function inferArchitectures(filename: string): string[] {
   const f = filename.toLowerCase();
   if (/universal|fat/.test(f)) return ['arm64', 'x64'];
-  if (/arm64|aarch64|[-_]m[123][-_.]|apple[._-]?silicon/.test(f)) return ['arm64'];
+  if (/arm64|aarch64|\barm\b|[-_]m[123][-_.]|apple[._-]?silicon/.test(f)) return ['arm64'];
   if (/armhf|armv7|arm32/.test(f)) return ['x32'];
   if (/x86[_-]64|amd64|\bx64\b|64[-_]?bit/.test(f)) return ['x64'];
   if (/\bx86\b(?![-_]64)|i[3-6]86|\bx32\b|32[-_]?bit|win32/.test(f)) return ['x32'];
