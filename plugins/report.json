@@ -571,6 +571,16 @@
       ]
     }
   },
+  "masseyis/plaits-vst": {
+    "1.1.0": {
+      "recs": [
+        {
+          "field": "architectures",
+          "rec": "should support arm64"
+        }
+      ]
+    }
+  },
   "martineastwood/mverb": {
     "1.0.0": {
       "recs": [

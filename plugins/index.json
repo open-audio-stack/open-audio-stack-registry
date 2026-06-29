@@ -5554,6 +5554,102 @@
       }
     }
   },
+  "masseyis/plaits-vst": {
+    "slug": "masseyis/plaits-vst",
+    "version": "1.1.0",
+    "versions": {
+      "1.1.0": {
+        "name": "PlaitsVST",
+        "author": "masseyis",
+        "description": "Polyphonic VST3/AU plugin port of Mutable Instruments Plaits macro-oscillator. Features 16 synthesis engines, polyphony up to 16 voices, AD envelope, and factory + user presets.",
+        "license": "mit",
+        "type": "instrument",
+        "tags": [
+          "plaits",
+          "mutable-instruments",
+          "macro-oscillator",
+          "synthesizer",
+          "polyphonic",
+          "eurorack"
+        ],
+        "url": "https://github.com/masseyis/plaits-vst",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/masseyis/plaits-vst/plaits-vst.jpg",
+        "date": "2025-12-02T10:04:57Z",
+        "changes": "- See GitHub release for details)",
+        "files": [
+          {
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "sha256": "e49c6631a6bbbb7d0c07eccf31f718f418d10ec2913a6b003c50c8e098f1cc4f",
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "size": 1751535,
+            "type": "archive",
+            "url": "https://github.com/masseyis/plaits-vst/releases/download/v1.1.0/PlaitsVST-Windows-VST3.zip"
+          },
+          {
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "sha256": "2e51a217da1a6120bbaa7dcaa9d0fb51870e00a7e7b7d75a0e55301c19eca997",
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "size": 5778112,
+            "type": "archive",
+            "url": "https://github.com/masseyis/plaits-vst/releases/download/v1.1.0/PlaitsVST-macOS-VST3.zip"
+          },
+          {
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "component"
+            ],
+            "sha256": "130d0733ae3bb7cb7fbbd948a063a365b8369164a9a82c33a7b027f8c3ce351d",
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "size": 5684766,
+            "type": "archive",
+            "url": "https://github.com/masseyis/plaits-vst/releases/download/v1.1.0/PlaitsVST-macOS-AU.zip"
+          },
+          {
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "sha256": "6168c7f4f705bafec8c955b7c3378310ac593695304748d45e32fa219f7921d6",
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "size": 4191190,
+            "type": "archive",
+            "url": "https://github.com/masseyis/plaits-vst/releases/download/v1.1.0/PlaitsVST-Linux-VST3.zip"
+          }
+        ],
+        "verified": true
+      }
+    }
+  },
   "martineastwood/mverb": {
     "slug": "martineastwood/mverb",
     "version": "1.0.0",
