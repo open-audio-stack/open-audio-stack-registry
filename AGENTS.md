@@ -36,6 +36,12 @@ gh repo sync
 npm install
 ```
 
+Note: `gh repo sync` will refuse to run if there are uncommitted or untracked local changes. If that happens, use `git pull` instead:
+
+```bash
+git pull
+```
+
 Then continue to step 2.
 
 ## 2. Contributing changes
@@ -85,7 +91,7 @@ If not already supplied by the user, prompt for a package homepage url. For exam
 For GitHub repos you can get detailed metadata and release filesizes via the `gh` CLI:
 
 ```bash
-gh repo view wolf-plugins/wolf-shaper --json name,description,homepageUrl,licenseInfo,defaultBranchName
+gh repo view wolf-plugins/wolf-shaper --json name,description,homepageUrl,licenseInfo,defaultBranchRef
 gh api repos/wolf-plugins/wolf-shaper/readme | python3 -c "import sys,json,base64; d=json.load(sys.stdin); print(base64.b64decode(d['content']).decode())"
 gh release list --repo wolf-plugins/wolf-shaper
 gh release view v1.0.2 --repo wolf-plugins/wolf-shaper --json tagName,publishedAt,body,assets
