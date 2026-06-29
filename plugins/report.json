@@ -827,6 +827,20 @@
       ]
     }
   },
+  "guitarml/smartguitarpedal": {
+    "1.5.0": {
+      "recs": [
+        {
+          "field": "url",
+          "rec": "requires mounting step, consider .pkg instead"
+        },
+        {
+          "field": "architectures",
+          "rec": "should support arm64"
+        }
+      ]
+    }
+  },
   "guitarml/smartguitaramp": {
     "1.3.0": {
       "recs": [

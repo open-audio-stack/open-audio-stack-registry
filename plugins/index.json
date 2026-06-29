@@ -7964,6 +7964,87 @@
       }
     }
   },
+  "guitarml/smartguitarpedal": {
+    "slug": "guitarml/smartguitarpedal",
+    "version": "1.5.0",
+    "versions": {
+      "1.5.0": {
+        "name": "SmartGuitarPedal",
+        "author": "GuitarML",
+        "description": "Neural guitar pedal plugin using Proteus modeling technology. Load and play various pedal effects, amp models, and conditioned Wavenet models. Easy tone capture and blending.",
+        "license": "apache-2.0",
+        "type": "effect",
+        "tags": [
+          "Guitar",
+          "Pedal",
+          "Proteus",
+          "NAM"
+        ],
+        "url": "https://github.com/GuitarML/SmartGuitarPedal",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/guitarml/smartguitarpedal/smartguitarpedal.jpg",
+        "date": "2022-10-05T15:31:25Z",
+        "changes": "- Graphics overhaul using Blender renders\n- Added ability to load conditioned Wavenet models\n- Added more range to the Drive knob\n",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "lv2",
+              "vst3"
+            ],
+            "type": "installer",
+            "size": 23902192,
+            "sha256": "dac888c983e6f0060e99bda1e0109e90751e3a04ae08bae1af965321a5d1d68a",
+            "url": "https://github.com/GuitarML/SmartGuitarPedal/releases/download/v1.5/SmartPedal-Linux-x64-1.5.deb"
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "aax",
+              "component",
+              "vst3"
+            ],
+            "type": "installer",
+            "size": 60725861,
+            "sha256": "6aeb668f8f8d9b777121894bcc0b4735e569c242d8fbcf5630c9f62755967cb9",
+            "url": "https://github.com/GuitarML/SmartGuitarPedal/releases/download/v1.5/Install-SmartPedal-v1.5-Mac.dmg"
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "aax",
+              "vst3"
+            ],
+            "type": "installer",
+            "size": 25675484,
+            "sha256": "f774e37f1984c3b3bc3469b47ba6f487653ba2d8a064951e0cc8be20419102d6",
+            "url": "https://github.com/GuitarML/SmartGuitarPedal/releases/download/v1.5/SmartPedal-Win-1.5.0.exe"
+          }
+        ],
+        "verified": true
+      }
+    }
+  },
   "guitarml/smartguitaramp": {
     "slug": "guitarml/smartguitaramp",
     "version": "1.3.0",
