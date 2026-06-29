@@ -129,7 +129,11 @@ For adding files refer to:
 - <a href="specification.md#file-format-recommendations">File format recommendations</a>
 - <a href="specification.md#file-types">File types</a>
 
-If a plugin supports Neural Amp Modeler, tag is as "NAM".
+For guitar / amp / pedal plugins:
+If a plugin supports Neural Amp Modeler (NAM (.nam)), tag is as "NAM".
+If a plugin supports AIDA-X (.json / RTNeural), tag is as "AIDA-X".
+If a plugin supports Proteus (GuitarML), tag is as "Proteus".
+
 Be careful with "vst" and "vst3", vst refers to vst2 for Mac and vst3 refers to vst3 for all operating systems.
 
 After making your changes, validate them locally by running these commands:
