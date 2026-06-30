@@ -65,63 +65,95 @@ Then proceed to step 3.
 
 ## 2b. Contributing a package
 
-Create a new branch for your contribution. Use descriptive branch names following these conventions:
+### Step 1: Obtain URLs
+
+Extract the URL(s) to be added from the user's prompt. URLs may be provided directly in the message, or linked from a GitHub issue. If the user gives an issue number, read it first:
+
+```bash
+gh issue view NUMBER --repo open-audio-stack/open-audio-stack-registry
+```
+
+The issue body will contain a `url:` field with the package homepage. Extract all URLs before continuing.
+
+If no URL was provided or found, ask the user to supply one before proceeding.
+
+### Step 2: Route each URL
+
+For each URL, determine how to proceed:
+
+- **GitHub URL** → validate it (Step 3), then use the fetch script (see below).
+- **Other website URL** → scrape the page manually and construct the `index.yaml` by hand. Refer to the specification for required fields.
+- **URL that does not load or has no relevant content** → inform the user and ask them to clarify.
+
+### Step 3: Validate each GitHub URL
+
+Before running any scripts, confirm the repository meets all requirements. Run all checks below and **stop** if any fail.
+
+**3a. Valid GitHub repository**
+
+```bash
+gh repo view <org>/<repo>
+```
+
+If this returns an error, the repository does not exist or is private. Inform the user and stop.
+
+**3b. Valid content type**
+
+Confirm the repository is an audio application, plugin, preset, or project — not a library, framework, DAW, or unrelated tool. Read the repository description and README to decide. If it is not a valid content type for this registry, inform the user and stop.
+
+**3c. No existing entry or open PR**
+
+Convert the GitHub URL to the expected kebab-case path and check for an existing registry entry:
+
+```bash
+# e.g. https://github.com/GuitarML/SmartGuitarAmp -> guitarml/smartguitaramp
+ls src/<type>/<org-name>/<package-name>/
+```
+
+If check finds a match, **stop**. Comment on the issue to let the submitter know the package is already in the registry and include the existing registry URL:
+
+```
+https://open-audio-stack.github.io/open-audio-stack-registry/<type>/<org-name>/<package-name>
+```
+
+**3d. Free open-source license**
+
+```bash
+gh repo view <org>/<repo> --json licenseInfo --jq '.licenseInfo'
+```
+
+The license must be a recognised open-source license (MIT, GPL, Apache, LGPL, AGPL, etc.). If the repository has no license or a proprietary/commercial license, inform the user and stop.
+
+**3e. Has releases with binary builds**
+
+```bash
+gh release list --repo <org>/<repo>
+```
+
+The repository must have at least one GitHub release containing downloadable binary files (`.zip`, `.tar.gz`, `.exe`, `.dmg`, `.deb`, etc.). Source-only releases or releases with no assets are not sufficient. If no qualifying release exists, inform the user and stop.
+
+---
+
+Once all checks pass, create a new branch for your contribution. Use descriptive branch names following these conventions:
 
 - `app/app-name` for app additions
 - `plugin/plugin-name` for plugin additions
 - `preset/preset-name` for preset additions
 - `project/project-name` for project additions
 
-If you are contributing an app, preset, or project then use these reference yaml files as starting points:
+Use these reference yaml files as starting points:
 
-- App: [src/apps/free-audio/clapinfo/1.2.2/index.yaml](https://github.com/open-audio-stack/open-audio-stack-registry/blob/main/src/apps/free-audio/clapinfo/1.2.2/index.yaml)
+- App: [src/apps/free-audio/clapinfo/1.2.2/index.yaml](src/apps/free-audio/clapinfo/1.2.2/index.yaml)
 
-- Preset: [src/presets/jh/floating-rhodes/1.0.0/index.yaml](https://github.com/open-audio-stack/open-audio-stack-registry/blob/main/src/presets/jh/floating-rhodes/1.0.0/index.yaml)
+- Plugin: [src/plugins/surge-synthesizer/surge/1.3.4/index.yaml](src/plugins/surge-synthesizer/surge/1.3.4/index.yaml)
 
-- Project: [src/projects/kmt/banwer/1.0.1/index.yaml](https://github.com/open-audio-stack/open-audio-stack-registry/blob/main/src/projects/kmt/banwer/1.0.1/index.yaml)
+- Preset: [src/presets/jh/floating-rhodes/1.0.0/index.yaml](src/presets/jh/floating-rhodes/1.0.0/index.yaml)
 
-Update the .yaml details to match your package. Refer to the <a href="specification.md">Open Audio Registry Specification</a> for all the possible fields and values allowed.
+- Project: [src/projects/kmt/banwer/1.0.1/index.yaml](src/projects/kmt/banwer/1.0.1/index.yaml)
 
-If you are contributing a plugin, follow the more detailed instructions below:
+Update `.yaml` details to match your package. Refer to the <a href="specification.md">Open Audio Registry Specification</a> for all the possible fields and values allowed.
 
-If the user provides a GitHub issue number, read the issue body first to extract the package details:
-
-```bash
-gh issue view NUMBER --repo open-audio-stack/open-audio-stack-registry
-```
-
-The issue body will contain pre-filled YAML — use it directly as the basis for the `index.yaml`.
-
-If not already supplied by the user, prompt for a package homepage url. For example they might respond with: `https://github.com/wolf-plugins/wolf-shaper`.
-
-- If the url is a GitHub url, use the fetch script (see below) to collect metadata automatically.
-- If the url is any other website url, then do your best to scrape the package information from the html page.
-- If the user provided a link that does not open or have any packages, inform the user and ask them to clarify
-
-### Checking for duplicates
-
-Before running any scripts, confirm the package does not already exist in the registry. Convert the GitHub URL to the expected kebab-case path and check:
-
-```bash
-# e.g. https://github.com/GuitarML/SmartGuitarAmp -> guitarml/smartguitaramp
-ls src/plugins/<org-name>/<package-name>/
-```
-
-Also check for an open or recently merged PR for the same package:
-
-```bash
-gh pr list --repo open-audio-stack/open-audio-stack-registry --search "<package-name>" --state all
-```
-
-If a match is found, **stop here**. Comment on the issue to let the submitter know the package is already in the registry or is covered by an open PR, and provide the existing registry URL:
-
-```
-https://open-audio-stack.github.io/open-audio-stack-registry/plugins/<org-name>/<package-name>
-```
-
-Only continue to the fetch script if no existing entry or open PR is found.
-
-### Running the fetch script
+### Running GitHub repo fetch script
 
 For GitHub repos, run the fetch script with the repository url and an optional version tag:
 
@@ -138,7 +170,7 @@ The script automatically:
 - Finds and downloads a demo audio file from the README, converting it to a 10-second FLAC clip
 - Fetches the latest (or specified) release assets with sizes and SHA256 hashes
 - Infers systems, architectures, and plugin formats from asset filenames and README text
-- Writes `src/plugins/org-name/package-name/version/index.yaml` and the image/audio files
+- Writes `src/<type>/org-name/package-name/version/index.yaml` and the image/audio files
 
 ### Reviewing and correcting the output
 
@@ -180,7 +212,7 @@ Be careful with "vst" and "vst3", vst refers to vst2 for Mac and vst3 refers to 
 After reviewing and correcting the YAML fields above, run the validate script against the generated file:
 
 ```bash
-npm run dev:validate -- src/plugins/org-name/package-name/1.0.0/index.yaml
+npm run dev:validate -- src/<type>/org-name/package-name/1.0.0/index.yaml
 ```
 
 The validate script downloads each release asset and recomputes the `sha256` and `size` values, then compares them against what is in the YAML. This is the authoritative check for file data — it catches cases where:
@@ -189,7 +221,7 @@ The validate script downloads each release asset and recomputes the `sha256` and
 - A file URL redirects to a different binary than expected
 - The `architectures` field was inferred from the filename but the binary itself targets a different architecture
 
-The script outputs issues as log lines (you cannot rely on the exit code):
+The script exits with code 1 if any errors are found (missing image/audio, SHA256/size mismatch), and exits 0 for informational warnings only. All issues are logged before exiting:
 
     X surge-synthesizer/surge/1.3.1
     - changes (String must contain at most 256 character(s))

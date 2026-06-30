@@ -163,7 +163,7 @@ jobs:
 
             if (!mentions) return;
 
-            const body = `Plugin author notification:\n\n${mentions} — your plugin has been submitted to the Open Audio Stack registry. Please review this PR and let us know if the metadata (name, description, tags, files) is correct.`;
+            const body = `Plugin author notification:\n\n${mentions} — your plugin has been submitted to the Open Audio Stack registry. Please review this PR and let us know if the metadata (name, description, tags, files) is correct. To see a full list of all currently added plugins, click <a href="https://studiorack.github.io/studiorack-site/plugins">here</a>.`;
 
             const { data: comments } = await github.rest.issues.listComments({
               owner: context.repo.owner,
