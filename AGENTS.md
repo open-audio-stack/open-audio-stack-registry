@@ -72,6 +72,18 @@ Create a new branch for your contribution. Use descriptive branch names followin
 - `preset/preset-name` for preset additions
 - `project/project-name` for project additions
 
+If you are contributing an app, preset, or project then use these reference yaml files as starting points:
+
+- App: [src/apps/free-audio/clapinfo/1.2.2/index.yaml](https://github.com/open-audio-stack/open-audio-stack-registry/blob/main/src/apps/free-audio/clapinfo/1.2.2/index.yaml)
+
+- Preset: [src/presets/jh/floating-rhodes/1.0.0/index.yaml](https://github.com/open-audio-stack/open-audio-stack-registry/blob/main/src/presets/jh/floating-rhodes/1.0.0/index.yaml)
+
+- Project: [src/projects/kmt/banwer/1.0.1/index.yaml](https://github.com/open-audio-stack/open-audio-stack-registry/blob/main/src/projects/kmt/banwer/1.0.1/index.yaml)
+
+Update the .yaml details to match your package. Refer to the <a href="specification.md">Open Audio Registry Specification</a> for all the possible fields and values allowed.
+
+If you are contributing a plugin, follow the more detailed instructions below:
+
 If the user provides a GitHub issue number, read the issue body first to extract the package details:
 
 ```bash
