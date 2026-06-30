@@ -1,0 +1,30 @@
+name: guitarix.vst
+author: Hermann
+description: >-
+  VST3 wrapper for Guitarix (full guitar amp / effects stack) on Linux. Includes
+  tube amps, cabinets, effects, and support for external LV2 plugins / IRs.
+  Great for guitar tones in the DAW.
+license: other
+type: effect
+tags:
+  - Guitar
+  - Amp
+  - Cabinet
+  - Effects
+  - NAM
+url: https://github.com/brummer10/guitarix.vst
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/brummer10/guitarix.vst/guitarix.vst.jpg
+date: '2025-03-07T17:13:51Z'
+changes: |
+  - Fix issues with offline rendering
+files:
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - vst3
+    type: archive
+    size: 6255652
+    sha256: 7f52e04b9b24c96186dc69165510506f89e128ff11b012de30d635db195819d0
+    url: https://github.com/brummer10/guitarix.vst/releases/download/v0.5/Guitarix.vst3.zip
