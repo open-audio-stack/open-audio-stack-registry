@@ -5052,6 +5052,51 @@
       }
     }
   },
+  "olegkapitonov/kpp-vst3": {
+    "slug": "olegkapitonov/kpp-vst3",
+    "version": "1.2.1",
+    "versions": {
+      "1.2.1": {
+        "name": "Kapitonov Plugins Pack (KPP)",
+        "author": "olegkapitonov",
+        "description": "Set of guitar sound processing plugins (VST3). Includes tubeAmp (advanced tube amp emulator with profiles), Bluedream, Distruction, Fuzz, Deadgate, Octaver, and Single2Humbucker. Great for guitar tones.",
+        "license": "gpl-3.0",
+        "type": "effect",
+        "tags": [
+          "Guitar",
+          "Amp",
+          "Cabinet",
+          "Effects",
+          "Distortion",
+          "Fuzz"
+        ],
+        "url": "https://github.com/olegkapitonov/KPP-VST3",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/olegkapitonov/kpp-vst3/kpp-vst3.jpg",
+        "date": "2020-07-10T12:25:10Z",
+        "changes": "- First VST3 format release\n- Note: kpp_tubeamp plugin will produce no sound until a *.tapf profile is loaded\n",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 7298821,
+            "sha256": "0ab4ab27650ae6be77226b6711840f199f519882a4955a6dd03a4edf17997e24",
+            "url": "https://github.com/olegkapitonov/KPP-VST3/releases/download/1.2.1/KPP-VST3-1.2.1-binary-ubuntu-bionic.tar.bz2"
+          }
+        ],
+        "verified": true
+      }
+    }
+  },
   "mzuther/squeezer": {
     "slug": "mzuther/squeezer",
     "version": "2.5.4",
