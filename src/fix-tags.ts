@@ -41,17 +41,14 @@ let tagsFixed = 0;
 for (const filePath of findYamlFiles('src')) {
   const original = readFileSync(filePath, 'utf8');
 
-  const updated = original.replace(
-    /(^tags:\n)((?:  - .+\n)*)/m,
-    (_, header, tagLines) => {
-      const fixedLines = tagLines.replace(/^(  - )(.+)$/gm, (_line, prefix, tag) => {
-        const fixed = fixTag(tag.trim());
-        if (fixed !== tag.trim()) tagsFixed++;
-        return `${prefix}${fixed}`;
-      });
-      return header + fixedLines;
-    },
-  );
+  const updated = original.replace(/(^tags:\n)((?: {2}- .+\n)*)/m, (_, header, tagLines) => {
+    const fixedLines = tagLines.replace(/^( {2}- )(.+)$/gm, (_line: string, prefix: string, tag: string) => {
+      const fixed = fixTag(tag.trim());
+      if (fixed !== tag.trim()) tagsFixed++;
+      return `${prefix}${fixed}`;
+    });
+    return header + fixedLines;
+  });
 
   if (updated !== original) {
     writeFileSync(filePath, updated, 'utf8');
