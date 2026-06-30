@@ -184,7 +184,7 @@ The script is deterministic — it reads only what GitHub's API and the README p
 
 **`type`** — inferred by scoring keywords in the description, topics, and README. This can misfire, especially for plugins that are clearly effects (tape, distortion, EQ) but whose README doesn't use the expected keywords. Always confirm: `instrument` / `effect` / `sampler` / `generator` / `tool`.
 
-**`tags`** — sourced from GitHub repository topics and converted to Title Case. GitHub topics are technical (e.g. `vst3-plugin`, `juce`) while registry tags should be semantic categories (e.g. `Effect`, `Filter`, `Tape`). Replace with meaningful registry tags.
+**`tags`** — **All tags MUST be Title Case** (e.g. `Guitar`, `Pitch Shifter`, `Noise Gate`). The fetch script converts GitHub topics automatically; if you add or edit tags manually, apply Title Case. GitHub topics are technical (e.g. `vst3-plugin`, `juce`) while registry tags should be semantic categories (e.g. `Effect`, `Filter`, `Tape`). Replace with meaningful registry tags. Run `npm run dev:fix-tags` to bulk-fix any all-lowercase tags across the registry.
 
 **`changes`** — taken verbatim from the GitHub release body, trimmed to 255 characters. Release bodies often include headers, markdown formatting, or unrelated links. Clean up to a concise bullet list of changes.
 
