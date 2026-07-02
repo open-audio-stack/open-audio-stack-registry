@@ -203,9 +203,15 @@ The script is deterministic — it reads only what GitHub's API and the README p
 ### Validating file data
 
 For guitar / amp / pedal plugins:
-If a plugin supports Neural Amp Modeler (NAM (.nam)), tag is as "NAM".
-If a plugin supports AIDA-X (.json / RTNeural), tag is as "AIDA-X".
-If a plugin supports Proteus (GuitarML), tag is as "Proteus".
+If a plugin supports Neural Amp Modeler (NAM (.nam)), tag it as "NAM".
+If a plugin supports AIDA-X (.json / RTNeural), tag it as "AIDA-X".
+If a plugin supports Proteus (GuitarML), tag it as "Proteus".
+
+For synths:
+If a plugin supports audio input for oscillators, tag it as 'Audio Input'.
+
+For all plugins:
+If the plugin is a successor to another plugin, write that in its description and use the original pluign's name as a tag.
 
 Be careful with "vst" and "vst3", vst refers to vst2 for Mac and vst3 refers to vst3 for all operating systems.
 
