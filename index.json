@@ -5975,6 +5975,85 @@
         }
       }
     },
+    "mattanikiej/pandamonium-fuzz": {
+      "slug": "mattanikiej/pandamonium-fuzz",
+      "version": "1.0.1",
+      "versions": {
+        "1.0.1": {
+          "name": "Pandamonium Fuzz",
+          "author": "Matt Anikiej",
+          "description": "Pandamonium Fuzz is a chaotic and characterful fuzz pedal plugin. Delivers wild, unpredictable fuzz tones with great sustain and grit — perfect for adding mayhem to your guitar sound.",
+          "license": "gpl-3.0",
+          "type": "effect",
+          "tags": [
+            "Guitar",
+            "Pedal",
+            "Fuzz",
+            "Distortion",
+            "Effects"
+          ],
+          "url": "https://github.com/mattanikiej/pandamonium-fuzz",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/mattanikiej/pandamonium-fuzz/pandamonium-fuzz.jpg",
+          "date": "2024-02-20T02:19:25Z",
+          "changes": "- Bug fixes in the installer for macOS and Windows\n",
+          "files": [
+            {
+              "systems": [
+                {
+                  "type": "mac"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "component",
+                "vst3"
+              ],
+              "type": "installer",
+              "size": 2694501,
+              "sha256": "07b4d0ef79798fa4e2275dadb8f8a0025d6627a7bbfcc8a17b99958deda8e6ad",
+              "url": "https://github.com/mattanikiej/pandamonium-fuzz/releases/download/v1.0.1/PandamoniumFuzz1.0.1-mac-installer.dmg"
+            },
+            {
+              "systems": [
+                {
+                  "type": "win"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "vst3"
+              ],
+              "type": "archive",
+              "size": 3878037,
+              "sha256": "7174b3c47a876313a0754d81ca7980ac9936a954af2e67947c4f060e18c169a4",
+              "url": "https://github.com/mattanikiej/pandamonium-fuzz/releases/download/v1.0.1/PandamoniumFuzz1.0.1-windows.zip"
+            },
+            {
+              "systems": [
+                {
+                  "type": "win"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "vst3"
+              ],
+              "type": "installer",
+              "size": 5064192,
+              "sha256": "27da9338d8331dd6d174ceb2ec64ed0dac77947a569c1def77442186b5935716",
+              "url": "https://github.com/mattanikiej/pandamonium-fuzz/releases/download/v1.0.1/Pandamonium.exe"
+            }
+          ],
+          "verified": true
+        }
+      }
+    },
     "masseyis/plaits-vst": {
       "slug": "masseyis/plaits-vst",
       "version": "1.1.0",
