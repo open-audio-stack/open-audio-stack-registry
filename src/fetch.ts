@@ -385,7 +385,11 @@ async function main() {
   console.log('\n─── Fields requiring review ───');
   console.log(`  name:    "${pkg.name}"  — confirm display name matches plugin branding`);
   console.log(`  type:    "${pkg.type}"  — confirm: instrument / effect / sampler / generator / tool`);
-  console.log(`  tags:    ${JSON.stringify(pkg.tags)}  — sourced from GitHub topics, adjust as needed`);
+  const nonTitleCaseTags = (pkg.tags as string[]).filter(t => t !== slugToTitleCase(t));
+  const tagsNote = nonTitleCaseTags.length
+    ? `  ⚠ not Title Case: ${nonTitleCaseTags.join(', ')}`
+    : '  — sourced from GitHub topics, adjust as needed';
+  console.log(`  tags:    ${JSON.stringify(pkg.tags)}${tagsNote}`);
   console.log(`  changes: verify formatting and accuracy`);
   if (!existsSync(audioLocalPath)) console.log(`  audio:   not found — add manually if a demo is available`);
   if (!existsSync(imageLocalPath)) console.log(`  image:   not found — add manually if available`);

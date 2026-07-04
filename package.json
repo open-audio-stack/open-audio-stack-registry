@@ -20,6 +20,7 @@
     "dev:reorder": "tsx ./src/reorder.ts",
     "dev:upgrade": "tsx ./src/upgrade.ts",
     "dev:fetch": "tsx ./src/fetch.ts",
+    "dev:fix-tags": "tsx ./src/fix-tags.ts",
     "dev:validate": "tsx ./src/validate.ts",
     "dev:validate:all": "for file in $(find src -type f -name '*.yaml'); do node ./build/validate.js $file; done",
     "format": "prettier . --write",
