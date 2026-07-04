@@ -19,10 +19,10 @@ files:
     contains:
       - lv2
       - vst3
-    sha256: 8b6fac051792f0c76e151ecc2bf6a3227f2207d03e0d6bd6d124d61d27c150d0
+    sha256: 8a4f37dcee12fc39f618cbc7b4e5699dee4d0fa0e8ba6cf7c83b1ec1f78a1c40
     systems:
       - type: linux
-    size: 4117027
+    size: 9287901
     type: archive
     url: https://github.com/luna-co-software/plugins/releases/download/4k-eq-v1.0.9/4k-eq-linux.zip
   - architectures:
@@ -31,19 +31,19 @@ files:
     contains:
       - component
       - vst3
-    sha256: 0a3bb2a76cc56a0a08bb9ceb537de220787d8ff4840dd5dc213458a2c819ae48
+    sha256: 53423ab744bb290c5e0a2fc199902f5d39895be95cb791a3c8abc26e31fe0017
     systems:
       - type: mac
-    size: 6471620
+    size: 14536574
     type: archive
     url: https://github.com/luna-co-software/plugins/releases/download/4k-eq-v1.0.9/4k-eq-macos.zip
   - architectures:
       - x64
     contains:
       - vst3
-    sha256: 4611c6c90fef1cb5e6a6390ca3d57a71c36f574d587ae1498be8e090f4506d1c
+    sha256: 82bb5c79067c38a54671ed2c9f189b2dbe6f50b642a81d1eeefc0ddc4444e9dd
     systems:
       - type: win
-    size: 2958676
+    size: 1949822
     type: archive
     url: https://github.com/luna-co-software/plugins/releases/download/4k-eq-v1.0.9/4k-eq-windows.zip
