@@ -1,8 +1,8 @@
 {
   "slug": "luna-co-software/4k-eq",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "versions": {
-    "1.0.9": {
+    "1.0.10": {
       "name": "4K EQ",
       "author": "Luna Co. Audio",
       "description": "Professional 4-band parametric EQ with Brown/Black modes, analog saturation modeling, and real-time spectrum analyzer. SSL 4000 console EQ emulation with HPF/LPF, M/S processing, and 2x/4x oversampling.",
@@ -13,29 +13,49 @@
         "Mixing",
         "Mastering"
       ],
-      "url": "https://luna-co-software.github.io/lunacoaudio.github.io/",
+      "url": "https://github.com/dusk-audio/dusk-audio-plugins",
       "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/luna-co-software/4k-eq/4k-eq.flac",
       "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/luna-co-software/4k-eq/4k-eq.jpg",
-      "date": "2026-02-08T23:59:13.000Z",
-      "changes": "- Fix SilkVerb CMakeLists.txt missing file reference\n",
+      "date": "2026-05-08T17:11:33Z",
+      "changes": "- 4K EQ v1.0.10\n- Added CLAP plugin format\n- Added ARM64 Linux build\n",
       "files": [
         {
           "architectures": [
             "x64"
           ],
           "contains": [
+            "clap",
             "lv2",
             "vst3"
           ],
-          "sha256": "8b6fac051792f0c76e151ecc2bf6a3227f2207d03e0d6bd6d124d61d27c150d0",
+          "sha256": "e3699ca69ffb2cbb25c91bb81ec63bd036a3ad27fe7cbb54030be4de0e9dfb5b",
           "systems": [
             {
               "type": "linux"
             }
           ],
-          "size": 4117027,
+          "size": 14258666,
           "type": "archive",
-          "url": "https://github.com/luna-co-software/plugins/releases/download/4k-eq-v1.0.9/4k-eq-linux.zip"
+          "url": "https://github.com/dusk-audio/dusk-audio-plugins/releases/download/4k-eq-v1.0.10/4k-eq-linux.zip"
+        },
+        {
+          "architectures": [
+            "arm64"
+          ],
+          "contains": [
+            "clap",
+            "lv2",
+            "vst3"
+          ],
+          "sha256": "0f07956881ab243c7018a04e3b90815432573973d9c89c0a7c91b4fa5fa2f454",
+          "systems": [
+            {
+              "type": "linux"
+            }
+          ],
+          "size": 14121746,
+          "type": "archive",
+          "url": "https://github.com/dusk-audio/dusk-audio-plugins/releases/download/4k-eq-v1.0.10/4k-eq-linux-arm64.zip"
         },
         {
           "architectures": [
@@ -43,38 +63,40 @@
             "x64"
           ],
           "contains": [
+            "clap",
             "component",
             "vst3"
           ],
-          "sha256": "0a3bb2a76cc56a0a08bb9ceb537de220787d8ff4840dd5dc213458a2c819ae48",
+          "sha256": "61a3fe021fb5c7238693ddce4a6fa2eb2889218ed2015cd52a5c5a0355f84234",
           "systems": [
             {
               "type": "mac"
             }
           ],
-          "size": 6471620,
+          "size": 22056602,
           "type": "archive",
-          "url": "https://github.com/luna-co-software/plugins/releases/download/4k-eq-v1.0.9/4k-eq-macos.zip"
+          "url": "https://github.com/dusk-audio/dusk-audio-plugins/releases/download/4k-eq-v1.0.10/4k-eq-macos.zip"
         },
         {
           "architectures": [
             "x64"
           ],
           "contains": [
+            "clap",
             "vst3"
           ],
-          "sha256": "4611c6c90fef1cb5e6a6390ca3d57a71c36f574d587ae1498be8e090f4506d1c",
+          "sha256": "a90ae09cad02a98ea791488a87b2ce9751bce59274780997992210141635482d",
           "systems": [
             {
               "type": "win"
             }
           ],
-          "size": 2958676,
+          "size": 4263757,
           "type": "archive",
-          "url": "https://github.com/luna-co-software/plugins/releases/download/4k-eq-v1.0.9/4k-eq-windows.zip"
+          "url": "https://github.com/dusk-audio/dusk-audio-plugins/releases/download/4k-eq-v1.0.10/4k-eq-windows.zip"
         }
       ],
-      "verified": true
+      "verified": false
     }
   }
 }

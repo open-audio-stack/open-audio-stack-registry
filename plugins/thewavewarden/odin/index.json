@@ -1,12 +1,12 @@
 {
   "slug": "thewavewarden/odin",
-  "version": "2.3.4",
+  "version": "2.4.1",
   "versions": {
-    "2.3.4": {
+    "2.4.1": {
       "name": "Odin",
       "author": "TheWaveWarden",
       "description": "12-voice polyphonic semi-modular synthesizer. Earth shattering basses, exquisite leads or mad FX, Odin's got them all! Use the classic sound of analog waveforms - or draw your own.",
-      "license": "gpl-3.0",
+      "license": "other",
       "type": "instrument",
       "tags": [
         "Instrument",
@@ -16,8 +16,8 @@
       "url": "https://github.com/TheWaveWarden/odin2",
       "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/thewavewarden/odin/odin.flac",
       "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/thewavewarden/odin/odin.jpg",
-      "date": "2020-11-09T07:00:00.000Z",
-      "changes": " ",
+      "date": "2020-11-09T11:47:27Z",
+      "changes": "- Odin 2.4.1 nightly build\n",
       "files": [
         {
           "systems": [
@@ -33,10 +33,29 @@
             "lv2",
             "vst3"
           ],
+          "type": "installer",
+          "size": 61833878,
+          "sha256": "b0c5e1f27f3e20725eff5ece545122a1bd63468e91e3675125e72d1523229ef6",
+          "url": "https://github.com/TheWaveWarden/odin2/releases/download/NightlyDevel/Odin2-synth_2.4-1.deb"
+        },
+        {
+          "systems": [
+            {
+              "type": "linux"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "clap",
+            "lv2",
+            "vst3"
+          ],
           "type": "archive",
-          "size": 142093215,
-          "sha256": "72621ff6b68c340400eaaa8b0d52cfcf8ab7de4931bc364746a626764d189eeb",
-          "url": "https://github.com/TheWaveWarden/odin2/releases/download/NightlyDevel/Odin2.3.4Linux.zip"
+          "size": 66588004,
+          "sha256": "462c4fffda99ff91a6c362d8cf41616b50807778ae7a96471753046a799aed63",
+          "url": "https://github.com/TheWaveWarden/odin2/releases/download/NightlyDevel/Odin2.4.1Linux.zip"
         },
         {
           "systems": [
@@ -53,9 +72,9 @@
             "vst3"
           ],
           "type": "installer",
-          "size": 282935423,
-          "sha256": "1040f6e46c73cd878fe2b6ac3f20e97fa20eecd03fd206d6b0c01dc2a80e5761",
-          "url": "https://github.com/TheWaveWarden/odin2/releases/download/NightlyDevel/Odin2.3.4MacInstaller.pkg"
+          "size": 132362369,
+          "sha256": "9541a2551b85e6e50a4dcc74905d5edcf66c4f6c25ee91fa500b32738c67cd7f",
+          "url": "https://github.com/TheWaveWarden/odin2/releases/download/NightlyDevel/Odin2.4.1MacInstaller.pkg"
         },
         {
           "systems": [
@@ -72,9 +91,9 @@
             "vst3"
           ],
           "type": "installer",
-          "size": 92297906,
-          "sha256": "c070b5ed7b4a1c41615f582b5e17194729ea16e88f0e2f26c64994468766ff12",
-          "url": "https://github.com/TheWaveWarden/odin2/releases/download/NightlyDevel/Odin2.3.4WinInstaller.exe"
+          "size": 40936418,
+          "sha256": "c8e42d8f67f7a49328de0727bb9e97c7681b02300f1b0ccc5c24d31d065e3ae2",
+          "url": "https://github.com/TheWaveWarden/odin2/releases/download/NightlyDevel/Odin2.4.1WinInstaller.exe"
         }
       ],
       "verified": true

@@ -200,11 +200,15 @@
     }
   },
   "thewavewarden/odin": {
-    "2.3.4": {
+    "2.4.1": {
       "recs": [
         {
           "field": "architectures",
           "rec": "should support arm64"
+        },
+        {
+          "field": "license",
+          "rec": "should be more specific"
         }
       ]
     }

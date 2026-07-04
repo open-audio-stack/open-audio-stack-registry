@@ -1,0 +1,96 @@
+{
+  "name": "4K EQ",
+  "author": "Luna Co. Audio",
+  "description": "Professional 4-band parametric EQ with Brown/Black modes, analog saturation modeling, and real-time spectrum analyzer. SSL 4000 console EQ emulation with HPF/LPF, M/S processing, and 2x/4x oversampling.",
+  "type": "effect",
+  "license": "gpl-3.0",
+  "tags": [
+    "EQ",
+    "Mixing",
+    "Mastering"
+  ],
+  "url": "https://github.com/dusk-audio/dusk-audio-plugins",
+  "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/luna-co-software/4k-eq/4k-eq.flac",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/luna-co-software/4k-eq/4k-eq.jpg",
+  "date": "2026-05-08T17:11:33Z",
+  "changes": "- 4K EQ v1.0.10\n- Added CLAP plugin format\n- Added ARM64 Linux build\n",
+  "files": [
+    {
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "clap",
+        "lv2",
+        "vst3"
+      ],
+      "sha256": "e3699ca69ffb2cbb25c91bb81ec63bd036a3ad27fe7cbb54030be4de0e9dfb5b",
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "size": 14258666,
+      "type": "archive",
+      "url": "https://github.com/dusk-audio/dusk-audio-plugins/releases/download/4k-eq-v1.0.10/4k-eq-linux.zip"
+    },
+    {
+      "architectures": [
+        "arm64"
+      ],
+      "contains": [
+        "clap",
+        "lv2",
+        "vst3"
+      ],
+      "sha256": "0f07956881ab243c7018a04e3b90815432573973d9c89c0a7c91b4fa5fa2f454",
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "size": 14121746,
+      "type": "archive",
+      "url": "https://github.com/dusk-audio/dusk-audio-plugins/releases/download/4k-eq-v1.0.10/4k-eq-linux-arm64.zip"
+    },
+    {
+      "architectures": [
+        "arm64",
+        "x64"
+      ],
+      "contains": [
+        "clap",
+        "component",
+        "vst3"
+      ],
+      "sha256": "61a3fe021fb5c7238693ddce4a6fa2eb2889218ed2015cd52a5c5a0355f84234",
+      "systems": [
+        {
+          "type": "mac"
+        }
+      ],
+      "size": 22056602,
+      "type": "archive",
+      "url": "https://github.com/dusk-audio/dusk-audio-plugins/releases/download/4k-eq-v1.0.10/4k-eq-macos.zip"
+    },
+    {
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "clap",
+        "vst3"
+      ],
+      "sha256": "a90ae09cad02a98ea791488a87b2ce9751bce59274780997992210141635482d",
+      "systems": [
+        {
+          "type": "win"
+        }
+      ],
+      "size": 4263757,
+      "type": "archive",
+      "url": "https://github.com/dusk-audio/dusk-audio-plugins/releases/download/4k-eq-v1.0.10/4k-eq-windows.zip"
+    }
+  ],
+  "verified": false
+}
