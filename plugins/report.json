@@ -459,6 +459,14 @@
           "rec": "should support arm64"
         }
       ]
+    },
+    "2.19.0": {
+      "recs": [
+        {
+          "field": "architectures",
+          "rec": "should support arm64"
+        }
+      ]
     }
   },
   "publicsamples/quetzalcoatl": {

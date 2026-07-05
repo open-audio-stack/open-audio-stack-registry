@@ -35,8 +35,8 @@
               "vst3"
             ],
             "type": "archive",
-            "size": 12779876,
-            "sha256": "3a45bdd0d8b9ba7f3f83ef0af53a87dc6639358e4eab1e4c6c2b9a1848bcaaa0",
+            "size": 11510078,
+            "sha256": "29e5ff992b0e2bdea88af3bfbe8632c61409f7e28f02a39f96bd89299539e786",
             "url": "https://www.discodsp.com/download/?id=28"
           },
           {
@@ -56,8 +56,8 @@
               "vst3"
             ],
             "type": "archive",
-            "size": 14308855,
-            "sha256": "243a91132895d8271fae0496f93f101733779fbd5e385c9da8370fa6755c559c",
+            "size": 23932951,
+            "sha256": "921ab553f86b12f29ac5d7dddde144138228360d28edbcfa49fd93632198f245",
             "url": "https://www.discodsp.com/download/?id=23"
           },
           {
@@ -74,8 +74,8 @@
               "dll"
             ],
             "type": "archive",
-            "size": 7936780,
-            "sha256": "0cdb4867afa88767e4c393fe7786114c01d03adcb5f79344725d610e41adad2b",
+            "size": 10657176,
+            "sha256": "20b38b91ac4377345c5d72689a9a5d07c81f4aa4fceaa20a208e22bc92ba3506",
             "url": "https://www.discodsp.com/download/?id=27"
           }
         ],
@@ -118,8 +118,8 @@
               "so"
             ],
             "type": "archive",
-            "size": 54109315,
-            "sha256": "e0230183786820df714634b219ffeb0f5f5294b8a023a6a81b0aec5f8e9ea3a4",
+            "size": 100396266,
+            "sha256": "786d6c2484fc80ad76fdbf0cc3b7d440e32eda83e793f196fae0d713d04af7a5",
             "url": "https://www.discodsp.com/download/?id=9"
           },
           {
@@ -136,8 +136,8 @@
               "vst"
             ],
             "type": "archive",
-            "size": 66015583,
-            "sha256": "235d8dfca056f3b82b076c243d1aba5d42624c82e8a28d4d2b3ee85b71e174ec",
+            "size": 120356049,
+            "sha256": "d918493c188f0f18283e24f63d70faa35ff57df06c074e017c07d699cd78d697",
             "url": "https://www.discodsp.com/download/?id=2"
           },
           {
@@ -154,12 +154,86 @@
               "dll"
             ],
             "type": "archive",
-            "size": 53948152,
-            "sha256": "4a0bab6628824758e48af8d625857dd6036b1ac8af993490a0f4079dbe84020d",
+            "size": 95408408,
+            "sha256": "9ce280408fe2b20fb82531f5cdee44b7df432ba064df308a5e4ee73303938ccb",
             "url": "https://www.discodsp.com/download/?id=3"
           }
         ],
         "verified": false
+      },
+      "2.19.0": {
+        "name": "OB-Xd",
+        "author": "discoDSP",
+        "description": "Recreates the sound and behaviours of the Oberheim OB-X, without the limitations of the original hardware including features such as micro random detuning.",
+        "license": "gpl-3.0",
+        "type": "instrument",
+        "tags": [
+          "Instrument",
+          "Synth",
+          "OB-X"
+        ],
+        "url": "https://github.com/reales/OB-Xd",
+        "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/reales/ob-xd/obxd.flac",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/reales/ob-xd/obxd.jpg",
+        "date": "2026-01-04T14:47:50Z",
+        "changes": "- Unlock Bi-Directional MIDI Control\n- New Unison Voices\n- Enhanced Oscillator Features\n- Advanced Filter Capabilities\n- Refined Attack Envelope Shape\n- Oversampling Selection\n- MIDI and Preset Bar Enhancements\n- LFO Synchronization\n",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "so",
+              "vst3"
+            ],
+            "type": "installer",
+            "size": 31397826,
+            "sha256": "732dde1f9b701126afba985744e443bec1a87c5601e2a6a5093b9ba16464d618",
+            "url": "https://github.com/reales/OB-Xd/releases/download/v2.19/Obxd219.deb"
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "component",
+              "vst3"
+            ],
+            "type": "installer",
+            "size": 49872931,
+            "sha256": "954072c937e79be2d1adc42ebeca342c0d4cbf95a12442adb0d60a97c260f7f9",
+            "url": "https://github.com/reales/OB-Xd/releases/download/v2.19/OB-Xd.2.19.pkg"
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "dll",
+              "vst3"
+            ],
+            "type": "installer",
+            "size": 38321128,
+            "sha256": "b87017cad87835d00bfd6bdde6a15df3e46816ee5673965decd25c00e9f14ddd",
+            "url": "https://github.com/reales/OB-Xd/releases/download/v2.19/Obxd219.exe"
+          }
+        ],
+        "verified": true
       }
     }
   }
