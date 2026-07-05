@@ -53,10 +53,17 @@ for (const type in pkgJson.files) {
   // Download file if it doesn't already exist
   // Downloads directory is scanned for viruses in the next GitHub Action
   if (!fileExists(fileLocalPath)) {
-    const fileArrayBuffer: ArrayBuffer = await apiBuffer(file.url);
-    const fileBuffer: Buffer = Buffer.from(fileArrayBuffer);
-    dirCreate(path.dirname(fileLocalPath));
-    fileCreate(fileLocalPath, fileBuffer);
+    try {
+      const fileArrayBuffer: ArrayBuffer = await apiBuffer(file.url);
+      const fileBuffer: Buffer = Buffer.from(fileArrayBuffer);
+      dirCreate(path.dirname(fileLocalPath));
+      fileCreate(fileLocalPath, fileBuffer);
+    } catch (err) {
+      hasErrors = true;
+      const message = err instanceof Error ? err.message : String(err);
+      pkg.logErrors([{ message: `Failed to download file: ${message}`, path: ['url'] }] as ZodIssue[]);
+      continue;
+    }
   }
 
   // Validate file vs package metadata and output errors
