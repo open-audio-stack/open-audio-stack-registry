@@ -37,6 +37,19 @@ for (const type in pkgJson.files) {
   const fileName: string = path.basename(file.url);
   const fileLocalPath: string = path.join('test', 'downloads', slug, version, fileName);
 
+  // Reject mutable GitHub branch/tag archive URLs — they change sha256 on every commit
+  const mutableArchivePattern = /github\.com\/[^/]+\/[^/]+\/archive\/refs\/(heads|tags)\//;
+  if (mutableArchivePattern.test(file.url)) {
+    hasErrors = true;
+    const suggestedUrl = file.url.replace(/\/archive\/refs\/(heads|tags)\/[^/]+\.zip$/, '/archive/<commit-sha>.zip');
+    pkg.logErrors([
+      {
+        message: `url points to a mutable branch archive, pin to a specific commit instead: ${suggestedUrl}`,
+        path: ['url'],
+      },
+    ] as ZodIssue[]);
+  }
+
   // Download file if it doesn't already exist
   // Downloads directory is scanned for viruses in the next GitHub Action
   if (!fileExists(fileLocalPath)) {
