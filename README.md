@@ -113,6 +113,41 @@ When displaying errors, the script will output the `received` and `expected` val
 
 After validation passes, push your branch to GitHub and open a PR. During the PR review the automated GitHub Action will run test, validation and additional virus scanning checks which need to pass before your code is merged.
 
+## Linking to committed binaries
+
+Some packages (e.g. SFZ sample libraries) ship pre-built binaries committed directly to the repository with no GitHub releases. You can still add these to the registry, but the file URL **must** point to a specific commit rather than a branch name.
+
+**Why:** A branch archive URL such as `.../archive/refs/heads/master.zip` changes sha256 every time the author pushes a new commit. The validate script treats this as an error. A commit-pinned URL is immutable — the file and its hash never change.
+
+**How to find the commit SHA:**
+
+```bash
+# Get the current HEAD commit SHA for the default branch
+gh api repos/<org>/<repo>/git/refs/heads/<branch> --jq '.object.sha'
+
+# Example
+gh api repos/sfzinstruments/SalamanderGrandPiano/git/refs/heads/master --jq '.object.sha'
+# → 3382bf9496bba2486f5ab0de55a264d1dfc38404
+```
+
+**URL format:**
+
+```
+# ❌ Mutable — do NOT use
+https://github.com/org/repo/archive/refs/heads/master.zip
+
+# ✅ Pinned — use this format
+https://github.com/org/repo/archive/3382bf9496bba2486f5ab0de55a264d1dfc38404.zip
+```
+
+After updating the URL, run the validate script to compute the correct `sha256` and `size` for the pinned archive (the hash will differ from any previously downloaded branch archive due to the directory name inside the zip changing):
+
+```bash
+npm run dev:validate -- src/plugins/org-name/package-name/1.0.0/index.yaml
+```
+
+The validator will report a mismatch and show the `received` value — update `sha256` and `size` in the YAML to match.
+
 ## Badges
 
 If your project utilizes the Open Stack Audio specification or API, we encourage linking back to this project using a badge:

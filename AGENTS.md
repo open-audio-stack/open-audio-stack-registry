@@ -130,7 +130,11 @@ The license must be a recognised open-source license (MIT, GPL, Apache, LGPL, AG
 gh release list --repo <org>/<repo>
 ```
 
-The repository must have at least one GitHub release containing downloadable binary files (`.zip`, `.tar.gz`, `.exe`, `.dmg`, `.deb`, etc.). Source-only releases or releases with no assets are not sufficient. If no qualifying release exists, inform the user and stop.
+The repository must have at least one GitHub release containing downloadable binary files (`.zip`, `.tar.gz`, `.exe`, `.dmg`, `.deb`, etc.). Source-only releases or releases with no assets are not sufficient.
+
+**Exception — binaries committed directly to the repository:** If the repository has no releases but ships pre-built binaries committed to the repository itself (common for SFZ sample libraries and similar assets), you may add an entry using a commit-pinned archive URL. See the [Linking to committed binaries](#linking-to-committed-binaries) section of README.md for the required URL format.
+
+If neither condition is met, inform the user and stop.
 
 ---
 
