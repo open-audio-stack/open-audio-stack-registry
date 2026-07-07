@@ -1,0 +1,53 @@
+name: NeuralRack
+author: brummer10
+description: NeuralRack is a Neural Model and Impulse Response File loader for Linux/Windows.
+license: bsd-3-clause
+type: effect
+tags:
+  - Effect
+  - Guitar
+  - NAM
+  - AIDA-X
+url: https://github.com/brummer10/NeuralRack
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/brummer10/neuralrack/neuralrack.jpg
+date: '2026-05-30T13:36:54Z'
+changes: |
+  - Fix support for dpi scale
+  - Fix stand-alone may crash on wayland
+  - Add support for NAM outboard models in the IR module
+files:
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - lv2
+      - clap
+      - vst
+    type: archive
+    size: 2377056
+    sha256: 730cbd84d8caffaccd3ace636f4ce677114cd8620194e82f99a323a06113cfdd
+    url: https://github.com/brummer10/NeuralRack/releases/download/v0.3.3/NeuralRack-v0.3.3-linux-x86_64.tar.xz
+  - systems:
+      - type: linux
+    architectures:
+      - arm64
+    contains:
+      - lv2
+      - clap
+      - vst
+    type: archive
+    size: 2083816
+    sha256: d2c77cce4eff18aa19195b32ef8bb200e355a6342faa83dd9238bc762443f5be
+    url: https://github.com/brummer10/NeuralRack/releases/download/v0.3.3/NeuralRack-v0.3.3-linux-arm64.tar.xz
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - clap
+      - vst
+    type: archive
+    size: 2825097
+    sha256: 81572431ccbbb891154d64fc676bc545413933781d49b694603c18e01081c5bd
+    url: https://github.com/brummer10/NeuralRack/releases/download/v0.3.3/NeuralRack-v0.3.3-win64.zip
