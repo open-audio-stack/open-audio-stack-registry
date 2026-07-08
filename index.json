@@ -10338,6 +10338,185 @@
         }
       }
     },
+    "brummer10/neuralrack": {
+      "slug": "brummer10/neuralrack",
+      "version": "0.3.3",
+      "versions": {
+        "0.3.3": {
+          "name": "NeuralRack",
+          "author": "brummer10",
+          "description": "NeuralRack is a Neural Model and Impulse Response File loader for Linux/Windows.",
+          "license": "bsd-3-clause",
+          "type": "effect",
+          "tags": [
+            "Effect",
+            "Guitar",
+            "NAM",
+            "AIDA-X"
+          ],
+          "url": "https://github.com/brummer10/NeuralRack",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/brummer10/neuralrack/neuralrack.jpg",
+          "date": "2026-05-30T13:36:54Z",
+          "changes": "- Fix support for dpi scale\n- Fix stand-alone may crash on wayland\n- Add support for NAM outboard models in the IR module\n",
+          "files": [
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "lv2"
+              ],
+              "type": "archive",
+              "size": 2377056,
+              "sha256": "730cbd84d8caffaccd3ace636f4ce677114cd8620194e82f99a323a06113cfdd",
+              "url": "https://github.com/brummer10/NeuralRack/releases/download/v0.3.3/NeuralRack-v0.3.3-linux-x86_64.tar.xz"
+            },
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "lv2"
+              ],
+              "type": "archive",
+              "size": 2343336,
+              "sha256": "527cb4810564d3670d88a23493a84d9486095c5bf3f7a7acdb43faf80c568dc4",
+              "url": "https://github.com/brummer10/NeuralRack/releases/download/v0.3.3/NeuralRack-v3-v0.3.3-linux-x86_64.tar.xz"
+            },
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "elf"
+              ],
+              "type": "archive",
+              "size": 2252780,
+              "sha256": "0fd5386edab6b7291c456643391fbe950e107c85d80c1c361d08ad4319d1a4b1",
+              "url": "https://github.com/brummer10/NeuralRack/releases/download/v0.3.3/NeuralRack-app-v0.3.3-linux-x86_64.tar.xz"
+            },
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "arm64"
+              ],
+              "contains": [
+                "lv2"
+              ],
+              "type": "archive",
+              "size": 2083816,
+              "sha256": "d2c77cce4eff18aa19195b32ef8bb200e355a6342faa83dd9238bc762443f5be",
+              "url": "https://github.com/brummer10/NeuralRack/releases/download/v0.3.3/NeuralRack-v0.3.3-linux-arm64.tar.xz"
+            },
+            {
+              "systems": [
+                {
+                  "type": "win"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "lv2"
+              ],
+              "type": "archive",
+              "size": 2825097,
+              "sha256": "81572431ccbbb891154d64fc676bc545413933781d49b694603c18e01081c5bd",
+              "url": "https://github.com/brummer10/NeuralRack/releases/download/v0.3.3/NeuralRack-v0.3.3-win64.zip"
+            },
+            {
+              "systems": [
+                {
+                  "type": "win"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "lv2"
+              ],
+              "type": "archive",
+              "size": 2878464,
+              "sha256": "e56cf53659db75974b1cfb3ae884f6a6a425418a061f66389a107b92201c34a9",
+              "url": "https://github.com/brummer10/NeuralRack/releases/download/v0.3.3/NeuralRack-v3-v0.3.3-win64.zip"
+            },
+            {
+              "systems": [
+                {
+                  "type": "win"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "clap"
+              ],
+              "type": "archive",
+              "size": 2869968,
+              "sha256": "311f5ff4cefbce126a5a5eb7c3f36e5748fab9f9a93105338967b633cf381daf",
+              "url": "https://github.com/brummer10/NeuralRack/releases/download/v0.3.3/NeuralRack-clap-v0.3.3-win64.zip"
+            },
+            {
+              "systems": [
+                {
+                  "type": "win"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "vst"
+              ],
+              "type": "archive",
+              "size": 2872848,
+              "sha256": "b1c0dc015b2c23ef8f3dc7849208670c751a1745b225e608fad2fbcd636e0658",
+              "url": "https://github.com/brummer10/NeuralRack/releases/download/v0.3.3/NeuralRack-vst2-v0.3.3-win64.zip"
+            },
+            {
+              "systems": [
+                {
+                  "type": "win"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "exe"
+              ],
+              "type": "archive",
+              "size": 3014834,
+              "sha256": "05432f34b0e0dd4c62f96a0f053d18c26c088ab08c7ca0e89f932cac1b827569",
+              "url": "https://github.com/brummer10/NeuralRack/releases/download/v0.3.3/NeuralRack-app-v0.3.3-win64.zip"
+            }
+          ],
+          "verified": true
+        }
+      }
+    },
     "bljustice/hue": {
       "slug": "bljustice/hue",
       "version": "1.1.0",
