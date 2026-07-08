@@ -54,6 +54,7 @@ steps:
           - route: "GitHub URL → validate it (Step 3), then use the fetch script (see below)."
           - route: "Other website URL → scrape the page manually and construct the index.yaml by hand. Refer to the specification for required fields."
           - route: "URL that does not load or has no relevant content → inform the user and ask them to clarify."
+          - batch_note: "Non-GitHub URLs in a batch should also be handled individually (manual YAML construction) and will receive their own branch/PR if successful."
 
       - substep: 3
         title: "Validate each GitHub URL"
@@ -68,9 +69,7 @@ steps:
                 fail_condition: "Returns an error (repo does not exist or is private)."
               - id: 3b
                 name: "Valid content type"
-                fail_condition: "Repository is a library, framewBehavior
-
-    The proposed version uses explicit single_instruction / batch_instruction, single_rule / batch_rule, etc. This makes it much easier for an agent (or human) to follow the correct path without ambiguity.ork, DAW, or unrelated tool."
+                fail_condition: "Repository is a library, framework, DAW, or unrelated tool."
               - id: 3c
                 name: "No existing entry or open PR"
                 cmd: "ls src/<type>/<org-name>/<package-name>/"
@@ -89,8 +88,9 @@ steps:
         title: "Branching & Fetching"
         instructions:
           - "Once all checks pass (for single) or for all passing packages (for batch), prepare to generate files."
-          - batch_exception: "If processing a BATCH: Do NOT create branches yet. Stay on the `main` branch to generate all YAMLs and assets together. Skip to 'Running GitHub repo fetch script'. Defer branch creation to Step 4."
+          - batch_exception: "If processing a BATCH: Do NOT create branches yet. Stay on the `main` branch to generate all YAMLs and assets together. Defer branch creation to Step 4."
           - single_instruction: "If processing a SINGLE package: Create a new branch for your contribution now using conventions: `app/app-name`, `plugin/plugin-name`, `preset/preset-name`, `project/project-name`."
+          - batch_note: "After generation and validation of a batch, ensure you are still on the `main` branch before proceeding to per-package branching in Step 4."
           
           - title: "Running GitHub repo fetch script"
             instructions:
@@ -139,7 +139,7 @@ steps:
       - single_instruction: "Return the generated yaml file to the user for them to read/review."
       - batch_instruction: "Return a summary list of all successfully generated packages and their paths. Do not dump full YAML contents. List any failed packages separately."
       - "Ask user for [Y/N] approval to proceed to Commit Changes, Push Changes and Submit Pull Requests for the successful package(s)."
-      - "If the user answers No or N, ask them what changes they would like to make, and iterate until they are happy with the result."
+      - "If the user answers No or N, ask them what changes they would like to make (and whether the changes apply to specific packages or the whole batch), and iterate until they are happy with the result."
 
   - step: 4
     title: "Commit, push and pr changes"
@@ -169,6 +169,7 @@ steps:
           - id: pr
             action: "Create a separate pull request using GitHub CLI. Reference ONLY the source issue for this specific package:"
             cmd: "gh pr create --title \"[Type] Add Package Name\" --body \"Adds Package Name\n\nCloses #NUMBER\""
+      - batch_note: "If a package fails during branch/commit/PR creation, log the failure with the reason and continue processing the remaining successful packages."
 
   - step: 5
     title: "Conclusion"
