@@ -200,7 +200,13 @@ The script is deterministic — it reads only what GitHub's API and the README p
 
 **`contains`** — inferred from asset filenames first, then the release body, then the README. For installer packages (`.exe`, `.dmg`, `.deb`) this is especially unreliable because the installer bundles multiple formats internally. Check the release notes or README to find the complete list of formats included.
 
-**File list** — the script includes every release asset that matches a known platform. Some releases contain multiple distinct products in separate files (e.g. a synth and a companion FX plugin). Remove any files that are not part of the package being added.
+**File list** — include **every** binary release asset for the package. Do not trim the list to one file per platform. Releases often ship multiple variants for the same platform (e.g. a compatibility build, an optimised/SSE build, a standalone app, and per-format archives). Each is a separate entry in the `files` array with its own `contains` value. To determine what each file contains:
+
+1. Check the release body — authors often describe what each archive includes.
+2. Check the repository's CI workflow `.github/workflows/`
+3. When in doubt, name the file variant in a comment or derive from the filename suffix (e.g. `-clap-` → `clap`, `-vst2-` → `vst`, `-app-` → `elf`/`exe`).
+
+Exclude files that are: source archives (e.g. `-src.tar.xz`), checksums (`.sha256`, `.md5`), or entirely different products bundled in the same release.
 
 **`org-name` / `package-name` path** — derived from the GitHub org and repo name in kebab-case. If the developer publishes under a personal GitHub account but the plugin is associated with an organisation or brand, use the brand name instead (e.g. `chowdhury-dsp/chowtapemodel` rather than `jatinchowdhury18/analogtapemodel`). Check `src/plugins/` for any existing entry for the same plugin.
 
