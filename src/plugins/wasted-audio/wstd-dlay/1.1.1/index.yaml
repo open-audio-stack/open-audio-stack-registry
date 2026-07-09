@@ -1,0 +1,118 @@
+name: WSTD DLAY
+author: Wasted Audio
+description: Simple Delay Audio Plugin
+license: gpl-3.0
+type: effect
+tags:
+  - Delay
+  - Echo
+url: https://github.com/Wasted-Audio/wstd-dlay
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/wasted-audio/wstd-dlay/wstd-dlay.jpg
+date: '2025-12-09T13:22:00Z'
+changes: 'v1.1.1 release. See https://github.com/Wasted-Audio/wstd-dlay/releases/tag/v1.1.1 for details.'
+files:
+  - systems:
+      - type: linux
+    architectures:
+      - arm64
+    contains:
+      - vst
+      - vst3
+      - clap
+      - lv2
+    type: archive
+    size: 914856
+    sha256: 703cff530fc8d23ca0747787ef5cf7f8229d24420f4c598ebcc328eb2678f744
+    url: https://github.com/Wasted-Audio/wstd-dlay/releases/download/v1.1.1/wstd-dlay-v1.1.1-linux-arm64.tar.xz
+  - systems:
+      - type: linux
+    architectures:
+      - arm32
+    contains:
+      - vst
+      - vst3
+      - clap
+      - lv2
+    type: archive
+    size: 875652
+    sha256: af73f5d5c7f4d6d3498746223a40b16a3c0b2f7813226a08ce213fe330d3f2b0
+    url: https://github.com/Wasted-Audio/wstd-dlay/releases/download/v1.1.1/wstd-dlay-v1.1.1-linux-armhf.tar.xz
+  - systems:
+      - type: linux
+    architectures:
+      - x32
+    contains:
+      - vst
+      - vst3
+      - clap
+      - lv2
+    type: archive
+    size: 1030828
+    sha256: e5f34a537b415b1b4f2887db9f7bac4b36d397c77939f81135b18bb19a0dcd79
+    url: https://github.com/Wasted-Audio/wstd-dlay/releases/download/v1.1.1/wstd-dlay-v1.1.1-linux-i686.tar.xz
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - vst
+      - vst3
+      - clap
+      - lv2
+    type: archive
+    size: 996176
+    sha256: 211b881e16b9a2c60af9f08a7ce277a38faa6f875d39abd880e134b6e2a68a49
+    url: https://github.com/Wasted-Audio/wstd-dlay/releases/download/v1.1.1/wstd-dlay-v1.1.1-linux-x86_64.tar.xz
+  - systems:
+      - type: mac
+    architectures:
+      - x64
+    contains:
+      - vst
+      - vst3
+      - clap
+      - lv2
+    type: installer
+    size: 3144710
+    sha256: 86a36de8c5bf2644f6e4c7143189491ea14d5d869f310e3568e42779f7e51b9c
+    url: https://github.com/Wasted-Audio/wstd-dlay/releases/download/v1.1.1/wstd-dlay-v1.1.1-macos-intel.pkg
+  - systems:
+      - type: mac
+    architectures:
+      - arm64
+      - x64
+    contains:
+      - vst
+      - vst3
+      - clap
+      - lv2
+    type: installer
+    size: 5823000
+    sha256: ee69f6bec1714ea1768628178f5778c5435507fa0a8e7aebb6cbcbc97cb6e3d2
+    url: https://github.com/Wasted-Audio/wstd-dlay/releases/download/v1.1.1/wstd-dlay-v1.1.1-macos-universal.pkg
+  - systems:
+      - type: win
+    architectures:
+      - x32
+    contains:
+      - vst
+      - vst3
+      - clap
+      - lv2
+    type: archive
+    size: 5481966
+    sha256: e335596563b620fb5ab5ac120373f41252fa0d8ead653ca54fecf45f45990d29
+    url: https://github.com/Wasted-Audio/wstd-dlay/releases/download/v1.1.1/wstd-dlay-v1.1.1-win32.zip
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - vst
+      - vst3
+      - clap
+      - lv2
+    type: archive
+    size: 5288107
+    sha256: 0d9ca539d710b3c7edf97a5f9f1aa38cf2969141555166e7fc7f04411146ffee
+    url: https://github.com/Wasted-Audio/wstd-dlay/releases/download/v1.1.1/wstd-dlay-v1.1.1-win64.zip
