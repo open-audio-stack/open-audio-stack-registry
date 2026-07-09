@@ -1,0 +1,77 @@
+name: RoomReverb
+author: Christian Voigt
+description: Room Reverb is a mono/stereo to stereo algorithmic reverb audio plugin with many presets that lets you add reverberation to your recordings in your DAW.
+license: gpl-3.0
+type: effect
+tags:
+  - Reverb
+  - Algorithmic
+url: https://github.com/cvde/RoomReverb
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/cvde/roomreverb/roomreverb.jpg
+date: '2025-09-15T17:11:38Z'
+changes: Upgraded to JUCE 8.0.10.
+files:
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - vst3
+      - lv2
+      - clap
+    type: archive
+    size: 6828455
+    sha256: 7824c06f9b7e98c8dcd0b94ec8972b10fc19d79a81bb64793ea326f0786c7e9a
+    url: https://github.com/cvde/RoomReverb/releases/download/v1.4.1/RoomReverb-1.4.1-Linux-Plugin-Files.zip
+  - systems:
+      - type: mac
+    architectures:
+      - arm64
+      - x64
+    contains:
+      - vst3
+      - component
+      - lv2
+      - clap
+    type: installer
+    size: 14862073
+    sha256: 353f91d7e4344736e6d4b4ffe5d4033ea121e6f9d696ff7d4e1bacc7e9c59614
+    url: https://github.com/cvde/RoomReverb/releases/download/v1.4.1/RoomReverb-1.4.1-Mac-Installer.dmg
+  - systems:
+      - type: mac
+    architectures:
+      - arm64
+      - x64
+    contains:
+      - vst3
+      - component
+      - lv2
+      - clap
+    type: archive
+    size: 14553253
+    sha256: ebf52d96d39b4e52a69ce3c87dbb443a54c434623dcaa0f51788322776da754e
+    url: https://github.com/cvde/RoomReverb/releases/download/v1.4.1/RoomReverb-1.4.1-Mac-Plugin-Files.zip
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - vst3
+      - lv2
+      - clap
+    type: archive
+    size: 4259092
+    sha256: c1391589212ab54e104bbec795deda99a659593c677c1635d0a0534c4f12a930
+    url: https://github.com/cvde/RoomReverb/releases/download/v1.4.1/RoomReverb-1.4.1-Windows-Installer.zip
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - vst3
+      - lv2
+      - clap
+    type: archive
+    size: 8243434
+    sha256: a912f32036a648c45f65a927f959e571d10bb454fa01222f2b269b381d589d3d
+    url: https://github.com/cvde/RoomReverb/releases/download/v1.4.1/RoomReverb-1.4.1-Windows-Plugin-Files.zip

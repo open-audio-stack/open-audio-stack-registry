@@ -1165,6 +1165,16 @@
       ]
     }
   },
+  "cvde/roomreverb": {
+    "1.4.1": {
+      "recs": [
+        {
+          "field": "url",
+          "rec": "requires mounting step, consider .pkg instead"
+        }
+      ]
+    }
+  },
   "creativeintent/temper": {
     "1.0.4": {
       "recs": [
