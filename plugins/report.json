@@ -1467,6 +1467,20 @@
       ]
     }
   },
+  "arborealaudio/pimax": {
+    "1.1.2": {
+      "recs": [
+        {
+          "field": "url",
+          "rec": "requires mounting step, consider .pkg instead"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Linux"
+        }
+      ]
+    }
+  },
   "arborealaudio/omniamp": {
     "1.0.1": {
       "recs": [

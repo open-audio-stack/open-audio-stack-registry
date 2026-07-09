@@ -14773,6 +14773,71 @@
       }
     }
   },
+  "arborealaudio/pimax": {
+    "slug": "arborealaudio/pimax",
+    "version": "1.1.2",
+    "versions": {
+      "1.1.2": {
+        "name": "PiMax",
+        "author": "ArborealAudio",
+        "description": "Loudness maximizer & multiband saturation plugin",
+        "license": "gpl-3.0",
+        "type": "effect",
+        "tags": [
+          "Maximizer",
+          "Saturation",
+          "Mastering"
+        ],
+        "url": "https://github.com/ArborealAudio/PiMax",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/arborealaudio/pimax/pimax.jpg",
+        "date": "2023-07-05T18:56:09Z",
+        "changes": "- Fix broken DRM (mainly on Windows).\n- Fix volume meter RMS.\n- Update download API.\n- Disable GarageBand sandboxing.\n",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "vst",
+              "component",
+              "clap"
+            ],
+            "type": "installer",
+            "size": 12551769,
+            "sha256": "22ab13fa9787e5ce051e005c38f3e16603abbea78065959757f74a0913691e1b",
+            "url": "https://github.com/ArborealAudio/PiMax/releases/download/v1.1.2/PiMax-mac.dmg"
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "dll",
+              "clap"
+            ],
+            "type": "installer",
+            "size": 4844896,
+            "sha256": "c1c7e70cb667df66ec488520ee4d5a0f375f2a945aa44191755719c19247ca16",
+            "url": "https://github.com/ArborealAudio/PiMax/releases/download/v1.1.2/PiMax-windows.exe"
+          }
+        ],
+        "verified": true
+      }
+    }
+  },
   "arborealaudio/omniamp": {
     "slug": "arborealaudio/omniamp",
     "version": "1.0.1",
