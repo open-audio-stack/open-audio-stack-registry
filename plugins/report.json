@@ -1107,6 +1107,16 @@
       ]
     }
   },
+  "chowdhury-dsp/byod": {
+    "1.3.0": {
+      "recs": [
+        {
+          "field": "url",
+          "rec": "requires mounting step, consider .pkg instead"
+        }
+      ]
+    }
+  },
   "brummer10/neuralrack": {
     "0.3.3": {
       "recs": [

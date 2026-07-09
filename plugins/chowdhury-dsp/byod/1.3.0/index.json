@@ -1,0 +1,76 @@
+{
+  "name": "BYOD",
+  "author": "Chowdhury DSP",
+  "description": "Build-your-own guitar distortion!",
+  "license": "gpl-3.0",
+  "type": "effect",
+  "tags": [
+    "Guitar",
+    "Distortion",
+    "Modular"
+  ],
+  "url": "https://github.com/Chowdhury-DSP/BYOD",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/chowdhury-dsp/byod/byod.jpg",
+  "date": "2024-03-16T00:01:02Z",
+  "changes": "- Added \"Laser Trem\" module.\n- Added \"Poly Octave\" module.\n- Added \"Tempo Sync\" options for Delay module.\n- Added a \"Mix\" parameter for Phaser4 module.\n- Improved DSP performance for many of the modules.\n",
+  "files": [
+    {
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3",
+        "lv2",
+        "clap"
+      ],
+      "type": "installer",
+      "size": 22194032,
+      "sha256": "c1803ae57b717bab04ef2072c10284bcb7d44fbe352d42645075b0c6875c9aeb",
+      "url": "https://github.com/Chowdhury-DSP/BYOD/releases/download/v1.3.0/BYOD-Linux-x64-1.3.0.deb"
+    },
+    {
+      "systems": [
+        {
+          "type": "mac"
+        }
+      ],
+      "architectures": [
+        "arm64",
+        "x64"
+      ],
+      "contains": [
+        "vst3",
+        "component",
+        "clap"
+      ],
+      "type": "installer",
+      "size": 89127908,
+      "sha256": "997a0508b00a583d8563eb0e330c7e318fe43e7f4f3b06ba3d389221aeb7254a",
+      "url": "https://github.com/Chowdhury-DSP/BYOD/releases/download/v1.3.0/BYOD-Mac-1.3.0.dmg"
+    },
+    {
+      "systems": [
+        {
+          "type": "win"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3",
+        "clap"
+      ],
+      "type": "installer",
+      "size": 26404896,
+      "sha256": "a53fb65cedf90f7673e21ac2d12f5b0778f003ae7f2e34e6c4301854a738c36c",
+      "url": "https://github.com/Chowdhury-DSP/BYOD/releases/download/v1.3.0/BYOD-Win-64bit-1.3.0.exe"
+    }
+  ],
+  "verified": true
+}
