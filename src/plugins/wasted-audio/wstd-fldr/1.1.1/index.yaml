@@ -16,7 +16,7 @@ files:
     architectures:
       - arm64
     contains:
-      - vst
+      - so
       - vst3
       - clap
       - lv2
@@ -29,7 +29,7 @@ files:
     architectures:
       - arm32
     contains:
-      - vst
+      - so
       - vst3
       - clap
       - lv2
@@ -42,7 +42,7 @@ files:
     architectures:
       - x32
     contains:
-      - vst
+      - so
       - vst3
       - clap
       - lv2
@@ -55,7 +55,7 @@ files:
     architectures:
       - x64
     contains:
-      - vst
+      - so
       - vst3
       - clap
       - lv2
@@ -95,7 +95,7 @@ files:
     architectures:
       - x32
     contains:
-      - vst
+      - dll
       - vst3
       - clap
       - lv2
@@ -108,7 +108,7 @@ files:
     architectures:
       - x64
     contains:
-      - vst
+      - dll
       - vst3
       - clap
       - lv2
