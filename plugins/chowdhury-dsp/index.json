@@ -171,6 +171,107 @@
       }
     }
   },
+  "chowdhury-dsp/chowkick": {
+    "slug": "chowdhury-dsp/chowkick",
+    "version": "1.2.0",
+    "versions": {
+      "1.2.0": {
+        "name": "ChowKick",
+        "author": "Chowdhury DSP",
+        "description": "Kick synthesizer based on old-school drum machine circuits",
+        "license": "bsd-3-clause",
+        "type": "instrument",
+        "tags": [
+          "Kick",
+          "Drum",
+          "Synth"
+        ],
+        "url": "https://github.com/Chowdhury-DSP/ChowKick",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/chowdhury-dsp/chowkick/chowkick.jpg",
+        "date": "2023-01-16T09:07:50Z",
+        "changes": "- Added CLAP plugin format.\n- Added MTS support.\n- Added velocity sensitivity.\n- Improved OpenGL handling on Windows.\n",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "lv2",
+              "clap"
+            ],
+            "type": "installer",
+            "size": 4371620,
+            "sha256": "2c1328c65bd4af1c188f96d088d71527eccbdc5c434cafe57c8352f53969bb2f",
+            "url": "https://github.com/Chowdhury-DSP/ChowKick/releases/download/v1.2.0/ChowKick-Linux-x64-1.2.0.deb"
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "vst",
+              "component",
+              "clap"
+            ],
+            "type": "installer",
+            "size": 18907522,
+            "sha256": "de1833ac2bfd7f9d74ba61cb64f3fb7c600de348cba6b46d9c05c8df14d158f7",
+            "url": "https://github.com/Chowdhury-DSP/ChowKick/releases/download/v1.2.0/ChowKick-Mac-1.2.0.dmg"
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x32"
+            ],
+            "contains": [
+              "vst3",
+              "clap"
+            ],
+            "type": "installer",
+            "size": 5310718,
+            "sha256": "366c6f82dfa77d4ef89f168aab34153e01c8be3c0d737815fae4257ca75b870d",
+            "url": "https://github.com/Chowdhury-DSP/ChowKick/releases/download/v1.2.0/ChowKick-Win-32bit-1.2.0.exe"
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "clap"
+            ],
+            "type": "installer",
+            "size": 5791948,
+            "sha256": "d136b3938111a118d64e1dfc01f6b153a8c3ee5641001aed31b42cb033616c82",
+            "url": "https://github.com/Chowdhury-DSP/ChowKick/releases/download/v1.2.0/ChowKick-Win-64bit-1.2.0.exe"
+          }
+        ],
+        "verified": true
+      }
+    }
+  },
   "chowdhury-dsp/chow": {
     "slug": "chowdhury-dsp/chow",
     "version": "1.0.0",
