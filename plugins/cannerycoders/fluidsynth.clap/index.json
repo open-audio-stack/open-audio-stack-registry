@@ -1,0 +1,75 @@
+{
+  "slug": "cannerycoders/fluidsynth.clap",
+  "version": "0.2.1",
+  "versions": {
+    "0.2.1": {
+      "name": "FluidSynth.clap",
+      "author": "Cannery Coders",
+      "description": "A clap-plugin bridge to fluidsynth.",
+      "license": "mit",
+      "type": "instrument",
+      "tags": [
+        "SoundFont",
+        "Sampler"
+      ],
+      "url": "https://github.com/cannerycoders/fluidsynth.clap",
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/cannerycoders/fluidsynth.clap/fluidsynth.clap.jpg",
+      "date": "2023-07-08T22:59:41Z",
+      "changes": "Fixes for usage-pattern of clap-host example/reference clap-host.",
+      "files": [
+        {
+          "systems": [
+            {
+              "type": "mac"
+            }
+          ],
+          "architectures": [
+            "arm64"
+          ],
+          "contains": [
+            "clap"
+          ],
+          "type": "installer",
+          "size": 773471,
+          "sha256": "38bd8a3d969f495ea1da1f27b2b4749e54b1cbc3f5ab73d752860d0485d3c030",
+          "url": "https://github.com/cannerycoders/fluidsynth.clap/releases/download/v0.2.1/FluidSynth.clap.clang-arm64-darwin.dmg"
+        },
+        {
+          "systems": [
+            {
+              "type": "linux"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "clap"
+          ],
+          "type": "archive",
+          "size": 1085329,
+          "sha256": "85364abaf82b0a70750a63f7bcf298fc0161d3ba9df063c14ac51ac15cf2591e",
+          "url": "https://github.com/cannerycoders/fluidsynth.clap/releases/download/v0.2.1/FluidSynth.clap.gcc83-x64-linux.zip"
+        },
+        {
+          "systems": [
+            {
+              "type": "win"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "clap"
+          ],
+          "type": "archive",
+          "size": 2799867,
+          "sha256": "2da84ddd1f086fac1167c3d5df5960f605788216e3bb8a90e65867314ac00f87",
+          "url": "https://github.com/cannerycoders/fluidsynth.clap/releases/download/v0.2.1/FluidSynth.clap.vs22-x86_64-win32.zip"
+        }
+      ],
+      "verified": true
+    }
+  }
+}
