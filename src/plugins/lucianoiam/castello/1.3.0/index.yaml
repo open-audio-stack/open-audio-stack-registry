@@ -17,7 +17,7 @@ files:
     architectures:
       - x64
     contains:
-      - vst
+      - so
       - vst3
       - clap
     type: archive
@@ -42,7 +42,7 @@ files:
     architectures:
       - x64
     contains:
-      - vst
+      - dll
       - vst3
       - clap
     type: archive
