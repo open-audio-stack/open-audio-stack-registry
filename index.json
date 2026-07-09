@@ -3154,6 +3154,184 @@
         }
       }
     },
+    "spotlightkid/adt": {
+      "slug": "spotlightkid/adt",
+      "version": "0.2.2",
+      "versions": {
+        "0.2.2": {
+          "name": "ADT",
+          "author": "Christopher Arndt",
+          "description": "Automatic double tracking plugin (not only) for vocals",
+          "license": "mit",
+          "type": "effect",
+          "tags": [
+            "Vocal",
+            "Doubling",
+            "Chorus"
+          ],
+          "url": "https://github.com/SpotlightKid/adt",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/spotlightkid/adt/adt.jpg",
+          "date": "2024-11-13T19:01:41Z",
+          "changes": "- Set param unit for pan spread to percent.\n- Fixed CLAP id.\n- Made several small readme improvements/fixes.\n",
+          "files": [
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "arm64"
+              ],
+              "contains": [
+                "vst3",
+                "clap",
+                "lv2"
+              ],
+              "type": "archive",
+              "size": 409666,
+              "sha256": "955fa96d83476ddd7f4cd591ec3f072e855cc68cb350b42b725788d1086b4c78",
+              "url": "https://github.com/SpotlightKid/adt/releases/download/v0.2.2/adt-linux-arm64-0.2.2.zip"
+            },
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "arm32"
+              ],
+              "contains": [
+                "vst3",
+                "clap",
+                "lv2"
+              ],
+              "type": "archive",
+              "size": 338253,
+              "sha256": "7839d5f11445d8b3ba47339cb1680859db8cb974d3cd5ea94a2b040e13dd2225",
+              "url": "https://github.com/SpotlightKid/adt/releases/download/v0.2.2/adt-linux-armhf-0.2.2.zip"
+            },
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "x32"
+              ],
+              "contains": [
+                "vst3",
+                "clap",
+                "lv2"
+              ],
+              "type": "archive",
+              "size": 452729,
+              "sha256": "1b875e2031c65b56ee93c2694ce734b5d0299b8e433f62e5e387f71d2a60b3ec",
+              "url": "https://github.com/SpotlightKid/adt/releases/download/v0.2.2/adt-linux-i686-0.2.2.zip"
+            },
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "vst3",
+                "clap",
+                "lv2"
+              ],
+              "type": "archive",
+              "size": 427539,
+              "sha256": "568daa094fc379d37bcfec9a828d92c4087815caec435523a30d7f4c97af7600",
+              "url": "https://github.com/SpotlightKid/adt/releases/download/v0.2.2/adt-linux-x86_64-0.2.2.zip"
+            },
+            {
+              "systems": [
+                {
+                  "type": "mac"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "vst3",
+                "clap",
+                "lv2"
+              ],
+              "type": "archive",
+              "size": 115389,
+              "sha256": "b99cfe27288bfabe493bf00043c72f455bb00c63875b6d81571dc65667526b7b",
+              "url": "https://github.com/SpotlightKid/adt/releases/download/v0.2.2/adt-macos-intel-0.2.2.zip"
+            },
+            {
+              "systems": [
+                {
+                  "type": "mac"
+                }
+              ],
+              "architectures": [
+                "arm64",
+                "x64"
+              ],
+              "contains": [
+                "vst3",
+                "clap",
+                "lv2"
+              ],
+              "type": "archive",
+              "size": 234086,
+              "sha256": "ebb801ac57a334125edc81b060c07941ad55dd0267aac27533f2e05c627f0742",
+              "url": "https://github.com/SpotlightKid/adt/releases/download/v0.2.2/adt-macos-universal-0.2.2.zip"
+            },
+            {
+              "systems": [
+                {
+                  "type": "win"
+                }
+              ],
+              "architectures": [
+                "x32"
+              ],
+              "contains": [
+                "vst3",
+                "clap",
+                "lv2"
+              ],
+              "type": "archive",
+              "size": 411324,
+              "sha256": "78f397b56d003567143d78d8bbe4f8b4cfac6a1feb19fb82cd0dc4c12f95d84c",
+              "url": "https://github.com/SpotlightKid/adt/releases/download/v0.2.2/adt-win32-0.2.2.zip"
+            },
+            {
+              "systems": [
+                {
+                  "type": "win"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "vst3",
+                "clap",
+                "lv2"
+              ],
+              "type": "archive",
+              "size": 575913,
+              "sha256": "14fb607606d0b9aa33363f4f04ce11a0841a035f5157f15cfbd5f6425572687d",
+              "url": "https://github.com/SpotlightKid/adt/releases/download/v0.2.2/adt-win64-0.2.2.zip"
+            }
+          ],
+          "verified": true
+        }
+      }
+    },
     "sjoerdvankreel/firefly-synth-2": {
       "slug": "sjoerdvankreel/firefly-synth-2",
       "version": "2.1.3",
