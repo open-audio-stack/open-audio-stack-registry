@@ -119,7 +119,7 @@ Convert the GitHub URL to the expected kebab-case path and check for an existing
 ls src/<type>/<org-name>/<package-name>/
 ```
 
-If check finds a match, **stop**. Comment on the issue to let the submitter know the package is already in the registry and include the existing registry URL:
+If check finds a match that is the same version code, **stop**. If the match is a newer versiin, **continue**. Comment on the issue to let the submitter know the package is already in the registry and include the existing registry URL:
 
 ```
 https://open-audio-stack.github.io/open-audio-stack-registry/<type>/<org-name>/<package-name>
