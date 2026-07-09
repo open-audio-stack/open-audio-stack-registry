@@ -13291,6 +13291,85 @@
       }
     }
   },
+  "billydm/vitalium-verb": {
+    "slug": "billydm/vitalium-verb",
+    "version": "1.3.0",
+    "versions": {
+      "1.3.0": {
+        "name": "Vitalium Verb",
+        "author": "Billy Messenger",
+        "description": "A Rust port of the reverb module from the Vital/Vitalium synthesizer",
+        "license": "gpl-3.0",
+        "type": "effect",
+        "tags": [
+          "Reverb",
+          "Algorithmic"
+        ],
+        "url": "https://github.com/BillyDM/vitalium-verb",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/billydm/vitalium-verb/vitalium-verb.jpg",
+        "date": "2025-10-03T19:29:12Z",
+        "changes": "- Fixed: On Windows, the UI became unresponsive if the user dragged a slider outside of the plugin window.\n- Fixed: Memory leaks when closing the plugin window.\n",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "clap"
+            ],
+            "type": "archive",
+            "size": 7784042,
+            "sha256": "4bb235588bea15af8756f11f35e05285b499a32390c57e21d5cbde932bc31792",
+            "url": "https://github.com/BillyDM/vitalium-verb/releases/download/v1.3.0/vitaliumverb-1.3.0-ubuntu-22.04.zip"
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "clap"
+            ],
+            "type": "archive",
+            "size": 14316368,
+            "sha256": "412ea5830515bad133944ed1bd8d9b1a9a53cbae83fbac35cce24f5d539c2ea8",
+            "url": "https://github.com/BillyDM/vitalium-verb/releases/download/v1.3.0/vitaliumverb-1.3.0-macos-universal.zip"
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "clap"
+            ],
+            "type": "archive",
+            "size": 7071712,
+            "sha256": "58a744316dcbea42d0abd7a135f5c266592bb2a39646e930e5d5b2145b001391",
+            "url": "https://github.com/BillyDM/vitalium-verb/releases/download/v1.3.0/vitaliumverb-1.3.0-windows.zip"
+          }
+        ],
+        "verified": true
+      }
+    }
+  },
   "billydm/ctagdrc": {
     "slug": "billydm/ctagdrc",
     "version": "1.1.0",
