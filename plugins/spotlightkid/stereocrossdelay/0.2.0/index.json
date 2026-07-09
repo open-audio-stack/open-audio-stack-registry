@@ -1,0 +1,180 @@
+{
+  "name": "Stereo Cross Delay",
+  "author": "Christopher Arndt",
+  "description": "A stereo delay plugin with feedback and cross-mixing",
+  "license": "mit",
+  "type": "effect",
+  "tags": [
+    "Delay",
+    "Stereo"
+  ],
+  "url": "https://github.com/SpotlightKid/stereocrossdelay",
+  "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/spotlightkid/stereocrossdelay/stereocrossdelay.flac",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/spotlightkid/stereocrossdelay/stereocrossdelay.jpg",
+  "date": "2024-11-14T00:49:46Z",
+  "changes": "Initial release",
+  "files": [
+    {
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "architectures": [
+        "arm64"
+      ],
+      "contains": [
+        "vst3",
+        "so",
+        "clap",
+        "lv2"
+      ],
+      "type": "archive",
+      "size": 542327,
+      "sha256": "fe457b7751ffb681a79493368965a74262c73cd14eb5b53197e7ad48ca985ce8",
+      "url": "https://github.com/SpotlightKid/stereocrossdelay/releases/download/v0.2.0/stereocrossdelay-linux-arm64-0.2.0.zip"
+    },
+    {
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "architectures": [
+        "arm32"
+      ],
+      "contains": [
+        "vst3",
+        "so",
+        "clap",
+        "lv2"
+      ],
+      "type": "archive",
+      "size": 437456,
+      "sha256": "335ebeda34b75a7df843180b958222239eea91b376be9e8d441c9364766957e2",
+      "url": "https://github.com/SpotlightKid/stereocrossdelay/releases/download/v0.2.0/stereocrossdelay-linux-armhf-0.2.0.zip"
+    },
+    {
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "architectures": [
+        "x32"
+      ],
+      "contains": [
+        "vst3",
+        "so",
+        "clap",
+        "lv2"
+      ],
+      "type": "archive",
+      "size": 593478,
+      "sha256": "60d0c59d5c43e3c9db2a7a3487d1d13a24431e54529dee55f62ddd31150bd609",
+      "url": "https://github.com/SpotlightKid/stereocrossdelay/releases/download/v0.2.0/stereocrossdelay-linux-i686-0.2.0.zip"
+    },
+    {
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3",
+        "so",
+        "clap",
+        "lv2"
+      ],
+      "type": "archive",
+      "size": 561701,
+      "sha256": "d5734c4e7bd9d2d3e39229b6f8cfc6800b079eae303646834ec637bb0c806696",
+      "url": "https://github.com/SpotlightKid/stereocrossdelay/releases/download/v0.2.0/stereocrossdelay-linux-x86_64-0.2.0.zip"
+    },
+    {
+      "systems": [
+        {
+          "type": "mac"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3",
+        "vst",
+        "clap",
+        "lv2"
+      ],
+      "type": "archive",
+      "size": 134850,
+      "sha256": "cced284aea483a846f3cafb22bda5bbd23feb4c8e5fc7befed0777178efa4bc9",
+      "url": "https://github.com/SpotlightKid/stereocrossdelay/releases/download/v0.2.0/stereocrossdelay-macos-intel-0.2.0.zip"
+    },
+    {
+      "systems": [
+        {
+          "type": "mac"
+        }
+      ],
+      "architectures": [
+        "arm64",
+        "x64"
+      ],
+      "contains": [
+        "vst3",
+        "vst",
+        "clap",
+        "lv2"
+      ],
+      "type": "archive",
+      "size": 268808,
+      "sha256": "f4f8e43f10085ec85128a6cc55e4cd908ce11ee340788a82e7a6c0b4c2cd0c6e",
+      "url": "https://github.com/SpotlightKid/stereocrossdelay/releases/download/v0.2.0/stereocrossdelay-macos-universal-0.2.0.zip"
+    },
+    {
+      "systems": [
+        {
+          "type": "win"
+        }
+      ],
+      "architectures": [
+        "x32"
+      ],
+      "contains": [
+        "vst3",
+        "dll",
+        "clap",
+        "lv2"
+      ],
+      "type": "archive",
+      "size": 481941,
+      "sha256": "e4326b289406d1f636456f71621572cdd3248e56637b8a4576dce7a7e53e593b",
+      "url": "https://github.com/SpotlightKid/stereocrossdelay/releases/download/v0.2.0/stereocrossdelay-win32-0.2.0.zip"
+    },
+    {
+      "systems": [
+        {
+          "type": "win"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3",
+        "dll",
+        "clap",
+        "lv2"
+      ],
+      "type": "archive",
+      "size": 669343,
+      "sha256": "cbe7d8c6f1fea1364aed2990aaf20538c92ac710b4eb370586afde1cf197d154",
+      "url": "https://github.com/SpotlightKid/stereocrossdelay/releases/download/v0.2.0/stereocrossdelay-win64-0.2.0.zip"
+    }
+  ],
+  "verified": true
+}
