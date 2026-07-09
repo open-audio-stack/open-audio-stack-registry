@@ -1,0 +1,94 @@
+name: AIDA-X
+author: Aida DSP
+description: AIDA-X, an Amp Model Player leveraging AI
+license: gpl-3.0
+type: effect
+tags:
+  - Guitar
+  - Amp
+  - Emulation
+  - AIDA-X
+url: https://github.com/AidaDSP/aida-x
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/aidadsp/aida-x/aida-x.jpg
+date: '2024-02-01T11:22:37Z'
+changes: "- Fix loading small IR files\r\n- Make DC blocker optional, on by default\r\n- Support for models with 24 and 80 `hidden_size` \r\n- Turn anti-aliasing LPF off when at 0%\r\n- Update DPF for general plugin format fixes"
+files:
+  - systems:
+      - type: linux
+    architectures:
+      - arm64
+    contains:
+      - vst3
+      - vst
+      - clap
+      - lv2
+    type: archive
+    size: 1739364
+    sha256: bf9dc137d50bf569ec5243c6ccd81eee983699e1470044a980eeb3717bc55d28
+    url: https://github.com/AidaDSP/AIDA-X/releases/download/1.1.0/AIDA-X-1.1.0-linux-arm64.tar.xz
+  - systems:
+      - type: linux
+    architectures:
+      - arm32
+    contains:
+      - vst3
+      - vst
+      - clap
+      - lv2
+    type: archive
+    size: 1643172
+    sha256: 2772a71b9a51bb5df95513f2f49758b094ced30a39177aa756004dbe293987ba
+    url: https://github.com/AidaDSP/AIDA-X/releases/download/1.1.0/AIDA-X-1.1.0-linux-armhf.tar.xz
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - vst3
+      - vst
+      - clap
+      - lv2
+    type: archive
+    size: 1966228
+    sha256: 292b94f635e8adec95f23280fc94f1b6dd954b8a9440f3e51b7e9faa8bdbe543
+    url: https://github.com/AidaDSP/AIDA-X/releases/download/1.1.0/AIDA-X-1.1.0-linux-x86_64.tar.xz
+  - systems:
+      - type: mac
+    architectures:
+      - arm64
+      - x64
+    contains:
+      - vst3
+      - vst
+      - clap
+      - lv2
+    type: installer
+    size: 15297716
+    sha256: cea68478ed1923e79e7285d75a90fe8074dafc1a8884ee0ba7c9d1c92814a226
+    url: https://github.com/AidaDSP/AIDA-X/releases/download/1.1.0/AIDA-X-1.1.0-macos-universal-10.15.dmg
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - vst3
+      - vst
+      - clap
+      - lv2
+    type: installer
+    size: 7559426
+    sha256: 91517838e5f741084741a0947a625f9367145b2eb1f14b0e7d693300ef7a73b5
+    url: https://github.com/AidaDSP/AIDA-X/releases/download/1.1.0/AIDA-X-1.1.0-win64-installer.exe
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - vst3
+      - vst
+      - clap
+      - lv2
+    type: archive
+    size: 7620387
+    sha256: 648612e80a598b17778374e42c54fdddd4199a844f7b290ad38f6b3256551425
+    url: https://github.com/AidaDSP/AIDA-X/releases/download/1.1.0/AIDA-X-1.1.0-win64.zip
