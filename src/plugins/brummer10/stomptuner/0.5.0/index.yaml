@@ -1,0 +1,120 @@
+name: StompTuner
+author: Hermann
+description: 'Multi-format LV2|VST2|VST3|CLAP|AU multi-arch Linux|macOS|Windows Strobe Tuner using the DISTRHO Plugin Framework '
+license: gpl-3.0
+type: tool
+tags:
+  - Tuner
+  - Guitar
+url: https://github.com/brummer10/StompTuner
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/brummer10/stomptuner/stomptuner.jpg
+date: '2024-06-08T04:15:13Z'
+changes: v0.5 fix Sample Rate issues within the CLAP format, comes with a reworked GUI.
+files:
+  - systems:
+      - type: linux
+    architectures:
+      - arm64
+    contains:
+      - vst3
+      - so
+      - clap
+      - lv2
+    type: archive
+    size: 2326624
+    sha256: 7dabbfd2b07c98e32c02019586c7954a2a77456a73871494437823d460cb5f1c
+    url: https://github.com/brummer10/StompTuner/releases/download/v0.5/StompTuner-v0.5-linux-arm64.tar.xz
+  - systems:
+      - type: linux
+    architectures:
+      - arm32
+    contains:
+      - vst3
+      - so
+      - clap
+      - lv2
+    type: archive
+    size: 1811516
+    sha256: fd754f01337d6034c73388bfb5cadd04bf00e53758bdf726bc2eac347b887859
+    url: https://github.com/brummer10/StompTuner/releases/download/v0.5/StompTuner-v0.5-linux-armhf.tar.xz
+  - systems:
+      - type: linux
+    architectures:
+      - x32
+    contains:
+      - vst3
+      - so
+      - clap
+      - lv2
+    type: archive
+    size: 2450488
+    sha256: 9943721537ee04cb99885a31b4bf598e126f5386d6ea05f01ccb4be475115633
+    url: https://github.com/brummer10/StompTuner/releases/download/v0.5/StompTuner-v0.5-linux-i686.tar.xz
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - vst3
+      - so
+      - clap
+      - lv2
+    type: archive
+    size: 2379708
+    sha256: 96bd1a1ddf3f0fca96d2a997e07f2b03199c4df4bb6637fa0650d0179f55a042
+    url: https://github.com/brummer10/StompTuner/releases/download/v0.5/StompTuner-v0.5-linux-x86_64.tar.xz
+  - systems:
+      - type: mac
+    architectures:
+      - x64
+    contains:
+      - vst3
+      - vst
+      - component
+      - clap
+      - lv2
+    type: installer
+    size: 7260394
+    sha256: 290aa54b26b0b315afefef5b0d24098e0eb0cf9ccef35f0436bf19a96b26e214
+    url: https://github.com/brummer10/StompTuner/releases/download/v0.5/StompTuner-v0.5-macos-intel.dmg
+  - systems:
+      - type: mac
+    architectures:
+      - arm64
+      - x64
+    contains:
+      - vst3
+      - vst
+      - component
+      - clap
+      - lv2
+    type: installer
+    size: 10794314
+    sha256: 1559a89047bbdbda97a290ba517ae827ec7fb379adbc45ac6dacfb5497b79dd4
+    url: https://github.com/brummer10/StompTuner/releases/download/v0.5/StompTuner-v0.5-macos-universal.dmg
+  - systems:
+      - type: win
+    architectures:
+      - x32
+    contains:
+      - vst3
+      - dll
+      - clap
+      - lv2
+    type: archive
+    size: 6818591
+    sha256: 37a0e12daf47a4dc5dd20e799666acf7091b4016ae64e0d03f6a33d9a78caf3f
+    url: https://github.com/brummer10/StompTuner/releases/download/v0.5/StompTuner-v0.5-win32.zip
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - vst3
+      - dll
+      - clap
+      - lv2
+    type: archive
+    size: 10393961
+    sha256: 1970cff26fef7ee4b7efc8501b0287f36bedaf70e4c50c0bab216ce4d9f81e06
+    url: https://github.com/brummer10/StompTuner/releases/download/v0.5/StompTuner-v0.5-win64.zip
