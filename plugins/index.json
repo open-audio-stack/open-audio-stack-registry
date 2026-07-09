@@ -234,6 +234,191 @@
       }
     }
   },
+  "wasted-audio/wstd-fldr": {
+    "slug": "wasted-audio/wstd-fldr",
+    "version": "1.1.1",
+    "versions": {
+      "1.1.1": {
+        "name": "WSTD FLDR",
+        "author": "Wasted Audio",
+        "description": "Simple wave folder plugin.",
+        "license": "gpl-3.0",
+        "type": "effect",
+        "tags": [
+          "Wavefolder",
+          "Distortion"
+        ],
+        "url": "https://github.com/Wasted-Audio/wstd-fldr",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/wasted-audio/wstd-fldr/wstd-fldr.jpg",
+        "date": "2025-12-09T13:24:20Z",
+        "changes": "v1.1.1 release. See https://github.com/Wasted-Audio/wstd-fldr/releases/tag/v1.1.1 for details.",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "arm64"
+            ],
+            "contains": [
+              "so",
+              "vst3",
+              "clap",
+              "lv2"
+            ],
+            "type": "archive",
+            "size": 897052,
+            "sha256": "319bf7050c0f2be1c8e224866645f8019aab2d467dbdb042e51662825066c446",
+            "url": "https://github.com/Wasted-Audio/wstd-fldr/releases/download/v1.1.1/wstd-fldr-v1.1.1-linux-arm64.tar.xz"
+          },
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "arm32"
+            ],
+            "contains": [
+              "so",
+              "vst3",
+              "clap",
+              "lv2"
+            ],
+            "type": "archive",
+            "size": 860732,
+            "sha256": "69c2f3704c635a05fd43364d08d4a25b4fd24f9ae1c21437706061978316bd92",
+            "url": "https://github.com/Wasted-Audio/wstd-fldr/releases/download/v1.1.1/wstd-fldr-v1.1.1-linux-armhf.tar.xz"
+          },
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x32"
+            ],
+            "contains": [
+              "so",
+              "vst3",
+              "clap",
+              "lv2"
+            ],
+            "type": "archive",
+            "size": 1006016,
+            "sha256": "00f225462f1d209de43b7b3c24309436bb9703dc6c9fdc428fdcf471d8fd3d35",
+            "url": "https://github.com/Wasted-Audio/wstd-fldr/releases/download/v1.1.1/wstd-fldr-v1.1.1-linux-i686.tar.xz"
+          },
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "so",
+              "vst3",
+              "clap",
+              "lv2"
+            ],
+            "type": "archive",
+            "size": 975640,
+            "sha256": "279949dd02759db216c5f893eafa8bbe6867d5484bf99a382525bb2990b82759",
+            "url": "https://github.com/Wasted-Audio/wstd-fldr/releases/download/v1.1.1/wstd-fldr-v1.1.1-linux-x86_64.tar.xz"
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst",
+              "vst3",
+              "clap",
+              "lv2"
+            ],
+            "type": "installer",
+            "size": 3094020,
+            "sha256": "4e5a189630161bb04514dd40225c93c9016a50e7b72428b12a574941fb9651b1",
+            "url": "https://github.com/Wasted-Audio/wstd-fldr/releases/download/v1.1.1/wstd-fldr-v1.1.1-macos-intel.pkg"
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "vst",
+              "vst3",
+              "clap",
+              "lv2"
+            ],
+            "type": "installer",
+            "size": 5727978,
+            "sha256": "312bec354e2ff6fb41ee0a7f97384d92c4eaf22d904615a5dbb5d9cbbb5e7c77",
+            "url": "https://github.com/Wasted-Audio/wstd-fldr/releases/download/v1.1.1/wstd-fldr-v1.1.1-macos-universal.pkg"
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x32"
+            ],
+            "contains": [
+              "dll",
+              "vst3",
+              "clap",
+              "lv2"
+            ],
+            "type": "archive",
+            "size": 5426745,
+            "sha256": "f2b89e1d876e20bd0ee4b943e7a3e8982915913f7a3eff82d60af3059ce6ebe0",
+            "url": "https://github.com/Wasted-Audio/wstd-fldr/releases/download/v1.1.1/wstd-fldr-v1.1.1-win32.zip"
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "dll",
+              "vst3",
+              "clap",
+              "lv2"
+            ],
+            "type": "archive",
+            "size": 5237122,
+            "sha256": "ff02331c435f22381a1c56642140d949fedb571a000c1a9be8a83b711574bc93",
+            "url": "https://github.com/Wasted-Audio/wstd-fldr/releases/download/v1.1.1/wstd-fldr-v1.1.1-win64.zip"
+          }
+        ],
+        "verified": true
+      }
+    }
+  },
   "wasted-audio/wstd-flangr": {
     "slug": "wasted-audio/wstd-flangr",
     "version": "1.1.1",
