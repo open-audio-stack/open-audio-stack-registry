@@ -1,4 +1,181 @@
 {
+  "spotlightkid/dfzitarev1": {
+    "slug": "spotlightkid/dfzitarev1",
+    "version": "0.2.6",
+    "versions": {
+      "0.2.6": {
+        "name": "DF Zita Rev1",
+        "author": "Christopher Arndt",
+        "description": "A feedback-delay-network reverb plugin built with DPF and based on FAUST library demo code",
+        "license": "mit",
+        "type": "effect",
+        "tags": [
+          "Reverb",
+          "Algorithmic"
+        ],
+        "url": "https://github.com/SpotlightKid/dfzitarev1",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/spotlightkid/dfzitarev1/dfzitarev1.jpg",
+        "date": "2024-11-25T15:53:12Z",
+        "changes": "- Added parameter groups.\n- Added parameter descriptions (LV2).\n- Generated C++ source from FAUST code with faustdoctor instead of faustpp.\n",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "arm64"
+            ],
+            "contains": [
+              "vst3",
+              "clap",
+              "lv2"
+            ],
+            "type": "archive",
+            "size": 421683,
+            "sha256": "d26e76d75856e8ceb93ac5fc44f693d6fee970236d0e204985cb3f500e21ad0b",
+            "url": "https://github.com/SpotlightKid/dfzitarev1/releases/download/v0.2.6/dfzitarev1-linux-arm64-0.2.6.zip"
+          },
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "arm32"
+            ],
+            "contains": [
+              "vst3",
+              "clap",
+              "lv2"
+            ],
+            "type": "archive",
+            "size": 350050,
+            "sha256": "c9b9271695243f6206970051d72aa318cb233fae2c8e27eb352fbdf88b9f9169",
+            "url": "https://github.com/SpotlightKid/dfzitarev1/releases/download/v0.2.6/dfzitarev1-linux-armhf-0.2.6.zip"
+          },
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x32"
+            ],
+            "contains": [
+              "vst3",
+              "clap",
+              "lv2"
+            ],
+            "type": "archive",
+            "size": 467862,
+            "sha256": "81ea2558d8ba7800271625fb97a6dfeea28dfcffcf44f10c71f6a647baf89f2b",
+            "url": "https://github.com/SpotlightKid/dfzitarev1/releases/download/v0.2.6/dfzitarev1-linux-i686-0.2.6.zip"
+          },
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "clap",
+              "lv2"
+            ],
+            "type": "archive",
+            "size": 442722,
+            "sha256": "18c03833abae9ff389e01a69171c7caddbf36bcb528c182fb2617c343f143119",
+            "url": "https://github.com/SpotlightKid/dfzitarev1/releases/download/v0.2.6/dfzitarev1-linux-x86_64-0.2.6.zip"
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "clap",
+              "lv2"
+            ],
+            "type": "archive",
+            "size": 125725,
+            "sha256": "e49dcfd8097f0f7db2b657b52b477054467464bf91ef663ad571b15e9a2e9c68",
+            "url": "https://github.com/SpotlightKid/dfzitarev1/releases/download/v0.2.6/dfzitarev1-macos-intel-0.2.6.zip"
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "clap",
+              "lv2"
+            ],
+            "type": "archive",
+            "size": 251695,
+            "sha256": "d62adefaa27a6361f077ae3e80efa24ef4ac9d4cda628f419a4ab5b6f7571b58",
+            "url": "https://github.com/SpotlightKid/dfzitarev1/releases/download/v0.2.6/dfzitarev1-macos-universal-0.2.6.zip"
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x32"
+            ],
+            "contains": [
+              "vst3",
+              "clap",
+              "lv2"
+            ],
+            "type": "archive",
+            "size": 422846,
+            "sha256": "6381e2dc634c071321678398220dd5f9ac35d15be1d9f912971ab882887aa961",
+            "url": "https://github.com/SpotlightKid/dfzitarev1/releases/download/v0.2.6/dfzitarev1-win32-0.2.6.zip"
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "clap",
+              "lv2"
+            ],
+            "type": "archive",
+            "size": 587614,
+            "sha256": "02e31d6e14db89ec641f741c99cb55fea52579e5b45081ae4bb1d59ccead49c7",
+            "url": "https://github.com/SpotlightKid/dfzitarev1/releases/download/v0.2.6/dfzitarev1-win64-0.2.6.zip"
+          }
+        ],
+        "verified": true
+      }
+    }
+  },
   "spotlightkid/dfjpverb": {
     "slug": "spotlightkid/dfjpverb",
     "version": "0.2.2",
