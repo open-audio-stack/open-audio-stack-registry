@@ -1,0 +1,171 @@
+{
+  "name": "DF JPverb",
+  "author": "Christopher Arndt",
+  "description": "A lush algorithmic reverb designed to sound great with synthetic sound sources, built with DPF and based on FAUST library demo code ",
+  "license": "gpl-3.0",
+  "type": "effect",
+  "tags": [
+    "Reverb",
+    "Algorithmic"
+  ],
+  "url": "https://github.com/SpotlightKid/dfjpverb",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/spotlightkid/dfjpverb/dfjpverb.jpg",
+  "date": "2024-11-26T10:30:09Z",
+  "changes": "- Added parameter groups.\n- Added parameter descriptions (LV2).\n- Generated C++ source from FAUST code with `faustdoctor` instead of `faustpp`.\n- Updated screenshot.\n- Added more factory presets.\n",
+  "files": [
+    {
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "architectures": [
+        "arm64"
+      ],
+      "contains": [
+        "vst3",
+        "clap",
+        "lv2"
+      ],
+      "type": "archive",
+      "size": 464822,
+      "sha256": "8b0815dcb06cc498f264407c117226ff56ac6ba7e469f034bd3b918504e8374e",
+      "url": "https://github.com/SpotlightKid/dfjpverb/releases/download/v0.2.2/dfjpverb-linux-arm64-0.2.2.zip"
+    },
+    {
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "architectures": [
+        "arm32"
+      ],
+      "contains": [
+        "vst3",
+        "clap",
+        "lv2"
+      ],
+      "type": "archive",
+      "size": 400910,
+      "sha256": "ab157a0413bfebaa6e2df4a4594871499cafdc17b672bf740161d846cccb2f58",
+      "url": "https://github.com/SpotlightKid/dfjpverb/releases/download/v0.2.2/dfjpverb-linux-armhf-0.2.2.zip"
+    },
+    {
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "architectures": [
+        "x32"
+      ],
+      "contains": [
+        "vst3",
+        "clap",
+        "lv2"
+      ],
+      "type": "archive",
+      "size": 505186,
+      "sha256": "6f0690f8ab15f4932c7777f1860de08a473db35c43851d4629e137cfa01b586b",
+      "url": "https://github.com/SpotlightKid/dfjpverb/releases/download/v0.2.2/dfjpverb-linux-i686-0.2.2.zip"
+    },
+    {
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3",
+        "clap",
+        "lv2"
+      ],
+      "type": "archive",
+      "size": 482078,
+      "sha256": "3d5e0b0e2ffbe028f0b1c4bb9e6b8d54d97c23ce0ff0eaee1b8625af394a687c",
+      "url": "https://github.com/SpotlightKid/dfjpverb/releases/download/v0.2.2/dfjpverb-linux-x86_64-0.2.2.zip"
+    },
+    {
+      "systems": [
+        {
+          "type": "mac"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3",
+        "clap",
+        "lv2"
+      ],
+      "type": "archive",
+      "size": 149239,
+      "sha256": "1e665de15ba141efe296c933f46a7cfa7b79a12276a0b53b0c38abbd30276324",
+      "url": "https://github.com/SpotlightKid/dfjpverb/releases/download/v0.2.2/dfjpverb-macos-intel-0.2.2.zip"
+    },
+    {
+      "systems": [
+        {
+          "type": "mac"
+        }
+      ],
+      "architectures": [
+        "arm64",
+        "x64"
+      ],
+      "contains": [
+        "vst3",
+        "clap",
+        "lv2"
+      ],
+      "type": "archive",
+      "size": 304475,
+      "sha256": "b69ace6c13fdac9305ec15ba032d4150bd24ee33fc85d01eacf82d5f0348efd9",
+      "url": "https://github.com/SpotlightKid/dfjpverb/releases/download/v0.2.2/dfjpverb-macos-universal-0.2.2.zip"
+    },
+    {
+      "systems": [
+        {
+          "type": "win"
+        }
+      ],
+      "architectures": [
+        "x32"
+      ],
+      "contains": [
+        "vst3",
+        "clap",
+        "lv2"
+      ],
+      "type": "archive",
+      "size": 464343,
+      "sha256": "2065054fd6580feca4631293da4a6fd821689a36d5f7e45faf95da5fcf2137e5",
+      "url": "https://github.com/SpotlightKid/dfjpverb/releases/download/v0.2.2/dfjpverb-win32-0.2.2.zip"
+    },
+    {
+      "systems": [
+        {
+          "type": "win"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3",
+        "clap",
+        "lv2"
+      ],
+      "type": "archive",
+      "size": 631156,
+      "sha256": "c48cb042f1c65647d9c90a7432ac351bf56fb0b80f5aeb96aa7af1691c96c335",
+      "url": "https://github.com/SpotlightKid/dfjpverb/releases/download/v0.2.2/dfjpverb-win64-0.2.2.zip"
+    }
+  ],
+  "verified": true
+}
