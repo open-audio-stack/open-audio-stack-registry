@@ -67,7 +67,11 @@ Then proceed to step 3.
 
 ### Step 1: Obtain URLs
 
-Extract the URL(s) to be added from the user's prompt. URLs may be provided directly in the message, or linked from a GitHub issue. If the user gives an issue number, read it first:
+Extract the URL(s) to be added from the user's prompt. URLs may be provided directly in the message, or linked from a GitHub issue.
+
+Note: for batch uploads, the user may provide multiple URLs, a mixture of GitHub/website URLs, multiple issue numbers, or a text file containing a list of URLs. Process each one through the steps below independently.
+
+If the user gives an issue number, read it first:
 
 ```bash
 gh issue view NUMBER --repo open-audio-stack/open-audio-stack-registry
@@ -85,9 +89,14 @@ For each URL, determine how to proceed:
 - **Other website URL** → scrape the page manually and construct the `index.yaml` by hand. Refer to the specification for required fields.
 - **URL that does not load or has no relevant content** → inform the user and ask them to clarify.
 
+Note: non-GitHub URLs in a batch are handled the same way as any other package — manual YAML construction — and will receive their own branch/PR if successful.
+
 ### Step 3: Validate each GitHub URL
 
-Before running any scripts, confirm the repository meets all requirements. Run all checks below and **stop** if any fail.
+Before running any scripts, confirm the repository meets all requirements. Run all checks below.
+
+- If processing a **single** package, **stop** if any check fails.
+- If processing a **batch**, and a check fails for one package, mark that package "Failed" with the reason and continue validating the rest. Do not abort the whole batch over one failure.
 
 **3a. Valid GitHub repository**
 
@@ -136,9 +145,20 @@ The repository must have at least one GitHub release containing downloadable bin
 
 If neither condition is met, inform the user and stop.
 
+If processing a batch, once all URLs have been checked, present a validation table to the user before continuing:
+
+| Package | Status | Reason |
+| --- | --- | --- |
+| wolf-shaper | ✅ Ready | |
+| cool-plugin | ❌ Failed | Missing license |
+
 ---
 
-Once all checks pass, create a new branch for your contribution. Use descriptive branch names following these conventions:
+Once all checks pass (for a single package), or for each passing package (for a batch), generate the registry files as described below.
+
+Note: if processing a batch, do **not** create branches yet — stay on `main` and generate all YAMLs and assets together first. Branching happens per-package in step 4, once all files are generated and validated.
+
+For a single package, create a new branch for your contribution now. Use descriptive branch names following these conventions:
 
 - `app/app-name` for app additions
 - `plugin/plugin-name` for plugin additions
@@ -178,7 +198,7 @@ The script automatically:
 
 ### Reviewing and correcting the output
 
-The script is deterministic — it reads only what GitHub's API and the README provide. It cannot make editorial judgments. After running it, review every field in the generated YAML and correct where needed:
+The script is deterministic — it reads only what GitHub's API and the README provide. It cannot make editorial judgments. After running it, review every field in the generated YAML and correct where needed. If processing a batch, review each generated YAML independently — do not assume a correction needed for one package applies to the others.
 
 **`name`** — derived from the GitHub repository slug (e.g. `analog-tape-model` → `Analog Tape Model`). Check that it matches the plugin's actual display name. The repo slug often differs from the brand name (e.g. `AnalogTapeModel` → `Chow Tape Model`).
 
@@ -231,6 +251,8 @@ After reviewing and correcting the YAML fields above, run the validate script ag
 npm run dev:validate -- src/<type>/org-name/package-name/1.0.0/index.yaml
 ```
 
+For a batch, run the validate script individually against each successfully generated YAML.
+
 The validate script downloads each release asset and recomputes the `sha256` and `size` values, then compares them against what is in the YAML. This is the authoritative check for file data — it catches cases where:
 
 - The fetch script read a size from the GitHub API that differs from the actual downloaded file (GitHub sometimes reports a pre-compression size)
@@ -275,16 +297,17 @@ npm run check
 
 Verify that all tests pass and there are no linting errors.
 
-Return the generated yaml file to the user for them to read/review.
+- For a single package, return the generated yaml file to the user for them to read/review.
+- For a batch, return a summary list of all successfully generated packages and their paths — do not dump the full YAML contents. List any failed packages separately with their reason.
 
-Ask user for [Y/N] approval to proceed to Commit Changes, Push Changes and Submit Pull Request.
+Ask user for [Y/N] approval to proceed to Commit Changes, Push Changes and Submit Pull Request(s) for the successful package(s).
 
 - If the user answers Yes or Y, continue to step 4.
-- If the user answers No or N, ask them what changes they would like to make, and iterate until they are happy with the result, each time asking for approval before continuing to step 4.
+- If the user answers No or N, ask them what changes they would like to make (and, for a batch, whether the changes apply to a specific package or the whole batch), and iterate until they are happy with the result, each time asking for approval before continuing to step 4.
 
 ## 4. Commit, push and pr changes
 
-Stage and commit your changes. Use descriptive commit messages with prefixes following these conventions:
+Use descriptive commit messages with prefixes following these conventions:
 
 - `[feature]` for new features
 - `[fix]` for bug fixes
@@ -293,29 +316,44 @@ Stage and commit your changes. Use descriptive commit messages with prefixes fol
 - `[preset]` for preset additions
 - `[project]` for project additions
 
-Example:
+For a single package, create a new branch, stage and commit your changes, then push and open a PR:
 
 ```bash
 git add .
 git commit -m "[feature] Feature name. Add descriptive commit message for your changes"
-```
-
-Push the branch to your forked repository:
-
-```bash
 git push origin feature/your-contribution-name
-```
-
-Create a pull request using GitHub CLI, referencing the source issue so it is closed automatically on merge:
-
-```bash
 gh pr create --title "Your PR Title" --body "Description of your changes
 
 Closes #NUMBER"
 ```
 
+For a batch, process each successful package independently — if one package fails at this step, log the failure and continue with the rest. For **each** successful package:
+
+1. Create a new branch using the conventions from step 2b: `app/app-name`, `plugin/plugin-name`, `preset/preset-name`, `project/project-name`.
+2. Stage and commit **only** the files for this package — never combine multiple package additions in one commit:
+
+   ```bash
+   git add src/plugins/org-name/package-name/
+   git commit -m "[plugin] Add Package Name"
+   ```
+
+3. Push the branch to your forked repository:
+
+   ```bash
+   git push origin plugin/package-name
+   ```
+
+4. Create a separate pull request, referencing only the source issue for this package:
+
+   ```bash
+   gh pr create --title "[Plugin] Add Package Name" --body "Adds Package Name
+
+   Closes #NUMBER"
+   ```
+
 Then proceed to step 5.
 
 ## 5. Conclusion
 
-Respond to the user that the contribution has been submitted for review, with the url to the PR for them to view VirusTotal scans and peer review.
+- For a single package, respond to the user that the contribution has been submitted for review, with the url to the PR for them to view VirusTotal scans and peer review.
+- For a batch, respond with a final summary: packages successfully submitted with their individual PR URLs (for VirusTotal scans and peer review), and packages that were skipped or failed with the reason for each.
