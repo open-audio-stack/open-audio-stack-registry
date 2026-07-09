@@ -8329,6 +8329,85 @@
         }
       }
     },
+    "magnetophon/del2": {
+      "slug": "magnetophon/del2",
+      "version": "0.2.0",
+      "versions": {
+        "0.2.0": {
+          "name": "DEL2",
+          "author": "Bart Brouns",
+          "description": "The delay that you play.",
+          "license": "agpl-3.0",
+          "type": "effect",
+          "tags": [
+            "Delay",
+            "MIDI"
+          ],
+          "url": "https://github.com/magnetophon/DEL2",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/magnetophon/del2/del2.jpg",
+          "date": "2024-11-04T19:48:21Z",
+          "changes": "- Added 4 triggers, controlled by a learnable MIDI note: mute input, mute output, clear taps, lock taps.\n- Added toggle-mode and direct-mode for input/output mute triggers.\n- Added a haas panner that you can link to the note.\n- Added attack and release controls.\n",
+          "files": [
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "vst3",
+                "clap"
+              ],
+              "type": "archive",
+              "size": 8455873,
+              "sha256": "8ff412a08582c8c4df78559a1f6f75c24702176e2271f6ab6bc7dab63dcacc33",
+              "url": "https://github.com/magnetophon/DEL2/releases/download/V0.2.0/DEL2-V0.2.0-ubuntu-20.04.zip"
+            },
+            {
+              "systems": [
+                {
+                  "type": "mac"
+                }
+              ],
+              "architectures": [
+                "arm64",
+                "x64"
+              ],
+              "contains": [
+                "vst3",
+                "clap"
+              ],
+              "type": "archive",
+              "size": 15666903,
+              "sha256": "52d834ef756c1db38134ced5235ad4365d21503b2b6096a187cb24e394a4d5f0",
+              "url": "https://github.com/magnetophon/DEL2/releases/download/V0.2.0/DEL2-V0.2.0-macos-universal.zip"
+            },
+            {
+              "systems": [
+                {
+                  "type": "win"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "vst3",
+                "clap"
+              ],
+              "type": "archive",
+              "size": 7500230,
+              "sha256": "6bbdc271261c1ce33c67813fb17411c61e0579e99dbb81b72bf5bf11ac555da1",
+              "url": "https://github.com/magnetophon/DEL2/releases/download/V0.2.0/DEL2-V0.2.0-windows.zip"
+            }
+          ],
+          "verified": true
+        }
+      }
+    },
     "luna-co-software/4k-eq": {
       "slug": "luna-co-software/4k-eq",
       "version": "1.0.10",
