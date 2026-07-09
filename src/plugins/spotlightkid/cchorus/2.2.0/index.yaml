@@ -17,7 +17,7 @@ files:
       - arm64
     contains:
       - vst3
-      - vst
+      - so
       - clap
       - lv2
     type: archive
@@ -30,7 +30,7 @@ files:
       - arm32
     contains:
       - vst3
-      - vst
+      - so
       - clap
       - lv2
     type: archive
@@ -43,7 +43,7 @@ files:
       - x32
     contains:
       - vst3
-      - vst
+      - so
       - clap
       - lv2
     type: archive
@@ -56,7 +56,7 @@ files:
       - x64
     contains:
       - vst3
-      - vst
+      - so
       - clap
       - lv2
     type: archive
@@ -96,7 +96,7 @@ files:
       - x32
     contains:
       - vst3
-      - vst
+      - dll
       - clap
       - lv2
     type: archive
@@ -109,7 +109,7 @@ files:
       - x64
     contains:
       - vst3
-      - vst
+      - dll
       - clap
       - lv2
     type: archive
