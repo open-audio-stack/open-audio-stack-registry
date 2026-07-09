@@ -1,0 +1,187 @@
+{
+  "wasted-audio/wstd-crshr": {
+    "slug": "wasted-audio/wstd-crshr",
+    "version": "1.1.1",
+    "versions": {
+      "1.1.1": {
+        "name": "WSTD CRSHR",
+        "author": "Wasted Audio",
+        "description": "Simple bit reduction plugin",
+        "license": "gpl-3.0",
+        "type": "effect",
+        "tags": [
+          "Bitcrusher",
+          "Distortion"
+        ],
+        "url": "https://github.com/Wasted-Audio/wstd-crshr",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/wasted-audio/wstd-crshr/wstd-crshr.jpg",
+        "date": "2025-12-09T13:22:23Z",
+        "changes": "v1.1.1 release. See https://github.com/Wasted-Audio/wstd-crshr/releases/tag/v1.1.1 for details.",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "arm64"
+            ],
+            "contains": [
+              "so",
+              "vst3",
+              "clap",
+              "lv2"
+            ],
+            "type": "archive",
+            "size": 889412,
+            "sha256": "6c4c199969fb91d6fb75df33effe8c6ce8be97cfcb5fe939227b34b7165c4e9b",
+            "url": "https://github.com/Wasted-Audio/wstd-crshr/releases/download/v1.1.1/wstd-crshr-v1.1.1-linux-arm64.tar.xz"
+          },
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "arm32"
+            ],
+            "contains": [
+              "so",
+              "vst3",
+              "clap",
+              "lv2"
+            ],
+            "type": "archive",
+            "size": 853696,
+            "sha256": "ae782458afa20f56225df239684680c4c9f19a1052798f9f5075201fc5d52a0a",
+            "url": "https://github.com/Wasted-Audio/wstd-crshr/releases/download/v1.1.1/wstd-crshr-v1.1.1-linux-armhf.tar.xz"
+          },
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x32"
+            ],
+            "contains": [
+              "so",
+              "vst3",
+              "clap",
+              "lv2"
+            ],
+            "type": "archive",
+            "size": 996968,
+            "sha256": "a735aeb6188b8c10680dd1373609df377b5f330fa83c31786226054365c4b152",
+            "url": "https://github.com/Wasted-Audio/wstd-crshr/releases/download/v1.1.1/wstd-crshr-v1.1.1-linux-i686.tar.xz"
+          },
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "so",
+              "vst3",
+              "clap",
+              "lv2"
+            ],
+            "type": "archive",
+            "size": 968576,
+            "sha256": "33f11e70a1ee4e97ead0d375520163fd5c03bc4b0edaccf2c0769f6d1798a1f8",
+            "url": "https://github.com/Wasted-Audio/wstd-crshr/releases/download/v1.1.1/wstd-crshr-v1.1.1-linux-x86_64.tar.xz"
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst",
+              "vst3",
+              "clap",
+              "lv2"
+            ],
+            "type": "installer",
+            "size": 3074289,
+            "sha256": "6f09950e0344025b4c4b11e6a206cdc57d69f0fec63021a7f05e6cb4c22e4d16",
+            "url": "https://github.com/Wasted-Audio/wstd-crshr/releases/download/v1.1.1/wstd-crshr-v1.1.1-macos-intel.pkg"
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "vst",
+              "vst3",
+              "clap",
+              "lv2"
+            ],
+            "type": "installer",
+            "size": 5681350,
+            "sha256": "328947ec9dee52cdacdb95e3c0459bfc049041c6c75f8ad128839f7e16592197",
+            "url": "https://github.com/Wasted-Audio/wstd-crshr/releases/download/v1.1.1/wstd-crshr-v1.1.1-macos-universal.pkg"
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x32"
+            ],
+            "contains": [
+              "dll",
+              "vst3",
+              "clap",
+              "lv2"
+            ],
+            "type": "archive",
+            "size": 5415862,
+            "sha256": "5058efd406c9b884ad4cbd46b20ae832a73e92432b0d0cd65af1e24d94a000f0",
+            "url": "https://github.com/Wasted-Audio/wstd-crshr/releases/download/v1.1.1/wstd-crshr-v1.1.1-win32.zip"
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "dll",
+              "vst3",
+              "clap",
+              "lv2"
+            ],
+            "type": "archive",
+            "size": 5224569,
+            "sha256": "5fa9b2b867fa5293bb24cad84a4a4896ae20993fc1f4c46e3f5f8ffb13228e24",
+            "url": "https://github.com/Wasted-Audio/wstd-crshr/releases/download/v1.1.1/wstd-crshr-v1.1.1-win64.zip"
+          }
+        ],
+        "verified": true
+      }
+    }
+  }
+}
