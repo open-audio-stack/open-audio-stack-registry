@@ -139,7 +139,7 @@ The license must be a recognised open-source license (MIT, GPL, Apache, LGPL, AG
 gh release list --repo <org>/<repo>
 ```
 
-The repository must have at least one GitHub release containing downloadable binary files (`.zip`, `.tar.gz`, `.exe`, `.dmg`, `.deb`, etc.). Source-only releases or releases with no assets are not sufficient.
+The repository must have at least one GitHub release containing downloadable binary files (`.zip`, `.tar.gz`, `.exe`, `.dmg`, `.deb`, etc.). Source-only releases or releases with no assets are not sufficient — this includes "build it yourself" repos whose GitHub releases only contain a manual/PDF/changelog while the actual compiled plugin is sold or distributed elsewhere (e.g. the author's own store). Check the actual release assets, not just the presence of a release.
 
 **Exception — binaries committed directly to the repository:** If the repository has no releases but ships pre-built binaries committed to the repository itself (common for SFZ sample libraries and similar assets), you may add an entry using a commit-pinned archive URL. See the [Linking to committed binaries](#linking-to-committed-binaries) section of README.md for the required URL format.
 
@@ -147,9 +147,9 @@ If neither condition is met, inform the user and stop.
 
 If processing a batch, once all URLs have been checked, present a validation table to the user before continuing:
 
-| Package | Status | Reason |
-| --- | --- | --- |
-| wolf-shaper | ✅ Ready | |
+| Package     | Status    | Reason          |
+| ----------- | --------- | --------------- |
+| wolf-shaper | ✅ Ready  |                 |
 | cool-plugin | ❌ Failed | Missing license |
 
 ---
@@ -195,6 +195,14 @@ The script automatically:
 - Fetches the latest (or specified) release assets with sizes and SHA256 hashes
 - Infers systems, architectures, and plugin formats from asset filenames and README text
 - Writes `src/<type>/org-name/package-name/version/index.yaml` and the image/audio files
+- Prints a warning listing any release assets it could not confidently place (unrecognized platform, unsupported architecture, or unknown format) — always read this list, don't just look at the generated YAML
+
+**Before trusting the output, verify you fetched the right release.** A repo can have multiple release "channels" that are easy to confuse:
+
+- The GitHub-flagged "latest" release is not always the one with usable binaries — it may have zero assets (check `gh release list --repo <org>/<repo> --json tagName,isLatest,isPrerelease,publishedAt` and pick the newest tag that actually has assets), or it may be a different product entirely (e.g. a repo that publishes both a VST/CLAP DAW plugin release and a separate VCV Rack / web / source-only release under different tags — read the asset filenames before assuming the "latest" one is the DAW plugin).
+- If every release is marked prerelease, `gh release view` (and the fetch script) without an explicit tag will fail outright — pass the tag explicitly as the second argument, picking the most recently published one with real binary assets.
+- **Cross-check the asset count.** Compare the number of files in the generated YAML against `gh release view <tag> --repo <org>/<repo> --json assets --jq '.assets[].name'`. The fetch script drops assets it can't classify (checksums and source tarballs are correctly excluded, but so are real binaries with unrecognized filenames) — the printed warning above should catch this, but a manual count is a cheap second check.
+- If the release tag itself isn't valid semver (e.g. `Nightly`, `DAWPlugin`, `ui-yay`), the script normalizes it, but a normalization like `26.02` → `26.0.2` can obscure the actual meaning (year.month vs major.minor.patch). Prefer renaming the version folder yourself to something unambiguous, such as the build date embedded in the asset filenames (`2026.7.3`), and note why in the PR description.
 
 ### Reviewing and correcting the output
 
@@ -210,15 +218,32 @@ The script is deterministic — it reads only what GitHub's API and the README p
 
 **`tags`** — **All tags MUST be Title Case** (e.g. `Guitar`, `Pitch Shifter`, `Noise Gate`). The fetch script converts GitHub topics automatically; if you add or edit tags manually, apply Title Case. GitHub topics are technical (e.g. `vst3-plugin`, `juce`) while registry tags should be semantic categories (e.g. `Effect`, `Filter`, `Tape`). Replace with meaningful registry tags. Run `npm run dev:fix-tags` to bulk-fix any all-lowercase tags across the registry.
 
-**`changes`** — taken verbatim from the GitHub release body, trimmed to 255 characters. Release bodies often include headers, markdown formatting, or unrelated links. Clean up to a concise bullet list of changes.
+**`changes`** — taken verbatim from the GitHub release body, trimmed to 255 characters. Release bodies often include headers, markdown formatting, or unrelated links. Clean up to a concise bullet list of changes. `changes` is a required field — if the release body is empty (common for rolling/nightly tags), the fetch script falls back to `"<tag> release."`; feel free to replace that with something more specific (e.g. summarizing the latest commit message) if one is available.
 
 **`audio`** — only populated if the README contains a direct link to an audio file. Most READMEs do not. If no audio is found, source a demo clip manually, convert to FLAC (`ffmpeg -i input -t 10 -c:a flac output.flac`), and place it at `src/plugins/org-name/package-name/package-name.flac`.
 
-**`image`** — downloaded from the first non-badge image found in the README. External images hosted on third-party sites may block downloads (HTTP 403). If the image is missing, find a screenshot from the plugin's website, GitHub, or documentation. Convert it with: `ffmpeg -i input.png -vf "scale='min(1000,iw)':-1" -q:v 10 output.jpg`
+**`image`** — downloaded from the first non-badge image found in the README. External images hosted on third-party sites may block downloads (HTTP 403). If the image is missing, look for one in this order: repo README → repo's `resources`/`assets`/`images`/`docs` folders (an app icon or logo is an acceptable fallback if there's no dedicated screenshot) → the plugin's own website if one is linked. Convert it with: `ffmpeg -i input.png -vf "scale='min(1000,iw)':-1" -q:v 10 output.jpg`. If the source image is transparent (common for logos), composite it onto a solid background first or the plugin will render as a blank white square: `ffmpeg -f lavfi -i "color=c=black:s=WxH" -i logo.png -filter_complex "[0:v][1:v]overlay=(W-w)/2:(H-h)/2:format=auto" -frames:v 1 output.jpg`.
 
-**`architectures`** — inferred from asset filenames (e.g. `x64`, `arm64`, `m1`). Filenames that give no architecture hint default to `[x64]`. Mac builds that are universal binaries (arm64 + x64) often have no hint in the filename — check the release notes or README to confirm.
+`image` is a **required** field — the validate script will throw and abort if it's missing, not just warn. If, after checking all of the above, no image exists anywhere (no screenshot, no icon, no logo, and the plugin genuinely has no UI to capture), the package cannot be added by automated fetch. Report it to the user as failed with the reason, the same as a licensing or binary-availability failure — don't fabricate a placeholder image.
 
-**`contains`** — inferred from asset filenames first, then the release body, then the README. For installer packages (`.exe`, `.dmg`, `.deb`) this is especially unreliable because the installer bundles multiple formats internally. Check the release notes or README to find the complete list of formats included.
+**`architectures`** — inferred from asset filenames (e.g. `x64`, `arm64`, `arm64ec`, `arm32`, `m1`). Filenames that give no architecture hint default to `[x64]`. Mac builds that are universal binaries (arm64 + x64) often have no hint in the filename — check the release notes or README to confirm, or download and run `lipo -info` on the binary. There is no registry value for RISC-V (`riscv64`) — the fetch script drops these assets automatically and flags them in its "skipped" list; leave them out rather than mislabeling the architecture.
+
+**`contains`** — inferred from asset filenames first, then the release body, then the README. For installer packages (`.exe`, `.dmg`, `.deb`) this is especially unreliable because the installer bundles multiple formats internally, and single-archive builds (common for DPF/JUCE projects) often carry no format hint in the filename at all. When the fetch script flags a file's `contains` as unknown, or when a plugin ships one installer per platform bundling several formats, **do not guess** — download the asset and list its contents directly:
+
+```bash
+# zip/tar archives
+unzip -l file.zip        # or: tar -tJf file.tar.xz
+
+# macOS .dmg (mount, then expand the .pkg inside if present)
+hdiutil attach file.dmg -nobrowse -mountpoint /tmp/mnt
+pkgutil --expand /tmp/mnt/*.pkg /tmp/pkg-expand && ls /tmp/pkg-expand
+hdiutil detach /tmp/mnt
+
+# Linux .deb
+mkdir /tmp/deb && cd /tmp/deb && ar x /path/to/file.deb && tar -tf data.tar.*
+```
+
+This is the only reliable way to confirm formats — filename and README text both routinely disagree with what's actually inside the archive (GitHub topics like `vst2` or `lv2` may not reflect what's actually shipped, and vice versa).
 
 **File list** — include **every** binary release asset for the package. Do not trim the list to one file per platform. Releases often ship multiple variants for the same platform (e.g. a compatibility build, an optimised/SSE build, a standalone app, and per-format archives). Each is a separate entry in the `files` array with its own `contains` value. To determine what each file contains:
 
@@ -243,7 +268,19 @@ If a plugin supports audio input for oscillators, tag it as 'Audio Input'.
 For all plugins:
 If the plugin is a successor to another plugin, write that in its description and use the original pluign's name as a tag.
 
-Be careful with "vst" and "vst3", vst refers to vst2 for Mac and vst3 refers to vst3 for all operating systems.
+**`contains` values are platform-specific for VST2 — do not use a generic value.** The registry's plugin-format enum (see `node_modules/@open-audio-stack/core/build/types/PluginFormat.js` or <a href="specification.md#file-formats">the spec</a>) is:
+
+| What it is        | Correct value | Common mistake                                                                                                                 |
+| :---------------- | :------------ | :----------------------------------------------------------------------------------------------------------------------------- |
+| VST2 on Mac       | `vst`         | —                                                                                                                              |
+| VST2 on Linux     | `so`          | writing `vst` (only valid on Mac)                                                                                              |
+| VST2 on Windows   | `dll`         | writing `vst` (only valid on Mac)                                                                                              |
+| VST3 (any OS)     | `vst3`        | —                                                                                                                              |
+| Audio Units (Mac) | `component`   | writing `au` — **not a valid enum value**, will silently pass validation and then render as an unrecognized format on the site |
+| CLAP              | `clap`        | —                                                                                                                              |
+| LV2               | `lv2`         | —                                                                                                                              |
+
+The fetch script now derives the correct per-platform VST2 value automatically from each file's `systems` entry. If you're hand-editing `contains` (e.g. after inspecting an archive yourself), always double check the value against the enum above rather than typing the human-readable abbreviation — the schema does not reject invalid values, so a typo like `au` will pass `npm run dev:validate` silently.
 
 After reviewing and correcting the YAML fields above, run the validate script against the generated file:
 

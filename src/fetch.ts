@@ -69,27 +69,40 @@ function versionNormalize(tag: string): string {
 function inferSystems(filename: string): Array<{ type: string }> {
   const f = filename.toLowerCase();
   const found = new Set<string>();
-  if (/win(dows)?[-_.]|[-_.]win(dows)?|[-_]win\d|\.exe$|\.msi$/.test(f)) found.add('win');
+  // Left-boundary guard is required: plain substring matching on "win" false-positives
+  // inside product names like "airWINdows-..." and "clang-arm64-darWIN.dmg".
+  if (/(?<![a-z])win(?:dows)?(?=[-_.]|$)|\.exe$|\.msi$/.test(f)) found.add('win');
   if (/mac(os)?[-_.]|[-_.]mac(os)?|\bosx\b|darwin|\.dmg$|\.pkg$/.test(f)) found.add('mac');
-  if (/linux[-_.]|[-_.]linux|\.deb$|\.rpm$/.test(f)) found.add('linux');
+  // Distro names (ubuntu, debian, fedora) are common in CI-built asset names and carry
+  // no literal "linux" substring — without this, those assets are silently dropped below.
+  if (/linux[-_.]|[-_.]linux|ubuntu|debian|fedora|\.deb$|\.rpm$|\.appimage$/.test(f)) found.add('linux');
   return [...found].map(type => ({ type }));
 }
 
-function inferArchitectures(filename: string): string[] {
+// Returns null when the filename indicates an architecture with no corresponding
+// registry value (e.g. RISC-V) — callers must skip the asset rather than guess.
+function inferArchitectures(filename: string): string[] | null {
   const f = filename.toLowerCase();
+  if (/riscv|risc-v/.test(f)) return null;
   if (/universal|fat/.test(f)) return ['arm64', 'x64'];
+  if (/arm64ec/.test(f)) return ['arm64ec']; // check before the broader arm64 pattern below
   if (/arm64|aarch64|\barm\b|[-_]m[123][-_.]|apple[._-]?silicon/.test(f)) return ['arm64'];
-  if (/armhf|armv7|arm32/.test(f)) return ['x32'];
+  if (/armhf|armv7|arm32/.test(f)) return ['arm32'];
   if (/x86[_-]64|amd64|\bx64\b|64[-_]?bit/.test(f)) return ['x64'];
   if (/\bx86\b(?![-_]64)|i[3-6]86|\bx32\b|32[-_]?bit|win32/.test(f)) return ['x32'];
   return ['x64']; // safe default; flag for review if no hint found
 }
 
-function inferContains(filename: string, releaseBody = '', readme = ''): string[] {
+// `systems` determines the correct per-platform VST2 enum value: the registry
+// distinguishes vst (Mac), so (Linux), and dll (Windows) — there is no generic "vst2".
+function inferContains(filename: string, systems: Array<{ type: string }>, releaseBody = '', readme = ''): string[] {
   const f = filename.toLowerCase();
   const formats: string[] = [];
+  const platform = systems[0]?.type;
+  const vst2Value = platform === 'linux' ? 'so' : platform === 'win' ? 'dll' : 'vst';
+
   if (/vst3/.test(f)) formats.push('vst3');
-  if (/\bvst2\b/.test(f) || (/\bvst\b/.test(f) && !f.includes('vst3'))) formats.push('vst');
+  if (/\bvst2\b/.test(f) || (/\bvst\b/.test(f) && !f.includes('vst3'))) formats.push(vst2Value);
   if (/\bau\b|\baudiounit\b/.test(f)) formats.push('component');
   if (/\bclap\b/.test(f)) formats.push('clap');
   if (/\blv2\b/.test(f)) formats.push('lv2');
@@ -99,7 +112,7 @@ function inferContains(filename: string, releaseBody = '', readme = ''): string[
   if (formats.length === 0) {
     const context = (releaseBody + ' ' + readme.slice(0, 5000)).toLowerCase();
     if (/\bvst3\b/.test(context)) formats.push('vst3');
-    if (/\bvst2\b/.test(context) || (/\bvst\b/.test(context) && !formats.includes('vst3'))) formats.push('vst');
+    if (/\bvst2\b/.test(context) || (/\bvst\b/.test(context) && !formats.includes('vst3'))) formats.push(vst2Value);
     if (/\bclap\b/.test(context)) formats.push('clap');
     if (/\blv2\b/.test(context)) formats.push('lv2');
     if (/\baudio\s*unit\b/.test(context)) formats.push('component');
@@ -288,9 +301,22 @@ async function main() {
   // Assets → files
   const files = [];
   const unknownContains: string[] = [];
+  const skippedAssets: string[] = [];
   for (const asset of release.assets as any[]) {
     const systems = inferSystems(asset.name);
-    if (systems.length === 0) continue; // skip checksums / source tarballs
+    if (systems.length === 0) {
+      // Likely a checksum file or source tarball — but could also be a real binary
+      // whose platform this script's regexes don't recognize. Always surface it below
+      // rather than dropping it silently.
+      skippedAssets.push(`${asset.name} (no system/platform recognized)`);
+      continue;
+    }
+
+    const architectures = inferArchitectures(asset.name);
+    if (architectures === null) {
+      skippedAssets.push(`${asset.name} (unsupported architecture, e.g. RISC-V — no registry value exists)`);
+      continue;
+    }
 
     let sha256: string = asset.digest ? (asset.digest as string).replace('sha256:', '') : '';
     let size: number = asset.size;
@@ -300,12 +326,12 @@ async function main() {
       size = hashed.size;
     }
 
-    const contains = inferContains(asset.name, release.body ?? '', readme);
+    const contains = inferContains(asset.name, systems, release.body ?? '', readme);
     if (contains.length === 0) unknownContains.push(path.basename(asset.name));
 
     files.push({
       systems,
-      architectures: inferArchitectures(asset.name),
+      architectures,
       contains,
       type: inferFileType(asset.name),
       size,
@@ -350,6 +376,9 @@ async function main() {
     const cut = changes.lastIndexOf('\n', 252);
     changes = (cut > 80 ? changes.slice(0, cut) : changes.slice(0, 252)) + '...';
   }
+  // `changes` is a required field — many rolling/nightly releases publish an empty
+  // body, which would otherwise fail schema validation on write.
+  if (!changes) changes = `${release.tagName} release.`;
 
   // Build metadata object
   const pkg: Record<string, any> = {
@@ -395,6 +424,12 @@ async function main() {
   if (!existsSync(imageLocalPath)) console.log(`  image:   not found — add manually if available`);
   if (unknownContains.length > 0)
     console.log(`  contains: unknown format for: ${unknownContains.join(', ')} — add manually`);
+  if (skippedAssets.length > 0) {
+    console.log(
+      `  ⚠ skipped ${skippedAssets.length} release asset(s) entirely — verify none of these are real binaries:`,
+    );
+    skippedAssets.forEach(a => console.log(`      - ${a}`));
+  }
 }
 
 main().catch(e => {
