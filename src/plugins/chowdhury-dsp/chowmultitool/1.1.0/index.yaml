@@ -1,0 +1,54 @@
+name: ChowMultiTool
+author: Chowdhury DSP
+description: Multi-Tool Audio Plugin
+license: gpl-3.0
+type: effect
+tags:
+  - Multi-Effect
+  - Filter
+url: https://github.com/Chowdhury-DSP/ChowMultiTool
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/chowdhury-dsp/chowmultitool/chowmultitool.jpg
+date: '2024-02-13T18:57:07Z'
+changes: |
+  - Added internal "Bypass" control.
+  - Added spectrum analyzers for filter-based tools.
+  - Added 4-band mode for Band Splitter tool.
+  - Added gain and frequency labels to spectrum plots.
+files:
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - vst3
+      - lv2
+      - clap
+    type: installer
+    size: 11107512
+    sha256: 69b6718b08a1072d1f27817dace1e07a689a2b8ce7cee9bc9530b107e2343803
+    url: https://github.com/Chowdhury-DSP/ChowMultiTool/releases/download/v1.1.0/ChowMultiTool-Linux-x64-1.1.0.deb
+  - systems:
+      - type: mac
+    architectures:
+      - arm64
+      - x64
+    contains:
+      - vst3
+      - component
+      - clap
+      - aax
+    type: installer
+    size: 30594689
+    sha256: d56bd047d8d833306890ebc05102f1d4da31045d1986982caf571c98cdf3f747
+    url: https://github.com/Chowdhury-DSP/ChowMultiTool/releases/download/v1.1.0/ChowMultiTool-Mac-1.1.0.dmg
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - vst3
+      - clap
+    type: installer
+    size: 7437272
+    sha256: 0ed347e15d244f2a115e0ecbfc219dbca1dd666ec371292d6a8c56f6deaaffbb
+    url: https://github.com/Chowdhury-DSP/ChowMultiTool/releases/download/v1.1.0/ChowMultiTool-Win-64bit-1.1.0.exe
