@@ -1,0 +1,118 @@
+name: WSTD EQ
+author: Wasted Audio
+description: Simple nasty EQ plugin.
+license: gpl-3.0
+type: effect
+tags:
+  - EQ
+  - Equalizer
+url: https://github.com/Wasted-Audio/wstd-eq
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/wasted-audio/wstd-eq/wstd-eq.jpg
+date: '2025-12-09T13:14:20Z'
+changes: 'v1.1.1 release. See https://github.com/Wasted-Audio/wstd-eq/releases/tag/v1.1.1 for details.'
+files:
+  - systems:
+      - type: linux
+    architectures:
+      - arm64
+    contains:
+      - so
+      - vst3
+      - clap
+      - lv2
+    type: archive
+    size: 917196
+    sha256: a03e2074945d485e5c50a78d94292cf76f0472db6619680ca244bd3de0c951e6
+    url: https://github.com/Wasted-Audio/wstd-eq/releases/download/v1.1.1/wstd-eq-v1.1.1-linux-arm64.tar.xz
+  - systems:
+      - type: linux
+    architectures:
+      - arm32
+    contains:
+      - so
+      - vst3
+      - clap
+      - lv2
+    type: archive
+    size: 869512
+    sha256: f76f625df9122d242c26b4a8b33baddbb8fd999a7a929167c9f77a200df6b8bd
+    url: https://github.com/Wasted-Audio/wstd-eq/releases/download/v1.1.1/wstd-eq-v1.1.1-linux-armhf.tar.xz
+  - systems:
+      - type: linux
+    architectures:
+      - x32
+    contains:
+      - so
+      - vst3
+      - clap
+      - lv2
+    type: archive
+    size: 1028856
+    sha256: 1ba3b232b4291d8bd128ebb76cac5272416d5165ef5886c2be8bed8a3bba7796
+    url: https://github.com/Wasted-Audio/wstd-eq/releases/download/v1.1.1/wstd-eq-v1.1.1-linux-i686.tar.xz
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - so
+      - vst3
+      - clap
+      - lv2
+    type: archive
+    size: 989692
+    sha256: 8c79675a4379125e894416430cde82ec81734512b8b0e55c8745c939e24ddd25
+    url: https://github.com/Wasted-Audio/wstd-eq/releases/download/v1.1.1/wstd-eq-v1.1.1-linux-x86_64.tar.xz
+  - systems:
+      - type: mac
+    architectures:
+      - x64
+    contains:
+      - vst
+      - vst3
+      - clap
+      - lv2
+    type: installer
+    size: 3123950
+    sha256: db8d231113bcf375c5f7f6eded6f232fb79bac41b9398fa15a5a70d36adede26
+    url: https://github.com/Wasted-Audio/wstd-eq/releases/download/v1.1.1/wstd-eq-v1.1.1-macos-intel.pkg
+  - systems:
+      - type: mac
+    architectures:
+      - arm64
+      - x64
+    contains:
+      - vst
+      - vst3
+      - clap
+      - lv2
+    type: installer
+    size: 5787847
+    sha256: 436e117faeba8d10d4865336c38e202b6b943db0f69fb22d21b3f092e242cf82
+    url: https://github.com/Wasted-Audio/wstd-eq/releases/download/v1.1.1/wstd-eq-v1.1.1-macos-universal.pkg
+  - systems:
+      - type: win
+    architectures:
+      - x32
+    contains:
+      - dll
+      - vst3
+      - clap
+      - lv2
+    type: archive
+    size: 5500683
+    sha256: 7a35df66b63597167394faac6b416721181ffddc5c766a72c23debb6b78d24d3
+    url: https://github.com/Wasted-Audio/wstd-eq/releases/download/v1.1.1/wstd-eq-v1.1.1-win32.zip
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - dll
+      - vst3
+      - clap
+      - lv2
+    type: archive
+    size: 5304497
+    sha256: 6de83eff0e7f97f35b96d4213112ebed40e13fb0b32f6481346ae8ae71cb01cb
+    url: https://github.com/Wasted-Audio/wstd-eq/releases/download/v1.1.1/wstd-eq-v1.1.1-win64.zip
