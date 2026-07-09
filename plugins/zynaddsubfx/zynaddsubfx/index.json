@@ -1,0 +1,41 @@
+{
+  "slug": "zynaddsubfx/zynaddsubfx",
+  "version": "2.5.3",
+  "versions": {
+    "2.5.3": {
+      "name": "ZynAddSubFX",
+      "author": "zynaddsubfx",
+      "description": "ZynAddSubFX open source synthesizer",
+      "license": "gpl-2.0",
+      "type": "instrument",
+      "tags": [
+        "Synth",
+        "Synthesizer"
+      ],
+      "url": "https://github.com/zynaddsubfx/zynaddsubfx",
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/zynaddsubfx/zynaddsubfx/zynaddsubfx.jpg",
+      "date": "2016-02-06T21:21:55Z",
+      "changes": "v2.5.3 macOS release.",
+      "files": [
+        {
+          "systems": [
+            {
+              "type": "mac"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "lv2"
+          ],
+          "type": "installer",
+          "size": 12623277,
+          "sha256": "4f96261cfd628bab587b9ed80564207abb38e5980bcb449fff6999f9a00f5ff1",
+          "url": "https://github.com/zynaddsubfx/zynaddsubfx/releases/download/2.5.3-osx/ZynAddSubFx-2.5.3.dmg"
+        }
+      ],
+      "verified": true
+    }
+  }
+}
