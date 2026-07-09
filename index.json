@@ -13527,6 +13527,85 @@
         }
       }
     },
+    "azur1s/penare": {
+      "slug": "azur1s/penare",
+      "version": "0.2.1",
+      "versions": {
+        "0.2.1": {
+          "name": "Penare",
+          "author": "azur1s",
+          "description": "(VST3/CLAP) A wonky distortion plugin",
+          "license": "gpl-3.0",
+          "type": "effect",
+          "tags": [
+            "Distortion",
+            "Waveshaper"
+          ],
+          "url": "https://github.com/azur1s/penare",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/azur1s/penare/penare.jpg",
+          "date": "2023-09-30T16:04:42Z",
+          "changes": "- Updated the UI looks.\n- Added option to clip the sign of the function.\n",
+          "files": [
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "vst3",
+                "clap"
+              ],
+              "type": "archive",
+              "size": 4390670,
+              "sha256": "b25cc469ab8c7a5e259381368d549cd5f66291ae63cb2b1e1cb610991dd5a20f",
+              "url": "https://github.com/azur1s/penare/releases/download/0.2.1/Penare-0.2.1-ubuntu-20.04.zip"
+            },
+            {
+              "systems": [
+                {
+                  "type": "mac"
+                }
+              ],
+              "architectures": [
+                "arm64",
+                "x64"
+              ],
+              "contains": [
+                "vst3",
+                "clap"
+              ],
+              "type": "archive",
+              "size": 3710572,
+              "sha256": "7c56146ca466183e29f547255723c1691ce9ad348bea97f6cd516925c0ad2ae1",
+              "url": "https://github.com/azur1s/penare/releases/download/0.2.1/Penare-0.2.1-macos-universal.zip"
+            },
+            {
+              "systems": [
+                {
+                  "type": "win"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "vst3",
+                "clap"
+              ],
+              "type": "archive",
+              "size": 3772316,
+              "sha256": "07e446ac0c4f17fa8b02cb69377c2865d3c1cfe95cadf2c9ea4f9f2c13a3e27e",
+              "url": "https://github.com/azur1s/penare/releases/download/0.2.1/Penare-0.2.1-windows.zip"
+            }
+          ],
+          "verified": true
+        }
+      }
+    },
     "audioplugins/iempluginsuite": {
       "slug": "audioplugins/iempluginsuite",
       "version": "1.14.1",
