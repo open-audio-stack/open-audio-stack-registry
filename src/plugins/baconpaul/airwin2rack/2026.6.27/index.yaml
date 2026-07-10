@@ -41,6 +41,7 @@ files:
     url: https://github.com/baconpaul/airwin2rack/releases/download/DAWPlugin/AirwindowsConsolidated-2026-06-27-9cf9ddf-Linux.zip
   - systems:
       - type: win
+        min: 10
     architectures:
       - x64
     contains:
@@ -63,6 +64,7 @@ files:
     url: https://github.com/baconpaul/airwin2rack/releases/download/DAWPlugin/AirwindowsConsolidated-2026-06-27-9cf9ddf-Windows-arm64ec.zip
   - systems:
       - type: win
+        min: 7
     architectures:
       - x64
     contains:
@@ -74,6 +76,7 @@ files:
     url: https://github.com/baconpaul/airwin2rack/releases/download/DAWPlugin/AirwindowsConsolidated-2026-06-27-9cf9ddf-Windows-windows7.zip
   - systems:
       - type: win
+        min: 10
     architectures:
       - x64
     contains:
@@ -85,6 +88,7 @@ files:
     url: https://github.com/baconpaul/airwin2rack/releases/download/DAWPlugin/AirwindowsConsolidated-2026-06-27-9cf9ddf-Windows.zip
   - systems:
       - type: win
+        min: 7
     architectures:
       - x64
     contains:
