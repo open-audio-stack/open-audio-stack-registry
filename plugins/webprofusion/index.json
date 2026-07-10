@@ -1,0 +1,84 @@
+{
+  "webprofusion/soundshed-guitar": {
+    "slug": "webprofusion/soundshed-guitar",
+    "version": "1.4.0",
+    "versions": {
+      "1.4.0": {
+        "name": "Soundshed Guitar",
+        "author": "Webprofusion",
+        "description": "A fully featured guitar/bass effects app and plugin combining Neural Amp Modeler (NAM) with a modern UI and an extensible signal graph architecture",
+        "license": "agpl-3.0",
+        "type": "effect",
+        "tags": [
+          "Guitar",
+          "Amp",
+          "NAM"
+        ],
+        "url": "https://github.com/webprofusion/soundshed-guitar",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/webprofusion/soundshed-guitar/soundshed-guitar.jpg",
+        "date": "2026-07-03T00:00:00.000Z",
+        "changes": "- New folder browser with favorites, tagging, and filter-by-tag support for local resources.\n- MIDI parameter mapping and automation workflows, plus direct MIDI setlist bank selection.\n- New Signal Analyzer utility effect with LUFS loudness measurement and bark band perceptual analysis.\n- IR Cab, riff import, and demo audio now support AIFF/AIFC and MP3 in addition to WAV.\n- Jam tab is now enabled on macOS and Linux, with substantial layout and interaction improvements.\n",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "installer",
+            "size": 119929912,
+            "sha256": "0b21f37a6597b2d522f6a07bc3d9ef82ec512f414ad19d9b299ecb9673990066",
+            "url": "https://downloads.soundshed.com/downloads/SoundshedGuitar-1.4.0-Windows.exe"
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "component",
+              "aax",
+              "clap"
+            ],
+            "type": "installer",
+            "size": 187018835,
+            "sha256": "23c91edbf7178eb0fe010c93e9d938bfbc45f29ac9c395b0df5d68838b6b2b60",
+            "url": "https://downloads.soundshed.com/downloads/SoundshedGuitar-1.4.1.pkg"
+          },
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "lv2",
+              "clap",
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 196629367,
+            "sha256": "5359afc2c1201fc351c8a61c2eba549f661f4c4e3402a11f7365e4266c11af2d",
+            "url": "https://downloads.soundshed.com/downloads/SoundshedGuitar-1.4.0-Linux-x64.zip"
+          }
+        ],
+        "verified": false
+      }
+    }
+  }
+}
