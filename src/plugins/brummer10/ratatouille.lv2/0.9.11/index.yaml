@@ -1,0 +1,130 @@
+name: Ratatouille.lv2
+author: Hermann
+description: A neural model loader and mixer supporting multiple models and RTNeural-based processing
+license: bsd-3-clause
+type: effect
+tags:
+  - Guitar
+  - Amp
+  - NAM
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/brummer10/ratatouille.lv2/ratatouille.lv2.jpg
+url: https://github.com/brummer10/Ratatouille.lv2
+date: '2025-05-31T12:06:20Z'
+changes: |
+  New in this release:
+  - allow to build as clap plugin
+files:
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - elf
+    type: archive
+    size: 1949480
+    sha256: d40b52768b7bda7b367bbb14868aa5cbbd2d96a2e992813e4a4cf29d0fea5492
+    url: https://github.com/brummer10/Ratatouille.lv2/releases/download/v0.9.11/Ratatouille.lv2-app-v0.9.11-linux-x86_64.tar.xz
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - exe
+    type: archive
+    size: 2723261
+    sha256: 26cd7497216f16c6f8065b6d4f1d8698dadb51bb49cf355109c3f8322650a0ea
+    url: https://github.com/brummer10/Ratatouille.lv2/releases/download/v0.9.11/Ratatouille.lv2-app-v0.9.11-win64.zip
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - clap
+      - lv2
+    type: archive
+    size: 2089248
+    sha256: 132b554a04abacf77867bd2335f02294069424ee73cd23531f3a97b5ef040f06
+    url: https://github.com/brummer10/Ratatouille.lv2/releases/download/v0.9.11/Ratatouille.lv2-clap-v0.9.11-linux-x86_64.tar.xz
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - clap
+      - lv2
+    type: archive
+    size: 2635975
+    sha256: f3965f1776a62a3e10a7d7307aa584a3daa40bb3d6cff077f12e3b5c7fce91ef
+    url: https://github.com/brummer10/Ratatouille.lv2/releases/download/v0.9.11/Ratatouille.lv2-clap-v0.9.11-win64.zip
+  - systems:
+      - type: linux
+    architectures:
+      - arm64
+    contains:
+      - lv2
+    type: archive
+    size: 2311096
+    sha256: 4c1aea0c9faadfd13d9cf803a46ae1176b135960e7dd3831565a4a87158ff349
+    url: https://github.com/brummer10/Ratatouille.lv2/releases/download/v0.9.11/Ratatouille.lv2-v0.9.11-linux-arm64.tar.xz
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - lv2
+    type: archive
+    size: 2543504
+    sha256: 1a16f9accd43f87ad06be8caae1474cd9869a0470e7a9bf89a64e3203fadb03f
+    url: https://github.com/brummer10/Ratatouille.lv2/releases/download/v0.9.11/Ratatouille.lv2-v0.9.11-linux-x86_64.tar.xz
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - lv2
+    type: archive
+    size: 2979421
+    sha256: 415239b80b19d8dac28ef0681cecc8e692aadd76c2c888e8345246c3e698730c
+    url: https://github.com/brummer10/Ratatouille.lv2/releases/download/v0.9.11/Ratatouille.lv2-v0.9.11-win64.zip
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - lv2
+    type: archive
+    size: 2449772
+    sha256: b0c1ae521b9b67227654c97688596e369ce9d678b49184f76f3c406110c2f6e8
+    url: https://github.com/brummer10/Ratatouille.lv2/releases/download/v0.9.11/Ratatouille.lv2-v3-v0.9.11-linux-x86_64.tar.xz
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - lv2
+    type: archive
+    size: 3038472
+    sha256: 9eac4da44e47e1e69533d5a498d1b64437ed4b505ba6a0700ce11c0be7591483
+    url: https://github.com/brummer10/Ratatouille.lv2/releases/download/v0.9.11/Ratatouille.lv2-v3-v0.9.11-win64.zip
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - so
+      - lv2
+    type: archive
+    size: 2087744
+    sha256: a6d5da2140ba22f0f0c6a1bd94d4a466b43f9d83d842a89a6e9ff399462b6835
+    url: https://github.com/brummer10/Ratatouille.lv2/releases/download/v0.9.11/Ratatouille.lv2-vst2-v0.9.11-linux-x86_64.tar.xz
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - dll
+      - lv2
+    type: archive
+    size: 2637201
+    sha256: cf412eae20f82b29924a664a0dca84653d512331cf680451ff3f2c00838bdba4
+    url: https://github.com/brummer10/Ratatouille.lv2/releases/download/v0.9.11/Ratatouille.lv2-vst2-v0.9.11-win64.zip
