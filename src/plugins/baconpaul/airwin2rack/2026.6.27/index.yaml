@@ -1,0 +1,96 @@
+name: Airwindows Consolidated
+author: Paul
+description: Airwindows, Consolidated into a single Library, Rack Plugin and DAW Plugin
+license: gpl-3.0
+type: effect
+tags:
+  - Effect
+  - Multi-Effect
+url: https://github.com/baconpaul/airwin2rack
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/baconpaul/airwin2rack/airwin2rack.jpg
+date: '2024-04-23T22:17:44Z'
+changes: |-
+  Release updated  Sat Jun 27 22:07:03 UTC 2026
+
+  - [9cf9ddf](https://github.com/baconpaul/airwin2rack/commit/9cf9ddf6b23290bbbdbc5e802cffb976d6afc534) : Update to Latest Airwin...
+files:
+  - systems:
+      - type: mac
+    architectures:
+      - arm64
+      - x64
+    contains:
+      - vst3
+      - clap
+      - au
+    type: installer
+    size: 48573438
+    sha256: b2761decace8f8b11bc944c44fe9d69ce05ce9989f696061436c5032c8ea991f
+    url: https://github.com/baconpaul/airwin2rack/releases/download/DAWPlugin/airwindows-consolidated-macOS-2026-06-27-9cf9ddf.dmg
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - vst3
+      - clap
+      - lv2
+    type: archive
+    size: 32232455
+    sha256: 826a3ac7757cd84e7c15463b14a8f2f8085bd0b8073330c404d15237953bae35
+    url: https://github.com/baconpaul/airwin2rack/releases/download/DAWPlugin/AirwindowsConsolidated-2026-06-27-9cf9ddf-Linux.zip
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - vst3
+      - clap
+    type: installer
+    size: 10774604
+    sha256: 7a2be93276d1d191429eabb82c1fd99b0f4955904941a911dee3f6cf1908c457
+    url: https://github.com/baconpaul/airwin2rack/releases/download/DAWPlugin/AirwindowsConsolidated-2026-06-27-9cf9ddf-Windows-64bit-setup.exe
+  - systems:
+      - type: win
+    architectures:
+      - arm64ec
+    contains:
+      - vst3
+      - clap
+    type: archive
+    size: 8127340
+    sha256: 4a7bc8a8262aef0d4d5e72cd435badbdcc4832ed0531836d1be7ae775afffd24
+    url: https://github.com/baconpaul/airwin2rack/releases/download/DAWPlugin/AirwindowsConsolidated-2026-06-27-9cf9ddf-Windows-arm64ec.zip
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - vst3
+      - clap
+    type: archive
+    size: 11799778
+    sha256: 8940e3df5b6c56a17023099d3efcab07e6c19080781fad1de357a9ed5dd242e1
+    url: https://github.com/baconpaul/airwin2rack/releases/download/DAWPlugin/AirwindowsConsolidated-2026-06-27-9cf9ddf-Windows-windows7.zip
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - vst3
+      - clap
+    type: archive
+    size: 13305051
+    sha256: 58c346a8177f8adb55c70fbb03a69a86ee67554a65249687bd5487a15b308bbb
+    url: https://github.com/baconpaul/airwin2rack/releases/download/DAWPlugin/AirwindowsConsolidated-2026-06-27-9cf9ddf-Windows.zip
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - vst3
+      - clap
+    type: installer
+    size: 9635694
+    sha256: ba52a87f4b7df72492585a63d58b5b6b178371a6325abf1ef638c2a420a700b6
+    url: https://github.com/baconpaul/airwin2rack/releases/download/DAWPlugin/AirwindowsConsolidated-2026-06-27-9cf9ddf-windows7-Windows-64bit-setup.exe
