@@ -1,0 +1,49 @@
+name: NAM JUCE
+author: Manos Labrakis
+description: A JUCE implementation of Steven Atkinson's Neural Amp Modeler Plugin
+license: gpl-3.0
+type: effect
+tags:
+  - Guitar
+  - Amp
+  - NAM
+url: https://github.com/Tr3m/nam-juce
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/tr3m/nam-juce/nam-juce.jpg
+date: '2024-09-08T18:03:25Z'
+changes: |
+  - Caught up with the NeuralAmpModelerCore upstream repo.
+  - Implemented Resampling.
+  - Performance Improvements.
+files:
+  - systems:
+      - type: mac
+    architectures:
+      - x64
+    contains:
+      - vst3
+      - component
+    type: installer
+    size: 18435909
+    sha256: ae5a147d2e4ad93a8b0b51a470789622fca343e6fe3dfd56b264cda11faa10f0
+    url: https://github.com/Tr3m/nam-juce/releases/download/v0.4.0/NeuralAmpModeler-v0.4.0-mac-Intel.dmg
+  - systems:
+      - type: mac
+    architectures:
+      - arm64
+    contains:
+      - vst3
+      - component
+    type: installer
+    size: 17983461
+    sha256: c04fcd47ccabff2e51cf8dc3e0fda8dab27fb108bac086831b8ec9d73cfc3cae
+    url: https://github.com/Tr3m/nam-juce/releases/download/v0.4.0/NeuralAmpModeler-v0.4.0-mac-M1.dmg
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - vst3
+    type: archive
+    size: 11227548
+    sha256: 5ff92b965c69fd828d23beed0fed847378cb5c0895fd944083c6d080945c6108
+    url: https://github.com/Tr3m/nam-juce/releases/download/v0.4.0/NeuralAmpModeler-v0.4.0-win.zip
