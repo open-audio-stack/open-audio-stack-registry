@@ -1,0 +1,26 @@
+name: Delax
+author: Ava Wallenfang
+description: A delay audio plugin, currently supporting CLAP
+license: gpl-3.0
+type: effect
+tags:
+  - Delay
+  - Echo
+url: https://github.com/awallenfang/delax
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/awallenfang/delax/delax.jpg
+date: '2024-06-13T10:45:52Z'
+changes: |
+  Initial UI implementation.
+
+  With this release the UI was implemented which will be the starting point for more advanced features like BPM-based delay length and delay line slicing.
+files:
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - clap
+    type: archive
+    size: 8464800
+    sha256: 99d13470609829921082a1bf15675bbe21649e4efef37f44f69d6151bbc252eb
+    url: https://github.com/awallenfang/delax/releases/download/v0.2/Delax_clap_linux.clap
