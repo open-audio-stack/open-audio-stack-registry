@@ -59,7 +59,8 @@
         {
           "systems": [
             {
-              "type": "win"
+              "type": "win",
+              "min": 10
             }
           ],
           "architectures": [
@@ -95,7 +96,8 @@
         {
           "systems": [
             {
-              "type": "win"
+              "type": "win",
+              "min": 7
             }
           ],
           "architectures": [
@@ -113,7 +115,8 @@
         {
           "systems": [
             {
-              "type": "win"
+              "type": "win",
+              "min": 10
             }
           ],
           "architectures": [
@@ -131,7 +134,8 @@
         {
           "systems": [
             {
-              "type": "win"
+              "type": "win",
+              "min": 7
             }
           ],
           "architectures": [
