@@ -217,6 +217,24 @@
       ]
     }
   },
+  "tr3m/nam-juce": {
+    "0.4.0": {
+      "recs": [
+        {
+          "field": "url",
+          "rec": "requires mounting step, consider .pkg instead"
+        },
+        {
+          "field": "url",
+          "rec": "requires mounting step, consider .pkg instead"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Linux"
+        }
+      ]
+    }
+  },
   "tote-bag-labs/valentine": {
     "1.0.1": {
       "recs": [
