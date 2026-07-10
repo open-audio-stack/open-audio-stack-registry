@@ -1,0 +1,48 @@
+name: NAM On Steroids
+author: ToneScientist
+description: A fork of the Neural Amp Modeler plugin focused on adding experimental oversampling support for NAM models
+license: mit
+type: effect
+tags:
+  - Guitar
+  - Amp
+  - NAM
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/dlc86/nam-oversampler/nam-oversampler.jpg
+url: https://github.com/DLC86/NAM-Oversampler
+date: '2026-07-04T10:01:53Z'
+changes: |
+  - Fixed theme controls in the settings page overlapping with calibration field.
+  - Re-added the Model Size control (aka "Slim") on the main page.
+files:
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - vst3
+    type: archive
+    size: 670042
+    sha256: d7ec49f13ae088103a047d797a8729b257f3e3ee8185747d7b2666bc169e5a96
+    url: https://github.com/DLC86/NAM-Oversampler/releases/download/v2.2.3/NAM.On.Steroids-v2.2.3-linux.zip
+  - systems:
+      - type: mac
+    architectures:
+      - arm64
+      - x64
+    contains:
+      - app
+    type: archive
+    size: 11714333
+    sha256: ac41b223947bf009999fec14f0c7e0240be003de13c265ca76acad6c634fc441
+    url: https://github.com/DLC86/NAM-Oversampler/releases/download/v2.2.3/NAM.On.Steroids-v2.2.3-mac.zip
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - vst3
+      - exe
+    type: archive
+    size: 5077518
+    sha256: 55b20acda8109e2925d3d91cd76de1b92108260ca327b612cce68ec6b9e64a50
+    url: https://github.com/DLC86/NAM-Oversampler/releases/download/v2.2.3/NAM.On.Steroids-v2.2.3-win.zip
