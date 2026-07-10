@@ -1,0 +1,26 @@
+name: Ripchord
+author: prg318
+description: A free MIDI plugin that makes it easy to create, perform and remix chord progressions. This fork adds Linux and CLAP support.
+license: gpl-3.0
+type: generator
+tags:
+  - MIDI
+  - Chords
+url: https://github.com/prg318/ripchord
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/prg318/ripchord/ripchord.jpg
+date: '2022-11-18T03:34:13Z'
+changes: |
+  Linux CLAP and VST3 build.
+  NEW: async non-blocking filechoosers.
+files:
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - vst3
+      - clap
+    type: archive
+    size: 62334797
+    sha256: d0a4d46c2e4cc53ab2b7e00548cfcf2fdc9655113a22494f61a20998b8b1cad7
+    url: https://github.com/prg318/ripchord/releases/download/v2.8-prg-build3/ripchord-2.8.0-prg-build3.zip
