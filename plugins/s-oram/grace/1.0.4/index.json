@@ -1,0 +1,51 @@
+{
+  "name": "Grace",
+  "author": "Shannon Oram",
+  "description": "Sampler VST Plugin for Windows",
+  "license": "mit",
+  "type": "sampler",
+  "tags": [
+    "Sampler"
+  ],
+  "url": "https://github.com/s-oram/Grace",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/s-oram/grace/grace.jpg",
+  "date": "2018-07-17T05:07:11Z",
+  "changes": "Grace v1.0.4.9 release.",
+  "files": [
+    {
+      "systems": [
+        {
+          "type": "win"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "dll"
+      ],
+      "type": "archive",
+      "size": 14241064,
+      "sha256": "b2c82a15a23f17b60fc7395c78308c49e4d389729433241512df6e9e61e48767",
+      "url": "https://github.com/s-oram/Grace/files/2200234/Setup_Grace_64bit_Full_1-0-4-9_Windows.zip"
+    },
+    {
+      "systems": [
+        {
+          "type": "win"
+        }
+      ],
+      "architectures": [
+        "x32"
+      ],
+      "contains": [
+        "dll"
+      ],
+      "type": "archive",
+      "size": 12142490,
+      "sha256": "1f76435615a66bea36f0f077d68408c725f591c5486e11f3e0c2c2b0c7fd05e2",
+      "url": "https://github.com/s-oram/Grace/files/2200235/Setup_Grace_32bit_Full_1-0-4-9_Windows.zip"
+    }
+  ],
+  "verified": true
+}

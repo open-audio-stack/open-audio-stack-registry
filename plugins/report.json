@@ -663,6 +663,28 @@
       ]
     }
   },
+  "s-oram/grace": {
+    "1.0.4": {
+      "recs": [
+        {
+          "field": "architectures",
+          "rec": "should support arm64"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Linux"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Mac"
+        },
+        {
+          "field": "tags",
+          "rec": "should have more items"
+        }
+      ]
+    }
+  },
   "resonantdsp/swankyamp": {
     "1.4.0": {
       "recs": [
