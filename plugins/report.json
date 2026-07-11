@@ -1005,6 +1005,24 @@
       ]
     }
   },
+  "mrugalla/hammer-and-meiszel": {
+    "2025.4.27": {
+      "recs": [
+        {
+          "field": "url",
+          "rec": "requires mounting step, consider .pkg instead"
+        },
+        {
+          "field": "url",
+          "rec": "not a supported format"
+        },
+        {
+          "field": "tags",
+          "rec": "should have more items"
+        }
+      ]
+    }
+  },
   "mikeoliphant/stompbox": {
     "0.2.2": {
       "recs": [

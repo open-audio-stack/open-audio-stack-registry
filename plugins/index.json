@@ -8308,6 +8308,81 @@
       }
     }
   },
+  "mrugalla/hammer-and-meiszel": {
+    "slug": "mrugalla/hammer-and-meiszel",
+    "version": "2025.4.27",
+    "versions": {
+      "2025.4.27": {
+        "name": "Hammer und Meißel",
+        "author": "Florian Mrugalla",
+        "description": "A keytracked polyphonic modal filter effect",
+        "license": "gpl-3.0",
+        "type": "effect",
+        "tags": [
+          "Filter"
+        ],
+        "url": "https://github.com/Mrugalla/Hammer-and-Meiszel",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/mrugalla/hammer-and-meiszel/hammer-and-meiszel.jpg",
+        "date": "2025-04-17T20:21:16Z",
+        "changes": "2025_04_27 (windows & mac)\n- fixed: reducing the xen scale while using the key selector produced the wrong results sometimes\n- fixed: going from midi to key selector mode while still holding notes hung notes\n- added: panic button",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64"
+            ],
+            "contains": [
+              "vst3",
+              "component"
+            ],
+            "type": "installer",
+            "size": 34184125,
+            "sha256": "db906475b1ac6ac07d0c23b239be195fe6986b8bfd19a5f62eae02ba6a59492d",
+            "url": "https://github.com/Mrugalla/Hammer-and-Meiszel/releases/download/vst/2025-04-27_hammer.dmg"
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 23255125,
+            "sha256": "59a42227dd03d0d9ed20e129a7f4210b4cbb809338a395050afaaf1efefc0348",
+            "url": "https://github.com/Mrugalla/Hammer-and-Meiszel/releases/download/vst/HammerUndMeiszel.vst3.zip"
+          },
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "so"
+            ],
+            "type": "archive",
+            "size": 36670560,
+            "sha256": "e09f202c24182af426b51d06d0ba6be0ab93219ec85ed3e15e32095a1dfebe44",
+            "url": "https://github.com/Mrugalla/Hammer-and-Meiszel/releases/download/vst/LINUX.BUILD.so"
+          }
+        ],
+        "verified": true
+      }
+    }
+  },
   "mikeoliphant/stompbox": {
     "slug": "mikeoliphant/stompbox",
     "version": "0.2.2",
