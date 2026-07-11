@@ -1,0 +1,53 @@
+{
+  "name": "Delirion",
+  "author": "Igor Zinken",
+  "description": "A multiband Doppler-based chorusing/detune effect",
+  "license": "gpl-3.0",
+  "type": "effect",
+  "tags": [
+    "Chorus"
+  ],
+  "url": "https://github.com/igorski/delirion",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/igorski/delirion/delirion.jpg",
+  "date": "2026-02-05T06:33:33Z",
+  "changes": "Built against JUCE 8.0.10",
+  "files": [
+    {
+      "systems": [
+        {
+          "type": "mac"
+        }
+      ],
+      "architectures": [
+        "arm64",
+        "x64"
+      ],
+      "contains": [
+        "vst3",
+        "component"
+      ],
+      "type": "archive",
+      "size": 6617231,
+      "sha256": "3b9f4aa3b01d3b5e55577325bf7c7b7eb30bc5709537d838dfcf659a81a93022",
+      "url": "https://github.com/igorski/delirion/releases/download/1.1.0/delirion.1.1.0_macos.zip"
+    },
+    {
+      "systems": [
+        {
+          "type": "win"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3"
+      ],
+      "type": "archive",
+      "size": 2642225,
+      "sha256": "1ac4b1c916d6cdcf9ef4c37b36740eefa1ef5abf1957731f6912ed76c8dda63a",
+      "url": "https://github.com/igorski/delirion/releases/download/1.1.0/delirion.1.1.0_windows.zip"
+    }
+  ],
+  "verified": true
+}
