@@ -619,6 +619,16 @@
       ]
     }
   },
+  "smiarx/aelapse": {
+    "1.0.1": {
+      "recs": [
+        {
+          "field": "url",
+          "rec": "requires mounting step, consider .pkg instead"
+        }
+      ]
+    }
+  },
   "sdatkinson/neural-amp-modeler": {
     "0.7.13": {
       "recs": [

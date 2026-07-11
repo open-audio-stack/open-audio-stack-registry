@@ -1,0 +1,72 @@
+{
+  "name": "ÆLAPSE",
+  "author": "smiarx",
+  "description": "A tape delay / spring reverb audio plugin",
+  "license": "gpl-3.0",
+  "type": "effect",
+  "tags": [
+    "Delay",
+    "Reverb"
+  ],
+  "url": "https://github.com/smiarx/aelapse",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/smiarx/aelapse/aelapse.jpg",
+  "date": "2026-02-22T23:20:39Z",
+  "changes": "ÆLAPSE 1.0.1\n\n- Fix compiling with -march=native with avx2 enabled (#2)\n- Windows use static runtime libraries\n- Fix x86 cpu dispatch between SSE/AVX2 crash on machines without AVX2 (#5 #8)\n- Smooth all parameters\n- Stop springs visualizer when disabling reverb",
+  "files": [
+    {
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3",
+        "lv2"
+      ],
+      "type": "archive",
+      "size": 3257006,
+      "sha256": "9e6726d09c2d0cd49d8d4a9f45757dec2913e0ec4003ebd5aa4a0bef149cec77",
+      "url": "https://github.com/smiarx/aelapse/releases/download/v1.0.1/Aelapse-Linux.zip"
+    },
+    {
+      "systems": [
+        {
+          "type": "mac"
+        }
+      ],
+      "architectures": [
+        "arm64",
+        "x64"
+      ],
+      "contains": [
+        "vst3",
+        "component"
+      ],
+      "type": "installer",
+      "size": 5898165,
+      "sha256": "4e3b6f0b53c60f78e727cdcffc38bd8e8a446b049a0800f1420966def26352f0",
+      "url": "https://github.com/smiarx/aelapse/releases/download/v1.0.1/Aelapse-macOS.dmg"
+    },
+    {
+      "systems": [
+        {
+          "type": "win"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3"
+      ],
+      "type": "installer",
+      "size": 3347120,
+      "sha256": "6815d5d0b4406c24e0b0614a0c749640cf21a724283c1b230d9341fc0a0ec945",
+      "url": "https://github.com/smiarx/aelapse/releases/download/v1.0.1/Aelapse-Windows.exe"
+    }
+  ],
+  "verified": true
+}
