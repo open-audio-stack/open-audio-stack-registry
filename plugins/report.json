@@ -869,6 +869,28 @@
       ]
     }
   },
+  "otodesk4193/ambience1.0.1": {
+    "1.1.0": {
+      "recs": [
+        {
+          "field": "architectures",
+          "rec": "should support arm64"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Linux"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Mac"
+        },
+        {
+          "field": "tags",
+          "rec": "should have more items"
+        }
+      ]
+    }
+  },
   "olegkapitonov/kpp-vst3": {
     "1.2.1": {
       "recs": [

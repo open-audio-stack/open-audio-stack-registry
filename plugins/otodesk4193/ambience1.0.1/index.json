@@ -1,0 +1,40 @@
+{
+  "slug": "otodesk4193/ambience1.0.1",
+  "version": "1.1.0",
+  "versions": {
+    "1.1.0": {
+      "name": "Ambience",
+      "author": "OTODESK",
+      "description": "A high-quality algorithmic reverb VST3 plugin built on a 16-channel Feedback Delay Network (FDN) architecture",
+      "license": "agpl-3.0",
+      "type": "effect",
+      "tags": [
+        "Reverb"
+      ],
+      "url": "https://github.com/OTODESK4193/Ambience1.0.1",
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/otodesk4193/ambience1.0.1/ambience1.0.1.jpg",
+      "date": "2026-06-13T13:30:21Z",
+      "changes": "v1.1.0\n\nBug Fixes:\n- PreDelay fix: Fixed PreDelay parameter not being applied to DSP.\n- Metallic comb-filter artifact fix at long DecayTime values.\n- Preset PRO Mode fix on preset load.\n\nSound Quality Improvements:\n- Chorus-style pitch modulation, 3-stage serial allpass chain, ER->Late transition smoothing.",
+      "files": [
+        {
+          "systems": [
+            {
+              "type": "win"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "vst3"
+          ],
+          "type": "archive",
+          "size": 18226278,
+          "sha256": "1e8960fe371365b87cac89dd73bb6e345fdb2a8474418bb7e520adc1fe312142",
+          "url": "https://github.com/OTODESK4193/Ambience1.0.1/releases/download/v1.1.0/Ambience1.1.vst3.zip"
+        }
+      ],
+      "verified": true
+    }
+  }
+}
