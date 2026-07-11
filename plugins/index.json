@@ -1868,6 +1868,67 @@
       }
     }
   },
+  "usdivad/melodrumatic": {
+    "slug": "usdivad/melodrumatic",
+    "version": "0.1.3",
+    "versions": {
+      "0.1.3": {
+        "name": "Melodrumatic",
+        "author": "David Su",
+        "description": "Audio plugin that lets you use MIDI to pitch-shift via delay to turn unpitched audio into melodies",
+        "license": "gpl-3.0",
+        "type": "effect",
+        "tags": [
+          "Delay",
+          "Pitch Shift"
+        ],
+        "url": "https://github.com/usdivad/Melodrumatic",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/usdivad/melodrumatic/melodrumatic.jpg",
+        "date": "2020-05-04T01:35:34Z",
+        "changes": "Windows versions are finally up. Plugin also now displays version number.",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "component",
+              "aax"
+            ],
+            "type": "archive",
+            "size": 10112770,
+            "sha256": "6403159440362e3bf2c3852b6b782afeac6a7c8d7edd83600afcef057896312b",
+            "url": "https://github.com/usdivad/Melodrumatic/releases/download/v0.1.3/Melodrumatic_v0.1.3.zip"
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "aax"
+            ],
+            "type": "archive",
+            "size": 10112770,
+            "sha256": "6403159440362e3bf2c3852b6b782afeac6a7c8d7edd83600afcef057896312b",
+            "url": "https://github.com/usdivad/Melodrumatic/releases/download/v0.1.3/Melodrumatic_v0.1.3.zip"
+          }
+        ],
+        "verified": true
+      }
+    }
+  },
   "tucktuckg00se/intersect": {
     "slug": "tucktuckg00se/intersect",
     "version": "0.15.1",
