@@ -1,0 +1,34 @@
+{
+  "name": "DCOffsetter",
+  "author": "Kazuma Narita",
+  "description": "DC offset audio plugin",
+  "license": "mit",
+  "type": "effect",
+  "tags": [
+    "Utility"
+  ],
+  "url": "https://github.com/wheatBread1306/DCOffsetter",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/wheatbread1306/dcoffsetter/dcoffsetter.jpg",
+  "date": "2026-05-15T18:38:52Z",
+  "changes": "Win64 pre-built binary",
+  "files": [
+    {
+      "systems": [
+        {
+          "type": "win"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3"
+      ],
+      "type": "archive",
+      "size": 2458337,
+      "sha256": "3aae5e64f8a186973ffab7434f68787b148ce30c2462630220bce612c5811983",
+      "url": "https://github.com/wheatBread1306/DCOffsetter/releases/download/1.0.1/DCOffsetter_win64_1.0.1.zip"
+    }
+  ],
+  "verified": true
+}
