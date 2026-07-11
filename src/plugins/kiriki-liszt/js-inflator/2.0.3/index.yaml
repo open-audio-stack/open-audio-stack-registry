@@ -1,0 +1,34 @@
+name: JS Inflator
+author: Aris Kiriki-Liszt
+description: JS Inflator is a copy of Sonnox Inflator.
+license: gpl-3.0
+type: effect
+tags:
+  - Saturation
+url: https://github.com/Kiriki-liszt/JS_Inflator
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/kiriki-liszt/js-inflator/js-inflator.jpg
+date: '2024-07-26T07:37:14Z'
+changes: Fixed for Cakewalk by Bandlab.
+files:
+  - systems:
+      - type: mac
+    architectures:
+      - arm64
+      - x64
+    contains:
+      - vst3
+      - component
+    type: archive
+    size: 10085918
+    sha256: 061e5ffa3522f26f7ff0b88213e30b52feefbaf5f4c6bfdcd0c46f6bfb5a144d
+    url: https://github.com/Kiriki-liszt/JS_Inflator/releases/download/v2.0.3.2/JS.Inflator.macOS.v2.0.3.2.zip
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - vst3
+    type: archive
+    size: 4598786
+    sha256: ff882429e2f6c5be9a9757f6f136acd4f8e3b2a1cc212cf1fabbe0f6b28c192f
+    url: https://github.com/Kiriki-liszt/JS_Inflator/releases/download/v2.0.3.2/JS.Inflator.Win.v2.0.3.2.zip
