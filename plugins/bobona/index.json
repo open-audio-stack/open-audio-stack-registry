@@ -1,0 +1,78 @@
+{
+  "bobona/just-a-sample": {
+    "slug": "bobona/just-a-sample",
+    "version": "1.3.0",
+    "versions": {
+      "1.3.0": {
+        "name": "Just a Sample",
+        "author": "Binyamin Friedman",
+        "description": "A modern, open-source audio sampler",
+        "license": "mit",
+        "type": "sampler",
+        "tags": [
+          "Sampler"
+        ],
+        "url": "https://github.com/BOBONA/Just-a-Sample",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/bobona/just-a-sample/just-a-sample.jpg",
+        "date": "2026-03-14T23:04:42Z",
+        "changes": "Your favorite sampler shouldn't be complicated. v1.3.2 update.",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "component"
+            ],
+            "type": "installer",
+            "size": 14426139,
+            "sha256": "27583fec206be1babcb34987c37cb450814ff43a363158365dfa1938003657a0",
+            "url": "https://github.com/BOBONA/Just-a-Sample/releases/download/v1.3-latest/Install.Just.a.Sample.macOS.v1.3.2.dmg"
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 3368257,
+            "sha256": "842180d942e0ce8ffe0f2e417b4776343bd47fa92bd0b0c4f305256f047a5ca2",
+            "url": "https://github.com/BOBONA/Just-a-Sample/releases/download/v1.3-latest/JAS.Windows.VST3.v1.3.2.zip"
+          },
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 3676964,
+            "sha256": "be092ace689d10285567921978289529f841ca7439ed2a534f36fcb7b3796afb",
+            "url": "https://github.com/BOBONA/Just-a-Sample/releases/download/v1.3-latest/JAS.Linux.VST3.v1.3.2.zip"
+          }
+        ],
+        "verified": true
+      }
+    }
+  }
+}

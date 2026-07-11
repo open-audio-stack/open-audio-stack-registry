@@ -1919,6 +1919,20 @@
       ]
     }
   },
+  "bobona/just-a-sample": {
+    "1.3.0": {
+      "recs": [
+        {
+          "field": "url",
+          "rec": "requires mounting step, consider .pkg instead"
+        },
+        {
+          "field": "tags",
+          "rec": "should have more items"
+        }
+      ]
+    }
+  },
   "bljustice/hue": {
     "1.1.0": {
       "recs": [
