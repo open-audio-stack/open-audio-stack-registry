@@ -1,0 +1,52 @@
+name: Chartchotic
+author: Noah Baxter
+description: An au/vst plugin for DAWs that visualizes midi notes similar to how they appear in rhythm games like Clone Hero and YARG
+license: other
+type: tool
+tags:
+  - MIDI
+  - Visualizer
+url: https://github.com/noahbaxter/chartchotic
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/noahbaxter/chartchotic/chartchotic.jpg
+date: '2026-04-26T23:12:04Z'
+changes: |-
+  Bug Fixes
+  - REAPER no longer hangs when duplicating a track containing chartchotic
+  - Rendering engine improvements to prevent note drift
+  - Bar widths fit more cleanly within the highway
+  - Realigned cymbal modifier assets for ghosts/accents
+files:
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - vst3
+      - lv2
+      - elf
+    type: archive
+    size: 41912729
+    sha256: e4b81c4515d0feefa97169574e605e2d3617b450e62251aadbe1071cb88d8dac
+    url: https://github.com/noahbaxter/chartchotic/releases/download/v1.2.3/Chartchotic-Linux.zip
+  - systems:
+      - type: mac
+    architectures:
+      - arm64
+      - x64
+    contains:
+      - vst3
+      - component
+    type: archive
+    size: 107796488
+    sha256: 47c74a8a507d060770f52d564ff0cf67631aac2cd2f87d470e529825cd2c929e
+    url: https://github.com/noahbaxter/chartchotic/releases/download/v1.2.3/Chartchotic-macOS.zip
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - vst3
+    type: archive
+    size: 28776247
+    sha256: afb4225e31c4eb44767bf51d92ece1800bbb812a43ece26031cee6cb9fafdba1
+    url: https://github.com/noahbaxter/chartchotic/releases/download/v1.2.3/Chartchotic-Windows.zip
