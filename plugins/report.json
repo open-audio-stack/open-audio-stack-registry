@@ -1071,6 +1071,24 @@
       ]
     }
   },
+  "killbizz/biztortion": {
+    "1.0.0": {
+      "recs": [
+        {
+          "field": "architectures",
+          "rec": "should support arm64"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Linux"
+        },
+        {
+          "field": "tags",
+          "rec": "should have more items"
+        }
+      ]
+    }
+  },
   "khrykin/blackbird": {
     "0.1.0": {
       "recs": [
