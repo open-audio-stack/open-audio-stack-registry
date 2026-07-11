@@ -13067,6 +13067,104 @@
       }
     }
   },
+  "damiensellier/ctrlrx": {
+    "slug": "damiensellier/ctrlrx",
+    "version": "5.6.35",
+    "versions": {
+      "5.6.35": {
+        "name": "CtrlrX",
+        "author": "Damien Sellier",
+        "description": "An enhanced version of Roman Kubiak's CTRLR. CtrlrX can control any MIDI-enabled hardware, synthesizers, drum machines, samplers, effects and more. Create custom user interfaces and host them as VST3, AU or AAX plugins in your favorite DAWs.",
+        "license": "bsd-3-clause",
+        "type": "tool",
+        "tags": [
+          "MIDI Controller",
+          "Sysex"
+        ],
+        "url": "https://github.com/damiensellier/CtrlrX",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/damiensellier/ctrlrx/ctrlrx.jpg",
+        "date": "2026-04-21T19:54:07Z",
+        "changes": "A new version for the CtrlrX Fork has been released, CtrlrX v5.6.35.",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "elf"
+            ],
+            "type": "archive",
+            "size": 24383169,
+            "sha256": "2d4b92b53e6209b59c3147e0c8f98ccf4b3344c2e817186e8d4c8a741e0d21a9",
+            "url": "https://github.com/damiensellier/CtrlrX/releases/download/v5.6.35/CtrlrX-5.6.35-Linux.zip"
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "component",
+              "app"
+            ],
+            "type": "installer",
+            "size": 45864277,
+            "sha256": "48408d9e3405e1520cc2e50cff66a5b30b8a2f623a1c1d24b55c6b80295351c2",
+            "url": "https://github.com/damiensellier/CtrlrX/releases/download/v5.6.35/CtrlrX-5.6.35-macOS.pkg"
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "exe"
+            ],
+            "type": "installer",
+            "size": 10891712,
+            "sha256": "c56b42aa7b936555e5124a17fb8586d8881018ba798424a445742a271171bc02",
+            "url": "https://github.com/damiensellier/CtrlrX/releases/download/v5.6.35/CtrlrX-5.6.35-Windows.exe"
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "aax"
+            ],
+            "type": "archive",
+            "size": 16051782,
+            "sha256": "9702b281b273a345887ae91202b4ac19d46029db158306cb2feea8de2c0f8f8a",
+            "url": "https://github.com/damiensellier/CtrlrX/releases/download/v5.6.35/CtrlrX-5.6.35.aaxplugin.macOS.zip"
+          }
+        ],
+        "verified": true
+      }
+    }
+  },
   "cvde/roomreverb": {
     "slug": "cvde/roomreverb",
     "version": "1.4.1",
