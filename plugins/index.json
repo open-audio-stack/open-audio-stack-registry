@@ -18781,6 +18781,47 @@
       }
     }
   },
+  "ales-tsurko/kotoist": {
+    "slug": "ales-tsurko/kotoist",
+    "version": "1.0.0-beta.5",
+    "versions": {
+      "1.0.0-beta.5": {
+        "name": "Kotoist",
+        "author": "Ales Tsurko",
+        "description": "A VST plugin for live coding and algorithmic composition",
+        "license": "gpl-3.0",
+        "type": "generator",
+        "tags": [
+          "Live Coding",
+          "Generative Music"
+        ],
+        "url": "https://github.com/ales-tsurko/kotoist",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ales-tsurko/kotoist/kotoist.jpg",
+        "date": "2021-11-10T16:30:54Z",
+        "changes": "v1.0.0-beta.5 release.",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst"
+            ],
+            "type": "archive",
+            "size": 1768139,
+            "sha256": "127ac3800cfa3c375dfdcf11d43270097fbf116b9cf69c188e6d75942b6aceb3",
+            "url": "https://github.com/ales-tsurko/kotoist/releases/download/v1.0.0-beta.5/kotoist.zip"
+          }
+        ],
+        "verified": true
+      }
+    }
+  },
   "airwindows/airwindows": {
     "slug": "airwindows/airwindows",
     "version": "1.0.0",

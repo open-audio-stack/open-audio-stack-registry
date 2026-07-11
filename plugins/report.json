@@ -2261,6 +2261,24 @@
       ]
     }
   },
+  "ales-tsurko/kotoist": {
+    "1.0.0-beta.5": {
+      "recs": [
+        {
+          "field": "architectures",
+          "rec": "should support arm64"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Linux"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Windows"
+        }
+      ]
+    }
+  },
   "a2aaron/nyasynth": {
     "1.0.0": {
       "recs": [
