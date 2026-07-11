@@ -1906,6 +1906,46 @@
         }
       }
     },
+    "valdemarorn/cloudseed": {
+      "slug": "valdemarorn/cloudseed",
+      "version": "1.0.1",
+      "versions": {
+        "1.0.1": {
+          "name": "Cloud Seed",
+          "author": "Valdemar Erlingsson",
+          "description": "Algorithmic Reverb VST Plugin",
+          "license": "mit",
+          "type": "effect",
+          "tags": [
+            "Reverb"
+          ],
+          "url": "https://github.com/ValdemarOrn/CloudSeed",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/valdemarorn/cloudseed/cloudseed.jpg",
+          "date": "2018-04-25T00:44:15Z",
+          "changes": "Changelog:\n\n- 32 bit plugin removed\n- Installation now provided via an automated Inno installer\n- Improved crash logging\n- Uses latest version of SharpSoundDevice (1.5.1), improved logging, reduced garbage collection cost",
+          "files": [
+            {
+              "systems": [
+                {
+                  "type": "win"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "dll"
+              ],
+              "type": "installer",
+              "size": 15721736,
+              "sha256": "bdfe5e1385bff7689eead9d44801bb3ff4ac9d211d149b97c98e358236816af1",
+              "url": "https://github.com/ValdemarOrn/CloudSeed/releases/download/v1.0.1/CloudSeed-v1.0.1-Setup.exe"
+            }
+          ],
+          "verified": true
+        }
+      }
+    },
     "utokusa/os-251": {
       "slug": "utokusa/os-251",
       "version": "1.3.0",
