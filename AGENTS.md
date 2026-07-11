@@ -228,6 +228,20 @@ The script is deterministic — it reads only what GitHub's API and the README p
 
 **`architectures`** — inferred from asset filenames (e.g. `x64`, `arm64`, `arm64ec`, `arm32`, `m1`). Filenames that give no architecture hint default to `[x64]`. Mac builds that are universal binaries (arm64 + x64) often have no hint in the filename — check the release notes or README to confirm, or download and run `lipo -info` on the binary. There is no registry value for RISC-V (`riscv64`) — the fetch script drops these assets automatically and flags them in its "skipped" list; leave them out rather than mislabeling the architecture.
 
+**`systems[].min` / `systems[].max`** — optional OS version bounds (see <a href="specification.md#file">the spec</a>). **The default is no constraint** — if a plugin author doesn't say otherwise, assume the build works on every version of that OS and leave `min`/`max` off entirely. Only add a bound when there's actual evidence: a filename token (`windows7`, `macos-10.15`), a release-notes line, a README requirement, or a CI config that targets a specific minimum.
+
+The fetch script auto-detects the common filename patterns:
+
+- Windows: a literal `win7`/`windows7`/`win10`/`win11`-style token → `min` set to that number. This is usually a _compatibility_ build offered _alongside_ a regular build, not a replacement — see below.
+- macOS: a deployment-target-looking number next to `mac`/`macos`/`osx` (e.g. `macos-10.15.dmg`, `mac-universal-11.dmg`) → `min` set to that number. Genuine macOS versions are always low two-digit numbers with an optional decimal (`10.13`, `11`, `14.2`) — the detector deliberately won't match a longer digit run, so a date-stamped filename like `macOS-2026-06-27-abc123.dmg` (common in CI-built nightlies) correctly produces no constraint instead of misreading "20" as the OS version.
+- Linux is **intentionally never auto-constrained**. A distro tag like `ubuntu-20.04` or `fedora-38` reflects the CI build environment's glibc floor, not a "Linux OS version" in the same sense — there's no single number that means the same thing to an end user the way `mac`/`win` versions do. If a Linux binary genuinely won't run on older distros, note this as a limitation but don't fabricate a `min`.
+
+What the script **cannot** infer, and you should add by hand after checking the repo:
+
+- The Windows _minimum_ for a **regular** (non-`win7`-tagged) build. When a project ships both a `win7`-suffixed compatibility build and a plain one, the plain build usually has an implicit floor (often Windows 10, because the current JUCE/toolchain dropped support for older Windows) even though nothing in its filename says so. Check the CI workflow (look for a flag like `downgrade_juce`/`ONJUCE7`/similar paired with the win7 variant) or ask upstream — don't leave the regular build unconstrained if you have good evidence it doesn't run on 7/8.
+- Any minimum stated only in prose ("Requires macOS 11 Big Sur or later", "Windows 10 1903+ required") — read the README/release notes for this, since the filename won't always carry it.
+- An upper bound (`max`). This is rare — only add one if you have positive evidence the build is broken or blocked on newer OS versions (e.g. an old 32-bit-only Windows build that Windows 11 dropped support for). Don't infer a `max` just because a `min` exists elsewhere; a compatibility build is usually a floor, not a ceiling — most old-OS builds keep working on newer systems too.
+
 **`contains`** — inferred from asset filenames first, then the release body, then the README. For installer packages (`.exe`, `.dmg`, `.deb`) this is especially unreliable because the installer bundles multiple formats internally, and single-archive builds (common for DPF/JUCE projects) often carry no format hint in the filename at all. When the fetch script flags a file's `contains` as unknown, or when a plugin ships one installer per platform bundling several formats, **do not guess** — download the asset and list its contents directly:
 
 ```bash
