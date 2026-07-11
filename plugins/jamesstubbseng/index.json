@@ -1,0 +1,61 @@
+{
+  "jamesstubbseng/8ridgelite": {
+    "slug": "jamesstubbseng/8ridgelite",
+    "version": "1.0.5",
+    "versions": {
+      "1.0.5": {
+        "name": "8ridgelite",
+        "author": "James Stubbs",
+        "description": "8 string guitar virtual instrument with one extra octave below for good measure!",
+        "license": "gpl-3.0",
+        "type": "instrument",
+        "tags": [
+          "Guitar",
+          "Virtual Instruments"
+        ],
+        "url": "https://github.com/JamesStubbsEng/8ridgelite",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/jamesstubbseng/8ridgelite/8ridgelite.jpg",
+        "date": "2021-11-26T02:27:37Z",
+        "changes": "Initial release of open source 8ridge lite!",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "installer",
+            "size": 381923187,
+            "sha256": "08bd66e3030b2e510593626a7f72f6955d1d649f219dadbbe02519d85b25ab9d",
+            "url": "https://github.com/JamesStubbsEng/8ridgelite/releases/download/v1.0.5/8ridgelite-windows.exe"
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "component"
+            ],
+            "type": "installer",
+            "size": 497392105,
+            "sha256": "ea621909afc4640fdb317afbf4cb645ac238f4e0d21690074010874c4d697716",
+            "url": "https://github.com/JamesStubbsEng/8ridgelite/releases/download/v1.0.5/8ridgelite.pkg"
+          }
+        ],
+        "verified": true
+      }
+    }
+  }
+}
