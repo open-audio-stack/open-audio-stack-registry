@@ -1,0 +1,52 @@
+{
+  "name": "Viruz2",
+  "author": "Farbrausch",
+  "description": "Farbrausch V2 Synthesizer System, Revived",
+  "license": "other",
+  "type": "instrument",
+  "tags": [
+    "Demoscene",
+    "Synthesizer"
+  ],
+  "url": "https://github.com/EZForever/Viruz2",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ezforever/viruz2/viruz2.jpg",
+  "date": "2023-12-21T16:44:54Z",
+  "changes": "v2player takes a command-line parameter as the path to .v2m file, or searches for one sharing the player's name.",
+  "files": [
+    {
+      "systems": [
+        {
+          "type": "win"
+        }
+      ],
+      "architectures": [
+        "x32"
+      ],
+      "contains": [
+        "dll"
+      ],
+      "type": "archive",
+      "size": 10825477,
+      "sha256": "7f40aa1c42758121443b0e9898b50c5b39d01b8058c7b7df25cb26e59f63d657",
+      "url": "https://github.com/EZForever/Viruz2/releases/download/231222/Viruz2-231222-Win32.zip"
+    },
+    {
+      "systems": [
+        {
+          "type": "win"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "dll"
+      ],
+      "type": "archive",
+      "size": 11620773,
+      "sha256": "cd152b966163e795da774237a720977788bfcae19ffe959406e5bc1cca3af306",
+      "url": "https://github.com/EZForever/Viruz2/releases/download/231222/Viruz2-231222-x64.zip"
+    }
+  ],
+  "verified": true
+}
