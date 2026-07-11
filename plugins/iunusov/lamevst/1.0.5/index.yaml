@@ -1,0 +1,33 @@
+name: LameVST
+author: Artur Iunusov
+description: MP3 as a VST effect, ideal for previewing your track in mp3-mode during playback
+license: gpl-3.0
+type: effect
+tags:
+  - MP3
+  - Lossy
+url: https://github.com/Iunusov/LameVST
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/iunusov/lamevst/lamevst.jpg
+date: '2017-01-12T20:43:10Z'
+changes: 1.0.5 release.
+files:
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - dll
+    type: archive
+    size: 473088
+    sha256: 903f95c1a035c47591edd5a52a31d491044b291489797042cda1dc185ea4f9b0
+    url: https://github.com/Iunusov/LameVST/releases/download/1.0.5/LameVST_x64.dll
+  - systems:
+      - type: win
+    architectures:
+      - x32
+    contains:
+      - dll
+    type: archive
+    size: 405504
+    sha256: 4cb4a42495f6584e6a4ce5da897edb96991fe8e14b700ce799e48c781dab9991
+    url: https://github.com/Iunusov/LameVST/releases/download/1.0.5/LameVST_x86.dll
