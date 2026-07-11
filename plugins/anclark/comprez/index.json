@@ -1,0 +1,86 @@
+{
+  "slug": "anclark/comprez",
+  "version": "1.0.0",
+  "versions": {
+    "1.0.0": {
+      "name": "Comprez",
+      "author": "AnClark Liu",
+      "description": "Simple and fast compressor plugin.",
+      "license": "gpl-3.0",
+      "type": "effect",
+      "tags": [
+        "Compressor"
+      ],
+      "url": "https://github.com/AnClark/Comprez",
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/anclark/comprez/comprez.jpg",
+      "date": "2024-04-06T14:15:16Z",
+      "changes": "This is the first release of Comprez. Ready for production.",
+      "files": [
+        {
+          "systems": [
+            {
+              "type": "linux"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "vst3",
+            "so",
+            "clap",
+            "lv2",
+            "elf"
+          ],
+          "type": "archive",
+          "size": 3225296,
+          "sha256": "f0225fab35efd5091e433598baf3add47c8c99444bb69fa7ead5cec06a64d740",
+          "url": "https://github.com/AnClark/Comprez/releases/download/v1.0.0/Comprez-linux-x86_64-1.0.0.zip"
+        },
+        {
+          "systems": [
+            {
+              "type": "mac"
+            }
+          ],
+          "architectures": [
+            "arm64",
+            "x64"
+          ],
+          "contains": [
+            "vst3",
+            "vst",
+            "clap",
+            "lv2"
+          ],
+          "type": "archive",
+          "size": 4896405,
+          "sha256": "f568c215f25d34591dc494166ddb95f7443cee345dba4b3d76386fb97f99034a",
+          "url": "https://github.com/AnClark/Comprez/releases/download/v1.0.0/Comprez-macOS-universal-1.0.0.zip"
+        },
+        {
+          "systems": [
+            {
+              "type": "win"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "vst3",
+            "dll",
+            "clap",
+            "lv2",
+            "exe"
+          ],
+          "type": "archive",
+          "size": 4201243,
+          "sha256": "b5f4e75a4f2e703cb8437291a7398dba0c6acf497148b8db78b15603e225146e",
+          "url": "https://github.com/AnClark/Comprez/releases/download/v1.0.0/Comprez-win64-1.0.0.zip"
+        }
+      ],
+      "verified": true
+    }
+  }
+}
