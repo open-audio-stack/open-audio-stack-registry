@@ -12879,6 +12879,47 @@
       }
     }
   },
+  "fake-industries/fuzzball": {
+    "slug": "fake-industries/fuzzball",
+    "version": "1.1.0",
+    "versions": {
+      "1.1.0": {
+        "name": "Fuzz Ball",
+        "author": "Fake Industries",
+        "description": "A fuzzy audio distortion plugin",
+        "license": "gpl-3.0",
+        "type": "effect",
+        "tags": [
+          "Distortion",
+          "Fuzz"
+        ],
+        "url": "https://github.com/fake-industries/fuzzball",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/fake-industries/fuzzball/fuzzball.jpg",
+        "date": "2020-09-18T18:32:33Z",
+        "changes": "Fix slider control responsiveness.",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst"
+            ],
+            "type": "installer",
+            "size": 184432,
+            "sha256": "cf5a8ffa869de74551062f349aad450b6c6c63144e2f4dc47f1b47937a92f913",
+            "url": "https://github.com/fake-industries/fuzzball/releases/download/v1.1/FuzzBall-v1.1.pkg"
+          }
+        ],
+        "verified": true
+      }
+    }
+  },
   "erroreyes/crrshrr": {
     "slug": "erroreyes/crrshrr",
     "version": "0.1.0",
