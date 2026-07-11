@@ -1,0 +1,37 @@
+{
+  "name": "FreeEQ8",
+  "author": "Neo-VECTR",
+  "description": "A professional-grade, free and open-source 8-band parametric EQ plugin. Linear phase, dynamic EQ, match EQ, per-band drive, band linking, M/S processing, oversampling, and a real-time spectrum analyzer.",
+  "license": "gpl-3.0",
+  "type": "effect",
+  "tags": [
+    "Equalizer"
+  ],
+  "url": "https://github.com/GareBear99/FreeEQ8",
+  "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/garebear99/freeeq8/freeeq8.flac",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/garebear99/freeeq8/freeeq8.jpg",
+  "date": "2026-05-29T14:04:43Z",
+  "changes": "FreeEQ8 v2.3.0 stable release.\n\nHighlights:\n- macOS DMG includes FreeEQ8 and ProEQ8 (VST3/AU plus FreeEQ8 Standalone)\n- CI/CD fixes for macOS, Windows, and Linux builds\n- Expanded Smart EQ and real-time safety/security documentation",
+  "files": [
+    {
+      "systems": [
+        {
+          "type": "mac"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3",
+        "component",
+        "app"
+      ],
+      "type": "installer",
+      "size": 17741700,
+      "sha256": "6c11ffdc050d34932a7121e979e442fac869f23842588b1bb8c44b3e904361f6",
+      "url": "https://github.com/GareBear99/FreeEQ8/releases/download/v2.3.0/FreeEQ8-v2.3.0-macOS.dmg"
+    }
+  ],
+  "verified": true
+}

@@ -1437,6 +1437,32 @@
       ]
     }
   },
+  "garebear99/freeeq8": {
+    "2.3.0": {
+      "recs": [
+        {
+          "field": "url",
+          "rec": "requires mounting step, consider .pkg instead"
+        },
+        {
+          "field": "architectures",
+          "rec": "should support arm64"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Linux"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Windows"
+        },
+        {
+          "field": "tags",
+          "rec": "should have more items"
+        }
+      ]
+    }
+  },
   "falktx/carla": {
     "2.5.9": {
       "recs": [
