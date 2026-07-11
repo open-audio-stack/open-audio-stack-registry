@@ -14134,6 +14134,67 @@
       }
     }
   },
+  "calgoheen/cstop": {
+    "slug": "calgoheen/cstop",
+    "version": "2.0.1",
+    "versions": {
+      "2.0.1": {
+        "name": "cStop",
+        "author": "Cal Goheen",
+        "description": "Tape stop audio effect plugin with WebView UI",
+        "license": "gpl-3.0",
+        "type": "effect",
+        "tags": [
+          "Tape"
+        ],
+        "url": "https://github.com/calgoheen/cStop",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/calgoheen/cstop/cstop.jpg",
+        "date": "2026-07-09T11:18:18Z",
+        "changes": "- Fixed plugin state save/load\r\n- Added CI for Mac/Windows",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "clap"
+            ],
+            "type": "installer",
+            "size": 5907258,
+            "sha256": "c77826b297c8a232de1e441adbd139054614b35bd400f4ab5e8fa1eeda56994f",
+            "url": "https://github.com/calgoheen/cStop/releases/download/2.0.1/cStop.v2.0.1.exe"
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "component",
+              "clap"
+            ],
+            "type": "installer",
+            "size": 10668713,
+            "sha256": "ea1a582b6999943da7a60251c554961e7e18f1a55d1aa3c7baec8d8d49766e57",
+            "url": "https://github.com/calgoheen/cStop/releases/download/2.0.1/cStop.v2.0.1.pkg"
+          }
+        ],
+        "verified": true
+      }
+    }
+  },
   "brummer10/neuralrack": {
     "slug": "brummer10/neuralrack",
     "version": "0.3.3",
