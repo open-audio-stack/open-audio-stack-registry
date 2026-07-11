@@ -1,0 +1,72 @@
+{
+  "name": "Darvaza",
+  "author": "Igor Zinken",
+  "description": "Darvaza is a multichannel audio gate with a twist : whenever the gate closes on your input signal, you get a perversion of your source spat back at you.",
+  "license": "mit",
+  "type": "effect",
+  "tags": [
+    "Gate",
+    "Tremolo"
+  ],
+  "url": "https://github.com/igorski/darvaza",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/igorski/darvaza/darvaza.jpg",
+  "date": "2025-05-15T17:04:45Z",
+  "changes": "Version 1.0.3 built against Steinberg SDK version 3.7.11.10",
+  "files": [
+    {
+      "systems": [
+        {
+          "type": "mac"
+        }
+      ],
+      "architectures": [
+        "arm64",
+        "x64"
+      ],
+      "contains": [
+        "vst3",
+        "vst"
+      ],
+      "type": "archive",
+      "size": 9695869,
+      "sha256": "456f6b1c5216e290dbfcdb6b0c1e8f38ce499479deffb4f146bdc3b1253e843e",
+      "url": "https://github.com/igorski/darvaza/releases/download/1.0.3/darvaza.1.0.3_macos.zip"
+    },
+    {
+      "systems": [
+        {
+          "type": "win"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3",
+        "dll"
+      ],
+      "type": "archive",
+      "size": 2606227,
+      "sha256": "4cba4dfe19429f38e9b6e20746082a1a80403ade0045e2d19e7bb95b3339a5cc",
+      "url": "https://github.com/igorski/darvaza/releases/download/1.0.3/darvaza.1.0.3_windows.zip"
+    },
+    {
+      "systems": [
+        {
+          "type": "win"
+        }
+      ],
+      "architectures": [
+        "x32"
+      ],
+      "contains": [
+        "dll"
+      ],
+      "type": "archive",
+      "size": 2606227,
+      "sha256": "4cba4dfe19429f38e9b6e20746082a1a80403ade0045e2d19e7bb95b3339a5cc",
+      "url": "https://github.com/igorski/darvaza/releases/download/1.0.3/darvaza.1.0.3_windows.zip"
+    }
+  ],
+  "verified": true
+}
