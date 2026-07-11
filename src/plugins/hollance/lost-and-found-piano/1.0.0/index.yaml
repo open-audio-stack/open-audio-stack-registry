@@ -1,0 +1,32 @@
+name: Lost N' Found Piano
+author: Matthijs Hollemans
+description: A virtual instrument plug-in that combines updated versions of the classic mda Piano and mda EPiano with a new coat of paint
+license: gpl-3.0
+type: instrument
+tags:
+  - Piano
+  - Rhodes
+  - Keys
+url: https://github.com/hollance/lost-and-found-piano
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/hollance/lost-and-found-piano/lost-and-found-piano.jpg
+date: '2025-06-21T15:53:17Z'
+changes: |
+  First release of Lost N' Found Piano.
+
+  Known limitations:
+  - None of the original factory presets are included yet.
+  - No Windows version yet.
+  - Parameters are not smoothed, so changing them while sound is playing may produce zipper noise.
+files:
+  - systems:
+      - type: mac
+    architectures:
+      - x64
+      - arm64
+    contains:
+      - vst3
+      - component
+    type: archive
+    size: 14190314
+    sha256: efe6b3666b7cad0652ed1979622300178eb35c268d2c5c3ca6826062db8a9b84
+    url: https://github.com/hollance/lost-and-found-piano/releases/download/v1.0.0/LostAndFoundPiano-v1.0.0.zip
