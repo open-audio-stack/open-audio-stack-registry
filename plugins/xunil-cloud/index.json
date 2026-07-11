@@ -1,0 +1,84 @@
+{
+  "xunil-cloud/cloudreverb": {
+    "slug": "xunil-cloud/cloudreverb",
+    "version": "0.5.0",
+    "versions": {
+      "0.5.0": {
+        "name": "Cloud Reverb",
+        "author": "xunil-cloud",
+        "description": "Algorithmic reverb plugin based on CloudSeed",
+        "license": "gpl-3.0",
+        "type": "effect",
+        "tags": [
+          "Reverb"
+        ],
+        "url": "https://github.com/xunil-cloud/CloudReverb",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/xunil-cloud/cloudreverb/cloudreverb.jpg",
+        "date": "2026-04-14T12:24:44Z",
+        "changes": "Improvements\n- Clear internal reverb buffers when the plugin is bypassed or reset. Fixed issue #12.",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "lv2",
+              "elf"
+            ],
+            "type": "archive",
+            "size": 7050789,
+            "sha256": "81cda6a9979cdbaf4d7a261338e59b87c2d4f4a123d05049a5aeaaabe399e6d1",
+            "url": "https://github.com/xunil-cloud/CloudReverb/releases/download/v0.5/CloudReverb-v0.5-Linux-x86_64.zip"
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "component",
+              "app",
+              "lv2"
+            ],
+            "type": "archive",
+            "size": 15082485,
+            "sha256": "88b60035570f680e29ccc2465711dd1ea9886d80c6c1bcca5f8bf09b2cd49b9c",
+            "url": "https://github.com/xunil-cloud/CloudReverb/releases/download/v0.5/CloudReverb-v0.5-macOS.zip"
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "lv2",
+              "exe"
+            ],
+            "type": "archive",
+            "size": 8238611,
+            "sha256": "2674dab0c2dd58bb98cc9acdb612cc411b5baa7d896db20127b21fc6a22868a2",
+            "url": "https://github.com/xunil-cloud/CloudReverb/releases/download/v0.5/CloudReverb-v0.5-Windows-x86_64.zip"
+          }
+        ],
+        "verified": true
+      }
+    }
+  }
+}
