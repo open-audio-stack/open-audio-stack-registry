@@ -1,0 +1,38 @@
+{
+  "name": "Minaton-XT",
+  "author": "AnClark Liu",
+  "description": "A monophonic, subtractive, beefy analogue style bass and lead synthesizer. Ports the original Minaton by Nick Bailey to DPF (DISTRHO Plugin Framework).",
+  "license": "gpl-3.0",
+  "type": "instrument",
+  "tags": [
+    "Synthesizer",
+    "Bass"
+  ],
+  "url": "https://github.com/AnClark/Minaton-XT",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/anclark/minaton-xt/minaton-xt.jpg",
+  "date": "2026-02-13T13:43:41Z",
+  "changes": "Minaton-XT 1.0.0, a brand-new major release.\n\n- Renew UI. Introduced Dear ImGui for secondary UI, a more stable and convenient experience.",
+  "files": [
+    {
+      "systems": [
+        {
+          "type": "win"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3",
+        "dll",
+        "clap",
+        "lv2"
+      ],
+      "type": "archive",
+      "size": 17632830,
+      "sha256": "0fe891e4d60238c5a6c0b36a50439f816290b8dab16c8bf1780eeabf1fee8752",
+      "url": "https://github.com/AnClark/Minaton-XT/releases/download/1.0.0/Minaton-1.0.0-windows-x86_64.zip"
+    }
+  ],
+  "verified": true
+}
