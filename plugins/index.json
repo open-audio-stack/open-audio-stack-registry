@@ -15413,6 +15413,47 @@
       }
     }
   },
+  "bsutherland/juceoplvsti": {
+    "slug": "bsutherland/juceoplvsti",
+    "version": "1.0.0",
+    "versions": {
+      "1.0.0": {
+        "name": "JuceOPLVSTi",
+        "author": "bsutherland",
+        "description": "A VST instrument providing an emulated OPL sound chip, the Yamaha FM synthesis chip used in classic PC sound cards.",
+        "license": "gpl-2.0",
+        "type": "instrument",
+        "tags": [
+          "FM Synthesis",
+          "Chiptune"
+        ],
+        "url": "https://github.com/bsutherland/JuceOPLVSTi",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/bsutherland/juceoplvsti/juceoplvsti.jpg",
+        "date": "2024-03-06T05:19:43Z",
+        "changes": "Restoring most recent Windows build",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "dll"
+            ],
+            "type": "archive",
+            "size": 1299896,
+            "sha256": "d1784ede22f7c72351512f021819dfa3da1f1a8fbc462d14df2fc5c4cd866780",
+            "url": "https://github.com/bsutherland/JuceOPLVSTi/releases/download/1.0.0/JuceOPLVSTi.x64.Windows.zip"
+          }
+        ],
+        "verified": true
+      }
+    }
+  },
   "brummer10/neuralrack": {
     "slug": "brummer10/neuralrack",
     "version": "0.3.3",
