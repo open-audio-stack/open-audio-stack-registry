@@ -1495,6 +1495,28 @@
       ]
     }
   },
+  "distrho/mverb": {
+    "0.9.0": {
+      "recs": [
+        {
+          "field": "architectures",
+          "rec": "should support arm64"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Linux"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Mac"
+        },
+        {
+          "field": "tags",
+          "rec": "should have more items"
+        }
+      ]
+    }
+  },
   "distrho/dpf-plugins": {
     "1.7.0": {
       "recs": [

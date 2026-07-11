@@ -13624,6 +13624,65 @@
         }
       }
     },
+    "distrho/mverb": {
+      "slug": "distrho/mverb",
+      "version": "0.9.0",
+      "versions": {
+        "0.9.0": {
+          "name": "MVerb",
+          "author": "DISTRHO",
+          "description": "Studio quality, open-source reverb providing a practical demonstration of Dattorro's figure-of-eight reverb structure.",
+          "license": "gpl-3.0",
+          "type": "effect",
+          "tags": [
+            "Reverb"
+          ],
+          "url": "https://github.com/DISTRHO/MVerb",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/distrho/mverb/mverb.jpg",
+          "date": "2015-10-16T22:55:29Z",
+          "changes": "0.9 (RC1) release.",
+          "files": [
+            {
+              "systems": [
+                {
+                  "type": "win"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "dll",
+                "lv2"
+              ],
+              "type": "archive",
+              "size": 1547927,
+              "sha256": "6342da2dc878563931704294f57e7ba475a433091b3b74517977c3226741918d",
+              "url": "https://github.com/DISTRHO/MVerb/releases/download/0.9/MVerb-0.9-win.zip"
+            },
+            {
+              "systems": [
+                {
+                  "type": "win"
+                }
+              ],
+              "architectures": [
+                "x32"
+              ],
+              "contains": [
+                "dll",
+                "lv2"
+              ],
+              "type": "archive",
+              "size": 1547927,
+              "sha256": "6342da2dc878563931704294f57e7ba475a433091b3b74517977c3226741918d",
+              "url": "https://github.com/DISTRHO/MVerb/releases/download/0.9/MVerb-0.9-win.zip"
+            }
+          ],
+          "verified": true
+        }
+      }
+    },
     "distrho/dpf-plugins": {
       "slug": "distrho/dpf-plugins",
       "version": "1.7.0",
