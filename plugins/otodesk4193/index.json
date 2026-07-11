@@ -1,0 +1,43 @@
+{
+  "otodesk4193/anatomy": {
+    "slug": "otodesk4193/anatomy",
+    "version": "1.0.0",
+    "versions": {
+      "1.0.0": {
+        "name": "ANATOMY",
+        "author": "OTODESK",
+        "description": "A high-performance VST3 plugin that performs Transient/Tonal audio separation using a cos-squared crossfade algorithm, routing each component through its own independent multi-effect chain",
+        "license": "agpl-3.0",
+        "type": "effect",
+        "tags": [
+          "Transient",
+          "Multi-Effect"
+        ],
+        "url": "https://github.com/OTODESK4193/ANATOMY",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/otodesk4193/anatomy/anatomy.jpg",
+        "date": "2026-06-21T06:26:36Z",
+        "changes": "Initial release of ANATOMY, a Transient/Tonal audio separation VST3 plugin.",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 18755430,
+            "sha256": "812d241cc733b0dbfa2c9e36cdec349c0c38f2ce38a69de90dacc17ed3396216",
+            "url": "https://github.com/OTODESK4193/ANATOMY/releases/download/V1.0.0/ANATOMY.vst3.zip"
+          }
+        ],
+        "verified": true
+      }
+    }
+  }
+}

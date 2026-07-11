@@ -851,6 +851,24 @@
       ]
     }
   },
+  "otodesk4193/anatomy": {
+    "1.0.0": {
+      "recs": [
+        {
+          "field": "architectures",
+          "rec": "should support arm64"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Linux"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Mac"
+        }
+      ]
+    }
+  },
   "olegkapitonov/kpp-vst3": {
     "1.2.1": {
       "recs": [
