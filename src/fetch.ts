@@ -94,8 +94,9 @@ function inferSystems(filename: string): Array<{ type: string; min?: number }> {
   const f = filename.toLowerCase();
   const found = new Set<string>();
   // Left-boundary guard is required: plain substring matching on "win" false-positives
-  // inside product names like "airWINdows-..." and "clang-arm64-darWIN.dmg".
-  if (/(?<![a-z])win(?:dows)?(?=[-_.]|$)|\.exe$|\.msi$/.test(f)) found.add('win');
+  // inside product names like "airWINdows-..." and "clang-arm64-darWIN.dmg". The right
+  // side must allow a digit too ("win32", "win64" have no separator before the number).
+  if (/(?<![a-z])win(?:dows)?(?=[-_.0-9]|$)|\.exe$|\.msi$/.test(f)) found.add('win');
   if (/mac(os)?[-_.]|[-_.]mac(os)?|\bosx\b|darwin|\.dmg$|\.pkg$/.test(f)) found.add('mac');
   // Distro names (ubuntu, debian, fedora) are common in CI-built asset names and carry
   // no literal "linux" substring — without this, those assets are silently dropped below.
