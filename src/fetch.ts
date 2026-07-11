@@ -66,7 +66,31 @@ function versionNormalize(tag: string): string {
 
 // ── Filename inference helpers ────────────────────────────────────────────────
 
-function inferSystems(filename: string): Array<{ type: string }> {
+// Detects an OS version floor embedded in the filename — e.g. "win7"/"windows7" for a
+// build that specifically targets older Windows, or a macOS deployment target like
+// "macos-10.15"/"macos-universal-10.13". Returns {} (no constraint) when there's no
+// clear hint: per registry convention, omitting min means "supports all versions",
+// which must stay the default. Never guess a number — only a literal version token
+// adjacent to the OS name counts as evidence.
+function inferVersionConstraint(filename: string, systemType: string): { min?: number } {
+  const f = filename.toLowerCase();
+  if (systemType === 'win') {
+    const m = f.match(/(?<![a-z])win(?:dows)?[-_]?(7|8(?:\.1)?|10|11)(?![0-9])/);
+    if (m) return { min: parseFloat(m[1]) };
+  }
+  if (systemType === 'mac') {
+    // (?!\d) at the end stops a date like "macOS-2024-07-28" from matching "20" as
+    // if it were a truncated macOS version number.
+    const m = f.match(/(?:macos|osx|mac)(?:[-_](?:universal|intel|arm64))?[-_](\d{1,2}(?:\.\d{1,2})?)(?!\d)/);
+    if (m) return { min: parseFloat(m[1]) };
+  }
+  // Linux intentionally excluded: distro version tokens (ubuntu-20.04, fedora-38) reflect
+  // the build environment's glibc floor, not a single "Linux OS version" a user can reason
+  // about the same way — flagging this to a human is more honest than a fabricated number.
+  return {};
+}
+
+function inferSystems(filename: string): Array<{ type: string; min?: number }> {
   const f = filename.toLowerCase();
   const found = new Set<string>();
   // Left-boundary guard is required: plain substring matching on "win" false-positives
@@ -76,7 +100,7 @@ function inferSystems(filename: string): Array<{ type: string }> {
   // Distro names (ubuntu, debian, fedora) are common in CI-built asset names and carry
   // no literal "linux" substring — without this, those assets are silently dropped below.
   if (/linux[-_.]|[-_.]linux|ubuntu|debian|fedora|\.deb$|\.rpm$|\.appimage$/.test(f)) found.add('linux');
-  return [...found].map(type => ({ type }));
+  return [...found].map(type => ({ type, ...inferVersionConstraint(filename, type) }));
 }
 
 // Returns null when the filename indicates an architecture with no corresponding
