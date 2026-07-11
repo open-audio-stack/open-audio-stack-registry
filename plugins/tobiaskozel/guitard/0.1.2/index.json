@@ -1,0 +1,54 @@
+{
+  "name": "GuitarD",
+  "author": "TobiasKozel",
+  "description": "Node based multi effects audio processor",
+  "license": "mit",
+  "type": "effect",
+  "tags": [
+    "Amp Sim",
+    "Guitar"
+  ],
+  "url": "https://github.com/TobiasKozel/GuitarD",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/tobiaskozel/guitard/guitard.jpg",
+  "date": "2020-03-28T21:21:47Z",
+  "changes": "0.1.2 release.",
+  "files": [
+    {
+      "systems": [
+        {
+          "type": "win"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3",
+        "exe"
+      ],
+      "type": "installer",
+      "size": 6416282,
+      "sha256": "99c9847f80a5710547d86d34a94f10016e1b2954a09afd558bc1ccfca8e4a805",
+      "url": "https://github.com/TobiasKozel/GuitarD/releases/download/0.1.2/GuitarD.Installer.exe"
+    },
+    {
+      "systems": [
+        {
+          "type": "mac"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "component",
+        "app"
+      ],
+      "type": "installer",
+      "size": 7735668,
+      "sha256": "4b3b11aec12cb4666a743807689ea7c7dd3e7af5203c135cb68720754c794d77",
+      "url": "https://github.com/TobiasKozel/GuitarD/releases/download/0.1.2/GuitarD.Installer.pkg"
+    }
+  ],
+  "verified": true
+}
