@@ -1513,6 +1513,20 @@
       ]
     }
   },
+  "dimethoxy/disflux": {
+    "1.2.0": {
+      "recs": [
+        {
+          "field": "url",
+          "rec": "not a supported format"
+        },
+        {
+          "field": "tags",
+          "rec": "should have more items"
+        }
+      ]
+    }
+  },
   "damrsn/neuralnote": {
     "1.1.0": {
       "recs": [

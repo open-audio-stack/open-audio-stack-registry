@@ -1,0 +1,118 @@
+{
+  "slug": "dimethoxy/disflux",
+  "version": "1.2.0",
+  "versions": {
+    "1.2.0": {
+      "name": "Disflux",
+      "author": "Dimethoxy",
+      "description": "Phase Dispersion Audio Plugin for Windows, MacOS and Linux ",
+      "license": "agpl-3.0",
+      "type": "effect",
+      "tags": [
+        "Phaser"
+      ],
+      "url": "https://github.com/Dimethoxy/Disflux",
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/dimethoxy/disflux/disflux.jpg",
+      "date": "2026-05-11T12:19:38Z",
+      "changes": "Pretty big overhaul, polishing the experience with more bug fixes and performance tweaks.\n\nThis should finally fix all the crash issues on Windows.",
+      "files": [
+        {
+          "systems": [
+            {
+              "type": "linux"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "vst3",
+            "clap",
+            "lv2"
+          ],
+          "type": "archive",
+          "size": 8224002,
+          "sha256": "f1934a613a9a2c9e6736cfaf16485d82dc5c7e27e12cd5645902246bbde68775",
+          "url": "https://github.com/Dimethoxy/Disflux/releases/download/v1.2.0/disflux-v1.2.0-linux-arch.pkg.tar.zst"
+        },
+        {
+          "systems": [
+            {
+              "type": "linux"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "vst3",
+            "clap",
+            "lv2"
+          ],
+          "type": "installer",
+          "size": 3471228,
+          "sha256": "473a254fb0dff8f2cbab7de15e4cff1d86d51ecf772ded4106281ac6c8a8038c",
+          "url": "https://github.com/Dimethoxy/Disflux/releases/download/v1.2.0/disflux-v1.2.0-linux-ubuntu.deb"
+        },
+        {
+          "systems": [
+            {
+              "type": "linux"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "vst3",
+            "clap",
+            "lv2"
+          ],
+          "type": "archive",
+          "size": 8168965,
+          "sha256": "a9fed3bcbc8356283ded649ac363bd9c763ff449ba368a86838d56d97bec5287",
+          "url": "https://github.com/Dimethoxy/Disflux/releases/download/v1.2.0/disflux-v1.2.0-linux-vanilla.tar.gz"
+        },
+        {
+          "systems": [
+            {
+              "type": "mac"
+            }
+          ],
+          "architectures": [
+            "arm64",
+            "x64"
+          ],
+          "contains": [
+            "vst3",
+            "clap",
+            "component"
+          ],
+          "type": "installer",
+          "size": 13389887,
+          "sha256": "69d883ca5f568576a9308ce4ede7ff4471ce111ddd5c47cb261d2eec80030ad4",
+          "url": "https://github.com/Dimethoxy/Disflux/releases/download/v1.2.0/disflux-v1.2.0-macos.pkg"
+        },
+        {
+          "systems": [
+            {
+              "type": "win"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "vst3",
+            "clap"
+          ],
+          "type": "installer",
+          "size": 5200078,
+          "sha256": "a2f3dc70fa82182fbe814bffdca8831a6113047403884a756dac98a71419afdc",
+          "url": "https://github.com/Dimethoxy/Disflux/releases/download/v1.2.0/disflux-v1.2.0-windows.exe"
+        }
+      ],
+      "verified": true
+    }
+  }
+}
