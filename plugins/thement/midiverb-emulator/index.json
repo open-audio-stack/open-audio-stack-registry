@@ -1,0 +1,40 @@
+{
+  "slug": "thement/midiverb-emulator",
+  "version": "0.4.0",
+  "versions": {
+    "0.4.0": {
+      "name": "Midiverb Emulator",
+      "author": "thement",
+      "description": "Emulator of Midiverb I and Midiverb II",
+      "license": "gpl-3.0",
+      "type": "effect",
+      "tags": [
+        "Reverb"
+      ],
+      "url": "https://github.com/thement/midiverb_emulator",
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/thement/midiverb-emulator/midiverb-emulator.jpg",
+      "date": "2026-01-16T22:53:37Z",
+      "changes": "- Add support for flangers/choruses from Midiverb 2\n- Make the build static so it runs on computers other than mine",
+      "files": [
+        {
+          "systems": [
+            {
+              "type": "win"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "vst3"
+          ],
+          "type": "archive",
+          "size": 2654795,
+          "sha256": "bfdf9963b6e28c6c93bf3b8f1a71e9a62c6522e0ae02d0a9b8bec551c5f773c7",
+          "url": "https://github.com/thement/midiverb_emulator/releases/download/v0.4/Midiverb.Emulator-Win64-0.4.vst3.zip"
+        }
+      ],
+      "verified": true
+    }
+  }
+}
