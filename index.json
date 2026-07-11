@@ -9431,6 +9431,64 @@
         }
       }
     },
+    "lukemcraig/dafx19-gamelanizer": {
+      "slug": "lukemcraig/dafx19-gamelanizer",
+      "version": "1.1.0",
+      "versions": {
+        "1.1.0": {
+          "name": "Gamelanizer",
+          "author": "Luke M Craig",
+          "description": "A real-time audio effect plugin inspired by the processes of traditional Indonesian Gamelan music. Accompanying material for the DAFx19 paper.",
+          "license": "gpl-3.0",
+          "type": "effect",
+          "tags": [
+            "Granular"
+          ],
+          "url": "https://github.com/lukemcraig/DAFx19-Gamelanizer",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/lukemcraig/dafx19-gamelanizer/dafx19-gamelanizer.jpg",
+          "date": "2019-07-13T19:18:33Z",
+          "changes": "- Made the overlap factor different for each level. If Level 1 is set to +4800 cents, it will still sound smooth\n- Made starting playback from timeline positions other than 0 more efficient and fixed a related bug",
+          "files": [
+            {
+              "systems": [
+                {
+                  "type": "mac"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "vst3",
+                "component"
+              ],
+              "type": "archive",
+              "size": 18823945,
+              "sha256": "175eaffd305fe9e573076410c42b3fa07dc913e0fbc97781f8525858b7a8bc4b",
+              "url": "https://github.com/lukemcraig/DAFx19-Gamelanizer/releases/download/v1.1.0/Gamelanizer_v1_1_0_macOS_VST3_AU.zip"
+            },
+            {
+              "systems": [
+                {
+                  "type": "win"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "vst3"
+              ],
+              "type": "archive",
+              "size": 15454301,
+              "sha256": "54e0fd37fa3d1c1ec184858172c746ce4d2a17ef43290b5183e4a5731b4a763b",
+              "url": "https://github.com/lukemcraig/DAFx19-Gamelanizer/releases/download/v1.1.0/Gamelanizer_v1_1_0_Windows_VST3.zip"
+            }
+          ],
+          "verified": true
+        }
+      }
+    },
     "lucianoiam/castello": {
       "slug": "lucianoiam/castello",
       "version": "1.3.0",
