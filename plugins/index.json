@@ -8321,6 +8321,200 @@
       }
     }
   },
+  "mzuther/k-meter": {
+    "slug": "mzuther/k-meter",
+    "version": "2.8.2",
+    "versions": {
+      "2.8.2": {
+        "name": "K-Meter",
+        "author": "Martin Zuther",
+        "description": "K-System loudness meter according to Bob Katz' specifications",
+        "license": "gpl-3.0",
+        "type": "tool",
+        "tags": [
+          "Meter",
+          "Loudness"
+        ],
+        "url": "https://github.com/mzuther/K-Meter",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/mzuther/k-meter/k-meter.jpg",
+        "date": "2020-04-18T15:09:54Z",
+        "changes": "- customize Jack daemon client name\n- drop support for LV2 (sorry, it's just too much hassle)\n- minor fixes and improvements\n- update JUCE framework and libraries\n- update skin",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x32"
+            ],
+            "contains": [
+              "so"
+            ],
+            "type": "archive",
+            "size": 7943610,
+            "sha256": "9a526f91337b3230592389bf109a066e463e9a39e7a19118da94d3a20b3e6a41",
+            "url": "https://github.com/mzuther/K-Meter/releases/download/v2.8.2/kmeter-linux32-vst2_2.8.2.tar.gz"
+          },
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x32"
+            ],
+            "contains": [
+              "elf"
+            ],
+            "type": "archive",
+            "size": 7986505,
+            "sha256": "0f7163369d4b8f97631e2f0e96f43f2f80fe1600f3c9731bd861e6f469cd3a65",
+            "url": "https://github.com/mzuther/K-Meter/releases/download/v2.8.2/kmeter-linux32-standalone_2.8.2.tar.gz"
+          },
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "so"
+            ],
+            "type": "archive",
+            "size": 8966187,
+            "sha256": "91bf9d9b030322fd6cd191d3058b7cd8147dbf84dcbb0b06ec2eda489428502a",
+            "url": "https://github.com/mzuther/K-Meter/releases/download/v2.8.2/kmeter-linux64-vst2_2.8.2.tar.gz"
+          },
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "elf"
+            ],
+            "type": "archive",
+            "size": 8772460,
+            "sha256": "057e2f3bb6a2a7b0addc3521f1c437593e11392f6cfb3495b6c3125710b4fec0",
+            "url": "https://github.com/mzuther/K-Meter/releases/download/v2.8.2/kmeter-linux64-standalone_2.8.2.tar.gz"
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x32"
+            ],
+            "contains": [
+              "dll"
+            ],
+            "type": "archive",
+            "size": 3960971,
+            "sha256": "f759fd954de89aa3e00a24f585667df9ebbc47d95e2e9b9e7400151955581743",
+            "url": "https://github.com/mzuther/K-Meter/releases/download/v2.8.2/kmeter-w32-vst2_2.8.2.zip"
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x32"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 4013947,
+            "sha256": "5d2f985b764c8a712e979979732866422e02b79ee5a7c44cdbbc7553e300e286",
+            "url": "https://github.com/mzuther/K-Meter/releases/download/v2.8.2/kmeter-w32-vst3_2.8.2.zip"
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x32"
+            ],
+            "contains": [
+              "exe"
+            ],
+            "type": "archive",
+            "size": 4121329,
+            "sha256": "a7d98284f9921d4f20187219c0b06b57e4fb8b1dd25afef245d016ec7cbbf12e",
+            "url": "https://github.com/mzuther/K-Meter/releases/download/v2.8.2/kmeter-w32-standalone_2.8.2.zip"
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "dll"
+            ],
+            "type": "archive",
+            "size": 4501920,
+            "sha256": "39eb0bd29673311912bb04b73f586ca3aca880606ea770ba0752bad3d7a57f3f",
+            "url": "https://github.com/mzuther/K-Meter/releases/download/v2.8.2/kmeter-w64-vst2_2.8.2.zip"
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 4559557,
+            "sha256": "ecd9d894259777f33220c69de55123464bc4a556de98d0c5a217d40cae3b83ea",
+            "url": "https://github.com/mzuther/K-Meter/releases/download/v2.8.2/kmeter-w64-vst3_2.8.2.zip"
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "exe"
+            ],
+            "type": "archive",
+            "size": 4679830,
+            "sha256": "2fce26697a46606833c65283ef2800345ce1886f249cdf1e1527b4957f4827f9",
+            "url": "https://github.com/mzuther/K-Meter/releases/download/v2.8.2/kmeter-w64-standalone_2.8.2.zip"
+          }
+        ],
+        "verified": true
+      }
+    }
+  },
   "mtytel/helm": {
     "slug": "mtytel/helm",
     "version": "0.9.0",
