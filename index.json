@@ -16555,6 +16555,68 @@
         }
       }
     },
+    "attilammagyar/js80p": {
+      "slug": "attilammagyar/js80p",
+      "version": "4.1.1",
+      "versions": {
+        "4.1.1": {
+          "name": "JS80P",
+          "author": "Attila M. Magyar",
+          "description": "A MIDI driven, performance oriented, versatile synthesizer.",
+          "license": "gpl-3.0",
+          "type": "instrument",
+          "tags": [
+            "Synthesizer"
+          ],
+          "url": "https://github.com/attilammagyar/js80p",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/attilammagyar/js80p/js80p.jpg",
+          "date": "2026-07-05T19:39:25Z",
+          "changes": "Bugfix: resolved an issue that broke state persistence and preset saving in certain DAWs (including Ardour, FL Studio, etc.) when used on a system with a non-English locale.",
+          "files": [
+            {
+              "systems": [
+                {
+                  "type": "win"
+                },
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "x64",
+                "x32"
+              ],
+              "contains": [
+                "vst3"
+              ],
+              "type": "archive",
+              "size": 24456415,
+              "sha256": "d524a7c4f399051f1c1af872450a84c9f508d36a7349ee77f70a867cb9be7b49",
+              "url": "https://github.com/attilammagyar/js80p/releases/download/v4.1.1/js80p-4_1_1-sse2-vst3_bundle.zip"
+            },
+            {
+              "systems": [
+                {
+                  "type": "mac"
+                }
+              ],
+              "architectures": [
+                "arm64",
+                "x64"
+              ],
+              "contains": [
+                "vst3"
+              ],
+              "type": "installer",
+              "size": 5847995,
+              "sha256": "4606bf0844fb4e63fcb2e1ebe0791255954c83b261704643a8f5a6b3a5e8bb54",
+              "url": "https://github.com/attilammagyar/js80p/releases/download/v4.1.1/js80p-4_1_1-macos-universal-vst3_bundle-signed.pkg"
+            }
+          ],
+          "verified": true
+        }
+      }
+    },
     "asb2m10/dexed": {
       "slug": "asb2m10/dexed",
       "version": "0.9.8",
