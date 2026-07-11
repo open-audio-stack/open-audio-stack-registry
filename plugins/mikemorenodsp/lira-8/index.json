@@ -1,0 +1,146 @@
+{
+  "slug": "mikemorenodsp/lira-8",
+  "version": "1.0.8",
+  "versions": {
+    "1.0.8": {
+      "name": "LIRA·8",
+      "author": "Miguel Moreno",
+      "description": "Virtual Lyra 8 in VST3, VST2, AUi, LV2 (Camomile) and Standalone (Pure Data) format. A digital attempt at emulating SOMA Lab's Lyra-8 signal flow.",
+      "license": "bsd-3-clause",
+      "type": "instrument",
+      "tags": [
+        "Drone",
+        "FM Synthesis"
+      ],
+      "url": "https://github.com/MikeMorenoDSP/LIRA-8",
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/mikemorenodsp/lira-8/lira-8.jpg",
+      "date": "2020-09-29T15:56:37Z",
+      "changes": "The Lyra 8 is a Russian drone synthesizer with 8 tunable voices each, FM, dual delay, hyper LFO and distortion.",
+      "files": [
+        {
+          "systems": [
+            {
+              "type": "linux"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "lv2"
+          ],
+          "type": "archive",
+          "size": 3655971,
+          "sha256": "17bdd61574dd22ca0413352b50f7b4d1efb5953a1a0a9a1e952cd9aede829cb9",
+          "url": "https://github.com/MikeMorenoDSP/LIRA-8/releases/download/v1.0.8/LIRA-8-LV2-Linux64.zip"
+        },
+        {
+          "systems": [
+            {
+              "type": "win"
+            }
+          ],
+          "architectures": [
+            "x32"
+          ],
+          "contains": [
+            "dll"
+          ],
+          "type": "archive",
+          "size": 1852263,
+          "sha256": "967b4399fc0f44433bf12b423e3da5efef59d2bf14616a709b91d1ac05411765",
+          "url": "https://github.com/MikeMorenoDSP/LIRA-8/releases/download/v1.0.8/LIRA-8-VST2-Windows32.zip"
+        },
+        {
+          "systems": [
+            {
+              "type": "win"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "dll"
+          ],
+          "type": "archive",
+          "size": 2243535,
+          "sha256": "a96986afa11d3ddd10066559e70b4ea407bab6f5a0715fb1430b1b15ccf79af8",
+          "url": "https://github.com/MikeMorenoDSP/LIRA-8/releases/download/v1.0.8/LIRA-8-VST2-Windows64.zip"
+        },
+        {
+          "systems": [
+            {
+              "type": "mac"
+            }
+          ],
+          "architectures": [
+            "arm64"
+          ],
+          "contains": [
+            "vst3",
+            "component"
+          ],
+          "type": "archive",
+          "size": 13131335,
+          "sha256": "aa05f2e30d9cb8a468a784a43448c53b5f312fca2689f9cc33ffca0bec076e60",
+          "url": "https://github.com/MikeMorenoDSP/LIRA-8/releases/download/v1.0.8/LIRA-8-VST3-AUi-MacOS-M1.zip"
+        },
+        {
+          "systems": [
+            {
+              "type": "mac"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "vst3",
+            "vst",
+            "component"
+          ],
+          "type": "archive",
+          "size": 7127751,
+          "sha256": "99f5687e9f024785f63c003f4832b0560c56b550d00705537fb448b3c906579c",
+          "url": "https://github.com/MikeMorenoDSP/LIRA-8/releases/download/v1.0.8/LIRA-8-VST3-VST2-AUi-MacOS.zip"
+        },
+        {
+          "systems": [
+            {
+              "type": "win"
+            }
+          ],
+          "architectures": [
+            "x32"
+          ],
+          "contains": [
+            "vst3"
+          ],
+          "type": "archive",
+          "size": 1989483,
+          "sha256": "6a55ad4f2d0d456d5eb4db131d0890072aee03b625c3dfbfe58655ea040a9acb",
+          "url": "https://github.com/MikeMorenoDSP/LIRA-8/releases/download/v1.0.8/LIRA-8-VST3-Windows32.zip"
+        },
+        {
+          "systems": [
+            {
+              "type": "win"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "vst3"
+          ],
+          "type": "archive",
+          "size": 2394872,
+          "sha256": "708b092a50fe8766f2ab84b923381241f42831bc7664298640e956085a2dc06a",
+          "url": "https://github.com/MikeMorenoDSP/LIRA-8/releases/download/v1.0.8/LIRA-8-VST3-Windows64.zip"
+        }
+      ],
+      "verified": true
+    }
+  }
+}
