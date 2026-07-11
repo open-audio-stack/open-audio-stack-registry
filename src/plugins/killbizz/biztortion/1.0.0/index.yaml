@@ -1,0 +1,36 @@
+name: Biztortion
+author: Gabriel Bizzo
+description: Modular distortion plugin for VST-based hosts. DOWNLOAD it for FREE in the Releases section.
+license: gpl-3.0
+type: effect
+tags:
+  - Distortion
+url: https://github.com/killbizz/Biztortion
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/killbizz/biztortion/biztortion.jpg
+date: '2022-02-15T17:16:41Z'
+changes: "This is the first stable release of Biztortion.\r\n\r\nI plan to improve the software in the future by developing the enhancements listed int the Biztortion project."
+files:
+  - systems:
+      - type: mac
+    architectures:
+      - x64
+    contains:
+      - vst3
+      - component
+      - app
+    type: installer
+    size: 5438390
+    sha256: afd74e0955f0a41f30cf473b54849c0f83da2490746740f36c3be888cd317f07
+    url: https://github.com/killbizz/Biztortion/releases/download/v1.0.0/Biztortion_MacOS_Setup.pkg
+  - systems:
+      - type: win
+    architectures:
+      - x64
+      - x32
+    contains:
+      - vst3
+      - exe
+    type: installer
+    size: 7535739
+    sha256: f45b5d509356d6332c403b777bc51d66079a5ed157fe9890e52a4d6cf0c5719e
+    url: https://github.com/killbizz/Biztortion/releases/download/v1.0.0/Biztortion_Windows_Setup.exe
