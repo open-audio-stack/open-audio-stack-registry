@@ -1868,6 +1868,101 @@
       }
     }
   },
+  "tucktuckg00se/intersect": {
+    "slug": "tucktuckg00se/intersect",
+    "version": "0.15.1",
+    "versions": {
+      "0.15.1": {
+        "name": "INTERSECT",
+        "author": "tucktuckg00se",
+        "description": "A nondestructive, time-stretching, and intersecting sample slicer plugin with independent per-slice parameter control.",
+        "license": "gpl-3.0",
+        "type": "sampler",
+        "tags": [
+          "Sample Slicer"
+        ],
+        "url": "https://github.com/tucktuckg00se/INTERSECT",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/tucktuckg00se/intersect/intersect.jpg",
+        "date": "2026-06-10T22:03:10Z",
+        "changes": "Release v0.15.1",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "elf"
+            ],
+            "type": "archive",
+            "size": 8972398,
+            "sha256": "b4feec14c28b03fcb5ca90acd3d260907e05acf08b5465df36cf7b4de3dddaa8",
+            "url": "https://github.com/tucktuckg00se/INTERSECT/releases/download/v0.15.1/INTERSECT-v0.15.1-Linux-x64.zip"
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64"
+            ],
+            "contains": [
+              "vst3",
+              "app"
+            ],
+            "type": "archive",
+            "size": 8802875,
+            "sha256": "de7b2b685c116c833ccec02433ebcfb1fff5950ed142ad8f6284627566058d93",
+            "url": "https://github.com/tucktuckg00se/INTERSECT/releases/download/v0.15.1/INTERSECT-v0.15.1-macOS-arm64.zip"
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "app"
+            ],
+            "type": "archive",
+            "size": 9632468,
+            "sha256": "c52f799a8df16170a6db2671897ffd7ce3f0ddc60170e8056243c68b04c360e9",
+            "url": "https://github.com/tucktuckg00se/INTERSECT/releases/download/v0.15.1/INTERSECT-v0.15.1-macOS-x64.zip"
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "exe"
+            ],
+            "type": "archive",
+            "size": 6835454,
+            "sha256": "78831b9ac1fd828b018e2da556215ba25706d5a25dd78903ec25e360cca0c0b3",
+            "url": "https://github.com/tucktuckg00se/INTERSECT/releases/download/v0.15.1/INTERSECT-v0.15.1-Windows-x64.zip"
+          }
+        ],
+        "verified": true
+      }
+    }
+  },
   "trencrumb/spectralshift": {
     "slug": "trencrumb/spectralshift",
     "version": "0.1.1",
