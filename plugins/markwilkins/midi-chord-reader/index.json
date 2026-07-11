@@ -1,0 +1,42 @@
+{
+  "slug": "markwilkins/midi-chord-reader",
+  "version": "0.9.0",
+  "versions": {
+    "0.9.0": {
+      "name": "MidiChords",
+      "author": "Mark Wilkins",
+      "description": "DAW plugin for scrolling display of chords in a MIDI track",
+      "license": "bsd-2-clause",
+      "type": "tool",
+      "tags": [
+        "MIDI",
+        "Chord"
+      ],
+      "url": "https://github.com/markwilkins/midi-chord-reader",
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/markwilkins/midi-chord-reader/midi-chord-reader.jpg",
+      "date": "2026-05-16T21:07:24Z",
+      "changes": "Upgraded the project from JUCE 7.0.5 to JUCE 8.0.12. JUCE 8 introduced a new font/text rendering system.",
+      "files": [
+        {
+          "systems": [
+            {
+              "type": "mac"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "vst3",
+            "component"
+          ],
+          "type": "installer",
+          "size": 3402208,
+          "sha256": "bed57948b00bbd2ff260439a0571d76267323a9b661919f6e74172cdd1ef5f6c",
+          "url": "https://github.com/markwilkins/midi-chord-reader/releases/download/v0.9.0/MidiChords_0.9.0.pkg"
+        }
+      ],
+      "verified": true
+    }
+  }
+}
