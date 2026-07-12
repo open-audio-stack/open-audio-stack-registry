@@ -1,0 +1,53 @@
+{
+  "name": "Quantum Verb",
+  "author": "quantumVerb Dev Team",
+  "description": "A free & open source convolution reverb plugin built on the JUCE framework",
+  "license": "gpl-3.0",
+  "type": "effect",
+  "tags": [
+    "Effect",
+    "Reverb",
+    "Convolution"
+  ],
+  "url": "https://github.com/QVbDev/quantumVerb",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/qvbdev/quantumverb/quantumverb.jpg",
+  "date": "2018-04-04T18:22:39Z",
+  "changes": "Product development complete based on original requirements. All feature branches merged and product works as intended.",
+  "files": [
+    {
+      "systems": [
+        {
+          "type": "win"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3"
+      ],
+      "type": "archive",
+      "size": 13494272,
+      "sha256": "5a30e56dbb21ef8cd235d5ced98501b2cf8c813b7e0bd8d9f2f0e9a36fadfd9a",
+      "url": "https://github.com/QVbDev/quantumVerb/releases/download/v1.0.0/quantumVerb.vst3"
+    },
+    {
+      "systems": [
+        {
+          "type": "win"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "dll"
+      ],
+      "type": "archive",
+      "size": 13339648,
+      "sha256": "593b534669b421245525b506d66d20201b2eaa4a63b2da9f2f35ae9d65dd9080",
+      "url": "https://github.com/QVbDev/quantumVerb/releases/download/v1.0.0/quantumVerb.dll"
+    }
+  ],
+  "verified": true
+}
