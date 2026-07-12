@@ -1,0 +1,71 @@
+{
+  "name": "Panacea",
+  "author": "Consistent Interruption",
+  "description": "Panacea is an autopan audio effect plugin with the possibility of humanization",
+  "license": "gpl-3.0",
+  "type": "effect",
+  "tags": [
+    "Autopan",
+    "LFO",
+    "Modulation",
+    "Tempo Sync"
+  ],
+  "url": "https://github.com/consint/Panacea",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/consint/panacea/panacea.jpg",
+  "date": "2024-01-23T21:12:09Z",
+  "changes": "### Changelog\r\n- fixed a bug where under certain circumstances the LFO was out of range when loading the plugin for the first time\r\n- made waveform buttons no longer automatable",
+  "files": [
+    {
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "so"
+      ],
+      "type": "archive",
+      "size": 3155473,
+      "sha256": "a83e50d469fbcb36ed6b9167aefe9f403f112e829e5e85729e6a4e6c14752e7f",
+      "url": "https://github.com/consint/Panacea/releases/download/v1.0.1/Panacea_v1.0.1_Linux_vst.zip"
+    },
+    {
+      "systems": [
+        {
+          "type": "win"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "dll"
+      ],
+      "type": "archive",
+      "size": 4501023,
+      "sha256": "6fc88a55523aa7f87e620f414245aedde7dc6069292c7c18607eab7e8dcedf34",
+      "url": "https://github.com/consint/Panacea/releases/download/v1.0.1/Panacea_v1.0.1_Win_vst.zip"
+    },
+    {
+      "systems": [
+        {
+          "type": "win"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3"
+      ],
+      "type": "archive",
+      "size": 4562417,
+      "sha256": "32559f00e8d423a0968b6aec33711cff32fbd7e32f6f8415c23519d33e19851f",
+      "url": "https://github.com/consint/Panacea/releases/download/v1.0.1/Panacea_v1.0.1_Win_vst3.zip"
+    }
+  ],
+  "verified": true
+}
