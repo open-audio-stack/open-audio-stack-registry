@@ -1,0 +1,62 @@
+{
+  "slug": "je3928/re201models",
+  "version": "1.1.0",
+  "versions": {
+    "1.1.0": {
+      "name": "RE201models",
+      "author": "je3928",
+      "description": "Digital modelling of the Roland RE-201 tape echo, including tone stack, tape saturation, wow and flutter, and spring reverb emulation",
+      "license": "gpl-3.0",
+      "type": "effect",
+      "tags": [
+        "Effect",
+        "Delay",
+        "Reverb",
+        "Tape"
+      ],
+      "url": "https://github.com/je3928/RE201models",
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/je3928/re201models/re201models.jpg",
+      "date": "2023-11-14T18:30:50Z",
+      "changes": "Windows and Mac OS. VST3 and AU. JUCE version.",
+      "files": [
+        {
+          "systems": [
+            {
+              "type": "mac"
+            }
+          ],
+          "architectures": [
+            "arm64",
+            "x64"
+          ],
+          "contains": [
+            "component",
+            "vst3"
+          ],
+          "type": "archive",
+          "size": 9509806,
+          "sha256": "7a370fc465f430eb5b1d0a93eaa202074190d963955b9bc594952d9a0de05352",
+          "url": "https://github.com/je3928/RE201models/releases/download/WindowsMacOS/JE-201.Plugins.zip"
+        },
+        {
+          "systems": [
+            {
+              "type": "win"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "vst3"
+          ],
+          "type": "archive",
+          "size": 9509806,
+          "sha256": "7a370fc465f430eb5b1d0a93eaa202074190d963955b9bc594952d9a0de05352",
+          "url": "https://github.com/je3928/RE201models/releases/download/WindowsMacOS/JE-201.Plugins.zip"
+        }
+      ],
+      "verified": true
+    }
+  }
+}
