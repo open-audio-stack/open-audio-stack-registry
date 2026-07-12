@@ -7003,6 +7003,85 @@
       }
     }
   },
+  "rodrigodzf/neuralresonatorvst": {
+    "slug": "rodrigodzf/neuralresonatorvst",
+    "version": "0.1.3",
+    "versions": {
+      "0.1.3": {
+        "name": "Neural Resonator VST",
+        "author": "Rodrigo Diaz",
+        "description": "An audio plugin to generate and use filters based on arbitrary 2D shapes and materials",
+        "license": "mit",
+        "type": "effect",
+        "tags": [
+          "Physical Modeling",
+          "Neural Network",
+          "Resonator",
+          "MIDI"
+        ],
+        "url": "https://github.com/rodrigodzf/NeuralResonatorVST",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/rodrigodzf/neuralresonatorvst/neuralresonatorvst.jpg",
+        "date": "2023-03-23T11:04:44Z",
+        "changes": "## Commits\r\n- 99c3967: - Include standalone for postprocess (Rodrigo Diaz)\r\n- 2bad3dc: - Create LICENSE (Rodrigo Diaz)\r\n- 4463fe6: Added class for linear interpolation. (adanlbenito) [#42](https://github.com/rodrigodzf/NeuralResonatorVST/pull/42)\r...",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 178619517,
+            "sha256": "c15f9e1455944fe8c98e66c83098ca15fc0f801eb6283e0c29a23b453ebab193",
+            "url": "https://github.com/rodrigodzf/NeuralResonatorVST/releases/download/0.1.3/NeuralResonator_linux_x86_64.tar.gz"
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64"
+            ],
+            "contains": [
+              "vst3",
+              "component"
+            ],
+            "type": "archive",
+            "size": 169357843,
+            "sha256": "bfa6baf1c9c8d5a3934042eadbee99a6f2bc414d940b3726ea0178b943c44600",
+            "url": "https://github.com/rodrigodzf/NeuralResonatorVST/releases/download/0.1.3/NeuralResonator_macOS_arm64_stapled.zip"
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "component"
+            ],
+            "type": "archive",
+            "size": 334167004,
+            "sha256": "892f3d6f6e543dcee9c418537ba2f832093bbb9df6533fb1f62fa7d1a88193cd",
+            "url": "https://github.com/rodrigodzf/NeuralResonatorVST/releases/download/0.1.3/NeuralResonator_macOS_x86_64_stapled.zip"
+          }
+        ],
+        "verified": true
+      }
+    }
+  },
   "resonantdsp/swankyamp": {
     "slug": "resonantdsp/swankyamp",
     "version": "1.4.0",
