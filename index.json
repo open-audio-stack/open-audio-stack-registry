@@ -14345,6 +14345,170 @@
         }
       }
     },
+    "giulioz/rdpiano": {
+      "slug": "giulioz/rdpiano",
+      "version": "2025.9.24",
+      "versions": {
+        "2025.9.24": {
+          "name": "RdPiano",
+          "author": "Giulio Zausa",
+          "description": "Low-level emulator for SA-synthesis pianos, such as the Roland MKS-20, RD1000 and the Rhodes MK-80 electric piano",
+          "license": "gpl-3.0",
+          "type": "instrument",
+          "tags": [
+            "Instrument",
+            "Piano",
+            "Emulation"
+          ],
+          "url": "https://github.com/giulioz/rdpiano",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/giulioz/rdpiano/rdpiano.jpg",
+          "date": "2025-09-24T21:30:20Z",
+          "changes": "- Add Linux build to workflow\n- Add missing dependencies for Linux build",
+          "files": [
+            {
+              "systems": [
+                {
+                  "type": "mac"
+                }
+              ],
+              "architectures": [
+                "arm64",
+                "x64"
+              ],
+              "contains": [
+                "app"
+              ],
+              "type": "archive",
+              "size": 19991130,
+              "sha256": "45970d3cb3331f1d420723ae626e4cf7570c2fee3d0e2635dd1dec61954a8181",
+              "url": "https://github.com/giulioz/rdpiano/releases/download/latest/rdpiano_juce.app.macOS.zip"
+            },
+            {
+              "systems": [
+                {
+                  "type": "mac"
+                }
+              ],
+              "architectures": [
+                "arm64",
+                "x64"
+              ],
+              "contains": [
+                "component"
+              ],
+              "type": "archive",
+              "size": 9774477,
+              "sha256": "143df86cc3cd5e64da3bff5ab492cbfce069d14c61c57f2a3063be889d95c321",
+              "url": "https://github.com/giulioz/rdpiano/releases/download/latest/rdpiano_juce.component.macOS.zip"
+            },
+            {
+              "systems": [
+                {
+                  "type": "mac"
+                }
+              ],
+              "architectures": [
+                "arm64",
+                "x64"
+              ],
+              "contains": [
+                "vst3"
+              ],
+              "type": "archive",
+              "size": 9783796,
+              "sha256": "284f4519a623b6c28adcc098a57035a8a6f45ace021bd365838d03a29fca82a6",
+              "url": "https://github.com/giulioz/rdpiano/releases/download/latest/rdpiano_juce.vst3.macOS.zip"
+            },
+            {
+              "systems": [
+                {
+                  "type": "win"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "exe"
+              ],
+              "type": "archive",
+              "size": 10826752,
+              "sha256": "32a76f528d4be4b8238440610180b06034bef5cedbbb0aa6d88716f9ccc4d263",
+              "url": "https://github.com/giulioz/rdpiano/releases/download/latest/rdpiano_juce.exe"
+            },
+            {
+              "systems": [
+                {
+                  "type": "win"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "vst3"
+              ],
+              "type": "archive",
+              "size": 10645504,
+              "sha256": "0a7093a4dd4e4e537747e76d7d5d8efe71ce43d6ff99c295f89c456de7c8f420",
+              "url": "https://github.com/giulioz/rdpiano/releases/download/latest/rdpiano_juce.vst3"
+            },
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "elf"
+              ],
+              "type": "archive",
+              "size": 13899976,
+              "sha256": "200dec418093329bb0cb7980b2855bdedc8be7b182838ef165b43a8c04508867",
+              "url": "https://github.com/giulioz/rdpiano/releases/download/latest/rdpiano_juce"
+            },
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "lv2"
+              ],
+              "type": "archive",
+              "size": 7588776,
+              "sha256": "4da00582b4f23bd895a0b5a1efebecba07edb9d3799dc49938ca4cf13ad08e31",
+              "url": "https://github.com/giulioz/rdpiano/releases/download/latest/rdpiano_juce.lv2.Linux.zip"
+            },
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "vst3"
+              ],
+              "type": "archive",
+              "size": 7763545,
+              "sha256": "c81127cfdd8c247d1743c40bff3449d6f9f3e9649b16dd492d6604d00ca531a9",
+              "url": "https://github.com/giulioz/rdpiano/releases/download/latest/rdpiano_juce.vst3.Linux.zip"
+            }
+          ],
+          "verified": true
+        }
+      }
+    },
     "geissmannsbin/measure-counter-vst": {
       "slug": "geissmannsbin/measure-counter-vst",
       "version": "1.0.0",
