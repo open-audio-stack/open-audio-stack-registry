@@ -91,6 +91,15 @@ function inferVersionConstraint(filename: string, systemType: string): { min?: n
   return {};
 }
 
+// Plain `\b` treats underscore as a word character, so it fails to find a boundary in
+// underscore-delimited filenames like "MixCompare_VST3_AU_AAX_CLAP_Standalone.zip" — there's
+// no transition between "_" and "au" for \b to match. Bound tokens against [a-z0-9] instead so
+// hyphens, underscores, dots, and spaces all count as real separators. `filename` is assumed
+// already lowercased by the caller.
+function tok(pattern: string): RegExp {
+  return new RegExp(`(?<![a-z0-9])(?:${pattern})(?![a-z0-9])`);
+}
+
 function inferSystems(filename: string): Array<{ type: string; min?: number }> {
   const f = filename.toLowerCase();
   const found = new Set<string>();
@@ -98,12 +107,12 @@ function inferSystems(filename: string): Array<{ type: string; min?: number }> {
   // inside product names like "airWINdows-..." and "clang-arm64-darWIN.dmg". The right
   // side must allow a digit too ("win32", "win64" have no separator before the number).
   // "w32"/"w64" is a shorthand some CI configs use in place of the full "win32"/"win64".
-  if (/(?<![a-z])win(?:dows)?(?=[-_.0-9]|$)|\bw(?:32|64)\b|\.exe$|\.msi$/.test(f)) found.add('win');
-  if (/mac(os)?[-_.]|[-_.]mac(os)?|\bosx\b|darwin|\.dmg$|\.pkg$/.test(f)) found.add('mac');
+  if (/(?<![a-z])win(?:dows)?(?=[-_.0-9]|$)|\.exe$|\.msi$/.test(f) || tok('w(?:32|64)').test(f)) found.add('win');
+  if (/mac(os)?[-_.]|[-_.]mac(os)?|darwin|\.dmg$|\.pkg$/.test(f) || tok('osx').test(f)) found.add('mac');
   // Distro names (ubuntu, debian, fedora) are common in CI-built asset names and carry
   // no literal "linux" substring — without this, those assets are silently dropped below.
   // "lin"/"lin64"/"lin32" is a shorthand some CI configs use in place of "linux".
-  if (/linux[-_.]|[-_.]linux|ubuntu|debian|fedora|\.deb$|\.rpm$|\.appimage$|\blin(?:32|64)?\b/.test(f))
+  if (/linux[-_.]|[-_.]linux|ubuntu|debian|fedora|\.deb$|\.rpm$|\.appimage$/.test(f) || tok('lin(?:32|64)?').test(f))
     found.add('linux');
   return [...found].map(type => ({ type, ...inferVersionConstraint(filename, type) }));
 }
@@ -119,37 +128,47 @@ function inferArchitectures(filename: string): { archs: string[] | null; confide
   if (/riscv|risc-v/.test(f)) return { archs: null, confident: true };
   if (/universal|fat/.test(f)) return { archs: ['arm64', 'x64'], confident: true };
   if (/arm64ec/.test(f)) return { archs: ['arm64ec'], confident: true }; // check before the broader arm64 pattern below
-  if (/arm64|aarch64|\barm\b|[-_]m[123][-_.]|apple[._-]?silicon/.test(f)) return { archs: ['arm64'], confident: true };
+  if (/arm64|aarch64|[-_]m[123][-_.]|apple[._-]?silicon/.test(f) || tok('arm').test(f))
+    return { archs: ['arm64'], confident: true };
   if (/armhf|armv7|arm32/.test(f)) return { archs: ['arm32'], confident: true };
-  if (/x86[_-]64|amd64|\bx64\b|64[-_]?bit/.test(f)) return { archs: ['x64'], confident: true };
-  if (/\bx86\b(?![-_]64)|i[3-6]86|\bx32\b|32[-_]?bit|win32/.test(f)) return { archs: ['x32'], confident: true };
+  if (/x86[_-]64|amd64|64[-_]?bit/.test(f) || tok('x64').test(f)) return { archs: ['x64'], confident: true };
+  if (/i[3-6]86|32[-_]?bit|win32/.test(f) || (tok('x86').test(f) && !/[-_]64/.test(f)) || tok('x32').test(f))
+    return { archs: ['x32'], confident: true };
   return { archs: ['x64'], confident: false }; // safe default; flag for review if no hint found
 }
 
 // `systems` determines the correct per-platform VST2 enum value: the registry
 // distinguishes vst (Mac), so (Linux), and dll (Windows) — there is no generic "vst2".
-function inferContains(filename: string, systems: Array<{ type: string }>, releaseBody = '', readme = ''): string[] {
+function inferContainsFromFilename(filename: string, systems: Array<{ type: string }>): string[] {
   const f = filename.toLowerCase();
   const formats: string[] = [];
   const platform = systems[0]?.type;
   const vst2Value = platform === 'linux' ? 'so' : platform === 'win' ? 'dll' : 'vst';
 
   if (/vst3/.test(f)) formats.push('vst3');
-  if (/\bvst2\b/.test(f) || (/\bvst\b/.test(f) && !f.includes('vst3'))) formats.push(vst2Value);
-  if (/\bau\b|\baudiounit\b/.test(f)) formats.push('component');
-  if (/\bclap\b/.test(f)) formats.push('clap');
-  if (/\blv2\b/.test(f)) formats.push('lv2');
-  if (/\baax\b/.test(f)) formats.push('aax');
+  if (tok('vst2').test(f) || (tok('vst').test(f) && !f.includes('vst3'))) formats.push(vst2Value);
+  if (tok('au').test(f) || tok('audiounit').test(f)) formats.push('component');
+  if (tok('clap').test(f)) formats.push('clap');
+  if (tok('lv2').test(f)) formats.push('lv2');
+  if (tok('aax').test(f)) formats.push('aax');
+  return formats;
+}
 
-  // Fallback: scan release body then README when filename has no format indicators
-  if (formats.length === 0) {
-    const context = (releaseBody + ' ' + readme.slice(0, 5000)).toLowerCase();
-    if (/\bvst3\b/.test(context)) formats.push('vst3');
-    if (/\bvst2\b/.test(context) || (/\bvst\b/.test(context) && !formats.includes('vst3'))) formats.push(vst2Value);
-    if (/\bclap\b/.test(context)) formats.push('clap');
-    if (/\blv2\b/.test(context)) formats.push('lv2');
-    if (/\baudio\s*unit\b/.test(context)) formats.push('component');
-  }
+// README/release-body prose is the least reliable signal — a README mentioning "VST3"
+// but not spelling out "Audio Unit" produces a plausible-looking but incomplete answer
+// that (if trusted) would block the more authoritative archive-content inspection in
+// main() from ever running. Callers should only reach for this after filename inference
+// AND archive inspection have both come up empty (e.g. non-extractable installer types).
+function inferContainsFromText(releaseBody: string, readme: string, systems: Array<{ type: string }>): string[] {
+  const formats: string[] = [];
+  const platform = systems[0]?.type;
+  const vst2Value = platform === 'linux' ? 'so' : platform === 'win' ? 'dll' : 'vst';
+  const context = (releaseBody + ' ' + readme.slice(0, 5000)).toLowerCase();
+  if (tok('vst3').test(context)) formats.push('vst3');
+  if (tok('vst2').test(context) || (tok('vst').test(context) && !formats.includes('vst3'))) formats.push(vst2Value);
+  if (tok('clap').test(context)) formats.push('clap');
+  if (tok('lv2').test(context)) formats.push('lv2');
+  if (/\baudio\s*unit\b/.test(context)) formats.push('component');
   return formats;
 }
 
@@ -191,7 +210,13 @@ function inspectExtractedDir(dir: string): ArchiveInspection {
   const result: ArchiveInspection = { platforms: new Set(), formats: new Set(), macArchitectures: new Set() };
   let listing = '';
   try {
-    listing = execSync(`find "${dir}"`, { encoding: 'utf8', stdio: ['pipe', 'pipe', 'pipe'] }).toLowerCase();
+    // Exclude symlinks: some JUCE/CMake post-build steps leave a broken symlink named
+    // "Plugin.vst3" pointing at the local machine's system plugin folder — a leftover of a
+    // local "install" step, not a real bundle. Only a genuine directory counts as evidence.
+    listing = execSync(`find "${dir}" -not -type l`, {
+      encoding: 'utf8',
+      stdio: ['pipe', 'pipe', 'pipe'],
+    }).toLowerCase();
   } catch {
     return result;
   }
@@ -201,6 +226,10 @@ function inspectExtractedDir(dir: string): ArchiveInspection {
   if (/\.lv2(\/|$)/m.test(listing)) result.formats.add('lv2');
   if (/\.aaxplugin(\/|$)/m.test(listing)) result.formats.add('aax');
   if (/\.vst(\/|$)/m.test(listing) && !/\.vst3(\/|$)/m.test(listing)) result.formats.add('__vst2__');
+  // ".app" is unambiguous — only a macOS Standalone build produces one, unlike bare Windows
+  // .exe or extensionless Linux binaries, which could just as easily be an installer helper
+  // or a build tool bundled alongside the real plugin. Those two still need a manual check.
+  if (/\.app(\/|$)/m.test(listing)) result.formats.add('app');
 
   // Inspect real binaries for platform/architecture — `file` reads magic bytes, so this is
   // authoritative even when directory/file names give no hint at all.
@@ -416,12 +445,14 @@ async function main() {
     }
     let architectures = archResult.archs;
 
-    let contains =
-      systems.length > 0 ? inferContains(asset.name, systems, release.body ?? '', readme) : ([] as string[]);
+    let contains = systems.length > 0 ? inferContainsFromFilename(asset.name, systems) : ([] as string[]);
 
-    // Filename alone couldn't place the platform or the format — download and look inside
-    // the archive itself rather than guessing or dropping a possibly-real binary.
-    const needsInspection = (systems.length === 0 || contains.length === 0) && EXTRACTABLE_ARCHIVE.test(asset.name);
+    // Filename alone couldn't place the platform or the format, or couldn't confirm the
+    // architecture of a Mac build (frequently a universal arm64+x64 binary with no filename
+    // hint) — download and look inside the archive itself rather than guessing.
+    const macArchUnconfirmed = !archResult.confident && systems.some(s => s.type === 'mac');
+    const needsInspection =
+      (systems.length === 0 || contains.length === 0 || macArchUnconfirmed) && EXTRACTABLE_ARCHIVE.test(asset.name);
 
     let sha256: string = asset.digest ? (asset.digest as string).replace('sha256:', '') : '';
     let size: number = asset.size;
@@ -466,6 +497,10 @@ async function main() {
       skippedAssets.push(`${asset.name} (no system/platform recognized, even after archive inspection)`);
       continue;
     }
+
+    // Last resort: filename gave no format hint, and either the asset wasn't an extractable
+    // archive (e.g. a .dmg/.exe installer) or inspection ran but still found nothing.
+    if (contains.length === 0) contains = inferContainsFromText(release.body ?? '', readme, systems);
 
     if (macArchFromInspection.length > 0) {
       architectures = macArchFromInspection;
