@@ -40,6 +40,49 @@
       }
     }
   },
+  "zhiyualexzhang/multimeter": {
+    "slug": "zhiyualexzhang/multimeter",
+    "version": "1.0.0",
+    "versions": {
+      "1.0.0": {
+        "name": "MultiMeter",
+        "author": "Alex Zhang",
+        "description": "A comprehensive set of AU/VST real-time audio analysis tools in one window implemented with JUCE 6.",
+        "license": "gpl-3.0",
+        "type": "tool",
+        "tags": [
+          "Metering",
+          "Analysis",
+          "Utility",
+          "Spectrum Analyzer"
+        ],
+        "url": "https://github.com/ZhiyuAlexZhang/MultiMeter",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/zhiyualexzhang/multimeter/multimeter.jpg",
+        "date": "2024-02-10T05:53:07Z",
+        "changes": "First release of MultiMeter.",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64"
+            ],
+            "contains": [
+              "app"
+            ],
+            "type": "archive",
+            "size": 24233999,
+            "sha256": "cac80f4f19cec34554a568a73eac392f4250fe8473c2e9c8293cc8e73545e877",
+            "url": "https://github.com/ZhiyuAlexZhang/MultiMeter/releases/download/v1.0.0/MultiMeter-release-v1.0.0.zip"
+          }
+        ],
+        "verified": true
+      }
+    }
+  },
   "yokemura/magical8bitplug2": {
     "slug": "yokemura/magical8bitplug2",
     "version": "1.0.1",

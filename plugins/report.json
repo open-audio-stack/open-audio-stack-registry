@@ -21,6 +21,24 @@
       ]
     }
   },
+  "zhiyualexzhang/multimeter": {
+    "1.0.0": {
+      "recs": [
+        {
+          "field": "architectures",
+          "rec": "should support x64"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Linux"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Windows"
+        }
+      ]
+    }
+  },
   "yokemura/magical8bitplug2": {
     "1.0.1": {
       "recs": [
