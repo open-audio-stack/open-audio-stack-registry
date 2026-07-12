@@ -12815,6 +12815,108 @@
       }
     }
   },
+  "hyperfocusdsp/niner": {
+    "slug": "hyperfocusdsp/niner",
+    "version": "1.0.1",
+    "versions": {
+      "1.0.1": {
+        "name": "Niner",
+        "author": "Hyperfocus DSP",
+        "description": "Monophonic analogue kick drum synthesizer — 3 voices, compression, distortion, EQ. VST3/CLAP/Standalone for Linux, Windows, macOS",
+        "license": "gpl-3.0",
+        "type": "instrument",
+        "tags": [
+          "Drum Synth",
+          "Kick Drum",
+          "Analog Emulation",
+          "Percussion"
+        ],
+        "url": "https://github.com/hyperfocusdsp/niner",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/hyperfocusdsp/niner/niner.jpg",
+        "date": "2026-06-08T20:21:05Z",
+        "changes": "**Full Changelog**: https://github.com/hyperfocusdsp/niner/compare/v1.0.0...v1.0.1",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "clap",
+              "elf"
+            ],
+            "type": "archive",
+            "size": 27891413,
+            "sha256": "75f15ba37ad99bf35322c63b831a208f07c1946290e86e9f0c2b424d4c48b0fb",
+            "url": "https://github.com/hyperfocusdsp/niner/releases/download/v1.0.1/niner-linux-x86_64.tar.gz"
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64"
+            ],
+            "contains": [
+              "vst3",
+              "clap",
+              "app"
+            ],
+            "type": "archive",
+            "size": 23276528,
+            "sha256": "689715d3ef2737f95aad1d4285d56dba2970145387d359ef8a67b006ac214e60",
+            "url": "https://github.com/hyperfocusdsp/niner/releases/download/v1.0.1/niner-macos-arm64.tar.gz"
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "clap",
+              "app"
+            ],
+            "type": "archive",
+            "size": 24025465,
+            "sha256": "ebb7993da7a23fce126dab796bb577ea37e679400001cd3071ebede1a1c97df1",
+            "url": "https://github.com/hyperfocusdsp/niner/releases/download/v1.0.1/niner-macos-x86_64.tar.gz"
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "clap",
+              "exe"
+            ],
+            "type": "archive",
+            "size": 22861704,
+            "sha256": "b2a9b9ee2dd91e740b590d20d1b6d4094b9fd118fd88c546b420c7db0714a11e",
+            "url": "https://github.com/hyperfocusdsp/niner/releases/download/v1.0.1/niner-windows-x86_64.zip"
+          }
+        ],
+        "verified": true
+      }
+    }
+  },
   "hqrrr/perceptomap": {
     "slug": "hqrrr/perceptomap",
     "version": "0.18.2",
