@@ -1,0 +1,37 @@
+name: Phlegetron
+author: Igor Zinken
+description: Multi-band distortion audio plugin using different distortion algorithms over two band splitting modes
+license: gpl-3.0
+type: effect
+tags:
+  - Distortion
+  - Fuzz
+  - Wavefolder
+  - Bit Crusher
+url: https://github.com/igorski/phlegetron
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/igorski/phlegetron/phlegetron.jpg
+date: '2026-01-30T20:37:43Z'
+changes: First stable release. Built against JUCE 8.0.10
+files:
+  - systems:
+      - type: mac
+    architectures:
+      - arm64
+      - x64
+    contains:
+      - vst3
+      - component
+    type: archive
+    size: 6891129
+    sha256: e3a4459c1ca862b3e7171a4240807d4410ae7c8106dd53fe53735bd0f6fe2575
+    url: https://github.com/igorski/phlegetron/releases/download/1.0.0/phlegetron.1.0.0_macos.zip
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - vst3
+    type: archive
+    size: 2830943
+    sha256: a187d6f38dfb566022832047faf3c4b29e0821806a873e1337adde3b2ac2ef23
+    url: https://github.com/igorski/phlegetron/releases/download/1.0.0/phlegetron.1.0.0_windows.zip
