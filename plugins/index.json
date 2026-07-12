@@ -14765,6 +14765,139 @@
       }
     }
   },
+  "gabrielsoule/resonarium": {
+    "slug": "gabrielsoule/resonarium",
+    "version": "0.0.11",
+    "versions": {
+      "0.0.11": {
+        "name": "Resonarium",
+        "author": "Gabriel Soule",
+        "description": "An expressive, semi-modular, and comprehensive physical modeling/waveguide synthesizer",
+        "license": "gpl-3.0",
+        "type": "instrument",
+        "tags": [
+          "Instrument",
+          "Physical Modeling",
+          "Synthesizer"
+        ],
+        "url": "https://github.com/gabrielsoule/resonarium",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/gabrielsoule/resonarium/resonarium.jpg",
+        "date": "2025-06-11T01:58:43Z",
+        "changes": "Minor fixes and improvements.\n- Disabled polyphonic effect chains by default. This was always a niche feature for extra nerdy sound designers, and disabling it by default should dramatically improve performance.",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 16789757,
+            "sha256": "502a54b1ef5004e7d32e645394ae952efd699693e609623d6e87e4edca60d751",
+            "url": "https://github.com/gabrielsoule/resonarium/releases/download/v0.0.11/Resonarium-Effect-0.0.11-Linux.zip"
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "component",
+              "app"
+            ],
+            "type": "archive",
+            "size": 41180925,
+            "sha256": "8942ccb403694ca04c71a2a0401fc36eadb2c1936128d6db48abf830f8ee78fd",
+            "url": "https://github.com/gabrielsoule/resonarium/releases/download/v0.0.11/Resonarium-Effect-0.0.11-macOS-notarized.zip"
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 12483020,
+            "sha256": "326bc684567641e55fdf7d98573cbf9ac05f6949d884c65084fe5b15e76bc818",
+            "url": "https://github.com/gabrielsoule/resonarium/releases/download/v0.0.11/Resonarium-Effect-0.0.11-Windows.zip"
+          },
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 16788285,
+            "sha256": "2fb91903b989fe08fc2ac3a60b4dfba6fd22f692bc23ba398cef7625ed7f03b1",
+            "url": "https://github.com/gabrielsoule/resonarium/releases/download/v0.0.11/Resonarium-Instrument-0.0.11-Linux.zip"
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "component",
+              "app"
+            ],
+            "type": "archive",
+            "size": 41180203,
+            "sha256": "695c898abe7798a3b259573017727cf3ae69aa03c1fafa6c5bb6b3304a1f6aea",
+            "url": "https://github.com/gabrielsoule/resonarium/releases/download/v0.0.11/Resonarium-Instrument-0.0.11-macOS-notarized.zip"
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 12482545,
+            "sha256": "e362230352e5872632f9099f3ffa389ce7a328d8ef1ec40aa55b205070973c59",
+            "url": "https://github.com/gabrielsoule/resonarium/releases/download/v0.0.11/Resonarium-Instrument-0.0.11-Windows.zip"
+          }
+        ],
+        "verified": true
+      }
+    }
+  },
   "freepats/upright-piano-kw": {
     "slug": "freepats/upright-piano-kw",
     "version": "1.0.0",
