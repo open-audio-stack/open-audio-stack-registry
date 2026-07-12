@@ -1,0 +1,134 @@
+{
+  "slug": "jun-murakami/mixcompare",
+  "version": "3.0.10",
+  "versions": {
+    "3.0.10": {
+      "name": "MixCompare",
+      "author": "Jun Murakami",
+      "description": "A virtual source selector plugin for DAW final stage mixing that provides instant switching between your work-in-progress mix and reference audio sources.",
+      "license": "agpl-3.0",
+      "type": "tool",
+      "tags": [
+        "Utility",
+        "Mixing",
+        "Reference Track",
+        "Monitoring"
+      ],
+      "url": "https://github.com/Jun-Murakami/MixCompare",
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/jun-murakami/mixcompare/mixcompare.jpg",
+      "date": "2026-07-08T07:09:55Z",
+      "changes": "- Fixed an issue where the plugin screen would not launch in some Linux environments.\r\n- Updated various libraries and frameworks.",
+      "files": [
+        {
+          "systems": [
+            {
+              "type": "linux"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "vst3",
+            "lv2",
+            "clap",
+            "elf"
+          ],
+          "type": "archive",
+          "size": 20280020,
+          "sha256": "7fcf829887ed9a1ca30486e556a83afe99130149e21eacc6e5c22d2f3c90b447",
+          "url": "https://github.com/Jun-Murakami/MixCompare/releases/download/v3.0.10/MixCompare_3.0.10_Linux_VST3_LV2_CLAP_Standalone.zip"
+        },
+        {
+          "systems": [
+            {
+              "type": "mac",
+              "min": 10.15
+            }
+          ],
+          "architectures": [
+            "arm64",
+            "x64"
+          ],
+          "contains": [
+            "vst3",
+            "component",
+            "clap",
+            "aax",
+            "app"
+          ],
+          "type": "installer",
+          "size": 47415477,
+          "sha256": "8a560571b4169aad3f48b71d21b8c094e6008bd546665a8b4b1dcebe019e300c",
+          "url": "https://github.com/Jun-Murakami/MixCompare/releases/download/v3.0.10/MixCompare_3.0.10_macOS.pkg"
+        },
+        {
+          "systems": [
+            {
+              "type": "mac",
+              "min": 10.15
+            }
+          ],
+          "architectures": [
+            "arm64",
+            "x64"
+          ],
+          "contains": [
+            "vst3",
+            "component",
+            "clap",
+            "aax",
+            "app"
+          ],
+          "type": "archive",
+          "size": 47374600,
+          "sha256": "3d531fd855cb660161fa21242061f505ce1c2eec5896633fddddb2710125b6c0",
+          "url": "https://github.com/Jun-Murakami/MixCompare/releases/download/v3.0.10/MixCompare_3.0.10_macOS_VST3_AU_AAX_CLAP_Standalone.zip"
+        },
+        {
+          "systems": [
+            {
+              "type": "win",
+              "min": 10
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "vst3",
+            "clap",
+            "aax",
+            "exe"
+          ],
+          "type": "installer",
+          "size": 23551728,
+          "sha256": "2282294ee62e8c10943cf947cbe60e46501940674c32ea329696b8b604468764",
+          "url": "https://github.com/Jun-Murakami/MixCompare/releases/download/v3.0.10/MixCompare_3.0.10_Windows_Setup.exe"
+        },
+        {
+          "systems": [
+            {
+              "type": "win",
+              "min": 10
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "vst3",
+            "clap",
+            "aax",
+            "exe"
+          ],
+          "type": "archive",
+          "size": 28688771,
+          "sha256": "7f12176cdc715b9800a70c15ebd90adaa5696c1ecb3c2657eba0c73e2ea82c3a",
+          "url": "https://github.com/Jun-Murakami/MixCompare/releases/download/v3.0.10/MixCompare_3.0.10_Windows_VST3_AAX_CLAP_Standalone.zip"
+        }
+      ],
+      "verified": true
+    }
+  }
+}
