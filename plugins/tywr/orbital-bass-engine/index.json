@@ -1,0 +1,132 @@
+{
+  "slug": "tywr/orbital-bass-engine",
+  "version": "1.8.0",
+  "versions": {
+    "1.8.0": {
+      "name": "Orbital Bass Engine",
+      "author": "Tanguy VIVIER",
+      "description": "An open-source bass guitar audio plugin built with JUCE, providing a complete signal chain for bass tone shaping — analog-modeled compression, vintage-style drive amplification, and a post-amp effects rack.",
+      "license": "gpl-3.0",
+      "type": "effect",
+      "tags": [
+        "Bass",
+        "Compression",
+        "Amp Simulation",
+        "Effects Chain"
+      ],
+      "url": "https://github.com/tywr/orbital-bass-engine",
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/tywr/orbital-bass-engine/orbital-bass-engine.jpg",
+      "date": "2026-07-08T20:20:27Z",
+      "changes": "**Full Changelog**: https://github.com/tywr/orbital-bass-engine/compare/v1.7.1...v1.8.0",
+      "files": [
+        {
+          "systems": [
+            {
+              "type": "linux"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "vst3"
+          ],
+          "type": "archive",
+          "size": 3091101,
+          "sha256": "f46fccfddd464c0be7f7e51964b493eb1d0834686321374b9dbc55dbcc38a305",
+          "url": "https://github.com/tywr/orbital-bass-engine/releases/download/v1.8.0/orbital-bass-engine-linux-vst3.tar.gz"
+        },
+        {
+          "systems": [
+            {
+              "type": "linux"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "elf"
+          ],
+          "type": "archive",
+          "size": 3114340,
+          "sha256": "1f4a3983dd66520da3cbeb4fed6b6b2149fa5fc74fefe43eea1ccb2bbbaad027",
+          "url": "https://github.com/tywr/orbital-bass-engine/releases/download/v1.8.0/orbital-bass-engine-linux-standalone.tar.gz"
+        },
+        {
+          "systems": [
+            {
+              "type": "mac"
+            }
+          ],
+          "architectures": [
+            "arm64"
+          ],
+          "contains": [
+            "vst3",
+            "component",
+            "app"
+          ],
+          "type": "installer",
+          "size": 7733280,
+          "sha256": "1f9231ca34ef26a6a0257b7b78f2f6ec9718f2913d1b51b7db83b3020fe57e85",
+          "url": "https://github.com/tywr/orbital-bass-engine/releases/download/v1.8.0/orbital-bass-engine-macos.dmg"
+        },
+        {
+          "systems": [
+            {
+              "type": "mac"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "vst3",
+            "component",
+            "app"
+          ],
+          "type": "installer",
+          "size": 8725810,
+          "sha256": "8a58427726f79e43cde174e4e46a96e0c1d6fb43eeecb46f86c0ff15217e19ec",
+          "url": "https://github.com/tywr/orbital-bass-engine/releases/download/v1.8.0/orbital-bass-engine-macos-intel.dmg"
+        },
+        {
+          "systems": [
+            {
+              "type": "win"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "vst3"
+          ],
+          "type": "archive",
+          "size": 3573270,
+          "sha256": "2374021ab2a57f76a2a910b5e98f72f97efc51793582a2d653f9acea2d234640",
+          "url": "https://github.com/tywr/orbital-bass-engine/releases/download/v1.8.0/orbital-bass-engine-windows-vst3.zip"
+        },
+        {
+          "systems": [
+            {
+              "type": "win"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "exe"
+          ],
+          "type": "archive",
+          "size": 3535153,
+          "sha256": "df7d18c984f235ebdf39d3e0c3c1adeef9a06c75e02ee33af22dff8d9af75317",
+          "url": "https://github.com/tywr/orbital-bass-engine/releases/download/v1.8.0/orbital-bass-engine-windows-standalone.zip"
+        }
+      ],
+      "verified": true
+    }
+  }
+}
