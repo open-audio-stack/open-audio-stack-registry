@@ -1,0 +1,37 @@
+name: Rechoir
+author: Igor Zinken
+description: VST delay plugin where the repeats are pitch shifted in time to harmonize with the input signal
+license: mit
+type: effect
+tags:
+  - Effect
+  - Delay
+  - Pitch
+url: https://github.com/igorski/rechoir
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/igorski/rechoir/rechoir.jpg
+date: '2025-05-08T09:26:07Z'
+changes: Version 1.0.0 built against Steinberg SDK version 3.7.11.10
+files:
+  - systems:
+      - type: mac
+    architectures:
+      - arm64
+      - x64
+    contains:
+      - vst3
+      - vst
+    type: archive
+    size: 9704639
+    sha256: 7a1df5f354177c9abd9f2871a306e6b961df310c901dc199d535d5924ad2ff13
+    url: https://github.com/igorski/rechoir/releases/download/1.0.0/rechoir.1.0.0_macos.zip
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - vst3
+      - dll
+    type: archive
+    size: 1938058
+    sha256: 00146de375ee86e3b3fa07d12f2c43c3e4ea87d684340d886e84c859234c95e4
+    url: https://github.com/igorski/rechoir/releases/download/1.0.0/rechoir.1.0.0_windows.zip
