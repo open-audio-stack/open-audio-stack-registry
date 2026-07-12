@@ -202,7 +202,13 @@ function inspectExtractedDir(dir: string): ArchiveInspection {
   const result: ArchiveInspection = { platforms: new Set(), formats: new Set(), macArchitectures: new Set() };
   let listing = '';
   try {
-    listing = execSync(`find "${dir}"`, { encoding: 'utf8', stdio: ['pipe', 'pipe', 'pipe'] }).toLowerCase();
+    // Exclude symlinks: some JUCE/CMake post-build steps leave a broken symlink named
+    // "Plugin.vst3" pointing at the local machine's system plugin folder — a leftover of a
+    // local "install" step, not a real bundle. Only a genuine directory counts as evidence.
+    listing = execSync(`find "${dir}" -not -type l`, {
+      encoding: 'utf8',
+      stdio: ['pipe', 'pipe', 'pipe'],
+    }).toLowerCase();
   } catch {
     return result;
   }
