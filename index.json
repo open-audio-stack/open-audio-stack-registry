@@ -1949,6 +1949,68 @@
         }
       }
     },
+    "vivekvjyn/pulp-fiction": {
+      "slug": "vivekvjyn/pulp-fiction",
+      "version": "1.1.0",
+      "versions": {
+        "1.1.0": {
+          "name": "Pulp Fiction",
+          "author": "Vivek Vijayan",
+          "description": "A multi-FX rack plugin",
+          "license": "gpl-3.0",
+          "type": "effect",
+          "tags": [
+            "Effect",
+            "Multi-Effect",
+            "Chorus",
+            "Delay",
+            "Flanger",
+            "Tremolo"
+          ],
+          "url": "https://github.com/vivekvjyn/Pulp-Fiction",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/vivekvjyn/pulp-fiction/pulp-fiction.jpg",
+          "date": "2024-06-23T08:12:20Z",
+          "changes": "- New tremolo module.\n- Linux support",
+          "files": [
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "vst3"
+              ],
+              "type": "archive",
+              "size": 15457762,
+              "sha256": "101d5cd7bb53706ec4d27a377be9f61a11719cfd7a5acdb26f5e33202a95d2e1",
+              "url": "https://github.com/vivekvjyn/Pulp-Fiction/releases/download/tremolo/Pulp_fiction_linux_vst3.zip"
+            },
+            {
+              "systems": [
+                {
+                  "type": "win"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "vst3"
+              ],
+              "type": "archive",
+              "size": 19843584,
+              "sha256": "979f9354c62efe6f33fc0a486cc4fb19a3195897a137ae5a3a8e583d3b5edc48",
+              "url": "https://github.com/vivekvjyn/Pulp-Fiction/releases/download/tremolo/Pulp.fiction.vst3"
+            }
+          ],
+          "verified": true
+        }
+      }
+    },
     "valdemarorn/cloudseed": {
       "slug": "valdemarorn/cloudseed",
       "version": "1.0.1",
