@@ -226,6 +226,10 @@ function inspectExtractedDir(dir: string): ArchiveInspection {
   if (/\.lv2(\/|$)/m.test(listing)) result.formats.add('lv2');
   if (/\.aaxplugin(\/|$)/m.test(listing)) result.formats.add('aax');
   if (/\.vst(\/|$)/m.test(listing) && !/\.vst3(\/|$)/m.test(listing)) result.formats.add('__vst2__');
+  // ".app" is unambiguous — only a macOS Standalone build produces one, unlike bare Windows
+  // .exe or extensionless Linux binaries, which could just as easily be an installer helper
+  // or a build tool bundled alongside the real plugin. Those two still need a manual check.
+  if (/\.app(\/|$)/m.test(listing)) result.formats.add('app');
 
   // Inspect real binaries for platform/architecture — `file` reads magic bytes, so this is
   // authoritative even when directory/file names give no hint at all.
