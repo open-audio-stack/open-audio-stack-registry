@@ -1,0 +1,146 @@
+{
+  "rcjach/rcsiner": {
+    "slug": "rcjach/rcsiner",
+    "version": "1.0.1",
+    "versions": {
+      "1.0.1": {
+        "name": "RCSiner",
+        "author": "RCJacH",
+        "description": "A sine-based waveshaper",
+        "license": "mit",
+        "type": "effect",
+        "tags": [
+          "Effect",
+          "Distortion",
+          "Waveshaper"
+        ],
+        "url": "https://github.com/RCJacH/RCSiner",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/rcjach/rcsiner/rcsiner.jpg",
+        "date": "2025-08-29T21:28:13Z",
+        "changes": "- add MacOS plug-ins\n- fix Mix slider getting undefined error\n- reduce channel count to avoid plugin becoming mono when set to multiple channels\n- fix sustained buzz on project load with oversample set to on",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64"
+            ],
+            "contains": [
+              "component"
+            ],
+            "type": "archive",
+            "size": 1056416,
+            "sha256": "265be96a0c4735340247eca226827cdeebafd06bcb558d92a74aea1afc10a720",
+            "url": "https://github.com/RCJacH/RCSiner/releases/download/v1.0.1/RCSiner_v1.0.1_MacOS.au.zip"
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64"
+            ],
+            "contains": [
+              "clap"
+            ],
+            "type": "archive",
+            "size": 1108423,
+            "sha256": "7882f84c1667a46541e74f7b9892cc14e8bf5367330c5b82da29af09aa5ee1b0",
+            "url": "https://github.com/RCJacH/RCSiner/releases/download/v1.0.1/RCSiner_v1.0.1_MacOS.clap.zip"
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 1353095,
+            "sha256": "4ce37b53b05b2f44d294af06401bdf3ae352570ea61127a3887b0bd17673c7f7",
+            "url": "https://github.com/RCJacH/RCSiner/releases/download/v1.0.1/RCSiner_v1.0.1_MacOS.vst3.zip"
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "clap"
+            ],
+            "type": "archive",
+            "size": 676249,
+            "sha256": "129482a5c1bfb7fb5aa170d0126c1072717743797790a7e75049c4a209abdb5b",
+            "url": "https://github.com/RCJacH/RCSiner/releases/download/v1.0.1/RCSiner_v1.0.1_x64.clap.zip"
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 708754,
+            "sha256": "c2dc41b3d3b32b335f9e3534f50a949f8441e05ab7b38139e426d8a3b5663186",
+            "url": "https://github.com/RCJacH/RCSiner/releases/download/v1.0.1/RCSiner_v1.0.1_x64.vst3.zip"
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x32"
+            ],
+            "contains": [
+              "clap"
+            ],
+            "type": "archive",
+            "size": 601327,
+            "sha256": "1f768b68696912680ebaebe534a8ff849afff7736e14a92363a56d6c061c7e5f",
+            "url": "https://github.com/RCJacH/RCSiner/releases/download/v1.0.1/RCSiner_v1.0.1_x86.clap.zip"
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x32"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 624600,
+            "sha256": "82e4bfdc5969ef139c9a8d283374993c93c9bc0471a82da9e8abfc6d72918a05",
+            "url": "https://github.com/RCJacH/RCSiner/releases/download/v1.0.1/RCSiner_v1.0.1_x86.vst3.zip"
+          }
+        ],
+        "verified": true
+      }
+    }
+  }
+}
