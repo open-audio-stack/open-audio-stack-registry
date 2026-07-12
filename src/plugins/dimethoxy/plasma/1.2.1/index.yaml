@@ -1,0 +1,47 @@
+name: Plasma
+author: Dimethoxy
+description: Asymmetrical Distortion Audio Plugin for Windows, MacOS and Linux
+license: agpl-3.0
+type: effect
+tags:
+  - Distortion
+  - Hardstyle
+  - Saturation
+url: https://github.com/Dimethoxy/Plasma
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/dimethoxy/plasma/plasma.jpg
+date: '2024-12-01T03:47:46Z'
+changes: "### Changes:\r\n- Fix: Border Radius broken after Startup"
+files:
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - vst3
+      - lv2
+    type: archive
+    size: 7888520
+    sha256: f61cfd287b0d58b9eca419c6c785e66a8bf94caf26b33615aa465c25bd8ee4e1
+    url: https://github.com/Dimethoxy/Plasma/releases/download/v1.2.1/plasma-v1.2.1-linux.tar.gz
+  - systems:
+      - type: mac
+    architectures:
+      - arm64
+      - x64
+    contains:
+      - vst3
+      - component
+    type: installer
+    size: 11398049
+    sha256: 245b217f02e92536ac3b595cd92065068ebb4901a1cdac2628b3f6d0e9ad55ee
+    url: https://github.com/Dimethoxy/Plasma/releases/download/v1.2.1/plasma-v1.2.1-macos.pkg
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - vst3
+    type: installer
+    size: 3991791
+    sha256: d39939763fe3cfb5a01c3f6d06274f3911b56cfa2028fbe2e2483ae6a3b89220
+    url: https://github.com/Dimethoxy/Plasma/releases/download/v1.2.1/plasma-v1.2.1-windows.exe
