@@ -1,0 +1,77 @@
+{
+  "name": "Nine Strip",
+  "author": "Aurelien Leblond",
+  "description": "A VST3/AU/LV2 channel strip plugin built with JUCE, incorporating classic Airwindows processing algorithms into a comprehensive mixing tool.",
+  "license": "agpl-3.0",
+  "type": "effect",
+  "tags": [
+    "Channel Strip",
+    "Mixing",
+    "Console Emulation",
+    "Airwindows"
+  ],
+  "url": "https://github.com/blablack/nine-strip",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/blablack/nine-strip/nine-strip.jpg",
+  "date": "2026-05-25T20:16:50Z",
+  "changes": "### Added\n- Juce 8.0.13\n\n### Fixed\n- Replaces the raw this capture with a juce::Component::SafePointer<NineStripProcessorEditor>. When the editor is destroyed, the SafePointer automatically becomes null, so the async callback does nothing instead of cr...",
+  "files": [
+    {
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3",
+        "lv2",
+        "elf"
+      ],
+      "type": "archive",
+      "size": 16245052,
+      "sha256": "03971d913196d67eab7cbec02c43ab6b73d3e918a0f4075808333347fabef288",
+      "url": "https://github.com/blablack/nine-strip/releases/download/v0.1.2/NineStrip-Linux.tar.gz"
+    },
+    {
+      "systems": [
+        {
+          "type": "mac"
+        }
+      ],
+      "architectures": [
+        "arm64",
+        "x64"
+      ],
+      "contains": [
+        "vst3",
+        "component",
+        "app"
+      ],
+      "type": "archive",
+      "size": 26049285,
+      "sha256": "dac3c7ecb92ca86438c89b6ac460130d3f65764331fb61ae1bef18b11378203d",
+      "url": "https://github.com/blablack/nine-strip/releases/download/v0.1.2/NineStrip-macOS.zip"
+    },
+    {
+      "systems": [
+        {
+          "type": "win"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3",
+        "exe"
+      ],
+      "type": "archive",
+      "size": 5959501,
+      "sha256": "4fee660af36ecb389381b8be662056e7a432e1fb7aa17b147051c8c5a0eb06b2",
+      "url": "https://github.com/blablack/nine-strip/releases/download/v0.1.2/NineStrip-Windows.zip"
+    }
+  ],
+  "verified": true
+}
