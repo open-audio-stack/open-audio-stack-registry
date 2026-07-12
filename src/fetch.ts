@@ -79,9 +79,10 @@ function inferVersionConstraint(filename: string, systemType: string): { min?: n
     if (m) return { min: parseFloat(m[1]) };
   }
   if (systemType === 'mac') {
-    // (?!\d) at the end stops a date like "macOS-2024-07-28" from matching "20" as
-    // if it were a truncated macOS version number.
-    const m = f.match(/(?:macos|osx|mac)(?:[-_](?:universal|intel|arm64))?[-_](\d{1,2}(?:\.\d{1,2})?)(?!\d)/);
+    // Major version is constrained to 10-16 (the real macOS range) rather than any 1-2
+    // digit number — otherwise a semver tail like "-mac-1.0.0.zip" misreads "1.0" as a
+    // macOS deployment target. This also makes the old "(?!\d)" date guard unnecessary.
+    const m = f.match(/(?:macos|osx|mac)(?:[-_](?:universal|intel|arm64))?[-_](1[0-6](?:\.\d{1,2})?)(?!\d)/);
     if (m) return { min: parseFloat(m[1]) };
   }
   // Linux intentionally excluded: distro version tokens (ubuntu-20.04, fedora-38) reflect
@@ -96,26 +97,33 @@ function inferSystems(filename: string): Array<{ type: string; min?: number }> {
   // Left-boundary guard is required: plain substring matching on "win" false-positives
   // inside product names like "airWINdows-..." and "clang-arm64-darWIN.dmg". The right
   // side must allow a digit too ("win32", "win64" have no separator before the number).
-  if (/(?<![a-z])win(?:dows)?(?=[-_.0-9]|$)|\.exe$|\.msi$/.test(f)) found.add('win');
+  // "w32"/"w64" is a shorthand some CI configs use in place of the full "win32"/"win64".
+  if (/(?<![a-z])win(?:dows)?(?=[-_.0-9]|$)|\bw(?:32|64)\b|\.exe$|\.msi$/.test(f)) found.add('win');
   if (/mac(os)?[-_.]|[-_.]mac(os)?|\bosx\b|darwin|\.dmg$|\.pkg$/.test(f)) found.add('mac');
   // Distro names (ubuntu, debian, fedora) are common in CI-built asset names and carry
   // no literal "linux" substring — without this, those assets are silently dropped below.
-  if (/linux[-_.]|[-_.]linux|ubuntu|debian|fedora|\.deb$|\.rpm$|\.appimage$/.test(f)) found.add('linux');
+  // "lin"/"lin64"/"lin32" is a shorthand some CI configs use in place of "linux".
+  if (/linux[-_.]|[-_.]linux|ubuntu|debian|fedora|\.deb$|\.rpm$|\.appimage$|\blin(?:32|64)?\b/.test(f))
+    found.add('linux');
   return [...found].map(type => ({ type, ...inferVersionConstraint(filename, type) }));
 }
 
-// Returns null when the filename indicates an architecture with no corresponding
-// registry value (e.g. RISC-V) — callers must skip the asset rather than guess.
-function inferArchitectures(filename: string): string[] | null {
+// Returns archs: null when the filename indicates an architecture with no corresponding
+// registry value (e.g. RISC-V) — callers must skip the asset rather than guess. Returns
+// confident: false when no filename hint was found at all and ['x64'] is just a fallback
+// guess — callers should treat this as unverified rather than asserting it as fact,
+// especially for macOS builds which are frequently universal (arm64 + x64) binaries with
+// no architecture token in the filename.
+function inferArchitectures(filename: string): { archs: string[] | null; confident: boolean } {
   const f = filename.toLowerCase();
-  if (/riscv|risc-v/.test(f)) return null;
-  if (/universal|fat/.test(f)) return ['arm64', 'x64'];
-  if (/arm64ec/.test(f)) return ['arm64ec']; // check before the broader arm64 pattern below
-  if (/arm64|aarch64|\barm\b|[-_]m[123][-_.]|apple[._-]?silicon/.test(f)) return ['arm64'];
-  if (/armhf|armv7|arm32/.test(f)) return ['arm32'];
-  if (/x86[_-]64|amd64|\bx64\b|64[-_]?bit/.test(f)) return ['x64'];
-  if (/\bx86\b(?![-_]64)|i[3-6]86|\bx32\b|32[-_]?bit|win32/.test(f)) return ['x32'];
-  return ['x64']; // safe default; flag for review if no hint found
+  if (/riscv|risc-v/.test(f)) return { archs: null, confident: true };
+  if (/universal|fat/.test(f)) return { archs: ['arm64', 'x64'], confident: true };
+  if (/arm64ec/.test(f)) return { archs: ['arm64ec'], confident: true }; // check before the broader arm64 pattern below
+  if (/arm64|aarch64|\barm\b|[-_]m[123][-_.]|apple[._-]?silicon/.test(f)) return { archs: ['arm64'], confident: true };
+  if (/armhf|armv7|arm32/.test(f)) return { archs: ['arm32'], confident: true };
+  if (/x86[_-]64|amd64|\bx64\b|64[-_]?bit/.test(f)) return { archs: ['x64'], confident: true };
+  if (/\bx86\b(?![-_]64)|i[3-6]86|\bx32\b|32[-_]?bit|win32/.test(f)) return { archs: ['x32'], confident: true };
+  return { archs: ['x64'], confident: false }; // safe default; flag for review if no hint found
 }
 
 // `systems` determines the correct per-platform VST2 enum value: the registry
@@ -147,6 +155,84 @@ function inferContains(filename: string, systems: Array<{ type: string }>, relea
 
 function inferFileType(filename: string): string {
   return /\.(exe|msi|dmg|pkg|deb|rpm|appimage)$/i.test(filename) ? 'installer' : 'archive';
+}
+
+// ── Archive content inspection ──────────────────────────────────────────────────
+// Filename regexes are the first line of defense but are frequently silent for single-archive
+// builds (common with DPF/JUCE projects) that carry no platform or format hint in the name at
+// all. When we already have the asset downloaded, extract it and inspect what's really inside —
+// far more reliable than guessing from the filename or README prose. Only handles zip/tar
+// archives (not dmg/pkg/exe installers, which need macOS/Windows-specific tools) — installers
+// still need the manual inspection steps documented in AGENTS.md.
+const EXTRACTABLE_ARCHIVE = /\.(zip|tar\.gz|tgz|tar\.xz|tar\.bz2)$/i;
+
+function extractArchive(tmpFile: string, filename: string): string | null {
+  const dir = `${tmpFile}-extracted`;
+  try {
+    mkdirSync(dir, { recursive: true });
+    if (/\.zip$/i.test(filename)) execSync(`unzip -oq "${tmpFile}" -d "${dir}"`, { stdio: 'pipe' });
+    else if (/\.tar\.gz$|\.tgz$/i.test(filename)) execSync(`tar -xzf "${tmpFile}" -C "${dir}"`, { stdio: 'pipe' });
+    else if (/\.tar\.xz$/i.test(filename)) execSync(`tar -xJf "${tmpFile}" -C "${dir}"`, { stdio: 'pipe' });
+    else if (/\.tar\.bz2$/i.test(filename)) execSync(`tar -xjf "${tmpFile}" -C "${dir}"`, { stdio: 'pipe' });
+    else return null;
+    return dir;
+  } catch {
+    return null; // corrupt archive or unsupported compression — caller falls back to filename inference
+  }
+}
+
+interface ArchiveInspection {
+  platforms: Set<string>;
+  formats: Set<string>; // '__vst2__' stands in for the platform-specific vst/so/dll value
+  macArchitectures: Set<string>;
+}
+
+function inspectExtractedDir(dir: string): ArchiveInspection {
+  const result: ArchiveInspection = { platforms: new Set(), formats: new Set(), macArchitectures: new Set() };
+  let listing = '';
+  try {
+    listing = execSync(`find "${dir}"`, { encoding: 'utf8', stdio: ['pipe', 'pipe', 'pipe'] }).toLowerCase();
+  } catch {
+    return result;
+  }
+  if (/\.vst3(\/|$)/m.test(listing)) result.formats.add('vst3');
+  if (/\.component(\/|$)/m.test(listing)) result.formats.add('component');
+  if (/\.clap(\/|$)/m.test(listing)) result.formats.add('clap');
+  if (/\.lv2(\/|$)/m.test(listing)) result.formats.add('lv2');
+  if (/\.aaxplugin(\/|$)/m.test(listing)) result.formats.add('aax');
+  if (/\.vst(\/|$)/m.test(listing) && !/\.vst3(\/|$)/m.test(listing)) result.formats.add('__vst2__');
+
+  // Inspect real binaries for platform/architecture — `file` reads magic bytes, so this is
+  // authoritative even when directory/file names give no hint at all.
+  try {
+    const candidates = execSync(
+      `find "${dir}" -type f \\( -name "*.dylib" -o -name "*.so" -o -name "*.dll" -o -name "*.exe" -o -perm +111 \\)`,
+      { encoding: 'utf8', stdio: ['pipe', 'pipe', 'pipe'] },
+    )
+      .split('\n')
+      .filter(Boolean)
+      .slice(0, 20); // cap — large bundles can contain hundreds of resource files
+    for (const f of candidates) {
+      let info = '';
+      try {
+        info = execSync(`file -b "${f}"`, { encoding: 'utf8', stdio: ['pipe', 'pipe', 'pipe'] });
+      } catch {
+        continue;
+      }
+      if (/mach-o/i.test(info)) {
+        result.platforms.add('mac');
+        if (/\barm64\b/.test(info)) result.macArchitectures.add('arm64');
+        if (/\bx86_64\b/.test(info)) result.macArchitectures.add('x64');
+      } else if (/pe32\+?\s+executable|ms-dos/i.test(info)) {
+        result.platforms.add('win');
+      } else if (/elf\s+\d+-bit/i.test(info)) {
+        result.platforms.add('linux');
+      }
+    }
+  } catch {
+    /* find/file unavailable, or no matching binaries — inspection is best-effort */
+  }
+  return result;
 }
 
 // ── Plugin type detection ─────────────────────────────────────────────────────
@@ -220,15 +306,6 @@ async function findImageUrl(org: string, repo: string, branch: string, readme: s
 }
 
 // ── File download helpers ─────────────────────────────────────────────────────
-
-async function hashUrl(url: string): Promise<{ sha256: string; size: number }> {
-  process.stdout.write(`  Hashing ${path.basename(url)}... `);
-  const res = await fetch(url);
-  if (!res.ok) throw new Error(`HTTP ${res.status} for ${url}`);
-  const buffer = Buffer.from(await res.arrayBuffer());
-  console.log('done');
-  return { sha256: createHash('sha256').update(buffer).digest('hex'), size: buffer.length };
-}
 
 async function downloadAndConvertImage(url: string, destPath: string): Promise<void> {
   const tmp = `/tmp/oas-fetch-img-${Date.now()}`;
@@ -327,31 +404,77 @@ async function main() {
   const files = [];
   const unknownContains: string[] = [];
   const skippedAssets: string[] = [];
+  const unconfirmedArchitectures: string[] = [];
+  const cleanupPaths: string[] = [];
   for (const asset of release.assets as any[]) {
-    const systems = inferSystems(asset.name);
-    if (systems.length === 0) {
-      // Likely a checksum file or source tarball — but could also be a real binary
-      // whose platform this script's regexes don't recognize. Always surface it below
-      // rather than dropping it silently.
-      skippedAssets.push(`${asset.name} (no system/platform recognized)`);
-      continue;
-    }
+    let systems = inferSystems(asset.name);
 
-    const architectures = inferArchitectures(asset.name);
-    if (architectures === null) {
+    const archResult = inferArchitectures(asset.name);
+    if (archResult.archs === null) {
       skippedAssets.push(`${asset.name} (unsupported architecture, e.g. RISC-V — no registry value exists)`);
       continue;
     }
+    let architectures = archResult.archs;
+
+    let contains =
+      systems.length > 0 ? inferContains(asset.name, systems, release.body ?? '', readme) : ([] as string[]);
+
+    // Filename alone couldn't place the platform or the format — download and look inside
+    // the archive itself rather than guessing or dropping a possibly-real binary.
+    const needsInspection = (systems.length === 0 || contains.length === 0) && EXTRACTABLE_ARCHIVE.test(asset.name);
 
     let sha256: string = asset.digest ? (asset.digest as string).replace('sha256:', '') : '';
     let size: number = asset.size;
-    if (!sha256) {
-      const hashed = await hashUrl(asset.url);
-      sha256 = hashed.sha256;
-      size = hashed.size;
+    let tmpFile: string | null = null;
+    if (!sha256 || needsInspection) {
+      process.stdout.write(`  Downloading ${asset.name}... `);
+      const res = await fetch(asset.url);
+      if (!res.ok) throw new Error(`HTTP ${res.status} for ${asset.url}`);
+      const buffer = Buffer.from(await res.arrayBuffer());
+      console.log('done');
+      if (!sha256) sha256 = createHash('sha256').update(buffer).digest('hex');
+      if (!size) size = buffer.length;
+      if (needsInspection) {
+        tmpFile = `/tmp/oas-fetch-asset-${Date.now()}-${path.basename(asset.name)}`;
+        writeFileSync(tmpFile, buffer);
+        cleanupPaths.push(tmpFile);
+      }
     }
 
-    const contains = inferContains(asset.name, systems, release.body ?? '', readme);
+    let macArchFromInspection: string[] = [];
+    if (tmpFile) {
+      const extractedDir = extractArchive(tmpFile, asset.name);
+      if (extractedDir) {
+        cleanupPaths.push(extractedDir);
+        const inspected = inspectExtractedDir(extractedDir);
+        if (systems.length === 0 && inspected.platforms.size > 0) {
+          systems = [...inspected.platforms].map(type => ({ type, ...inferVersionConstraint(asset.name, type) }));
+        }
+        if (contains.length === 0 && inspected.formats.size > 0) {
+          const platform = systems[0]?.type;
+          const vst2Value = platform === 'linux' ? 'so' : platform === 'win' ? 'dll' : 'vst';
+          contains = [...inspected.formats].map(f => (f === '__vst2__' ? vst2Value : f));
+        }
+        macArchFromInspection = [...inspected.macArchitectures];
+      }
+    }
+
+    if (systems.length === 0) {
+      // Likely a checksum file or source tarball — but could also be a real binary whose
+      // platform not even archive inspection could place. Always surface it below rather
+      // than dropping it silently.
+      skippedAssets.push(`${asset.name} (no system/platform recognized, even after archive inspection)`);
+      continue;
+    }
+
+    if (macArchFromInspection.length > 0) {
+      architectures = macArchFromInspection;
+    } else if (!archResult.confident && systems.some(s => s.type === 'mac')) {
+      // Mac builds are frequently universal (arm64 + x64) with no architecture token in the
+      // filename — don't silently assert x64, flag it for the reviewer to confirm.
+      unconfirmedArchitectures.push(`${asset.name} (defaulted to x64 — verify with 'file' on the binary inside)`);
+    }
+
     if (contains.length === 0) unknownContains.push(path.basename(asset.name));
 
     files.push({
@@ -363,6 +486,13 @@ async function main() {
       sha256,
       url: asset.url,
     });
+  }
+  for (const p of cleanupPaths) {
+    try {
+      execSync(`rm -rf "${p}"`, { stdio: 'pipe' });
+    } catch {
+      /* best-effort cleanup of /tmp scratch files */
+    }
   }
 
   // Audio
@@ -454,6 +584,10 @@ async function main() {
       `  ⚠ skipped ${skippedAssets.length} release asset(s) entirely — verify none of these are real binaries:`,
     );
     skippedAssets.forEach(a => console.log(`      - ${a}`));
+  }
+  if (unconfirmedArchitectures.length > 0) {
+    console.log(`  ⚠ architectures unconfirmed for ${unconfirmedArchitectures.length} file(s) — verify manually:`);
+    unconfirmedArchitectures.forEach(a => console.log(`      - ${a}`));
   }
 }
 

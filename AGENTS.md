@@ -194,8 +194,9 @@ The script automatically:
 - Finds and downloads a demo audio file from the README, converting it to a 10-second FLAC clip
 - Fetches the latest (or specified) release assets with sizes and SHA256 hashes
 - Infers systems, architectures, and plugin formats from asset filenames and README text
+- For `.zip`/`.tar.gz`/`.tar.xz`/`.tar.bz2` assets where the filename alone doesn't reveal the platform or plugin format, downloads and extracts the archive and inspects the real contents (bundle extensions like `.vst3`/`.component`/`.clap`/`.lv2`, and the actual binaries via `file`) instead of guessing. This does **not** apply to installer types (`.dmg`, `.pkg`, `.exe`, `.deb`) — those still need the manual inspection steps below.
 - Writes `src/<type>/org-name/package-name/version/index.yaml` and the image/audio files
-- Prints a warning listing any release assets it could not confidently place (unrecognized platform, unsupported architecture, or unknown format) — always read this list, don't just look at the generated YAML
+- Prints a warning listing any release assets it could not confidently place (unrecognized platform, unsupported architecture, or unknown format), plus a separate list of files where the architecture is an unverified default (typically a Mac build with no arch token in the filename, where archive inspection also found nothing conclusive) — always read both lists, don't just look at the generated YAML
 
 **Before trusting the output, verify you fetched the right release.** A repo can have multiple release "channels" that are easy to confuse:
 
@@ -226,7 +227,7 @@ The script is deterministic — it reads only what GitHub's API and the README p
 
 `image` is a **required** field — the validate script will throw and abort if it's missing, not just warn. If, after checking all of the above, no image exists anywhere (no screenshot, no icon, no logo, and the plugin genuinely has no UI to capture), the package cannot be added by automated fetch. Report it to the user as failed with the reason, the same as a licensing or binary-availability failure — don't fabricate a placeholder image.
 
-**`architectures`** — inferred from asset filenames (e.g. `x64`, `arm64`, `arm64ec`, `arm32`, `m1`). Filenames that give no architecture hint default to `[x64]`. Mac builds that are universal binaries (arm64 + x64) often have no hint in the filename — check the release notes or README to confirm, or download and run `lipo -info` on the binary. There is no registry value for RISC-V (`riscv64`) — the fetch script drops these assets automatically and flags them in its "skipped" list; leave them out rather than mislabeling the architecture.
+**`architectures`** — inferred from asset filenames (e.g. `x64`, `arm64`, `arm64ec`, `arm32`, `m1`). Filenames that give no architecture hint default to `[x64]`. Mac builds that are universal binaries (arm64 + x64) often have no hint in the filename — for `.zip`/`.tar.*` assets the fetch script now extracts the archive and runs `file` on the binary itself to confirm the real architecture(s) automatically; for `.dmg`/`.pkg` installers (which it doesn't extract), check the release notes or README, or download and run `lipo -info` on the binary yourself. If the script couldn't confirm an architecture either way, it prints the file in an "architectures unconfirmed" list at the end — treat every entry there as still defaulted to `[x64]` and needing a manual check, not as verified. There is no registry value for RISC-V (`riscv64`) — the fetch script drops these assets automatically and flags them in its "skipped" list; leave them out rather than mislabeling the architecture.
 
 **`systems[].min` / `systems[].max`** — optional OS version bounds (see <a href="specification.md#file">the spec</a>). **The default is no constraint** — if a plugin author doesn't say otherwise, assume the build works on every version of that OS and leave `min`/`max` off entirely. Only add a bound when there's actual evidence: a filename token (`windows7`, `macos-10.15`), a release-notes line, a README requirement, or a CI config that targets a specific minimum.
 
@@ -242,10 +243,10 @@ What the script **cannot** infer, and you should add by hand after checking the 
 - Any minimum stated only in prose ("Requires macOS 11 Big Sur or later", "Windows 10 1903+ required") — read the README/release notes for this, since the filename won't always carry it.
 - An upper bound (`max`). This is rare — only add one if you have positive evidence the build is broken or blocked on newer OS versions (e.g. an old 32-bit-only Windows build that Windows 11 dropped support for). Don't infer a `max` just because a `min` exists elsewhere; a compatibility build is usually a floor, not a ceiling — most old-OS builds keep working on newer systems too.
 
-**`contains`** — inferred from asset filenames first, then the release body, then the README. For installer packages (`.exe`, `.dmg`, `.deb`) this is especially unreliable because the installer bundles multiple formats internally, and single-archive builds (common for DPF/JUCE projects) often carry no format hint in the filename at all. When the fetch script flags a file's `contains` as unknown, or when a plugin ships one installer per platform bundling several formats, **do not guess** — download the asset and list its contents directly:
+**`contains`** — inferred from asset filenames first, then the release body, then the README. For `.zip`/`.tar.gz`/`.tar.xz`/`.tar.bz2` assets, if none of those give an answer the fetch script now downloads and extracts the archive itself and looks for `.vst3`/`.component`/`.clap`/`.lv2`/`.aaxplugin`/`.vst` bundle paths directly — this catches most single-archive builds (common for DPF/JUCE projects) that carry no format hint in the filename at all, without any manual work. It still can't do this for installer packages (`.exe`, `.dmg`, `.deb`), since those need platform-specific tools to unpack, and installers are also especially unreliable because they bundle multiple formats internally. When the fetch script still flags a file's `contains` as unknown, or when a plugin ships one installer per platform bundling several formats, **do not guess** — download the asset and list its contents directly:
 
 ```bash
-# zip/tar archives
+# zip/tar archives (only needed if the automated inspection above still left it unknown)
 unzip -l file.zip        # or: tar -tJf file.tar.xz
 
 # macOS .dmg (mount, then expand the .pkg inside if present)
@@ -257,7 +258,7 @@ hdiutil detach /tmp/mnt
 mkdir /tmp/deb && cd /tmp/deb && ar x /path/to/file.deb && tar -tf data.tar.*
 ```
 
-This is the only reliable way to confirm formats — filename and README text both routinely disagree with what's actually inside the archive (GitHub topics like `vst2` or `lv2` may not reflect what's actually shipped, and vice versa).
+This is the only reliable way to confirm formats for installer packages — filename and README text both routinely disagree with what's actually inside the archive (GitHub topics like `vst2` or `lv2` may not reflect what's actually shipped, and vice versa). Even after automated archive inspection, always spot-check the `contains` the script produced against the file list printed in its output.
 
 **File list** — include **every** binary release asset for the package. Do not trim the list to one file per platform. Releases often ship multiple variants for the same platform (e.g. a compatibility build, an optimised/SSE build, a standalone app, and per-format archives). Each is a separate entry in the `files` array with its own `contains` value. To determine what each file contains:
 
