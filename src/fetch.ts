@@ -139,7 +139,7 @@ function inferArchitectures(filename: string): { archs: string[] | null; confide
 
 // `systems` determines the correct per-platform VST2 enum value: the registry
 // distinguishes vst (Mac), so (Linux), and dll (Windows) — there is no generic "vst2".
-function inferContains(filename: string, systems: Array<{ type: string }>, releaseBody = '', readme = ''): string[] {
+function inferContainsFromFilename(filename: string, systems: Array<{ type: string }>): string[] {
   const f = filename.toLowerCase();
   const formats: string[] = [];
   const platform = systems[0]?.type;
@@ -151,16 +151,24 @@ function inferContains(filename: string, systems: Array<{ type: string }>, relea
   if (tok('clap').test(f)) formats.push('clap');
   if (tok('lv2').test(f)) formats.push('lv2');
   if (tok('aax').test(f)) formats.push('aax');
+  return formats;
+}
 
-  // Fallback: scan release body then README when filename has no format indicators
-  if (formats.length === 0) {
-    const context = (releaseBody + ' ' + readme.slice(0, 5000)).toLowerCase();
-    if (tok('vst3').test(context)) formats.push('vst3');
-    if (tok('vst2').test(context) || (tok('vst').test(context) && !formats.includes('vst3'))) formats.push(vst2Value);
-    if (tok('clap').test(context)) formats.push('clap');
-    if (tok('lv2').test(context)) formats.push('lv2');
-    if (/\baudio\s*unit\b/.test(context)) formats.push('component');
-  }
+// README/release-body prose is the least reliable signal — a README mentioning "VST3"
+// but not spelling out "Audio Unit" produces a plausible-looking but incomplete answer
+// that (if trusted) would block the more authoritative archive-content inspection in
+// main() from ever running. Callers should only reach for this after filename inference
+// AND archive inspection have both come up empty (e.g. non-extractable installer types).
+function inferContainsFromText(releaseBody: string, readme: string, systems: Array<{ type: string }>): string[] {
+  const formats: string[] = [];
+  const platform = systems[0]?.type;
+  const vst2Value = platform === 'linux' ? 'so' : platform === 'win' ? 'dll' : 'vst';
+  const context = (releaseBody + ' ' + readme.slice(0, 5000)).toLowerCase();
+  if (tok('vst3').test(context)) formats.push('vst3');
+  if (tok('vst2').test(context) || (tok('vst').test(context) && !formats.includes('vst3'))) formats.push(vst2Value);
+  if (tok('clap').test(context)) formats.push('clap');
+  if (tok('lv2').test(context)) formats.push('lv2');
+  if (/\baudio\s*unit\b/.test(context)) formats.push('component');
   return formats;
 }
 
@@ -433,8 +441,7 @@ async function main() {
     }
     let architectures = archResult.archs;
 
-    let contains =
-      systems.length > 0 ? inferContains(asset.name, systems, release.body ?? '', readme) : ([] as string[]);
+    let contains = systems.length > 0 ? inferContainsFromFilename(asset.name, systems) : ([] as string[]);
 
     // Filename alone couldn't place the platform or the format, or couldn't confirm the
     // architecture of a Mac build (frequently a universal arm64+x64 binary with no filename
@@ -486,6 +493,10 @@ async function main() {
       skippedAssets.push(`${asset.name} (no system/platform recognized, even after archive inspection)`);
       continue;
     }
+
+    // Last resort: filename gave no format hint, and either the asset wasn't an extractable
+    // archive (e.g. a .dmg/.exe installer) or inspection ran but still found nothing.
+    if (contains.length === 0) contains = inferContainsFromText(release.body ?? '', readme, systems);
 
     if (macArchFromInspection.length > 0) {
       architectures = macArchFromInspection;
