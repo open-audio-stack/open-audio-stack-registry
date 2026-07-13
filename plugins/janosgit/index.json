@@ -1,0 +1,62 @@
+{
+  "janosgit/schrammel-ojd": {
+    "slug": "janosgit/schrammel-ojd",
+    "version": "0.9.8",
+    "versions": {
+      "0.9.8": {
+        "name": "Schrammel OJD",
+        "author": "JanosGit",
+        "description": "Audio plugin model of a modern classic guitar overdrive Pedal",
+        "license": "gpl-3.0",
+        "type": "effect",
+        "tags": [
+          "Effect",
+          "Guitar",
+          "Overdrive"
+        ],
+        "url": "https://github.com/JanosGit/Schrammel_OJD",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/janosgit/schrammel-ojd/schrammel-ojd.jpg",
+        "date": "2021-12-13T22:27:00Z",
+        "changes": "The first update after some long time. The release artifacts are now build via GitHub actions. A lot of rework under the hood, but the user interface isn't completely reworked yet and AAX and Linux are also not ready yet.\n\nChangelog since 0.9.7:\n- Changed default parameters to compensate volume drop when first loading the plugin\n- Avoid possible audio glitches when modulating parameters fast\n- Make stereo processing possible\n- Added an info page with version and update info",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "component"
+            ],
+            "type": "installer",
+            "size": 12485414,
+            "sha256": "8f1892bd7c107fdb745287b3dcfe98d631ce704c50fd7f72234f361cf6b928d3",
+            "url": "https://github.com/JanosGit/Schrammel_OJD/releases/download/0.9.8/Install.OJD.0.9.8.dmg"
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "installer",
+            "size": 28174274,
+            "sha256": "9548496fdec20fb6cc7a5abe33331bff91dff8379fc59e7c6625cb5032fc86d0",
+            "url": "https://github.com/JanosGit/Schrammel_OJD/releases/download/0.9.8/Install.OJD.0.9.8.exe"
+          }
+        ],
+        "verified": true
+      }
+    }
+  }
+}
