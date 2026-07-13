@@ -1,0 +1,23 @@
+name: Vibrato Plugin
+author: Speechrezz
+description: A simple vibrato effects plugin
+license: mit
+type: effect
+tags:
+  - Vibrato
+  - Modulation
+url: https://github.com/Speechrezz/VibratoPlugin
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/speechrezz/vibratoplugin/vibratoplugin.jpg
+date: '2022-05-28T18:24:12Z'
+changes: The plugin now stores the scale settings globally
+files:
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - vst3
+    type: archive
+    size: 4367872
+    sha256: 533f11ed1796072870810c0e145cb4c3b84384ff9670b4fce49a4ab2e4a8469c
+    url: https://github.com/Speechrezz/VibratoPlugin/releases/download/v0.3/Vibrato.vst3
