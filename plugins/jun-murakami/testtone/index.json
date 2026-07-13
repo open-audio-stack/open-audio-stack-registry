@@ -1,0 +1,133 @@
+{
+  "slug": "jun-murakami/testtone",
+  "version": "1.0.5",
+  "versions": {
+    "1.0.5": {
+      "name": "TestTone",
+      "author": "Jun Murakami",
+      "description": "A minimal test-signal generator plugin. Generates a sine wave or pink noise, for VST3/AU/AAX/CLAP/LV2.",
+      "license": "agpl-3.0",
+      "type": "tool",
+      "tags": [
+        "Utility",
+        "Test Tone",
+        "Signal Generator"
+      ],
+      "url": "https://github.com/Jun-Murakami/TestTone",
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/jun-murakami/testtone/testtone.jpg",
+      "date": "2026-07-08T07:14:50Z",
+      "changes": "- Fixed an issue where the plugin screen would not launch in some Linux environments.\n- Updated various libraries and frameworks.",
+      "files": [
+        {
+          "systems": [
+            {
+              "type": "linux"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "vst3",
+            "clap",
+            "lv2",
+            "elf"
+          ],
+          "type": "archive",
+          "size": 11178853,
+          "sha256": "659d8b8ff533efb817ca6de7f950432225bdbafb22f769be7008153d438531a9",
+          "url": "https://github.com/Jun-Murakami/TestTone/releases/download/v1.0.5/TestTone_1.0.5_Linux_VST3_LV2_CLAP_Standalone.zip"
+        },
+        {
+          "systems": [
+            {
+              "type": "mac",
+              "min": 10.15
+            }
+          ],
+          "architectures": [
+            "arm64",
+            "x64"
+          ],
+          "contains": [
+            "vst3",
+            "component",
+            "clap",
+            "aax",
+            "app"
+          ],
+          "type": "installer",
+          "size": 26757646,
+          "sha256": "48db3c9f9636317c0f34bd0d8c9dd33187ee2e5294d8e9b0670b14242d973939",
+          "url": "https://github.com/Jun-Murakami/TestTone/releases/download/v1.0.5/TestTone_1.0.5_macOS.pkg"
+        },
+        {
+          "systems": [
+            {
+              "type": "mac",
+              "min": 10.15
+            }
+          ],
+          "architectures": [
+            "arm64",
+            "x64"
+          ],
+          "contains": [
+            "vst3",
+            "component",
+            "clap",
+            "aax",
+            "app"
+          ],
+          "type": "archive",
+          "size": 26706688,
+          "sha256": "e87dee623a334b30718c2afa7117cfd3d674caa8211a82417abe73b614d069fc",
+          "url": "https://github.com/Jun-Murakami/TestTone/releases/download/v1.0.5/TestTone_1.0.5_macOS_VST3_AU_AAX_CLAP_Standalone.zip"
+        },
+        {
+          "systems": [
+            {
+              "type": "win",
+              "min": 10
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "vst3",
+            "clap",
+            "aax",
+            "exe"
+          ],
+          "type": "installer",
+          "size": 14824464,
+          "sha256": "960b9fc67078a7228dbf50db7cf288cbf46498fab801d1f23eba503875da379c",
+          "url": "https://github.com/Jun-Murakami/TestTone/releases/download/v1.0.5/TestTone_1.0.5_Windows_Setup.exe"
+        },
+        {
+          "systems": [
+            {
+              "type": "win",
+              "min": 10
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "vst3",
+            "clap",
+            "aax",
+            "exe"
+          ],
+          "type": "archive",
+          "size": 19935284,
+          "sha256": "afc7bfacfd182487f7ab2b7f09025918edc2aa50534de92d81646c1ec60e571e",
+          "url": "https://github.com/Jun-Murakami/TestTone/releases/download/v1.0.5/TestTone_1.0.5_Windows_VST3_AAX_CLAP_Standalone.zip"
+        }
+      ],
+      "verified": true
+    }
+  }
+}
