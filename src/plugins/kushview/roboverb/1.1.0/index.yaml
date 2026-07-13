@@ -1,0 +1,49 @@
+name: Roboverb
+author: Kushview
+description: A VST / VST3 / AU / LV2 / CLAP Reverb Plugin
+license: gpl-3.0
+type: effect
+tags:
+  - Effect
+  - Reverb
+url: https://github.com/kushview/roboverb
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/kushview/roboverb/roboverb.jpg
+date: '2019-08-15T18:10:07Z'
+changes: |-
+  - Ported to LV2
+  - Updated to JUCE v5.x
+files:
+  - systems:
+      - type: mac
+    architectures:
+      - x64
+    contains:
+      - vst3
+      - vst
+      - component
+    type: archive
+    size: 11243905
+    sha256: f0de5b9819433f6ee5eb7e368003fc8585a46f7b6fdf7ecd12c0b299d5cf4ea2
+    url: https://github.com/kushview/roboverb/releases/download/1.1.0/roboverb-osx-1.1.0.zip
+  - systems:
+      - type: win
+    architectures:
+      - x32
+    contains:
+      - vst3
+      - dll
+    type: archive
+    size: 16299114
+    sha256: a597af9b831c94183299af91011319f3d433b8db66f0ecf0ac547481cdc88745
+    url: https://github.com/kushview/roboverb/releases/download/1.1.0/roboverb-windows-1.1.0.zip
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - vst3
+      - dll
+    type: archive
+    size: 16299114
+    sha256: a597af9b831c94183299af91011319f3d433b8db66f0ecf0ac547481cdc88745
+    url: https://github.com/kushview/roboverb/releases/download/1.1.0/roboverb-windows-1.1.0.zip
