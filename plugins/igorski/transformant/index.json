@@ -1,0 +1,78 @@
+{
+  "slug": "igorski/transformant",
+  "version": "1.0.4",
+  "versions": {
+    "1.0.4": {
+      "name": "Transformant",
+      "author": "Igor Zinken",
+      "description": "A stereo formant filter effect, driven by oscillators and obliterated to gravel through bit crushing or wave shaping.",
+      "license": "mit",
+      "type": "effect",
+      "tags": [
+        "Filter",
+        "Formant"
+      ],
+      "url": "https://github.com/igorski/transformant",
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/igorski/transformant/transformant.jpg",
+      "date": "2025-05-16T18:21:30Z",
+      "changes": "Version 1.0.4 built against Steinberg SDK version 3.7.11.10",
+      "files": [
+        {
+          "systems": [
+            {
+              "type": "mac"
+            }
+          ],
+          "architectures": [
+            "arm64",
+            "x64"
+          ],
+          "contains": [
+            "vst3",
+            "vst"
+          ],
+          "type": "archive",
+          "size": 9312123,
+          "sha256": "c88e9e5f0a856184b8202cd3382122e118fdb326dca0ba36e99f239eb745d7d0",
+          "url": "https://github.com/igorski/transformant/releases/download/1.0.4/transformant.1.0.4_macos.zip"
+        },
+        {
+          "systems": [
+            {
+              "type": "win"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "vst3",
+            "dll"
+          ],
+          "type": "archive",
+          "size": 2361531,
+          "sha256": "5833b04a2ad697c6dc5f3c920ee7ceec354a5a60f8968cf4f55db734efa9d14e",
+          "url": "https://github.com/igorski/transformant/releases/download/1.0.4/transformant.1.0.4_windows.zip"
+        },
+        {
+          "systems": [
+            {
+              "type": "win"
+            }
+          ],
+          "architectures": [
+            "x32"
+          ],
+          "contains": [
+            "dll"
+          ],
+          "type": "archive",
+          "size": 2361531,
+          "sha256": "5833b04a2ad697c6dc5f3c920ee7ceec354a5a60f8968cf4f55db734efa9d14e",
+          "url": "https://github.com/igorski/transformant/releases/download/1.0.4/transformant.1.0.4_windows.zip"
+        }
+      ],
+      "verified": true
+    }
+  }
+}
