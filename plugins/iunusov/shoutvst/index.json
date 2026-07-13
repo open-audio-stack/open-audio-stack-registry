@@ -1,0 +1,59 @@
+{
+  "slug": "iunusov/shoutvst",
+  "version": "2.1.18",
+  "versions": {
+    "2.1.18": {
+      "name": "ShoutVST",
+      "author": "Artur Iunusov",
+      "description": "Streams audio from a VST host directly into Icecast/SHOUTcast, ideal for streaming live performances from applications like Traktor or Ableton without loopback methods",
+      "license": "gpl-3.0",
+      "type": "tool",
+      "tags": [
+        "Streaming",
+        "Icecast",
+        "Shoutcast"
+      ],
+      "url": "https://github.com/Iunusov/ShoutVST",
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/iunusov/shoutvst/shoutvst.jpg",
+      "date": "2017-01-05T01:07:42Z",
+      "changes": "2.1.18 release.",
+      "files": [
+        {
+          "systems": [
+            {
+              "type": "win"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "dll"
+          ],
+          "type": "archive",
+          "size": 1819648,
+          "sha256": "602410d44d2267c4cbfd819e1141e1e7b320bce41b0e97d40d95660f1e0e1314",
+          "url": "https://github.com/Iunusov/ShoutVST/releases/download/2.1.18/ShoutVST_x64.dll"
+        },
+        {
+          "systems": [
+            {
+              "type": "win"
+            }
+          ],
+          "architectures": [
+            "x32"
+          ],
+          "contains": [
+            "dll"
+          ],
+          "type": "archive",
+          "size": 1547776,
+          "sha256": "264abdf0e4b2e77f7896e6044abc1ed79baab8a5d801277f4a168cd6752ffc43",
+          "url": "https://github.com/Iunusov/ShoutVST/releases/download/2.1.18/ShoutVST_x86.dll"
+        }
+      ],
+      "verified": true
+    }
+  }
+}
