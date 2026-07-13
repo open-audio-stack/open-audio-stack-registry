@@ -1,0 +1,36 @@
+name: VisiMusic
+author: Darek Rudiš
+description: A vision-based effect modulation plugin that applies audio modulation configured from a live video input.
+license: gpl-3.0
+type: effect
+tags:
+  - Video
+  - Modulation
+url: https://github.com/darilin98/visimusic
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/darilin98/visimusic/visimusic.jpg
+date: '2026-05-04T10:02:19Z'
+changes: |-
+  - Minor adjustments to documentation
+  - Improved macOS installation script
+  - License changed to GPL-3.0
+files:
+  - systems:
+      - type: mac
+    architectures:
+      - arm64
+    contains:
+      - vst3
+    type: installer
+    size: 25693956
+    sha256: b2ead56a743bdfba3cd03d260992b78fb6f70bcf62e32b5ccf987cc2344756b2
+    url: https://github.com/darilin98/visimusic/releases/download/v1.0.1/mac_arm64_visimusic-v1.0.dmg
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - vst3
+    type: archive
+    size: 11955132
+    sha256: 59b82b794414c63e596fdb26652b5ad4b2a0e1232bc6a75823d2d5d98916e2fc
+    url: https://github.com/darilin98/visimusic/releases/download/v1.0.1/win_x86_visimusic-v1.0.vst3.zip
