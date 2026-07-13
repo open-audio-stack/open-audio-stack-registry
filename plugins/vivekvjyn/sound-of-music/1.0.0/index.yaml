@@ -1,0 +1,87 @@
+name: Sound of Music
+author: Vivek Vijayan
+description: A multiband bit crusher plugin
+license: gpl-3.0
+type: effect
+tags:
+  - Effect
+  - Bitcrusher
+  - Distortion
+url: https://github.com/vivekvjyn/Sound-of-Music
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/vivekvjyn/sound-of-music/sound-of-music.jpg
+date: '2026-07-06T20:15:39Z'
+changes: v1.0.0 release.
+files:
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - lv2
+    type: archive
+    size: 4997120
+    sha256: 1b7ff51bdd7132878ab8d103a294d7afea6cd2d0bc415e0c9bce373f99aa7327
+    url: https://github.com/vivekvjyn/Sound-of-Music/releases/download/v1.0.0/Sound.of.Music.1-linux-lv2.tar
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - vst3
+    type: archive
+    size: 5273600
+    sha256: 27b35ea5af961d298ea017f7d32d2031e312c8051874af9976a3b18b680b1a77
+    url: https://github.com/vivekvjyn/Sound-of-Music/releases/download/v1.0.0/Sound.of.Music.1-linux-vst3.tar
+  - systems:
+      - type: mac
+    architectures:
+      - arm64
+      - x64
+    contains:
+      - component
+    type: archive
+    size: 8335360
+    sha256: f837813701736dfe41fdb1db6ce06194ed02df2fa09de335d588b5481fd6df58
+    url: https://github.com/vivekvjyn/Sound-of-Music/releases/download/v1.0.0/Sound.of.Music.1-macos-au.tar
+  - systems:
+      - type: mac
+    architectures:
+      - arm64
+      - x64
+    contains:
+      - lv2
+    type: archive
+    size: 8103936
+    sha256: 654a9ae33e5be6808df9460e06953006e2a07131a39f7a150db14aaefbb5deb2
+    url: https://github.com/vivekvjyn/Sound-of-Music/releases/download/v1.0.0/Sound.of.Music.1-macos-lv2.tar
+  - systems:
+      - type: mac
+    architectures:
+      - arm64
+      - x64
+    contains:
+      - vst3
+    type: archive
+    size: 8438784
+    sha256: 093d16f3ace16274c798f445466da5624bb580534a4f18d6b1a782efc06512a3
+    url: https://github.com/vivekvjyn/Sound-of-Music/releases/download/v1.0.0/Sound.of.Music.1-macos-vst3.tar
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - lv2
+    type: archive
+    size: 6440960
+    sha256: ba1370fd56cc66094c6828f1101e7809bce639e4090738338b89d483edd67310
+    url: https://github.com/vivekvjyn/Sound-of-Music/releases/download/v1.0.0/Sound.of.Music.1-windows-lv2.tar
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - vst3
+    type: archive
+    size: 6594560
+    sha256: 0c55b3f7f2d11db15ba71444f5b76e867ef0bf7395085035b7932d1e4b63a92d
+    url: https://github.com/vivekvjyn/Sound-of-Music/releases/download/v1.0.0/Sound.of.Music.1-windows-vst3.tar
