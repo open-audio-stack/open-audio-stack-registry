@@ -1,0 +1,135 @@
+name: SPARTA
+author: Leo McCormack
+description: A collection of open-source audio plug-ins for the production and playback of spatial sound scenes, developed using JUCE and the Spatial_Audio_Framework
+license: gpl-3.0
+type: effect
+tags:
+  - Effect
+  - Spatial Audio
+  - Ambisonics
+  - Binaural
+url: https://github.com/leomccormack/SPARTA
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/leomccormack/sparta/sparta.jpg
+date: '2026-01-13T21:34:00Z'
+changes: |-
+  - Binaural plugins resample loaded HRIRs to match host samplerate if needed
+  - No more host framesize restrictions; plugins state the optimal framesize
+  - Improved GUI visual consistency across all plugins and platforms
+  - Bug fixes and minor optimisations
+  - MacOS plugins and installers are now signed and notarised
+files:
+  - systems:
+      - type: mac
+    architectures:
+      - arm64
+      - x64
+    contains:
+      - vst
+    type: installer
+    size: 251233573
+    sha256: c7838a27c4489895d9a96404ee832d5be83d385a6da9f775c87653d5b326d345
+    url: https://github.com/leomccormack/SPARTA/releases/download/v1.8.2/MacOS_SPARTA_VST_2026_01_25_v1.8.2-signed.pkg
+  - systems:
+      - type: mac
+    architectures:
+      - arm64
+      - x64
+    contains:
+      - lv2
+    type: installer
+    size: 251168790
+    sha256: 8814b2cd6b1d7cef2d71d5ae12a580f44d4f808aab19ecce6f1859063ce35b64
+    url: https://github.com/leomccormack/SPARTA/releases/download/v1.8.2/MacOS_SPARTA_LV2_2026_01_25_v1.8.2-signed.pkg
+  - systems:
+      - type: mac
+    architectures:
+      - arm64
+      - x64
+    contains:
+      - component
+    type: installer
+    size: 255576396
+    sha256: 9a4da228743bd3f0da94bfca8b4d0dca9e151b02ed9f4f4335038247d9233edd
+    url: https://github.com/leomccormack/SPARTA/releases/download/v1.8.2/MacOS_SPARTA_AU_2026_01_25_v1.8.2-signed.pkg
+  - systems:
+      - type: mac
+    architectures:
+      - arm64
+      - x64
+    contains:
+      - vst3
+    type: installer
+    size: 255119568
+    sha256: 938223e1c0e7a39dff0dc45318278d69f8b179231abbf2014abae8f75e893f2c
+    url: https://github.com/leomccormack/SPARTA/releases/download/v1.8.2/MacOS_SPARTA_VST3_2026_01_25_v1.8.2-signed.pkg
+  - systems:
+      - type: mac
+    architectures:
+      - arm64
+      - x64
+    contains:
+      - aax
+    type: installer
+    size: 255347208
+    sha256: 19eed9fb91fba49182962d819216e436729161686cdbe35f5e40c0c865e47e30
+    url: https://github.com/leomccormack/SPARTA/releases/download/v1.8.2/MacOS_SPARTA_AAX_2026_01_25_v1.8.2-signed.pkg
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - so
+    type: archive
+    size: 152853388
+    sha256: b73371264674b84baf8cca09374191af42ca6352499ccad1c5c620d00f841c78
+    url: https://github.com/leomccormack/SPARTA/releases/download/v1.8.2/Linux_SPARTA_VST_2026_01_25_v1.8.2.zip
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - lv2
+    type: archive
+    size: 152735976
+    sha256: bc8ee5a08dbacef995f6069d5e80d49ca343b0e7a5c5a9033e136691b492ce3a
+    url: https://github.com/leomccormack/SPARTA/releases/download/v1.8.2/Linux_SPARTA_LV2_2026_01_25_v1.8.2.zip
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - vst3
+    type: archive
+    size: 160563668
+    sha256: a5a64ceb4534950ede09101358d6b639450713ca4d60d467852635abb0dd3310
+    url: https://github.com/leomccormack/SPARTA/releases/download/v1.8.2/Linux_SPARTA_VST3_2026_01_25_v1.8.2.zip
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - dll
+    type: installer
+    size: 160719329
+    sha256: 4c795c3f582d50af70db77270940ebe5e38e5802df4e3a6d33b37731afa320db
+    url: https://github.com/leomccormack/SPARTA/releases/download/v1.8.2/Win64_SPARTA_VST_2026_01_25_v1.8.2.exe
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - lv2
+    type: installer
+    size: 146116694
+    sha256: 56a8362559dae9a084c2a8d543114d7abdcaa3a4ef680aedab5a00fee169e8f6
+    url: https://github.com/leomccormack/SPARTA/releases/download/v1.8.2/Win64_SPARTA_LV2_2026_01_25_v1.8.2.exe
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - vst3
+    type: installer
+    size: 162027525
+    sha256: 576e6a98c3e7108ff202b5c688f9aa3bbaa29492b01285b17a983d307317b5c0
+    url: https://github.com/leomccormack/SPARTA/releases/download/v1.8.2/Win64_SPARTA_VST3_2026_01_25_v1.8.2.exe
