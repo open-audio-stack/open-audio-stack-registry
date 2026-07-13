@@ -1,0 +1,38 @@
+name: Transfer
+author: Syl Morrison
+description: A waveshaper-based distortion plugin whose transfer function is JIT compiled from a user-entered text expression.
+license: gpl-3.0
+type: effect
+tags:
+  - Distortion
+  - Waveshaper
+url: https://github.com/MeijisIrlnd/Transfer
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/meijisirlnd/transfer/transfer.jpg
+date: '2023-01-14T05:58:25Z'
+changes: |-
+  - Oversampling
+  - Resizable UI
+  - Syntax highlighting
+  - Compiler errors
+files:
+  - systems:
+      - type: mac
+    architectures:
+      - arm64
+      - x64
+    contains:
+      - component
+    type: archive
+    size: 5698320
+    sha256: 470bbde487bce52a44a57ef6ff745c7ca4476dddf7b7a29f868aa9cdbdc14ffb
+    url: https://github.com/MeijisIrlnd/Transfer/releases/download/v0.0.2/Transfer-macOS.zip
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - vst3
+    type: archive
+    size: 3160231
+    sha256: 397c51ebb8b10eee2ca97e51dcaa3523047b66a2e59a493191fd94f118b6bfd4
+    url: https://github.com/MeijisIrlnd/Transfer/releases/download/v0.0.2/Transfer-x64.zip
