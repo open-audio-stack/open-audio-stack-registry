@@ -8442,6 +8442,66 @@
       }
     }
   },
+  "pschaupp/spectral-abyss-multiband-saturation": {
+    "slug": "pschaupp/spectral-abyss-multiband-saturation",
+    "version": "1.0.1",
+    "versions": {
+      "1.0.1": {
+        "name": "Spectral Abyss Multiband Saturation",
+        "author": "Philipp Schaupp",
+        "description": "Multiband Saturation Plugin",
+        "license": "gpl-3.0",
+        "type": "effect",
+        "tags": [
+          "Effect",
+          "Distortion",
+          "Saturation"
+        ],
+        "url": "https://github.com/pschaupp/spectral-abyss-multiband-saturation",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/pschaupp/spectral-abyss-multiband-saturation/spectral-abyss-multiband-saturation.jpg",
+        "date": "2025-10-09T19:47:24Z",
+        "changes": "Improvements:\n- New spectrum analyser\n\nBug fixes:\n- Filters in tape saturation only on left side for stereo signals fixed\n- Noise when using on Cubase instrument tracks fixed",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 3156239,
+            "sha256": "34d34483e5a3c804e49b6cec988917c2dbf97073ce9cb9fa3053c34f80cbbd37",
+            "url": "https://github.com/pschaupp/spectral-abyss-multiband-saturation/releases/download/v1.0.1/SpectralAbyssMacOS.zip"
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 2870845,
+            "sha256": "a0785be6c3908f0acbe02505d26929caf99d303093abccf9cb62ddd670a6344f",
+            "url": "https://github.com/pschaupp/spectral-abyss-multiband-saturation/releases/download/v1.0.1/SpectralAbyssWindows.zip"
+          }
+        ],
+        "verified": true
+      }
+    }
+  },
   "prg318/ripchord": {
     "slug": "prg318/ripchord",
     "version": "2.8.0",
