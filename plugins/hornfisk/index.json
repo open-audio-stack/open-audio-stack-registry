@@ -1,0 +1,103 @@
+{
+  "hornfisk/squelchbox": {
+    "slug": "hornfisk/squelchbox",
+    "version": "0.2.0",
+    "versions": {
+      "0.2.0": {
+        "name": "SquelchBox",
+        "author": "Vlad",
+        "description": "A FOSS TB-303-style acid bassline synthesizer plugin",
+        "license": "gpl-3.0",
+        "type": "instrument",
+        "tags": [
+          "Instrument",
+          "Synthesizer",
+          "Bass"
+        ],
+        "url": "https://github.com/Hornfisk/squelchbox",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/hornfisk/squelchbox/squelchbox.jpg",
+        "date": "2026-04-19T11:13:33Z",
+        "changes": "v0.2.0 release.",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "clap",
+              "elf"
+            ],
+            "type": "archive",
+            "size": 8319747,
+            "sha256": "12a84b1c28d743c94203fd9be9447fac91a23622f13a1601bb4a65bc46864b59",
+            "url": "https://github.com/Hornfisk/squelchbox/releases/download/v0.2.0/squelchbox-linux-x86_64.tar.gz"
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64"
+            ],
+            "contains": [
+              "vst3",
+              "clap",
+              "app"
+            ],
+            "type": "archive",
+            "size": 7110875,
+            "sha256": "d66f5762931d4f98c4e416827dec91eebdaaf40be7e0cb549c52fccd3ed274fd",
+            "url": "https://github.com/Hornfisk/squelchbox/releases/download/v0.2.0/squelchbox-macos-arm64.zip"
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "clap",
+              "app"
+            ],
+            "type": "archive",
+            "size": 7453518,
+            "sha256": "ac7dd88f42a8f95eb41cd499ea3c9070a176400cc0036e61e299117991025305",
+            "url": "https://github.com/Hornfisk/squelchbox/releases/download/v0.2.0/squelchbox-macos-x86_64.zip"
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "clap",
+              "exe"
+            ],
+            "type": "archive",
+            "size": 6945028,
+            "sha256": "41b40a2069a9821f38b6c993ab761b967c719ba4ea3a96e15ff660624049b459",
+            "url": "https://github.com/Hornfisk/squelchbox/releases/download/v0.2.0/squelchbox-windows-x86_64.zip"
+          }
+        ],
+        "verified": true
+      }
+    }
+  }
+}
