@@ -13109,6 +13109,129 @@
       }
     }
   },
+  "kayrockscreenprinting/ultramaster-kr106": {
+    "slug": "kayrockscreenprinting/ultramaster-kr106",
+    "version": "2.5.13",
+    "versions": {
+      "2.5.13": {
+        "name": "Ultramaster KR-106",
+        "author": "kayrockscreenprinting",
+        "description": "A synthesizer plugin emulating the Roland Juno-6, Juno-60, and Juno-106.",
+        "license": "gpl-3.0",
+        "type": "instrument",
+        "tags": [
+          "Synthesizer",
+          "Analog Emulation",
+          "Juno"
+        ],
+        "url": "https://github.com/kayrockscreenprinting/ultramaster_kr106",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/kayrockscreenprinting/ultramaster-kr106/ultramaster-kr106.jpg",
+        "date": "2026-05-07T15:55:59Z",
+        "changes": "Full changelog: https://github.com/kayrockscreenprinting/ultramaster_kr106/compare/v2.5.12...v2.5.13",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "arm64"
+            ],
+            "contains": [
+              "vst3",
+              "clap",
+              "lv2"
+            ],
+            "type": "archive",
+            "size": 19793437,
+            "sha256": "0fb844ea85d226581adf4415582c3258ee48b16a2f43a4806fd55e6d39773d49",
+            "url": "https://github.com/kayrockscreenprinting/ultramaster_kr106/releases/download/v2.5.13/KR106-Linux-arm64.zip"
+          },
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "clap",
+              "lv2"
+            ],
+            "type": "archive",
+            "size": 20587492,
+            "sha256": "a594943be8b98dc14a762203e92f4ca0e2703429fbab03cc9a1dc9790264ef64",
+            "url": "https://github.com/kayrockscreenprinting/ultramaster_kr106/releases/download/v2.5.13/KR106-Linux.zip"
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "component",
+              "clap",
+              "lv2",
+              "app"
+            ],
+            "type": "archive",
+            "size": 41146701,
+            "sha256": "e34e6ec4eca6d9ab07c5ef9ef20368267c02119e5cf41f73595be51dd80edcbe",
+            "url": "https://github.com/kayrockscreenprinting/ultramaster_kr106/releases/download/v2.5.13/KR106-macOS.zip"
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "arm64"
+            ],
+            "contains": [
+              "vst3",
+              "clap",
+              "lv2"
+            ],
+            "type": "archive",
+            "size": 8915472,
+            "sha256": "1f72cd00b8300ab7d956b108e6614701ec699170768aed5af7fbb2f9be9a0b4d",
+            "url": "https://github.com/kayrockscreenprinting/ultramaster_kr106/releases/download/v2.5.13/KR106-Windows-ARM64.zip"
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "clap",
+              "lv2"
+            ],
+            "type": "archive",
+            "size": 9405386,
+            "sha256": "640c628b247fa283a40650e84be861808fa5cd58423cefb6455ea44d9880a1f0",
+            "url": "https://github.com/kayrockscreenprinting/ultramaster_kr106/releases/download/v2.5.13/KR106-Windows.zip"
+          }
+        ],
+        "verified": true
+      }
+    }
+  },
   "jun-murakami/tinyvu": {
     "slug": "jun-murakami/tinyvu",
     "version": "1.0.6",
