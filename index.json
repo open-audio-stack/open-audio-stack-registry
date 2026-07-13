@@ -9740,6 +9740,65 @@
         }
       }
     },
+    "navicisco/stonemistress": {
+      "slug": "navicisco/stonemistress",
+      "version": "1.1.0",
+      "versions": {
+        "1.1.0": {
+          "name": "Stone Mistress",
+          "author": "NaviCisco",
+          "description": "Lush stereo chorus and phaser inspired by the Electro-Harmonix Small Stone and Stereo Electric Mistress pedals",
+          "license": "gpl-3.0",
+          "type": "effect",
+          "tags": [
+            "Effect",
+            "Chorus",
+            "Phaser"
+          ],
+          "url": "https://github.com/NaviCisco/StoneMistress",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/navicisco/stonemistress/stonemistress.jpg",
+          "date": "2025-03-25T08:12:29Z",
+          "changes": "- Fixed bug that prevented effects from being heard on Linux\n- Added AU file download",
+          "files": [
+            {
+              "systems": [
+                {
+                  "type": "win"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "vst3"
+              ],
+              "type": "archive",
+              "size": 8205824,
+              "sha256": "7b6328a6bd541f4b82817d056af7ed2e347667865b15558ea457437d6bd72c4d",
+              "url": "https://github.com/NaviCisco/StoneMistress/releases/download/1.1.0/StoneMistress.vst3"
+            },
+            {
+              "systems": [
+                {
+                  "type": "mac"
+                }
+              ],
+              "architectures": [
+                "arm64"
+              ],
+              "contains": [
+                "component"
+              ],
+              "type": "archive",
+              "size": 4783376,
+              "sha256": "15751076e21cad029e74128c306dcf59ae379ebb00c307aa058e81803bad4467",
+              "url": "https://github.com/NaviCisco/StoneMistress/releases/download/1.1.0/StoneMistress"
+            }
+          ],
+          "verified": true
+        }
+      }
+    },
     "mzuther/squeezer": {
       "slug": "mzuther/squeezer",
       "version": "2.5.4",
