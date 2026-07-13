@@ -1,0 +1,72 @@
+{
+  "name": "Setekh",
+  "author": "Full FX Media",
+  "description": "A minimalistic yet sonically powerful distortion plugin",
+  "license": "gpl-3.0",
+  "type": "effect",
+  "tags": [
+    "Effect",
+    "Distortion",
+    "Saturation"
+  ],
+  "url": "https://github.com/fullfxmedia/setekh",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/fullfxmedia/setekh/setekh.jpg",
+  "date": "2025-10-06T02:43:02Z",
+  "changes": "Bug fixes and improvements.",
+  "files": [
+    {
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3"
+      ],
+      "type": "archive",
+      "size": 11480351,
+      "sha256": "60893ff7fcd0d8cc50fb70b27aed8a11ab8c8055e030fa0324574f48b0746ea2",
+      "url": "https://github.com/fullfxmedia/setekh/releases/download/v1.0.13/setekh-linux-v1.0.13.zip"
+    },
+    {
+      "systems": [
+        {
+          "type": "mac"
+        }
+      ],
+      "architectures": [
+        "arm64",
+        "x64"
+      ],
+      "contains": [
+        "vst3",
+        "component"
+      ],
+      "type": "archive",
+      "size": 44249770,
+      "sha256": "45bcff0e199153815c7926f47d2b318d3a1ad675f07e07ffe71448eea2daee06",
+      "url": "https://github.com/fullfxmedia/setekh/releases/download/v1.0.13/setekh-macos-v1.0.13.zip"
+    },
+    {
+      "systems": [
+        {
+          "type": "win"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3"
+      ],
+      "type": "archive",
+      "size": 12331375,
+      "sha256": "192f121c9f938c4f8877b28c2a0c7667937a49c55e511c180b015a8f4b630d7e",
+      "url": "https://github.com/fullfxmedia/setekh/releases/download/v1.0.13/setekh-windows-v1.0.13.zip"
+    }
+  ],
+  "verified": true
+}
