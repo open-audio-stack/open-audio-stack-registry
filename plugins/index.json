@@ -12856,6 +12856,139 @@
       }
     }
   },
+  "jun-murakami/tinyvu": {
+    "slug": "jun-murakami/tinyvu",
+    "version": "1.0.6",
+    "versions": {
+      "1.0.6": {
+        "name": "TinyVU",
+        "author": "Jun Murakami",
+        "description": "A minimalist, pass-through VU meter plugin with a classic analog-style needle display that can be shrunk to almost any size.",
+        "license": "agpl-3.0",
+        "type": "tool",
+        "tags": [
+          "Utility",
+          "Metering",
+          "VU Meter"
+        ],
+        "url": "https://github.com/Jun-Murakami/TinyVU",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/jun-murakami/tinyvu/tinyvu.jpg",
+        "date": "2026-07-08T07:16:42Z",
+        "changes": "- Fixed an issue where the plugin screen would not launch in some Linux environments.\n- Updated various libraries and frameworks.",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "clap",
+              "lv2",
+              "elf"
+            ],
+            "type": "archive",
+            "size": 10401149,
+            "sha256": "f6bbdbe375309b2fd01c07314ea4a59ffe7c2e78b0c78509933d5dda05329816",
+            "url": "https://github.com/Jun-Murakami/TinyVU/releases/download/v1.0.6/TinyVU_1.0.6_Linux_VST3_LV2_CLAP_Standalone.zip"
+          },
+          {
+            "systems": [
+              {
+                "type": "mac",
+                "min": 10.15
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "component",
+              "clap",
+              "aax",
+              "app"
+            ],
+            "type": "installer",
+            "size": 24815044,
+            "sha256": "9be1014ad9b23a5106c4a40324e139f6a65d5bcd1bba51be20099a252d387618",
+            "url": "https://github.com/Jun-Murakami/TinyVU/releases/download/v1.0.6/TinyVU_1.0.6_macOS.pkg"
+          },
+          {
+            "systems": [
+              {
+                "type": "mac",
+                "min": 10.15
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "component",
+              "clap",
+              "aax",
+              "app"
+            ],
+            "type": "archive",
+            "size": 24764687,
+            "sha256": "512c209b9e2c567e3a6678edd91034fbaed08e36fc31552982314023b0fffed7",
+            "url": "https://github.com/Jun-Murakami/TinyVU/releases/download/v1.0.6/TinyVU_1.0.6_macOS_VST3_AU_AAX_CLAP_Standalone.zip"
+          },
+          {
+            "systems": [
+              {
+                "type": "win",
+                "min": 10
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "clap",
+              "aax",
+              "exe"
+            ],
+            "type": "installer",
+            "size": 13908592,
+            "sha256": "39f9273fce36015ed8dd7f1856b7824fbc9b18ac8bcde1cfdadbefa9ed353e61",
+            "url": "https://github.com/Jun-Murakami/TinyVU/releases/download/v1.0.6/TinyVU_1.0.6_Windows_Setup.exe"
+          },
+          {
+            "systems": [
+              {
+                "type": "win",
+                "min": 10
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "clap",
+              "aax",
+              "exe"
+            ],
+            "type": "archive",
+            "size": 19195123,
+            "sha256": "1eacfa00195f6de96f95494c095d69909217e7af39d28baf3b22f339904db1c5",
+            "url": "https://github.com/Jun-Murakami/TinyVU/releases/download/v1.0.6/TinyVU_1.0.6_Windows_VST3_AAX_CLAP_Standalone.zip"
+          }
+        ],
+        "verified": true
+      }
+    }
+  },
   "jun-murakami/testtone": {
     "slug": "jun-murakami/testtone",
     "version": "1.0.5",
