@@ -11,7 +11,7 @@ This document is licensed under a [Creative Commons 4.0](https://creativecommons
 
 ## Introduction
 
-This document describes an open specification for audio package metadata stored in a registry. The goal is to enable interoperability between multiple audio platforms and the software installed locally on users computers.
+This document describes an open specification for audio package metadata stored in a registry. The goal is to enable interoperability between multiple audio platforms and the software installed locally on users computers. Essentially, it's trying to do for audio plugins and presets what npm does for JavaScript or Cargo does for Rust.
 
 ![Open Audio Stack - Registry - Specification 1.0.0](/src/assets/open-audio-stack-diagram-registry.svg)
 
