@@ -2167,6 +2167,20 @@
       ]
     }
   },
+  "consint/tumult": {
+    "1.1.1": {
+      "recs": [
+        {
+          "field": "architectures",
+          "rec": "should support arm64"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Mac"
+        }
+      ]
+    }
+  },
   "consint/pult-eq": {
     "1.0.0": {
       "recs": [

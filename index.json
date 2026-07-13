@@ -18613,6 +18613,65 @@
         }
       }
     },
+    "consint/tumult": {
+      "slug": "consint/tumult",
+      "version": "1.1.1",
+      "versions": {
+        "1.1.1": {
+          "name": "Tumult",
+          "author": "Consistent Interruption",
+          "description": "A noisemaker, texturizer and vintage-tone maker audio effect plugin",
+          "license": "gpl-3.0",
+          "type": "effect",
+          "tags": [
+            "Noise",
+            "Texture",
+            "Saturation"
+          ],
+          "url": "https://github.com/consint/Tumult",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/consint/tumult/tumult.jpg",
+          "date": "2025-06-10T19:57:37Z",
+          "changes": "- Fixed a bug that caused an unusable lag of the GUI on Windows under some circumstances\n- Removed connection between plugin bypass button and host bypass button, as this did not work everywhere",
+          "files": [
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "vst3"
+              ],
+              "type": "archive",
+              "size": 242030776,
+              "sha256": "c92c7a38aa26b202035c2b4dd87b73ba8f2b8998184fa6c4b588dd73dd15a20e",
+              "url": "https://github.com/consint/Tumult/releases/download/1.1.1/Tumult_1_1_1_Linux_vst3.zip"
+            },
+            {
+              "systems": [
+                {
+                  "type": "win"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "vst3"
+              ],
+              "type": "archive",
+              "size": 239289360,
+              "sha256": "6f2d7ef48584bf3e9f4a3d685ed29ba81ed414683f86b6263704f2e95656cc77",
+              "url": "https://github.com/consint/Tumult/releases/download/1.1.1/Tumult_1_1_1_Win_vst3.zip"
+            }
+          ],
+          "verified": true
+        }
+      }
+    },
     "consint/pult-eq": {
       "slug": "consint/pult-eq",
       "version": "1.0.0",
