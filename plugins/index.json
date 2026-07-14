@@ -14925,6 +14925,49 @@
       }
     }
   },
+  "jsvaldezv/duck-synth": {
+    "slug": "jsvaldezv/duck-synth",
+    "version": "1.0.0",
+    "versions": {
+      "1.0.0": {
+        "name": "Duck Synth",
+        "author": "Jesús Valdez",
+        "description": "A JUCE-based C++ synthesizer plugin implementing basic additive synthesis with two oscillators, ADSR envelope, waveform selection (sine, square, triangle), reverb effect, and output volume control.",
+        "license": "mit",
+        "type": "instrument",
+        "tags": [
+          "Additive Synthesis",
+          "Synthesizer"
+        ],
+        "url": "https://github.com/jsvaldezv/duck-synth",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/jsvaldezv/duck-synth/duck-synth.jpg",
+        "date": "2024-01-09T07:11:50Z",
+        "changes": "1.0.0 release.",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "component"
+            ],
+            "type": "installer",
+            "size": 6845137,
+            "sha256": "7fc9a675ab39b2ae6d1b3be0ce77e2043c725912b5f45ea943696734bb445fde",
+            "url": "https://github.com/jsvaldezv/duck-synth/releases/download/1.0.0/Duck.Synth_1_0_0.pkg"
+          }
+        ],
+        "verified": true
+      }
+    }
+  },
   "jpcima/opnplug": {
     "slug": "jpcima/opnplug",
     "version": "1.0.2",
