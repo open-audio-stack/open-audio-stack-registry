@@ -2589,6 +2589,16 @@
       ]
     }
   },
+  "bespokesynth/bespokesynth": {
+    "1.3.0": {
+      "recs": [
+        {
+          "field": "url",
+          "rec": "requires mounting step, consider .pkg instead"
+        }
+      ]
+    }
+  },
   "baconpaul/six-sines": {
     "1.1.0": {
       "recs": [
