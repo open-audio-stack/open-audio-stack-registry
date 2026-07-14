@@ -1,0 +1,86 @@
+{
+  "slug": "figbug/wavetable",
+  "version": "1.0.32",
+  "versions": {
+    "1.0.32": {
+      "name": "Wavetable",
+      "author": "Roland Rabien",
+      "description": "A wavetable synthesizer plugin.",
+      "license": "bsd-3-clause",
+      "type": "instrument",
+      "tags": [
+        "Wavetable",
+        "Synthesizer"
+      ],
+      "url": "https://github.com/FigBug/Wavetable",
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/figbug/wavetable/wavetable.jpg",
+      "date": "2026-05-02T23:07:20Z",
+      "changes": "- Fixed fix wavetable menus\n- Fixed deadlock",
+      "files": [
+        {
+          "systems": [
+            {
+              "type": "linux"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "vst3",
+            "so",
+            "lv2",
+            "clap"
+          ],
+          "type": "installer",
+          "size": 93400900,
+          "sha256": "4c135e1e9046263369a1add52657d6449c28bcbf2ce7528a1f14b4ea568e22f7",
+          "url": "https://github.com/FigBug/Wavetable/releases/download/v1.0.32/Wavetable.deb"
+        },
+        {
+          "systems": [
+            {
+              "type": "win"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "vst3",
+            "dll",
+            "lv2",
+            "clap"
+          ],
+          "type": "installer",
+          "size": 54653896,
+          "sha256": "111c10c6532a8ea3c63908d1f70de122aa3526ce22c6b9b3758f80c358591637",
+          "url": "https://github.com/FigBug/Wavetable/releases/download/v1.0.32/Wavetable.exe"
+        },
+        {
+          "systems": [
+            {
+              "type": "mac",
+              "min": 10.15
+            }
+          ],
+          "architectures": [
+            "arm64",
+            "x64"
+          ],
+          "contains": [
+            "vst3",
+            "vst",
+            "component",
+            "clap"
+          ],
+          "type": "installer",
+          "size": 97582170,
+          "sha256": "7ae76ede0618595ee9b330b1403840a1b17df40ae9923609fe0802655cbb55de",
+          "url": "https://github.com/FigBug/Wavetable/releases/download/v1.0.32/Wavetable.pkg"
+        }
+      ],
+      "verified": true
+    }
+  }
+}
