@@ -19707,6 +19707,137 @@
         }
       }
     },
+    "danielwray/neampmod-the-tweed": {
+      "slug": "danielwray/neampmod-the-tweed",
+      "version": "3.0.0",
+      "versions": {
+        "3.0.0": {
+          "name": "NEAMPMOD The Tweed",
+          "author": "Daniel Wray",
+          "description": "Vintage tweed amplifier plugin based on the 1957 Fender® 5E3 Deluxe. Physics-based modelling with selectable oversampling, IR/dynamic cab support, and advanced tube simulation.",
+          "license": "gpl-3.0",
+          "type": "effect",
+          "tags": [
+            "Amp Simulator",
+            "Guitar",
+            "Tube",
+            "Tweed",
+            "IR Loader"
+          ],
+          "url": "https://github.com/danielwray/neampmod-the-tweed",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/danielwray/neampmod-the-tweed/neampmod-the-tweed.jpg",
+          "date": "2026-07-02T23:10:50Z",
+          "changes": "Major engine improvements to physics modelling. Added user-selectable oversampling and dynamic cab modelling. macOS Universal support. New UI renders and multiple fixes.",
+          "files": [
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "clap"
+              ],
+              "type": "archive",
+              "size": 62492448,
+              "sha256": "1b20d510c7c83ce6cac382040d580fa6105bf2e0d1913a67ac687aaf4509b72a",
+              "url": "https://github.com/danielwray/neampmod-the-tweed/releases/download/v3.0.0/neampmod-the-tweed-linux-v3.0.0.clap"
+            },
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "vst3"
+              ],
+              "type": "archive",
+              "size": 45903981,
+              "sha256": "0da5b25380391350bcdc48b92bbfa4045b5b35ed8e19bb32eef3fa04d7af06dc",
+              "url": "https://github.com/danielwray/neampmod-the-tweed/releases/download/v3.0.0/neampmod-the-tweed-linux-v3.0.0.vst3.tar.gz"
+            },
+            {
+              "systems": [
+                {
+                  "type": "mac"
+                }
+              ],
+              "architectures": [
+                "arm64",
+                "x64"
+              ],
+              "contains": [
+                "clap"
+              ],
+              "type": "archive",
+              "size": 89048695,
+              "sha256": "a9f545b9fb5a54da031097a3a6610788f41e4e982c7289235c8aa1e4b9c82052",
+              "url": "https://github.com/danielwray/neampmod-the-tweed/releases/download/v3.0.0/neampmod-the-tweed-mac-v3.0.0.clap.zip"
+            },
+            {
+              "systems": [
+                {
+                  "type": "mac"
+                }
+              ],
+              "architectures": [
+                "arm64",
+                "x64"
+              ],
+              "contains": [
+                "vst3"
+              ],
+              "type": "archive",
+              "size": 89048695,
+              "sha256": "a9f545b9fb5a54da031097a3a6610788f41e4e982c7289235c8aa1e4b9c82052",
+              "url": "https://github.com/danielwray/neampmod-the-tweed/releases/download/v3.0.0/neampmod-the-tweed-mac-v3.0.0.vst3.zip"
+            },
+            {
+              "systems": [
+                {
+                  "type": "win"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "clap"
+              ],
+              "type": "archive",
+              "size": 59355136,
+              "sha256": "406bb55925c102db6d233c37389c370212f4ae7d1e1731870f63ed3a48094566",
+              "url": "https://github.com/danielwray/neampmod-the-tweed/releases/download/v3.0.0/neampmod-the-tweed-win-v3.0.0.clap"
+            },
+            {
+              "systems": [
+                {
+                  "type": "win"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "vst3"
+              ],
+              "type": "archive",
+              "size": 59355136,
+              "sha256": "406bb55925c102db6d233c37389c370212f4ae7d1e1731870f63ed3a48094566",
+              "url": "https://github.com/danielwray/neampmod-the-tweed/releases/download/v3.0.0/neampmod-the-tweed-win-v3.0.0.vst3"
+            }
+          ],
+          "verified": true
+        }
+      }
+    },
     "dan-k-k/vocal-gate": {
       "slug": "dan-k-k/vocal-gate",
       "version": "1.0.5",
