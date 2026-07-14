@@ -1,0 +1,44 @@
+name: YK Chorus
+author: Christopher Arndt
+description: A chorus audio effect plugin based on DSP code by Togu Audio Line (TAL).
+license: gpl-2.0
+type: effect
+tags:
+  - Chorus
+  - Modulation
+url: https://github.com/SpotlightKid/ykchorus
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/spotlightkid/ykchorus/ykchorus.jpg
+date: '2024-04-26T03:05:27Z'
+changes: |-
+  - Added building CLAP format plugin
+  - Added building VST3 format plugin
+  - Updated DPF sub-module
+files:
+  - systems:
+      - type: win
+    architectures:
+      - x32
+    contains:
+      - vst3
+      - clap
+      - lv2
+      - dll
+      - exe
+    type: archive
+    size: 2383649
+    sha256: 0efa271811630567866313b974e670608e62ccfc8cf10b9c83f689d23004c3aa
+    url: https://github.com/SpotlightKid/ykchorus/releases/download/v0.2.4/ykchorus-0.2.4-bin-win32.zip
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - vst3
+      - clap
+      - lv2
+      - dll
+      - exe
+    type: archive
+    size: 2166789
+    sha256: caecf42b652d3cf5b15a41ce68b1de404b88dd872e4ee25696540f571e938b7e
+    url: https://github.com/SpotlightKid/ykchorus/releases/download/v0.2.4/ykchorus-0.2.4-bin-win64.zip
