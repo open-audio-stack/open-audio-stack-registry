@@ -1,0 +1,57 @@
+name: Microbiome
+author: Darwin Do
+description: A delay-based audio effects plugin.
+license: gpl-3.0
+type: effect
+tags:
+  - Delay
+url: https://github.com/dsmaugy/microbiome
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/dsmaugy/microbiome/microbiome.jpg
+date: '2024-05-01T06:45:23Z'
+changes: |-
+  Official release of the Microbiome audio plugin. Includes support for the following platforms:
+  - Windows: VST3
+  - Linux x86: VST3, LV2
+  - macOS: AU
+files:
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - lv2
+    type: archive
+    size: 4023135
+    sha256: f7c4f78e2ef68a34b5b54e8a56509b59a2e9176c0a3a07ce006d14434dea6796
+    url: https://github.com/dsmaugy/microbiome/releases/download/v1.0.0/Microbiome_Linux_x86_LV2_v1.0.0.zip
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - vst3
+    type: archive
+    size: 4236731
+    sha256: 6b5def3f67657d8ab316703ec631f90176342ccfd7d0ffca892414cb8ac7fbff
+    url: https://github.com/dsmaugy/microbiome/releases/download/v1.0.0/Microbiome_Linux_x86_VST3_v1.0.0.zip
+  - systems:
+      - type: mac
+    architectures:
+      - arm64
+      - x64
+    contains:
+      - component
+    type: archive
+    size: 2563883
+    sha256: 64aa2ac1acc0f0a354d28b4e19da5439a3052e8f0d124e242e122d64ebfc7eb8
+    url: https://github.com/dsmaugy/microbiome/releases/download/v1.0.0/Microbiome_MacOS_AU_v1.0.0.zip
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - vst3
+    type: archive
+    size: 2294242
+    sha256: 3efc5a2ff5ca4fe957647035dcedb16142d5d484d25236dc082171d29e388ae4
+    url: https://github.com/dsmaugy/microbiome/releases/download/v1.0.0/Microbiome_Win_VST3_v1.0.0.zip
