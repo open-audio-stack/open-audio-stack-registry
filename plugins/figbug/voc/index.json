@@ -1,0 +1,84 @@
+{
+  "slug": "figbug/voc",
+  "version": "1.1.5",
+  "versions": {
+    "1.1.5": {
+      "name": "Voc",
+      "author": "Roland Rabien",
+      "description": "A vocal synthesiser that emulates the glottis and shape of the vocal tract, available as a VST2/VST3/AU/CLAP/LV2 plugin.",
+      "license": "lgpl-2.1",
+      "type": "instrument",
+      "tags": [
+        "Vocal Synth",
+        "Physical Modeling"
+      ],
+      "url": "https://github.com/FigBug/Voc",
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/figbug/voc/voc.jpg",
+      "date": "2026-04-30T23:17:31Z",
+      "changes": "Fixed VST2 install path.",
+      "files": [
+        {
+          "systems": [
+            {
+              "type": "linux"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "vst",
+            "vst3",
+            "clap",
+            "lv2"
+          ],
+          "type": "installer",
+          "size": 42695142,
+          "sha256": "4ab3cb5274726709b329f204aea49b157d244bcdc99aaad7675d6e8e17da488a",
+          "url": "https://github.com/FigBug/Voc/releases/download/v1.1.5/Voc.deb"
+        },
+        {
+          "systems": [
+            {
+              "type": "win"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "dll",
+            "vst3",
+            "clap"
+          ],
+          "type": "installer",
+          "size": 7348272,
+          "sha256": "50ab3cd59d5b796cbcfe5fa2be7487e2acab129561c4e36b4af054483400307b",
+          "url": "https://github.com/FigBug/Voc/releases/download/v1.1.5/Voc.exe"
+        },
+        {
+          "systems": [
+            {
+              "type": "mac"
+            }
+          ],
+          "architectures": [
+            "arm64",
+            "x64"
+          ],
+          "contains": [
+            "vst",
+            "vst3",
+            "component",
+            "clap"
+          ],
+          "type": "installer",
+          "size": 47334434,
+          "sha256": "01722eca52f45da24f5e1d7f8b5d75587c39cc6dc3db1459dac81bcba212df29",
+          "url": "https://github.com/FigBug/Voc/releases/download/v1.1.5/Voc.pkg"
+        }
+      ],
+      "verified": true
+    }
+  }
+}
