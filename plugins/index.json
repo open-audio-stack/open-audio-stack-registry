@@ -18666,6 +18666,91 @@
       }
     }
   },
+  "figbug/sid": {
+    "slug": "figbug/sid",
+    "version": "1.1.5",
+    "versions": {
+      "1.1.5": {
+        "name": "SID",
+        "author": "Roland Rabien",
+        "description": "Commodore 64 SID sound chip emulation, available as a VST2/VST3/AU/CLAP/LV2 plugin.",
+        "license": "gpl-3.0",
+        "type": "instrument",
+        "tags": [
+          "Chiptune",
+          "Emulation",
+          "Commodore 64"
+        ],
+        "url": "https://github.com/FigBug/SID",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/figbug/sid/sid.jpg",
+        "date": "2026-04-30T23:10:10Z",
+        "changes": "Fixed VST2 install path.",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst",
+              "vst3",
+              "clap",
+              "lv2"
+            ],
+            "type": "installer",
+            "size": 42790386,
+            "sha256": "68684f39a5806de4ee1deb3aa3aba8f5f63985691afd6bc592d543140774e25e",
+            "url": "https://github.com/FigBug/SID/releases/download/v1.1.5/SID.deb"
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "dll",
+              "vst3",
+              "clap"
+            ],
+            "type": "installer",
+            "size": 7363688,
+            "sha256": "cc1bf87daed0276cca5c2481690ea7b08f61f187e7cfd946291b385c584cee79",
+            "url": "https://github.com/FigBug/SID/releases/download/v1.1.5/SID.exe"
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "vst",
+              "vst3",
+              "component",
+              "clap"
+            ],
+            "type": "installer",
+            "size": 47523984,
+            "sha256": "4c9ce63e97b588d21fc33853ea0524cdf60846862335d43dfed5f413413fa596",
+            "url": "https://github.com/FigBug/SID/releases/download/v1.1.5/SID.pkg"
+          }
+        ],
+        "verified": true
+      }
+    }
+  },
   "figbug/papu": {
     "slug": "figbug/papu",
     "version": "1.2.5",
