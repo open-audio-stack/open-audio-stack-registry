@@ -2873,6 +2873,16 @@
       ]
     }
   },
+  "archie3d/aeolus": {
+    "0.3.0": {
+      "recs": [
+        {
+          "field": "architectures",
+          "rec": "should support arm64"
+        }
+      ]
+    }
+  },
   "arborealaudio/str-x": {
     "1.2.1": {
       "recs": [
