@@ -1,0 +1,131 @@
+{
+  "name": "VMPC2000XL",
+  "author": "Izmar Verhage",
+  "description": "A JUCE implementation of the Akai MPC2000XL, an iconic sampler/sequencer drum machine.",
+  "license": "gpl-3.0",
+  "type": "sampler",
+  "tags": [
+    "MPC",
+    "Drum Machine",
+    "Sequencer"
+  ],
+  "url": "https://github.com/izzyreal/vmpc-juce",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/izzyreal/vmpc-juce/vmpc-juce.jpg",
+  "date": "2026-06-14T15:11:10Z",
+  "changes": "Improved MID file reading and writing, fixed MID file name change when saving, and fixed a rare cosmetic glitch where the MAIN screen doesn't show the correct sequence.",
+  "files": [
+    {
+      "systems": [
+        {
+          "type": "mac"
+        }
+      ],
+      "architectures": [
+        "arm64",
+        "x64"
+      ],
+      "contains": [
+        "vst3",
+        "component",
+        "lv2",
+        "app"
+      ],
+      "type": "installer",
+      "size": 92999488,
+      "sha256": "d57db47306dbab83f8e18301b25627d88111dbf727760c3eb59d8cc731b2004a",
+      "url": "https://github.com/izzyreal/vmpc-juce/releases/download/v0.9.13/VMPC2000XL-Installer-Intel-M1-v0.9.13.pkg"
+    },
+    {
+      "systems": [
+        {
+          "type": "win",
+          "min": 10
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3",
+        "lv2",
+        "exe"
+      ],
+      "type": "installer",
+      "size": 69082774,
+      "sha256": "7e065151b3c56297e631cc5c53d97eccdbf61c9fcd74e643dfe34ab2ad99b794",
+      "url": "https://github.com/izzyreal/vmpc-juce/releases/download/v0.9.13/VMPC2000XL-Installer-Win10-x86_64-v0.9.13.exe"
+    },
+    {
+      "systems": [
+        {
+          "type": "win",
+          "min": 7
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3",
+        "lv2",
+        "exe"
+      ],
+      "type": "installer",
+      "size": 68855112,
+      "sha256": "83b64c28d423c2296c63ea3f52260e814e75315a7876637b6f38a33137cc94ed",
+      "url": "https://github.com/izzyreal/vmpc-juce/releases/download/v0.9.13/VMPC2000XL-Installer-Win7-x86_64-v0.9.13.exe"
+    },
+    {
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "lv2"
+      ],
+      "type": "archive",
+      "size": 15607778,
+      "sha256": "4122752b3fdf4645fec81586e29bd01176ebf4368e5feae1fcb7176837de4506",
+      "url": "https://github.com/izzyreal/vmpc-juce/releases/download/v0.9.13/VMPC2000XL-Ubuntu20-x86_64-LV2.zip"
+    },
+    {
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "elf"
+      ],
+      "type": "archive",
+      "size": 15575795,
+      "sha256": "7388f7dc4cde83aea1256438a544aac259c4cf0413b6d4a6c40dd698345889a1",
+      "url": "https://github.com/izzyreal/vmpc-juce/releases/download/v0.9.13/VMPC2000XL-Ubuntu20-x86_64-Standalone.zip"
+    },
+    {
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3"
+      ],
+      "type": "archive",
+      "size": 15717298,
+      "sha256": "43656630758f48c5bcf0413a23fb13776063a1e7515f3c3d7c2ede4170fb5dfa",
+      "url": "https://github.com/izzyreal/vmpc-juce/releases/download/v0.9.13/VMPC2000XL-Ubuntu20-x86_64-VST3.zip"
+    }
+  ],
+  "verified": true
+}
