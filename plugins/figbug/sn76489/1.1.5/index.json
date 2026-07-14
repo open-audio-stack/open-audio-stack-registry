@@ -1,0 +1,79 @@
+{
+  "name": "SN76489",
+  "author": "Roland Rabien",
+  "description": "Sega Master System sound chip emulation, available as a VST2/VST3/AU/CLAP/LV2 plugin.",
+  "license": "lgpl-2.1",
+  "type": "instrument",
+  "tags": [
+    "Chiptune",
+    "Emulation",
+    "Sega"
+  ],
+  "url": "https://github.com/FigBug/SN76489",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/figbug/sn76489/sn76489.jpg",
+  "date": "2026-04-30T23:16:32Z",
+  "changes": "Fixed VST2 install path.",
+  "files": [
+    {
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst",
+        "vst3",
+        "clap",
+        "lv2"
+      ],
+      "type": "installer",
+      "size": 42695898,
+      "sha256": "729a4c62de95fdb40bbf00823a03fce83e41dae4e62a4c781f2c2279f14e59e0",
+      "url": "https://github.com/FigBug/SN76489/releases/download/v1.1.5/SN76489.deb"
+    },
+    {
+      "systems": [
+        {
+          "type": "win"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "dll",
+        "vst3",
+        "clap"
+      ],
+      "type": "installer",
+      "size": 7346312,
+      "sha256": "4967c84a9d54eca62792f56db6a6b3a3a18dd0055d60adcbbd33f2ceace3cd86",
+      "url": "https://github.com/FigBug/SN76489/releases/download/v1.1.5/SN76489.exe"
+    },
+    {
+      "systems": [
+        {
+          "type": "mac"
+        }
+      ],
+      "architectures": [
+        "arm64",
+        "x64"
+      ],
+      "contains": [
+        "vst",
+        "vst3",
+        "component",
+        "clap"
+      ],
+      "type": "installer",
+      "size": 47345366,
+      "sha256": "9be2ec9160845a60992722b5fa5814f2fbb3251680597384321524cddcc1054a",
+      "url": "https://github.com/FigBug/SN76489/releases/download/v1.1.5/SN76489.pkg"
+    }
+  ],
+  "verified": true
+}
