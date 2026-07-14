@@ -1,0 +1,72 @@
+{
+  "name": "VSTSID",
+  "author": "Igor Zinken",
+  "description": "A VST plugin version of the WebSID Commodore 64 SID chip synthesizer.",
+  "license": "mit",
+  "tags": [
+    "Chiptune",
+    "Sid"
+  ],
+  "type": "instrument",
+  "url": "https://github.com/igorski/VSTSID",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/igorski/vstsid/vstsid.jpg",
+  "date": "2024-12-27T09:32:14Z",
+  "changes": "Version 1.1.2 built against Steinberg SDK version 3.7.11.10",
+  "files": [
+    {
+      "systems": [
+        {
+          "type": "mac"
+        }
+      ],
+      "architectures": [
+        "arm64",
+        "x64"
+      ],
+      "contains": [
+        "vst3",
+        "vst"
+      ],
+      "type": "archive",
+      "size": 9020840,
+      "sha256": "9d5d8500cd4ed302e2ea53dccbd77ee438841820dddff66a1f706daa66cf69db",
+      "url": "https://github.com/igorski/VSTSID/releases/download/v1.1.2/vstsid.1.1.2_macos.zip"
+    },
+    {
+      "systems": [
+        {
+          "type": "win"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3",
+        "dll"
+      ],
+      "type": "archive",
+      "size": 2607280,
+      "sha256": "9d2e767da874952e255226dcf538c6fde9165f3c74d8a219f8273c0eb0cad151",
+      "url": "https://github.com/igorski/VSTSID/releases/download/v1.1.2/vstsid.1.1.2_windows.zip"
+    },
+    {
+      "systems": [
+        {
+          "type": "win"
+        }
+      ],
+      "architectures": [
+        "x32"
+      ],
+      "contains": [
+        "dll"
+      ],
+      "type": "archive",
+      "size": 2607280,
+      "sha256": "9d2e767da874952e255226dcf538c6fde9165f3c74d8a219f8273c0eb0cad151",
+      "url": "https://github.com/igorski/VSTSID/releases/download/v1.1.2/vstsid.1.1.2_windows.zip"
+    }
+  ],
+  "verified": true
+}
