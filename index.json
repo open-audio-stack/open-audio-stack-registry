@@ -15374,6 +15374,49 @@
         }
       }
     },
+    "jsvaldezv/banana-split": {
+      "slug": "jsvaldezv/banana-split",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "name": "Banana Split",
+          "author": "Jesús Valdez",
+          "description": "An FM synthesizer with one oscillator (sine/saw/triangle/square), ADSR envelope, and built-in reverb, delay, chorus, and distortion effects.",
+          "license": "mit",
+          "type": "instrument",
+          "tags": [
+            "FM Synthesis",
+            "Synthesizer"
+          ],
+          "url": "https://github.com/jsvaldezv/banana-split",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/jsvaldezv/banana-split/banana-split.jpg",
+          "date": "2024-01-08T23:37:20Z",
+          "changes": "1.0.0 release.",
+          "files": [
+            {
+              "systems": [
+                {
+                  "type": "mac"
+                }
+              ],
+              "architectures": [
+                "arm64",
+                "x64"
+              ],
+              "contains": [
+                "vst3",
+                "component"
+              ],
+              "type": "installer",
+              "size": 4502896,
+              "sha256": "ed21fde5b2c0526740429655d9c2b8bafa4ecf95c9b5e4bbf7446735ed0c1628",
+              "url": "https://github.com/jsvaldezv/banana-split/releases/download/1.0.0/Banana.Split_1_0_0.pkg"
+            }
+          ],
+          "verified": true
+        }
+      }
+    },
     "jpcima/opnplug": {
       "slug": "jpcima/opnplug",
       "version": "1.0.2",
