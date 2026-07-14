@@ -363,6 +363,24 @@
       ]
     }
   },
+  "vitling/crypt": {
+    "2.1.0": {
+      "recs": [
+        {
+          "field": "url",
+          "rec": "should point to GitHub"
+        },
+        {
+          "field": "url",
+          "rec": "should point to GitHub"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Linux"
+        }
+      ]
+    }
+  },
   "vastdynamics/vaporizer2": {
     "3.5.0": {
       "recs": [
