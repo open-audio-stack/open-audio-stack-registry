@@ -9457,6 +9457,83 @@
         }
       }
     },
+    "publicsamples/xolotl": {
+      "slug": "publicsamples/xolotl",
+      "version": "0.9.2",
+      "versions": {
+        "0.9.2": {
+          "name": "Xolotl",
+          "author": "Modular Samples",
+          "description": "A harmonic synthesizer.",
+          "license": "gpl-3.0",
+          "type": "instrument",
+          "tags": [
+            "Synthesizer",
+            "Sample-based"
+          ],
+          "url": "https://github.com/publicsamples/Xolotl",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/publicsamples/xolotl/xolotl.jpg",
+          "date": "2026-05-15T18:27:44Z",
+          "changes": "- UI colour changes\n- Cleaned up sample library\n- Added loop/scrub playback mode\n- Fixed preset loading bug\n- Performance improvements\n- Delay is now stereo with ping-pong mode and clock sync\n- Spread option for various controls",
+          "files": [
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "vst3"
+              ],
+              "type": "archive",
+              "size": 62289340,
+              "sha256": "31cf90dc9a9a3e839439ab5a0148cc4ad1bdedb4cfedc01c34edb1b192f3b111",
+              "url": "https://github.com/publicsamples/Xolotl/releases/download/0.9.2/xolotl-0.9.2-Linux.tar.xz"
+            },
+            {
+              "systems": [
+                {
+                  "type": "win"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "vst3"
+              ],
+              "type": "archive",
+              "size": 43727474,
+              "sha256": "b876cb9ff4e561d1a77a2f24b4a8f47214dc5e60d5a39cde923c2e335e89abf6",
+              "url": "https://github.com/publicsamples/Xolotl/releases/download/0.9.2/Xolotl-0.9.2-Windows.zip"
+            },
+            {
+              "systems": [
+                {
+                  "type": "mac"
+                }
+              ],
+              "architectures": [
+                "arm64",
+                "x64"
+              ],
+              "contains": [
+                "vst3",
+                "component"
+              ],
+              "type": "archive",
+              "size": 912706080,
+              "sha256": "d56cfe548929b776cba6e52d856b4fa3110793fcdff2b8a8a2c768045e475644",
+              "url": "https://github.com/publicsamples/Xolotl/releases/download/0.9.2/Xolotl-0.9.2.Mac.zip"
+            }
+          ],
+          "verified": true
+        }
+      }
+    },
     "publicsamples/quetzalcoatl": {
       "slug": "publicsamples/quetzalcoatl",
       "version": "0.8.7",
