@@ -1,0 +1,86 @@
+{
+  "name": "zmann",
+  "author": "AZProductions",
+  "description": "A collection of sample-based instrument plugins (Bells, Orchestron, and more) built with the NIH-plug Rust framework.",
+  "license": "gpl-3.0",
+  "type": "instrument",
+  "tags": [
+    "Sampler",
+    "Collection"
+  ],
+  "url": "https://github.com/zmann-org/zmann",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/zmann-org/zmann/zmann.jpg",
+  "date": "2024-09-14T17:42:05Z",
+  "changes": "Prerelease build with Bells and Orchestron instruments; ongoing repository restructure in progress (see issue",
+  "files": [
+    {
+      "systems": [
+        {
+          "type": "win"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3"
+      ],
+      "type": "archive",
+      "size": 76353801,
+      "sha256": "4b07516bc2074cf8ee3fd8677b35f7362b6be4fc20a25452c1967c64e9b391bd",
+      "url": "https://github.com/zmann-org/zmann/releases/download/2.0rc-1/Bells.zip"
+    },
+    {
+      "systems": [
+        {
+          "type": "win"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "clap"
+      ],
+      "type": "archive",
+      "size": 78485504,
+      "sha256": "34372d3404f244d33d6aa2e615c1e6bb52391dd736b6f32c997f98a2a4be2f5b",
+      "url": "https://github.com/zmann-org/zmann/releases/download/2.0rc-1/Bells.clap"
+    },
+    {
+      "systems": [
+        {
+          "type": "win"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3"
+      ],
+      "type": "archive",
+      "size": 2355094,
+      "sha256": "cd20b3bf45f1fa5c4b8d38b98468ec43c21dca74b53365cbe9d54ff7153c55ab",
+      "url": "https://github.com/zmann-org/zmann/releases/download/2.0rc-1/Orchestron.zip"
+    },
+    {
+      "systems": [
+        {
+          "type": "win"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "clap"
+      ],
+      "type": "archive",
+      "size": 3017728,
+      "sha256": "1c9cb404025e0b177c355fc8a5137a17139e42f48de3d721c7687f7edd5942a3",
+      "url": "https://github.com/zmann-org/zmann/releases/download/2.0rc-1/Orchestron.clap"
+    }
+  ],
+  "verified": true
+}
