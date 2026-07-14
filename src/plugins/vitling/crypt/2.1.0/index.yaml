@@ -1,0 +1,35 @@
+name: Crypt
+author: Vitling
+description: A hyper-unison synthesiser for creating spacious, cold synth sounds, developed for the Bow Church project.
+license: gpl-3.0
+type: instrument
+tags:
+  - Synthesizer
+  - Unison
+url: https://github.com/vitling/crypt
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/vitling/crypt/crypt.jpg
+date: '2025-11-18T11:24:16Z'
+changes: Added basic save/load functionality for presets/programs.
+files:
+  - systems:
+      - type: mac
+    architectures:
+      - arm64
+      - x64
+    contains:
+      - vst3
+      - component
+    type: installer
+    size: 14674916
+    sha256: c91829909853fd38fd6d1d833c2cc409cc871661a3e471fd89c1d62166f7e0ed
+    url: https://www.vitling.xyz/crypt/releases/2.1.0/crypt-macos-2.1.0.pkg
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - vst3
+    type: archive
+    size: 1990686
+    sha256: ff4daa7c7101e22f2f6115673fef215d294f1c10f6d868a90b054217c2708348
+    url: https://www.vitling.xyz/crypt/releases/2.1.0/crypt-windows-2.1.0.zip
