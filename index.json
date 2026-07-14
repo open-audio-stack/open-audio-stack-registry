@@ -22372,6 +22372,64 @@
         }
       }
     },
+    "danielrudrich/abcomparisonplugin": {
+      "slug": "danielrudrich/abcomparisonplugin",
+      "version": "1.4.0",
+      "versions": {
+        "1.4.0": {
+          "name": "ABComparison Plugin",
+          "author": "Daniel Rudrich",
+          "description": "A channel-routing plugin for AB-comparison tests, switching between up to 32 input streams with configurable channel width, exclusive-solo or toggle switching modes, and fade time.",
+          "license": "gpl-3.0",
+          "type": "tool",
+          "tags": [
+            "AB Comparison",
+            "Utility"
+          ],
+          "url": "https://github.com/DanielRudrich/ABComparisonPlugin",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/danielrudrich/abcomparisonplugin/abcomparisonplugin.jpg",
+          "date": "2021-05-16T16:26:00Z",
+          "changes": "First GitHub release. Windows version is untested.",
+          "files": [
+            {
+              "systems": [
+                {
+                  "type": "mac"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "vst"
+              ],
+              "type": "archive",
+              "size": 1998025,
+              "sha256": "9bcf459c0448839d9c9c7a3292077fa8b86ff3521d2fa4c0ff7510978131be24",
+              "url": "https://github.com/DanielRudrich/ABComparisonPlugin/releases/download/v1.4.0/ABComparison_macOS.zip"
+            },
+            {
+              "systems": [
+                {
+                  "type": "win"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "dll"
+              ],
+              "type": "archive",
+              "size": 965140,
+              "sha256": "45744215fa4adc91f267b52c7f388eb9d6ee7069eb9f85b69d4bb85a63471dcd",
+              "url": "https://github.com/DanielRudrich/ABComparisonPlugin/releases/download/v1.4.0/ABComparison_win.zip"
+            }
+          ],
+          "verified": true
+        }
+      }
+    },
     "dan-k-k/vocal-gate": {
       "slug": "dan-k-k/vocal-gate",
       "version": "1.0.5",

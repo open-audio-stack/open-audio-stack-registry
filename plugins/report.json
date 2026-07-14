@@ -2517,6 +2517,20 @@
       ]
     }
   },
+  "danielrudrich/abcomparisonplugin": {
+    "1.4.0": {
+      "recs": [
+        {
+          "field": "architectures",
+          "rec": "should support arm64"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Linux"
+        }
+      ]
+    }
+  },
   "damrsn/neuralnote": {
     "1.1.0": {
       "recs": [
