@@ -15975,6 +15975,49 @@
         }
       }
     },
+    "jsvaldezv/duck-sampler": {
+      "slug": "jsvaldezv/duck-sampler",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "name": "Duck Sampler",
+          "author": "Jesús Valdez",
+          "description": "A JUCE-based C++ sampler plugin featuring sample playback, ADSR envelope, LFO amplitude modulation, distortion toggle, and output volume control.",
+          "license": "mit",
+          "type": "sampler",
+          "tags": [
+            "Sample Playback",
+            "LFO"
+          ],
+          "url": "https://github.com/jsvaldezv/duck-sampler",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/jsvaldezv/duck-sampler/duck-sampler.jpg",
+          "date": "2024-01-09T07:26:26Z",
+          "changes": "1.0.0 release.",
+          "files": [
+            {
+              "systems": [
+                {
+                  "type": "mac"
+                }
+              ],
+              "architectures": [
+                "arm64",
+                "x64"
+              ],
+              "contains": [
+                "vst3",
+                "component"
+              ],
+              "type": "installer",
+              "size": 13876636,
+              "sha256": "453c3d3755719ab2edb571a9be0e37e421327ff53a8d2d3e1fd46386bd54a00e",
+              "url": "https://github.com/jsvaldezv/duck-sampler/releases/download/1.0.0/Duck.Sampler_1_0_0.pkg"
+            }
+          ],
+          "verified": true
+        }
+      }
+    },
     "jsvaldezv/banana-split": {
       "slug": "jsvaldezv/banana-split",
       "version": "1.0.0",
