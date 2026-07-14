@@ -18,5 +18,39 @@
         }
       ]
     }
+  },
+  "helio-fm/helio-sequencer": {
+    "3.17.0": {
+      "recs": [
+        {
+          "field": "url",
+          "rec": "should point to GitHub"
+        },
+        {
+          "field": "url",
+          "rec": "should point to GitHub"
+        },
+        {
+          "field": "url",
+          "rec": "should point to GitHub"
+        },
+        {
+          "field": "url",
+          "rec": "requires mounting step, consider .pkg instead"
+        },
+        {
+          "field": "url",
+          "rec": "should point to GitHub"
+        },
+        {
+          "field": "url",
+          "rec": "should point to GitHub"
+        },
+        {
+          "field": "url",
+          "rec": "should point to GitHub"
+        }
+      ]
+    }
   }
 }

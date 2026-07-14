@@ -1,0 +1,118 @@
+{
+  "slug": "helio-fm/helio-sequencer",
+  "version": "3.17.0",
+  "versions": {
+    "3.17.0": {
+      "name": "Helio",
+      "author": "Helio",
+      "description": "A free and open-source music sequencer for desktop and mobile platforms, featuring a linear/pattern-based sequencer, integrated version control, and microtonal temperament support.",
+      "license": "gpl-3.0",
+      "type": "tool",
+      "tags": [
+        "Sequencer",
+        "Composition",
+        "Microtonal",
+        "Cross-platform"
+      ],
+      "url": "https://github.com/helio-fm/helio-sequencer",
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/apps/helio-fm/helio-sequencer/helio-sequencer.jpg",
+      "date": "2025-12-07T16:29:46Z",
+      "changes": "- Removed update checks and project sync features from desktop builds, the app is now offline on both desktop and mobile platforms\n- Added initial support for keyboard-only editing in the sequencer, more hotkeys for menus, pop-ups, and dialogs\n- More UI performance improvements\n- Desktop platforms: added support for back/forward mouse buttons, fixed VST3 plugin windowing issues, misc fixes in plugin scanning\n",
+      "files": [
+        {
+          "systems": [
+            {
+              "type": "linux"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "type": "archive",
+          "open": "helio",
+          "size": 3537134,
+          "sha256": "f0baf0857478c72c66f1895ae86b2ee43221a4dc4f619e32065b59b0a724145b",
+          "url": "https://ci.helio.fm/helio-3.17-x64.tar.gz"
+        },
+        {
+          "systems": [
+            {
+              "type": "linux"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "type": "installer",
+          "open": "helio",
+          "size": 2707988,
+          "sha256": "6134c6a801c6bc0b9b7df4870f3d90e3500c259c3d60628f54c11fc0b032aedc",
+          "url": "https://ci.helio.fm/helio-3.17-x64.deb"
+        },
+        {
+          "systems": [
+            {
+              "type": "mac",
+              "min": 10.13
+            }
+          ],
+          "architectures": [
+            "arm64",
+            "x64"
+          ],
+          "type": "installer",
+          "open": "Helio.app",
+          "size": 6898543,
+          "sha256": "11aec7e5bb4a234257eba6546223735c30bcb8b24b303797d2185bc1ef3a8381",
+          "url": "https://ci.helio.fm/helio-3.17.dmg"
+        },
+        {
+          "systems": [
+            {
+              "type": "win"
+            }
+          ],
+          "architectures": [
+            "x32"
+          ],
+          "type": "archive",
+          "open": "Helio.exe",
+          "size": 2759696,
+          "sha256": "4fda266dc0be22f551ac9075f676f5f017e9a8f12a80e6710d15130ebf54c430",
+          "url": "https://ci.helio.fm/helio-3.17-x32.zip"
+        },
+        {
+          "systems": [
+            {
+              "type": "win"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "type": "archive",
+          "open": "Helio.exe",
+          "size": 3268732,
+          "sha256": "ec947a0138f469031490f49dcf2d96d30364126f40f75503992853c2f68d85f9",
+          "url": "https://ci.helio.fm/helio-3.17-x64.zip"
+        },
+        {
+          "systems": [
+            {
+              "type": "win"
+            }
+          ],
+          "architectures": [
+            "x32"
+          ],
+          "type": "installer",
+          "open": "Helio.exe",
+          "size": 5721960,
+          "sha256": "b570db3f9b51371260f9d4c1acad9c31dc4ccb9adca871bc68826d8eb61ba8dc",
+          "url": "https://ci.helio.fm/helio-3.17.exe"
+        }
+      ],
+      "verified": false
+    }
+  }
+}
