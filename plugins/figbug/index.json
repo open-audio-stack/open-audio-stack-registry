@@ -84,5 +84,90 @@
         "verified": true
       }
     }
+  },
+  "figbug/papu": {
+    "slug": "figbug/papu",
+    "version": "1.2.5",
+    "versions": {
+      "1.2.5": {
+        "name": "PAPU",
+        "author": "Roland Rabien",
+        "description": "Gameboy PAPU sound chip emulation, available as a VST2/VST3/AU/CLAP/LV2 plugin.",
+        "license": "gpl-2.0",
+        "type": "instrument",
+        "tags": [
+          "Chiptune",
+          "Emulation",
+          "Gameboy"
+        ],
+        "url": "https://github.com/FigBug/PAPU",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/figbug/papu/papu.jpg",
+        "date": "2026-04-30T22:53:06Z",
+        "changes": "Fixed VST2 install path.",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst",
+              "vst3",
+              "clap",
+              "lv2"
+            ],
+            "type": "installer",
+            "size": 42798288,
+            "sha256": "0254fdd101ce958df1928849e5247741e1cf2dce9d523c9f17d8d36092d80549",
+            "url": "https://github.com/FigBug/PAPU/releases/download/v1.2.5/PAPU.deb"
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "dll",
+              "vst3",
+              "clap"
+            ],
+            "type": "installer",
+            "size": 7365760,
+            "sha256": "10bbff7df9a078c6297f9532d2d8875f92ac8c16e88a9a5d8a64e42f983b981b",
+            "url": "https://github.com/FigBug/PAPU/releases/download/v1.2.5/PAPU.exe"
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "vst",
+              "vst3",
+              "component",
+              "clap"
+            ],
+            "type": "installer",
+            "size": 47537023,
+            "sha256": "65d496ccae94e50779a725115028dfc780a736bc77a24e4ebc703bfd9e0c787d",
+            "url": "https://github.com/FigBug/PAPU/releases/download/v1.2.5/PAPU.pkg"
+          }
+        ],
+        "verified": true
+      }
+    }
   }
 }
