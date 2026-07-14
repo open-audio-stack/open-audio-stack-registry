@@ -673,6 +673,187 @@
         }
       }
     },
+    "zl-audio/zlcompressor": {
+      "slug": "zl-audio/zlcompressor",
+      "version": "0.5.0",
+      "versions": {
+        "0.5.0": {
+          "name": "ZL Compressor",
+          "author": "ZL Audio",
+          "description": "A dynamic range processor (compressor/expander) plugin.",
+          "license": "agpl-3.0",
+          "type": "effect",
+          "tags": [
+            "Compressor",
+            "Expander"
+          ],
+          "url": "https://github.com/ZL-Audio/ZLCompressor",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/zl-audio/zlcompressor/zlcompressor.jpg",
+          "date": "2026-05-06T13:53:18Z",
+          "changes": "After installation, please load the plugin in an empty DAW session and check its functionality.",
+          "files": [
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "arm64"
+              ],
+              "contains": [
+                "vst3",
+                "lv2",
+                "elf"
+              ],
+              "type": "archive",
+              "size": 8015840,
+              "sha256": "4ef0b09548e0dd62a49952202fac8b823d2f23f38e06a83fe546194d294b8270",
+              "url": "https://github.com/ZL-Audio/ZLCompressor/releases/download/0.5.0/ZL.Compressor-0.5.0-Linux-arm64.zip"
+            },
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "vst3",
+                "lv2",
+                "elf"
+              ],
+              "type": "archive",
+              "size": 8628636,
+              "sha256": "06db9694bf90f807e505853272484ea3a32043ace8ade2607013c28b96159734",
+              "url": "https://github.com/ZL-Audio/ZLCompressor/releases/download/0.5.0/ZL.Compressor-0.5.0-Linux-x86-64-AVX2.zip"
+            },
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "vst3",
+                "lv2",
+                "elf"
+              ],
+              "type": "archive",
+              "size": 8401909,
+              "sha256": "07600e4f95272223c7405b3142778a89c59516e2b4912be281635aac8c793902",
+              "url": "https://github.com/ZL-Audio/ZLCompressor/releases/download/0.5.0/ZL.Compressor-0.5.0-Linux-x86-64.zip"
+            },
+            {
+              "systems": [
+                {
+                  "type": "mac"
+                }
+              ],
+              "architectures": [
+                "arm64"
+              ],
+              "contains": [
+                "vst3",
+                "component",
+                "aax",
+                "app"
+              ],
+              "type": "installer",
+              "size": 11435709,
+              "sha256": "374f400e888b9de93adc145fbae079e4cf46ed8c72eeb9f43326d104134050d8",
+              "url": "https://github.com/ZL-Audio/ZLCompressor/releases/download/0.5.0/ZL.Compressor-0.5.0-macOS-arm64.dmg"
+            },
+            {
+              "systems": [
+                {
+                  "type": "mac"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "vst3",
+                "component",
+                "aax",
+                "app"
+              ],
+              "type": "installer",
+              "size": 12756094,
+              "sha256": "509a6086417603ce8f8980ccd71949d34aa685692d1da8997cf16f8bd5660e31",
+              "url": "https://github.com/ZL-Audio/ZLCompressor/releases/download/0.5.0/ZL.Compressor-0.5.0-macOS-x86-64.dmg"
+            },
+            {
+              "systems": [
+                {
+                  "type": "win"
+                }
+              ],
+              "architectures": [
+                "arm64"
+              ],
+              "contains": [
+                "vst3",
+                "lv2",
+                "aax",
+                "exe"
+              ],
+              "type": "installer",
+              "size": 7200768,
+              "sha256": "e853104638e3249908087b47210408f02496b00b1d2fc694147262fbe000413f",
+              "url": "https://github.com/ZL-Audio/ZLCompressor/releases/download/0.5.0/ZL.Compressor-0.5.0-Windows-arm64.msi"
+            },
+            {
+              "systems": [
+                {
+                  "type": "win"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "vst3",
+                "lv2",
+                "aax",
+                "exe"
+              ],
+              "type": "installer",
+              "size": 10240000,
+              "sha256": "e7bbb4730be6b906b5c03a6a57d21ff9af735c4573b8a6e4d4ef499f4350146a",
+              "url": "https://github.com/ZL-Audio/ZLCompressor/releases/download/0.5.0/ZL.Compressor-0.5.0-Windows-x86-64-AVX2.msi"
+            },
+            {
+              "systems": [
+                {
+                  "type": "win"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "vst3",
+                "lv2",
+                "aax",
+                "exe"
+              ],
+              "type": "installer",
+              "size": 9981952,
+              "sha256": "5c573b1f5eedf1bdc005a91fd13caec7ea76f52969904c7a924c445733c34926",
+              "url": "https://github.com/ZL-Audio/ZLCompressor/releases/download/0.5.0/ZL.Compressor-0.5.0-Windows-x86-64.msi"
+            }
+          ],
+          "verified": true
+        }
+      }
+    },
     "zhiyualexzhang/multimeter": {
       "slug": "zhiyualexzhang/multimeter",
       "version": "1.0.0",
