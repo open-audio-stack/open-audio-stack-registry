@@ -13680,6 +13680,139 @@
       }
     }
   },
+  "jun-murakami/zerocomp": {
+    "slug": "jun-murakami/zerocomp",
+    "version": "1.1.7",
+    "versions": {
+      "1.1.7": {
+        "name": "ZeroComp",
+        "author": "Jun Murakami",
+        "description": "A zero-latency feedforward compressor for broadcast, streaming, and live production, with four analog-flavored modes (VCA/Opto/FET/Vari-Mu).",
+        "license": "agpl-3.0",
+        "type": "effect",
+        "tags": [
+          "Compressor",
+          "Broadcast",
+          "Zero Latency"
+        ],
+        "url": "https://github.com/Jun-Murakami/ZeroComp",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/jun-murakami/zerocomp/zerocomp.jpg",
+        "date": "2026-07-08T07:18:15Z",
+        "changes": "- Fixed an issue where the plugin screen would not launch in some Linux environments.\n- Updated various libraries and frameworks.",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "clap",
+              "lv2",
+              "elf"
+            ],
+            "type": "archive",
+            "size": 11413627,
+            "sha256": "e371e8204471bcb37009eb978e25268cce734eabefecd329f762362c061e58de",
+            "url": "https://github.com/Jun-Murakami/ZeroComp/releases/download/v1.1.7/ZeroComp_1.1.7_Linux_VST3_LV2_CLAP_Standalone.zip"
+          },
+          {
+            "systems": [
+              {
+                "type": "mac",
+                "min": 10.15
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "component",
+              "clap",
+              "aax",
+              "app"
+            ],
+            "type": "installer",
+            "size": 27323710,
+            "sha256": "019e4c6e733e36855c068361ab99a4b0eb182117b0a51933f46e66a9c985be1f",
+            "url": "https://github.com/Jun-Murakami/ZeroComp/releases/download/v1.1.7/ZeroComp_1.1.7_macOS.pkg"
+          },
+          {
+            "systems": [
+              {
+                "type": "mac",
+                "min": 10.15
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "component",
+              "clap",
+              "aax",
+              "app"
+            ],
+            "type": "archive",
+            "size": 27282732,
+            "sha256": "60740354113ab8d63ed8f67d6106ebbfa7846072dc35f0a9d65ac48b3e7aeeca",
+            "url": "https://github.com/Jun-Murakami/ZeroComp/releases/download/v1.1.7/ZeroComp_1.1.7_macOS_VST3_AU_AAX_CLAP_Standalone.zip"
+          },
+          {
+            "systems": [
+              {
+                "type": "win",
+                "min": 10
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "clap",
+              "aax",
+              "exe"
+            ],
+            "type": "installer",
+            "size": 17109408,
+            "sha256": "88b7a70ff22ad717ad563b2552862e739c790ee1d3deff5d0f92cf9425466dc4",
+            "url": "https://github.com/Jun-Murakami/ZeroComp/releases/download/v1.1.7/ZeroComp_1.1.7_Windows_Setup.exe"
+          },
+          {
+            "systems": [
+              {
+                "type": "win",
+                "min": 10
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "clap",
+              "aax",
+              "exe"
+            ],
+            "type": "archive",
+            "size": 21958122,
+            "sha256": "2f3d30be07be155e3a82bd30512665a158e0c32b587ce5c16b92749eed3bfd1e",
+            "url": "https://github.com/Jun-Murakami/ZeroComp/releases/download/v1.1.7/ZeroComp_1.1.7_Windows_VST3_AAX_CLAP_Standalone.zip"
+          }
+        ],
+        "verified": true
+      }
+    }
+  },
   "jun-murakami/tinyvu": {
     "slug": "jun-murakami/tinyvu",
     "version": "1.0.6",
