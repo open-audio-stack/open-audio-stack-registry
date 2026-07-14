@@ -17953,6 +17953,100 @@
       }
     }
   },
+  "guitarml/smartamppro": {
+    "slug": "guitarml/smartamppro",
+    "version": "0.1.0",
+    "versions": {
+      "0.1.0": {
+        "name": "SmartAmpPro",
+        "author": "GuitarML",
+        "description": "Neural guitar amp plugin using deep learning (LSTM models). Includes built-in recording/capture and model training features. Proteus-compatible.",
+        "license": "gpl-3.0",
+        "type": "effect",
+        "tags": [
+          "Guitar",
+          "Amp",
+          "Proteus",
+          "NAM"
+        ],
+        "url": "https://github.com/GuitarML/SmartAmpPro",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/guitarml/smartamppro/smartamppro.jpg",
+        "date": "2021-01-30T14:11:41Z",
+        "changes": "- Pre-release v0.1-alpha with model training and capture features\n",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 6979205,
+            "sha256": "94764cc8faacc572c45508b450acafc56027b5f0a4e03b06320c26d063accec5",
+            "url": "https://github.com/GuitarML/SmartAmpPro/releases/download/v0.1-alpha/SmartAmpPro.vst3.zip"
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "component"
+            ],
+            "type": "archive",
+            "size": 7530076,
+            "sha256": "44d65e79c3657d630da7951a610fd7946edd6024747ff5bc41301b648889db0b",
+            "url": "https://github.com/GuitarML/SmartAmpPro/releases/download/v0.1-alpha/SmartAmpPro-au.component.zip"
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "installer",
+            "size": 6851919,
+            "sha256": "56f74a8ce3da7a699eb4656aa103b8c3c1d17cc1d6acbc62c5308d5e7dbc5f63",
+            "url": "https://github.com/GuitarML/SmartAmpPro/releases/download/v0.1-alpha/SmartAmpPro_VST3_Mac.dmg"
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 8154624,
+            "sha256": "1da89a267d46a42999761f487496296fd3a5e69e438a7048e754baede0c398f4",
+            "url": "https://github.com/GuitarML/SmartAmpPro/releases/download/v0.1-alpha/SmartAmpPro.vst3"
+          }
+        ],
+        "verified": true
+      }
+    }
+  },
   "guitarml/chameleon": {
     "slug": "guitarml/chameleon",
     "version": "1.2.0",
