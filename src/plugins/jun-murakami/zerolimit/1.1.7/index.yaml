@@ -1,0 +1,89 @@
+name: ZeroLimit
+author: Jun Murakami
+description: A zero-latency brickwall limiter for broadcast, streaming, and music mastering.
+license: agpl-3.0
+type: effect
+tags:
+  - Limiter
+  - Broadcast
+  - Zero Latency
+url: https://github.com/Jun-Murakami/ZeroLimit
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/jun-murakami/zerolimit/zerolimit.jpg
+date: '2026-07-08T07:21:28Z'
+changes: |-
+  - Fixed an issue where the plugin screen would not launch in some Linux environments.
+  - Updated various libraries and frameworks.
+files:
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - vst3
+      - clap
+      - lv2
+      - elf
+    type: archive
+    size: 11386807
+    sha256: d6b15e5ef18b263d22be402e4ab8ff2fccd3f85967ba6a2dcb8d6be8d605c5be
+    url: https://github.com/Jun-Murakami/ZeroLimit/releases/download/v1.1.7/ZeroLimit_1.1.7_Linux_VST3_LV2_CLAP_Standalone.zip
+  - systems:
+      - type: mac
+        min: 10.15
+    architectures:
+      - arm64
+      - x64
+    contains:
+      - vst3
+      - component
+      - clap
+      - aax
+      - app
+    type: installer
+    size: 27283334
+    sha256: 761e6be37071b931c08374325a569287d1e231a622361bffc0ab77e9fd27defc
+    url: https://github.com/Jun-Murakami/ZeroLimit/releases/download/v1.1.7/ZeroLimit_1.1.7_macOS.pkg
+  - systems:
+      - type: mac
+        min: 10.15
+    architectures:
+      - arm64
+      - x64
+    contains:
+      - vst3
+      - component
+      - clap
+      - aax
+      - app
+    type: archive
+    size: 27235178
+    sha256: 1e371966796a1df6b1e6c2abc104b0284eeb0e57454e19922156634065fc77a8
+    url: https://github.com/Jun-Murakami/ZeroLimit/releases/download/v1.1.7/ZeroLimit_1.1.7_macOS_VST3_AU_AAX_CLAP_Standalone.zip
+  - systems:
+      - type: win
+        min: 10
+    architectures:
+      - x64
+    contains:
+      - vst3
+      - clap
+      - aax
+      - exe
+    type: installer
+    size: 17096088
+    sha256: 2ed66accc7fb17598ff6ecbace65814a37d2edd2833cea53da43b7d981951ce3
+    url: https://github.com/Jun-Murakami/ZeroLimit/releases/download/v1.1.7/ZeroLimit_1.1.7_Windows_Setup.exe
+  - systems:
+      - type: win
+        min: 10
+    architectures:
+      - x64
+    contains:
+      - vst3
+      - clap
+      - aax
+      - exe
+    type: archive
+    size: 21937179
+    sha256: 3d59bb7aefbc956112ca45a1337235470f6bdd5a1f782b52435698059cd6030b
+    url: https://github.com/Jun-Murakami/ZeroLimit/releases/download/v1.1.7/ZeroLimit_1.1.7_Windows_VST3_AAX_CLAP_Standalone.zip
