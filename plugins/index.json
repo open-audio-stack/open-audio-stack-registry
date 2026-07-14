@@ -13680,6 +13680,139 @@
       }
     }
   },
+  "jun-murakami/zeroeq": {
+    "slug": "jun-murakami/zeroeq",
+    "version": "1.0.7",
+    "versions": {
+      "1.0.7": {
+        "name": "ZeroEQ",
+        "author": "Jun Murakami",
+        "description": "A zero-latency, spectrum-analyzer-integrated parametric equalizer for broadcast, streaming, live, and mastering work.",
+        "license": "agpl-3.0",
+        "type": "effect",
+        "tags": [
+          "Equalizer",
+          "Broadcast",
+          "Zero Latency"
+        ],
+        "url": "https://github.com/Jun-Murakami/ZeroEQ",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/jun-murakami/zeroeq/zeroeq.jpg",
+        "date": "2026-07-08T07:19:56Z",
+        "changes": "- Fixed an issue where the plugin screen would not launch in some Linux environments.\n- Updated various libraries and frameworks.",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "clap",
+              "lv2",
+              "elf"
+            ],
+            "type": "archive",
+            "size": 11426809,
+            "sha256": "2b0baaebe617c30118f3c6503a15cff2bf835abd72caa813c31dd9228f8066ee",
+            "url": "https://github.com/Jun-Murakami/ZeroEQ/releases/download/v1.0.7/ZeroEQ_1.0.7_Linux_VST3_LV2_CLAP_Standalone.zip"
+          },
+          {
+            "systems": [
+              {
+                "type": "mac",
+                "min": 10.15
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "component",
+              "clap",
+              "aax",
+              "app"
+            ],
+            "type": "installer",
+            "size": 27339185,
+            "sha256": "cd01413c41ae6b8788153c2b1f19a9a22a33a697379894b726075d4bc4960f10",
+            "url": "https://github.com/Jun-Murakami/ZeroEQ/releases/download/v1.0.7/ZeroEQ_1.0.7_macOS.pkg"
+          },
+          {
+            "systems": [
+              {
+                "type": "mac",
+                "min": 10.15
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "component",
+              "clap",
+              "aax",
+              "app"
+            ],
+            "type": "archive",
+            "size": 27301848,
+            "sha256": "2ea6b7aad4ae6508f0573ade298355cea87181e9863bf9bab018be18f31ca5d7",
+            "url": "https://github.com/Jun-Murakami/ZeroEQ/releases/download/v1.0.7/ZeroEQ_1.0.7_macOS_VST3_AU_AAX_CLAP_Standalone.zip"
+          },
+          {
+            "systems": [
+              {
+                "type": "win",
+                "min": 10
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "clap",
+              "aax",
+              "exe"
+            ],
+            "type": "installer",
+            "size": 17132024,
+            "sha256": "4cdc5ed8c032e63cd1ca0ae6cf5453cad77af9998817809cf3f3a6ee81890eb0",
+            "url": "https://github.com/Jun-Murakami/ZeroEQ/releases/download/v1.0.7/ZeroEQ_1.0.7_Windows_Setup.exe"
+          },
+          {
+            "systems": [
+              {
+                "type": "win",
+                "min": 10
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "clap",
+              "aax",
+              "exe"
+            ],
+            "type": "archive",
+            "size": 21986444,
+            "sha256": "7591100249db4b7f9bb151f999deadba045b15ab6a2c9cef94a605e77525c5fa",
+            "url": "https://github.com/Jun-Murakami/ZeroEQ/releases/download/v1.0.7/ZeroEQ_1.0.7_Windows_VST3_AAX_CLAP_Standalone.zip"
+          }
+        ],
+        "verified": true
+      }
+    }
+  },
   "jun-murakami/zerocomp": {
     "slug": "jun-murakami/zerocomp",
     "version": "1.1.7",
