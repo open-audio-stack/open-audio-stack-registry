@@ -2355,6 +2355,20 @@
       ]
     }
   },
+  "essej/paulxstretch": {
+    "1.6.0": {
+      "recs": [
+        {
+          "field": "url",
+          "rec": "requires mounting step, consider .pkg instead"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Linux"
+        }
+      ]
+    }
+  },
   "dropsnorz/wobbleizer": {
     "2.3.2": {
       "recs": [

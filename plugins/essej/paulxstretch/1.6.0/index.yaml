@@ -1,0 +1,43 @@
+name: PaulXStretch
+author: Jesse Chappell
+description: Extreme time-stretching and spectral processing plugin based on the PaulStretch algorithm, capable of turning short audio into hours-long ambient soundscapes.
+license: gpl-3.0
+type: effect
+tags:
+  - Time Stretching
+  - Spectral Processing
+  - Ambient
+url: https://github.com/essej/paulxstretch
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/essej/paulxstretch/paulxstretch.jpg
+date: '2022-06-16T22:06:51Z'
+changes: Added live output recording, selectable recording/capture directory and format (now defaulting to FLAC), offline render in the plugin version, Binaural Beats feature, and CLAP plugin support.
+files:
+  - systems:
+      - type: mac
+        min: 10.13
+    architectures:
+      - arm64
+      - x64
+    contains:
+      - vst3
+      - component
+      - clap
+      - aax
+      - app
+    type: installer
+    size: 29398028
+    sha256: c5bcba5215076f629c3442902eaba4825a7f71ac33fc2d793c7cb729bdeb17ad
+    url: https://github.com/essej/paulxstretch/releases/download/v1.6.0/paulxstretch-1.6.0-mac.dmg
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - vst3
+      - clap
+      - aax
+      - exe
+    type: installer
+    size: 5891920
+    sha256: 98017a1cd98219bdb4e7b3029d520928e602592921455f2e726a92ead488b226
+    url: https://github.com/essej/paulxstretch/releases/download/v1.6.0/paulxstretch-1.6.0-win.exe
