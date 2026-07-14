@@ -2173,6 +2173,20 @@
       ]
     }
   },
+  "guitarml/chameleon": {
+    "1.2.0": {
+      "recs": [
+        {
+          "field": "url",
+          "rec": "requires mounting step, consider .pkg instead"
+        },
+        {
+          "field": "architectures",
+          "rec": "should support arm64"
+        }
+      ]
+    }
+  },
   "gregrecco67/audibleplanets": {
     "1.2.3": {
       "recs": [

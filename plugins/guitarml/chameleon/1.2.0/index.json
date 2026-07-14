@@ -1,0 +1,76 @@
+{
+  "name": "Chameleon",
+  "author": "GuitarML",
+  "description": "Neural tone matching and model morphing plugin. Capture your own tones or load community models and blend them in real-time using Proteus technology. Excellent for guitarists looking for accurate amp/cab/pedal matching.",
+  "license": "gpl-3.0",
+  "type": "effect",
+  "tags": [
+    "Guitar",
+    "Tone Match",
+    "Proteus",
+    "NAM",
+    "Morphing"
+  ],
+  "url": "https://github.com/GuitarML/Chameleon",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/guitarml/chameleon/chameleon.jpg",
+  "date": "2022-08-30T11:02:32Z",
+  "changes": "- Updated neural models for better sound\n- Now uses internal binary models\n- Improved EQ knob sound\n- Added stereo processing\n- Fixed param saving in DAW for saved sessions\n- Updated to JUCE 7 and latest RTNeural modules\n- Removed Standalone and Win32 apps\n",
+  "files": [
+    {
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "lv2",
+        "vst3"
+      ],
+      "type": "installer",
+      "size": 2703980,
+      "sha256": "06b2ba4d8438fc90376485aff6ed3c732868c6bfb1b773a2c348c0e6ad6d1352",
+      "url": "https://github.com/GuitarML/Chameleon/releases/download/v1.2.0/Chameleon-Linux-x64-1.2.deb"
+    },
+    {
+      "systems": [
+        {
+          "type": "mac"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "aax",
+        "component",
+        "vst3"
+      ],
+      "type": "installer",
+      "size": 14747494,
+      "sha256": "9387fb1f0d5f4efe26dcb7d179dbd0a29ec96f976643be0b551dc0a56125739e",
+      "url": "https://github.com/GuitarML/Chameleon/releases/download/v1.2.0/Install-Chameleon-v1.2-Mac.dmg"
+    },
+    {
+      "systems": [
+        {
+          "type": "win"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "aax",
+        "vst3"
+      ],
+      "type": "installer",
+      "size": 4794770,
+      "sha256": "ac7e639eaad7c4db1aba556b6a489a17fd0dd4a67df49cbc5e126367a9a1d690",
+      "url": "https://github.com/GuitarML/Chameleon/releases/download/v1.2.0/Chameleon-Win-1.2.0.exe"
+    }
+  ],
+  "verified": true
+}
