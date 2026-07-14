@@ -773,6 +773,24 @@
       ]
     }
   },
+  "spotlightkid/ykchorus": {
+    "0.2.4": {
+      "recs": [
+        {
+          "field": "architectures",
+          "rec": "should support arm64"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Linux"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Mac"
+        }
+      ]
+    }
+  },
   "speechrezz/vibratoplugin": {
     "0.3.0": {
       "recs": [
