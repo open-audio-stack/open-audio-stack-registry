@@ -2055,6 +2055,20 @@
       ]
     }
   },
+  "imjimmi/contrast": {
+    "1.2.0": {
+      "recs": [
+        {
+          "field": "architectures",
+          "rec": "should support arm64"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Linux"
+        }
+      ]
+    }
+  },
   "igorski/vstsid": {
     "1.1.2": {
       "recs": [

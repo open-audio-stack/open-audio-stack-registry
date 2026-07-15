@@ -1,0 +1,64 @@
+{
+  "imjimmi/contrast": {
+    "slug": "imjimmi/contrast",
+    "version": "1.2.0",
+    "versions": {
+      "1.2.0": {
+        "name": "Contrast",
+        "author": "James J",
+        "description": "A bundle of 4 minimal effects plugins - Gate (look-ahead noise gate), Pitch (pitch shifter), Press (compressor), and Verb (mono/stereo reverb).",
+        "license": "mit",
+        "type": "effect",
+        "tags": [
+          "Bundle",
+          "Noise Gate",
+          "Pitch Shifter",
+          "Compressor",
+          "Reverb"
+        ],
+        "url": "https://github.com/ImJimmi/Contrast",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/imjimmi/contrast/contrast.jpg",
+        "date": "2022-10-16T16:55:48Z",
+        "changes": "Updated to JUCE 7.",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "component"
+            ],
+            "type": "archive",
+            "size": 9166006,
+            "sha256": "7d8399077baab9cf9c0b77123a6df56f7ecad32576337252ff99c954b1deec7e",
+            "url": "https://github.com/ImJimmi/Contrast/releases/download/1.2.0.3260179405/Contrast_1.2.0_macOS.zip"
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 6532691,
+            "sha256": "f7f58ed999bf2b5a5e8d817038dcf3558a88e637f422a88f352898f15d95e7d2",
+            "url": "https://github.com/ImJimmi/Contrast/releases/download/1.2.0.3260179405/Contrast_1.2.0_Windows.zip"
+          }
+        ],
+        "verified": true
+      }
+    }
+  }
+}
