@@ -1,0 +1,65 @@
+{
+  "vsicurella/supervirtualkeyboard": {
+    "slug": "vsicurella/supervirtualkeyboard",
+    "version": "0.0.21",
+    "versions": {
+      "0.0.21": {
+        "name": "SuperVirtualKeyboard",
+        "author": "Vincenzo Sicurella",
+        "description": "MIDI plugin made with JUCE for interacting with microtonal piano layouts, with support for MOS scales and custom tuning modes.",
+        "license": "unlicense",
+        "type": "instrument",
+        "tags": [
+          "Midi",
+          "Keyboard",
+          "Microtonal",
+          "Microtuning"
+        ],
+        "url": "https://github.com/vsicurella/SuperVirtualKeyboard",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/vsicurella/supervirtualkeyboard/supervirtualkeyboard.jpg",
+        "date": "2019-08-03T20:41:47Z",
+        "changes": "New in version 0.02\r\n- Updated GUI\r\n- Custom mode folder scanning\r\n- Saving/Importing both modes and presets\r\n- MOS scales up through 23EDO, also 31EDO\r\n- Bug: Colors have been disabled\r\n- Bug: Ableton export is not yet implemented",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst",
+              "vst3",
+              "component"
+            ],
+            "type": "archive",
+            "size": 3929621,
+            "sha256": "ff7b99dd4ff9382e778dd3d1a15cb762ea7c5354474e2300ca6ef3046f18aa2a",
+            "url": "https://github.com/vsicurella/SuperVirtualKeyboard/releases/download/0.021/SuperVirtualKeyboard_Mac_v0.021.zip"
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "dll",
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 3736386,
+            "sha256": "45ab2f3e7739a9ba009dd29e517466b172422da652f17d0e2334742a0cf7a72a",
+            "url": "https://github.com/vsicurella/SuperVirtualKeyboard/releases/download/0.021/SuperVirtualKeyboard_Win-v0.021.zip"
+          }
+        ],
+        "verified": true
+      }
+    }
+  }
+}
