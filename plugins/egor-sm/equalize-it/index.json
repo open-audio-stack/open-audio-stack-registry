@@ -1,0 +1,42 @@
+{
+  "slug": "egor-sm/equalize-it",
+  "version": "1.0.0",
+  "versions": {
+    "1.0.0": {
+      "name": "Equalize It",
+      "author": "Egor Smirnov",
+      "description": "12-band parametric EQ",
+      "license": "gpl-3.0",
+      "type": "effect",
+      "tags": [
+        "Equalizer",
+        "EQ",
+        "Parametric"
+      ],
+      "url": "https://github.com/egor-sm/equalize_it",
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/egor-sm/equalize-it/equalize-it.jpg",
+      "date": "2023-06-05T14:03:22Z",
+      "changes": "Equalize It 1.0.0 Release",
+      "files": [
+        {
+          "systems": [
+            {
+              "type": "win"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "vst3"
+          ],
+          "type": "installer",
+          "size": 4143552,
+          "sha256": "3fd088d5315072ef815f3248c190dbacf92a41d776015cf24cf3e4b8b0c9cac7",
+          "url": "https://github.com/egor-sm/equalize_it/releases/download/Latest/EqualizeItSetup-1.0.0.exe"
+        }
+      ],
+      "verified": true
+    }
+  }
+}
