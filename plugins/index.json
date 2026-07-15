@@ -13216,6 +13216,64 @@
       }
     }
   },
+  "m1m0zzz/utility-clone": {
+    "slug": "m1m0zzz/utility-clone",
+    "version": "1.0.0",
+    "versions": {
+      "1.0.0": {
+        "name": "Utility Clone",
+        "author": "mimoz",
+        "description": "A gain/utility plugin similar to Ableton's Utility, with phase invert, pan, mono, and bass mono controls.",
+        "license": "gpl-3.0",
+        "type": "effect",
+        "tags": [
+          "Utility",
+          "Gain"
+        ],
+        "url": "https://github.com/m1m0zzz/utility-clone",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/m1m0zzz/utility-clone/utility-clone.jpg",
+        "date": "2024-03-31T07:49:45Z",
+        "changes": "First release of the Utility clone, with gain, phase invert, pan, mono, and bass mono features.",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "exe"
+            ],
+            "type": "archive",
+            "size": 5086720,
+            "sha256": "6be28283aac959f5c8b7dc7b6b89ba2a72fb17296064ee5e5fb694cbfe5eb6d3",
+            "url": "https://github.com/m1m0zzz/utility-clone/releases/download/v1.0.0/Utility-clone.exe"
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 4902400,
+            "sha256": "4af9e087fd308c4065109b37b510d100fc2e82db16ce8545c7709a04ea80dea0",
+            "url": "https://github.com/m1m0zzz/utility-clone/releases/download/v1.0.0/Utility-clone.vst3"
+          }
+        ],
+        "verified": true
+      }
+    }
+  },
   "luna-co-software/4k-eq": {
     "slug": "luna-co-software/4k-eq",
     "version": "1.0.10",
