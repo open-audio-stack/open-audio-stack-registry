@@ -72,5 +72,15 @@
         }
       ]
     }
+  },
+  "gbevin/receivemidi": {
+    "1.5.0": {
+      "recs": [
+        {
+          "field": "systems",
+          "rec": "should support Linux"
+        }
+      ]
+    }
   }
 }

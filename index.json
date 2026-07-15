@@ -373,6 +373,62 @@
         }
       }
     },
+    "gbevin/receivemidi": {
+      "slug": "gbevin/receivemidi",
+      "version": "1.5.0",
+      "versions": {
+        "1.5.0": {
+          "name": "ReceiveMIDI",
+          "author": "Geert Bevin",
+          "description": "Multi-platform command-line tool to monitor and receive MIDI messages",
+          "license": "gpl-3.0",
+          "type": "tool",
+          "tags": [
+            "Midi",
+            "Command Line",
+            "Utility"
+          ],
+          "url": "https://github.com/gbevin/ReceiveMIDI",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/apps/gbevin/receivemidi/receivemidi.jpg",
+          "date": "2026-07-10T17:56:34Z",
+          "changes": "Added color to the help text output when terminals support it.\r\n\r\n**Full Changelog**: https://github.com/gbevin/ReceiveMIDI/compare/1.4.4...1.5.0",
+          "files": [
+            {
+              "systems": [
+                {
+                  "type": "mac"
+                }
+              ],
+              "architectures": [
+                "arm64",
+                "x64"
+              ],
+              "type": "archive",
+              "open": "receivemidi",
+              "size": 732388,
+              "sha256": "287b057da4f753b80c2504147237f99e94847529ca3b984eb229604a1f5772f9",
+              "url": "https://github.com/gbevin/ReceiveMIDI/releases/download/1.5.0/receivemidi-macOS-1.5.0.zip"
+            },
+            {
+              "systems": [
+                {
+                  "type": "win"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "type": "archive",
+              "open": "receivemidi.exe",
+              "size": 747301,
+              "sha256": "457a6c1684d459a145ba0563eb7a40c09222752e2bebbf677bb6482d640d4c2b",
+              "url": "https://github.com/gbevin/ReceiveMIDI/releases/download/1.5.0/receivemidi-windows-1.5.0.zip"
+            }
+          ],
+          "verified": true
+        }
+      }
+    },
     "free-audio/clapinfo": {
       "slug": "free-audio/clapinfo",
       "version": "1.2.2",
