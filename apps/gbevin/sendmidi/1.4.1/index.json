@@ -1,0 +1,50 @@
+{
+  "name": "SendMIDI",
+  "author": "Geert Bevin",
+  "description": "Multi-platform command-line tool to send out MIDI messages",
+  "license": "gpl-3.0",
+  "type": "tool",
+  "tags": [
+    "Midi",
+    "Command Line",
+    "Utility"
+  ],
+  "url": "https://github.com/gbevin/SendMIDI",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/apps/gbevin/sendmidi/sendmidi.jpg",
+  "date": "2026-07-13T02:58:02Z",
+  "changes": "- `ch` now rejects channels outside 1–16 instead of emitting malformed MIDI\r\n- `panic` now also resets all controllers and re-centers pitch bend\r\n- `tc` clamps MIDI Time Code type to 0–7 and value to 0–15\r...",
+  "files": [
+    {
+      "systems": [
+        {
+          "type": "mac"
+        }
+      ],
+      "architectures": [
+        "arm64",
+        "x64"
+      ],
+      "type": "archive",
+      "open": "sendmidi",
+      "size": 559090,
+      "sha256": "038bf9bd73e08d5da98c18860e2cb6f7aa7be987debe0c813c59f1268b534ad4",
+      "url": "https://github.com/gbevin/SendMIDI/releases/download/1.4.1/sendmidi-macOS-1.4.1.zip"
+    },
+    {
+      "systems": [
+        {
+          "type": "win"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "type": "archive",
+      "open": "sendmidi.exe",
+      "size": 663716,
+      "sha256": "df0410d58030c9a2214d856d43487f32153bbbd60b151ccaf1b227ee71399b77",
+      "url": "https://github.com/gbevin/SendMIDI/releases/download/1.4.1/sendmidi-windows-1.4.1.zip"
+    }
+  ],
+  "verified": true
+}

@@ -62,5 +62,15 @@
         }
       ]
     }
+  },
+  "gbevin/sendmidi": {
+    "1.4.1": {
+      "recs": [
+        {
+          "field": "systems",
+          "rec": "should support Linux"
+        }
+      ]
+    }
   }
 }
