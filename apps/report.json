@@ -82,5 +82,15 @@
         }
       ]
     }
+  },
+  "christofmuc/knobkraft-orm": {
+    "2.9.0": {
+      "recs": [
+        {
+          "field": "url",
+          "rec": "requires mounting step, consider .pkg instead"
+        }
+      ]
+    }
   }
 }

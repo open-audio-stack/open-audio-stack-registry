@@ -1,0 +1,89 @@
+{
+  "christofmuc/knobkraft-orm": {
+    "slug": "christofmuc/knobkraft-orm",
+    "version": "2.9.0",
+    "versions": {
+      "2.9.0": {
+        "name": "KnobKraft Orm",
+        "author": "Christof",
+        "description": "The free modern cross-platform MIDI Sysex Librarian, with adaptations for hundreds of hardware synthesizers.",
+        "license": "agpl-3.0",
+        "type": "tool",
+        "tags": [
+          "Midi",
+          "Sysex",
+          "Librarian",
+          "Synthesizer Presets"
+        ],
+        "url": "https://github.com/christofmuc/KnobKraft-orm",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/apps/christofmuc/knobkraft-orm/knobkraft-orm.jpg",
+        "date": "2026-04-19T13:43:33Z",
+        "changes": "## Features:\r\n\r\n* **\\#438** Added the LegacyLoaderCapability for adaptations that need to load older or non-standard file formats, and documented the new hook in the Adaptation Programming Guide.\r...",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "type": "installer",
+            "open": "KnobKraftOrm.app",
+            "size": 80930279,
+            "sha256": "89accb39c29fe193b30d2c4c36e2215de8aa87a5e12f0cc9e17526ae6ed71741",
+            "url": "https://github.com/christofmuc/KnobKraft-orm/releases/download/2.9.0/KnobKraft_Orm-2.9.0-Darwin.dmg"
+          },
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "type": "archive",
+            "open": "bin/KnobKraftOrm",
+            "size": 18058121,
+            "sha256": "de23a08eae7ff413f8733205bbc6582efc4838bdc417653966047b924a190e51",
+            "url": "https://github.com/christofmuc/KnobKraft-orm/releases/download/2.9.0/KnobKraft_Orm-2.9.0-Linux.tar.gz"
+          },
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "type": "archive",
+            "open": "bin/KnobKraftOrm",
+            "size": 18087284,
+            "sha256": "a24fe35bbf14e5fe33623a1c014dc648d600a88680ebd3694fee5a550749c212",
+            "url": "https://github.com/christofmuc/KnobKraft-orm/releases/download/2.9.0/KnobKraft_Orm-2.9.0-Ubuntu24.tar.gz"
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "type": "installer",
+            "open": "KnobKraftOrm.exe",
+            "size": 69131397,
+            "sha256": "704e02f161eed15ad539331e975eee033b17a43ffa2041aebbcb9c931c34d6f3",
+            "url": "https://github.com/christofmuc/KnobKraft-orm/releases/download/2.9.0/knobkraft_orm_setup_2.9.0.exe"
+          }
+        ],
+        "verified": true
+      }
+    }
+  }
+}
