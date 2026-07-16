@@ -35,7 +35,10 @@ let hasErrors = false;
 for (const type in pkgJson.files) {
   const file: PluginFile | PresetFile | ProjectFile = pkgJson.files[type];
   const fileName: string = path.basename(file.url);
-  const fileLocalPath: string = path.join('test', 'downloads', slug, version, fileName);
+  // Prefix with the file's own index so two entries that happen to share a
+  // basename (e.g. re-uploaded GitHub attachment URLs) never collide and
+  // silently validate against the wrong downloaded bytes.
+  const fileLocalPath: string = path.join('test', 'downloads', slug, version, `${type}-${fileName}`);
 
   // Reject mutable GitHub branch/tag archive URLs — they change sha256 on every commit
   const mutableArchivePattern = /github\.com\/[^/]+\/[^/]+\/archive\/refs\/(heads|tags)\//;
