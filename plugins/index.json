@@ -9228,6 +9228,104 @@
       }
     }
   },
+  "rclement/meeblip-controller": {
+    "slug": "rclement/meeblip-controller",
+    "version": "1.0.2",
+    "versions": {
+      "1.0.2": {
+        "name": "Meeblip Controller",
+        "author": "Romain Clement",
+        "description": "MIDI controller plugin for the Meeblip Anode open-source hardware synthesizer.",
+        "license": "gpl-3.0",
+        "type": "tool",
+        "tags": [
+          "Midi",
+          "Midi Controller",
+          "Hardware"
+        ],
+        "url": "https://github.com/rclement/meeblip-controller",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/rclement/meeblip-controller/meeblip-controller.jpg",
+        "date": "2018-11-30T18:00:06Z",
+        "changes": "### Added\r\n- Linux support for standalone app and VST plug-in ([#1](https://github.com/rclement/meeblip-controller/issues/1))\r\n\r\n### Changed\r\n- Add Linux build to Travis-CI\r\n- Update README.md with Linux support\r\n\r\n### Fixed\r...",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "elf"
+            ],
+            "type": "archive",
+            "size": 50716040,
+            "sha256": "01c0adda69b330b3911f3b6572c09dd0260a6c8e35beb5570055b9d94228438f",
+            "url": "https://github.com/rclement/meeblip-controller/releases/download/1.0.2/Meeblip_Controller-1.0.2-x86_64.AppImage"
+          },
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "so"
+            ],
+            "type": "archive",
+            "size": 59126544,
+            "sha256": "66537603a01fc5515309922406b6b105848617447f8f2804dbfcd045fc06ecef",
+            "url": "https://github.com/rclement/meeblip-controller/releases/download/1.0.2/Meeblip_Controller_-_1.0.2_-_Linux.zip"
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "app",
+              "vst",
+              "component",
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 10571334,
+            "sha256": "917b0bc7dacf9cfc31c0a01ee1e5d5c77d75d89d40ed0e3d079bb00757af572f",
+            "url": "https://github.com/rclement/meeblip-controller/releases/download/1.0.2/Meeblip_Controller_-_1.0.2_-_MacOS.zip"
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "exe",
+              "dll",
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 2982370,
+            "sha256": "08cf48b2214c13d1ed7fed1aa671e4b67ce60198533328fc120bb5e3d3705d95",
+            "url": "https://github.com/rclement/meeblip-controller/releases/download/1.0.2/Meeblip_Controller_-_1.0.2_-_Windows.zip"
+          }
+        ],
+        "verified": true
+      }
+    }
+  },
   "rcjach/rcsiner": {
     "slug": "rcjach/rcsiner",
     "version": "1.0.1",

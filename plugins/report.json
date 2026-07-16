@@ -1131,6 +1131,20 @@
       ]
     }
   },
+  "rclement/meeblip-controller": {
+    "1.0.2": {
+      "recs": [
+        {
+          "field": "url",
+          "rec": "not a supported format"
+        },
+        {
+          "field": "architectures",
+          "rec": "should support arm64"
+        }
+      ]
+    }
+  },
   "rcjach/rcsiner": {
     "1.0.1": {
       "recs": [
