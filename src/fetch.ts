@@ -3,7 +3,7 @@
 // Review the printed output for: type, tags, changes, and any "contains" fields flagged as unknown.
 
 import { createHash } from 'crypto';
-import { execSync } from 'child_process';
+import { execFileSync, execSync } from 'child_process';
 import { existsSync, mkdirSync, writeFileSync } from 'fs';
 import path from 'path';
 import yaml from 'js-yaml';
@@ -180,23 +180,227 @@ function inferFileType(filename: string): string {
 // Filename regexes are the first line of defense but are frequently silent for single-archive
 // builds (common with DPF/JUCE projects) that carry no platform or format hint in the name at
 // all. When we already have the asset downloaded, extract it and inspect what's really inside —
-// far more reliable than guessing from the filename or README prose. Only handles zip/tar
-// archives (not dmg/pkg/exe installers, which need macOS/Windows-specific tools) — installers
-// still need the manual inspection steps documented in AGENTS.md.
-const EXTRACTABLE_ARCHIVE = /\.(zip|tar\.gz|tgz|tar\.xz|tar\.bz2)$/i;
+// far more reliable than guessing from the filename or README prose. Covers zip/tar archives
+// plus the common installer formats (.pkg, .dmg, .deb, .exe, .msi) using standard CLI tools.
+// Each installer extractor is gated behind a tool-availability check and degrades gracefully
+// (falls back to the pre-existing filename/text-inference path) if the tool isn't installed —
+// this script may run on machines without pkgutil/hdiutil (Linux) or without 7z/innoextract.
+const INSPECTABLE_ASSET = /\.(zip|tar\.gz|tgz|tar\.xz|tar\.bz2|pkg|dmg|deb|exe|msi)$/i;
+
+function commandExists(cmd: string): boolean {
+  try {
+    execSync(`command -v ${cmd}`, { stdio: 'pipe' });
+    return true;
+  } catch {
+    return false;
+  }
+}
+
+function dirHasFiles(dir: string): boolean {
+  try {
+    return (
+      execSync(`find "${dir}" -type f 2>/dev/null | head -1`, { encoding: 'utf8', stdio: 'pipe' }).trim().length > 0
+    );
+  } catch {
+    return false;
+  }
+}
+
+// macOS installer package. Handles both a single flat pkg (Bom/Payload/PackageInfo directly)
+// and a "product archive" wrapping multiple named sub-packages (e.g. App.pkg, VST3.pkg,
+// AU.pkg), each with its own gzip+cpio Payload — merges every Payload's contents into outDir.
+function expandPkg(pkgPath: string, outDir: string): boolean {
+  if (!commandExists('pkgutil') || !commandExists('cpio')) return false;
+  const expandDir = `${outDir}-pkgexpand`;
+  try {
+    // execFileSync — pkgPath may be a nested pkg discovered inside an already-extracted
+    // directory (see expandNestedPkgs), so its name isn't under our control.
+    execFileSync('pkgutil', ['--expand', pkgPath, expandDir], { stdio: 'pipe' });
+  } catch {
+    return false; // not a valid pkg, or pkgutil unavailable for this variant
+  }
+  mkdirSync(outDir, { recursive: true });
+  const payloads = [
+    path.join(expandDir, 'Payload'), // flat/single-component pkg
+    ...(() => {
+      try {
+        return execSync(`find "${expandDir}" -mindepth 1 -maxdepth 1 -iname "*.pkg" -type d`, {
+          encoding: 'utf8',
+          stdio: 'pipe',
+        })
+          .split('\n')
+          .filter(Boolean)
+          .map(sub => path.join(sub, 'Payload'));
+      } catch {
+        return [];
+      }
+    })(),
+  ];
+  for (const payload of payloads) {
+    if (!existsSync(payload)) continue;
+    try {
+      execSync(`sh -c 'gunzip -c "${payload}" | (cd "${outDir}" && cpio -id --quiet)'`, { stdio: 'pipe' });
+    } catch {
+      /* individual sub-package payload failed to decompress — skip, keep the rest */
+    }
+  }
+  execFileSync('rm', ['-rf', expandDir], { stdio: 'pipe' });
+  return dirHasFiles(outDir);
+}
+
+// Recursively expand any bare .pkg files left inside an already-extracted directory (common
+// when a zip or dmg wraps a .pkg installer instead of shipping raw plugin bundles directly).
+function expandNestedPkgs(dir: string): void {
+  if (!commandExists('pkgutil')) return;
+  try {
+    const pkgFiles = execSync(`find "${dir}" -maxdepth 3 -iname "*.pkg" -type f`, { encoding: 'utf8', stdio: 'pipe' })
+      .split('\n')
+      .filter(Boolean);
+    for (const pkgFile of pkgFiles) {
+      const subOut = `${pkgFile}-expanded`;
+      if (expandPkg(pkgFile, subOut)) {
+        execFileSync('cp', ['-R', `${subOut}/.`, dir], { stdio: 'pipe' });
+      }
+      execFileSync('rm', ['-rf', subOut], { stdio: 'pipe' });
+    }
+  } catch {
+    /* best-effort — leave dir as-is if nested pkgs can't be found/expanded */
+  }
+}
+
+// macOS disk image. Mounts read-only and copies the volume contents out rather than reading
+// in place, so the mount can be detached immediately (avoids leaking mounted volumes across a
+// batch fetch run). Some dmgs show an embedded software-license prompt on attach; `yes |`
+// auto-accepts it so the command doesn't hang waiting for interactive input.
+function expandDmg(dmgPath: string, outDir: string): boolean {
+  if (!commandExists('hdiutil')) return false;
+  const mountPoint = `/tmp/oas-fetch-dmg-${Date.now()}-${Math.random().toString(36).slice(2)}`;
+  try {
+    mkdirSync(mountPoint, { recursive: true });
+    execSync(`yes | hdiutil attach "${dmgPath}" -nobrowse -mountpoint "${mountPoint}"`, { stdio: 'pipe' });
+  } catch {
+    return false; // not a mountable disk image, or hdiutil unavailable
+  }
+  try {
+    mkdirSync(outDir, { recursive: true });
+    execSync(`cp -R "${mountPoint}/." "${outDir}"`, { stdio: 'pipe' });
+  } catch {
+    return false;
+  } finally {
+    try {
+      execSync(`hdiutil detach "${mountPoint}" -force`, { stdio: 'pipe' });
+    } catch {
+      /* best-effort unmount */
+    }
+    try {
+      execSync(`rmdir "${mountPoint}"`, { stdio: 'pipe' });
+    } catch {
+      /* leftover empty mountpoint dir, not worth failing over */
+    }
+  }
+  expandNestedPkgs(outDir); // dmg may wrap a .pkg rather than shipping raw bundles
+  return dirHasFiles(outDir);
+}
+
+// Linux .deb package: ar extracts the control/data/debian-binary members, data.tar.* holds
+// the actual filesystem payload. `tar -xf` auto-detects compression (gz/xz/zst) on both GNU
+// tar and macOS's bsdtar, so no need to branch on the specific data.tar extension.
+function expandDeb(debPath: string, outDir: string): boolean {
+  if (!commandExists('ar')) return false;
+  mkdirSync(outDir, { recursive: true });
+  try {
+    execSync(`sh -c 'cd "${outDir}" && ar x "${debPath}" && tar -xf data.tar.*'`, { stdio: 'pipe' });
+    return dirHasFiles(outDir);
+  } catch {
+    return false;
+  }
+}
+
+// Windows installer (.exe). Most JUCE/CMake projects package with Inno Setup — innoextract
+// handles that directly. Some installer frameworks (NSIS, self-extracting archives) aren't
+// Inno Setup at all, and even genuine Inno Setup installers can use a loader revision newer
+// than the locally-installed innoextract supports — 7z is a broader (if less precise) fallback
+// that handles NSIS archives with an explicit -tnsis type hint.
+function expandExe(exePath: string, outDir: string): boolean {
+  mkdirSync(outDir, { recursive: true });
+  if (commandExists('innoextract')) {
+    try {
+      execSync(`innoextract -m -d "${outDir}" "${exePath}"`, { stdio: 'pipe' });
+      if (dirHasFiles(outDir)) return true;
+    } catch {
+      /* not an Inno Setup installer, or unsupported loader revision — try 7z instead */
+    }
+  }
+  if (commandExists('7z')) {
+    try {
+      execSync(`7z x "${exePath}" -o"${outDir}" -y`, { stdio: 'pipe' });
+      if (dirHasFiles(outDir)) return true;
+    } catch {
+      /* fall through to explicit NSIS type hint */
+    }
+    try {
+      execSync(`7z x -tnsis "${exePath}" -o"${outDir}" -y`, { stdio: 'pipe' });
+      if (dirHasFiles(outDir)) return true;
+    } catch {
+      /* neither generic nor NSIS-typed extraction worked — likely InstallShield or similar,
+         needs the manual packaging-script/CI-workflow fallback documented in AGENTS.md */
+    }
+  }
+  return false;
+}
+
+// Windows installer (.msi). 7z understands the MSI/OLE compound file format directly.
+function expandMsi(msiPath: string, outDir: string): boolean {
+  if (!commandExists('7z')) return false;
+  mkdirSync(outDir, { recursive: true });
+  try {
+    execSync(`7z x "${msiPath}" -o"${outDir}" -y`, { stdio: 'pipe' });
+    return dirHasFiles(outDir);
+  } catch {
+    return false;
+  }
+}
 
 function extractArchive(tmpFile: string, filename: string): string | null {
   const dir = `${tmpFile}-extracted`;
   try {
-    mkdirSync(dir, { recursive: true });
-    if (/\.zip$/i.test(filename)) execSync(`unzip -oq "${tmpFile}" -d "${dir}"`, { stdio: 'pipe' });
-    else if (/\.tar\.gz$|\.tgz$/i.test(filename)) execSync(`tar -xzf "${tmpFile}" -C "${dir}"`, { stdio: 'pipe' });
-    else if (/\.tar\.xz$/i.test(filename)) execSync(`tar -xJf "${tmpFile}" -C "${dir}"`, { stdio: 'pipe' });
-    else if (/\.tar\.bz2$/i.test(filename)) execSync(`tar -xjf "${tmpFile}" -C "${dir}"`, { stdio: 'pipe' });
-    else return null;
-    return dir;
+    if (/\.zip$/i.test(filename)) {
+      mkdirSync(dir, { recursive: true });
+      execSync(`unzip -oq "${tmpFile}" -d "${dir}"`, { stdio: 'pipe' });
+      expandNestedPkgs(dir); // zip may wrap a .pkg rather than shipping raw bundles
+    } else if (/\.tar\.gz$|\.tgz$/i.test(filename)) {
+      mkdirSync(dir, { recursive: true });
+      execSync(`tar -xzf "${tmpFile}" -C "${dir}"`, { stdio: 'pipe' });
+    } else if (/\.tar\.xz$/i.test(filename)) {
+      mkdirSync(dir, { recursive: true });
+      execSync(`tar -xJf "${tmpFile}" -C "${dir}"`, { stdio: 'pipe' });
+    } else if (/\.tar\.bz2$/i.test(filename)) {
+      mkdirSync(dir, { recursive: true });
+      execSync(`tar -xjf "${tmpFile}" -C "${dir}"`, { stdio: 'pipe' });
+    } else if (/\.pkg$/i.test(filename)) {
+      if (!expandPkg(tmpFile, dir)) return null;
+    } else if (/\.dmg$/i.test(filename)) {
+      if (!expandDmg(tmpFile, dir)) return null;
+    } else if (/\.deb$/i.test(filename)) {
+      if (!expandDeb(tmpFile, dir)) return null;
+    } else if (/\.msi$/i.test(filename)) {
+      if (!expandMsi(tmpFile, dir)) return null;
+    } else if (/\.exe$/i.test(filename)) {
+      if (!expandExe(tmpFile, dir)) return null;
+    } else {
+      // .appimage is deliberately not handled here: every other format above is inspected by
+      // passively parsing the file (pkgutil, ar/tar, 7z, innoextract — none of them run the
+      // downloaded binary). The standard way to read an AppImage's contents is
+      // `--appimage-extract`, which *executes* its bundled runtime stub — a materially
+      // different trust boundary for a script that processes untrusted community submissions.
+      // Falls back to the existing filename/text-inference path and the manual AGENTS.md
+      // steps, same as before this function existed.
+      return null;
+    }
+    return dirHasFiles(dir) ? dir : null;
   } catch {
-    return null; // corrupt archive or unsupported compression — caller falls back to filename inference
+    return null; // corrupt archive, unsupported compression, or required tool unavailable —
+    // caller falls back to filename/text inference
   }
 }
 
@@ -204,10 +408,23 @@ interface ArchiveInspection {
   platforms: Set<string>;
   formats: Set<string>; // '__vst2__' stands in for the platform-specific vst/so/dll value
   macArchitectures: Set<string>;
+  // Loose (not inside a plugin bundle) win .exe / linux ELF binaries that look like they
+  // could be the standalone app entry point, but weren't unambiguous enough to auto-tag as
+  // the 'exe'/'elf' format — surfaced to the reviewer rather than guessed.
+  standaloneCandidates: string[];
 }
 
+// Installer-bundled helper binaries that are never the plugin's own standalone entry point —
+// filtered out so they don't get misidentified as (or dilute confidence in) the real one.
+const HELPER_BINARY_PATTERN = /unins|uninstall|vc_?redist|dotnetfx|dotnet-|winsparkle|crashpad|updater?\b|setup/i;
+
 function inspectExtractedDir(dir: string): ArchiveInspection {
-  const result: ArchiveInspection = { platforms: new Set(), formats: new Set(), macArchitectures: new Set() };
+  const result: ArchiveInspection = {
+    platforms: new Set(),
+    formats: new Set(),
+    macArchitectures: new Set(),
+    standaloneCandidates: [],
+  };
   let listing = '';
   try {
     // Exclude symlinks: some JUCE/CMake post-build steps leave a broken symlink named
@@ -225,11 +442,17 @@ function inspectExtractedDir(dir: string): ArchiveInspection {
   if (/\.clap(\/|$)/m.test(listing)) result.formats.add('clap');
   if (/\.lv2(\/|$)/m.test(listing)) result.formats.add('lv2');
   if (/\.aaxplugin(\/|$)/m.test(listing)) result.formats.add('aax');
-  if (/\.vst(\/|$)/m.test(listing) && !/\.vst3(\/|$)/m.test(listing)) result.formats.add('__vst2__');
+  // The trailing (\/|$) boundary already rejects ".vst3" on its own (nothing between "vst" and
+  // the separator/end-of-line) — an extra "no .vst3 anywhere in the whole listing" check used
+  // to sit here, but that's a *global* condition, not scoped to this match: it incorrectly
+  // suppressed vst2 detection whenever a vst3 bundle existed anywhere else in the same archive,
+  // which is the common case for plugins that ship both formats side by side.
+  if (/\.vst(\/|$)/m.test(listing)) result.formats.add('__vst2__');
   // ".app" is unambiguous — only a macOS Standalone build produces one, unlike bare Windows
   // .exe or extensionless Linux binaries, which could just as easily be an installer helper
-  // or a build tool bundled alongside the real plugin. Those two still need a manual check.
+  // or a build tool bundled alongside the real plugin.
   if (/\.app(\/|$)/m.test(listing)) result.formats.add('app');
+  const inBundle = (f: string) => /\.vst3\/|\.component\/|\.clap\/|\.lv2\//i.test(f);
 
   // Inspect real binaries for platform/architecture — `file` reads magic bytes, so this is
   // authoritative even when directory/file names give no hint at all.
@@ -241,10 +464,16 @@ function inspectExtractedDir(dir: string): ArchiveInspection {
       .split('\n')
       .filter(Boolean)
       .slice(0, 20); // cap — large bundles can contain hundreds of resource files
+    const winStandaloneCandidates: string[] = [];
+    const linuxStandaloneCandidates: string[] = [];
     for (const f of candidates) {
       let info = '';
       try {
-        info = execSync(`file -b "${f}"`, { encoding: 'utf8', stdio: ['pipe', 'pipe', 'pipe'] });
+        // execFileSync (no shell) rather than execSync — NSIS-extracted installers routinely
+        // produce paths like "$_16_/element.exe" or "$PLUGINSDIR/foo.dll", and a shell-form
+        // command would expand "$_16_"/"$PLUGINSDIR" as an (undefined, empty-string) variable
+        // reference, silently breaking the lookup for exactly that file.
+        info = execFileSync('file', ['-b', f], { encoding: 'utf8', stdio: ['pipe', 'pipe', 'pipe'] });
       } catch {
         continue;
       }
@@ -254,10 +483,26 @@ function inspectExtractedDir(dir: string): ArchiveInspection {
         if (/\bx86_64\b/.test(info)) result.macArchitectures.add('x64');
       } else if (/pe32\+?\s+executable|ms-dos/i.test(info)) {
         result.platforms.add('win');
+        if (/\.exe$/i.test(f) && !inBundle(f) && !HELPER_BINARY_PATTERN.test(path.basename(f)))
+          winStandaloneCandidates.push(path.relative(dir, f));
       } else if (/elf\s+\d+-bit/i.test(info)) {
         result.platforms.add('linux');
+        // Linux CLAP/VST2 plugins are a single flat ELF file (unlike the directory bundles
+        // used by vst3/component/lv2), so they'd otherwise slip past inBundle() and look like
+        // a standalone candidate — exclude by extension instead.
+        if (!inBundle(f) && !HELPER_BINARY_PATTERN.test(path.basename(f)) && !/\.(so|clap)$/i.test(f))
+          linuxStandaloneCandidates.push(path.relative(dir, f));
       }
     }
+    // Only auto-tag when there's exactly one plausible candidate — with more than one, guessing
+    // which is the real entry point is no better than the filename/text inference this is meant
+    // to replace, so surface the list instead of picking one.
+    if (winStandaloneCandidates.length === 1) result.formats.add('exe');
+    else if (winStandaloneCandidates.length > 1)
+      result.standaloneCandidates.push(...winStandaloneCandidates.map(f => `win: ${f}`));
+    if (linuxStandaloneCandidates.length === 1) result.formats.add('elf');
+    else if (linuxStandaloneCandidates.length > 1)
+      result.standaloneCandidates.push(...linuxStandaloneCandidates.map(f => `linux: ${f}`));
   } catch {
     /* find/file unavailable, or no matching binaries — inspection is best-effort */
   }
@@ -434,6 +679,7 @@ async function main() {
   const unknownContains: string[] = [];
   const skippedAssets: string[] = [];
   const unconfirmedArchitectures: string[] = [];
+  const ambiguousStandaloneBinaries: string[] = [];
   const cleanupPaths: string[] = [];
   for (const asset of release.assets as any[]) {
     let systems = inferSystems(asset.name);
@@ -452,7 +698,7 @@ async function main() {
     // hint) — download and look inside the archive itself rather than guessing.
     const macArchUnconfirmed = !archResult.confident && systems.some(s => s.type === 'mac');
     const needsInspection =
-      (systems.length === 0 || contains.length === 0 || macArchUnconfirmed) && EXTRACTABLE_ARCHIVE.test(asset.name);
+      (systems.length === 0 || contains.length === 0 || macArchUnconfirmed) && INSPECTABLE_ASSET.test(asset.name);
 
     let sha256: string = asset.digest ? (asset.digest as string).replace('sha256:', '') : '';
     let size: number = asset.size;
@@ -487,6 +733,11 @@ async function main() {
           contains = [...inspected.formats].map(f => (f === '__vst2__' ? vst2Value : f));
         }
         macArchFromInspection = [...inspected.macArchitectures];
+        if (inspected.standaloneCandidates.length > 0) {
+          ambiguousStandaloneBinaries.push(
+            `${asset.name}: ${inspected.standaloneCandidates.join(', ')} — could not tell which (if any) is the standalone app`,
+          );
+        }
       }
     }
 
@@ -623,6 +874,10 @@ async function main() {
   if (unconfirmedArchitectures.length > 0) {
     console.log(`  ⚠ architectures unconfirmed for ${unconfirmedArchitectures.length} file(s) — verify manually:`);
     unconfirmedArchitectures.forEach(a => console.log(`      - ${a}`));
+  }
+  if (ambiguousStandaloneBinaries.length > 0) {
+    console.log(`  ⚠ ambiguous standalone binaries — verify manually whether 'exe'/'elf' should be added:`);
+    ambiguousStandaloneBinaries.forEach(a => console.log(`      - ${a}`));
   }
 }
 
