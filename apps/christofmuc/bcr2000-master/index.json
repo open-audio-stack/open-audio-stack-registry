@@ -1,0 +1,40 @@
+{
+  "slug": "christofmuc/bcr2000-master",
+  "version": "1.0.4",
+  "versions": {
+    "1.0.4": {
+      "name": "BCR2000 Master",
+      "author": "Christof",
+      "description": "Small program to make working with the Behringer BCR2000 MIDI controller and its BCL language easier.",
+      "license": "agpl-3.0",
+      "type": "tool",
+      "tags": [
+        "Midi",
+        "Midi Controller",
+        "Behringer"
+      ],
+      "url": "https://github.com/christofmuc/BCR2000_Master",
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/apps/christofmuc/bcr2000-master/bcr2000-master.jpg",
+      "date": "2023-01-04T13:45:08Z",
+      "changes": "First github built release for easier access to the software without having to build it your own.",
+      "files": [
+        {
+          "systems": [
+            {
+              "type": "win"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "type": "installer",
+          "open": "BCRMaster.exe",
+          "size": 26108901,
+          "sha256": "594d5c8e7a09c3deda6e807685d74b95004e3348c5070b326c4c738a970a590e",
+          "url": "https://github.com/christofmuc/BCR2000_Master/releases/download/1.0.4/bcrmaster_setup.exe"
+        }
+      ],
+      "verified": true
+    }
+  }
+}
