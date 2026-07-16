@@ -1,0 +1,61 @@
+{
+  "slug": "amsynth/amsynth",
+  "version": "2.0.0",
+  "versions": {
+    "2.0.0": {
+      "name": "amsynth",
+      "author": "Nick Dowell",
+      "description": "Simple software synthesizer for Linux, macOS and Windows, inspired by classic analog hardware monosynths.",
+      "license": "gpl-2.0",
+      "type": "instrument",
+      "tags": [
+        "Instrument",
+        "Virtual Analog",
+        "Synthesizer"
+      ],
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/amsynth/amsynth/amsynth.jpg",
+      "url": "https://github.com/amsynth/amsynth",
+      "date": "2026-07-11T15:20:07Z",
+      "changes": "- Ported the GUI from GTK2 to JUCE.\n- Added preset selection, saving, and main menu to plug-ins GUIs.\n- Added support for accessibility (screen readers).\n- Added support for fractional UI scaling.\n- Added support for LV2 touch extension.\n- Added support for MTS-ESP microtuning, excluding multi-channel tuning tables.\n- Fixed a memory leak in VST effGetChunk handler.\n- Fixed parameters not automatable in VST plugin.\n- Fixed unintentional distortion on some presets.",
+      "files": [
+        {
+          "systems": [
+            {
+              "type": "mac"
+            }
+          ],
+          "architectures": [
+            "arm64",
+            "x64"
+          ],
+          "contains": [
+            "component",
+            "vst"
+          ],
+          "type": "archive",
+          "size": 10072513,
+          "sha256": "9776aaf26702a23b680b6bedfb085cf6378008e17b816abe187e25fa077de89e",
+          "url": "https://github.com/amsynth/amsynth/releases/download/release-2.0.0/amsynth-2.0.0-macos.zip"
+        },
+        {
+          "systems": [
+            {
+              "type": "win"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "dll"
+          ],
+          "type": "installer",
+          "size": 3240660,
+          "sha256": "419ee57e6670bcb93241be58cf4a08c5010ef61dc72e32568bb6bcdf3fde5f9a",
+          "url": "https://github.com/amsynth/amsynth/releases/download/release-2.0.0/amsynth-2.0.0-windows.exe"
+        }
+      ],
+      "verified": true
+    }
+  }
+}
