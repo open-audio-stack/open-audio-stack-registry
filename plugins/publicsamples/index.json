@@ -155,5 +155,86 @@
         "verified": true
       }
     }
+  },
+  "publicsamples/oi-grandad": {
+    "slug": "publicsamples/oi-grandad",
+    "version": "2.4.3",
+    "versions": {
+      "2.4.3": {
+        "name": "Oi, Grandad!",
+        "author": "Modular Samples",
+        "description": "Four-voice granular sampler with modulation and resynthesis capabilities, built with HISE.",
+        "license": "gpl-3.0",
+        "type": "instrument",
+        "tags": [
+          "Instrument",
+          "Granular",
+          "Sampler",
+          "Drones"
+        ],
+        "url": "https://github.com/publicsamples/Oi-Grandad",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/publicsamples/oi-grandad/oi-grandad.jpg",
+        "date": "2026-06-29T14:00:53Z",
+        "changes": "- Restored disabled Post FX module\n- Fixed master gain control range\n- Added some additional global settings useful for standalone",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "elf"
+            ],
+            "type": "archive",
+            "size": 58817680,
+            "sha256": "366d52173b647e7de0026370dc4c13081140cdb7948c21cf429f47cabff68ced",
+            "url": "https://github.com/publicsamples/Oi-Grandad/releases/download/2.4.3b/OiGrandad_Linux.zip"
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64"
+            ],
+            "contains": [
+              "vst3",
+              "component",
+              "app"
+            ],
+            "type": "archive",
+            "size": 62574248,
+            "sha256": "5e7ebb733a3efd956703823418c610a6bc4e8b637501f41144759dfc84729d4f",
+            "url": "https://github.com/publicsamples/Oi-Grandad/releases/download/2.4.3b/OiGrandad_Mac.zip"
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "exe"
+            ],
+            "type": "archive",
+            "size": 48073468,
+            "sha256": "e7e2dcc37ca828cbca1e89ba2c04c3fa45f16d4d325c094a22da20f63d04c1c5",
+            "url": "https://github.com/publicsamples/Oi-Grandad/releases/download/2.4.3b/OiGrandad_Windows.zip"
+          }
+        ],
+        "verified": true
+      }
+    }
   }
 }
