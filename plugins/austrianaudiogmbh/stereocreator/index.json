@@ -1,0 +1,61 @@
+{
+  "slug": "austrianaudiogmbh/stereocreator",
+  "version": "3.0.0",
+  "versions": {
+    "3.0.0": {
+      "name": "StereoCreator",
+      "author": "Austrian Audio",
+      "description": "Stereo plug-in allowing you to create different stereo set-ups with one or two OC818 microphones. Developed by Simon and AA.",
+      "license": "gpl-3.0",
+      "type": "effect",
+      "tags": [
+        "Microphone",
+        "Stereo",
+        "Aax"
+      ],
+      "url": "https://github.com/AustrianAudioGmbH/StereoCreator",
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/austrianaudiogmbh/stereocreator/stereocreator.jpg",
+      "date": "2026-07-03T08:34:58Z",
+      "changes": "v3.0.0 release.",
+      "files": [
+        {
+          "systems": [
+            {
+              "type": "linux"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "elf",
+            "vst3"
+          ],
+          "type": "archive",
+          "size": 5405664,
+          "sha256": "e70286c32a5da106a880063a4c0f280469e220eaec6e28741aab77e94267ae81",
+          "url": "https://github.com/AustrianAudioGmbH/StereoCreator/releases/download/v3.0.0/StereoCreator3-3.0.0-Linux.zip"
+        },
+        {
+          "systems": [
+            {
+              "type": "win"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "vst3",
+            "aax"
+          ],
+          "type": "installer",
+          "size": 6299210,
+          "sha256": "4623b09c7064b79992f17e798d12c4a954be8edccf36cbb4868b5d358122dabd",
+          "url": "https://github.com/AustrianAudioGmbH/StereoCreator/releases/download/v3.0.0/StereoCreator3-3.0.0-Windows.exe"
+        }
+      ],
+      "verified": true
+    }
+  }
+}
