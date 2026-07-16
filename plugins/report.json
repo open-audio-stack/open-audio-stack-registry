@@ -1841,6 +1841,16 @@
       ]
     }
   },
+  "kushview/element": {
+    "1.0.0": {
+      "recs": [
+        {
+          "field": "url",
+          "rec": "requires mounting step, consider .pkg instead"
+        }
+      ]
+    }
+  },
   "kiriki-liszt/relief-compressor": {
     "1.0.0": {
       "recs": [

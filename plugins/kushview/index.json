@@ -162,5 +162,95 @@
         "verified": true
       }
     }
+  },
+  "kushview/element": {
+    "slug": "kushview/element",
+    "version": "1.0.0",
+    "versions": {
+      "1.0.0": {
+        "name": "Element",
+        "author": "Kushview",
+        "description": "The audio plugin host that isn't a DAW. Chain VST/VST3/AU/CLAP/LV2 plugins together as a standalone app, or load Element itself as a nested plugin host inside another DAW.",
+        "license": "gpl-3.0",
+        "type": "instrument",
+        "tags": [
+          "Plugin Host",
+          "Rack",
+          "Midi"
+        ],
+        "url": "https://github.com/kushview/element",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/kushview/element/element.jpg",
+        "date": "2026-02-12T16:55:51Z",
+        "changes": "Element 1.0.0 release.",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "elf",
+              "vst",
+              "vst3",
+              "clap",
+              "lv2"
+            ],
+            "type": "installer",
+            "size": 170906810,
+            "sha256": "e3d26fa15f960a2f7e6a9b32f4a442d590a7854d57383448e13605aebcfb5470",
+            "url": "https://github.com/kushview/element/releases/download/1.0.0/element-1.0.0-linux-x86_64.deb"
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "app",
+              "vst",
+              "vst3",
+              "component",
+              "clap",
+              "lv2"
+            ],
+            "type": "installer",
+            "size": 169157045,
+            "sha256": "1364ae3fbc6acec1764b969c779d9d1d3b814014d24287695c3f1f9010c05b90",
+            "url": "https://github.com/kushview/element/releases/download/1.0.0/element-1.0.0-macos.dmg"
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "exe",
+              "dll",
+              "vst3",
+              "clap",
+              "lv2"
+            ],
+            "type": "installer",
+            "size": 39364144,
+            "sha256": "9144ec0b0263931ccad8d91d6ae8634d8a8f64ecd5e365ea1fa6180688580769",
+            "url": "https://github.com/kushview/element/releases/download/1.0.0/element-1.0.0-win64.exe"
+          }
+        ],
+        "verified": true
+      }
+    }
   }
 }
