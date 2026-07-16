@@ -1,0 +1,104 @@
+{
+  "name": "TeAr",
+  "author": "Olivier Doaré",
+  "description": "TeAr, the Text Arpeggiator",
+  "license": "lgpl-3.0",
+  "type": "instrument",
+  "tags": [
+    "Instrument",
+    "Arpeggiator",
+    "MIDI"
+  ],
+  "url": "https://github.com/odoare/TeAr",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/odoare/tear/tear.jpg",
+  "date": "2026-07-14T18:49:52Z",
+  "changes": "- Depends on FxmeTools instead of CppMusicTools\n- Remove exe instaler for windows (now plain zip)",
+  "files": [
+    {
+      "systems": [
+        {
+          "type": "mac"
+        }
+      ],
+      "architectures": [
+        "arm64"
+      ],
+      "contains": [
+        "component"
+      ],
+      "type": "archive",
+      "size": 1552219,
+      "sha256": "9a4f50a2c3fa01a128cf4f59b8ffb282170b56d5e401e4d0f2e83aafa7e2ab98",
+      "url": "https://github.com/odoare/TeAr/releases/download/v0.3.1/TeAr-AU-macOS-universal.zip"
+    },
+    {
+      "systems": [
+        {
+          "type": "mac"
+        }
+      ],
+      "architectures": [
+        "arm64"
+      ],
+      "contains": [
+        "vst3"
+      ],
+      "type": "archive",
+      "size": 1553756,
+      "sha256": "95a5fa792fe994a40289482e97826a14e6d3255d185ad7aa8096520fe02cee82",
+      "url": "https://github.com/odoare/TeAr/releases/download/v0.3.1/TeAr-VST3-macOS-universal.zip"
+    },
+    {
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "architectures": [
+        "arm64"
+      ],
+      "contains": [
+        "vst3"
+      ],
+      "type": "archive",
+      "size": 2268187,
+      "sha256": "5b0580b2766e49fce8ec398d6e7f4be2e814bb1f0ccdcf1dd0f3fe992bc99bdf",
+      "url": "https://github.com/odoare/TeAr/releases/download/v0.3.1/TeAr-VST3-Linux-arm64.zip"
+    },
+    {
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3"
+      ],
+      "type": "archive",
+      "size": 2213510,
+      "sha256": "30ca584096e23f833166c43832a2898da32354a126ca992c0a2fd7b7a79f6b8d",
+      "url": "https://github.com/odoare/TeAr/releases/download/v0.3.1/TeAr-VST3-Linux-x86_64.zip"
+    },
+    {
+      "systems": [
+        {
+          "type": "win"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3"
+      ],
+      "type": "archive",
+      "size": 2602907,
+      "sha256": "ca79d0785b61dd8a1f9bfd5762b3eddadc2c4d455ff47330c70fa5e37dc2d8a1",
+      "url": "https://github.com/odoare/TeAr/releases/download/v0.3.1/TeAr-VST3-Windows-x86_64.zip"
+    }
+  ],
+  "verified": true
+}
