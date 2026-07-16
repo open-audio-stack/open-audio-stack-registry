@@ -110,6 +110,8 @@ If this returns an error, the repository does not exist or is private. Inform th
 
 Confirm the repository is an audio application, plugin, preset, or project — not a library, framework, DAW, or unrelated tool. Read the repository description and README to decide. If it is not a valid content type for this registry, inform the user and stop.
 
+**App vs. plugin**: if the release ships any plugin format (`vst`/`vst3`/`component`/`clap`/`lv2`/`aax`/etc.), add it under `src/plugins` even if it also ships a standalone build — the plugin formats are usually the primary distribution. Only use `src/apps` when **none** of the release assets contain a plugin format (pure standalone executables, installers, CLI tools). When unsure, inspect the assets first (see `contains` below) before picking a folder — several submissions this way round needed a late move from `src/plugins` to `src/apps` after fetch had already run, which is wasted work you can avoid by checking formats before generating files.
+
 **3c. No existing entry or open PR**
 
 Convert the GitHub URL to the expected kebab-case path and check for an existing registry entry:
@@ -117,6 +119,12 @@ Convert the GitHub URL to the expected kebab-case path and check for an existing
 ```bash
 # e.g. https://github.com/GuitarML/SmartGuitarAmp -> guitarml/smartguitaramp
 ls src/<type>/<org-name>/<package-name>/
+```
+
+Directory-name matching alone misses two common cases: a plugin re-published under a different brand/org than its code repo (e.g. `jatinchowdhury18/AnalogTapeModel` is registered as `chowdhury-dsp/chowtapemodel` — same plugin, different slug), and an actively-maintained fork of a repo that itself has no releases. Also grep for the source URL across every existing entry, not just the expected directory:
+
+```bash
+grep -rli "url: https://github.com/<org>/<repo>" src/plugins src/apps
 ```
 
 If check finds a match that is the same version code, **stop**. If the match is a newer versiin, **continue**. Comment on the issue to let the submitter know the package is already in the registry and include the existing registry URL:
@@ -132,6 +140,13 @@ gh repo view <org>/<repo> --json licenseInfo --jq '.licenseInfo'
 ```
 
 The license must be a recognised open-source license (MIT, GPL, Apache, LGPL, AGPL, etc.). If the repository has no license or a proprietary/commercial license, inform the user and stop.
+
+`licenseInfo`/the GitHub API's `license.key` field is null for repos that don't have a single root `LICENSE` file — including projects using per-file SPDX annotations (a `REUSE.toml` plus a `LICENSES/` folder) or a license file with a nonstandard name. Before concluding "no license", double check:
+
+```bash
+gh api repos/<org>/<repo>/contents --jq '.[].name' | grep -i licen
+gh api repos/<org>/<repo>/contents/REUSE.toml --jq '.content' | base64 -d   # if a LICENSES/ folder exists
+```
 
 **3e. Has releases with binary builds**
 
@@ -249,16 +264,29 @@ What the script **cannot** infer, and you should add by hand after checking the 
 # zip/tar archives (only needed if the automated inspection above still left it unknown)
 unzip -l file.zip        # or: tar -tJf file.tar.xz
 
-# macOS .dmg (mount, then expand the .pkg inside if present)
-hdiutil attach file.dmg -nobrowse -mountpoint /tmp/mnt
-pkgutil --expand /tmp/mnt/*.pkg /tmp/pkg-expand && ls /tmp/pkg-expand
+# macOS .dmg — try a quick listing first (works for plain app-bundle dmgs):
+7z l file.dmg
+# If that fails or the dmg wraps a .pkg, mount and expand instead. Some dmgs show
+# an embedded software-license prompt on attach; `yes |` auto-accepts it so the
+# command doesn't hang waiting for interactive input:
+yes | hdiutil attach file.dmg -nobrowse -mountpoint /tmp/mnt
+pkgutil --expand /tmp/mnt/*.pkg /tmp/pkg-expand && find /tmp/pkg-expand -maxdepth 2
 hdiutil detach /tmp/mnt
 
 # Linux .deb
 mkdir /tmp/deb && cd /tmp/deb && ar x /path/to/file.deb && tar -tf data.tar.*
+
+# Windows .exe/.msi — try innoextract first (Inno Setup installers):
+innoextract -l file.exe
+# If that fails ("not a supported Inno Setup installer" or a loader-revision
+# error — either a different installer framework, or a newer Inno Setup
+# version than the installed innoextract supports), fall back to 7z, forcing
+# the NSIS type if the plain listing comes back empty/wrong:
+7z l file.exe
+7z l -tnsis file.exe
 ```
 
-This is the only reliable way to confirm formats for installer packages — filename and README text both routinely disagree with what's actually inside the archive (GitHub topics like `vst2` or `lv2` may not reflect what's actually shipped, and vice versa). Even after automated archive inspection, always spot-check the `contains` the script produced against the file list printed in its output.
+This is the only reliable way to confirm formats for installer packages — filename and README text both routinely disagree with what's actually inside the archive (GitHub topics like `vst2` or `lv2` may not reflect what's actually shipped, and vice versa — including inventing formats that don't exist at all, e.g. a plugin _manager_ app whose README mentions the formats it manages, not what it ships as). Even after automated archive inspection, always spot-check the `contains` the script produced against the file list printed in its output. If every tool above fails to open an installer, fall back to reading the repo's own packaging script (an Inno Setup `.iss`, NSIS `.nsi`, or macOS `distribution.xml.template`/`installer.iss` under a `packaging/` folder) or its CI workflow — these usually list the exact components/formats bundled per platform even when the binary itself resists extraction.
 
 **File list** — include **every** binary release asset for the package. Do not trim the list to one file per platform. Releases often ship multiple variants for the same platform (e.g. a compatibility build, an optimised/SSE build, a standalone app, and per-format archives). Each is a separate entry in the `files` array with its own `contains` value. To determine what each file contains:
 
@@ -321,6 +349,8 @@ The script exits with code 1 if any errors are found (missing image/audio, SHA25
     - size (Required) received '411860016' expected '68741234'
 
 When you see a `sha256` or `size` mismatch, confirm the file URL is correct and that the URL resolves to the right version. Then update the values in the YAML to match what the validator reports as `expected`.
+
+**Known quirk — AppImage format recognition**: the registry's shared format-recognition logic (in `@open-audio-stack/core`, a separate repo) compares the URL's file extension case-sensitively against its format enum. The enum's `AppImage` value is lowercase (`appimage`), but the conventional filename casing used by virtually every AppImage in the wild is `.AppImage` — so any AppImage submission will trigger a "url not a supported format" advisory even though it's a recognized, valid format. This is a non-blocking advisory (validation still passes), safe to ignore/note in the PR description. A real fix requires a change in `open-audio-stack-core`, not this repo.
 
 If you need to recompute `sha256` and `size` manually:
 
