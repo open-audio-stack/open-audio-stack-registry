@@ -40,16 +40,16 @@ Compatible command-line tools, apps and websites can read the json files to disc
 
 ## Contributing a package
 
-1) GUI:
-You can use this website for filling out metadata https://open-audio-stack.github.io/open-audio-stack-site
+1.  GUI:
+    You can use this website for filling out metadata https://open-audio-stack.github.io/open-audio-stack-site
 
-2) AI Agent:
-With a coding agent, point it at `AGENTS.md` to automate the process of submitting a package.
+2.  AI Agent:
+    With a coding agent, point it at `AGENTS.md` to automate the process of submitting a package.
 
-3) Manually
-Create a fork of the repo `open-audio-stack-registry`. Add new folders for your organization and package using [kebab-case](https://developer.mozilla.org/en-US/docs/Glossary/Kebab_case):
+3.  Manually
+    Create a fork of the repo `open-audio-stack-registry`. Add new folders for your organization and package using [kebab-case](https://developer.mozilla.org/en-US/docs/Glossary/Kebab_case):
 
-    ./src/plugins/org-name/package-name
+        ./src/plugins/org-name/package-name
 
 Add a jpeg screenshot of the package, and flac audio file previewing the package:
 

@@ -15,17 +15,13 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '24'
-          cache: 'npm'
-
       - name: Install dependencies
         run: npm ci
 
       - name: Build and run code
-        run: npm run build && npm start
+        run: |
+          npm run build
+          npm start
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
