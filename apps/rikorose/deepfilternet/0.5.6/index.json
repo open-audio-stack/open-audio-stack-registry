@@ -1,0 +1,109 @@
+{
+  "name": "DeepFilterNet",
+  "author": "Hendrik Schröter",
+  "description": "Command-line real-time speech enhancement tool using deep filtering to denoise full-band (48kHz) audio. Run it directly on a file, e.g. `deep-filter audio-file.wav`.",
+  "license": "mit",
+  "type": "tool",
+  "tags": [
+    "Noise Suppression",
+    "Speech Enhancement",
+    "Deep Learning"
+  ],
+  "url": "https://github.com/Rikorose/DeepFilterNet",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/apps/rikorose/deepfilternet/deepfilternet.jpg",
+  "date": "2023-08-31T18:33:46Z",
+  "changes": "Fixes",
+  "files": [
+    {
+      "systems": [
+        {
+          "type": "mac"
+        }
+      ],
+      "architectures": [
+        "arm64"
+      ],
+      "type": "archive",
+      "open": "deep-filter-0.5.6-aarch64-apple-darwin",
+      "size": 27877081,
+      "sha256": "4601e7f4e4c03e59a4c5b5000216ef3add3e808799cfccd95e14e83ea4611081",
+      "url": "https://github.com/Rikorose/DeepFilterNet/releases/download/v0.5.6/deep-filter-0.5.6-aarch64-apple-darwin"
+    },
+    {
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "architectures": [
+        "arm64"
+      ],
+      "type": "archive",
+      "open": "deep-filter-0.5.6-aarch64-unknown-linux-gnu",
+      "size": 39238496,
+      "sha256": "14e02a1c0028f3ca0bdf83b62b3336e56ba0556894ef295a95e8573f06557166",
+      "url": "https://github.com/Rikorose/DeepFilterNet/releases/download/v0.5.6/deep-filter-0.5.6-aarch64-unknown-linux-gnu"
+    },
+    {
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "architectures": [
+        "arm32"
+      ],
+      "type": "archive",
+      "open": "deep-filter-0.5.6-armv7-unknown-linux-gnueabihf",
+      "size": 35353724,
+      "sha256": "29feffdfacbaa30ff7811bd275f252d405d43ad6e5523ffcedeaf3ff5bb8335b",
+      "url": "https://github.com/Rikorose/DeepFilterNet/releases/download/v0.5.6/deep-filter-0.5.6-armv7-unknown-linux-gnueabihf"
+    },
+    {
+      "systems": [
+        {
+          "type": "mac"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "type": "archive",
+      "open": "deep-filter-0.5.6-x86_64-apple-darwin",
+      "size": 29933512,
+      "sha256": "d3be84003acb7c23e738ad7f70a158ec779a8d233a82e7fa3e717d112eb5b50f",
+      "url": "https://github.com/Rikorose/DeepFilterNet/releases/download/v0.5.6/deep-filter-0.5.6-x86_64-apple-darwin"
+    },
+    {
+      "systems": [
+        {
+          "type": "win"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "type": "archive",
+      "open": "deep-filter-0.5.6-x86_64-pc-windows-msvc.exe",
+      "size": 26912256,
+      "sha256": "75e11fa16445f560cb6b021521ddb89e89270d13b83089705d98776f58fd7915",
+      "url": "https://github.com/Rikorose/DeepFilterNet/releases/download/v0.5.6/deep-filter-0.5.6-x86_64-pc-windows-msvc.exe"
+    },
+    {
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "type": "archive",
+      "open": "deep-filter-0.5.6-x86_64-unknown-linux-musl",
+      "size": 36417296,
+      "sha256": "70775e251eee44c0f2451a1e833326cf8bcbbe304d3e7cd12851e6fce72ef7da",
+      "url": "https://github.com/Rikorose/DeepFilterNet/releases/download/v0.5.6/deep-filter-0.5.6-x86_64-unknown-linux-musl"
+    }
+  ],
+  "verified": true
+}
