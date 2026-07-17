@@ -1,0 +1,49 @@
+name: Scyclone
+author: Torsion Audio
+description: Real-time neural timbre transfer plugin using RAVE models, letting you morph the timbre of live or recorded audio into a trained target sound in real time. Code is GPLv3; bundled pretrained ONNX models are CC BY-NC 4.0 (non-commercial).
+license: gpl-3.0
+type: effect
+tags:
+  - RAVE
+  - Timbre Transfer
+  - Neural
+url: https://github.com/Torsion-Audio/Scyclone
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/torsion-audio/scyclone/scyclone.jpg
+date: '2023-05-05T22:00:29Z'
+changes: Static linking of onnx, switched to onnxruntime (.ort) models (smaller build), easier installation, improved OpenGL shader, AU plugin format now supported.
+files:
+  - systems:
+      - type: mac
+    architectures:
+      - arm64
+    contains:
+      - vst3
+      - component
+      - app
+    type: installer
+    size: 131201233
+    sha256: d653a78e78e059f77e74a0f9d7cc6cb6417e2e343ecde9c34198054fa42d633b
+    url: https://github.com/Torsion-Audio/Scyclone/releases/download/v.0.0.3/Scyclone-v.0.0.3-osx-arm64.dmg
+  - systems:
+      - type: mac
+    architectures:
+      - x64
+    contains:
+      - vst3
+      - component
+      - app
+    type: installer
+    size: 132137796
+    sha256: 2003b4d4d7b834f426dbb64b0011ecf3af5d87170fbf15fa04259090e77ee075
+    url: https://github.com/Torsion-Audio/Scyclone/releases/download/v.0.0.3/Scyclone-v.0.0.3-osx-x64.dmg
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - vst3
+      - exe
+    type: archive
+    size: 85103635
+    sha256: 10f3c3d8fc684ec868dc5b76ad21339457733b1dabf7bfc5f393d910a5339581
+    url: https://github.com/Torsion-Audio/Scyclone/releases/download/v.0.0.3/Scyclone-v.0.0.3-win-x64.zip
