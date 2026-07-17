@@ -305,6 +305,102 @@
       }
     }
   },
+  "tiagolr/tetraop": {
+    "slug": "tiagolr/tetraop",
+    "version": "1.0.3",
+    "versions": {
+      "1.0.3": {
+        "name": "TetraOP",
+        "author": "TiagoLr",
+        "description": "Four-operator wavetable FM synthesizer inspired by Ableton Operator, with an FM/ring-modulation routing matrix, 16-voice unison per operator, phase distortion, dual multi-mode filters and drag-and-drop modulation.",
+        "license": "gpl-3.0",
+        "type": "instrument",
+        "tags": [
+          "FM",
+          "Wavetable",
+          "Operator"
+        ],
+        "url": "https://github.com/tiagolr/tetraop",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/tiagolr/tetraop/tetraop.jpg",
+        "date": "2026-07-12T13:55:47Z",
+        "changes": "Revert pitch bend as it was working correctly.\r\nAdd modwheel.",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "lv2"
+            ],
+            "type": "archive",
+            "size": 9680499,
+            "sha256": "4f304e5ac4275ecfbcc625acfd8dc7a0f6a5ae3553389ecd5af00d27da34b540",
+            "url": "https://github.com/tiagolr/tetraop/releases/download/v1.0.3/tetraop-linux-v1.0.3.zip"
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "x64",
+              "arm64"
+            ],
+            "contains": [
+              "vst3",
+              "component"
+            ],
+            "type": "archive",
+            "size": 14022185,
+            "sha256": "63408008a2316d91435473e725be1e5958723873ab111a44eea51f24465b9b94",
+            "url": "https://github.com/tiagolr/tetraop/releases/download/v1.0.3/tetraop-macos-v1.0.3.zip"
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 7143966,
+            "sha256": "74353dc437c736b6d27f41ec03180febaa071d0ce68ba8edf7261a0c6031eb45",
+            "url": "https://github.com/tiagolr/tetraop/releases/download/v1.0.3/tetraop-win-v1.0.3.zip"
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "installer",
+            "size": 7209321,
+            "sha256": "be1f9e0104c35518a468ebed2380bf45aa7ad8d1a89c16f05082e294ca469869",
+            "url": "https://github.com/tiagolr/tetraop/releases/download/v1.0.3/tetraop-win64-1.0.3-setup.exe"
+          }
+        ],
+        "verified": true
+      }
+    }
+  },
   "tiagolr/sirial": {
     "slug": "tiagolr/sirial",
     "version": "1.1.1",
