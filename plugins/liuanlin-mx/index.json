@@ -1,0 +1,79 @@
+{
+  "liuanlin-mx/mxtune": {
+    "slug": "liuanlin-mx/mxtune",
+    "version": "1.2.0",
+    "versions": {
+      "1.2.0": {
+        "name": "MXTune",
+        "author": "liuanlin-mx",
+        "description": "Graphical pitch-correction and note-editing plugin for VST2, using the Autotalent/TalentedHack pitch algorithms. Provides a Melodyne-style piano-roll view for detecting, viewing and manually editing note pitch.",
+        "license": "gpl-3.0",
+        "type": "effect",
+        "tags": [
+          "Pitch Correction",
+          "Autotune",
+          "Melodyne",
+          "Autotalent"
+        ],
+        "url": "https://github.com/liuanlin-mx/mxtune",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/liuanlin-mx/mxtune/mxtune.jpg",
+        "date": "2023-02-18T15:57:03Z",
+        "changes": "Add: undo/redo, record note from MIDI, note output to MIDI. Fix bugs #4, #5, #6.",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "so"
+            ],
+            "type": "archive",
+            "size": 4080741,
+            "sha256": "50493cad15b858ab0376f6253cf27232c36a8aa41a61991ea9c6a92e6a401fe7",
+            "url": "https://github.com/liuanlin-mx/MXTune/releases/download/v1.2.0/ubuntu1804_x86_64_vst_v1.2.0.zip"
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x32"
+            ],
+            "contains": [
+              "dll"
+            ],
+            "type": "archive",
+            "size": 6241983,
+            "sha256": "1ddd709baa8595e91cc0d042490083ddb358cf56fc13d24e6eefdaa21d3770ae",
+            "url": "https://github.com/liuanlin-mx/MXTune/releases/download/v1.2.0/windows_i686_vst_v1.2.0.zip"
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "dll"
+            ],
+            "type": "archive",
+            "size": 6658226,
+            "sha256": "861ad556d4767108844ff44ee84656fc2fb71c89af72a385f590ffd9996799a6",
+            "url": "https://github.com/liuanlin-mx/MXTune/releases/download/v1.2.0/windows_x86_64_vst_v1.2.0.zip"
+          }
+        ],
+        "verified": true
+      }
+    }
+  }
+}
