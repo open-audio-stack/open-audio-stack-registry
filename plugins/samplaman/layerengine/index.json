@@ -1,0 +1,132 @@
+{
+  "slug": "samplaman/layerengine",
+  "version": "0.0.1",
+  "versions": {
+    "0.0.1": {
+      "name": "LayerEngine",
+      "author": "samplaman",
+      "description": "Quad-layer granular synthesizer for sound design and atmospheric textures, with per-layer position/pitch/density jitter, filters, spatialization, modulation and a global FX suite (chorus, delay, phaser, limiter).",
+      "license": "mit",
+      "type": "instrument",
+      "tags": [
+        "Granular",
+        "Modulation",
+        "Sound Design"
+      ],
+      "url": "https://github.com/samplaman/layerengine",
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/samplaman/layerengine/layerengine.jpg",
+      "date": "2026-05-16T17:04:57Z",
+      "changes": "Latest release.",
+      "files": [
+        {
+          "systems": [
+            {
+              "type": "linux"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "vst3",
+            "elf"
+          ],
+          "type": "archive",
+          "size": 10573732,
+          "sha256": "b1b32adfccf96a706e49e0c1dd5d1a6978eabefdbf4f22f14178ce078989b379",
+          "url": "https://github.com/samplaman/layerengine/releases/download/latest/LayerEngine-Linux-Debian.zip"
+        },
+        {
+          "systems": [
+            {
+              "type": "linux"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "vst3",
+            "elf"
+          ],
+          "type": "archive",
+          "size": 12573759,
+          "sha256": "da4f866a90d50cc77e2d0ad8405ea5ffe5f3e58c7dc06666495ab9ece9b1be74",
+          "url": "https://github.com/samplaman/layerengine/releases/download/latest/LayerEngine-Linux-Universal.zip"
+        },
+        {
+          "systems": [
+            {
+              "type": "linux"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "clap"
+          ],
+          "type": "archive",
+          "size": 14404400,
+          "sha256": "11241e163c25b0b72cff3bb2a66bcd7a4b11bddb43443bf2abf329ae3ed2bfc3",
+          "url": "https://github.com/samplaman/layerengine/releases/download/latest/LayerEngine-Linux.clap"
+        },
+        {
+          "systems": [
+            {
+              "type": "linux"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "vst3",
+            "elf"
+          ],
+          "type": "archive",
+          "size": 23106615,
+          "sha256": "14dc250eee56b22d28e31777c5497efac7951b06c03060b1534b9bde8a3835ae",
+          "url": "https://github.com/samplaman/layerengine/releases/download/latest/LayerEngine-Linux.zip"
+        },
+        {
+          "systems": [
+            {
+              "type": "mac"
+            }
+          ],
+          "architectures": [
+            "arm64"
+          ],
+          "contains": [
+            "vst3",
+            "component",
+            "app"
+          ],
+          "type": "archive",
+          "size": 14836717,
+          "sha256": "305247433cfa2136784d69a75d545850bda45e69aa9e9b8c13734ee43babc070",
+          "url": "https://github.com/samplaman/layerengine/releases/download/latest/LayerEngine-macOS.zip"
+        },
+        {
+          "systems": [
+            {
+              "type": "win"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "exe"
+          ],
+          "type": "archive",
+          "size": 3313997,
+          "sha256": "fb6d96a0a5c7be6b7eaf88989f1b9c7666eca8173a49857c811fb149bc1ef9eb",
+          "url": "https://github.com/samplaman/layerengine/releases/download/latest/LayerEngine-Windows.zip"
+        }
+      ],
+      "verified": true
+    }
+  }
+}
