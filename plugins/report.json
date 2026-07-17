@@ -881,6 +881,16 @@
       ]
     }
   },
+  "strangeloopsaudio/grainbow": {
+    "1.0.3": {
+      "recs": [
+        {
+          "field": "url",
+          "rec": "requires mounting step, consider .pkg instead"
+        }
+      ]
+    }
+  },
   "stevefolta/sfzq": {
     "1.0.0": {
       "recs": [
