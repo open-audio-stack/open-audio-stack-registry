@@ -569,6 +569,24 @@
       ]
     }
   },
+  "torsion-audio/scyclone": {
+    "0.0.3": {
+      "recs": [
+        {
+          "field": "url",
+          "rec": "requires mounting step, consider .pkg instead"
+        },
+        {
+          "field": "url",
+          "rec": "requires mounting step, consider .pkg instead"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Linux"
+        }
+      ]
+    }
+  },
   "tobiaskozel/guitard": {
     "0.1.2": {
       "recs": [
