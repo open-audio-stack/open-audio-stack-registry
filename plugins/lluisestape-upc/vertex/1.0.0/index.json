@@ -1,0 +1,35 @@
+{
+  "name": "Vertex",
+  "author": "Lluís Estapé",
+  "description": "Audio compressor plugin with gain, threshold, ratio, attack and release controls, plus a live input/output transfer-curve graph and VU metering.",
+  "license": "mit",
+  "type": "effect",
+  "tags": [
+    "Compressor",
+    "Dynamics"
+  ],
+  "url": "https://github.com/lluisestape-upc/vertex",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/lluisestape-upc/vertex/vertex.jpg",
+  "date": "2026-03-28T14:54:08Z",
+  "changes": "Initial release of the Basic Compressor VST3 plugin.",
+  "files": [
+    {
+      "systems": [
+        {
+          "type": "win"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3"
+      ],
+      "type": "archive",
+      "size": 6516736,
+      "sha256": "d5c5a471d7a9614cf4e79a5fd5fe5a8899decd442686c061865ae3e44cd223e1",
+      "url": "https://github.com/lluisestape-upc/vertex/releases/download/v1.0.0/BasicCompressor.vst3"
+    }
+  ],
+  "verified": true
+}
