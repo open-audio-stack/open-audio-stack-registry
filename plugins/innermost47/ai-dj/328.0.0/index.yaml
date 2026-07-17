@@ -1,0 +1,94 @@
+name: OBSIDIAN Neural
+author: Innermost
+description: >-
+  AI-powered live performance tool (VST3/AU/Standalone with Ableton Link).
+  8-track sampler with real-time AI loop generation from text prompts using
+  multiple models. Playable AI instrument for live sets.
+license: agpl-3.0
+type: instrument
+tags:
+  - Instrument
+  - Ai
+  - Generative
+  - Live Performance
+  - Sampler
+url: https://github.com/innermost47/ai-dj
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/innermost47/ai-dj/ai-dj.jpg
+date: '2026-07-02T14:34:24Z'
+changes: |-
+  - Latest build v328
+  - Various improvements and bug fixes
+files:
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - elf
+    type: archive
+    size: 6396831
+    sha256: ef2cf763d38511698a35346ab3798c73d34d18a2aeee9e5b19249f140c847629
+    url: https://github.com/innermost47/ai-dj/releases/download/v328/OBSIDIAN-Neural-Linux-Standalone.tar.gz
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - vst3
+    type: archive
+    size: 6160116
+    sha256: 863f9414615d9ba11ba6a9afdbaa28dad8eb7e3f638316f8e9f038d9b7e268db
+    url: https://github.com/innermost47/ai-dj/releases/download/v328/OBSIDIAN-Neural-Linux-VST3.tar.gz
+  - systems:
+      - type: mac
+    architectures:
+      - arm64
+      - x64
+    contains:
+      - component
+    type: archive
+    size: 8628955
+    sha256: 1275570f6488fc5ce748fcc3589911fbc1bae8c035d28ad1c8d3110f040e0a7a
+    url: https://github.com/innermost47/ai-dj/releases/download/v328/OBSIDIAN-Neural-macOS-AU.zip
+  - systems:
+      - type: mac
+    architectures:
+      - arm64
+      - x64
+    contains:
+      - app
+    type: archive
+    size: 9085998
+    sha256: 222e97226be3f17d06adfd18c4d26826f0a0dc27631e2cc6a1c464de457bda3a
+    url: https://github.com/innermost47/ai-dj/releases/download/v328/OBSIDIAN-Neural-macOS-Standalone.zip
+  - systems:
+      - type: mac
+    architectures:
+      - arm64
+      - x64
+    contains:
+      - vst3
+    type: archive
+    size: 8633073
+    sha256: 8be4902413bd60b2612ddc08f3ab0d8242794d279f71a15d33c82dc540f98aca
+    url: https://github.com/innermost47/ai-dj/releases/download/v328/OBSIDIAN-Neural-macOS-VST3.zip
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - exe
+    type: archive
+    size: 4084695
+    sha256: 01ca94d41d2b56a96014e79ffb4fb37b52839504d68ce0ce26cf8e3375622ca8
+    url: https://github.com/innermost47/ai-dj/releases/download/v328/OBSIDIAN-Neural-Windows-Standalone.zip
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - vst3
+    type: archive
+    size: 3933667
+    sha256: 1605293a44a17bf2da6fb575e711a89cfa330ec57544d7a11e8dd851d33941e5
+    url: https://github.com/innermost47/ai-dj/releases/download/v328/OBSIDIAN-Neural-Windows-VST3.zip
