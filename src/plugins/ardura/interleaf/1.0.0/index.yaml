@@ -1,6 +1,6 @@
 name: Interleaf
 author: Ardura
-description: A simple scrolling oscilloscope in rust with multichannel inputs and an analyzer.
+description: Interleaving Equalizer using Biquads, inspired by the Airwindows design of interleaving signals together.
 license: gpl-3.0
 type: effect
 tags:
