@@ -1,0 +1,77 @@
+{
+  "name": "Two Filters",
+  "author": "BaconPaul",
+  "description": "Two Filter",
+  "license": "agpl-3.0",
+  "type": "effect",
+  "date": "2026-07-03T00:00:00.000Z",
+  "changes": "First Release",
+  "tags": [
+    "Filters"
+  ],
+  "url": "https://github.com/baconpaul/two-filters",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/baconpaul/two-filters/two-filters.jpg",
+  "files": [
+    {
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "elf",
+        "clap",
+        "vst3"
+      ],
+      "type": "archive",
+      "sha256": "157f56f6d0fa809fbfaf204d6de35a97780a9fd43ec7ebf699791055840c662e",
+      "size": 16077592,
+      "url": "https://github.com/baconpaul/two-filters/releases/download/v1.0.0/two-filters-linux-2026-07-03-b6d9bd3.zip"
+    },
+    {
+      "systems": [
+        {
+          "type": "mac"
+        }
+      ],
+      "architectures": [
+        "arm64",
+        "x64"
+      ],
+      "contains": [
+        "app",
+        "clap",
+        "component",
+        "vst3",
+        "auv2"
+      ],
+      "type": "installer",
+      "sha256": "3e023271218de19d58bf119ec1525aa33ea95c9fe414e9ce23b6b4a193f77ada",
+      "size": 33796914,
+      "url": "https://github.com/baconpaul/two-filters/releases/download/v1.0.0/two-filters-macOS-2026-07-03-b6d9bd3.dmg"
+    },
+    {
+      "systems": [
+        {
+          "type": "win"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "exe",
+        "clap",
+        "vst3"
+      ],
+      "type": "installer",
+      "sha256": "017ea09981c97bdd97bf8b9697c3328b96869abf4d27593c86adf28bd6629146",
+      "size": 5947089,
+      "url": "https://github.com/baconpaul/two-filters/releases/download/v1.0.0/two-filters-Windows-2026-07-03-b6d9bd3.exe"
+    }
+  ],
+  "verified": true
+}

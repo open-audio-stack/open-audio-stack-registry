@@ -2953,6 +2953,20 @@
       ]
     }
   },
+  "baconpaul/two-filters": {
+    "1.0.0": {
+      "recs": [
+        {
+          "field": "url",
+          "rec": "requires mounting step, consider .pkg instead"
+        },
+        {
+          "field": "tags",
+          "rec": "should have more items"
+        }
+      ]
+    }
+  },
   "baconpaul/six-sines": {
     "1.2.0": {
       "recs": [
