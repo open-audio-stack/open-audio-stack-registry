@@ -1,0 +1,35 @@
+{
+  "name": "Declicker",
+  "author": "0x07dc",
+  "description": "Removes clicks from audio using three sequential algorithms (smoothening, max inter-sample derivative, max inter-sample second derivative), with persistent state for projects and presets.",
+  "license": "mit",
+  "type": "effect",
+  "tags": [
+    "Restoration",
+    "Declick"
+  ],
+  "url": "https://github.com/0x07dc/declicker",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/0x07dc/declicker/declicker.jpg",
+  "date": "2021-10-29T22:59:14Z",
+  "changes": "Initial Windows VST3 release.",
+  "files": [
+    {
+      "systems": [
+        {
+          "type": "win"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3"
+      ],
+      "type": "archive",
+      "size": 3078656,
+      "sha256": "8549467ccff3aedd01dc55740de30d79c0252a36f75ec36f50ece40f5806c02e",
+      "url": "https://github.com/0x07dc/declicker/releases/download/WindowsVST/Declicker.vst3"
+    }
+  ],
+  "verified": true
+}
