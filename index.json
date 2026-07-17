@@ -15859,6 +15859,48 @@
         }
       }
     },
+    "lluisestape-upc/synth1.0": {
+      "slug": "lluisestape-upc/synth1.0",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "name": "Synth1.0",
+          "author": "Lluís Estapé",
+          "description": "Serum-inspired polyphonic wavetable synthesizer with 16-voice polyphony, oscillator warp and morphing, unison, an LFO engine, step sequencer, 3-band EQ, reverb and a 2x-oversampled saturation FX rack.",
+          "license": "mit",
+          "type": "instrument",
+          "tags": [
+            "Wavetable",
+            "Serum",
+            "Unison"
+          ],
+          "url": "https://github.com/lluisestape-upc/Synth1.0",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/lluisestape-upc/synth1.0/synth1.0.jpg",
+          "date": "2026-04-27T12:59:42Z",
+          "changes": "Initial release. Polyphonic wavetable synthesizer with oscillator morphing/warp, unison, LFO engine, step sequencer, 3-band EQ, reverb and saturation FX rack.",
+          "files": [
+            {
+              "systems": [
+                {
+                  "type": "win"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "vst3"
+              ],
+              "type": "archive",
+              "size": 21808640,
+              "sha256": "77a0165404338e9194cc0fc3bc4f71d1a18c46eb3967ccea39b5ec8f84fd506e",
+              "url": "https://github.com/lluisestape-upc/Synth1.0/releases/download/v1.0.0/Synth1_0.vst3"
+            }
+          ],
+          "verified": true
+        }
+      }
+    },
     "liuanlin-mx/mxtune": {
       "slug": "liuanlin-mx/mxtune",
       "version": "1.2.0",
