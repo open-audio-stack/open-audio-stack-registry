@@ -2954,6 +2954,14 @@
     }
   },
   "baconpaul/six-sines": {
+    "1.2.0": {
+      "recs": [
+        {
+          "field": "url",
+          "rec": "requires mounting step, consider .pkg instead"
+        }
+      ]
+    },
     "1.1.0": {
       "recs": [
         {
