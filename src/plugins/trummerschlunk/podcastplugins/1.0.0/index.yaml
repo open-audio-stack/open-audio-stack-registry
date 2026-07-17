@@ -1,0 +1,115 @@
+name: Podcast Plugins
+author: Klaus Scheuermann
+description: speech enhancement audio plugins for podcasters
+license: gpl-3.0
+type: effect
+tags:
+  - Effect
+  - Dynamics
+  - Equalizer
+  - Speech
+url: https://github.com/trummerschlunk/PodcastPlugins
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/trummerschlunk/podcastplugins/podcastplugins.jpg
+date: '2025-03-02T16:14:13Z'
+changes: |-
+  Initial release
+
+  - AudioUnit, CLAP, LV2, VST2 and VST3 plugin formats
+  - Linux, macOS and Windows release binaries
+files:
+  - systems:
+      - type: linux
+    architectures:
+      - arm64
+    contains:
+      - vst3
+      - so
+      - clap
+      - lv2
+    type: archive
+    size: 2824324
+    sha256: 5b7005fe2146473f6ac17b4ebeaf925606289503d035d0b65f89aa2cff9e89a1
+    url: https://github.com/trummerschlunk/PodcastPlugins/releases/download/1.0.0/podcast-plugins-1.0.0-linux-arm64.tar.xz
+  - systems:
+      - type: linux
+    architectures:
+      - arm32
+    contains:
+      - vst3
+      - so
+      - clap
+      - lv2
+    type: archive
+    size: 2525812
+    sha256: 5c6eb72de7b519e51b5d7f65dd5f5aa15b91425ceb08670c37a832a66f5b6046
+    url: https://github.com/trummerschlunk/PodcastPlugins/releases/download/1.0.0/podcast-plugins-1.0.0-linux-armhf.tar.xz
+  - systems:
+      - type: linux
+    architectures:
+      - x32
+    contains:
+      - vst3
+      - so
+      - clap
+      - lv2
+    type: archive
+    size: 2899568
+    sha256: a5978c3c7247a3ba7bfd9f13ed44d8b7125281d6809d29a233a413dd341fc1a7
+    url: https://github.com/trummerschlunk/PodcastPlugins/releases/download/1.0.0/podcast-plugins-1.0.0-linux-i686.tar.xz
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - vst3
+      - so
+      - clap
+      - lv2
+    type: archive
+    size: 3189792
+    sha256: daeb4e6cc8b3f44ca76929f782372ad09438b17fc0f8f37f2654a94d375bcbad
+    url: https://github.com/trummerschlunk/PodcastPlugins/releases/download/1.0.0/podcast-plugins-1.0.0-linux-x86_64.tar.xz
+  - systems:
+      - type: mac
+    architectures:
+      - arm64
+      - x64
+    contains:
+      - vst3
+      - vst
+      - clap
+      - lv2
+      - component
+      - app
+    type: installer
+    size: 22837453
+    sha256: 7cd01e3706e197f56a36690bc74413648c388035f973704915a50b07675652cc
+    url: https://github.com/trummerschlunk/PodcastPlugins/releases/download/1.0.0/podcast-plugins-1.0.0-macos-universal.dmg
+  - systems:
+      - type: win
+    architectures:
+      - x32
+    contains:
+      - vst3
+      - dll
+      - clap
+      - lv2
+      - exe
+    type: archive
+    size: 25802660
+    sha256: 42d4c73a3185040672faf8556e73cf43cd7481c63cc6435f399dfc60088ed780
+    url: https://github.com/trummerschlunk/PodcastPlugins/releases/download/1.0.0/podcast-plugins-1.0.0-win32.zip
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - vst3
+      - dll
+      - clap
+      - lv2
+      - exe
+    type: archive
+    size: 24707420
+    sha256: 774a53e6cd71cb994770bf07cc3a441c8bcdaaa84ea0375e8e66eb66e4560ba8
+    url: https://github.com/trummerschlunk/PodcastPlugins/releases/download/1.0.0/podcast-plugins-1.0.0-win64.zip
