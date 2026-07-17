@@ -1,12 +1,13 @@
 name: master_me
 author: Klaus Scheuermann
-description: automatic mastering plugin for live streaming, podcasts and internet radio.
+description: Automatic mastering chain (gate, EQ, leveler, knee compressor, multiband mid/side compressor, limiter, brickwall) for live-streaming, podcasts and internet radio. Easy and Expert views with LUFS loudness metering.
 license: gpl-3.0
 type: effect
 tags:
   - Mastering
-  - Streaming
-  - Podcast
+  - Compressor
+  - Limiter
+  - Loudness
 url: https://github.com/trummerschlunk/master_me
 image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/trummerschlunk/master-me/master-me.jpg
 date: '2025-07-02T20:57:43Z'
@@ -18,9 +19,10 @@ files:
       - arm64
     contains:
       - vst3
-      - so
       - clap
       - lv2
+      - so
+      - elf
     type: archive
     size: 2136644
     sha256: d93d4630f7d2eae1fff5912f89dcf13b810d2b1a3cc0cffa14a3514958da3ec9
@@ -31,9 +33,10 @@ files:
       - arm32
     contains:
       - vst3
-      - so
       - clap
       - lv2
+      - so
+      - elf
     type: archive
     size: 2080284
     sha256: 221468ea46146f03c1c78fe3850b93846e689090796379f8a5e3ec48e3027e2f
@@ -44,9 +47,10 @@ files:
       - x32
     contains:
       - vst3
-      - so
       - clap
       - lv2
+      - so
+      - elf
     type: archive
     size: 2152320
     sha256: f0b35aa1628791176cd0065d2f04b4be1ed4d8e93518cbbb2cdcf2c3c467763a
@@ -57,9 +61,10 @@ files:
       - x64
     contains:
       - vst3
-      - so
       - clap
       - lv2
+      - so
+      - elf
     type: archive
     size: 2342208
     sha256: 09f41b4607ea66fd1d2f69c6b2e92ad4a36cd748c9e6da9a39b7e802c143d6a2
@@ -71,10 +76,11 @@ files:
       - x64
     contains:
       - vst3
-      - vst
       - component
       - clap
       - lv2
+      - vst
+      - app
     type: installer
     size: 12811088
     sha256: 8c092dce8afcb462e573c88fcda184797967fa82ecd839372509d2916da014b5
@@ -85,9 +91,10 @@ files:
       - x32
     contains:
       - vst3
-      - dll
       - clap
       - lv2
+      - dll
+      - exe
     type: archive
     size: 13658181
     sha256: cf1eb80ee950bce32f7826f126be0e4ca586cd33a8ba01622148131e099a8a27
@@ -98,9 +105,10 @@ files:
       - x64
     contains:
       - vst3
-      - dll
       - clap
       - lv2
+      - dll
+      - exe
     type: archive
     size: 13178088
     sha256: 0122b72259fd54f99854d038cd7f850f06f6f62d68495f6cc15f57251938fd72
