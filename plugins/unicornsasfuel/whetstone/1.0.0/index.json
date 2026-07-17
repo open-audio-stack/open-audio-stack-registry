@@ -1,0 +1,69 @@
+{
+  "name": "Whetstone",
+  "author": "Daniel \"unicornFurnace\" Crowley",
+  "description": "Band-specific transient shaper — extracts a chosen frequency band via low/high cutoff, applies attack/sustain transient shaping to it, and reintegrates the shaped band back into the original signal.",
+  "license": "bsd-3-clause",
+  "type": "effect",
+  "tags": [
+    "Transient Shaper",
+    "Dynamics"
+  ],
+  "url": "https://github.com/unicornsasfuel/whetstone",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/unicornsasfuel/whetstone/whetstone.jpg",
+  "date": "2021-07-23T17:07:48Z",
+  "changes": "First release. If installing on macOS, right click (or control-click) the .pkg file, select `Open`, then `Open` on the popup.",
+  "files": [
+    {
+      "systems": [
+        {
+          "type": "win"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3"
+      ],
+      "type": "archive",
+      "size": 3210752,
+      "sha256": "7593e431bc3ca21b45ac6755cf4a0a7bf7520af66de5f9fef03ae27396194837",
+      "url": "https://github.com/unicornsasfuel/whetstone/releases/download/v1.0/Whetstone.Transient.Shaper.Win64.vst3"
+    },
+    {
+      "systems": [
+        {
+          "type": "mac"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "component"
+      ],
+      "type": "installer",
+      "size": 4330908,
+      "sha256": "783b9eeedf2f89eeb9b9a8444edc7702583f383a0c9e656b0e908408191b1d50",
+      "url": "https://github.com/unicornsasfuel/whetstone/releases/download/v1.0/Whetstone_Transient_Shaper_AU.pkg"
+    },
+    {
+      "systems": [
+        {
+          "type": "mac"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3"
+      ],
+      "type": "installer",
+      "size": 4499958,
+      "sha256": "052eb02354a58feddbd5fd88738bd7ee0a47622725bb6e465950638f99bd1aff",
+      "url": "https://github.com/unicornsasfuel/whetstone/releases/download/v1.0/Whetstone_Transient_Shaper_macOS_VST3.pkg"
+    }
+  ],
+  "verified": true
+}
