@@ -1,0 +1,110 @@
+{
+  "slug": "nikhilunni/demucs-rs",
+  "version": "0.3.4",
+  "versions": {
+    "0.3.4": {
+      "name": "demucs-rs",
+      "author": "Nikhil Unni",
+      "description": "Native Rust implementation of HTDemucs v4 for music source separation. Splits a song into stems (drums, bass, vocals, other) using GPU-accelerated inference, as a native CLI or a DAW plugin (VST3/CLAP on macOS).",
+      "license": "apache-2.0",
+      "type": "effect",
+      "tags": [
+        "Stem Separation",
+        "Demucs",
+        "Source Separation"
+      ],
+      "url": "https://github.com/nikhilunni/demucs-rs",
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/nikhilunni/demucs-rs/demucs-rs.jpg",
+      "date": "2026-03-10T14:11:19Z",
+      "changes": "Run main thread with 8 MB stack regardless of platform, to fix stack overflow on Windows.",
+      "files": [
+        {
+          "systems": [
+            {
+              "type": "mac"
+            }
+          ],
+          "architectures": [
+            "arm64"
+          ],
+          "contains": [
+            "app"
+          ],
+          "type": "archive",
+          "size": 9505724,
+          "sha256": "bb6a6346392892ef3f172df0b60d97f4cb54aa38f7306ec129a60d786d261225",
+          "url": "https://github.com/nikhilunni/demucs-rs/releases/download/v0.3.4/demucs-aarch64-apple-darwin.tar.gz"
+        },
+        {
+          "systems": [
+            {
+              "type": "mac"
+            }
+          ],
+          "architectures": [
+            "arm64"
+          ],
+          "contains": [
+            "clap"
+          ],
+          "type": "archive",
+          "size": 10823367,
+          "sha256": "35670fc48163153e7970ea78181231f2d656986315c9d0959718349781e60c52",
+          "url": "https://github.com/nikhilunni/demucs-rs/releases/download/v0.3.4/Demucs-clap-aarch64-apple-darwin.zip"
+        },
+        {
+          "systems": [
+            {
+              "type": "mac"
+            }
+          ],
+          "architectures": [
+            "arm64"
+          ],
+          "contains": [
+            "vst3"
+          ],
+          "type": "archive",
+          "size": 10823375,
+          "sha256": "9d61ce5f67a1973563548942a0e1b5f4e4a2071c51b8b8463d45c5d4041060a0",
+          "url": "https://github.com/nikhilunni/demucs-rs/releases/download/v0.3.4/Demucs-vst3-aarch64-apple-darwin.zip"
+        },
+        {
+          "systems": [
+            {
+              "type": "win"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "exe"
+          ],
+          "type": "archive",
+          "size": 11036578,
+          "sha256": "67e77186295a00758df0b760f3345fd0b9081b328f923ecc35307f6190f472d1",
+          "url": "https://github.com/nikhilunni/demucs-rs/releases/download/v0.3.4/demucs-x86_64-pc-windows-msvc.zip"
+        },
+        {
+          "systems": [
+            {
+              "type": "linux"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "elf"
+          ],
+          "type": "archive",
+          "size": 10650858,
+          "sha256": "38bb1edb812bdf7a22116cb71b0e3473662b12064b3d8c8e7a6a56507c9a867d",
+          "url": "https://github.com/nikhilunni/demucs-rs/releases/download/v0.3.4/demucs-x86_64-unknown-linux-gnu.tar.gz"
+        }
+      ],
+      "verified": true
+    }
+  }
+}
