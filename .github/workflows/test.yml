@@ -12,31 +12,22 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '24'
-          cache: 'npm'
-
-      - name: Install
-        run: |
-          npm ci
+      - name: Install dependencies
+        run: npm ci
 
       - name: Audit
-        run: |
-          npm audit --audit-level high
+        run: npm audit --audit-level high
 
       - name: Lint
-        run: |
-          npm run lint
+        run: npm run lint
 
       - name: Test
-        run: |
-          npm test
+        run: npm test
 
       - name: Build
         run: |
-          npm run build && npm start
+          npm run build
+          npm start
           cat out/index.json
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
