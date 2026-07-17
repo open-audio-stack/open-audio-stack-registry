@@ -1,0 +1,35 @@
+{
+  "name": "ESP-L1",
+  "author": "Lluís Estapé",
+  "description": "ESP-L1 is a time-domain brick-wall limiter with linked-stereo peak detection, a dual real-time oscilloscope/spectrum analyzer, and VU + gain-reduction metering.",
+  "license": "mit",
+  "type": "effect",
+  "tags": [
+    "Limiter",
+    "Dynamics"
+  ],
+  "url": "https://github.com/lluisestape-upc/BasicLimiter",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/lluisestape-upc/basiclimiter/basiclimiter.jpg",
+  "date": "2026-05-12T17:40:53Z",
+  "changes": "ESP-L1 v2.0.0 release.",
+  "files": [
+    {
+      "systems": [
+        {
+          "type": "win"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3"
+      ],
+      "type": "archive",
+      "size": 6548992,
+      "sha256": "7ad6b4450e8bfe03972206e21d734f6f9c7b478ed03b909b945b8dd11c7f3387",
+      "url": "https://github.com/lluisestape-upc/BasicLimiter/releases/download/v2.0.0/ESP-L1.vst3"
+    }
+  ],
+  "verified": true
+}

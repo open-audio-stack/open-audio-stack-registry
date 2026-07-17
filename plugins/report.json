@@ -1879,6 +1879,28 @@
       ]
     }
   },
+  "lluisestape-upc/basiclimiter": {
+    "2.0.0": {
+      "recs": [
+        {
+          "field": "url",
+          "rec": "not a supported format"
+        },
+        {
+          "field": "architectures",
+          "rec": "should support arm64"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Linux"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Mac"
+        }
+      ]
+    }
+  },
   "liuanlin-mx/mxtune": {
     "1.2.0": {
       "recs": [
