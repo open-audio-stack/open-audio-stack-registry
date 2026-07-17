@@ -1,4 +1,84 @@
 {
+  "sfztools/sfizz-ui": {
+    "slug": "sfztools/sfizz-ui",
+    "version": "1.2.3",
+    "versions": {
+      "1.2.3": {
+        "name": "Sfizz UI",
+        "author": "SFZ Tools",
+        "description": "AU, LV2 and VST3 sample-player plugins for the sfizz SFZ engine. Packaged from the sfizz-ui repo, the successor to the now-archived sfizz repo's release binaries.",
+        "license": "bsd-2-clause",
+        "type": "sampler",
+        "tags": [
+          "Sfz",
+          "Sampler"
+        ],
+        "url": "https://github.com/sfztools/sfizz-ui",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfztools/sfizz-ui/sfizz-ui.jpg",
+        "date": "2024-01-15T09:56:58Z",
+        "changes": "Updated the engine to 1.2.3. Removed the sfizz engine version in the option panel.",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "component",
+              "lv2"
+            ],
+            "type": "installer",
+            "size": 11872790,
+            "sha256": "62c76af58bfec05ca6ef199befca7c2508e15a5e63bca076198d94f085c14da7",
+            "url": "https://github.com/sfztools/sfizz-ui/releases/download/1.2.3/sfizz-1.2.3-macos.pkg"
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x32"
+            ],
+            "contains": [
+              "vst3",
+              "lv2"
+            ],
+            "type": "installer",
+            "size": 3453123,
+            "sha256": "2589dfd93452bcd7ba296bad508c40e8b926ad6d2dd622d024e1c5dd01dd289b",
+            "url": "https://github.com/sfztools/sfizz-ui/releases/download/1.2.3/sfizz-1.2.3-win32.exe"
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "lv2"
+            ],
+            "type": "installer",
+            "size": 3626650,
+            "sha256": "56f57dfe443018e947b82b8e2bf4c9d824a9c961ff2b8eb6c5e929030b71b937",
+            "url": "https://github.com/sfztools/sfizz-ui/releases/download/1.2.3/sfizz-1.2.3-win64.exe"
+          }
+        ],
+        "verified": true
+      }
+    }
+  },
   "sfztools/sfizz": {
     "slug": "sfztools/sfizz",
     "version": "1.2.1",
