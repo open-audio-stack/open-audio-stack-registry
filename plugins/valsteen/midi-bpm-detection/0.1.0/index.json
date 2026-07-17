@@ -1,0 +1,207 @@
+{
+  "name": "MIDI BPM Detection",
+  "author": "Vincent Alsteen",
+  "description": "Estimates tempo (BPM) from incoming MIDI note-on events in realtime while you play, showing a histogram of competing tempo candidates. Includes a Bitwig controller extension to feed detected tempo back to the DAW transport. Experimental project.",
+  "license": "mit",
+  "type": "tool",
+  "tags": [
+    "Midi",
+    "Tempo",
+    "Bitwig",
+    "Utility"
+  ],
+  "url": "https://github.com/valsteen/midi_bpm_detection",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/valsteen/midi-bpm-detection/midi-bpm-detection.jpg",
+  "date": "2026-07-16T19:21:21Z",
+  "changes": "First coordinated release with CLAP/VST3 packages for macOS, Windows and Linux, desktop apps for macOS/Linux, and the optional Bitwig controller extension. macOS/Windows binaries are unsigned; Linux desktop is experimental.",
+  "files": [
+    {
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "clap"
+      ],
+      "type": "archive",
+      "size": 3283306,
+      "sha256": "6e61debe0c8ade44e5b01fec7acd339237ab2afa3d60b3cac5cc132ecfd34067",
+      "url": "https://github.com/valsteen/midi_bpm_detection/releases/download/v0.1.0/midi-bpm-detector-v0.1.0-clap-linux-x86_64.zip"
+    },
+    {
+      "systems": [
+        {
+          "type": "mac"
+        }
+      ],
+      "architectures": [
+        "arm64"
+      ],
+      "contains": [
+        "clap"
+      ],
+      "type": "archive",
+      "size": 2592232,
+      "sha256": "4686f66d36421800e393a4ff3360833de183a9c2679487d9add343797f22cdf8",
+      "url": "https://github.com/valsteen/midi_bpm_detection/releases/download/v0.1.0/midi-bpm-detector-v0.1.0-clap-macos-arm64.zip"
+    },
+    {
+      "systems": [
+        {
+          "type": "mac"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "clap"
+      ],
+      "type": "archive",
+      "size": 2794403,
+      "sha256": "a11a062492f6e7b9a60e0b0cb4a8127f30632ccd685b05a028fb39d7e4d08871",
+      "url": "https://github.com/valsteen/midi_bpm_detection/releases/download/v0.1.0/midi-bpm-detector-v0.1.0-clap-macos-x86_64.zip"
+    },
+    {
+      "systems": [
+        {
+          "type": "win"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "clap"
+      ],
+      "type": "archive",
+      "size": 2719878,
+      "sha256": "5e900cf431ddbfea53a867127407d755a7b99731814c7c8102dfaa2597b0a162",
+      "url": "https://github.com/valsteen/midi_bpm_detection/releases/download/v0.1.0/midi-bpm-detector-v0.1.0-clap-windows-x86_64.zip"
+    },
+    {
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "elf"
+      ],
+      "type": "archive",
+      "size": 7275627,
+      "sha256": "9929db50aef2ea59b54daf8629e23cbaa9a7de1c232078d0c22fd3d1edbd1c57",
+      "url": "https://github.com/valsteen/midi_bpm_detection/releases/download/v0.1.0/midi-bpm-detector-v0.1.0-desktop-linux-x86_64.zip"
+    },
+    {
+      "systems": [
+        {
+          "type": "mac"
+        }
+      ],
+      "architectures": [
+        "arm64"
+      ],
+      "contains": [
+        "app"
+      ],
+      "type": "archive",
+      "size": 5889624,
+      "sha256": "2ac20ffc2515ebfee0d9d852fe6351c06c795b5411eccc20c4ca61c9f1b6cb85",
+      "url": "https://github.com/valsteen/midi_bpm_detection/releases/download/v0.1.0/midi-bpm-detector-v0.1.0-desktop-macos-arm64.zip"
+    },
+    {
+      "systems": [
+        {
+          "type": "mac"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "app"
+      ],
+      "type": "archive",
+      "size": 6278430,
+      "sha256": "ece145c74c6e81940b200e9dda6dbc43d00bc7fbf5dd5f630b399a2f411f5035",
+      "url": "https://github.com/valsteen/midi_bpm_detection/releases/download/v0.1.0/midi-bpm-detector-v0.1.0-desktop-macos-x86_64.zip"
+    },
+    {
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3"
+      ],
+      "type": "archive",
+      "size": 3323534,
+      "sha256": "b6d8c01eb5ad41d915a601e4c82d6b1d85e9426173457214b43ec336d2ee78f4",
+      "url": "https://github.com/valsteen/midi_bpm_detection/releases/download/v0.1.0/midi-bpm-detector-v0.1.0-vst3-linux-x86_64.zip"
+    },
+    {
+      "systems": [
+        {
+          "type": "mac"
+        }
+      ],
+      "architectures": [
+        "arm64"
+      ],
+      "contains": [
+        "vst3"
+      ],
+      "type": "archive",
+      "size": 2621490,
+      "sha256": "bbaff3bb9d5baa76a55cc982a3b385cb48067ce75b100bcddbea7ed26b2ff564",
+      "url": "https://github.com/valsteen/midi_bpm_detection/releases/download/v0.1.0/midi-bpm-detector-v0.1.0-vst3-macos-arm64.zip"
+    },
+    {
+      "systems": [
+        {
+          "type": "mac"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3"
+      ],
+      "type": "archive",
+      "size": 2826390,
+      "sha256": "bd74117d50637214460addbf1dcb00b42325e0f319dd27d54f18b07ba2aa839f",
+      "url": "https://github.com/valsteen/midi_bpm_detection/releases/download/v0.1.0/midi-bpm-detector-v0.1.0-vst3-macos-x86_64.zip"
+    },
+    {
+      "systems": [
+        {
+          "type": "win"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3"
+      ],
+      "type": "archive",
+      "size": 2746293,
+      "sha256": "6a76fc7c9dd61174298fcf96e0039471561d5c90a50d01bc4b8d5a19ef96d3a4",
+      "url": "https://github.com/valsteen/midi_bpm_detection/releases/download/v0.1.0/midi-bpm-detector-v0.1.0-vst3-windows-x86_64.zip"
+    }
+  ],
+  "verified": true
+}
