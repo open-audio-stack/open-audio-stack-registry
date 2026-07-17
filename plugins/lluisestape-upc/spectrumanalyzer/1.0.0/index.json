@@ -1,0 +1,35 @@
+{
+  "name": "Spectrum Analyzer",
+  "author": "Lluís Estapé",
+  "description": "Real-time audio spectrum analyzer with a smooth frequency-response curve, stereo VU meters with realistic falloff ballistics, a panning-width indicator, and a freeze button.",
+  "license": "mit",
+  "type": "tool",
+  "tags": [
+    "Analyzer",
+    "Metering"
+  ],
+  "url": "https://github.com/lluisestape-upc/SpectrumAnalyzer",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/lluisestape-upc/spectrumanalyzer/spectrumanalyzer.jpg",
+  "date": "2026-03-27T16:01:21Z",
+  "changes": "First official release. Smooth spectrum analyzer, stereo VU meters, panning width indicator, freeze button.",
+  "files": [
+    {
+      "systems": [
+        {
+          "type": "win"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3"
+      ],
+      "type": "archive",
+      "size": 6484480,
+      "sha256": "32ab2abd4d381323558368fe051e3022ca236367209998e6d60ea5dc5c74ee02",
+      "url": "https://github.com/lluisestape-upc/SpectrumAnalyzer/releases/download/v1.0.0/SpectrumAnalyzer.vst3"
+    }
+  ],
+  "verified": true
+}
