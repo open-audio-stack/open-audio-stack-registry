@@ -139,7 +139,7 @@ https://open-audio-stack.github.io/open-audio-stack-registry/<type>/<org-name>/<
 gh repo view <org>/<repo> --json licenseInfo --jq '.licenseInfo'
 ```
 
-The license must be a recognised open-source license (MIT, GPL, Apache, LGPL, AGPL, etc.). If the repository has no license or a proprietary/commercial license, inform the user and stop.
+The license must be a recognised open-source license (MIT, GPL, Apache, LGPL, AGPL, etc.). If the repository has no license or a proprietary/commercial license, inform the user, file/update an upstream tracking issue per [issue-template.md](issue-template.md), and stop.
 
 `licenseInfo`/the GitHub API's `license.key` field is null for repos that don't have a single root `LICENSE` file — including projects using per-file SPDX annotations (a `REUSE.toml` plus a `LICENSES/` folder) or a license file with a nonstandard name. Before concluding "no license", double check:
 
@@ -158,14 +158,20 @@ The repository must have at least one GitHub release containing downloadable bin
 
 **Exception — binaries committed directly to the repository:** If the repository has no releases but ships pre-built binaries committed to the repository itself (common for SFZ sample libraries and similar assets), you may add an entry using a commit-pinned archive URL. See the [Linking to committed binaries](#linking-to-committed-binaries) section of README.md for the required URL format.
 
-If neither condition is met, inform the user and stop.
+If neither condition is met, inform the user, file/update an upstream tracking issue per [issue-template.md](issue-template.md), and stop.
+
+**3f. Filing upstream tracking issues for failures**
+
+Any package that fails 3d (license), 3e (releases/binaries), or the `image` requirement (see [Reviewing and correcting the output](#reviewing-and-correcting-the-output) below) is a candidate for an upstream tracking issue, not just a silent failure. Follow [issue-template.md](issue-template.md) exactly — it already covers deduping (search for the hidden marker before creating anything), editing the issue body in place on re-checks instead of posting comments, and the central tracker on this repo. Don't improvise a different issue format or post ad hoc comments; that file is the single source of truth for this workflow.
+
+Do this for every failing package, single or batch, unless the user has said not to file issues for this run.
 
 If processing a batch, once all URLs have been checked, present a validation table to the user before continuing:
 
-| Package     | Status    | Reason          |
-| ----------- | --------- | --------------- |
-| wolf-shaper | ✅ Ready  |                 |
-| cool-plugin | ❌ Failed | Missing license |
+| Package     | Status    | Reason          | Tracking issue     |
+| ----------- | --------- | --------------- | ------------------ |
+| wolf-shaper | ✅ Ready  |                 |                    |
+| cool-plugin | ❌ Failed | Missing license | org/cool-plugin#42 |
 
 ---
 
@@ -240,7 +246,7 @@ The script is deterministic — it reads only what GitHub's API and the README p
 
 **`image`** — downloaded from the first non-badge image found in the README. External images hosted on third-party sites may block downloads (HTTP 403). If the image is missing, look for one in this order: repo README → repo's `resources`/`assets`/`images`/`docs` folders (an app icon or logo is an acceptable fallback if there's no dedicated screenshot) → the plugin's own website if one is linked. Convert it with: `ffmpeg -i input.png -vf "scale='min(1000,iw)':-1" -q:v 10 output.jpg`. If the source image is transparent (common for logos), composite it onto a solid background first or the plugin will render as a blank white square: `ffmpeg -f lavfi -i "color=c=black:s=WxH" -i logo.png -filter_complex "[0:v][1:v]overlay=(W-w)/2:(H-h)/2:format=auto" -frames:v 1 output.jpg`.
 
-`image` is a **required** field — the validate script will throw and abort if it's missing, not just warn. If, after checking all of the above, no image exists anywhere (no screenshot, no icon, no logo, and the plugin genuinely has no UI to capture), the package cannot be added by automated fetch. Report it to the user as failed with the reason, the same as a licensing or binary-availability failure — don't fabricate a placeholder image.
+`image` is a **required** field — the validate script will throw and abort if it's missing, not just warn. If, after checking all of the above, no image exists anywhere (no screenshot, no icon, no logo, and the plugin genuinely has no UI to capture), the package cannot be added by automated fetch. Report it to the user as failed with the reason, the same as a licensing or binary-availability failure — don't fabricate a placeholder image. File/update an upstream tracking issue per [3f](#3f-filing-upstream-tracking-issues-for-failures) / [issue-template.md](issue-template.md).
 
 **`architectures`** — inferred from asset filenames (e.g. `x64`, `arm64`, `arm64ec`, `arm32`, `m1`). Filenames that give no architecture hint default to `[x64]`. Mac builds that are universal binaries (arm64 + x64) often have no hint in the filename — for `.zip`/`.tar.*` assets the fetch script now extracts the archive and runs `file` on the binary itself to confirm the real architecture(s) automatically; for `.dmg`/`.pkg` installers (which it doesn't extract), check the release notes or README, or download and run `lipo -info` on the binary yourself. If the script couldn't confirm an architecture either way, it prints the file in an "architectures unconfirmed" list at the end — treat every entry there as still defaulted to `[x64]` and needing a manual check, not as verified. There is no registry value for RISC-V (`riscv64`) — the fetch script drops these assets automatically and flags them in its "skipped" list; leave them out rather than mislabeling the architecture.
 
@@ -446,4 +452,4 @@ Then proceed to step 5.
 ## 5. Conclusion
 
 - For a single package, respond to the user that the contribution has been submitted for review, with the url to the PR for them to view VirusTotal scans and peer review.
-- For a batch, respond with a final summary: packages successfully submitted with their individual PR URLs (for VirusTotal scans and peer review), and packages that were skipped or failed with the reason for each.
+- For a batch, respond with a final summary: packages successfully submitted with their individual PR URLs (for VirusTotal scans and peer review), and packages that were skipped or failed with the reason for each. Include the upstream tracking issue URL (see [3f](#3f-filing-upstream-tracking-issues-for-failures)) alongside any failure due to license, releases, or image.
