@@ -85,6 +85,8 @@ must never add a comment.
    the `## Template` content as the issue body (the marker comment stays — it's what
    step 1 searches for next time).
 
+8. **Write in the language of the README of the repo.** e.g. If the README is written in French, write in French.
+
 ## Template
 
 **Title:**
@@ -110,7 +112,7 @@ We are curating a list of open-source audio software at [Open Audio Stack](https
 
 {{additional_notes}}
 
-Once everything above is checked off, {{PACKAGE_NAME}} can be added automatically — no further action needed from your side beyond that. If any box looks wrong (e.g. we missed an existing license or image), add a comment to this issue and we'll correct it. And if you'd rather this project not be listed at all, feel free to close this issue — we'll leave it alone.
+Once everything above is checked off, {{PACKAGE_NAME}} can be added automatically — no further action needed from your side beyond that. If any box looks wrong (e.g. we missed an existing license or image), add a comment to this issue and we'll correct it. And if you'd rather this project not be listed at all, feel free to close this issue — we'll leave it alone. To see a full list of all currently added plugins, click [here](https://studiorack.github.io/studiorack-site/plugins).
 
 Thanks!
 ```
