@@ -1,0 +1,79 @@
+{
+  "slug": "quentinstoll/vstprofiler",
+  "version": "2026.7.15-112",
+  "versions": {
+    "2026.7.15-112": {
+      "name": "VstProfiler",
+      "author": "Quentin Stoll",
+      "description": "Open-source guitar amplifier simulator plugin that models the sound and dynamic behavior of legendary guitar amplifiers using impulse responses, circuit modeling, and lightweight machine learning.",
+      "license": "gpl-3.0",
+      "type": "effect",
+      "tags": [
+        "Guitar",
+        "Amp Simulator",
+        "Impulse Response"
+      ],
+      "url": "https://github.com/QuentinStoll/VstProfiler",
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/quentinstoll/vstprofiler/vstprofiler.jpg",
+      "date": "2026-07-15T13:01:28Z",
+      "changes": "Added automated tests, coverage, and CI integration.",
+      "files": [
+        {
+          "systems": [
+            {
+              "type": "linux"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "vst3",
+            "elf"
+          ],
+          "type": "archive",
+          "size": 11309973,
+          "sha256": "4a900e30cc2711726bf7e665b49f789b462ef35a8f3ada30bebe6e74044a24b4",
+          "url": "https://github.com/QuentinStoll/VstProfiler/releases/download/v2026.07.15-112/linux-x64.tar.gz"
+        },
+        {
+          "systems": [
+            {
+              "type": "win"
+            }
+          ],
+          "architectures": [
+            "arm64"
+          ],
+          "contains": [
+            "vst3",
+            "exe"
+          ],
+          "type": "archive",
+          "size": 25858717,
+          "sha256": "ac72ac3bca954a82ba9cbf72f74d5594542d1739f800d966b479e63f874b53cd",
+          "url": "https://github.com/QuentinStoll/VstProfiler/releases/download/v2026.07.15-112/windows-arm64.zip"
+        },
+        {
+          "systems": [
+            {
+              "type": "win"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "vst3",
+            "exe"
+          ],
+          "type": "archive",
+          "size": 27064456,
+          "sha256": "3e0725e8c8c948763f96ccee201afb4a7e172d6e037ffbace03f38536521a022",
+          "url": "https://github.com/QuentinStoll/VstProfiler/releases/download/v2026.07.15-112/windows-x64.zip"
+        }
+      ],
+      "verified": true
+    }
+  }
+}
