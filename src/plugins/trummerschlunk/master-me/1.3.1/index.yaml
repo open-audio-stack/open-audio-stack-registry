@@ -1,0 +1,115 @@
+name: master_me
+author: Klaus Scheuermann
+description: Automatic mastering chain (gate, EQ, leveler, knee compressor, multiband mid/side compressor, limiter, brickwall) for live-streaming, podcasts and internet radio. Easy and Expert views with LUFS loudness metering.
+license: gpl-3.0
+type: effect
+tags:
+  - Mastering
+  - Compressor
+  - Limiter
+  - Loudness
+url: https://github.com/trummerschlunk/master_me
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/trummerschlunk/master-me/master-me.jpg
+date: '2025-07-02T20:57:43Z'
+changes: Fix UI double scaling.
+files:
+  - systems:
+      - type: linux
+    architectures:
+      - arm64
+    contains:
+      - vst3
+      - clap
+      - lv2
+      - so
+      - elf
+    type: archive
+    size: 2136644
+    sha256: d93d4630f7d2eae1fff5912f89dcf13b810d2b1a3cc0cffa14a3514958da3ec9
+    url: https://github.com/trummerschlunk/master_me/releases/download/1.3.1/master_me-1.3.1-linux-arm64.tar.xz
+  - systems:
+      - type: linux
+    architectures:
+      - arm32
+    contains:
+      - vst3
+      - clap
+      - lv2
+      - so
+      - elf
+    type: archive
+    size: 2080284
+    sha256: 221468ea46146f03c1c78fe3850b93846e689090796379f8a5e3ec48e3027e2f
+    url: https://github.com/trummerschlunk/master_me/releases/download/1.3.1/master_me-1.3.1-linux-armhf.tar.xz
+  - systems:
+      - type: linux
+    architectures:
+      - x32
+    contains:
+      - vst3
+      - clap
+      - lv2
+      - so
+      - elf
+    type: archive
+    size: 2152320
+    sha256: f0b35aa1628791176cd0065d2f04b4be1ed4d8e93518cbbb2cdcf2c3c467763a
+    url: https://github.com/trummerschlunk/master_me/releases/download/1.3.1/master_me-1.3.1-linux-i686.tar.xz
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - vst3
+      - clap
+      - lv2
+      - so
+      - elf
+    type: archive
+    size: 2342208
+    sha256: 09f41b4607ea66fd1d2f69c6b2e92ad4a36cd748c9e6da9a39b7e802c143d6a2
+    url: https://github.com/trummerschlunk/master_me/releases/download/1.3.1/master_me-1.3.1-linux-x86_64.tar.xz
+  - systems:
+      - type: mac
+    architectures:
+      - arm64
+      - x64
+    contains:
+      - vst3
+      - component
+      - clap
+      - lv2
+      - vst
+      - app
+    type: installer
+    size: 12811088
+    sha256: 8c092dce8afcb462e573c88fcda184797967fa82ecd839372509d2916da014b5
+    url: https://github.com/trummerschlunk/master_me/releases/download/1.3.1/master_me-1.3.1-macos-universal.dmg
+  - systems:
+      - type: win
+    architectures:
+      - x32
+    contains:
+      - vst3
+      - clap
+      - lv2
+      - dll
+      - exe
+    type: archive
+    size: 13658181
+    sha256: cf1eb80ee950bce32f7826f126be0e4ca586cd33a8ba01622148131e099a8a27
+    url: https://github.com/trummerschlunk/master_me/releases/download/1.3.1/master_me-1.3.1-win32.zip
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - vst3
+      - clap
+      - lv2
+      - dll
+      - exe
+    type: archive
+    size: 13178088
+    sha256: 0122b72259fd54f99854d038cd7f850f06f6f62d68495f6cc15f57251938fd72
+    url: https://github.com/trummerschlunk/master_me/releases/download/1.3.1/master_me-1.3.1-win64.zip
