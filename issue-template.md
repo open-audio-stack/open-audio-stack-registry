@@ -11,6 +11,33 @@ comment (the issue body) that gets edited in place, never a growing comment thre
 New comments notify every subscriber and watcher; editing the body does not. Re-checks
 must never add a comment.
 
+0. **Qualify before filing anything.** This template is only for a repo that is
+   genuinely a plugin/app/preset/project (AGENTS.md step 3b) and fails purely on
+   license, releases/binaries, or the image requirement — a real "few small
+   changes" gap. It is **not** for a repo that fails 3b itself. That distinction
+   needs more than the one-line description a batch list gave you — check what
+   the repo's own README says it *is* and how it's meant to be used:
+
+   - A library/framework/source-module meant for embedding into other projects
+     (even if some third-party list calls it "a plugin"), a DAW/full application,
+     a research repo with no packaged distributable, or a browser-only tool with
+     no installable artifact at all — none of these qualify, regardless of
+     license/release/image status.
+   - If the README itself says a standalone/binary mode is unmaintained,
+     untested, "do not use," or redirects users to a different (already
+     registered) project — treat that the same as failing 3b.
+   - If the package was previously in the registry and its own maintainer
+     removed it deliberately, don't re-file. Respect that decision.
+   - If GitHub Issues are disabled on the repo, filing isn't possible at all —
+     don't skip it silently. Note the package as blocked with reason "Issues
+     disabled" in the central tracker instead (see below), so it isn't
+     re-investigated next run.
+   - If the repo appears to belong to the person running this workflow (README,
+     commit history, or contact info points back to them), flag it to them
+     directly instead of auto-filing an issue against their own repo.
+
+   Only once a repo clears this gate do steps 1+ below apply.
+
 1. **Search before creating.** Every issue this template produces carries a hidden
    marker comment (`<!-- open-audio-stack-tracker: ... -->`). Before opening a new
    issue, check whether one already exists:
