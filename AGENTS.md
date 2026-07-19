@@ -162,9 +162,17 @@ If neither condition is met, inform the user, file/update an upstream tracking i
 
 **3f. Filing upstream tracking issues for failures**
 
-Any package that fails 3d (license), 3e (releases/binaries), or the `image` requirement (see [Reviewing and correcting the output](#reviewing-and-correcting-the-output) below) is a candidate for an upstream tracking issue, not just a silent failure. Follow [issue-template.md](issue-template.md) exactly — it already covers deduping (search for the hidden marker before creating anything), editing the issue body in place on re-checks instead of posting comments, and the central tracker on this repo. Don't improvise a different issue format or post ad hoc comments; that file is the single source of truth for this workflow.
+Only file a tracking issue for a repo that already passed 3b (valid plugin/app/preset/project content) and fails purely on 3d (license), 3e (releases/binaries), or the `image` requirement (see [Reviewing and correcting the output](#reviewing-and-correcting-the-output) below) — a genuinely fixable gap. **Never** file one for a repo that fails 3b itself; that's an out-of-scope repo, not a "few small changes" ask. Telling the two apart takes judgment beyond the initial 3b pass, since a repo's one-line description can call itself a "plugin" while its own README says otherwise:
 
-Do this for every failing package, single or batch, unless the user has said not to file issues for this run.
+- **Content type invalid** — a library/framework/source-module meant for embedding (even if some third-party list describes it as "a plugin"), a DAW or full application, a research/training repo with no packaged distributable, or a browser-only tool with no installable artifact at all (no systems/binary concept applies). Read past the one-line description; check what the README actually says the project *is* and how it's meant to be used.
+- **Maintainer disclaims the distributable form** — the README explicitly says a mode is unmaintained/untested/"do not use," or redirects users to a different, already-registered project instead. Treat this the same as failing 3b: the plugin/app form doesn't really exist to package.
+- **Maintainer already opted out** — if the package was previously in the registry and removed at its own maintainer's deliberate request (check recent PRs/commits touching that path), don't re-add or re-file; respect that decision.
+- **GitHub Issues disabled** — `gh repo view <org>/<repo> --json hasIssuesEnabled`, or the failed `gh issue create` call, tells you if filing is even possible. If not, don't silently skip it: still note the package as blocked with a reason of "Issues disabled" in the batch report and the central tracker (see [issue-template.md](issue-template.md)), so it isn't investigated again next run.
+- **Repo appears to belong to the person running this workflow** — if the README, commit history, or contact info points back to the same person operating this registry, flag it to them directly instead of auto-filing an issue against their own repo.
+
+For everything that does qualify, follow [issue-template.md](issue-template.md) exactly — it already covers deduping (search for the hidden marker before creating anything), editing the issue body in place on re-checks instead of posting comments, and the central tracker on this repo. Don't improvise a different issue format or post ad hoc comments; that file is the single source of truth for this workflow.
+
+Do this for every qualifying failed package, single or batch, unless the user has said not to file issues for this run.
 
 If processing a batch, once all URLs have been checked, present a validation table to the user before continuing:
 
