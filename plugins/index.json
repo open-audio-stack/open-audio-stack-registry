@@ -29505,6 +29505,49 @@
       }
     }
   },
+  "altinus/alt-denoiser": {
+    "slug": "altinus/alt-denoiser",
+    "version": "1.0.1",
+    "versions": {
+      "1.0.1": {
+        "name": "Alt Denoiser",
+        "author": "Altinus",
+        "description": "Real-time AI noise suppression VST3 plugin powered by DeepFilterNet, embedding the DeepFilterNet3 model with no external downloads required.",
+        "license": "gpl-3.0",
+        "type": "effect",
+        "tags": [
+          "AI",
+          "Noise Reduction",
+          "Denoiser"
+        ],
+        "url": "https://github.com/Altinus/Alt-Denoiser",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/altinus/alt-denoiser/alt-denoiser.jpg",
+        "date": "2026-02-21T09:02:37Z",
+        "changes": "v1.0.1 release.",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "exe"
+            ],
+            "type": "archive",
+            "size": 52657139,
+            "sha256": "b1f48ed38f3fe46f1d3a3949d69db6cf8a1b6e74ffd3166840686f57d445e7b0",
+            "url": "https://github.com/Altinus/Alt-Denoiser/releases/download/v1.0.1/Alt-Denoiser-windows.zip"
+          }
+        ],
+        "verified": true
+      }
+    }
+  },
   "ales-tsurko/kotoist": {
     "slug": "ales-tsurko/kotoist",
     "version": "1.0.0-beta.5",
