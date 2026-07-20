@@ -31,6 +31,20 @@ Audio registry with searchable list of packages containing Plugins, Presets and 
 
 This registry is primarily for distributing free open-source packages. There are plenty of solutions for closed-source, paid plugins. Packages should be built for cross-platform, supporting Linux, Mac and Windows. Packages which don't meet the guidelines may be rejected and/or removed at an Open Stack contributor at any time.
 
+## Who is this for
+
+The registry is built for **audio software developers**. It gives you two things:
+
+- A place to **register your own software** — plugins, presets, projects and apps — so it becomes discoverable and installable through any Open Audio Stack compatible tool.
+- An **open API** (static JSON) you can integrate into your own products (apps, command-line tools, websites and plugins), instead of hosting and maintaining bespoke distribution infrastructure yourself.
+
+It exists to solve the problems audio developers repeatedly re-solve — cross-platform installation, versioning, dependency management, broken download links and plugin-format differences. By sharing an **open, interoperable standard**, every developer's tools become compatible with every other's.
+
+The ultimate beneficiaries are the audio software developers'  customers: **musicians and music producers**, who get a more consistent experience installing audio software.
+
+- **Primary audience:** audio software developers registering packages and integrating the registry API.
+- **Secondary audience:** musicians and music producers who install and use those packages.
+
 ## How it works
 
 Community members add Yaml files to a new branch of this code, one for each package version.
