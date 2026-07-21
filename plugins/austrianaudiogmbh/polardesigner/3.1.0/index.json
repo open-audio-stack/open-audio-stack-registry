@@ -30,7 +30,8 @@
       "type": "archive",
       "size": 7175712,
       "sha256": "ea9302f37687b0f24ad5303647a5b0a64af14242edb9e7b409826e2770c4b700",
-      "url": "https://github.com/AustrianAudioGmbH/PolarDesigner/releases/download/v3.1.0/PolarDesigner3-3.1.0-Linux.zip"
+      "url": "https://github.com/AustrianAudioGmbH/PolarDesigner/releases/download/v3.1.0/PolarDesigner3-3.1.0-Linux.zip",
+      "downloads": 5
     },
     {
       "systems": [
@@ -50,7 +51,8 @@
       "type": "installer",
       "size": 14873353,
       "sha256": "745a921d2705de0f6974a54e77726ee551dbeb73b65520952b85c17982c97d79",
-      "url": "https://github.com/AustrianAudioGmbH/PolarDesigner/releases/download/v3.1.0/PolarDesigner3-3.1.0-macOS.pkg"
+      "url": "https://github.com/AustrianAudioGmbH/PolarDesigner/releases/download/v3.1.0/PolarDesigner3-3.1.0-macOS.pkg",
+      "downloads": 5
     },
     {
       "systems": [
@@ -68,8 +70,10 @@
       "type": "installer",
       "size": 8322294,
       "sha256": "cc22cd77431aa6e056b0055296571b3eea3ae812c64764366cb767a9d0f80dfb",
-      "url": "https://github.com/AustrianAudioGmbH/PolarDesigner/releases/download/v3.1.0/PolarDesigner3-3.1.0-Windows.exe"
+      "url": "https://github.com/AustrianAudioGmbH/PolarDesigner/releases/download/v3.1.0/PolarDesigner3-3.1.0-Windows.exe",
+      "downloads": 3
     }
   ],
-  "verified": true
+  "verified": true,
+  "downloads": 13
 }

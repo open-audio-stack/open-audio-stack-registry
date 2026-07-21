@@ -33,7 +33,8 @@
       "type": "installer",
       "size": 220693484,
       "sha256": "729d92b5a4288f4c22587b8e84244c26aef34e58312ab5b4f4d1f196699b802e",
-      "url": "https://github.com/surge-synthesizer/releases-xt/releases/download/1.3.1/surge-xt-linux-x64-1.3.1.deb"
+      "url": "https://github.com/surge-synthesizer/releases-xt/releases/download/1.3.1/surge-xt-linux-x64-1.3.1.deb",
+      "downloads": 3539
     },
     {
       "systems": [
@@ -53,7 +54,8 @@
       "type": "installer",
       "size": 346260010,
       "sha256": "135e9b8d3e71ab4dd502eee464b99f82c733be2ae23e8fca3724773dee3d54e8",
-      "url": "https://github.com/surge-synthesizer/releases-xt/releases/download/1.3.1/surge-xt-x86_64-1.3.1.rpm"
+      "url": "https://github.com/surge-synthesizer/releases-xt/releases/download/1.3.1/surge-xt-x86_64-1.3.1.rpm",
+      "downloads": 412
     },
     {
       "systems": [
@@ -74,7 +76,8 @@
       "type": "installer",
       "size": 411860016,
       "sha256": "e30b218700d4067edb3a0eadb4128784e41f91f663cff19e3fbb38460883cf59",
-      "url": "https://github.com/surge-synthesizer/releases-xt/releases/download/1.3.1/surge-xt-macOS-1.3.1.dmg"
+      "url": "https://github.com/surge-synthesizer/releases-xt/releases/download/1.3.1/surge-xt-macOS-1.3.1.dmg",
+      "downloads": 16591
     },
     {
       "systems": [
@@ -92,7 +95,8 @@
       "type": "installer",
       "size": 180270273,
       "sha256": "3d766adb0d04b86f7aca8c136bc4c7b0727d316ec10895f679f1c01b0c236a00",
-      "url": "https://github.com/surge-synthesizer/releases-xt/releases/download/1.3.1/surge-xt-win32-1.3.1-setup.exe"
+      "url": "https://github.com/surge-synthesizer/releases-xt/releases/download/1.3.1/surge-xt-win32-1.3.1-setup.exe",
+      "downloads": 1861
     },
     {
       "systems": [
@@ -111,8 +115,10 @@
       "type": "installer",
       "size": 182890274,
       "sha256": "2bac9c87c3e4293ecc4110087f5bb90a5218427921613409b84673f513f02bd3",
-      "url": "https://github.com/surge-synthesizer/releases-xt/releases/download/1.3.1/surge-xt-win64-1.3.1-setup.exe"
+      "url": "https://github.com/surge-synthesizer/releases-xt/releases/download/1.3.1/surge-xt-win64-1.3.1-setup.exe",
+      "downloads": 61610
     }
   ],
-  "verified": true
+  "verified": true,
+  "downloads": 84013
 }

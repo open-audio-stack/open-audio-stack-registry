@@ -36,7 +36,8 @@
           "type": "archive",
           "size": 11413627,
           "sha256": "e371e8204471bcb37009eb978e25268cce734eabefecd329f762362c061e58de",
-          "url": "https://github.com/Jun-Murakami/ZeroComp/releases/download/v1.1.7/ZeroComp_1.1.7_Linux_VST3_LV2_CLAP_Standalone.zip"
+          "url": "https://github.com/Jun-Murakami/ZeroComp/releases/download/v1.1.7/ZeroComp_1.1.7_Linux_VST3_LV2_CLAP_Standalone.zip",
+          "downloads": 24
         },
         {
           "systems": [
@@ -59,7 +60,8 @@
           "type": "installer",
           "size": 27323710,
           "sha256": "019e4c6e733e36855c068361ab99a4b0eb182117b0a51933f46e66a9c985be1f",
-          "url": "https://github.com/Jun-Murakami/ZeroComp/releases/download/v1.1.7/ZeroComp_1.1.7_macOS.pkg"
+          "url": "https://github.com/Jun-Murakami/ZeroComp/releases/download/v1.1.7/ZeroComp_1.1.7_macOS.pkg",
+          "downloads": 9
         },
         {
           "systems": [
@@ -82,7 +84,8 @@
           "type": "archive",
           "size": 27282732,
           "sha256": "60740354113ab8d63ed8f67d6106ebbfa7846072dc35f0a9d65ac48b3e7aeeca",
-          "url": "https://github.com/Jun-Murakami/ZeroComp/releases/download/v1.1.7/ZeroComp_1.1.7_macOS_VST3_AU_AAX_CLAP_Standalone.zip"
+          "url": "https://github.com/Jun-Murakami/ZeroComp/releases/download/v1.1.7/ZeroComp_1.1.7_macOS_VST3_AU_AAX_CLAP_Standalone.zip",
+          "downloads": 7
         },
         {
           "systems": [
@@ -103,7 +106,8 @@
           "type": "installer",
           "size": 17109408,
           "sha256": "88b7a70ff22ad717ad563b2552862e739c790ee1d3deff5d0f92cf9425466dc4",
-          "url": "https://github.com/Jun-Murakami/ZeroComp/releases/download/v1.1.7/ZeroComp_1.1.7_Windows_Setup.exe"
+          "url": "https://github.com/Jun-Murakami/ZeroComp/releases/download/v1.1.7/ZeroComp_1.1.7_Windows_Setup.exe",
+          "downloads": 23
         },
         {
           "systems": [
@@ -124,10 +128,13 @@
           "type": "archive",
           "size": 21958122,
           "sha256": "2f3d30be07be155e3a82bd30512665a158e0c32b587ce5c16b92749eed3bfd1e",
-          "url": "https://github.com/Jun-Murakami/ZeroComp/releases/download/v1.1.7/ZeroComp_1.1.7_Windows_VST3_AAX_CLAP_Standalone.zip"
+          "url": "https://github.com/Jun-Murakami/ZeroComp/releases/download/v1.1.7/ZeroComp_1.1.7_Windows_VST3_AAX_CLAP_Standalone.zip",
+          "downloads": 14
         }
       ],
-      "verified": true
+      "verified": true,
+      "downloads": 77
     }
-  }
+  },
+  "downloads": 77
 }

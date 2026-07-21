@@ -36,7 +36,8 @@
       "type": "archive",
       "size": 5453123,
       "sha256": "d0382092c65ca3f74b2112e9a49f31950f67f8dfd1df368f80c5192a3e12a680",
-      "url": "https://github.com/tiagolr/qdelay/releases/download/v1.1.1/qdelay-linux-v1.1.1.zip"
+      "url": "https://github.com/tiagolr/qdelay/releases/download/v1.1.1/qdelay-linux-v1.1.1.zip",
+      "downloads": 38
     },
     {
       "systems": [
@@ -55,7 +56,8 @@
       "type": "archive",
       "size": 8795400,
       "sha256": "d622d42e821759f842353b6ecc1381a9d0079b5a50a44bce4acf6ded8b842fe4",
-      "url": "https://github.com/tiagolr/qdelay/releases/download/v1.1.1/qdelay-macos-v1.1.1.zip"
+      "url": "https://github.com/tiagolr/qdelay/releases/download/v1.1.1/qdelay-macos-v1.1.1.zip",
+      "downloads": 47
     },
     {
       "systems": [
@@ -72,8 +74,10 @@
       "type": "archive",
       "size": 3343884,
       "sha256": "540f739d674de08df4c81a2ecdbdef3dabf82b66dab096fc77f50644c85b7fea",
-      "url": "https://github.com/tiagolr/qdelay/releases/download/v1.1.1/qdelay-win-v1.1.1.zip"
+      "url": "https://github.com/tiagolr/qdelay/releases/download/v1.1.1/qdelay-win-v1.1.1.zip",
+      "downloads": 110
     }
   ],
-  "verified": true
+  "verified": true,
+  "downloads": 195
 }

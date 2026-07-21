@@ -29,7 +29,8 @@
       "type": "archive",
       "size": 5698320,
       "sha256": "470bbde487bce52a44a57ef6ff745c7ca4476dddf7b7a29f868aa9cdbdc14ffb",
-      "url": "https://github.com/MeijisIrlnd/Transfer/releases/download/v0.0.2/Transfer-macOS.zip"
+      "url": "https://github.com/MeijisIrlnd/Transfer/releases/download/v0.0.2/Transfer-macOS.zip",
+      "downloads": 35
     },
     {
       "systems": [
@@ -46,8 +47,10 @@
       "type": "archive",
       "size": 3160231,
       "sha256": "397c51ebb8b10eee2ca97e51dcaa3523047b66a2e59a493191fd94f118b6bfd4",
-      "url": "https://github.com/MeijisIrlnd/Transfer/releases/download/v0.0.2/Transfer-x64.zip"
+      "url": "https://github.com/MeijisIrlnd/Transfer/releases/download/v0.0.2/Transfer-x64.zip",
+      "downloads": 130
     }
   ],
-  "verified": true
+  "verified": true,
+  "downloads": 165
 }

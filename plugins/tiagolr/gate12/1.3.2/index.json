@@ -30,7 +30,8 @@
       ],
       "size": 5136066,
       "type": "archive",
-      "url": "https://github.com/tiagolr/gate12/releases/download/v1.3.2/gate12-linux-v1.3.2.zip"
+      "url": "https://github.com/tiagolr/gate12/releases/download/v1.3.2/gate12-linux-v1.3.2.zip",
+      "downloads": 16
     },
     {
       "architectures": [
@@ -49,7 +50,8 @@
       ],
       "size": 12504581,
       "type": "archive",
-      "url": "https://github.com/tiagolr/gate12/releases/download/v1.3.2/gate12-macos-v1.3.2.zip"
+      "url": "https://github.com/tiagolr/gate12/releases/download/v1.3.2/gate12-macos-v1.3.2.zip",
+      "downloads": 14
     },
     {
       "systems": [
@@ -67,8 +69,10 @@
       "type": "archive",
       "size": 6383922,
       "sha256": "18135fe98d46ac359bf73d7d1929e9141a151663afd7f29479def5c44d85b78f",
-      "url": "https://github.com/tiagolr/gate12/releases/download/v1.3.2/gate12-win-v1.3.2.zip"
+      "url": "https://github.com/tiagolr/gate12/releases/download/v1.3.2/gate12-win-v1.3.2.zip",
+      "downloads": 44
     }
   ],
-  "verified": true
+  "verified": true,
+  "downloads": 74
 }

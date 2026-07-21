@@ -37,7 +37,8 @@
             ],
             "size": 12807099,
             "type": "archive",
-            "url": "https://github.com/magnetophon/lamb-rs/releases/download/v2.1.0/lamb-v2.1.0-ubuntu-20.04.zip"
+            "url": "https://github.com/magnetophon/lamb-rs/releases/download/v2.1.0/lamb-v2.1.0-ubuntu-20.04.zip",
+            "downloads": 1545
           },
           {
             "architectures": [
@@ -56,7 +57,8 @@
             ],
             "size": 23920420,
             "type": "archive",
-            "url": "https://github.com/magnetophon/lamb-rs/releases/download/v2.1.0/lamb-v2.1.0-macos-universal.zip"
+            "url": "https://github.com/magnetophon/lamb-rs/releases/download/v2.1.0/lamb-v2.1.0-macos-universal.zip",
+            "downloads": 148
           },
           {
             "architectures": [
@@ -75,12 +77,15 @@
             ],
             "size": 11499144,
             "type": "archive",
-            "url": "https://github.com/magnetophon/lamb-rs/releases/download/v2.1.0/lamb-v2.1.0-windows.zip"
+            "url": "https://github.com/magnetophon/lamb-rs/releases/download/v2.1.0/lamb-v2.1.0-windows.zip",
+            "downloads": 437
           }
         ],
-        "verified": true
+        "verified": true,
+        "downloads": 2130
       }
-    }
+    },
+    "downloads": 2130
   },
   "magnetophon/del2": {
     "slug": "magnetophon/del2",
@@ -117,7 +122,8 @@
             "type": "archive",
             "size": 8455873,
             "sha256": "8ff412a08582c8c4df78559a1f6f75c24702176e2271f6ab6bc7dab63dcacc33",
-            "url": "https://github.com/magnetophon/DEL2/releases/download/V0.2.0/DEL2-V0.2.0-ubuntu-20.04.zip"
+            "url": "https://github.com/magnetophon/DEL2/releases/download/V0.2.0/DEL2-V0.2.0-ubuntu-20.04.zip",
+            "downloads": 75
           },
           {
             "systems": [
@@ -136,7 +142,8 @@
             "type": "archive",
             "size": 15666903,
             "sha256": "52d834ef756c1db38134ced5235ad4365d21503b2b6096a187cb24e394a4d5f0",
-            "url": "https://github.com/magnetophon/DEL2/releases/download/V0.2.0/DEL2-V0.2.0-macos-universal.zip"
+            "url": "https://github.com/magnetophon/DEL2/releases/download/V0.2.0/DEL2-V0.2.0-macos-universal.zip",
+            "downloads": 13
           },
           {
             "systems": [
@@ -154,11 +161,14 @@
             "type": "archive",
             "size": 7500230,
             "sha256": "6bbdc271261c1ce33c67813fb17411c61e0579e99dbb81b72bf5bf11ac555da1",
-            "url": "https://github.com/magnetophon/DEL2/releases/download/V0.2.0/DEL2-V0.2.0-windows.zip"
+            "url": "https://github.com/magnetophon/DEL2/releases/download/V0.2.0/DEL2-V0.2.0-windows.zip",
+            "downloads": 51
           }
         ],
-        "verified": true
+        "verified": true,
+        "downloads": 139
       }
-    }
+    },
+    "downloads": 139
   }
 }

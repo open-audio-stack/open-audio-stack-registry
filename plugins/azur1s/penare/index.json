@@ -33,7 +33,8 @@
           "type": "archive",
           "size": 4390670,
           "sha256": "b25cc469ab8c7a5e259381368d549cd5f66291ae63cb2b1e1cb610991dd5a20f",
-          "url": "https://github.com/azur1s/penare/releases/download/0.2.1/Penare-0.2.1-ubuntu-20.04.zip"
+          "url": "https://github.com/azur1s/penare/releases/download/0.2.1/Penare-0.2.1-ubuntu-20.04.zip",
+          "downloads": 27
         },
         {
           "systems": [
@@ -52,7 +53,8 @@
           "type": "archive",
           "size": 3710572,
           "sha256": "7c56146ca466183e29f547255723c1691ce9ad348bea97f6cd516925c0ad2ae1",
-          "url": "https://github.com/azur1s/penare/releases/download/0.2.1/Penare-0.2.1-macos-universal.zip"
+          "url": "https://github.com/azur1s/penare/releases/download/0.2.1/Penare-0.2.1-macos-universal.zip",
+          "downloads": 21
         },
         {
           "systems": [
@@ -70,10 +72,13 @@
           "type": "archive",
           "size": 3772316,
           "sha256": "07e446ac0c4f17fa8b02cb69377c2865d3c1cfe95cadf2c9ea4f9f2c13a3e27e",
-          "url": "https://github.com/azur1s/penare/releases/download/0.2.1/Penare-0.2.1-windows.zip"
+          "url": "https://github.com/azur1s/penare/releases/download/0.2.1/Penare-0.2.1-windows.zip",
+          "downloads": 45
         }
       ],
-      "verified": true
+      "verified": true,
+      "downloads": 93
     }
-  }
+  },
+  "downloads": 93
 }

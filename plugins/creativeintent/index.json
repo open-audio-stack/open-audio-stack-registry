@@ -36,7 +36,8 @@
             "type": "archive",
             "size": 18899845,
             "sha256": "b6464d0d84b7226d85d29354cdeec523d3e77ac7c55d2a70523fa9f8c2d38512",
-            "url": "https://github.com/CapRat/temper/releases/download/v1.0.4/temper_ubuntu-clang.zip"
+            "url": "https://github.com/CapRat/temper/releases/download/v1.0.4/temper_ubuntu-clang.zip",
+            "downloads": 42
           },
           {
             "systems": [
@@ -56,7 +57,8 @@
             "type": "archive",
             "size": 20389162,
             "sha256": "659740f374efb70d465669b7992131aa4c898496978ef9ef45c9e1fdc5a0b3c8",
-            "url": "https://github.com/CapRat/temper/releases/download/v1.0.4/temper_macos.zip"
+            "url": "https://github.com/CapRat/temper/releases/download/v1.0.4/temper_macos.zip",
+            "downloads": 17
           },
           {
             "systems": [
@@ -75,11 +77,14 @@
             "type": "archive",
             "size": 70456585,
             "sha256": "8faebb86784d4baa6ebda51864fb15771b3237d8cb7800b370d38c31c8ba4dfb",
-            "url": "https://github.com/CapRat/temper/releases/download/v1.0.4/temper_windows.zip"
+            "url": "https://github.com/CapRat/temper/releases/download/v1.0.4/temper_windows.zip",
+            "downloads": 58
           }
         ],
-        "verified": false
+        "verified": false,
+        "downloads": 117
       }
-    }
+    },
+    "downloads": 117
   }
 }

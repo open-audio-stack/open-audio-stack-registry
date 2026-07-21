@@ -36,7 +36,8 @@
             "type": "archive",
             "size": 14473485,
             "sha256": "dcb5960d882a294abf7a8af8796b9d9b2d647d38020e2a944c26070a4372e62e",
-            "url": "https://github.com/tote-bag-labs/valentine/releases/download/v1.0.1/valentine-1.0.1-Linux.zip"
+            "url": "https://github.com/tote-bag-labs/valentine/releases/download/v1.0.1/valentine-1.0.1-Linux.zip",
+            "downloads": 486
           },
           {
             "systems": [
@@ -54,7 +55,8 @@
             "type": "installer",
             "size": 5934049,
             "sha256": "b946940305be64efbc7080e233eb3e51a77d69c0d2905703a3fc9ce336a0e687",
-            "url": "https://github.com/tote-bag-labs/valentine/releases/download/v1.0.1/valentine-1.0.1-macOS.dmg"
+            "url": "https://github.com/tote-bag-labs/valentine/releases/download/v1.0.1/valentine-1.0.1-macOS.dmg",
+            "downloads": 401
           },
           {
             "systems": [
@@ -71,11 +73,14 @@
             "type": "installer",
             "size": 2792291,
             "sha256": "414f80a8ef39df10db6fe5a47f5582bd0f20bdd13dabc63721fec9a6135d4f2d",
-            "url": "https://github.com/tote-bag-labs/valentine/releases/download/v1.0.1/valentine-1.0.1-windows.exe"
+            "url": "https://github.com/tote-bag-labs/valentine/releases/download/v1.0.1/valentine-1.0.1-windows.exe",
+            "downloads": 594
           }
         ],
-        "verified": true
+        "verified": true,
+        "downloads": 1481
       }
-    }
+    },
+    "downloads": 1481
   }
 }

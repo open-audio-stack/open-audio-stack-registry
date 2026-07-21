@@ -35,7 +35,8 @@
             "type": "archive",
             "size": 3156239,
             "sha256": "34d34483e5a3c804e49b6cec988917c2dbf97073ce9cb9fa3053c34f80cbbd37",
-            "url": "https://github.com/pschaupp/spectral-abyss-multiband-saturation/releases/download/v1.0.1/SpectralAbyssMacOS.zip"
+            "url": "https://github.com/pschaupp/spectral-abyss-multiband-saturation/releases/download/v1.0.1/SpectralAbyssMacOS.zip",
+            "downloads": 5
           },
           {
             "systems": [
@@ -52,11 +53,14 @@
             "type": "archive",
             "size": 2870845,
             "sha256": "a0785be6c3908f0acbe02505d26929caf99d303093abccf9cb62ddd670a6344f",
-            "url": "https://github.com/pschaupp/spectral-abyss-multiband-saturation/releases/download/v1.0.1/SpectralAbyssWindows.zip"
+            "url": "https://github.com/pschaupp/spectral-abyss-multiband-saturation/releases/download/v1.0.1/SpectralAbyssWindows.zip",
+            "downloads": 17
           }
         ],
-        "verified": true
+        "verified": true,
+        "downloads": 22
       }
-    }
+    },
+    "downloads": 22
   }
 }

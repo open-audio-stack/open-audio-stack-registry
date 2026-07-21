@@ -34,7 +34,8 @@
             "type": "archive",
             "size": 4997120,
             "sha256": "1b7ff51bdd7132878ab8d103a294d7afea6cd2d0bc415e0c9bce373f99aa7327",
-            "url": "https://github.com/vivekvjyn/Sound-of-Music/releases/download/v1.0.0/Sound.of.Music.1-linux-lv2.tar"
+            "url": "https://github.com/vivekvjyn/Sound-of-Music/releases/download/v1.0.0/Sound.of.Music.1-linux-lv2.tar",
+            "downloads": 4
           },
           {
             "systems": [
@@ -51,7 +52,8 @@
             "type": "archive",
             "size": 5273600,
             "sha256": "27b35ea5af961d298ea017f7d32d2031e312c8051874af9976a3b18b680b1a77",
-            "url": "https://github.com/vivekvjyn/Sound-of-Music/releases/download/v1.0.0/Sound.of.Music.1-linux-vst3.tar"
+            "url": "https://github.com/vivekvjyn/Sound-of-Music/releases/download/v1.0.0/Sound.of.Music.1-linux-vst3.tar",
+            "downloads": 3
           },
           {
             "systems": [
@@ -69,7 +71,8 @@
             "type": "archive",
             "size": 8335360,
             "sha256": "f837813701736dfe41fdb1db6ce06194ed02df2fa09de335d588b5481fd6df58",
-            "url": "https://github.com/vivekvjyn/Sound-of-Music/releases/download/v1.0.0/Sound.of.Music.1-macos-au.tar"
+            "url": "https://github.com/vivekvjyn/Sound-of-Music/releases/download/v1.0.0/Sound.of.Music.1-macos-au.tar",
+            "downloads": 2
           },
           {
             "systems": [
@@ -87,7 +90,8 @@
             "type": "archive",
             "size": 8103936,
             "sha256": "654a9ae33e5be6808df9460e06953006e2a07131a39f7a150db14aaefbb5deb2",
-            "url": "https://github.com/vivekvjyn/Sound-of-Music/releases/download/v1.0.0/Sound.of.Music.1-macos-lv2.tar"
+            "url": "https://github.com/vivekvjyn/Sound-of-Music/releases/download/v1.0.0/Sound.of.Music.1-macos-lv2.tar",
+            "downloads": 2
           },
           {
             "systems": [
@@ -105,7 +109,8 @@
             "type": "archive",
             "size": 8438784,
             "sha256": "093d16f3ace16274c798f445466da5624bb580534a4f18d6b1a782efc06512a3",
-            "url": "https://github.com/vivekvjyn/Sound-of-Music/releases/download/v1.0.0/Sound.of.Music.1-macos-vst3.tar"
+            "url": "https://github.com/vivekvjyn/Sound-of-Music/releases/download/v1.0.0/Sound.of.Music.1-macos-vst3.tar",
+            "downloads": 2
           },
           {
             "systems": [
@@ -122,7 +127,8 @@
             "type": "archive",
             "size": 6440960,
             "sha256": "ba1370fd56cc66094c6828f1101e7809bce639e4090738338b89d483edd67310",
-            "url": "https://github.com/vivekvjyn/Sound-of-Music/releases/download/v1.0.0/Sound.of.Music.1-windows-lv2.tar"
+            "url": "https://github.com/vivekvjyn/Sound-of-Music/releases/download/v1.0.0/Sound.of.Music.1-windows-lv2.tar",
+            "downloads": 2
           },
           {
             "systems": [
@@ -139,12 +145,15 @@
             "type": "archive",
             "size": 6594560,
             "sha256": "0c55b3f7f2d11db15ba71444f5b76e867ef0bf7395085035b7932d1e4b63a92d",
-            "url": "https://github.com/vivekvjyn/Sound-of-Music/releases/download/v1.0.0/Sound.of.Music.1-windows-vst3.tar"
+            "url": "https://github.com/vivekvjyn/Sound-of-Music/releases/download/v1.0.0/Sound.of.Music.1-windows-vst3.tar",
+            "downloads": 4
           }
         ],
-        "verified": true
+        "verified": true,
+        "downloads": 19
       }
-    }
+    },
+    "downloads": 19
   },
   "vivekvjyn/pulp-fiction": {
     "slug": "vivekvjyn/pulp-fiction",
@@ -184,7 +193,8 @@
             "type": "archive",
             "size": 15457762,
             "sha256": "101d5cd7bb53706ec4d27a377be9f61a11719cfd7a5acdb26f5e33202a95d2e1",
-            "url": "https://github.com/vivekvjyn/Pulp-Fiction/releases/download/tremolo/Pulp_fiction_linux_vst3.zip"
+            "url": "https://github.com/vivekvjyn/Pulp-Fiction/releases/download/tremolo/Pulp_fiction_linux_vst3.zip",
+            "downloads": 46
           },
           {
             "systems": [
@@ -201,11 +211,14 @@
             "type": "archive",
             "size": 19843584,
             "sha256": "979f9354c62efe6f33fc0a486cc4fb19a3195897a137ae5a3a8e583d3b5edc48",
-            "url": "https://github.com/vivekvjyn/Pulp-Fiction/releases/download/tremolo/Pulp.fiction.vst3"
+            "url": "https://github.com/vivekvjyn/Pulp-Fiction/releases/download/tremolo/Pulp.fiction.vst3",
+            "downloads": 210
           }
         ],
-        "verified": true
+        "verified": true,
+        "downloads": 256
       }
-    }
+    },
+    "downloads": 256
   }
 }

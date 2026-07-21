@@ -31,7 +31,8 @@
           "open": "clap-info",
           "size": 223461,
           "sha256": "6ce7185de6d191b681f337ca85b224d3b11c76ff85f2e4538f049db54d1f1a3b",
-          "url": "https://github.com/free-audio/clap-info/releases/download/v1.2.2/clap-info-linux-x64.zip"
+          "url": "https://github.com/free-audio/clap-info/releases/download/v1.2.2/clap-info-linux-x64.zip",
+          "downloads": 1144
         },
         {
           "systems": [
@@ -47,7 +48,8 @@
           "open": "clap-info",
           "size": 439006,
           "sha256": "afaa46e9f64c7bb4236bdf60aacac2f5874a4c1c20680bcd88dfd121be480c42",
-          "url": "https://github.com/free-audio/clap-info/releases/download/v1.2.2/clap-info-mac-universal.zip"
+          "url": "https://github.com/free-audio/clap-info/releases/download/v1.2.2/clap-info-mac-universal.zip",
+          "downloads": 220
         },
         {
           "systems": [
@@ -62,7 +64,8 @@
           "open": "clap-info.exe",
           "size": 279611,
           "sha256": "11d433eb1e3a39dbeb874ac4107650944d6041d7c2f3dacc9cfaf0b520d2a03a",
-          "url": "https://github.com/free-audio/clap-info/releases/download/v1.2.2/clap-info-win-arm64ec.zip"
+          "url": "https://github.com/free-audio/clap-info/releases/download/v1.2.2/clap-info-win-arm64ec.zip",
+          "downloads": 11
         },
         {
           "systems": [
@@ -77,10 +80,13 @@
           "open": "clap-info.exe",
           "size": 292331,
           "sha256": "bc258a0e1cfb000d8598cadca56a0ce22c67edc4d420bb80ed75638e5a79e41b",
-          "url": "https://github.com/free-audio/clap-info/releases/download/v1.2.2/clap-info-win-x64.zip"
+          "url": "https://github.com/free-audio/clap-info/releases/download/v1.2.2/clap-info-win-x64.zip",
+          "downloads": 291
         }
       ],
-      "verified": true
+      "verified": true,
+      "downloads": 1666
     }
-  }
+  },
+  "downloads": 1666
 }

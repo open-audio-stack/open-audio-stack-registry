@@ -34,7 +34,8 @@
             "type": "archive",
             "size": 2569768,
             "sha256": "11ae8443b1a3606d59beb5ea3ca1e27a2a7aee444fe85af55b4b49291810efaf",
-            "url": "https://github.com/mikeoliphant/Stompbox/releases/download/v0.2.2/StompboxVST3Plugin.zip"
+            "url": "https://github.com/mikeoliphant/Stompbox/releases/download/v0.2.2/StompboxVST3Plugin.zip",
+            "downloads": 80
           },
           {
             "systems": [
@@ -51,7 +52,8 @@
             "type": "archive",
             "size": 930433,
             "sha256": "af4c45859eecea7fe58c48ba3ffb310bb4e0ffe81d6437db893000c7c3db76bd",
-            "url": "https://github.com/mikeoliphant/Stompbox/releases/download/v0.2.2/stompbox-jack-rpi4.tgz"
+            "url": "https://github.com/mikeoliphant/Stompbox/releases/download/v0.2.2/stompbox-jack-rpi4.tgz",
+            "downloads": 15
           },
           {
             "systems": [
@@ -68,12 +70,15 @@
             "type": "archive",
             "size": 930668,
             "sha256": "342551d57b261d4e57f0c4c8d5ff6e52dcf6ce19661cd008978a2101432e1ffc",
-            "url": "https://github.com/mikeoliphant/Stompbox/releases/download/v0.2.2/stompbox-jack-rpi5.tgz"
+            "url": "https://github.com/mikeoliphant/Stompbox/releases/download/v0.2.2/stompbox-jack-rpi5.tgz",
+            "downloads": 16
           }
         ],
-        "verified": true
+        "verified": true,
+        "downloads": 111
       }
-    }
+    },
+    "downloads": 111
   },
   "mikeoliphant/neural-amp-modeler-lv2": {
     "slug": "mikeoliphant/neural-amp-modeler-lv2",
@@ -110,7 +115,8 @@
             "type": "archive",
             "size": 2336353,
             "sha256": "a973337ea195533001c7d454ec8a27145e87b32383c4dbf21d7bb7bdc3ae2077",
-            "url": "https://github.com/mikeoliphant/neural-amp-modeler-lv2/releases/download/v0.2.2/neural_amp_modeler_lv2_linux_x64.tgz"
+            "url": "https://github.com/mikeoliphant/neural-amp-modeler-lv2/releases/download/v0.2.2/neural_amp_modeler_lv2_linux_x64.tgz",
+            "downloads": 253
           },
           {
             "systems": [
@@ -127,7 +133,8 @@
             "type": "archive",
             "size": 2384272,
             "sha256": "3339ef1a87b265b3a10dbd6eb3e3a55a289bc207b0379e58f177c087f9d4008a",
-            "url": "https://github.com/mikeoliphant/neural-amp-modeler-lv2/releases/download/v0.2.2/neural_amp_modeler_lv2_linux_x64v3.tgz"
+            "url": "https://github.com/mikeoliphant/neural-amp-modeler-lv2/releases/download/v0.2.2/neural_amp_modeler_lv2_linux_x64v3.tgz",
+            "downloads": 255
           },
           {
             "systems": [
@@ -144,7 +151,8 @@
             "type": "archive",
             "size": 4653886,
             "sha256": "2e27bc817c41e09305bd5e9d13e20190b8d9e5cf0dad11819fd868235e8b804f",
-            "url": "https://github.com/mikeoliphant/neural-amp-modeler-lv2/releases/download/v0.2.2/neural_amp_modeler_lv2_rpi4.tgz"
+            "url": "https://github.com/mikeoliphant/neural-amp-modeler-lv2/releases/download/v0.2.2/neural_amp_modeler_lv2_rpi4.tgz",
+            "downloads": 12
           },
           {
             "systems": [
@@ -161,7 +169,8 @@
             "type": "archive",
             "size": 4653651,
             "sha256": "4457fa847c49f00c137ce56fd4c23ea8c1bc7e77d2be098df82e3df9be2661d6",
-            "url": "https://github.com/mikeoliphant/neural-amp-modeler-lv2/releases/download/v0.2.2/neural_amp_modeler_lv2_rpi5.tgz"
+            "url": "https://github.com/mikeoliphant/neural-amp-modeler-lv2/releases/download/v0.2.2/neural_amp_modeler_lv2_rpi5.tgz",
+            "downloads": 19
           },
           {
             "systems": [
@@ -178,7 +187,8 @@
             "type": "archive",
             "size": 1319566,
             "sha256": "ec6ac3083bf141e8d8a696b5b917af2c020cc47e38132e589a97b6e7da4ad603",
-            "url": "https://github.com/mikeoliphant/neural-amp-modeler-lv2/releases/download/v0.2.2/neural_amp_modeler_lv2_win_x64.zip"
+            "url": "https://github.com/mikeoliphant/neural-amp-modeler-lv2/releases/download/v0.2.2/neural_amp_modeler_lv2_win_x64.zip",
+            "downloads": 47
           },
           {
             "systems": [
@@ -195,11 +205,14 @@
             "type": "archive",
             "size": 1359998,
             "sha256": "505fba080ec65f94128774d00e0b17d67b6c1a5d798e273f362adcd6c6a9a4b0",
-            "url": "https://github.com/mikeoliphant/neural-amp-modeler-lv2/releases/download/v0.2.2/neural_amp_modeler_lv2_win_x64v3.zip"
+            "url": "https://github.com/mikeoliphant/neural-amp-modeler-lv2/releases/download/v0.2.2/neural_amp_modeler_lv2_win_x64v3.zip",
+            "downloads": 44
           }
         ],
-        "verified": true
+        "verified": true,
+        "downloads": 630
       }
-    }
+    },
+    "downloads": 630
   }
 }

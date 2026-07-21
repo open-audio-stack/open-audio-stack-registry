@@ -36,7 +36,8 @@
           "type": "installer",
           "size": 42695898,
           "sha256": "729a4c62de95fdb40bbf00823a03fce83e41dae4e62a4c781f2c2279f14e59e0",
-          "url": "https://github.com/FigBug/SN76489/releases/download/v1.1.5/SN76489.deb"
+          "url": "https://github.com/FigBug/SN76489/releases/download/v1.1.5/SN76489.deb",
+          "downloads": 8
         },
         {
           "systems": [
@@ -55,7 +56,8 @@
           "type": "installer",
           "size": 7346312,
           "sha256": "4967c84a9d54eca62792f56db6a6b3a3a18dd0055d60adcbbd33f2ceace3cd86",
-          "url": "https://github.com/FigBug/SN76489/releases/download/v1.1.5/SN76489.exe"
+          "url": "https://github.com/FigBug/SN76489/releases/download/v1.1.5/SN76489.exe",
+          "downloads": 19
         },
         {
           "systems": [
@@ -76,10 +78,13 @@
           "type": "installer",
           "size": 47345366,
           "sha256": "9be2ec9160845a60992722b5fa5814f2fbb3251680597384321524cddcc1054a",
-          "url": "https://github.com/FigBug/SN76489/releases/download/v1.1.5/SN76489.pkg"
+          "url": "https://github.com/FigBug/SN76489/releases/download/v1.1.5/SN76489.pkg",
+          "downloads": 11
         }
       ],
-      "verified": true
+      "verified": true,
+      "downloads": 38
     }
-  }
+  },
+  "downloads": 38
 }

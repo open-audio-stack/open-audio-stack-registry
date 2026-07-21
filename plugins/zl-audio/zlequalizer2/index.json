@@ -33,7 +33,8 @@
           ],
           "size": 17295648,
           "type": "archive",
-          "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.1.0/ZL.Equalizer.2-1.1.0-Linux-x86.zip"
+          "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.1.0/ZL.Equalizer.2-1.1.0-Linux-x86.zip",
+          "downloads": 2537
         },
         {
           "architectures": [
@@ -51,7 +52,8 @@
           ],
           "size": 11547522,
           "type": "archive",
-          "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.1.0/ZL.Equalizer.2-1.1.0-Linux-arm.zip"
+          "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.1.0/ZL.Equalizer.2-1.1.0-Linux-arm.zip",
+          "downloads": 883
         },
         {
           "architectures": [
@@ -70,7 +72,8 @@
           ],
           "size": 22915912,
           "type": "installer",
-          "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.1.0/ZL.Equalizer.2-1.1.0-macOS-x86.dmg"
+          "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.1.0/ZL.Equalizer.2-1.1.0-macOS-x86.dmg",
+          "downloads": 3767
         },
         {
           "architectures": [
@@ -89,7 +92,8 @@
           ],
           "size": 15238667,
           "type": "installer",
-          "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.1.0/ZL.Equalizer.2-1.1.0-macOS-arm.dmg"
+          "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.1.0/ZL.Equalizer.2-1.1.0-macOS-arm.dmg",
+          "downloads": 6684
         },
         {
           "architectures": [
@@ -108,7 +112,8 @@
           ],
           "size": 11918930,
           "type": "installer",
-          "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.1.0/ZL.Equalizer.2-1.1.0-Windows-x86.exe"
+          "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.1.0/ZL.Equalizer.2-1.1.0-Windows-x86.exe",
+          "downloads": 22589
         },
         {
           "architectures": [
@@ -126,10 +131,13 @@
           ],
           "size": 8247800,
           "type": "installer",
-          "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.1.0/ZL.Equalizer.2-1.1.0-Windows-arm.exe"
+          "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.1.0/ZL.Equalizer.2-1.1.0-Windows-arm.exe",
+          "downloads": 4946
         }
       ],
-      "verified": true
+      "verified": true,
+      "downloads": 41406
     }
-  }
+  },
+  "downloads": 41406
 }

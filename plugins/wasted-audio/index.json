@@ -36,7 +36,8 @@
             "type": "archive",
             "size": 895724,
             "sha256": "a64406286b54893eeafcf2f27223c09aa0c70a1c19a8c406d598b7fe6d19ca2b",
-            "url": "https://github.com/Wasted-Audio/wstd-smthr/releases/download/v1.1.1/wstd-smthr-v1.1.1-linux-arm64.tar.xz"
+            "url": "https://github.com/Wasted-Audio/wstd-smthr/releases/download/v1.1.1/wstd-smthr-v1.1.1-linux-arm64.tar.xz",
+            "downloads": 5
           },
           {
             "systems": [
@@ -56,7 +57,8 @@
             "type": "archive",
             "size": 860324,
             "sha256": "a3b62ae0fe11f96f33039aff29cba69304120124e6834a195b9403b5efea3533",
-            "url": "https://github.com/Wasted-Audio/wstd-smthr/releases/download/v1.1.1/wstd-smthr-v1.1.1-linux-armhf.tar.xz"
+            "url": "https://github.com/Wasted-Audio/wstd-smthr/releases/download/v1.1.1/wstd-smthr-v1.1.1-linux-armhf.tar.xz",
+            "downloads": 4
           },
           {
             "systems": [
@@ -76,7 +78,8 @@
             "type": "archive",
             "size": 1006840,
             "sha256": "10098a1806c16f602712c892741a9eecdd93417c59ca49e3f097234edea2b32c",
-            "url": "https://github.com/Wasted-Audio/wstd-smthr/releases/download/v1.1.1/wstd-smthr-v1.1.1-linux-i686.tar.xz"
+            "url": "https://github.com/Wasted-Audio/wstd-smthr/releases/download/v1.1.1/wstd-smthr-v1.1.1-linux-i686.tar.xz",
+            "downloads": 4
           },
           {
             "systems": [
@@ -96,7 +99,8 @@
             "type": "archive",
             "size": 975864,
             "sha256": "a06fe9a142762cdac2d5fbe4076144862197bafdf0f70e35020c69acf885262b",
-            "url": "https://github.com/Wasted-Audio/wstd-smthr/releases/download/v1.1.1/wstd-smthr-v1.1.1-linux-x86_64.tar.xz"
+            "url": "https://github.com/Wasted-Audio/wstd-smthr/releases/download/v1.1.1/wstd-smthr-v1.1.1-linux-x86_64.tar.xz",
+            "downloads": 77
           },
           {
             "systems": [
@@ -116,7 +120,8 @@
             "type": "installer",
             "size": 3094929,
             "sha256": "5fed29bf8a658885bd14ff13c55e8aa08e9c3b33074213b407c450beda82e420",
-            "url": "https://github.com/Wasted-Audio/wstd-smthr/releases/download/v1.1.1/wstd-smthr-v1.1.1-macos-intel.pkg"
+            "url": "https://github.com/Wasted-Audio/wstd-smthr/releases/download/v1.1.1/wstd-smthr-v1.1.1-macos-intel.pkg",
+            "downloads": 5
           },
           {
             "systems": [
@@ -137,7 +142,8 @@
             "type": "installer",
             "size": 5727586,
             "sha256": "f2ecc00c75cc49e4a2e367fb3c09da428f52102677d6e74e40cbac2ec79c57c3",
-            "url": "https://github.com/Wasted-Audio/wstd-smthr/releases/download/v1.1.1/wstd-smthr-v1.1.1-macos-universal.pkg"
+            "url": "https://github.com/Wasted-Audio/wstd-smthr/releases/download/v1.1.1/wstd-smthr-v1.1.1-macos-universal.pkg",
+            "downloads": 26
           },
           {
             "systems": [
@@ -157,7 +163,8 @@
             "type": "archive",
             "size": 5426685,
             "sha256": "941fc4c8c12260da420a7d5539c06f44f99805130b37d614d6f5e75cc3799470",
-            "url": "https://github.com/Wasted-Audio/wstd-smthr/releases/download/v1.1.1/wstd-smthr-v1.1.1-win32.zip"
+            "url": "https://github.com/Wasted-Audio/wstd-smthr/releases/download/v1.1.1/wstd-smthr-v1.1.1-win32.zip",
+            "downloads": 7
           },
           {
             "systems": [
@@ -177,12 +184,15 @@
             "type": "archive",
             "size": 5237881,
             "sha256": "9147a389fac46b1d83e83a0c363e903090e8005648f65ff45b571d91ce5b08a6",
-            "url": "https://github.com/Wasted-Audio/wstd-smthr/releases/download/v1.1.1/wstd-smthr-v1.1.1-win64.zip"
+            "url": "https://github.com/Wasted-Audio/wstd-smthr/releases/download/v1.1.1/wstd-smthr-v1.1.1-win64.zip",
+            "downloads": 54
           }
         ],
-        "verified": true
+        "verified": true,
+        "downloads": 182
       }
-    }
+    },
+    "downloads": 182
   },
   "wasted-audio/wstd-fldr": {
     "slug": "wasted-audio/wstd-fldr",
@@ -221,7 +231,8 @@
             "type": "archive",
             "size": 897052,
             "sha256": "319bf7050c0f2be1c8e224866645f8019aab2d467dbdb042e51662825066c446",
-            "url": "https://github.com/Wasted-Audio/wstd-fldr/releases/download/v1.1.1/wstd-fldr-v1.1.1-linux-arm64.tar.xz"
+            "url": "https://github.com/Wasted-Audio/wstd-fldr/releases/download/v1.1.1/wstd-fldr-v1.1.1-linux-arm64.tar.xz",
+            "downloads": 6
           },
           {
             "systems": [
@@ -241,7 +252,8 @@
             "type": "archive",
             "size": 860732,
             "sha256": "69c2f3704c635a05fd43364d08d4a25b4fd24f9ae1c21437706061978316bd92",
-            "url": "https://github.com/Wasted-Audio/wstd-fldr/releases/download/v1.1.1/wstd-fldr-v1.1.1-linux-armhf.tar.xz"
+            "url": "https://github.com/Wasted-Audio/wstd-fldr/releases/download/v1.1.1/wstd-fldr-v1.1.1-linux-armhf.tar.xz",
+            "downloads": 5
           },
           {
             "systems": [
@@ -261,7 +273,8 @@
             "type": "archive",
             "size": 1006016,
             "sha256": "00f225462f1d209de43b7b3c24309436bb9703dc6c9fdc428fdcf471d8fd3d35",
-            "url": "https://github.com/Wasted-Audio/wstd-fldr/releases/download/v1.1.1/wstd-fldr-v1.1.1-linux-i686.tar.xz"
+            "url": "https://github.com/Wasted-Audio/wstd-fldr/releases/download/v1.1.1/wstd-fldr-v1.1.1-linux-i686.tar.xz",
+            "downloads": 4
           },
           {
             "systems": [
@@ -281,7 +294,8 @@
             "type": "archive",
             "size": 975640,
             "sha256": "279949dd02759db216c5f893eafa8bbe6867d5484bf99a382525bb2990b82759",
-            "url": "https://github.com/Wasted-Audio/wstd-fldr/releases/download/v1.1.1/wstd-fldr-v1.1.1-linux-x86_64.tar.xz"
+            "url": "https://github.com/Wasted-Audio/wstd-fldr/releases/download/v1.1.1/wstd-fldr-v1.1.1-linux-x86_64.tar.xz",
+            "downloads": 57
           },
           {
             "systems": [
@@ -301,7 +315,8 @@
             "type": "installer",
             "size": 3094020,
             "sha256": "4e5a189630161bb04514dd40225c93c9016a50e7b72428b12a574941fb9651b1",
-            "url": "https://github.com/Wasted-Audio/wstd-fldr/releases/download/v1.1.1/wstd-fldr-v1.1.1-macos-intel.pkg"
+            "url": "https://github.com/Wasted-Audio/wstd-fldr/releases/download/v1.1.1/wstd-fldr-v1.1.1-macos-intel.pkg",
+            "downloads": 5
           },
           {
             "systems": [
@@ -322,7 +337,8 @@
             "type": "installer",
             "size": 5727978,
             "sha256": "312bec354e2ff6fb41ee0a7f97384d92c4eaf22d904615a5dbb5d9cbbb5e7c77",
-            "url": "https://github.com/Wasted-Audio/wstd-fldr/releases/download/v1.1.1/wstd-fldr-v1.1.1-macos-universal.pkg"
+            "url": "https://github.com/Wasted-Audio/wstd-fldr/releases/download/v1.1.1/wstd-fldr-v1.1.1-macos-universal.pkg",
+            "downloads": 19
           },
           {
             "systems": [
@@ -342,7 +358,8 @@
             "type": "archive",
             "size": 5426745,
             "sha256": "f2b89e1d876e20bd0ee4b943e7a3e8982915913f7a3eff82d60af3059ce6ebe0",
-            "url": "https://github.com/Wasted-Audio/wstd-fldr/releases/download/v1.1.1/wstd-fldr-v1.1.1-win32.zip"
+            "url": "https://github.com/Wasted-Audio/wstd-fldr/releases/download/v1.1.1/wstd-fldr-v1.1.1-win32.zip",
+            "downloads": 4
           },
           {
             "systems": [
@@ -362,12 +379,15 @@
             "type": "archive",
             "size": 5237122,
             "sha256": "ff02331c435f22381a1c56642140d949fedb571a000c1a9be8a83b711574bc93",
-            "url": "https://github.com/Wasted-Audio/wstd-fldr/releases/download/v1.1.1/wstd-fldr-v1.1.1-win64.zip"
+            "url": "https://github.com/Wasted-Audio/wstd-fldr/releases/download/v1.1.1/wstd-fldr-v1.1.1-win64.zip",
+            "downloads": 48
           }
         ],
-        "verified": true
+        "verified": true,
+        "downloads": 148
       }
-    }
+    },
+    "downloads": 148
   },
   "wasted-audio/wstd-flangr": {
     "slug": "wasted-audio/wstd-flangr",
@@ -406,7 +426,8 @@
             "type": "archive",
             "size": 902812,
             "sha256": "ee8c3fdd1ed3bf78c13580b0c28fbf479fa820a9aefc4a93a8a5be8537039ba5",
-            "url": "https://github.com/Wasted-Audio/wstd-flangr/releases/download/v1.1.1/wstd-flangr-v1.1.1-linux-arm64.tar.xz"
+            "url": "https://github.com/Wasted-Audio/wstd-flangr/releases/download/v1.1.1/wstd-flangr-v1.1.1-linux-arm64.tar.xz",
+            "downloads": 6
           },
           {
             "systems": [
@@ -426,7 +447,8 @@
             "type": "archive",
             "size": 865880,
             "sha256": "993cda9584c7aa22059263d00c758892649b8a810fc1a39a05c3ca90515eafc6",
-            "url": "https://github.com/Wasted-Audio/wstd-flangr/releases/download/v1.1.1/wstd-flangr-v1.1.1-linux-armhf.tar.xz"
+            "url": "https://github.com/Wasted-Audio/wstd-flangr/releases/download/v1.1.1/wstd-flangr-v1.1.1-linux-armhf.tar.xz",
+            "downloads": 4
           },
           {
             "systems": [
@@ -446,7 +468,8 @@
             "type": "archive",
             "size": 1012276,
             "sha256": "948310da987aa23346b9e9ea9b5ac20e92bc5ca0189e46c2382d47d7742bc896",
-            "url": "https://github.com/Wasted-Audio/wstd-flangr/releases/download/v1.1.1/wstd-flangr-v1.1.1-linux-i686.tar.xz"
+            "url": "https://github.com/Wasted-Audio/wstd-flangr/releases/download/v1.1.1/wstd-flangr-v1.1.1-linux-i686.tar.xz",
+            "downloads": 5
           },
           {
             "systems": [
@@ -466,7 +489,8 @@
             "type": "archive",
             "size": 981808,
             "sha256": "71822bc6dccfc1ca6c830e98f1abf513a27d41739d39b14d3354633c06c09594",
-            "url": "https://github.com/Wasted-Audio/wstd-flangr/releases/download/v1.1.1/wstd-flangr-v1.1.1-linux-x86_64.tar.xz"
+            "url": "https://github.com/Wasted-Audio/wstd-flangr/releases/download/v1.1.1/wstd-flangr-v1.1.1-linux-x86_64.tar.xz",
+            "downloads": 92
           },
           {
             "systems": [
@@ -486,7 +510,8 @@
             "type": "installer",
             "size": 3109936,
             "sha256": "fe577637d229821134e441e9e57ef2bde80162328193f4eb94356129dace667b",
-            "url": "https://github.com/Wasted-Audio/wstd-flangr/releases/download/v1.1.1/wstd-flangr-v1.1.1-macos-intel.pkg"
+            "url": "https://github.com/Wasted-Audio/wstd-flangr/releases/download/v1.1.1/wstd-flangr-v1.1.1-macos-intel.pkg",
+            "downloads": 6
           },
           {
             "systems": [
@@ -507,7 +532,8 @@
             "type": "installer",
             "size": 5760847,
             "sha256": "5c9f70ff07dc14d6f7b18f9a0552c962991ee430766992d4f0ad0efbfaf28bce",
-            "url": "https://github.com/Wasted-Audio/wstd-flangr/releases/download/v1.1.1/wstd-flangr-v1.1.1-macos-universal.pkg"
+            "url": "https://github.com/Wasted-Audio/wstd-flangr/releases/download/v1.1.1/wstd-flangr-v1.1.1-macos-universal.pkg",
+            "downloads": 32
           },
           {
             "systems": [
@@ -527,7 +553,8 @@
             "type": "archive",
             "size": 5451023,
             "sha256": "3c9ec6426bd4757426de41bd65b32d311380761b846058732b10226721d06ee4",
-            "url": "https://github.com/Wasted-Audio/wstd-flangr/releases/download/v1.1.1/wstd-flangr-v1.1.1-win32.zip"
+            "url": "https://github.com/Wasted-Audio/wstd-flangr/releases/download/v1.1.1/wstd-flangr-v1.1.1-win32.zip",
+            "downloads": 4
           },
           {
             "systems": [
@@ -547,12 +574,15 @@
             "type": "archive",
             "size": 5258651,
             "sha256": "cb36998f57a5a97c2b0d360024dfe6b623eed9312926852b2efcf60229ce539f",
-            "url": "https://github.com/Wasted-Audio/wstd-flangr/releases/download/v1.1.1/wstd-flangr-v1.1.1-win64.zip"
+            "url": "https://github.com/Wasted-Audio/wstd-flangr/releases/download/v1.1.1/wstd-flangr-v1.1.1-win64.zip",
+            "downloads": 68
           }
         ],
-        "verified": true
+        "verified": true,
+        "downloads": 217
       }
-    }
+    },
+    "downloads": 217
   },
   "wasted-audio/wstd-eq": {
     "slug": "wasted-audio/wstd-eq",
@@ -591,7 +621,8 @@
             "type": "archive",
             "size": 917196,
             "sha256": "a03e2074945d485e5c50a78d94292cf76f0472db6619680ca244bd3de0c951e6",
-            "url": "https://github.com/Wasted-Audio/wstd-eq/releases/download/v1.1.1/wstd-eq-v1.1.1-linux-arm64.tar.xz"
+            "url": "https://github.com/Wasted-Audio/wstd-eq/releases/download/v1.1.1/wstd-eq-v1.1.1-linux-arm64.tar.xz",
+            "downloads": 13
           },
           {
             "systems": [
@@ -611,7 +642,8 @@
             "type": "archive",
             "size": 869512,
             "sha256": "f76f625df9122d242c26b4a8b33baddbb8fd999a7a929167c9f77a200df6b8bd",
-            "url": "https://github.com/Wasted-Audio/wstd-eq/releases/download/v1.1.1/wstd-eq-v1.1.1-linux-armhf.tar.xz"
+            "url": "https://github.com/Wasted-Audio/wstd-eq/releases/download/v1.1.1/wstd-eq-v1.1.1-linux-armhf.tar.xz",
+            "downloads": 9
           },
           {
             "systems": [
@@ -631,7 +663,8 @@
             "type": "archive",
             "size": 1028856,
             "sha256": "1ba3b232b4291d8bd128ebb76cac5272416d5165ef5886c2be8bed8a3bba7796",
-            "url": "https://github.com/Wasted-Audio/wstd-eq/releases/download/v1.1.1/wstd-eq-v1.1.1-linux-i686.tar.xz"
+            "url": "https://github.com/Wasted-Audio/wstd-eq/releases/download/v1.1.1/wstd-eq-v1.1.1-linux-i686.tar.xz",
+            "downloads": 7
           },
           {
             "systems": [
@@ -651,7 +684,8 @@
             "type": "archive",
             "size": 989692,
             "sha256": "8c79675a4379125e894416430cde82ec81734512b8b0e55c8745c939e24ddd25",
-            "url": "https://github.com/Wasted-Audio/wstd-eq/releases/download/v1.1.1/wstd-eq-v1.1.1-linux-x86_64.tar.xz"
+            "url": "https://github.com/Wasted-Audio/wstd-eq/releases/download/v1.1.1/wstd-eq-v1.1.1-linux-x86_64.tar.xz",
+            "downloads": 78
           },
           {
             "systems": [
@@ -671,7 +705,8 @@
             "type": "installer",
             "size": 3123950,
             "sha256": "db8d231113bcf375c5f7f6eded6f232fb79bac41b9398fa15a5a70d36adede26",
-            "url": "https://github.com/Wasted-Audio/wstd-eq/releases/download/v1.1.1/wstd-eq-v1.1.1-macos-intel.pkg"
+            "url": "https://github.com/Wasted-Audio/wstd-eq/releases/download/v1.1.1/wstd-eq-v1.1.1-macos-intel.pkg",
+            "downloads": 8
           },
           {
             "systems": [
@@ -692,7 +727,8 @@
             "type": "installer",
             "size": 5787847,
             "sha256": "436e117faeba8d10d4865336c38e202b6b943db0f69fb22d21b3f092e242cf82",
-            "url": "https://github.com/Wasted-Audio/wstd-eq/releases/download/v1.1.1/wstd-eq-v1.1.1-macos-universal.pkg"
+            "url": "https://github.com/Wasted-Audio/wstd-eq/releases/download/v1.1.1/wstd-eq-v1.1.1-macos-universal.pkg",
+            "downloads": 30
           },
           {
             "systems": [
@@ -712,7 +748,8 @@
             "type": "archive",
             "size": 5500683,
             "sha256": "7a35df66b63597167394faac6b416721181ffddc5c766a72c23debb6b78d24d3",
-            "url": "https://github.com/Wasted-Audio/wstd-eq/releases/download/v1.1.1/wstd-eq-v1.1.1-win32.zip"
+            "url": "https://github.com/Wasted-Audio/wstd-eq/releases/download/v1.1.1/wstd-eq-v1.1.1-win32.zip",
+            "downloads": 10
           },
           {
             "systems": [
@@ -732,12 +769,15 @@
             "type": "archive",
             "size": 5304497,
             "sha256": "6de83eff0e7f97f35b96d4213112ebed40e13fb0b32f6481346ae8ae71cb01cb",
-            "url": "https://github.com/Wasted-Audio/wstd-eq/releases/download/v1.1.1/wstd-eq-v1.1.1-win64.zip"
+            "url": "https://github.com/Wasted-Audio/wstd-eq/releases/download/v1.1.1/wstd-eq-v1.1.1-win64.zip",
+            "downloads": 59
           }
         ],
-        "verified": true
+        "verified": true,
+        "downloads": 214
       }
-    }
+    },
+    "downloads": 214
   },
   "wasted-audio/wstd-dlay": {
     "slug": "wasted-audio/wstd-dlay",
@@ -776,7 +816,8 @@
             "type": "archive",
             "size": 914856,
             "sha256": "703cff530fc8d23ca0747787ef5cf7f8229d24420f4c598ebcc328eb2678f744",
-            "url": "https://github.com/Wasted-Audio/wstd-dlay/releases/download/v1.1.1/wstd-dlay-v1.1.1-linux-arm64.tar.xz"
+            "url": "https://github.com/Wasted-Audio/wstd-dlay/releases/download/v1.1.1/wstd-dlay-v1.1.1-linux-arm64.tar.xz",
+            "downloads": 6
           },
           {
             "systems": [
@@ -796,7 +837,8 @@
             "type": "archive",
             "size": 875652,
             "sha256": "af73f5d5c7f4d6d3498746223a40b16a3c0b2f7813226a08ce213fe330d3f2b0",
-            "url": "https://github.com/Wasted-Audio/wstd-dlay/releases/download/v1.1.1/wstd-dlay-v1.1.1-linux-armhf.tar.xz"
+            "url": "https://github.com/Wasted-Audio/wstd-dlay/releases/download/v1.1.1/wstd-dlay-v1.1.1-linux-armhf.tar.xz",
+            "downloads": 4
           },
           {
             "systems": [
@@ -816,7 +858,8 @@
             "type": "archive",
             "size": 1030828,
             "sha256": "e5f34a537b415b1b4f2887db9f7bac4b36d397c77939f81135b18bb19a0dcd79",
-            "url": "https://github.com/Wasted-Audio/wstd-dlay/releases/download/v1.1.1/wstd-dlay-v1.1.1-linux-i686.tar.xz"
+            "url": "https://github.com/Wasted-Audio/wstd-dlay/releases/download/v1.1.1/wstd-dlay-v1.1.1-linux-i686.tar.xz",
+            "downloads": 5
           },
           {
             "systems": [
@@ -836,7 +879,8 @@
             "type": "archive",
             "size": 996176,
             "sha256": "211b881e16b9a2c60af9f08a7ce277a38faa6f875d39abd880e134b6e2a68a49",
-            "url": "https://github.com/Wasted-Audio/wstd-dlay/releases/download/v1.1.1/wstd-dlay-v1.1.1-linux-x86_64.tar.xz"
+            "url": "https://github.com/Wasted-Audio/wstd-dlay/releases/download/v1.1.1/wstd-dlay-v1.1.1-linux-x86_64.tar.xz",
+            "downloads": 108
           },
           {
             "systems": [
@@ -856,7 +900,8 @@
             "type": "installer",
             "size": 3144710,
             "sha256": "86a36de8c5bf2644f6e4c7143189491ea14d5d869f310e3568e42779f7e51b9c",
-            "url": "https://github.com/Wasted-Audio/wstd-dlay/releases/download/v1.1.1/wstd-dlay-v1.1.1-macos-intel.pkg"
+            "url": "https://github.com/Wasted-Audio/wstd-dlay/releases/download/v1.1.1/wstd-dlay-v1.1.1-macos-intel.pkg",
+            "downloads": 5
           },
           {
             "systems": [
@@ -877,7 +922,8 @@
             "type": "installer",
             "size": 5823000,
             "sha256": "ee69f6bec1714ea1768628178f5778c5435507fa0a8e7aebb6cbcbc97cb6e3d2",
-            "url": "https://github.com/Wasted-Audio/wstd-dlay/releases/download/v1.1.1/wstd-dlay-v1.1.1-macos-universal.pkg"
+            "url": "https://github.com/Wasted-Audio/wstd-dlay/releases/download/v1.1.1/wstd-dlay-v1.1.1-macos-universal.pkg",
+            "downloads": 29
           },
           {
             "systems": [
@@ -897,7 +943,8 @@
             "type": "archive",
             "size": 5481966,
             "sha256": "e335596563b620fb5ab5ac120373f41252fa0d8ead653ca54fecf45f45990d29",
-            "url": "https://github.com/Wasted-Audio/wstd-dlay/releases/download/v1.1.1/wstd-dlay-v1.1.1-win32.zip"
+            "url": "https://github.com/Wasted-Audio/wstd-dlay/releases/download/v1.1.1/wstd-dlay-v1.1.1-win32.zip",
+            "downloads": 4
           },
           {
             "systems": [
@@ -917,12 +964,15 @@
             "type": "archive",
             "size": 5288107,
             "sha256": "0d9ca539d710b3c7edf97a5f9f1aa38cf2969141555166e7fc7f04411146ffee",
-            "url": "https://github.com/Wasted-Audio/wstd-dlay/releases/download/v1.1.1/wstd-dlay-v1.1.1-win64.zip"
+            "url": "https://github.com/Wasted-Audio/wstd-dlay/releases/download/v1.1.1/wstd-dlay-v1.1.1-win64.zip",
+            "downloads": 69
           }
         ],
-        "verified": true
+        "verified": true,
+        "downloads": 230
       }
-    }
+    },
+    "downloads": 230
   },
   "wasted-audio/wstd-crshr": {
     "slug": "wasted-audio/wstd-crshr",
@@ -961,7 +1011,8 @@
             "type": "archive",
             "size": 889412,
             "sha256": "6c4c199969fb91d6fb75df33effe8c6ce8be97cfcb5fe939227b34b7165c4e9b",
-            "url": "https://github.com/Wasted-Audio/wstd-crshr/releases/download/v1.1.1/wstd-crshr-v1.1.1-linux-arm64.tar.xz"
+            "url": "https://github.com/Wasted-Audio/wstd-crshr/releases/download/v1.1.1/wstd-crshr-v1.1.1-linux-arm64.tar.xz",
+            "downloads": 8
           },
           {
             "systems": [
@@ -981,7 +1032,8 @@
             "type": "archive",
             "size": 853696,
             "sha256": "ae782458afa20f56225df239684680c4c9f19a1052798f9f5075201fc5d52a0a",
-            "url": "https://github.com/Wasted-Audio/wstd-crshr/releases/download/v1.1.1/wstd-crshr-v1.1.1-linux-armhf.tar.xz"
+            "url": "https://github.com/Wasted-Audio/wstd-crshr/releases/download/v1.1.1/wstd-crshr-v1.1.1-linux-armhf.tar.xz",
+            "downloads": 5
           },
           {
             "systems": [
@@ -1001,7 +1053,8 @@
             "type": "archive",
             "size": 996968,
             "sha256": "a735aeb6188b8c10680dd1373609df377b5f330fa83c31786226054365c4b152",
-            "url": "https://github.com/Wasted-Audio/wstd-crshr/releases/download/v1.1.1/wstd-crshr-v1.1.1-linux-i686.tar.xz"
+            "url": "https://github.com/Wasted-Audio/wstd-crshr/releases/download/v1.1.1/wstd-crshr-v1.1.1-linux-i686.tar.xz",
+            "downloads": 5
           },
           {
             "systems": [
@@ -1021,7 +1074,8 @@
             "type": "archive",
             "size": 968576,
             "sha256": "33f11e70a1ee4e97ead0d375520163fd5c03bc4b0edaccf2c0769f6d1798a1f8",
-            "url": "https://github.com/Wasted-Audio/wstd-crshr/releases/download/v1.1.1/wstd-crshr-v1.1.1-linux-x86_64.tar.xz"
+            "url": "https://github.com/Wasted-Audio/wstd-crshr/releases/download/v1.1.1/wstd-crshr-v1.1.1-linux-x86_64.tar.xz",
+            "downloads": 83
           },
           {
             "systems": [
@@ -1041,7 +1095,8 @@
             "type": "installer",
             "size": 3074289,
             "sha256": "6f09950e0344025b4c4b11e6a206cdc57d69f0fec63021a7f05e6cb4c22e4d16",
-            "url": "https://github.com/Wasted-Audio/wstd-crshr/releases/download/v1.1.1/wstd-crshr-v1.1.1-macos-intel.pkg"
+            "url": "https://github.com/Wasted-Audio/wstd-crshr/releases/download/v1.1.1/wstd-crshr-v1.1.1-macos-intel.pkg",
+            "downloads": 5
           },
           {
             "systems": [
@@ -1062,7 +1117,8 @@
             "type": "installer",
             "size": 5681350,
             "sha256": "328947ec9dee52cdacdb95e3c0459bfc049041c6c75f8ad128839f7e16592197",
-            "url": "https://github.com/Wasted-Audio/wstd-crshr/releases/download/v1.1.1/wstd-crshr-v1.1.1-macos-universal.pkg"
+            "url": "https://github.com/Wasted-Audio/wstd-crshr/releases/download/v1.1.1/wstd-crshr-v1.1.1-macos-universal.pkg",
+            "downloads": 23
           },
           {
             "systems": [
@@ -1082,7 +1138,8 @@
             "type": "archive",
             "size": 5415862,
             "sha256": "5058efd406c9b884ad4cbd46b20ae832a73e92432b0d0cd65af1e24d94a000f0",
-            "url": "https://github.com/Wasted-Audio/wstd-crshr/releases/download/v1.1.1/wstd-crshr-v1.1.1-win32.zip"
+            "url": "https://github.com/Wasted-Audio/wstd-crshr/releases/download/v1.1.1/wstd-crshr-v1.1.1-win32.zip",
+            "downloads": 10
           },
           {
             "systems": [
@@ -1102,11 +1159,14 @@
             "type": "archive",
             "size": 5224569,
             "sha256": "5fa9b2b867fa5293bb24cad84a4a4896ae20993fc1f4c46e3f5f8ffb13228e24",
-            "url": "https://github.com/Wasted-Audio/wstd-crshr/releases/download/v1.1.1/wstd-crshr-v1.1.1-win64.zip"
+            "url": "https://github.com/Wasted-Audio/wstd-crshr/releases/download/v1.1.1/wstd-crshr-v1.1.1-win64.zip",
+            "downloads": 70
           }
         ],
-        "verified": true
+        "verified": true,
+        "downloads": 209
       }
-    }
+    },
+    "downloads": 209
   }
 }

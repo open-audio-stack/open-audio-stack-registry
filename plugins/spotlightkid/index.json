@@ -37,7 +37,8 @@
             "type": "archive",
             "size": 2383649,
             "sha256": "0efa271811630567866313b974e670608e62ccfc8cf10b9c83f689d23004c3aa",
-            "url": "https://github.com/SpotlightKid/ykchorus/releases/download/v0.2.4/ykchorus-0.2.4-bin-win32.zip"
+            "url": "https://github.com/SpotlightKid/ykchorus/releases/download/v0.2.4/ykchorus-0.2.4-bin-win32.zip",
+            "downloads": 33
           },
           {
             "systems": [
@@ -58,12 +59,15 @@
             "type": "archive",
             "size": 2166789,
             "sha256": "caecf42b652d3cf5b15a41ce68b1de404b88dd872e4ee25696540f571e938b7e",
-            "url": "https://github.com/SpotlightKid/ykchorus/releases/download/v0.2.4/ykchorus-0.2.4-bin-win64.zip"
+            "url": "https://github.com/SpotlightKid/ykchorus/releases/download/v0.2.4/ykchorus-0.2.4-bin-win64.zip",
+            "downloads": 137
           }
         ],
-        "verified": true
+        "verified": true,
+        "downloads": 170
       }
-    }
+    },
+    "downloads": 170
   },
   "spotlightkid/stereocrossdelay": {
     "slug": "spotlightkid/stereocrossdelay",
@@ -103,7 +107,8 @@
             "type": "archive",
             "size": 542327,
             "sha256": "fe457b7751ffb681a79493368965a74262c73cd14eb5b53197e7ad48ca985ce8",
-            "url": "https://github.com/SpotlightKid/stereocrossdelay/releases/download/v0.2.0/stereocrossdelay-linux-arm64-0.2.0.zip"
+            "url": "https://github.com/SpotlightKid/stereocrossdelay/releases/download/v0.2.0/stereocrossdelay-linux-arm64-0.2.0.zip",
+            "downloads": 8
           },
           {
             "systems": [
@@ -123,7 +128,8 @@
             "type": "archive",
             "size": 437456,
             "sha256": "335ebeda34b75a7df843180b958222239eea91b376be9e8d441c9364766957e2",
-            "url": "https://github.com/SpotlightKid/stereocrossdelay/releases/download/v0.2.0/stereocrossdelay-linux-armhf-0.2.0.zip"
+            "url": "https://github.com/SpotlightKid/stereocrossdelay/releases/download/v0.2.0/stereocrossdelay-linux-armhf-0.2.0.zip",
+            "downloads": 7
           },
           {
             "systems": [
@@ -143,7 +149,8 @@
             "type": "archive",
             "size": 593478,
             "sha256": "60d0c59d5c43e3c9db2a7a3487d1d13a24431e54529dee55f62ddd31150bd609",
-            "url": "https://github.com/SpotlightKid/stereocrossdelay/releases/download/v0.2.0/stereocrossdelay-linux-i686-0.2.0.zip"
+            "url": "https://github.com/SpotlightKid/stereocrossdelay/releases/download/v0.2.0/stereocrossdelay-linux-i686-0.2.0.zip",
+            "downloads": 8
           },
           {
             "systems": [
@@ -163,7 +170,8 @@
             "type": "archive",
             "size": 561701,
             "sha256": "d5734c4e7bd9d2d3e39229b6f8cfc6800b079eae303646834ec637bb0c806696",
-            "url": "https://github.com/SpotlightKid/stereocrossdelay/releases/download/v0.2.0/stereocrossdelay-linux-x86_64-0.2.0.zip"
+            "url": "https://github.com/SpotlightKid/stereocrossdelay/releases/download/v0.2.0/stereocrossdelay-linux-x86_64-0.2.0.zip",
+            "downloads": 20
           },
           {
             "systems": [
@@ -183,7 +191,8 @@
             "type": "archive",
             "size": 134850,
             "sha256": "cced284aea483a846f3cafb22bda5bbd23feb4c8e5fc7befed0777178efa4bc9",
-            "url": "https://github.com/SpotlightKid/stereocrossdelay/releases/download/v0.2.0/stereocrossdelay-macos-intel-0.2.0.zip"
+            "url": "https://github.com/SpotlightKid/stereocrossdelay/releases/download/v0.2.0/stereocrossdelay-macos-intel-0.2.0.zip",
+            "downloads": 5
           },
           {
             "systems": [
@@ -204,7 +213,8 @@
             "type": "archive",
             "size": 268808,
             "sha256": "f4f8e43f10085ec85128a6cc55e4cd908ce11ee340788a82e7a6c0b4c2cd0c6e",
-            "url": "https://github.com/SpotlightKid/stereocrossdelay/releases/download/v0.2.0/stereocrossdelay-macos-universal-0.2.0.zip"
+            "url": "https://github.com/SpotlightKid/stereocrossdelay/releases/download/v0.2.0/stereocrossdelay-macos-universal-0.2.0.zip",
+            "downloads": 8
           },
           {
             "systems": [
@@ -224,7 +234,8 @@
             "type": "archive",
             "size": 481941,
             "sha256": "e4326b289406d1f636456f71621572cdd3248e56637b8a4576dce7a7e53e593b",
-            "url": "https://github.com/SpotlightKid/stereocrossdelay/releases/download/v0.2.0/stereocrossdelay-win32-0.2.0.zip"
+            "url": "https://github.com/SpotlightKid/stereocrossdelay/releases/download/v0.2.0/stereocrossdelay-win32-0.2.0.zip",
+            "downloads": 11
           },
           {
             "systems": [
@@ -244,12 +255,15 @@
             "type": "archive",
             "size": 669343,
             "sha256": "cbe7d8c6f1fea1364aed2990aaf20538c92ac710b4eb370586afde1cf197d154",
-            "url": "https://github.com/SpotlightKid/stereocrossdelay/releases/download/v0.2.0/stereocrossdelay-win64-0.2.0.zip"
+            "url": "https://github.com/SpotlightKid/stereocrossdelay/releases/download/v0.2.0/stereocrossdelay-win64-0.2.0.zip",
+            "downloads": 33
           }
         ],
-        "verified": true
+        "verified": true,
+        "downloads": 100
       }
-    }
+    },
+    "downloads": 100
   },
   "spotlightkid/dfzitarev1": {
     "slug": "spotlightkid/dfzitarev1",
@@ -287,7 +301,8 @@
             "type": "archive",
             "size": 421683,
             "sha256": "d26e76d75856e8ceb93ac5fc44f693d6fee970236d0e204985cb3f500e21ad0b",
-            "url": "https://github.com/SpotlightKid/dfzitarev1/releases/download/v0.2.6/dfzitarev1-linux-arm64-0.2.6.zip"
+            "url": "https://github.com/SpotlightKid/dfzitarev1/releases/download/v0.2.6/dfzitarev1-linux-arm64-0.2.6.zip",
+            "downloads": 7
           },
           {
             "systems": [
@@ -306,7 +321,8 @@
             "type": "archive",
             "size": 350050,
             "sha256": "c9b9271695243f6206970051d72aa318cb233fae2c8e27eb352fbdf88b9f9169",
-            "url": "https://github.com/SpotlightKid/dfzitarev1/releases/download/v0.2.6/dfzitarev1-linux-armhf-0.2.6.zip"
+            "url": "https://github.com/SpotlightKid/dfzitarev1/releases/download/v0.2.6/dfzitarev1-linux-armhf-0.2.6.zip",
+            "downloads": 6
           },
           {
             "systems": [
@@ -325,7 +341,8 @@
             "type": "archive",
             "size": 467862,
             "sha256": "81ea2558d8ba7800271625fb97a6dfeea28dfcffcf44f10c71f6a647baf89f2b",
-            "url": "https://github.com/SpotlightKid/dfzitarev1/releases/download/v0.2.6/dfzitarev1-linux-i686-0.2.6.zip"
+            "url": "https://github.com/SpotlightKid/dfzitarev1/releases/download/v0.2.6/dfzitarev1-linux-i686-0.2.6.zip",
+            "downloads": 7
           },
           {
             "systems": [
@@ -344,7 +361,8 @@
             "type": "archive",
             "size": 442722,
             "sha256": "18c03833abae9ff389e01a69171c7caddbf36bcb528c182fb2617c343f143119",
-            "url": "https://github.com/SpotlightKid/dfzitarev1/releases/download/v0.2.6/dfzitarev1-linux-x86_64-0.2.6.zip"
+            "url": "https://github.com/SpotlightKid/dfzitarev1/releases/download/v0.2.6/dfzitarev1-linux-x86_64-0.2.6.zip",
+            "downloads": 31
           },
           {
             "systems": [
@@ -363,7 +381,8 @@
             "type": "archive",
             "size": 125725,
             "sha256": "e49dcfd8097f0f7db2b657b52b477054467464bf91ef663ad571b15e9a2e9c68",
-            "url": "https://github.com/SpotlightKid/dfzitarev1/releases/download/v0.2.6/dfzitarev1-macos-intel-0.2.6.zip"
+            "url": "https://github.com/SpotlightKid/dfzitarev1/releases/download/v0.2.6/dfzitarev1-macos-intel-0.2.6.zip",
+            "downloads": 7
           },
           {
             "systems": [
@@ -383,7 +402,8 @@
             "type": "archive",
             "size": 251695,
             "sha256": "d62adefaa27a6361f077ae3e80efa24ef4ac9d4cda628f419a4ab5b6f7571b58",
-            "url": "https://github.com/SpotlightKid/dfzitarev1/releases/download/v0.2.6/dfzitarev1-macos-universal-0.2.6.zip"
+            "url": "https://github.com/SpotlightKid/dfzitarev1/releases/download/v0.2.6/dfzitarev1-macos-universal-0.2.6.zip",
+            "downloads": 14
           },
           {
             "systems": [
@@ -402,7 +422,8 @@
             "type": "archive",
             "size": 422846,
             "sha256": "6381e2dc634c071321678398220dd5f9ac35d15be1d9f912971ab882887aa961",
-            "url": "https://github.com/SpotlightKid/dfzitarev1/releases/download/v0.2.6/dfzitarev1-win32-0.2.6.zip"
+            "url": "https://github.com/SpotlightKid/dfzitarev1/releases/download/v0.2.6/dfzitarev1-win32-0.2.6.zip",
+            "downloads": 20
           },
           {
             "systems": [
@@ -421,12 +442,15 @@
             "type": "archive",
             "size": 587614,
             "sha256": "02e31d6e14db89ec641f741c99cb55fea52579e5b45081ae4bb1d59ccead49c7",
-            "url": "https://github.com/SpotlightKid/dfzitarev1/releases/download/v0.2.6/dfzitarev1-win64-0.2.6.zip"
+            "url": "https://github.com/SpotlightKid/dfzitarev1/releases/download/v0.2.6/dfzitarev1-win64-0.2.6.zip",
+            "downloads": 50
           }
         ],
-        "verified": true
+        "verified": true,
+        "downloads": 142
       }
-    }
+    },
+    "downloads": 142
   },
   "spotlightkid/dfjpverb": {
     "slug": "spotlightkid/dfjpverb",
@@ -464,7 +488,8 @@
             "type": "archive",
             "size": 464822,
             "sha256": "8b0815dcb06cc498f264407c117226ff56ac6ba7e469f034bd3b918504e8374e",
-            "url": "https://github.com/SpotlightKid/dfjpverb/releases/download/v0.2.2/dfjpverb-linux-arm64-0.2.2.zip"
+            "url": "https://github.com/SpotlightKid/dfjpverb/releases/download/v0.2.2/dfjpverb-linux-arm64-0.2.2.zip",
+            "downloads": 10
           },
           {
             "systems": [
@@ -483,7 +508,8 @@
             "type": "archive",
             "size": 400910,
             "sha256": "ab157a0413bfebaa6e2df4a4594871499cafdc17b672bf740161d846cccb2f58",
-            "url": "https://github.com/SpotlightKid/dfjpverb/releases/download/v0.2.2/dfjpverb-linux-armhf-0.2.2.zip"
+            "url": "https://github.com/SpotlightKid/dfjpverb/releases/download/v0.2.2/dfjpverb-linux-armhf-0.2.2.zip",
+            "downloads": 8
           },
           {
             "systems": [
@@ -502,7 +528,8 @@
             "type": "archive",
             "size": 505186,
             "sha256": "6f0690f8ab15f4932c7777f1860de08a473db35c43851d4629e137cfa01b586b",
-            "url": "https://github.com/SpotlightKid/dfjpverb/releases/download/v0.2.2/dfjpverb-linux-i686-0.2.2.zip"
+            "url": "https://github.com/SpotlightKid/dfjpverb/releases/download/v0.2.2/dfjpverb-linux-i686-0.2.2.zip",
+            "downloads": 10
           },
           {
             "systems": [
@@ -521,7 +548,8 @@
             "type": "archive",
             "size": 482078,
             "sha256": "3d5e0b0e2ffbe028f0b1c4bb9e6b8d54d97c23ce0ff0eaee1b8625af394a687c",
-            "url": "https://github.com/SpotlightKid/dfjpverb/releases/download/v0.2.2/dfjpverb-linux-x86_64-0.2.2.zip"
+            "url": "https://github.com/SpotlightKid/dfjpverb/releases/download/v0.2.2/dfjpverb-linux-x86_64-0.2.2.zip",
+            "downloads": 32
           },
           {
             "systems": [
@@ -540,7 +568,8 @@
             "type": "archive",
             "size": 149239,
             "sha256": "1e665de15ba141efe296c933f46a7cfa7b79a12276a0b53b0c38abbd30276324",
-            "url": "https://github.com/SpotlightKid/dfjpverb/releases/download/v0.2.2/dfjpverb-macos-intel-0.2.2.zip"
+            "url": "https://github.com/SpotlightKid/dfjpverb/releases/download/v0.2.2/dfjpverb-macos-intel-0.2.2.zip",
+            "downloads": 8
           },
           {
             "systems": [
@@ -560,7 +589,8 @@
             "type": "archive",
             "size": 304475,
             "sha256": "b69ace6c13fdac9305ec15ba032d4150bd24ee33fc85d01eacf82d5f0348efd9",
-            "url": "https://github.com/SpotlightKid/dfjpverb/releases/download/v0.2.2/dfjpverb-macos-universal-0.2.2.zip"
+            "url": "https://github.com/SpotlightKid/dfjpverb/releases/download/v0.2.2/dfjpverb-macos-universal-0.2.2.zip",
+            "downloads": 19
           },
           {
             "systems": [
@@ -579,7 +609,8 @@
             "type": "archive",
             "size": 464343,
             "sha256": "2065054fd6580feca4631293da4a6fd821689a36d5f7e45faf95da5fcf2137e5",
-            "url": "https://github.com/SpotlightKid/dfjpverb/releases/download/v0.2.2/dfjpverb-win32-0.2.2.zip"
+            "url": "https://github.com/SpotlightKid/dfjpverb/releases/download/v0.2.2/dfjpverb-win32-0.2.2.zip",
+            "downloads": 23
           },
           {
             "systems": [
@@ -598,12 +629,15 @@
             "type": "archive",
             "size": 631156,
             "sha256": "c48cb042f1c65647d9c90a7432ac351bf56fb0b80f5aeb96aa7af1691c96c335",
-            "url": "https://github.com/SpotlightKid/dfjpverb/releases/download/v0.2.2/dfjpverb-win64-0.2.2.zip"
+            "url": "https://github.com/SpotlightKid/dfjpverb/releases/download/v0.2.2/dfjpverb-win64-0.2.2.zip",
+            "downloads": 59
           }
         ],
-        "verified": true
+        "verified": true,
+        "downloads": 169
       }
-    }
+    },
+    "downloads": 169
   },
   "spotlightkid/adt": {
     "slug": "spotlightkid/adt",
@@ -642,7 +676,8 @@
             "type": "archive",
             "size": 409666,
             "sha256": "955fa96d83476ddd7f4cd591ec3f072e855cc68cb350b42b725788d1086b4c78",
-            "url": "https://github.com/SpotlightKid/adt/releases/download/v0.2.2/adt-linux-arm64-0.2.2.zip"
+            "url": "https://github.com/SpotlightKid/adt/releases/download/v0.2.2/adt-linux-arm64-0.2.2.zip",
+            "downloads": 16
           },
           {
             "systems": [
@@ -661,7 +696,8 @@
             "type": "archive",
             "size": 338253,
             "sha256": "7839d5f11445d8b3ba47339cb1680859db8cb974d3cd5ea94a2b040e13dd2225",
-            "url": "https://github.com/SpotlightKid/adt/releases/download/v0.2.2/adt-linux-armhf-0.2.2.zip"
+            "url": "https://github.com/SpotlightKid/adt/releases/download/v0.2.2/adt-linux-armhf-0.2.2.zip",
+            "downloads": 8
           },
           {
             "systems": [
@@ -680,7 +716,8 @@
             "type": "archive",
             "size": 452729,
             "sha256": "1b875e2031c65b56ee93c2694ce734b5d0299b8e433f62e5e387f71d2a60b3ec",
-            "url": "https://github.com/SpotlightKid/adt/releases/download/v0.2.2/adt-linux-i686-0.2.2.zip"
+            "url": "https://github.com/SpotlightKid/adt/releases/download/v0.2.2/adt-linux-i686-0.2.2.zip",
+            "downloads": 14
           },
           {
             "systems": [
@@ -699,7 +736,8 @@
             "type": "archive",
             "size": 427539,
             "sha256": "568daa094fc379d37bcfec9a828d92c4087815caec435523a30d7f4c97af7600",
-            "url": "https://github.com/SpotlightKid/adt/releases/download/v0.2.2/adt-linux-x86_64-0.2.2.zip"
+            "url": "https://github.com/SpotlightKid/adt/releases/download/v0.2.2/adt-linux-x86_64-0.2.2.zip",
+            "downloads": 79
           },
           {
             "systems": [
@@ -718,7 +756,8 @@
             "type": "archive",
             "size": 115389,
             "sha256": "b99cfe27288bfabe493bf00043c72f455bb00c63875b6d81571dc65667526b7b",
-            "url": "https://github.com/SpotlightKid/adt/releases/download/v0.2.2/adt-macos-intel-0.2.2.zip"
+            "url": "https://github.com/SpotlightKid/adt/releases/download/v0.2.2/adt-macos-intel-0.2.2.zip",
+            "downloads": 18
           },
           {
             "systems": [
@@ -738,7 +777,8 @@
             "type": "archive",
             "size": 234086,
             "sha256": "ebb801ac57a334125edc81b060c07941ad55dd0267aac27533f2e05c627f0742",
-            "url": "https://github.com/SpotlightKid/adt/releases/download/v0.2.2/adt-macos-universal-0.2.2.zip"
+            "url": "https://github.com/SpotlightKid/adt/releases/download/v0.2.2/adt-macos-universal-0.2.2.zip",
+            "downloads": 46
           },
           {
             "systems": [
@@ -757,7 +797,8 @@
             "type": "archive",
             "size": 411324,
             "sha256": "78f397b56d003567143d78d8bbe4f8b4cfac6a1feb19fb82cd0dc4c12f95d84c",
-            "url": "https://github.com/SpotlightKid/adt/releases/download/v0.2.2/adt-win32-0.2.2.zip"
+            "url": "https://github.com/SpotlightKid/adt/releases/download/v0.2.2/adt-win32-0.2.2.zip",
+            "downloads": 94
           },
           {
             "systems": [
@@ -776,11 +817,14 @@
             "type": "archive",
             "size": 575913,
             "sha256": "14fb607606d0b9aa33363f4f04ce11a0841a035f5157f15cfbd5f6425572687d",
-            "url": "https://github.com/SpotlightKid/adt/releases/download/v0.2.2/adt-win64-0.2.2.zip"
+            "url": "https://github.com/SpotlightKid/adt/releases/download/v0.2.2/adt-win64-0.2.2.zip",
+            "downloads": 159
           }
         ],
-        "verified": true
+        "verified": true,
+        "downloads": 434
       }
-    }
+    },
+    "downloads": 434
   }
 }

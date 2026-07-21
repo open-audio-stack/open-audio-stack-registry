@@ -32,7 +32,8 @@
           "type": "archive",
           "size": 473088,
           "sha256": "903f95c1a035c47591edd5a52a31d491044b291489797042cda1dc185ea4f9b0",
-          "url": "https://github.com/Iunusov/LameVST/releases/download/1.0.5/LameVST_x64.dll"
+          "url": "https://github.com/Iunusov/LameVST/releases/download/1.0.5/LameVST_x64.dll",
+          "downloads": 1044
         },
         {
           "systems": [
@@ -49,10 +50,13 @@
           "type": "archive",
           "size": 405504,
           "sha256": "4cb4a42495f6584e6a4ce5da897edb96991fe8e14b700ce799e48c781dab9991",
-          "url": "https://github.com/Iunusov/LameVST/releases/download/1.0.5/LameVST_x86.dll"
+          "url": "https://github.com/Iunusov/LameVST/releases/download/1.0.5/LameVST_x86.dll",
+          "downloads": 316
         }
       ],
-      "verified": true
+      "verified": true,
+      "downloads": 1360
     }
-  }
+  },
+  "downloads": 1360
 }

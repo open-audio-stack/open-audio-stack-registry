@@ -33,7 +33,8 @@
           "type": "archive",
           "size": 13494272,
           "sha256": "5a30e56dbb21ef8cd235d5ced98501b2cf8c813b7e0bd8d9f2f0e9a36fadfd9a",
-          "url": "https://github.com/QVbDev/quantumVerb/releases/download/v1.0.0/quantumVerb.vst3"
+          "url": "https://github.com/QVbDev/quantumVerb/releases/download/v1.0.0/quantumVerb.vst3",
+          "downloads": 710
         },
         {
           "systems": [
@@ -50,10 +51,13 @@
           "type": "archive",
           "size": 13339648,
           "sha256": "593b534669b421245525b506d66d20201b2eaa4a63b2da9f2f35ae9d65dd9080",
-          "url": "https://github.com/QVbDev/quantumVerb/releases/download/v1.0.0/quantumVerb.dll"
+          "url": "https://github.com/QVbDev/quantumVerb/releases/download/v1.0.0/quantumVerb.dll",
+          "downloads": 585
         }
       ],
-      "verified": true
+      "verified": true,
+      "downloads": 1295
     }
-  }
+  },
+  "downloads": 1295
 }

@@ -39,7 +39,8 @@
           ],
           "size": 15177852,
           "type": "archive",
-          "url": "https://github.com/iamlamprey/altar/releases/download/v0.4.0/Altar-v0.4.0-windows.zip"
+          "url": "https://github.com/iamlamprey/altar/releases/download/v0.4.0/Altar-v0.4.0-windows.zip",
+          "downloads": 309
         },
         {
           "architectures": [
@@ -58,7 +59,8 @@
           ],
           "size": 34304953,
           "type": "archive",
-          "url": "https://github.com/iamlamprey/altar/releases/download/v0.4.0/Altar-v0.4.0-macOS.pkg"
+          "url": "https://github.com/iamlamprey/altar/releases/download/v0.4.0/Altar-v0.4.0-macOS.pkg",
+          "downloads": 85
         },
         {
           "architectures": [
@@ -76,10 +78,13 @@
           ],
           "size": 13588315,
           "type": "archive",
-          "url": "https://github.com/iamlamprey/altar/releases/download/v0.4.0/Altar-v0.4.0-linux-x86_64.tar.gz"
+          "url": "https://github.com/iamlamprey/altar/releases/download/v0.4.0/Altar-v0.4.0-linux-x86_64.tar.gz",
+          "downloads": 59
         }
       ],
-      "verified": true
+      "verified": true,
+      "downloads": 453
     }
-  }
+  },
+  "downloads": 453
 }

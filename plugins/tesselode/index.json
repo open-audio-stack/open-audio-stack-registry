@@ -35,7 +35,8 @@
             "type": "archive",
             "size": 649728,
             "sha256": "8601f16a0e6f96eb2797ad1795e2d2c0da07d96ca89ff910f07f268d146673cf",
-            "url": "https://github.com/tesselode/mika-micro/releases/download/v2.0.1/MikaMicro32.dll"
+            "url": "https://github.com/tesselode/mika-micro/releases/download/v2.0.1/MikaMicro32.dll",
+            "downloads": 111
           },
           {
             "systems": [
@@ -52,12 +53,15 @@
             "type": "archive",
             "size": 711168,
             "sha256": "fe3ac30518e3d7d5014afecfae21091139569927805661564eb939f6197dcc78",
-            "url": "https://github.com/tesselode/mika-micro/releases/download/v2.0.1/MikaMicro64.dll"
+            "url": "https://github.com/tesselode/mika-micro/releases/download/v2.0.1/MikaMicro64.dll",
+            "downloads": 321
           }
         ],
-        "verified": true
+        "verified": true,
+        "downloads": 432
       }
-    }
+    },
+    "downloads": 432
   },
   "tesselode/flutterbird": {
     "slug": "tesselode/flutterbird",
@@ -95,7 +99,8 @@
             "type": "archive",
             "size": 748544,
             "sha256": "c54239e90102112a98b194d510169a7b7405da05fd51394c0f906d61c7358aeb",
-            "url": "https://github.com/tesselode/flutterbird/releases/download/v1.0.1/Flutterbird32.dll"
+            "url": "https://github.com/tesselode/flutterbird/releases/download/v1.0.1/Flutterbird32.dll",
+            "downloads": 60
           },
           {
             "systems": [
@@ -112,12 +117,15 @@
             "type": "archive",
             "size": 797184,
             "sha256": "10d3867e85e88d7638f6cd414b8ce3b446d98eb2582fd7883064406686ffbcbf",
-            "url": "https://github.com/tesselode/flutterbird/releases/download/v1.0.1/Flutterbird64.dll"
+            "url": "https://github.com/tesselode/flutterbird/releases/download/v1.0.1/Flutterbird64.dll",
+            "downloads": 269
           }
         ],
-        "verified": true
+        "verified": true,
+        "downloads": 329
       }
-    }
+    },
+    "downloads": 329
   },
   "tesselode/cocoa-delay": {
     "slug": "tesselode/cocoa-delay",
@@ -155,7 +163,8 @@
             "type": "archive",
             "size": 463872,
             "sha256": "ff39308b2546d2ac9d55a82acdeacf202d40ee85daabdb4c52cb81dafbab6bc8",
-            "url": "https://github.com/tesselode/cocoa-delay/releases/download/v1.0/CocoaDelay32.dll"
+            "url": "https://github.com/tesselode/cocoa-delay/releases/download/v1.0/CocoaDelay32.dll",
+            "downloads": 196
           },
           {
             "systems": [
@@ -172,11 +181,14 @@
             "type": "archive",
             "size": 516096,
             "sha256": "2847fdd79d7452e87ea5eda003d4c5aa48408ee622b5077466e3c11cedbab06a",
-            "url": "https://github.com/tesselode/cocoa-delay/releases/download/v1.0/CocoaDelay64.dll"
+            "url": "https://github.com/tesselode/cocoa-delay/releases/download/v1.0/CocoaDelay64.dll",
+            "downloads": 688
           }
         ],
-        "verified": true
+        "verified": true,
+        "downloads": 884
       }
-    }
+    },
+    "downloads": 884
   }
 }

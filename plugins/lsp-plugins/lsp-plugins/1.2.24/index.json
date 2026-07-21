@@ -39,7 +39,8 @@
       "type": "archive",
       "size": 10657760,
       "sha256": "ea796528060d6aac4358da8c336d482ee3d54bcf9eca44430f50e295dd0aeba8",
-      "url": "https://github.com/lsp-plugins/lsp-plugins/releases/download/1.2.24/lsp-plugins-1.2.24-Linux-aarch64.7z"
+      "url": "https://github.com/lsp-plugins/lsp-plugins/releases/download/1.2.24/lsp-plugins-1.2.24-Linux-aarch64.7z",
+      "downloads": 31
     },
     {
       "systems": [
@@ -59,7 +60,8 @@
       "type": "archive",
       "size": 6483449,
       "sha256": "f4801eea14a4fd1810b4ea5c540f2352ab5dbe93c0619563ec955195e4c62c9e",
-      "url": "https://github.com/lsp-plugins/lsp-plugins/releases/download/1.2.24/lsp-plugins-1.2.24-Linux-arm32.7z"
+      "url": "https://github.com/lsp-plugins/lsp-plugins/releases/download/1.2.24/lsp-plugins-1.2.24-Linux-arm32.7z",
+      "downloads": 9
     },
     {
       "systems": [
@@ -79,7 +81,8 @@
       "type": "archive",
       "size": 6856980,
       "sha256": "1beb8a89297feed44149c9cf7d27ea2fd7ecf32f5e6955f048861665c3ec4ca6",
-      "url": "https://github.com/lsp-plugins/lsp-plugins/releases/download/1.2.24/lsp-plugins-1.2.24-Linux-i586.7z"
+      "url": "https://github.com/lsp-plugins/lsp-plugins/releases/download/1.2.24/lsp-plugins-1.2.24-Linux-i586.7z",
+      "downloads": 31
     },
     {
       "systems": [
@@ -99,8 +102,10 @@
       "type": "archive",
       "size": 13596204,
       "sha256": "723b5f6501979402285046821537932641d833fc78baa9d90dc048063d3f003a",
-      "url": "https://github.com/lsp-plugins/lsp-plugins/releases/download/1.2.24/lsp-plugins-1.2.24-Linux-x86_64.7z"
+      "url": "https://github.com/lsp-plugins/lsp-plugins/releases/download/1.2.24/lsp-plugins-1.2.24-Linux-x86_64.7z",
+      "downloads": 635
     }
   ],
-  "verified": true
+  "verified": true,
+  "downloads": 706
 }

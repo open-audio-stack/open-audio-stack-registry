@@ -34,7 +34,8 @@
             "type": "archive",
             "size": 17125725,
             "sha256": "a7c44e13fad75a01a4f0fc6f91592bcf21f40678b63ba4ccf60c6aa67aef4e9e",
-            "url": "https://github.com/Sinuslabs/Reach/releases/download/1.6.6/Reach-Linux.zip"
+            "url": "https://github.com/Sinuslabs/Reach/releases/download/1.6.6/Reach-Linux.zip",
+            "downloads": 1402
           },
           {
             "systems": [
@@ -53,7 +54,8 @@
             "type": "installer",
             "size": 37826384,
             "sha256": "81e349d21c35830bd0d15375971983b973928242d4ace2a9e0d30a24a555eb8f",
-            "url": "https://github.com/Sinuslabs/Reach/releases/download/1.6.6/Reach-MacOS.pkg"
+            "url": "https://github.com/Sinuslabs/Reach/releases/download/1.6.6/Reach-MacOS.pkg",
+            "downloads": 359
           },
           {
             "systems": [
@@ -70,11 +72,14 @@
             "type": "installer",
             "size": 10349826,
             "sha256": "83e2825241d4e1c0ab2c44c91c0a9be6a94941a81df0c2fbe05e83b2650470da",
-            "url": "https://github.com/Sinuslabs/Reach/releases/download/1.6.6/Reach-Windows.exe"
+            "url": "https://github.com/Sinuslabs/Reach/releases/download/1.6.6/Reach-Windows.exe",
+            "downloads": 164136
           }
         ],
-        "verified": true
+        "verified": true,
+        "downloads": 165897
       }
-    }
+    },
+    "downloads": 165897
   }
 }

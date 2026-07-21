@@ -35,7 +35,8 @@
           "type": "archive",
           "size": 62492448,
           "sha256": "1b20d510c7c83ce6cac382040d580fa6105bf2e0d1913a67ac687aaf4509b72a",
-          "url": "https://github.com/danielwray/neampmod-the-tweed/releases/download/v3.0.0/neampmod-the-tweed-linux-v3.0.0.clap"
+          "url": "https://github.com/danielwray/neampmod-the-tweed/releases/download/v3.0.0/neampmod-the-tweed-linux-v3.0.0.clap",
+          "downloads": 20
         },
         {
           "systems": [
@@ -52,7 +53,8 @@
           "type": "archive",
           "size": 45903981,
           "sha256": "0da5b25380391350bcdc48b92bbfa4045b5b35ed8e19bb32eef3fa04d7af06dc",
-          "url": "https://github.com/danielwray/neampmod-the-tweed/releases/download/v3.0.0/neampmod-the-tweed-linux-v3.0.0.vst3.tar.gz"
+          "url": "https://github.com/danielwray/neampmod-the-tweed/releases/download/v3.0.0/neampmod-the-tweed-linux-v3.0.0.vst3.tar.gz",
+          "downloads": 22
         },
         {
           "systems": [
@@ -70,7 +72,8 @@
           "type": "archive",
           "size": 89048695,
           "sha256": "a9f545b9fb5a54da031097a3a6610788f41e4e982c7289235c8aa1e4b9c82052",
-          "url": "https://github.com/danielwray/neampmod-the-tweed/releases/download/v3.0.0/neampmod-the-tweed-mac-v3.0.0.clap.zip"
+          "url": "https://github.com/danielwray/neampmod-the-tweed/releases/download/v3.0.0/neampmod-the-tweed-mac-v3.0.0.clap.zip",
+          "downloads": 5
         },
         {
           "systems": [
@@ -88,7 +91,8 @@
           "type": "archive",
           "size": 89048695,
           "sha256": "a9f545b9fb5a54da031097a3a6610788f41e4e982c7289235c8aa1e4b9c82052",
-          "url": "https://github.com/danielwray/neampmod-the-tweed/releases/download/v3.0.0/neampmod-the-tweed-mac-v3.0.0.vst3.zip"
+          "url": "https://github.com/danielwray/neampmod-the-tweed/releases/download/v3.0.0/neampmod-the-tweed-mac-v3.0.0.vst3.zip",
+          "downloads": 5
         },
         {
           "systems": [
@@ -105,7 +109,8 @@
           "type": "archive",
           "size": 59355136,
           "sha256": "406bb55925c102db6d233c37389c370212f4ae7d1e1731870f63ed3a48094566",
-          "url": "https://github.com/danielwray/neampmod-the-tweed/releases/download/v3.0.0/neampmod-the-tweed-win-v3.0.0.clap"
+          "url": "https://github.com/danielwray/neampmod-the-tweed/releases/download/v3.0.0/neampmod-the-tweed-win-v3.0.0.clap",
+          "downloads": 7
         },
         {
           "systems": [
@@ -122,10 +127,13 @@
           "type": "archive",
           "size": 59355136,
           "sha256": "406bb55925c102db6d233c37389c370212f4ae7d1e1731870f63ed3a48094566",
-          "url": "https://github.com/danielwray/neampmod-the-tweed/releases/download/v3.0.0/neampmod-the-tweed-win-v3.0.0.vst3"
+          "url": "https://github.com/danielwray/neampmod-the-tweed/releases/download/v3.0.0/neampmod-the-tweed-win-v3.0.0.vst3",
+          "downloads": 15
         }
       ],
-      "verified": true
+      "verified": true,
+      "downloads": 74
     }
-  }
+  },
+  "downloads": 74
 }

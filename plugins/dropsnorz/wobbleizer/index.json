@@ -34,7 +34,8 @@
           "type": "archive",
           "size": 1595902,
           "sha256": "55827a53f1862f19d7017e5db4d31fd82732fb3bce0d704662143bde75cb35c2",
-          "url": "https://github.com/DropSnorz/wobbleizer/releases/download/v2.3.0/wobbleizer-vst-osx64.zip"
+          "url": "https://github.com/DropSnorz/wobbleizer/releases/download/v2.3.0/wobbleizer-vst-osx64.zip",
+          "downloads": 52
         },
         {
           "systems": [
@@ -51,10 +52,13 @@
           "type": "archive",
           "size": 1466718,
           "sha256": "988803f6c7810bcef13289cc8aa32437ebb343134e051123b04e1b8815ec99c3",
-          "url": "https://github.com/DropSnorz/wobbleizer/releases/download/v2.3.0/wobbleizer-vst-win64.zip"
+          "url": "https://github.com/DropSnorz/wobbleizer/releases/download/v2.3.0/wobbleizer-vst-win64.zip",
+          "downloads": 48
         }
       ],
-      "verified": true
+      "verified": true,
+      "downloads": 100
     }
-  }
+  },
+  "downloads": 100
 }

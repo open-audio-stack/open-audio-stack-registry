@@ -32,7 +32,8 @@
           "type": "archive",
           "size": 3655971,
           "sha256": "17bdd61574dd22ca0413352b50f7b4d1efb5953a1a0a9a1e952cd9aede829cb9",
-          "url": "https://github.com/MikeMorenoDSP/LIRA-8/releases/download/v1.0.8/LIRA-8-LV2-Linux64.zip"
+          "url": "https://github.com/MikeMorenoDSP/LIRA-8/releases/download/v1.0.8/LIRA-8-LV2-Linux64.zip",
+          "downloads": 279
         },
         {
           "systems": [
@@ -49,7 +50,8 @@
           "type": "archive",
           "size": 1852263,
           "sha256": "967b4399fc0f44433bf12b423e3da5efef59d2bf14616a709b91d1ac05411765",
-          "url": "https://github.com/MikeMorenoDSP/LIRA-8/releases/download/v1.0.8/LIRA-8-VST2-Windows32.zip"
+          "url": "https://github.com/MikeMorenoDSP/LIRA-8/releases/download/v1.0.8/LIRA-8-VST2-Windows32.zip",
+          "downloads": 157
         },
         {
           "systems": [
@@ -66,7 +68,8 @@
           "type": "archive",
           "size": 2243535,
           "sha256": "a96986afa11d3ddd10066559e70b4ea407bab6f5a0715fb1430b1b15ccf79af8",
-          "url": "https://github.com/MikeMorenoDSP/LIRA-8/releases/download/v1.0.8/LIRA-8-VST2-Windows64.zip"
+          "url": "https://github.com/MikeMorenoDSP/LIRA-8/releases/download/v1.0.8/LIRA-8-VST2-Windows64.zip",
+          "downloads": 613
         },
         {
           "systems": [
@@ -84,7 +87,8 @@
           "type": "archive",
           "size": 13131335,
           "sha256": "aa05f2e30d9cb8a468a784a43448c53b5f312fca2689f9cc33ffca0bec076e60",
-          "url": "https://github.com/MikeMorenoDSP/LIRA-8/releases/download/v1.0.8/LIRA-8-VST3-AUi-MacOS-M1.zip"
+          "url": "https://github.com/MikeMorenoDSP/LIRA-8/releases/download/v1.0.8/LIRA-8-VST3-AUi-MacOS-M1.zip",
+          "downloads": 583
         },
         {
           "systems": [
@@ -103,7 +107,8 @@
           "type": "archive",
           "size": 7127751,
           "sha256": "99f5687e9f024785f63c003f4832b0560c56b550d00705537fb448b3c906579c",
-          "url": "https://github.com/MikeMorenoDSP/LIRA-8/releases/download/v1.0.8/LIRA-8-VST3-VST2-AUi-MacOS.zip"
+          "url": "https://github.com/MikeMorenoDSP/LIRA-8/releases/download/v1.0.8/LIRA-8-VST3-VST2-AUi-MacOS.zip",
+          "downloads": 512
         },
         {
           "systems": [
@@ -120,7 +125,8 @@
           "type": "archive",
           "size": 1989483,
           "sha256": "6a55ad4f2d0d456d5eb4db131d0890072aee03b625c3dfbfe58655ea040a9acb",
-          "url": "https://github.com/MikeMorenoDSP/LIRA-8/releases/download/v1.0.8/LIRA-8-VST3-Windows32.zip"
+          "url": "https://github.com/MikeMorenoDSP/LIRA-8/releases/download/v1.0.8/LIRA-8-VST3-Windows32.zip",
+          "downloads": 120
         },
         {
           "systems": [
@@ -137,10 +143,13 @@
           "type": "archive",
           "size": 2394872,
           "sha256": "708b092a50fe8766f2ab84b923381241f42831bc7664298640e956085a2dc06a",
-          "url": "https://github.com/MikeMorenoDSP/LIRA-8/releases/download/v1.0.8/LIRA-8-VST3-Windows64.zip"
+          "url": "https://github.com/MikeMorenoDSP/LIRA-8/releases/download/v1.0.8/LIRA-8-VST3-Windows64.zip",
+          "downloads": 924
         }
       ],
-      "verified": true
+      "verified": true,
+      "downloads": 3188
     }
-  }
+  },
+  "downloads": 3188
 }

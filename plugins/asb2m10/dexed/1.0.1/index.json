@@ -32,7 +32,8 @@
       "type": "archive",
       "size": 7725160,
       "sha256": "2bac3d0c4237e8c22c4274b6d5b59fe6329fcae72864f81b5830393eff354fc1",
-      "url": "https://github.com/asb2m10/dexed/releases/download/v1.0.1/Dexed-1.0.1-lnx.zip"
+      "url": "https://github.com/asb2m10/dexed/releases/download/v1.0.1/Dexed-1.0.1-lnx.zip",
+      "downloads": 2833
     },
     {
       "systems": [
@@ -53,7 +54,8 @@
       "type": "installer",
       "size": 17183630,
       "sha256": "a6505103869d15400e7bed1d988d9dd155d6d8204a3d532f5301966ae7507ad8",
-      "url": "https://github.com/asb2m10/dexed/releases/download/v1.0.1/Dexed-1.0.1-macOS.dmg"
+      "url": "https://github.com/asb2m10/dexed/releases/download/v1.0.1/Dexed-1.0.1-macOS.dmg",
+      "downloads": 54503
     },
     {
       "systems": [
@@ -74,7 +76,8 @@
       "type": "archive",
       "size": 16939688,
       "sha256": "4269448bc1312424cafd29aff615d891bc5905ebfc54b42ce70c56b9b10dc401",
-      "url": "https://github.com/asb2m10/dexed/releases/download/v1.0.1/Dexed-1.0.1-macOS.zip"
+      "url": "https://github.com/asb2m10/dexed/releases/download/v1.0.1/Dexed-1.0.1-macOS.zip",
+      "downloads": 1364
     },
     {
       "systems": [
@@ -92,7 +95,8 @@
       "type": "installer",
       "size": 11275100,
       "sha256": "5dc4e072af90ec54aa0197790b40856e7db1659ff924ed107c7536b442d3584b",
-      "url": "https://github.com/asb2m10/dexed/releases/download/v1.0.1/Dexed-1.0.1-win.exe"
+      "url": "https://github.com/asb2m10/dexed/releases/download/v1.0.1/Dexed-1.0.1-win.exe",
+      "downloads": 75106
     },
     {
       "systems": [
@@ -111,8 +115,10 @@
       "type": "archive",
       "size": 9742538,
       "sha256": "1f118445f2c5c411636bb41ddf8b456db09af74cd38f9ede8a93a01020505f05",
-      "url": "https://github.com/asb2m10/dexed/releases/download/v1.0.1/Dexed-1.0.1-win.zip"
+      "url": "https://github.com/asb2m10/dexed/releases/download/v1.0.1/Dexed-1.0.1-win.zip",
+      "downloads": 4543
     }
   ],
-  "verified": true
+  "verified": true,
+  "downloads": 138349
 }

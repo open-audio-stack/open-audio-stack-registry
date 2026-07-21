@@ -56,7 +56,8 @@
             "type": "installer",
             "sha256": "3e023271218de19d58bf119ec1525aa33ea95c9fe414e9ce23b6b4a193f77ada",
             "size": 33796914,
-            "url": "https://github.com/baconpaul/two-filters/releases/download/v1.0.0/two-filters-macOS-2026-07-03-b6d9bd3.dmg"
+            "url": "https://github.com/baconpaul/two-filters/releases/download/v1.0.0/two-filters-macOS-2026-07-03-b6d9bd3.dmg",
+            "downloads": 31
           },
           {
             "systems": [
@@ -75,12 +76,15 @@
             "type": "installer",
             "sha256": "017ea09981c97bdd97bf8b9697c3328b96869abf4d27593c86adf28bd6629146",
             "size": 5947089,
-            "url": "https://github.com/baconpaul/two-filters/releases/download/v1.0.0/two-filters-Windows-2026-07-03-b6d9bd3.exe"
+            "url": "https://github.com/baconpaul/two-filters/releases/download/v1.0.0/two-filters-Windows-2026-07-03-b6d9bd3.exe",
+            "downloads": 54
           }
         ],
-        "verified": true
+        "verified": true,
+        "downloads": 85
       }
-    }
+    },
+    "downloads": 85
   },
   "baconpaul/six-sines": {
     "slug": "baconpaul/six-sines",
@@ -142,7 +146,8 @@
             "type": "installer",
             "sha256": "78b5ce34eed61c597b4a10f722e227490a47e3936933516926bcfac1b6e821f6",
             "size": 63176734,
-            "url": "https://github.com/baconpaul/six-sines/releases/download/v1.2.0/six-sines-macOS-2026-07-10-9b1b128.dmg"
+            "url": "https://github.com/baconpaul/six-sines/releases/download/v1.2.0/six-sines-macOS-2026-07-10-9b1b128.dmg",
+            "downloads": 247
           },
           {
             "systems": [
@@ -161,10 +166,12 @@
             "type": "archive",
             "sha256": "f4d35c5e87ed1849a55e01010fe2a86976fca7a63a5c49729fbf0d0833c013fe",
             "size": 22404162,
-            "url": "https://github.com/baconpaul/six-sines/releases/download/v1.2.0/six-sines-Windows-2026-07-10-9b1b128.zip"
+            "url": "https://github.com/baconpaul/six-sines/releases/download/v1.2.0/six-sines-Windows-2026-07-10-9b1b128.zip",
+            "downloads": 340
           }
         ],
-        "verified": true
+        "verified": true,
+        "downloads": 587
       },
       "1.1.0": {
         "name": "Six Sines",
@@ -200,7 +207,8 @@
             "type": "archive",
             "sha256": "fae7c1c325fde7ed49c978358397cb4bcf69012c4e6eefe2a5968fe6a36d0421",
             "size": 19665323,
-            "url": "https://github.com/baconpaul/six-sines/releases/download/v1.1.0/six-sines-linux-2025-03-18-43d10b2.tgz"
+            "url": "https://github.com/baconpaul/six-sines/releases/download/v1.1.0/six-sines-linux-2025-03-18-43d10b2.tgz",
+            "downloads": 639
           },
           {
             "systems": [
@@ -222,7 +230,8 @@
             "type": "installer",
             "sha256": "d6fdf29179cd5b35aa024f25912a50bd14df59fa73cea9ce3da6f3fbf1abe55a",
             "size": 43527509,
-            "url": "https://github.com/baconpaul/six-sines/releases/download/v1.1.0/six-sines-macOS-2025-03-18-43d10b2.dmg"
+            "url": "https://github.com/baconpaul/six-sines/releases/download/v1.1.0/six-sines-macOS-2025-03-18-43d10b2.dmg",
+            "downloads": 850
           },
           {
             "systems": [
@@ -241,11 +250,14 @@
             "type": "archive",
             "size": 15983506,
             "sha256": "7af26e3a4674fac3eecf72061a6f8d9aa13a677c511f116f4f507e6959e002ad",
-            "url": "https://github.com/baconpaul/six-sines/releases/download/v1.1.0/six-sines-windows-2025-03-18-43d10b2.zip"
+            "url": "https://github.com/baconpaul/six-sines/releases/download/v1.1.0/six-sines-windows-2025-03-18-43d10b2.zip",
+            "downloads": 1671
           }
         ],
-        "verified": true
+        "verified": true,
+        "downloads": 3160
       }
-    }
+    },
+    "downloads": 3747
   }
 }

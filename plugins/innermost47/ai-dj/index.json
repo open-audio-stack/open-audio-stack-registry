@@ -35,7 +35,8 @@
           "type": "archive",
           "size": 6396831,
           "sha256": "ef2cf763d38511698a35346ab3798c73d34d18a2aeee9e5b19249f140c847629",
-          "url": "https://github.com/innermost47/ai-dj/releases/download/v328/OBSIDIAN-Neural-Linux-Standalone.tar.gz"
+          "url": "https://github.com/innermost47/ai-dj/releases/download/v328/OBSIDIAN-Neural-Linux-Standalone.tar.gz",
+          "downloads": 13
         },
         {
           "systems": [
@@ -52,7 +53,8 @@
           "type": "archive",
           "size": 6160116,
           "sha256": "863f9414615d9ba11ba6a9afdbaa28dad8eb7e3f638316f8e9f038d9b7e268db",
-          "url": "https://github.com/innermost47/ai-dj/releases/download/v328/OBSIDIAN-Neural-Linux-VST3.tar.gz"
+          "url": "https://github.com/innermost47/ai-dj/releases/download/v328/OBSIDIAN-Neural-Linux-VST3.tar.gz",
+          "downloads": 12
         },
         {
           "systems": [
@@ -70,7 +72,8 @@
           "type": "archive",
           "size": 8628955,
           "sha256": "1275570f6488fc5ce748fcc3589911fbc1bae8c035d28ad1c8d3110f040e0a7a",
-          "url": "https://github.com/innermost47/ai-dj/releases/download/v328/OBSIDIAN-Neural-macOS-AU.zip"
+          "url": "https://github.com/innermost47/ai-dj/releases/download/v328/OBSIDIAN-Neural-macOS-AU.zip",
+          "downloads": 10
         },
         {
           "systems": [
@@ -88,7 +91,8 @@
           "type": "archive",
           "size": 9085998,
           "sha256": "222e97226be3f17d06adfd18c4d26826f0a0dc27631e2cc6a1c464de457bda3a",
-          "url": "https://github.com/innermost47/ai-dj/releases/download/v328/OBSIDIAN-Neural-macOS-Standalone.zip"
+          "url": "https://github.com/innermost47/ai-dj/releases/download/v328/OBSIDIAN-Neural-macOS-Standalone.zip",
+          "downloads": 9
         },
         {
           "systems": [
@@ -106,7 +110,8 @@
           "type": "archive",
           "size": 8633073,
           "sha256": "8be4902413bd60b2612ddc08f3ab0d8242794d279f71a15d33c82dc540f98aca",
-          "url": "https://github.com/innermost47/ai-dj/releases/download/v328/OBSIDIAN-Neural-macOS-VST3.zip"
+          "url": "https://github.com/innermost47/ai-dj/releases/download/v328/OBSIDIAN-Neural-macOS-VST3.zip",
+          "downloads": 10
         },
         {
           "systems": [
@@ -123,7 +128,8 @@
           "type": "archive",
           "size": 4084695,
           "sha256": "01ca94d41d2b56a96014e79ffb4fb37b52839504d68ce0ce26cf8e3375622ca8",
-          "url": "https://github.com/innermost47/ai-dj/releases/download/v328/OBSIDIAN-Neural-Windows-Standalone.zip"
+          "url": "https://github.com/innermost47/ai-dj/releases/download/v328/OBSIDIAN-Neural-Windows-Standalone.zip",
+          "downloads": 40
         },
         {
           "systems": [
@@ -140,10 +146,12 @@
           "type": "archive",
           "size": 3933667,
           "sha256": "1605293a44a17bf2da6fb575e711a89cfa330ec57544d7a11e8dd851d33941e5",
-          "url": "https://github.com/innermost47/ai-dj/releases/download/v328/OBSIDIAN-Neural-Windows-VST3.zip"
+          "url": "https://github.com/innermost47/ai-dj/releases/download/v328/OBSIDIAN-Neural-Windows-VST3.zip",
+          "downloads": 51
         }
       ],
-      "verified": true
+      "verified": true,
+      "downloads": 145
     },
     "327.0.0": {
       "name": "OBSIDIAN Neural",
@@ -178,7 +186,8 @@
           "type": "archive",
           "size": 6160318,
           "sha256": "1711a90e81bc8275798658e580fe0eff6528d26eb836fa45086032578bb46eec",
-          "url": "https://github.com/innermost47/ai-dj/releases/download/v327/OBSIDIAN-Neural-Linux-VST3.tar.gz"
+          "url": "https://github.com/innermost47/ai-dj/releases/download/v327/OBSIDIAN-Neural-Linux-VST3.tar.gz",
+          "downloads": 5
         },
         {
           "systems": [
@@ -195,7 +204,8 @@
           "type": "archive",
           "size": 8615280,
           "sha256": "f479c46ca6cc7f5c2b5da920b2cecf5cfa6bc8ab93ade5936f0c15e4f4127caf",
-          "url": "https://github.com/innermost47/ai-dj/releases/download/v327/OBSIDIAN-Neural-macOS-AU.zip"
+          "url": "https://github.com/innermost47/ai-dj/releases/download/v327/OBSIDIAN-Neural-macOS-AU.zip",
+          "downloads": 5
         },
         {
           "systems": [
@@ -212,7 +222,8 @@
           "type": "archive",
           "size": 8618291,
           "sha256": "bb4b945c06b41ec0ff3d7831c157686360081c7fdd7e22bfde60f5ef150fd3f1",
-          "url": "https://github.com/innermost47/ai-dj/releases/download/v327/OBSIDIAN-Neural-macOS-VST3.zip"
+          "url": "https://github.com/innermost47/ai-dj/releases/download/v327/OBSIDIAN-Neural-macOS-VST3.zip",
+          "downloads": 5
         },
         {
           "systems": [
@@ -229,10 +240,13 @@
           "type": "archive",
           "size": 3933373,
           "sha256": "ea7cf388a6e7b42fc492d0ee1e0596af39db71b32769745a4ad9e4de22cf331c",
-          "url": "https://github.com/innermost47/ai-dj/releases/download/v327/OBSIDIAN-Neural-Windows-VST3.zip"
+          "url": "https://github.com/innermost47/ai-dj/releases/download/v327/OBSIDIAN-Neural-Windows-VST3.zip",
+          "downloads": 8
         }
       ],
-      "verified": true
+      "verified": true,
+      "downloads": 23
     }
-  }
+  },
+  "downloads": 168
 }

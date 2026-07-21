@@ -36,7 +36,8 @@
           ],
           "size": 12807099,
           "type": "archive",
-          "url": "https://github.com/magnetophon/lamb-rs/releases/download/v2.1.0/lamb-v2.1.0-ubuntu-20.04.zip"
+          "url": "https://github.com/magnetophon/lamb-rs/releases/download/v2.1.0/lamb-v2.1.0-ubuntu-20.04.zip",
+          "downloads": 1545
         },
         {
           "architectures": [
@@ -55,7 +56,8 @@
           ],
           "size": 23920420,
           "type": "archive",
-          "url": "https://github.com/magnetophon/lamb-rs/releases/download/v2.1.0/lamb-v2.1.0-macos-universal.zip"
+          "url": "https://github.com/magnetophon/lamb-rs/releases/download/v2.1.0/lamb-v2.1.0-macos-universal.zip",
+          "downloads": 148
         },
         {
           "architectures": [
@@ -74,10 +76,13 @@
           ],
           "size": 11499144,
           "type": "archive",
-          "url": "https://github.com/magnetophon/lamb-rs/releases/download/v2.1.0/lamb-v2.1.0-windows.zip"
+          "url": "https://github.com/magnetophon/lamb-rs/releases/download/v2.1.0/lamb-v2.1.0-windows.zip",
+          "downloads": 437
         }
       ],
-      "verified": true
+      "verified": true,
+      "downloads": 2130
     }
-  }
+  },
+  "downloads": 2130
 }

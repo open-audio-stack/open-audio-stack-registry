@@ -31,7 +31,8 @@
       "type": "installer",
       "size": 34313038,
       "sha256": "a4281719022a724ee13a19ae92cdb1343e8e14677e71f34931998be166ca714b",
-      "url": "https://github.com/FigBug/mverb/releases/download/v1.1.5/Mverb2020.deb"
+      "url": "https://github.com/FigBug/mverb/releases/download/v1.1.5/Mverb2020.deb",
+      "downloads": 4
     },
     {
       "systems": [
@@ -50,7 +51,8 @@
       "type": "installer",
       "size": 5969824,
       "sha256": "41590c069bc00ecf1d160acd831f7d48f923b7adea6da68a2f45deb73312b5b6",
-      "url": "https://github.com/FigBug/mverb/releases/download/v1.1.5/Mverb2020.exe"
+      "url": "https://github.com/FigBug/mverb/releases/download/v1.1.5/Mverb2020.exe",
+      "downloads": 8
     },
     {
       "systems": [
@@ -71,8 +73,10 @@
       "type": "installer",
       "size": 31388044,
       "sha256": "c068e54697ff39df687a5199e285e5834c4723fa768595a00c4bede43f32dfeb",
-      "url": "https://github.com/FigBug/mverb/releases/download/v1.1.5/Mverb2020.pkg"
+      "url": "https://github.com/FigBug/mverb/releases/download/v1.1.5/Mverb2020.pkg",
+      "downloads": 6
     }
   ],
-  "verified": true
+  "verified": true,
+  "downloads": 18
 }

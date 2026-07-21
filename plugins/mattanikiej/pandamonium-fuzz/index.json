@@ -36,7 +36,8 @@
           "type": "installer",
           "size": 2694501,
           "sha256": "07b4d0ef79798fa4e2275dadb8f8a0025d6627a7bbfcc8a17b99958deda8e6ad",
-          "url": "https://github.com/mattanikiej/pandamonium-fuzz/releases/download/v1.0.1/PandamoniumFuzz1.0.1-mac-installer.dmg"
+          "url": "https://github.com/mattanikiej/pandamonium-fuzz/releases/download/v1.0.1/PandamoniumFuzz1.0.1-mac-installer.dmg",
+          "downloads": 15
         },
         {
           "systems": [
@@ -53,7 +54,8 @@
           "type": "archive",
           "size": 3878037,
           "sha256": "7174b3c47a876313a0754d81ca7980ac9936a954af2e67947c4f060e18c169a4",
-          "url": "https://github.com/mattanikiej/pandamonium-fuzz/releases/download/v1.0.1/PandamoniumFuzz1.0.1-windows.zip"
+          "url": "https://github.com/mattanikiej/pandamonium-fuzz/releases/download/v1.0.1/PandamoniumFuzz1.0.1-windows.zip",
+          "downloads": 15
         },
         {
           "systems": [
@@ -70,10 +72,13 @@
           "type": "installer",
           "size": 5064192,
           "sha256": "27da9338d8331dd6d174ceb2ec64ed0dac77947a569c1def77442186b5935716",
-          "url": "https://github.com/mattanikiej/pandamonium-fuzz/releases/download/v1.0.1/Pandamonium.exe"
+          "url": "https://github.com/mattanikiej/pandamonium-fuzz/releases/download/v1.0.1/Pandamonium.exe",
+          "downloads": 9
         }
       ],
-      "verified": true
+      "verified": true,
+      "downloads": 39
     }
-  }
+  },
+  "downloads": 39
 }

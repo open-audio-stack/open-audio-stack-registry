@@ -36,7 +36,8 @@
           "type": "archive",
           "size": 10401149,
           "sha256": "f6bbdbe375309b2fd01c07314ea4a59ffe7c2e78b0c78509933d5dda05329816",
-          "url": "https://github.com/Jun-Murakami/TinyVU/releases/download/v1.0.6/TinyVU_1.0.6_Linux_VST3_LV2_CLAP_Standalone.zip"
+          "url": "https://github.com/Jun-Murakami/TinyVU/releases/download/v1.0.6/TinyVU_1.0.6_Linux_VST3_LV2_CLAP_Standalone.zip",
+          "downloads": 15
         },
         {
           "systems": [
@@ -59,7 +60,8 @@
           "type": "installer",
           "size": 24815044,
           "sha256": "9be1014ad9b23a5106c4a40324e139f6a65d5bcd1bba51be20099a252d387618",
-          "url": "https://github.com/Jun-Murakami/TinyVU/releases/download/v1.0.6/TinyVU_1.0.6_macOS.pkg"
+          "url": "https://github.com/Jun-Murakami/TinyVU/releases/download/v1.0.6/TinyVU_1.0.6_macOS.pkg",
+          "downloads": 8
         },
         {
           "systems": [
@@ -82,7 +84,8 @@
           "type": "archive",
           "size": 24764687,
           "sha256": "512c209b9e2c567e3a6678edd91034fbaed08e36fc31552982314023b0fffed7",
-          "url": "https://github.com/Jun-Murakami/TinyVU/releases/download/v1.0.6/TinyVU_1.0.6_macOS_VST3_AU_AAX_CLAP_Standalone.zip"
+          "url": "https://github.com/Jun-Murakami/TinyVU/releases/download/v1.0.6/TinyVU_1.0.6_macOS_VST3_AU_AAX_CLAP_Standalone.zip",
+          "downloads": 5
         },
         {
           "systems": [
@@ -103,7 +106,8 @@
           "type": "installer",
           "size": 13908592,
           "sha256": "39f9273fce36015ed8dd7f1856b7824fbc9b18ac8bcde1cfdadbefa9ed353e61",
-          "url": "https://github.com/Jun-Murakami/TinyVU/releases/download/v1.0.6/TinyVU_1.0.6_Windows_Setup.exe"
+          "url": "https://github.com/Jun-Murakami/TinyVU/releases/download/v1.0.6/TinyVU_1.0.6_Windows_Setup.exe",
+          "downloads": 11
         },
         {
           "systems": [
@@ -124,10 +128,13 @@
           "type": "archive",
           "size": 19195123,
           "sha256": "1eacfa00195f6de96f95494c095d69909217e7af39d28baf3b22f339904db1c5",
-          "url": "https://github.com/Jun-Murakami/TinyVU/releases/download/v1.0.6/TinyVU_1.0.6_Windows_VST3_AAX_CLAP_Standalone.zip"
+          "url": "https://github.com/Jun-Murakami/TinyVU/releases/download/v1.0.6/TinyVU_1.0.6_Windows_VST3_AAX_CLAP_Standalone.zip",
+          "downloads": 12
         }
       ],
-      "verified": true
+      "verified": true,
+      "downloads": 51
     }
-  }
+  },
+  "downloads": 51
 }

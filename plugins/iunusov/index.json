@@ -34,7 +34,8 @@
             "type": "archive",
             "size": 1819648,
             "sha256": "602410d44d2267c4cbfd819e1141e1e7b320bce41b0e97d40d95660f1e0e1314",
-            "url": "https://github.com/Iunusov/ShoutVST/releases/download/2.1.18/ShoutVST_x64.dll"
+            "url": "https://github.com/Iunusov/ShoutVST/releases/download/2.1.18/ShoutVST_x64.dll",
+            "downloads": 760
           },
           {
             "systems": [
@@ -51,12 +52,15 @@
             "type": "archive",
             "size": 1547776,
             "sha256": "264abdf0e4b2e77f7896e6044abc1ed79baab8a5d801277f4a168cd6752ffc43",
-            "url": "https://github.com/Iunusov/ShoutVST/releases/download/2.1.18/ShoutVST_x86.dll"
+            "url": "https://github.com/Iunusov/ShoutVST/releases/download/2.1.18/ShoutVST_x86.dll",
+            "downloads": 322
           }
         ],
-        "verified": true
+        "verified": true,
+        "downloads": 1082
       }
-    }
+    },
+    "downloads": 1082
   },
   "iunusov/lamevst": {
     "slug": "iunusov/lamevst",
@@ -92,7 +96,8 @@
             "type": "archive",
             "size": 473088,
             "sha256": "903f95c1a035c47591edd5a52a31d491044b291489797042cda1dc185ea4f9b0",
-            "url": "https://github.com/Iunusov/LameVST/releases/download/1.0.5/LameVST_x64.dll"
+            "url": "https://github.com/Iunusov/LameVST/releases/download/1.0.5/LameVST_x64.dll",
+            "downloads": 1044
           },
           {
             "systems": [
@@ -109,11 +114,14 @@
             "type": "archive",
             "size": 405504,
             "sha256": "4cb4a42495f6584e6a4ce5da897edb96991fe8e14b700ce799e48c781dab9991",
-            "url": "https://github.com/Iunusov/LameVST/releases/download/1.0.5/LameVST_x86.dll"
+            "url": "https://github.com/Iunusov/LameVST/releases/download/1.0.5/LameVST_x86.dll",
+            "downloads": 316
           }
         ],
-        "verified": true
+        "verified": true,
+        "downloads": 1360
       }
-    }
+    },
+    "downloads": 1360
   }
 }

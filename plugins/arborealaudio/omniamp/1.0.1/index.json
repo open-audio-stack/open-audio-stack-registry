@@ -33,7 +33,8 @@
       ],
       "size": 2359408,
       "type": "archive",
-      "url": "https://github.com/ArborealAudio/OmniAmp/releases/download/v1.0.1/OmniAmp-linux.tar.xz"
+      "url": "https://github.com/ArborealAudio/OmniAmp/releases/download/v1.0.1/OmniAmp-linux.tar.xz",
+      "downloads": 11
     },
     {
       "architectures": [
@@ -51,7 +52,8 @@
       ],
       "size": 9884682,
       "type": "installer",
-      "url": "https://github.com/ArborealAudio/OmniAmp/releases/download/v1.0.1/OmniAmp-mac.dmg"
+      "url": "https://github.com/ArborealAudio/OmniAmp/releases/download/v1.0.1/OmniAmp-mac.dmg",
+      "downloads": 5
     },
     {
       "architectures": [
@@ -69,8 +71,10 @@
       ],
       "size": 4115576,
       "type": "installer",
-      "url": "https://github.com/ArborealAudio/OmniAmp/releases/download/v1.0.1/OmniAmp-windows.exe"
+      "url": "https://github.com/ArborealAudio/OmniAmp/releases/download/v1.0.1/OmniAmp-windows.exe",
+      "downloads": 10
     }
   ],
-  "verified": true
+  "verified": true,
+  "downloads": 26
 }

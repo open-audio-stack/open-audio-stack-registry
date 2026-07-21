@@ -33,7 +33,8 @@
             "open": "sendmidi",
             "size": 559090,
             "sha256": "038bf9bd73e08d5da98c18860e2cb6f7aa7be987debe0c813c59f1268b534ad4",
-            "url": "https://github.com/gbevin/SendMIDI/releases/download/1.4.1/sendmidi-macOS-1.4.1.zip"
+            "url": "https://github.com/gbevin/SendMIDI/releases/download/1.4.1/sendmidi-macOS-1.4.1.zip",
+            "downloads": 35
           },
           {
             "systems": [
@@ -48,12 +49,15 @@
             "open": "sendmidi.exe",
             "size": 663716,
             "sha256": "df0410d58030c9a2214d856d43487f32153bbbd60b151ccaf1b227ee71399b77",
-            "url": "https://github.com/gbevin/SendMIDI/releases/download/1.4.1/sendmidi-windows-1.4.1.zip"
+            "url": "https://github.com/gbevin/SendMIDI/releases/download/1.4.1/sendmidi-windows-1.4.1.zip",
+            "downloads": 25
           }
         ],
-        "verified": true
+        "verified": true,
+        "downloads": 60
       }
-    }
+    },
+    "downloads": 60
   },
   "gbevin/receivemidi": {
     "slug": "gbevin/receivemidi",
@@ -89,7 +93,8 @@
             "open": "receivemidi",
             "size": 732388,
             "sha256": "287b057da4f753b80c2504147237f99e94847529ca3b984eb229604a1f5772f9",
-            "url": "https://github.com/gbevin/ReceiveMIDI/releases/download/1.5.0/receivemidi-macOS-1.5.0.zip"
+            "url": "https://github.com/gbevin/ReceiveMIDI/releases/download/1.5.0/receivemidi-macOS-1.5.0.zip",
+            "downloads": 14
           },
           {
             "systems": [
@@ -104,11 +109,14 @@
             "open": "receivemidi.exe",
             "size": 747301,
             "sha256": "457a6c1684d459a145ba0563eb7a40c09222752e2bebbf677bb6482d640d4c2b",
-            "url": "https://github.com/gbevin/ReceiveMIDI/releases/download/1.5.0/receivemidi-windows-1.5.0.zip"
+            "url": "https://github.com/gbevin/ReceiveMIDI/releases/download/1.5.0/receivemidi-windows-1.5.0.zip",
+            "downloads": 11
           }
         ],
-        "verified": true
+        "verified": true,
+        "downloads": 25
       }
-    }
+    },
+    "downloads": 25
   }
 }

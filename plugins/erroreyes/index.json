@@ -35,7 +35,8 @@
             "type": "archive",
             "size": 8235829,
             "sha256": "498200f75ac42c951ba28807cc3de518c733cd3df6b9d913d0a90e642a4a197a",
-            "url": "https://github.com/erroreyes/crrshrr/releases/download/alpha/crrshrr-2024-06-04-210639-ubuntu-20.04.zip"
+            "url": "https://github.com/erroreyes/crrshrr/releases/download/alpha/crrshrr-2024-06-04-210639-ubuntu-20.04.zip",
+            "downloads": 32
           },
           {
             "systems": [
@@ -53,7 +54,8 @@
             "type": "archive",
             "size": 6875411,
             "sha256": "9a395befc6bd9daef05b0b2f7bacc85a835ee8dd8b12087372cacf05e2f660c9",
-            "url": "https://github.com/erroreyes/crrshrr/releases/download/alpha/crrshrr-2024-06-04-210631-windows.zip"
+            "url": "https://github.com/erroreyes/crrshrr/releases/download/alpha/crrshrr-2024-06-04-210631-windows.zip",
+            "downloads": 18
           },
           {
             "systems": [
@@ -72,11 +74,14 @@
             "type": "archive",
             "size": 15022878,
             "sha256": "a4691eb8939d53d7561eb28889048caa6ec55799e69c9f2898056dec3ccdffa5",
-            "url": "https://github.com/erroreyes/crrshrr/releases/download/alpha/crrshrr-2024-06-04-210639-macos-universal.zip"
+            "url": "https://github.com/erroreyes/crrshrr/releases/download/alpha/crrshrr-2024-06-04-210639-macos-universal.zip",
+            "downloads": 5
           }
         ],
-        "verified": true
+        "verified": true,
+        "downloads": 55
       }
-    }
+    },
+    "downloads": 55
   }
 }

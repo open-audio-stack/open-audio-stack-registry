@@ -31,7 +31,8 @@
       ],
       "size": 3229196,
       "type": "archive",
-      "url": "https://github.com/Ankalot/XenRoll/releases/download/v0.3.3/XenRoll_v0.3.3_VST3_linux_x86_64.zip"
+      "url": "https://github.com/Ankalot/XenRoll/releases/download/v0.3.3/XenRoll_v0.3.3_VST3_linux_x86_64.zip",
+      "downloads": 9
     },
     {
       "systems": [
@@ -48,7 +49,8 @@
       "type": "archive",
       "size": 4848469,
       "sha256": "54c1884221198abba3107cc08b05f64aefece9e13bfc6caa4e5aecb7412c9356",
-      "url": "https://github.com/Ankalot/XenRoll/releases/download/v0.3.3/XenRoll_v0.3.3_VST3_windows.zip"
+      "url": "https://github.com/Ankalot/XenRoll/releases/download/v0.3.3/XenRoll_v0.3.3_VST3_windows.zip",
+      "downloads": 9
     },
     {
       "architectures": [
@@ -65,8 +67,10 @@
       ],
       "size": 2617061,
       "type": "archive",
-      "url": "https://github.com/Ankalot/XenRoll/releases/download/v0.3.3/XenRoll_v0.3.3_VST3_macOS.zip"
+      "url": "https://github.com/Ankalot/XenRoll/releases/download/v0.3.3/XenRoll_v0.3.3_VST3_macOS.zip",
+      "downloads": 7
     }
   ],
-  "verified": true
+  "verified": true,
+  "downloads": 25
 }

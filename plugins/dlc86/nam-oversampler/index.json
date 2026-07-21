@@ -33,7 +33,8 @@
           "type": "archive",
           "size": 670042,
           "sha256": "d7ec49f13ae088103a047d797a8729b257f3e3ee8185747d7b2666bc169e5a96",
-          "url": "https://github.com/DLC86/NAM-Oversampler/releases/download/v2.2.3/NAM.On.Steroids-v2.2.3-linux.zip"
+          "url": "https://github.com/DLC86/NAM-Oversampler/releases/download/v2.2.3/NAM.On.Steroids-v2.2.3-linux.zip",
+          "downloads": 20
         },
         {
           "systems": [
@@ -51,7 +52,8 @@
           "type": "archive",
           "size": 11714333,
           "sha256": "ac41b223947bf009999fec14f0c7e0240be003de13c265ca76acad6c634fc441",
-          "url": "https://github.com/DLC86/NAM-Oversampler/releases/download/v2.2.3/NAM.On.Steroids-v2.2.3-mac.zip"
+          "url": "https://github.com/DLC86/NAM-Oversampler/releases/download/v2.2.3/NAM.On.Steroids-v2.2.3-mac.zip",
+          "downloads": 56
         },
         {
           "systems": [
@@ -69,10 +71,13 @@
           "type": "archive",
           "size": 5077518,
           "sha256": "55b20acda8109e2925d3d91cd76de1b92108260ca327b612cce68ec6b9e64a50",
-          "url": "https://github.com/DLC86/NAM-Oversampler/releases/download/v2.2.3/NAM.On.Steroids-v2.2.3-win.zip"
+          "url": "https://github.com/DLC86/NAM-Oversampler/releases/download/v2.2.3/NAM.On.Steroids-v2.2.3-win.zip",
+          "downloads": 151
         }
       ],
-      "verified": true
+      "verified": true,
+      "downloads": 227
     }
-  }
+  },
+  "downloads": 227
 }

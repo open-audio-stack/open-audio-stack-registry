@@ -36,7 +36,8 @@
             ],
             "size": 5066023,
             "type": "archive",
-            "url": "https://github.com/tiagolr/time12/releases/download/v1.2.3/time12-linux-v1.2.3.zip"
+            "url": "https://github.com/tiagolr/time12/releases/download/v1.2.3/time12-linux-v1.2.3.zip",
+            "downloads": 662
           },
           {
             "architectures": [
@@ -55,7 +56,8 @@
             ],
             "size": 12313409,
             "type": "archive",
-            "url": "https://github.com/tiagolr/time12/releases/download/v1.2.3/time12-macos-v1.2.3.zip"
+            "url": "https://github.com/tiagolr/time12/releases/download/v1.2.3/time12-macos-v1.2.3.zip",
+            "downloads": 1664
           },
           {
             "systems": [
@@ -73,10 +75,12 @@
             "type": "archive",
             "size": 5539406,
             "sha256": "b5699e49850826a8279e315d51cc8cf92636fc98d5d649bcfadd7ae026982989",
-            "url": "https://github.com/tiagolr/time12/releases/download/v1.2.3/time12-win-v1.2.3.zip"
+            "url": "https://github.com/tiagolr/time12/releases/download/v1.2.3/time12-win-v1.2.3.zip",
+            "downloads": 3282
           }
         ],
-        "verified": true
+        "verified": true,
+        "downloads": 5608
       },
       "1.2.2": {
         "name": "TIME-12",
@@ -111,7 +115,8 @@
             ],
             "size": 5065935,
             "type": "archive",
-            "url": "https://github.com/tiagolr/time12/releases/download/v1.2.2/time12-linux-v1.2.2.zip"
+            "url": "https://github.com/tiagolr/time12/releases/download/v1.2.2/time12-linux-v1.2.2.zip",
+            "downloads": 356
           },
           {
             "architectures": [
@@ -130,7 +135,8 @@
             ],
             "size": 12313228,
             "type": "archive",
-            "url": "https://github.com/tiagolr/time12/releases/download/v1.2.2/time12-macos-v1.2.2.zip"
+            "url": "https://github.com/tiagolr/time12/releases/download/v1.2.2/time12-macos-v1.2.2.zip",
+            "downloads": 1579
           },
           {
             "systems": [
@@ -148,10 +154,12 @@
             "type": "archive",
             "size": 5544638,
             "sha256": "1c80421cda934a5a0c7f75af427d24358921e182b953ad92a120d19d095f0a4e",
-            "url": "https://github.com/tiagolr/time12/releases/download/v1.2.2/time12-win-v1.2.2.zip"
+            "url": "https://github.com/tiagolr/time12/releases/download/v1.2.2/time12-win-v1.2.2.zip",
+            "downloads": 2555
           }
         ],
-        "verified": true
+        "verified": true,
+        "downloads": 4490
       },
       "1.2.1": {
         "name": "TIME-12",
@@ -186,7 +194,8 @@
             "type": "archive",
             "size": 5065126,
             "sha256": "87c454ad4f1f5637ad9b9811c09602c80a32d38ac16c36aedca7e5a86601a7e1",
-            "url": "https://github.com/tiagolr/time12/releases/download/v1.2.1/time12-linux-v1.2.1.zip"
+            "url": "https://github.com/tiagolr/time12/releases/download/v1.2.1/time12-linux-v1.2.1.zip",
+            "downloads": 52
           },
           {
             "systems": [
@@ -205,7 +214,8 @@
             "type": "archive",
             "size": 12312774,
             "sha256": "405cdc3745cbdb383e70592cc215b7e2cd73c60933ad42d2981fd339e301fedf",
-            "url": "https://github.com/tiagolr/time12/releases/download/v1.2.1/time12-macos-v1.2.1.zip"
+            "url": "https://github.com/tiagolr/time12/releases/download/v1.2.1/time12-macos-v1.2.1.zip",
+            "downloads": 64
           },
           {
             "systems": [
@@ -223,10 +233,12 @@
             "type": "archive",
             "size": 5544660,
             "sha256": "946220e02499551ca10ad6abbf4734acaf2c75936e9ba0c3e8250ef79dab9a51",
-            "url": "https://github.com/tiagolr/time12/releases/download/v1.2.1/time12-win-v1.2.1.zip"
+            "url": "https://github.com/tiagolr/time12/releases/download/v1.2.1/time12-win-v1.2.1.zip",
+            "downloads": 156
           }
         ],
-        "verified": true
+        "verified": true,
+        "downloads": 272
       },
       "1.1.8": {
         "name": "TIME-12",
@@ -261,7 +273,8 @@
             ],
             "size": 5062415,
             "type": "archive",
-            "url": "https://github.com/tiagolr/time12/releases/download/v1.1.8/time12-linux-v1.1.8.zip"
+            "url": "https://github.com/tiagolr/time12/releases/download/v1.1.8/time12-linux-v1.1.8.zip",
+            "downloads": 488
           },
           {
             "architectures": [
@@ -280,7 +293,8 @@
             ],
             "size": 12402163,
             "type": "archive",
-            "url": "https://github.com/tiagolr/time12/releases/download/v1.1.8/time12-macos-v1.1.8.zip"
+            "url": "https://github.com/tiagolr/time12/releases/download/v1.1.8/time12-macos-v1.1.8.zip",
+            "downloads": 863
           },
           {
             "systems": [
@@ -298,12 +312,15 @@
             "type": "archive",
             "size": 5512940,
             "sha256": "74956708450ba450728dbd69400094e1568731c315a41a16b9593f5c689aa7d3",
-            "url": "https://github.com/tiagolr/time12/releases/download/v1.1.8/time12-win-v1.1.8.zip"
+            "url": "https://github.com/tiagolr/time12/releases/download/v1.1.8/time12-win-v1.1.8.zip",
+            "downloads": 2281
           }
         ],
-        "verified": true
+        "verified": true,
+        "downloads": 3632
       }
-    }
+    },
+    "downloads": 14002
   },
   "tiagolr/tetraop": {
     "slug": "tiagolr/tetraop",
@@ -341,7 +358,8 @@
             "type": "archive",
             "size": 9680499,
             "sha256": "4f304e5ac4275ecfbcc625acfd8dc7a0f6a5ae3553389ecd5af00d27da34b540",
-            "url": "https://github.com/tiagolr/tetraop/releases/download/v1.0.3/tetraop-linux-v1.0.3.zip"
+            "url": "https://github.com/tiagolr/tetraop/releases/download/v1.0.3/tetraop-linux-v1.0.3.zip",
+            "downloads": 156
           },
           {
             "systems": [
@@ -360,7 +378,8 @@
             "type": "archive",
             "size": 14022185,
             "sha256": "63408008a2316d91435473e725be1e5958723873ab111a44eea51f24465b9b94",
-            "url": "https://github.com/tiagolr/tetraop/releases/download/v1.0.3/tetraop-macos-v1.0.3.zip"
+            "url": "https://github.com/tiagolr/tetraop/releases/download/v1.0.3/tetraop-macos-v1.0.3.zip",
+            "downloads": 257
           },
           {
             "systems": [
@@ -377,7 +396,8 @@
             "type": "archive",
             "size": 7143966,
             "sha256": "74353dc437c736b6d27f41ec03180febaa071d0ce68ba8edf7261a0c6031eb45",
-            "url": "https://github.com/tiagolr/tetraop/releases/download/v1.0.3/tetraop-win-v1.0.3.zip"
+            "url": "https://github.com/tiagolr/tetraop/releases/download/v1.0.3/tetraop-win-v1.0.3.zip",
+            "downloads": 428
           },
           {
             "systems": [
@@ -394,12 +414,15 @@
             "type": "installer",
             "size": 7209321,
             "sha256": "be1f9e0104c35518a468ebed2380bf45aa7ad8d1a89c16f05082e294ca469869",
-            "url": "https://github.com/tiagolr/tetraop/releases/download/v1.0.3/tetraop-win64-1.0.3-setup.exe"
+            "url": "https://github.com/tiagolr/tetraop/releases/download/v1.0.3/tetraop-win64-1.0.3-setup.exe",
+            "downloads": 399
           }
         ],
-        "verified": true
+        "verified": true,
+        "downloads": 1240
       }
-    }
+    },
+    "downloads": 1240
   },
   "tiagolr/sirial": {
     "slug": "tiagolr/sirial",
@@ -436,7 +459,8 @@
             "type": "archive",
             "size": 4959438,
             "sha256": "4937c3c27ba4ffe41a76de4d5020ba4923ac828e6916258916fe329335c4aeff",
-            "url": "https://github.com/tiagolr/sirial/releases/download/v1.1.1/sirial-linux-v1.1.1.zip"
+            "url": "https://github.com/tiagolr/sirial/releases/download/v1.1.1/sirial-linux-v1.1.1.zip",
+            "downloads": 474
           },
           {
             "systems": [
@@ -455,7 +479,8 @@
             "type": "archive",
             "size": 7853482,
             "sha256": "8b824a76797d7d4310f673818c7794cf958215e435b35b4396db6beaa0a871fa",
-            "url": "https://github.com/tiagolr/sirial/releases/download/v1.1.1/sirial-macos-v1.1.1.zip"
+            "url": "https://github.com/tiagolr/sirial/releases/download/v1.1.1/sirial-macos-v1.1.1.zip",
+            "downloads": 834
           },
           {
             "systems": [
@@ -472,12 +497,15 @@
             "type": "archive",
             "size": 2766466,
             "sha256": "6b3f2b96511269ad1f5c3176d999ba3bd30f236fa98ac3dae537df12e3097997",
-            "url": "https://github.com/tiagolr/sirial/releases/download/v1.1.1/sirial-win-v1.1.1.zip"
+            "url": "https://github.com/tiagolr/sirial/releases/download/v1.1.1/sirial-win-v1.1.1.zip",
+            "downloads": 2204
           }
         ],
-        "verified": true
+        "verified": true,
+        "downloads": 3512
       }
-    }
+    },
+    "downloads": 3512
   },
   "tiagolr/ripplerx": {
     "slug": "tiagolr/ripplerx",
@@ -514,7 +542,8 @@
             "type": "archive",
             "size": 6379092,
             "sha256": "3b8ab9add298d2c77a1f81b6b63e4a668a79bf7f1b67edb063165010c9bec166",
-            "url": "https://github.com/tiagolr/ripplerx/releases/download/v1.5.19/ripplerx-linux-v1.5.19.zip"
+            "url": "https://github.com/tiagolr/ripplerx/releases/download/v1.5.19/ripplerx-linux-v1.5.19.zip",
+            "downloads": 172
           },
           {
             "systems": [
@@ -534,7 +563,8 @@
             "type": "archive",
             "size": 15634131,
             "sha256": "24189919de96d6e5a4b80343ab4b664dc7ad5f7f049a06336da34559e4ddddbe",
-            "url": "https://github.com/tiagolr/ripplerx/releases/download/v1.5.19/ripplerx-macos-v1.5.19.zip"
+            "url": "https://github.com/tiagolr/ripplerx/releases/download/v1.5.19/ripplerx-macos-v1.5.19.zip",
+            "downloads": 185
           },
           {
             "systems": [
@@ -552,12 +582,15 @@
             "type": "archive",
             "size": 6929945,
             "sha256": "517c0e99f3ff37cf7b3941ed9afbece1423a0da69d70a9dd8076a473d630a50d",
-            "url": "https://github.com/tiagolr/ripplerx/releases/download/v1.5.19/ripplerx-win-v1.5.19.zip"
+            "url": "https://github.com/tiagolr/ripplerx/releases/download/v1.5.19/ripplerx-win-v1.5.19.zip",
+            "downloads": 387
           }
         ],
-        "verified": true
+        "verified": true,
+        "downloads": 744
       }
-    }
+    },
+    "downloads": 744
   },
   "tiagolr/reevr": {
     "slug": "tiagolr/reevr",
@@ -596,7 +629,8 @@
             ],
             "size": 7549063,
             "type": "archive",
-            "url": "https://github.com/tiagolr/reevr/releases/download/v1.4.0/reevr-linux-v1.4.0.zip"
+            "url": "https://github.com/tiagolr/reevr/releases/download/v1.4.0/reevr-linux-v1.4.0.zip",
+            "downloads": 641
           },
           {
             "architectures": [
@@ -615,7 +649,8 @@
             ],
             "size": 19300930,
             "type": "archive",
-            "url": "https://github.com/tiagolr/reevr/releases/download/v1.4.0/reevr-macos-v1.4.0.zip"
+            "url": "https://github.com/tiagolr/reevr/releases/download/v1.4.0/reevr-macos-v1.4.0.zip",
+            "downloads": 601
           },
           {
             "systems": [
@@ -633,10 +668,12 @@
             "type": "archive",
             "size": 7730204,
             "sha256": "d22f2c2421f4d3b52040bad8878ec37c96f1c69413f231f689769833dfffb864",
-            "url": "https://github.com/tiagolr/reevr/releases/download/v1.4.0/reevr-win-v1.4.0.zip"
+            "url": "https://github.com/tiagolr/reevr/releases/download/v1.4.0/reevr-win-v1.4.0.zip",
+            "downloads": 1533
           }
         ],
-        "verified": true
+        "verified": true,
+        "downloads": 2775
       },
       "1.3.2": {
         "name": "REEV-R",
@@ -671,7 +708,8 @@
             "type": "archive",
             "size": 7514491,
             "sha256": "62e2caccbf9ae7c8d76797292f707df555ea4e15c21e11ff4bdbb55ac9d79184",
-            "url": "https://github.com/tiagolr/reevr/releases/download/v1.3.2/reevr-linux-v1.3.2.zip"
+            "url": "https://github.com/tiagolr/reevr/releases/download/v1.3.2/reevr-linux-v1.3.2.zip",
+            "downloads": 151
           },
           {
             "systems": [
@@ -690,7 +728,8 @@
             "type": "archive",
             "size": 19233457,
             "sha256": "e0b8b51f819693c43faa1f46730b329f3f12ed392a52b482427b319e4c8f3e96",
-            "url": "https://github.com/tiagolr/reevr/releases/download/v1.3.2/reevr-macos-v1.3.2.zip"
+            "url": "https://github.com/tiagolr/reevr/releases/download/v1.3.2/reevr-macos-v1.3.2.zip",
+            "downloads": 289
           },
           {
             "systems": [
@@ -708,10 +747,12 @@
             "type": "archive",
             "size": 7707968,
             "sha256": "2a820f123b1e959bb5604dc3ceb315dcd590dcdaf1237caf9f6efed5685024e5",
-            "url": "https://github.com/tiagolr/reevr/releases/download/v1.3.2/reevr-win-v1.3.2.zip"
+            "url": "https://github.com/tiagolr/reevr/releases/download/v1.3.2/reevr-win-v1.3.2.zip",
+            "downloads": 722
           }
         ],
-        "verified": true
+        "verified": true,
+        "downloads": 1162
       },
       "1.0.2": {
         "name": "REEV-R",
@@ -746,7 +787,8 @@
             ],
             "size": 6746832,
             "type": "archive",
-            "url": "https://github.com/tiagolr/reevr/releases/download/v1.0.2/reevr-linux-v1.0.2.zip"
+            "url": "https://github.com/tiagolr/reevr/releases/download/v1.0.2/reevr-linux-v1.0.2.zip",
+            "downloads": 771
           },
           {
             "architectures": [
@@ -765,7 +807,8 @@
             ],
             "size": 17150475,
             "type": "archive",
-            "url": "https://github.com/tiagolr/reevr/releases/download/v1.0.2/reevr-macos-v1.0.2.zip"
+            "url": "https://github.com/tiagolr/reevr/releases/download/v1.0.2/reevr-macos-v1.0.2.zip",
+            "downloads": 1154
           },
           {
             "systems": [
@@ -783,12 +826,15 @@
             "type": "archive",
             "size": 6938907,
             "sha256": "9c3ebb5e586c56b75b8a20cd51b0e1010bf99e1b934eae56c3f566dc0f35e229",
-            "url": "https://github.com/tiagolr/reevr/releases/download/v1.0.2/reevr-win-v1.0.2.zip"
+            "url": "https://github.com/tiagolr/reevr/releases/download/v1.0.2/reevr-win-v1.0.2.zip",
+            "downloads": 3476
           }
         ],
-        "verified": true
+        "verified": true,
+        "downloads": 5401
       }
-    }
+    },
+    "downloads": 9338
   },
   "tiagolr/qdelay": {
     "slug": "tiagolr/qdelay",
@@ -832,7 +878,8 @@
             ],
             "size": 5451971,
             "type": "archive",
-            "url": "https://github.com/tiagolr/qdelay/releases/download/v1.1.2/qdelay-linux-v1.1.2.zip"
+            "url": "https://github.com/tiagolr/qdelay/releases/download/v1.1.2/qdelay-linux-v1.1.2.zip",
+            "downloads": 479
           },
           {
             "architectures": [
@@ -851,7 +898,8 @@
             ],
             "size": 8795936,
             "type": "archive",
-            "url": "https://github.com/tiagolr/qdelay/releases/download/v1.1.2/qdelay-macos-v1.1.2.zip"
+            "url": "https://github.com/tiagolr/qdelay/releases/download/v1.1.2/qdelay-macos-v1.1.2.zip",
+            "downloads": 435
           },
           {
             "architectures": [
@@ -868,10 +916,12 @@
             ],
             "size": 3341979,
             "type": "archive",
-            "url": "https://github.com/tiagolr/qdelay/releases/download/v1.1.2/qdelay-win-v1.1.2.zip"
+            "url": "https://github.com/tiagolr/qdelay/releases/download/v1.1.2/qdelay-win-v1.1.2.zip",
+            "downloads": 1184
           }
         ],
-        "verified": true
+        "verified": true,
+        "downloads": 2098
       },
       "1.1.1": {
         "name": "QDelay",
@@ -911,7 +961,8 @@
             "type": "archive",
             "size": 5453123,
             "sha256": "d0382092c65ca3f74b2112e9a49f31950f67f8dfd1df368f80c5192a3e12a680",
-            "url": "https://github.com/tiagolr/qdelay/releases/download/v1.1.1/qdelay-linux-v1.1.1.zip"
+            "url": "https://github.com/tiagolr/qdelay/releases/download/v1.1.1/qdelay-linux-v1.1.1.zip",
+            "downloads": 38
           },
           {
             "systems": [
@@ -930,7 +981,8 @@
             "type": "archive",
             "size": 8795400,
             "sha256": "d622d42e821759f842353b6ecc1381a9d0079b5a50a44bce4acf6ded8b842fe4",
-            "url": "https://github.com/tiagolr/qdelay/releases/download/v1.1.1/qdelay-macos-v1.1.1.zip"
+            "url": "https://github.com/tiagolr/qdelay/releases/download/v1.1.1/qdelay-macos-v1.1.1.zip",
+            "downloads": 47
           },
           {
             "systems": [
@@ -947,10 +999,12 @@
             "type": "archive",
             "size": 3343884,
             "sha256": "540f739d674de08df4c81a2ecdbdef3dabf82b66dab096fc77f50644c85b7fea",
-            "url": "https://github.com/tiagolr/qdelay/releases/download/v1.1.1/qdelay-win-v1.1.1.zip"
+            "url": "https://github.com/tiagolr/qdelay/releases/download/v1.1.1/qdelay-win-v1.1.1.zip",
+            "downloads": 110
           }
         ],
-        "verified": true
+        "verified": true,
+        "downloads": 195
       },
       "1.0.3": {
         "name": "QDelay",
@@ -990,7 +1044,8 @@
             ],
             "size": 5321492,
             "type": "archive",
-            "url": "https://github.com/tiagolr/qdelay/releases/download/v1.0.3/qdelay-linux-v1.0.3.zip"
+            "url": "https://github.com/tiagolr/qdelay/releases/download/v1.0.3/qdelay-linux-v1.0.3.zip",
+            "downloads": 55
           },
           {
             "architectures": [
@@ -1009,7 +1064,8 @@
             ],
             "size": 8555288,
             "type": "archive",
-            "url": "https://github.com/tiagolr/qdelay/releases/download/v1.0.3/qdelay-macos-v1.0.3.zip"
+            "url": "https://github.com/tiagolr/qdelay/releases/download/v1.0.3/qdelay-macos-v1.0.3.zip",
+            "downloads": 173
           },
           {
             "architectures": [
@@ -1026,12 +1082,15 @@
             ],
             "size": 3313447,
             "type": "archive",
-            "url": "https://github.com/tiagolr/qdelay/releases/download/v1.0.3/qdelay-win-v1.0.3.zip"
+            "url": "https://github.com/tiagolr/qdelay/releases/download/v1.0.3/qdelay-win-v1.0.3.zip",
+            "downloads": 516
           }
         ],
-        "verified": true
+        "verified": true,
+        "downloads": 744
       }
-    }
+    },
+    "downloads": 3037
   },
   "tiagolr/gate12": {
     "slug": "tiagolr/gate12",
@@ -1069,7 +1128,8 @@
             ],
             "size": 5135883,
             "type": "archive",
-            "url": "https://github.com/tiagolr/gate12/releases/download/v1.3.3/gate12-linux-v1.3.3.zip"
+            "url": "https://github.com/tiagolr/gate12/releases/download/v1.3.3/gate12-linux-v1.3.3.zip",
+            "downloads": 570
           },
           {
             "architectures": [
@@ -1088,7 +1148,8 @@
             ],
             "size": 12505885,
             "type": "archive",
-            "url": "https://github.com/tiagolr/gate12/releases/download/v1.3.3/gate12-macos-v1.3.3.zip"
+            "url": "https://github.com/tiagolr/gate12/releases/download/v1.3.3/gate12-macos-v1.3.3.zip",
+            "downloads": 691
           },
           {
             "systems": [
@@ -1106,10 +1167,12 @@
             "type": "archive",
             "size": 6383770,
             "sha256": "93b1056a40a341452804260a165ce9ce0feaad65eedbcf192319910671f54cf5",
-            "url": "https://github.com/tiagolr/gate12/releases/download/v1.3.3/gate12-win-v1.3.3.zip"
+            "url": "https://github.com/tiagolr/gate12/releases/download/v1.3.3/gate12-win-v1.3.3.zip",
+            "downloads": 1853
           }
         ],
-        "verified": true
+        "verified": true,
+        "downloads": 3114
       },
       "1.3.2": {
         "name": "GATE-12",
@@ -1143,7 +1206,8 @@
             ],
             "size": 5136066,
             "type": "archive",
-            "url": "https://github.com/tiagolr/gate12/releases/download/v1.3.2/gate12-linux-v1.3.2.zip"
+            "url": "https://github.com/tiagolr/gate12/releases/download/v1.3.2/gate12-linux-v1.3.2.zip",
+            "downloads": 16
           },
           {
             "architectures": [
@@ -1162,7 +1226,8 @@
             ],
             "size": 12504581,
             "type": "archive",
-            "url": "https://github.com/tiagolr/gate12/releases/download/v1.3.2/gate12-macos-v1.3.2.zip"
+            "url": "https://github.com/tiagolr/gate12/releases/download/v1.3.2/gate12-macos-v1.3.2.zip",
+            "downloads": 14
           },
           {
             "systems": [
@@ -1180,10 +1245,12 @@
             "type": "archive",
             "size": 6383922,
             "sha256": "18135fe98d46ac359bf73d7d1929e9141a151663afd7f29479def5c44d85b78f",
-            "url": "https://github.com/tiagolr/gate12/releases/download/v1.3.2/gate12-win-v1.3.2.zip"
+            "url": "https://github.com/tiagolr/gate12/releases/download/v1.3.2/gate12-win-v1.3.2.zip",
+            "downloads": 44
           }
         ],
-        "verified": true
+        "verified": true,
+        "downloads": 74
       },
       "1.3.1": {
         "name": "GATE-12",
@@ -1217,7 +1284,8 @@
             "type": "archive",
             "size": 5126469,
             "sha256": "dc7d18405b87e526a20340c02194a73c2249164ae595fb59f0c80132d5151c48",
-            "url": "https://github.com/tiagolr/gate12/releases/download/v1.3.1/gate12-linux-v1.3.1.zip"
+            "url": "https://github.com/tiagolr/gate12/releases/download/v1.3.1/gate12-linux-v1.3.1.zip",
+            "downloads": 13
           },
           {
             "systems": [
@@ -1236,7 +1304,8 @@
             "type": "archive",
             "size": 12487686,
             "sha256": "488130fc924a0caea7fc1c5ed9a6d77f4dfbbba01f03d21d1a0ea4420f44d9a9",
-            "url": "https://github.com/tiagolr/gate12/releases/download/v1.3.1/gate12-macos-v1.3.1.zip"
+            "url": "https://github.com/tiagolr/gate12/releases/download/v1.3.1/gate12-macos-v1.3.1.zip",
+            "downloads": 18
           },
           {
             "systems": [
@@ -1254,10 +1323,12 @@
             "type": "archive",
             "size": 6382232,
             "sha256": "b5bd7c47c1ce4da61c67dcb9e8ce581c63124688010889a713219fc22a727fcb",
-            "url": "https://github.com/tiagolr/gate12/releases/download/v1.3.1/gate12-win-v1.3.1.zip"
+            "url": "https://github.com/tiagolr/gate12/releases/download/v1.3.1/gate12-win-v1.3.1.zip",
+            "downloads": 29
           }
         ],
-        "verified": true
+        "verified": true,
+        "downloads": 60
       },
       "1.1.8": {
         "name": "GATE-12",
@@ -1291,7 +1362,8 @@
             ],
             "size": 5058513,
             "type": "archive",
-            "url": "https://github.com/tiagolr/gate12/releases/download/v1.1.8/gate12-linux-v1.1.8.zip"
+            "url": "https://github.com/tiagolr/gate12/releases/download/v1.1.8/gate12-linux-v1.1.8.zip",
+            "downloads": 452
           },
           {
             "architectures": [
@@ -1310,7 +1382,8 @@
             ],
             "size": 12375325,
             "type": "archive",
-            "url": "https://github.com/tiagolr/gate12/releases/download/v1.1.8/gate12-macos-v1.1.8.zip"
+            "url": "https://github.com/tiagolr/gate12/releases/download/v1.1.8/gate12-macos-v1.1.8.zip",
+            "downloads": 749
           },
           {
             "systems": [
@@ -1328,12 +1401,15 @@
             "type": "archive",
             "size": 5504311,
             "sha256": "a40896657890c5ca94db5c188d7fbb038a363c65d2a16a79fc69fb309ccd827f",
-            "url": "https://github.com/tiagolr/gate12/releases/download/v1.1.8/gate12-win-v1.1.8.zip"
+            "url": "https://github.com/tiagolr/gate12/releases/download/v1.1.8/gate12-win-v1.1.8.zip",
+            "downloads": 1986
           }
         ],
-        "verified": true
+        "verified": true,
+        "downloads": 3187
       }
-    }
+    },
+    "downloads": 6435
   },
   "tiagolr/filtr": {
     "slug": "tiagolr/filtr",
@@ -1372,7 +1448,8 @@
             ],
             "size": 5311016,
             "type": "archive",
-            "url": "https://github.com/tiagolr/filtr/releases/download/v1.1.0/filtr-linux-v1.1.0.zip"
+            "url": "https://github.com/tiagolr/filtr/releases/download/v1.1.0/filtr-linux-v1.1.0.zip",
+            "downloads": 547
           },
           {
             "architectures": [
@@ -1391,7 +1468,8 @@
             ],
             "size": 12946282,
             "type": "archive",
-            "url": "https://github.com/tiagolr/filtr/releases/download/v1.1.0/filtr-macos-v1.1.0.zip"
+            "url": "https://github.com/tiagolr/filtr/releases/download/v1.1.0/filtr-macos-v1.1.0.zip",
+            "downloads": 689
           },
           {
             "systems": [
@@ -1409,10 +1487,12 @@
             "type": "archive",
             "size": 6496292,
             "sha256": "67981cf69f2ad5f95e49888db67f80bcb4eb8fa3f14da636222f1bde1b52a4f3",
-            "url": "https://github.com/tiagolr/filtr/releases/download/v1.1.0/filtr-win-v1.1.0.zip"
+            "url": "https://github.com/tiagolr/filtr/releases/download/v1.1.0/filtr-win-v1.1.0.zip",
+            "downloads": 1844
           }
         ],
-        "verified": true
+        "verified": true,
+        "downloads": 3080
       },
       "1.0.9": {
         "name": "FILT-R",
@@ -1447,7 +1527,8 @@
             ],
             "size": 5306308,
             "type": "archive",
-            "url": "https://github.com/tiagolr/filtr/releases/download/v1.0.9/filtr-linux-v1.0.9.zip"
+            "url": "https://github.com/tiagolr/filtr/releases/download/v1.0.9/filtr-linux-v1.0.9.zip",
+            "downloads": 471
           },
           {
             "architectures": [
@@ -1466,7 +1547,8 @@
             ],
             "size": 13063606,
             "type": "archive",
-            "url": "https://github.com/tiagolr/filtr/releases/download/v1.0.9/filtr-macos-v1.0.9.zip"
+            "url": "https://github.com/tiagolr/filtr/releases/download/v1.0.9/filtr-macos-v1.0.9.zip",
+            "downloads": 607
           },
           {
             "systems": [
@@ -1484,11 +1566,14 @@
             "type": "archive",
             "size": 6467999,
             "sha256": "fb80afe8cf8641427864a4b985aa56e737e69a4f42e5c6f866d6bf92ae41eeef",
-            "url": "https://github.com/tiagolr/filtr/releases/download/v1.0.9/filtr-win-v1.0.9.zip"
+            "url": "https://github.com/tiagolr/filtr/releases/download/v1.0.9/filtr-win-v1.0.9.zip",
+            "downloads": 1735
           }
         ],
-        "verified": true
+        "verified": true,
+        "downloads": 2813
       }
-    }
+    },
+    "downloads": 5893
   }
 }

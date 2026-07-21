@@ -34,7 +34,8 @@
           "type": "archive",
           "size": 5405664,
           "sha256": "e70286c32a5da106a880063a4c0f280469e220eaec6e28741aab77e94267ae81",
-          "url": "https://github.com/AustrianAudioGmbH/StereoCreator/releases/download/v3.0.0/StereoCreator3-3.0.0-Linux.zip"
+          "url": "https://github.com/AustrianAudioGmbH/StereoCreator/releases/download/v3.0.0/StereoCreator3-3.0.0-Linux.zip",
+          "downloads": 3
         },
         {
           "systems": [
@@ -52,10 +53,13 @@
           "type": "installer",
           "size": 6299210,
           "sha256": "4623b09c7064b79992f17e798d12c4a954be8edccf36cbb4868b5d358122dabd",
-          "url": "https://github.com/AustrianAudioGmbH/StereoCreator/releases/download/v3.0.0/StereoCreator3-3.0.0-Windows.exe"
+          "url": "https://github.com/AustrianAudioGmbH/StereoCreator/releases/download/v3.0.0/StereoCreator3-3.0.0-Windows.exe",
+          "downloads": 2
         }
       ],
-      "verified": true
+      "verified": true,
+      "downloads": 5
     }
-  }
+  },
+  "downloads": 5
 }

@@ -36,7 +36,8 @@
           "type": "installer",
           "size": 42790386,
           "sha256": "68684f39a5806de4ee1deb3aa3aba8f5f63985691afd6bc592d543140774e25e",
-          "url": "https://github.com/FigBug/SID/releases/download/v1.1.5/SID.deb"
+          "url": "https://github.com/FigBug/SID/releases/download/v1.1.5/SID.deb",
+          "downloads": 10
         },
         {
           "systems": [
@@ -55,7 +56,8 @@
           "type": "installer",
           "size": 7363688,
           "sha256": "cc1bf87daed0276cca5c2481690ea7b08f61f187e7cfd946291b385c584cee79",
-          "url": "https://github.com/FigBug/SID/releases/download/v1.1.5/SID.exe"
+          "url": "https://github.com/FigBug/SID/releases/download/v1.1.5/SID.exe",
+          "downloads": 13
         },
         {
           "systems": [
@@ -76,10 +78,13 @@
           "type": "installer",
           "size": 47523984,
           "sha256": "4c9ce63e97b588d21fc33853ea0524cdf60846862335d43dfed5f413413fa596",
-          "url": "https://github.com/FigBug/SID/releases/download/v1.1.5/SID.pkg"
+          "url": "https://github.com/FigBug/SID/releases/download/v1.1.5/SID.pkg",
+          "downloads": 12
         }
       ],
-      "verified": true
+      "verified": true,
+      "downloads": 35
     }
-  }
+  },
+  "downloads": 35
 }

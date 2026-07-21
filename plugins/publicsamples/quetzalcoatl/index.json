@@ -36,7 +36,8 @@
           "type": "archive",
           "size": 506702148,
           "sha256": "f9b7a60728ece3ddcf13864ce57a154e85bf2f9b70970ada79d7427593550218",
-          "url": "https://github.com/publicsamples/Quetzalcoatl/releases/download/0.8.7/Quetzalcoatl-Linux.VST3.tar.xz"
+          "url": "https://github.com/publicsamples/Quetzalcoatl/releases/download/0.8.7/Quetzalcoatl-Linux.VST3.tar.xz",
+          "downloads": 261
         },
         {
           "systems": [
@@ -54,7 +55,8 @@
           "type": "archive",
           "size": 978422404,
           "sha256": "9dca0087f939e3641a67b3141675e1b4b6d51e03d39a95afddde7baec6cdd80a",
-          "url": "https://github.com/publicsamples/Quetzalcoatl/releases/download/0.8.7/Quetzalcoatl.Mac.VST3.AU.zip"
+          "url": "https://github.com/publicsamples/Quetzalcoatl/releases/download/0.8.7/Quetzalcoatl.Mac.VST3.AU.zip",
+          "downloads": 566
         },
         {
           "systems": [
@@ -71,10 +73,13 @@
           "type": "archive",
           "size": 518146320,
           "sha256": "3909c98e0c9bf8bcc7c432bfa2fdefd8159eb921e79dfa61b8cfc25b2b5c841e",
-          "url": "https://github.com/publicsamples/Quetzalcoatl/releases/download/0.8.7/Quetzalcoatl.Win.VST3.zip"
+          "url": "https://github.com/publicsamples/Quetzalcoatl/releases/download/0.8.7/Quetzalcoatl.Win.VST3.zip",
+          "downloads": 1461
         }
       ],
-      "verified": true
+      "verified": true,
+      "downloads": 2288
     }
-  }
+  },
+  "downloads": 2288
 }

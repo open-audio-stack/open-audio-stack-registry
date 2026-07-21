@@ -33,7 +33,8 @@
           "type": "installer",
           "size": 5438390,
           "sha256": "afd74e0955f0a41f30cf473b54849c0f83da2490746740f36c3be888cd317f07",
-          "url": "https://github.com/killbizz/Biztortion/releases/download/v1.0.0/Biztortion_MacOS_Setup.pkg"
+          "url": "https://github.com/killbizz/Biztortion/releases/download/v1.0.0/Biztortion_MacOS_Setup.pkg",
+          "downloads": 64
         },
         {
           "systems": [
@@ -52,10 +53,13 @@
           "type": "installer",
           "size": 7535739,
           "sha256": "f45b5d509356d6332c403b777bc51d66079a5ed157fe9890e52a4d6cf0c5719e",
-          "url": "https://github.com/killbizz/Biztortion/releases/download/v1.0.0/Biztortion_Windows_Setup.exe"
+          "url": "https://github.com/killbizz/Biztortion/releases/download/v1.0.0/Biztortion_Windows_Setup.exe",
+          "downloads": 189
         }
       ],
-      "verified": true
+      "verified": true,
+      "downloads": 253
     }
-  }
+  },
+  "downloads": 253
 }

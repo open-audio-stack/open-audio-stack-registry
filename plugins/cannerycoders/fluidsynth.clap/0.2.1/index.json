@@ -28,7 +28,8 @@
       "type": "installer",
       "size": 773471,
       "sha256": "38bd8a3d969f495ea1da1f27b2b4749e54b1cbc3f5ab73d752860d0485d3c030",
-      "url": "https://github.com/cannerycoders/fluidsynth.clap/releases/download/v0.2.1/FluidSynth.clap.clang-arm64-darwin.dmg"
+      "url": "https://github.com/cannerycoders/fluidsynth.clap/releases/download/v0.2.1/FluidSynth.clap.clang-arm64-darwin.dmg",
+      "downloads": 25
     },
     {
       "systems": [
@@ -45,7 +46,8 @@
       "type": "archive",
       "size": 1085329,
       "sha256": "85364abaf82b0a70750a63f7bcf298fc0161d3ba9df063c14ac51ac15cf2591e",
-      "url": "https://github.com/cannerycoders/fluidsynth.clap/releases/download/v0.2.1/FluidSynth.clap.gcc83-x64-linux.zip"
+      "url": "https://github.com/cannerycoders/fluidsynth.clap/releases/download/v0.2.1/FluidSynth.clap.gcc83-x64-linux.zip",
+      "downloads": 119
     },
     {
       "systems": [
@@ -62,8 +64,10 @@
       "type": "archive",
       "size": 2799867,
       "sha256": "2da84ddd1f086fac1167c3d5df5960f605788216e3bb8a90e65867314ac00f87",
-      "url": "https://github.com/cannerycoders/fluidsynth.clap/releases/download/v0.2.1/FluidSynth.clap.vs22-x86_64-win32.zip"
+      "url": "https://github.com/cannerycoders/fluidsynth.clap/releases/download/v0.2.1/FluidSynth.clap.vs22-x86_64-win32.zip",
+      "downloads": 65
     }
   ],
-  "verified": true
+  "verified": true,
+  "downloads": 209
 }

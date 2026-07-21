@@ -35,7 +35,8 @@
             "type": "installer",
             "size": 18435909,
             "sha256": "ae5a147d2e4ad93a8b0b51a470789622fca343e6fe3dfd56b264cda11faa10f0",
-            "url": "https://github.com/Tr3m/nam-juce/releases/download/v0.4.0/NeuralAmpModeler-v0.4.0-mac-Intel.dmg"
+            "url": "https://github.com/Tr3m/nam-juce/releases/download/v0.4.0/NeuralAmpModeler-v0.4.0-mac-Intel.dmg",
+            "downloads": 79
           },
           {
             "systems": [
@@ -53,7 +54,8 @@
             "type": "installer",
             "size": 17983461,
             "sha256": "c04fcd47ccabff2e51cf8dc3e0fda8dab27fb108bac086831b8ec9d73cfc3cae",
-            "url": "https://github.com/Tr3m/nam-juce/releases/download/v0.4.0/NeuralAmpModeler-v0.4.0-mac-M1.dmg"
+            "url": "https://github.com/Tr3m/nam-juce/releases/download/v0.4.0/NeuralAmpModeler-v0.4.0-mac-M1.dmg",
+            "downloads": 86
           },
           {
             "systems": [
@@ -70,11 +72,14 @@
             "type": "archive",
             "size": 11227548,
             "sha256": "5ff92b965c69fd828d23beed0fed847378cb5c0895fd944083c6d080945c6108",
-            "url": "https://github.com/Tr3m/nam-juce/releases/download/v0.4.0/NeuralAmpModeler-v0.4.0-win.zip"
+            "url": "https://github.com/Tr3m/nam-juce/releases/download/v0.4.0/NeuralAmpModeler-v0.4.0-win.zip",
+            "downloads": 416
           }
         ],
-        "verified": true
+        "verified": true,
+        "downloads": 581
       }
-    }
+    },
+    "downloads": 581
   }
 }

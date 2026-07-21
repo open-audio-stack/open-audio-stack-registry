@@ -31,7 +31,8 @@
       ],
       "size": 3014420,
       "type": "archive",
-      "url": "https://github.com/ArborealAudio/STR-X/releases/download/v1.2.1/STR-X-linux.tar.xz"
+      "url": "https://github.com/ArborealAudio/STR-X/releases/download/v1.2.1/STR-X-linux.tar.xz",
+      "downloads": 88
     },
     {
       "architectures": [
@@ -50,7 +51,8 @@
       ],
       "size": 13072806,
       "type": "installer",
-      "url": "https://github.com/ArborealAudio/STR-X/releases/download/v1.2.1/STR-X-mac.dmg"
+      "url": "https://github.com/ArborealAudio/STR-X/releases/download/v1.2.1/STR-X-mac.dmg",
+      "downloads": 43
     },
     {
       "architectures": [
@@ -69,8 +71,10 @@
       ],
       "size": 4622210,
       "type": "installer",
-      "url": "https://github.com/ArborealAudio/STR-X/releases/download/v1.2.1/STR-X-windows.exe"
+      "url": "https://github.com/ArborealAudio/STR-X/releases/download/v1.2.1/STR-X-windows.exe",
+      "downloads": 161
     }
   ],
-  "verified": true
+  "verified": true,
+  "downloads": 292
 }

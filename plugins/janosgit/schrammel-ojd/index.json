@@ -34,7 +34,8 @@
           "type": "installer",
           "size": 12485414,
           "sha256": "8f1892bd7c107fdb745287b3dcfe98d631ce704c50fd7f72234f361cf6b928d3",
-          "url": "https://github.com/JanosGit/Schrammel_OJD/releases/download/0.9.8/Install.OJD.0.9.8.dmg"
+          "url": "https://github.com/JanosGit/Schrammel_OJD/releases/download/0.9.8/Install.OJD.0.9.8.dmg",
+          "downloads": 76
         },
         {
           "systems": [
@@ -51,10 +52,13 @@
           "type": "installer",
           "size": 28174274,
           "sha256": "9548496fdec20fb6cc7a5abe33331bff91dff8379fc59e7c6625cb5032fc86d0",
-          "url": "https://github.com/JanosGit/Schrammel_OJD/releases/download/0.9.8/Install.OJD.0.9.8.exe"
+          "url": "https://github.com/JanosGit/Schrammel_OJD/releases/download/0.9.8/Install.OJD.0.9.8.exe",
+          "downloads": 242
         }
       ],
-      "verified": true
+      "verified": true,
+      "downloads": 318
     }
-  }
+  },
+  "downloads": 318
 }

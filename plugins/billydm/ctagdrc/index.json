@@ -34,7 +34,8 @@
           ],
           "size": 7365964,
           "type": "archive",
-          "url": "https://github.com/BillyDM/CTAGDRC/releases/download/v1.1.0/CTAGDRC-1.1.0-Linux.zip"
+          "url": "https://github.com/BillyDM/CTAGDRC/releases/download/v1.1.0/CTAGDRC-1.1.0-Linux.zip",
+          "downloads": 170
         },
         {
           "architectures": [
@@ -54,7 +55,8 @@
           ],
           "size": 16501299,
           "type": "archive",
-          "url": "https://github.com/BillyDM/CTAGDRC/releases/download/v1.1.0/CTAGDRC-1.1.0-macOS.pkg"
+          "url": "https://github.com/BillyDM/CTAGDRC/releases/download/v1.1.0/CTAGDRC-1.1.0-macOS.pkg",
+          "downloads": 23
         },
         {
           "architectures": [
@@ -73,10 +75,13 @@
           ],
           "size": 8376369,
           "type": "installer",
-          "url": "https://github.com/BillyDM/CTAGDRC/releases/download/v1.1.0/CTAGDRC-1.1.0-Windows.exe"
+          "url": "https://github.com/BillyDM/CTAGDRC/releases/download/v1.1.0/CTAGDRC-1.1.0-Windows.exe",
+          "downloads": 75
         }
       ],
-      "verified": true
+      "verified": true,
+      "downloads": 268
     }
-  }
+  },
+  "downloads": 268
 }

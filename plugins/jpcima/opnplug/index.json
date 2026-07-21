@@ -36,7 +36,8 @@
           "type": "installer",
           "size": 3876232,
           "sha256": "284fb7271dbdf399d3bc06464bf06726fa97554becfecf3b998615cf976e0fc6",
-          "url": "https://github.com/jpcima/ADLplug/releases/download/v1.0.2/opnplug_amd64.deb"
+          "url": "https://github.com/jpcima/ADLplug/releases/download/v1.0.2/opnplug_amd64.deb",
+          "downloads": 578
         },
         {
           "systems": [
@@ -58,7 +59,8 @@
           "type": "archive",
           "size": 10965202,
           "sha256": "f874683fd0899fd83e9bc7568aa0079035df084cadeea2569826933b2dcee315",
-          "url": "https://github.com/jpcima/ADLplug/releases/download/v1.0.2/OPNplug-1.0.2-mac.7z"
+          "url": "https://github.com/jpcima/ADLplug/releases/download/v1.0.2/OPNplug-1.0.2-mac.7z",
+          "downloads": 563
         },
         {
           "systems": [
@@ -78,10 +80,13 @@
           "type": "archive",
           "size": 18709184,
           "sha256": "f65675b01c4a43fd85bd1c9a188fd1725bd2595719ca878e466ef83b42fdc8e2",
-          "url": "https://github.com/jpcima/ADLplug/releases/download/v1.0.2/OPNplug-1.0.2-win64.7z"
+          "url": "https://github.com/jpcima/ADLplug/releases/download/v1.0.2/OPNplug-1.0.2-win64.7z",
+          "downloads": 3326
         }
       ],
-      "verified": true
+      "verified": true,
+      "downloads": 4467
     }
-  }
+  },
+  "downloads": 4467
 }

@@ -30,7 +30,8 @@
       "type": "archive",
       "size": 10573732,
       "sha256": "b1b32adfccf96a706e49e0c1dd5d1a6978eabefdbf4f22f14178ce078989b379",
-      "url": "https://github.com/samplaman/layerengine/releases/download/latest/LayerEngine-Linux-Debian.zip"
+      "url": "https://github.com/samplaman/layerengine/releases/download/latest/LayerEngine-Linux-Debian.zip",
+      "downloads": 5
     },
     {
       "systems": [
@@ -48,7 +49,8 @@
       "type": "archive",
       "size": 12573759,
       "sha256": "da4f866a90d50cc77e2d0ad8405ea5ffe5f3e58c7dc06666495ab9ece9b1be74",
-      "url": "https://github.com/samplaman/layerengine/releases/download/latest/LayerEngine-Linux-Universal.zip"
+      "url": "https://github.com/samplaman/layerengine/releases/download/latest/LayerEngine-Linux-Universal.zip",
+      "downloads": 6
     },
     {
       "systems": [
@@ -65,7 +67,8 @@
       "type": "archive",
       "size": 14404400,
       "sha256": "11241e163c25b0b72cff3bb2a66bcd7a4b11bddb43443bf2abf329ae3ed2bfc3",
-      "url": "https://github.com/samplaman/layerengine/releases/download/latest/LayerEngine-Linux.clap"
+      "url": "https://github.com/samplaman/layerengine/releases/download/latest/LayerEngine-Linux.clap",
+      "downloads": 6
     },
     {
       "systems": [
@@ -83,7 +86,8 @@
       "type": "archive",
       "size": 23106615,
       "sha256": "14dc250eee56b22d28e31777c5497efac7951b06c03060b1534b9bde8a3835ae",
-      "url": "https://github.com/samplaman/layerengine/releases/download/latest/LayerEngine-Linux.zip"
+      "url": "https://github.com/samplaman/layerengine/releases/download/latest/LayerEngine-Linux.zip",
+      "downloads": 16
     },
     {
       "systems": [
@@ -102,7 +106,8 @@
       "type": "archive",
       "size": 14836717,
       "sha256": "305247433cfa2136784d69a75d545850bda45e69aa9e9b8c13734ee43babc070",
-      "url": "https://github.com/samplaman/layerengine/releases/download/latest/LayerEngine-macOS.zip"
+      "url": "https://github.com/samplaman/layerengine/releases/download/latest/LayerEngine-macOS.zip",
+      "downloads": 9
     },
     {
       "systems": [
@@ -119,8 +124,10 @@
       "type": "archive",
       "size": 3313997,
       "sha256": "fb6d96a0a5c7be6b7eaf88989f1b9c7666eca8173a49857c811fb149bc1ef9eb",
-      "url": "https://github.com/samplaman/layerengine/releases/download/latest/LayerEngine-Windows.zip"
+      "url": "https://github.com/samplaman/layerengine/releases/download/latest/LayerEngine-Windows.zip",
+      "downloads": 39
     }
   ],
-  "verified": true
+  "verified": true,
+  "downloads": 81
 }

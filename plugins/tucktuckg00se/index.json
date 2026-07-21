@@ -33,7 +33,8 @@
             "type": "archive",
             "size": 8972398,
             "sha256": "b4feec14c28b03fcb5ca90acd3d260907e05acf08b5465df36cf7b4de3dddaa8",
-            "url": "https://github.com/tucktuckg00se/INTERSECT/releases/download/v0.15.1/INTERSECT-v0.15.1-Linux-x64.zip"
+            "url": "https://github.com/tucktuckg00se/INTERSECT/releases/download/v0.15.1/INTERSECT-v0.15.1-Linux-x64.zip",
+            "downloads": 131
           },
           {
             "systems": [
@@ -51,7 +52,8 @@
             "type": "archive",
             "size": 8802875,
             "sha256": "de7b2b685c116c833ccec02433ebcfb1fff5950ed142ad8f6284627566058d93",
-            "url": "https://github.com/tucktuckg00se/INTERSECT/releases/download/v0.15.1/INTERSECT-v0.15.1-macOS-arm64.zip"
+            "url": "https://github.com/tucktuckg00se/INTERSECT/releases/download/v0.15.1/INTERSECT-v0.15.1-macOS-arm64.zip",
+            "downloads": 64
           },
           {
             "systems": [
@@ -69,7 +71,8 @@
             "type": "archive",
             "size": 9632468,
             "sha256": "c52f799a8df16170a6db2671897ffd7ce3f0ddc60170e8056243c68b04c360e9",
-            "url": "https://github.com/tucktuckg00se/INTERSECT/releases/download/v0.15.1/INTERSECT-v0.15.1-macOS-x64.zip"
+            "url": "https://github.com/tucktuckg00se/INTERSECT/releases/download/v0.15.1/INTERSECT-v0.15.1-macOS-x64.zip",
+            "downloads": 37
           },
           {
             "systems": [
@@ -87,11 +90,14 @@
             "type": "archive",
             "size": 6835454,
             "sha256": "78831b9ac1fd828b018e2da556215ba25706d5a25dd78903ec25e360cca0c0b3",
-            "url": "https://github.com/tucktuckg00se/INTERSECT/releases/download/v0.15.1/INTERSECT-v0.15.1-Windows-x64.zip"
+            "url": "https://github.com/tucktuckg00se/INTERSECT/releases/download/v0.15.1/INTERSECT-v0.15.1-Windows-x64.zip",
+            "downloads": 224
           }
         ],
-        "verified": true
+        "verified": true,
+        "downloads": 456
       }
-    }
+    },
+    "downloads": 456
   }
 }

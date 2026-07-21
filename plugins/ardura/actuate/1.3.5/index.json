@@ -31,7 +31,8 @@
       "type": "archive",
       "size": 8369198,
       "sha256": "9733ac876eb9d0089885b2f40f3571ef8558a294005efdbbeb0012f586f9b1c3",
-      "url": "https://github.com/ardura/Actuate/releases/download/v1.3.5/Actuate_v135_linux_build.zip"
+      "url": "https://github.com/ardura/Actuate/releases/download/v1.3.5/Actuate_v135_linux_build.zip",
+      "downloads": 91
     },
     {
       "systems": [
@@ -49,7 +50,8 @@
       "type": "archive",
       "size": 6125534,
       "sha256": "c3a8849bdd39d9f804136c4e2bdc31b7daa6b4f3ba7f0a185d474929df6fc045",
-      "url": "https://github.com/ardura/Actuate/releases/download/v1.3.5/Actuate_v135_macos_build.zip"
+      "url": "https://github.com/ardura/Actuate/releases/download/v1.3.5/Actuate_v135_macos_build.zip",
+      "downloads": 36
     },
     {
       "systems": [
@@ -67,7 +69,8 @@
       "type": "archive",
       "size": 5670254,
       "sha256": "afe178504be8425cc38717280955594a0003c9683132a3301be587c7124b0343",
-      "url": "https://github.com/ardura/Actuate/releases/download/v1.3.5/Actuate_v135_macos_m1_build.zip"
+      "url": "https://github.com/ardura/Actuate/releases/download/v1.3.5/Actuate_v135_macos_m1_build.zip",
+      "downloads": 28
     },
     {
       "systems": [
@@ -85,8 +88,10 @@
       "type": "archive",
       "size": 5573640,
       "sha256": "348a0f6c50bc5ef077573aff85cf5234c487df7fd5d3fe81c4bd9daaabfe0515",
-      "url": "https://github.com/ardura/Actuate/releases/download/v1.3.5/Actuate_v135_windows_build.zip"
+      "url": "https://github.com/ardura/Actuate/releases/download/v1.3.5/Actuate_v135_windows_build.zip",
+      "downloads": 84
     }
   ],
-  "verified": true
+  "verified": true,
+  "downloads": 239
 }

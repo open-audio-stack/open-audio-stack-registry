@@ -31,7 +31,8 @@
       "type": "installer",
       "size": 42695142,
       "sha256": "4ab3cb5274726709b329f204aea49b157d244bcdc99aaad7675d6e8e17da488a",
-      "url": "https://github.com/FigBug/Voc/releases/download/v1.1.5/Voc.deb"
+      "url": "https://github.com/FigBug/Voc/releases/download/v1.1.5/Voc.deb",
+      "downloads": 7
     },
     {
       "systems": [
@@ -50,7 +51,8 @@
       "type": "installer",
       "size": 7348272,
       "sha256": "50ab3cd59d5b796cbcfe5fa2be7487e2acab129561c4e36b4af054483400307b",
-      "url": "https://github.com/FigBug/Voc/releases/download/v1.1.5/Voc.exe"
+      "url": "https://github.com/FigBug/Voc/releases/download/v1.1.5/Voc.exe",
+      "downloads": 10
     },
     {
       "systems": [
@@ -71,8 +73,10 @@
       "type": "installer",
       "size": 47334434,
       "sha256": "01722eca52f45da24f5e1d7f8b5d75587c39cc6dc3db1459dac81bcba212df29",
-      "url": "https://github.com/FigBug/Voc/releases/download/v1.1.5/Voc.pkg"
+      "url": "https://github.com/FigBug/Voc/releases/download/v1.1.5/Voc.pkg",
+      "downloads": 5
     }
   ],
-  "verified": true
+  "verified": true,
+  "downloads": 22
 }

@@ -35,7 +35,8 @@
             "type": "archive",
             "size": 9020840,
             "sha256": "9d5d8500cd4ed302e2ea53dccbd77ee438841820dddff66a1f706daa66cf69db",
-            "url": "https://github.com/igorski/VSTSID/releases/download/v1.1.2/vstsid.1.1.2_macos.zip"
+            "url": "https://github.com/igorski/VSTSID/releases/download/v1.1.2/vstsid.1.1.2_macos.zip",
+            "downloads": 31
           },
           {
             "systems": [
@@ -53,7 +54,8 @@
             "type": "archive",
             "size": 2607280,
             "sha256": "9d2e767da874952e255226dcf538c6fde9165f3c74d8a219f8273c0eb0cad151",
-            "url": "https://github.com/igorski/VSTSID/releases/download/v1.1.2/vstsid.1.1.2_windows.zip"
+            "url": "https://github.com/igorski/VSTSID/releases/download/v1.1.2/vstsid.1.1.2_windows.zip",
+            "downloads": 106
           },
           {
             "systems": [
@@ -70,12 +72,15 @@
             "type": "archive",
             "size": 2607280,
             "sha256": "9d2e767da874952e255226dcf538c6fde9165f3c74d8a219f8273c0eb0cad151",
-            "url": "https://github.com/igorski/VSTSID/releases/download/v1.1.2/vstsid.1.1.2_windows.zip"
+            "url": "https://github.com/igorski/VSTSID/releases/download/v1.1.2/vstsid.1.1.2_windows.zip",
+            "downloads": 106
           }
         ],
-        "verified": true
+        "verified": true,
+        "downloads": 243
       }
-    }
+    },
+    "downloads": 243
   },
   "igorski/transformant": {
     "slug": "igorski/transformant",
@@ -113,7 +118,8 @@
             "type": "archive",
             "size": 9312123,
             "sha256": "c88e9e5f0a856184b8202cd3382122e118fdb326dca0ba36e99f239eb745d7d0",
-            "url": "https://github.com/igorski/transformant/releases/download/1.0.4/transformant.1.0.4_macos.zip"
+            "url": "https://github.com/igorski/transformant/releases/download/1.0.4/transformant.1.0.4_macos.zip",
+            "downloads": 45
           },
           {
             "systems": [
@@ -131,7 +137,8 @@
             "type": "archive",
             "size": 2361531,
             "sha256": "5833b04a2ad697c6dc5f3c920ee7ceec354a5a60f8968cf4f55db734efa9d14e",
-            "url": "https://github.com/igorski/transformant/releases/download/1.0.4/transformant.1.0.4_windows.zip"
+            "url": "https://github.com/igorski/transformant/releases/download/1.0.4/transformant.1.0.4_windows.zip",
+            "downloads": 41
           },
           {
             "systems": [
@@ -148,12 +155,15 @@
             "type": "archive",
             "size": 2361531,
             "sha256": "5833b04a2ad697c6dc5f3c920ee7ceec354a5a60f8968cf4f55db734efa9d14e",
-            "url": "https://github.com/igorski/transformant/releases/download/1.0.4/transformant.1.0.4_windows.zip"
+            "url": "https://github.com/igorski/transformant/releases/download/1.0.4/transformant.1.0.4_windows.zip",
+            "downloads": 41
           }
         ],
-        "verified": true
+        "verified": true,
+        "downloads": 127
       }
-    }
+    },
+    "downloads": 127
   },
   "igorski/regrader": {
     "slug": "igorski/regrader",
@@ -193,7 +203,8 @@
             "type": "archive",
             "size": 9870628,
             "sha256": "d3b77b466f270888fb866e67c86fafcdfafc9ff781420ca9ab77da7c7987f356",
-            "url": "https://github.com/igorski/regrader/releases/download/1.0.5/regrader.1.0.5_macos.zip"
+            "url": "https://github.com/igorski/regrader/releases/download/1.0.5/regrader.1.0.5_macos.zip",
+            "downloads": 20
           },
           {
             "systems": [
@@ -212,12 +223,15 @@
             "type": "archive",
             "size": 2858396,
             "sha256": "3141f43f3e6445f154395c1da1221c2931b1dfd5140f0207b8a4b8052b8fb574",
-            "url": "https://github.com/igorski/regrader/releases/download/1.0.5/regrader.1.0.5_windows.zip"
+            "url": "https://github.com/igorski/regrader/releases/download/1.0.5/regrader.1.0.5_windows.zip",
+            "downloads": 105
           }
         ],
-        "verified": true
+        "verified": true,
+        "downloads": 125
       }
-    }
+    },
+    "downloads": 125
   },
   "igorski/rechoir": {
     "slug": "igorski/rechoir",
@@ -256,7 +270,8 @@
             "type": "archive",
             "size": 9704639,
             "sha256": "7a1df5f354177c9abd9f2871a306e6b961df310c901dc199d535d5924ad2ff13",
-            "url": "https://github.com/igorski/rechoir/releases/download/1.0.0/rechoir.1.0.0_macos.zip"
+            "url": "https://github.com/igorski/rechoir/releases/download/1.0.0/rechoir.1.0.0_macos.zip",
+            "downloads": 17
           },
           {
             "systems": [
@@ -274,12 +289,15 @@
             "type": "archive",
             "size": 1938058,
             "sha256": "00146de375ee86e3b3fa07d12f2c43c3e4ea87d684340d886e84c859234c95e4",
-            "url": "https://github.com/igorski/rechoir/releases/download/1.0.0/rechoir.1.0.0_windows.zip"
+            "url": "https://github.com/igorski/rechoir/releases/download/1.0.0/rechoir.1.0.0_windows.zip",
+            "downloads": 35
           }
         ],
-        "verified": true
+        "verified": true,
+        "downloads": 52
       }
-    }
+    },
+    "downloads": 52
   },
   "igorski/phlegetron": {
     "slug": "igorski/phlegetron",
@@ -319,7 +337,8 @@
             "type": "archive",
             "size": 6891129,
             "sha256": "e3a4459c1ca862b3e7171a4240807d4410ae7c8106dd53fe53735bd0f6fe2575",
-            "url": "https://github.com/igorski/phlegetron/releases/download/1.0.0/phlegetron.1.0.0_macos.zip"
+            "url": "https://github.com/igorski/phlegetron/releases/download/1.0.0/phlegetron.1.0.0_macos.zip",
+            "downloads": 5
           },
           {
             "systems": [
@@ -336,12 +355,15 @@
             "type": "archive",
             "size": 2830943,
             "sha256": "a187d6f38dfb566022832047faf3c4b29e0821806a873e1337adde3b2ac2ef23",
-            "url": "https://github.com/igorski/phlegetron/releases/download/1.0.0/phlegetron.1.0.0_windows.zip"
+            "url": "https://github.com/igorski/phlegetron/releases/download/1.0.0/phlegetron.1.0.0_windows.zip",
+            "downloads": 15
           }
         ],
-        "verified": true
+        "verified": true,
+        "downloads": 20
       }
-    }
+    },
+    "downloads": 20
   },
   "igorski/homecorrupter": {
     "slug": "igorski/homecorrupter",
@@ -378,7 +400,8 @@
             "type": "archive",
             "size": 10409913,
             "sha256": "c44f0fdaedbd88ba2f626c58c17223f1d79dfeaa551723c712a54c908a2dfd85",
-            "url": "https://github.com/igorski/homecorrupter/releases/download/1.1.3/homecorrupter.1.1.3_macos.zip"
+            "url": "https://github.com/igorski/homecorrupter/releases/download/1.1.3/homecorrupter.1.1.3_macos.zip",
+            "downloads": 19
           },
           {
             "systems": [
@@ -396,7 +419,8 @@
             "type": "archive",
             "size": 3898519,
             "sha256": "33e97f64c5723d804d84b2d45ae82ffced4f9e1662d5a974fb13d0c3d03a7fc0",
-            "url": "https://github.com/igorski/homecorrupter/releases/download/1.1.3/homecorrupter.1.1.3_windows.zip"
+            "url": "https://github.com/igorski/homecorrupter/releases/download/1.1.3/homecorrupter.1.1.3_windows.zip",
+            "downloads": 90
           },
           {
             "systems": [
@@ -413,12 +437,15 @@
             "type": "archive",
             "size": 3898519,
             "sha256": "33e97f64c5723d804d84b2d45ae82ffced4f9e1662d5a974fb13d0c3d03a7fc0",
-            "url": "https://github.com/igorski/homecorrupter/releases/download/1.1.3/homecorrupter.1.1.3_windows.zip"
+            "url": "https://github.com/igorski/homecorrupter/releases/download/1.1.3/homecorrupter.1.1.3_windows.zip",
+            "downloads": 90
           }
         ],
-        "verified": true
+        "verified": true,
+        "downloads": 199
       }
-    }
+    },
+    "downloads": 199
   },
   "igorski/fogpad": {
     "slug": "igorski/fogpad",
@@ -458,7 +485,8 @@
             "type": "archive",
             "size": 9472202,
             "sha256": "206bfe64ea8b26067f3d550d24ba6e93f5550c1f588e92c2b3d3128c8ba1dc0a",
-            "url": "https://github.com/igorski/fogpad/releases/download/1.0.3/fogpad.1.0.3_macos.zip"
+            "url": "https://github.com/igorski/fogpad/releases/download/1.0.3/fogpad.1.0.3_macos.zip",
+            "downloads": 35
           },
           {
             "systems": [
@@ -477,12 +505,15 @@
             "type": "archive",
             "size": 2428873,
             "sha256": "3c1bb2f8ca87966a3047a73c2bab4ea9af629af0d7356103bd6ff940de2da45c",
-            "url": "https://github.com/igorski/fogpad/releases/download/1.0.3/fogpad.1.0.3_windows.zip"
+            "url": "https://github.com/igorski/fogpad/releases/download/1.0.3/fogpad.1.0.3_windows.zip",
+            "downloads": 66
           }
         ],
-        "verified": true
+        "verified": true,
+        "downloads": 101
       }
-    }
+    },
+    "downloads": 101
   },
   "igorski/delirion": {
     "slug": "igorski/delirion",
@@ -519,7 +550,8 @@
             "type": "archive",
             "size": 6617231,
             "sha256": "3b9f4aa3b01d3b5e55577325bf7c7b7eb30bc5709537d838dfcf659a81a93022",
-            "url": "https://github.com/igorski/delirion/releases/download/1.1.0/delirion.1.1.0_macos.zip"
+            "url": "https://github.com/igorski/delirion/releases/download/1.1.0/delirion.1.1.0_macos.zip",
+            "downloads": 19
           },
           {
             "systems": [
@@ -536,12 +568,15 @@
             "type": "archive",
             "size": 2642225,
             "sha256": "1ac4b1c916d6cdcf9ef4c37b36740eefa1ef5abf1957731f6912ed76c8dda63a",
-            "url": "https://github.com/igorski/delirion/releases/download/1.1.0/delirion.1.1.0_windows.zip"
+            "url": "https://github.com/igorski/delirion/releases/download/1.1.0/delirion.1.1.0_windows.zip",
+            "downloads": 26
           }
         ],
-        "verified": true
+        "verified": true,
+        "downloads": 45
       }
-    }
+    },
+    "downloads": 45
   },
   "igorski/darvaza": {
     "slug": "igorski/darvaza",
@@ -579,7 +614,8 @@
             "type": "archive",
             "size": 9695869,
             "sha256": "456f6b1c5216e290dbfcdb6b0c1e8f38ce499479deffb4f146bdc3b1253e843e",
-            "url": "https://github.com/igorski/darvaza/releases/download/1.0.3/darvaza.1.0.3_macos.zip"
+            "url": "https://github.com/igorski/darvaza/releases/download/1.0.3/darvaza.1.0.3_macos.zip",
+            "downloads": 7
           },
           {
             "systems": [
@@ -597,7 +633,8 @@
             "type": "archive",
             "size": 2606227,
             "sha256": "4cba4dfe19429f38e9b6e20746082a1a80403ade0045e2d19e7bb95b3339a5cc",
-            "url": "https://github.com/igorski/darvaza/releases/download/1.0.3/darvaza.1.0.3_windows.zip"
+            "url": "https://github.com/igorski/darvaza/releases/download/1.0.3/darvaza.1.0.3_windows.zip",
+            "downloads": 28
           },
           {
             "systems": [
@@ -614,11 +651,14 @@
             "type": "archive",
             "size": 2606227,
             "sha256": "4cba4dfe19429f38e9b6e20746082a1a80403ade0045e2d19e7bb95b3339a5cc",
-            "url": "https://github.com/igorski/darvaza/releases/download/1.0.3/darvaza.1.0.3_windows.zip"
+            "url": "https://github.com/igorski/darvaza/releases/download/1.0.3/darvaza.1.0.3_windows.zip",
+            "downloads": 28
           }
         ],
-        "verified": true
+        "verified": true,
+        "downloads": 63
       }
-    }
+    },
+    "downloads": 63
   }
 }

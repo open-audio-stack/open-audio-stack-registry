@@ -37,7 +37,8 @@
             "type": "archive",
             "size": 9166006,
             "sha256": "7d8399077baab9cf9c0b77123a6df56f7ecad32576337252ff99c954b1deec7e",
-            "url": "https://github.com/ImJimmi/Contrast/releases/download/1.2.0.3260179405/Contrast_1.2.0_macOS.zip"
+            "url": "https://github.com/ImJimmi/Contrast/releases/download/1.2.0.3260179405/Contrast_1.2.0_macOS.zip",
+            "downloads": 16
           },
           {
             "systems": [
@@ -54,11 +55,14 @@
             "type": "archive",
             "size": 6532691,
             "sha256": "f7f58ed999bf2b5a5e8d817038dcf3558a88e637f422a88f352898f15d95e7d2",
-            "url": "https://github.com/ImJimmi/Contrast/releases/download/1.2.0.3260179405/Contrast_1.2.0_Windows.zip"
+            "url": "https://github.com/ImJimmi/Contrast/releases/download/1.2.0.3260179405/Contrast_1.2.0_Windows.zip",
+            "downloads": 45
           }
         ],
-        "verified": true
+        "verified": true,
+        "downloads": 61
       }
-    }
+    },
+    "downloads": 61
   }
 }

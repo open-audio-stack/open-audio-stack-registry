@@ -37,7 +37,8 @@
             "type": "archive",
             "size": 11386807,
             "sha256": "d6b15e5ef18b263d22be402e4ab8ff2fccd3f85967ba6a2dcb8d6be8d605c5be",
-            "url": "https://github.com/Jun-Murakami/ZeroLimit/releases/download/v1.1.7/ZeroLimit_1.1.7_Linux_VST3_LV2_CLAP_Standalone.zip"
+            "url": "https://github.com/Jun-Murakami/ZeroLimit/releases/download/v1.1.7/ZeroLimit_1.1.7_Linux_VST3_LV2_CLAP_Standalone.zip",
+            "downloads": 20
           },
           {
             "systems": [
@@ -60,7 +61,8 @@
             "type": "installer",
             "size": 27283334,
             "sha256": "761e6be37071b931c08374325a569287d1e231a622361bffc0ab77e9fd27defc",
-            "url": "https://github.com/Jun-Murakami/ZeroLimit/releases/download/v1.1.7/ZeroLimit_1.1.7_macOS.pkg"
+            "url": "https://github.com/Jun-Murakami/ZeroLimit/releases/download/v1.1.7/ZeroLimit_1.1.7_macOS.pkg",
+            "downloads": 12
           },
           {
             "systems": [
@@ -83,7 +85,8 @@
             "type": "archive",
             "size": 27235178,
             "sha256": "1e371966796a1df6b1e6c2abc104b0284eeb0e57454e19922156634065fc77a8",
-            "url": "https://github.com/Jun-Murakami/ZeroLimit/releases/download/v1.1.7/ZeroLimit_1.1.7_macOS_VST3_AU_AAX_CLAP_Standalone.zip"
+            "url": "https://github.com/Jun-Murakami/ZeroLimit/releases/download/v1.1.7/ZeroLimit_1.1.7_macOS_VST3_AU_AAX_CLAP_Standalone.zip",
+            "downloads": 7
           },
           {
             "systems": [
@@ -104,7 +107,8 @@
             "type": "installer",
             "size": 17096088,
             "sha256": "2ed66accc7fb17598ff6ecbace65814a37d2edd2833cea53da43b7d981951ce3",
-            "url": "https://github.com/Jun-Murakami/ZeroLimit/releases/download/v1.1.7/ZeroLimit_1.1.7_Windows_Setup.exe"
+            "url": "https://github.com/Jun-Murakami/ZeroLimit/releases/download/v1.1.7/ZeroLimit_1.1.7_Windows_Setup.exe",
+            "downloads": 40
           },
           {
             "systems": [
@@ -125,12 +129,15 @@
             "type": "archive",
             "size": 21937179,
             "sha256": "3d59bb7aefbc956112ca45a1337235470f6bdd5a1f782b52435698059cd6030b",
-            "url": "https://github.com/Jun-Murakami/ZeroLimit/releases/download/v1.1.7/ZeroLimit_1.1.7_Windows_VST3_AAX_CLAP_Standalone.zip"
+            "url": "https://github.com/Jun-Murakami/ZeroLimit/releases/download/v1.1.7/ZeroLimit_1.1.7_Windows_VST3_AAX_CLAP_Standalone.zip",
+            "downloads": 11
           }
         ],
-        "verified": true
+        "verified": true,
+        "downloads": 90
       }
-    }
+    },
+    "downloads": 90
   },
   "jun-murakami/zeroeq": {
     "slug": "jun-murakami/zeroeq",
@@ -170,7 +177,8 @@
             "type": "archive",
             "size": 11426809,
             "sha256": "2b0baaebe617c30118f3c6503a15cff2bf835abd72caa813c31dd9228f8066ee",
-            "url": "https://github.com/Jun-Murakami/ZeroEQ/releases/download/v1.0.7/ZeroEQ_1.0.7_Linux_VST3_LV2_CLAP_Standalone.zip"
+            "url": "https://github.com/Jun-Murakami/ZeroEQ/releases/download/v1.0.7/ZeroEQ_1.0.7_Linux_VST3_LV2_CLAP_Standalone.zip",
+            "downloads": 39
           },
           {
             "systems": [
@@ -193,7 +201,8 @@
             "type": "installer",
             "size": 27339185,
             "sha256": "cd01413c41ae6b8788153c2b1f19a9a22a33a697379894b726075d4bc4960f10",
-            "url": "https://github.com/Jun-Murakami/ZeroEQ/releases/download/v1.0.7/ZeroEQ_1.0.7_macOS.pkg"
+            "url": "https://github.com/Jun-Murakami/ZeroEQ/releases/download/v1.0.7/ZeroEQ_1.0.7_macOS.pkg",
+            "downloads": 11
           },
           {
             "systems": [
@@ -216,7 +225,8 @@
             "type": "archive",
             "size": 27301848,
             "sha256": "2ea6b7aad4ae6508f0573ade298355cea87181e9863bf9bab018be18f31ca5d7",
-            "url": "https://github.com/Jun-Murakami/ZeroEQ/releases/download/v1.0.7/ZeroEQ_1.0.7_macOS_VST3_AU_AAX_CLAP_Standalone.zip"
+            "url": "https://github.com/Jun-Murakami/ZeroEQ/releases/download/v1.0.7/ZeroEQ_1.0.7_macOS_VST3_AU_AAX_CLAP_Standalone.zip",
+            "downloads": 6
           },
           {
             "systems": [
@@ -237,7 +247,8 @@
             "type": "installer",
             "size": 17132024,
             "sha256": "4cdc5ed8c032e63cd1ca0ae6cf5453cad77af9998817809cf3f3a6ee81890eb0",
-            "url": "https://github.com/Jun-Murakami/ZeroEQ/releases/download/v1.0.7/ZeroEQ_1.0.7_Windows_Setup.exe"
+            "url": "https://github.com/Jun-Murakami/ZeroEQ/releases/download/v1.0.7/ZeroEQ_1.0.7_Windows_Setup.exe",
+            "downloads": 53
           },
           {
             "systems": [
@@ -258,12 +269,15 @@
             "type": "archive",
             "size": 21986444,
             "sha256": "7591100249db4b7f9bb151f999deadba045b15ab6a2c9cef94a605e77525c5fa",
-            "url": "https://github.com/Jun-Murakami/ZeroEQ/releases/download/v1.0.7/ZeroEQ_1.0.7_Windows_VST3_AAX_CLAP_Standalone.zip"
+            "url": "https://github.com/Jun-Murakami/ZeroEQ/releases/download/v1.0.7/ZeroEQ_1.0.7_Windows_VST3_AAX_CLAP_Standalone.zip",
+            "downloads": 31
           }
         ],
-        "verified": true
+        "verified": true,
+        "downloads": 140
       }
-    }
+    },
+    "downloads": 140
   },
   "jun-murakami/zerocomp": {
     "slug": "jun-murakami/zerocomp",
@@ -303,7 +317,8 @@
             "type": "archive",
             "size": 11413627,
             "sha256": "e371e8204471bcb37009eb978e25268cce734eabefecd329f762362c061e58de",
-            "url": "https://github.com/Jun-Murakami/ZeroComp/releases/download/v1.1.7/ZeroComp_1.1.7_Linux_VST3_LV2_CLAP_Standalone.zip"
+            "url": "https://github.com/Jun-Murakami/ZeroComp/releases/download/v1.1.7/ZeroComp_1.1.7_Linux_VST3_LV2_CLAP_Standalone.zip",
+            "downloads": 24
           },
           {
             "systems": [
@@ -326,7 +341,8 @@
             "type": "installer",
             "size": 27323710,
             "sha256": "019e4c6e733e36855c068361ab99a4b0eb182117b0a51933f46e66a9c985be1f",
-            "url": "https://github.com/Jun-Murakami/ZeroComp/releases/download/v1.1.7/ZeroComp_1.1.7_macOS.pkg"
+            "url": "https://github.com/Jun-Murakami/ZeroComp/releases/download/v1.1.7/ZeroComp_1.1.7_macOS.pkg",
+            "downloads": 9
           },
           {
             "systems": [
@@ -349,7 +365,8 @@
             "type": "archive",
             "size": 27282732,
             "sha256": "60740354113ab8d63ed8f67d6106ebbfa7846072dc35f0a9d65ac48b3e7aeeca",
-            "url": "https://github.com/Jun-Murakami/ZeroComp/releases/download/v1.1.7/ZeroComp_1.1.7_macOS_VST3_AU_AAX_CLAP_Standalone.zip"
+            "url": "https://github.com/Jun-Murakami/ZeroComp/releases/download/v1.1.7/ZeroComp_1.1.7_macOS_VST3_AU_AAX_CLAP_Standalone.zip",
+            "downloads": 7
           },
           {
             "systems": [
@@ -370,7 +387,8 @@
             "type": "installer",
             "size": 17109408,
             "sha256": "88b7a70ff22ad717ad563b2552862e739c790ee1d3deff5d0f92cf9425466dc4",
-            "url": "https://github.com/Jun-Murakami/ZeroComp/releases/download/v1.1.7/ZeroComp_1.1.7_Windows_Setup.exe"
+            "url": "https://github.com/Jun-Murakami/ZeroComp/releases/download/v1.1.7/ZeroComp_1.1.7_Windows_Setup.exe",
+            "downloads": 23
           },
           {
             "systems": [
@@ -391,12 +409,15 @@
             "type": "archive",
             "size": 21958122,
             "sha256": "2f3d30be07be155e3a82bd30512665a158e0c32b587ce5c16b92749eed3bfd1e",
-            "url": "https://github.com/Jun-Murakami/ZeroComp/releases/download/v1.1.7/ZeroComp_1.1.7_Windows_VST3_AAX_CLAP_Standalone.zip"
+            "url": "https://github.com/Jun-Murakami/ZeroComp/releases/download/v1.1.7/ZeroComp_1.1.7_Windows_VST3_AAX_CLAP_Standalone.zip",
+            "downloads": 14
           }
         ],
-        "verified": true
+        "verified": true,
+        "downloads": 77
       }
-    }
+    },
+    "downloads": 77
   },
   "jun-murakami/tinyvu": {
     "slug": "jun-murakami/tinyvu",
@@ -436,7 +457,8 @@
             "type": "archive",
             "size": 10401149,
             "sha256": "f6bbdbe375309b2fd01c07314ea4a59ffe7c2e78b0c78509933d5dda05329816",
-            "url": "https://github.com/Jun-Murakami/TinyVU/releases/download/v1.0.6/TinyVU_1.0.6_Linux_VST3_LV2_CLAP_Standalone.zip"
+            "url": "https://github.com/Jun-Murakami/TinyVU/releases/download/v1.0.6/TinyVU_1.0.6_Linux_VST3_LV2_CLAP_Standalone.zip",
+            "downloads": 15
           },
           {
             "systems": [
@@ -459,7 +481,8 @@
             "type": "installer",
             "size": 24815044,
             "sha256": "9be1014ad9b23a5106c4a40324e139f6a65d5bcd1bba51be20099a252d387618",
-            "url": "https://github.com/Jun-Murakami/TinyVU/releases/download/v1.0.6/TinyVU_1.0.6_macOS.pkg"
+            "url": "https://github.com/Jun-Murakami/TinyVU/releases/download/v1.0.6/TinyVU_1.0.6_macOS.pkg",
+            "downloads": 8
           },
           {
             "systems": [
@@ -482,7 +505,8 @@
             "type": "archive",
             "size": 24764687,
             "sha256": "512c209b9e2c567e3a6678edd91034fbaed08e36fc31552982314023b0fffed7",
-            "url": "https://github.com/Jun-Murakami/TinyVU/releases/download/v1.0.6/TinyVU_1.0.6_macOS_VST3_AU_AAX_CLAP_Standalone.zip"
+            "url": "https://github.com/Jun-Murakami/TinyVU/releases/download/v1.0.6/TinyVU_1.0.6_macOS_VST3_AU_AAX_CLAP_Standalone.zip",
+            "downloads": 5
           },
           {
             "systems": [
@@ -503,7 +527,8 @@
             "type": "installer",
             "size": 13908592,
             "sha256": "39f9273fce36015ed8dd7f1856b7824fbc9b18ac8bcde1cfdadbefa9ed353e61",
-            "url": "https://github.com/Jun-Murakami/TinyVU/releases/download/v1.0.6/TinyVU_1.0.6_Windows_Setup.exe"
+            "url": "https://github.com/Jun-Murakami/TinyVU/releases/download/v1.0.6/TinyVU_1.0.6_Windows_Setup.exe",
+            "downloads": 11
           },
           {
             "systems": [
@@ -524,12 +549,15 @@
             "type": "archive",
             "size": 19195123,
             "sha256": "1eacfa00195f6de96f95494c095d69909217e7af39d28baf3b22f339904db1c5",
-            "url": "https://github.com/Jun-Murakami/TinyVU/releases/download/v1.0.6/TinyVU_1.0.6_Windows_VST3_AAX_CLAP_Standalone.zip"
+            "url": "https://github.com/Jun-Murakami/TinyVU/releases/download/v1.0.6/TinyVU_1.0.6_Windows_VST3_AAX_CLAP_Standalone.zip",
+            "downloads": 12
           }
         ],
-        "verified": true
+        "verified": true,
+        "downloads": 51
       }
-    }
+    },
+    "downloads": 51
   },
   "jun-murakami/testtone": {
     "slug": "jun-murakami/testtone",
@@ -569,7 +597,8 @@
             "type": "archive",
             "size": 11178853,
             "sha256": "659d8b8ff533efb817ca6de7f950432225bdbafb22f769be7008153d438531a9",
-            "url": "https://github.com/Jun-Murakami/TestTone/releases/download/v1.0.5/TestTone_1.0.5_Linux_VST3_LV2_CLAP_Standalone.zip"
+            "url": "https://github.com/Jun-Murakami/TestTone/releases/download/v1.0.5/TestTone_1.0.5_Linux_VST3_LV2_CLAP_Standalone.zip",
+            "downloads": 10
           },
           {
             "systems": [
@@ -592,7 +621,8 @@
             "type": "installer",
             "size": 26757646,
             "sha256": "48db3c9f9636317c0f34bd0d8c9dd33187ee2e5294d8e9b0670b14242d973939",
-            "url": "https://github.com/Jun-Murakami/TestTone/releases/download/v1.0.5/TestTone_1.0.5_macOS.pkg"
+            "url": "https://github.com/Jun-Murakami/TestTone/releases/download/v1.0.5/TestTone_1.0.5_macOS.pkg",
+            "downloads": 10
           },
           {
             "systems": [
@@ -615,7 +645,8 @@
             "type": "archive",
             "size": 26706688,
             "sha256": "e87dee623a334b30718c2afa7117cfd3d674caa8211a82417abe73b614d069fc",
-            "url": "https://github.com/Jun-Murakami/TestTone/releases/download/v1.0.5/TestTone_1.0.5_macOS_VST3_AU_AAX_CLAP_Standalone.zip"
+            "url": "https://github.com/Jun-Murakami/TestTone/releases/download/v1.0.5/TestTone_1.0.5_macOS_VST3_AU_AAX_CLAP_Standalone.zip",
+            "downloads": 8
           },
           {
             "systems": [
@@ -636,7 +667,8 @@
             "type": "installer",
             "size": 14824464,
             "sha256": "960b9fc67078a7228dbf50db7cf288cbf46498fab801d1f23eba503875da379c",
-            "url": "https://github.com/Jun-Murakami/TestTone/releases/download/v1.0.5/TestTone_1.0.5_Windows_Setup.exe"
+            "url": "https://github.com/Jun-Murakami/TestTone/releases/download/v1.0.5/TestTone_1.0.5_Windows_Setup.exe",
+            "downloads": 15
           },
           {
             "systems": [
@@ -657,12 +689,15 @@
             "type": "archive",
             "size": 19935284,
             "sha256": "afc7bfacfd182487f7ab2b7f09025918edc2aa50534de92d81646c1ec60e571e",
-            "url": "https://github.com/Jun-Murakami/TestTone/releases/download/v1.0.5/TestTone_1.0.5_Windows_VST3_AAX_CLAP_Standalone.zip"
+            "url": "https://github.com/Jun-Murakami/TestTone/releases/download/v1.0.5/TestTone_1.0.5_Windows_VST3_AAX_CLAP_Standalone.zip",
+            "downloads": 9
           }
         ],
-        "verified": true
+        "verified": true,
+        "downloads": 52
       }
-    }
+    },
+    "downloads": 52
   },
   "jun-murakami/mixcompare": {
     "slug": "jun-murakami/mixcompare",
@@ -703,7 +738,8 @@
             "type": "archive",
             "size": 20280020,
             "sha256": "7fcf829887ed9a1ca30486e556a83afe99130149e21eacc6e5c22d2f3c90b447",
-            "url": "https://github.com/Jun-Murakami/MixCompare/releases/download/v3.0.10/MixCompare_3.0.10_Linux_VST3_LV2_CLAP_Standalone.zip"
+            "url": "https://github.com/Jun-Murakami/MixCompare/releases/download/v3.0.10/MixCompare_3.0.10_Linux_VST3_LV2_CLAP_Standalone.zip",
+            "downloads": 14
           },
           {
             "systems": [
@@ -726,7 +762,8 @@
             "type": "installer",
             "size": 47415477,
             "sha256": "8a560571b4169aad3f48b71d21b8c094e6008bd546665a8b4b1dcebe019e300c",
-            "url": "https://github.com/Jun-Murakami/MixCompare/releases/download/v3.0.10/MixCompare_3.0.10_macOS.pkg"
+            "url": "https://github.com/Jun-Murakami/MixCompare/releases/download/v3.0.10/MixCompare_3.0.10_macOS.pkg",
+            "downloads": 8
           },
           {
             "systems": [
@@ -749,7 +786,8 @@
             "type": "archive",
             "size": 47374600,
             "sha256": "3d531fd855cb660161fa21242061f505ce1c2eec5896633fddddb2710125b6c0",
-            "url": "https://github.com/Jun-Murakami/MixCompare/releases/download/v3.0.10/MixCompare_3.0.10_macOS_VST3_AU_AAX_CLAP_Standalone.zip"
+            "url": "https://github.com/Jun-Murakami/MixCompare/releases/download/v3.0.10/MixCompare_3.0.10_macOS_VST3_AU_AAX_CLAP_Standalone.zip",
+            "downloads": 4
           },
           {
             "systems": [
@@ -770,7 +808,8 @@
             "type": "installer",
             "size": 23551728,
             "sha256": "2282294ee62e8c10943cf947cbe60e46501940674c32ea329696b8b604468764",
-            "url": "https://github.com/Jun-Murakami/MixCompare/releases/download/v3.0.10/MixCompare_3.0.10_Windows_Setup.exe"
+            "url": "https://github.com/Jun-Murakami/MixCompare/releases/download/v3.0.10/MixCompare_3.0.10_Windows_Setup.exe",
+            "downloads": 15
           },
           {
             "systems": [
@@ -791,11 +830,14 @@
             "type": "archive",
             "size": 28688771,
             "sha256": "7f12176cdc715b9800a70c15ebd90adaa5696c1ecb3c2657eba0c73e2ea82c3a",
-            "url": "https://github.com/Jun-Murakami/MixCompare/releases/download/v3.0.10/MixCompare_3.0.10_Windows_VST3_AAX_CLAP_Standalone.zip"
+            "url": "https://github.com/Jun-Murakami/MixCompare/releases/download/v3.0.10/MixCompare_3.0.10_Windows_VST3_AAX_CLAP_Standalone.zip",
+            "downloads": 7
           }
         ],
-        "verified": true
+        "verified": true,
+        "downloads": 48
       }
-    }
+    },
+    "downloads": 48
   }
 }

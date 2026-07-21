@@ -38,7 +38,8 @@
             "type": "archive",
             "size": 13146690,
             "sha256": "d1c82311810abce7a6e19952d455ee87213c5ab19e9a07672ebbfea972db61ec",
-            "url": "https://github.com/midilab/jc303/releases/download/v0.12.0/jc303-0.12.0-linux_x64-plugins.zip"
+            "url": "https://github.com/midilab/jc303/releases/download/v0.12.0/jc303-0.12.0-linux_x64-plugins.zip",
+            "downloads": 374
           },
           {
             "systems": [
@@ -59,7 +60,8 @@
             "type": "archive",
             "size": 32400316,
             "sha256": "bfd5ba51f06cb8672da8aab6a5c0488eb73567451b2df42e2641064619fdf31d",
-            "url": "https://github.com/midilab/jc303/releases/download/v0.12.0/jc303-0.12.0-macos-universal-plugins.zip"
+            "url": "https://github.com/midilab/jc303/releases/download/v0.12.0/jc303-0.12.0-macos-universal-plugins.zip",
+            "downloads": 838
           },
           {
             "systems": [
@@ -78,10 +80,12 @@
             "type": "archive",
             "size": 12329630,
             "sha256": "efbc7863a4186eb0405e3638a094b83297a08f45962ad6685a1a43165edc4c2a",
-            "url": "https://github.com/midilab/jc303/releases/download/v0.12.0/jc303-0.12.0-windows_x64-plugins.zip"
+            "url": "https://github.com/midilab/jc303/releases/download/v0.12.0/jc303-0.12.0-windows_x64-plugins.zip",
+            "downloads": 1687
           }
         ],
-        "verified": true
+        "verified": true,
+        "downloads": 2899
       },
       "0.11.1": {
         "name": "JC303",
@@ -117,7 +121,8 @@
             "type": "archive",
             "size": 12991955,
             "sha256": "6d2fb6e5aaadcafa221892ff80dbbb8ee8e4530bc0e4f3a4abd594c2b307c96e",
-            "url": "https://github.com/midilab/jc303/releases/download/v0.11.1/jc303-0.11.1-linux_x64-plugins.zip"
+            "url": "https://github.com/midilab/jc303/releases/download/v0.11.1/jc303-0.11.1-linux_x64-plugins.zip",
+            "downloads": 705
           },
           {
             "systems": [
@@ -138,7 +143,8 @@
             "type": "archive",
             "size": 10826437,
             "sha256": "104a071c080a3a5580cd865b69bb57044184ca836bd31a5efb58bbef647aedc7",
-            "url": "https://github.com/midilab/jc303/releases/download/v0.11.1/jc303-0.11.1-macos-universal-plugins.zip"
+            "url": "https://github.com/midilab/jc303/releases/download/v0.11.1/jc303-0.11.1-macos-universal-plugins.zip",
+            "downloads": 1952
           },
           {
             "systems": [
@@ -157,11 +163,14 @@
             "type": "archive",
             "size": 5331340,
             "sha256": "f0fd945a386df7fd2fa006c679bc5c6262af7458b03a2989cc343845d389633f",
-            "url": "https://github.com/midilab/jc303/releases/download/v0.11.1/jc303-0.11.1-windows_x64-plugins.zip"
+            "url": "https://github.com/midilab/jc303/releases/download/v0.11.1/jc303-0.11.1-windows_x64-plugins.zip",
+            "downloads": 4259
           }
         ],
-        "verified": true
+        "verified": true,
+        "downloads": 6916
       }
-    }
+    },
+    "downloads": 9815
   }
 }

@@ -34,7 +34,8 @@
             "type": "archive",
             "size": 50716040,
             "sha256": "01c0adda69b330b3911f3b6572c09dd0260a6c8e35beb5570055b9d94228438f",
-            "url": "https://github.com/rclement/meeblip-controller/releases/download/1.0.2/Meeblip_Controller-1.0.2-x86_64.AppImage"
+            "url": "https://github.com/rclement/meeblip-controller/releases/download/1.0.2/Meeblip_Controller-1.0.2-x86_64.AppImage",
+            "downloads": 15
           },
           {
             "systems": [
@@ -51,7 +52,8 @@
             "type": "archive",
             "size": 59126544,
             "sha256": "66537603a01fc5515309922406b6b105848617447f8f2804dbfcd045fc06ecef",
-            "url": "https://github.com/rclement/meeblip-controller/releases/download/1.0.2/Meeblip_Controller_-_1.0.2_-_Linux.zip"
+            "url": "https://github.com/rclement/meeblip-controller/releases/download/1.0.2/Meeblip_Controller_-_1.0.2_-_Linux.zip",
+            "downloads": 22
           },
           {
             "systems": [
@@ -71,7 +73,8 @@
             "type": "archive",
             "size": 10571334,
             "sha256": "917b0bc7dacf9cfc31c0a01ee1e5d5c77d75d89d40ed0e3d079bb00757af572f",
-            "url": "https://github.com/rclement/meeblip-controller/releases/download/1.0.2/Meeblip_Controller_-_1.0.2_-_MacOS.zip"
+            "url": "https://github.com/rclement/meeblip-controller/releases/download/1.0.2/Meeblip_Controller_-_1.0.2_-_MacOS.zip",
+            "downloads": 23
           },
           {
             "systems": [
@@ -90,11 +93,14 @@
             "type": "archive",
             "size": 2982370,
             "sha256": "08cf48b2214c13d1ed7fed1aa671e4b67ce60198533328fc120bb5e3d3705d95",
-            "url": "https://github.com/rclement/meeblip-controller/releases/download/1.0.2/Meeblip_Controller_-_1.0.2_-_Windows.zip"
+            "url": "https://github.com/rclement/meeblip-controller/releases/download/1.0.2/Meeblip_Controller_-_1.0.2_-_Windows.zip",
+            "downloads": 28
           }
         ],
-        "verified": true
+        "verified": true,
+        "downloads": 88
       }
-    }
+    },
+    "downloads": 88
   }
 }

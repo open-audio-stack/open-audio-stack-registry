@@ -34,7 +34,8 @@
             "type": "archive",
             "size": 7784042,
             "sha256": "4bb235588bea15af8756f11f35e05285b499a32390c57e21d5cbde932bc31792",
-            "url": "https://github.com/BillyDM/vitalium-verb/releases/download/v1.3.0/vitaliumverb-1.3.0-ubuntu-22.04.zip"
+            "url": "https://github.com/BillyDM/vitalium-verb/releases/download/v1.3.0/vitaliumverb-1.3.0-ubuntu-22.04.zip",
+            "downloads": 909
           },
           {
             "systems": [
@@ -53,7 +54,8 @@
             "type": "archive",
             "size": 14316368,
             "sha256": "412ea5830515bad133944ed1bd8d9b1a9a53cbae83fbac35cce24f5d539c2ea8",
-            "url": "https://github.com/BillyDM/vitalium-verb/releases/download/v1.3.0/vitaliumverb-1.3.0-macos-universal.zip"
+            "url": "https://github.com/BillyDM/vitalium-verb/releases/download/v1.3.0/vitaliumverb-1.3.0-macos-universal.zip",
+            "downloads": 47
           },
           {
             "systems": [
@@ -71,12 +73,15 @@
             "type": "archive",
             "size": 7071712,
             "sha256": "58a744316dcbea42d0abd7a135f5c266592bb2a39646e930e5d5b2145b001391",
-            "url": "https://github.com/BillyDM/vitalium-verb/releases/download/v1.3.0/vitaliumverb-1.3.0-windows.zip"
+            "url": "https://github.com/BillyDM/vitalium-verb/releases/download/v1.3.0/vitaliumverb-1.3.0-windows.zip",
+            "downloads": 168
           }
         ],
-        "verified": true
+        "verified": true,
+        "downloads": 1124
       }
-    }
+    },
+    "downloads": 1124
   },
   "billydm/ctagdrc": {
     "slug": "billydm/ctagdrc",
@@ -114,7 +119,8 @@
             ],
             "size": 7365964,
             "type": "archive",
-            "url": "https://github.com/BillyDM/CTAGDRC/releases/download/v1.1.0/CTAGDRC-1.1.0-Linux.zip"
+            "url": "https://github.com/BillyDM/CTAGDRC/releases/download/v1.1.0/CTAGDRC-1.1.0-Linux.zip",
+            "downloads": 170
           },
           {
             "architectures": [
@@ -134,7 +140,8 @@
             ],
             "size": 16501299,
             "type": "archive",
-            "url": "https://github.com/BillyDM/CTAGDRC/releases/download/v1.1.0/CTAGDRC-1.1.0-macOS.pkg"
+            "url": "https://github.com/BillyDM/CTAGDRC/releases/download/v1.1.0/CTAGDRC-1.1.0-macOS.pkg",
+            "downloads": 23
           },
           {
             "architectures": [
@@ -153,11 +160,14 @@
             ],
             "size": 8376369,
             "type": "installer",
-            "url": "https://github.com/BillyDM/CTAGDRC/releases/download/v1.1.0/CTAGDRC-1.1.0-Windows.exe"
+            "url": "https://github.com/BillyDM/CTAGDRC/releases/download/v1.1.0/CTAGDRC-1.1.0-Windows.exe",
+            "downloads": 75
           }
         ],
-        "verified": true
+        "verified": true,
+        "downloads": 268
       }
-    }
+    },
+    "downloads": 268
   }
 }

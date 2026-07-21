@@ -32,7 +32,8 @@
       "type": "archive",
       "sha256": "fae7c1c325fde7ed49c978358397cb4bcf69012c4e6eefe2a5968fe6a36d0421",
       "size": 19665323,
-      "url": "https://github.com/baconpaul/six-sines/releases/download/v1.1.0/six-sines-linux-2025-03-18-43d10b2.tgz"
+      "url": "https://github.com/baconpaul/six-sines/releases/download/v1.1.0/six-sines-linux-2025-03-18-43d10b2.tgz",
+      "downloads": 639
     },
     {
       "systems": [
@@ -54,7 +55,8 @@
       "type": "installer",
       "sha256": "d6fdf29179cd5b35aa024f25912a50bd14df59fa73cea9ce3da6f3fbf1abe55a",
       "size": 43527509,
-      "url": "https://github.com/baconpaul/six-sines/releases/download/v1.1.0/six-sines-macOS-2025-03-18-43d10b2.dmg"
+      "url": "https://github.com/baconpaul/six-sines/releases/download/v1.1.0/six-sines-macOS-2025-03-18-43d10b2.dmg",
+      "downloads": 850
     },
     {
       "systems": [
@@ -73,8 +75,10 @@
       "type": "archive",
       "size": 15983506,
       "sha256": "7af26e3a4674fac3eecf72061a6f8d9aa13a677c511f116f4f507e6959e002ad",
-      "url": "https://github.com/baconpaul/six-sines/releases/download/v1.1.0/six-sines-windows-2025-03-18-43d10b2.zip"
+      "url": "https://github.com/baconpaul/six-sines/releases/download/v1.1.0/six-sines-windows-2025-03-18-43d10b2.zip",
+      "downloads": 1671
     }
   ],
-  "verified": true
+  "verified": true,
+  "downloads": 3160
 }

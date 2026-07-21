@@ -36,7 +36,8 @@
             "type": "archive",
             "size": 3342886,
             "sha256": "d59cf67050f5c9223ae9140e435d969dee3febaeb7c334c29996d211a9c75eba",
-            "url": "https://github.com/Kiriki-liszt/Relief_Compressor/releases/download/v1.0.0/Relief.Compressor.macOS.v1.0.0.zip"
+            "url": "https://github.com/Kiriki-liszt/Relief_Compressor/releases/download/v1.0.0/Relief.Compressor.macOS.v1.0.0.zip",
+            "downloads": 580
           },
           {
             "systems": [
@@ -53,12 +54,15 @@
             "type": "archive",
             "size": 1332431,
             "sha256": "52843e53ea1ce98e755c64ec79858a5d5ad850a4d91645e64bf7e1dac853a7a6",
-            "url": "https://github.com/Kiriki-liszt/Relief_Compressor/releases/download/v1.0.0/Relief.Compressor.Win.v1.0.0.zip"
+            "url": "https://github.com/Kiriki-liszt/Relief_Compressor/releases/download/v1.0.0/Relief.Compressor.Win.v1.0.0.zip",
+            "downloads": 1731
           }
         ],
-        "verified": true
+        "verified": true,
+        "downloads": 2311
       }
-    }
+    },
+    "downloads": 2311
   },
   "kiriki-liszt/js-inflator": {
     "slug": "kiriki-liszt/js-inflator",
@@ -95,7 +99,8 @@
             "type": "archive",
             "size": 10085918,
             "sha256": "061e5ffa3522f26f7ff0b88213e30b52feefbaf5f4c6bfdcd0c46f6bfb5a144d",
-            "url": "https://github.com/Kiriki-liszt/JS_Inflator/releases/download/v2.0.3.2/JS.Inflator.macOS.v2.0.3.2.zip"
+            "url": "https://github.com/Kiriki-liszt/JS_Inflator/releases/download/v2.0.3.2/JS.Inflator.macOS.v2.0.3.2.zip",
+            "downloads": 17339
           },
           {
             "systems": [
@@ -112,11 +117,14 @@
             "type": "archive",
             "size": 4598786,
             "sha256": "ff882429e2f6c5be9a9757f6f136acd4f8e3b2a1cc212cf1fabbe0f6b28c192f",
-            "url": "https://github.com/Kiriki-liszt/JS_Inflator/releases/download/v2.0.3.2/JS.Inflator.Win.v2.0.3.2.zip"
+            "url": "https://github.com/Kiriki-liszt/JS_Inflator/releases/download/v2.0.3.2/JS.Inflator.Win.v2.0.3.2.zip",
+            "downloads": 31293
           }
         ],
-        "verified": true
+        "verified": true,
+        "downloads": 48632
       }
-    }
+    },
+    "downloads": 48632
   }
 }

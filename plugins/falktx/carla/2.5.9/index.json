@@ -33,7 +33,8 @@
       "type": "installer",
       "size": 381733941,
       "sha256": "d797ec83ac9bbd402cb116d1b562cbb6d786b355f42233436546fbf2bc4015e9",
-      "url": "https://github.com/falkTX/Carla/releases/download/v2.5.9/Carla-2.5.9-macOS-universal.dmg"
+      "url": "https://github.com/falkTX/Carla/releases/download/v2.5.9/Carla-2.5.9-macOS-universal.dmg",
+      "downloads": 2380
     },
     {
       "systems": [
@@ -52,8 +53,10 @@
       "type": "archive",
       "size": 246800688,
       "sha256": "de0091c4cc5fdcfdb4f589434d6e23554790d9b6c484908f7e31afebfd627565",
-      "url": "https://github.com/falkTX/Carla/releases/download/v2.5.9/Carla-2.5.9-win64.zip"
+      "url": "https://github.com/falkTX/Carla/releases/download/v2.5.9/Carla-2.5.9-win64.zip",
+      "downloads": 10472
     }
   ],
-  "verified": true
+  "verified": true,
+  "downloads": 12852
 }

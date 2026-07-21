@@ -29,7 +29,8 @@
       "type": "archive",
       "size": 6379092,
       "sha256": "3b8ab9add298d2c77a1f81b6b63e4a668a79bf7f1b67edb063165010c9bec166",
-      "url": "https://github.com/tiagolr/ripplerx/releases/download/v1.5.19/ripplerx-linux-v1.5.19.zip"
+      "url": "https://github.com/tiagolr/ripplerx/releases/download/v1.5.19/ripplerx-linux-v1.5.19.zip",
+      "downloads": 172
     },
     {
       "systems": [
@@ -49,7 +50,8 @@
       "type": "archive",
       "size": 15634131,
       "sha256": "24189919de96d6e5a4b80343ab4b664dc7ad5f7f049a06336da34559e4ddddbe",
-      "url": "https://github.com/tiagolr/ripplerx/releases/download/v1.5.19/ripplerx-macos-v1.5.19.zip"
+      "url": "https://github.com/tiagolr/ripplerx/releases/download/v1.5.19/ripplerx-macos-v1.5.19.zip",
+      "downloads": 185
     },
     {
       "systems": [
@@ -67,8 +69,10 @@
       "type": "archive",
       "size": 6929945,
       "sha256": "517c0e99f3ff37cf7b3941ed9afbece1423a0da69d70a9dd8076a473d630a50d",
-      "url": "https://github.com/tiagolr/ripplerx/releases/download/v1.5.19/ripplerx-win-v1.5.19.zip"
+      "url": "https://github.com/tiagolr/ripplerx/releases/download/v1.5.19/ripplerx-win-v1.5.19.zip",
+      "downloads": 387
     }
   ],
-  "verified": true
+  "verified": true,
+  "downloads": 744
 }

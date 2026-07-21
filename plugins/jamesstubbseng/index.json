@@ -33,7 +33,8 @@
             "type": "installer",
             "size": 381923187,
             "sha256": "08bd66e3030b2e510593626a7f72f6955d1d649f219dadbbe02519d85b25ab9d",
-            "url": "https://github.com/JamesStubbsEng/8ridgelite/releases/download/v1.0.5/8ridgelite-windows.exe"
+            "url": "https://github.com/JamesStubbsEng/8ridgelite/releases/download/v1.0.5/8ridgelite-windows.exe",
+            "downloads": 7940
           },
           {
             "systems": [
@@ -51,11 +52,14 @@
             "type": "installer",
             "size": 497392105,
             "sha256": "ea621909afc4640fdb317afbf4cb645ac238f4e0d21690074010874c4d697716",
-            "url": "https://github.com/JamesStubbsEng/8ridgelite/releases/download/v1.0.5/8ridgelite.pkg"
+            "url": "https://github.com/JamesStubbsEng/8ridgelite/releases/download/v1.0.5/8ridgelite.pkg",
+            "downloads": 2383
           }
         ],
-        "verified": true
+        "verified": true,
+        "downloads": 10323
       }
-    }
+    },
+    "downloads": 10323
   }
 }

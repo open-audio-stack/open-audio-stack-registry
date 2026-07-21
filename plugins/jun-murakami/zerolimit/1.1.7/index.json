@@ -32,7 +32,8 @@
       "type": "archive",
       "size": 11386807,
       "sha256": "d6b15e5ef18b263d22be402e4ab8ff2fccd3f85967ba6a2dcb8d6be8d605c5be",
-      "url": "https://github.com/Jun-Murakami/ZeroLimit/releases/download/v1.1.7/ZeroLimit_1.1.7_Linux_VST3_LV2_CLAP_Standalone.zip"
+      "url": "https://github.com/Jun-Murakami/ZeroLimit/releases/download/v1.1.7/ZeroLimit_1.1.7_Linux_VST3_LV2_CLAP_Standalone.zip",
+      "downloads": 20
     },
     {
       "systems": [
@@ -55,7 +56,8 @@
       "type": "installer",
       "size": 27283334,
       "sha256": "761e6be37071b931c08374325a569287d1e231a622361bffc0ab77e9fd27defc",
-      "url": "https://github.com/Jun-Murakami/ZeroLimit/releases/download/v1.1.7/ZeroLimit_1.1.7_macOS.pkg"
+      "url": "https://github.com/Jun-Murakami/ZeroLimit/releases/download/v1.1.7/ZeroLimit_1.1.7_macOS.pkg",
+      "downloads": 12
     },
     {
       "systems": [
@@ -78,7 +80,8 @@
       "type": "archive",
       "size": 27235178,
       "sha256": "1e371966796a1df6b1e6c2abc104b0284eeb0e57454e19922156634065fc77a8",
-      "url": "https://github.com/Jun-Murakami/ZeroLimit/releases/download/v1.1.7/ZeroLimit_1.1.7_macOS_VST3_AU_AAX_CLAP_Standalone.zip"
+      "url": "https://github.com/Jun-Murakami/ZeroLimit/releases/download/v1.1.7/ZeroLimit_1.1.7_macOS_VST3_AU_AAX_CLAP_Standalone.zip",
+      "downloads": 7
     },
     {
       "systems": [
@@ -99,7 +102,8 @@
       "type": "installer",
       "size": 17096088,
       "sha256": "2ed66accc7fb17598ff6ecbace65814a37d2edd2833cea53da43b7d981951ce3",
-      "url": "https://github.com/Jun-Murakami/ZeroLimit/releases/download/v1.1.7/ZeroLimit_1.1.7_Windows_Setup.exe"
+      "url": "https://github.com/Jun-Murakami/ZeroLimit/releases/download/v1.1.7/ZeroLimit_1.1.7_Windows_Setup.exe",
+      "downloads": 40
     },
     {
       "systems": [
@@ -120,8 +124,10 @@
       "type": "archive",
       "size": 21937179,
       "sha256": "3d59bb7aefbc956112ca45a1337235470f6bdd5a1f782b52435698059cd6030b",
-      "url": "https://github.com/Jun-Murakami/ZeroLimit/releases/download/v1.1.7/ZeroLimit_1.1.7_Windows_VST3_AAX_CLAP_Standalone.zip"
+      "url": "https://github.com/Jun-Murakami/ZeroLimit/releases/download/v1.1.7/ZeroLimit_1.1.7_Windows_VST3_AAX_CLAP_Standalone.zip",
+      "downloads": 11
     }
   ],
-  "verified": true
+  "verified": true,
+  "downloads": 90
 }

@@ -35,7 +35,8 @@
             ],
             "size": 7514992,
             "type": "archive",
-            "url": "https://github.com/Garneek/crunchy/releases/download/v0.2.3/crunchy-0.2.3-linux.zip"
+            "url": "https://github.com/Garneek/crunchy/releases/download/v0.2.3/crunchy-0.2.3-linux.zip",
+            "downloads": 32
           },
           {
             "architectures": [
@@ -53,7 +54,8 @@
             ],
             "size": 13203480,
             "type": "archive",
-            "url": "https://github.com/Garneek/crunchy/releases/download/v0.2.3/crunchy-0.2.3-macOS.zip"
+            "url": "https://github.com/Garneek/crunchy/releases/download/v0.2.3/crunchy-0.2.3-macOS.zip",
+            "downloads": 36
           },
           {
             "architectures": [
@@ -71,11 +73,14 @@
             ],
             "size": 5997196,
             "type": "archive",
-            "url": "https://github.com/Garneek/crunchy/releases/download/v0.2.3/crunchy-0.2.3-windows.zip"
+            "url": "https://github.com/Garneek/crunchy/releases/download/v0.2.3/crunchy-0.2.3-windows.zip",
+            "downloads": 36
           }
         ],
-        "verified": true
+        "verified": true,
+        "downloads": 104
       }
-    }
+    },
+    "downloads": 104
   }
 }

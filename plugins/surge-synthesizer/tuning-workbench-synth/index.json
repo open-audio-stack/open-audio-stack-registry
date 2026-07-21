@@ -33,7 +33,8 @@
           "type": "archive",
           "size": 9821612,
           "sha256": "1187feb5bfdccbffe6bf0dfa20323273cee1db0855826fe3a2b562deb2254364",
-          "url": "https://github.com/surge-synthesizer/tuning-workbench-synth/releases/download/Nightly/tuning-workbench-synth-linux-x86_64-ddf9cef.tgz"
+          "url": "https://github.com/surge-synthesizer/tuning-workbench-synth/releases/download/Nightly/tuning-workbench-synth-linux-x86_64-ddf9cef.tgz",
+          "downloads": 58
         },
         {
           "systems": [
@@ -52,7 +53,8 @@
           "type": "installer",
           "size": 15578559,
           "sha256": "93c1e4bbf1281a5734923c56af30f5c1d26f30e829fc9d4848e826e5af8250f1",
-          "url": "https://github.com/surge-synthesizer/tuning-workbench-synth/releases/download/Nightly/tuning-workbench-synth-macos-ddf9cef.dmg"
+          "url": "https://github.com/surge-synthesizer/tuning-workbench-synth/releases/download/Nightly/tuning-workbench-synth-macos-ddf9cef.dmg",
+          "downloads": 121
         },
         {
           "systems": [
@@ -70,10 +72,13 @@
           "type": "archive",
           "size": 2959162,
           "sha256": "d0d35a7a96df70fcb264f404a2ee9b1915b00c885d0ebbb116b42fda2e5336fa",
-          "url": "https://github.com/surge-synthesizer/tuning-workbench-synth/releases/download/Nightly/tuning-workbench-synth-win-ddf9cef.zip"
+          "url": "https://github.com/surge-synthesizer/tuning-workbench-synth/releases/download/Nightly/tuning-workbench-synth-win-ddf9cef.zip",
+          "downloads": 298
         }
       ],
-      "verified": true
+      "verified": true,
+      "downloads": 477
     }
-  }
+  },
+  "downloads": 477
 }

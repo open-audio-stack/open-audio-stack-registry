@@ -34,7 +34,8 @@
           "type": "archive",
           "size": 178619517,
           "sha256": "c15f9e1455944fe8c98e66c83098ca15fc0f801eb6283e0c29a23b453ebab193",
-          "url": "https://github.com/rodrigodzf/NeuralResonatorVST/releases/download/0.1.3/NeuralResonator_linux_x86_64.tar.gz"
+          "url": "https://github.com/rodrigodzf/NeuralResonatorVST/releases/download/0.1.3/NeuralResonator_linux_x86_64.tar.gz",
+          "downloads": 76
         },
         {
           "systems": [
@@ -52,7 +53,8 @@
           "type": "archive",
           "size": 169357843,
           "sha256": "bfa6baf1c9c8d5a3934042eadbee99a6f2bc414d940b3726ea0178b943c44600",
-          "url": "https://github.com/rodrigodzf/NeuralResonatorVST/releases/download/0.1.3/NeuralResonator_macOS_arm64_stapled.zip"
+          "url": "https://github.com/rodrigodzf/NeuralResonatorVST/releases/download/0.1.3/NeuralResonator_macOS_arm64_stapled.zip",
+          "downloads": 265
         },
         {
           "systems": [
@@ -70,10 +72,13 @@
           "type": "archive",
           "size": 334167004,
           "sha256": "892f3d6f6e543dcee9c418537ba2f832093bbb9df6533fb1f62fa7d1a88193cd",
-          "url": "https://github.com/rodrigodzf/NeuralResonatorVST/releases/download/0.1.3/NeuralResonator_macOS_x86_64_stapled.zip"
+          "url": "https://github.com/rodrigodzf/NeuralResonatorVST/releases/download/0.1.3/NeuralResonator_macOS_x86_64_stapled.zip",
+          "downloads": 230
         }
       ],
-      "verified": true
+      "verified": true,
+      "downloads": 571
     }
-  }
+  },
+  "downloads": 571
 }

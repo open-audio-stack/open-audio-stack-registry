@@ -35,7 +35,8 @@
           "type": "installer",
           "size": 131201233,
           "sha256": "d653a78e78e059f77e74a0f9d7cc6cb6417e2e343ecde9c34198054fa42d633b",
-          "url": "https://github.com/Torsion-Audio/Scyclone/releases/download/v.0.0.3/Scyclone-v.0.0.3-osx-arm64.dmg"
+          "url": "https://github.com/Torsion-Audio/Scyclone/releases/download/v.0.0.3/Scyclone-v.0.0.3-osx-arm64.dmg",
+          "downloads": 810
         },
         {
           "systems": [
@@ -54,7 +55,8 @@
           "type": "installer",
           "size": 132137796,
           "sha256": "2003b4d4d7b834f426dbb64b0011ecf3af5d87170fbf15fa04259090e77ee075",
-          "url": "https://github.com/Torsion-Audio/Scyclone/releases/download/v.0.0.3/Scyclone-v.0.0.3-osx-x64.dmg"
+          "url": "https://github.com/Torsion-Audio/Scyclone/releases/download/v.0.0.3/Scyclone-v.0.0.3-osx-x64.dmg",
+          "downloads": 609
         },
         {
           "systems": [
@@ -72,10 +74,13 @@
           "type": "archive",
           "size": 85103635,
           "sha256": "10f3c3d8fc684ec868dc5b76ad21339457733b1dabf7bfc5f393d910a5339581",
-          "url": "https://github.com/Torsion-Audio/Scyclone/releases/download/v.0.0.3/Scyclone-v.0.0.3-win-x64.zip"
+          "url": "https://github.com/Torsion-Audio/Scyclone/releases/download/v.0.0.3/Scyclone-v.0.0.3-win-x64.zip",
+          "downloads": 2142
         }
       ],
-      "verified": true
+      "verified": true,
+      "downloads": 3561
     }
-  }
+  },
+  "downloads": 3561
 }

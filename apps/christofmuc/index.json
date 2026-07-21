@@ -34,7 +34,8 @@
             "open": "KnobKraftOrm.app",
             "size": 80930279,
             "sha256": "89accb39c29fe193b30d2c4c36e2215de8aa87a5e12f0cc9e17526ae6ed71741",
-            "url": "https://github.com/christofmuc/KnobKraft-orm/releases/download/2.9.0/KnobKraft_Orm-2.9.0-Darwin.dmg"
+            "url": "https://github.com/christofmuc/KnobKraft-orm/releases/download/2.9.0/KnobKraft_Orm-2.9.0-Darwin.dmg",
+            "downloads": 162
           },
           {
             "systems": [
@@ -49,7 +50,8 @@
             "open": "bin/KnobKraftOrm",
             "size": 18058121,
             "sha256": "de23a08eae7ff413f8733205bbc6582efc4838bdc417653966047b924a190e51",
-            "url": "https://github.com/christofmuc/KnobKraft-orm/releases/download/2.9.0/KnobKraft_Orm-2.9.0-Linux.tar.gz"
+            "url": "https://github.com/christofmuc/KnobKraft-orm/releases/download/2.9.0/KnobKraft_Orm-2.9.0-Linux.tar.gz",
+            "downloads": 33
           },
           {
             "systems": [
@@ -64,7 +66,8 @@
             "open": "bin/KnobKraftOrm",
             "size": 18087284,
             "sha256": "a24fe35bbf14e5fe33623a1c014dc648d600a88680ebd3694fee5a550749c212",
-            "url": "https://github.com/christofmuc/KnobKraft-orm/releases/download/2.9.0/KnobKraft_Orm-2.9.0-Ubuntu24.tar.gz"
+            "url": "https://github.com/christofmuc/KnobKraft-orm/releases/download/2.9.0/KnobKraft_Orm-2.9.0-Ubuntu24.tar.gz",
+            "downloads": 29
           },
           {
             "systems": [
@@ -79,12 +82,15 @@
             "open": "KnobKraftOrm.exe",
             "size": 69131397,
             "sha256": "704e02f161eed15ad539331e975eee033b17a43ffa2041aebbcb9c931c34d6f3",
-            "url": "https://github.com/christofmuc/KnobKraft-orm/releases/download/2.9.0/knobkraft_orm_setup_2.9.0.exe"
+            "url": "https://github.com/christofmuc/KnobKraft-orm/releases/download/2.9.0/knobkraft_orm_setup_2.9.0.exe",
+            "downloads": 269
           }
         ],
-        "verified": true
+        "verified": true,
+        "downloads": 493
       }
-    }
+    },
+    "downloads": 493
   },
   "christofmuc/bcr2000-master": {
     "slug": "christofmuc/bcr2000-master",
@@ -119,11 +125,14 @@
             "open": "BCRMaster.exe",
             "size": 26108901,
             "sha256": "594d5c8e7a09c3deda6e807685d74b95004e3348c5070b326c4c738a970a590e",
-            "url": "https://github.com/christofmuc/BCR2000_Master/releases/download/1.0.4/bcrmaster_setup.exe"
+            "url": "https://github.com/christofmuc/BCR2000_Master/releases/download/1.0.4/bcrmaster_setup.exe",
+            "downloads": 78
           }
         ],
-        "verified": true
+        "verified": true,
+        "downloads": 78
       }
-    }
+    },
+    "downloads": 78
   }
 }

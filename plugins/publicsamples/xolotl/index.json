@@ -32,7 +32,8 @@
           "type": "archive",
           "size": 62289340,
           "sha256": "31cf90dc9a9a3e839439ab5a0148cc4ad1bdedb4cfedc01c34edb1b192f3b111",
-          "url": "https://github.com/publicsamples/Xolotl/releases/download/0.9.2/xolotl-0.9.2-Linux.tar.xz"
+          "url": "https://github.com/publicsamples/Xolotl/releases/download/0.9.2/xolotl-0.9.2-Linux.tar.xz",
+          "downloads": 20
         },
         {
           "systems": [
@@ -49,7 +50,8 @@
           "type": "archive",
           "size": 43727474,
           "sha256": "b876cb9ff4e561d1a77a2f24b4a8f47214dc5e60d5a39cde923c2e335e89abf6",
-          "url": "https://github.com/publicsamples/Xolotl/releases/download/0.9.2/Xolotl-0.9.2-Windows.zip"
+          "url": "https://github.com/publicsamples/Xolotl/releases/download/0.9.2/Xolotl-0.9.2-Windows.zip",
+          "downloads": 70
         },
         {
           "systems": [
@@ -68,10 +70,13 @@
           "type": "archive",
           "size": 912706080,
           "sha256": "d56cfe548929b776cba6e52d856b4fa3110793fcdff2b8a8a2c768045e475644",
-          "url": "https://github.com/publicsamples/Xolotl/releases/download/0.9.2/Xolotl-0.9.2.Mac.zip"
+          "url": "https://github.com/publicsamples/Xolotl/releases/download/0.9.2/Xolotl-0.9.2.Mac.zip",
+          "downloads": 47
         }
       ],
-      "verified": true
+      "verified": true,
+      "downloads": 137
     }
-  }
+  },
+  "downloads": 137
 }

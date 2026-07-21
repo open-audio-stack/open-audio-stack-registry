@@ -31,7 +31,8 @@
       "type": "installer",
       "size": 93400900,
       "sha256": "4c135e1e9046263369a1add52657d6449c28bcbf2ce7528a1f14b4ea568e22f7",
-      "url": "https://github.com/FigBug/Wavetable/releases/download/v1.0.32/Wavetable.deb"
+      "url": "https://github.com/FigBug/Wavetable/releases/download/v1.0.32/Wavetable.deb",
+      "downloads": 106
     },
     {
       "systems": [
@@ -51,7 +52,8 @@
       "type": "installer",
       "size": 54653896,
       "sha256": "111c10c6532a8ea3c63908d1f70de122aa3526ce22c6b9b3758f80c358591637",
-      "url": "https://github.com/FigBug/Wavetable/releases/download/v1.0.32/Wavetable.exe"
+      "url": "https://github.com/FigBug/Wavetable/releases/download/v1.0.32/Wavetable.exe",
+      "downloads": 54
     },
     {
       "systems": [
@@ -73,8 +75,10 @@
       "type": "installer",
       "size": 97582170,
       "sha256": "7ae76ede0618595ee9b330b1403840a1b17df40ae9923609fe0802655cbb55de",
-      "url": "https://github.com/FigBug/Wavetable/releases/download/v1.0.32/Wavetable.pkg"
+      "url": "https://github.com/FigBug/Wavetable/releases/download/v1.0.32/Wavetable.pkg",
+      "downloads": 24
     }
   ],
-  "verified": true
+  "verified": true,
+  "downloads": 184
 }

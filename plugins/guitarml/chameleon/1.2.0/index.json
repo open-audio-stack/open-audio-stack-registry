@@ -32,7 +32,8 @@
       "type": "installer",
       "size": 2703980,
       "sha256": "06b2ba4d8438fc90376485aff6ed3c732868c6bfb1b773a2c348c0e6ad6d1352",
-      "url": "https://github.com/GuitarML/Chameleon/releases/download/v1.2.0/Chameleon-Linux-x64-1.2.deb"
+      "url": "https://github.com/GuitarML/Chameleon/releases/download/v1.2.0/Chameleon-Linux-x64-1.2.deb",
+      "downloads": 2313
     },
     {
       "systems": [
@@ -51,7 +52,8 @@
       "type": "installer",
       "size": 14747494,
       "sha256": "9387fb1f0d5f4efe26dcb7d179dbd0a29ec96f976643be0b551dc0a56125739e",
-      "url": "https://github.com/GuitarML/Chameleon/releases/download/v1.2.0/Install-Chameleon-v1.2-Mac.dmg"
+      "url": "https://github.com/GuitarML/Chameleon/releases/download/v1.2.0/Install-Chameleon-v1.2-Mac.dmg",
+      "downloads": 2563
     },
     {
       "systems": [
@@ -69,8 +71,10 @@
       "type": "installer",
       "size": 4794770,
       "sha256": "ac7e639eaad7c4db1aba556b6a489a17fd0dd4a67df49cbc5e126367a9a1d690",
-      "url": "https://github.com/GuitarML/Chameleon/releases/download/v1.2.0/Chameleon-Win-1.2.0.exe"
+      "url": "https://github.com/GuitarML/Chameleon/releases/download/v1.2.0/Chameleon-Win-1.2.0.exe",
+      "downloads": 6024
     }
   ],
-  "verified": true
+  "verified": true,
+  "downloads": 10900
 }

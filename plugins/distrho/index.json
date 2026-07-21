@@ -33,7 +33,8 @@
             "type": "archive",
             "size": 1547927,
             "sha256": "6342da2dc878563931704294f57e7ba475a433091b3b74517977c3226741918d",
-            "url": "https://github.com/DISTRHO/MVerb/releases/download/0.9/MVerb-0.9-win.zip"
+            "url": "https://github.com/DISTRHO/MVerb/releases/download/0.9/MVerb-0.9-win.zip",
+            "downloads": 156
           },
           {
             "systems": [
@@ -51,12 +52,15 @@
             "type": "archive",
             "size": 1547927,
             "sha256": "6342da2dc878563931704294f57e7ba475a433091b3b74517977c3226741918d",
-            "url": "https://github.com/DISTRHO/MVerb/releases/download/0.9/MVerb-0.9-win.zip"
+            "url": "https://github.com/DISTRHO/MVerb/releases/download/0.9/MVerb-0.9-win.zip",
+            "downloads": 156
           }
         ],
-        "verified": true
+        "verified": true,
+        "downloads": 312
       }
-    }
+    },
+    "downloads": 312
   },
   "distrho/dpf-plugins": {
     "slug": "distrho/dpf-plugins",
@@ -99,7 +103,8 @@
             "type": "archive",
             "size": 9063488,
             "sha256": "f3251277b3083c363c84908656b24e213b65468ee24e85f5a10bad406b78f877",
-            "url": "https://github.com/DISTRHO/DPF-Plugins/releases/download/v1.7/DPF-Plugins-v1.7-linux-arm64.tar.xz"
+            "url": "https://github.com/DISTRHO/DPF-Plugins/releases/download/v1.7/DPF-Plugins-v1.7-linux-arm64.tar.xz",
+            "downloads": 95
           },
           {
             "systems": [
@@ -120,7 +125,8 @@
             "type": "archive",
             "size": 9827340,
             "sha256": "8088e362f9f68fea179abe9f96b83fca07693224ffcf46837c24ff8b59b119cb",
-            "url": "https://github.com/DISTRHO/DPF-Plugins/releases/download/v1.7/DPF-Plugins-v1.7-linux-x86_64.tar.xz"
+            "url": "https://github.com/DISTRHO/DPF-Plugins/releases/download/v1.7/DPF-Plugins-v1.7-linux-x86_64.tar.xz",
+            "downloads": 474
           },
           {
             "systems": [
@@ -142,7 +148,8 @@
             "type": "installer",
             "size": 57933584,
             "sha256": "94b996c898a7ba160561113d1c48c4700a6ef65d33f4092ea7289b1af44059e1",
-            "url": "https://github.com/DISTRHO/DPF-Plugins/releases/download/v1.7/DPF-Plugins-v1.7-macos-universal.dmg"
+            "url": "https://github.com/DISTRHO/DPF-Plugins/releases/download/v1.7/DPF-Plugins-v1.7-macos-universal.dmg",
+            "downloads": 143
           },
           {
             "systems": [
@@ -163,12 +170,15 @@
             "type": "archive",
             "size": 74524341,
             "sha256": "fdc609e0936e9c999395b9ddd98a9a72739cb672d8838ab71849469aee50ad98",
-            "url": "https://github.com/DISTRHO/DPF-Plugins/releases/download/v1.7/DPF-Plugins-v1.7-win64.zip"
+            "url": "https://github.com/DISTRHO/DPF-Plugins/releases/download/v1.7/DPF-Plugins-v1.7-win64.zip",
+            "downloads": 461
           }
         ],
-        "verified": true
+        "verified": true,
+        "downloads": 1173
       }
-    }
+    },
+    "downloads": 1173
   },
   "distrho/cardinal": {
     "slug": "distrho/cardinal",
@@ -207,7 +217,8 @@
             "type": "archive",
             "size": 1105999539,
             "sha256": "b36b6d5b04e55bb808bc4b99ac3e08007b1dc48df7e75dbda25664ab974f7a98",
-            "url": "https://github.com/DISTRHO/Cardinal/releases/download/26.02/Cardinal-linux-aarch64-26.02.tar.gz"
+            "url": "https://github.com/DISTRHO/Cardinal/releases/download/26.02/Cardinal-linux-aarch64-26.02.tar.gz",
+            "downloads": 395
           },
           {
             "systems": [
@@ -227,7 +238,8 @@
             "type": "archive",
             "size": 1076424860,
             "sha256": "df74bf2e5b64066bb8405da1e45f5250b0b2fb7e60d382accef8155ceaf4ef26",
-            "url": "https://github.com/DISTRHO/Cardinal/releases/download/26.02/Cardinal-linux-armhf-26.02.tar.gz"
+            "url": "https://github.com/DISTRHO/Cardinal/releases/download/26.02/Cardinal-linux-armhf-26.02.tar.gz",
+            "downloads": 112
           },
           {
             "systems": [
@@ -247,7 +259,8 @@
             "type": "archive",
             "size": 1121136815,
             "sha256": "0c56d4285599455d1561fdd8dc97f73a58fb4638d8ca7ee93d34e1a0cb557a11",
-            "url": "https://github.com/DISTRHO/Cardinal/releases/download/26.02/Cardinal-linux-i686-26.02.tar.gz"
+            "url": "https://github.com/DISTRHO/Cardinal/releases/download/26.02/Cardinal-linux-i686-26.02.tar.gz",
+            "downloads": 130
           },
           {
             "systems": [
@@ -267,7 +280,8 @@
             "type": "archive",
             "size": 1113893699,
             "sha256": "657df0beeec04184de7359cbd3e173a36eeab78077e1e26da81405632f98ec25",
-            "url": "https://github.com/DISTRHO/Cardinal/releases/download/26.02/Cardinal-linux-x86_64-26.02.tar.gz"
+            "url": "https://github.com/DISTRHO/Cardinal/releases/download/26.02/Cardinal-linux-x86_64-26.02.tar.gz",
+            "downloads": 1998
           },
           {
             "systems": [
@@ -289,7 +303,8 @@
             "type": "installer",
             "size": 974061970,
             "sha256": "5f62f020aab3987aea4bf7bfde4caf09b4c41ab555f485c0e7ebf46944bdb415",
-            "url": "https://github.com/DISTRHO/Cardinal/releases/download/26.02/Cardinal-macOS-universal-26.02.pkg"
+            "url": "https://github.com/DISTRHO/Cardinal/releases/download/26.02/Cardinal-macOS-universal-26.02.pkg",
+            "downloads": 4840
           },
           {
             "systems": [
@@ -309,7 +324,8 @@
             "type": "installer",
             "size": 371595549,
             "sha256": "38ad8c57305783118579e4361c94eb8cbd50c7eeeed15cbd8aa6da52bf2c0aa2",
-            "url": "https://github.com/DISTRHO/Cardinal/releases/download/26.02/Cardinal-win32-26.02-installer.exe"
+            "url": "https://github.com/DISTRHO/Cardinal/releases/download/26.02/Cardinal-win32-26.02-installer.exe",
+            "downloads": 747
           },
           {
             "systems": [
@@ -329,7 +345,8 @@
             "type": "archive",
             "size": 1156454882,
             "sha256": "767452f3dc43cd3da494e2b1b52c31ea3380ff3b3d65128a0edaffba9dffca87",
-            "url": "https://github.com/DISTRHO/Cardinal/releases/download/26.02/Cardinal-win32-26.02.zip"
+            "url": "https://github.com/DISTRHO/Cardinal/releases/download/26.02/Cardinal-win32-26.02.zip",
+            "downloads": 315
           },
           {
             "systems": [
@@ -349,7 +366,8 @@
             "type": "installer",
             "size": 368923667,
             "sha256": "16f21250fe656fc766f6c1df79c45244bbdf55ffa90ff0c3c3ace9af70cf3e24",
-            "url": "https://github.com/DISTRHO/Cardinal/releases/download/26.02/Cardinal-win64-26.02-installer.exe"
+            "url": "https://github.com/DISTRHO/Cardinal/releases/download/26.02/Cardinal-win64-26.02-installer.exe",
+            "downloads": 7027
           },
           {
             "systems": [
@@ -369,11 +387,14 @@
             "type": "archive",
             "size": 1146920345,
             "sha256": "03407f810f99b02e62a41970ae066c1a64591edc924735f3bdec66db1958cb26",
-            "url": "https://github.com/DISTRHO/Cardinal/releases/download/26.02/Cardinal-win64-26.02.zip"
+            "url": "https://github.com/DISTRHO/Cardinal/releases/download/26.02/Cardinal-win64-26.02.zip",
+            "downloads": 2439
           }
         ],
-        "verified": true
+        "verified": true,
+        "downloads": 18003
       }
-    }
+    },
+    "downloads": 18003
   }
 }

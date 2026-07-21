@@ -29,7 +29,8 @@
       ],
       "size": 11612345,
       "type": "archive",
-      "url": "https://github.com/bljustice/hue/releases/download/v1.1.0/hue-v1.1.0-macos-universal.zip"
+      "url": "https://github.com/bljustice/hue/releases/download/v1.1.0/hue-v1.1.0-macos-universal.zip",
+      "downloads": 7
     },
     {
       "architectures": [
@@ -47,7 +48,8 @@
       ],
       "size": 6933843,
       "type": "archive",
-      "url": "https://github.com/bljustice/hue/releases/download/v1.1.0/hue-v1.1.0-ubuntu-22.04.zip"
+      "url": "https://github.com/bljustice/hue/releases/download/v1.1.0/hue-v1.1.0-ubuntu-22.04.zip",
+      "downloads": 7
     },
     {
       "architectures": [
@@ -65,8 +67,10 @@
       ],
       "size": 5418859,
       "type": "archive",
-      "url": "https://github.com/bljustice/hue/releases/download/v1.1.0/hue-v1.1.0-windows.zip"
+      "url": "https://github.com/bljustice/hue/releases/download/v1.1.0/hue-v1.1.0-windows.zip",
+      "downloads": 13
     }
   ],
-  "verified": true
+  "verified": true,
+  "downloads": 27
 }

@@ -29,7 +29,8 @@
       "type": "archive",
       "sha256": "f7213c22e67535e2886cc9286edc63bf76b7315828fa6f16b327d6f413a08e12",
       "size": 5267766,
-      "url": "https://github.com/sjoerdvankreel/firefly-synth-2/releases/download/v2.1.0/FireflySynth2-linux-clap-Release.zip"
+      "url": "https://github.com/sjoerdvankreel/firefly-synth-2/releases/download/v2.1.0/FireflySynth2-linux-clap-Release.zip",
+      "downloads": 63
     },
     {
       "systems": [
@@ -46,7 +47,8 @@
       "type": "archive",
       "sha256": "b52019e0f6c4adc2c058323e14d9ccb393216f315f578e6504396a7bb33680d2",
       "size": 5308994,
-      "url": "https://github.com/sjoerdvankreel/firefly-synth-2/releases/download/v2.1.0/FireflySynth2-linux-vst3-Release.zip"
+      "url": "https://github.com/sjoerdvankreel/firefly-synth-2/releases/download/v2.1.0/FireflySynth2-linux-vst3-Release.zip",
+      "downloads": 70
     },
     {
       "systems": [
@@ -64,7 +66,8 @@
       "type": "archive",
       "sha256": "b4ce988c38855894625801b57af367883e922743fbd315889825498dc8b4a188",
       "size": 7749567,
-      "url": "https://github.com/sjoerdvankreel/firefly-synth-2/releases/download/v2.1.0/FireflySynth2-mac-clap-Release.zip"
+      "url": "https://github.com/sjoerdvankreel/firefly-synth-2/releases/download/v2.1.0/FireflySynth2-mac-clap-Release.zip",
+      "downloads": 27
     },
     {
       "systems": [
@@ -82,7 +85,8 @@
       "type": "archive",
       "sha256": "3281f187d06ff7e2e8d297868d5fa3544e5b17ddc6c8f05f455a03afa14dd840",
       "size": 7776296,
-      "url": "https://github.com/sjoerdvankreel/firefly-synth-2/releases/download/v2.1.0/FireflySynth2-mac-vst3-Release.zip"
+      "url": "https://github.com/sjoerdvankreel/firefly-synth-2/releases/download/v2.1.0/FireflySynth2-mac-vst3-Release.zip",
+      "downloads": 46
     },
     {
       "systems": [
@@ -99,7 +103,8 @@
       "type": "archive",
       "sha256": "e08339409257cdedd9a974ac95a84e7dd6a263e455ef01eeaec49d8f01374550",
       "size": 5118931,
-      "url": "https://github.com/sjoerdvankreel/firefly-synth-2/releases/download/v2.1.0/FireflySynth2-windows-clap-Release.zip"
+      "url": "https://github.com/sjoerdvankreel/firefly-synth-2/releases/download/v2.1.0/FireflySynth2-windows-clap-Release.zip",
+      "downloads": 62
     },
     {
       "systems": [
@@ -116,8 +121,10 @@
       "type": "archive",
       "sha256": "1d540238252c921e5dd7f6950bbfd53d649f5ccc533e75436dc7428678105d1d",
       "size": 5158290,
-      "url": "https://github.com/sjoerdvankreel/firefly-synth-2/releases/download/v2.1.0/FireflySynth2-windows-vst3-Release.zip"
+      "url": "https://github.com/sjoerdvankreel/firefly-synth-2/releases/download/v2.1.0/FireflySynth2-windows-vst3-Release.zip",
+      "downloads": 158
     }
   ],
-  "verified": true
+  "verified": true,
+  "downloads": 426
 }

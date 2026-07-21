@@ -36,7 +36,8 @@
             "type": "installer",
             "size": 93400900,
             "sha256": "4c135e1e9046263369a1add52657d6449c28bcbf2ce7528a1f14b4ea568e22f7",
-            "url": "https://github.com/FigBug/Wavetable/releases/download/v1.0.32/Wavetable.deb"
+            "url": "https://github.com/FigBug/Wavetable/releases/download/v1.0.32/Wavetable.deb",
+            "downloads": 106
           },
           {
             "systems": [
@@ -56,7 +57,8 @@
             "type": "installer",
             "size": 54653896,
             "sha256": "111c10c6532a8ea3c63908d1f70de122aa3526ce22c6b9b3758f80c358591637",
-            "url": "https://github.com/FigBug/Wavetable/releases/download/v1.0.32/Wavetable.exe"
+            "url": "https://github.com/FigBug/Wavetable/releases/download/v1.0.32/Wavetable.exe",
+            "downloads": 54
           },
           {
             "systems": [
@@ -78,12 +80,15 @@
             "type": "installer",
             "size": 97582170,
             "sha256": "7ae76ede0618595ee9b330b1403840a1b17df40ae9923609fe0802655cbb55de",
-            "url": "https://github.com/FigBug/Wavetable/releases/download/v1.0.32/Wavetable.pkg"
+            "url": "https://github.com/FigBug/Wavetable/releases/download/v1.0.32/Wavetable.pkg",
+            "downloads": 24
           }
         ],
-        "verified": true
+        "verified": true,
+        "downloads": 184
       }
-    }
+    },
+    "downloads": 184
   },
   "figbug/voc": {
     "slug": "figbug/voc",
@@ -122,7 +127,8 @@
             "type": "installer",
             "size": 42695142,
             "sha256": "4ab3cb5274726709b329f204aea49b157d244bcdc99aaad7675d6e8e17da488a",
-            "url": "https://github.com/FigBug/Voc/releases/download/v1.1.5/Voc.deb"
+            "url": "https://github.com/FigBug/Voc/releases/download/v1.1.5/Voc.deb",
+            "downloads": 7
           },
           {
             "systems": [
@@ -141,7 +147,8 @@
             "type": "installer",
             "size": 7348272,
             "sha256": "50ab3cd59d5b796cbcfe5fa2be7487e2acab129561c4e36b4af054483400307b",
-            "url": "https://github.com/FigBug/Voc/releases/download/v1.1.5/Voc.exe"
+            "url": "https://github.com/FigBug/Voc/releases/download/v1.1.5/Voc.exe",
+            "downloads": 10
           },
           {
             "systems": [
@@ -162,12 +169,15 @@
             "type": "installer",
             "size": 47334434,
             "sha256": "01722eca52f45da24f5e1d7f8b5d75587c39cc6dc3db1459dac81bcba212df29",
-            "url": "https://github.com/FigBug/Voc/releases/download/v1.1.5/Voc.pkg"
+            "url": "https://github.com/FigBug/Voc/releases/download/v1.1.5/Voc.pkg",
+            "downloads": 5
           }
         ],
-        "verified": true
+        "verified": true,
+        "downloads": 22
       }
-    }
+    },
+    "downloads": 22
   },
   "figbug/sn76489": {
     "slug": "figbug/sn76489",
@@ -207,7 +217,8 @@
             "type": "installer",
             "size": 42695898,
             "sha256": "729a4c62de95fdb40bbf00823a03fce83e41dae4e62a4c781f2c2279f14e59e0",
-            "url": "https://github.com/FigBug/SN76489/releases/download/v1.1.5/SN76489.deb"
+            "url": "https://github.com/FigBug/SN76489/releases/download/v1.1.5/SN76489.deb",
+            "downloads": 8
           },
           {
             "systems": [
@@ -226,7 +237,8 @@
             "type": "installer",
             "size": 7346312,
             "sha256": "4967c84a9d54eca62792f56db6a6b3a3a18dd0055d60adcbbd33f2ceace3cd86",
-            "url": "https://github.com/FigBug/SN76489/releases/download/v1.1.5/SN76489.exe"
+            "url": "https://github.com/FigBug/SN76489/releases/download/v1.1.5/SN76489.exe",
+            "downloads": 19
           },
           {
             "systems": [
@@ -247,12 +259,15 @@
             "type": "installer",
             "size": 47345366,
             "sha256": "9be2ec9160845a60992722b5fa5814f2fbb3251680597384321524cddcc1054a",
-            "url": "https://github.com/FigBug/SN76489/releases/download/v1.1.5/SN76489.pkg"
+            "url": "https://github.com/FigBug/SN76489/releases/download/v1.1.5/SN76489.pkg",
+            "downloads": 11
           }
         ],
-        "verified": true
+        "verified": true,
+        "downloads": 38
       }
-    }
+    },
+    "downloads": 38
   },
   "figbug/sid": {
     "slug": "figbug/sid",
@@ -292,7 +307,8 @@
             "type": "installer",
             "size": 42790386,
             "sha256": "68684f39a5806de4ee1deb3aa3aba8f5f63985691afd6bc592d543140774e25e",
-            "url": "https://github.com/FigBug/SID/releases/download/v1.1.5/SID.deb"
+            "url": "https://github.com/FigBug/SID/releases/download/v1.1.5/SID.deb",
+            "downloads": 10
           },
           {
             "systems": [
@@ -311,7 +327,8 @@
             "type": "installer",
             "size": 7363688,
             "sha256": "cc1bf87daed0276cca5c2481690ea7b08f61f187e7cfd946291b385c584cee79",
-            "url": "https://github.com/FigBug/SID/releases/download/v1.1.5/SID.exe"
+            "url": "https://github.com/FigBug/SID/releases/download/v1.1.5/SID.exe",
+            "downloads": 13
           },
           {
             "systems": [
@@ -332,12 +349,15 @@
             "type": "installer",
             "size": 47523984,
             "sha256": "4c9ce63e97b588d21fc33853ea0524cdf60846862335d43dfed5f413413fa596",
-            "url": "https://github.com/FigBug/SID/releases/download/v1.1.5/SID.pkg"
+            "url": "https://github.com/FigBug/SID/releases/download/v1.1.5/SID.pkg",
+            "downloads": 12
           }
         ],
-        "verified": true
+        "verified": true,
+        "downloads": 35
       }
-    }
+    },
+    "downloads": 35
   },
   "figbug/rp2a03": {
     "slug": "figbug/rp2a03",
@@ -377,7 +397,8 @@
             "type": "installer",
             "size": 42741150,
             "sha256": "af56fee14b486fdcb3b121c5ddf7a70808dfd1ab02c601b8941d47d60830dc41",
-            "url": "https://github.com/FigBug/RP2A03/releases/download/v1.1.5/RP2A03.deb"
+            "url": "https://github.com/FigBug/RP2A03/releases/download/v1.1.5/RP2A03.deb",
+            "downloads": 5
           },
           {
             "systems": [
@@ -396,7 +417,8 @@
             "type": "installer",
             "size": 7355968,
             "sha256": "92f352716dcda1597be8c76db7aa5933fb1188a0292a69c0c2a68c2a9239bd62",
-            "url": "https://github.com/FigBug/RP2A03/releases/download/v1.1.5/RP2A03.exe"
+            "url": "https://github.com/FigBug/RP2A03/releases/download/v1.1.5/RP2A03.exe",
+            "downloads": 15
           },
           {
             "systems": [
@@ -417,12 +439,15 @@
             "type": "installer",
             "size": 47436599,
             "sha256": "e9b848cb40b3a438a61b6849a1f0c5334f1dee3a3c9156e88d9f1f0626daef4d",
-            "url": "https://github.com/FigBug/RP2A03/releases/download/v1.1.5/RP2A03.pkg"
+            "url": "https://github.com/FigBug/RP2A03/releases/download/v1.1.5/RP2A03.pkg",
+            "downloads": 6
           }
         ],
-        "verified": true
+        "verified": true,
+        "downloads": 26
       }
-    }
+    },
+    "downloads": 26
   },
   "figbug/papu": {
     "slug": "figbug/papu",
@@ -462,7 +487,8 @@
             "type": "installer",
             "size": 42798288,
             "sha256": "0254fdd101ce958df1928849e5247741e1cf2dce9d523c9f17d8d36092d80549",
-            "url": "https://github.com/FigBug/PAPU/releases/download/v1.2.5/PAPU.deb"
+            "url": "https://github.com/FigBug/PAPU/releases/download/v1.2.5/PAPU.deb",
+            "downloads": 8
           },
           {
             "systems": [
@@ -481,7 +507,8 @@
             "type": "installer",
             "size": 7365760,
             "sha256": "10bbff7df9a078c6297f9532d2d8875f92ac8c16e88a9a5d8a64e42f983b981b",
-            "url": "https://github.com/FigBug/PAPU/releases/download/v1.2.5/PAPU.exe"
+            "url": "https://github.com/FigBug/PAPU/releases/download/v1.2.5/PAPU.exe",
+            "downloads": 15
           },
           {
             "systems": [
@@ -502,12 +529,15 @@
             "type": "installer",
             "size": 47537023,
             "sha256": "65d496ccae94e50779a725115028dfc780a736bc77a24e4ebc703bfd9e0c787d",
-            "url": "https://github.com/FigBug/PAPU/releases/download/v1.2.5/PAPU.pkg"
+            "url": "https://github.com/FigBug/PAPU/releases/download/v1.2.5/PAPU.pkg",
+            "downloads": 9
           }
         ],
-        "verified": true
+        "verified": true,
+        "downloads": 32
       }
-    }
+    },
+    "downloads": 32
   },
   "figbug/mverb": {
     "slug": "figbug/mverb",
@@ -546,7 +576,8 @@
             "type": "installer",
             "size": 34313038,
             "sha256": "a4281719022a724ee13a19ae92cdb1343e8e14677e71f34931998be166ca714b",
-            "url": "https://github.com/FigBug/mverb/releases/download/v1.1.5/Mverb2020.deb"
+            "url": "https://github.com/FigBug/mverb/releases/download/v1.1.5/Mverb2020.deb",
+            "downloads": 4
           },
           {
             "systems": [
@@ -565,7 +596,8 @@
             "type": "installer",
             "size": 5969824,
             "sha256": "41590c069bc00ecf1d160acd831f7d48f923b7adea6da68a2f45deb73312b5b6",
-            "url": "https://github.com/FigBug/mverb/releases/download/v1.1.5/Mverb2020.exe"
+            "url": "https://github.com/FigBug/mverb/releases/download/v1.1.5/Mverb2020.exe",
+            "downloads": 8
           },
           {
             "systems": [
@@ -586,11 +618,14 @@
             "type": "installer",
             "size": 31388044,
             "sha256": "c068e54697ff39df687a5199e285e5834c4723fa768595a00c4bede43f32dfeb",
-            "url": "https://github.com/FigBug/mverb/releases/download/v1.1.5/Mverb2020.pkg"
+            "url": "https://github.com/FigBug/mverb/releases/download/v1.1.5/Mverb2020.pkg",
+            "downloads": 6
           }
         ],
-        "verified": true
+        "verified": true,
+        "downloads": 18
       }
-    }
+    },
+    "downloads": 18
   }
 }

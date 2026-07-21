@@ -35,7 +35,8 @@
           ],
           "size": 5311016,
           "type": "archive",
-          "url": "https://github.com/tiagolr/filtr/releases/download/v1.1.0/filtr-linux-v1.1.0.zip"
+          "url": "https://github.com/tiagolr/filtr/releases/download/v1.1.0/filtr-linux-v1.1.0.zip",
+          "downloads": 547
         },
         {
           "architectures": [
@@ -54,7 +55,8 @@
           ],
           "size": 12946282,
           "type": "archive",
-          "url": "https://github.com/tiagolr/filtr/releases/download/v1.1.0/filtr-macos-v1.1.0.zip"
+          "url": "https://github.com/tiagolr/filtr/releases/download/v1.1.0/filtr-macos-v1.1.0.zip",
+          "downloads": 689
         },
         {
           "systems": [
@@ -72,10 +74,12 @@
           "type": "archive",
           "size": 6496292,
           "sha256": "67981cf69f2ad5f95e49888db67f80bcb4eb8fa3f14da636222f1bde1b52a4f3",
-          "url": "https://github.com/tiagolr/filtr/releases/download/v1.1.0/filtr-win-v1.1.0.zip"
+          "url": "https://github.com/tiagolr/filtr/releases/download/v1.1.0/filtr-win-v1.1.0.zip",
+          "downloads": 1844
         }
       ],
-      "verified": true
+      "verified": true,
+      "downloads": 3080
     },
     "1.0.9": {
       "name": "FILT-R",
@@ -110,7 +114,8 @@
           ],
           "size": 5306308,
           "type": "archive",
-          "url": "https://github.com/tiagolr/filtr/releases/download/v1.0.9/filtr-linux-v1.0.9.zip"
+          "url": "https://github.com/tiagolr/filtr/releases/download/v1.0.9/filtr-linux-v1.0.9.zip",
+          "downloads": 471
         },
         {
           "architectures": [
@@ -129,7 +134,8 @@
           ],
           "size": 13063606,
           "type": "archive",
-          "url": "https://github.com/tiagolr/filtr/releases/download/v1.0.9/filtr-macos-v1.0.9.zip"
+          "url": "https://github.com/tiagolr/filtr/releases/download/v1.0.9/filtr-macos-v1.0.9.zip",
+          "downloads": 607
         },
         {
           "systems": [
@@ -147,10 +153,13 @@
           "type": "archive",
           "size": 6467999,
           "sha256": "fb80afe8cf8641427864a4b985aa56e737e69a4f42e5c6f866d6bf92ae41eeef",
-          "url": "https://github.com/tiagolr/filtr/releases/download/v1.0.9/filtr-win-v1.0.9.zip"
+          "url": "https://github.com/tiagolr/filtr/releases/download/v1.0.9/filtr-win-v1.0.9.zip",
+          "downloads": 1735
         }
       ],
-      "verified": true
+      "verified": true,
+      "downloads": 2813
     }
-  }
+  },
+  "downloads": 5893
 }
