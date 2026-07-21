@@ -8,6 +8,7 @@ import { existsSync, mkdirSync, writeFileSync } from 'fs';
 import path from 'path';
 import yaml from 'js-yaml';
 import * as semver from 'semver';
+import { getGithubToken } from './githubAuth.js';
 
 const YAML_KEY_ORDER = [
   'name',
@@ -24,7 +25,7 @@ const YAML_KEY_ORDER = [
   'changes',
   'files',
 ];
-const FILE_KEY_ORDER = ['systems', 'architectures', 'contains', 'format', 'type', 'size', 'sha256', 'url'];
+const FILE_KEY_ORDER = ['systems', 'architectures', 'contains', 'format', 'type', 'size', 'sha256', 'attested', 'url'];
 
 // ── gh CLI helper ─────────────────────────────────────────────────────────────
 
@@ -38,6 +39,33 @@ function ghUserDisplayName(login: string): string {
     return user.name || login;
   } catch {
     return login;
+  }
+}
+
+// GitHub Artifact Attestations link a release asset back to the CI run/commit/repo that built
+// it (Sigstore-backed, verifiable independently via `gh attestation verify` or this same REST
+// endpoint - the digest + repo we already store is all a consumer needs, no extra field
+// required). A direct REST call rather than shelling out to the gh CLI: this eventually runs as
+// part of the registry build inside GitHub Actions, which can't assume any CLI beyond what's
+// preinstalled, whereas GITHUB_TOKEN (all this needs) is always present there automatically.
+// Most developers won't have attestations configured yet, so a 404 (or any other failure) just
+// means "unattested", not an error worth surfacing to the reviewer. Checked once here, at import
+// time, rather than on every registry build: a published file's sha256/url/release never change
+// afterwards, so neither does its attestation status.
+async function checkAttestation(org: string, repo: string, sha256: string): Promise<boolean> {
+  try {
+    const res = await fetch(`https://api.github.com/repos/${org}/${repo}/attestations/sha256:${sha256}`, {
+      headers: {
+        Authorization: `Bearer ${getGithubToken()}`,
+        Accept: 'application/vnd.github+json',
+        'X-GitHub-Api-Version': '2022-11-28',
+      },
+    });
+    if (!res.ok) return false;
+    const data: any = await res.json();
+    return Array.isArray(data.attestations) && data.attestations.length > 0;
+  } catch {
+    return false;
   }
 }
 
@@ -763,6 +791,9 @@ async function main() {
 
     if (contains.length === 0) unknownContains.push(path.basename(asset.name));
 
+    // Omit rather than write `attested: false` - most developers won't have this configured,
+    // and there's no need to spell out the common case in every file entry.
+    const attested = await checkAttestation(ghOrg, ghRepo, sha256);
     files.push({
       systems,
       architectures,
@@ -770,6 +801,7 @@ async function main() {
       type: inferFileType(asset.name),
       size,
       sha256,
+      ...(attested && { attested: true }),
       url: asset.url,
     });
   }
@@ -863,6 +895,10 @@ async function main() {
   console.log(`  changes: verify formatting and accuracy`);
   if (!existsSync(audioLocalPath)) console.log(`  audio:   not found — add manually if a demo is available`);
   if (!existsSync(imageLocalPath)) console.log(`  image:   not found — add manually if available`);
+  const attestedCount = files.filter(f => f.attested).length;
+  console.log(
+    `  attested: ${attestedCount}/${files.length} file(s)${attestedCount === 0 ? ' — this developer has no GitHub Artifact Attestations configured, which is common and fine' : ''}`,
+  );
   if (unknownContains.length > 0)
     console.log(`  contains: unknown format for: ${unknownContains.join(', ')} — add manually`);
   if (skippedAssets.length > 0) {
