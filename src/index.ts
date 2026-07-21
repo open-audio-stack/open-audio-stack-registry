@@ -1,4 +1,5 @@
 import { ConfigInterface, ConfigLocal, RegistryLocal, RegistryType, ManagerLocal } from '@open-audio-stack/core';
+import { enrichDownloads } from './downloads.js';
 
 const managerConfig: ConfigInterface = {
   appDir: 'src',
@@ -32,6 +33,13 @@ managerProjects.logEnable();
 registry.addManager(managerProjects);
 
 registry.scan('yaml', false);
+try {
+  await enrichDownloads(registry);
+} catch (err: any) {
+  // Best-effort enrichment - a failure here (e.g. gh not installed/authenticated, or a rate
+  // limit) shouldn't block the rest of the registry from building.
+  console.warn(`Skipping download-count enrichment: ${err.message}`);
+}
 registry.export('out');
 
 const config: ConfigLocal = new ConfigLocal(managerConfig);
