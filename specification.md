@@ -61,7 +61,7 @@ This specification aims to solve these issues by applying established convention
 
 ## Registry
 
-Registries are a database containing audio package metadata with an API for read access. Registries can be built in any technology or language, but they must have an API and make metadata available in the `json` format. They can optionally support other formats if they choose (such as `xml)`. Registries can be implemented with backend server rendering or static site generation depending on the implementation. This specification favors paths (`/example/hello`) over query params (`?example=hello`) to allow flexibility in choice of technology stack.
+Registries are a database containing audio package metadata with an API for read access. Registries can be built in any technology or language, but they must have an API and make metadata available in the `json` format. They can optionally support other formats if they choose (such as `xml`). Registries can be implemented with backend server rendering or static site generation depending on the implementation. This specification favors paths (`/example/hello`) over query params (`?example=hello`) to allow flexibility in choice of technology stack.
 
 ### Registry root
 
@@ -636,7 +636,7 @@ GET /projects/{slug}/{version}
 | Audiobook   | Spoken audio for books or literature.                                                    | `audiobook`   |
 | DJ set      | Live DJ performances, often including mixes of various tracks.                           | `dj`          |
 | Performance | Solo or ensemble musical performance, showcasing artistic expression.                    | `performance` |
-| Podcast     | Discussions, interviews, or other content for audio broadcast..                          | `podcast`     |
+| Podcast     | Discussions, interviews, or other content for audio broadcast.                           | `podcast`     |
 | Remix       | Reworking or improving an existing song or track to create a new version.                | `remix`       |
 | Song        | Composing, recording, and producing original songs with multiple instruments and vocals. | `song`        |
 | Score       | Composing and producing music for film, TV, video games, or other visual media.          | `score`       |
@@ -765,7 +765,7 @@ GET /presets/{slug}/{version}
 | contains      | array\<PluginFormat \| PresetFormat \| ProjectFormat\> | Plugin/Project/Preset formats (see tables for list of possible values).                                                                                                        | `["vst3"]`                                                                                                           |
 | downloads     | number                                                 | Optional. Total download count for this exact file, sourced from the GitHub Releases API. Recomputed on every registry build (unlike `attested`, this changes continuously); omitted when zero or not yet fetched. | `549`                                                                                                                 |
 | sha256        | string                                                 | File checksum for security validation that the published file matches the downloaded file.                                                                                     | `"3af35f02121a3c7ad6375bfe9c29a382f5882fa443bbf4c2df347a255c0edf2a"`                                                 |
-| size          | number                                                 | Total size of the file in bits.                                                                                                                                                | `94448096`                                                                                                           |
+| size          | number                                                 | Total size of the file in bytes.                                                                                                                                               | `94448096`                                                                                                           |
 | systems       | System\[\]                                             | Operating systems supported, optionally including min/max version check.                                                                                                       | `[  { "min": 11.1,  "max": 20.5,  "type": "linux"} ]`                                                                |
 | type          | FileType                                               | File type from list in below table.                                                                                                                                            | `"archive"`                                                                                                          |
 | url           | string                                                 | File download url (https). Files can be hosted anywhere on the web, but we recommend using GitHub Releases because it provides auditability of who changed the files and when. | `"https://github.com/surge-synthesizer/releases-xt/releases/download/1.3.1/surge-xt-linux-1.3.1-pluginsonly.tar.gz"` |
