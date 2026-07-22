@@ -37,7 +37,7 @@
               "size": 5911681,
               "sha256": "c01c49d8063965c4c2dea8324468336768f5c9139e0b1caebde14c2400b55352",
               "url": "https://github.com/Tracktion/pluginval/releases/download/v1.0.4/pluginval_Linux.zip",
-              "downloads": 14072
+              "downloads": 14078
             },
             {
               "systems": [
@@ -53,7 +53,7 @@
               "size": 9202795,
               "sha256": "3c4c533bda0c5059eea3ddaea752d757ee2025041f0f47e6bcb0e87f6082b29f",
               "url": "https://github.com/Tracktion/pluginval/releases/download/v1.0.4/pluginval_macOS.zip",
-              "downloads": 54496
+              "downloads": 54505
             },
             {
               "systems": [
@@ -69,14 +69,14 @@
               "size": 2408590,
               "sha256": "c08e61ce3b96db41636f8ec7e76f4c7e2c13ebdac7fa1b5a1f52b4f32ec715ab",
               "url": "https://github.com/Tracktion/pluginval/releases/download/v1.0.4/pluginval_Windows.zip",
-              "downloads": 86819
+              "downloads": 86833
             }
           ],
           "verified": true,
-          "downloads": 155387
+          "downloads": 155416
         }
       },
-      "downloads": 155387
+      "downloads": 155416
     },
     "steinberg/validator": {
       "slug": "steinberg/validator",
@@ -187,7 +187,7 @@
               "size": 27877081,
               "sha256": "4601e7f4e4c03e59a4c5b5000216ef3add3e808799cfccd95e14e83ea4611081",
               "url": "https://github.com/Rikorose/DeepFilterNet/releases/download/v0.5.6/deep-filter-0.5.6-aarch64-apple-darwin",
-              "downloads": 4263
+              "downloads": 4266
             },
             {
               "systems": [
@@ -267,14 +267,14 @@
               "size": 36417296,
               "sha256": "70775e251eee44c0f2451a1e833326cf8bcbbe304d3e7cd12851e6fce72ef7da",
               "url": "https://github.com/Rikorose/DeepFilterNet/releases/download/v0.5.6/deep-filter-0.5.6-x86_64-unknown-linux-musl",
-              "downloads": 20523
+              "downloads": 20535
             }
           ],
           "verified": true,
-          "downloads": 40166
+          "downloads": 40181
         }
       },
-      "downloads": 40166
+      "downloads": 40181
     },
     "monocasual/giada": {
       "slug": "monocasual/giada",
@@ -311,7 +311,7 @@
               "size": 7702562,
               "sha256": "085d535d7e8bc024872950e477c3b354c77b4a678cf6b09de5880e98880e2eae",
               "url": "https://github.com/monocasual/giada/releases/download/1.5.0/giada-1.5.0-arm64-macos.zip",
-              "downloads": 407
+              "downloads": 408
             },
             {
               "systems": [
@@ -327,14 +327,14 @@
               "size": 6552450,
               "sha256": "168e7799227dd2241d11d78f8943c959f3e87b4fac57992a46213595b9e02e1a",
               "url": "https://github.com/monocasual/giada/releases/download/1.5.0/giada-1.5.0-x86_64-windows.zip",
-              "downloads": 1177
+              "downloads": 1178
             }
           ],
           "verified": true,
-          "downloads": 1584
+          "downloads": 1586
         }
       },
-      "downloads": 1584
+      "downloads": 1586
     },
     "helio-fm/helio-sequencer": {
       "slug": "helio-fm/helio-sequencer",
@@ -1272,7 +1272,7 @@
               "size": 8401909,
               "sha256": "07600e4f95272223c7405b3142778a89c59516e2b4912be281635aac8c793902",
               "url": "https://github.com/ZL-Audio/ZLCompressor/releases/download/0.5.0/ZL.Compressor-0.5.0-Linux-x86-64.zip",
-              "downloads": 333
+              "downloads": 334
             },
             {
               "systems": [
@@ -1381,10 +1381,10 @@
             }
           ],
           "verified": true,
-          "downloads": 4341
+          "downloads": 4342
         }
       },
-      "downloads": 4341
+      "downloads": 4342
     },
     "zhiyualexzhang/multimeter": {
       "slug": "zhiyualexzhang/multimeter",
@@ -1537,7 +1537,7 @@
               "size": 39868912,
               "sha256": "16b022cce2998d11d3dbcf15aa6fe176cd14576cad42250ae8cfc56d1b7add7a",
               "url": "https://github.com/zamaudio/zam-plugins/releases/download/4.5/zam-plugins-4.5-linux-x86_64.tar.xz",
-              "downloads": 227
+              "downloads": 228
             },
             {
               "systems": [
@@ -1610,10 +1610,10 @@
             }
           ],
           "verified": true,
-          "downloads": 533
+          "downloads": 534
         }
       },
-      "downloads": 533
+      "downloads": 534
     },
     "yokemura/magical8bitplug2": {
       "slug": "yokemura/magical8bitplug2",
@@ -2074,14 +2074,14 @@
               "size": 37740885,
               "sha256": "e4dcc186102850f8dcebeb766ad1bf34c24f6280bd614ef84b72dae4783fc517",
               "url": "https://github.com/werman/noise-suppression-for-voice/releases/download/v1.10/win-rnnoise.zip",
-              "downloads": 326450
+              "downloads": 326458
             }
           ],
           "verified": true,
-          "downloads": 356184
+          "downloads": 356192
         }
       },
-      "downloads": 356184
+      "downloads": 356192
     },
     "webprofusion/soundshed-guitar": {
       "slug": "webprofusion/soundshed-guitar",
@@ -4806,7 +4806,7 @@
               "size": 8521431,
               "type": "archive",
               "url": "https://github.com/trencrumb/SpectralShift/releases/download/v0.1.1/Spectral.Shift-0.1.1-Linux.zip",
-              "downloads": 175
+              "downloads": 176
             },
             {
               "architectures": [
@@ -4854,10 +4854,10 @@
             }
           ],
           "verified": true,
-          "downloads": 339
+          "downloads": 340
         }
       },
-      "downloads": 339
+      "downloads": 340
     },
     "tr3m/nam-juce": {
       "slug": "tr3m/nam-juce",
@@ -5659,7 +5659,7 @@
               "size": 7143966,
               "sha256": "74353dc437c736b6d27f41ec03180febaa071d0ce68ba8edf7261a0c6031eb45",
               "url": "https://github.com/tiagolr/tetraop/releases/download/v1.0.3/tetraop-win-v1.0.3.zip",
-              "downloads": 469
+              "downloads": 470
             },
             {
               "systems": [
@@ -5677,14 +5677,14 @@
               "size": 7209321,
               "sha256": "be1f9e0104c35518a468ebed2380bf45aa7ad8d1a89c16f05082e294ca469869",
               "url": "https://github.com/tiagolr/tetraop/releases/download/v1.0.3/tetraop-win64-1.0.3-setup.exe",
-              "downloads": 435
+              "downloads": 436
             }
           ],
           "verified": true,
-          "downloads": 1347
+          "downloads": 1349
         }
       },
-      "downloads": 1347
+      "downloads": 1349
     },
     "tiagolr/sirial": {
       "slug": "tiagolr/sirial",
@@ -7482,7 +7482,7 @@
               "size": 223339140,
               "sha256": "a6e55064487f624147d515b9ae5fc79a568b69746675b2083abde628ca7bb151",
               "url": "https://github.com/surge-synthesizer/releases-xt/releases/download/1.3.4/surge-xt-linux-x64-1.3.4.deb",
-              "downloads": 34203
+              "downloads": 34206
             },
             {
               "systems": [
@@ -7503,7 +7503,7 @@
               "size": 349080230,
               "sha256": "aa57df9b79735db392b147e5ca6a9db7e9e9e5ba2907717aa055c501f3f59659",
               "url": "https://github.com/surge-synthesizer/releases-xt/releases/download/1.3.4/surge-xt-x86_64-1.3.4.rpm",
-              "downloads": 3517
+              "downloads": 3518
             },
             {
               "systems": [
@@ -7525,7 +7525,7 @@
               "size": 416715686,
               "sha256": "b56e8d51a8dc2382ae668c9ff4e96bae38dbd452af4e584d5a5ef50ab2d09b07",
               "url": "https://github.com/surge-synthesizer/releases-xt/releases/download/1.3.4/surge-xt-macOS-1.3.4.dmg",
-              "downloads": 147465
+              "downloads": 147478
             },
             {
               "systems": [
@@ -7544,7 +7544,7 @@
               "size": 180883859,
               "sha256": "6fe3fb20ef21672666dddb816ad73f2966e98b70edad9189183451a255c2b2d1",
               "url": "https://github.com/surge-synthesizer/releases-xt/releases/download/1.3.4/surge-xt-win32-1.3.4-setup.exe",
-              "downloads": 18101
+              "downloads": 18104
             },
             {
               "systems": [
@@ -7564,11 +7564,11 @@
               "size": 183385478,
               "sha256": "6e221e05f29254508142b9e0ed76a85f22fa1b512501bebde571951e7eefecca",
               "url": "https://github.com/surge-synthesizer/releases-xt/releases/download/1.3.4/surge-xt-win64-1.3.4-setup.exe",
-              "downloads": 491872
+              "downloads": 491890
             }
           ],
           "verified": true,
-          "downloads": 695158
+          "downloads": 695196
         },
         "1.3.1": {
           "name": "Surge XT",
@@ -7695,7 +7695,7 @@
           "downloads": 84032
         }
       },
-      "downloads": 779190
+      "downloads": 779228
     },
     "surge-synthesizer/ob-xf": {
       "slug": "surge-synthesizer/ob-xf",
@@ -7755,7 +7755,7 @@
               "size": 21867343,
               "sha256": "72b60c83cf6426337031df744c34a047104a9d95f1feaf6cd048ecfa39f74c96",
               "url": "https://github.com/surge-synthesizer/OB-Xf/releases/download/v1.0.3/ob-xf-Linux-v1.0.3.zip",
-              "downloads": 439
+              "downloads": 440
             },
             {
               "systems": [
@@ -7871,7 +7871,7 @@
               "size": 29354268,
               "sha256": "55418702355156b34ac1561fc00af5ca6ee744a3ac8a2187f4b7f11396afb624",
               "url": "https://github.com/surge-synthesizer/OB-Xf/releases/download/v1.0.3/ob-xf-Windows-v1.0.3.exe",
-              "downloads": 3556
+              "downloads": 3558
             },
             {
               "systems": [
@@ -7894,10 +7894,10 @@
             }
           ],
           "verified": true,
-          "downloads": 7945
+          "downloads": 7948
         }
       },
-      "downloads": 7945
+      "downloads": 7948
     },
     "surge-synthesizer/monique-monosynth": {
       "slug": "surge-synthesizer/monique-monosynth",
@@ -9262,7 +9262,7 @@
               "size": 3257006,
               "sha256": "9e6726d09c2d0cd49d8d4a9f45757dec2913e0ec4003ebd5aa4a0bef149cec77",
               "url": "https://github.com/smiarx/aelapse/releases/download/v1.0.1/Aelapse-Linux.zip",
-              "downloads": 655
+              "downloads": 656
             },
             {
               "systems": [
@@ -9304,10 +9304,10 @@
             }
           ],
           "verified": true,
-          "downloads": 2171
+          "downloads": 2172
         }
       },
-      "downloads": 2171
+      "downloads": 2172
     },
     "sjoerdvankreel/firefly-synth-2": {
       "slug": "sjoerdvankreel/firefly-synth-2",
@@ -9780,14 +9780,14 @@
               "size": 10349826,
               "sha256": "83e2825241d4e1c0ab2c44c91c0a9be6a94941a81df0c2fbe05e83b2650470da",
               "url": "https://github.com/Sinuslabs/Reach/releases/download/1.6.6/Reach-Windows.exe",
-              "downloads": 164558
+              "downloads": 164572
             }
           ],
           "verified": true,
-          "downloads": 166328
+          "downloads": 166342
         }
       },
-      "downloads": 166328
+      "downloads": 166342
     },
     "sfztools/sfizz-ui": {
       "slug": "sfztools/sfizz-ui",
@@ -10008,14 +10008,14 @@
               "size": 109135588,
               "sha256": "4f0b065c18b89111df4281df34c5120cd2d5b9a0c6b316835ec08d7891fd88d9",
               "url": "https://github.com/sfzinstruments/karoryfer.war-tuba/releases/download/v1.002/Karoryfer_War_Tuba_v1002.zip",
-              "downloads": 4398
+              "downloads": 4399
             }
           ],
           "verified": true,
-          "downloads": 4398
+          "downloads": 4399
         }
       },
-      "downloads": 4398
+      "downloads": 4399
     },
     "sfzinstruments/virtuosity_drums": {
       "slug": "sfzinstruments/virtuosity_drums",
@@ -11914,7 +11914,7 @@
               "size": 11309973,
               "sha256": "4a900e30cc2711726bf7e665b49f789b462ef35a8f3ada30bebe6e74044a24b4",
               "url": "https://github.com/QuentinStoll/VstProfiler/releases/download/v2026.07.15-112/linux-x64.tar.gz",
-              "downloads": 3
+              "downloads": 4
             },
             {
               "systems": [
@@ -11933,7 +11933,7 @@
               "size": 25858717,
               "sha256": "ac72ac3bca954a82ba9cbf72f74d5594542d1739f800d966b479e63f874b53cd",
               "url": "https://github.com/QuentinStoll/VstProfiler/releases/download/v2026.07.15-112/windows-arm64.zip",
-              "downloads": 3
+              "downloads": 4
             },
             {
               "systems": [
@@ -11952,14 +11952,14 @@
               "size": 27064456,
               "sha256": "3e0725e8c8c948763f96ccee201afb4a7e172d6e037ffbace03f38536521a022",
               "url": "https://github.com/QuentinStoll/VstProfiler/releases/download/v2026.07.15-112/windows-x64.zip",
-              "downloads": 3
+              "downloads": 4
             }
           ],
           "verified": true,
-          "downloads": 9
+          "downloads": 12
         }
       },
-      "downloads": 9
+      "downloads": 12
     },
     "quentinfaidide/kholorsstation": {
       "slug": "quentinfaidide/kholorsstation",
@@ -14482,7 +14482,7 @@
               "size": 12394844,
               "sha256": "a396fe8e0dbb832b7a1b776e6ad8a3752fd920e6e4425fec32d64b1efb7ebf3b",
               "url": "https://github.com/mzuther/Squeezer/releases/download/v2.5.4/squeezer-linux64-vst2_2.5.4.tar.gz",
-              "downloads": 2783
+              "downloads": 2784
             },
             {
               "systems": [
@@ -14522,10 +14522,10 @@
             }
           ],
           "verified": true,
-          "downloads": 6254
+          "downloads": 6255
         }
       },
-      "downloads": 6254
+      "downloads": 6255
     },
     "mzuther/k-meter": {
       "slug": "mzuther/k-meter",
@@ -15567,7 +15567,7 @@
               "size": 2267368,
               "sha256": "59f1593120de82e31dd194e2ab1536af14fec2b3ec6ec45abf6d9c8ac02ef430",
               "url": "https://github.com/michaelwillis/dragonfly-reverb/releases/download/3.2.10/dragonfly-reverb-3.2.10-linux-x86_64.tar.xz",
-              "downloads": 9731
+              "downloads": 9732
             },
             {
               "systems": [
@@ -15589,7 +15589,7 @@
               "size": 2267368,
               "sha256": "59f1593120de82e31dd194e2ab1536af14fec2b3ec6ec45abf6d9c8ac02ef430",
               "url": "https://github.com/michaelwillis/dragonfly-reverb/releases/download/3.2.10/dragonfly-reverb-3.2.10-linux-x86_64.tar.xz",
-              "downloads": 9731
+              "downloads": 9732
             },
             {
               "systems": [
@@ -15612,7 +15612,7 @@
               "size": 24954281,
               "sha256": "e0b854b92a4e51ce5851320fb1a9f91ab1a4309f997de070e175b3e5cab4adaf",
               "url": "https://github.com/michaelwillis/dragonfly-reverb/releases/download/3.2.10/dragonfly-reverb-3.2.10-macos-universal.dmg",
-              "downloads": 13933
+              "downloads": 13934
             },
             {
               "systems": [
@@ -15634,14 +15634,14 @@
               "size": 22447365,
               "sha256": "ca5f35f9dcd9a33f06490d3c92f04061a1a798cb81257d5ca5851bdda0824c66",
               "url": "https://github.com/michaelwillis/dragonfly-reverb/releases/download/3.2.10/dragonfly-reverb-3.2.10-win64.zip",
-              "downloads": 67011
+              "downloads": 67013
             }
           ],
           "verified": true,
-          "downloads": 100406
+          "downloads": 100411
         }
       },
-      "downloads": 100406
+      "downloads": 100411
     },
     "michael02022/basic-harmonica": {
       "slug": "michael02022/basic-harmonica",
@@ -16290,7 +16290,7 @@
               "size": 12807099,
               "type": "archive",
               "url": "https://github.com/magnetophon/lamb-rs/releases/download/v2.1.0/lamb-v2.1.0-ubuntu-20.04.zip",
-              "downloads": 1549
+              "downloads": 1550
             },
             {
               "architectures": [
@@ -16334,10 +16334,10 @@
             }
           ],
           "verified": true,
-          "downloads": 2134
+          "downloads": 2135
         }
       },
-      "downloads": 2134
+      "downloads": 2135
     },
     "magnetophon/del2": {
       "slug": "magnetophon/del2",
@@ -16375,7 +16375,7 @@
               "size": 8455873,
               "sha256": "8ff412a08582c8c4df78559a1f6f75c24702176e2271f6ab6bc7dab63dcacc33",
               "url": "https://github.com/magnetophon/DEL2/releases/download/V0.2.0/DEL2-V0.2.0-ubuntu-20.04.zip",
-              "downloads": 77
+              "downloads": 78
             },
             {
               "systems": [
@@ -16418,10 +16418,10 @@
             }
           ],
           "verified": true,
-          "downloads": 141
+          "downloads": 142
         }
       },
-      "downloads": 141
+      "downloads": 142
     },
     "m1m0zzz/utility-clone": {
       "slug": "m1m0zzz/utility-clone",
@@ -16631,7 +16631,7 @@
               "size": 14258666,
               "type": "archive",
               "url": "https://github.com/dusk-audio/dusk-audio-plugins/releases/download/4k-eq-v1.0.10/4k-eq-linux.zip",
-              "downloads": 189
+              "downloads": 190
             },
             {
               "architectures": [
@@ -16695,10 +16695,10 @@
             }
           ],
           "verified": false,
-          "downloads": 597
+          "downloads": 598
         }
       },
-      "downloads": 597
+      "downloads": 598
     },
     "lukemcraig/dafx19-gamelanizer": {
       "slug": "lukemcraig/dafx19-gamelanizer",
@@ -17737,7 +17737,7 @@
               "size": 4080741,
               "sha256": "50493cad15b858ab0376f6253cf27232c36a8aa41a61991ea9c6a92e6a401fe7",
               "url": "https://github.com/liuanlin-mx/MXTune/releases/download/v1.2.0/ubuntu1804_x86_64_vst_v1.2.0.zip",
-              "downloads": 8138
+              "downloads": 8139
             },
             {
               "systems": [
@@ -17755,7 +17755,7 @@
               "size": 6241983,
               "sha256": "1ddd709baa8595e91cc0d042490083ddb358cf56fc13d24e6eefdaa21d3770ae",
               "url": "https://github.com/liuanlin-mx/MXTune/releases/download/v1.2.0/windows_i686_vst_v1.2.0.zip",
-              "downloads": 6301
+              "downloads": 6302
             },
             {
               "systems": [
@@ -17773,14 +17773,14 @@
               "size": 6658226,
               "sha256": "861ad556d4767108844ff44ee84656fc2fb71c89af72a385f590ffd9996799a6",
               "url": "https://github.com/liuanlin-mx/MXTune/releases/download/v1.2.0/windows_x86_64_vst_v1.2.0.zip",
-              "downloads": 23161
+              "downloads": 23163
             }
           ],
           "verified": true,
-          "downloads": 37600
+          "downloads": 37604
         }
       },
-      "downloads": 37600
+      "downloads": 37604
     },
     "leomccormack/sparta": {
       "slug": "leomccormack/sparta",
@@ -18251,7 +18251,7 @@
               "size": 169157045,
               "sha256": "1364ae3fbc6acec1764b969c779d9d1d3b814014d24287695c3f1f9010c05b90",
               "url": "https://github.com/kushview/element/releases/download/1.0.0/element-1.0.0-macos.dmg",
-              "downloads": 4726
+              "downloads": 4727
             },
             {
               "systems": [
@@ -18273,14 +18273,14 @@
               "size": 39364144,
               "sha256": "9144ec0b0263931ccad8d91d6ae8634d8a8f64ecd5e365ea1fa6180688580769",
               "url": "https://github.com/kushview/element/releases/download/1.0.0/element-1.0.0-win64.exe",
-              "downloads": 13859
+              "downloads": 13863
             }
           ],
           "verified": true,
-          "downloads": 19841
+          "downloads": 19846
         }
       },
-      "downloads": 19841
+      "downloads": 19846
     },
     "kiriki-liszt/relief-compressor": {
       "slug": "kiriki-liszt/relief-compressor",
@@ -18401,14 +18401,14 @@
               "size": 4598786,
               "sha256": "ff882429e2f6c5be9a9757f6f136acd4f8e3b2a1cc212cf1fabbe0f6b28c192f",
               "url": "https://github.com/Kiriki-liszt/JS_Inflator/releases/download/v2.0.3.2/JS.Inflator.Win.v2.0.3.2.zip",
-              "downloads": 31316
+              "downloads": 31318
             }
           ],
           "verified": true,
-          "downloads": 48670
+          "downloads": 48672
         }
       },
-      "downloads": 48670
+      "downloads": 48672
     },
     "killbizz/biztortion": {
       "slug": "killbizz/biztortion",
@@ -18658,7 +18658,7 @@
               "size": 20587492,
               "sha256": "a594943be8b98dc14a762203e92f4ca0e2703429fbab03cc9a1dc9790264ef64",
               "url": "https://github.com/kayrockscreenprinting/ultramaster_kr106/releases/download/v2.5.13/KR106-Linux.zip",
-              "downloads": 556
+              "downloads": 557
             },
             {
               "systems": [
@@ -18725,10 +18725,97 @@
             }
           ],
           "verified": true,
-          "downloads": 4526
+          "downloads": 4527
         }
       },
-      "downloads": 4526
+      "downloads": 4527
+    },
+    "jurihock/stftpitchshiftplugin": {
+      "slug": "jurihock/stftpitchshiftplugin",
+      "version": "1.1.5",
+      "versions": {
+        "1.1.5": {
+          "name": "stftPitchShift",
+          "author": "Jürgen Hock",
+          "description": "Official JUCE plugin for stftPitchShift",
+          "license": "gpl-3.0",
+          "type": "effect",
+          "tags": [
+            "Pitch Shifter",
+            "Vocoder",
+            "Formants"
+          ],
+          "url": "https://github.com/jurihock/stftPitchShiftPlugin",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/jurihock/stftpitchshiftplugin/stftpitchshiftplugin.jpg",
+          "date": "2026-07-19T13:58:57Z",
+          "changes": "- Include release version in build artifact name",
+          "files": [
+            {
+              "systems": [
+                {
+                  "type": "mac"
+                }
+              ],
+              "architectures": [
+                "arm64",
+                "x64"
+              ],
+              "contains": [
+                "vst3",
+                "component",
+                "app"
+              ],
+              "type": "archive",
+              "size": 11640679,
+              "sha256": "87baedecfdb662ee6e4f453d89481ce83de373e508363ecd0df2cb6defdb42fa",
+              "url": "https://github.com/jurihock/stftPitchShiftPlugin/releases/download/v1.1.5/StftPitchShiftPlugin-macos-v1.1.5.zip",
+              "downloads": 3
+            },
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "vst3",
+                "lv2",
+                "elf"
+              ],
+              "type": "archive",
+              "size": 7323967,
+              "sha256": "3af374a834781d06c5f142c34529656e8ddd0e48527e043642c785eb32f75900",
+              "url": "https://github.com/jurihock/stftPitchShiftPlugin/releases/download/v1.1.5/StftPitchShiftPlugin-ubuntu-v1.1.5.zip",
+              "downloads": 5
+            },
+            {
+              "systems": [
+                {
+                  "type": "win"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "vst3",
+                "exe"
+              ],
+              "type": "archive",
+              "size": 5626196,
+              "sha256": "c6b44baf819d48fce2d021f208e6ae4967c59776da2755748377bca67396dbd0",
+              "url": "https://github.com/jurihock/stftPitchShiftPlugin/releases/download/v1.1.5/StftPitchShiftPlugin-windows-v1.1.5.zip",
+              "downloads": 5
+            }
+          ],
+          "verified": true,
+          "downloads": 13
+        }
+      },
+      "downloads": 13
     },
     "jun-murakami/zerolimit": {
       "slug": "jun-murakami/zerolimit",
@@ -18909,7 +18996,7 @@
               "size": 11426809,
               "sha256": "2b0baaebe617c30118f3c6503a15cff2bf835abd72caa813c31dd9228f8066ee",
               "url": "https://github.com/Jun-Murakami/ZeroEQ/releases/download/v1.0.7/ZeroEQ_1.0.7_Linux_VST3_LV2_CLAP_Standalone.zip",
-              "downloads": 40
+              "downloads": 41
             },
             {
               "systems": [
@@ -19005,10 +19092,10 @@
             }
           ],
           "verified": true,
-          "downloads": 144
+          "downloads": 145
         }
       },
-      "downloads": 144
+      "downloads": 145
     },
     "jun-murakami/zerocomp": {
       "slug": "jun-murakami/zerocomp",
@@ -22425,7 +22512,7 @@
               "size": 23902192,
               "sha256": "dac888c983e6f0060e99bda1e0109e90751e3a04ae08bae1af965321a5d1d68a",
               "url": "https://github.com/GuitarML/SmartGuitarPedal/releases/download/v1.5/SmartPedal-Linux-x64-1.5.deb",
-              "downloads": 1282
+              "downloads": 1284
             },
             {
               "systems": [
@@ -22445,7 +22532,7 @@
               "size": 60725861,
               "sha256": "6aeb668f8f8d9b777121894bcc0b4735e569c242d8fbcf5630c9f62755967cb9",
               "url": "https://github.com/GuitarML/SmartGuitarPedal/releases/download/v1.5/Install-SmartPedal-v1.5-Mac.dmg",
-              "downloads": 1753
+              "downloads": 1754
             },
             {
               "systems": [
@@ -22468,10 +22555,10 @@
             }
           ],
           "verified": true,
-          "downloads": 7659
+          "downloads": 7662
         }
       },
-      "downloads": 7659
+      "downloads": 7662
     },
     "guitarml/smartguitaramp": {
       "slug": "guitarml/smartguitaramp",
@@ -22511,7 +22598,7 @@
               "size": 2172048,
               "sha256": "78b59aa99c0c2cf637de90a47f46d852b6f3ac59ccee1bcab2d3d77dc37a0586",
               "url": "https://github.com/GuitarML/SmartGuitarAmp/releases/download/v1.3/SmartAmp-Linux-x64-1.3.deb",
-              "downloads": 3011
+              "downloads": 3013
             },
             {
               "systems": [
@@ -22531,7 +22618,7 @@
               "size": 10830999,
               "sha256": "89d8ddaa625689db0f0b5dec0c61fe8d129b4533bc0f797af212534e8fb3c9a4",
               "url": "https://github.com/GuitarML/SmartGuitarAmp/releases/download/v1.3/Install-SmartAmp-v1.3-Mac.dmg",
-              "downloads": 3023
+              "downloads": 3024
             },
             {
               "systems": [
@@ -22554,10 +22641,10 @@
             }
           ],
           "verified": true,
-          "downloads": 14787
+          "downloads": 14790
         }
       },
-      "downloads": 14787
+      "downloads": 14790
     },
     "guitarml/smartamppro": {
       "slug": "guitarml/smartamppro",
@@ -22698,7 +22785,7 @@
               "size": 2703980,
               "sha256": "06b2ba4d8438fc90376485aff6ed3c732868c6bfb1b773a2c348c0e6ad6d1352",
               "url": "https://github.com/GuitarML/Chameleon/releases/download/v1.2.0/Chameleon-Linux-x64-1.2.deb",
-              "downloads": 2315
+              "downloads": 2317
             },
             {
               "systems": [
@@ -22718,7 +22805,7 @@
               "size": 14747494,
               "sha256": "9387fb1f0d5f4efe26dcb7d179dbd0a29ec96f976643be0b551dc0a56125739e",
               "url": "https://github.com/GuitarML/Chameleon/releases/download/v1.2.0/Install-Chameleon-v1.2-Mac.dmg",
-              "downloads": 2563
+              "downloads": 2564
             },
             {
               "systems": [
@@ -22741,10 +22828,10 @@
             }
           ],
           "verified": true,
-          "downloads": 10904
+          "downloads": 10907
         }
       },
-      "downloads": 10904
+      "downloads": 10907
     },
     "gregrecco67/audibleplanets": {
       "slug": "gregrecco67/audibleplanets",
@@ -22935,7 +23022,7 @@
               "size": 5760864,
               "sha256": "cfa2a955bffdb3537bf782b70c175f3ae2071aded2832b464b6b30e5161de173",
               "url": "https://github.com/greatest-ape/OctaSine/releases/download/v0.9.1/OctaSine-v0.9.1-Ubuntu-20_04.zip",
-              "downloads": 823
+              "downloads": 824
             },
             {
               "systems": [
@@ -22977,10 +23064,10 @@
             }
           ],
           "verified": true,
-          "downloads": 5504
+          "downloads": 5505
         }
       },
-      "downloads": 5504
+      "downloads": 5505
     },
     "giulioz/rdpiano": {
       "slug": "giulioz/rdpiano",
@@ -23038,7 +23125,7 @@
               "size": 9774477,
               "sha256": "143df86cc3cd5e64da3bff5ab492cbfce069d14c61c57f2a3063be889d95c321",
               "url": "https://github.com/giulioz/rdpiano/releases/download/latest/rdpiano_juce.component.macOS.zip",
-              "downloads": 1862
+              "downloads": 1863
             },
             {
               "systems": [
@@ -23151,10 +23238,10 @@
             }
           ],
           "verified": true,
-          "downloads": 12589
+          "downloads": 12590
         }
       },
-      "downloads": 12589
+      "downloads": 12590
     },
     "geissmannsbin/measure-counter-vst": {
       "slug": "geissmannsbin/measure-counter-vst",
@@ -23347,14 +23434,14 @@
               "size": 5293192,
               "sha256": "069e5ce0dc395c8d53111daa12c0f34d1425e2f39fa24a0222c727da04c46828",
               "url": "https://github.com/gbevin/ShowMIDI/releases/download/1.0.1/ShowMIDI-Windows-1.0.1.exe",
-              "downloads": 4709
+              "downloads": 4710
             }
           ],
           "verified": true,
-          "downloads": 10715
+          "downloads": 10716
         }
       },
-      "downloads": 10715
+      "downloads": 10716
     },
     "garneek/crunchy": {
       "slug": "garneek/crunchy",
@@ -25952,7 +26039,7 @@
               "size": 9827340,
               "sha256": "8088e362f9f68fea179abe9f96b83fca07693224ffcf46837c24ff8b59b119cb",
               "url": "https://github.com/DISTRHO/DPF-Plugins/releases/download/v1.7/DPF-Plugins-v1.7-linux-x86_64.tar.xz",
-              "downloads": 474
+              "downloads": 475
             },
             {
               "systems": [
@@ -26001,10 +26088,10 @@
             }
           ],
           "verified": true,
-          "downloads": 1175
+          "downloads": 1176
         }
       },
-      "downloads": 1175
+      "downloads": 1176
     },
     "distrho/cardinal": {
       "slug": "distrho/cardinal",
@@ -26107,7 +26194,7 @@
               "size": 1113893699,
               "sha256": "657df0beeec04184de7359cbd3e173a36eeab78077e1e26da81405632f98ec25",
               "url": "https://github.com/DISTRHO/Cardinal/releases/download/26.02/Cardinal-linux-x86_64-26.02.tar.gz",
-              "downloads": 2009
+              "downloads": 2010
             },
             {
               "systems": [
@@ -26193,7 +26280,7 @@
               "size": 368923667,
               "sha256": "16f21250fe656fc766f6c1df79c45244bbdf55ffa90ff0c3c3ace9af70cf3e24",
               "url": "https://github.com/DISTRHO/Cardinal/releases/download/26.02/Cardinal-win64-26.02-installer.exe",
-              "downloads": 7079
+              "downloads": 7080
             },
             {
               "systems": [
@@ -26214,14 +26301,14 @@
               "size": 1146920345,
               "sha256": "03407f810f99b02e62a41970ae066c1a64591edc924735f3bdec66db1958cb26",
               "url": "https://github.com/DISTRHO/Cardinal/releases/download/26.02/Cardinal-win64-26.02.zip",
-              "downloads": 2456
+              "downloads": 2457
             }
           ],
           "verified": true,
-          "downloads": 18129
+          "downloads": 18132
         }
       },
-      "downloads": 18129
+      "downloads": 18132
     },
     "dimethoxy/disflux": {
       "slug": "dimethoxy/disflux",
@@ -26404,7 +26491,7 @@
               "size": 29879712,
               "sha256": "5340caeea591f717ccdda03ecb443be1ed1a2b76756b01a6547b7ca9fa5a4537",
               "url": "https://github.com/danielwray/neampmod-the-victor/releases/download/v2.2.0/neampmod-the-victor-linux-v2.2.0.clap",
-              "downloads": 60
+              "downloads": 61
             },
             {
               "systems": [
@@ -26444,10 +26531,10 @@
             }
           ],
           "verified": true,
-          "downloads": 227
+          "downloads": 228
         }
       },
-      "downloads": 227
+      "downloads": 228
     },
     "danielwray/neampmod-the-tweed": {
       "slug": "danielwray/neampmod-the-tweed",
@@ -26722,14 +26809,14 @@
               "size": 31330154,
               "sha256": "1126158ed3758842554dcfda295e1b3779b859387b8eeffad59ada632eabd76c",
               "url": "https://github.com/dan-k-k/vocal-gate/releases/download/v1.0.5/VocalGate_Windows_Installer.exe",
-              "downloads": 3462
+              "downloads": 3463
             }
           ],
           "verified": true,
-          "downloads": 4611
+          "downloads": 4612
         }
       },
-      "downloads": 4611
+      "downloads": 4612
     },
     "damrsn/neuralnote": {
       "slug": "damrsn/neuralnote",
@@ -26768,7 +26855,7 @@
               "size": 5621195,
               "type": "archive",
               "url": "https://github.com/DamRsn/NeuralNote/releases/download/v1.1.0/NeuralNote_Standalone_Linux.zip",
-              "downloads": 6933
+              "downloads": 6934
             },
             {
               "architectures": [
@@ -26806,7 +26893,7 @@
               "size": 27549300,
               "type": "installer",
               "url": "https://github.com/DamRsn/NeuralNote/releases/download/v1.1.0/NeuralNote_Installer_Mac.pkg",
-              "downloads": 37120
+              "downloads": 37122
             },
             {
               "architectures": [
@@ -26825,14 +26912,14 @@
               "size": 8569710,
               "type": "installer",
               "url": "https://github.com/DamRsn/NeuralNote/releases/download/v1.1.0/NeuralNote_Installer_Windows.exe",
-              "downloads": 126670
+              "downloads": 126675
             }
           ],
           "verified": true,
-          "downloads": 179804
+          "downloads": 179812
         }
       },
-      "downloads": 179804
+      "downloads": 179812
     },
     "damiensellier/ctrlrx": {
       "slug": "damiensellier/ctrlrx",
@@ -26975,7 +27062,7 @@
               "size": 6828455,
               "sha256": "7824c06f9b7e98c8dcd0b94ec8972b10fc19d79a81bb64793ea326f0786c7e9a",
               "url": "https://github.com/cvde/RoomReverb/releases/download/v1.4.1/RoomReverb-1.4.1-Linux-Plugin-Files.zip",
-              "downloads": 341
+              "downloads": 342
             },
             {
               "systems": [
@@ -27063,10 +27150,10 @@
             }
           ],
           "verified": true,
-          "downloads": 1234
+          "downloads": 1235
         }
       },
-      "downloads": 1234
+      "downloads": 1235
     },
     "creativeintent/temper": {
       "slug": "creativeintent/temper",
@@ -27539,7 +27626,7 @@
               "size": 5112948,
               "sha256": "71aaae1c454ac83ac16b248d4cc99c12bf6d11452a87376fcb6b1e79060e3a5c",
               "url": "https://github.com/jatinchowdhury18/AnalogTapeModel/releases/download/v2.11.4/ChowTapeModel-Linux-x64-2.11.4.deb",
-              "downloads": 8250
+              "downloads": 8252
             },
             {
               "systems": [
@@ -27581,14 +27668,14 @@
               "size": 10646528,
               "sha256": "8ba6e91196067244837877d9ca4a8e4a1f5bfad60cf33fa699c8a5b41f1211bf",
               "url": "https://github.com/jatinchowdhury18/AnalogTapeModel/releases/download/v2.11.4/ChowTapeModel-Win-64bit-2.11.4.exe",
-              "downloads": 60044
+              "downloads": 60045
             }
           ],
           "verified": false,
-          "downloads": 104047
+          "downloads": 104050
         }
       },
-      "downloads": 104047
+      "downloads": 104050
     },
     "chowdhury-dsp/chowmultitool": {
       "slug": "chowdhury-dsp/chowmultitool",
@@ -27627,7 +27714,7 @@
               "size": 11107512,
               "sha256": "69b6718b08a1072d1f27817dace1e07a689a2b8ce7cee9bc9530b107e2343803",
               "url": "https://github.com/Chowdhury-DSP/ChowMultiTool/releases/download/v1.1.0/ChowMultiTool-Linux-x64-1.1.0.deb",
-              "downloads": 5043
+              "downloads": 5044
             },
             {
               "systems": [
@@ -27672,10 +27759,10 @@
             }
           ],
           "verified": true,
-          "downloads": 33521
+          "downloads": 33522
         }
       },
-      "downloads": 33521
+      "downloads": 33522
     },
     "chowdhury-dsp/chowmatrix": {
       "slug": "chowdhury-dsp/chowmatrix",
@@ -27982,7 +28069,7 @@
               "size": 22194032,
               "sha256": "c1803ae57b717bab04ef2072c10284bcb7d44fbe352d42645075b0c6875c9aeb",
               "url": "https://github.com/Chowdhury-DSP/BYOD/releases/download/v1.3.0/BYOD-Linux-x64-1.3.0.deb",
-              "downloads": 5943
+              "downloads": 5944
             },
             {
               "systems": [
@@ -28022,14 +28109,14 @@
               "size": 26404896,
               "sha256": "a53fb65cedf90f7673e21ac2d12f5b0778f003ae7f2e34e6c4301854a738c36c",
               "url": "https://github.com/Chowdhury-DSP/BYOD/releases/download/v1.3.0/BYOD-Win-64bit-1.3.0.exe",
-              "downloads": 15050
+              "downloads": 15051
             }
           ],
           "verified": true,
-          "downloads": 27911
+          "downloads": 27913
         }
       },
-      "downloads": 27911
+      "downloads": 27913
     },
     "cannerycoders/fluidsynth.clap": {
       "slug": "cannerycoders/fluidsynth.clap",
@@ -28257,7 +28344,7 @@
               "size": 2377056,
               "sha256": "730cbd84d8caffaccd3ace636f4ce677114cd8620194e82f99a323a06113cfdd",
               "url": "https://github.com/brummer10/NeuralRack/releases/download/v0.3.3/NeuralRack-v0.3.3-linux-x86_64.tar.xz",
-              "downloads": 200
+              "downloads": 201
             },
             {
               "systems": [
@@ -28405,10 +28492,10 @@
             }
           ],
           "verified": true,
-          "downloads": 1101
+          "downloads": 1102
         }
       },
-      "downloads": 1101
+      "downloads": 1102
     },
     "bobona/just-a-sample": {
       "slug": "bobona/just-a-sample",
@@ -28702,7 +28789,7 @@
               "size": 28813905,
               "sha256": "0321213ead513da5e95b69eba89f37e28cb480b4737a22713fdd966124b8e340",
               "url": "https://github.com/Birch-san/juicysfplugin/releases/download/3.1.0/juicysfplugin-3.1.0-macOS.tar.xz",
-              "downloads": 5685
+              "downloads": 5686
             },
             {
               "systems": [
@@ -28722,14 +28809,14 @@
               "size": 16237789,
               "sha256": "21a706090d0a72511756dfd65d6a3c0711257c94b707679346e04d182dc178a0",
               "url": "https://github.com/Birch-san/juicysfplugin/releases/download/3.1.0/juicysfplugin-3.1.0-win-x64.zip",
-              "downloads": 35203
+              "downloads": 35206
             }
           ],
           "verified": true,
-          "downloads": 40888
+          "downloads": 40892
         }
       },
-      "downloads": 40888
+      "downloads": 40892
     },
     "billydm/vitalium-verb": {
       "slug": "billydm/vitalium-verb",
@@ -29717,7 +29804,7 @@
               "size": 17183630,
               "sha256": "a6505103869d15400e7bed1d988d9dd155d6d8204a3d532f5301966ae7507ad8",
               "url": "https://github.com/asb2m10/dexed/releases/download/v1.0.1/Dexed-1.0.1-macOS.dmg",
-              "downloads": 54762
+              "downloads": 54770
             },
             {
               "systems": [
@@ -29758,7 +29845,7 @@
               "size": 11275100,
               "sha256": "5dc4e072af90ec54aa0197790b40856e7db1659ff924ed107c7536b442d3584b",
               "url": "https://github.com/asb2m10/dexed/releases/download/v1.0.1/Dexed-1.0.1-win.exe",
-              "downloads": 75401
+              "downloads": 75412
             },
             {
               "systems": [
@@ -29782,7 +29869,7 @@
             }
           ],
           "verified": true,
-          "downloads": 138936
+          "downloads": 138955
         },
         "0.9.8": {
           "name": "Dexed",
@@ -29860,14 +29947,14 @@
               "size": 10388001,
               "sha256": "5df11ce77baf8e02af0bc35fe4981593ce1afdf70d67fe8cde65174b4f8a57ca",
               "url": "https://github.com/asb2m10/dexed/releases/download/v0.9.8/dexed-0.9.8-win.zip",
-              "downloads": 138245
+              "downloads": 138246
             }
           ],
           "verified": true,
-          "downloads": 194729
+          "downloads": 194730
         }
       },
-      "downloads": 333665
+      "downloads": 333685
     },
     "artfwo/andes": {
       "slug": "artfwo/andes",
@@ -31077,7 +31164,7 @@
               "size": 17636483,
               "sha256": "6527b266948277b9bcc281a35d9a4bb6a70bd5667baf98664a6579b793919ee4",
               "url": "https://github.com/ArdenButterfield/Maim/releases/download/v1.1.1/Maim-1.1.1-macOS.dmg",
-              "downloads": 2532
+              "downloads": 2533
             },
             {
               "systems": [
@@ -31100,10 +31187,10 @@
             }
           ],
           "verified": true,
-          "downloads": 13885
+          "downloads": 13886
         }
       },
-      "downloads": 13885
+      "downloads": 13886
     },
     "archie3d/aeolus": {
       "slug": "archie3d/aeolus",
@@ -32236,14 +32323,14 @@
               "size": 52657139,
               "sha256": "b1f48ed38f3fe46f1d3a3949d69db6cf8a1b6e74ffd3166840686f57d445e7b0",
               "url": "https://github.com/Altinus/Alt-Denoiser/releases/download/v1.0.1/Alt-Denoiser-windows.zip",
-              "downloads": 621
+              "downloads": 622
             }
           ],
           "verified": true,
-          "downloads": 621
+          "downloads": 622
         }
       },
-      "downloads": 621
+      "downloads": 622
     },
     "ales-tsurko/kotoist": {
       "slug": "ales-tsurko/kotoist",
