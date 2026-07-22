@@ -123,7 +123,7 @@
             "size": 223339140,
             "sha256": "a6e55064487f624147d515b9ae5fc79a568b69746675b2083abde628ca7bb151",
             "url": "https://github.com/surge-synthesizer/releases-xt/releases/download/1.3.4/surge-xt-linux-x64-1.3.4.deb",
-            "downloads": 34132
+            "downloads": 34199
           },
           {
             "systems": [
@@ -144,7 +144,7 @@
             "size": 349080230,
             "sha256": "aa57df9b79735db392b147e5ca6a9db7e9e9e5ba2907717aa055c501f3f59659",
             "url": "https://github.com/surge-synthesizer/releases-xt/releases/download/1.3.4/surge-xt-x86_64-1.3.4.rpm",
-            "downloads": 3514
+            "downloads": 3517
           },
           {
             "systems": [
@@ -166,7 +166,7 @@
             "size": 416715686,
             "sha256": "b56e8d51a8dc2382ae668c9ff4e96bae38dbd452af4e584d5a5ef50ab2d09b07",
             "url": "https://github.com/surge-synthesizer/releases-xt/releases/download/1.3.4/surge-xt-macOS-1.3.4.dmg",
-            "downloads": 147157
+            "downloads": 147448
           },
           {
             "systems": [
@@ -185,7 +185,7 @@
             "size": 180883859,
             "sha256": "6fe3fb20ef21672666dddb816ad73f2966e98b70edad9189183451a255c2b2d1",
             "url": "https://github.com/surge-synthesizer/releases-xt/releases/download/1.3.4/surge-xt-win32-1.3.4-setup.exe",
-            "downloads": 18072
+            "downloads": 18100
           },
           {
             "systems": [
@@ -205,11 +205,11 @@
             "size": 183385478,
             "sha256": "6e221e05f29254508142b9e0ed76a85f22fa1b512501bebde571951e7eefecca",
             "url": "https://github.com/surge-synthesizer/releases-xt/releases/download/1.3.4/surge-xt-win64-1.3.4-setup.exe",
-            "downloads": 491199
+            "downloads": 491847
           }
         ],
         "verified": true,
-        "downloads": 694074
+        "downloads": 695111
       },
       "1.3.1": {
         "name": "Surge XT",
@@ -247,7 +247,7 @@
             "size": 220693484,
             "sha256": "729d92b5a4288f4c22587b8e84244c26aef34e58312ab5b4f4d1f196699b802e",
             "url": "https://github.com/surge-synthesizer/releases-xt/releases/download/1.3.1/surge-xt-linux-x64-1.3.1.deb",
-            "downloads": 3539
+            "downloads": 3543
           },
           {
             "systems": [
@@ -290,7 +290,7 @@
             "size": 411860016,
             "sha256": "e30b218700d4067edb3a0eadb4128784e41f91f663cff19e3fbb38460883cf59",
             "url": "https://github.com/surge-synthesizer/releases-xt/releases/download/1.3.1/surge-xt-macOS-1.3.1.dmg",
-            "downloads": 16591
+            "downloads": 16596
           },
           {
             "systems": [
@@ -329,14 +329,14 @@
             "size": 182890274,
             "sha256": "2bac9c87c3e4293ecc4110087f5bb90a5218427921613409b84673f513f02bd3",
             "url": "https://github.com/surge-synthesizer/releases-xt/releases/download/1.3.1/surge-xt-win64-1.3.1-setup.exe",
-            "downloads": 61610
+            "downloads": 61615
           }
         ],
         "verified": true,
-        "downloads": 84013
+        "downloads": 84027
       }
     },
-    "downloads": 778087
+    "downloads": 779138
   },
   "surge-synthesizer/ob-xf": {
     "slug": "surge-synthesizer/ob-xf",
@@ -376,7 +376,7 @@
             "size": 38526792,
             "sha256": "c61077525634be5c96693f81326ab6b29b5bbb4f8e8fd3a0482b9bb827898853",
             "url": "https://github.com/surge-synthesizer/OB-Xf/releases/download/v1.0.3/ob-xf-Linux-v1.0.3.deb",
-            "downloads": 669
+            "downloads": 671
           },
           {
             "systems": [
@@ -396,7 +396,7 @@
             "size": 21867343,
             "sha256": "72b60c83cf6426337031df744c34a047104a9d95f1feaf6cd048ecfa39f74c96",
             "url": "https://github.com/surge-synthesizer/OB-Xf/releases/download/v1.0.3/ob-xf-Linux-v1.0.3.zip",
-            "downloads": 438
+            "downloads": 439
           },
           {
             "systems": [
@@ -417,7 +417,7 @@
             "size": 60657850,
             "sha256": "e6f52f453c476dfafbd3225b80c5c3ec341ec20be5748c6f70c01cef14e7e7a8",
             "url": "https://github.com/surge-synthesizer/OB-Xf/releases/download/v1.0.3/ob-xf-macOS-v1.0.3.dmg",
-            "downloads": 2457
+            "downloads": 2475
           },
           {
             "systems": [
@@ -512,7 +512,7 @@
             "size": 29354268,
             "sha256": "55418702355156b34ac1561fc00af5ca6ee744a3ac8a2187f4b7f11396afb624",
             "url": "https://github.com/surge-synthesizer/OB-Xf/releases/download/v1.0.3/ob-xf-Windows-v1.0.3.exe",
-            "downloads": 3537
+            "downloads": 3555
           },
           {
             "systems": [
@@ -531,14 +531,14 @@
             "size": 9222959,
             "sha256": "149fda0649daf8a3aa0851801f92515f0dbf6203acf33c0edc7d3c445e80b1e7",
             "url": "https://github.com/surge-synthesizer/OB-Xf/releases/download/v1.0.3/ob-xf-Windows-v1.0.3.zip",
-            "downloads": 418
+            "downloads": 419
           }
         ],
         "verified": true,
-        "downloads": 7903
+        "downloads": 7943
       }
     },
-    "downloads": 7903
+    "downloads": 7943
   },
   "surge-synthesizer/monique-monosynth": {
     "slug": "surge-synthesizer/monique-monosynth",
@@ -580,7 +580,7 @@
             "size": 11138914,
             "sha256": "a9a9a9b42e111bd41ee24157368ca2499cace806c505f7f8ccd9aeec03f251b7",
             "url": "https://github.com/surge-synthesizer/monique-monosynth/releases/download/Nightly/MoniqueMonosynth-2024-08-07-df7d339-Linux.zip",
-            "downloads": 2519
+            "downloads": 2523
           },
           {
             "systems": [
@@ -601,7 +601,7 @@
             "size": 26204639,
             "sha256": "7a3097c486c002d6533b55bae6ffd3024e9ccbc266e79ef008d2763719925843",
             "url": "https://github.com/surge-synthesizer/monique-monosynth/releases/download/Nightly/moniquemonosynth-macOS-2024-08-07-df7d339.dmg",
-            "downloads": 1870
+            "downloads": 1874
           },
           {
             "systems": [
@@ -621,14 +621,14 @@
             "size": 11473649,
             "sha256": "483d957388e5655639a1a43092ce0f9677e512ee016186a3110909112d99b9f4",
             "url": "https://github.com/surge-synthesizer/monique-monosynth/releases/download/Nightly/MoniqueMonosynth-2024-08-07-df7d339-Windows-64bit.zip",
-            "downloads": 2509
+            "downloads": 2512
           }
         ],
         "verified": true,
-        "downloads": 6898
+        "downloads": 6909
       }
     },
-    "downloads": 6898
+    "downloads": 6909
   },
   "surge-synthesizer/b-step": {
     "slug": "surge-synthesizer/b-step",
@@ -668,7 +668,7 @@
             "size": 204141836,
             "sha256": "6ec066abc5a8c856d6b5b9e2880340d613dc96fb44ac1c4d01bcf7c458c0a35c",
             "url": "https://github.com/surge-synthesizer/b-step/releases/download/Nightly/b-step-macOS-2024-07-28-3f935f8.dmg",
-            "downloads": 379
+            "downloads": 381
           },
           {
             "systems": [
@@ -706,7 +706,7 @@
             "size": 81573735,
             "sha256": "2c819aff8b9628985fc01cd93e13aede14d24d3293a35ec4e762a0fcb02b42dc",
             "url": "https://github.com/surge-synthesizer/b-step/releases/download/Nightly/BStep-2024-07-28-3f935f8-Windows-64bit-setup.exe",
-            "downloads": 606
+            "downloads": 607
           },
           {
             "systems": [
@@ -725,13 +725,13 @@
             "size": 86619149,
             "sha256": "31548d47851768201a75981c6e2b05935d667e4e79fd85780bbb5f69e814a645",
             "url": "https://github.com/surge-synthesizer/b-step/releases/download/Nightly/BStep-2024-07-28-3f935f8-Windows-64bit.zip",
-            "downloads": 456
+            "downloads": 458
           }
         ],
         "verified": true,
-        "downloads": 1831
+        "downloads": 1836
       }
     },
-    "downloads": 1831
+    "downloads": 1836
   }
 }

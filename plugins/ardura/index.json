@@ -55,7 +55,7 @@
             "size": 4188028,
             "type": "archive",
             "url": "https://github.com/ardura/Subhoofer/releases/download/v2.2.3/Subhoofer_v223_macos_m1_build.zip",
-            "downloads": 38
+            "downloads": 39
           },
           {
             "systems": [
@@ -93,11 +93,11 @@
             "size": 3779322,
             "sha256": "0f8543eabdc9747a201ad3c47863fef6a58e10bb22f393c4279769fb3bf96181",
             "url": "https://github.com/ardura/Subhoofer/releases/download/v2.2.3/Subhoofer_v223_windows_build.zip",
-            "downloads": 111
+            "downloads": 112
           }
         ],
         "verified": true,
-        "downloads": 283
+        "downloads": 285
       },
       "2.2.2": {
         "name": "Subhoofer",
@@ -177,7 +177,7 @@
         "downloads": 834
       }
     },
-    "downloads": 1117
+    "downloads": 1119
   },
   "ardura/scrollscope": {
     "slug": "ardura/scrollscope",
@@ -730,7 +730,7 @@
             "size": 9395724,
             "type": "archive",
             "url": "https://github.com/ardura/Actuate/releases/download/v1.4.3/Actuate_v143_linux_build.zip",
-            "downloads": 50
+            "downloads": 51
           },
           {
             "architectures": [
@@ -772,7 +772,7 @@
           }
         ],
         "verified": true,
-        "downloads": 125
+        "downloads": 126
       },
       "1.4.2": {
         "name": "Actuate",
@@ -808,7 +808,7 @@
             "size": 9468044,
             "sha256": "378d1c16dd90b0fb6c85c703898c302d5a65e7673321160b9f828af863816c84",
             "url": "https://github.com/ardura/Actuate/releases/download/v1.4.2/Actuate_v142_linux_build.zip",
-            "downloads": 139
+            "downloads": 140
           },
           {
             "systems": [
@@ -865,11 +865,11 @@
             "size": 8407398,
             "sha256": "bf4f1056525a9304917baab2f182acac437bd0e85c3cdb3a5cc02f5c1667a737",
             "url": "https://github.com/ardura/Actuate/releases/download/v1.4.2/Actuate_v142_windows_build.zip",
-            "downloads": 99
+            "downloads": 100
           }
         ],
         "verified": true,
-        "downloads": 301
+        "downloads": 303
       },
       "1.3.9": {
         "name": "Actuate",
@@ -1066,6 +1066,6 @@
         "downloads": 239
       }
     },
-    "downloads": 904
+    "downloads": 907
   }
 }

@@ -1,8 +1,104 @@
 {
   "tucktuckg00se/intersect": {
     "slug": "tucktuckg00se/intersect",
-    "version": "0.15.1",
+    "version": "0.15.2",
     "versions": {
+      "0.15.2": {
+        "name": "INTERSECT",
+        "author": "tucktuckg00se",
+        "description": "A nondestructive, time-stretching, and intersecting sample slicer plugin with independent per-slice parameter control.",
+        "license": "gpl-3.0",
+        "type": "sampler",
+        "tags": [
+          "Sample Slicer"
+        ],
+        "url": "https://github.com/tucktuckg00se/INTERSECT",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/tucktuckg00se/intersect/intersect.jpg",
+        "date": "2026-07-14T04:09:23Z",
+        "changes": "Added AU builds for macOS. Fixed MIDI-triggered slices drifting from the host's audio buffer, short notes within one buffer being silent, and lazy chop boundaries snapping to buffer start. Overhauled documentation site.",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "elf"
+            ],
+            "type": "archive",
+            "size": 8969709,
+            "sha256": "784902d77964a1e64cbf1547c52afc1cc235c37b6f282bbe1e51fae48b42ac13",
+            "url": "https://github.com/tucktuckg00se/INTERSECT/releases/download/v0.15.2/INTERSECT-v0.15.2-Linux-x64.zip",
+            "downloads": 31
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64"
+            ],
+            "contains": [
+              "vst3",
+              "component",
+              "app"
+            ],
+            "type": "archive",
+            "size": 8860344,
+            "sha256": "2e52b922469488b5b5cdd9a428903966b9ecadc0997b68505fa5fc23aaa833d5",
+            "url": "https://github.com/tucktuckg00se/INTERSECT/releases/download/v0.15.2/INTERSECT-v0.15.2-macOS-arm64.zip",
+            "downloads": 13
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "component",
+              "app"
+            ],
+            "type": "archive",
+            "size": 9631110,
+            "sha256": "227bdcae9b8da7cc35f7d3ff0ba0dcba01229ce2fc6bc4e47b09deb9efcb39db",
+            "url": "https://github.com/tucktuckg00se/INTERSECT/releases/download/v0.15.2/INTERSECT-v0.15.2-macOS-x64.zip",
+            "downloads": 11
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "exe"
+            ],
+            "type": "archive",
+            "size": 7127409,
+            "sha256": "884f0b22fe1ffc985ab5e3cb8e5359d5e560c89ec56ea6be52d787adb8470738",
+            "url": "https://github.com/tucktuckg00se/INTERSECT/releases/download/v0.15.2/INTERSECT-v0.15.2-Windows-x64.zip",
+            "downloads": 70
+          }
+        ],
+        "verified": true,
+        "downloads": 125
+      },
       "0.15.1": {
         "name": "INTERSECT",
         "author": "tucktuckg00se",
@@ -72,7 +168,7 @@
             "size": 9632468,
             "sha256": "c52f799a8df16170a6db2671897ffd7ce3f0ddc60170e8056243c68b04c360e9",
             "url": "https://github.com/tucktuckg00se/INTERSECT/releases/download/v0.15.1/INTERSECT-v0.15.1-macOS-x64.zip",
-            "downloads": 37
+            "downloads": 38
           },
           {
             "systems": [
@@ -95,9 +191,9 @@
           }
         ],
         "verified": true,
-        "downloads": 456
+        "downloads": 457
       }
     },
-    "downloads": 456
+    "downloads": 582
   }
 }
