@@ -1,0 +1,85 @@
+{
+  "slug": "joht/speclet",
+  "version": "1.0.2",
+  "versions": {
+    "1.0.2": {
+      "name": "Speclet",
+      "author": "Johannes",
+      "description": "Audio spectrum analyzer using Fourier- and wavelet-transformation for high-resolution spectrum analysis beyond traditional FFT.",
+      "license": "gpl-3.0",
+      "type": "tool",
+      "tags": [
+        "Spectrum Analyzer",
+        "Wavelet",
+        "FFT"
+      ],
+      "url": "https://github.com/JohT/speclet",
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/joht/speclet/speclet.jpg",
+      "date": "2026-05-20T19:49:37Z",
+      "changes": "Relieved the audio thread of processing work, and documented the plugin's architecture.",
+      "files": [
+        {
+          "systems": [
+            {
+              "type": "linux"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "vst3",
+            "elf"
+          ],
+          "type": "archive",
+          "size": 5851100,
+          "sha256": "3a57807e022a617f4378843253a323757da5eb5894a48807c6184b7d6b289f00",
+          "url": "https://github.com/JohT/speclet/releases/download/v1.0.2/Speclet-v1.0.2-Linux.zip",
+          "downloads": 8
+        },
+        {
+          "systems": [
+            {
+              "type": "mac"
+            }
+          ],
+          "architectures": [
+            "arm64"
+          ],
+          "contains": [
+            "vst3",
+            "component",
+            "app"
+          ],
+          "type": "archive",
+          "size": 7205378,
+          "sha256": "ea8bbda9abcabdccfdce26a84c7ea99b56b5c3eb8be79446fcad8568c0a5b995",
+          "url": "https://github.com/JohT/speclet/releases/download/v1.0.2/Speclet-v1.0.2-MacOS.zip",
+          "downloads": 12
+        },
+        {
+          "systems": [
+            {
+              "type": "win"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "vst3",
+            "exe"
+          ],
+          "type": "archive",
+          "size": 5044775,
+          "sha256": "91e36824f1fe2beed44abb494d51ef853f6dca2326bb489bb6e2fa21503afc27",
+          "url": "https://github.com/JohT/speclet/releases/download/v1.0.2/Speclet-v1.0.2-Windows.zip",
+          "downloads": 13
+        }
+      ],
+      "verified": true,
+      "downloads": 33
+    }
+  },
+  "downloads": 33
+}
