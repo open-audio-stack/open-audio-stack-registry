@@ -299,12 +299,22 @@ still belong under "Excluded" — the split is about provenance, not severity.
 
 **Rebuilding it, end to end:**
 
-1. Find every open external tracker issue across GitHub (the marker text is unique
-   enough to search globally, not just within one org):
+1. Find every open external tracker issue across GitHub. `gh search issues` free-text
+   search does **not** do exact-phrase matching — it tokenizes on the hyphens, so
+   past the first ~30 results it starts returning unrelated issues that merely
+   contain "open", "audio", "stack", or "tracker" somewhere. Always pass a high
+   `--limit` (the default silently truncates once the real count exceeds it) *and*
+   filter results down to ones that actually contain the literal marker comment:
 
    ```bash
-   gh search issues "open-audio-stack-tracker in:body" --state open --json repository,number,title,url
+   gh search issues "open-audio-stack-tracker in:body" --state open --limit 100 \
+     --json repository,number,title,url,body \
+     --jq '[.[] | select(.body | test("open-audio-stack-tracker: [^ ]+ -->"))]'
    ```
+
+   If the filtered count comes back at or near whatever `--limit` you passed, raise
+   the limit and re-run — that's a sign of truncation, not a sign you've found
+   everything.
 
 2. Find the central tracker issue itself:
 
