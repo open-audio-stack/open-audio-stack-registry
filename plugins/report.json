@@ -47,6 +47,16 @@
       ]
     }
   },
+  "zl-audio/zllmatch": {
+    "0.2.4": {
+      "recs": [
+        {
+          "field": "url",
+          "rec": "requires mounting step, consider .pkg instead"
+        }
+      ]
+    }
+  },
   "zl-audio/zlequalizer2": {
     "1.1.0": {
       "recs": [
