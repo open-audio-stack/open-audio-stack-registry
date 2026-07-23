@@ -138,7 +138,7 @@ We are curating a list of open-source audio software at [Open Audio Stack](https
 
 {{additional_notes}}
 
-Once everything above is checked off, {{PACKAGE_NAME}} can be added automatically — no further action needed from your side beyond that. If any box looks wrong (e.g. we missed an existing license or image), add a comment to this issue and we'll correct it. And if you'd rather this project not be listed at all, feel free to close this issue — we'll leave it alone. To see a full list of all currently added plugins, click [here](https://studiorack.github.io/studiorack-site/plugins).
+Once everything above is checked off, {{PACKAGE_NAME}} can be added automatically — no further action needed from your side beyond that. If any box looks wrong (e.g. we missed an existing license or image), add a comment to this issue and we'll correct it. And if you'd rather this project not be listed at all, feel free to close this issue — we'll leave it alone. To see a full list of all currently added plugins, click [here](https://studiorack.github.io/studiorack-site/plugins). Our Discord is also [here](https://discord.gg/9D94f98PxP) if you need support.
 
 Thanks!
 ```
