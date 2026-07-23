@@ -1,0 +1,68 @@
+name: fil4.lv2
+author: Robin Gareus
+description: 4-band parametric equalizer with additional low+high shelf filters, low/high-pass, and an optional custom GUI displaying the transfer function and realtime spectrum.
+license: gpl-2.0
+type: effect
+tags:
+  - Equalizer
+  - Lv2
+url: https://github.com/x42/fil4.lv2
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/x42/fil4.lv2/fil4.lv2.jpg
+date: '2015-07-01T01:28:52Z'
+changes: 'Self-contained bundles for GNU/Linux, Windows and OSX, containing a standalone JACK application and LV2 plugins (mono & stereo variants).'
+files:
+  - systems:
+      - type: linux
+    architectures:
+      - x32
+    contains:
+      - lv2
+      - elf
+    type: archive
+    size: 5950596
+    sha256: 3834ec446eff3fc8b019224e761e70d554086c0b0e3162de3cfa81b2e15d78e2
+    url: https://github.com/x42/fil4.lv2/releases/download/v0.4.4/x42-eq-v0.4.4-linux-i386.tar.gz
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - lv2
+      - elf
+    type: archive
+    size: 6474763
+    sha256: f5ad59accc38f680afef0d5147456570e46441562eef33cecde529a93f210c51
+    url: https://github.com/x42/fil4.lv2/releases/download/v0.4.4/x42-eq-v0.4.4-linux-x86_64.tar.gz
+  - systems:
+      - type: mac
+    architectures:
+      - x64
+    contains:
+      - lv2
+      - app
+    type: installer
+    size: 9286193
+    sha256: ca9bfe033383a7cd36006e81cff6257704de042779698c9385f2bfa2f8605554
+    url: https://github.com/x42/fil4.lv2/releases/download/v0.4.4/x42-eq-v0.4.4-OSX.dmg
+  - systems:
+      - type: win
+    architectures:
+      - x32
+    contains:
+      - lv2
+      - exe
+    type: installer
+    size: 3372539
+    sha256: 8f6697207255a5afc77595de62f36075e25826c092eda8ec446372dc3ce054c2
+    url: https://github.com/x42/fil4.lv2/releases/download/v0.4.4/x42-eq-v0.4.4-w32-Setup.exe
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - lv2
+      - exe
+    type: installer
+    size: 3652707
+    sha256: 8a72e4db82c487c250d49ccc95c14ed8bdb560de7500a670d60b370e2b5c195f
+    url: https://github.com/x42/fil4.lv2/releases/download/v0.4.4/x42-eq-v0.4.4-w64-Setup.exe
