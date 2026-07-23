@@ -1,0 +1,82 @@
+{
+  "slug": "lucianodato/noise-repellent",
+  "version": "0.2.5",
+  "versions": {
+    "0.2.5": {
+      "name": "Noise Repellent",
+      "author": "Luciano Dato",
+      "description": "LV2 suite of plugins for broadband noise reduction, using spectral filtering methods suited for instrument and voice recordings.",
+      "license": "lgpl-3.0",
+      "type": "effect",
+      "tags": [
+        "Noise Reduction",
+        "Denoiser",
+        "Restoration"
+      ],
+      "url": "https://github.com/lucianodato/noise-repellent",
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/lucianodato/noise-repellent/noise-repellent.jpg",
+      "date": "2026-01-17T20:13:55Z",
+      "changes": "Fixed a macOS issue where the LV2 install dir was hardcoded instead of taking the prefix/libdir options.",
+      "files": [
+        {
+          "systems": [
+            {
+              "type": "linux"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "lv2"
+          ],
+          "type": "archive",
+          "size": 2034382,
+          "sha256": "444d29f8fd0d41d5b5ea6aaf2230816c5e8a96bfa2afb40fd02a2690abc93895",
+          "url": "https://github.com/lucianodato/noise-repellent/releases/download/v0.2.5/noise-repellent-linux64-v0.2.5.zip",
+          "downloads": 625
+        },
+        {
+          "systems": [
+            {
+              "type": "mac"
+            }
+          ],
+          "architectures": [
+            "arm64",
+            "x64"
+          ],
+          "contains": [
+            "lv2"
+          ],
+          "type": "archive",
+          "size": 1525131,
+          "sha256": "a589e851c6240a484cbebbc352189082bce82da3a69741e51abf6cfc6672c297",
+          "url": "https://github.com/lucianodato/noise-repellent/releases/download/v0.2.5/noise-repellent-macOS-universal-v0.2.5.zip",
+          "downloads": 61
+        },
+        {
+          "systems": [
+            {
+              "type": "win"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "lv2"
+          ],
+          "type": "archive",
+          "size": 1336790,
+          "sha256": "840c1989ba6a7416450d132a099d0fed2e3e792d74a6da238af63a40f1a73a8d",
+          "url": "https://github.com/lucianodato/noise-repellent/releases/download/v0.2.5/noise-repellent-win64-v0.2.5.zip",
+          "downloads": 294
+        }
+      ],
+      "verified": true,
+      "downloads": 980
+    }
+  },
+  "downloads": 980
+}
