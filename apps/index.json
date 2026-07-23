@@ -33,7 +33,7 @@
             "size": 5911681,
             "sha256": "c01c49d8063965c4c2dea8324468336768f5c9139e0b1caebde14c2400b55352",
             "url": "https://github.com/Tracktion/pluginval/releases/download/v1.0.4/pluginval_Linux.zip",
-            "downloads": 14207
+            "downloads": 14211
           },
           {
             "systems": [
@@ -49,7 +49,7 @@
             "size": 9202795,
             "sha256": "3c4c533bda0c5059eea3ddaea752d757ee2025041f0f47e6bcb0e87f6082b29f",
             "url": "https://github.com/Tracktion/pluginval/releases/download/v1.0.4/pluginval_macOS.zip",
-            "downloads": 54844
+            "downloads": 54853
           },
           {
             "systems": [
@@ -65,14 +65,14 @@
             "size": 2408590,
             "sha256": "c08e61ce3b96db41636f8ec7e76f4c7e2c13ebdac7fa1b5a1f52b4f32ec715ab",
             "url": "https://github.com/Tracktion/pluginval/releases/download/v1.0.4/pluginval_Windows.zip",
-            "downloads": 87317
+            "downloads": 87326
           }
         ],
         "verified": true,
-        "downloads": 156368
+        "downloads": 156390
       }
     },
-    "downloads": 156368
+    "downloads": 156390
   },
   "steinberg/validator": {
     "slug": "steinberg/validator",
@@ -247,7 +247,7 @@
             "size": 26912256,
             "sha256": "75e11fa16445f560cb6b021521ddb89e89270d13b83089705d98776f58fd7915",
             "url": "https://github.com/Rikorose/DeepFilterNet/releases/download/v0.5.6/deep-filter-0.5.6-x86_64-pc-windows-msvc.exe",
-            "downloads": 10822
+            "downloads": 10824
           },
           {
             "systems": [
@@ -263,14 +263,14 @@
             "size": 36417296,
             "sha256": "70775e251eee44c0f2451a1e833326cf8bcbbe304d3e7cd12851e6fce72ef7da",
             "url": "https://github.com/Rikorose/DeepFilterNet/releases/download/v0.5.6/deep-filter-0.5.6-x86_64-unknown-linux-musl",
-            "downloads": 20928
+            "downloads": 20930
           }
         ],
         "verified": true,
-        "downloads": 40780
+        "downloads": 40784
       }
     },
-    "downloads": 40780
+    "downloads": 40784
   },
   "monocasual/giada": {
     "slug": "monocasual/giada",
@@ -307,7 +307,7 @@
             "size": 7702562,
             "sha256": "085d535d7e8bc024872950e477c3b354c77b4a678cf6b09de5880e98880e2eae",
             "url": "https://github.com/monocasual/giada/releases/download/1.5.0/giada-1.5.0-arm64-macos.zip",
-            "downloads": 427
+            "downloads": 434
           },
           {
             "systems": [
@@ -323,14 +323,14 @@
             "size": 6552450,
             "sha256": "168e7799227dd2241d11d78f8943c959f3e87b4fac57992a46213595b9e02e1a",
             "url": "https://github.com/monocasual/giada/releases/download/1.5.0/giada-1.5.0-x86_64-windows.zip",
-            "downloads": 1209
+            "downloads": 1210
           }
         ],
         "verified": true,
-        "downloads": 1636
+        "downloads": 1644
       }
     },
-    "downloads": 1636
+    "downloads": 1644
   },
   "helio-fm/helio-sequencer": {
     "slug": "helio-fm/helio-sequencer",

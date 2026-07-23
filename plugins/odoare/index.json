@@ -115,5 +115,109 @@
       }
     },
     "downloads": 62
+  },
+  "odoare/ambirr2": {
+    "slug": "odoare/ambirr2",
+    "version": "0.1.1",
+    "versions": {
+      "0.1.1": {
+        "name": "AmbiRR2",
+        "author": "Olivier Doaré",
+        "description": "Room reverb that places up to 16 mono sources in a virtual room, capturing the result as a 3rd-order ambisonic stream or a stereo pair of virtual microphones.",
+        "license": "lgpl-3.0",
+        "type": "effect",
+        "tags": [
+          "Reverb",
+          "Ambisonic",
+          "Spatial Audio"
+        ],
+        "url": "https://github.com/odoare/AmbiRR2",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/odoare/ambirr2/ambirr2.jpg",
+        "date": "2026-07-11T23:00:35Z",
+        "changes": "Load the first factory preset as the default.",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "elf"
+            ],
+            "type": "archive",
+            "size": 5067500,
+            "sha256": "9413623f0c7943bc0390d332cd8c7545524de0d6b2b43f3b465adfbd0502a83a",
+            "url": "https://github.com/odoare/AmbiRR2/releases/download/v0.1.1/AmbiRR2-Linux-x86_64.zip",
+            "downloads": 23
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64"
+            ],
+            "contains": [
+              "vst3",
+              "component",
+              "app"
+            ],
+            "type": "archive",
+            "size": 5448745,
+            "sha256": "3e5392a92e57d0dd8c59c0788d2c5b4e92d46e7574104398a8465bde4adb2e18",
+            "url": "https://github.com/odoare/AmbiRR2/releases/download/v0.1.1/AmbiRR2-macOS-universal.zip",
+            "downloads": 33
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64"
+            ],
+            "contains": [
+              "vst3",
+              "component"
+            ],
+            "type": "installer",
+            "size": 3470365,
+            "sha256": "f4a859d5d1ec9eb04046ec4b28dc0739ab581448f91f2b25929467227b020a36",
+            "url": "https://github.com/odoare/AmbiRR2/releases/download/v0.1.1/AmbiRR2-macOS.pkg",
+            "downloads": 23
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "exe"
+            ],
+            "type": "archive",
+            "size": 3900111,
+            "sha256": "a29e4272d8aa929ed6136b9e10716c14259690306a31d24fdf34da6b52fba913",
+            "url": "https://github.com/odoare/AmbiRR2/releases/download/v0.1.1/AmbiRR2-Windows-x86_64.zip",
+            "downloads": 113
+          }
+        ],
+        "verified": true,
+        "downloads": 192
+      }
+    },
+    "downloads": 192
   }
 }
