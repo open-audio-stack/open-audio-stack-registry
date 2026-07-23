@@ -1,0 +1,78 @@
+{
+  "name": "BlindCard",
+  "author": "Sugoi Audio",
+  "description": "Blind A/B testing plugin with a poker-card themed UI, LUFS auto-level matching, star rating/guess/quiz modes, and support for up to 8 synchronized instances.",
+  "license": "agpl-3.0",
+  "type": "tool",
+  "tags": [
+    "A/B Testing",
+    "Loudness",
+    "Reference"
+  ],
+  "url": "https://github.com/SugoiAudioTech/BlindCard",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sugoiaudiotech/blindcard/blindcard.jpg",
+  "date": "2026-03-20T18:48:50Z",
+  "changes": "Added a master volume knob and crossfade slider in Standalone mode, Spanish language support, background LUFS scanning, multi-instance standalone sessions, and various UI/stability fixes.",
+  "files": [
+    {
+      "systems": [
+        {
+          "type": "mac"
+        }
+      ],
+      "architectures": [
+        "arm64"
+      ],
+      "contains": [
+        "vst3",
+        "component",
+        "app"
+      ],
+      "type": "installer",
+      "size": 150553075,
+      "sha256": "cf8bff670df0aeeff0f9f4aa9448bf8f88a4188f99baa1ec35e3a7140f4e4ffc",
+      "url": "https://github.com/SugoiAudioTech/BlindCard/releases/download/v1.0.4/BlindCard-1.0.4-AppleSilicon.pkg",
+      "downloads": 9
+    },
+    {
+      "systems": [
+        {
+          "type": "mac"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3",
+        "component",
+        "app"
+      ],
+      "type": "installer",
+      "size": 151897525,
+      "sha256": "ec3590124e6f4d6a46b5361c5891af8bb6b6f8d71885468986dc073e9162bbc9",
+      "url": "https://github.com/SugoiAudioTech/BlindCard/releases/download/v1.0.4/BlindCard-1.0.4-Intel.pkg",
+      "downloads": 6
+    },
+    {
+      "systems": [
+        {
+          "type": "win"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3"
+      ],
+      "type": "installer",
+      "size": 82115690,
+      "sha256": "7f6899ff58f216a7e5a4b947f5c7764a01b424b07b45abd0fe9927d0db25c446",
+      "url": "https://github.com/SugoiAudioTech/BlindCard/releases/download/v1.0.4/BlindCard-1.0.4-Windows-x64-Setup.exe",
+      "downloads": 25
+    }
+  ],
+  "verified": true,
+  "downloads": 40
+}

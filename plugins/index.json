@@ -465,7 +465,7 @@
             "size": 11435709,
             "sha256": "374f400e888b9de93adc145fbae079e4cf46ed8c72eeb9f43326d104134050d8",
             "url": "https://github.com/ZL-Audio/ZLCompressor/releases/download/0.5.0/ZL.Compressor-0.5.0-macOS-arm64.dmg",
-            "downloads": 534
+            "downloads": 535
           },
           {
             "systems": [
@@ -553,10 +553,10 @@
           }
         ],
         "verified": true,
-        "downloads": 4388
+        "downloads": 4389
       }
     },
-    "downloads": 4388
+    "downloads": 4389
   },
   "zhiyualexzhang/multimeter": {
     "slug": "zhiyualexzhang/multimeter",
@@ -1226,7 +1226,7 @@
             "size": 81797637,
             "sha256": "53c41fe3ce8af529b1d2d18802ecbd7e9f0b6d7ad013fd5f92f6af974472a9e9",
             "url": "https://github.com/werman/noise-suppression-for-voice/releases/download/v1.10/macos-rnnoise.zip",
-            "downloads": 9588
+            "downloads": 9589
           },
           {
             "systems": [
@@ -1246,14 +1246,14 @@
             "size": 37740885,
             "sha256": "e4dcc186102850f8dcebeb766ad1bf34c24f6280bd614ef84b72dae4783fc517",
             "url": "https://github.com/werman/noise-suppression-for-voice/releases/download/v1.10/win-rnnoise.zip",
-            "downloads": 326861
+            "downloads": 326862
           }
         ],
         "verified": true,
-        "downloads": 356624
+        "downloads": 356626
       }
     },
-    "downloads": 356624
+    "downloads": 356626
   },
   "webprofusion/soundshed-guitar": {
     "slug": "webprofusion/soundshed-guitar",
@@ -6654,7 +6654,7 @@
             "size": 223339140,
             "sha256": "a6e55064487f624147d515b9ae5fc79a568b69746675b2083abde628ca7bb151",
             "url": "https://github.com/surge-synthesizer/releases-xt/releases/download/1.3.4/surge-xt-linux-x64-1.3.4.deb",
-            "downloads": 34290
+            "downloads": 34291
           },
           {
             "systems": [
@@ -6697,7 +6697,7 @@
             "size": 416715686,
             "sha256": "b56e8d51a8dc2382ae668c9ff4e96bae38dbd452af4e584d5a5ef50ab2d09b07",
             "url": "https://github.com/surge-synthesizer/releases-xt/releases/download/1.3.4/surge-xt-macOS-1.3.4.dmg",
-            "downloads": 147770
+            "downloads": 147772
           },
           {
             "systems": [
@@ -6736,11 +6736,11 @@
             "size": 183385478,
             "sha256": "6e221e05f29254508142b9e0ed76a85f22fa1b512501bebde571951e7eefecca",
             "url": "https://github.com/surge-synthesizer/releases-xt/releases/download/1.3.4/surge-xt-win64-1.3.4-setup.exe",
-            "downloads": 492817
+            "downloads": 492822
           }
         ],
         "verified": true,
-        "downloads": 696538
+        "downloads": 696546
       },
       "1.3.1": {
         "name": "Surge XT",
@@ -6867,7 +6867,7 @@
         "downloads": 84032
       }
     },
-    "downloads": 780570
+    "downloads": 780578
   },
   "surge-synthesizer/ob-xf": {
     "slug": "surge-synthesizer/ob-xf",
@@ -7264,6 +7264,91 @@
       }
     },
     "downloads": 1843
+  },
+  "sugoiaudiotech/blindcard": {
+    "slug": "sugoiaudiotech/blindcard",
+    "version": "1.0.4",
+    "versions": {
+      "1.0.4": {
+        "name": "BlindCard",
+        "author": "Sugoi Audio",
+        "description": "Blind A/B testing plugin with a poker-card themed UI, LUFS auto-level matching, star rating/guess/quiz modes, and support for up to 8 synchronized instances.",
+        "license": "agpl-3.0",
+        "type": "tool",
+        "tags": [
+          "A/B Testing",
+          "Loudness",
+          "Reference"
+        ],
+        "url": "https://github.com/SugoiAudioTech/BlindCard",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sugoiaudiotech/blindcard/blindcard.jpg",
+        "date": "2026-03-20T18:48:50Z",
+        "changes": "Added a master volume knob and crossfade slider in Standalone mode, Spanish language support, background LUFS scanning, multi-instance standalone sessions, and various UI/stability fixes.",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64"
+            ],
+            "contains": [
+              "vst3",
+              "component",
+              "app"
+            ],
+            "type": "installer",
+            "size": 150553075,
+            "sha256": "cf8bff670df0aeeff0f9f4aa9448bf8f88a4188f99baa1ec35e3a7140f4e4ffc",
+            "url": "https://github.com/SugoiAudioTech/BlindCard/releases/download/v1.0.4/BlindCard-1.0.4-AppleSilicon.pkg",
+            "downloads": 9
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "component",
+              "app"
+            ],
+            "type": "installer",
+            "size": 151897525,
+            "sha256": "ec3590124e6f4d6a46b5361c5891af8bb6b6f8d71885468986dc073e9162bbc9",
+            "url": "https://github.com/SugoiAudioTech/BlindCard/releases/download/v1.0.4/BlindCard-1.0.4-Intel.pkg",
+            "downloads": 6
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "installer",
+            "size": 82115690,
+            "sha256": "7f6899ff58f216a7e5a4b947f5c7764a01b424b07b45abd0fe9927d0db25c446",
+            "url": "https://github.com/SugoiAudioTech/BlindCard/releases/download/v1.0.4/BlindCard-1.0.4-Windows-x64-Setup.exe",
+            "downloads": 25
+          }
+        ],
+        "verified": true,
+        "downloads": 40
+      }
+    },
+    "downloads": 40
   },
   "studiorack/avl-percussions": {
     "slug": "studiorack/avl-percussions",
@@ -8952,14 +9037,14 @@
             "size": 10349826,
             "sha256": "83e2825241d4e1c0ab2c44c91c0a9be6a94941a81df0c2fbe05e83b2650470da",
             "url": "https://github.com/Sinuslabs/Reach/releases/download/1.6.6/Reach-Windows.exe",
-            "downloads": 165113
+            "downloads": 165117
           }
         ],
         "verified": true,
-        "downloads": 166888
+        "downloads": 166892
       }
     },
-    "downloads": 166888
+    "downloads": 166892
   },
   "sfztools/sfizz-ui": {
     "slug": "sfztools/sfizz-ui",
@@ -12921,14 +13006,14 @@
             "size": 18226278,
             "sha256": "1e8960fe371365b87cac89dd73bb6e345fdb2a8474418bb7e520adc1fe312142",
             "url": "https://github.com/OTODESK4193/Ambience1.0.1/releases/download/v1.1.0/Ambience1.1.vst3.zip",
-            "downloads": 688
+            "downloads": 689
           }
         ],
         "verified": true,
-        "downloads": 688
+        "downloads": 689
       }
     },
-    "downloads": 688
+    "downloads": 689
   },
   "open-soundfonts/virtual-playing-orchestra": {
     "slug": "open-soundfonts/virtual-playing-orchestra",
@@ -13340,14 +13425,14 @@
             "size": 10650858,
             "sha256": "38bb1edb812bdf7a22116cb71b0e3473662b12064b3d8c8e7a6a56507c9a867d",
             "url": "https://github.com/nikhilunni/demucs-rs/releases/download/v0.3.4/demucs-x86_64-unknown-linux-gnu.tar.gz",
-            "downloads": 134
+            "downloads": 135
           }
         ],
         "verified": true,
-        "downloads": 378
+        "downloads": 379
       }
     },
-    "downloads": 378
+    "downloads": 379
   },
   "navicisco/stonemistress": {
     "slug": "navicisco/stonemistress",
@@ -14784,7 +14869,7 @@
             "size": 24954281,
             "sha256": "e0b854b92a4e51ce5851320fb1a9f91ab1a4309f997de070e175b3e5cab4adaf",
             "url": "https://github.com/michaelwillis/dragonfly-reverb/releases/download/3.2.10/dragonfly-reverb-3.2.10-macos-universal.dmg",
-            "downloads": 13942
+            "downloads": 13943
           },
           {
             "systems": [
@@ -14806,14 +14891,14 @@
             "size": 22447365,
             "sha256": "ca5f35f9dcd9a33f06490d3c92f04061a1a798cb81257d5ca5851bdda0824c66",
             "url": "https://github.com/michaelwillis/dragonfly-reverb/releases/download/3.2.10/dragonfly-reverb-3.2.10-win64.zip",
-            "downloads": 67090
+            "downloads": 67091
           }
         ],
         "verified": true,
-        "downloads": 100546
+        "downloads": 100548
       }
     },
-    "downloads": 100546
+    "downloads": 100548
   },
   "michael02022/basic-harmonica": {
     "slug": "michael02022/basic-harmonica",
@@ -17222,7 +17307,7 @@
             "size": 160719329,
             "sha256": "4c795c3f582d50af70db77270940ebe5e38e5802df4e3a6d33b37731afa320db",
             "url": "https://github.com/leomccormack/SPARTA/releases/download/v1.8.2/Win64_SPARTA_VST_2026_01_25_v1.8.2.exe",
-            "downloads": 2298
+            "downloads": 2300
           },
           {
             "systems": [
@@ -17262,10 +17347,10 @@
           }
         ],
         "verified": true,
-        "downloads": 8612
+        "downloads": 8614
       }
     },
-    "downloads": 8612
+    "downloads": 8614
   },
   "kushview/roboverb": {
     "slug": "kushview/roboverb",
@@ -17975,14 +18060,14 @@
             "size": 9405386,
             "sha256": "640c628b247fa283a40650e84be861808fa5cd58423cefb6455ea44d9880a1f0",
             "url": "https://github.com/kayrockscreenprinting/ultramaster_kr106/releases/download/v2.5.13/KR106-Windows.zip",
-            "downloads": 2105
+            "downloads": 2106
           }
         ],
         "verified": true,
-        "downloads": 4586
+        "downloads": 4587
       }
     },
-    "downloads": 4586
+    "downloads": 4587
   },
   "jurihock/stftpitchshiftplugin": {
     "slug": "jurihock/stftpitchshiftplugin",
@@ -21262,7 +21347,7 @@
             "size": 23276528,
             "sha256": "689715d3ef2737f95aad1d4285d56dba2970145387d359ef8a67b006ac214e60",
             "url": "https://github.com/hyperfocusdsp/niner/releases/download/v1.0.1/niner-macos-arm64.tar.gz",
-            "downloads": 139
+            "downloads": 140
           },
           {
             "systems": [
@@ -21306,10 +21391,10 @@
           }
         ],
         "verified": true,
-        "downloads": 720
+        "downloads": 721
       }
     },
-    "downloads": 720
+    "downloads": 721
   },
   "hqrrr/perceptomap": {
     "slug": "hqrrr/perceptomap",
@@ -26232,7 +26317,7 @@
             "size": 27549300,
             "type": "installer",
             "url": "https://github.com/DamRsn/NeuralNote/releases/download/v1.1.0/NeuralNote_Installer_Mac.pkg",
-            "downloads": 37209
+            "downloads": 37211
           },
           {
             "architectures": [
@@ -26251,14 +26336,14 @@
             "size": 8569710,
             "type": "installer",
             "url": "https://github.com/DamRsn/NeuralNote/releases/download/v1.1.0/NeuralNote_Installer_Windows.exe",
-            "downloads": 126938
+            "downloads": 126942
           }
         ],
         "verified": true,
-        "downloads": 180191
+        "downloads": 180197
       }
     },
-    "downloads": 180191
+    "downloads": 180197
   },
   "damiensellier/ctrlrx": {
     "slug": "damiensellier/ctrlrx",
@@ -27007,14 +27092,14 @@
             "size": 10646528,
             "sha256": "8ba6e91196067244837877d9ca4a8e4a1f5bfad60cf33fa699c8a5b41f1211bf",
             "url": "https://github.com/jatinchowdhury18/AnalogTapeModel/releases/download/v2.11.4/ChowTapeModel-Win-64bit-2.11.4.exe",
-            "downloads": 60148
+            "downloads": 60149
           }
         ],
         "verified": false,
-        "downloads": 104251
+        "downloads": 104252
       }
     },
-    "downloads": 104251
+    "downloads": 104252
   },
   "chowdhury-dsp/chowmultitool": {
     "slug": "chowdhury-dsp/chowmultitool",
@@ -27094,14 +27179,14 @@
             "size": 7437272,
             "sha256": "0ed347e15d244f2a115e0ecbfc219dbca1dd666ec371292d6a8c56f6deaaffbb",
             "url": "https://github.com/Chowdhury-DSP/ChowMultiTool/releases/download/v1.1.0/ChowMultiTool-Win-64bit-1.1.0.exe",
-            "downloads": 18981
+            "downloads": 18982
           }
         ],
         "verified": true,
-        "downloads": 33569
+        "downloads": 33570
       }
     },
-    "downloads": 33569
+    "downloads": 33570
   },
   "chowdhury-dsp/chowmatrix": {
     "slug": "chowdhury-dsp/chowmatrix",
@@ -27448,14 +27533,14 @@
             "size": 26404896,
             "sha256": "a53fb65cedf90f7673e21ac2d12f5b0778f003ae7f2e34e6c4301854a738c36c",
             "url": "https://github.com/Chowdhury-DSP/BYOD/releases/download/v1.3.0/BYOD-Win-64bit-1.3.0.exe",
-            "downloads": 15077
+            "downloads": 15078
           }
         ],
         "verified": true,
-        "downloads": 27957
+        "downloads": 27958
       }
     },
-    "downloads": 27957
+    "downloads": 27958
   },
   "cannerycoders/fluidsynth.clap": {
     "slug": "cannerycoders/fluidsynth.clap",
@@ -29144,7 +29229,7 @@
             "size": 17183630,
             "sha256": "a6505103869d15400e7bed1d988d9dd155d6d8204a3d532f5301966ae7507ad8",
             "url": "https://github.com/asb2m10/dexed/releases/download/v1.0.1/Dexed-1.0.1-macOS.dmg",
-            "downloads": 55084
+            "downloads": 55085
           },
           {
             "systems": [
@@ -29185,7 +29270,7 @@
             "size": 11275100,
             "sha256": "5dc4e072af90ec54aa0197790b40856e7db1659ff924ed107c7536b442d3584b",
             "url": "https://github.com/asb2m10/dexed/releases/download/v1.0.1/Dexed-1.0.1-win.exe",
-            "downloads": 75738
+            "downloads": 75742
           },
           {
             "systems": [
@@ -29209,7 +29294,7 @@
           }
         ],
         "verified": true,
-        "downloads": 139639
+        "downloads": 139644
       },
       "0.9.8": {
         "name": "Dexed",
@@ -29294,7 +29379,7 @@
         "downloads": 194736
       }
     },
-    "downloads": 334375
+    "downloads": 334380
   },
   "artfwo/andes": {
     "slug": "artfwo/andes",
