@@ -1,0 +1,111 @@
+{
+  "name": "InstaWidth",
+  "author": "Ariel Hartung",
+  "description": "Open-source M/S stereo width plugin with 3-band control, monomaker, side tilt, side de-esser, and switchable min/linear phase.",
+  "license": "gpl-3.0",
+  "type": "effect",
+  "tags": [
+    "Stereo Width",
+    "Mid/Side"
+  ],
+  "url": "https://github.com/hariel1985/InstaWidth",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/hariel1985/instawidth/instawidth.jpg",
+  "date": "2026-05-17T05:06:41Z",
+  "changes": "Initial release.",
+  "files": [
+    {
+      "systems": [
+        {
+          "type": "mac"
+        }
+      ],
+      "architectures": [
+        "arm64",
+        "x64"
+      ],
+      "contains": [
+        "component"
+      ],
+      "type": "archive",
+      "size": 8526292,
+      "sha256": "aea53ae37151b0afd0a9a978536413fa095e4f30806274c037cd07d1ab585a36",
+      "url": "https://github.com/hariel1985/InstaWidth/releases/download/v1.0.0/InstaWidth-AU-macOS.zip",
+      "downloads": 22
+    },
+    {
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "lv2"
+      ],
+      "type": "archive",
+      "size": 5118322,
+      "sha256": "95379fb9786eb3cad5d76280a1dafd179e15aabd7773174186b5760f577559d3",
+      "url": "https://github.com/hariel1985/InstaWidth/releases/download/v1.0.0/InstaWidth-LV2-Linux-x64.zip",
+      "downloads": 7
+    },
+    {
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3"
+      ],
+      "type": "archive",
+      "size": 5347166,
+      "sha256": "eef89f2efb14b39d296e17a1576b1aa3bb1266822f8e5dc4a26ddbe3f07a1c8e",
+      "url": "https://github.com/hariel1985/InstaWidth/releases/download/v1.0.0/InstaWidth-VST3-Linux-x64.zip",
+      "downloads": 9
+    },
+    {
+      "systems": [
+        {
+          "type": "mac"
+        }
+      ],
+      "architectures": [
+        "arm64",
+        "x64"
+      ],
+      "contains": [
+        "vst3"
+      ],
+      "type": "archive",
+      "size": 8714081,
+      "sha256": "8db7a5632b6c45eb4a13cc3fcbbdedabd88efd3993688af2daa26075e861cd7d",
+      "url": "https://github.com/hariel1985/InstaWidth/releases/download/v1.0.0/InstaWidth-VST3-macOS.zip",
+      "downloads": 21
+    },
+    {
+      "systems": [
+        {
+          "type": "win"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3"
+      ],
+      "type": "archive",
+      "size": 3717538,
+      "sha256": "3458bb625b24910a0d03c59671b8aa0dc8b8a31961814fcf98c5bf0394ac15a1",
+      "url": "https://github.com/hariel1985/InstaWidth/releases/download/v1.0.0/InstaWidth-VST3-Win64.zip",
+      "downloads": 83
+    }
+  ],
+  "verified": true,
+  "downloads": 142
+}
