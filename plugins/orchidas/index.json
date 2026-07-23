@@ -1,0 +1,47 @@
+{
+  "orchidas/stereowidener": {
+    "slug": "orchidas/stereowidener",
+    "version": "0.0.2",
+    "versions": {
+      "0.0.2": {
+        "name": "StereoWidener",
+        "author": "Orchisama Das",
+        "description": "Stereo widening plugin using decorrelation, with independent width control and a controllable cutoff frequency between lower and higher bands.",
+        "license": "cc0-1.0",
+        "type": "effect",
+        "tags": [
+          "Stereo Width",
+          "Mid/Side"
+        ],
+        "url": "https://github.com/orchidas/StereoWidener",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/orchidas/stereowidener/stereowidener.jpg",
+        "date": "2025-05-10T11:46:40Z",
+        "changes": "Fixed the fading window calculation during transient handling, improving how block switching sounds.",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "component"
+            ],
+            "type": "installer",
+            "size": 11263333,
+            "sha256": "1166e87f1b0034dc762ade5b7fa38379f6a729823d49446df2d67c52e88261fd",
+            "url": "https://github.com/orchidas/StereoWidener/releases/download/0.0.2/StereoWidener_v2.dmg",
+            "downloads": 48
+          }
+        ],
+        "verified": true,
+        "downloads": 48
+      }
+    },
+    "downloads": 48
+  }
+}
