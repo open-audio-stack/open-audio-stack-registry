@@ -37,7 +37,7 @@
             "size": 5066023,
             "type": "archive",
             "url": "https://github.com/tiagolr/time12/releases/download/v1.2.3/time12-linux-v1.2.3.zip",
-            "downloads": 669
+            "downloads": 673
           },
           {
             "architectures": [
@@ -57,7 +57,7 @@
             "size": 12313409,
             "type": "archive",
             "url": "https://github.com/tiagolr/time12/releases/download/v1.2.3/time12-macos-v1.2.3.zip",
-            "downloads": 1678
+            "downloads": 1679
           },
           {
             "systems": [
@@ -76,11 +76,11 @@
             "size": 5539406,
             "sha256": "b5699e49850826a8279e315d51cc8cf92636fc98d5d649bcfadd7ae026982989",
             "url": "https://github.com/tiagolr/time12/releases/download/v1.2.3/time12-win-v1.2.3.zip",
-            "downloads": 3307
+            "downloads": 3308
           }
         ],
         "verified": true,
-        "downloads": 5654
+        "downloads": 5660
       },
       "1.2.2": {
         "name": "TIME-12",
@@ -320,7 +320,7 @@
         "downloads": 3633
       }
     },
-    "downloads": 14052
+    "downloads": 14058
   },
   "tiagolr/tetraop": {
     "slug": "tiagolr/tetraop",
@@ -359,7 +359,7 @@
             "size": 9680499,
             "sha256": "4f304e5ac4275ecfbcc625acfd8dc7a0f6a5ae3553389ecd5af00d27da34b540",
             "url": "https://github.com/tiagolr/tetraop/releases/download/v1.0.3/tetraop-linux-v1.0.3.zip",
-            "downloads": 174
+            "downloads": 181
           },
           {
             "systems": [
@@ -379,7 +379,7 @@
             "size": 14022185,
             "sha256": "63408008a2316d91435473e725be1e5958723873ab111a44eea51f24465b9b94",
             "url": "https://github.com/tiagolr/tetraop/releases/download/v1.0.3/tetraop-macos-v1.0.3.zip",
-            "downloads": 292
+            "downloads": 296
           },
           {
             "systems": [
@@ -397,7 +397,7 @@
             "size": 7143966,
             "sha256": "74353dc437c736b6d27f41ec03180febaa071d0ce68ba8edf7261a0c6031eb45",
             "url": "https://github.com/tiagolr/tetraop/releases/download/v1.0.3/tetraop-win-v1.0.3.zip",
-            "downloads": 487
+            "downloads": 492
           },
           {
             "systems": [
@@ -415,14 +415,14 @@
             "size": 7209321,
             "sha256": "be1f9e0104c35518a468ebed2380bf45aa7ad8d1a89c16f05082e294ca469869",
             "url": "https://github.com/tiagolr/tetraop/releases/download/v1.0.3/tetraop-win64-1.0.3-setup.exe",
-            "downloads": 454
+            "downloads": 460
           }
         ],
         "verified": true,
-        "downloads": 1407
+        "downloads": 1429
       }
     },
-    "downloads": 1407
+    "downloads": 1429
   },
   "tiagolr/sirial": {
     "slug": "tiagolr/sirial",
@@ -460,7 +460,7 @@
             "size": 4959438,
             "sha256": "4937c3c27ba4ffe41a76de4d5020ba4923ac828e6916258916fe329335c4aeff",
             "url": "https://github.com/tiagolr/sirial/releases/download/v1.1.1/sirial-linux-v1.1.1.zip",
-            "downloads": 475
+            "downloads": 478
           },
           {
             "systems": [
@@ -498,14 +498,14 @@
             "size": 2766466,
             "sha256": "6b3f2b96511269ad1f5c3176d999ba3bd30f236fa98ac3dae537df12e3097997",
             "url": "https://github.com/tiagolr/sirial/releases/download/v1.1.1/sirial-win-v1.1.1.zip",
-            "downloads": 2211
+            "downloads": 2213
           }
         ],
         "verified": true,
-        "downloads": 3523
+        "downloads": 3528
       }
     },
-    "downloads": 3523
+    "downloads": 3528
   },
   "tiagolr/ripplerx": {
     "slug": "tiagolr/ripplerx",
@@ -630,7 +630,7 @@
             "size": 7549063,
             "type": "archive",
             "url": "https://github.com/tiagolr/reevr/releases/download/v1.4.0/reevr-linux-v1.4.0.zip",
-            "downloads": 645
+            "downloads": 647
           },
           {
             "architectures": [
@@ -669,11 +669,11 @@
             "size": 7730204,
             "sha256": "d22f2c2421f4d3b52040bad8878ec37c96f1c69413f231f689769833dfffb864",
             "url": "https://github.com/tiagolr/reevr/releases/download/v1.4.0/reevr-win-v1.4.0.zip",
-            "downloads": 1543
+            "downloads": 1545
           }
         ],
         "verified": true,
-        "downloads": 2792
+        "downloads": 2796
       },
       "1.3.2": {
         "name": "REEV-R",
@@ -834,7 +834,7 @@
         "downloads": 5401
       }
     },
-    "downloads": 9355
+    "downloads": 9359
   },
   "tiagolr/qdelay": {
     "slug": "tiagolr/qdelay",
@@ -879,7 +879,7 @@
             "size": 5451971,
             "type": "archive",
             "url": "https://github.com/tiagolr/qdelay/releases/download/v1.1.2/qdelay-linux-v1.1.2.zip",
-            "downloads": 484
+            "downloads": 487
           },
           {
             "architectures": [
@@ -921,7 +921,7 @@
           }
         ],
         "verified": true,
-        "downloads": 2122
+        "downloads": 2125
       },
       "1.1.1": {
         "name": "QDelay",
@@ -1090,7 +1090,7 @@
         "downloads": 744
       }
     },
-    "downloads": 3061
+    "downloads": 3064
   },
   "tiagolr/gate12": {
     "slug": "tiagolr/gate12",
@@ -1129,7 +1129,7 @@
             "size": 5135883,
             "type": "archive",
             "url": "https://github.com/tiagolr/gate12/releases/download/v1.3.3/gate12-linux-v1.3.3.zip",
-            "downloads": 577
+            "downloads": 578
           },
           {
             "architectures": [
@@ -1149,7 +1149,7 @@
             "size": 12505885,
             "type": "archive",
             "url": "https://github.com/tiagolr/gate12/releases/download/v1.3.3/gate12-macos-v1.3.3.zip",
-            "downloads": 693
+            "downloads": 695
           },
           {
             "systems": [
@@ -1168,11 +1168,11 @@
             "size": 6383770,
             "sha256": "93b1056a40a341452804260a165ce9ce0feaad65eedbcf192319910671f54cf5",
             "url": "https://github.com/tiagolr/gate12/releases/download/v1.3.3/gate12-win-v1.3.3.zip",
-            "downloads": 1875
+            "downloads": 1876
           }
         ],
         "verified": true,
-        "downloads": 3145
+        "downloads": 3149
       },
       "1.3.2": {
         "name": "GATE-12",
@@ -1409,7 +1409,7 @@
         "downloads": 3187
       }
     },
-    "downloads": 6466
+    "downloads": 6470
   },
   "tiagolr/filtr": {
     "slug": "tiagolr/filtr",
