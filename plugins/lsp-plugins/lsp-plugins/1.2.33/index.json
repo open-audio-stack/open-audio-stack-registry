@@ -1,0 +1,111 @@
+{
+  "name": "LSP Plugins",
+  "author": "Vladimir Sadovnikov",
+  "description": "A collection of open-source audio effects, synthesizers, and tools designed for music and sound production, primarily on the GNU/Linux platform.",
+  "license": "lgpl-3.0",
+  "type": "effect",
+  "tags": [
+    "Effect",
+    "Multiband",
+    "Modulation",
+    "Utility",
+    "Dynamics",
+    "Gate",
+    "Density",
+    "Phase"
+  ],
+  "url": "https://github.com/lsp-plugins/lsp-plugins",
+  "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/lsp-plugins/lsp-plugins/lsp-plugins.flac",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/lsp-plugins/lsp-plugins/lsp-plugins.jpg",
+  "donate": "https://www.patreon.com/c/sadko4u",
+  "date": "2026-06-13T21:13:44.000Z",
+  "changes": "* Fixed PipeWire driver linkage error.\n",
+  "files": [
+    {
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "architectures": [
+        "arm64"
+      ],
+      "contains": [
+        "vst3",
+        "so",
+        "clap",
+        "lv2"
+      ],
+      "type": "archive",
+      "size": 35433664,
+      "sha256": "c90890f7da46c2851f412faa627dfe2fc919f58b3c9373f586781aa687d80a3a",
+      "url": "https://github.com/lsp-plugins/lsp-plugins/releases/download/1.2.33/lsp-plugins-1.2.33-Linux-aarch64.7z",
+      "downloads": 135
+    },
+    {
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "architectures": [
+        "arm32"
+      ],
+      "contains": [
+        "vst3",
+        "so",
+        "clap",
+        "lv2"
+      ],
+      "type": "archive",
+      "size": 31764655,
+      "sha256": "abb4618a6476938e2036c44c05e729e98d8457a213b62bd6bdcfe30f1bcff98d",
+      "url": "https://github.com/lsp-plugins/lsp-plugins/releases/download/1.2.33/lsp-plugins-1.2.33-Linux-arm32.7z",
+      "downloads": 18
+    },
+    {
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "architectures": [
+        "x32"
+      ],
+      "contains": [
+        "vst3",
+        "so",
+        "clap",
+        "lv2"
+      ],
+      "type": "archive",
+      "size": 32461922,
+      "sha256": "0549682933cf3672dcf3d984277ac0d94d69f88e595d30aa0a571f6a6b70e885",
+      "url": "https://github.com/lsp-plugins/lsp-plugins/releases/download/1.2.33/lsp-plugins-1.2.33-Linux-i586.7z",
+      "downloads": 77
+    },
+    {
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3",
+        "so",
+        "clap",
+        "lv2"
+      ],
+      "type": "archive",
+      "size": 38262669,
+      "sha256": "61dbde3642f320728f0ca4128a6798f1e93bff9c9217791115f6970337132730",
+      "url": "https://github.com/lsp-plugins/lsp-plugins/releases/download/1.2.33/lsp-plugins-1.2.33-Linux-x86_64.7z",
+      "downloads": 2558
+    }
+  ],
+  "verified": true,
+  "downloads": 2788
+}
