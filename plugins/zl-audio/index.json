@@ -37,7 +37,7 @@
             "size": 5555427,
             "sha256": "99ba712300c0164117152a33ddc612e4d40f27b9f3dae5a21af7c12c52497420",
             "url": "https://github.com/ZL-Audio/ZLLMatch/releases/download/v0.2.4/ZLLMatch-0.2.4.dmg",
-            "downloads": 2887
+            "downloads": 2892
           },
           {
             "systems": [
@@ -55,7 +55,7 @@
             "size": 2596186,
             "sha256": "1295d9cd56b5bebe6167b6c2df1cd6bf2b8136bdf4bd76c492fdd5c7bc850a80",
             "url": "https://github.com/ZL-Audio/ZLLMatch/releases/download/v0.2.4/ZLLMatch-0.2.4.exe",
-            "downloads": 3603
+            "downloads": 3608
           },
           {
             "systems": [
@@ -73,14 +73,14 @@
             "size": 12271944,
             "sha256": "c8b5deffe32a137fbd6d0113eba56fec2fa270bf3ff08a715cb16b43e634c6d5",
             "url": "https://github.com/ZL-Audio/ZLLMatch/releases/download/v0.2.4/ZLLMatch-0.2.4.zip",
-            "downloads": 3318
+            "downloads": 3322
           }
         ],
         "verified": true,
-        "downloads": 9808
+        "downloads": 9822
       }
     },
-    "downloads": 9808
+    "downloads": 9822
   },
   "zl-audio/zlequalizer2": {
     "slug": "zl-audio/zlequalizer2",
@@ -157,7 +157,7 @@
             "size": 22915912,
             "type": "installer",
             "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.1.0/ZL.Equalizer.2-1.1.0-macOS-x86.dmg",
-            "downloads": 3768
+            "downloads": 3769
           },
           {
             "architectures": [
@@ -177,7 +177,7 @@
             "size": 15238667,
             "type": "installer",
             "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.1.0/ZL.Equalizer.2-1.1.0-macOS-arm.dmg",
-            "downloads": 6685
+            "downloads": 6686
           },
           {
             "architectures": [
@@ -197,7 +197,7 @@
             "size": 11918930,
             "type": "installer",
             "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.1.0/ZL.Equalizer.2-1.1.0-Windows-x86.exe",
-            "downloads": 22594
+            "downloads": 22596
           },
           {
             "architectures": [
@@ -216,14 +216,14 @@
             "size": 8247800,
             "type": "installer",
             "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.1.0/ZL.Equalizer.2-1.1.0-Windows-arm.exe",
-            "downloads": 4948
+            "downloads": 4950
           }
         ],
         "verified": true,
-        "downloads": 41418
+        "downloads": 41424
       }
     },
-    "downloads": 41418
+    "downloads": 41424
   },
   "zl-audio/zlcompressor": {
     "slug": "zl-audio/zlcompressor",
@@ -282,7 +282,7 @@
             "size": 8628636,
             "sha256": "06db9694bf90f807e505853272484ea3a32043ace8ade2607013c28b96159734",
             "url": "https://github.com/ZL-Audio/ZLCompressor/releases/download/0.5.0/ZL.Compressor-0.5.0-Linux-x86-64-AVX2.zip",
-            "downloads": 222
+            "downloads": 227
           },
           {
             "systems": [
@@ -302,7 +302,7 @@
             "size": 8401909,
             "sha256": "07600e4f95272223c7405b3142778a89c59516e2b4912be281635aac8c793902",
             "url": "https://github.com/ZL-Audio/ZLCompressor/releases/download/0.5.0/ZL.Compressor-0.5.0-Linux-x86-64.zip",
-            "downloads": 335
+            "downloads": 339
           },
           {
             "systems": [
@@ -323,7 +323,7 @@
             "size": 11435709,
             "sha256": "374f400e888b9de93adc145fbae079e4cf46ed8c72eeb9f43326d104134050d8",
             "url": "https://github.com/ZL-Audio/ZLCompressor/releases/download/0.5.0/ZL.Compressor-0.5.0-macOS-arm64.dmg",
-            "downloads": 535
+            "downloads": 541
           },
           {
             "systems": [
@@ -344,7 +344,7 @@
             "size": 12756094,
             "sha256": "509a6086417603ce8f8980ccd71949d34aa685692d1da8997cf16f8bd5660e31",
             "url": "https://github.com/ZL-Audio/ZLCompressor/releases/download/0.5.0/ZL.Compressor-0.5.0-macOS-x86-64.dmg",
-            "downloads": 270
+            "downloads": 271
           },
           {
             "systems": [
@@ -365,7 +365,7 @@
             "size": 7200768,
             "sha256": "e853104638e3249908087b47210408f02496b00b1d2fc694147262fbe000413f",
             "url": "https://github.com/ZL-Audio/ZLCompressor/releases/download/0.5.0/ZL.Compressor-0.5.0-Windows-arm64.msi",
-            "downloads": 232
+            "downloads": 234
           },
           {
             "systems": [
@@ -386,7 +386,7 @@
             "size": 10240000,
             "sha256": "e7bbb4730be6b906b5c03a6a57d21ff9af735c4573b8a6e4d4ef499f4350146a",
             "url": "https://github.com/ZL-Audio/ZLCompressor/releases/download/0.5.0/ZL.Compressor-0.5.0-Windows-x86-64-AVX2.msi",
-            "downloads": 1101
+            "downloads": 1111
           },
           {
             "systems": [
@@ -407,13 +407,13 @@
             "size": 9981952,
             "sha256": "5c573b1f5eedf1bdc005a91fd13caec7ea76f52969904c7a924c445733c34926",
             "url": "https://github.com/ZL-Audio/ZLCompressor/releases/download/0.5.0/ZL.Compressor-0.5.0-Windows-x86-64.msi",
-            "downloads": 1632
+            "downloads": 1639
           }
         ],
         "verified": true,
-        "downloads": 4390
+        "downloads": 4425
       }
     },
-    "downloads": 4390
+    "downloads": 4425
   }
 }
