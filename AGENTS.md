@@ -337,7 +337,13 @@ If a plugin supports AIDA-X (.json / RTNeural), tag it as "AIDA-X".
 If a plugin supports Proteus (GuitarML), tag it as "Proteus".
 
 For synths:
-If a plugin supports audio input for oscillators, tag it as 'Audio Input'.
+If a plugin supports audio input for oscillators, tag it as 'Audio Input'.]
+
+For plugin that are modelling hardware:
+If a plugin is explicitly trying to emulate a physical piece of hardware, tag it with that hardware's name, e.g. "A chorus-effect VST emulating the BOSS CE-2" should be tagged as both "emulation" and "BOSS CE-2".
+
+For plugin that are sampling hardware:
+If a plugin is explicitly sampling a physical piece of hardware, tag it with that hardware's name, e.g. "A VST sampling the Yamaha C5." should be tagged as "Yamaha C5".
 
 For all plugins:
 If the plugin is a successor to another plugin, write that in its description and use the original pluign's name as a tag.
