@@ -112,7 +112,7 @@ Confirm the repository is an audio application, plugin, preset, or project — n
 
 Check these before spending any time on 3d/3e/3f — each one has burned a tracking issue on a repo that was never going to qualify:
 
-- **Archived**: `gh repo view <org>/<repo> --json isArchived --jq '.isArchived'`. An archived repo gets no further releases, ever — treat it the same as failing 3b regardless of what's already in its last release.
+- **Archived**: `gh repo view <org>/<repo> --json isArchived --jq '.isArchived'`. An archived repo gets no further releases, ever — treat it the same as failing 3b regardless of what's already in its last release. However, do check if there are forks that are being maintained, if so, review that repository instead.
 - **Python CLI / research library, not a packaged plugin**: a `pip install`-style tool, a bare inference script, or a library meant to be imported (even one that happens to process audio) isn't a plugin/app/preset/project just because it's audio-related. Look for an actual installable artifact (VST/CLAP/AU/standalone binary), not a `requirements.txt` and a CLI entrypoint.
 - **Orphaned / abandoned**: check the last commit date (`gh repo view <org>/<repo> --json pushedAt`) alongside the README. No commits or releases in a year or more, combined with an explicit "alpha"/"unfinished"/"WIP" self-description, means the gap is very unlikely to close — don't file on the assumption someone is still working on it.
 
