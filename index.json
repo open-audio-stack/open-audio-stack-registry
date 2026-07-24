@@ -1137,8 +1137,191 @@
     },
     "zl-audio/zlequalizer2": {
       "slug": "zl-audio/zlequalizer2",
-      "version": "1.1.0",
+      "version": "1.2.2",
       "versions": {
+        "1.2.2": {
+          "name": "ZL Equalizer 2",
+          "author": "ZL Audio",
+          "description": "Dynamic equalizer plugin.",
+          "license": "agpl-3.0",
+          "type": "effect",
+          "tags": [
+            "Effect",
+            "Equalizer",
+            "Sculptor",
+            "Unmask",
+            "Tonal Balance Control"
+          ],
+          "url": "https://zl-audio.github.io/plugins/zlequalizer2/",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/zl-audio/zlequalizer2/zlequalizer2.jpg",
+          "date": "2026-06-27T11:31:18Z",
+          "changes": "- Add support for filters beyond Nyquist\n- Add All Pass filter type\n- Add EQ match built-in target curves\n- Fix static gain compensation display\n- Fix incorrect loudness matching results\n- Fix potential audio glitches after EQ match\n- Fix potential crash with dynamic Flat Tilt\n",
+          "files": [
+            {
+              "architectures": [
+                "arm64"
+              ],
+              "contains": [
+                "vst3",
+                "lv2",
+                "elf"
+              ],
+              "sha256": "089275f71ef4bbd22559a0c8cc1c07e011e2735b0ab0d200d2eaf37d7db8a580",
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "size": 9230313,
+              "type": "archive",
+              "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.2.2/ZL.Equalizer.2-1.2.2-Linux-arm64.zip",
+              "downloads": 202
+            },
+            {
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "vst3",
+                "lv2",
+                "elf"
+              ],
+              "sha256": "3f8b45276f0e36b7d40ec16506f31e4a705c461f3df6658a3e975e440f5c7525",
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "size": 10034620,
+              "type": "archive",
+              "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.2.2/ZL.Equalizer.2-1.2.2-Linux-x86-64-AVX2.zip",
+              "downloads": 379
+            },
+            {
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "vst3",
+                "lv2",
+                "elf"
+              ],
+              "sha256": "1b617e301d7db9c9625241806b72b3a04e2dd44a96f95bc8bbb0e2c71c42eaf9",
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "size": 9763297,
+              "type": "archive",
+              "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.2.2/ZL.Equalizer.2-1.2.2-Linux-x86-64.zip",
+              "downloads": 356
+            },
+            {
+              "architectures": [
+                "arm64",
+                "x64"
+              ],
+              "contains": [
+                "vst3",
+                "component",
+                "aax",
+                "app"
+              ],
+              "sha256": "76ce53b6ad15fd1057d7e983ebe9fb6ece9de22776a48f2b34760d5c7c85cfba",
+              "systems": [
+                {
+                  "type": "mac"
+                }
+              ],
+              "size": 13378811,
+              "type": "installer",
+              "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.2.2/ZL.Equalizer.2-1.2.2-macOS-arm64.dmg",
+              "downloads": 2038
+            },
+            {
+              "architectures": [
+                "arm64",
+                "x64"
+              ],
+              "contains": [
+                "vst3",
+                "component",
+                "aax",
+                "app"
+              ],
+              "sha256": "017ad9102cc6e4a04f12c9fe14c3b2a6d2d24d8b11c640d3f43b7581c50882ce",
+              "systems": [
+                {
+                  "type": "mac"
+                }
+              ],
+              "size": 14968334,
+              "type": "installer",
+              "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.2.2/ZL.Equalizer.2-1.2.2-macOS-x86-64.dmg",
+              "downloads": 660
+            },
+            {
+              "architectures": [
+                "arm64"
+              ],
+              "contains": [
+                "vst3",
+                "lv2"
+              ],
+              "sha256": "2647571d8e32ce7ca2ae1b13af6c16ed861584f68373ca668edc68d66f52708b",
+              "systems": [
+                {
+                  "type": "win"
+                }
+              ],
+              "size": 8196096,
+              "type": "installer",
+              "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.2.2/ZL.Equalizer.2-1.2.2-Windows-arm64.msi",
+              "downloads": 536
+            },
+            {
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "vst3",
+                "lv2"
+              ],
+              "sha256": "18557242ae369f9521668944934258fb3e707b9c0ff47408ba18aadf5c7c6395",
+              "systems": [
+                {
+                  "type": "win"
+                }
+              ],
+              "size": 11886592,
+              "type": "installer",
+              "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.2.2/ZL.Equalizer.2-1.2.2-Windows-x86-64-AVX2.msi",
+              "downloads": 3121
+            },
+            {
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "vst3",
+                "lv2"
+              ],
+              "sha256": "0d2d3e30ccc022201643b382933802d636197b344642602899ba0b6d9118c359",
+              "systems": [
+                {
+                  "type": "win"
+                }
+              ],
+              "size": 11608064,
+              "type": "installer",
+              "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.2.2/ZL.Equalizer.2-1.2.2-Windows-x86-64.msi",
+              "downloads": 3061
+            }
+          ],
+          "verified": true,
+          "downloads": 10353
+        },
         "1.1.0": {
           "name": "ZL Equalizer 2",
           "author": "ZL Audio",
@@ -1276,7 +1459,7 @@
           "downloads": 41425
         }
       },
-      "downloads": 41425
+      "downloads": 51778
     },
     "zl-audio/zlcompressor": {
       "slug": "zl-audio/zlcompressor",
@@ -18867,14 +19050,14 @@
               "size": 39364144,
               "sha256": "9144ec0b0263931ccad8d91d6ae8634d8a8f64ecd5e365ea1fa6180688580769",
               "url": "https://github.com/kushview/element/releases/download/1.0.0/element-1.0.0-win64.exe",
-              "downloads": 14099
+              "downloads": 14100
             }
           ],
           "verified": true,
-          "downloads": 20185
+          "downloads": 20186
         }
       },
-      "downloads": 20185
+      "downloads": 20186
     },
     "kiriki-liszt/relief-compressor": {
       "slug": "kiriki-liszt/relief-compressor",
@@ -30018,7 +30201,7 @@
               "sha256": "78b5ce34eed61c597b4a10f722e227490a47e3936933516926bcfac1b6e821f6",
               "size": 63176734,
               "url": "https://github.com/baconpaul/six-sines/releases/download/v1.2.0/six-sines-macOS-2026-07-10-9b1b128.dmg",
-              "downloads": 247
+              "downloads": 248
             },
             {
               "systems": [
@@ -30042,7 +30225,7 @@
             }
           ],
           "verified": true,
-          "downloads": 592
+          "downloads": 593
         },
         "1.1.0": {
           "name": "Six Sines",
@@ -30129,7 +30312,7 @@
           "downloads": 3177
         }
       },
-      "downloads": 3769
+      "downloads": 3770
     },
     "azur1s/penare": {
       "slug": "azur1s/penare",
