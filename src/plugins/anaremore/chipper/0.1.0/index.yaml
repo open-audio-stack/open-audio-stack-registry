@@ -1,0 +1,48 @@
+name: Chipper
+author: Austin Naremore
+description: A multi-chip retro synth VST3 emulating classic game and computer sound chips (NES, Game Boy, SID, YM2612, OPL, and more), with register-aware, emulator-backed chip behavior.
+license: agpl-3.0
+type: instrument
+tags:
+  - Chiptune
+  - Emulation
+  - Synthesizer
+url: https://github.com/anaremore/chipper
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/anaremore/chipper/chipper.jpg
+date: '2026-06-26T04:23:08Z'
+changes: |
+  Chipper v0.1.0 VST3 release.
+  - Windows VST3
+  - macOS VST3
+  - Linux VST3
+files:
+  - architectures:
+      - x64
+    contains:
+      - vst3
+    sha256: 5b22cb766dab88409fda5276f15d8d0f2f286b32ec90d0fed80937c2639a6513
+    systems:
+      - type: linux
+    size: 3837041
+    type: archive
+    url: https://github.com/anaremore/chipper/releases/download/v0.1.0/Chipper-v0.1.0-linux-vst3.zip
+  - architectures:
+      - arm64
+    contains:
+      - vst3
+    sha256: d376a2961a6a50a0c047259075a9fcfbdde29197349b62c7ab8e0ca078047288
+    systems:
+      - type: mac
+    size: 2893095
+    type: archive
+    url: https://github.com/anaremore/chipper/releases/download/v0.1.0/Chipper-v0.1.0-macos-vst3.zip
+  - architectures:
+      - x64
+    contains:
+      - vst3
+    sha256: 5fc03f002d873cd149c960bf9da2f4d0a5af5c8401bd558dc5530a2ed336292c
+    systems:
+      - type: win
+    size: 3646614
+    type: archive
+    url: https://github.com/anaremore/chipper/releases/download/v0.1.0/Chipper-v0.1.0-windows-vst3.zip
