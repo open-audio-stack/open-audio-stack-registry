@@ -19052,14 +19052,14 @@
               "size": 39364144,
               "sha256": "9144ec0b0263931ccad8d91d6ae8634d8a8f64ecd5e365ea1fa6180688580769",
               "url": "https://github.com/kushview/element/releases/download/1.0.0/element-1.0.0-win64.exe",
-              "downloads": 14212
+              "downloads": 14213
             }
           ],
           "verified": true,
-          "downloads": 20350
+          "downloads": 20351
         }
       },
-      "downloads": 20350
+      "downloads": 20351
     },
     "kiriki-liszt/relief-compressor": {
       "slug": "kiriki-liszt/relief-compressor",
@@ -33395,6 +33395,70 @@
         }
       },
       "downloads": 654
+    },
+    "allenloves/guitarstrumsequencer": {
+      "slug": "allenloves/guitarstrumsequencer",
+      "version": "1.1.0",
+      "versions": {
+        "1.1.0": {
+          "name": "Guitar Strum Sequencer",
+          "author": "Allen SC Wu",
+          "description": "A 16-step MIDI FX plugin that turns held chords into realistic, string-by-string guitar strumming patterns using a chord voicing engine.",
+          "license": "mit",
+          "type": "generator",
+          "tags": [
+            "Sequencer",
+            "MIDI",
+            "Guitar"
+          ],
+          "url": "https://github.com/allenloves/GuitarStrumSequencer",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/allenloves/guitarstrumsequencer/guitarstrumsequencer.jpg",
+          "date": "2026-02-25T20:59:48Z",
+          "changes": "- Add real-time fretboard chord diagram\n- Add capo bar indicator and open/muted string markers\n- Fix extra strum playing after MIDI region ends\n",
+          "files": [
+            {
+              "systems": [
+                {
+                  "type": "mac"
+                }
+              ],
+              "architectures": [
+                "arm64"
+              ],
+              "contains": [
+                "vst3",
+                "component"
+              ],
+              "type": "archive",
+              "size": 3007803,
+              "sha256": "b951a4246a5c87302ebf60a25177ac1f3192808647f180de06eb68c7619f283c",
+              "url": "https://github.com/allenloves/GuitarStrumSequencer/releases/download/v1.1.0/GuitarStrumSequencer-macOS.zip",
+              "downloads": 6
+            },
+            {
+              "systems": [
+                {
+                  "type": "win"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "vst3"
+              ],
+              "type": "archive",
+              "size": 2349474,
+              "sha256": "ef303d1d34cc6d52c80e9e00ad298cd29de595d6b964a231c3ab613bf11e95fc",
+              "url": "https://github.com/allenloves/GuitarStrumSequencer/releases/download/v1.1.0/GuitarStrumSequencer-Windows.zip",
+              "downloads": 8
+            }
+          ],
+          "verified": true,
+          "downloads": 14
+        }
+      },
+      "downloads": 14
     },
     "ales-tsurko/kotoist": {
       "slug": "ales-tsurko/kotoist",
