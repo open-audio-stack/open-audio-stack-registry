@@ -53,7 +53,7 @@
               "size": 9202795,
               "sha256": "3c4c533bda0c5059eea3ddaea752d757ee2025041f0f47e6bcb0e87f6082b29f",
               "url": "https://github.com/Tracktion/pluginval/releases/download/v1.0.4/pluginval_macOS.zip",
-              "downloads": 55957
+              "downloads": 55959
             },
             {
               "systems": [
@@ -73,10 +73,10 @@
             }
           ],
           "verified": true,
-          "downloads": 159348
+          "downloads": 159350
         }
       },
-      "downloads": 159348
+      "downloads": 159350
     },
     "steinberg/validator": {
       "slug": "steinberg/validator",
@@ -15099,7 +15099,8 @@
           "type": "tool",
           "tags": [
             "Meter",
-            "Loudness"
+            "Loudness",
+            "Levels"
           ],
           "url": "https://github.com/mzuther/K-Meter",
           "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/mzuther/k-meter/k-meter.jpg",
