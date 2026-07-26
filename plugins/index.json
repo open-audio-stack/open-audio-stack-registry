@@ -6880,7 +6880,7 @@
             "size": 416715686,
             "sha256": "b56e8d51a8dc2382ae668c9ff4e96bae38dbd452af4e584d5a5ef50ab2d09b07",
             "url": "https://github.com/surge-synthesizer/releases-xt/releases/download/1.3.4/surge-xt-macOS-1.3.4.dmg",
-            "downloads": 148547
+            "downloads": 148549
           },
           {
             "systems": [
@@ -6923,7 +6923,7 @@
           }
         ],
         "verified": true,
-        "downloads": 699925
+        "downloads": 699927
       },
       "1.3.1": {
         "name": "Surge XT",
@@ -7050,7 +7050,7 @@
         "downloads": 84035
       }
     },
-    "downloads": 783960
+    "downloads": 783962
   },
   "surge-synthesizer/ob-xf": {
     "slug": "surge-synthesizer/ob-xf",
@@ -16620,12 +16620,12 @@
         "tags": [
           "Effect",
           "Multiband",
-          "Modulation",
-          "Utility",
           "Dynamics",
           "Gate",
           "Density",
-          "Phase"
+          "Phase",
+          "De-Esser",
+          "Breath Control"
         ],
         "url": "https://github.com/lsp-plugins/lsp-plugins",
         "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/lsp-plugins/lsp-plugins/lsp-plugins.flac",
