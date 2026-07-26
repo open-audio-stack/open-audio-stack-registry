@@ -1,0 +1,60 @@
+{
+  "slug": "jun-murakami/cubasedrummapeditor",
+  "version": "1.5.0",
+  "versions": {
+    "1.5.0": {
+      "name": "Cubase Drum Map Editor",
+      "author": "Jun Murakami",
+      "description": "A simple drum map editor for Cubase, with CSV import/export and direct import of BFD3 key-map CSV exports.",
+      "license": "mit",
+      "type": "tool",
+      "tags": [
+        "Cubase",
+        "Daw",
+        "Drums"
+      ],
+      "url": "https://github.com/Jun-Murakami/CubaseDrumMapEditor",
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/apps/jun-murakami/cubasedrummapeditor/cubasedrummapeditor.jpg",
+      "date": "2026-06-30T18:18:19Z",
+      "changes": "- Added support for reading CSV files output by BFD3\n",
+      "files": [
+        {
+          "systems": [
+            {
+              "type": "mac"
+            }
+          ],
+          "architectures": [
+            "arm64",
+            "x64"
+          ],
+          "type": "installer",
+          "open": "CubaseDrumMapEditor.app",
+          "size": 88598044,
+          "sha256": "5ef44bbe1fa06db8b37d73d15819972274ef08ec690e83d8d0ef555d92a11a4b",
+          "url": "https://github.com/Jun-Murakami/CubaseDrumMapEditor/releases/download/v1.5/CubaseDrumMapEditor_v1.5_mac.dmg",
+          "downloads": 2
+        },
+        {
+          "systems": [
+            {
+              "type": "win"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "type": "archive",
+          "open": "CubaseDrumMapEditor.exe",
+          "size": 43212697,
+          "sha256": "2ecf439114ea02a74cd8f339ceaaf397b20f48ec17d5b7bcb200c94845c1694d",
+          "url": "https://github.com/Jun-Murakami/CubaseDrumMapEditor/releases/download/v1.5/CubaseDrumMapEditor_v1.5_win.zip",
+          "downloads": 15
+        }
+      ],
+      "verified": true,
+      "downloads": 17
+    }
+  },
+  "downloads": 17
+}

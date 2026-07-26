@@ -55,6 +55,20 @@
       ]
     }
   },
+  "jun-murakami/cubasedrummapeditor": {
+    "1.5.0": {
+      "recs": [
+        {
+          "field": "url",
+          "rec": "requires mounting step, consider .pkg instead"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Linux"
+        }
+      ]
+    }
+  },
   "helio-fm/helio-sequencer": {
     "3.17.0": {
       "recs": [
