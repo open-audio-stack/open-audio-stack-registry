@@ -37,7 +37,7 @@
               "size": 5911681,
               "sha256": "c01c49d8063965c4c2dea8324468336768f5c9139e0b1caebde14c2400b55352",
               "url": "https://github.com/Tracktion/pluginval/releases/download/v1.0.4/pluginval_Linux.zip",
-              "downloads": 14696
+              "downloads": 14698
             },
             {
               "systems": [
@@ -73,10 +73,10 @@
             }
           ],
           "verified": true,
-          "downloads": 159346
+          "downloads": 159348
         }
       },
-      "downloads": 159346
+      "downloads": 159348
     },
     "steinberg/validator": {
       "slug": "steinberg/validator",
@@ -14811,7 +14811,8 @@
           "type": "tool",
           "tags": [
             "Meter",
-            "Loudness"
+            "Loudness",
+            "Levels"
           ],
           "url": "https://github.com/mzuther/traKmeter",
           "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/mzuther/trakmeter/trakmeter.jpg",
