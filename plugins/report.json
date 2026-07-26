@@ -3286,6 +3286,30 @@
     }
   },
   "audioplugins/iempluginsuite": {
+    "1.15.0": {
+      "recs": [
+        {
+          "field": "url",
+          "rec": "should point to GitHub"
+        },
+        {
+          "field": "url",
+          "rec": "should point to GitHub"
+        },
+        {
+          "field": "url",
+          "rec": "should point to GitHub"
+        },
+        {
+          "field": "url",
+          "rec": "should point to GitHub"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Linux"
+        }
+      ]
+    },
     "1.14.1": {
       "recs": [
         {

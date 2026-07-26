@@ -30662,8 +30662,88 @@
     },
     "audioplugins/iempluginsuite": {
       "slug": "audioplugins/iempluginsuite",
-      "version": "1.14.1",
+      "version": "1.15.0",
       "versions": {
+        "1.15.0": {
+          "name": "IEM Plugin Suite",
+          "author": "Institute of Electronic Music and Acoustics",
+          "description": "Collection of ambisonic plug-ins including Compressors, Delays, Reverb, Encoders, Decoders and Visualizers.",
+          "license": "gpl-3.0",
+          "type": "effect",
+          "tags": [
+            "Effect",
+            "Reverb",
+            "Delay",
+            "Surround"
+          ],
+          "url": "https://git.iem.at/audioplugins/IEMPluginSuite",
+          "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/audioplugins/iempluginsuite/iempluginsuite.flac",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/audioplugins/iempluginsuite/iempluginsuite.jpg",
+          "date": "2025-04-10T10:56:49.000Z",
+          "changes": "- Moved to JUCE 8.0.7\n- Added VST3 and AAX support (macOS and Windows)\n- Make more plug-ins resizeable\n- DualDelay: major refactor, sync with DAW BPM, tap button\n- FdnReverb: high-pass filter, bigger FDN sizes, freeze mode\n- SceneRotator: native support for Supperware Head Tracker 1\n",
+          "files": [
+            {
+              "systems": [
+                {
+                  "type": "mac"
+                }
+              ],
+              "architectures": [
+                "arm64",
+                "x64"
+              ],
+              "contains": [
+                "vst",
+                "vst3",
+                "lv2",
+                "aax",
+                "app"
+              ],
+              "type": "installer",
+              "size": 450994338,
+              "sha256": "eec673eedb219e4733b2c888beec4df50343aacf6b2305c5f430e0cb02e90088",
+              "url": "https://users.iem.at/holzmueller/IEM-Audioplugins/IEMPluginSuite/v1.15.0/IEMPluginSuite_v1.15.0.pkg"
+            },
+            {
+              "systems": [
+                {
+                  "type": "win"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "dll",
+                "vst3",
+                "lv2",
+                "aax"
+              ],
+              "type": "installer",
+              "size": 49939801,
+              "sha256": "3673e98b10af32e4ff4f0915b10fc48c5ff822d46d9a26eac89fae3c439b0664",
+              "url": "https://users.iem.at/holzmueller/IEM-Audioplugins/IEMPluginSuite/v1.15.0/IEMPluginSuiteInstaller_v1.15.0_x64.exe"
+            },
+            {
+              "systems": [
+                {
+                  "type": "win"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "exe"
+              ],
+              "type": "archive",
+              "size": 65266109,
+              "sha256": "6918d0fab678281017cd3980d5c1ea75e39649511cac9dac2fdae0ec882871cc",
+              "url": "https://users.iem.at/holzmueller/IEM-Audioplugins/IEMPluginSuite/v1.15.0/IEMPluginSuite_v1.15.0_x64_standalones.zip"
+            }
+          ],
+          "verified": false
+        },
         "1.14.1": {
           "name": "IEM Plugin Suite",
           "author": "Institute of Electronic Music and Acoustics",
