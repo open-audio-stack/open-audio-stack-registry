@@ -27670,7 +27670,8 @@
         "tags": [
           "Effect",
           "Filter",
-          "Tape"
+          "Tape",
+          "Saturation"
         ],
         "url": "https://github.com/jatinchowdhury18/AnalogTapeModel",
         "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/chowdhury-dsp/chowtapemodel/chowtapemodel.flac",
@@ -28024,14 +28025,14 @@
             "size": 5791948,
             "sha256": "d136b3938111a118d64e1dfc01f6b153a8c3ee5641001aed31b42cb033616c82",
             "url": "https://github.com/Chowdhury-DSP/ChowKick/releases/download/v1.2.0/ChowKick-Win-64bit-1.2.0.exe",
-            "downloads": 18416
+            "downloads": 18417
           }
         ],
         "verified": true,
-        "downloads": 33772
+        "downloads": 33773
       }
     },
-    "downloads": 33772
+    "downloads": 33773
   },
   "chowdhury-dsp/chow": {
     "slug": "chowdhury-dsp/chow",
