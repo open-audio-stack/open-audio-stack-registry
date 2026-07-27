@@ -1,0 +1,84 @@
+{
+  "slug": "erosmarcello/the-kiss-of-shame-rev2",
+  "version": "2.0.1",
+  "versions": {
+    "2.0.1": {
+      "name": "The Kiss of Shame Rev2",
+      "author": "Eros Marcello",
+      "description": "Analog tape emulation with two tape voicings, four storage environments, wow/flutter, hiss, and print-through modeling.",
+      "license": "gpl-3.0",
+      "type": "effect",
+      "tags": [
+        "Tape",
+        "Saturation",
+        "Emulation"
+      ],
+      "url": "https://github.com/erosmarcello/The-Kiss-of-Shame-Rev2",
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/erosmarcello/the-kiss-of-shame-rev2/the-kiss-of-shame-rev2.jpg",
+      "date": "2026-06-29T20:54:44Z",
+      "changes": "- Rebuilt the engine from the ground up\n- Restored the original 2014 interface\n- Add four storage environments and Shame EXTREME mode\n- Add two tape voicings (S-111 and A-456), Age, Hiss, Blend, Print Through\n\n### Highlights...\n",
+      "files": [
+        {
+          "systems": [
+            {
+              "type": "linux"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "vst3"
+          ],
+          "type": "archive",
+          "size": 50507494,
+          "sha256": "bb52935bb68241997618b8f98f2245d99a18714852914b3caa45f598ce571528",
+          "url": "https://github.com/erosmarcello/The-Kiss-of-Shame-Rev2/releases/download/v2.0.1/TheKissOfShame-Linux-VST3.zip",
+          "downloads": 10
+        },
+        {
+          "systems": [
+            {
+              "type": "mac"
+            }
+          ],
+          "architectures": [
+            "arm64",
+            "x64"
+          ],
+          "contains": [
+            "vst3",
+            "component",
+            "app"
+          ],
+          "type": "archive",
+          "size": 298956091,
+          "sha256": "83e34af3b01394c2200f5494da81149faaa13e4c0249f761c5f04c266d89246e",
+          "url": "https://github.com/erosmarcello/The-Kiss-of-Shame-Rev2/releases/download/v2.0.1/TheKissOfShame-macOS.zip",
+          "downloads": 9
+        },
+        {
+          "systems": [
+            {
+              "type": "win"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "vst3"
+          ],
+          "type": "archive",
+          "size": 50130899,
+          "sha256": "644920a7e060f860994ef862eba402d14c319b88258b199a1e400782d400eca8",
+          "url": "https://github.com/erosmarcello/The-Kiss-of-Shame-Rev2/releases/download/v2.0.1/TheKissOfShame-Windows-VST3.zip",
+          "downloads": 8
+        }
+      ],
+      "verified": true,
+      "downloads": 27
+    }
+  },
+  "downloads": 27
+}
