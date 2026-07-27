@@ -1704,14 +1704,14 @@
               "size": 9981952,
               "sha256": "5c573b1f5eedf1bdc005a91fd13caec7ea76f52969904c7a924c445733c34926",
               "url": "https://github.com/ZL-Audio/ZLCompressor/releases/download/0.5.0/ZL.Compressor-0.5.0-Windows-x86-64.msi",
-              "downloads": 1688
+              "downloads": 1689
             }
           ],
           "verified": true,
-          "downloads": 4566
+          "downloads": 4567
         }
       },
-      "downloads": 4566
+      "downloads": 4567
     },
     "zhiyualexzhang/multimeter": {
       "slug": "zhiyualexzhang/multimeter",
@@ -15455,6 +15455,71 @@
         }
       },
       "downloads": 4309
+    },
+    "mm-rnd/kiln": {
+      "slug": "mm-rnd/kiln",
+      "version": "0.0.1",
+      "versions": {
+        "0.0.1": {
+          "name": "Kiln",
+          "author": "Martin Morrell",
+          "description": "A multiband linear-phase crossover plugin with per-band compression, limiting, and saturation, summed back together with no phase smearing.",
+          "license": "gpl-3.0",
+          "type": "effect",
+          "tags": [
+            "Multiband",
+            "Compressor",
+            "Saturation"
+          ],
+          "url": "https://github.com/mm-rnd/Kiln",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/mm-rnd/kiln/kiln.jpg",
+          "date": "2026-06-24T18:12:03Z",
+          "changes": "- Initial release\n- Linear-phase crossover with configurable low/mid/high band split points\n",
+          "files": [
+            {
+              "systems": [
+                {
+                  "type": "mac"
+                }
+              ],
+              "architectures": [
+                "arm64",
+                "x64"
+              ],
+              "contains": [
+                "vst3",
+                "component"
+              ],
+              "type": "archive",
+              "size": 7118192,
+              "sha256": "2b63b6d1d21cf8d723e9d53eea4fad4db5302ae6eb0f2cf4df0723cfe6170565",
+              "url": "https://github.com/mm-rnd/Kiln/releases/download/v0.0.1/Kiln_v0_0_1_macOS.zip",
+              "downloads": 1
+            },
+            {
+              "systems": [
+                {
+                  "type": "win"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "vst3"
+              ],
+              "type": "archive",
+              "size": 2596273,
+              "sha256": "623584c663eef4929e7fe5cf0478360fb47800d18497fe04c11d2ee284f29384",
+              "url": "https://github.com/mm-rnd/Kiln/releases/download/v0.0.1/Kiln_v0_0_1_win.vst3.zip",
+              "downloads": 1
+            }
+          ],
+          "verified": true,
+          "downloads": 2
+        }
+      },
+      "downloads": 2
     },
     "mikeoliphant/stompbox": {
       "slug": "mikeoliphant/stompbox",
@@ -30142,14 +30207,14 @@
               "size": 16237789,
               "sha256": "21a706090d0a72511756dfd65d6a3c0711257c94b707679346e04d182dc178a0",
               "url": "https://github.com/Birch-san/juicysfplugin/releases/download/3.1.0/juicysfplugin-3.1.0-win-x64.zip",
-              "downloads": 35383
+              "downloads": 35384
             }
           ],
           "verified": true,
-          "downloads": 41094
+          "downloads": 41095
         }
       },
-      "downloads": 41094
+      "downloads": 41095
     },
     "billydm/vitalium-verb": {
       "slug": "billydm/vitalium-verb",
