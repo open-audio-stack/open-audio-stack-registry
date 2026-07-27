@@ -1,0 +1,35 @@
+name: GxPlugins
+author: Hermann
+description: A set of extra LV2 guitar effect plugins from the Guitarix project (amp/cabinet/pedal simulations).
+license: gpl-3.0
+type: effect
+tags:
+  - Guitar
+  - Amp Sim
+  - Distortion
+url: https://github.com/brummer10/GxPlugins.lv2
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/brummer10/gxplugins.lv2/gxplugins.lv2.jpg
+date: '2023-01-19T09:25:57Z'
+changes: |
+  - Extra set of plugins from the Guitarix project
+files:
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - lv2
+    type: installer
+    size: 4855002
+    sha256: 2e8afb653e4c243dda9b000faa23fd7cfead7c4c37cbe693235d84f42cd354f7
+    url: https://github.com/brummer10/GxPlugins.lv2/releases/download/v1.0/gxplugins_1.0_amd64.deb
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - lv2
+    type: archive
+    size: 18615360
+    sha256: ab9d374106762b830fb2360fc5bc4d3f6859a833e695d66fc224529be4dca7f1
+    url: https://github.com/brummer10/GxPlugins.lv2/releases/download/v1.0/gxplugins_1.0_win64.7z
