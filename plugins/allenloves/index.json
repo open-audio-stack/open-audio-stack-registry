@@ -1,8 +1,69 @@
 {
   "allenloves/guitarstrumsequencer": {
     "slug": "allenloves/guitarstrumsequencer",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "versions": {
+      "1.1.1": {
+        "name": "Guitar Strum Sequencer",
+        "author": "Allen SC Wu",
+        "description": "A 16-step MIDI FX plugin that turns held chords into realistic, string-by-string guitar strumming patterns using a chord voicing engine.",
+        "license": "mit",
+        "type": "effect",
+        "tags": [
+          "Guitar",
+          "MIDI",
+          "Sequencer",
+          "Arpeggiator",
+          "Chord"
+        ],
+        "url": "https://github.com/allenloves/GuitarStrumSequencer",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/allenloves/guitarstrumsequencer/guitarstrumsequencer.jpg",
+        "date": "2026-07-27T09:41:51Z",
+        "changes": "- macOS builds are now universal (arm64 + x86_64); v1.1.0 was arm64-only\n- Standalone app is now included in the macOS archive\n- Added an MIT LICENSE file to the repository\n- Fixed the plugin version reported to hosts, which was stuck at 1.0.0",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "component",
+              "app"
+            ],
+            "type": "archive",
+            "size": 11878407,
+            "sha256": "0b5a3a210fbc34aecccacb7fcbb6ea71fb9c32977e8d09b0485d3fce89f8c9c8",
+            "url": "https://github.com/allenloves/GuitarStrumSequencer/releases/download/v1.1.1/GuitarStrumSequencer-macOS.zip",
+            "downloads": 1
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 2875294,
+            "sha256": "482b2b8c86b25aa30665900e1707eac21e089449f124c66a00664d4008a94a97",
+            "url": "https://github.com/allenloves/GuitarStrumSequencer/releases/download/v1.1.1/GuitarStrumSequencer-Windows.zip",
+            "downloads": 1
+          }
+        ],
+        "verified": true,
+        "downloads": 2
+      },
       "1.1.0": {
         "name": "Guitar Strum Sequencer",
         "author": "Allen SC Wu",
@@ -36,7 +97,7 @@
             "size": 3007803,
             "sha256": "b951a4246a5c87302ebf60a25177ac1f3192808647f180de06eb68c7619f283c",
             "url": "https://github.com/allenloves/GuitarStrumSequencer/releases/download/v1.1.0/GuitarStrumSequencer-macOS.zip",
-            "downloads": 7
+            "downloads": 25
           },
           {
             "systems": [
@@ -54,13 +115,13 @@
             "size": 2349474,
             "sha256": "ef303d1d34cc6d52c80e9e00ad298cd29de595d6b964a231c3ab613bf11e95fc",
             "url": "https://github.com/allenloves/GuitarStrumSequencer/releases/download/v1.1.0/GuitarStrumSequencer-Windows.zip",
-            "downloads": 10
+            "downloads": 30
           }
         ],
         "verified": true,
-        "downloads": 17
+        "downloads": 55
       }
     },
-    "downloads": 17
+    "downloads": 57
   }
 }
