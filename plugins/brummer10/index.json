@@ -368,5 +368,49 @@
       }
     },
     "downloads": 278
+  },
+  "brummer10/harmonicexciter": {
+    "slug": "brummer10/harmonicexciter",
+    "version": "2022.1.2",
+    "versions": {
+      "2022.1.2": {
+        "name": "HarmonicExciter",
+        "author": "Hermann",
+        "description": "Based on a half-wave clipper, adds harmonics to the source signal by mixing them in.",
+        "license": "0bsd",
+        "type": "effect",
+        "tags": [
+          "Exciter",
+          "Saturation"
+        ],
+        "url": "https://github.com/brummer10/HarmonicExciter",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/brummer10/harmonicexciter/harmonicexciter.jpg",
+        "date": "2022-01-02T11:41:39Z",
+        "changes": "- Initial release\n",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "lv2"
+            ],
+            "type": "archive",
+            "size": 291838,
+            "sha256": "674a2b562a02bed94bd6532c5482b9bbe6d1918093bb29b3ffdfec21dbdc53da",
+            "url": "https://github.com/brummer10/HarmonicExciter/releases/download/Latest/Harmonic_Exciter.lv2.zip",
+            "downloads": 283
+          }
+        ],
+        "verified": true,
+        "downloads": 283
+      }
+    },
+    "downloads": 283
   }
 }
