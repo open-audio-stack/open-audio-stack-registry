@@ -35,7 +35,7 @@
             "size": 1552219,
             "sha256": "9a4f50a2c3fa01a128cf4f59b8ffb282170b56d5e401e4d0f2e83aafa7e2ab98",
             "url": "https://github.com/odoare/TeAr/releases/download/v0.3.1/TeAr-AU-macOS-universal.zip",
-            "downloads": 9
+            "downloads": 12
           },
           {
             "systems": [
@@ -53,7 +53,7 @@
             "size": 1553756,
             "sha256": "95a5fa792fe994a40289482e97826a14e6d3255d185ad7aa8096520fe02cee82",
             "url": "https://github.com/odoare/TeAr/releases/download/v0.3.1/TeAr-VST3-macOS-universal.zip",
-            "downloads": 9
+            "downloads": 11
           },
           {
             "systems": [
@@ -71,7 +71,7 @@
             "size": 2268187,
             "sha256": "5b0580b2766e49fce8ec398d6e7f4be2e814bb1f0ccdcf1dd0f3fe992bc99bdf",
             "url": "https://github.com/odoare/TeAr/releases/download/v0.3.1/TeAr-VST3-Linux-arm64.zip",
-            "downloads": 4
+            "downloads": 5
           },
           {
             "systems": [
@@ -89,7 +89,7 @@
             "size": 2213510,
             "sha256": "30ca584096e23f833166c43832a2898da32354a126ca992c0a2fd7b7a79f6b8d",
             "url": "https://github.com/odoare/TeAr/releases/download/v0.3.1/TeAr-VST3-Linux-x86_64.zip",
-            "downloads": 16
+            "downloads": 17
           },
           {
             "systems": [
@@ -107,14 +107,14 @@
             "size": 2602907,
             "sha256": "ca79d0785b61dd8a1f9bfd5762b3eddadc2c4d455ff47330c70fa5e37dc2d8a1",
             "url": "https://github.com/odoare/TeAr/releases/download/v0.3.1/TeAr-VST3-Windows-x86_64.zip",
-            "downloads": 37
+            "downloads": 44
           }
         ],
         "verified": true,
-        "downloads": 75
+        "downloads": 89
       }
     },
-    "downloads": 75
+    "downloads": 89
   },
   "odoare/ambirr2": {
     "slug": "odoare/ambirr2",
@@ -153,7 +153,7 @@
             "size": 5067500,
             "sha256": "9413623f0c7943bc0390d332cd8c7545524de0d6b2b43f3b465adfbd0502a83a",
             "url": "https://github.com/odoare/AmbiRR2/releases/download/v0.1.1/AmbiRR2-Linux-x86_64.zip",
-            "downloads": 33
+            "downloads": 36
           },
           {
             "systems": [
@@ -173,7 +173,7 @@
             "size": 5448745,
             "sha256": "3e5392a92e57d0dd8c59c0788d2c5b4e92d46e7574104398a8465bde4adb2e18",
             "url": "https://github.com/odoare/AmbiRR2/releases/download/v0.1.1/AmbiRR2-macOS-universal.zip",
-            "downloads": 36
+            "downloads": 37
           },
           {
             "systems": [
@@ -211,13 +211,13 @@
             "size": 3900111,
             "sha256": "a29e4272d8aa929ed6136b9e10716c14259690306a31d24fdf34da6b52fba913",
             "url": "https://github.com/odoare/AmbiRR2/releases/download/v0.1.1/AmbiRR2-Windows-x86_64.zip",
-            "downloads": 128
+            "downloads": 138
           }
         ],
         "verified": true,
-        "downloads": 223
+        "downloads": 237
       }
     },
-    "downloads": 223
+    "downloads": 237
   }
 }

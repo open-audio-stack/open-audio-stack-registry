@@ -1,0 +1,135 @@
+{
+  "slug": "brummer10/loopino",
+  "version": "0.9.6",
+  "versions": {
+    "0.9.6": {
+      "name": "Loopino",
+      "author": "Hermann",
+      "description": "A creative sampler with a Key Cache generator, for Linux and Windows.",
+      "license": "bsd-3-clause",
+      "type": "sampler",
+      "tags": [
+        "Sampler",
+        "Live Performance"
+      ],
+      "url": "https://github.com/brummer10/Loopino",
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/brummer10/loopino/loopino.jpg",
+      "date": "2026-02-01T16:56:08Z",
+      "changes": "- Fix drag and drop for the VST2 plugin in Ardour\n- Make Key Cache generator optional\n",
+      "files": [
+        {
+          "systems": [
+            {
+              "type": "linux"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "elf"
+          ],
+          "type": "archive",
+          "size": 709388,
+          "sha256": "1e553d0e9311554a2b9094048c7a1383364646578417c19a6c60dd97c2910fe9",
+          "url": "https://github.com/brummer10/Loopino/releases/download/v0.9.6/Loopino-app-v0.9.6-linux-x86_64.tar.xz",
+          "downloads": 32
+        },
+        {
+          "systems": [
+            {
+              "type": "linux"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "clap"
+          ],
+          "type": "archive",
+          "size": 2366116,
+          "sha256": "bec4a2f1e61ba4c713ae260cb8aee8bd9ab9ba3d20f2ff00edaf487a2ecf5ee8",
+          "url": "https://github.com/brummer10/Loopino/releases/download/v0.9.6/Loopino-clap-v0.9.6-linux-x86_64.tar.xz",
+          "downloads": 55
+        },
+        {
+          "systems": [
+            {
+              "type": "win"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "clap"
+          ],
+          "type": "archive",
+          "size": 3133739,
+          "sha256": "ea109caf07b61702e8b73923769d4985d4499a2d5ef63c92eaf6ff147fe245d0",
+          "url": "https://github.com/brummer10/Loopino/releases/download/v0.9.6/Loopino-clap-v0.9.6-win64.zip",
+          "downloads": 41
+        },
+        {
+          "systems": [
+            {
+              "type": "linux"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "so"
+          ],
+          "type": "archive",
+          "size": 2361316,
+          "sha256": "b777024ad9578ccd5b3f750d6367045593f4919cec496dfff49b4766a8b14b53",
+          "url": "https://github.com/brummer10/Loopino/releases/download/v0.9.6/Loopino-vst2-v0.9.6-linux-x86_64.tar.xz",
+          "downloads": 47
+        },
+        {
+          "systems": [
+            {
+              "type": "win"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "dll"
+          ],
+          "type": "archive",
+          "size": 3199637,
+          "sha256": "b615c7250e855d379c3a3c6f8640fd04599d9d4b0d8a74af73efd2162fd1dde8",
+          "url": "https://github.com/brummer10/Loopino/releases/download/v0.9.6/Loopino-vst2-v0.9.6-win64.zip",
+          "downloads": 57
+        },
+        {
+          "systems": [
+            {
+              "type": "linux"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "so",
+            "clap"
+          ],
+          "type": "installer",
+          "size": 5204472,
+          "sha256": "f895d1b38d592a7a64db9870607765f532286363c746cb6256f1289f51808611",
+          "url": "https://github.com/brummer10/Loopino/releases/download/v0.9.6/Loopino-x86_64-v0.9.6.AppImage",
+          "downloads": 46
+        }
+      ],
+      "verified": true,
+      "downloads": 278
+    }
+  },
+  "downloads": 278
+}
