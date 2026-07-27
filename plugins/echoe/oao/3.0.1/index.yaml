@@ -1,0 +1,33 @@
+name: OAO
+author: Iris
+description: Oops! All Operators! A twelve-operator FM/phase-modulation synthesizer with comb and granular filters.
+license: mit
+type: instrument
+tags:
+  - Synthesizer
+  - FM Synthesis
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/echoe/oao/oao.jpg
+url: https://github.com/echoe/oao
+date: '2026-07-22T23:45:15Z'
+changes: Fixing a load bug connected to the change in FM parameter settings.
+files:
+  - systems:
+      - type: mac
+    architectures:
+      - arm64
+    contains:
+      - vst3
+    type: archive
+    size: 3789852
+    sha256: dd1fb19b38cd9e38e34bd9c8df2d65638e5bf64a35de56291bdea839acf27f4d
+    url: https://github.com/echoe/oao/releases/download/v3.0.1/OAO_Mac.vst3.zip
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - vst3
+    type: archive
+    size: 2172533
+    sha256: 1889c34b037053827711f90d40120193d09beb3fc78a213857573e35db44ae63
+    url: https://github.com/echoe/oao/releases/download/v3.0.1/OAO_Win.vst3.zip
