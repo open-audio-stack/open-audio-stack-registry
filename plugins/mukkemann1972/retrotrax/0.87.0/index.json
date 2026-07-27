@@ -1,0 +1,82 @@
+{
+  "name": "RetroTrax",
+  "author": "Mukkemann1972",
+  "description": "A tracker plugin and standalone app in the spirit of ProTracker, FastTracker II, and OctaMED, with Amiga sample sound and C64 SID chip emulation.",
+  "license": "gpl-3.0",
+  "type": "instrument",
+  "tags": [
+    "Amiga",
+    "Chiptune",
+    "Demoscene",
+    "Tracker",
+    "Sid"
+  ],
+  "url": "https://github.com/Mukkemann1972/retrotrax",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/mukkemann1972/retrotrax/retrotrax.jpg",
+  "date": "2026-07-20T16:39:59Z",
+  "changes": "v0.87.0 release.",
+  "files": [
+    {
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3",
+        "clap",
+        "elf"
+      ],
+      "type": "archive",
+      "size": 18325720,
+      "sha256": "68d8822c818e5c7a962cf6acdebb5a336883557f4db61b20a8c6d9a3a9a54960",
+      "url": "https://github.com/Mukkemann1972/retrotrax/releases/download/v0.87.0/RetroTrax-Linux-0.87.0.zip",
+      "downloads": 2
+    },
+    {
+      "systems": [
+        {
+          "type": "mac"
+        }
+      ],
+      "architectures": [
+        "arm64"
+      ],
+      "contains": [
+        "vst3",
+        "clap",
+        "app"
+      ],
+      "type": "archive",
+      "size": 14696103,
+      "sha256": "8b10f66e4b6a179b1a922dba8b89c4175ae02730e7284878aa4e28bdb3b60800",
+      "url": "https://github.com/Mukkemann1972/retrotrax/releases/download/v0.87.0/RetroTrax-macOS-0.87.0.zip",
+      "downloads": 2
+    },
+    {
+      "systems": [
+        {
+          "type": "win"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3",
+        "clap",
+        "exe"
+      ],
+      "type": "archive",
+      "size": 13921114,
+      "sha256": "a60e7b7656f97db7a69ab720bbf7da2bfdf35133eb9ee8c33d3d32350fc1676d",
+      "url": "https://github.com/Mukkemann1972/retrotrax/releases/download/v0.87.0/RetroTrax-Windows-0.87.0.zip",
+      "downloads": 3
+    }
+  ],
+  "verified": true,
+  "downloads": 7
+}

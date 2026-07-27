@@ -7852,7 +7852,7 @@
               "size": 416715686,
               "sha256": "b56e8d51a8dc2382ae668c9ff4e96bae38dbd452af4e584d5a5ef50ab2d09b07",
               "url": "https://github.com/surge-synthesizer/releases-xt/releases/download/1.3.4/surge-xt-macOS-1.3.4.dmg",
-              "downloads": 148921
+              "downloads": 148922
             },
             {
               "systems": [
@@ -7895,7 +7895,7 @@
             }
           ],
           "verified": true,
-          "downloads": 701254
+          "downloads": 701255
         },
         "1.3.1": {
           "name": "Surge XT",
@@ -8022,7 +8022,7 @@
           "downloads": 84037
         }
       },
-      "downloads": 785291
+      "downloads": 785292
     },
     "surge-synthesizer/ob-xf": {
       "slug": "surge-synthesizer/ob-xf",
@@ -15293,6 +15293,95 @@
         }
       },
       "downloads": 12258
+    },
+    "mukkemann1972/retrotrax": {
+      "slug": "mukkemann1972/retrotrax",
+      "version": "0.87.0",
+      "versions": {
+        "0.87.0": {
+          "name": "RetroTrax",
+          "author": "Mukkemann1972",
+          "description": "A tracker plugin and standalone app in the spirit of ProTracker, FastTracker II, and OctaMED, with Amiga sample sound and C64 SID chip emulation.",
+          "license": "gpl-3.0",
+          "type": "instrument",
+          "tags": [
+            "Amiga",
+            "Chiptune",
+            "Demoscene",
+            "Tracker",
+            "Sid"
+          ],
+          "url": "https://github.com/Mukkemann1972/retrotrax",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/mukkemann1972/retrotrax/retrotrax.jpg",
+          "date": "2026-07-20T16:39:59Z",
+          "changes": "v0.87.0 release.",
+          "files": [
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "vst3",
+                "clap",
+                "elf"
+              ],
+              "type": "archive",
+              "size": 18325720,
+              "sha256": "68d8822c818e5c7a962cf6acdebb5a336883557f4db61b20a8c6d9a3a9a54960",
+              "url": "https://github.com/Mukkemann1972/retrotrax/releases/download/v0.87.0/RetroTrax-Linux-0.87.0.zip",
+              "downloads": 2
+            },
+            {
+              "systems": [
+                {
+                  "type": "mac"
+                }
+              ],
+              "architectures": [
+                "arm64"
+              ],
+              "contains": [
+                "vst3",
+                "clap",
+                "app"
+              ],
+              "type": "archive",
+              "size": 14696103,
+              "sha256": "8b10f66e4b6a179b1a922dba8b89c4175ae02730e7284878aa4e28bdb3b60800",
+              "url": "https://github.com/Mukkemann1972/retrotrax/releases/download/v0.87.0/RetroTrax-macOS-0.87.0.zip",
+              "downloads": 2
+            },
+            {
+              "systems": [
+                {
+                  "type": "win"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "vst3",
+                "clap",
+                "exe"
+              ],
+              "type": "archive",
+              "size": 13921114,
+              "sha256": "a60e7b7656f97db7a69ab720bbf7da2bfdf35133eb9ee8c33d3d32350fc1676d",
+              "url": "https://github.com/Mukkemann1972/retrotrax/releases/download/v0.87.0/RetroTrax-Windows-0.87.0.zip",
+              "downloads": 3
+            }
+          ],
+          "verified": true,
+          "downloads": 7
+        }
+      },
+      "downloads": 7
     },
     "mtytel/helm": {
       "slug": "mtytel/helm",
