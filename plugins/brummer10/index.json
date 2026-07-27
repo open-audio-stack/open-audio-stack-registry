@@ -1,4 +1,49 @@
 {
+  "brummer10/rumor": {
+    "slug": "brummer10/rumor",
+    "version": "2022.1.14",
+    "versions": {
+      "2022.1.14": {
+        "name": "Rumor",
+        "author": "Hermann",
+        "description": "A pure, nasty growling bass fuzz pedal, with bold out-front presence and cutting articulation.",
+        "license": "0bsd",
+        "type": "effect",
+        "tags": [
+          "Fuzz",
+          "Distortion",
+          "Bass"
+        ],
+        "url": "https://github.com/brummer10/Rumor",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/brummer10/rumor/rumor.jpg",
+        "date": "2022-01-14T07:15:48Z",
+        "changes": "- Initial release\n",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "lv2"
+            ],
+            "type": "archive",
+            "size": 874055,
+            "sha256": "b65f62e55f239f2c68da78aff7d352d961eeed1c4f2a82c278cc0e457a8f4eb1",
+            "url": "https://github.com/brummer10/Rumor/releases/download/Latest/Rumor.lv2.zip",
+            "downloads": 144
+          }
+        ],
+        "verified": true,
+        "downloads": 144
+      }
+    },
+    "downloads": 144
+  },
   "brummer10/neuralrack": {
     "slug": "brummer10/neuralrack",
     "version": "0.3.3",
