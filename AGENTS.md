@@ -139,6 +139,24 @@ If check finds a match that is the same version code, **stop**. If the match is 
 https://open-audio-stack.github.io/open-audio-stack-registry/<type>/<org-name>/<package-name>
 ```
 
+**This only checks already-merged entries — it says nothing about an open, unmerged PR already adding the same package from a different source list or an earlier run.** Always also check open PRs before generating any files:
+
+```bash
+gh pr list --repo open-audio-stack/open-audio-stack-registry --search "<repo-or-plugin-name>" --state all
+```
+
+Do this per-package, not once at the start of a batch — a name collision found this way (two unrelated source lists both containing the same upstream repo) isn't something the directory/grep check above will ever catch.
+
+**Fork of an existing/abandoned repo is not automatically a duplicate.** If the candidate repo is a fork (`gh repo view <org>/<repo> --json isFork,parent --jq '{isFork, parent: .parent.nameWithOwner}'`), check whether it has actually diverged before assuming it's redundant with its parent or with an already-registered entry for the parent:
+
+```bash
+gh api repos/<fork-org>/<fork-repo>/compare/<parent-org>:<branch>...<fork-org>:<branch> --jq '{ahead: .ahead_by, behind: .behind_by}'
+```
+
+A fork with its own commits ahead of a dormant/unmaintained parent (0 behind, N ahead, and its own releases the parent never had) is a legitimate active continuation, not a copy — note the lineage in the PR description for the human reviewer rather than skipping it. A fork with 0 ahead, or one that exists solely to feed a bundler (see 3f), is not.
+
+**One repo can bundle several genuinely distinct, independently-released plugins.** Check the release tags before assuming a repo maps to a single registry package — if they're prefixed differently per component (`shear-v1.2.0`, `tilt-v1.0.0`, ...) rather than all sharing one name, the README's own plugin list is the source of truth for what's actually in the repo, and each one needs its own `dev:fetch` run (with the tag specified), its own branch, and its own PR — never combine them into one entry named after the repo.
+
 **3d. Free open-source license**
 
 ```bash
@@ -152,6 +170,12 @@ The license must be a recognised open-source license (MIT, GPL, Apache, LGPL, AG
 ```bash
 gh api repos/<org>/<repo>/contents --jq '.[].name' | grep -i licen
 gh api repos/<org>/<repo>/contents/REUSE.toml --jq '.content' | base64 -d   # if a LICENSES/ folder exists
+```
+
+`license.key` also comes back as the literal string `other` (not null) fairly often — GitHub's classifier is similarity-based and misses non-canonical wording (e.g. a short "licensed under GPLv3" copyright header instead of the full FSF boilerplate) even when a real, unambiguous open-source license is right there in the file. The fetch script (see below) now handles this automatically: when the API reports empty/`other`, it fetches the actual `LICENSE` file's text and pattern-matches it, flagging the result in the "Fields requiring review" section for you to confirm rather than silently trusting either the API's `other` or its own guess. If you're checking by hand instead, don't stop at `license.key: "other"` — read the actual file:
+
+```bash
+gh api repos/<org>/<repo>/license --jq '.content' | base64 -d | head -20
 ```
 
 **3e. Has releases with binary builds**
@@ -228,7 +252,7 @@ The script automatically:
 
 - Derives `org-name` and `package-name` from the GitHub URL in kebab-case
 - Fetches repo metadata: name, description, license, topics/tags
-- Finds and downloads a preview image from the README, converting it to JPEG (max 1000px, 70% quality)
+- Finds a preview image (README first, then a full repo-tree scan if the README has none), preferring an actual screenshot over a logo/banner/video-thumbnail, and downloads it as JPEG (max 1000px), compositing transparent sources onto a neutral background first
 - Finds and downloads a demo audio file from the README, converting it to a 10-second FLAC clip
 - Fetches the latest (or specified) release assets with sizes and SHA256 hashes
 - Infers systems, architectures, and plugin formats from asset filenames and README text
@@ -261,7 +285,7 @@ The script is deterministic — it reads only what GitHub's API and the README p
 
 **`audio`** — only populated if the README contains a direct link to an audio file. Most READMEs do not. If no audio is found, source a demo clip manually, convert to FLAC (`ffmpeg -i input -t 10 -c:a flac output.flac`), and place it at `src/plugins/org-name/package-name/package-name.flac`.
 
-**`image`** — downloaded from the first non-badge image found in the README. External images hosted on third-party sites may block downloads (HTTP 403). If the image is missing, look for one in this order: repo README → repo's `resources`/`assets`/`images`/`docs` folders (an app icon or logo is an acceptable fallback if there's no dedicated screenshot) → the plugin's own website if one is linked. Convert it with: `ffmpeg -i input.png -vf "scale='min(1000,iw)':-1" -q:v 10 output.jpg`. If the source image is transparent (common for logos), composite it onto a solid background first or the plugin will render as a blank white square: `ffmpeg -f lavfi -i "color=c=black:s=WxH" -i logo.png -filter_complex "[0:v][1:v]overlay=(W-w)/2:(H-h)/2:format=auto" -frames:v 1 output.jpg`.
+**`image`** — the fetch script first scans the README for a non-badge image (excluding CI badges, sponsor buttons, and demo-video thumbnails), preferring one whose filename/path looks like an actual screenshot (contains "screenshot", "preview", "ui", etc.) over the first match — a "watch the demo" video thumbnail earlier in the README no longer wins by default just for appearing first. If the README has no image at all, it scans the whole repo tree in one call (not a fixed list of directory names) and applies the same screenshot-hint preference, so nested/unconventional locations (`Source/Assets/Screenshot.jpg`, `ScreenShots/`, a bare root-level file) are found automatically. Transparent source images (common for a logo used as a fallback when there's no dedicated screenshot) are composited onto a neutral mid-grey background automatically before converting to JPEG — safe for fully opaque images too, since the background is completely covered either way. External images hosted on third-party sites may still block downloads (HTTP 403); if so, or if you want a different image than what was auto-picked, download and convert manually: `ffmpeg -i input.png -vf "scale='min(1000,iw)':-1" -q:v 10 output.jpg` (add the grey-background composite from `downloadAndConvertImage` in `src/fetch.ts` if the source has transparency).
 
 `image` is a **required** field — the validate script will throw and abort if it's missing, not just warn. If, after checking all of the above, no image exists anywhere (no screenshot, no icon, no logo, and the plugin genuinely has no UI to capture), the package cannot be added by automated fetch. Report it to the user as failed with the reason, the same as a licensing or binary-availability failure — don't fabricate a placeholder image. File/update an upstream tracking issue per [3f](#3f-filing-upstream-tracking-issues-for-failures) / [issue-template.md](issue-template.md).
 
@@ -396,6 +420,8 @@ gh release download v1.0.2 --repo wolf-plugins/wolf-shaper --pattern "filename.z
 shasum -a 256 /tmp/filename.zip
 wc -c < /tmp/filename.zip
 ```
+
+**Always take `size` from the downloaded archive's own bytes (`wc -c`/`ls -la` above, or the GitHub API's `assets[].size`) — never from a number glimpsed inside an archive listing.** If you're inspecting a zip's contents by hand (e.g. `unzip -l` to figure out the platform because fetch reported "no system/platform recognized"), it prints the _uncompressed_ length of each entry — easy to mistake for the zip's own size, and `npm run dev:validate` will fail with a size mismatch if you do. The zip file itself, not anything inside it, is what gets hashed and measured.
 
 For reference on all allowed file fields and format values:
 
