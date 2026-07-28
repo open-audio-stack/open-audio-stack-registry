@@ -9309,14 +9309,14 @@
             "size": 10349826,
             "sha256": "83e2825241d4e1c0ab2c44c91c0a9be6a94941a81df0c2fbe05e83b2650470da",
             "url": "https://github.com/Sinuslabs/Reach/releases/download/1.6.6/Reach-Windows.exe",
-            "downloads": 167542
+            "downloads": 167545
           }
         ],
         "verified": true,
-        "downloads": 169329
+        "downloads": 169332
       }
     },
-    "downloads": 169329
+    "downloads": 169332
   },
   "sfztools/sfizz-ui": {
     "slug": "sfztools/sfizz-ui",
@@ -13335,6 +13335,52 @@
       }
     },
     "downloads": 239
+  },
+  "otodesk4193/chordmatrix": {
+    "slug": "otodesk4193/chordmatrix",
+    "version": "1.0.0",
+    "versions": {
+      "1.0.0": {
+        "name": "ChordMatrix",
+        "author": "OTODESK",
+        "description": "MIDI chord sequencer combining music theory with algorithmic assistance — lookahead voice leading, smooth fingering, and context-aware modulation suggestions",
+        "license": "agpl-3.0",
+        "type": "instrument",
+        "tags": [
+          "Chord Sequencer",
+          "MIDI",
+          "Music Theory",
+          "Voicing"
+        ],
+        "url": "https://github.com/OTODESK4193/ChordMatrix",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/otodesk4193/chordmatrix/chordmatrix.jpg",
+        "date": "2026-05-16T05:17:19Z",
+        "changes": "v1.0.0 release.",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 17367407,
+            "sha256": "ea742fe4ac25833f75b09620b1dbcc4c8be3c5a73d8416d91ced535d79cf8f0a",
+            "url": "https://github.com/OTODESK4193/ChordMatrix/releases/download/V1.0.0/ChordMatrix.vst3.zip",
+            "downloads": 249
+          }
+        ],
+        "verified": true,
+        "downloads": 249
+      }
+    },
+    "downloads": 249
   },
   "otodesk4193/anatomy": {
     "slug": "otodesk4193/anatomy",
