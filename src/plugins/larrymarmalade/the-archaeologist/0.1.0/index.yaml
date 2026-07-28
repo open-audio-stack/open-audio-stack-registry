@@ -1,0 +1,43 @@
+name: The Archaeologist
+author: larrymarmalade
+description: Generative resampler / memory instrument — listens to your playing, archives it, and re-excavates fragments as degraded, transformed memory objects
+license: gpl-3.0
+type: instrument
+tags:
+  - Ambient
+  - Generative Music
+  - Sampler
+  - Granular
+url: https://github.com/larrymarmalade/the-archaeologist
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/larrymarmalade/the-archaeologist/the-archaeologist.jpg
+date: '2026-06-01T04:56:13Z'
+changes: v0.1.0 release. Archives your playing and re-excavates fragments as degraded, transformed memory objects across five behaviour modes.
+files:
+  - systems:
+      - type: mac
+        min: 10.15
+    architectures:
+      - arm64
+      - x64
+    contains:
+      - vst3
+      - component
+      - app
+    type: installer
+    size: 11920721
+    sha256: 46020ff2d60a48f9ab16ac4a5b8e8f2d6eb669e37fbfc8cf58b9347e6bf4cb8a
+    url: https://github.com/larrymarmalade/the-archaeologist/releases/download/v0.1.0/TheArchaeologist-v0.1.0-macOS-universal.dmg
+  - systems:
+      - type: mac
+        min: 10.15
+    architectures:
+      - arm64
+      - x64
+    contains:
+      - vst3
+      - component
+      - app
+    type: archive
+    size: 10890305
+    sha256: cfc72eee559798ba053a9cf09746934e4c211d0e178efed59332537b73481d3d
+    url: https://github.com/larrymarmalade/the-archaeologist/releases/download/v0.1.0/TheArchaeologist-v0.1.0-macOS-universal.zip
