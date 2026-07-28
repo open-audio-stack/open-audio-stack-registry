@@ -406,11 +406,11 @@
             "size": 11608064,
             "type": "installer",
             "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.2.2/ZL.Equalizer.2-1.2.2-Windows-x86-64.msi",
-            "downloads": 3460
+            "downloads": 3461
           }
         ],
         "verified": true,
-        "downloads": 11609
+        "downloads": 11610
       },
       "1.1.0": {
         "name": "ZL Equalizer 2",
@@ -549,7 +549,7 @@
         "downloads": 41448
       }
     },
-    "downloads": 53057
+    "downloads": 53058
   },
   "zl-audio/zlcompressor": {
     "slug": "zl-audio/zlcompressor",
@@ -5015,7 +5015,7 @@
             "size": 7143966,
             "sha256": "74353dc437c736b6d27f41ec03180febaa071d0ce68ba8edf7261a0c6031eb45",
             "url": "https://github.com/tiagolr/tetraop/releases/download/v1.0.3/tetraop-win-v1.0.3.zip",
-            "downloads": 893
+            "downloads": 894
           },
           {
             "systems": [
@@ -5037,10 +5037,10 @@
           }
         ],
         "verified": true,
-        "downloads": 2675
+        "downloads": 2676
       }
     },
-    "downloads": 2675
+    "downloads": 2676
   },
   "tiagolr/sirial": {
     "slug": "tiagolr/sirial",
@@ -9309,14 +9309,14 @@
             "size": 10349826,
             "sha256": "83e2825241d4e1c0ab2c44c91c0a9be6a94941a81df0c2fbe05e83b2650470da",
             "url": "https://github.com/Sinuslabs/Reach/releases/download/1.6.6/Reach-Windows.exe",
-            "downloads": 167545
+            "downloads": 167549
           }
         ],
         "verified": true,
-        "downloads": 169332
+        "downloads": 169336
       }
     },
-    "downloads": 169332
+    "downloads": 169336
   },
   "sfztools/sfizz-ui": {
     "slug": "sfztools/sfizz-ui",
@@ -23377,6 +23377,69 @@
     },
     "downloads": 40
   },
+  "hergezod/termenflux": {
+    "slug": "hergezod/termenflux",
+    "version": "0.1.0",
+    "versions": {
+      "0.1.0": {
+        "name": "TermenFlux",
+        "author": "hergezod",
+        "description": "Theremin instrument plugin with animated pitch-hand visualization",
+        "license": "gpl-3.0",
+        "type": "instrument",
+        "tags": [
+          "Theremin",
+          "Animation",
+          "Portamento"
+        ],
+        "url": "https://github.com/hergezod/TermenFlux",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/hergezod/termenflux/termenflux.jpg",
+        "date": "2026-05-21T20:59:34Z",
+        "changes": "First release of TermenFlux.\r\nImproved pitch hand animation.\r\nFix portamento-to-note behavior after silence.",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "lv2"
+            ],
+            "type": "archive",
+            "size": 2186521,
+            "sha256": "04505d49dfcf86a51425f4aafcd9c64683a50f3bc8c11051c48b5dc59368a2a8",
+            "url": "https://github.com/hergezod/TermenFlux/releases/download/v0.1/TermenFlux_v0.1_x86_64_lv2.zip",
+            "downloads": 49
+          },
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 2294232,
+            "sha256": "3f954aa2ac05e121e33eba675b4b1996574b82322afc59355d93309dd5810dc7",
+            "url": "https://github.com/hergezod/TermenFlux/releases/download/v0.1/TermenFlux_v0.1_x86_64_vst3.zip",
+            "downloads": 42
+          }
+        ],
+        "verified": true,
+        "downloads": 91
+      }
+    },
+    "downloads": 91
+  },
   "hariel1985/instawidth": {
     "slug": "hariel1985/instawidth",
     "version": "1.0.0",
@@ -28414,14 +28477,14 @@
             "size": 8569710,
             "type": "installer",
             "url": "https://github.com/DamRsn/NeuralNote/releases/download/v1.1.0/NeuralNote_Installer_Windows.exe",
-            "downloads": 128153
+            "downloads": 128156
           }
         ],
         "verified": true,
-        "downloads": 181929
+        "downloads": 181932
       }
     },
-    "downloads": 181929
+    "downloads": 181932
   },
   "damiensellier/ctrlrx": {
     "slug": "damiensellier/ctrlrx",
@@ -29398,14 +29461,14 @@
             "size": 7437272,
             "sha256": "0ed347e15d244f2a115e0ecbfc219dbca1dd666ec371292d6a8c56f6deaaffbb",
             "url": "https://github.com/Chowdhury-DSP/ChowMultiTool/releases/download/v1.1.0/ChowMultiTool-Win-64bit-1.1.0.exe",
-            "downloads": 19122
+            "downloads": 19123
           }
         ],
         "verified": true,
-        "downloads": 33793
+        "downloads": 33794
       }
     },
-    "downloads": 33793
+    "downloads": 33794
   },
   "chowdhury-dsp/chowmatrix": {
     "slug": "chowdhury-dsp/chowmatrix",
@@ -29596,14 +29659,14 @@
             "size": 5791948,
             "sha256": "d136b3938111a118d64e1dfc01f6b153a8c3ee5641001aed31b42cb033616c82",
             "url": "https://github.com/Chowdhury-DSP/ChowKick/releases/download/v1.2.0/ChowKick-Win-64bit-1.2.0.exe",
-            "downloads": 18468
+            "downloads": 18469
           }
         ],
         "verified": true,
-        "downloads": 33843
+        "downloads": 33844
       }
     },
-    "downloads": 33843
+    "downloads": 33844
   },
   "chowdhury-dsp/chow": {
     "slug": "chowdhury-dsp/chow",
@@ -29752,14 +29815,14 @@
             "size": 26404896,
             "sha256": "a53fb65cedf90f7673e21ac2d12f5b0778f003ae7f2e34e6c4301854a738c36c",
             "url": "https://github.com/Chowdhury-DSP/BYOD/releases/download/v1.3.0/BYOD-Win-64bit-1.3.0.exe",
-            "downloads": 15204
+            "downloads": 15205
           }
         ],
         "verified": true,
-        "downloads": 28182
+        "downloads": 28183
       }
     },
-    "downloads": 28182
+    "downloads": 28183
   },
   "cannerycoders/fluidsynth.clap": {
     "slug": "cannerycoders/fluidsynth.clap",
