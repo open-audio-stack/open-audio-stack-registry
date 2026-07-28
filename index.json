@@ -27448,6 +27448,70 @@
       },
       "downloads": 4
     },
+    "dspiveyvr/zenbleed": {
+      "slug": "dspiveyvr/zenbleed",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "name": "Zenbleed",
+          "author": "DspiveyVR",
+          "description": "MIDI sequencer and sampler for generating Extratone in real time, outputting either MIDI or audio from an internally loaded sample",
+          "license": "agpl-3.0",
+          "type": "instrument",
+          "tags": [
+            "Extratone",
+            "Sequencer",
+            "Sampler",
+            "MIDI"
+          ],
+          "url": "https://github.com/DspiveyVR/Zenbleed",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/dspiveyvr/zenbleed/zenbleed.jpg",
+          "date": "2026-05-30T03:53:55Z",
+          "changes": "v1.0.0 release.",
+          "files": [
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "vst3"
+              ],
+              "type": "archive",
+              "size": 5473596,
+              "sha256": "2d30de7a9a98015456be28491d74e2239decc3f36e93703a27ec7da236f5cca6",
+              "url": "https://github.com/DspiveyVR/Zenbleed/releases/download/v1.0.0/Zenbleed-1.0.0-Linux.zip",
+              "downloads": 6
+            },
+            {
+              "systems": [
+                {
+                  "type": "win"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "exe"
+              ],
+              "type": "archive",
+              "size": 5541122,
+              "sha256": "98d5e9bf0eca187274f4eeee570a0968cb878830b0f131915ed4c0f46f9b5dd1",
+              "url": "https://github.com/DspiveyVR/Zenbleed/releases/download/v1.0.0/Zenbleed-1.0.0-Windows.zip",
+              "downloads": 19
+            }
+          ],
+          "verified": true,
+          "downloads": 25
+        }
+      },
+      "downloads": 25
+    },
     "dropsnorz/wobbleizer": {
       "slug": "dropsnorz/wobbleizer",
       "version": "2.3.2",
