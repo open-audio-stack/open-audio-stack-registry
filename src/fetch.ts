@@ -79,6 +79,36 @@ function slugToTitleCase(slug: string): string {
     .join(' ');
 }
 
+// ── License detection ──────────────────────────────────────────────────────────
+
+// GitHub's license detector is a similarity classifier, not a human — it regularly comes back
+// `other`/null for a repo that ships a perfectly standard license under an unusual filename, with
+// extra project-specific header lines, or phrased as a short "under the terms of the GNU GPL v3"
+// notice rather than the full canonical block. When that happens, fetch the LICENSE file's own
+// text and pattern-match it directly. Order matters: AGPL/LGPL are checked before plain GPL since
+// their canonical text contains "General Public License" as a substring too.
+function detectLicenseFromText(text: string): string | null {
+  const t = text.slice(0, 4000); // license identification only needs the opening section
+  const has = (re: RegExp) => re.test(t);
+  if (has(/BSD Zero-?Clause License/i)) return '0bsd';
+  if (has(/unencumbered software released into the public domain/i)) return 'unlicense';
+  if (has(/DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE/i)) return 'wtfpl';
+  if (has(/CC0 1\.0 Universal|Creative Commons Zero/i)) return 'cc0-1.0';
+  if (has(/Permission to use, copy, modify, and\/?or distribute this software for any purpose with or without fee/i))
+    return 'isc';
+  if (has(/Apache License[\s\S]{0,40}Version 2\.0/i)) return 'apache-2.0';
+  if (has(/Mozilla Public License[\s\S]{0,20}2\.0/i)) return 'mpl-2.0';
+  if (has(/GNU Affero General Public License/i)) return has(/version 3/i) ? 'agpl-3.0' : null;
+  if (has(/GNU Lesser General Public License/i))
+    return has(/version 3/i) ? 'lgpl-3.0' : has(/version 2\.1/i) ? 'lgpl-2.1' : null;
+  if (has(/GNU General Public License/i)) return has(/version 3/i) ? 'gpl-3.0' : has(/version 2/i) ? 'gpl-2.0' : null;
+  if (has(/Redistributions of source code must retain[\s\S]*Redistributions in binary form/i))
+    return has(/Neither the name/i) ? 'bsd-3-clause' : 'bsd-2-clause';
+  if (has(/This software is provided ['"]as-is['"], without any express or implied warranty/i)) return 'zlib';
+  if (has(/Permission is hereby granted, free of charge, to any person obtaining a copy/i)) return 'mit';
+  return null;
+}
+
 // ── Version normalisation (mirrors upgrade.ts) ────────────────────────────────
 
 function versionNormalize(tag: string): string {
@@ -446,6 +476,13 @@ interface ArchiveInspection {
 // filtered out so they don't get misidentified as (or dilute confidence in) the real one.
 const HELPER_BINARY_PATTERN = /unins|uninstall|vc_?redist|dotnetfx|dotnet-|winsparkle|crashpad|updater?\b|setup/i;
 
+// Release assets that are never a plugin/app binary themselves — checksum manifests, signature
+// files, and plain-text/doc sidecars a release commonly ships alongside the real downloads.
+// Excluded outright rather than run through system/format inference, which would otherwise
+// occasionally misfire and tag one of these with a `contains` value (seen with a
+// `SHA256SUMS-macOS.txt` that got auto-tagged `contains: [vst3]`).
+const NON_BINARY_ASSET_PATTERN = /^SHA(256|1|512)SUMS|^CHECKSUMS|\.(txt|md|sig|asc|sha256|sha1|pem|crt|yml|yaml)$/i;
+
 function inspectExtractedDir(dir: string): ArchiveInspection {
   const result: ArchiveInspection = {
     platforms: new Set(),
@@ -485,8 +522,12 @@ function inspectExtractedDir(dir: string): ArchiveInspection {
   // Inspect real binaries for platform/architecture — `file` reads magic bytes, so this is
   // authoritative even when directory/file names give no hint at all.
   try {
+    // Bundle payload binaries (e.g. a Windows VST3's actual PE32 DLL, which conventionally
+    // keeps the bundle's own name + ".vst3" extension rather than ".dll") are matched by
+    // name here too — zip extraction routinely drops the executable bit for these, so relying
+    // on -perm +111 alone leaves them invisible to `file` and the platform undetected entirely.
     const candidates = execSync(
-      `find "${dir}" -type f \\( -name "*.dylib" -o -name "*.so" -o -name "*.dll" -o -name "*.exe" -o -perm +111 \\)`,
+      `find "${dir}" -type f \\( -name "*.dylib" -o -name "*.so" -o -name "*.dll" -o -name "*.exe" -o -name "*.vst3" -o -name "*.component" -o -name "*.clap" -o -name "*.lv2" -o -perm +111 \\)`,
       { encoding: 'utf8', stdio: ['pipe', 'pipe', 'pipe'] },
     )
       .split('\n')
@@ -580,29 +621,45 @@ function inferPluginType(description: string, topics: string[], readme: string):
 
 // ── Image finder ──────────────────────────────────────────────────────────────
 
+// Matches non-content images (CI badges, sponsor buttons) and video-thumbnail links some
+// READMEs use for a "watch the demo" button — both regularly outrank the real UI screenshot
+// if picked by first-match-wins alone (e.g. a YouTube thumbnail sitting a few lines above the
+// actual screenshot, which is otherwise textually identical to a normal markdown image).
+const IMAGE_URL_EXCLUDE = /badge|shield|ko-?fi|travis|action|workflow|codecov|img\.youtube\.com|ytimg\.com/i;
+// A URL/path containing one of these is very likely an actual UI screenshot rather than a
+// logo, banner, or demo-video thumbnail — used to rank candidates, never to filter them out.
+const SCREENSHOT_HINT = /screenshot|preview|screen[-_]?shot|\bui\b|\bgui\b|interface/i;
+
 async function findImageUrl(org: string, repo: string, branch: string, readme: string): Promise<string | null> {
-  const imageUrls = [
+  const readmeCandidates = [
     ...[...readme.matchAll(/!\[[^\]]*\]\(([^)]+\.(?:png|jpe?g|gif|webp)[^)]*)\)/gi)].map(m => m[1]),
     ...[...readme.matchAll(/<img[^>]+src=["']([^"']+\.(?:png|jpe?g|gif|webp))/gi)].map(m => m[1]),
-  ].filter(u => !/badge|shield|ko-?fi|travis|action|workflow|codecov/i.test(u));
+  ].filter(u => !IMAGE_URL_EXCLUDE.test(u));
 
-  if (imageUrls.length > 0) {
-    const url = imageUrls[0];
+  if (readmeCandidates.length > 0) {
+    // First match isn't necessarily the best one — e.g. a "watch the demo" video thumbnail
+    // often appears before the real screenshot. Prefer whichever candidate's path/filename
+    // looks like an actual screenshot; fall back to the first match otherwise.
+    const url = readmeCandidates.find(u => SCREENSHOT_HINT.test(u)) ?? readmeCandidates[0];
     if (/^https?:\/\//.test(url)) return url;
     return `https://raw.githubusercontent.com/${org}/${repo}/refs/heads/${branch}/${url.replace(/^\.\//, '')}`;
   }
 
-  for (const dir of ['docs/img', 'docs', 'screenshots', 'assets', 'images', '.github']) {
-    try {
-      const contents: any[] = ghJson(`api repos/${org}/${repo}/contents/${dir}`);
-      const imgs = contents.filter((f: any) => /\.(png|jpe?g)$/i.test(f.name) && f.download_url);
-      if (imgs.length > 0) {
-        const preferred = imgs.find((f: any) => /screenshot|preview|screen|plugin|ui/i.test(f.name));
-        return (preferred ?? imgs[0]).download_url;
-      }
-    } catch {
-      /* directory doesn't exist */
+  // README has no image at all — scan the whole repo tree in one call rather than guessing a
+  // fixed list of directory names. Real repos use all sorts of conventions (Source/Assets,
+  // ScreenShots, docs/img, a bare root-level file, ...) and GitHub's contents API is
+  // case-sensitive, so a short hardcoded directory list misses most of them.
+  try {
+    const treeData = ghJson(`api repos/${org}/${repo}/git/trees/${branch}?recursive=1`);
+    const imgs = (treeData.tree as any[]).filter(
+      (f: any) => f.type === 'blob' && /\.(png|jpe?g|gif|webp)$/i.test(f.path) && !IMAGE_URL_EXCLUDE.test(f.path),
+    );
+    if (imgs.length > 0) {
+      const preferred = imgs.find((f: any) => SCREENSHOT_HINT.test(f.path)) ?? imgs[0];
+      return `https://raw.githubusercontent.com/${org}/${repo}/refs/heads/${branch}/${preferred.path}`;
     }
+  } catch {
+    /* tree lookup failed (empty repo, rate limit, etc.) — treat as no image found */
   }
   return null;
 }
@@ -615,7 +672,17 @@ async function downloadAndConvertImage(url: string, destPath: string): Promise<v
   if (!res.ok) throw new Error(`HTTP ${res.status} fetching image`);
   writeFileSync(tmp, Buffer.from(await res.arrayBuffer()));
   try {
-    execSync(`ffmpeg -i "${tmp}" -vf "scale='min(1000,iw)':-1" -q:v 10 -update 1 "${destPath}" -y`, { stdio: 'pipe' });
+    // JPEG has no alpha channel, so a source PNG with any transparency (a logo/icon on a
+    // transparent background, common for repos with no dedicated screenshot) would otherwise
+    // flatten onto plain black — often invisible for a dark-lined logo. Composite onto neutral
+    // mid-grey instead: a no-op for fully opaque sources (the top image completely occludes it)
+    // and readable regardless of whether the transparent art itself is light or dark.
+    // scale2ref sizes the solid-colour background to match the source image without needing to
+    // know its dimensions ahead of time.
+    execSync(
+      `ffmpeg -i "${tmp}" -f lavfi -i color=c=0x808080:s=4x4 -filter_complex "[1:v][0:v]scale2ref[bg][img];[bg][img]overlay=format=auto,scale='min(1000,iw)':-1" -q:v 10 -frames:v 1 -update 1 "${destPath}" -y`,
+      { stdio: 'pipe' },
+    );
   } finally {
     execSync(`rm -f "${tmp}"`);
   }
@@ -683,7 +750,21 @@ async function main() {
     `repo view ${ghOrg}/${ghRepo} --json name,description,homepageUrl,licenseInfo,repositoryTopics,defaultBranchRef`,
   );
   const branch: string = repoInfo.defaultBranchRef?.name ?? 'main';
-  const license: string = repoInfo.licenseInfo?.key ?? '';
+  let license: string = repoInfo.licenseInfo?.key ?? '';
+  let licenseDetectedFromText = false;
+  if (!license || license === 'other') {
+    try {
+      const licenseFile = ghJson(`api repos/${ghOrg}/${ghRepo}/license`);
+      const licenseText = Buffer.from(licenseFile.content, 'base64').toString();
+      const detected = detectLicenseFromText(licenseText);
+      if (detected) {
+        license = detected;
+        licenseDetectedFromText = true;
+      }
+    } catch {
+      /* no license file GitHub could find at all — leave as-is */
+    }
+  }
   const topics: string[] = (repoInfo.repositoryTopics ?? []).map((t: any) => t.name ?? t.topic?.name).filter(Boolean);
 
   // README
@@ -710,6 +791,8 @@ async function main() {
   const ambiguousStandaloneBinaries: string[] = [];
   const cleanupPaths: string[] = [];
   for (const asset of release.assets as any[]) {
+    if (NON_BINARY_ASSET_PATTERN.test(asset.name)) continue;
+
     let systems = inferSystems(asset.name);
 
     const archResult = inferArchitectures(asset.name);
@@ -885,6 +968,10 @@ async function main() {
   console.log('\n─── Generated YAML (please review) ───\n');
   process.stdout.write(yamlContent);
   console.log('\n─── Fields requiring review ───');
+  if (licenseDetectedFromText)
+    console.log(
+      `  license: "${license}"  — GitHub's API reported no license/"other"; detected from the LICENSE file's own text, verify`,
+    );
   console.log(`  name:    "${pkg.name}"  — confirm display name matches plugin branding`);
   console.log(`  type:    "${pkg.type}"  — confirm: instrument / effect / sampler / generator / tool`);
   const nonTitleCaseTags = (pkg.tags as string[]).filter(t => t !== slugToTitleCase(t));
