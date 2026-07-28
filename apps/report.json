@@ -168,5 +168,15 @@
         }
       ]
     }
+  },
+  "calloga/unshuffle": {
+    "1.0.2": {
+      "recs": [
+        {
+          "field": "url",
+          "rec": "requires manual installation steps, consider .deb and .rpm instead"
+        }
+      ]
+    }
   }
 }

@@ -819,14 +819,14 @@
             "size": 136294948,
             "sha256": "819a4c98806fb2b9202f413622ea68a56e3ea4e063afb9ee1a7e49d153cf9330",
             "url": "https://github.com/DropSnorz/OwlPlug/releases/download/1.33.1/OwlPlug-1.33.1-win-x64.msi",
-            "downloads": 1254
+            "downloads": 1255
           }
         ],
         "verified": true,
-        "downloads": 1933
+        "downloads": 1934
       }
     },
-    "downloads": 1933
+    "downloads": 1934
   },
   "christofmuc/knobkraft-orm": {
     "slug": "christofmuc/knobkraft-orm",
@@ -963,5 +963,96 @@
       }
     },
     "downloads": 78
+  },
+  "calloga/unshuffle": {
+    "slug": "calloga/unshuffle",
+    "version": "1.0.2",
+    "versions": {
+      "1.0.2": {
+        "name": "Unshuffle",
+        "author": "calloga",
+        "description": "Producer-first sample-library staging and migration tool — scans messy source folders, classifies files into a persistent virtual library, and lets you review and rebuild that structure onto disk",
+        "license": "mit",
+        "type": "tool",
+        "tags": [
+          "Sample Library",
+          "Organizer",
+          "Deduplication"
+        ],
+        "url": "https://github.com/calloga/unshuffle",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/apps/calloga/unshuffle/unshuffle.jpg",
+        "date": "2026-06-22T21:47:00Z",
+        "changes": "Fix issue with play-button. Fix sticky drag issue from \"Export\" button.",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "type": "archive",
+            "open": "Unshuffle-1.0.2-x86_64.AppImage",
+            "size": 117193208,
+            "sha256": "b9019cefe116aa2b4f5b680b5ff94fa502959345745bef8e3f16637eb6ee4f89",
+            "url": "https://github.com/calloga/unshuffle/releases/download/v1.0.2/Unshuffle-1.0.2-x86_64.AppImage",
+            "downloads": 55
+          },
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "type": "installer",
+            "open": "unshuffle",
+            "size": 147213416,
+            "sha256": "35ca752e81b2c3963697bfc44b56b7dbd2955bd4ae813214021dece75b5ecd9c",
+            "url": "https://github.com/calloga/unshuffle/releases/download/v1.0.2/unshuffle_1.0.2_amd64.deb",
+            "downloads": 67
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64"
+            ],
+            "type": "installer",
+            "open": "Unshuffle.app",
+            "size": 65711057,
+            "sha256": "8ea607746ea9a80f37b80af596685132d158afb74542f9ac65405858813b50ac",
+            "url": "https://github.com/calloga/unshuffle/releases/download/v1.0.2/Unshuffle-macos.pkg",
+            "downloads": 235
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "type": "installer",
+            "open": "Unshuffle.exe",
+            "size": 63176450,
+            "sha256": "ae311e37cc14ba67758f0927c7c8354fc9751b6986c9b4ce3e4c265831a7a23e",
+            "url": "https://github.com/calloga/unshuffle/releases/download/v1.0.2/UnshuffleWinSetup.exe",
+            "downloads": 623
+          }
+        ],
+        "verified": true,
+        "downloads": 980
+      }
+    },
+    "downloads": 980
   }
 }
