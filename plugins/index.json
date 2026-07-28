@@ -9593,11 +9593,11 @@
             "size": 1227151376,
             "sha256": "c6c5d0fe11a394e94be3146a950c3377ec102cb57d189d5a23cec26183d1963a",
             "url": "https://github.com/sfzinstruments/virtuosity_drums/releases/download/v0.925/Virtuosity_Drums_v0.925.zip",
-            "downloads": 389
+            "downloads": 390
           }
         ],
         "verified": true,
-        "downloads": 389
+        "downloads": 390
       },
       "0.924.0": {
         "name": "Virtuosity Drums",
@@ -9649,7 +9649,7 @@
         "downloads": 3829
       }
     },
-    "downloads": 4218
+    "downloads": 4219
   },
   "sfzinstruments/splendidgrandpiano": {
     "slug": "sfzinstruments/splendidgrandpiano",
@@ -13327,14 +13327,14 @@
             "size": 3167063,
             "sha256": "5b6436ac5b86a8f3afa7a616d604b07c014d5a4772ec485f63b6dc9399fea194",
             "url": "https://github.com/OTODESK4193/OtodeskSampler/releases/download/%EF%BD%961.0.0/Otodesk_sampler.vst3.zip",
-            "downloads": 256
+            "downloads": 257
           }
         ],
         "verified": true,
-        "downloads": 256
+        "downloads": 257
       }
     },
-    "downloads": 256
+    "downloads": 257
   },
   "otodesk4193/multi-oto": {
     "slug": "otodesk4193/multi-oto",
@@ -13373,14 +13373,60 @@
             "size": 17978659,
             "sha256": "f5f0fc3e78ee8ea3bd13d4570c0a9bdbe025fb0319408607bcc2077b9a36c586",
             "url": "https://github.com/OTODESK4193/MULTI-OTO/releases/download/%EF%BD%961.0.0/MULTI-OTO.vst3.zip",
-            "downloads": 293
+            "downloads": 294
           }
         ],
         "verified": true,
-        "downloads": 293
+        "downloads": 294
       }
     },
-    "downloads": 293
+    "downloads": 294
+  },
+  "otodesk4193/lumina": {
+    "slug": "otodesk4193/lumina",
+    "version": "1.0.0",
+    "versions": {
+      "1.0.0": {
+        "name": "LUMINA",
+        "author": "OTODESK",
+        "description": "High-resolution spectral processor for transparent mastering — separates audio into tonal and transient components with independent dynamics control",
+        "license": "agpl-3.0",
+        "type": "effect",
+        "tags": [
+          "Spectral",
+          "Mastering",
+          "Dynamics",
+          "Multiband"
+        ],
+        "url": "https://github.com/OTODESK4193/LUMINA",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/otodesk4193/lumina/lumina.jpg",
+        "date": "2026-05-08T22:53:37Z",
+        "changes": "v1.0.0 release. Intelligent Spectral HPSS separates tonal/transient content, with adaptive Tame and Depth controls and a Glow-Spectrum visualizer.",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 18244394,
+            "sha256": "4a1dd8c88d5e5334abcf1d1dc484f7b0cf48f15f5006dc18229bed4c42f63d3b",
+            "url": "https://github.com/OTODESK4193/LUMINA/releases/download/V1.0.0/LUMINA.v1.0.0.Initial.Release.zip",
+            "downloads": 372
+          }
+        ],
+        "verified": true,
+        "downloads": 372
+      }
+    },
+    "downloads": 372
   },
   "otodesk4193/glitchnexus": {
     "slug": "otodesk4193/glitchnexus",
@@ -13419,14 +13465,14 @@
             "size": 2589501,
             "sha256": "c122ba29f84efc887051eeefe7d8fe9832381e5b3534767963ca154ba2ddbd51",
             "url": "https://github.com/OTODESK4193/GlitchNexus/releases/download/V1.0.0/GlitchNexus.vst3.zip",
-            "downloads": 239
+            "downloads": 240
           }
         ],
         "verified": true,
-        "downloads": 239
+        "downloads": 240
       }
     },
-    "downloads": 239
+    "downloads": 240
   },
   "otodesk4193/chordmatrix": {
     "slug": "otodesk4193/chordmatrix",
@@ -13465,14 +13511,14 @@
             "size": 17367407,
             "sha256": "ea742fe4ac25833f75b09620b1dbcc4c8be3c5a73d8416d91ced535d79cf8f0a",
             "url": "https://github.com/OTODESK4193/ChordMatrix/releases/download/V1.0.0/ChordMatrix.vst3.zip",
-            "downloads": 249
+            "downloads": 250
           }
         ],
         "verified": true,
-        "downloads": 249
+        "downloads": 250
       }
     },
-    "downloads": 249
+    "downloads": 250
   },
   "otodesk4193/basssynth": {
     "slug": "otodesk4193/basssynth",
@@ -13557,14 +13603,14 @@
             "size": 18457485,
             "sha256": "30ffbb7a99e7aa9e47077d82d13cdcd4ebfd7aef644e929c333133dd0ecb5387",
             "url": "https://github.com/OTODESK4193/BassLineMatrix/releases/download/V1.0.0/OTODESK.BassLine.Matrix.vst3.zip",
-            "downloads": 241
+            "downloads": 242
           }
         ],
         "verified": true,
-        "downloads": 241
+        "downloads": 242
       }
     },
-    "downloads": 241
+    "downloads": 242
   },
   "otodesk4193/anatomy": {
     "slug": "otodesk4193/anatomy",
@@ -24987,14 +25033,14 @@
             "size": 1663420,
             "sha256": "07d58651820247ba2b57d0e3cac0b1e0734a9773d92c3bcddc48bbb9f3fcdeb8",
             "url": "https://github.com/freepats/synthesizer-percussion/releases/download/v1.0.0/SynthesizerPercussion-20220718.zip",
-            "downloads": 114
+            "downloads": 115
           }
         ],
         "verified": true,
-        "downloads": 114
+        "downloads": 115
       }
     },
-    "downloads": 114
+    "downloads": 115
   },
   "freepats/spanish-classical-guitar": {
     "slug": "freepats/spanish-classical-guitar",
@@ -28228,7 +28274,7 @@
             "size": 10131783,
             "sha256": "e94225e3f047af9a31151273922fde273094c030f2c59513fc852c88d712df45",
             "url": "https://github.com/dan-k-k/vocal-gate/releases/download/v1.0.5/VocalGate_Linux.zip",
-            "downloads": 264
+            "downloads": 265
           },
           {
             "systems": [
@@ -28269,10 +28315,10 @@
           }
         ],
         "verified": true,
-        "downloads": 4694
+        "downloads": 4695
       }
     },
-    "downloads": 4694
+    "downloads": 4695
   },
   "damrsn/neuralnote": {
     "slug": "damrsn/neuralnote",
@@ -31747,7 +31793,7 @@
             "size": 11275100,
             "sha256": "5dc4e072af90ec54aa0197790b40856e7db1659ff924ed107c7536b442d3584b",
             "url": "https://github.com/asb2m10/dexed/releases/download/v1.0.1/Dexed-1.0.1-win.exe",
-            "downloads": 77275
+            "downloads": 77276
           },
           {
             "systems": [
@@ -31771,7 +31817,7 @@
           }
         ],
         "verified": true,
-        "downloads": 142783
+        "downloads": 142784
       },
       "0.9.8": {
         "name": "Dexed",
@@ -31856,7 +31902,7 @@
         "downloads": 195046
       }
     },
-    "downloads": 337829
+    "downloads": 337830
   },
   "artfwo/andes": {
     "slug": "artfwo/andes",
