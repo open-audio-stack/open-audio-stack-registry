@@ -1,0 +1,25 @@
+name: MULTI-OTO
+author: OTODESK
+description: Extreme multiband dynamics and ADAA saturation plugin — cascades up to 128 upward/downward OTT compressors in series for glitching, cybernetic textures
+license: agpl-3.0
+type: effect
+tags:
+  - Compressor
+  - Multiband
+  - Saturation
+  - OTT
+url: https://github.com/OTODESK4193/MULTI-OTO
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/otodesk4193/multi-oto/multi-oto.jpg
+date: '2026-05-16T00:45:28Z'
+changes: v1.0.0 release. Requires a CPU with AVX2 support.
+files:
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - vst3
+    type: archive
+    size: 17978659
+    sha256: f5f0fc3e78ee8ea3bd13d4570c0a9bdbe025fb0319408607bcc2077b9a36c586
+    url: https://github.com/OTODESK4193/MULTI-OTO/releases/download/%EF%BD%961.0.0/MULTI-OTO.vst3.zip
