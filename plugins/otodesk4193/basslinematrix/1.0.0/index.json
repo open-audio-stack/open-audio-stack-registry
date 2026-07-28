@@ -1,0 +1,39 @@
+{
+  "name": "BassLineMatrix",
+  "author": "OTODESK",
+  "description": "Algorithmic MIDI sequencer and built-in synthesizer that generates genre-specific basslines and chord progressions across 23 electronic music styles",
+  "license": "agpl-3.0",
+  "type": "instrument",
+  "tags": [
+    "Bassline",
+    "Sequencer",
+    "MIDI",
+    "Synthesizer"
+  ],
+  "url": "https://github.com/OTODESK4193/BassLineMatrix",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/otodesk4193/basslinematrix/basslinematrix.jpg",
+  "date": "2026-05-16T04:50:04Z",
+  "changes": "v1.0.0 release. Requires a CPU with AVX2 support.",
+  "files": [
+    {
+      "systems": [
+        {
+          "type": "win"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3"
+      ],
+      "type": "archive",
+      "size": 18457485,
+      "sha256": "30ffbb7a99e7aa9e47077d82d13cdcd4ebfd7aef644e929c333133dd0ecb5387",
+      "url": "https://github.com/OTODESK4193/BassLineMatrix/releases/download/V1.0.0/OTODESK.BassLine.Matrix.vst3.zip",
+      "downloads": 241
+    }
+  ],
+  "verified": true,
+  "downloads": 241
+}

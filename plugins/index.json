@@ -2772,14 +2772,14 @@
             "size": 3727973,
             "type": "archive",
             "url": "https://github.com/vvvar/PeakEater/releases/download/v0.8.2/peakeater-v0.8.2-Windows-x86_64.zip",
-            "downloads": 11777
+            "downloads": 11779
           }
         ],
         "verified": true,
-        "downloads": 20404
+        "downloads": 20406
       }
     },
-    "downloads": 20404
+    "downloads": 20406
   },
   "vsicurella/supervirtualkeyboard": {
     "slug": "vsicurella/supervirtualkeyboard",
@@ -5033,14 +5033,14 @@
             "size": 7209321,
             "sha256": "be1f9e0104c35518a468ebed2380bf45aa7ad8d1a89c16f05082e294ca469869",
             "url": "https://github.com/tiagolr/tetraop/releases/download/v1.0.3/tetraop-win64-1.0.3-setup.exe",
-            "downloads": 899
+            "downloads": 901
           }
         ],
         "verified": true,
-        "downloads": 2671
+        "downloads": 2673
       }
     },
-    "downloads": 2671
+    "downloads": 2673
   },
   "tiagolr/sirial": {
     "slug": "tiagolr/sirial",
@@ -6881,7 +6881,7 @@
             "size": 416715686,
             "sha256": "b56e8d51a8dc2382ae668c9ff4e96bae38dbd452af4e584d5a5ef50ab2d09b07",
             "url": "https://github.com/surge-synthesizer/releases-xt/releases/download/1.3.4/surge-xt-macOS-1.3.4.dmg",
-            "downloads": 149228
+            "downloads": 149229
           },
           {
             "systems": [
@@ -6924,7 +6924,7 @@
           }
         ],
         "verified": true,
-        "downloads": 702541
+        "downloads": 702542
       },
       "1.3.1": {
         "name": "Surge XT",
@@ -7051,7 +7051,7 @@
         "downloads": 84039
       }
     },
-    "downloads": 786580
+    "downloads": 786581
   },
   "surge-synthesizer/ob-xf": {
     "slug": "surge-synthesizer/ob-xf",
@@ -13473,6 +13473,52 @@
       }
     },
     "downloads": 249
+  },
+  "otodesk4193/basslinematrix": {
+    "slug": "otodesk4193/basslinematrix",
+    "version": "1.0.0",
+    "versions": {
+      "1.0.0": {
+        "name": "BassLineMatrix",
+        "author": "OTODESK",
+        "description": "Algorithmic MIDI sequencer and built-in synthesizer that generates genre-specific basslines and chord progressions across 23 electronic music styles",
+        "license": "agpl-3.0",
+        "type": "instrument",
+        "tags": [
+          "Bassline",
+          "Sequencer",
+          "MIDI",
+          "Synthesizer"
+        ],
+        "url": "https://github.com/OTODESK4193/BassLineMatrix",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/otodesk4193/basslinematrix/basslinematrix.jpg",
+        "date": "2026-05-16T04:50:04Z",
+        "changes": "v1.0.0 release. Requires a CPU with AVX2 support.",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 18457485,
+            "sha256": "30ffbb7a99e7aa9e47077d82d13cdcd4ebfd7aef644e929c333133dd0ecb5387",
+            "url": "https://github.com/OTODESK4193/BassLineMatrix/releases/download/V1.0.0/OTODESK.BassLine.Matrix.vst3.zip",
+            "downloads": 241
+          }
+        ],
+        "verified": true,
+        "downloads": 241
+      }
+    },
+    "downloads": 241
   },
   "otodesk4193/anatomy": {
     "slug": "otodesk4193/anatomy",
@@ -29173,14 +29219,14 @@
             "size": 10646528,
             "sha256": "8ba6e91196067244837877d9ca4a8e4a1f5bfad60cf33fa699c8a5b41f1211bf",
             "url": "https://github.com/jatinchowdhury18/AnalogTapeModel/releases/download/v2.11.4/ChowTapeModel-Win-64bit-2.11.4.exe",
-            "downloads": 60669
+            "downloads": 60671
           }
         ],
         "verified": false,
-        "downloads": 105145
+        "downloads": 105147
       }
     },
-    "downloads": 105145
+    "downloads": 105147
   },
   "chowdhury-dsp/chowmultitool": {
     "slug": "chowdhury-dsp/chowmultitool",
