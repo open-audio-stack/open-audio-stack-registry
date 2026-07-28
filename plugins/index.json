@@ -6920,11 +6920,11 @@
             "size": 183385478,
             "sha256": "6e221e05f29254508142b9e0ed76a85f22fa1b512501bebde571951e7eefecca",
             "url": "https://github.com/surge-synthesizer/releases-xt/releases/download/1.3.4/surge-xt-win64-1.3.4-setup.exe",
-            "downloads": 496598
+            "downloads": 496601
           }
         ],
         "verified": true,
-        "downloads": 702510
+        "downloads": 702513
       },
       "1.3.1": {
         "name": "Surge XT",
@@ -7051,7 +7051,7 @@
         "downloads": 84039
       }
     },
-    "downloads": 786549
+    "downloads": 786552
   },
   "surge-synthesizer/ob-xf": {
     "slug": "surge-synthesizer/ob-xf",
@@ -13647,6 +13647,56 @@
       }
     },
     "downloads": 257
+  },
+  "nilace/themonohawk": {
+    "slug": "nilace/themonohawk",
+    "version": "0.1.0",
+    "versions": {
+      "0.1.0": {
+        "name": "The Mono Hawk",
+        "author": "NL Sounds",
+        "description": "Chromatic tuner for guitar and bass on Linux (LV2)",
+        "license": "gpl-3.0",
+        "type": "tool",
+        "tags": [
+          "Ardour",
+          "Audio",
+          "Audio Plugin",
+          "Bass",
+          "Chromatic Tuner",
+          "DSP",
+          "Guitar",
+          "LV2"
+        ],
+        "url": "https://github.com/NiLace/TheMonoHawk",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/nilace/themonohawk/themonohawk.jpg",
+        "date": "2026-06-20T13:22:42Z",
+        "changes": "Sub-cent detection down to a 5/6-string bass low B (~31 Hz). Hardware-style X11 + Cairo interface, 50 tunings, a reference-tone generator, and silent-tuning mute.",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "lv2"
+            ],
+            "type": "archive",
+            "size": 152815,
+            "sha256": "d0606e285828ddde2a7d888db5a23bcf5851c3737177c4253e49746e1d9f677f",
+            "url": "https://github.com/NiLace/TheMonoHawk/releases/download/v0.1/themonohawk.lv2-0.1-linux-x86_64.tar.gz",
+            "downloads": 18
+          }
+        ],
+        "verified": true,
+        "downloads": 18
+      }
+    },
+    "downloads": 18
   },
   "nilace/dynamo0c": {
     "slug": "nilace/dynamo0c",
@@ -30576,7 +30626,7 @@
             "size": 11275100,
             "sha256": "5dc4e072af90ec54aa0197790b40856e7db1659ff924ed107c7536b442d3584b",
             "url": "https://github.com/asb2m10/dexed/releases/download/v1.0.1/Dexed-1.0.1-win.exe",
-            "downloads": 77265
+            "downloads": 77269
           },
           {
             "systems": [
@@ -30600,7 +30650,7 @@
           }
         ],
         "verified": true,
-        "downloads": 142764
+        "downloads": 142768
       },
       "0.9.8": {
         "name": "Dexed",
@@ -30685,7 +30735,7 @@
         "downloads": 195045
       }
     },
-    "downloads": 337809
+    "downloads": 337813
   },
   "artfwo/andes": {
     "slug": "artfwo/andes",

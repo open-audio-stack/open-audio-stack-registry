@@ -1,4 +1,54 @@
 {
+  "nilace/themonohawk": {
+    "slug": "nilace/themonohawk",
+    "version": "0.1.0",
+    "versions": {
+      "0.1.0": {
+        "name": "The Mono Hawk",
+        "author": "NL Sounds",
+        "description": "Chromatic tuner for guitar and bass on Linux (LV2)",
+        "license": "gpl-3.0",
+        "type": "tool",
+        "tags": [
+          "Ardour",
+          "Audio",
+          "Audio Plugin",
+          "Bass",
+          "Chromatic Tuner",
+          "DSP",
+          "Guitar",
+          "LV2"
+        ],
+        "url": "https://github.com/NiLace/TheMonoHawk",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/nilace/themonohawk/themonohawk.jpg",
+        "date": "2026-06-20T13:22:42Z",
+        "changes": "Sub-cent detection down to a 5/6-string bass low B (~31 Hz). Hardware-style X11 + Cairo interface, 50 tunings, a reference-tone generator, and silent-tuning mute.",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "lv2"
+            ],
+            "type": "archive",
+            "size": 152815,
+            "sha256": "d0606e285828ddde2a7d888db5a23bcf5851c3737177c4253e49746e1d9f677f",
+            "url": "https://github.com/NiLace/TheMonoHawk/releases/download/v0.1/themonohawk.lv2-0.1-linux-x86_64.tar.gz",
+            "downloads": 18
+          }
+        ],
+        "verified": true,
+        "downloads": 18
+      }
+    },
+    "downloads": 18
+  },
   "nilace/dynamo0c": {
     "slug": "nilace/dynamo0c",
     "version": "1.2.0",
