@@ -1,0 +1,25 @@
+name: Otodesk Sampler
+author: OTODESK
+description: Multi-slot sampler with intelligent pitch detection, real-time RubberBand time-stretching, and a deep modulation engine
+license: agpl-3.0
+type: sampler
+tags:
+  - Sampler
+  - Time Stretch
+  - Pitch Detection
+  - Modulation
+url: https://github.com/OTODESK4193/OtodeskSampler
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/otodesk4193/otodesksampler/otodesksampler.jpg
+date: '2026-05-03T06:08:25Z'
+changes: v1.0.0 release.
+files:
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - vst3
+    type: archive
+    size: 3167063
+    sha256: 5b6436ac5b86a8f3afa7a616d604b07c014d5a4772ec485f63b6dc9399fea194
+    url: https://github.com/OTODESK4193/OtodeskSampler/releases/download/%EF%BD%961.0.0/Otodesk_sampler.vst3.zip
