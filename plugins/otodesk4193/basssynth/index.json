@@ -1,0 +1,46 @@
+{
+  "slug": "otodesk4193/basssynth",
+  "version": "1.0.2",
+  "versions": {
+    "1.0.2": {
+      "name": "BassSynth",
+      "author": "OTODESK",
+      "description": "Wavetable bass synthesizer with math-generated morphing tables, spectral morphing, and an auto-chord-learning impulse response engine",
+      "license": "agpl-3.0",
+      "type": "instrument",
+      "tags": [
+        "Wavetable",
+        "Bass",
+        "Synthesizer",
+        "Morphing"
+      ],
+      "url": "https://github.com/OTODESK4193/BassSynth",
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/otodesk4193/basssynth/basssynth.jpg",
+      "date": "2026-04-26T09:56:05Z",
+      "changes": "Fixed presets reverting to INIT and custom folder settings resetting.",
+      "files": [
+        {
+          "systems": [
+            {
+              "type": "win"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "vst3"
+          ],
+          "type": "archive",
+          "size": 19032793,
+          "sha256": "ffc99d21cf94b7f93f0b6397aadffd2bf965efe4add0982f58bfcbd72a565390",
+          "url": "https://github.com/OTODESK4193/BassSynth/releases/download/%EF%BD%961.0.2/BassSynth.vst3.zip",
+          "downloads": 468
+        }
+      ],
+      "verified": true,
+      "downloads": 468
+    }
+  },
+  "downloads": 468
+}
