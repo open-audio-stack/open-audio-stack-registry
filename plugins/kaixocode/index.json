@@ -1,0 +1,66 @@
+{
+  "kaixocode/spectralrotator": {
+    "slug": "kaixocode/spectralrotator",
+    "version": "2.0.0",
+    "versions": {
+      "2.0.0": {
+        "name": "Spectral Rotator",
+        "author": "Jaron Sweder",
+        "description": "Rotates the frequency spectrum of any sample",
+        "license": "mit",
+        "type": "effect",
+        "tags": [
+          "Spectral",
+          "Frequency Shifter",
+          "Sound Design"
+        ],
+        "url": "https://github.com/KaixoCode/SpectralRotator",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/kaixocode/spectralrotator/spectralrotator.jpg",
+        "date": "2026-06-09T09:54:55Z",
+        "changes": "2.0.0 release.",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 10402210,
+            "sha256": "ca9a684f7eb08c6d1c7959550accf41b98a0b617cb2dd752f15afcd14f27ba85",
+            "url": "https://github.com/KaixoCode/SpectralRotator/releases/download/2.0.0/SpectralRotator-vst3-macos-2.0.0.zip",
+            "downloads": 30
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 3665844,
+            "sha256": "f4679bd8015552b19ff589661ce93ec8442992600865af61e924484e4e138b58",
+            "url": "https://github.com/KaixoCode/SpectralRotator/releases/download/2.0.0/SpectralRotator-vst3-windows-2.0.0.zip",
+            "downloads": 47
+          }
+        ],
+        "verified": true,
+        "downloads": 77
+      }
+    },
+    "downloads": 77
+  }
+}
