@@ -36001,6 +36001,123 @@
         }
       },
       "downloads": 270
+    },
+    "008takeshi/drawwave-vocoder": {
+      "slug": "008takeshi/drawwave-vocoder",
+      "version": "0.1.1",
+      "versions": {
+        "0.1.1": {
+          "name": "Drawwave Vocoder",
+          "author": "008takeshi",
+          "description": "Vocoder instrument where the carrier wavetable, band gains, and LFO shape are all hand-drawn with the mouse",
+          "license": "gpl-3.0",
+          "type": "instrument",
+          "tags": [
+            "Vocoder",
+            "Wavetable",
+            "Drawing"
+          ],
+          "url": "https://github.com/008takeshi/Drawwave-Vocoder",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/008takeshi/drawwave-vocoder/drawwave-vocoder.jpg",
+          "date": "2026-05-24T17:54:19Z",
+          "changes": "Added screenshot to README and noted that Windows builds are unverified.",
+          "files": [
+            {
+              "systems": [
+                {
+                  "type": "mac"
+                }
+              ],
+              "architectures": [
+                "arm64"
+              ],
+              "contains": [
+                "component"
+              ],
+              "type": "archive",
+              "size": 3557684,
+              "sha256": "bd05ae99cc764bbb3796df4f7ca9c98ca204729bff5320348bc046d4422f8752",
+              "url": "https://github.com/008takeshi/Drawwave-Vocoder/releases/download/v0.1.1/DrawwaveVocoder-v0.1.1-macOS-AU.zip",
+              "downloads": 2
+            },
+            {
+              "systems": [
+                {
+                  "type": "mac"
+                }
+              ],
+              "architectures": [
+                "arm64"
+              ],
+              "contains": [
+                "app"
+              ],
+              "type": "archive",
+              "size": 3769554,
+              "sha256": "01419a13b31c0a26b729d3dd75a6996597bd0aed25d3ac8358503a4ddde4916c",
+              "url": "https://github.com/008takeshi/Drawwave-Vocoder/releases/download/v0.1.1/DrawwaveVocoder-v0.1.1-macOS-Standalone.zip",
+              "downloads": 3
+            },
+            {
+              "systems": [
+                {
+                  "type": "mac"
+                }
+              ],
+              "architectures": [
+                "arm64"
+              ],
+              "contains": [
+                "vst3"
+              ],
+              "type": "archive",
+              "size": 3564055,
+              "sha256": "4aefdabc7628c061047a132b19c6ddb2b08eefcd94857fed919e249fdaa709ff",
+              "url": "https://github.com/008takeshi/Drawwave-Vocoder/releases/download/v0.1.1/DrawwaveVocoder-v0.1.1-macOS-VST3.zip",
+              "downloads": 4
+            },
+            {
+              "systems": [
+                {
+                  "type": "win"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "exe"
+              ],
+              "type": "archive",
+              "size": 2110360,
+              "sha256": "d45d7a9675094b9b5acc68807834e351bddd9274f6c1ceb0184f010af5964c89",
+              "url": "https://github.com/008takeshi/Drawwave-Vocoder/releases/download/v0.1.1/DrawwaveVocoder-v0.1.1-Windows-Standalone.zip",
+              "downloads": 3
+            },
+            {
+              "systems": [
+                {
+                  "type": "win"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "vst3"
+              ],
+              "type": "archive",
+              "size": 2011049,
+              "sha256": "f9ea3594000b77b29a40d96623e5aa82b2a1f98f25f26e1ce16ee7a722eba51b",
+              "url": "https://github.com/008takeshi/Drawwave-Vocoder/releases/download/v0.1.1/DrawwaveVocoder-v0.1.1-Windows-VST3.zip",
+              "downloads": 5
+            }
+          ],
+          "verified": true,
+          "downloads": 17
+        }
+      },
+      "downloads": 17
     }
   },
   "presets": {
