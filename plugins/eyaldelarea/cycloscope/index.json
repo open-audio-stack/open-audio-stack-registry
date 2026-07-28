@@ -1,0 +1,89 @@
+{
+  "slug": "eyaldelarea/cycloscope",
+  "version": "0.2.0",
+  "versions": {
+    "0.2.0": {
+      "name": "Cycloscope",
+      "author": "Eyal Delarea",
+      "description": "Waveform / single-cycle / spectrum / stereo analyzer plugin",
+      "license": "gpl-3.0",
+      "type": "tool",
+      "tags": [
+        "Analyzer",
+        "Oscilloscope",
+        "Spectrum",
+        "Audio Unit"
+      ],
+      "url": "https://github.com/EyalDelarea/Cycloscope",
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/eyaldelarea/cycloscope/cycloscope.jpg",
+      "date": "2026-06-08T12:08:50Z",
+      "changes": "Responsive spectrum analyzer: improved ballistics, off-paint FFT, GPU rendering, and resampling.",
+      "files": [
+        {
+          "systems": [
+            {
+              "type": "mac"
+            }
+          ],
+          "architectures": [
+            "arm64",
+            "x64"
+          ],
+          "contains": [
+            "vst3",
+            "component",
+            "app"
+          ],
+          "type": "installer",
+          "size": 17716690,
+          "sha256": "9d6ac292b731ab17901289f47d84da6c99d053050c7f2e001b495050fb6bcf71",
+          "url": "https://github.com/EyalDelarea/Cycloscope/releases/download/v0.2.0/Cycloscope-0.2.0-macOS.pkg",
+          "downloads": 3
+        },
+        {
+          "systems": [
+            {
+              "type": "mac"
+            }
+          ],
+          "architectures": [
+            "arm64",
+            "x64"
+          ],
+          "contains": [
+            "vst3",
+            "component",
+            "app"
+          ],
+          "type": "archive",
+          "size": 17735875,
+          "sha256": "9596742872a82c1bb68e2e7475874bda885f586a6623863dc36c0aeca68eefcd",
+          "url": "https://github.com/EyalDelarea/Cycloscope/releases/download/v0.2.0/Cycloscope-0.2.0-macOS.zip",
+          "downloads": 2
+        },
+        {
+          "systems": [
+            {
+              "type": "win"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "vst3",
+            "exe"
+          ],
+          "type": "archive",
+          "size": 7179250,
+          "sha256": "dd66d28b6a4be0cbf1a0bb4e1bf002c671e0c528aa3bf33cb984578b2e1b7b11",
+          "url": "https://github.com/EyalDelarea/Cycloscope/releases/download/v0.2.0/Cycloscope-0.2.0-Windows.zip",
+          "downloads": 4
+        }
+      ],
+      "verified": true,
+      "downloads": 9
+    }
+  },
+  "downloads": 9
+}
