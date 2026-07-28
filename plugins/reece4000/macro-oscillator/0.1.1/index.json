@@ -1,0 +1,39 @@
+{
+  "name": "Macro Oscillator",
+  "author": "Reece Mitchell",
+  "description": "Compact synthesizer built around the Mutable Instruments Braids macro oscillator engine, with multi-stage MSEG modulation",
+  "license": "agpl-3.0",
+  "type": "instrument",
+  "tags": [
+    "Synthesizer",
+    "Braids",
+    "Modulation",
+    "MSEG"
+  ],
+  "url": "https://github.com/Reece4000/macro_oscillator",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/reece4000/macro-oscillator/macro-oscillator.jpg",
+  "date": "2026-06-18T11:34:13Z",
+  "changes": "Updates the Macro OSC backing image and README download link.",
+  "files": [
+    {
+      "systems": [
+        {
+          "type": "mac"
+        }
+      ],
+      "architectures": [
+        "arm64"
+      ],
+      "contains": [
+        "vst3"
+      ],
+      "type": "archive",
+      "size": 2629681,
+      "sha256": "4ea8388aba20f610a67ee155c6060158c4cf947c60cb013d2b63350b0b37c9c7",
+      "url": "https://github.com/Reece4000/macro_oscillator/releases/download/v0.1.1/MacroOSC-macOS-arm64-v0.1.1-vst3.zip",
+      "downloads": 4
+    }
+  ],
+  "verified": true,
+  "downloads": 4
+}

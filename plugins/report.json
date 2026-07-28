@@ -1165,6 +1165,24 @@
       ]
     }
   },
+  "reece4000/macro-oscillator": {
+    "0.1.1": {
+      "recs": [
+        {
+          "field": "architectures",
+          "rec": "should support x64"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Linux"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Windows"
+        }
+      ]
+    }
+  },
   "reales/opl": {
     "2.4.0": {
       "recs": [
