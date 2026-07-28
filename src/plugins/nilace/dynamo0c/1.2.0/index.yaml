@@ -1,0 +1,29 @@
+name: Dynamo0C
+author: NL Sounds
+description: Console-style 4-band parametric EQ — an LV2 plugin for Linux with its own hardware-style UI
+license: gpl-3.0
+type: effect
+tags:
+  - Ardour
+  - Audio
+  - Audio Plugin
+  - DSP
+  - EQ
+  - Equalizer
+  - Linux Audio
+  - LV2
+url: https://github.com/NiLace/Dynamo0C
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/nilace/dynamo0c/dynamo0c.jpg
+date: '2026-07-17T08:16:47Z'
+changes: The sound is untouched — DSP is byte-for-byte the same as 1.1.0. Panel rebuilt with proper bevels, glows, and softer engage/bypass fades. CPU usage for open plugin windows cut ~64x. Fixed letter-spacing rendering, blurry knobs on HiDPI, and a potential crash in make install.
+files:
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - lv2
+    type: archive
+    size: 143791
+    sha256: fbbc542d12b131a0567dcba1e50722056586011ccc6fde7f3a5f133fd6142948
+    url: https://github.com/NiLace/Dynamo0C/releases/download/v1.2.0/dynamo-0c.lv2.tar.gz
