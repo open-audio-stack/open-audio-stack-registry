@@ -1,0 +1,63 @@
+{
+  "name": "Doobie",
+  "author": "Sylwester",
+  "description": "Analog dub delay plugin — multi-head tape echo with spring and plate reverb",
+  "license": "gpl-3.0",
+  "type": "effect",
+  "tags": [
+    "Delay",
+    "Reverb",
+    "Dub",
+    "Tape Echo"
+  ],
+  "url": "https://github.com/DatanoiseTV/doobie",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/datanoisetv/doobie/doobie.jpg",
+  "date": "2026-07-04T11:55:32Z",
+  "changes": "macOS and Windows builds are currently unsigned while the developer's Apple Developer agreement is being re-accepted — the macOS build ships as an unsigned zip instead of a notarized pkg. Strip the Gatekeeper quarantine attribute with `xattr -cr` after installing, or install via the Homebrew tap which does this automatically. Linux is unaffected.",
+  "files": [
+    {
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3",
+        "clap",
+        "elf"
+      ],
+      "type": "archive",
+      "size": 59742312,
+      "sha256": "d53f591574f2d6c96bb9617a92375b158aeb5ec833a9501d7edeac616bf4836c",
+      "url": "https://github.com/DatanoiseTV/doobie/releases/download/v0.25.0/Doobie-0.25.0-Linux-x86_64.tar.gz",
+      "downloads": 57
+    },
+    {
+      "systems": [
+        {
+          "type": "mac"
+        }
+      ],
+      "architectures": [
+        "arm64",
+        "x64"
+      ],
+      "contains": [
+        "vst3",
+        "component",
+        "clap",
+        "app"
+      ],
+      "type": "archive",
+      "size": 155460140,
+      "sha256": "9e667175d883a7fab9ca1c832d219261b36b1be1d7615de2bb818c2cbcd0ed4e",
+      "url": "https://github.com/DatanoiseTV/doobie/releases/download/v0.25.0/Doobie-0.25.0-macOS-unsigned.zip",
+      "downloads": 56
+    }
+  ],
+  "verified": true,
+  "downloads": 113
+}
