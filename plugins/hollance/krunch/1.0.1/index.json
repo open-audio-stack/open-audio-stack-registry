@@ -1,0 +1,48 @@
+{
+  "name": "Krunch",
+  "author": "Matthijs Hollemans",
+  "description": "Lowpass filter + saturation audio effect plug-in",
+  "license": "gpl-3.0",
+  "type": "effect",
+  "tags": [
+    "Audio Effect",
+    "Filter",
+    "Saturation",
+    "Lowpass"
+  ],
+  "url": "https://github.com/hollance/krunch",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/hollance/krunch/krunch.jpg",
+  "date": "2026-07-04T19:55:46Z",
+  "changes": "Add Linux build",
+  "files": [
+    {
+      "systems": [
+        {
+          "type": "mac"
+        },
+        {
+          "type": "linux"
+        },
+        {
+          "type": "win"
+        }
+      ],
+      "architectures": [
+        "arm64",
+        "x64"
+      ],
+      "contains": [
+        "vst3",
+        "component",
+        "lv2"
+      ],
+      "type": "archive",
+      "size": 15031248,
+      "sha256": "d7fb0976ae2025b3a9303e54efeb735dc1457ff177a8fd6f304a7a46e97ee4c1",
+      "url": "https://github.com/hollance/krunch/releases/download/v1.0.1/Krunch-v1.0.1.zip",
+      "downloads": 40
+    }
+  ],
+  "verified": true,
+  "downloads": 40
+}
