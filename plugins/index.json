@@ -9221,14 +9221,14 @@
             "size": 10349826,
             "sha256": "83e2825241d4e1c0ab2c44c91c0a9be6a94941a81df0c2fbe05e83b2650470da",
             "url": "https://github.com/Sinuslabs/Reach/releases/download/1.6.6/Reach-Windows.exe",
-            "downloads": 167529
+            "downloads": 167532
           }
         ],
         "verified": true,
-        "downloads": 169316
+        "downloads": 169319
       }
     },
-    "downloads": 169316
+    "downloads": 169319
   },
   "sfztools/sfizz-ui": {
     "slug": "sfztools/sfizz-ui",
@@ -23453,6 +23453,52 @@
     },
     "downloads": 5542
   },
+  "gptpps/ppsvaulttracker": {
+    "slug": "gptpps/ppsvaulttracker",
+    "version": "1.1.0-beta",
+    "versions": {
+      "1.1.0-beta": {
+        "name": "PPsVaultTracker",
+        "author": "PPsRetroVault",
+        "description": "A modern VSTi tracker with FT2 heritage, VST3 plugin hosting, and MIDI + stems export",
+        "license": "agpl-3.0",
+        "type": "instrument",
+        "tags": [
+          "Tracker",
+          "VSTi",
+          "MIDI",
+          "Retro"
+        ],
+        "url": "https://github.com/gPTPPs/ppsvaulttracker",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/gptpps/ppsvaulttracker/ppsvaulttracker.jpg",
+        "date": "2026-07-05T21:53:27Z",
+        "changes": "The arrangement update — an order-list timeline view with per-track mute blocks, a drawable CC automation lane, pattern naming, and track renaming/reordering/colours. All v1.0.0-beta projects load unchanged.",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 4751929,
+            "sha256": "5cc101f3349115bd80a414384270dc29b99804c77e0d5c8db953934b094e98db",
+            "url": "https://github.com/gPTPPs/ppsvaulttracker/releases/download/v1.1.0-beta/PPsVaultTracker-1.1.0-beta-win64.zip",
+            "downloads": 2
+          }
+        ],
+        "verified": true,
+        "downloads": 2
+      }
+    },
+    "downloads": 2
+  },
   "giulioz/rdpiano": {
     "slug": "giulioz/rdpiano",
     "version": "2025.9.24",
@@ -28199,14 +28245,14 @@
             "size": 10646528,
             "sha256": "8ba6e91196067244837877d9ca4a8e4a1f5bfad60cf33fa699c8a5b41f1211bf",
             "url": "https://github.com/jatinchowdhury18/AnalogTapeModel/releases/download/v2.11.4/ChowTapeModel-Win-64bit-2.11.4.exe",
-            "downloads": 60665
+            "downloads": 60666
           }
         ],
         "verified": false,
-        "downloads": 105140
+        "downloads": 105141
       }
     },
-    "downloads": 105140
+    "downloads": 105141
   },
   "chowdhury-dsp/chowmultitool": {
     "slug": "chowdhury-dsp/chowmultitool",

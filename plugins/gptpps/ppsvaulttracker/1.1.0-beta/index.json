@@ -1,0 +1,39 @@
+{
+  "name": "PPsVaultTracker",
+  "author": "PPsRetroVault",
+  "description": "A modern VSTi tracker with FT2 heritage, VST3 plugin hosting, and MIDI + stems export",
+  "license": "agpl-3.0",
+  "type": "instrument",
+  "tags": [
+    "Tracker",
+    "VSTi",
+    "MIDI",
+    "Retro"
+  ],
+  "url": "https://github.com/gPTPPs/ppsvaulttracker",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/gptpps/ppsvaulttracker/ppsvaulttracker.jpg",
+  "date": "2026-07-05T21:53:27Z",
+  "changes": "The arrangement update — an order-list timeline view with per-track mute blocks, a drawable CC automation lane, pattern naming, and track renaming/reordering/colours. All v1.0.0-beta projects load unchanged.",
+  "files": [
+    {
+      "systems": [
+        {
+          "type": "win"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3"
+      ],
+      "type": "archive",
+      "size": 4751929,
+      "sha256": "5cc101f3349115bd80a414384270dc29b99804c77e0d5c8db953934b094e98db",
+      "url": "https://github.com/gPTPPs/ppsvaulttracker/releases/download/v1.1.0-beta/PPsVaultTracker-1.1.0-beta-win64.zip",
+      "downloads": 2
+    }
+  ],
+  "verified": true,
+  "downloads": 2
+}
