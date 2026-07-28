@@ -1,0 +1,88 @@
+{
+  "slug": "subhankardas15071992-cloud/protoplug",
+  "version": "1.6.0",
+  "versions": {
+    "1.6.0": {
+      "name": "Protoplug",
+      "author": "Nebula Audio",
+      "description": "Loads and edits Lua scripts as audio effects and instruments, turning a DAW into a live-coding environment for audio",
+      "license": "mit",
+      "type": "tool",
+      "tags": [
+        "Lua",
+        "Live Coding",
+        "Scripting"
+      ],
+      "url": "https://github.com/subhankardas15071992-cloud/protoplug",
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/subhankardas15071992-cloud/protoplug/protoplug.jpg",
+      "date": "2026-05-31T19:01:39Z",
+      "changes": "Now supports up to 64 channels where the host and plugin format allow. Fixed the MIDI event constructor issue from the original protoplug code. Linux variant now has an installation script for easy setup.",
+      "files": [
+        {
+          "systems": [
+            {
+              "type": "linux"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "vst3",
+            "clap",
+            "lv2",
+            "elf"
+          ],
+          "type": "archive",
+          "size": 29812475,
+          "sha256": "7052af0abfb6ff4317bba6c20bba5548bcee3759e94e7e0f672fee5bbc73c9ab",
+          "url": "https://github.com/subhankardas15071992-cloud/protoplug/releases/download/v1.6.0/protoplug-1.6.0-linux-x64.zip",
+          "downloads": 35
+        },
+        {
+          "systems": [
+            {
+              "type": "mac"
+            }
+          ],
+          "architectures": [
+            "arm64",
+            "x64"
+          ],
+          "contains": [
+            "vst3",
+            "component",
+            "clap"
+          ],
+          "type": "archive",
+          "size": 51453088,
+          "sha256": "c4a9e3428eb3fe67ede2e2e8618598fb30007c7df75eb729b91e689271217d33",
+          "url": "https://github.com/subhankardas15071992-cloud/protoplug/releases/download/v1.6.0/protoplug-1.6.0-macos-universal.zip",
+          "downloads": 44
+        },
+        {
+          "systems": [
+            {
+              "type": "win"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "vst3",
+            "clap"
+          ],
+          "type": "archive",
+          "size": 15813814,
+          "sha256": "1ee5f8615112cdbd5cbe90fe01f8497b7d9c373ddebb5cdf9d6c19d7dccdb682",
+          "url": "https://github.com/subhankardas15071992-cloud/protoplug/releases/download/v1.6.0/protoplug-1.6.0-windows-x64.zip",
+          "downloads": 124
+        }
+      ],
+      "verified": true,
+      "downloads": 203
+    }
+  },
+  "downloads": 203
+}
