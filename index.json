@@ -69,14 +69,14 @@
               "size": 2408590,
               "sha256": "c08e61ce3b96db41636f8ec7e76f4c7e2c13ebdac7fa1b5a1f52b4f32ec715ab",
               "url": "https://github.com/Tracktion/pluginval/releases/download/v1.0.4/pluginval_Windows.zip",
-              "downloads": 89813
+              "downloads": 89814
             }
           ],
           "verified": true,
-          "downloads": 161499
+          "downloads": 161500
         }
       },
-      "downloads": 161499
+      "downloads": 161500
     },
     "steinberg/validator": {
       "slug": "steinberg/validator",
@@ -251,7 +251,7 @@
               "size": 26912256,
               "sha256": "75e11fa16445f560cb6b021521ddb89e89270d13b83089705d98776f58fd7915",
               "url": "https://github.com/Rikorose/DeepFilterNet/releases/download/v0.5.6/deep-filter-0.5.6-x86_64-pc-windows-msvc.exe",
-              "downloads": 11234
+              "downloads": 11235
             },
             {
               "systems": [
@@ -267,14 +267,14 @@
               "size": 36417296,
               "sha256": "70775e251eee44c0f2451a1e833326cf8bcbbe304d3e7cd12851e6fce72ef7da",
               "url": "https://github.com/Rikorose/DeepFilterNet/releases/download/v0.5.6/deep-filter-0.5.6-x86_64-unknown-linux-musl",
-              "downloads": 23306
+              "downloads": 23307
             }
           ],
           "verified": true,
-          "downloads": 43932
+          "downloads": 43934
         }
       },
-      "downloads": 43932
+      "downloads": 43934
     },
     "monocasual/giada": {
       "slug": "monocasual/giada",
@@ -1525,7 +1525,7 @@
               "size": 11886592,
               "type": "installer",
               "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.2.2/ZL.Equalizer.2-1.2.2-Windows-x86-64-AVX2.msi",
-              "downloads": 3486
+              "downloads": 3487
             },
             {
               "architectures": [
@@ -1548,7 +1548,7 @@
             }
           ],
           "verified": true,
-          "downloads": 11607
+          "downloads": 11608
         },
         "1.1.0": {
           "name": "ZL Equalizer 2",
@@ -1687,7 +1687,7 @@
           "downloads": 41448
         }
       },
-      "downloads": 53055
+      "downloads": 53056
     },
     "zl-audio/zlcompressor": {
       "slug": "zl-audio/zlcompressor",
@@ -2568,14 +2568,14 @@
               "size": 37740885,
               "sha256": "e4dcc186102850f8dcebeb766ad1bf34c24f6280bd614ef84b72dae4783fc517",
               "url": "https://github.com/werman/noise-suppression-for-voice/releases/download/v1.10/win-rnnoise.zip",
-              "downloads": 328552
+              "downloads": 328553
             }
           ],
           "verified": true,
-          "downloads": 358493
+          "downloads": 358494
         }
       },
-      "downloads": 358493
+      "downloads": 358494
     },
     "webprofusion/soundshed-guitar": {
       "slug": "webprofusion/soundshed-guitar",
@@ -7976,7 +7976,7 @@
               "size": 223339140,
               "sha256": "a6e55064487f624147d515b9ae5fc79a568b69746675b2083abde628ca7bb151",
               "url": "https://github.com/surge-synthesizer/releases-xt/releases/download/1.3.4/surge-xt-linux-x64-1.3.4.deb",
-              "downloads": 34854
+              "downloads": 34855
             },
             {
               "systems": [
@@ -8019,7 +8019,7 @@
               "size": 416715686,
               "sha256": "b56e8d51a8dc2382ae668c9ff4e96bae38dbd452af4e584d5a5ef50ab2d09b07",
               "url": "https://github.com/surge-synthesizer/releases-xt/releases/download/1.3.4/surge-xt-macOS-1.3.4.dmg",
-              "downloads": 149225
+              "downloads": 149228
             },
             {
               "systems": [
@@ -8058,11 +8058,11 @@
               "size": 183385478,
               "sha256": "6e221e05f29254508142b9e0ed76a85f22fa1b512501bebde571951e7eefecca",
               "url": "https://github.com/surge-synthesizer/releases-xt/releases/download/1.3.4/surge-xt-win64-1.3.4-setup.exe",
-              "downloads": 496610
+              "downloads": 496616
             }
           ],
           "verified": true,
-          "downloads": 702527
+          "downloads": 702537
         },
         "1.3.1": {
           "name": "Surge XT",
@@ -8189,7 +8189,7 @@
           "downloads": 84039
         }
       },
-      "downloads": 786566
+      "downloads": 786576
     },
     "surge-synthesizer/ob-xf": {
       "slug": "surge-synthesizer/ob-xf",
@@ -8365,7 +8365,7 @@
               "size": 29354268,
               "sha256": "55418702355156b34ac1561fc00af5ca6ee744a3ac8a2187f4b7f11396afb624",
               "url": "https://github.com/surge-synthesizer/OB-Xf/releases/download/v1.0.3/ob-xf-Windows-v1.0.3.exe",
-              "downloads": 3660
+              "downloads": 3661
             },
             {
               "systems": [
@@ -8388,10 +8388,10 @@
             }
           ],
           "verified": true,
-          "downloads": 8516
+          "downloads": 8517
         }
       },
-      "downloads": 8516
+      "downloads": 8517
     },
     "surge-synthesizer/monique-monosynth": {
       "slug": "surge-synthesizer/monique-monosynth",
@@ -10447,14 +10447,14 @@
               "size": 10349826,
               "sha256": "83e2825241d4e1c0ab2c44c91c0a9be6a94941a81df0c2fbe05e83b2650470da",
               "url": "https://github.com/Sinuslabs/Reach/releases/download/1.6.6/Reach-Windows.exe",
-              "downloads": 167539
+              "downloads": 167542
             }
           ],
           "verified": true,
-          "downloads": 169326
+          "downloads": 169329
         }
       },
-      "downloads": 169326
+      "downloads": 169329
     },
     "sfztools/sfizz-ui": {
       "slug": "sfztools/sfizz-ui",
@@ -12221,7 +12221,7 @@
               "size": 31397826,
               "sha256": "732dde1f9b701126afba985744e443bec1a87c5601e2a6a5093b9ba16464d618",
               "url": "https://github.com/reales/OB-Xd/releases/download/v2.19/Obxd219.deb",
-              "downloads": 585
+              "downloads": 586
             },
             {
               "systems": [
@@ -12240,7 +12240,7 @@
               "size": 49872931,
               "sha256": "954072c937e79be2d1adc42ebeca342c0d4cbf95a12442adb0d60a97c260f7f9",
               "url": "https://github.com/reales/OB-Xd/releases/download/v2.19/OB-Xd.2.19.pkg",
-              "downloads": 1401
+              "downloads": 1402
             },
             {
               "systems": [
@@ -12259,14 +12259,14 @@
               "size": 38321128,
               "sha256": "b87017cad87835d00bfd6bdde6a15df3e46816ee5673965decd25c00e9f14ddd",
               "url": "https://github.com/reales/OB-Xd/releases/download/v2.19/Obxd219.exe",
-              "downloads": 291
+              "downloads": 292
             }
           ],
           "verified": true,
-          "downloads": 2277
+          "downloads": 2280
         }
       },
-      "downloads": 2277
+      "downloads": 2280
     },
     "rclement/meeblip-controller": {
       "slug": "rclement/meeblip-controller",
@@ -14427,6 +14427,52 @@
         }
       },
       "downloads": 1137
+    },
+    "otodesk4193/glitchnexus": {
+      "slug": "otodesk4193/glitchnexus",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "name": "GlitchNexus",
+          "author": "OTODESK",
+          "description": "Granular glitch multi-effect plugin with a cross-modulation engine and a 16-step sequencer for controlled destruction",
+          "license": "agpl-3.0",
+          "type": "effect",
+          "tags": [
+            "Glitch",
+            "Granular",
+            "Sequencer",
+            "Bitcrush"
+          ],
+          "url": "https://github.com/OTODESK4193/GlitchNexus",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/otodesk4193/glitchnexus/glitchnexus.jpg",
+          "date": "2026-04-29T04:27:18Z",
+          "changes": "v1.0.0 release.",
+          "files": [
+            {
+              "systems": [
+                {
+                  "type": "win"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "vst3"
+              ],
+              "type": "archive",
+              "size": 2589501,
+              "sha256": "c122ba29f84efc887051eeefe7d8fe9832381e5b3534767963ca154ba2ddbd51",
+              "url": "https://github.com/OTODESK4193/GlitchNexus/releases/download/V1.0.0/GlitchNexus.vst3.zip",
+              "downloads": 239
+            }
+          ],
+          "verified": true,
+          "downloads": 239
+        }
+      },
+      "downloads": 239
     },
     "otodesk4193/anatomy": {
       "slug": "otodesk4193/anatomy",
@@ -16751,7 +16797,7 @@
               "size": 2267368,
               "sha256": "59f1593120de82e31dd194e2ab1536af14fec2b3ec6ec45abf6d9c8ac02ef430",
               "url": "https://github.com/michaelwillis/dragonfly-reverb/releases/download/3.2.10/dragonfly-reverb-3.2.10-linux-x86_64.tar.xz",
-              "downloads": 9853
+              "downloads": 9854
             },
             {
               "systems": [
@@ -16818,7 +16864,7 @@
               "size": 24954281,
               "sha256": "e0b854b92a4e51ce5851320fb1a9f91ab1a4309f997de070e175b3e5cab4adaf",
               "url": "https://github.com/michaelwillis/dragonfly-reverb/releases/download/3.2.10/dragonfly-reverb-3.2.10-macos-universal.dmg",
-              "downloads": 14008
+              "downloads": 14009
             },
             {
               "systems": [
@@ -16862,7 +16908,7 @@
               "size": 22447365,
               "sha256": "ca5f35f9dcd9a33f06490d3c92f04061a1a798cb81257d5ca5851bdda0824c66",
               "url": "https://github.com/michaelwillis/dragonfly-reverb/releases/download/3.2.10/dragonfly-reverb-3.2.10-win64.zip",
-              "downloads": 67402
+              "downloads": 67405
             },
             {
               "systems": [
@@ -16888,10 +16934,10 @@
             }
           ],
           "verified": true,
-          "downloads": 126984
+          "downloads": 126989
         }
       },
-      "downloads": 126984
+      "downloads": 126989
     },
     "michael02022/basic-harmonica": {
       "slug": "michael02022/basic-harmonica",
@@ -19216,14 +19262,14 @@
               "size": 6658226,
               "sha256": "861ad556d4767108844ff44ee84656fc2fb71c89af72a385f590ffd9996799a6",
               "url": "https://github.com/liuanlin-mx/MXTune/releases/download/v1.2.0/windows_x86_64_vst_v1.2.0.zip",
-              "downloads": 23261
+              "downloads": 23262
             }
           ],
           "verified": true,
-          "downloads": 37771
+          "downloads": 37772
         }
       },
-      "downloads": 37771
+      "downloads": 37772
     },
     "leomccormack/sparta": {
       "slug": "leomccormack/sparta",
@@ -19788,14 +19834,14 @@
               "size": 39364144,
               "sha256": "9144ec0b0263931ccad8d91d6ae8634d8a8f64ecd5e365ea1fa6180688580769",
               "url": "https://github.com/kushview/element/releases/download/1.0.0/element-1.0.0-win64.exe",
-              "downloads": 14677
+              "downloads": 14678
             }
           ],
           "verified": true,
-          "downloads": 20954
+          "downloads": 20955
         }
       },
-      "downloads": 20954
+      "downloads": 20955
     },
     "kiriki-liszt/relief-compressor": {
       "slug": "kiriki-liszt/relief-compressor",
@@ -20236,14 +20282,14 @@
               "size": 9405386,
               "sha256": "640c628b247fa283a40650e84be861808fa5cd58423cefb6455ea44d9880a1f0",
               "url": "https://github.com/kayrockscreenprinting/ultramaster_kr106/releases/download/v2.5.13/KR106-Windows.zip",
-              "downloads": 2213
+              "downloads": 2214
             }
           ],
           "verified": true,
-          "downloads": 4807
+          "downloads": 4808
         }
       },
-      "downloads": 4807
+      "downloads": 4808
     },
     "kaixocode/spectralrotator": {
       "slug": "kaixocode/spectralrotator",
@@ -30127,14 +30173,14 @@
               "size": 10646528,
               "sha256": "8ba6e91196067244837877d9ca4a8e4a1f5bfad60cf33fa699c8a5b41f1211bf",
               "url": "https://github.com/jatinchowdhury18/AnalogTapeModel/releases/download/v2.11.4/ChowTapeModel-Win-64bit-2.11.4.exe",
-              "downloads": 60668
+              "downloads": 60669
             }
           ],
           "verified": false,
-          "downloads": 105144
+          "downloads": 105145
         }
       },
-      "downloads": 105144
+      "downloads": 105145
     },
     "chowdhury-dsp/chowmultitool": {
       "slug": "chowdhury-dsp/chowmultitool",
@@ -30528,7 +30574,7 @@
               "size": 22194032,
               "sha256": "c1803ae57b717bab04ef2072c10284bcb7d44fbe352d42645075b0c6875c9aeb",
               "url": "https://github.com/Chowdhury-DSP/BYOD/releases/download/v1.3.0/BYOD-Linux-x64-1.3.0.deb",
-              "downloads": 6009
+              "downloads": 6010
             },
             {
               "systems": [
@@ -30549,7 +30595,7 @@
               "size": 89127908,
               "sha256": "997a0508b00a583d8563eb0e330c7e318fe43e7f4f3b06ba3d389221aeb7254a",
               "url": "https://github.com/Chowdhury-DSP/BYOD/releases/download/v1.3.0/BYOD-Mac-1.3.0.dmg",
-              "downloads": 6967
+              "downloads": 6968
             },
             {
               "systems": [
@@ -30568,14 +30614,14 @@
               "size": 26404896,
               "sha256": "a53fb65cedf90f7673e21ac2d12f5b0778f003ae7f2e34e6c4301854a738c36c",
               "url": "https://github.com/Chowdhury-DSP/BYOD/releases/download/v1.3.0/BYOD-Win-64bit-1.3.0.exe",
-              "downloads": 15203
+              "downloads": 15204
             }
           ],
           "verified": true,
-          "downloads": 28179
+          "downloads": 28182
         }
       },
-      "downloads": 28179
+      "downloads": 28182
     },
     "cannerycoders/fluidsynth.clap": {
       "slug": "cannerycoders/fluidsynth.clap",
@@ -30992,14 +31038,14 @@
               "size": 3014834,
               "sha256": "05432f34b0e0dd4c62f96a0f053d18c26c088ab08c7ca0e89f932cac1b827569",
               "url": "https://github.com/brummer10/NeuralRack/releases/download/v0.3.3/NeuralRack-app-v0.3.3-win64.zip",
-              "downloads": 97
+              "downloads": 98
             }
           ],
           "verified": true,
-          "downloads": 1274
+          "downloads": 1275
         }
       },
-      "downloads": 1274
+      "downloads": 1275
     },
     "brummer10/loopino": {
       "slug": "brummer10/loopino",
@@ -31492,14 +31538,14 @@
               "size": 16237789,
               "sha256": "21a706090d0a72511756dfd65d6a3c0711257c94b707679346e04d182dc178a0",
               "url": "https://github.com/Birch-san/juicysfplugin/releases/download/3.1.0/juicysfplugin-3.1.0-win-x64.zip",
-              "downloads": 35419
+              "downloads": 35420
             }
           ],
           "verified": true,
-          "downloads": 41133
+          "downloads": 41134
         }
       },
-      "downloads": 41133
+      "downloads": 41134
     },
     "billydm/vitalium-verb": {
       "slug": "billydm/vitalium-verb",
@@ -32546,7 +32592,7 @@
               "size": 7725160,
               "sha256": "2bac3d0c4237e8c22c4274b6d5b59fe6329fcae72864f81b5830393eff354fc1",
               "url": "https://github.com/asb2m10/dexed/releases/download/v1.0.1/Dexed-1.0.1-lnx.zip",
-              "downloads": 2977
+              "downloads": 2978
             },
             {
               "systems": [
@@ -32568,7 +32614,7 @@
               "size": 17183630,
               "sha256": "a6505103869d15400e7bed1d988d9dd155d6d8204a3d532f5301966ae7507ad8",
               "url": "https://github.com/asb2m10/dexed/releases/download/v1.0.1/Dexed-1.0.1-macOS.dmg",
-              "downloads": 56444
+              "downloads": 56447
             },
             {
               "systems": [
@@ -32609,7 +32655,7 @@
               "size": 11275100,
               "sha256": "5dc4e072af90ec54aa0197790b40856e7db1659ff924ed107c7536b442d3584b",
               "url": "https://github.com/asb2m10/dexed/releases/download/v1.0.1/Dexed-1.0.1-win.exe",
-              "downloads": 77270
+              "downloads": 77275
             },
             {
               "systems": [
@@ -32633,7 +32679,7 @@
             }
           ],
           "verified": true,
-          "downloads": 142771
+          "downloads": 142780
         },
         "0.9.8": {
           "name": "Dexed",
@@ -32718,7 +32764,7 @@
           "downloads": 195045
         }
       },
-      "downloads": 337816
+      "downloads": 337825
     },
     "artfwo/andes": {
       "slug": "artfwo/andes",
