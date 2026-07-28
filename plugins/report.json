@@ -2651,6 +2651,24 @@
       ]
     }
   },
+  "gptpps/ub-poly16": {
+    "0.8.0": {
+      "recs": [
+        {
+          "field": "architectures",
+          "rec": "should support arm64"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Linux"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Mac"
+        }
+      ]
+    }
+  },
   "gptpps/ppsvaulttracker": {
     "1.1.0-beta": {
       "recs": [

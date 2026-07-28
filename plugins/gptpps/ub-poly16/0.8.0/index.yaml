@@ -1,0 +1,36 @@
+name: UB_Poly16
+author: PPsRetroVault
+description: 16-voice virtual-analog polysynth inspired by the Juno-106, with dual DCOs, hard sync/ring mod, and a step-sequenced arpeggiator
+license: agpl-3.0
+type: instrument
+tags:
+  - Synthesizer
+  - Polysynth
+  - Analog
+  - Arpeggiator
+  - VST3
+url: https://github.com/gPTPPs/UB_Poly16
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/gptpps/ub-poly16/ub-poly16.jpg
+date: '2026-07-09T22:52:52Z'
+changes: Adds a 16-step arpeggiator groove sequencer (accent/tie/ratchet/swing) with host phase-lock, a full-window preset browser with search and favourites (131 factory presets), and a new azur/mauve UI theme.
+files:
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - vst3
+    type: archive
+    size: 7112619
+    sha256: da2c699731586b0d794fbc797eecf1f19752a21980f2eaebed62b71c93339a7f
+    url: https://github.com/gPTPPs/UB_Poly16/releases/download/v0.8.0/UB_Poly16-0.8.0-win64.zip
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - vst3
+    type: installer
+    size: 5486745
+    sha256: b4edfad70466f887b061a4948fb3dc5c99eb052d5b594cb7d9021961de907aa8
+    url: https://github.com/gPTPPs/UB_Poly16/releases/download/v0.8.0/UB_Poly16_Setup_0.8.0.exe
