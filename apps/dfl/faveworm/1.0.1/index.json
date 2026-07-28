@@ -1,0 +1,69 @@
+{
+  "name": "Faveworm",
+  "author": "David Löwenfels",
+  "description": "XY oscilloscope visualizer that renders audio waveforms as glowing analog-style beams, with a state-variable filter and physics-based beam rendering",
+  "license": "mit",
+  "type": "tool",
+  "tags": [
+    "Oscilloscope",
+    "Visualizer",
+    "Audio Reactive"
+  ],
+  "url": "https://github.com/dfl/faveworm",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/apps/dfl/faveworm/faveworm.jpg",
+  "date": "2026-01-07T16:33:11Z",
+  "changes": "v1.0.1 release.",
+  "files": [
+    {
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "type": "archive",
+      "open": "Faveworm",
+      "size": 3074506,
+      "sha256": "16117fc1452133a3d334ea79658cdc3e2b2073c4be755fc431201045ca35a86b",
+      "url": "https://github.com/dfl/faveworm/releases/download/v1.0.1/faveworm-linux-x86_64.tar.gz",
+      "downloads": 3
+    },
+    {
+      "systems": [
+        {
+          "type": "mac"
+        }
+      ],
+      "architectures": [
+        "arm64",
+        "x64"
+      ],
+      "type": "archive",
+      "open": "Faveworm.app",
+      "size": 4471780,
+      "sha256": "c459cd0646f5bede736d93ebeaf2353e04dcce70e1aaadb27e3201dfb2696cf3",
+      "url": "https://github.com/dfl/faveworm/releases/download/v1.0.1/faveworm-macos-universal.zip",
+      "downloads": 15
+    },
+    {
+      "systems": [
+        {
+          "type": "win"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "type": "archive",
+      "open": "Release/Faveworm.exe",
+      "size": 1231934,
+      "sha256": "ee35292f16f9c9a068db0d47e088e7fc9bbe2a5d3d27f11f6f49ca50282335a4",
+      "url": "https://github.com/dfl/faveworm/releases/download/v1.0.1/faveworm-windows-x86_64.zip",
+      "downloads": 7
+    }
+  ],
+  "verified": true,
+  "downloads": 25
+}
