@@ -7871,7 +7871,7 @@
               "size": 180883859,
               "sha256": "6fe3fb20ef21672666dddb816ad73f2966e98b70edad9189183451a255c2b2d1",
               "url": "https://github.com/surge-synthesizer/releases-xt/releases/download/1.3.4/surge-xt-win32-1.3.4-setup.exe",
-              "downloads": 18286
+              "downloads": 18288
             },
             {
               "systems": [
@@ -7895,7 +7895,7 @@
             }
           ],
           "verified": true,
-          "downloads": 702513
+          "downloads": 702515
         },
         "1.3.1": {
           "name": "Surge XT",
@@ -8022,7 +8022,7 @@
           "downloads": 84039
         }
       },
-      "downloads": 786552
+      "downloads": 786554
     },
     "surge-synthesizer/ob-xf": {
       "slug": "surge-synthesizer/ob-xf",
@@ -13341,6 +13341,52 @@
         }
       },
       "downloads": 6411
+    },
+    "pixelsncodes/lumen": {
+      "slug": "pixelsncodes/lumen",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "name": "Lumen",
+          "author": "Kazi Ahmed",
+          "description": "Wavetable synthesizer that turns dropped-in images into sound — brightness becomes waveform, image structure becomes harmonics",
+          "license": "mit",
+          "type": "instrument",
+          "tags": [
+            "Synthesizer",
+            "Wavetable",
+            "VST3",
+            "Standalone"
+          ],
+          "url": "https://github.com/pixelsncodes/lumen",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/pixelsncodes/lumen/lumen.jpg",
+          "date": "2026-07-04T00:57:42Z",
+          "changes": "Drop a photo onto the synth and it becomes sound via the Lens image-to-tone engine (Scan + Spectral modes, color-driven macros). Includes 32 factory presets, poly/mono/legato voice modes with glide, a live spectral waterfall display, and MIDI Learn.",
+          "files": [
+            {
+              "systems": [
+                {
+                  "type": "win"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "vst3"
+              ],
+              "type": "archive",
+              "size": 8439162,
+              "sha256": "a6d95c54413aedfc2afc7b302f07ee21b3c6919084472c48300130c8205c19f8",
+              "url": "https://github.com/pixelsncodes/lumen/releases/download/v1.0.0/Lumen-1.0.0-win64.zip",
+              "downloads": 1944
+            }
+          ],
+          "verified": true,
+          "downloads": 1944
+        }
+      },
+      "downloads": 1944
     },
     "pentagrampro/owlbass": {
       "slug": "pentagrampro/owlbass",
@@ -24140,7 +24186,7 @@
               "size": 2703980,
               "sha256": "06b2ba4d8438fc90376485aff6ed3c732868c6bfb1b773a2c348c0e6ad6d1352",
               "url": "https://github.com/GuitarML/Chameleon/releases/download/v1.2.0/Chameleon-Linux-x64-1.2.deb",
-              "downloads": 2327
+              "downloads": 2328
             },
             {
               "systems": [
@@ -24183,10 +24229,10 @@
             }
           ],
           "verified": true,
-          "downloads": 10941
+          "downloads": 10942
         }
       },
-      "downloads": 10941
+      "downloads": 10942
     },
     "gregrecco67/audibleplanets": {
       "slug": "gregrecco67/audibleplanets",
@@ -24572,7 +24618,7 @@
               "size": 19991130,
               "sha256": "45970d3cb3331f1d420723ae626e4cf7570c2fee3d0e2635dd1dec61954a8181",
               "url": "https://github.com/giulioz/rdpiano/releases/download/latest/rdpiano_juce.app.macOS.zip",
-              "downloads": 1118
+              "downloads": 1119
             },
             {
               "systems": [
@@ -24591,7 +24637,7 @@
               "size": 9774477,
               "sha256": "143df86cc3cd5e64da3bff5ab492cbfce069d14c61c57f2a3063be889d95c321",
               "url": "https://github.com/giulioz/rdpiano/releases/download/latest/rdpiano_juce.component.macOS.zip",
-              "downloads": 1893
+              "downloads": 1894
             },
             {
               "systems": [
@@ -24610,7 +24656,7 @@
               "size": 9783796,
               "sha256": "284f4519a623b6c28adcc098a57035a8a6f45ace021bd365838d03a29fca82a6",
               "url": "https://github.com/giulioz/rdpiano/releases/download/latest/rdpiano_juce.vst3.macOS.zip",
-              "downloads": 1515
+              "downloads": 1516
             },
             {
               "systems": [
@@ -24704,10 +24750,10 @@
             }
           ],
           "verified": true,
-          "downloads": 12803
+          "downloads": 12806
         }
       },
-      "downloads": 12803
+      "downloads": 12806
     },
     "geissmannsbin/measure-counter-vst": {
       "slug": "geissmannsbin/measure-counter-vst",
@@ -33101,14 +33147,14 @@
               "size": 5599030,
               "sha256": "d3498b897bfdf967c645b6e14ef981007eef27d57803b00545d049c6e78ab392",
               "url": "https://github.com/ArdenButterfield/Maim/releases/download/v1.1.1/Maim-1.1.1-Windows.exe",
-              "downloads": 10030
+              "downloads": 10031
             }
           ],
           "verified": true,
-          "downloads": 14296
+          "downloads": 14297
         }
       },
-      "downloads": 14296
+      "downloads": 14297
     },
     "archie3d/aeolus": {
       "slug": "archie3d/aeolus",

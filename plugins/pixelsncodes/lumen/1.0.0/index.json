@@ -1,0 +1,39 @@
+{
+  "name": "Lumen",
+  "author": "Kazi Ahmed",
+  "description": "Wavetable synthesizer that turns dropped-in images into sound — brightness becomes waveform, image structure becomes harmonics",
+  "license": "mit",
+  "type": "instrument",
+  "tags": [
+    "Synthesizer",
+    "Wavetable",
+    "VST3",
+    "Standalone"
+  ],
+  "url": "https://github.com/pixelsncodes/lumen",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/pixelsncodes/lumen/lumen.jpg",
+  "date": "2026-07-04T00:57:42Z",
+  "changes": "Drop a photo onto the synth and it becomes sound via the Lens image-to-tone engine (Scan + Spectral modes, color-driven macros). Includes 32 factory presets, poly/mono/legato voice modes with glide, a live spectral waterfall display, and MIDI Learn.",
+  "files": [
+    {
+      "systems": [
+        {
+          "type": "win"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3"
+      ],
+      "type": "archive",
+      "size": 8439162,
+      "sha256": "a6d95c54413aedfc2afc7b302f07ee21b3c6919084472c48300130c8205c19f8",
+      "url": "https://github.com/pixelsncodes/lumen/releases/download/v1.0.0/Lumen-1.0.0-win64.zip",
+      "downloads": 1944
+    }
+  ],
+  "verified": true,
+  "downloads": 1944
+}
