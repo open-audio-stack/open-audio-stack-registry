@@ -2155,6 +2155,24 @@
       ]
     }
   },
+  "larrymarmalade/the-archaeologist": {
+    "0.1.0": {
+      "recs": [
+        {
+          "field": "url",
+          "rec": "requires mounting step, consider .pkg instead"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Linux"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Windows"
+        }
+      ]
+    }
+  },
   "kushview/roboverb": {
     "1.1.0": {
       "recs": [
