@@ -1487,7 +1487,7 @@
               "size": 9763297,
               "type": "archive",
               "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.2.2/ZL.Equalizer.2-1.2.2-Linux-x86-64.zip",
-              "downloads": 411
+              "downloads": 412
             },
             {
               "architectures": [
@@ -1592,7 +1592,7 @@
             }
           ],
           "verified": true,
-          "downloads": 11753
+          "downloads": 11754
         },
         "1.1.0": {
           "name": "ZL Equalizer 2",
@@ -1731,7 +1731,7 @@
           "downloads": 41453
         }
       },
-      "downloads": 53206
+      "downloads": 53207
     },
     "zl-audio/zlcompressor": {
       "slug": "zl-audio/zlcompressor",
@@ -6197,7 +6197,7 @@
               "size": 7143966,
               "sha256": "74353dc437c736b6d27f41ec03180febaa071d0ce68ba8edf7261a0c6031eb45",
               "url": "https://github.com/tiagolr/tetraop/releases/download/v1.0.3/tetraop-win-v1.0.3.zip",
-              "downloads": 937
+              "downloads": 938
             },
             {
               "systems": [
@@ -6219,10 +6219,10 @@
             }
           ],
           "verified": true,
-          "downloads": 2796
+          "downloads": 2797
         }
       },
-      "downloads": 2796
+      "downloads": 2797
     },
     "tiagolr/sirial": {
       "slug": "tiagolr/sirial",
@@ -24066,6 +24066,90 @@
         }
       },
       "downloads": 769
+    },
+    "hyakkei/molluskvoicechanger": {
+      "slug": "hyakkei/molluskvoicechanger",
+      "version": "1.1.0",
+      "versions": {
+        "1.1.0": {
+          "name": "Mollusk Voice Changer",
+          "author": "hyakkei",
+          "description": "Real-time voice changer for calls and streaming, with pitch and formant shifting for a soft-bodied-creature (squid/octopus) vocal effect",
+          "license": "agpl-3.0",
+          "type": "effect",
+          "tags": [
+            "Voice Changer",
+            "Pitch Shifter",
+            "Formant",
+            "Streaming"
+          ],
+          "url": "https://github.com/hyakkei/MolluskVoiceChanger",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/hyakkei/molluskvoicechanger/molluskvoicechanger.jpg",
+          "date": "2026-05-17T05:57:22Z",
+          "changes": "Adds an output level meter to the Basic panel. PitchShifter/FormantShifter now use a Passthrough/FadingIn/Active/FadingOut state machine instead of a simple bypass. Linux builds are untested.",
+          "files": [
+            {
+              "systems": [
+                {
+                  "type": "mac"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "vst3",
+                "app"
+              ],
+              "type": "archive",
+              "size": 12649716,
+              "sha256": "15cca2470f590ae86beb5321355e1bc3d2d45411e4773207b7d1597a619ddc8a",
+              "url": "https://github.com/hyakkei/MolluskVoiceChanger/releases/download/v1.1.0/Mollusk.Voice.Changer_1.1.0_mac.zip",
+              "downloads": 22
+            },
+            {
+              "systems": [
+                {
+                  "type": "win"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "vst3",
+                "exe"
+              ],
+              "type": "archive",
+              "size": 9392634,
+              "sha256": "36405adfac1609fddcb07a735ba5a18bff696e979327f8fe73e616a6985200c4",
+              "url": "https://github.com/hyakkei/MolluskVoiceChanger/releases/download/v1.1.0/Mollusk.Voice.Changer_1.1.0_win.zip",
+              "downloads": 157
+            },
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "elf"
+              ],
+              "type": "archive",
+              "size": 13901151,
+              "sha256": "091ce7c341ff674742acf842ef2204e8dd13a0946bab863c38f8d2d57f3ee448",
+              "url": "https://github.com/hyakkei/MolluskVoiceChanger/releases/download/v1.1.0/MolluskVoiceChanger_1.1.0_linux.tar.gz",
+              "downloads": 16
+            }
+          ],
+          "verified": true,
+          "downloads": 195
+        }
+      },
+      "downloads": 195
     },
     "hqrrr/perceptomap": {
       "slug": "hqrrr/perceptomap",

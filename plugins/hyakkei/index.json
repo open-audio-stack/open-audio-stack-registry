@@ -1,0 +1,86 @@
+{
+  "hyakkei/molluskvoicechanger": {
+    "slug": "hyakkei/molluskvoicechanger",
+    "version": "1.1.0",
+    "versions": {
+      "1.1.0": {
+        "name": "Mollusk Voice Changer",
+        "author": "hyakkei",
+        "description": "Real-time voice changer for calls and streaming, with pitch and formant shifting for a soft-bodied-creature (squid/octopus) vocal effect",
+        "license": "agpl-3.0",
+        "type": "effect",
+        "tags": [
+          "Voice Changer",
+          "Pitch Shifter",
+          "Formant",
+          "Streaming"
+        ],
+        "url": "https://github.com/hyakkei/MolluskVoiceChanger",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/hyakkei/molluskvoicechanger/molluskvoicechanger.jpg",
+        "date": "2026-05-17T05:57:22Z",
+        "changes": "Adds an output level meter to the Basic panel. PitchShifter/FormantShifter now use a Passthrough/FadingIn/Active/FadingOut state machine instead of a simple bypass. Linux builds are untested.",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "app"
+            ],
+            "type": "archive",
+            "size": 12649716,
+            "sha256": "15cca2470f590ae86beb5321355e1bc3d2d45411e4773207b7d1597a619ddc8a",
+            "url": "https://github.com/hyakkei/MolluskVoiceChanger/releases/download/v1.1.0/Mollusk.Voice.Changer_1.1.0_mac.zip",
+            "downloads": 22
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "exe"
+            ],
+            "type": "archive",
+            "size": 9392634,
+            "sha256": "36405adfac1609fddcb07a735ba5a18bff696e979327f8fe73e616a6985200c4",
+            "url": "https://github.com/hyakkei/MolluskVoiceChanger/releases/download/v1.1.0/Mollusk.Voice.Changer_1.1.0_win.zip",
+            "downloads": 157
+          },
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "elf"
+            ],
+            "type": "archive",
+            "size": 13901151,
+            "sha256": "091ce7c341ff674742acf842ef2204e8dd13a0946bab863c38f8d2d57f3ee448",
+            "url": "https://github.com/hyakkei/MolluskVoiceChanger/releases/download/v1.1.0/MolluskVoiceChanger_1.1.0_linux.tar.gz",
+            "downloads": 16
+          }
+        ],
+        "verified": true,
+        "downloads": 195
+      }
+    },
+    "downloads": 195
+  }
+}
