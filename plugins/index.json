@@ -21397,6 +21397,146 @@
     },
     "downloads": 5509
   },
+  "jonet/monksynth": {
+    "slug": "jonet/monksynth",
+    "version": "0.2.0-beta.15",
+    "versions": {
+      "0.2.0-beta.15": {
+        "name": "MonkSynth",
+        "author": "Jon Taylor",
+        "description": "Monophonic vocal synthesizer using FOF synthesis, inspired by Delay Lama",
+        "license": "mit",
+        "type": "instrument",
+        "tags": [
+          "Vocal Synthesis",
+          "FOF",
+          "Monophonic"
+        ],
+        "url": "https://github.com/JonET/monksynth",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/jonet/monksynth/monksynth.jpg",
+        "date": "2026-05-14T17:10:57Z",
+        "changes": "Windows VST3 plugin and installer are now code-signed via SignPath Foundation.",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "component"
+            ],
+            "type": "installer",
+            "size": 3427690,
+            "sha256": "d3af62c1ebdd0fd1279ff97811f47e04c84f478f561a08441c64c8ff2d38dc9f",
+            "url": "https://github.com/JonET/monksynth/releases/download/v0.2.0-beta.15/MonkSynth-0.2.0-beta.15-macOS-Setup.pkg",
+            "downloads": 1765
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "component"
+            ],
+            "type": "installer",
+            "size": 3272248,
+            "sha256": "cc60321967884d62a7a0ae39f07c763d21859e47071c15113f7811cdd776f64c",
+            "url": "https://github.com/JonET/monksynth/releases/download/v0.2.0-beta.15/MonkSynth-0.2.0-beta.15-Windows-Setup.exe",
+            "downloads": 2632
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "component"
+            ],
+            "type": "archive",
+            "size": 1825535,
+            "sha256": "c7d805812857db0eecd0ec7f15058dc6ec6797efa4dcabeb57df7e0a0da8ce4d",
+            "url": "https://github.com/JonET/monksynth/releases/download/v0.2.0-beta.15/MonkSynth-AU-macOS.zip",
+            "downloads": 571
+          },
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 4302523,
+            "sha256": "546ad770f7481c78bc392065ddfd0dac3b474ff7e79c40c9743e26a46cdf6593",
+            "url": "https://github.com/JonET/monksynth/releases/download/v0.2.0-beta.15/MonkSynth-VST3-Linux.zip",
+            "downloads": 161
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 1585749,
+            "sha256": "0daf2a54e9d1b2da4cf121003c548e42eaf4019b98412d0563ca0a741cd73b3f",
+            "url": "https://github.com/JonET/monksynth/releases/download/v0.2.0-beta.15/MonkSynth-VST3-macOS.zip",
+            "downloads": 663
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 1608386,
+            "sha256": "e139d28c75b379693724efe2a252cd5462bba104ed14175b2c5242bd3bd71386",
+            "url": "https://github.com/JonET/monksynth/releases/download/v0.2.0-beta.15/MonkSynth-VST3-Windows.zip",
+            "downloads": 1698
+          }
+        ],
+        "verified": true,
+        "downloads": 7490
+      }
+    },
+    "downloads": 7490
+  },
   "joht/speclet": {
     "slug": "joht/speclet",
     "version": "1.0.2",
