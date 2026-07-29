@@ -1,0 +1,55 @@
+name: DrumCloud
+author: Fuimadane
+description: Granular sample instrument that loads your own samples and manipulates them into massive atmospheric soundscapes, with built-in cloud reverb and a state variable filter
+license: isc
+type: instrument
+tags:
+  - Granular
+  - Sampler
+  - Ambient
+  - Reverb
+url: https://github.com/Chmod666music/DPF
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/chmod666music/drumcloud/drumcloud.jpg
+date: '2026-05-28T07:40:27Z'
+changes: 'Redesigned scalable dark-mode UI. Adds a built-in FDN cloud reverb and a state variable filter (LP to HP with resonance), transforming it from a granular playback engine into an atmospheric soundscape generator. Fixed LV2 Release parameter recall.'
+files:
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - clap
+    type: archive
+    size: 282758
+    sha256: d257abf00dce83e2925f4804faf55c4a601fbbf1f5035c8a5aad48765182922f
+    url: https://github.com/Chmod666music/DPF/releases/download/v1.8/DrumCloud-Fuimadane-CLAP-Linux-v1.8.zip
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - lv2
+    type: archive
+    size: 305191
+    sha256: ca4e1bf2cf19b28cc822bc20c05ab339d8aee9c74c806641ab48f546f9d195a4
+    url: https://github.com/Chmod666music/DPF/releases/download/v1.8/DrumCloud-Fuimadane-LV2-Linux-v1.8.zip
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - so
+    type: archive
+    size: 277542
+    sha256: 27a09a0321f578f15f17b78889c30f5b0e399f4fdab6f06c5fa9718c316ab72f
+    url: https://github.com/Chmod666music/DPF/releases/download/v1.8/DrumCloud-Fuimadane-VST2-Linux-v1.8.zip
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - vst3
+    type: archive
+    size: 309411
+    sha256: 9dd1d9dccb99ee18dd8546305ba92c6f3fcd7eeb15ec00d635067f93998fc8ad
+    url: https://github.com/Chmod666music/DPF/releases/download/v1.8/DrumCloud-Fuimadane-VST3-Linux-v1.8.zip
