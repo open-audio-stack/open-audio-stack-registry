@@ -1430,14 +1430,14 @@
             "size": 37740885,
             "sha256": "e4dcc186102850f8dcebeb766ad1bf34c24f6280bd614ef84b72dae4783fc517",
             "url": "https://github.com/werman/noise-suppression-for-voice/releases/download/v1.10/win-rnnoise.zip",
-            "downloads": 328732
+            "downloads": 328733
           }
         ],
         "verified": true,
-        "downloads": 358686
+        "downloads": 358687
       }
     },
-    "downloads": 358686
+    "downloads": 358687
   },
   "webprofusion/soundshed-guitar": {
     "slug": "webprofusion/soundshed-guitar",
@@ -16969,6 +16969,107 @@
       }
     },
     "downloads": 296
+  },
+  "manaswolrd/steepflanger": {
+    "slug": "manaswolrd/steepflanger",
+    "version": "0.2.1-separate",
+    "versions": {
+      "0.2.1-separate": {
+        "name": "Steep Flanger",
+        "author": "ManasWolrd",
+        "description": "FIR/IIR flanger plugin with barberpole flanging",
+        "license": "gpl-3.0",
+        "type": "effect",
+        "tags": [
+          "Flanger",
+          "Barberpole"
+        ],
+        "url": "https://github.com/ManasWolrd/SteepFlanger",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/manaswolrd/steepflanger/steepflanger.jpg",
+        "date": "2026-04-27T12:46:34Z",
+        "changes": "v0.2.1-separate release.",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "lv2"
+            ],
+            "type": "archive",
+            "size": 8855322,
+            "sha256": "b1ec1f2a9200d68fb46c92c890d5449eef532e5102a482338afbd205bde040d9",
+            "url": "https://github.com/ManasWolrd/SteepFlanger/releases/download/v0.2.1-separate/SteepFlanger-linux-v0.2.1-separate.zip",
+            "downloads": 24
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64"
+            ],
+            "contains": [
+              "vst3",
+              "component"
+            ],
+            "type": "archive",
+            "size": 3828523,
+            "sha256": "c209b00f66e03f421c8fc2fa61ce67d8ee341296e434bd931874ca3188a9ce31",
+            "url": "https://github.com/ManasWolrd/SteepFlanger/releases/download/v0.2.1-separate/SteepFlanger-macos-arm64-v0.2.1-separate.zip",
+            "downloads": 38
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "component"
+            ],
+            "type": "archive",
+            "size": 4315707,
+            "sha256": "4c072dc642841456027869fb1f2fb35d192ad6e6b6385308571954635a949559",
+            "url": "https://github.com/ManasWolrd/SteepFlanger/releases/download/v0.2.1-separate/SteepFlanger-macos-x64-v0.2.1-separate.zip",
+            "downloads": 24
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 3685410,
+            "sha256": "26328c52aa35200ae47332bfee9790751f76ffa0ca5694728e733e113c1e2beb",
+            "url": "https://github.com/ManasWolrd/SteepFlanger/releases/download/v0.2.1-separate/SteepFlanger-win-v0.2.1-separate.zip",
+            "downloads": 90
+          }
+        ],
+        "verified": true,
+        "downloads": 176
+      }
+    },
+    "downloads": 176
   },
   "magnetophon/lamb-rs": {
     "slug": "magnetophon/lamb-rs",
@@ -32708,7 +32809,7 @@
             "size": 11275100,
             "sha256": "5dc4e072af90ec54aa0197790b40856e7db1659ff924ed107c7536b442d3584b",
             "url": "https://github.com/asb2m10/dexed/releases/download/v1.0.1/Dexed-1.0.1-win.exe",
-            "downloads": 77427
+            "downloads": 77429
           },
           {
             "systems": [
@@ -32732,7 +32833,7 @@
           }
         ],
         "verified": true,
-        "downloads": 143112
+        "downloads": 143114
       },
       "0.9.8": {
         "name": "Dexed",
@@ -32817,7 +32918,7 @@
         "downloads": 195156
       }
     },
-    "downloads": 338268
+    "downloads": 338270
   },
   "artfwo/andes": {
     "slug": "artfwo/andes",
