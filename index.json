@@ -13291,14 +13291,14 @@
               "size": 11771096,
               "sha256": "da941253b37983cbe7a38c571fd017db36025a7c626c308d6dc003d2842c702f",
               "url": "https://github.com/psyberfly/LibreKick/releases/download/v0.1.0/LibreKick_linux_x86_64.clap",
-              "downloads": 33
+              "downloads": 34
             }
           ],
           "verified": true,
-          "downloads": 33
+          "downloads": 34
         }
       },
-      "downloads": 33
+      "downloads": 34
     },
     "psemiletov/drumlabooh": {
       "slug": "psemiletov/drumlabooh",
@@ -15641,14 +15641,14 @@
           "license": "gpl-3.0",
           "type": "effect",
           "tags": [
-            "Ardour",
             "Audio",
             "Audio Plugin",
             "DSP",
             "EQ",
-            "Equalizer",
-            "Linux Audio",
-            "LV2"
+            "Filter",
+            "Linux",
+            "LV2",
+            "Parametric EQ"
           ],
           "url": "https://github.com/NiLace/Dynamo0C",
           "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/nilace/dynamo0c/dynamo0c.jpg",
@@ -15895,7 +15895,7 @@
               "size": 19844866,
               "sha256": "f34f37cde213fe210d9782164dd2d7f8c019b37ec0fa684c8287be5f5d468f72",
               "url": "https://github.com/n0emo/hyperclip/releases/download/v1.0.0/hyperclip-v1.0.0-linux-clap.zip",
-              "downloads": 2
+              "downloads": 3
             },
             {
               "systems": [
@@ -15913,7 +15913,7 @@
               "size": 19845472,
               "sha256": "d0d3aea7273c052f920ab437892bc6ea06d09e75d2af5a7f8ad332650ccc319d",
               "url": "https://github.com/n0emo/hyperclip/releases/download/v1.0.0/hyperclip-v1.0.0-linux-vst3.zip",
-              "downloads": 1
+              "downloads": 2
             },
             {
               "systems": [
@@ -15931,7 +15931,7 @@
               "size": 3706960,
               "sha256": "e1d59a642a783858e5bc1a8e3d0dedbd9c8e00608293d1210dd5fc0d85477993",
               "url": "https://github.com/n0emo/hyperclip/releases/download/v1.0.0/hyperclip-v1.0.0-macos-clap.zip",
-              "downloads": 2
+              "downloads": 3
             },
             {
               "systems": [
@@ -15949,7 +15949,7 @@
               "size": 3706960,
               "sha256": "9f6c0cd2cab7afa86e6bc7c7699c7e9e41ce34371ad0542091140e0fb3e3fe96",
               "url": "https://github.com/n0emo/hyperclip/releases/download/v1.0.0/hyperclip-v1.0.0-macos-vst3.zip",
-              "downloads": 2
+              "downloads": 3
             },
             {
               "systems": [
@@ -15967,7 +15967,7 @@
               "size": 2522111,
               "sha256": "48c098bce75620a02f968fcfd81e87d3778fc4c9b51157dbc0c4542394d71f19",
               "url": "https://github.com/n0emo/hyperclip/releases/download/v1.0.0/hyperclip-v1.0.0-windows-clap.zip",
-              "downloads": 1
+              "downloads": 2
             },
             {
               "systems": [
@@ -15985,14 +15985,14 @@
               "size": 2522305,
               "sha256": "e4d2619ac682af16de4bfcecbf4641fdd873f4b8bcd1d6f7866928ac32ff7fb8",
               "url": "https://github.com/n0emo/hyperclip/releases/download/v1.0.0/hyperclip-v1.0.0-windows-vst3.zip",
-              "downloads": 4
+              "downloads": 5
             }
           ],
           "verified": true,
-          "downloads": 12
+          "downloads": 18
         }
       },
-      "downloads": 12
+      "downloads": 18
     },
     "mzuther/trakmeter": {
       "slug": "mzuther/trakmeter",
@@ -18411,7 +18411,7 @@
               "size": 8855322,
               "sha256": "b1ec1f2a9200d68fb46c92c890d5449eef532e5102a482338afbd205bde040d9",
               "url": "https://github.com/ManasWolrd/SteepFlanger/releases/download/v0.2.1-separate/SteepFlanger-linux-v0.2.1-separate.zip",
-              "downloads": 24
+              "downloads": 25
             },
             {
               "systems": [
@@ -18430,7 +18430,7 @@
               "size": 3828523,
               "sha256": "c209b00f66e03f421c8fc2fa61ce67d8ee341296e434bd931874ca3188a9ce31",
               "url": "https://github.com/ManasWolrd/SteepFlanger/releases/download/v0.2.1-separate/SteepFlanger-macos-arm64-v0.2.1-separate.zip",
-              "downloads": 38
+              "downloads": 39
             },
             {
               "systems": [
@@ -18449,7 +18449,7 @@
               "size": 4315707,
               "sha256": "4c072dc642841456027869fb1f2fb35d192ad6e6b6385308571954635a949559",
               "url": "https://github.com/ManasWolrd/SteepFlanger/releases/download/v0.2.1-separate/SteepFlanger-macos-x64-v0.2.1-separate.zip",
-              "downloads": 24
+              "downloads": 25
             },
             {
               "systems": [
@@ -18467,14 +18467,14 @@
               "size": 3685410,
               "sha256": "26328c52aa35200ae47332bfee9790751f76ffa0ca5694728e733e113c1e2beb",
               "url": "https://github.com/ManasWolrd/SteepFlanger/releases/download/v0.2.1-separate/SteepFlanger-win-v0.2.1-separate.zip",
-              "downloads": 90
+              "downloads": 91
             }
           ],
           "verified": true,
-          "downloads": 176
+          "downloads": 180
         }
       },
-      "downloads": 176
+      "downloads": 180
     },
     "magnetophon/lamb-rs": {
       "slug": "magnetophon/lamb-rs",
@@ -24635,7 +24635,7 @@
               "size": 5002776,
               "sha256": "ca20b91e49a5e84b0d03d619ba2b687139045710814b2141192c8ddcb161c61d",
               "url": "https://github.com/IcebreakerAudio/Crystal-Bowie/releases/download/0.8.0/MacOS.zip",
-              "downloads": 9
+              "downloads": 10
             },
             {
               "systems": [
@@ -24658,10 +24658,10 @@
             }
           ],
           "verified": true,
-          "downloads": 13
+          "downloads": 14
         }
       },
-      "downloads": 13
+      "downloads": 14
     },
     "iamlamprey/altar": {
       "slug": "iamlamprey/altar",
@@ -32304,7 +32304,7 @@
               "size": 282758,
               "sha256": "d257abf00dce83e2925f4804faf55c4a601fbbf1f5035c8a5aad48765182922f",
               "url": "https://github.com/Chmod666music/DPF/releases/download/v1.8/DrumCloud-Fuimadane-CLAP-Linux-v1.8.zip",
-              "downloads": 9
+              "downloads": 10
             },
             {
               "systems": [
@@ -32322,7 +32322,7 @@
               "size": 305191,
               "sha256": "ca4e1bf2cf19b28cc822bc20c05ab339d8aee9c74c806641ab48f546f9d195a4",
               "url": "https://github.com/Chmod666music/DPF/releases/download/v1.8/DrumCloud-Fuimadane-LV2-Linux-v1.8.zip",
-              "downloads": 6
+              "downloads": 7
             },
             {
               "systems": [
@@ -32340,7 +32340,7 @@
               "size": 277542,
               "sha256": "27a09a0321f578f15f17b78889c30f5b0e399f4fdab6f06c5fa9718c316ab72f",
               "url": "https://github.com/Chmod666music/DPF/releases/download/v1.8/DrumCloud-Fuimadane-VST2-Linux-v1.8.zip",
-              "downloads": 3
+              "downloads": 4
             },
             {
               "systems": [
@@ -32358,14 +32358,14 @@
               "size": 309411,
               "sha256": "9dd1d9dccb99ee18dd8546305ba92c6f3fcd7eeb15ec00d635067f93998fc8ad",
               "url": "https://github.com/Chmod666music/DPF/releases/download/v1.8/DrumCloud-Fuimadane-VST3-Linux-v1.8.zip",
-              "downloads": 7
+              "downloads": 8
             }
           ],
           "verified": true,
-          "downloads": 25
+          "downloads": 29
         }
       },
-      "downloads": 25
+      "downloads": 29
     },
     "cannerycoders/fluidsynth.clap": {
       "slug": "cannerycoders/fluidsynth.clap",
