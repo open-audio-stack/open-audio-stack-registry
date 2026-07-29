@@ -1,0 +1,47 @@
+{
+  "psyberfly/librekick": {
+    "slug": "psyberfly/librekick",
+    "version": "0.1.0",
+    "versions": {
+      "0.1.0": {
+        "name": "LibreKick",
+        "author": "Anorak",
+        "description": "Open-source kick drum synthesizer using visual waveshaping to generate kick samples",
+        "license": "gpl-2.0",
+        "type": "instrument",
+        "tags": [
+          "Kick",
+          "Waveshaper",
+          "Drum Synthesis"
+        ],
+        "url": "https://github.com/psyberfly/LibreKick",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/psyberfly/librekick/librekick.jpg",
+        "date": "2026-04-19T18:06:13Z",
+        "changes": "Alpha release v0.1.0. Early alpha stage — Linux CLAP only.",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "clap"
+            ],
+            "type": "archive",
+            "size": 11771096,
+            "sha256": "da941253b37983cbe7a38c571fd017db36025a7c626c308d6dc003d2842c702f",
+            "url": "https://github.com/psyberfly/LibreKick/releases/download/v0.1.0/LibreKick_linux_x86_64.clap",
+            "downloads": 33
+          }
+        ],
+        "verified": true,
+        "downloads": 33
+      }
+    },
+    "downloads": 33
+  }
+}

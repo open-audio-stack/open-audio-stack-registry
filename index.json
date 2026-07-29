@@ -8020,7 +8020,7 @@
               "size": 223339140,
               "sha256": "a6e55064487f624147d515b9ae5fc79a568b69746675b2083abde628ca7bb151",
               "url": "https://github.com/surge-synthesizer/releases-xt/releases/download/1.3.4/surge-xt-linux-x64-1.3.4.deb",
-              "downloads": 34967
+              "downloads": 34969
             },
             {
               "systems": [
@@ -8106,7 +8106,7 @@
             }
           ],
           "verified": true,
-          "downloads": 703324
+          "downloads": 703326
         },
         "1.3.1": {
           "name": "Surge XT",
@@ -8144,7 +8144,7 @@
               "size": 220693484,
               "sha256": "729d92b5a4288f4c22587b8e84244c26aef34e58312ab5b4f4d1f196699b802e",
               "url": "https://github.com/surge-synthesizer/releases-xt/releases/download/1.3.1/surge-xt-linux-x64-1.3.1.deb",
-              "downloads": 3547
+              "downloads": 3548
             },
             {
               "systems": [
@@ -8187,7 +8187,7 @@
               "size": 411860016,
               "sha256": "e30b218700d4067edb3a0eadb4128784e41f91f663cff19e3fbb38460883cf59",
               "url": "https://github.com/surge-synthesizer/releases-xt/releases/download/1.3.1/surge-xt-macOS-1.3.1.dmg",
-              "downloads": 16600
+              "downloads": 16601
             },
             {
               "systems": [
@@ -8230,10 +8230,10 @@
             }
           ],
           "verified": true,
-          "downloads": 84042
+          "downloads": 84044
         }
       },
-      "downloads": 787366
+      "downloads": 787370
     },
     "surge-synthesizer/ob-xf": {
       "slug": "surge-synthesizer/ob-xf",
@@ -13254,6 +13254,51 @@
         }
       },
       "downloads": 386
+    },
+    "psyberfly/librekick": {
+      "slug": "psyberfly/librekick",
+      "version": "0.1.0",
+      "versions": {
+        "0.1.0": {
+          "name": "LibreKick",
+          "author": "Anorak",
+          "description": "Open-source kick drum synthesizer using visual waveshaping to generate kick samples",
+          "license": "gpl-2.0",
+          "type": "instrument",
+          "tags": [
+            "Kick",
+            "Waveshaper",
+            "Drum Synthesis"
+          ],
+          "url": "https://github.com/psyberfly/LibreKick",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/psyberfly/librekick/librekick.jpg",
+          "date": "2026-04-19T18:06:13Z",
+          "changes": "Alpha release v0.1.0. Early alpha stage — Linux CLAP only.",
+          "files": [
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "clap"
+              ],
+              "type": "archive",
+              "size": 11771096,
+              "sha256": "da941253b37983cbe7a38c571fd017db36025a7c626c308d6dc003d2842c702f",
+              "url": "https://github.com/psyberfly/LibreKick/releases/download/v0.1.0/LibreKick_linux_x86_64.clap",
+              "downloads": 33
+            }
+          ],
+          "verified": true,
+          "downloads": 33
+        }
+      },
+      "downloads": 33
     },
     "psemiletov/drumlabooh": {
       "slug": "psemiletov/drumlabooh",
@@ -30493,7 +30538,7 @@
               "size": 27549300,
               "type": "installer",
               "url": "https://github.com/DamRsn/NeuralNote/releases/download/v1.1.0/NeuralNote_Installer_Mac.pkg",
-              "downloads": 37622
+              "downloads": 37623
             },
             {
               "architectures": [
@@ -30516,10 +30561,10 @@
             }
           ],
           "verified": true,
-          "downloads": 182107
+          "downloads": 182108
         }
       },
-      "downloads": 182107
+      "downloads": 182108
     },
     "damiensellier/ctrlrx": {
       "slug": "damiensellier/ctrlrx",
@@ -37402,17 +37447,17 @@
               "size": 3720765,
               "sha256": "e99fa24234d02814e3cb788d106b766876a065113c71d4855faf83cb9476ab98",
               "url": "https://github.com/kmturley/banwer/releases/download/v1.0.1/banwer.zip",
-              "downloads": 279
+              "downloads": 282
             }
           ],
           "plugins": {
             "surge-synthesizer/surge": "1.3.1"
           },
           "verified": false,
-          "downloads": 279
+          "downloads": 282
         }
       },
-      "downloads": 279
+      "downloads": 282
     }
   }
 }

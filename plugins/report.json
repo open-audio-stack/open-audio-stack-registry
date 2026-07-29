@@ -1363,6 +1363,28 @@
       ]
     }
   },
+  "psyberfly/librekick": {
+    "0.1.0": {
+      "recs": [
+        {
+          "field": "url",
+          "rec": "not a supported format"
+        },
+        {
+          "field": "architectures",
+          "rec": "should support arm64"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Mac"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Windows"
+        }
+      ]
+    }
+  },
   "psemiletov/drumlabooh": {
     "12.2.0": {
       "recs": [
