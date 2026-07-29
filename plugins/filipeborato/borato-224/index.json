@@ -1,0 +1,279 @@
+{
+  "slug": "filipeborato/borato-224",
+  "version": "0.0.6",
+  "versions": {
+    "0.0.6": {
+      "name": "Borato 224",
+      "author": "Filipe Borato",
+      "description": "A Lexicon 224 emulation VST developed in JUCE, modeling the original 12-bit/20kHz fixed-point DSP architecture, Schroeder-Moorer filter topologies, and time-varying modulation.",
+      "license": "mit",
+      "type": "effect",
+      "tags": [
+        "Reverb",
+        "Lexicon",
+        "Emulation"
+      ],
+      "url": "https://github.com/filipeborato/borato-224",
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/filipeborato/borato-224/borato-224.jpg",
+      "date": "2026-07-04T18:39:44Z",
+      "changes": "Major architectural overhaul — DSP engine rewritten with a proper FDN reverb topology (per-program early reflections, input diffusion, stereo modulation), editor decomposed into modular UI components, and thread-safe state management with A/B compare.",
+      "files": [
+        {
+          "systems": [
+            {
+              "type": "mac"
+            }
+          ],
+          "architectures": [
+            "arm64"
+          ],
+          "contains": [
+            "component"
+          ],
+          "type": "archive",
+          "size": 3056408,
+          "sha256": "c4df2f86c1e3e6b92fc63f6cd6e4039aaed9423d14ca0291ae1cb563d70fee5a",
+          "url": "https://github.com/filipeborato/borato-224/releases/download/v0.0.6/Borato224-v0.0.6-macOS-arm64-AU.zip",
+          "downloads": 2
+        },
+        {
+          "systems": [
+            {
+              "type": "mac"
+            }
+          ],
+          "architectures": [
+            "arm64"
+          ],
+          "contains": [
+            "clap"
+          ],
+          "type": "archive",
+          "size": 3034500,
+          "sha256": "a0e474ec0dd2895607af7a230e98811507be8d114d2a06caf075e0301f8a2af2",
+          "url": "https://github.com/filipeborato/borato-224/releases/download/v0.0.6/Borato224-v0.0.6-macOS-arm64-CLAP.zip",
+          "downloads": 2
+        },
+        {
+          "systems": [
+            {
+              "type": "mac"
+            }
+          ],
+          "architectures": [
+            "arm64"
+          ],
+          "contains": [
+            "app"
+          ],
+          "type": "archive",
+          "size": 3627460,
+          "sha256": "346276f0061a2bc5ea941abbb16d1d55bbe0ec73034d5299081af2d0be4e6656",
+          "url": "https://github.com/filipeborato/borato-224/releases/download/v0.0.6/Borato224-v0.0.6-macOS-arm64-Standalone.zip",
+          "downloads": 3
+        },
+        {
+          "systems": [
+            {
+              "type": "mac"
+            }
+          ],
+          "architectures": [
+            "arm64"
+          ],
+          "contains": [
+            "vst3"
+          ],
+          "type": "archive",
+          "size": 3143819,
+          "sha256": "2ea9b68c5068a4cf55e7ad3374749a9991d4e6cf273db3d3f9c5a23a97fcbf91",
+          "url": "https://github.com/filipeborato/borato-224/releases/download/v0.0.6/Borato224-v0.0.6-macOS-arm64-VST3.zip",
+          "downloads": 2
+        },
+        {
+          "systems": [
+            {
+              "type": "mac"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "component"
+          ],
+          "type": "archive",
+          "size": 3376335,
+          "sha256": "56af50b95e05469bf37c327dd0883c49373ae8f0ea2c9908717831184a5aa90e",
+          "url": "https://github.com/filipeborato/borato-224/releases/download/v0.0.6/Borato224-v0.0.6-macOS-intel-AU.zip",
+          "downloads": 3
+        },
+        {
+          "systems": [
+            {
+              "type": "mac"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "clap"
+          ],
+          "type": "archive",
+          "size": 3281379,
+          "sha256": "b778d0f0bd25e8d7d493c3534483f97cfe2bfd18b1197b9ccf4547fa34ed222b",
+          "url": "https://github.com/filipeborato/borato-224/releases/download/v0.0.6/Borato224-v0.0.6-macOS-intel-CLAP.zip",
+          "downloads": 3
+        },
+        {
+          "systems": [
+            {
+              "type": "mac"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "app"
+          ],
+          "type": "archive",
+          "size": 3918350,
+          "sha256": "de1422583df5c35bf28446ec7f569bfe505289ba2463176a8137b07b11be311a",
+          "url": "https://github.com/filipeborato/borato-224/releases/download/v0.0.6/Borato224-v0.0.6-macOS-intel-Standalone.zip",
+          "downloads": 3
+        },
+        {
+          "systems": [
+            {
+              "type": "mac"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "vst3"
+          ],
+          "type": "archive",
+          "size": 3473105,
+          "sha256": "99a1e8a8eb7e5ac79cbd9c667783522ca0a67773e3abde55ffd3ff9575a141f8",
+          "url": "https://github.com/filipeborato/borato-224/releases/download/v0.0.6/Borato224-v0.0.6-macOS-intel-VST3.zip",
+          "downloads": 3
+        },
+        {
+          "systems": [
+            {
+              "type": "linux"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "clap"
+          ],
+          "type": "archive",
+          "size": 4047145,
+          "sha256": "7ea001fc632e7ced6bbd48d4ca8761d0cede0fadb23be0a51aa9cf375b3f524b",
+          "url": "https://github.com/filipeborato/borato-224/releases/download/v0.0.6/Borato224-v0.0.6-Ubuntu-CLAP.tar.gz",
+          "downloads": 4
+        },
+        {
+          "systems": [
+            {
+              "type": "linux"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "elf"
+          ],
+          "type": "archive",
+          "size": 4847294,
+          "sha256": "6fe6eb6c91a01b54a00cbd9781f2f14f8ef08b0ca1dc585b6aa88ef787478ac9",
+          "url": "https://github.com/filipeborato/borato-224/releases/download/v0.0.6/Borato224-v0.0.6-Ubuntu-Standalone.tar.gz",
+          "downloads": 3
+        },
+        {
+          "systems": [
+            {
+              "type": "linux"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "vst3"
+          ],
+          "type": "archive",
+          "size": 4250379,
+          "sha256": "68523b9fdeffa93c160b55cc7064a3eb67635edc765bf7807325bf8c5ed2c5b8",
+          "url": "https://github.com/filipeborato/borato-224/releases/download/v0.0.6/Borato224-v0.0.6-Ubuntu-VST3.tar.gz",
+          "downloads": 2
+        },
+        {
+          "systems": [
+            {
+              "type": "win"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "clap"
+          ],
+          "type": "archive",
+          "size": 2927833,
+          "sha256": "d6a8bb04ac63fe3acb36f3c4918f0b08bc735fefcdc3d056ef92ee9374b53f97",
+          "url": "https://github.com/filipeborato/borato-224/releases/download/v0.0.6/Borato224-v0.0.6-Windows-x64-CLAP.zip",
+          "downloads": 4
+        },
+        {
+          "systems": [
+            {
+              "type": "win"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "exe"
+          ],
+          "type": "archive",
+          "size": 3455454,
+          "sha256": "385a61262054347c3f43bac353db011bd0485b08e51180e73e75a0d9c631912d",
+          "url": "https://github.com/filipeborato/borato-224/releases/download/v0.0.6/Borato224-v0.0.6-Windows-x64-Standalone.zip",
+          "downloads": 4
+        },
+        {
+          "systems": [
+            {
+              "type": "win"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "vst3"
+          ],
+          "type": "archive",
+          "size": 3051591,
+          "sha256": "9f71b2bb61d621906300441b39dfa888836c9fad6fc14908a82b0e313c324fbf",
+          "url": "https://github.com/filipeborato/borato-224/releases/download/v0.0.6/Borato224-v0.0.6-Windows-x64-VST3.zip",
+          "downloads": 7
+        }
+      ],
+      "verified": true,
+      "downloads": 45
+    }
+  },
+  "downloads": 45
+}
