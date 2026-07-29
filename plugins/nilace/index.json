@@ -10,14 +10,14 @@
         "license": "gpl-3.0",
         "type": "tool",
         "tags": [
-          "Ardour",
-          "Audio",
-          "Audio Plugin",
           "Bass",
           "Chromatic Tuner",
-          "DSP",
           "Guitar",
-          "LV2"
+          "Instrument Tuner",
+          "LV2",
+          "Pitch Detection",
+          "Pitch Tracking",
+          "Realtime Audio"
         ],
         "url": "https://github.com/NiLace/TheMonoHawk",
         "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/nilace/themonohawk/themonohawk.jpg",
