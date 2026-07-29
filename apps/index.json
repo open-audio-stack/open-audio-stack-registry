@@ -33,7 +33,7 @@
             "size": 5911681,
             "sha256": "c01c49d8063965c4c2dea8324468336768f5c9139e0b1caebde14c2400b55352",
             "url": "https://github.com/Tracktion/pluginval/releases/download/v1.0.4/pluginval_Linux.zip",
-            "downloads": 15100
+            "downloads": 15160
           },
           {
             "systems": [
@@ -49,7 +49,7 @@
             "size": 9202795,
             "sha256": "3c4c533bda0c5059eea3ddaea752d757ee2025041f0f47e6bcb0e87f6082b29f",
             "url": "https://github.com/Tracktion/pluginval/releases/download/v1.0.4/pluginval_macOS.zip",
-            "downloads": 56598
+            "downloads": 56718
           },
           {
             "systems": [
@@ -65,14 +65,14 @@
             "size": 2408590,
             "sha256": "c08e61ce3b96db41636f8ec7e76f4c7e2c13ebdac7fa1b5a1f52b4f32ec715ab",
             "url": "https://github.com/Tracktion/pluginval/releases/download/v1.0.4/pluginval_Windows.zip",
-            "downloads": 89819
+            "downloads": 90006
           }
         ],
         "verified": true,
-        "downloads": 161517
+        "downloads": 161884
       }
     },
-    "downloads": 161517
+    "downloads": 161884
   },
   "steinberg/validator": {
     "slug": "steinberg/validator",
@@ -183,7 +183,7 @@
             "size": 27877081,
             "sha256": "4601e7f4e4c03e59a4c5b5000216ef3add3e808799cfccd95e14e83ea4611081",
             "url": "https://github.com/Rikorose/DeepFilterNet/releases/download/v0.5.6/deep-filter-0.5.6-aarch64-apple-darwin",
-            "downloads": 4616
+            "downloads": 4661
           },
           {
             "systems": [
@@ -199,7 +199,7 @@
             "size": 39238496,
             "sha256": "14e02a1c0028f3ca0bdf83b62b3336e56ba0556894ef295a95e8573f06557166",
             "url": "https://github.com/Rikorose/DeepFilterNet/releases/download/v0.5.6/deep-filter-0.5.6-aarch64-unknown-linux-gnu",
-            "downloads": 3359
+            "downloads": 3360
           },
           {
             "systems": [
@@ -231,7 +231,7 @@
             "size": 29933512,
             "sha256": "d3be84003acb7c23e738ad7f70a158ec779a8d233a82e7fa3e717d112eb5b50f",
             "url": "https://github.com/Rikorose/DeepFilterNet/releases/download/v0.5.6/deep-filter-0.5.6-x86_64-apple-darwin",
-            "downloads": 1010
+            "downloads": 1016
           },
           {
             "systems": [
@@ -247,7 +247,7 @@
             "size": 26912256,
             "sha256": "75e11fa16445f560cb6b021521ddb89e89270d13b83089705d98776f58fd7915",
             "url": "https://github.com/Rikorose/DeepFilterNet/releases/download/v0.5.6/deep-filter-0.5.6-x86_64-pc-windows-msvc.exe",
-            "downloads": 11238
+            "downloads": 11302
           },
           {
             "systems": [
@@ -263,14 +263,14 @@
             "size": 36417296,
             "sha256": "70775e251eee44c0f2451a1e833326cf8bcbbe304d3e7cd12851e6fce72ef7da",
             "url": "https://github.com/Rikorose/DeepFilterNet/releases/download/v0.5.6/deep-filter-0.5.6-x86_64-unknown-linux-musl",
-            "downloads": 23320
+            "downloads": 23537
           }
         ],
         "verified": true,
-        "downloads": 43951
+        "downloads": 44284
       }
     },
-    "downloads": 43951
+    "downloads": 44284
   },
   "monocasual/giada": {
     "slug": "monocasual/giada",
@@ -307,7 +307,7 @@
             "size": 7702562,
             "sha256": "085d535d7e8bc024872950e477c3b354c77b4a678cf6b09de5880e98880e2eae",
             "url": "https://github.com/monocasual/giada/releases/download/1.5.0/giada-1.5.0-arm64-macos.zip",
-            "downloads": 485
+            "downloads": 489
           },
           {
             "systems": [
@@ -323,14 +323,14 @@
             "size": 6552450,
             "sha256": "168e7799227dd2241d11d78f8943c959f3e87b4fac57992a46213595b9e02e1a",
             "url": "https://github.com/monocasual/giada/releases/download/1.5.0/giada-1.5.0-x86_64-windows.zip",
-            "downloads": 1373
+            "downloads": 1386
           }
         ],
         "verified": true,
-        "downloads": 1858
+        "downloads": 1875
       }
     },
-    "downloads": 1858
+    "downloads": 1875
   },
   "jun-murakami/cubasedrummapeditor": {
     "slug": "jun-murakami/cubasedrummapeditor",
@@ -509,6 +509,50 @@
         "verified": false
       }
     }
+  },
+  "gptpps/ppsvaulttracker": {
+    "slug": "gptpps/ppsvaulttracker",
+    "version": "1.1.0-beta",
+    "versions": {
+      "1.1.0-beta": {
+        "name": "PPsVaultTracker",
+        "author": "PPsRetroVault",
+        "description": "A modern VSTi tracker with FT2 heritage, VST3 plugin hosting, and MIDI + stems export",
+        "license": "agpl-3.0",
+        "type": "tool",
+        "tags": [
+          "Tracker",
+          "VSTi",
+          "MIDI",
+          "Retro"
+        ],
+        "url": "https://github.com/gPTPPs/ppsvaulttracker",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/apps/gptpps/ppsvaulttracker/ppsvaulttracker.jpg",
+        "date": "2026-07-05T21:53:27Z",
+        "changes": "The arrangement update — an order-list timeline view with per-track mute blocks, a drawable CC automation lane, pattern naming, and track renaming/reordering/colours. All v1.0.0-beta projects load unchanged.",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "type": "archive",
+            "open": "PPsVaultTracker-1.1.0-beta-win64/PPsVaultTracker.exe",
+            "size": 4751929,
+            "sha256": "5cc101f3349115bd80a414384270dc29b99804c77e0d5c8db953934b094e98db",
+            "url": "https://github.com/gPTPPs/ppsvaulttracker/releases/download/v1.1.0-beta/PPsVaultTracker-1.1.0-beta-win64.zip",
+            "downloads": 3
+          }
+        ],
+        "verified": true,
+        "downloads": 3
+      }
+    },
+    "downloads": 3
   },
   "gbevin/sendmidi": {
     "slug": "gbevin/sendmidi",
@@ -771,7 +815,7 @@
             "size": 125035028,
             "sha256": "bb9d5631c823b7a9247fb56f9dff57e70344f1c56d8917b265b4114416fe0a79",
             "url": "https://github.com/DropSnorz/OwlPlug/releases/download/1.33.1/OwlPlug-1.33.1-linux-x64.deb",
-            "downloads": 48
+            "downloads": 49
           },
           {
             "systems": [
@@ -803,7 +847,7 @@
             "size": 143866625,
             "sha256": "1668bf9486179a63ff0249d370bd25145fa6c8736774b8abb8783023e7bcff3d",
             "url": "https://github.com/DropSnorz/OwlPlug/releases/download/1.33.1/OwlPlug-1.33.1-osx-x64.dmg",
-            "downloads": 184
+            "downloads": 186
           },
           {
             "systems": [
@@ -819,14 +863,14 @@
             "size": 136294948,
             "sha256": "819a4c98806fb2b9202f413622ea68a56e3ea4e063afb9ee1a7e49d153cf9330",
             "url": "https://github.com/DropSnorz/OwlPlug/releases/download/1.33.1/OwlPlug-1.33.1-win-x64.msi",
-            "downloads": 1255
+            "downloads": 1261
           }
         ],
         "verified": true,
-        "downloads": 1934
+        "downloads": 1943
       }
     },
-    "downloads": 1934
+    "downloads": 1943
   },
   "dfl/faveworm": {
     "slug": "dfl/faveworm",
@@ -988,14 +1032,14 @@
             "size": 69131397,
             "sha256": "704e02f161eed15ad539331e975eee033b17a43ffa2041aebbcb9c931c34d6f3",
             "url": "https://github.com/christofmuc/KnobKraft-orm/releases/download/2.9.0/knobkraft_orm_setup_2.9.0.exe",
-            "downloads": 284
+            "downloads": 286
           }
         ],
         "verified": true,
-        "downloads": 523
+        "downloads": 525
       }
     },
-    "downloads": 523
+    "downloads": 525
   },
   "christofmuc/bcr2000-master": {
     "slug": "christofmuc/bcr2000-master",
@@ -1074,7 +1118,7 @@
             "size": 117193208,
             "sha256": "b9019cefe116aa2b4f5b680b5ff94fa502959345745bef8e3f16637eb6ee4f89",
             "url": "https://github.com/calloga/unshuffle/releases/download/v1.0.2/Unshuffle-1.0.2-x86_64.AppImage",
-            "downloads": 55
+            "downloads": 57
           },
           {
             "systems": [
@@ -1090,7 +1134,7 @@
             "size": 147213416,
             "sha256": "35ca752e81b2c3963697bfc44b56b7dbd2955bd4ae813214021dece75b5ecd9c",
             "url": "https://github.com/calloga/unshuffle/releases/download/v1.0.2/unshuffle_1.0.2_amd64.deb",
-            "downloads": 67
+            "downloads": 70
           },
           {
             "systems": [
@@ -1106,7 +1150,7 @@
             "size": 65711057,
             "sha256": "8ea607746ea9a80f37b80af596685132d158afb74542f9ac65405858813b50ac",
             "url": "https://github.com/calloga/unshuffle/releases/download/v1.0.2/Unshuffle-macos.pkg",
-            "downloads": 235
+            "downloads": 238
           },
           {
             "systems": [
@@ -1122,13 +1166,13 @@
             "size": 63176450,
             "sha256": "ae311e37cc14ba67758f0927c7c8354fc9751b6986c9b4ce3e4c265831a7a23e",
             "url": "https://github.com/calloga/unshuffle/releases/download/v1.0.2/UnshuffleWinSetup.exe",
-            "downloads": 624
+            "downloads": 626
           }
         ],
         "verified": true,
-        "downloads": 981
+        "downloads": 991
       }
     },
-    "downloads": 981
+    "downloads": 991
   }
 }

@@ -30,13 +30,14 @@
             "x64"
           ],
           "contains": [
-            "vst3"
+            "vst3",
+            "exe"
           ],
           "type": "archive",
           "size": 7112619,
           "sha256": "da2c699731586b0d794fbc797eecf1f19752a21980f2eaebed62b71c93339a7f",
           "url": "https://github.com/gPTPPs/UB_Poly16/releases/download/v0.8.0/UB_Poly16-0.8.0-win64.zip",
-          "downloads": 6
+          "downloads": 7
         },
         {
           "systems": [
@@ -48,7 +49,8 @@
             "x64"
           ],
           "contains": [
-            "vst3"
+            "vst3",
+            "exe"
           ],
           "type": "installer",
           "size": 5486745,
@@ -58,8 +60,8 @@
         }
       ],
       "verified": true,
-      "downloads": 10
+      "downloads": 11
     }
   },
-  "downloads": 10
+  "downloads": 11
 }
