@@ -2439,6 +2439,24 @@
       ]
     }
   },
+  "kevin-jenkins/plugnspectr": {
+    "1.0.1": {
+      "recs": [
+        {
+          "field": "architectures",
+          "rec": "should support arm64"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Linux"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Mac"
+        }
+      ]
+    }
+  },
   "keijiro/vst2413": {
     "1.0.2": {
       "recs": [
