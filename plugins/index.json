@@ -6881,7 +6881,7 @@
             "size": 416715686,
             "sha256": "b56e8d51a8dc2382ae668c9ff4e96bae38dbd452af4e584d5a5ef50ab2d09b07",
             "url": "https://github.com/surge-synthesizer/releases-xt/releases/download/1.3.4/surge-xt-macOS-1.3.4.dmg",
-            "downloads": 149425
+            "downloads": 149428
           },
           {
             "systems": [
@@ -6920,11 +6920,11 @@
             "size": 183385478,
             "sha256": "6e221e05f29254508142b9e0ed76a85f22fa1b512501bebde571951e7eefecca",
             "url": "https://github.com/surge-synthesizer/releases-xt/releases/download/1.3.4/surge-xt-win64-1.3.4-setup.exe",
-            "downloads": 497046
+            "downloads": 497050
           }
         ],
         "verified": true,
-        "downloads": 703287
+        "downloads": 703294
       },
       "1.3.1": {
         "name": "Surge XT",
@@ -7051,7 +7051,7 @@
         "downloads": 84039
       }
     },
-    "downloads": 787326
+    "downloads": 787333
   },
   "surge-synthesizer/ob-xf": {
     "slug": "surge-synthesizer/ob-xf",
@@ -9394,14 +9394,14 @@
             "size": 3626650,
             "sha256": "56f57dfe443018e947b82b8e2bf4c9d824a9c961ff2b8eb6c5e929030b71b937",
             "url": "https://github.com/sfztools/sfizz-ui/releases/download/1.2.3/sfizz-1.2.3-win64.exe",
-            "downloads": 7925
+            "downloads": 7926
           }
         ],
         "verified": true,
-        "downloads": 10599
+        "downloads": 10600
       }
     },
-    "downloads": 10599
+    "downloads": 10600
   },
   "sfztools/sfizz": {
     "slug": "sfztools/sfizz",
@@ -11906,7 +11906,7 @@
             "size": 124199089,
             "sha256": "f2df9244befff95b50c2d0d0ea7ffb21b90445b241b4670db26e504e06a85dd2",
             "url": "https://github.com/psemiletov/drumlabooh/releases/download/12.2.0/drumlabooh-installer.exe",
-            "downloads": 252
+            "downloads": 253
           },
           {
             "systems": [
@@ -11982,10 +11982,10 @@
           }
         ],
         "verified": true,
-        "downloads": 1448
+        "downloads": 1449
       }
     },
-    "downloads": 1448
+    "downloads": 1449
   },
   "pschaupp/spectral-abyss-multiband-saturation": {
     "slug": "pschaupp/spectral-abyss-multiband-saturation",
@@ -16046,7 +16046,7 @@
             "size": 22447365,
             "sha256": "ca5f35f9dcd9a33f06490d3c92f04061a1a798cb81257d5ca5851bdda0824c66",
             "url": "https://github.com/michaelwillis/dragonfly-reverb/releases/download/3.2.10/dragonfly-reverb-3.2.10-win64.zip",
-            "downloads": 67442
+            "downloads": 67443
           },
           {
             "systems": [
@@ -16072,10 +16072,10 @@
           }
         ],
         "verified": true,
-        "downloads": 127048
+        "downloads": 127049
       }
     },
-    "downloads": 127048
+    "downloads": 127049
   },
   "michael02022/basic-harmonica": {
     "slug": "michael02022/basic-harmonica",
@@ -22622,6 +22622,71 @@
     },
     "downloads": 63
   },
+  "icebreakeraudio/crystal-bowie": {
+    "slug": "icebreakeraudio/crystal-bowie",
+    "version": "0.8.0",
+    "versions": {
+      "0.8.0": {
+        "name": "Crystal Bowie",
+        "author": "IcebreakerAudio",
+        "description": "Simple, customizable clipper plugin",
+        "license": "mit",
+        "type": "effect",
+        "tags": [
+          "Clipper",
+          "Distortion"
+        ],
+        "url": "https://github.com/IcebreakerAudio/Crystal-Bowie",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/icebreakeraudio/crystal-bowie/crystal-bowie.jpg",
+        "date": "2025-08-08T15:28:43Z",
+        "changes": "Pre-built binaries for macOS and Windows. AU, CLAP, and VST3 all available. Binaries are unsigned and may be flagged/blocked by your OS, especially macOS.",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64"
+            ],
+            "contains": [
+              "vst3",
+              "component",
+              "clap"
+            ],
+            "type": "archive",
+            "size": 5002776,
+            "sha256": "ca20b91e49a5e84b0d03d619ba2b687139045710814b2141192c8ddcb161c61d",
+            "url": "https://github.com/IcebreakerAudio/Crystal-Bowie/releases/download/0.8.0/MacOS.zip",
+            "downloads": 4
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "clap"
+            ],
+            "type": "archive",
+            "size": 6065292,
+            "sha256": "8bd1ad8cad0308e396633c764344c626c0ce0e76b1b43cc9421d5142d6aa5c6a",
+            "url": "https://github.com/IcebreakerAudio/Crystal-Bowie/releases/download/0.8.0/Windows.zip",
+            "downloads": 4
+          }
+        ],
+        "verified": true,
+        "downloads": 8
+      }
+    },
+    "downloads": 8
+  },
   "iamlamprey/altar": {
     "slug": "iamlamprey/altar",
     "version": "0.4.0",
@@ -27858,7 +27923,7 @@
             "size": 13389887,
             "sha256": "69d883ca5f568576a9308ce4ede7ff4471ce111ddd5c47cb261d2eec80030ad4",
             "url": "https://github.com/Dimethoxy/Disflux/releases/download/v1.2.0/disflux-v1.2.0-macos.pkg",
-            "downloads": 58
+            "downloads": 59
           },
           {
             "systems": [
@@ -27881,10 +27946,10 @@
           }
         ],
         "verified": true,
-        "downloads": 360
+        "downloads": 361
       }
     },
-    "downloads": 360
+    "downloads": 361
   },
   "datanoisetv/doobie": {
     "slug": "datanoisetv/doobie",

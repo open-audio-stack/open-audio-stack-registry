@@ -1,0 +1,36 @@
+name: Crystal Bowie
+author: IcebreakerAudio
+description: Simple, customizable clipper plugin
+license: mit
+type: effect
+tags:
+  - Clipper
+  - Distortion
+url: https://github.com/IcebreakerAudio/Crystal-Bowie
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/icebreakeraudio/crystal-bowie/crystal-bowie.jpg
+date: '2025-08-08T15:28:43Z'
+changes: 'Pre-built binaries for macOS and Windows. AU, CLAP, and VST3 all available. Binaries are unsigned and may be flagged/blocked by your OS, especially macOS.'
+files:
+  - systems:
+      - type: mac
+    architectures:
+      - arm64
+    contains:
+      - vst3
+      - component
+      - clap
+    type: archive
+    size: 5002776
+    sha256: ca20b91e49a5e84b0d03d619ba2b687139045710814b2141192c8ddcb161c61d
+    url: https://github.com/IcebreakerAudio/Crystal-Bowie/releases/download/0.8.0/MacOS.zip
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - vst3
+      - clap
+    type: archive
+    size: 6065292
+    sha256: 8bd1ad8cad0308e396633c764344c626c0ce0e76b1b43cc9421d5142d6aa5c6a
+    url: https://github.com/IcebreakerAudio/Crystal-Bowie/releases/download/0.8.0/Windows.zip
