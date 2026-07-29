@@ -8226,14 +8226,14 @@
               "size": 182890274,
               "sha256": "2bac9c87c3e4293ecc4110087f5bb90a5218427921613409b84673f513f02bd3",
               "url": "https://github.com/surge-synthesizer/releases-xt/releases/download/1.3.1/surge-xt-win64-1.3.1-setup.exe",
-              "downloads": 61621
+              "downloads": 61622
             }
           ],
           "verified": true,
-          "downloads": 84044
+          "downloads": 84045
         }
       },
-      "downloads": 787370
+      "downloads": 787371
     },
     "surge-synthesizer/ob-xf": {
       "slug": "surge-synthesizer/ob-xf",
@@ -15859,6 +15859,140 @@
         }
       },
       "downloads": 825
+    },
+    "n0emo/hyperclip": {
+      "slug": "n0emo/hyperclip",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "name": "Hyperclip",
+          "author": "Albert Shefner",
+          "description": "Distortion/clipper plugin",
+          "license": "mit",
+          "type": "effect",
+          "tags": [
+            "Distortion",
+            "Clipper"
+          ],
+          "url": "https://github.com/n0emo/hyperclip",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/n0emo/hyperclip/hyperclip.jpg",
+          "date": "2026-04-14T19:41:37Z",
+          "changes": "v1.0.0 release.",
+          "files": [
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "clap"
+              ],
+              "type": "archive",
+              "size": 19844866,
+              "sha256": "f34f37cde213fe210d9782164dd2d7f8c019b37ec0fa684c8287be5f5d468f72",
+              "url": "https://github.com/n0emo/hyperclip/releases/download/v1.0.0/hyperclip-v1.0.0-linux-clap.zip",
+              "downloads": 2
+            },
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "vst3"
+              ],
+              "type": "archive",
+              "size": 19845472,
+              "sha256": "d0d3aea7273c052f920ab437892bc6ea06d09e75d2af5a7f8ad332650ccc319d",
+              "url": "https://github.com/n0emo/hyperclip/releases/download/v1.0.0/hyperclip-v1.0.0-linux-vst3.zip",
+              "downloads": 1
+            },
+            {
+              "systems": [
+                {
+                  "type": "mac"
+                }
+              ],
+              "architectures": [
+                "arm64"
+              ],
+              "contains": [
+                "clap"
+              ],
+              "type": "archive",
+              "size": 3706960,
+              "sha256": "e1d59a642a783858e5bc1a8e3d0dedbd9c8e00608293d1210dd5fc0d85477993",
+              "url": "https://github.com/n0emo/hyperclip/releases/download/v1.0.0/hyperclip-v1.0.0-macos-clap.zip",
+              "downloads": 2
+            },
+            {
+              "systems": [
+                {
+                  "type": "mac"
+                }
+              ],
+              "architectures": [
+                "arm64"
+              ],
+              "contains": [
+                "vst3"
+              ],
+              "type": "archive",
+              "size": 3706960,
+              "sha256": "9f6c0cd2cab7afa86e6bc7c7699c7e9e41ce34371ad0542091140e0fb3e3fe96",
+              "url": "https://github.com/n0emo/hyperclip/releases/download/v1.0.0/hyperclip-v1.0.0-macos-vst3.zip",
+              "downloads": 2
+            },
+            {
+              "systems": [
+                {
+                  "type": "win"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "clap"
+              ],
+              "type": "archive",
+              "size": 2522111,
+              "sha256": "48c098bce75620a02f968fcfd81e87d3778fc4c9b51157dbc0c4542394d71f19",
+              "url": "https://github.com/n0emo/hyperclip/releases/download/v1.0.0/hyperclip-v1.0.0-windows-clap.zip",
+              "downloads": 1
+            },
+            {
+              "systems": [
+                {
+                  "type": "win"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "vst3"
+              ],
+              "type": "archive",
+              "size": 2522305,
+              "sha256": "e4d2619ac682af16de4bfcecbf4641fdd873f4b8bcd1d6f7866928ac32ff7fb8",
+              "url": "https://github.com/n0emo/hyperclip/releases/download/v1.0.0/hyperclip-v1.0.0-windows-vst3.zip",
+              "downloads": 4
+            }
+          ],
+          "verified": true,
+          "downloads": 12
+        }
+      },
+      "downloads": 12
     },
     "mzuther/trakmeter": {
       "slug": "mzuther/trakmeter",
