@@ -1,0 +1,140 @@
+{
+  "skynse/qpitch": {
+    "slug": "skynse/qpitch",
+    "version": "1.3.1",
+    "versions": {
+      "1.3.1": {
+        "name": "QPitch",
+        "author": "Austin A.",
+        "description": "Pitch-correction plugin with formant preservation — detects the main frequency, maps to MIDI, pitch shifts, and corrects formants",
+        "license": "gpl-3.0",
+        "type": "effect",
+        "tags": [
+          "Autotune",
+          "Pitch Correction",
+          "Formant",
+          "Vocal"
+        ],
+        "url": "https://github.com/Skynse/qpitch",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/skynse/qpitch/qpitch.jpg",
+        "date": "2026-06-09T11:31:34Z",
+        "changes": "**Full Changelog**: https://github.com/Skynse/qpitch/compare/v1.3.0...v1.3.1\r\n\r\nFix notes not saving after closing and re-opening the UI\r\nRemoved librubberband fallback completely. The new Phase vocoder functions better and is native.",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "clap"
+            ],
+            "type": "archive",
+            "size": 4648615,
+            "sha256": "11d3daf4c548a1d861b4d1ac7435c98e6aaa4e009e42f5c0818ac2d95ad8981f",
+            "url": "https://github.com/Skynse/qpitch/releases/download/v1.3.1/QPitch-v1.3.1-linux-clap.zip",
+            "downloads": 50
+          },
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 4854453,
+            "sha256": "b7d98be6391d79368497c011978f5a27773852dab6e37d84ec99ded06bb2261b",
+            "url": "https://github.com/Skynse/qpitch/releases/download/v1.3.1/QPitch-v1.3.1-linux-vst3.zip",
+            "downloads": 59
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "clap"
+            ],
+            "type": "archive",
+            "size": 7293263,
+            "sha256": "a3e09acff6d1fb0dd6d286b536c0c563d097c057a1df7581b40d158c25b121cf",
+            "url": "https://github.com/Skynse/qpitch/releases/download/v1.3.1/QPitch-v1.3.1-macos-universal-clap.zip",
+            "downloads": 10
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 7629612,
+            "sha256": "05a4bab682c7cd781760be03a9aaadd74bd20bc64634d1c891be15d0cdf37325",
+            "url": "https://github.com/Skynse/qpitch/releases/download/v1.3.1/QPitch-v1.3.1-macos-universal-vst3.zip",
+            "downloads": 23
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "clap"
+            ],
+            "type": "archive",
+            "size": 1669213,
+            "sha256": "5eaabaed5e1110f6e19944377506ddcda271599efb840f824bf2adbdbfb5bfc9",
+            "url": "https://github.com/Skynse/qpitch/releases/download/v1.3.1/QPitch-v1.3.1-windows-clap.zip",
+            "downloads": 30
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 1701543,
+            "sha256": "969ed88126bcf64db5d2c36c3811884d43ac115504e3a6b72c4e7e2203d52b10",
+            "url": "https://github.com/Skynse/qpitch/releases/download/v1.3.1/QPitch-v1.3.1-windows-vst3.zip",
+            "downloads": 91
+          }
+        ],
+        "verified": true,
+        "downloads": 263
+      }
+    },
+    "downloads": 263
+  }
+}
