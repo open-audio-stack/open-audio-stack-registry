@@ -17395,6 +17395,88 @@
       },
       "downloads": 7465
     },
+    "mg32/formantfilter": {
+      "slug": "mg32/formantfilter",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "name": "Formant Filter",
+          "author": "mogesystem",
+          "description": "Formant filter controlling vowel character by vocal tract length and formant map, with a breathiness control",
+          "license": "mit",
+          "type": "effect",
+          "tags": [
+            "Formant",
+            "Filter",
+            "Vocal"
+          ],
+          "url": "https://github.com/Mg32/FormantFilter",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/mg32/formantfilter/formantfilter.jpg",
+          "date": "2026-05-17T08:41:15Z",
+          "changes": "v1.0.0 release.",
+          "files": [
+            {
+              "systems": [
+                {
+                  "type": "mac"
+                }
+              ],
+              "architectures": [
+                "arm64",
+                "x64"
+              ],
+              "contains": [
+                "vst3"
+              ],
+              "type": "archive",
+              "size": 1542224,
+              "sha256": "3fc315a752e4f8f9fa7d47edd058ab050290c4a0554c3005bfd7265e5ff10dd5",
+              "url": "https://github.com/Mg32/FormantFilter/releases/download/v1.0.0/formantfilter-macos-universal.zip",
+              "downloads": 3
+            },
+            {
+              "systems": [
+                {
+                  "type": "win"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "vst3"
+              ],
+              "type": "archive",
+              "size": 1609201,
+              "sha256": "49d66a1c0361333d3930bbfe4135d05895d62c59b0d1f8a5ac2d8f5a7778590e",
+              "url": "https://github.com/Mg32/FormantFilter/releases/download/v1.0.0/formantfilter-windows-x64.zip",
+              "downloads": 7
+            },
+            {
+              "systems": [
+                {
+                  "type": "win"
+                }
+              ],
+              "architectures": [
+                "x32"
+              ],
+              "contains": [
+                "vst3"
+              ],
+              "type": "archive",
+              "size": 1348481,
+              "sha256": "7efdc5aa5ba741544c1632e75b916ed7da1d89048b1dded38e7c946aa573093d",
+              "url": "https://github.com/Mg32/FormantFilter/releases/download/v1.0.0/formantfilter-windows-x86.zip",
+              "downloads": 3
+            }
+          ],
+          "verified": true,
+          "downloads": 13
+        }
+      },
+      "downloads": 13
+    },
     "meijisirlnd/transfer": {
       "slug": "meijisirlnd/transfer",
       "version": "0.0.2",
@@ -20154,14 +20236,14 @@
               "size": 39364144,
               "sha256": "9144ec0b0263931ccad8d91d6ae8634d8a8f64ecd5e365ea1fa6180688580769",
               "url": "https://github.com/kushview/element/releases/download/1.0.0/element-1.0.0-win64.exe",
-              "downloads": 14745
+              "downloads": 14747
             }
           ],
           "verified": true,
-          "downloads": 21048
+          "downloads": 21050
         }
       },
-      "downloads": 21048
+      "downloads": 21050
     },
     "kiriki-liszt/relief-compressor": {
       "slug": "kiriki-liszt/relief-compressor",
