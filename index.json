@@ -16489,6 +16489,50 @@
       },
       "downloads": 12263
     },
+    "mxncmrchnd/waddle": {
+      "slug": "mxncmrchnd/waddle",
+      "version": "2.0.0",
+      "versions": {
+        "2.0.0": {
+          "name": "Waddle",
+          "author": "Maxence Marchand",
+          "description": "Small sidechain effect plugin",
+          "license": "gpl-3.0",
+          "type": "effect",
+          "tags": [
+            "Sidechain",
+            "Ducking"
+          ],
+          "url": "https://github.com/mxncmrchnd/waddle",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/mxncmrchnd/waddle/waddle.jpg",
+          "date": "2026-07-16T19:30:13Z",
+          "changes": "v2.0.0 release.",
+          "files": [
+            {
+              "systems": [
+                {
+                  "type": "win"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "vst3"
+              ],
+              "type": "archive",
+              "size": 1623595,
+              "sha256": "1b47519f2cd4d1bed7a2dd5029cf1e9074f3862d491259fa80769fa065f189de",
+              "url": "https://github.com/mxncmrchnd/waddle/releases/download/v2.0.0/Waddle.vst3.zip",
+              "downloads": 6
+            }
+          ],
+          "verified": true,
+          "downloads": 6
+        }
+      },
+      "downloads": 6
+    },
     "mukkemann1972/retrotrax": {
       "slug": "mukkemann1972/retrotrax",
       "version": "0.87.0",
@@ -20719,14 +20763,14 @@
               "size": 39364144,
               "sha256": "9144ec0b0263931ccad8d91d6ae8634d8a8f64ecd5e365ea1fa6180688580769",
               "url": "https://github.com/kushview/element/releases/download/1.0.0/element-1.0.0-win64.exe",
-              "downloads": 14748
+              "downloads": 14749
             }
           ],
           "verified": true,
-          "downloads": 21051
+          "downloads": 21052
         }
       },
-      "downloads": 21051
+      "downloads": 21052
     },
     "kiriki-liszt/relief-compressor": {
       "slug": "kiriki-liszt/relief-compressor",
@@ -28548,14 +28592,14 @@
               "size": 247507775,
               "sha256": "56264cd860b3e6e7b29221fb1e46d7d8a288fb001500f830bcd739ec7b115650",
               "url": "https://github.com/falkTX/Carla/releases/download/v2.5.10/Carla-2.5.10-win64.zip",
-              "downloads": 13773
+              "downloads": 13774
             }
           ],
           "verified": true,
-          "downloads": 16473
+          "downloads": 16474
         }
       },
-      "downloads": 29329
+      "downloads": 29330
     },
     "fake-industries/fuzzball": {
       "slug": "fake-industries/fuzzball",
@@ -30736,14 +30780,14 @@
               "size": 8569710,
               "type": "installer",
               "url": "https://github.com/DamRsn/NeuralNote/releases/download/v1.1.0/NeuralNote_Installer_Windows.exe",
-              "downloads": 128271
+              "downloads": 128272
             }
           ],
           "verified": true,
-          "downloads": 182108
+          "downloads": 182109
         }
       },
-      "downloads": 182108
+      "downloads": 182109
     },
     "damiensellier/ctrlrx": {
       "slug": "damiensellier/ctrlrx",

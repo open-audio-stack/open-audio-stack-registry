@@ -1,0 +1,46 @@
+{
+  "mxncmrchnd/waddle": {
+    "slug": "mxncmrchnd/waddle",
+    "version": "2.0.0",
+    "versions": {
+      "2.0.0": {
+        "name": "Waddle",
+        "author": "Maxence Marchand",
+        "description": "Small sidechain effect plugin",
+        "license": "gpl-3.0",
+        "type": "effect",
+        "tags": [
+          "Sidechain",
+          "Ducking"
+        ],
+        "url": "https://github.com/mxncmrchnd/waddle",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/mxncmrchnd/waddle/waddle.jpg",
+        "date": "2026-07-16T19:30:13Z",
+        "changes": "v2.0.0 release.",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 1623595,
+            "sha256": "1b47519f2cd4d1bed7a2dd5029cf1e9074f3862d491259fa80769fa065f189de",
+            "url": "https://github.com/mxncmrchnd/waddle/releases/download/v2.0.0/Waddle.vst3.zip",
+            "downloads": 6
+          }
+        ],
+        "verified": true,
+        "downloads": 6
+      }
+    },
+    "downloads": 6
+  }
+}
