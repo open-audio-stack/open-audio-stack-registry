@@ -4997,7 +4997,7 @@
             "size": 14022185,
             "sha256": "63408008a2316d91435473e725be1e5958723873ab111a44eea51f24465b9b94",
             "url": "https://github.com/tiagolr/tetraop/releases/download/v1.0.3/tetraop-macos-v1.0.3.zip",
-            "downloads": 612
+            "downloads": 613
           },
           {
             "systems": [
@@ -5037,10 +5037,10 @@
           }
         ],
         "verified": true,
-        "downloads": 2797
+        "downloads": 2798
       }
     },
-    "downloads": 2797
+    "downloads": 2798
   },
   "tiagolr/sirial": {
     "slug": "tiagolr/sirial",
@@ -6838,7 +6838,7 @@
             "size": 223339140,
             "sha256": "a6e55064487f624147d515b9ae5fc79a568b69746675b2083abde628ca7bb151",
             "url": "https://github.com/surge-synthesizer/releases-xt/releases/download/1.3.4/surge-xt-linux-x64-1.3.4.deb",
-            "downloads": 34958
+            "downloads": 34961
           },
           {
             "systems": [
@@ -6924,7 +6924,7 @@
           }
         ],
         "verified": true,
-        "downloads": 703294
+        "downloads": 703297
       },
       "1.3.1": {
         "name": "Surge XT",
@@ -7051,7 +7051,7 @@
         "downloads": 84039
       }
     },
-    "downloads": 787333
+    "downloads": 787336
   },
   "surge-synthesizer/ob-xf": {
     "slug": "surge-synthesizer/ob-xf",
@@ -7111,7 +7111,7 @@
             "size": 21867343,
             "sha256": "72b60c83cf6426337031df744c34a047104a9d95f1feaf6cd048ecfa39f74c96",
             "url": "https://github.com/surge-synthesizer/OB-Xf/releases/download/v1.0.3/ob-xf-Linux-v1.0.3.zip",
-            "downloads": 868
+            "downloads": 870
           },
           {
             "systems": [
@@ -7250,10 +7250,10 @@
           }
         ],
         "verified": true,
-        "downloads": 8638
+        "downloads": 8640
       }
     },
-    "downloads": 8638
+    "downloads": 8640
   },
   "surge-synthesizer/monique-monosynth": {
     "slug": "surge-synthesizer/monique-monosynth",
@@ -26354,6 +26354,89 @@
     },
     "downloads": 18
   },
+  "fannon/trace-tuner": {
+    "slug": "fannon/trace-tuner",
+    "version": "1.1.3",
+    "versions": {
+      "1.1.3": {
+        "name": "Trace Tuner",
+        "author": "Simon Heimler",
+        "description": "Minimalistic tuner plugin with a history trace of recent pitch",
+        "license": "mit",
+        "type": "tool",
+        "tags": [
+          "Tuner",
+          "CLAP"
+        ],
+        "url": "https://github.com/Fannon/trace-tuner",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/fannon/trace-tuner/trace-tuner.jpg",
+        "date": "2026-06-06T06:47:13Z",
+        "changes": "v1.1.3 release.",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "clap"
+            ],
+            "type": "archive",
+            "size": 3829376,
+            "sha256": "8d25dad9eef36d983e44e2fcbd5ec199ccf9a00d2ac13517d7f4abe2aa6b0ffd",
+            "url": "https://github.com/Fannon/trace-tuner/releases/download/v1.1.3/TraceTuner_linux.zip",
+            "downloads": 4
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64"
+            ],
+            "contains": [
+              "vst3",
+              "clap"
+            ],
+            "type": "archive",
+            "size": 3228016,
+            "sha256": "1e8ec0574f643b0ff565d4e452e46009bfa7c9e484627dacea29258b4d35a078",
+            "url": "https://github.com/Fannon/trace-tuner/releases/download/v1.1.3/TraceTuner_macos.zip",
+            "downloads": 3
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "clap"
+            ],
+            "type": "archive",
+            "size": 3140358,
+            "sha256": "0ada133f73fc068d0596a674f4df37d1aa96e916ab45d4fe66ed4278f51f7fa8",
+            "url": "https://github.com/Fannon/trace-tuner/releases/download/v1.1.3/TraceTuner_windows.zip",
+            "downloads": 4
+          }
+        ],
+        "verified": true,
+        "downloads": 11
+      }
+    },
+    "downloads": 11
+  },
   "falktx/carla": {
     "slug": "falktx/carla",
     "version": "2.5.10",
@@ -31399,7 +31482,7 @@
             "sha256": "fae7c1c325fde7ed49c978358397cb4bcf69012c4e6eefe2a5968fe6a36d0421",
             "size": 19665323,
             "url": "https://github.com/baconpaul/six-sines/releases/download/v1.1.0/six-sines-linux-2025-03-18-43d10b2.tgz",
-            "downloads": 1050
+            "downloads": 1052
           },
           {
             "systems": [
@@ -31446,10 +31529,10 @@
           }
         ],
         "verified": true,
-        "downloads": 3572
+        "downloads": 3574
       }
     },
-    "downloads": 4169
+    "downloads": 4171
   },
   "azur1s/penare": {
     "slug": "azur1s/penare",
@@ -32104,7 +32187,7 @@
             "size": 7612454,
             "sha256": "5d026f53504f9303ae2a4a635cf6fdfc50ab9c947cbc0a20ecb5c8f323402dab",
             "url": "https://github.com/asb2m10/dexed/releases/download/v0.9.8/dexed-0.9.8-lnx.zip",
-            "downloads": 6101
+            "downloads": 6103
           },
           {
             "systems": [
@@ -32149,10 +32232,10 @@
           }
         ],
         "verified": true,
-        "downloads": 195150
+        "downloads": 195152
       }
     },
-    "downloads": 338254
+    "downloads": 338256
   },
   "artfwo/andes": {
     "slug": "artfwo/andes",

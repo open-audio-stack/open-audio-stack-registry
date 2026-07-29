@@ -1,0 +1,83 @@
+{
+  "slug": "fannon/trace-tuner",
+  "version": "1.1.3",
+  "versions": {
+    "1.1.3": {
+      "name": "Trace Tuner",
+      "author": "Simon Heimler",
+      "description": "Minimalistic tuner plugin with a history trace of recent pitch",
+      "license": "mit",
+      "type": "tool",
+      "tags": [
+        "Tuner",
+        "CLAP"
+      ],
+      "url": "https://github.com/Fannon/trace-tuner",
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/fannon/trace-tuner/trace-tuner.jpg",
+      "date": "2026-06-06T06:47:13Z",
+      "changes": "v1.1.3 release.",
+      "files": [
+        {
+          "systems": [
+            {
+              "type": "linux"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "vst3",
+            "clap"
+          ],
+          "type": "archive",
+          "size": 3829376,
+          "sha256": "8d25dad9eef36d983e44e2fcbd5ec199ccf9a00d2ac13517d7f4abe2aa6b0ffd",
+          "url": "https://github.com/Fannon/trace-tuner/releases/download/v1.1.3/TraceTuner_linux.zip",
+          "downloads": 4
+        },
+        {
+          "systems": [
+            {
+              "type": "mac"
+            }
+          ],
+          "architectures": [
+            "arm64"
+          ],
+          "contains": [
+            "vst3",
+            "clap"
+          ],
+          "type": "archive",
+          "size": 3228016,
+          "sha256": "1e8ec0574f643b0ff565d4e452e46009bfa7c9e484627dacea29258b4d35a078",
+          "url": "https://github.com/Fannon/trace-tuner/releases/download/v1.1.3/TraceTuner_macos.zip",
+          "downloads": 3
+        },
+        {
+          "systems": [
+            {
+              "type": "win"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "vst3",
+            "clap"
+          ],
+          "type": "archive",
+          "size": 3140358,
+          "sha256": "0ada133f73fc068d0596a674f4df37d1aa96e916ab45d4fe66ed4278f51f7fa8",
+          "url": "https://github.com/Fannon/trace-tuner/releases/download/v1.1.3/TraceTuner_windows.zip",
+          "downloads": 4
+        }
+      ],
+      "verified": true,
+      "downloads": 11
+    }
+  },
+  "downloads": 11
+}
