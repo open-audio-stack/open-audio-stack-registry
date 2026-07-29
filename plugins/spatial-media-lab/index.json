@@ -1,0 +1,67 @@
+{
+  "spatial-media-lab/openspatialdelay": {
+    "slug": "spatial-media-lab/openspatialdelay",
+    "version": "0.9.0",
+    "versions": {
+      "0.9.0": {
+        "name": "OpenSpatialDelay",
+        "author": "Spatial Media Lab",
+        "description": "Spatial delay plugin where each echo lives in 3D space, with per-tap pitch shifting and binaural rendering",
+        "license": "gpl-3.0",
+        "type": "effect",
+        "tags": [
+          "Delay",
+          "Spatial Audio",
+          "Binaural",
+          "Audio Unit"
+        ],
+        "url": "https://github.com/Spatial-Media-Lab/OpenSpatialDelay",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/spatial-media-lab/openspatialdelay/openspatialdelay.jpg",
+        "date": "2026-03-19T07:43:39Z",
+        "changes": "Trajectory system rewrite: 13 origin-point trajectory shapes, a 60-preset factory suite, WSOLA-lite per-tap pitch shifting, and fixed input gain leak.",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64"
+            ],
+            "contains": [
+              "vst3",
+              "component"
+            ],
+            "type": "archive",
+            "size": 75352059,
+            "sha256": "18326efd339c8b2c1dc9b437035d7c07d499d08104460bdb4a0e5046dbf2a704",
+            "url": "https://github.com/Spatial-Media-Lab/OpenSpatialDelay/releases/download/v0.9/OpenSpatialDelay-v0.9-macOS.zip",
+            "downloads": 2
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 3830541,
+            "sha256": "f43f5f670fc29bb5fd60b0c0cdadb3065a8d83791d8f7c3faf01932782a1d7ab",
+            "url": "https://github.com/Spatial-Media-Lab/OpenSpatialDelay/releases/download/v0.9/OpenSpatialDelay-v0.9-Windows.zip",
+            "downloads": 2
+          }
+        ],
+        "verified": true,
+        "downloads": 4
+      }
+    },
+    "downloads": 4
+  }
+}
