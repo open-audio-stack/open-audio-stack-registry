@@ -1089,6 +1089,20 @@
       ]
     }
   },
+  "samplaman/owmb": {
+    "1.0.0": {
+      "recs": [
+        {
+          "field": "architectures",
+          "rec": "should support arm64"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Mac"
+        }
+      ]
+    }
+  },
   "samplaman/layerengine": {
     "0.0.1": {
       "recs": [

@@ -1,4 +1,69 @@
 {
+  "samplaman/owmb": {
+    "slug": "samplaman/owmb",
+    "version": "1.0.0",
+    "versions": {
+      "1.0.0": {
+        "name": "OWMB",
+        "author": "samplaman",
+        "description": "Open-source audio plugin (VST3, Standalone) and sample library management system with an interactive 2D sample cloud visualizer, tag-based search, and fast asynchronous WAV scanning.",
+        "license": "mit",
+        "type": "tool",
+        "tags": [
+          "Sample Browser",
+          "Sample Library",
+          "Tagging"
+        ],
+        "url": "https://github.com/samplaman/owmb",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/samplaman/owmb/owmb.jpg",
+        "date": "2026-07-27T19:56:59Z",
+        "changes": "Initial release: 2D sample cloud visualizer, tag-based search and auto-inference,\nasynchronous WAV scanning, scanned folder management, and DAW drag-and-drop.",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "elf"
+            ],
+            "type": "archive",
+            "size": 9760897,
+            "sha256": "bdce4edf01677f9df1bf2d05c847236ce67f6757ebbf78f12baaca6bed3012c5",
+            "url": "https://github.com/samplaman/owmb/releases/download/v1.0.0/OWMB-Linux-Distros-x64.tar.gz",
+            "downloads": 4
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "exe"
+            ],
+            "type": "archive",
+            "size": 4153405,
+            "sha256": "b434e1f53a926d2f2c115f1a0d9cf624692de66b623c0f2baff250e15425647d",
+            "url": "https://github.com/samplaman/owmb/releases/download/v1.0.0/OWMB-Windows-11-x64.zip",
+            "downloads": 5
+          }
+        ],
+        "verified": true,
+        "downloads": 9
+      }
+    },
+    "downloads": 9
+  },
   "samplaman/layerengine": {
     "slug": "samplaman/layerengine",
     "version": "0.0.1",
@@ -35,7 +100,8 @@
             "type": "archive",
             "size": 10573732,
             "sha256": "b1b32adfccf96a706e49e0c1dd5d1a6978eabefdbf4f22f14178ce078989b379",
-            "url": "https://github.com/samplaman/layerengine/releases/download/latest/LayerEngine-Linux-Debian.zip"
+            "url": "https://github.com/samplaman/layerengine/releases/download/latest/LayerEngine-Linux-Debian.zip",
+            "downloads": 1
           },
           {
             "systems": [
@@ -53,7 +119,8 @@
             "type": "archive",
             "size": 12573759,
             "sha256": "da4f866a90d50cc77e2d0ad8405ea5ffe5f3e58c7dc06666495ab9ece9b1be74",
-            "url": "https://github.com/samplaman/layerengine/releases/download/latest/LayerEngine-Linux-Universal.zip"
+            "url": "https://github.com/samplaman/layerengine/releases/download/latest/LayerEngine-Linux-Universal.zip",
+            "downloads": 2
           },
           {
             "systems": [
@@ -90,7 +157,7 @@
             "size": 23106615,
             "sha256": "14dc250eee56b22d28e31777c5497efac7951b06c03060b1534b9bde8a3835ae",
             "url": "https://github.com/samplaman/layerengine/releases/download/latest/LayerEngine-Linux.zip",
-            "downloads": 16
+            "downloads": 17
           },
           {
             "systems": [
@@ -128,13 +195,13 @@
             "size": 3313997,
             "sha256": "fb6d96a0a5c7be6b7eaf88989f1b9c7666eca8173a49857c811fb149bc1ef9eb",
             "url": "https://github.com/samplaman/layerengine/releases/download/latest/LayerEngine-Windows.zip",
-            "downloads": 7
+            "downloads": 8
           }
         ],
         "verified": true,
-        "downloads": 26
+        "downloads": 31
       }
     },
-    "downloads": 26
+    "downloads": 31
   }
 }
