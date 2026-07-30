@@ -88,7 +88,10 @@ function slugToTitleCase(slug: string): string {
 // text and pattern-match it directly. Order matters: AGPL/LGPL are checked before plain GPL since
 // their canonical text contains "General Public License" as a substring too.
 function detectLicenseFromText(text: string): string | null {
-  const t = text.slice(0, 4000); // license identification only needs the opening section
+  // Collapse whitespace (including hard line-wraps at ~80 columns, extremely common in
+  // LICENSE files) before matching — a fingerprint phrase spanning a wrap point otherwise
+  // silently fails to match even though the license text is a byte-for-byte standard copy.
+  const t = text.slice(0, 4000).replace(/\s+/g, ' ');
   const has = (re: RegExp) => re.test(t);
   if (has(/BSD Zero-?Clause License/i)) return '0bsd';
   if (has(/unencumbered software released into the public domain/i)) return 'unlicense';
@@ -424,7 +427,16 @@ function extractArchive(tmpFile: string, filename: string): string | null {
   try {
     if (/\.zip$/i.test(filename)) {
       mkdirSync(dir, { recursive: true });
-      execSync(`unzip -oq "${tmpFile}" -d "${dir}"`, { stdio: 'pipe' });
+      try {
+        execSync(`unzip -oq "${tmpFile}" -d "${dir}"`, { stdio: 'pipe' });
+      } catch {
+        // unzip exits 1 for warnings it still recovers from — e.g. "appears to use backslashes
+        // as path separators" (routine for Windows-built zips) — with the archive otherwise
+        // fully extracted. Swallow here and let the dirHasFiles check below be the real signal,
+        // same as every other archive type in this function; letting this propagate to the
+        // outer catch previously discarded a real, complete extraction over a mere warning,
+        // silently falling back to unreliable prose-based format inference instead.
+      }
       expandNestedPkgs(dir); // zip may wrap a .pkg rather than shipping raw bundles
     } else if (/\.tar\.gz$|\.tgz$/i.test(filename)) {
       mkdirSync(dir, { recursive: true });
