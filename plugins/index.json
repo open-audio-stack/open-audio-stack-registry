@@ -16577,7 +16577,7 @@
             "size": 22447365,
             "sha256": "ca5f35f9dcd9a33f06490d3c92f04061a1a798cb81257d5ca5851bdda0824c66",
             "url": "https://github.com/michaelwillis/dragonfly-reverb/releases/download/3.2.10/dragonfly-reverb-3.2.10-win64.zip",
-            "downloads": 67597
+            "downloads": 67598
           },
           {
             "systems": [
@@ -16603,10 +16603,10 @@
           }
         ],
         "verified": true,
-        "downloads": 127299
+        "downloads": 127300
       }
     },
-    "downloads": 127299
+    "downloads": 127300
   },
   "michael02022/basic-harmonica": {
     "slug": "michael02022/basic-harmonica",
@@ -25431,6 +25431,90 @@
       }
     },
     "downloads": 13
+  },
+  "gnuoyohes/key-detect": {
+    "slug": "gnuoyohes/key-detect",
+    "version": "1.0.0",
+    "versions": {
+      "1.0.0": {
+        "name": "Key Detect",
+        "author": "Seho Young",
+        "description": "Analyzes the frequencies present in incoming audio to detect keys and harmonies",
+        "license": "mit",
+        "type": "tool",
+        "tags": [
+          "Key Detection",
+          "Analyzer",
+          "Harmony"
+        ],
+        "url": "https://github.com/gnuoyohes/key-detect",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/gnuoyohes/key-detect/key-detect.jpg",
+        "date": "2026-03-26T04:51:42Z",
+        "changes": "v1.0.0 release.",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "elf"
+            ],
+            "type": "archive",
+            "size": 4457172,
+            "sha256": "70bcc4a7c4d66c156ce4521d0b43976088711461ebe14c88f8184e74db1740d0",
+            "url": "https://github.com/gnuoyohes/key-detect/releases/download/v1.0.0/Key.Detect-0.0.1-Linux.zip",
+            "downloads": 3
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "app"
+            ],
+            "type": "installer",
+            "size": 7934379,
+            "sha256": "5bcb32ab3fc0256beec9c3eee0444296d83c3e7b6a4e7131945037ae5f21b3fd",
+            "url": "https://github.com/gnuoyohes/key-detect/releases/download/v1.0.0/Key.Detect-0.0.1-macOS.pkg",
+            "downloads": 3
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "installer",
+            "size": 6486279,
+            "sha256": "a56b7f7c1fdcdf7437db735baa54c9a2574be3ab2e44991dfb29ef57743a19fe",
+            "url": "https://github.com/gnuoyohes/key-detect/releases/download/v1.0.0/Key.Detect-0.0.1-Windows.exe",
+            "downloads": 3
+          }
+        ],
+        "verified": true,
+        "downloads": 9
+      }
+    },
+    "downloads": 9
   },
   "giulioz/rdpiano": {
     "slug": "giulioz/rdpiano",
