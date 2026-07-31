@@ -39,7 +39,7 @@
           "size": 9230313,
           "type": "archive",
           "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.2.2/ZL.Equalizer.2-1.2.2-Linux-arm64.zip",
-          "downloads": 248
+          "downloads": 258
         },
         {
           "architectures": [
@@ -59,7 +59,7 @@
           "size": 10034620,
           "type": "archive",
           "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.2.2/ZL.Equalizer.2-1.2.2-Linux-x86-64-AVX2.zip",
-          "downloads": 447
+          "downloads": 464
         },
         {
           "architectures": [
@@ -79,7 +79,7 @@
           "size": 9763297,
           "type": "archive",
           "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.2.2/ZL.Equalizer.2-1.2.2-Linux-x86-64.zip",
-          "downloads": 420
+          "downloads": 435
         },
         {
           "architectures": [
@@ -101,7 +101,7 @@
           "size": 13378811,
           "type": "installer",
           "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.2.2/ZL.Equalizer.2-1.2.2-macOS-arm64.dmg",
-          "downloads": 2316
+          "downloads": 2368
         },
         {
           "architectures": [
@@ -123,7 +123,7 @@
           "size": 14968334,
           "type": "installer",
           "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.2.2/ZL.Equalizer.2-1.2.2-macOS-x86-64.dmg",
-          "downloads": 765
+          "downloads": 786
         },
         {
           "architectures": [
@@ -142,7 +142,7 @@
           "size": 8196096,
           "type": "installer",
           "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.2.2/ZL.Equalizer.2-1.2.2-Windows-arm64.msi",
-          "downloads": 641
+          "downloads": 666
         },
         {
           "architectures": [
@@ -161,7 +161,7 @@
           "size": 11886592,
           "type": "installer",
           "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.2.2/ZL.Equalizer.2-1.2.2-Windows-x86-64-AVX2.msi",
-          "downloads": 3617
+          "downloads": 3717
         },
         {
           "architectures": [
@@ -180,11 +180,11 @@
           "size": 11608064,
           "type": "installer",
           "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.2.2/ZL.Equalizer.2-1.2.2-Windows-x86-64.msi",
-          "downloads": 3586
+          "downloads": 3683
         }
       ],
       "verified": true,
-      "downloads": 12040
+      "downloads": 12377
     },
     "1.1.0": {
       "name": "ZL Equalizer 2",
@@ -237,7 +237,7 @@
           "size": 11547522,
           "type": "archive",
           "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.1.0/ZL.Equalizer.2-1.1.0-Linux-arm.zip",
-          "downloads": 884
+          "downloads": 886
         },
         {
           "architectures": [
@@ -257,7 +257,7 @@
           "size": 22915912,
           "type": "installer",
           "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.1.0/ZL.Equalizer.2-1.1.0-macOS-x86.dmg",
-          "downloads": 3769
+          "downloads": 3770
         },
         {
           "architectures": [
@@ -277,7 +277,7 @@
           "size": 15238667,
           "type": "installer",
           "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.1.0/ZL.Equalizer.2-1.1.0-macOS-arm.dmg",
-          "downloads": 6689
+          "downloads": 6690
         },
         {
           "architectures": [
@@ -297,7 +297,7 @@
           "size": 11918930,
           "type": "installer",
           "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.1.0/ZL.Equalizer.2-1.1.0-Windows-x86.exe",
-          "downloads": 22614
+          "downloads": 22618
         },
         {
           "architectures": [
@@ -316,12 +316,12 @@
           "size": 8247800,
           "type": "installer",
           "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.1.0/ZL.Equalizer.2-1.1.0-Windows-arm.exe",
-          "downloads": 4960
+          "downloads": 4961
         }
       ],
       "verified": true,
-      "downloads": 41457
+      "downloads": 41466
     }
   },
-  "downloads": 53497
+  "downloads": 53843
 }
