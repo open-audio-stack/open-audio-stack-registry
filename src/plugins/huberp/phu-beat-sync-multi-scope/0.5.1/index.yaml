@@ -1,0 +1,66 @@
+name: PHU Beat Sync Multi Scope
+author: Peter H.
+description: Beat-synced multi-input oscilloscope that collects and displays inputs from peer instances set to "broadcast"
+license: mit
+type: tool
+tags:
+  - Oscilloscope
+  - Analyzer
+  - Beat Sync
+url: https://github.com/huberp/phu-beat-sync-multi-scope
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/huberp/phu-beat-sync-multi-scope/phu-beat-sync-multi-scope.jpg
+date: '2026-04-14T18:04:33Z'
+changes: v0.5.1 release. Adds Windows ARM64 and macOS (Intel + Apple Silicon, VST3 + AU) builds.
+files:
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - vst3
+    type: archive
+    size: 2388565
+    sha256: 864527c86bb1403ff25205721e4ba160ec8a13ccf48df9fa7cc1f7c5ea8654e0
+    url: https://github.com/huberp/phu-beat-sync-multi-scope/releases/download/v0.5.1/PHU-BEAT-SYNC-MULTI-SCOPE-linux-0.5.1.zip
+  - systems:
+      - type: mac
+    architectures:
+      - arm64
+    contains:
+      - vst3
+      - component
+    type: archive
+    size: 3260675
+    sha256: ebdeeb3493c9cc52ac9138244cb1229d76337d4a29b7acefb7020cbb75062bb2
+    url: https://github.com/huberp/phu-beat-sync-multi-scope/releases/download/v0.5.1/PHU-BEAT-SYNC-MULTI-SCOPE-macos-apple-silicon-arm64-0.5.1.zip
+  - systems:
+      - type: mac
+    architectures:
+      - x64
+    contains:
+      - vst3
+      - component
+    type: archive
+    size: 3647594
+    sha256: ea93b1096b4003bed73266e32ffcef94c2a175391078ed239e523cc0f584ccd8
+    url: https://github.com/huberp/phu-beat-sync-multi-scope/releases/download/v0.5.1/PHU-BEAT-SYNC-MULTI-SCOPE-macos-intel-x86_64-0.5.1.zip
+  - systems:
+      - type: win
+    architectures:
+      - arm64
+    contains:
+      - vst3
+    type: archive
+    size: 2611726
+    sha256: e05a032f0cffcead3d3b01a5a93b5584055fd1a3d3c20475328877e75fef796c
+    url: https://github.com/huberp/phu-beat-sync-multi-scope/releases/download/v0.5.1/PHU-BEAT-SYNC-MULTI-SCOPE-windows-arm64-0.5.1.zip
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - vst3
+    type: archive
+    size: 2568349
+    sha256: 27a73e70f252d7d7396853092cbe09adb76df80638d7dc0668f4cf2b938c8954
+    url: https://github.com/huberp/phu-beat-sync-multi-scope/releases/download/v0.5.1/PHU-BEAT-SYNC-MULTI-SCOPE-windows-x64-0.5.1.zip
