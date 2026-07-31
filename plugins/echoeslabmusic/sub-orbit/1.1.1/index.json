@@ -1,0 +1,93 @@
+{
+  "name": "Sub-Orbit",
+  "author": "ECHOES LAB",
+  "description": "Mono-safe low-end stereoizer",
+  "license": "mit",
+  "type": "effect",
+  "tags": [
+    "Stereo Imaging",
+    "Bass",
+    "Widener"
+  ],
+  "url": "https://github.com/echoeslabmusic/Sub-Orbit",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/echoeslabmusic/sub-orbit/sub-orbit.jpg",
+  "date": "2026-04-03T19:46:44Z",
+  "changes": "v1.1.1 release.",
+  "files": [
+    {
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3"
+      ],
+      "type": "archive",
+      "size": 4980196,
+      "sha256": "b10fe67dd684494249f0ba4f532098db031c13765fbd8e2405e308af2e1cd222",
+      "url": "https://github.com/echoeslabmusic/Sub-Orbit/releases/download/v1.1.1/SubOrbit-Linux-VST3.tar.gz",
+      "downloads": 7
+    },
+    {
+      "systems": [
+        {
+          "type": "mac"
+        }
+      ],
+      "architectures": [
+        "arm64",
+        "x64"
+      ],
+      "contains": [
+        "vst3"
+      ],
+      "type": "installer",
+      "size": 15455130,
+      "sha256": "185cdf76ac5912b83e814f012ebb4bed5873ba8bd164a882def691e6f2fb76e0",
+      "url": "https://github.com/echoeslabmusic/Sub-Orbit/releases/download/v1.1.1/SubOrbit-macOS-Installer.pkg",
+      "downloads": 14
+    },
+    {
+      "systems": [
+        {
+          "type": "win"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3"
+      ],
+      "type": "installer",
+      "size": 4366124,
+      "sha256": "7658201c68aca6b5074578843fe8a56e7f437aa3143c233d92f3249baec505e5",
+      "url": "https://github.com/echoeslabmusic/Sub-Orbit/releases/download/v1.1.1/SubOrbit-Windows-Installer.exe",
+      "downloads": 11
+    },
+    {
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3"
+      ],
+      "type": "installer",
+      "size": 4033938,
+      "sha256": "76aa011529e700940e2cb3300efb124cc53e01248e25f88ffb5e74f3c5a8f28e",
+      "url": "https://github.com/echoeslabmusic/Sub-Orbit/releases/download/v1.1.1/suborbit_1.1.1_amd64.deb",
+      "downloads": 4
+    }
+  ],
+  "verified": true,
+  "downloads": 36
+}
