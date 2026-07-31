@@ -1,0 +1,86 @@
+name: Fasttracker II (FT2) Plugin
+author: Blamstrain/TPOLM
+description: Multi-instance-aware VST3/AU/LV2 plugin rewrite of 8bitbubsy's Fasttracker II clone, using JUCE
+license: bsd-3-clause
+type: instrument
+tags:
+  - Tracker
+  - Sampler
+  - Retro
+url: https://github.com/juho/ft2-plugin
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/juho/ft2-plugin/ft2-plugin.jpg
+date: '2026-02-08T01:06:49Z'
+changes: v1.1.4 release.
+files:
+  - systems:
+      - type: mac
+    architectures:
+      - x64
+    contains:
+      - component
+    type: archive
+    size: 2332355
+    sha256: a8859e4a041549366df6e020ec392ac85a3910228378ec9b9a4a78c0a5ceed69
+    url: https://github.com/juho/ft2-plugin/releases/download/v1.1.4/FT2-Plugin-1.1.4-AU-macOS-Legacy.zip
+  - systems:
+      - type: mac
+    architectures:
+      - arm64
+      - x64
+    contains:
+      - component
+    type: archive
+    size: 4413521
+    sha256: d9303ebf667640c5dbf8bd97033572c9b722d83e4f8fd665b9cecece13857573
+    url: https://github.com/juho/ft2-plugin/releases/download/v1.1.4/FT2-Plugin-1.1.4-AU-macOS.zip
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - lv2
+    type: archive
+    size: 2790816
+    sha256: 3def4388c853c6cd13c82d47f0206a0d6162d8a4e2f6fabc8f8f2b7dc2832c63
+    url: https://github.com/juho/ft2-plugin/releases/download/v1.1.4/FT2-Plugin-1.1.4-LV2-Linux.zip
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - vst3
+    type: archive
+    size: 2897997
+    sha256: da05f944be1596d885ef474a469fd6f076d088521b59715674edda46adfacca5
+    url: https://github.com/juho/ft2-plugin/releases/download/v1.1.4/FT2-Plugin-1.1.4-VST3-Linux.zip
+  - systems:
+      - type: mac
+    architectures:
+      - x64
+    contains:
+      - vst3
+    type: archive
+    size: 2335982
+    sha256: cf102e4f960ab008257a96c680acd1558ce559951c08f0f250213ca08367feb5
+    url: https://github.com/juho/ft2-plugin/releases/download/v1.1.4/FT2-Plugin-1.1.4-VST3-macOS-Legacy.zip
+  - systems:
+      - type: mac
+    architectures:
+      - arm64
+      - x64
+    contains:
+      - vst3
+    type: archive
+    size: 4424510
+    sha256: ba6b0fb1d0fcefdd6d77d78a25d07b4249dc78ba2855a542aeb144757266e560
+    url: https://github.com/juho/ft2-plugin/releases/download/v1.1.4/FT2-Plugin-1.1.4-VST3-macOS.zip
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - vst3
+    type: archive
+    size: 2780281
+    sha256: a29e213670ebbb3c81189aa46d19b167cbcec666e9cdc833163eabd7e4c065a8
+    url: https://github.com/juho/ft2-plugin/releases/download/v1.1.4/FT2-Plugin-1.1.4-VST3-Windows.zip
