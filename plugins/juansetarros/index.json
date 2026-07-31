@@ -1,0 +1,46 @@
+{
+  "juansetarros/breakdowner": {
+    "slug": "juansetarros/breakdowner",
+    "version": "0.9.0",
+    "versions": {
+      "0.9.0": {
+        "name": "Breakdowner",
+        "author": "Juan Sebastian Ospina",
+        "description": "Distortion plugin with a pedal-style UI",
+        "license": "mit",
+        "type": "effect",
+        "tags": [
+          "Distortion",
+          "Pedal"
+        ],
+        "url": "https://github.com/juansetarros/Breakdowner",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/juansetarros/breakdowner/breakdowner.jpg",
+        "date": "2026-03-30T23:55:33Z",
+        "changes": "First public beta release.",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 2885797,
+            "sha256": "06134a756f89a1f835ae2c616a9f98a98250b52381e4daf7d6b6fe38e164a6d9",
+            "url": "https://github.com/juansetarros/Breakdowner/releases/download/v0.9.0/Breakdowner_v0.9Beta.zip",
+            "downloads": 3
+          }
+        ],
+        "verified": true,
+        "downloads": 3
+      }
+    },
+    "downloads": 3
+  }
+}
