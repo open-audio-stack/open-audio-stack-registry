@@ -10694,14 +10694,14 @@
               "size": 10349826,
               "sha256": "83e2825241d4e1c0ab2c44c91c0a9be6a94941a81df0c2fbe05e83b2650470da",
               "url": "https://github.com/Sinuslabs/Reach/releases/download/1.6.6/Reach-Windows.exe",
-              "downloads": 168765
+              "downloads": 168768
             }
           ],
           "verified": true,
-          "downloads": 170563
+          "downloads": 170566
         }
       },
-      "downloads": 170563
+      "downloads": 170566
     },
     "sfztools/sfizz-ui": {
       "slug": "sfztools/sfizz-ui",
@@ -12871,14 +12871,14 @@
               "size": 13763,
               "sha256": "0f2f7c134e9387ade9f12c207ef4a04e2ded73a78f670e0c4e8816785e6f03a6",
               "url": "https://github.com/rbmannchued/LooperPedal/releases/download/v0.1.0/looper.lv2.tar.gz",
-              "downloads": 67
+              "downloads": 68
             }
           ],
           "verified": true,
-          "downloads": 67
+          "downloads": 68
         }
       },
-      "downloads": 67
+      "downloads": 68
     },
     "qvbdev/quantumverb": {
       "slug": "qvbdev/quantumverb",
@@ -15500,6 +15500,144 @@
       },
       "downloads": 104
     },
+    "odoare/fxmesampler": {
+      "slug": "odoare/fxmesampler",
+      "version": "0.2.0",
+      "versions": {
+        "0.2.0": {
+          "name": "Fxme Sampler",
+          "author": "Olivier Doaré",
+          "description": "Sampling instrument with a flexible multi-channel mixer, built-in convolution reverb, and advanced velocity mapping, configured via a portable mapping.xml file",
+          "license": "lgpl-3.0",
+          "type": "sampler",
+          "tags": [
+            "Sampler",
+            "Drums",
+            "Convolution Reverb"
+          ],
+          "url": "https://github.com/odoare/FxmeSampler",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/odoare/fxmesampler/fxmesampler.jpg",
+          "date": "2026-05-27T13:27:09Z",
+          "changes": "Adds a Transient effect to the dynamics strip, custom IR loading in the convolution reverb, and a new equalizer GUI.",
+          "files": [
+            {
+              "systems": [
+                {
+                  "type": "win"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "vst3"
+              ],
+              "type": "installer",
+              "size": 226825742,
+              "sha256": "4b32a0896a41ac273be9611ae568080e1d94995ee264cdfd869c23af468e3db1",
+              "url": "https://github.com/odoare/FxmeSampler/releases/download/v0.2.0/BlackWidowDrums-Windows-Setup.exe",
+              "downloads": 137
+            },
+            {
+              "systems": [
+                {
+                  "type": "win"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "vst3"
+              ],
+              "type": "installer",
+              "size": 51582782,
+              "sha256": "c08cb4e83c24c5cb2aa2c038b22c68100d75d061bb94897e80b7751cd5188f58",
+              "url": "https://github.com/odoare/FxmeSampler/releases/download/v0.2.0/CenturyDrums-Windows-Setup.exe",
+              "downloads": 113
+            },
+            {
+              "systems": [
+                {
+                  "type": "mac"
+                }
+              ],
+              "architectures": [
+                "arm64",
+                "x64"
+              ],
+              "contains": [
+                "component"
+              ],
+              "type": "archive",
+              "size": 280443427,
+              "sha256": "d76f963dfcd07aa4db05c4cd0f7028fe97bb1889efb9c2814fe052edeeba531b",
+              "url": "https://github.com/odoare/FxmeSampler/releases/download/v0.2.0/FxmeSampler-AU-macOS-universal.zip",
+              "downloads": 38
+            },
+            {
+              "systems": [
+                {
+                  "type": "mac"
+                }
+              ],
+              "architectures": [
+                "arm64"
+              ],
+              "contains": [
+                "vst3",
+                "component"
+              ],
+              "type": "installer",
+              "size": 560218953,
+              "sha256": "a79f517bbe8ee554ae9c3418c79b76b0c6535c6176e214e8d35aaaca228ed378",
+              "url": "https://github.com/odoare/FxmeSampler/releases/download/v0.2.0/FxmeSampler-macOS.pkg",
+              "downloads": 33
+            },
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "vst3"
+              ],
+              "type": "archive",
+              "size": 278788137,
+              "sha256": "8b12df45d9f507b4aa4283fdea4b4e2425731467713ad894279428f3de562419",
+              "url": "https://github.com/odoare/FxmeSampler/releases/download/v0.2.0/FxmeSampler-VST3-Linux-x86_64.zip",
+              "downloads": 136
+            },
+            {
+              "systems": [
+                {
+                  "type": "mac"
+                }
+              ],
+              "architectures": [
+                "arm64",
+                "x64"
+              ],
+              "contains": [
+                "vst3"
+              ],
+              "type": "archive",
+              "size": 280452907,
+              "sha256": "535840459302e627c4273c2a67b9c0f3d89deab76da3c05740cff4ce2a6ab2d7",
+              "url": "https://github.com/odoare/FxmeSampler/releases/download/v0.2.0/FxmeSampler-VST3-macOS-universal.zip",
+              "downloads": 29
+            }
+          ],
+          "verified": true,
+          "downloads": 486
+        }
+      },
+      "downloads": 486
+    },
     "odoare/ambirr2": {
       "slug": "odoare/ambirr2",
       "version": "0.1.1",
@@ -15595,14 +15733,14 @@
               "size": 3900111,
               "sha256": "a29e4272d8aa929ed6136b9e10716c14259690306a31d24fdf34da6b52fba913",
               "url": "https://github.com/odoare/AmbiRR2/releases/download/v0.1.1/AmbiRR2-Windows-x86_64.zip",
-              "downloads": 151
+              "downloads": 152
             }
           ],
           "verified": true,
-          "downloads": 257
+          "downloads": 258
         }
       },
-      "downloads": 257
+      "downloads": 258
     },
     "noahbaxter/chartchotic": {
       "slug": "noahbaxter/chartchotic",
@@ -25285,7 +25423,7 @@
               "size": 2388565,
               "sha256": "864527c86bb1403ff25205721e4ba160ec8a13ccf48df9fa7cc1f7c5ea8654e0",
               "url": "https://github.com/huberp/phu-beat-sync-multi-scope/releases/download/v0.5.1/PHU-BEAT-SYNC-MULTI-SCOPE-linux-0.5.1.zip",
-              "downloads": 2
+              "downloads": 3
             },
             {
               "systems": [
@@ -25304,7 +25442,7 @@
               "size": 3260675,
               "sha256": "ebdeeb3493c9cc52ac9138244cb1229d76337d4a29b7acefb7020cbb75062bb2",
               "url": "https://github.com/huberp/phu-beat-sync-multi-scope/releases/download/v0.5.1/PHU-BEAT-SYNC-MULTI-SCOPE-macos-apple-silicon-arm64-0.5.1.zip",
-              "downloads": 2
+              "downloads": 3
             },
             {
               "systems": [
@@ -25323,7 +25461,7 @@
               "size": 3647594,
               "sha256": "ea93b1096b4003bed73266e32ffcef94c2a175391078ed239e523cc0f584ccd8",
               "url": "https://github.com/huberp/phu-beat-sync-multi-scope/releases/download/v0.5.1/PHU-BEAT-SYNC-MULTI-SCOPE-macos-intel-x86_64-0.5.1.zip",
-              "downloads": 4
+              "downloads": 5
             },
             {
               "systems": [
@@ -25341,7 +25479,7 @@
               "size": 2611726,
               "sha256": "e05a032f0cffcead3d3b01a5a93b5584055fd1a3d3c20475328877e75fef796c",
               "url": "https://github.com/huberp/phu-beat-sync-multi-scope/releases/download/v0.5.1/PHU-BEAT-SYNC-MULTI-SCOPE-windows-arm64-0.5.1.zip",
-              "downloads": 2
+              "downloads": 3
             },
             {
               "systems": [
@@ -25359,14 +25497,14 @@
               "size": 2568349,
               "sha256": "27a73e70f252d7d7396853092cbe09adb76df80638d7dc0668f4cf2b938c8954",
               "url": "https://github.com/huberp/phu-beat-sync-multi-scope/releases/download/v0.5.1/PHU-BEAT-SYNC-MULTI-SCOPE-windows-x64-0.5.1.zip",
-              "downloads": 4
+              "downloads": 5
             }
           ],
           "verified": true,
-          "downloads": 14
+          "downloads": 19
         }
       },
-      "downloads": 14
+      "downloads": 19
     },
     "hqrrr/perceptomap": {
       "slug": "hqrrr/perceptomap",
