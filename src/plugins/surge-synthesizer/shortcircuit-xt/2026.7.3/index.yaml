@@ -1,0 +1,81 @@
+name: Shortcircuit XT
+author: Surge Synthesizer Team
+description: Shortcircuit XT is a sample-initiated instrument being actively developed by the Surge Synth Team.
+license: mit
+type: sampler
+tags:
+  - Sampler
+  - Multi-Sample
+url: https://github.com/surge-synthesizer/shortcircuit-xt
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/surge-synthesizer/shortcircuit-xt/shortcircuit-xt.jpg
+date: '2022-01-07T14:26:23Z'
+changes: Nightly build.
+files:
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - vst3
+      - clap
+    type: archive
+    size: 38115852
+    sha256: fa7cdaf310c09bcff732505cd007cc94b19d46e5096667aa9b436e6ba0c337c0
+    url: https://github.com/surge-synthesizer/shortcircuit-xt/releases/download/Nightly/shortcircuit-xt-linux-2026-07-03-bf741e0.zip
+  - systems:
+      - type: linux
+    architectures:
+      - arm64
+    contains:
+      - vst3
+      - clap
+    type: archive
+    size: 37311161
+    sha256: 6f4d440c94697e9aa693842dc75b0a86cdc4af522c01893026b2d9ca4b7e48c2
+    url: https://github.com/surge-synthesizer/shortcircuit-xt/releases/download/Nightly/shortcircuit-xt-linux-ubuntu24.04-arm64-2026-07-03-bf741e0.zip
+  - systems:
+      - type: mac
+    architectures:
+      - arm64
+      - x64
+    contains:
+      - vst3
+      - component
+      - clap
+    type: installer
+    size: 70443086
+    sha256: 859ec51b25e6a8e994a0fba386a8dd9e5800729960a6f325476bea629d5adeca
+    url: https://github.com/surge-synthesizer/shortcircuit-xt/releases/download/Nightly/shortcircuit-xt-macOS-2026-07-03-bf741e0.dmg
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - vst3
+      - clap
+    type: installer
+    size: 9588741
+    sha256: be80589dbdae932cab1560f4bb24e34e524c33f551e33045fa87f354e78bef78
+    url: https://github.com/surge-synthesizer/shortcircuit-xt/releases/download/Nightly/shortcircuit-xt-win64-2026-07-03-bf741e0.exe
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - vst3
+      - clap
+    type: archive
+    size: 20870734
+    sha256: e69e6adf35f8e1408dff3b615ccc681f0ffd142cb92fc3d25bd5beabd944e569
+    url: https://github.com/surge-synthesizer/shortcircuit-xt/releases/download/Nightly/shortcircuit-xt-win64-2026-07-03-bf741e0.zip
+  - systems:
+      - type: win
+    architectures:
+      - arm64ec
+    contains:
+      - vst3
+      - clap
+    type: archive
+    size: 17005744
+    sha256: 51cf0a6262b45c3e09796da9a24bc464d6e1f8b6e5037795d7a9cf90f5868afb
+    url: https://github.com/surge-synthesizer/shortcircuit-xt/releases/download/Nightly/shortcircuit-xt-win64-arm64ec-2026-07-03-bf741e0.zip
