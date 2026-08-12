@@ -1,0 +1,56 @@
+name: vitOTTx
+author: Alexandr Sakhnov
+description: A multiband compressor inspired by the OTT effect from a famous spectral warping synthesizer.
+license: gpl-3.0
+type: effect
+tags:
+  - Multiband
+  - Compressor
+url: https://github.com/Sakhnovkrg/vitOTTx
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sakhnovkrg/vitottx/vitottx.jpg
+date: '2026-05-13T16:13:20Z'
+changes: v0.1.0 release.
+files:
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - vst3
+      - lv2
+    type: archive
+    size: 4315462
+    sha256: e6a63bf6b4ff00c51bf3bdaf3682600e7905d6b2fdf5bc6d2fbb6cf0f7cfe98a
+    url: https://github.com/Sakhnovkrg/vitOTTx/releases/download/v0.1.0/vitOTTx-v0.1.0-linux.zip
+  - systems:
+      - type: mac
+    architectures:
+      - arm64
+      - x64
+    contains:
+      - vst3
+      - component
+    type: archive
+    size: 6657606
+    sha256: 08654bba28d0755f52f5c845ae31b8107c84d57cc31cc17b951a9b0bd13982af
+    url: https://github.com/Sakhnovkrg/vitOTTx/releases/download/v0.1.0/vitOTTx-v0.1.0-macos.zip
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - vst3
+    type: installer
+    size: 3806297
+    sha256: 42c2b56ae99eef6f58188bd7dd3de3f4d1135f313515bd26fdfe00ce273dfc0b
+    url: https://github.com/Sakhnovkrg/vitOTTx/releases/download/v0.1.0/vitOTTx-v0.1.0-win-setup.exe
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - vst3
+    type: archive
+    size: 5517312
+    sha256: a1a1731216e630a380fa917d7a479d3cc4fd412c7756d14c4dcd313c0aad04f6
+    url: https://github.com/Sakhnovkrg/vitOTTx/releases/download/v0.1.0/vitOTTx.vst3
