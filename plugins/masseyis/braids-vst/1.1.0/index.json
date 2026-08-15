@@ -1,0 +1,78 @@
+{
+  "name": "Braids VST",
+  "author": "masseyis",
+  "description": "Polyphonic VST3/AU plugin porting Mutable Instruments Braids macro-oscillator",
+  "license": "mit",
+  "type": "instrument",
+  "tags": [
+    "macro-oscillator",
+    "synthesizer",
+    "polyphonic"
+  ],
+  "url": "https://github.com/masseyis/braids-vst",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/masseyis/braids-vst/braids-vst.jpg",
+  "date": "2025-12-01T18:06:36Z",
+  "changes": "**Full Changelog**: https://github.com/masseyis/braids-vst/compare/v1.0.0...v1.1.0",
+  "files": [
+    {
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3",
+        "elf"
+      ],
+      "type": "archive",
+      "size": 4163638,
+      "sha256": "2bda403cc1f272fd6b1d1fd740fb93b5b61fd031993883d66b84f8cf44b85242",
+      "url": "https://github.com/masseyis/braids-vst/releases/download/v1.1.0/BraidsVST-Linux.tar.gz",
+      "downloads": 8
+    },
+    {
+      "systems": [
+        {
+          "type": "mac"
+        }
+      ],
+      "architectures": [
+        "arm64"
+      ],
+      "contains": [
+        "vst3",
+        "component",
+        "app"
+      ],
+      "type": "archive",
+      "size": 12464114,
+      "sha256": "c2a7d82045ee61e845586397b4043546d8700abab4aa3b76db95b399371259f3",
+      "url": "https://github.com/masseyis/braids-vst/releases/download/v1.1.0/BraidsVST-macOS.zip",
+      "downloads": 7
+    },
+    {
+      "systems": [
+        {
+          "type": "win"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3",
+        "exe"
+      ],
+      "type": "archive",
+      "size": 5190200,
+      "sha256": "8f5b43c4fe5f315ad0ff2e5085532a70480154f859a8ae7007a3bd7526272e40",
+      "url": "https://github.com/masseyis/braids-vst/releases/download/v1.1.0/BraidsVST-Windows.zip",
+      "downloads": 20
+    }
+  ],
+  "verified": true,
+  "downloads": 35
+}
