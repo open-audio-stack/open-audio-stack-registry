@@ -1,0 +1,44 @@
+{
+  "slug": "sjaehn/bvibratr",
+  "version": "1.2.0",
+  "versions": {
+    "1.2.0": {
+      "name": "B.Vibratr",
+      "author": "sjaehn",
+      "description": "Flavoured vibrato effect, played like an instrument, that modifies the sound of other instruments and samples",
+      "license": "gpl-3.0",
+      "type": "instrument",
+      "tags": [
+        "Vibrato",
+        "LV2"
+      ],
+      "url": "https://github.com/sjaehn/BVibratr",
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sjaehn/bvibratr/bvibratr.jpg",
+      "date": "2026-03-03T20:15:44Z",
+      "changes": "Dynamic latency report with largely reduced latency, and harmonized scroll wheel behavior.",
+      "files": [
+        {
+          "systems": [
+            {
+              "type": "linux"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "lv2"
+          ],
+          "type": "archive",
+          "size": 667661,
+          "sha256": "b0096da1b5acf76b1bb5193545e320cda99b21a96c4f69b49af9baeaef61ac6d",
+          "url": "https://github.com/sjaehn/BVibratr/releases/download/v1.2.0/bvibratr-1.2.0-ubuntu24.04-amd64.tar.gz",
+          "downloads": 18
+        }
+      ],
+      "verified": true,
+      "downloads": 18
+    }
+  },
+  "downloads": 18
+}
