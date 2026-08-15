@@ -1,0 +1,24 @@
+name: Spekana
+author: Yvonne Yuan
+description: Real-time audio-to-MIDI plugin that transforms textured sound, field recordings, and noise into usable MIDI and musical notation, with a live spectrogram and top-10 peak tracking
+license: gpl-3.0
+type: generator
+tags:
+  - Audio To MIDI
+  - Spectrogram
+  - Pitch Tracking
+url: https://github.com/yvonneQAQ/spekana-audio-plugin
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/yvonneqaq/spekana-audio-plugin/spekana-audio-plugin.jpg
+date: '2026-03-14T07:57:08Z'
+changes: First public release.
+files:
+  - systems:
+      - type: mac
+    architectures:
+      - arm64
+    contains:
+      - vst3
+    type: archive
+    size: 5784663
+    sha256: 2dec7a8b274b82d34d0583e05657f3cefc1389fd1630af0d98fede73ef712038
+    url: https://github.com/yvonneQAQ/spekana-audio-plugin/releases/download/v1.0.0/SPEKANA_v1.0.0_macOS.zip
