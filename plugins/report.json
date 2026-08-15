@@ -3639,6 +3639,24 @@
       ]
     }
   },
+  "dusanmsk/tonnetzviz": {
+    "0.0.1": {
+      "recs": [
+        {
+          "field": "architectures",
+          "rec": "should support arm64"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Linux"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Mac"
+        }
+      ]
+    }
+  },
   "duncanwold/guitarvocoder": {
     "1.0.0": {
       "recs": [

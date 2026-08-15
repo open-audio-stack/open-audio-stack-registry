@@ -69,14 +69,14 @@
               "size": 2408590,
               "sha256": "c08e61ce3b96db41636f8ec7e76f4c7e2c13ebdac7fa1b5a1f52b4f32ec715ab",
               "url": "https://github.com/Tracktion/pluginval/releases/download/v1.0.4/pluginval_Windows.zip",
-              "downloads": 98445
+              "downloads": 98448
             }
           ],
           "verified": true,
-          "downloads": 178874
+          "downloads": 178877
         }
       },
-      "downloads": 178874
+      "downloads": 178877
     },
     "steinberg/validator": {
       "slug": "steinberg/validator",
@@ -11356,14 +11356,14 @@
               "size": 10349826,
               "sha256": "83e2825241d4e1c0ab2c44c91c0a9be6a94941a81df0c2fbe05e83b2650470da",
               "url": "https://github.com/Sinuslabs/Reach/releases/download/1.6.6/Reach-Windows.exe",
-              "downloads": 176148
+              "downloads": 176151
             }
           ],
           "verified": true,
-          "downloads": 177992
+          "downloads": 177995
         }
       },
-      "downloads": 177992
+      "downloads": 177995
     },
     "sfztools/sfizz-ui": {
       "slug": "sfztools/sfizz-ui",
@@ -32791,6 +32791,52 @@
       },
       "downloads": 6
     },
+    "dusanmsk/tonnetzviz": {
+      "slug": "dusanmsk/tonnetzviz",
+      "version": "0.0.1",
+      "versions": {
+        "0.0.1": {
+          "name": "TonnetzViz",
+          "author": "Dušan Zatkovský",
+          "description": "VST3 audio plug-in that visualizes the Tonnetz grid, shows active notes, highlights chords, and keeps a history of recognized chords.",
+          "license": "agpl-3.0",
+          "type": "tool",
+          "tags": [
+            "visualizer",
+            "chord-recognition",
+            "tonnetz",
+            "midi"
+          ],
+          "url": "https://github.com/dusanmsk/TonnetzViz",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/dusanmsk/tonnetzviz/tonnetzviz.jpg",
+          "date": "2025-12-08T20:26:50Z",
+          "changes": "initial release",
+          "files": [
+            {
+              "systems": [
+                {
+                  "type": "win"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "vst3"
+              ],
+              "type": "archive",
+              "size": 1577758,
+              "sha256": "c03ccacd0b7633cf800b97604ccfd7a853db743c790b5161c30f23b29f627626",
+              "url": "https://github.com/dusanmsk/TonnetzViz/releases/download/v0.0.1/TonnetzVST-windows-VST3.zip",
+              "downloads": 4
+            }
+          ],
+          "verified": true,
+          "downloads": 4
+        }
+      },
+      "downloads": 4
+    },
     "duncanwold/guitarvocoder": {
       "slug": "duncanwold/guitarvocoder",
       "version": "1.0.0",
@@ -34384,7 +34430,7 @@
               "size": 22596370,
               "sha256": "999158108d567b928a0021ce58d37e04867daf58d722576586679c3779c8b374",
               "url": "https://github.com/dan-k-k/vocal-gate/releases/download/v1.0.5/VocalGate_Mac_Installer.pkg",
-              "downloads": 939
+              "downloads": 940
             },
             {
               "systems": [
@@ -34406,10 +34452,10 @@
             }
           ],
           "verified": true,
-          "downloads": 4906
+          "downloads": 4907
         }
       },
-      "downloads": 4906
+      "downloads": 4907
     },
     "damrsn/neuralnote": {
       "slug": "damrsn/neuralnote",
@@ -37479,14 +37525,14 @@
               "size": 71011202,
               "sha256": "796655e0ed70999782015fb5d94d167c691eec706d676b89b01bf02722d2741a",
               "url": "https://github.com/BespokeSynth/BespokeSynth/releases/download/v1.3.0/BespokeSynth-Windows-1_3_0.msi",
-              "downloads": 19308
+              "downloads": 19310
             }
           ],
           "verified": true,
-          "downloads": 27964
+          "downloads": 27966
         }
       },
-      "downloads": 27964
+      "downloads": 27966
     },
     "baconpaul/two-filters": {
       "slug": "baconpaul/two-filters",
@@ -38489,7 +38535,7 @@
               "size": 17183630,
               "sha256": "a6505103869d15400e7bed1d988d9dd155d6d8204a3d532f5301966ae7507ad8",
               "url": "https://github.com/asb2m10/dexed/releases/download/v1.0.1/Dexed-1.0.1-macOS.dmg",
-              "downloads": 61610
+              "downloads": 61611
             },
             {
               "systems": [
@@ -38550,11 +38596,11 @@
               "size": 9742538,
               "sha256": "1f118445f2c5c411636bb41ddf8b456db09af74cd38f9ede8a93a01020505f05",
               "url": "https://github.com/asb2m10/dexed/releases/download/v1.0.1/Dexed-1.0.1-win.zip",
-              "downloads": 5001
+              "downloads": 5003
             }
           ],
           "verified": true,
-          "downloads": 154304
+          "downloads": 154307
         },
         "0.9.8": {
           "name": "Dexed",
@@ -38639,7 +38685,7 @@
           "downloads": 195800
         }
       },
-      "downloads": 350104
+      "downloads": 350107
     },
     "artfwo/andes": {
       "slug": "artfwo/andes",
