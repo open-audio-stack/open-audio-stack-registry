@@ -1,4 +1,51 @@
 {
+  "cjitter/jcbtransient": {
+    "slug": "cjitter/jcbtransient",
+    "version": "1.0.1",
+    "versions": {
+      "1.0.1": {
+        "name": "JCBTransient",
+        "author": "cjitter",
+        "description": "Plugin de diseño de transitorios hecho con gen~, Plugin Export y JUCE",
+        "license": "gpl-3.0",
+        "type": "effect",
+        "tags": [
+          "transient-designer",
+          "gen"
+        ],
+        "url": "https://github.com/cjitter/JCBTransient",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/cjitter/jcbtransient/jcbtransient.jpg",
+        "date": "2025-11-24T11:52:10Z",
+        "changes": "JCBTransient v1.0.1 improves internal stability without changing the sound\nor user-facing behavior: stronger sync between the parameter engine (APVTS)\nand the DSP engine (Gen), safer state restoration via a single parameter\nqueue, and preset loading updated to use it too.",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "component",
+              "aax"
+            ],
+            "type": "installer",
+            "size": 32719501,
+            "sha256": "9a742290d54ee397480bad3269a75d0da396e0dd8169668550cd12576b7b0bab",
+            "url": "https://github.com/cjitter/JCBTransient/releases/download/v1.0.1/JCBTransient-Installer.dmg",
+            "downloads": 1
+          }
+        ],
+        "verified": true,
+        "downloads": 1
+      }
+    },
+    "downloads": 1
+  },
   "cjitter/jcbreverb": {
     "slug": "cjitter/jcbreverb",
     "version": "1.0.2",

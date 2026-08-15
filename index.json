@@ -18263,7 +18263,7 @@
               "size": 6086789,
               "sha256": "afa548cfa0e99b32c9145b2c488efebed6048dae11531aa1cf82c2a63e9ebb12",
               "url": "https://github.com/Mrugalla/Xen/releases/download/vst3/Xen.pkg",
-              "downloads": 27
+              "downloads": 29
             },
             {
               "systems": [
@@ -18281,14 +18281,14 @@
               "size": 2530349,
               "sha256": "70d7e96d5667cfd240a2a2e5521394f3fe65cf7fae3614476fc9869b16129424",
               "url": "https://github.com/Mrugalla/Xen/releases/download/vst3/Xen.vst3.zip",
-              "downloads": 50
+              "downloads": 52
             }
           ],
           "verified": true,
-          "downloads": 77
+          "downloads": 81
         }
       },
-      "downloads": 77
+      "downloads": 81
     },
     "mrugalla/perlinnoisemod": {
       "slug": "mrugalla/perlinnoisemod",
@@ -35749,6 +35749,53 @@
         }
       },
       "downloads": 522
+    },
+    "cjitter/jcbtransient": {
+      "slug": "cjitter/jcbtransient",
+      "version": "1.0.1",
+      "versions": {
+        "1.0.1": {
+          "name": "JCBTransient",
+          "author": "cjitter",
+          "description": "Plugin de diseño de transitorios hecho con gen~, Plugin Export y JUCE",
+          "license": "gpl-3.0",
+          "type": "effect",
+          "tags": [
+            "transient-designer",
+            "gen"
+          ],
+          "url": "https://github.com/cjitter/JCBTransient",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/cjitter/jcbtransient/jcbtransient.jpg",
+          "date": "2025-11-24T11:52:10Z",
+          "changes": "JCBTransient v1.0.1 improves internal stability without changing the sound\nor user-facing behavior: stronger sync between the parameter engine (APVTS)\nand the DSP engine (Gen), safer state restoration via a single parameter\nqueue, and preset loading updated to use it too.",
+          "files": [
+            {
+              "systems": [
+                {
+                  "type": "mac"
+                }
+              ],
+              "architectures": [
+                "arm64",
+                "x64"
+              ],
+              "contains": [
+                "vst3",
+                "component",
+                "aax"
+              ],
+              "type": "installer",
+              "size": 32719501,
+              "sha256": "9a742290d54ee397480bad3269a75d0da396e0dd8169668550cd12576b7b0bab",
+              "url": "https://github.com/cjitter/JCBTransient/releases/download/v1.0.1/JCBTransient-Installer.dmg",
+              "downloads": 1
+            }
+          ],
+          "verified": true,
+          "downloads": 1
+        }
+      },
+      "downloads": 1
     },
     "cjitter/jcbreverb": {
       "slug": "cjitter/jcbreverb",
