@@ -33274,6 +33274,72 @@
     },
     "downloads": 939
   },
+  "blubass/funkymooseviz": {
+    "slug": "blubass/funkymooseviz",
+    "version": "1.0.0",
+    "versions": {
+      "1.0.0": {
+        "name": "Funky Moose Viz",
+        "author": "Uwe Arthur Felchle",
+        "description": "Boutique-style audio visualizer plugin for spectrum, waveform, vectorscope, and pitch detection",
+        "license": "mit",
+        "type": "tool",
+        "tags": [
+          "Visualizer",
+          "Spectrum",
+          "Vectorscope"
+        ],
+        "url": "https://github.com/blubass/FunkyMooseViz",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/blubass/funkymooseviz/funkymooseviz.jpg",
+        "date": "2026-05-04T09:00:00Z",
+        "changes": "v1.0.0 release.",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64"
+            ],
+            "contains": [
+              "vst3",
+              "component",
+              "app"
+            ],
+            "type": "archive",
+            "size": 18175240,
+            "sha256": "78f53b035b9cb8ccdbbb5ace20372c027eb2ed0d2b1516f02f43f444413fbe9c",
+            "url": "https://github.com/blubass/FunkyMooseViz/releases/download/v1.0.0/FunkyMooseViz-v1.0.0-macOS.zip",
+            "downloads": 2
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "exe"
+            ],
+            "type": "archive",
+            "size": 10255473,
+            "sha256": "ea267eb5273e7b321ce4d94b9bc310789a630583ab8c079a25946a1dcd1e54c4",
+            "url": "https://github.com/blubass/FunkyMooseViz/releases/download/v1.0.0/FunkyMooseViz-v1.0.0-Windows.zip",
+            "downloads": 5
+          }
+        ],
+        "verified": true,
+        "downloads": 7
+      }
+    },
+    "downloads": 7
+  },
   "blubass/funky-moose-rootflow-synth": {
     "slug": "blubass/funky-moose-rootflow-synth",
     "version": "1.3.0",
