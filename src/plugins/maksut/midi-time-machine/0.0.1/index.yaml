@@ -1,0 +1,59 @@
+name: MIDI Time Machine
+author: maksut
+description: Captures and replays MIDI performances so you can quickly review what you just played, with a piano roll and velocity display and drag-and-drop import into your DAW
+license: gpl-3.0
+type: tool
+tags:
+  - MIDI
+  - Recording
+  - Piano Roll
+url: https://github.com/maksut/midi-time-machine
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/maksut/midi-time-machine/midi-time-machine.jpg
+date: '2026-03-03T20:37:20Z'
+changes: First release. Everything is experimental.
+files:
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - vst3
+    type: archive
+    size: 2481948
+    sha256: ae7efb661670d895557b73015d678639378b6803ad651f2ea42411f5191fc143
+    url: https://github.com/maksut/midi-time-machine/releases/download/v0.0.1/midi-time-machine_linux-x64-v0.0.1.tar.xz
+  - systems:
+      - type: mac
+    architectures:
+      - arm64
+    contains:
+      - vst3
+      - component
+      - app
+    type: archive
+    size: 5218558
+    sha256: c50de69590d418ee217b14d137b37569c15e1c4669c7f2d66e23ac0e0cda581d
+    url: https://github.com/maksut/midi-time-machine/releases/download/v0.0.1/midi-time-machine_macos-arm-v0.0.1.zip
+  - systems:
+      - type: mac
+    architectures:
+      - x64
+    contains:
+      - vst3
+      - component
+      - app
+    type: archive
+    size: 5793291
+    sha256: 0f112ac385ee8603505d48264dc82109e1698f29d70516ce3e767373b1acce2f
+    url: https://github.com/maksut/midi-time-machine/releases/download/v0.0.1/midi-time-machine_macos-intel-v0.0.1.zip
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - vst3
+      - exe
+    type: archive
+    size: 6299952
+    sha256: b065a38c2cfea2991e9a4dd2ff2cb3260da0e03c95ff3ca68af949b030cf4b1e
+    url: https://github.com/maksut/midi-time-machine/releases/download/v0.0.1/midi-time-machine_windows-x64-v0.0.1.zip
