@@ -1,0 +1,24 @@
+name: MyDrum7
+author: realsigmamusic
+description: High-fidelity virtual acoustic drum kit plugin in LV2 format, built natively for Linux with a focus on organic, realistic sound and low CPU usage
+license: cc0-1.0
+type: sampler
+tags:
+  - Drums
+  - Acoustic
+  - LV2
+url: https://github.com/realsigmamusic/mydrum7
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/realsigmamusic/mydrum7/mydrum7.jpg
+date: '2026-02-16T23:53:04Z'
+changes: v1.5.2 release.
+files:
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - lv2
+    type: archive
+    size: 199040039
+    sha256: 0b4c1d9d80a58ac0ea6882298fd33db29eaf824942d42d0044046a3a0c824873
+    url: https://github.com/realsigmamusic/mydrum7/releases/download/v1.5.2/mydrum7.lv2.zip
