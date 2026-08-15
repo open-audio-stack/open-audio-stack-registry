@@ -1,0 +1,47 @@
+name: Open MBC
+author: maor1993
+description: multiband compressor vst
+license: gpl-3.0
+type: effect
+tags:
+  - compressor
+  - multiband
+  - dynamics
+url: https://github.com/maor1993/open_mbc
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/maor1993/open-mbc/open-mbc.jpg
+date: '2026-03-13T13:48:08Z'
+changes: "* Bugfix for settings not being restored correctly when loading back a project\r\n\r\n**Full Changelog**: https://github.com/maor1993/open_mbc/compare/v0.2.1...v0.2.2"
+files:
+  - systems:
+      - type: mac
+    architectures:
+      - arm64
+      - x64
+    contains:
+      - vst3
+      - app
+    type: archive
+    size: 11084184
+    sha256: b0b408c81e48f862e329e58fe041ea37915b47f5472f0c6aca2eb32ae2bee75f
+    url: https://github.com/maor1993/open_mbc/releases/download/v0.2.2/open_mbc-v0.2.2-macos-universal.zip
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - vst3
+    type: archive
+    size: 6224109
+    sha256: 560fed1cc11fb48509c871f2212e1db0c363071652917cb667c4bd24bb170811
+    url: https://github.com/maor1993/open_mbc/releases/download/v0.2.2/open_mbc-v0.2.2-ubuntu-22.04.zip
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - vst3
+      - exe
+    type: archive
+    size: 5460566
+    sha256: 0f6b5f225cd75c666bff262c94cb6ba74bb49ad1875176f89c38ca8e04efd46d
+    url: https://github.com/maor1993/open_mbc/releases/download/v0.2.2/open_mbc-v0.2.2-windows.zip
