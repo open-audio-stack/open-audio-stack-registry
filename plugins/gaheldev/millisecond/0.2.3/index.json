@@ -1,0 +1,38 @@
+{
+  "name": "Millisecond",
+  "author": "Gahel",
+  "description": "GTK app that runs system diagnostics and offers tips for improving low-latency audio performance on Linux, based on rtcqs",
+  "license": "gpl-3.0",
+  "type": "tool",
+  "tags": [
+    "Latency",
+    "Diagnostics",
+    "Linux Audio"
+  ],
+  "url": "https://github.com/gaheldev/Millisecond",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/gaheldev/millisecond/millisecond.jpg",
+  "date": "2026-04-10T01:29:20Z",
+  "changes": "v0.2.3 release.",
+  "files": [
+    {
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "elf"
+      ],
+      "type": "installer",
+      "size": 20118,
+      "sha256": "62607e702e698d43f4133d4ab57549617c705a20ee39a9a1427a361aa0fa9ff9",
+      "url": "https://github.com/gaheldev/Millisecond/releases/download/v0.2.3/millisecond_v0.2.3.deb",
+      "downloads": 266
+    }
+  ],
+  "verified": true,
+  "downloads": 266
+}
