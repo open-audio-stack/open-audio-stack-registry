@@ -3915,6 +3915,24 @@
       ]
     }
   },
+  "auditive-tokyo/boombaby": {
+    "0.9.0": {
+      "recs": [
+        {
+          "field": "architectures",
+          "rec": "should support x64"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Linux"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Windows"
+        }
+      ]
+    }
+  },
   "audioplugins/iempluginsuite": {
     "1.15.0": {
       "recs": [

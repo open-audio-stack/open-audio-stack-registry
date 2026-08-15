@@ -1,0 +1,56 @@
+{
+  "name": "Boom Baby",
+  "author": "AUDITIVE",
+  "description": "3-channel kick enhancement and synthesis plugin for both audio-track processing and MIDI-triggered kick workflows",
+  "license": "gpl-3.0",
+  "type": "instrument",
+  "tags": [
+    "Kick",
+    "Drum Synth",
+    "808"
+  ],
+  "url": "https://github.com/auditive-tokyo/BoomBaby",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/auditive-tokyo/boombaby/boombaby.jpg",
+  "date": "2026-03-21T13:45:48Z",
+  "changes": "v0.9.0 release.",
+  "files": [
+    {
+      "systems": [
+        {
+          "type": "mac"
+        }
+      ],
+      "architectures": [
+        "arm64"
+      ],
+      "contains": [
+        "component"
+      ],
+      "type": "archive",
+      "size": 2318756,
+      "sha256": "8626627f47bb8124eaa312acc8fa1f5ada519b83545275829ee3e4a9f954dcab",
+      "url": "https://github.com/auditive-tokyo/BoomBaby/releases/download/v0.9.0/BoomBaby-0.9.0-AU-macOS.zip",
+      "downloads": 5
+    },
+    {
+      "systems": [
+        {
+          "type": "mac"
+        }
+      ],
+      "architectures": [
+        "arm64"
+      ],
+      "contains": [
+        "vst3"
+      ],
+      "type": "archive",
+      "size": 2319639,
+      "sha256": "f51c20ac1db87088007f194b2e5604b100f0c0ffd72403e4c869d81215e382b2",
+      "url": "https://github.com/auditive-tokyo/BoomBaby/releases/download/v0.9.0/BoomBaby-0.9.0-VST3-macOS.zip",
+      "downloads": 6
+    }
+  ],
+  "verified": true,
+  "downloads": 11
+}
