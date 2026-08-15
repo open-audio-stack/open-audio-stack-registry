@@ -33221,6 +33221,52 @@
       },
       "downloads": 426
     },
+    "digidigital/openlightshow": {
+      "slug": "digidigital/openlightshow",
+      "version": "1.0.3",
+      "versions": {
+        "1.0.3": {
+          "name": "OpenLightShow",
+          "author": "digidigital",
+          "description": "OpenLightShow - A music-reactive lightshow application with 50+ visual effects. Transform your music into stunning visualizations with real-time audio analysis and beat detection.",
+          "license": "mit",
+          "type": "tool",
+          "tags": [
+            "Beamer",
+            "Lasershow",
+            "Lightshow",
+            "Projector"
+          ],
+          "url": "https://github.com/digidigital/openlightshow",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/digidigital/openlightshow/openlightshow.jpg",
+          "date": "2026-01-03T17:11:32Z",
+          "changes": "- Windows Installer\r\n- Various bug fixes",
+          "files": [
+            {
+              "systems": [
+                {
+                  "type": "win"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "exe"
+              ],
+              "type": "installer",
+              "size": 106096608,
+              "sha256": "b5ce521b15da89d185ded66f580147dea68cab026a35c7f05dc95fab89b17ea3",
+              "url": "https://github.com/digidigital/openlightshow/releases/download/v1.0.3/OpenLightShow-1.0.3-x86_64.exe",
+              "downloads": 33
+            }
+          ],
+          "verified": true,
+          "downloads": 33
+        }
+      },
+      "downloads": 33
+    },
     "datanoisetv/doobie": {
       "slug": "datanoisetv/doobie",
       "version": "0.25.0",
