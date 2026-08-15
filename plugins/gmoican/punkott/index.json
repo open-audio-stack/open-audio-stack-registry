@@ -1,0 +1,66 @@
+{
+  "slug": "gmoican/punkott",
+  "version": "1.4.0",
+  "versions": {
+    "1.4.0": {
+      "name": "Punk OTT",
+      "author": "Guillermo Moñino Cánovas",
+      "description": "A JUCE audio plugin that pretends to recreate an OTT-style compressor effect.",
+      "license": "mit",
+      "type": "effect",
+      "tags": [
+        "Audio Plugin",
+        "Dsp",
+        "Juce Framework",
+        "Juce Plugins"
+      ],
+      "url": "https://github.com/gmoican/PunkOTT",
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/gmoican/punkott/punkott.jpg",
+      "date": "2025-12-26T13:36:01Z",
+      "changes": "v1.4.0 release.",
+      "files": [
+        {
+          "systems": [
+            {
+              "type": "mac"
+            }
+          ],
+          "architectures": [
+            "arm64",
+            "x64"
+          ],
+          "contains": [
+            "vst3",
+            "component"
+          ],
+          "type": "archive",
+          "size": 6467845,
+          "sha256": "e163c18475ba4a69adb0811c0a0b5f600d7f45233a42d43da92fbbbc74866653",
+          "url": "https://github.com/gmoican/PunkOTT/releases/download/v1.4.0/PunkOTT-macOS.zip",
+          "downloads": 1
+        },
+        {
+          "systems": [
+            {
+              "type": "win"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "vst3"
+          ],
+          "type": "archive",
+          "size": 2585626,
+          "sha256": "28783c81f892ddb803f5591605404e6f7d176f08e6d6929c821da0a6921f80eb",
+          "url": "https://github.com/gmoican/PunkOTT/releases/download/v1.4.0/PunkOTT-Windows.zip",
+          "downloads": 2
+        }
+      ],
+      "verified": true,
+      "downloads": 3
+    }
+  },
+  "downloads": 3
+}
