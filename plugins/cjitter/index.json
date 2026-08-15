@@ -94,6 +94,54 @@
     },
     "downloads": 6
   },
+  "cjitter/jcbimager": {
+    "slug": "cjitter/jcbimager",
+    "version": "1.0.2",
+    "versions": {
+      "1.0.2": {
+        "name": "JCBImager",
+        "author": "cjitter",
+        "description": "Plugin procesador de imagen estéreo multibanda hecho con gen~, Plugin Export y JUCE",
+        "license": "gpl-3.0",
+        "type": "effect",
+        "tags": [
+          "stereo-imaging",
+          "multiband",
+          "gen"
+        ],
+        "url": "https://github.com/cjitter/JCBImager",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/cjitter/jcbimager/jcbimager.jpg",
+        "date": "2025-12-18T16:33:13Z",
+        "changes": "JCBImager v1.0.2 improves Logic Pro (AU) compatibility in mono and\ndual-mono configurations, fixing muting issues and unexpected host\nbehavior, without changing the plugin's sound or session compatibility.\nAlso fixes a visual bug that prevented the background from restoring\ncorrectly when exiting bypass state.",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "component",
+              "aax"
+            ],
+            "type": "installer",
+            "size": 34029113,
+            "sha256": "c971a665c770e20df4bc029f2356b82924cf85f35869f8be5661eb2a169f15ec",
+            "url": "https://github.com/cjitter/JCBImager/releases/download/v1.0.2/JCBImager-Installer.dmg",
+            "downloads": 2
+          }
+        ],
+        "verified": true,
+        "downloads": 2
+      }
+    },
+    "downloads": 2
+  },
   "cjitter/jcbdistortion": {
     "slug": "cjitter/jcbdistortion",
     "version": "1.0.1",

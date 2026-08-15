@@ -2761,14 +2761,14 @@
               "size": 37740885,
               "sha256": "e4dcc186102850f8dcebeb766ad1bf34c24f6280bd614ef84b72dae4783fc517",
               "url": "https://github.com/werman/noise-suppression-for-voice/releases/download/v1.10/win-rnnoise.zip",
-              "downloads": 334696
+              "downloads": 334699
             }
           ],
           "verified": true,
-          "downloads": 365441
+          "downloads": 365444
         }
       },
-      "downloads": 365441
+      "downloads": 365444
     },
     "webprofusion/soundshed-guitar": {
       "slug": "webprofusion/soundshed-guitar",
@@ -11356,14 +11356,14 @@
               "size": 10349826,
               "sha256": "83e2825241d4e1c0ab2c44c91c0a9be6a94941a81df0c2fbe05e83b2650470da",
               "url": "https://github.com/Sinuslabs/Reach/releases/download/1.6.6/Reach-Windows.exe",
-              "downloads": 176154
+              "downloads": 176158
             }
           ],
           "verified": true,
-          "downloads": 177998
+          "downloads": 178002
         }
       },
-      "downloads": 177998
+      "downloads": 178002
     },
     "sfztools/sfizz-ui": {
       "slug": "sfztools/sfizz-ui",
@@ -18571,7 +18571,7 @@
               "size": 2569768,
               "sha256": "11ae8443b1a3606d59beb5ea3ca1e27a2a7aee444fe85af55b4b49291810efaf",
               "url": "https://github.com/mikeoliphant/Stompbox/releases/download/v0.2.2/StompboxVST3Plugin.zip",
-              "downloads": 129
+              "downloads": 130
             },
             {
               "systems": [
@@ -18611,10 +18611,10 @@
             }
           ],
           "verified": true,
-          "downloads": 170
+          "downloads": 171
         }
       },
-      "downloads": 170
+      "downloads": 171
     },
     "mikeoliphant/neural-amp-modeler-lv2": {
       "slug": "mikeoliphant/neural-amp-modeler-lv2",
@@ -34900,14 +34900,14 @@
               "size": 8569710,
               "type": "installer",
               "url": "https://github.com/DamRsn/NeuralNote/releases/download/v1.1.0/NeuralNote_Installer_Windows.exe",
-              "downloads": 132033
+              "downloads": 132038
             }
           ],
           "verified": true,
-          "downloads": 187529
+          "downloads": 187534
         }
       },
-      "downloads": 187529
+      "downloads": 187534
     },
     "damiensellier/ctrlrx": {
       "slug": "damiensellier/ctrlrx",
@@ -35668,6 +35668,54 @@
         }
       },
       "downloads": 6
+    },
+    "cjitter/jcbimager": {
+      "slug": "cjitter/jcbimager",
+      "version": "1.0.2",
+      "versions": {
+        "1.0.2": {
+          "name": "JCBImager",
+          "author": "cjitter",
+          "description": "Plugin procesador de imagen estéreo multibanda hecho con gen~, Plugin Export y JUCE",
+          "license": "gpl-3.0",
+          "type": "effect",
+          "tags": [
+            "stereo-imaging",
+            "multiband",
+            "gen"
+          ],
+          "url": "https://github.com/cjitter/JCBImager",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/cjitter/jcbimager/jcbimager.jpg",
+          "date": "2025-12-18T16:33:13Z",
+          "changes": "JCBImager v1.0.2 improves Logic Pro (AU) compatibility in mono and\ndual-mono configurations, fixing muting issues and unexpected host\nbehavior, without changing the plugin's sound or session compatibility.\nAlso fixes a visual bug that prevented the background from restoring\ncorrectly when exiting bypass state.",
+          "files": [
+            {
+              "systems": [
+                {
+                  "type": "mac"
+                }
+              ],
+              "architectures": [
+                "arm64",
+                "x64"
+              ],
+              "contains": [
+                "vst3",
+                "component",
+                "aax"
+              ],
+              "type": "installer",
+              "size": 34029113,
+              "sha256": "c971a665c770e20df4bc029f2356b82924cf85f35869f8be5661eb2a169f15ec",
+              "url": "https://github.com/cjitter/JCBImager/releases/download/v1.0.2/JCBImager-Installer.dmg",
+              "downloads": 2
+            }
+          ],
+          "verified": true,
+          "downloads": 2
+        }
+      },
+      "downloads": 2
     },
     "cjitter/jcbdistortion": {
       "slug": "cjitter/jcbdistortion",
