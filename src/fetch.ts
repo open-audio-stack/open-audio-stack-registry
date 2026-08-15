@@ -704,6 +704,14 @@ async function findImageUrl(org: string, repo: string, branch: string, readme: s
     // often appears before the real screenshot. Prefer whichever candidate's path/filename
     // looks like an actual screenshot; fall back to the first match otherwise.
     const url = readmeCandidates.find(u => SCREENSHOT_HINT.test(u)) ?? readmeCandidates[0];
+    // A README image is sometimes authored as the GitHub *file viewer* URL
+    // (github.com/org/repo/blob/branch/path) rather than a raw content link — an easy mistake,
+    // since that's the URL the browser's address bar shows when you navigate to the file. It
+    // still starts with "https://" so it would otherwise pass straight through as "already a
+    // full URL", but fetching it returns GitHub's HTML page wrapper, not the image bytes.
+    const blobMatch = url.match(/^https?:\/\/github\.com\/([^/]+)\/([^/]+)\/blob\/([^/]+)\/(.+)$/);
+    if (blobMatch)
+      return `https://raw.githubusercontent.com/${blobMatch[1]}/${blobMatch[2]}/refs/heads/${blobMatch[3]}/${blobMatch[4]}`;
     if (/^https?:\/\//.test(url)) return url;
     return `https://raw.githubusercontent.com/${org}/${repo}/refs/heads/${branch}/${url.replace(/^\.\//, '')}`;
   }
