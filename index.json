@@ -6395,14 +6395,14 @@
               "size": 2766466,
               "sha256": "6b3f2b96511269ad1f5c3176d999ba3bd30f236fa98ac3dae537df12e3097997",
               "url": "https://github.com/tiagolr/sirial/releases/download/v1.1.1/sirial-win-v1.1.1.zip",
-              "downloads": 2334
+              "downloads": 2335
             }
           ],
           "verified": true,
-          "downloads": 3783
+          "downloads": 3784
         }
       },
-      "downloads": 3783
+      "downloads": 3784
     },
     "tiagolr/ripplerx": {
       "slug": "tiagolr/ripplerx",
@@ -33406,6 +33406,51 @@
         }
       },
       "downloads": 431
+    },
+    "christoskonstantas/htekdistortion": {
+      "slug": "christoskonstantas/htekdistortion",
+      "version": "0.1.0",
+      "versions": {
+        "0.1.0": {
+          "name": "HTek Distortion",
+          "author": "kiztam",
+          "description": "Piecewise, memoryless soft-knee hard clipper, with the knee transition implemented by smoothstep interpolation between linear and saturated regions, plus optional bias and DC compensation",
+          "license": "mit",
+          "type": "effect",
+          "tags": [
+            "Distortion",
+            "Clipper",
+            "Soft Knee"
+          ],
+          "url": "https://github.com/ChristosKonstantas/HTekDistortion",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/christoskonstantas/htekdistortion/htekdistortion.jpg",
+          "date": "2026-02-18T17:39:54Z",
+          "changes": "First release. Does not contain oversampling and needs improvements.",
+          "files": [
+            {
+              "systems": [
+                {
+                  "type": "win"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "vst3"
+              ],
+              "type": "archive",
+              "size": 6517760,
+              "sha256": "310323c6b3065544a26d86fe9e53efdcf0c6f95fa1d345c4f5164070d6cc8a0a",
+              "url": "https://github.com/ChristosKonstantas/HTekDistortion/releases/download/v0.1.0/HTekDistortion.vst3",
+              "downloads": 2
+            }
+          ],
+          "verified": true,
+          "downloads": 2
+        }
+      },
+      "downloads": 2
     },
     "chowdhury-dsp/chowtapemodel": {
       "slug": "chowdhury-dsp/chowtapemodel",
