@@ -1,0 +1,37 @@
+name: cPhaser
+author: Cal Goheen
+description: Phaser effect plugin
+license: gpl-3.0
+type: effect
+tags:
+  - Phaser
+  - Modulation
+url: https://github.com/calgoheen/cPhaser
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/calgoheen/cphaser/cphaser.jpg
+date: '2026-04-25T22:44:32Z'
+changes: 1.0.1 release.
+files:
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - vst3
+      - clap
+    type: installer
+    size: 4844170
+    sha256: 022cbcac36a1abdc54e555c0ba25f18a233cc18a542e61f9daf715e37aedbdd4
+    url: https://github.com/calgoheen/cPhaser/releases/download/1.0.1/cPhaser.v1.0.1.exe
+  - systems:
+      - type: mac
+    architectures:
+      - arm64
+      - x64
+    contains:
+      - vst3
+      - component
+      - clap
+    type: installer
+    size: 11060324
+    sha256: 740377526c69ed5ee16eef3cc5ba1e2a72e4977b1a8d99f440c5a420531f9317
+    url: https://github.com/calgoheen/cPhaser/releases/download/1.0.1/cPhaser.v1.0.1.pkg
