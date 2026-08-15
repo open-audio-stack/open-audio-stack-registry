@@ -1,0 +1,39 @@
+{
+  "name": "Integra",
+  "author": "KαΩSS",
+  "description": "A faithful LV2 emulation of the TC Electronic Integrated Preamplifier",
+  "license": "gpl-3.0",
+  "type": "effect",
+  "tags": [
+    "preamp",
+    "pedal",
+    "lv2",
+    "mod-audio"
+  ],
+  "url": "https://github.com/theKAOSSphere/integra",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/thekaossphere/integra/integra.jpg",
+  "date": "2025-12-25T16:25:35Z",
+  "changes": "Added a toggle switch in Integra MODGUI to allow for bypassing the plugin\nwithout having to open the settings. Updated branding so that now the\nbundles carry the \"kaoss-\" prefix.",
+  "files": [
+    {
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "lv2"
+      ],
+      "type": "archive",
+      "size": 3186444,
+      "sha256": "facabfe70e57e0402b409dbe6554f8c8247ac56347f65c09e4dfd1f5d2fefa53",
+      "url": "https://github.com/theKAOSSphere/integra/releases/download/v0.5/kaoss-integra.lv2-v0.5.tgz",
+      "downloads": 3
+    }
+  ],
+  "verified": true,
+  "downloads": 3
+}
