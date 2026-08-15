@@ -1,0 +1,47 @@
+{
+  "rsk21x/dicefx": {
+    "slug": "rsk21x/dicefx",
+    "version": "1.0.0",
+    "versions": {
+      "1.0.0": {
+        "name": "DiceFX",
+        "author": "RSK21",
+        "description": "Multi-FX chain plugin built around one idea — press the dice, randomize unlocked parameters, and turn a clean input into a playable accident",
+        "license": "gpl-3.0",
+        "type": "effect",
+        "tags": [
+          "Randomizer",
+          "Multi-Effect",
+          "Sound Design"
+        ],
+        "url": "https://github.com/RSK21X/DiceFx",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/rsk21x/dicefx/dicefx.jpg",
+        "date": "2026-03-06T09:02:17Z",
+        "changes": "Initial release.",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 5800534,
+            "sha256": "62310e1ba773f5a233098a1748aa71e84a8070c754fcd5d7bf62d0ca6d0574be",
+            "url": "https://github.com/RSK21X/DiceFx/releases/download/v1.0/DiceFX.vst3.zip",
+            "downloads": 2
+          }
+        ],
+        "verified": true,
+        "downloads": 2
+      }
+    },
+    "downloads": 2
+  }
+}
