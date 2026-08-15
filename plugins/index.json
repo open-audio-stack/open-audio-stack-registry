@@ -18693,7 +18693,7 @@
             "size": 4163638,
             "sha256": "2bda403cc1f272fd6b1d1fd740fb93b5b61fd031993883d66b84f8cf44b85242",
             "url": "https://github.com/masseyis/braids-vst/releases/download/v1.1.0/BraidsVST-Linux.tar.gz",
-            "downloads": 8
+            "downloads": 11
           },
           {
             "systems": [
@@ -18713,7 +18713,7 @@
             "size": 12464114,
             "sha256": "c2a7d82045ee61e845586397b4043546d8700abab4aa3b76db95b399371259f3",
             "url": "https://github.com/masseyis/braids-vst/releases/download/v1.1.0/BraidsVST-macOS.zip",
-            "downloads": 7
+            "downloads": 10
           },
           {
             "systems": [
@@ -18732,14 +18732,14 @@
             "size": 5190200,
             "sha256": "8f5b43c4fe5f315ad0ff2e5085532a70480154f859a8ae7007a3bd7526272e40",
             "url": "https://github.com/masseyis/braids-vst/releases/download/v1.1.0/BraidsVST-Windows.zip",
-            "downloads": 20
+            "downloads": 23
           }
         ],
         "verified": true,
-        "downloads": 35
+        "downloads": 44
       }
     },
-    "downloads": 35
+    "downloads": 44
   },
   "martineastwood/mverb": {
     "slug": "martineastwood/mverb",
@@ -29878,7 +29878,7 @@
             "size": 14225955,
             "sha256": "9354b4d13d2088b1278e7ca89066defbb80d05d391df3b72998c371fee5510e3",
             "url": "https://github.com/flarkflarkflark/AudioRestorationVST/releases/download/v1.6.35/AudioRestoration-Linux-v1.6.35-VST3.zip",
-            "downloads": 4
+            "downloads": 6
           },
           {
             "systems": [
@@ -29897,7 +29897,7 @@
             "size": 17722655,
             "sha256": "e7e37bdc5eb7e0d9963e37099aa2ea6429b2eb70f1d7a583e38c701f7e0c7558",
             "url": "https://github.com/flarkflarkflark/AudioRestorationVST/releases/download/v1.6.35/AudioRestoration-macOS-Universal-Ventura-v1.6.35-VST3.zip",
-            "downloads": 4
+            "downloads": 6
           },
           {
             "systems": [
@@ -29952,14 +29952,14 @@
             "size": 13993026,
             "sha256": "5b78475bc9a492fd6d0049e5790d377dd3b69a7dd8ac81a0220d279f0186279c",
             "url": "https://github.com/flarkflarkflark/AudioRestorationVST/releases/download/v1.6.35/AudioRestoration-Windows-v1.6.35-VST3.zip",
-            "downloads": 23
+            "downloads": 25
           }
         ],
         "verified": true,
-        "downloads": 65
+        "downloads": 71
       }
     },
-    "downloads": 65
+    "downloads": 71
   },
   "filter87/vst-analogchannel": {
     "slug": "filter87/vst-analogchannel",
@@ -34629,8 +34629,46 @@
   },
   "christoskonstantas/htekdistortion": {
     "slug": "christoskonstantas/htekdistortion",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "versions": {
+      "0.1.1": {
+        "name": "HTek Distortion",
+        "author": "kiztam",
+        "description": "Piecewise, memoryless soft-knee hard clipper with a monotonic quartic transition between the linear and saturated regions, plus optional bias and DC compensation",
+        "license": "mit",
+        "type": "effect",
+        "tags": [
+          "Distortion",
+          "Clipper",
+          "Soft Knee"
+        ],
+        "url": "https://github.com/ChristosKonstantas/HTekDistortion",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/christoskonstantas/htekdistortion/htekdistortion.jpg",
+        "date": "2026-08-15T10:09:38Z",
+        "changes": "Fix soft-knee transfer curve to preserve monotonicity and prevent foldback by replacing the previous smoothstep-based transition with a monotonic C2 quartic curve.",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 6517760,
+            "sha256": "09b3d9163c7a3658bf20d66a98798442da76328c12295cbe7ed6a3235300989a",
+            "url": "https://github.com/ChristosKonstantas/HTekDistortion/releases/download/v0.1.1/HTekDistortion.vst3",
+            "downloads": 1
+          }
+        ],
+        "verified": true,
+        "downloads": 1
+      },
       "0.1.0": {
         "name": "HTek Distortion",
         "author": "kiztam",
@@ -34670,7 +34708,7 @@
         "downloads": 3
       }
     },
-    "downloads": 3
+    "downloads": 4
   },
   "chowdhury-dsp/chowtapemodel": {
     "slug": "chowdhury-dsp/chowtapemodel",
@@ -37797,7 +37835,7 @@
             "size": 17183630,
             "sha256": "a6505103869d15400e7bed1d988d9dd155d6d8204a3d532f5301966ae7507ad8",
             "url": "https://github.com/asb2m10/dexed/releases/download/v1.0.1/Dexed-1.0.1-macOS.dmg",
-            "downloads": 61611
+            "downloads": 61613
           },
           {
             "systems": [
@@ -37838,7 +37876,7 @@
             "size": 11275100,
             "sha256": "5dc4e072af90ec54aa0197790b40856e7db1659ff924ed107c7536b442d3584b",
             "url": "https://github.com/asb2m10/dexed/releases/download/v1.0.1/Dexed-1.0.1-win.exe",
-            "downloads": 82825
+            "downloads": 82829
           },
           {
             "systems": [
@@ -37862,7 +37900,7 @@
           }
         ],
         "verified": true,
-        "downloads": 154307
+        "downloads": 154313
       },
       "0.9.8": {
         "name": "Dexed",
@@ -37947,7 +37985,7 @@
         "downloads": 195800
       }
     },
-    "downloads": 350107
+    "downloads": 350113
   },
   "artfwo/andes": {
     "slug": "artfwo/andes",
@@ -39176,14 +39214,14 @@
             "size": 5599030,
             "sha256": "d3498b897bfdf967c645b6e14ef981007eef27d57803b00545d049c6e78ab392",
             "url": "https://github.com/ArdenButterfield/Maim/releases/download/v1.1.1/Maim-1.1.1-Windows.exe",
-            "downloads": 10994
+            "downloads": 10995
           }
         ],
         "verified": true,
-        "downloads": 15570
+        "downloads": 15571
       }
     },
-    "downloads": 15570
+    "downloads": 15571
   },
   "archie3d/aeolus": {
     "slug": "archie3d/aeolus",

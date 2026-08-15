@@ -1,7 +1,45 @@
 {
   "slug": "christoskonstantas/htekdistortion",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "versions": {
+    "0.1.1": {
+      "name": "HTek Distortion",
+      "author": "kiztam",
+      "description": "Piecewise, memoryless soft-knee hard clipper with a monotonic quartic transition between the linear and saturated regions, plus optional bias and DC compensation",
+      "license": "mit",
+      "type": "effect",
+      "tags": [
+        "Distortion",
+        "Clipper",
+        "Soft Knee"
+      ],
+      "url": "https://github.com/ChristosKonstantas/HTekDistortion",
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/christoskonstantas/htekdistortion/htekdistortion.jpg",
+      "date": "2026-08-15T10:09:38Z",
+      "changes": "Fix soft-knee transfer curve to preserve monotonicity and prevent foldback by replacing the previous smoothstep-based transition with a monotonic C2 quartic curve.",
+      "files": [
+        {
+          "systems": [
+            {
+              "type": "win"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "vst3"
+          ],
+          "type": "archive",
+          "size": 6517760,
+          "sha256": "09b3d9163c7a3658bf20d66a98798442da76328c12295cbe7ed6a3235300989a",
+          "url": "https://github.com/ChristosKonstantas/HTekDistortion/releases/download/v0.1.1/HTekDistortion.vst3",
+          "downloads": 1
+        }
+      ],
+      "verified": true,
+      "downloads": 1
+    },
     "0.1.0": {
       "name": "HTek Distortion",
       "author": "kiztam",
@@ -41,5 +79,5 @@
       "downloads": 3
     }
   },
-  "downloads": 3
+  "downloads": 4
 }
