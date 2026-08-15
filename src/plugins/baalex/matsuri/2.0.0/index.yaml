@@ -1,0 +1,34 @@
+name: Matsuri
+author: Alexander Brandt
+description: TR-606 drum machine emulation, available as a CLAP plugin and a Web Audio/WebAssembly module
+license: other
+type: instrument
+tags:
+  - Drum Machine
+  - TR-606
+  - CLAP
+url: https://github.com/baAlex/Matsuri
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/baalex/matsuri/matsuri.jpg
+date: '2026-05-24T19:08:34Z'
+changes: Version 2.0 provides a CLAP plug-in, Web Audio/WebAssembly module, proper velocity, documentation, and attempts to be user-friendly.
+files:
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - clap
+    type: archive
+    size: 94035
+    sha256: 7948e54e2c7d353c08f8f9222d797d7035b15ac2ed9d89bd3fed71530a43b21f
+    url: https://github.com/baAlex/Matsuri/releases/download/v2.0/matsuri-v2.0-linux.zip
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - clap
+    type: archive
+    size: 69122
+    sha256: b9fc1b5b70918b372bafffe528253ad13abfc59863dc5be9103991be3dbd900f
+    url: https://github.com/baAlex/Matsuri/releases/download/v2.0/matsuri-v2.0-windows.zip
