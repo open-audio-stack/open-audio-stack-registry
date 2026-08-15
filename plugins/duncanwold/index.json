@@ -1,0 +1,86 @@
+{
+  "duncanwold/guitarvocoder": {
+    "slug": "duncanwold/guitarvocoder",
+    "version": "1.0.0",
+    "versions": {
+      "1.0.0": {
+        "name": "Guitar Vocoder",
+        "author": "Duncan",
+        "description": "Vocoder plugin that combines a voice and guitar input, for Logic Pro, Pro Tools, REAPER, and other AU/VST3/AAX hosts",
+        "license": "mit",
+        "type": "effect",
+        "tags": [
+          "Vocoder",
+          "Guitar",
+          "Voice"
+        ],
+        "url": "https://github.com/duncanwold/GuitarVocoder",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/duncanwold/guitarvocoder/guitarvocoder.jpg",
+        "date": "2026-03-10T02:21:53Z",
+        "changes": "Initial release.",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "aax"
+            ],
+            "type": "archive",
+            "size": 10980549,
+            "sha256": "3b9a57157174a94615b4ca7f72793821be068268a619f1eb3af31c82fbf099bf",
+            "url": "https://github.com/duncanwold/GuitarVocoder/releases/download/v1.0.0/GuitarVocoder-AAX.zip",
+            "downloads": 4
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "component"
+            ],
+            "type": "archive",
+            "size": 11036667,
+            "sha256": "8d21d46f28bfacd99ce4c83b02d56294f70a69b0d7586aa855cd08d71c0901bb",
+            "url": "https://github.com/duncanwold/GuitarVocoder/releases/download/v1.0.0/GuitarVocoder-AU.zip",
+            "downloads": 4
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 11340013,
+            "sha256": "383b1dab6af2ecdf63d94311b55463f1296ffa40634cdb1262815065232591d3",
+            "url": "https://github.com/duncanwold/GuitarVocoder/releases/download/v1.0.0/GuitarVocoder-VST3.zip",
+            "downloads": 8
+          }
+        ],
+        "verified": true,
+        "downloads": 16
+      }
+    },
+    "downloads": 16
+  }
+}

@@ -5298,14 +5298,14 @@
             "size": 6929945,
             "sha256": "517c0e99f3ff37cf7b3941ed9afbece1423a0da69d70a9dd8076a473d630a50d",
             "url": "https://github.com/tiagolr/ripplerx/releases/download/v1.5.19/ripplerx-win-v1.5.19.zip",
-            "downloads": 1388
+            "downloads": 1389
           }
         ],
         "verified": true,
-        "downloads": 2287
+        "downloads": 2288
       }
     },
-    "downloads": 2287
+    "downloads": 2288
   },
   "tiagolr/reevr": {
     "slug": "tiagolr/reevr",
@@ -9922,14 +9922,14 @@
             "size": 109135588,
             "sha256": "4f0b065c18b89111df4281df34c5120cd2d5b9a0c6b316835ec08d7891fd88d9",
             "url": "https://github.com/sfzinstruments/karoryfer.war-tuba/releases/download/v1.002/Karoryfer_War_Tuba_v1002.zip",
-            "downloads": 4544
+            "downloads": 4545
           }
         ],
         "verified": true,
-        "downloads": 4544
+        "downloads": 4545
       }
     },
-    "downloads": 4544
+    "downloads": 4545
   },
   "sfzinstruments/virtuosity_drums": {
     "slug": "sfzinstruments/virtuosity_drums",
@@ -29698,6 +29698,90 @@
     },
     "downloads": 6
   },
+  "duncanwold/guitarvocoder": {
+    "slug": "duncanwold/guitarvocoder",
+    "version": "1.0.0",
+    "versions": {
+      "1.0.0": {
+        "name": "Guitar Vocoder",
+        "author": "Duncan",
+        "description": "Vocoder plugin that combines a voice and guitar input, for Logic Pro, Pro Tools, REAPER, and other AU/VST3/AAX hosts",
+        "license": "mit",
+        "type": "effect",
+        "tags": [
+          "Vocoder",
+          "Guitar",
+          "Voice"
+        ],
+        "url": "https://github.com/duncanwold/GuitarVocoder",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/duncanwold/guitarvocoder/guitarvocoder.jpg",
+        "date": "2026-03-10T02:21:53Z",
+        "changes": "Initial release.",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "aax"
+            ],
+            "type": "archive",
+            "size": 10980549,
+            "sha256": "3b9a57157174a94615b4ca7f72793821be068268a619f1eb3af31c82fbf099bf",
+            "url": "https://github.com/duncanwold/GuitarVocoder/releases/download/v1.0.0/GuitarVocoder-AAX.zip",
+            "downloads": 4
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "component"
+            ],
+            "type": "archive",
+            "size": 11036667,
+            "sha256": "8d21d46f28bfacd99ce4c83b02d56294f70a69b0d7586aa855cd08d71c0901bb",
+            "url": "https://github.com/duncanwold/GuitarVocoder/releases/download/v1.0.0/GuitarVocoder-AU.zip",
+            "downloads": 4
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 11340013,
+            "sha256": "383b1dab6af2ecdf63d94311b55463f1296ffa40634cdb1262815065232591d3",
+            "url": "https://github.com/duncanwold/GuitarVocoder/releases/download/v1.0.0/GuitarVocoder-VST3.zip",
+            "downloads": 8
+          }
+        ],
+        "verified": true,
+        "downloads": 16
+      }
+    },
+    "downloads": 16
+  },
   "dspiveyvr/zenbleed": {
     "slug": "dspiveyvr/zenbleed",
     "version": "1.0.0",
@@ -30580,7 +30664,7 @@
             "size": 368923667,
             "sha256": "16f21250fe656fc766f6c1df79c45244bbdf55ffa90ff0c3c3ace9af70cf3e24",
             "url": "https://github.com/DISTRHO/Cardinal/releases/download/26.02/Cardinal-win64-26.02-installer.exe",
-            "downloads": 8233
+            "downloads": 8234
           },
           {
             "systems": [
@@ -30605,10 +30689,10 @@
           }
         ],
         "verified": true,
-        "downloads": 21220
+        "downloads": 21221
       }
     },
-    "downloads": 21220
+    "downloads": 21221
   },
   "dimethoxy/disflux": {
     "slug": "dimethoxy/disflux",
@@ -32266,14 +32350,14 @@
             "size": 7437272,
             "sha256": "0ed347e15d244f2a115e0ecbfc219dbca1dd666ec371292d6a8c56f6deaaffbb",
             "url": "https://github.com/Chowdhury-DSP/ChowMultiTool/releases/download/v1.1.0/ChowMultiTool-Win-64bit-1.1.0.exe",
-            "downloads": 19519
+            "downloads": 19520
           }
         ],
         "verified": true,
-        "downloads": 34496
+        "downloads": 34497
       }
     },
-    "downloads": 34496
+    "downloads": 34497
   },
   "chowdhury-dsp/chowmatrix": {
     "slug": "chowdhury-dsp/chowmatrix",
