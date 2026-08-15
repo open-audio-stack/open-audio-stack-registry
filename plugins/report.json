@@ -2827,6 +2827,16 @@
       ]
     }
   },
+  "ircam-partiels/partiels": {
+    "2.5.0": {
+      "recs": [
+        {
+          "field": "url",
+          "rec": "requires mounting step, consider .pkg instead"
+        }
+      ]
+    }
+  },
   "interspectral6/erode": {
     "1.0.1": {
       "recs": [
