@@ -177,7 +177,14 @@ function inferSystems(filename: string): Array<{ type: string; min?: number }> {
   // Distro names (ubuntu, debian, fedora) are common in CI-built asset names and carry
   // no literal "linux" substring — without this, those assets are silently dropped below.
   // "lin"/"lin64"/"lin32" is a shorthand some CI configs use in place of "linux".
-  if (/linux[-_.]|[-_.]linux|ubuntu|debian|fedora|\.deb$|\.rpm$|\.appimage$/.test(f) || tok('lin(?:32|64)?').test(f))
+  // .flatpak/.snap are sandboxed desktop-app package formats, Linux-only by design (common
+  // for GNOME/GTK apps distributed via Flathub) — without these, a Flatpak/Snap-only release
+  // has no platform any extension here recognizes, and the whole build gets silently dropped
+  // as "no system/platform recognized" rather than added with contains flagged for review.
+  if (
+    /linux[-_.]|[-_.]linux|ubuntu|debian|fedora|\.deb$|\.rpm$|\.appimage$|\.flatpak$|\.snap$/.test(f) ||
+    tok('lin(?:32|64)?').test(f)
+  )
     found.add('linux');
   return [...found].map(type => ({ type, ...inferVersionConstraint(filename, type) }));
 }
@@ -238,7 +245,7 @@ function inferContainsFromText(releaseBody: string, readme: string, systems: Arr
 }
 
 function inferFileType(filename: string): string {
-  return /\.(exe|msi|dmg|pkg|deb|rpm|appimage)$/i.test(filename) ? 'installer' : 'archive';
+  return /\.(exe|msi|dmg|pkg|deb|rpm|appimage|flatpak|snap)$/i.test(filename) ? 'installer' : 'archive';
 }
 
 // ── Archive content inspection ──────────────────────────────────────────────────
