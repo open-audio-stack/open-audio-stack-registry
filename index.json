@@ -12735,6 +12735,51 @@
       },
       "downloads": 4
     },
+    "realsigmamusic/mydrum7": {
+      "slug": "realsigmamusic/mydrum7",
+      "version": "1.5.2",
+      "versions": {
+        "1.5.2": {
+          "name": "MyDrum7",
+          "author": "realsigmamusic",
+          "description": "High-fidelity virtual acoustic drum kit plugin in LV2 format, built natively for Linux with a focus on organic, realistic sound and low CPU usage",
+          "license": "cc0-1.0",
+          "type": "sampler",
+          "tags": [
+            "Drums",
+            "Acoustic",
+            "LV2"
+          ],
+          "url": "https://github.com/realsigmamusic/mydrum7",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/realsigmamusic/mydrum7/mydrum7.jpg",
+          "date": "2026-02-16T23:53:04Z",
+          "changes": "v1.5.2 release.",
+          "files": [
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "lv2"
+              ],
+              "type": "archive",
+              "size": 199040039,
+              "sha256": "0b4c1d9d80a58ac0ea6882298fd33db29eaf824942d42d0044046a3a0c824873",
+              "url": "https://github.com/realsigmamusic/mydrum7/releases/download/v1.5.2/mydrum7.lv2.zip",
+              "downloads": 14
+            }
+          ],
+          "verified": true,
+          "downloads": 14
+        }
+      },
+      "downloads": 14
+    },
     "reales/opl": {
       "slug": "reales/opl",
       "version": "2.4.0",
@@ -24134,7 +24179,7 @@
               "size": 1825535,
               "sha256": "c7d805812857db0eecd0ec7f15058dc6ec6797efa4dcabeb57df7e0a0da8ce4d",
               "url": "https://github.com/JonET/monksynth/releases/download/v0.2.0-beta.15/MonkSynth-AU-macOS.zip",
-              "downloads": 640
+              "downloads": 641
             },
             {
               "systems": [
@@ -24193,10 +24238,10 @@
             }
           ],
           "verified": true,
-          "downloads": 8537
+          "downloads": 8538
         }
       },
-      "downloads": 8537
+      "downloads": 8538
     },
     "joht/speclet": {
       "slug": "joht/speclet",
@@ -33278,14 +33323,14 @@
               "size": 8569710,
               "type": "installer",
               "url": "https://github.com/DamRsn/NeuralNote/releases/download/v1.1.0/NeuralNote_Installer_Windows.exe",
-              "downloads": 131914
+              "downloads": 131916
             }
           ],
           "verified": true,
-          "downloads": 187349
+          "downloads": 187351
         }
       },
-      "downloads": 187349
+      "downloads": 187351
     },
     "damiensellier/ctrlrx": {
       "slug": "damiensellier/ctrlrx",

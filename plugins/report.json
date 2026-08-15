@@ -1263,6 +1263,24 @@
       ]
     }
   },
+  "realsigmamusic/mydrum7": {
+    "1.5.2": {
+      "recs": [
+        {
+          "field": "architectures",
+          "rec": "should support arm64"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Mac"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Windows"
+        }
+      ]
+    }
+  },
   "reales/opl": {
     "2.4.0": {
       "recs": [
