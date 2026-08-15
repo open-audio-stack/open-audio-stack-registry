@@ -3265,6 +3265,24 @@
       ]
     }
   },
+  "efirio-git/psymelody": {
+    "0.1.2": {
+      "recs": [
+        {
+          "field": "url",
+          "rec": "requires mounting step, consider .pkg instead"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Linux"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Windows"
+        }
+      ]
+    }
+  },
   "echoe/oao": {
     "3.0.1": {
       "recs": [

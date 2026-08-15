@@ -1,0 +1,47 @@
+{
+  "slug": "efirio-git/psymelody",
+  "version": "0.1.2",
+  "versions": {
+    "0.1.2": {
+      "name": "Psy Melody",
+      "author": "EDEN",
+      "description": "MIDI generator plugin for Psytrance production — generates melodies, basslines, and chord voicings from scales, chord progressions, and subgenre-specific rhythm patterns",
+      "license": "agpl-3.0",
+      "type": "generator",
+      "tags": [
+        "Midi Generator",
+        "Psytrance",
+        "Melody"
+      ],
+      "url": "https://github.com/efirio-git/PsyMelody",
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/efirio-git/psymelody/psymelody.jpg",
+      "date": "2026-08-07T16:00:10Z",
+      "changes": "Adds drag & drop MIDI export and a universal binary (Apple Silicon + Intel) build.",
+      "files": [
+        {
+          "systems": [
+            {
+              "type": "mac"
+            }
+          ],
+          "architectures": [
+            "arm64",
+            "x64"
+          ],
+          "contains": [
+            "vst3",
+            "component"
+          ],
+          "type": "installer",
+          "size": 9819056,
+          "sha256": "38c1753b05fe0c107badb4c20723c47852c01e6dea7d93d78c82a80f78926a97",
+          "url": "https://github.com/efirio-git/PsyMelody/releases/download/v0.1.2/PsyMelody_v0.1.2.dmg",
+          "downloads": 7
+        }
+      ],
+      "verified": true,
+      "downloads": 7
+    }
+  },
+  "downloads": 7
+}

@@ -4746,11 +4746,11 @@
             "size": 5539406,
             "sha256": "b5699e49850826a8279e315d51cc8cf92636fc98d5d649bcfadd7ae026982989",
             "url": "https://github.com/tiagolr/time12/releases/download/v1.2.3/time12-win-v1.2.3.zip",
-            "downloads": 3650
+            "downloads": 3651
           }
         ],
         "verified": true,
-        "downloads": 6273
+        "downloads": 6274
       },
       "1.2.2": {
         "name": "TIME-12",
@@ -4990,7 +4990,7 @@
         "downloads": 3633
       }
     },
-    "downloads": 14672
+    "downloads": 14673
   },
   "tiagolr/tetraop": {
     "slug": "tiagolr/tetraop",
@@ -7037,7 +7037,7 @@
             "size": 180883859,
             "sha256": "6fe3fb20ef21672666dddb816ad73f2966e98b70edad9189183451a255c2b2d1",
             "url": "https://github.com/surge-synthesizer/releases-xt/releases/download/1.3.4/surge-xt-win32-1.3.4-setup.exe",
-            "downloads": 18816
+            "downloads": 18817
           },
           {
             "systems": [
@@ -7061,7 +7061,7 @@
           }
         ],
         "verified": true,
-        "downloads": 722900
+        "downloads": 722901
       },
       "1.3.1": {
         "name": "Surge XT",
@@ -7188,7 +7188,7 @@
         "downloads": 84185
       }
     },
-    "downloads": 807085
+    "downloads": 807086
   },
   "surge-synthesizer/ob-xf": {
     "slug": "surge-synthesizer/ob-xf",
@@ -29066,6 +29066,53 @@
       }
     },
     "downloads": 159
+  },
+  "efirio-git/psymelody": {
+    "slug": "efirio-git/psymelody",
+    "version": "0.1.2",
+    "versions": {
+      "0.1.2": {
+        "name": "Psy Melody",
+        "author": "EDEN",
+        "description": "MIDI generator plugin for Psytrance production — generates melodies, basslines, and chord voicings from scales, chord progressions, and subgenre-specific rhythm patterns",
+        "license": "agpl-3.0",
+        "type": "generator",
+        "tags": [
+          "Midi Generator",
+          "Psytrance",
+          "Melody"
+        ],
+        "url": "https://github.com/efirio-git/PsyMelody",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/efirio-git/psymelody/psymelody.jpg",
+        "date": "2026-08-07T16:00:10Z",
+        "changes": "Adds drag & drop MIDI export and a universal binary (Apple Silicon + Intel) build.",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "component"
+            ],
+            "type": "installer",
+            "size": 9819056,
+            "sha256": "38c1753b05fe0c107badb4c20723c47852c01e6dea7d93d78c82a80f78926a97",
+            "url": "https://github.com/efirio-git/PsyMelody/releases/download/v0.1.2/PsyMelody_v0.1.2.dmg",
+            "downloads": 7
+          }
+        ],
+        "verified": true,
+        "downloads": 7
+      }
+    },
+    "downloads": 7
   },
   "echoeslabmusic/sub-orbit": {
     "slug": "echoeslabmusic/sub-orbit",
