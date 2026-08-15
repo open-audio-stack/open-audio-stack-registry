@@ -1,0 +1,38 @@
+{
+  "name": "Zubnetic",
+  "author": "Jose",
+  "description": "Stereo visualizer plugin with multi-shape rendering (lines, particles, circle, star, square, spiral) and frequency-reactive colors",
+  "license": "gpl-2.0",
+  "type": "tool",
+  "tags": [
+    "Visualizer",
+    "Oscilloscope",
+    "Stereo"
+  ],
+  "url": "https://github.com/JoseScript/Zubnetic",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/josescript/zubnetic/zubnetic.jpg",
+  "date": "2026-01-19T03:05:39Z",
+  "changes": "v1.0.0 release.",
+  "files": [
+    {
+      "systems": [
+        {
+          "type": "win"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3"
+      ],
+      "type": "archive",
+      "size": 2756417,
+      "sha256": "68ba367e76a98591f3ad96d01dfb4bdc3e4b8aa284635d21ed482ec4158a80bc",
+      "url": "https://github.com/JoseScript/Zubnetic/releases/download/v1.0.0/Zubnetic-v1.0-Windows-VST3.zip",
+      "downloads": 4
+    }
+  ],
+  "verified": true,
+  "downloads": 4
+}

@@ -8706,7 +8706,7 @@
               "size": 29354268,
               "sha256": "55418702355156b34ac1561fc00af5ca6ee744a3ac8a2187f4b7f11396afb624",
               "url": "https://github.com/surge-synthesizer/OB-Xf/releases/download/v1.0.3/ob-xf-Windows-v1.0.3.exe",
-              "downloads": 3993
+              "downloads": 3994
             },
             {
               "systems": [
@@ -8729,10 +8729,10 @@
             }
           ],
           "verified": true,
-          "downloads": 9466
+          "downloads": 9467
         }
       },
-      "downloads": 9466
+      "downloads": 9467
     },
     "surge-synthesizer/monique-monosynth": {
       "slug": "surge-synthesizer/monique-monosynth",
@@ -10952,14 +10952,14 @@
               "size": 667661,
               "sha256": "b0096da1b5acf76b1bb5193545e320cda99b21a96c4f69b49af9baeaef61ac6d",
               "url": "https://github.com/sjaehn/BVibratr/releases/download/v1.2.0/bvibratr-1.2.0-ubuntu24.04-amd64.tar.gz",
-              "downloads": 18
+              "downloads": 20
             }
           ],
           "verified": true,
-          "downloads": 18
+          "downloads": 20
         }
       },
-      "downloads": 18
+      "downloads": 20
     },
     "sinuslabs/reach": {
       "slug": "sinuslabs/reach",
@@ -22306,14 +22306,14 @@
               "size": 4598786,
               "sha256": "ff882429e2f6c5be9a9757f6f136acd4f8e3b2a1cc212cf1fabbe0f6b28c192f",
               "url": "https://github.com/Kiriki-liszt/JS_Inflator/releases/download/v2.0.3.2/JS.Inflator.Win.v2.0.3.2.zip",
-              "downloads": 32374
+              "downloads": 32375
             }
           ],
           "verified": true,
-          "downloads": 50222
+          "downloads": 50223
         }
       },
-      "downloads": 50222
+      "downloads": 50223
     },
     "killbizz/biztortion": {
       "slug": "killbizz/biztortion",
@@ -24092,14 +24092,14 @@
               "size": 18709184,
               "sha256": "f65675b01c4a43fd85bd1c9a188fd1725bd2595719ca878e466ef83b42fdc8e2",
               "url": "https://github.com/jpcima/ADLplug/releases/download/v1.0.2/OPNplug-1.0.2-win64.7z",
-              "downloads": 3376
+              "downloads": 3377
             }
           ],
           "verified": true,
-          "downloads": 4533
+          "downloads": 4534
         }
       },
-      "downloads": 4533
+      "downloads": 4534
     },
     "jpcima/adlplug": {
       "slug": "jpcima/adlplug",
@@ -24192,6 +24192,51 @@
         }
       },
       "downloads": 5557
+    },
+    "josescript/zubnetic": {
+      "slug": "josescript/zubnetic",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "name": "Zubnetic",
+          "author": "Jose",
+          "description": "Stereo visualizer plugin with multi-shape rendering (lines, particles, circle, star, square, spiral) and frequency-reactive colors",
+          "license": "gpl-2.0",
+          "type": "tool",
+          "tags": [
+            "Visualizer",
+            "Oscilloscope",
+            "Stereo"
+          ],
+          "url": "https://github.com/JoseScript/Zubnetic",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/josescript/zubnetic/zubnetic.jpg",
+          "date": "2026-01-19T03:05:39Z",
+          "changes": "v1.0.0 release.",
+          "files": [
+            {
+              "systems": [
+                {
+                  "type": "win"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "vst3"
+              ],
+              "type": "archive",
+              "size": 2756417,
+              "sha256": "68ba367e76a98591f3ad96d01dfb4bdc3e4b8aa284635d21ed482ec4158a80bc",
+              "url": "https://github.com/JoseScript/Zubnetic/releases/download/v1.0.0/Zubnetic-v1.0-Windows-VST3.zip",
+              "downloads": 4
+            }
+          ],
+          "verified": true,
+          "downloads": 4
+        }
+      },
+      "downloads": 4
     },
     "jonet/monksynth": {
       "slug": "jonet/monksynth",
@@ -27253,7 +27298,7 @@
               "size": 5280716,
               "sha256": "63b1588db342495dc2c93d255b9bd9ece7df454d8bf055d20bafddc0ac0df350",
               "url": "https://github.com/HomerChel/SatuMorpher/releases/download/v0.1.0/SatuMorpher-v0.1.0-linux-x86_64.vst3.zip",
-              "downloads": 2
+              "downloads": 3
             },
             {
               "systems": [
@@ -27271,7 +27316,7 @@
               "size": 4034743,
               "sha256": "a9cecbcbab16fe9f64d37c370937896d82bba0c8139c432fc935a9e71bb6db0b",
               "url": "https://github.com/HomerChel/SatuMorpher/releases/download/v0.1.0/SatuMorpher-v0.1.0-macos-arm64.vst3.zip",
-              "downloads": 1
+              "downloads": 2
             },
             {
               "systems": [
@@ -27289,14 +27334,14 @@
               "size": 2124931,
               "sha256": "867b3a91daa136e61c92903f1ca5a521de3ce310cf51d41e17f5a0bf48b5a15e",
               "url": "https://github.com/HomerChel/SatuMorpher/releases/download/v0.1.0/SatuMorpher-v0.1.0-windows-x86_64.vst3.zip",
-              "downloads": 1
+              "downloads": 2
             }
           ],
           "verified": true,
-          "downloads": 4
+          "downloads": 7
         }
       },
-      "downloads": 4
+      "downloads": 7
     },
     "hollance/thekissofshame": {
       "slug": "hollance/thekissofshame",
