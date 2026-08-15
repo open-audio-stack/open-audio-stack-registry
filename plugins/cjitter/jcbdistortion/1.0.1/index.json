@@ -1,0 +1,41 @@
+{
+  "name": "JCBDistortion",
+  "author": "cjitter",
+  "description": "Plugin distorsionador hecho con gen~, Plugin Export y JUCE",
+  "license": "gpl-3.0",
+  "type": "effect",
+  "tags": [
+    "distortion",
+    "bitcrusher",
+    "gen"
+  ],
+  "url": "https://github.com/cjitter/JCBDistortion",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/cjitter/jcbdistortion/jcbdistortion.jpg",
+  "date": "2025-11-22T19:14:45Z",
+  "changes": "JCBDistortion v1.0.1 improves internal stability without changing the sound\nor user-facing behavior: better sync between the parameter engine (APVTS)\nand the DSP engine (Gen), safer state restoration and preset loading, and\ninternal code cleanup.",
+  "files": [
+    {
+      "systems": [
+        {
+          "type": "mac"
+        }
+      ],
+      "architectures": [
+        "arm64",
+        "x64"
+      ],
+      "contains": [
+        "vst3",
+        "component",
+        "aax"
+      ],
+      "type": "installer",
+      "size": 35364750,
+      "sha256": "3e51dfe0e52697e7dbcf52de4f48f8724a97d5d96d0e8422e39ae2cf7b76a730",
+      "url": "https://github.com/cjitter/JCBDistortion/releases/download/v1.0.1/JCBDistortion-Installer.dmg",
+      "downloads": 2
+    }
+  ],
+  "verified": true,
+  "downloads": 2
+}
