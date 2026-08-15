@@ -2719,7 +2719,7 @@
               "size": 36831356,
               "sha256": "811390b6eb6e28dde023c70590c74d26e74ebb2e595bcf4b95af2341db160e99",
               "url": "https://github.com/werman/noise-suppression-for-voice/releases/download/v1.10/linux-rnnoise.zip",
-              "downloads": 20910
+              "downloads": 20911
             },
             {
               "systems": [
@@ -2765,10 +2765,10 @@
             }
           ],
           "verified": true,
-          "downloads": 365440
+          "downloads": 365441
         }
       },
-      "downloads": 365440
+      "downloads": 365441
     },
     "webprofusion/soundshed-guitar": {
       "slug": "webprofusion/soundshed-guitar",
@@ -35573,6 +35573,53 @@
         }
       },
       "downloads": 522
+    },
+    "cjitter/jcbreverb": {
+      "slug": "cjitter/jcbreverb",
+      "version": "1.0.2",
+      "versions": {
+        "1.0.2": {
+          "name": "JCBReverb",
+          "author": "cjitter",
+          "description": "Plugin de reverberación hecho con gen~, Plugin Export y JUCE",
+          "license": "gpl-3.0",
+          "type": "effect",
+          "tags": [
+            "reverb",
+            "gen"
+          ],
+          "url": "https://github.com/cjitter/JCBReverb",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/cjitter/jcbreverb/jcbreverb.jpg",
+          "date": "2025-12-18T19:01:20Z",
+          "changes": "JCBReverb v1.0.2 fixes a visual bug where the bypass state background wasn't\nrestored when reopening the plugin window, and syncs the bypass button state\nfrom Gen~ during editor initialization. No changes to sound, presets, or\nsession compatibility.",
+          "files": [
+            {
+              "systems": [
+                {
+                  "type": "mac"
+                }
+              ],
+              "architectures": [
+                "arm64",
+                "x64"
+              ],
+              "contains": [
+                "vst3",
+                "component",
+                "aax"
+              ],
+              "type": "installer",
+              "size": 34589322,
+              "sha256": "604d00333d5307a893c5dac4aab139027f62999543bba8765bd7b58b40b744cd",
+              "url": "https://github.com/cjitter/JCBReverb/releases/download/v1.0.2/JCBReverb-Installer.dmg",
+              "downloads": 6
+            }
+          ],
+          "verified": true,
+          "downloads": 6
+        }
+      },
+      "downloads": 6
     },
     "chsh2/slowsampler2": {
       "slug": "chsh2/slowsampler2",
