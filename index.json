@@ -37,7 +37,7 @@
               "size": 5911681,
               "sha256": "c01c49d8063965c4c2dea8324468336768f5c9139e0b1caebde14c2400b55352",
               "url": "https://github.com/Tracktion/pluginval/releases/download/v1.0.4/pluginval_Linux.zip",
-              "downloads": 17413
+              "downloads": 17414
             },
             {
               "systems": [
@@ -73,10 +73,10 @@
             }
           ],
           "verified": true,
-          "downloads": 178883
+          "downloads": 178884
         }
       },
-      "downloads": 178883
+      "downloads": 178884
     },
     "steinberg/validator": {
       "slug": "steinberg/validator",
@@ -6595,14 +6595,14 @@
               "size": 6929945,
               "sha256": "517c0e99f3ff37cf7b3941ed9afbece1423a0da69d70a9dd8076a473d630a50d",
               "url": "https://github.com/tiagolr/ripplerx/releases/download/v1.5.19/ripplerx-win-v1.5.19.zip",
-              "downloads": 1420
+              "downloads": 1421
             }
           ],
           "verified": true,
-          "downloads": 2332
+          "downloads": 2333
         }
       },
-      "downloads": 2332
+      "downloads": 2333
     },
     "tiagolr/reevr": {
       "slug": "tiagolr/reevr",
@@ -22213,14 +22213,14 @@
               "size": 6658226,
               "sha256": "861ad556d4767108844ff44ee84656fc2fb71c89af72a385f590ffd9996799a6",
               "url": "https://github.com/liuanlin-mx/MXTune/releases/download/v1.2.0/windows_x86_64_vst_v1.2.0.zip",
-              "downloads": 23558
+              "downloads": 23559
             }
           ],
           "verified": true,
-          "downloads": 38287
+          "downloads": 38288
         }
       },
-      "downloads": 38287
+      "downloads": 38288
     },
     "leomccormack/sparta": {
       "slug": "leomccormack/sparta",
@@ -23278,14 +23278,14 @@
               "size": 9405386,
               "sha256": "640c628b247fa283a40650e84be861808fa5cd58423cefb6455ea44d9880a1f0",
               "url": "https://github.com/kayrockscreenprinting/ultramaster_kr106/releases/download/v2.5.13/KR106-Windows.zip",
-              "downloads": 2550
+              "downloads": 2551
             }
           ],
           "verified": true,
-          "downloads": 5578
+          "downloads": 5579
         }
       },
-      "downloads": 5578
+      "downloads": 5579
     },
     "kaixocode/spectralrotator": {
       "slug": "kaixocode/spectralrotator",
@@ -25422,14 +25422,14 @@
               "size": 6992022,
               "sha256": "f47b578ff24684343966f36c3615357fbcca7c99e3c76116ea7dd4a494d46814",
               "url": "https://github.com/jerryuhoo/Fire/releases/download/v1.5.0/Fire-1.5.0-Windows.zip",
-              "downloads": 3709
+              "downloads": 3710
             }
           ],
           "verified": true,
-          "downloads": 5817
+          "downloads": 5818
         }
       },
-      "downloads": 5817
+      "downloads": 5818
     },
     "je3928/re201models": {
       "slug": "je3928/re201models",
@@ -34110,7 +34110,7 @@
               "size": 371595549,
               "sha256": "38ad8c57305783118579e4361c94eb8cbd50c7eeeed15cbd8aa6da52bf2c0aa2",
               "url": "https://github.com/DISTRHO/Cardinal/releases/download/26.02/Cardinal-win32-26.02-installer.exe",
-              "downloads": 903
+              "downloads": 904
             },
             {
               "systems": [
@@ -34152,7 +34152,7 @@
               "size": 368923667,
               "sha256": "16f21250fe656fc766f6c1df79c45244bbdf55ffa90ff0c3c3ace9af70cf3e24",
               "url": "https://github.com/DISTRHO/Cardinal/releases/download/26.02/Cardinal-win64-26.02-installer.exe",
-              "downloads": 8263
+              "downloads": 8264
             },
             {
               "systems": [
@@ -34177,10 +34177,10 @@
             }
           ],
           "verified": true,
-          "downloads": 21307
+          "downloads": 21309
         }
       },
-      "downloads": 21307
+      "downloads": 21309
     },
     "dimethoxy/disflux": {
       "slug": "dimethoxy/disflux",
@@ -35612,6 +35612,54 @@
               "size": 34589322,
               "sha256": "604d00333d5307a893c5dac4aab139027f62999543bba8765bd7b58b40b744cd",
               "url": "https://github.com/cjitter/JCBReverb/releases/download/v1.0.2/JCBReverb-Installer.dmg",
+              "downloads": 8
+            }
+          ],
+          "verified": true,
+          "downloads": 8
+        }
+      },
+      "downloads": 8
+    },
+    "cjitter/jcbmaximizer": {
+      "slug": "cjitter/jcbmaximizer",
+      "version": "1.0.1",
+      "versions": {
+        "1.0.1": {
+          "name": "JCBMaximizer",
+          "author": "cjitter",
+          "description": "Plugin limitador/maximizador hecho con gen~, Plugin Export y JUCE",
+          "license": "gpl-3.0",
+          "type": "effect",
+          "tags": [
+            "limiter",
+            "maximizer",
+            "gen"
+          ],
+          "url": "https://github.com/cjitter/JCBMaximizer",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/cjitter/jcbmaximizer/jcbmaximizer.jpg",
+          "date": "2025-11-22T21:07:44Z",
+          "changes": "JCBMaximizer v1.0.1 improves internal stability without changing the sound\nor user-facing behavior: stronger sync between the parameter engine (APVTS)\nand the DSP engine (Gen), state restoration now handled via a single safe\nqueue, and preset loading updated to use it too.",
+          "files": [
+            {
+              "systems": [
+                {
+                  "type": "mac"
+                }
+              ],
+              "architectures": [
+                "arm64",
+                "x64"
+              ],
+              "contains": [
+                "vst3",
+                "component",
+                "aax"
+              ],
+              "type": "installer",
+              "size": 31399131,
+              "sha256": "c0d2ce489d628660f6678df404d2f7f1b56e38798c3b6068cc1d61d20184602f",
+              "url": "https://github.com/cjitter/JCBMaximizer/releases/download/v1.0.1/JCBMaximizer-Installer.dmg",
               "downloads": 6
             }
           ],
@@ -35660,14 +35708,14 @@
               "size": 35364750,
               "sha256": "3e51dfe0e52697e7dbcf52de4f48f8724a97d5d96d0e8422e39ae2cf7b76a730",
               "url": "https://github.com/cjitter/JCBDistortion/releases/download/v1.0.1/JCBDistortion-Installer.dmg",
-              "downloads": 2
+              "downloads": 5
             }
           ],
           "verified": true,
-          "downloads": 2
+          "downloads": 5
         }
       },
-      "downloads": 2
+      "downloads": 5
     },
     "chsh2/slowsampler2": {
       "slug": "chsh2/slowsampler2",
@@ -38007,14 +38055,14 @@
               "size": 71011202,
               "sha256": "796655e0ed70999782015fb5d94d167c691eec706d676b89b01bf02722d2741a",
               "url": "https://github.com/BespokeSynth/BespokeSynth/releases/download/v1.3.0/BespokeSynth-Windows-1_3_0.msi",
-              "downloads": 19310
+              "downloads": 19311
             }
           ],
           "verified": true,
-          "downloads": 27966
+          "downloads": 27967
         }
       },
-      "downloads": 27966
+      "downloads": 27967
     },
     "baconpaul/two-filters": {
       "slug": "baconpaul/two-filters",
@@ -39058,7 +39106,7 @@
               "size": 11275100,
               "sha256": "5dc4e072af90ec54aa0197790b40856e7db1659ff924ed107c7536b442d3584b",
               "url": "https://github.com/asb2m10/dexed/releases/download/v1.0.1/Dexed-1.0.1-win.exe",
-              "downloads": 82829
+              "downloads": 82833
             },
             {
               "systems": [
@@ -39082,7 +39130,7 @@
             }
           ],
           "verified": true,
-          "downloads": 154313
+          "downloads": 154317
         },
         "0.9.8": {
           "name": "Dexed",
@@ -39167,7 +39215,7 @@
           "downloads": 195800
         }
       },
-      "downloads": 350113
+      "downloads": 350117
     },
     "artfwo/andes": {
       "slug": "artfwo/andes",

@@ -1,0 +1,48 @@
+{
+  "slug": "cjitter/jcbmaximizer",
+  "version": "1.0.1",
+  "versions": {
+    "1.0.1": {
+      "name": "JCBMaximizer",
+      "author": "cjitter",
+      "description": "Plugin limitador/maximizador hecho con gen~, Plugin Export y JUCE",
+      "license": "gpl-3.0",
+      "type": "effect",
+      "tags": [
+        "limiter",
+        "maximizer",
+        "gen"
+      ],
+      "url": "https://github.com/cjitter/JCBMaximizer",
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/cjitter/jcbmaximizer/jcbmaximizer.jpg",
+      "date": "2025-11-22T21:07:44Z",
+      "changes": "JCBMaximizer v1.0.1 improves internal stability without changing the sound\nor user-facing behavior: stronger sync between the parameter engine (APVTS)\nand the DSP engine (Gen), state restoration now handled via a single safe\nqueue, and preset loading updated to use it too.",
+      "files": [
+        {
+          "systems": [
+            {
+              "type": "mac"
+            }
+          ],
+          "architectures": [
+            "arm64",
+            "x64"
+          ],
+          "contains": [
+            "vst3",
+            "component",
+            "aax"
+          ],
+          "type": "installer",
+          "size": 31399131,
+          "sha256": "c0d2ce489d628660f6678df404d2f7f1b56e38798c3b6068cc1d61d20184602f",
+          "url": "https://github.com/cjitter/JCBMaximizer/releases/download/v1.0.1/JCBMaximizer-Installer.dmg",
+          "downloads": 6
+        }
+      ],
+      "verified": true,
+      "downloads": 6
+    }
+  },
+  "downloads": 6
+}
