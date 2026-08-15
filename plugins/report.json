@@ -1543,6 +1543,20 @@
       ]
     }
   },
+  "quamplex/entropictron": {
+    "1.2.0": {
+      "recs": [
+        {
+          "field": "architectures",
+          "rec": "should support arm64"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Mac"
+        }
+      ]
+    }
+  },
   "publicsamples/xolotl": {
     "0.9.2": {
       "recs": [

@@ -12738,6 +12738,71 @@
     },
     "downloads": 175
   },
+  "quamplex/entropictron": {
+    "slug": "quamplex/entropictron",
+    "version": "1.2.0",
+    "versions": {
+      "1.2.0": {
+        "name": "Entropictron",
+        "author": "Quamplex",
+        "description": "Entropictron is a free software context synthesizer and audio effect.",
+        "license": "gpl-3.0",
+        "type": "effect",
+        "tags": [
+          "Audio Plugins",
+          "Glitch Effect",
+          "Noise Generator",
+          "Synthesizers",
+          "Vst3"
+        ],
+        "url": "https://github.com/quamplex/entropictron",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/quamplex/entropictron/entropictron.jpg",
+        "date": "2026-07-30T11:29:44Z",
+        "changes": "### Features\r\n\r\n- Random gate module\r\n- Add dry/wet for glitch module\r\n\r\nImprovements:\r\n\r\n- Glitch: add a small cross-fade to avoid artifacts",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "installer",
+            "size": 5064410,
+            "sha256": "dcc3ae6ed17f15756d49124791328a1b6efd5f3ed3cbe280ff6a6974ac7be1fa",
+            "url": "https://github.com/quamplex/entropictron/releases/download/v1.2.0/EntropictronWindowsInstaller-v1.2.0-x86_64.exe",
+            "downloads": 19
+          },
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 491620,
+            "sha256": "2241aa5b00e46d76503793dd286fbf4e2bc5f57c46a79a1f9d5229c6811892f3",
+            "url": "https://github.com/quamplex/entropictron/releases/download/v1.2.0/GNULinux_binaries_v1.2.0.zip",
+            "downloads": 23
+          }
+        ],
+        "verified": true,
+        "downloads": 42
+      }
+    },
+    "downloads": 42
+  },
   "publicsamples/xolotl": {
     "slug": "publicsamples/xolotl",
     "version": "0.9.2",
@@ -33081,7 +33146,7 @@
             "size": 368923667,
             "sha256": "16f21250fe656fc766f6c1df79c45244bbdf55ffa90ff0c3c3ace9af70cf3e24",
             "url": "https://github.com/DISTRHO/Cardinal/releases/download/26.02/Cardinal-win64-26.02-installer.exe",
-            "downloads": 8264
+            "downloads": 8266
           },
           {
             "systems": [
@@ -33106,10 +33171,10 @@
           }
         ],
         "verified": true,
-        "downloads": 21310
+        "downloads": 21312
       }
     },
-    "downloads": 21310
+    "downloads": 21312
   },
   "dimethoxy/disflux": {
     "slug": "dimethoxy/disflux",
