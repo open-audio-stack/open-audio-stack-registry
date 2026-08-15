@@ -36,7 +36,7 @@
           "size": 2444162,
           "sha256": "8cc90d7da222d11bc0e6bfb94093f66510d587b24c37ac6aedc6807532db9997",
           "url": "https://github.com/dlarseninclusive/UhbikWrapper/releases/download/v0.3.1/UhbikWrapper-Linux-CLAP.zip",
-          "downloads": 14
+          "downloads": 16
         },
         {
           "systems": [
@@ -54,7 +54,7 @@
           "size": 2483631,
           "sha256": "73e6022bb52eaed0e8ef7e4f6c67202b37dc73e31206ce2434e5bf2abcc19cd1",
           "url": "https://github.com/dlarseninclusive/UhbikWrapper/releases/download/v0.3.1/UhbikWrapper-Linux-VST3.zip",
-          "downloads": 13
+          "downloads": 15
         },
         {
           "systems": [
@@ -72,7 +72,7 @@
           "size": 1779076,
           "sha256": "ef0ff0ca1231334f189fdc2427918dafe95e6af69c746bdbc7f9ee0fecbca032",
           "url": "https://github.com/dlarseninclusive/UhbikWrapper/releases/download/v0.3.1/UhbikWrapper-macOS-AU.zip",
-          "downloads": 10
+          "downloads": 13
         },
         {
           "systems": [
@@ -90,7 +90,7 @@
           "size": 1761127,
           "sha256": "0762443f05ed68b944f95687c08ea69da84a8246a501ce3a86365586a3ff3947",
           "url": "https://github.com/dlarseninclusive/UhbikWrapper/releases/download/v0.3.1/UhbikWrapper-macOS-CLAP.zip",
-          "downloads": 16
+          "downloads": 18
         },
         {
           "systems": [
@@ -108,7 +108,7 @@
           "size": 1771422,
           "sha256": "f831912952b7f515f49dce34bd331fb431fb901f7c5e94e476407964405e4900",
           "url": "https://github.com/dlarseninclusive/UhbikWrapper/releases/download/v0.3.1/UhbikWrapper-macOS-VST3.zip",
-          "downloads": 18
+          "downloads": 20
         },
         {
           "systems": [
@@ -126,7 +126,7 @@
           "size": 2909439,
           "sha256": "61a46c3336417de6ccb2ac08bdfd9d6b027a2774189b26419b2a576723231377",
           "url": "https://github.com/dlarseninclusive/UhbikWrapper/releases/download/v0.3.1/UhbikWrapper-Windows-CLAP.zip",
-          "downloads": 24
+          "downloads": 26
         },
         {
           "systems": [
@@ -144,11 +144,11 @@
           "size": 2925963,
           "sha256": "9346a6edf865282be05da983d916971ae4913748b7c5b60eb73cbcf1a5a16013",
           "url": "https://github.com/dlarseninclusive/UhbikWrapper/releases/download/v0.3.1/UhbikWrapper-Windows-VST3.zip",
-          "downloads": 38
+          "downloads": 42
         }
       ],
       "verified": true,
-      "downloads": 133
+      "downloads": 150
     },
     "0.3.0": {
       "name": "UhbikWrapper",
@@ -299,5 +299,5 @@
       "downloads": 112
     }
   },
-  "downloads": 245
+  "downloads": 262
 }

@@ -34,7 +34,7 @@
             "size": 62289340,
             "sha256": "31cf90dc9a9a3e839439ab5a0148cc4ad1bdedb4cfedc01c34edb1b192f3b111",
             "url": "https://github.com/publicsamples/Xolotl/releases/download/0.9.2/xolotl-0.9.2-Linux.tar.xz",
-            "downloads": 25
+            "downloads": 30
           },
           {
             "systems": [
@@ -52,7 +52,7 @@
             "size": 43727474,
             "sha256": "b876cb9ff4e561d1a77a2f24b4a8f47214dc5e60d5a39cde923c2e335e89abf6",
             "url": "https://github.com/publicsamples/Xolotl/releases/download/0.9.2/Xolotl-0.9.2-Windows.zip",
-            "downloads": 75
+            "downloads": 77
           },
           {
             "systems": [
@@ -72,14 +72,14 @@
             "size": 912706080,
             "sha256": "d56cfe548929b776cba6e52d856b4fa3110793fcdff2b8a8a2c768045e475644",
             "url": "https://github.com/publicsamples/Xolotl/releases/download/0.9.2/Xolotl-0.9.2.Mac.zip",
-            "downloads": 51
+            "downloads": 52
           }
         ],
         "verified": true,
-        "downloads": 151
+        "downloads": 159
       }
     },
-    "downloads": 151
+    "downloads": 159
   },
   "publicsamples/quetzalcoatl": {
     "slug": "publicsamples/quetzalcoatl",
@@ -120,7 +120,7 @@
             "size": 506702148,
             "sha256": "f9b7a60728ece3ddcf13864ce57a154e85bf2f9b70970ada79d7427593550218",
             "url": "https://github.com/publicsamples/Quetzalcoatl/releases/download/0.8.7/Quetzalcoatl-Linux.VST3.tar.xz",
-            "downloads": 265
+            "downloads": 269
           },
           {
             "systems": [
@@ -139,7 +139,7 @@
             "size": 978422404,
             "sha256": "9dca0087f939e3641a67b3141675e1b4b6d51e03d39a95afddde7baec6cdd80a",
             "url": "https://github.com/publicsamples/Quetzalcoatl/releases/download/0.8.7/Quetzalcoatl.Mac.VST3.AU.zip",
-            "downloads": 570
+            "downloads": 576
           },
           {
             "systems": [
@@ -157,14 +157,14 @@
             "size": 518146320,
             "sha256": "3909c98e0c9bf8bcc7c432bfa2fdefd8159eb921e79dfa61b8cfc25b2b5c841e",
             "url": "https://github.com/publicsamples/Quetzalcoatl/releases/download/0.8.7/Quetzalcoatl.Win.VST3.zip",
-            "downloads": 1470
+            "downloads": 1472
           }
         ],
         "verified": true,
-        "downloads": 2305
+        "downloads": 2317
       }
     },
-    "downloads": 2305
+    "downloads": 2317
   },
   "publicsamples/oi-grandad": {
     "slug": "publicsamples/oi-grandad",
@@ -204,7 +204,7 @@
             "size": 58817680,
             "sha256": "366d52173b647e7de0026370dc4c13081140cdb7948c21cf429f47cabff68ced",
             "url": "https://github.com/publicsamples/Oi-Grandad/releases/download/2.4.3b/OiGrandad_Linux.zip",
-            "downloads": 37
+            "downloads": 40
           },
           {
             "systems": [
@@ -224,7 +224,7 @@
             "size": 62574248,
             "sha256": "5e7ebb733a3efd956703823418c610a6bc4e8b637501f41144759dfc84729d4f",
             "url": "https://github.com/publicsamples/Oi-Grandad/releases/download/2.4.3b/OiGrandad_Mac.zip",
-            "downloads": 109
+            "downloads": 110
           },
           {
             "systems": [
@@ -243,13 +243,13 @@
             "size": 48073468,
             "sha256": "e7e2dcc37ca828cbca1e89ba2c04c3fa45f16d4d325c094a22da20f63d04c1c5",
             "url": "https://github.com/publicsamples/Oi-Grandad/releases/download/2.4.3b/OiGrandad_Windows.zip",
-            "downloads": 240
+            "downloads": 242
           }
         ],
         "verified": true,
-        "downloads": 386
+        "downloads": 392
       }
     },
-    "downloads": 386
+    "downloads": 392
   }
 }
