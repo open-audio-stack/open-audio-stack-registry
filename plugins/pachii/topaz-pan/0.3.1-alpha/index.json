@@ -1,0 +1,132 @@
+{
+  "name": "Topaz Pan",
+  "author": "Patrick",
+  "description": "Vocal widening plugin designed for efficient, natural-sounding vocal stacks without manual track duplication",
+  "license": "mit",
+  "type": "effect",
+  "tags": [
+    "Vocal",
+    "Stereo Widening",
+    "Doubling"
+  ],
+  "url": "https://github.com/Pachii/topaz-pan",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/pachii/topaz-pan/topaz-pan.jpg",
+  "date": "2026-04-18T03:17:51Z",
+  "changes": "Updates tooltip wording and adds an x86_64 macOS VST3 build alongside arm64 (for Rosetta mode).",
+  "files": [
+    {
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3"
+      ],
+      "type": "archive",
+      "size": 2079533,
+      "sha256": "d244f6591c01871f82084766d5d610282f92f5ea9a3dc2976645adefc0dddd16",
+      "url": "https://github.com/Pachii/topaz-pan/releases/download/v0.3.1-alpha/topaz-pan-v0.3.1-alpha-linux-vst3.zip",
+      "downloads": 15
+    },
+    {
+      "systems": [
+        {
+          "type": "mac"
+        }
+      ],
+      "architectures": [
+        "arm64",
+        "x64"
+      ],
+      "contains": [
+        "component"
+      ],
+      "type": "archive",
+      "size": 3176375,
+      "sha256": "801f4cd7b59e6d2ab393269edb6b638c1d46d353f81fde71bcb0062247a3de03",
+      "url": "https://github.com/Pachii/topaz-pan/releases/download/v0.3.1-alpha/topaz-pan-v0.3.1-alpha-macos-au.zip",
+      "downloads": 3
+    },
+    {
+      "systems": [
+        {
+          "type": "mac"
+        }
+      ],
+      "architectures": [
+        "arm64",
+        "x64"
+      ],
+      "contains": [
+        "vst3",
+        "component"
+      ],
+      "type": "archive",
+      "size": 6361350,
+      "sha256": "633cc9641478d7eb5178d97ad12143bfc0bdcaf0a393495642036c7f7b50fc5c",
+      "url": "https://github.com/Pachii/topaz-pan/releases/download/v0.3.1-alpha/topaz-pan-v0.3.1-alpha-macos-installer.zip",
+      "downloads": 3
+    },
+    {
+      "systems": [
+        {
+          "type": "mac"
+        }
+      ],
+      "architectures": [
+        "arm64",
+        "x64"
+      ],
+      "contains": [
+        "vst3"
+      ],
+      "type": "archive",
+      "size": 3179652,
+      "sha256": "dfc9f2598024e5b4fdae6f84157f6338eb8c79c627764508ca37222270a77e0f",
+      "url": "https://github.com/Pachii/topaz-pan/releases/download/v0.3.1-alpha/topaz-pan-v0.3.1-alpha-macos-vst3.zip",
+      "downloads": 3
+    },
+    {
+      "systems": [
+        {
+          "type": "win"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "exe"
+      ],
+      "type": "archive",
+      "size": 3183866,
+      "sha256": "b956553ee784a8781806e826b16dc723a8783642f9fc05e10a5c09a29e4cbdf0",
+      "url": "https://github.com/Pachii/topaz-pan/releases/download/v0.3.1-alpha/topaz-pan-v0.3.1-alpha-windows-installer.zip",
+      "downloads": 9
+    },
+    {
+      "systems": [
+        {
+          "type": "win"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3"
+      ],
+      "type": "archive",
+      "size": 2283735,
+      "sha256": "4fe6f624cac32e08d96a3638e50afd0ae9a413a68cd1ffee2f387f17da7bfd1b",
+      "url": "https://github.com/Pachii/topaz-pan/releases/download/v0.3.1-alpha/topaz-pan-v0.3.1-alpha-windows-vst3.zip",
+      "downloads": 7
+    }
+  ],
+  "verified": true,
+  "downloads": 40
+}
