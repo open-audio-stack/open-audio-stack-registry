@@ -133,6 +133,54 @@
             "size": 34029113,
             "sha256": "c971a665c770e20df4bc029f2356b82924cf85f35869f8be5661eb2a169f15ec",
             "url": "https://github.com/cjitter/JCBImager/releases/download/v1.0.2/JCBImager-Installer.dmg",
+            "downloads": 4
+          }
+        ],
+        "verified": true,
+        "downloads": 4
+      }
+    },
+    "downloads": 4
+  },
+  "cjitter/jcbexpander": {
+    "slug": "cjitter/jcbexpander",
+    "version": "1.0.1",
+    "versions": {
+      "1.0.1": {
+        "name": "JCBExpander",
+        "author": "cjitter",
+        "description": "Plugin expansor de audio hecho con gen~, Plugin Export y JUCE",
+        "license": "gpl-3.0",
+        "type": "effect",
+        "tags": [
+          "expander",
+          "gate",
+          "gen"
+        ],
+        "url": "https://github.com/cjitter/JCBExpander",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/cjitter/jcbexpander/jcbexpander.jpg",
+        "date": "2025-11-24T18:51:44Z",
+        "changes": "JCBExpander v1.0.1 improves internal stability without changing the sound\nor user-facing behavior: stronger sync between the parameter engine (APVTS)\nand the DSP engine (Gen), safer state restoration via a single parameter\nqueue, and preset loading updated to use it too.",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "component",
+              "aax"
+            ],
+            "type": "installer",
+            "size": 32628014,
+            "sha256": "4de58d154d68ffa150251f8739fcbfbbeb77fffa967693ab28f2a91f10c936e3",
+            "url": "https://github.com/cjitter/JCBExpander/releases/download/v1.0.1/JCBExpander-Installer.dmg",
             "downloads": 2
           }
         ],

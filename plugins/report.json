@@ -4075,6 +4075,24 @@
       ]
     }
   },
+  "cjitter/jcbexpander": {
+    "1.0.1": {
+      "recs": [
+        {
+          "field": "url",
+          "rec": "requires mounting step, consider .pkg instead"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Linux"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Windows"
+        }
+      ]
+    }
+  },
   "cjitter/jcbdistortion": {
     "1.0.1": {
       "recs": [
