@@ -2250,6 +2250,58 @@
       },
       "downloads": 1617
     },
+    "yonie/wetdelay": {
+      "slug": "yonie/wetdelay",
+      "version": "1.1.4",
+      "versions": {
+        "1.1.4": {
+          "name": "Wet Delay",
+          "author": "yonie",
+          "description": "Open source stereo delay plugin with authentic 80s rack-style character — 12-bit quantization, 24kHz internal rate, and channel crosstalk",
+          "license": "mit",
+          "type": "effect",
+          "tags": [
+            "Delay",
+            "Vintage",
+            "Lo-Fi"
+          ],
+          "url": "https://github.com/yonie/WetDelay",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/yonie/wetdelay/wetdelay.jpg",
+          "date": "2026-04-17T18:35:17Z",
+          "changes": "Fixed a bug where the selected delay time was not remembered across DAW sessions.",
+          "files": [
+            {
+              "systems": [
+                {
+                  "type": "mac"
+                },
+                {
+                  "type": "win"
+                },
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "arm64",
+                "x64"
+              ],
+              "contains": [
+                "vst3"
+              ],
+              "type": "archive",
+              "size": 4344971,
+              "sha256": "ceafafedce425d17505d0ec3b9c2f27b161d9ee01f26c90ce94c1f4813776615",
+              "url": "https://github.com/yonie/WetDelay/releases/download/v1.1.4/WetDelay-v1.1.4.zip",
+              "downloads": 774
+            }
+          ],
+          "verified": true,
+          "downloads": 774
+        }
+      },
+      "downloads": 774
+    },
     "yokemura/magical8bitplug2": {
       "slug": "yokemura/magical8bitplug2",
       "version": "1.0.1",
@@ -21447,7 +21499,7 @@
               "size": 160719329,
               "sha256": "4c795c3f582d50af70db77270940ebe5e38e5802df4e3a6d33b37731afa320db",
               "url": "https://github.com/leomccormack/SPARTA/releases/download/v1.8.2/Win64_SPARTA_VST_2026_01_25_v1.8.2.exe",
-              "downloads": 2608
+              "downloads": 2609
             },
             {
               "systems": [
@@ -21465,7 +21517,7 @@
               "size": 146116694,
               "sha256": "56a8362559dae9a084c2a8d543114d7abdcaa3a4ef680aedab5a00fee169e8f6",
               "url": "https://github.com/leomccormack/SPARTA/releases/download/v1.8.2/Win64_SPARTA_LV2_2026_01_25_v1.8.2.exe",
-              "downloads": 370
+              "downloads": 371
             },
             {
               "systems": [
@@ -21483,14 +21535,14 @@
               "size": 162027525,
               "sha256": "576e6a98c3e7108ff202b5c688f9aa3bbaa29492b01285b17a983d307317b5c0",
               "url": "https://github.com/leomccormack/SPARTA/releases/download/v1.8.2/Win64_SPARTA_VST3_2026_01_25_v1.8.2.exe",
-              "downloads": 1410
+              "downloads": 1411
             }
           ],
           "verified": true,
-          "downloads": 9613
+          "downloads": 9616
         }
       },
-      "downloads": 9613
+      "downloads": 9616
     },
     "larrymarmalade/the-archaeologist": {
       "slug": "larrymarmalade/the-archaeologist",
