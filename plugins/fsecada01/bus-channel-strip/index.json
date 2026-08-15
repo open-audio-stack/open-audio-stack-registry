@@ -1,0 +1,108 @@
+{
+  "slug": "fsecada01/bus-channel-strip",
+  "version": "0.5.0",
+  "versions": {
+    "0.5.0": {
+      "name": "Bus Channel Strip",
+      "author": "Francis Secada",
+      "description": "Professional 6-module bus channel strip VST3/CLAP plugin — API5500 EQ, ButterComp2, Pultec EQ, Dynamic EQ, Transformer & Punch. Built with NIH-Plug + vizia in Rust.",
+      "license": "bsd-3-clause",
+      "type": "effect",
+      "tags": [
+        "Airwindows",
+        "Audio Plugin",
+        "Audio Processing",
+        "Channel Strip",
+        "Clap",
+        "Compressor",
+        "Cross Platform",
+        "Dsp"
+      ],
+      "url": "https://github.com/fsecada01/bus_channel_strip",
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/fsecada01/bus-channel-strip/bus-channel-strip.jpg",
+      "date": "2026-04-19T03:20:21Z",
+      "changes": "## Bus Channel Strip v0.5.0\n\nProfessional 6-module bus channel strip VST3/CLAP plugin.\n\n**Signal chain:** API5500 EQ → ButterComp2 → Pultec EQ → Dynamic EQ → Transformer → Punch\n\n### Platform notes\n- **Windows** — full GUI\n- **macOS Apple Silicon (ARM64)** — full GUI\n- **macOS Intel (x86_64)** — headless (no GUI); GUI available via local source build\n- **Linux** — full GUI",
+      "files": [
+        {
+          "systems": [
+            {
+              "type": "linux"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "vst3",
+            "clap"
+          ],
+          "type": "archive",
+          "size": 20369542,
+          "sha256": "afa225358f65330701146fc552883ab9d0e81c9d76fdf411321b3f2fc61f5a5c",
+          "url": "https://github.com/fsecada01/bus_channel_strip/releases/download/v0.5.0/Bus-Channel-Strip-linux.tar.gz",
+          "downloads": 3
+        },
+        {
+          "systems": [
+            {
+              "type": "mac"
+            }
+          ],
+          "architectures": [
+            "arm64"
+          ],
+          "contains": [
+            "vst3",
+            "clap"
+          ],
+          "type": "archive",
+          "size": 18276422,
+          "sha256": "7f376df4ca023a550442525d16dc52ad73f29ec8dde5aeeb48f6199a8a6ae83c",
+          "url": "https://github.com/fsecada01/bus_channel_strip/releases/download/v0.5.0/Bus-Channel-Strip-macos-arm64.tar.gz",
+          "downloads": 2
+        },
+        {
+          "systems": [
+            {
+              "type": "mac"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "vst3",
+            "clap"
+          ],
+          "type": "archive",
+          "size": 1877386,
+          "sha256": "680a623fada552d1856c4cd78dda88d6a7698bb7f68d467f8bd7a89545994a6e",
+          "url": "https://github.com/fsecada01/bus_channel_strip/releases/download/v0.5.0/Bus-Channel-Strip-macos-intel.tar.gz",
+          "downloads": 2
+        },
+        {
+          "systems": [
+            {
+              "type": "win"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "vst3",
+            "clap"
+          ],
+          "type": "archive",
+          "size": 20098666,
+          "sha256": "b4f848aec19fa9885ec19b689051aabad94bf5c9144cf1cfdb2ee556a531def7",
+          "url": "https://github.com/fsecada01/bus_channel_strip/releases/download/v0.5.0/Bus-Channel-Strip-windows.zip",
+          "downloads": 5
+        }
+      ],
+      "verified": true,
+      "downloads": 12
+    }
+  },
+  "downloads": 12
+}
