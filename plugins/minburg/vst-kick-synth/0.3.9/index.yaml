@@ -1,0 +1,40 @@
+name: Convolution's Kick Synth
+author: minburg
+description: Versatile kick drum synthesizer plugin for crafting sounds from deep, clean 808s to aggressive, textured, distorted kicks for modern electronic music
+license: gpl-3.0
+type: instrument
+tags:
+  - Kick
+  - Drum Synth
+  - '808'
+url: https://github.com/minburg/vst-kick-synth
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/minburg/vst-kick-synth/vst-kick-synth.jpg
+date: '2026-03-25T06:33:21Z'
+changes: v0.3.9 release.
+files:
+  - systems:
+      - type: mac
+    architectures:
+      - arm64
+      - x64
+    contains:
+      - vst3
+      - component
+      - clap
+      - app
+    type: archive
+    size: 53511204
+    sha256: 79ed1be00bb33e1523699edb7d3259f79130bf8af056c61f313c42589862c6db
+    url: https://github.com/minburg/vst-kick-synth/releases/download/v0.3.9/kick_synth-v0.3.9-macos.zip
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - vst3
+      - clap
+      - exe
+    type: archive
+    size: 22672919
+    sha256: 294ee225f2188c472ce681674ae63438833e6efbe861c0ca5712d3780b4d5a41
+    url: https://github.com/minburg/vst-kick-synth/releases/download/v0.3.9/kick_synth-v0.3.9-win64.zip
