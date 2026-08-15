@@ -4,7 +4,7 @@
 
 import { createHash } from 'crypto';
 import { execFileSync, execSync } from 'child_process';
-import { existsSync, mkdirSync, writeFileSync } from 'fs';
+import { copyFileSync, existsSync, mkdirSync, writeFileSync } from 'fs';
 import path from 'path';
 import yaml from 'js-yaml';
 import * as semver from 'semver';
@@ -246,7 +246,16 @@ function inferFileType(filename: string): string {
 // Each installer extractor is gated behind a tool-availability check and degrades gracefully
 // (falls back to the pre-existing filename/text-inference path) if the tool isn't installed —
 // this script may run on machines without pkgutil/hdiutil (Linux) or without 7z/innoextract.
-const INSPECTABLE_ASSET = /\.(zip|tar\.gz|tgz|tar\.xz|tar\.bz2|pkg|dmg|deb|exe|msi)$/i;
+// Bare binaries uploaded directly as the release asset, with no zip/archive wrapper — most
+// often a Windows VST3 shipped as a single, un-bundled DLL that just keeps the ".vst3"
+// extension (a real macOS .vst3/.component is always a directory bundle, which GitHub can't
+// accept as a single release asset, so a bare file here can only be this Windows case; VST2
+// .dll/.dylib/.so are flat files on every platform, so those are always bare).
+const BARE_BINARY_ASSET = /\.(vst3|dll|dylib|so|clap)$/i;
+const INSPECTABLE_ASSET = new RegExp(
+  `\\.(zip|tar\\.gz|tgz|tar\\.xz|tar\\.bz2|pkg|dmg|deb|exe|msi)$|${BARE_BINARY_ASSET.source}`,
+  'i',
+);
 
 function commandExists(cmd: string): boolean {
   try {
@@ -457,6 +466,12 @@ function extractArchive(tmpFile: string, filename: string): string | null {
       if (!expandMsi(tmpFile, dir)) return null;
     } else if (/\.exe$/i.test(filename)) {
       if (!expandExe(tmpFile, dir)) return null;
+    } else if (BARE_BINARY_ASSET.test(filename)) {
+      // No archive to unpack — the asset *is* the binary. Drop it into a directory under its
+      // original name so inspectExtractedDir's name/`file`-based matching (which expects a
+      // directory to search) can find and identify it like any other extracted candidate.
+      mkdirSync(dir, { recursive: true });
+      copyFileSync(tmpFile, path.join(dir, filename));
     } else {
       // .appimage is deliberately not handled here: every other format above is inspected by
       // passively parsing the file (pkgutil, ar/tar, 7z, innoextract — none of them run the
@@ -466,6 +481,16 @@ function extractArchive(tmpFile: string, filename: string): string | null {
       // Falls back to the existing filename/text-inference path and the manual AGENTS.md
       // steps, same as before this function existed.
       return null;
+    }
+    // Some Windows-built zips store bogus Unix permission bits in their central directory
+    // (e.g. a directory entry with mode 644 — no execute bit), which unzip faithfully restores.
+    // A directory without +x can't be traversed even by its owner, so `find` silently sees zero
+    // files below it and the whole extraction looks empty even though it succeeded — force
+    // sane, readable/traversable permissions on everything we just extracted before checking.
+    try {
+      execSync(`chmod -R u+rwX "${dir}"`, { stdio: 'pipe' });
+    } catch {
+      /* best-effort — if chmod itself fails, dirHasFiles below will correctly report empty */
     }
     return dirHasFiles(dir) ? dir : null;
   } catch {
@@ -538,8 +563,12 @@ function inspectExtractedDir(dir: string): ArchiveInspection {
     // keeps the bundle's own name + ".vst3" extension rather than ".dll") are matched by
     // name here too — zip extraction routinely drops the executable bit for these, so relying
     // on -perm +111 alone leaves them invisible to `file` and the platform undetected entirely.
+    // A macOS bundle's own executable (Contents/MacOS/<name>) is the same story but worse: by
+    // convention it has *no extension at all* (just the bundle's product name), so it can't be
+    // caught by any of the name patterns above either — only the Contents/MacOS/ path shape
+    // identifies it, hence the dedicated -path clause.
     const candidates = execSync(
-      `find "${dir}" -type f \\( -name "*.dylib" -o -name "*.so" -o -name "*.dll" -o -name "*.exe" -o -name "*.vst3" -o -name "*.component" -o -name "*.clap" -o -name "*.lv2" -o -perm +111 \\)`,
+      `find "${dir}" -type f \\( -name "*.dylib" -o -name "*.so" -o -name "*.dll" -o -name "*.exe" -o -name "*.vst3" -o -name "*.component" -o -name "*.clap" -o -name "*.lv2" -o -path "*/Contents/MacOS/*" -o -perm +111 \\)`,
       { encoding: 'utf8', stdio: ['pipe', 'pipe', 'pipe'] },
     )
       .split('\n')
