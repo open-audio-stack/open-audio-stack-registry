@@ -1,0 +1,86 @@
+{
+  "httpsworldview/openmeters": {
+    "slug": "httpsworldview/openmeters",
+    "version": "1.13.0",
+    "versions": {
+      "1.13.0": {
+        "name": "OpenMeters",
+        "author": "Maika",
+        "description": "Fast and professional audio metering/visualization for Linux.",
+        "license": "gpl-3.0",
+        "type": "tool",
+        "tags": [
+          "audio-visualizer",
+          "metering",
+          "linux",
+          "pipewire",
+          "spectrogram",
+          "oscilloscope"
+        ],
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/httpsworldview/openmeters/openmeters.jpg",
+        "url": "https://github.com/httpsworldview/openmeters",
+        "date": "2026-08-13T23:09:39Z",
+        "changes": "## Changelog\n\n```\n13f64c8 chore: update deps\nbaee537 perf: track quiescence and processor state, eliminate idle CPU usage\n1ed0da2 refactor: remove unused arbitrary indev handling\n4718346 tests: refactor some old tests, remove redundant test that should not have existed\n58e2b30 refactor: minor allocation fixes\n0c6e679 perf: streamline dsp and rendering hot paths\nc7e7bc8 refactor: simplifications and redundancy reductions\n8f09203 docs: update readme with a FAQ section\n```",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "elf"
+            ],
+            "type": "installer",
+            "size": 5182968,
+            "sha256": "954bf394f224386544bb1d638b532c97edbc3358b0a743fae3b0647cded4d38c",
+            "url": "https://github.com/httpsworldview/openmeters/releases/download/v1.13.0/openmeters-1.13.0-1.x86_64.rpm",
+            "downloads": 3
+          },
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "elf"
+            ],
+            "type": "archive",
+            "size": 3947936,
+            "sha256": "1b32381a1f6fd8b84ef24e4e11a5cfcb80b21b3ee5d0a67a9c8bbc932403f1fe",
+            "url": "https://github.com/httpsworldview/openmeters/releases/download/v1.13.0/openmeters-1.13.0-x86_64-linux-gnu.tar.xz",
+            "downloads": 2
+          },
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "elf"
+            ],
+            "type": "installer",
+            "size": 5577246,
+            "sha256": "b69fbac8a1792d30e30346128aba8a5cb7193b759fe76bb4c00791b92417ff9a",
+            "url": "https://github.com/httpsworldview/openmeters/releases/download/v1.13.0/openmeters_1.13.0-1_amd64.deb",
+            "downloads": 4
+          }
+        ],
+        "verified": true,
+        "downloads": 9
+      }
+    },
+    "downloads": 9
+  }
+}
