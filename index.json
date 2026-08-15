@@ -17091,6 +17091,51 @@
         }
       }
     },
+    "mrugalla/perlinnoisemod": {
+      "slug": "mrugalla/perlinnoisemod",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "name": "Perlin Noise Mod",
+          "author": "Florian Mrugalla",
+          "description": "Synthesizes Perlin noise for use as a modulation source in DAWs that allow audio or MIDI CC signals to modulate other plugins' parameters, such as Bitwig and Reaper",
+          "license": "gpl-3.0",
+          "type": "generator",
+          "tags": [
+            "Modulation",
+            "Perlin Noise",
+            "MIDI CC"
+          ],
+          "url": "https://github.com/Mrugalla/PerlinNoiseMod",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/mrugalla/perlinnoisemod/perlinnoisemod.jpg",
+          "date": "2023-03-15T15:26:44Z",
+          "changes": "Initial release.",
+          "files": [
+            {
+              "systems": [
+                {
+                  "type": "win"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "vst3"
+              ],
+              "type": "archive",
+              "size": 5703680,
+              "sha256": "01843c4c7ffeb36e5770e791d343c4e3ea6b8f54163f555eccfb2ef5ca727ad0",
+              "url": "https://github.com/Mrugalla/PerlinNoiseMod/releases/download/vst/PerlinNoiseMod.vst3",
+              "downloads": 400
+            }
+          ],
+          "verified": true,
+          "downloads": 400
+        }
+      },
+      "downloads": 400
+    },
     "mrugalla/hammer-and-meiszel": {
       "slug": "mrugalla/hammer-and-meiszel",
       "version": "2025.4.27",
