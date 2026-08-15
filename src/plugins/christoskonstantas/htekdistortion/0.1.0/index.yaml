@@ -1,0 +1,24 @@
+name: HTek Distortion
+author: kiztam
+description: Piecewise, memoryless soft-knee hard clipper, with the knee transition implemented by smoothstep interpolation between linear and saturated regions, plus optional bias and DC compensation
+license: mit
+type: effect
+tags:
+  - Distortion
+  - Clipper
+  - Soft Knee
+url: https://github.com/ChristosKonstantas/HTekDistortion
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/christoskonstantas/htekdistortion/htekdistortion.jpg
+date: '2026-02-18T17:39:54Z'
+changes: First release. Does not contain oversampling and needs improvements.
+files:
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - vst3
+    type: archive
+    size: 6517760
+    sha256: 310323c6b3065544a26d86fe9e53efdcf0c6f95fa1d345c4f5164070d6cc8a0a
+    url: https://github.com/ChristosKonstantas/HTekDistortion/releases/download/v0.1.0/HTekDistortion.vst3
