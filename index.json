@@ -267,14 +267,14 @@
               "size": 36417296,
               "sha256": "70775e251eee44c0f2451a1e833326cf8bcbbe304d3e7cd12851e6fce72ef7da",
               "url": "https://github.com/Rikorose/DeepFilterNet/releases/download/v0.5.6/deep-filter-0.5.6-x86_64-unknown-linux-musl",
-              "downloads": 28812
+              "downloads": 28815
             }
           ],
           "verified": true,
-          "downloads": 52314
+          "downloads": 52317
         }
       },
-      "downloads": 52314
+      "downloads": 52317
     },
     "monocasual/giada": {
       "slug": "monocasual/giada",
@@ -23948,7 +23948,7 @@
               "size": 3272248,
               "sha256": "cc60321967884d62a7a0ae39f07c763d21859e47071c15113f7811cdd776f64c",
               "url": "https://github.com/JonET/monksynth/releases/download/v0.2.0-beta.15/MonkSynth-0.2.0-beta.15-Windows-Setup.exe",
-              "downloads": 3054
+              "downloads": 3055
             },
             {
               "systems": [
@@ -24022,14 +24022,14 @@
               "size": 1608386,
               "sha256": "e139d28c75b379693724efe2a252cd5462bba104ed14175b2c5242bd3bd71386",
               "url": "https://github.com/JonET/monksynth/releases/download/v0.2.0-beta.15/MonkSynth-VST3-Windows.zip",
-              "downloads": 1953
+              "downloads": 1954
             }
           ],
           "verified": true,
-          "downloads": 8534
+          "downloads": 8536
         }
       },
-      "downloads": 8534
+      "downloads": 8536
     },
     "joht/speclet": {
       "slug": "joht/speclet",
@@ -28058,6 +28058,71 @@
         }
       },
       "downloads": 14
+    },
+    "gmoican/guitpreamp": {
+      "slug": "gmoican/guitpreamp",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "name": "GuitPreamp",
+          "author": "Guillermo Moñino Cánovas",
+          "description": "Guitar preamp plugin blending ideas from multiple preamp effects — noise gate, tone-shaping character/emphasis EQ, tube-emulated drive, and a compressor",
+          "license": "mit",
+          "type": "effect",
+          "tags": [
+            "Guitar",
+            "Preamp",
+            "Distortion"
+          ],
+          "url": "https://github.com/gmoican/GuitPreamp",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/gmoican/guitpreamp/guitpreamp.jpg",
+          "date": "2026-03-04T21:52:06Z",
+          "changes": "v1.0.0 release.",
+          "files": [
+            {
+              "systems": [
+                {
+                  "type": "mac"
+                }
+              ],
+              "architectures": [
+                "arm64",
+                "x64"
+              ],
+              "contains": [
+                "vst3",
+                "component"
+              ],
+              "type": "archive",
+              "size": 10873451,
+              "sha256": "92b00b5b0cb5682d1d78513c76efeb9644ac5cfabee01d48999d356a08712cc4",
+              "url": "https://github.com/gmoican/GuitPreamp/releases/download/v1.0.0/GuitPreamp-macOS.zip",
+              "downloads": 9
+            },
+            {
+              "systems": [
+                {
+                  "type": "win"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "vst3"
+              ],
+              "type": "archive",
+              "size": 4051123,
+              "sha256": "fb189918863e3852efbdda8b6c508e93ffe5b5ea088b3482ac1f24754ef3a49d",
+              "url": "https://github.com/gmoican/GuitPreamp/releases/download/v1.0.0/GuitPreamp-Windows.zip",
+              "downloads": 6
+            }
+          ],
+          "verified": true,
+          "downloads": 15
+        }
+      },
+      "downloads": 15
     },
     "giulioz/rdpiano": {
       "slug": "giulioz/rdpiano",
