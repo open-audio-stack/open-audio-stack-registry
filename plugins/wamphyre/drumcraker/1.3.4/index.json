@@ -1,0 +1,39 @@
+{
+  "name": "DrumCraker",
+  "author": "Wamphyre",
+  "description": "Free drum sampler VST3 plugin optimized for Linux, FreeBSD, Windows and macOS, fully compatible with DrumGizmo drum kits.",
+  "license": "mit",
+  "type": "sampler",
+  "tags": [
+    "drums",
+    "sampler",
+    "drumgizmo",
+    "linux"
+  ],
+  "url": "https://github.com/Wamphyre/DrumCraker",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/wamphyre/drumcraker/drumcraker.jpg",
+  "date": "2026-06-24T20:44:41Z",
+  "changes": "v1.3.4: 10-16x faster first load via grouped sample decoding, plus a new\non-disk cache (.dcc) for near-instant kit reloads. Fixed several\nmemory/thread-safety bugs (use-after-free, race conditions, multichannel\nreads, cumulative resample quality loss). This is the last release with\nprebuilt Windows/FreeBSD/macOS binaries — going forward, DrumCraker ships\nas Linux-only precompiled, with other platforms built from source.",
+  "files": [
+    {
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3"
+      ],
+      "type": "archive",
+      "size": 5511536,
+      "sha256": "14ec7c52110b08ea9b050982390dbbb05d8a91c9b38ff4750e4987739fb4af31",
+      "url": "https://github.com/Wamphyre/DrumCraker/releases/download/v1.3.4/DrumCraker-Linux.vst3.zip",
+      "downloads": 61
+    }
+  ],
+  "verified": true,
+  "downloads": 61
+}
