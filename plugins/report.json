@@ -2333,6 +2333,24 @@
       ]
     }
   },
+  "mg32/inharmonic": {
+    "1.0.1": {
+      "recs": [
+        {
+          "field": "architectures",
+          "rec": "should support arm64"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Linux"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Mac"
+        }
+      ]
+    }
+  },
   "mg32/formantfilter": {
     "1.0.0": {
       "recs": [
