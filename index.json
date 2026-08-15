@@ -5747,6 +5747,69 @@
       },
       "downloads": 3582
     },
+    "toni-lyttinen/cognitoniblkfx": {
+      "slug": "toni-lyttinen/cognitoniblkfx",
+      "version": "0.2.0-alpha",
+      "versions": {
+        "0.2.0-alpha": {
+          "name": "CognitoniBlkFx",
+          "author": "Toni Lyttinen",
+          "description": "Spectral FX plugin reimplementing the classic DtBlkFx by Darrell Tam — FFT overlap-add processing through a modular \"card\" system, with per-card frequency masking and harmonic selection",
+          "license": "gpl-3.0",
+          "type": "effect",
+          "tags": [
+            "Spectral",
+            "FFT",
+            "Sound Design"
+          ],
+          "url": "https://github.com/toni-lyttinen/CognitoniBlkFx",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/toni-lyttinen/cognitoniblkfx/cognitoniblkfx.jpg",
+          "date": "2026-03-06T20:53:48Z",
+          "changes": "v0.2.0-alpha release.",
+          "files": [
+            {
+              "systems": [
+                {
+                  "type": "mac"
+                }
+              ],
+              "architectures": [
+                "arm64"
+              ],
+              "contains": [
+                "vst3"
+              ],
+              "type": "archive",
+              "size": 2064031,
+              "sha256": "0cc03160eb79a90db9ad0dd821398527834c33edfd630b9cf0b863e601a4720a",
+              "url": "https://github.com/toni-lyttinen/CognitoniBlkFx/releases/download/v0.2.0-alpha/BlkFx_macOS.zip",
+              "downloads": 12
+            },
+            {
+              "systems": [
+                {
+                  "type": "win"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "vst3"
+              ],
+              "type": "archive",
+              "size": 3292294,
+              "sha256": "49938d74e3560e43a3b13d8192045bed47d4ca5634cb5b841d81afe770c1217d",
+              "url": "https://github.com/toni-lyttinen/CognitoniBlkFx/releases/download/v0.2.0-alpha/BlkFx_x86_64-win.zip",
+              "downloads": 12
+            }
+          ],
+          "verified": true,
+          "downloads": 24
+        }
+      },
+      "downloads": 24
+    },
     "tobiaskozel/guitard": {
       "slug": "tobiaskozel/guitard",
       "version": "0.1.2",
@@ -6814,11 +6877,11 @@
               "size": 3341979,
               "type": "archive",
               "url": "https://github.com/tiagolr/qdelay/releases/download/v1.1.2/qdelay-win-v1.1.2.zip",
-              "downloads": 1560
+              "downloads": 1561
             }
           ],
           "verified": true,
-          "downloads": 2771
+          "downloads": 2772
         },
         "1.1.1": {
           "name": "QDelay",
@@ -6987,7 +7050,7 @@
           "downloads": 744
         }
       },
-      "downloads": 3711
+      "downloads": 3712
     },
     "tiagolr/gate12": {
       "slug": "tiagolr/gate12",
@@ -23748,7 +23811,7 @@
               "size": 1825535,
               "sha256": "c7d805812857db0eecd0ec7f15058dc6ec6797efa4dcabeb57df7e0a0da8ce4d",
               "url": "https://github.com/JonET/monksynth/releases/download/v0.2.0-beta.15/MonkSynth-AU-macOS.zip",
-              "downloads": 637
+              "downloads": 640
             },
             {
               "systems": [
@@ -23807,10 +23870,10 @@
             }
           ],
           "verified": true,
-          "downloads": 8530
+          "downloads": 8533
         }
       },
-      "downloads": 8530
+      "downloads": 8533
     },
     "joht/speclet": {
       "slug": "joht/speclet",
@@ -30962,7 +31025,7 @@
               "size": 10980549,
               "sha256": "3b9a57157174a94615b4ca7f72793821be068268a619f1eb3af31c82fbf099bf",
               "url": "https://github.com/duncanwold/GuitarVocoder/releases/download/v1.0.0/GuitarVocoder-AAX.zip",
-              "downloads": 4
+              "downloads": 5
             },
             {
               "systems": [
@@ -30981,7 +31044,7 @@
               "size": 11036667,
               "sha256": "8d21d46f28bfacd99ce4c83b02d56294f70a69b0d7586aa855cd08d71c0901bb",
               "url": "https://github.com/duncanwold/GuitarVocoder/releases/download/v1.0.0/GuitarVocoder-AU.zip",
-              "downloads": 4
+              "downloads": 5
             },
             {
               "systems": [
@@ -31000,14 +31063,14 @@
               "size": 11340013,
               "sha256": "383b1dab6af2ecdf63d94311b55463f1296ffa40634cdb1262815065232591d3",
               "url": "https://github.com/duncanwold/GuitarVocoder/releases/download/v1.0.0/GuitarVocoder-VST3.zip",
-              "downloads": 8
+              "downloads": 9
             }
           ],
           "verified": true,
-          "downloads": 16
+          "downloads": 19
         }
       },
-      "downloads": 16
+      "downloads": 19
     },
     "dspiveyvr/zenbleed": {
       "slug": "dspiveyvr/zenbleed",
