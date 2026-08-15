@@ -1,0 +1,66 @@
+{
+  "thiagohgl/dyers-dynamic-resonance-suppressor": {
+    "slug": "thiagohgl/dyers-dynamic-resonance-suppressor",
+    "version": "0.3.0",
+    "versions": {
+      "0.3.0": {
+        "name": "DyERS",
+        "author": "Thiago Henrique Gomes Lobato",
+        "description": "DyERS is a dependency-free JUCE/C++ spectral-based Dynamic Equalizer/Resonance Suppressor",
+        "license": "agpl-3.0",
+        "type": "effect",
+        "tags": [
+          "equalizer",
+          "resonance-suppressor",
+          "spectral",
+          "dynamic-eq"
+        ],
+        "url": "https://github.com/Thiagohgl/DyERS-dynamic-resonance-suppressor",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/thiagohgl/dyers-dynamic-resonance-suppressor/dyers-dynamic-resonance-suppressor.jpg",
+        "date": "2025-12-21T11:24:33Z",
+        "changes": "v0.3 release.",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64"
+            ],
+            "contains": [
+              "component"
+            ],
+            "type": "archive",
+            "size": 1540951,
+            "sha256": "99174bcd35dceaa675124357e7f37f8ec0d31a987db1e579884ce6ff47e770f0",
+            "url": "https://github.com/Thiagohgl/DyERS-dynamic-resonance-suppressor/releases/download/v0.3/DynamicEqualizer-AU-MacOS.zip",
+            "downloads": 4
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 1535910,
+            "sha256": "acf25ca4d13a2a6d84686860e1769b08f51903c80daaafb847d38e42a6150ad0",
+            "url": "https://github.com/Thiagohgl/DyERS-dynamic-resonance-suppressor/releases/download/v0.3/DynamicEqualizer-VST-MacOS.zip",
+            "downloads": 4
+          }
+        ],
+        "verified": true,
+        "downloads": 8
+      }
+    },
+    "downloads": 8
+  }
+}
