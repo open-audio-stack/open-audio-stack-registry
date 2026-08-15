@@ -1,0 +1,78 @@
+{
+  "name": "Analytiks",
+  "author": "Gandalf the grey",
+  "description": "Spectral and stereo analysis plugin with OpenGL rendering — a free, open-source clone of Vision 4x",
+  "license": "agpl-3.0",
+  "type": "tool",
+  "tags": [
+    "Spectrogram",
+    "Analyzer",
+    "Correlation"
+  ],
+  "url": "https://github.com/Harsha-vardhan-R/Analytiks",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/harsha-vardhan-r/analytiks/analytiks.jpg",
+  "date": "2026-03-15T09:44:01Z",
+  "changes": "v1.7.0 release.",
+  "files": [
+    {
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3",
+        "elf"
+      ],
+      "type": "archive",
+      "size": 11226806,
+      "sha256": "cc12aadb1a0e644e386cc3b64573a1e00474cee9a700d9585e39ddca7beba0d9",
+      "url": "https://github.com/Harsha-vardhan-R/Analytiks/releases/download/v1.7.0/Analytiks-Linux.zip",
+      "downloads": 6
+    },
+    {
+      "systems": [
+        {
+          "type": "mac"
+        }
+      ],
+      "architectures": [
+        "arm64",
+        "x64"
+      ],
+      "contains": [
+        "vst3",
+        "app"
+      ],
+      "type": "archive",
+      "size": 7935273,
+      "sha256": "b99d08af83d9b4c676a9e96b844a579a0e237525a8a04d8e20bf655178b90ab6",
+      "url": "https://github.com/Harsha-vardhan-R/Analytiks/releases/download/v1.7.0/Analytiks-macOS.zip",
+      "downloads": 31
+    },
+    {
+      "systems": [
+        {
+          "type": "win"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3",
+        "exe"
+      ],
+      "type": "archive",
+      "size": 4185848,
+      "sha256": "3cc757b251793692ca74271ae8e74dab9a77b91ffd5d3e758f683fa719f67330",
+      "url": "https://github.com/Harsha-vardhan-R/Analytiks/releases/download/v1.7.0/Analytiks-Windows.zip",
+      "downloads": 34
+    }
+  ],
+  "verified": true,
+  "downloads": 71
+}
