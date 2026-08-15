@@ -1,0 +1,64 @@
+name: MIDI TUI
+author: Max Woolf
+description: An interactive terminal app/UI for MIDI composing, mixing, and playback—written in Rust
+license: mit
+type: tool
+tags:
+  - midi
+  - terminal
+  - sequencer
+url: https://github.com/minimaxir/miditui
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/minimaxir/miditui/miditui.jpg
+date: '2026-01-08T04:18:00Z'
+changes: v0.1.8 release.
+files:
+  - systems:
+      - type: linux
+    architectures:
+      - arm64
+    contains:
+      - elf
+    type: archive
+    size: 914001
+    sha256: 8901db6da8c97f99996964b8710798187ad35ea443341cf598eacdfed5e1a0ea
+    url: https://github.com/minimaxir/miditui/releases/download/v0.1.8/miditui-linux-arm64.tar.gz
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - elf
+    type: archive
+    size: 975205
+    sha256: fdf4405d0195c047c665ce26dac48035bba1194e7efe6a961bac282725dda00c
+    url: https://github.com/minimaxir/miditui/releases/download/v0.1.8/miditui-linux.tar.gz
+  - systems:
+      - type: mac
+    architectures:
+      - arm64
+    contains:
+      - app
+    type: archive
+    size: 844647
+    sha256: 0d3b508a4ed5de9376690dd347ec11126ff5ce8018a44da4b5fc88d1f1774cff
+    url: https://github.com/minimaxir/miditui/releases/download/v0.1.8/miditui-macos-arm.tar.gz
+  - systems:
+      - type: mac
+    architectures:
+      - x64
+    contains:
+      - app
+    type: archive
+    size: 918518
+    sha256: fe8b5c4740c5227bc383b28d14a7b2fea174386a7e7bdfe179fbe9024dbeefe9
+    url: https://github.com/minimaxir/miditui/releases/download/v0.1.8/miditui-macos-intel.tar.gz
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - exe
+    type: archive
+    size: 823511
+    sha256: a01818395ed54755ccfdd2a42da63982a379ce0fe0a289aa8ff3eb2920a055a0
+    url: https://github.com/minimaxir/miditui/releases/download/v0.1.8/miditui-windows.zip
