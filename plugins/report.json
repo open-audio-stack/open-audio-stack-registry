@@ -3503,6 +3503,24 @@
       ]
     }
   },
+  "flarkflarkflark/audiorestorationvst": {
+    "1.6.35": {
+      "recs": [
+        {
+          "field": "url",
+          "rec": "requires manual installation steps, consider .deb and .rpm instead"
+        },
+        {
+          "field": "type",
+          "rec": "should match url field"
+        },
+        {
+          "field": "url",
+          "rec": "requires mounting step, consider .pkg instead"
+        }
+      ]
+    }
+  },
   "falktx/carla": {
     "2.5.9": {
       "recs": [

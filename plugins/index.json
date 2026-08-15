@@ -1579,14 +1579,14 @@
             "size": 37740885,
             "sha256": "e4dcc186102850f8dcebeb766ad1bf34c24f6280bd614ef84b72dae4783fc517",
             "url": "https://github.com/werman/noise-suppression-for-voice/releases/download/v1.10/win-rnnoise.zip",
-            "downloads": 334692
+            "downloads": 334696
           }
         ],
         "verified": true,
-        "downloads": 365436
+        "downloads": 365440
       }
     },
-    "downloads": 365436
+    "downloads": 365440
   },
   "webprofusion/soundshed-guitar": {
     "slug": "webprofusion/soundshed-guitar",
@@ -10174,14 +10174,14 @@
             "size": 10349826,
             "sha256": "83e2825241d4e1c0ab2c44c91c0a9be6a94941a81df0c2fbe05e83b2650470da",
             "url": "https://github.com/Sinuslabs/Reach/releases/download/1.6.6/Reach-Windows.exe",
-            "downloads": 176151
+            "downloads": 176154
           }
         ],
         "verified": true,
-        "downloads": 177995
+        "downloads": 177998
       }
     },
-    "downloads": 177995
+    "downloads": 177998
   },
   "sfztools/sfizz-ui": {
     "slug": "sfztools/sfizz-ui",
@@ -29804,6 +29804,162 @@
       }
     },
     "downloads": 489
+  },
+  "flarkflarkflark/audiorestorationvst": {
+    "slug": "flarkflarkflark/audiorestorationvst",
+    "version": "1.6.35",
+    "versions": {
+      "1.6.35": {
+        "name": "Audio Restoration VST",
+        "author": "flarkAUDIO",
+        "description": "Audio restoration VST3/Standalone - Click removal, noise reduction, filters & EQ",
+        "license": "mit",
+        "type": "effect",
+        "tags": [
+          "restoration",
+          "denoise",
+          "click-removal",
+          "eq"
+        ],
+        "url": "https://github.com/flarkflarkflark/AudioRestorationVST",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/flarkflarkflark/audiorestorationvst/audiorestorationvst.jpg",
+        "date": "2026-03-02T20:59:08Z",
+        "changes": "v1.6.35 release.",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "elf"
+            ],
+            "type": "installer",
+            "size": 10041848,
+            "sha256": "902bbe66aff22af38749f4dc246e8ea2979d2c5148d42509d14cf0a34a7c6104",
+            "url": "https://github.com/flarkflarkflark/AudioRestorationVST/releases/download/v1.6.35/AudioRestoration-Linux-v1.6.35-Portable.AppImage",
+            "downloads": 6
+          },
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "elf"
+            ],
+            "type": "archive",
+            "size": 15761870,
+            "sha256": "500a9e97257a28b424389a33c2dc944f38dfebfbb0ad1e2c099fa0fa66db30de",
+            "url": "https://github.com/flarkflarkflark/AudioRestorationVST/releases/download/v1.6.35/AudioRestoration-Linux-v1.6.35-Standalone.zip",
+            "downloads": 5
+          },
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 14225955,
+            "sha256": "9354b4d13d2088b1278e7ca89066defbb80d05d391df3b72998c371fee5510e3",
+            "url": "https://github.com/flarkflarkflark/AudioRestorationVST/releases/download/v1.6.35/AudioRestoration-Linux-v1.6.35-VST3.zip",
+            "downloads": 4
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 17722655,
+            "sha256": "e7e37bdc5eb7e0d9963e37099aa2ea6429b2eb70f1d7a583e38c701f7e0c7558",
+            "url": "https://github.com/flarkflarkflark/AudioRestorationVST/releases/download/v1.6.35/AudioRestoration-macOS-Universal-Ventura-v1.6.35-VST3.zip",
+            "downloads": 4
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "app"
+            ],
+            "type": "installer",
+            "size": 22605516,
+            "sha256": "6cac362dc95f37d3b26c9ad6f757ad882dfa0aa97d64120cd779b759a94230ac",
+            "url": "https://github.com/flarkflarkflark/AudioRestorationVST/releases/download/v1.6.35/AudioRestoration-macOS-v1.6.35-Portable.dmg",
+            "downloads": 4
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "exe"
+            ],
+            "type": "archive",
+            "size": 9078871,
+            "sha256": "c2cce235e50475542b457307286ee8f6037c9d57f6c51d499e3f3331899b7e60",
+            "url": "https://github.com/flarkflarkflark/AudioRestorationVST/releases/download/v1.6.35/AudioRestoration-Windows-v1.6.35-Standalone.zip",
+            "downloads": 19
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 13993026,
+            "sha256": "5b78475bc9a492fd6d0049e5790d377dd3b69a7dd8ac81a0220d279f0186279c",
+            "url": "https://github.com/flarkflarkflark/AudioRestorationVST/releases/download/v1.6.35/AudioRestoration-Windows-v1.6.35-VST3.zip",
+            "downloads": 23
+          }
+        ],
+        "verified": true,
+        "downloads": 65
+      }
+    },
+    "downloads": 65
   },
   "filter87/vst-analogchannel": {
     "slug": "filter87/vst-analogchannel",
