@@ -609,8 +609,10 @@ function inspectExtractedDir(dir: string): ArchiveInspection {
         result.platforms.add('linux');
         // Linux CLAP/VST2 plugins are a single flat ELF file (unlike the directory bundles
         // used by vst3/component/lv2), so they'd otherwise slip past inBundle() and look like
-        // a standalone candidate — exclude by extension instead.
-        if (!inBundle(f) && !HELPER_BINARY_PATTERN.test(path.basename(f)) && !/\.(so|clap)$/i.test(f))
+        // a standalone candidate — exclude by extension instead. Shared libraries following the
+        // SONAME convention (libfoo.so.1.17.3) keep a version suffix after ".so", so a bare
+        // ".so$" check misses them and they get mistaken for a second standalone candidate.
+        if (!inBundle(f) && !HELPER_BINARY_PATTERN.test(path.basename(f)) && !/\.(so(\.\d+)*|clap)$/i.test(f))
           linuxStandaloneCandidates.push(path.relative(dir, f));
       }
     }
