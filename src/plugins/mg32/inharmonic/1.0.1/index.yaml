@@ -1,0 +1,24 @@
+name: Inharmonic
+author: mogesystem
+description: A metallic-sound synthesizer using "piano inhamonicity model"
+license: mit
+type: instrument
+tags:
+  - Synthesizer
+  - Vst3
+  - Piano
+url: https://github.com/Mg32/Inharmonic
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/mg32/inharmonic/inharmonic.jpg
+date: '2026-05-08T17:52:49Z'
+changes: v1.0.1 release.
+files:
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - vst3
+    type: archive
+    size: 2140807
+    sha256: 6055cc427575d6b57e3c72021b1091096e16db88cf9bbef09a34c6d43cd9c7ca
+    url: https://github.com/Mg32/Inharmonic/releases/download/v1.0.1/Inharmonic_vst3_windows_x64.zip
