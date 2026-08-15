@@ -1,0 +1,30 @@
+name: Billie Drum
+author: EwonRael
+description: SFZ drum kit inspired by the sound of Michael Jackson's Thriller album, blending acoustic and digital drum samples at 44.1kHz
+license: cc0-1.0
+type: sampler
+tags:
+  - Drums
+  - SFZ
+  - Sample Library
+url: https://github.com/EwonRael/BillieDrum
+audio: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ewonrael/billiedrum/billiedrum.flac
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ewonrael/billiedrum/billiedrum.jpg
+date: '2024-07-06T13:36:15Z'
+changes: Initial release.
+files:
+  - systems:
+      - type: linux
+      - type: mac
+      - type: win
+    architectures:
+      - arm32
+      - arm64
+      - x32
+      - x64
+    contains:
+      - sfz
+    type: archive
+    size: 5816486
+    sha256: 20fde4d4041ef7a5c7c77763cd33894fc79105728c43c2c86e20120faf598b98
+    url: https://github.com/EwonRael/BillieDrum/archive/48fadc01204d09039cccf83388ef4b0e68f2ec08.zip
