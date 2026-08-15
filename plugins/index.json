@@ -5447,11 +5447,11 @@
             "size": 7730204,
             "sha256": "d22f2c2421f4d3b52040bad8878ec37c96f1c69413f231f689769833dfffb864",
             "url": "https://github.com/tiagolr/reevr/releases/download/v1.4.0/reevr-win-v1.4.0.zip",
-            "downloads": 1755
+            "downloads": 1756
           }
         ],
         "verified": true,
-        "downloads": 3166
+        "downloads": 3167
       },
       "1.3.2": {
         "name": "REEV-R",
@@ -5612,7 +5612,7 @@
         "downloads": 5403
       }
     },
-    "downloads": 9732
+    "downloads": 9733
   },
   "tiagolr/qdelay": {
     "slug": "tiagolr/qdelay",
@@ -18224,7 +18224,7 @@
             "size": 2481948,
             "sha256": "ae7efb661670d895557b73015d678639378b6803ad651f2ea42411f5191fc143",
             "url": "https://github.com/maksut/midi-time-machine/releases/download/v0.0.1/midi-time-machine_linux-x64-v0.0.1.tar.xz",
-            "downloads": 14
+            "downloads": 15
           },
           {
             "systems": [
@@ -18287,10 +18287,10 @@
           }
         ],
         "verified": true,
-        "downloads": 62
+        "downloads": 63
       }
     },
-    "downloads": 62
+    "downloads": 63
   },
   "magnetophon/lamb-rs": {
     "slug": "magnetophon/lamb-rs",
@@ -24013,6 +24013,73 @@
       }
     },
     "downloads": 63
+  },
+  "illdynamics/ultraglitch-bitfucker": {
+    "slug": "illdynamics/ultraglitch-bitfucker",
+    "version": "0.4.0-beta.1",
+    "versions": {
+      "0.4.0-beta.1": {
+        "name": "UltraGlitch BitFucker",
+        "author": "Ricky van Poppel",
+        "description": "Wonky glitch effects plugin for chaotic bit-crushing and glitch mangling, available as Standalone, VST3, and AU",
+        "license": "agpl-3.0",
+        "type": "effect",
+        "tags": [
+          "Glitch",
+          "Bitcrusher",
+          "Lo-Fi"
+        ],
+        "url": "https://github.com/illdynamics/ultraglitch-bitfucker",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/illdynamics/ultraglitch-bitfucker/ultraglitch-bitfucker.jpg",
+        "date": "2026-02-26T16:36:31Z",
+        "changes": "Adds Windows VST3 and standalone builds.",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "component",
+              "app"
+            ],
+            "type": "archive",
+            "size": 41797622,
+            "sha256": "99a733202f8f700af706d09d175adfd37f296ce160a0302e095b210f8d23de59",
+            "url": "https://github.com/illdynamics/ultraglitch-bitfucker/releases/download/v0.4.0-beta.1/UltraGlitch-BitFucker-v0.4.0-beta.1-macos-universal.zip",
+            "downloads": 2
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "exe"
+            ],
+            "type": "archive",
+            "size": 12572097,
+            "sha256": "5b3763f5aab6496ddfa151b2671fb08c00ea2d45f5302401e0544c3ea78e5df4",
+            "url": "https://github.com/illdynamics/ultraglitch-bitfucker/releases/download/v0.4.0-beta.1/UltraGlitch-BitFucker-v0.4.0-beta.1-windows-x86_64.zip",
+            "downloads": 7
+          }
+        ],
+        "verified": true,
+        "downloads": 9
+      }
+    },
+    "downloads": 9
   },
   "igorski/vstsid": {
     "slug": "igorski/vstsid",
@@ -32428,14 +32495,14 @@
             "size": 6517760,
             "sha256": "310323c6b3065544a26d86fe9e53efdcf0c6f95fa1d345c4f5164070d6cc8a0a",
             "url": "https://github.com/ChristosKonstantas/HTekDistortion/releases/download/v0.1.0/HTekDistortion.vst3",
-            "downloads": 2
+            "downloads": 3
           }
         ],
         "verified": true,
-        "downloads": 2
+        "downloads": 3
       }
     },
-    "downloads": 2
+    "downloads": 3
   },
   "chowdhury-dsp/chowtapemodel": {
     "slug": "chowdhury-dsp/chowtapemodel",

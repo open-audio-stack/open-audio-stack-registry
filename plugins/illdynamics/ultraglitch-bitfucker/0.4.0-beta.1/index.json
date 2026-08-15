@@ -1,0 +1,60 @@
+{
+  "name": "UltraGlitch BitFucker",
+  "author": "Ricky van Poppel",
+  "description": "Wonky glitch effects plugin for chaotic bit-crushing and glitch mangling, available as Standalone, VST3, and AU",
+  "license": "agpl-3.0",
+  "type": "effect",
+  "tags": [
+    "Glitch",
+    "Bitcrusher",
+    "Lo-Fi"
+  ],
+  "url": "https://github.com/illdynamics/ultraglitch-bitfucker",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/illdynamics/ultraglitch-bitfucker/ultraglitch-bitfucker.jpg",
+  "date": "2026-02-26T16:36:31Z",
+  "changes": "Adds Windows VST3 and standalone builds.",
+  "files": [
+    {
+      "systems": [
+        {
+          "type": "mac"
+        }
+      ],
+      "architectures": [
+        "arm64",
+        "x64"
+      ],
+      "contains": [
+        "vst3",
+        "component",
+        "app"
+      ],
+      "type": "archive",
+      "size": 41797622,
+      "sha256": "99a733202f8f700af706d09d175adfd37f296ce160a0302e095b210f8d23de59",
+      "url": "https://github.com/illdynamics/ultraglitch-bitfucker/releases/download/v0.4.0-beta.1/UltraGlitch-BitFucker-v0.4.0-beta.1-macos-universal.zip",
+      "downloads": 2
+    },
+    {
+      "systems": [
+        {
+          "type": "win"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3",
+        "exe"
+      ],
+      "type": "archive",
+      "size": 12572097,
+      "sha256": "5b3763f5aab6496ddfa151b2671fb08c00ea2d45f5302401e0544c3ea78e5df4",
+      "url": "https://github.com/illdynamics/ultraglitch-bitfucker/releases/download/v0.4.0-beta.1/UltraGlitch-BitFucker-v0.4.0-beta.1-windows-x86_64.zip",
+      "downloads": 7
+    }
+  ],
+  "verified": true,
+  "downloads": 9
+}
