@@ -15510,6 +15510,87 @@
     },
     "downloads": 829
   },
+  "n5ssiva/n5ss-chorus": {
+    "slug": "n5ssiva/n5ss-chorus",
+    "version": "1.0.0",
+    "versions": {
+      "1.0.0": {
+        "name": "N5SS Chorus",
+        "author": "n5ssiva",
+        "description": "Lofi dimension chorus plugin with vintage BBD emulation for warm, wobbly textures",
+        "license": "mit",
+        "type": "effect",
+        "tags": [
+          "Chorus",
+          "Lo-Fi",
+          "BBD"
+        ],
+        "url": "https://github.com/n5ssiva/N5SS-CHORUS",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/n5ssiva/n5ss-chorus/n5ss-chorus.jpg",
+        "date": "2026-02-24T16:32:19Z",
+        "changes": "Initial release.",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64"
+            ],
+            "contains": [
+              "component"
+            ],
+            "type": "archive",
+            "size": 1412838,
+            "sha256": "5f47050a419f25af7dc930e623ccf3c7c30e488ecbfabe92c048f8d833fdb589",
+            "url": "https://github.com/n5ssiva/N5SS-CHORUS/releases/download/v1.0.0/n5ssChorus-AU-macOS.zip",
+            "downloads": 3
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64"
+            ],
+            "contains": [
+              "app"
+            ],
+            "type": "archive",
+            "size": 1761131,
+            "sha256": "b368c040c7af49228f7f16b310daa67b156777919972d92d5d556d77d466c855",
+            "url": "https://github.com/n5ssiva/N5SS-CHORUS/releases/download/v1.0.0/n5ssChorus-Standalone-macOS.zip",
+            "downloads": 2
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 1416449,
+            "sha256": "aa439788693bbb9c05770f38de4cfc24220de58f7983d3fce6b4a0d2dd1ca9c1",
+            "url": "https://github.com/n5ssiva/N5SS-CHORUS/releases/download/v1.0.0/n5ssChorus-VST3-macOS.zip",
+            "downloads": 3
+          }
+        ],
+        "verified": true,
+        "downloads": 8
+      }
+    },
+    "downloads": 8
+  },
   "n0emo/hyperclip": {
     "slug": "n0emo/hyperclip",
     "version": "1.0.0",
@@ -20694,14 +20775,14 @@
             "size": 39364144,
             "sha256": "9144ec0b0263931ccad8d91d6ae8634d8a8f64ecd5e365ea1fa6180688580769",
             "url": "https://github.com/kushview/element/releases/download/1.0.0/element-1.0.0-win64.exe",
-            "downloads": 16900
+            "downloads": 16901
           }
         ],
         "verified": true,
-        "downloads": 24059
+        "downloads": 24060
       }
     },
-    "downloads": 24059
+    "downloads": 24060
   },
   "kiriki-liszt/relief-compressor": {
     "slug": "kiriki-liszt/relief-compressor",
@@ -22822,7 +22903,7 @@
             "size": 1585749,
             "sha256": "0daf2a54e9d1b2da4cf121003c548e42eaf4019b98412d0563ca0a741cd73b3f",
             "url": "https://github.com/JonET/monksynth/releases/download/v0.2.0-beta.15/MonkSynth-VST3-macOS.zip",
-            "downloads": 737
+            "downloads": 738
           },
           {
             "systems": [
@@ -22844,10 +22925,10 @@
           }
         ],
         "verified": true,
-        "downloads": 8536
+        "downloads": 8537
       }
     },
-    "downloads": 8536
+    "downloads": 8537
   },
   "joht/speclet": {
     "slug": "joht/speclet",

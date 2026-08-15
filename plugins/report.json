@@ -1955,6 +1955,24 @@
       ]
     }
   },
+  "n5ssiva/n5ss-chorus": {
+    "1.0.0": {
+      "recs": [
+        {
+          "field": "architectures",
+          "rec": "should support x64"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Linux"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Windows"
+        }
+      ]
+    }
+  },
   "mzuther/trakmeter": {
     "2.4.7": {
       "recs": [
