@@ -1,0 +1,110 @@
+{
+  "name": "jDrummer",
+  "author": "Justin Ehrlichman",
+  "description": "An open source drum plugin that is inspired by commercial plugins such as EZDrummer3 and the Logic Pro/GarageBand Drummer",
+  "license": "gpl-3.0",
+  "type": "instrument",
+  "tags": [
+    "drums",
+    "groove",
+    "sampler"
+  ],
+  "url": "https://github.com/jmantra/jdrummer",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/jmantra/jdrummer/jdrummer.jpg",
+  "date": "2026-01-04T04:30:57Z",
+  "changes": "Added Mac AU and VST3 support, Groove Browser drag-and-drop, alternative tempo\ncandidates, Pan/Mute, multi-out support, a build for older Debian/Ubuntu\n(Bookworm/22.04), and extra soundfonts/drumkits from AVL Drumkits and Hydrogen\nDrumkits. Fixed a Match tab threading issue slowing down Ardour and MIDI\ndrag-and-drop in GarageBand.",
+  "files": [
+    {
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3"
+      ],
+      "type": "archive",
+      "size": 233023461,
+      "sha256": "79074c4c3b7cb1af79421d977cb3e727ed579f13f1947d052aee47cac960feff",
+      "url": "https://github.com/jmantra/jdrummer/releases/download/Second/jdrummer_Linux_VST3.zip",
+      "downloads": 841
+    },
+    {
+      "systems": [
+        {
+          "type": "mac"
+        }
+      ],
+      "architectures": [
+        "arm64"
+      ],
+      "contains": [
+        "component"
+      ],
+      "type": "archive",
+      "size": 232990627,
+      "sha256": "0e9ceda1e56d8cee10282b23f37fe54ec77c173f2466afbba0015f9dedf44e14",
+      "url": "https://github.com/jmantra/jdrummer/releases/download/Second/jdrummer_mac_AU.zip",
+      "downloads": 150
+    },
+    {
+      "systems": [
+        {
+          "type": "mac"
+        }
+      ],
+      "architectures": [
+        "arm64"
+      ],
+      "contains": [
+        "vst3"
+      ],
+      "type": "archive",
+      "size": 232995642,
+      "sha256": "f732671f74bb3ac8c5c0ead22b716719b7bc27ab7ef8a1dfc4c2026bb2d2f548",
+      "url": "https://github.com/jmantra/jdrummer/releases/download/Second/jdrummer_mac_vst3.zip",
+      "downloads": 153
+    },
+    {
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3"
+      ],
+      "type": "archive",
+      "size": 232911438,
+      "sha256": "4ee7bc854cf3f0891faad6d086fa1beabbb64c2bbd718605ab900782964e4571",
+      "url": "https://github.com/jmantra/jdrummer/releases/download/Second/jdrummer_VST3_old.Debian.zip",
+      "downloads": 82
+    },
+    {
+      "systems": [
+        {
+          "type": "win"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3"
+      ],
+      "type": "archive",
+      "size": 233033210,
+      "sha256": "8832802c9f3936be7ffa7bbffe4375a5748d637ae3c667959f6863350055704d",
+      "url": "https://github.com/jmantra/jdrummer/releases/download/Second/jdrummer_vst3_Windows.zip",
+      "downloads": 880
+    }
+  ],
+  "verified": true,
+  "downloads": 2106
+}
