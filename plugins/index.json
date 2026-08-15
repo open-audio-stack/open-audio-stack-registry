@@ -14294,6 +14294,53 @@
       }
     }
   },
+  "oliverrasmussen/equinox": {
+    "slug": "oliverrasmussen/equinox",
+    "version": "1.2.0",
+    "versions": {
+      "1.2.0": {
+        "name": "Equinox",
+        "author": "Oliver Rasmussen",
+        "description": "Subtractive synthesizer and sampler plugin",
+        "license": "gpl-3.0",
+        "type": "instrument",
+        "tags": [
+          "Subtractive Synthesis",
+          "Sampler",
+          "Synthesizer"
+        ],
+        "url": "https://github.com/OliverRasmussen/Equinox",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/oliverrasmussen/equinox/equinox.jpg",
+        "date": "2026-03-29T22:16:41Z",
+        "changes": "Major cleanup and refinement pass across the synth engine, state and preset handling, CPU/runtime behavior, UI polish, and release packaging.",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64"
+            ],
+            "contains": [
+              "vst3",
+              "component",
+              "app"
+            ],
+            "type": "archive",
+            "size": 16862211,
+            "sha256": "9189e06a2fd306ed221fe0a223e8fd4213c84c93e30c5f579c43fb370d998b45",
+            "url": "https://github.com/OliverRasmussen/Equinox/releases/download/v1.2.0/Equinox-macOS-v1.2.0.zip",
+            "downloads": 4
+          }
+        ],
+        "verified": true,
+        "downloads": 4
+      }
+    },
+    "downloads": 4
+  },
   "olegkapitonov/kpp-vst3": {
     "slug": "olegkapitonov/kpp-vst3",
     "version": "1.2.1",
