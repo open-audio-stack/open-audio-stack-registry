@@ -20483,11 +20483,11 @@
               "size": 38262669,
               "sha256": "61dbde3642f320728f0ca4128a6798f1e93bff9c9217791115f6970337132730",
               "url": "https://github.com/lsp-plugins/lsp-plugins/releases/download/1.2.33/lsp-plugins-1.2.33-Linux-x86_64.7z",
-              "downloads": 4057
+              "downloads": 4058
             }
           ],
           "verified": true,
-          "downloads": 4421
+          "downloads": 4422
         },
         "1.2.29": {
           "name": "LSP Plugins",
@@ -21156,7 +21156,7 @@
           "downloads": 3420
         }
       },
-      "downloads": 25014
+      "downloads": 25015
     },
     "longkelvin/midi-chord-detector-plugin": {
       "slug": "longkelvin/midi-chord-detector-plugin",
@@ -33136,7 +33136,7 @@
               "size": 5621195,
               "type": "archive",
               "url": "https://github.com/DamRsn/NeuralNote/releases/download/v1.1.0/NeuralNote_Standalone_Linux.zip",
-              "downloads": 7271
+              "downloads": 7272
             },
             {
               "architectures": [
@@ -33197,10 +33197,10 @@
             }
           ],
           "verified": true,
-          "downloads": 187348
+          "downloads": 187349
         }
       },
-      "downloads": 187348
+      "downloads": 187349
     },
     "damiensellier/ctrlrx": {
       "slug": "damiensellier/ctrlrx",
@@ -34876,6 +34876,72 @@
         }
       },
       "downloads": 52
+    },
+    "calgoheen/cphaser": {
+      "slug": "calgoheen/cphaser",
+      "version": "1.0.1",
+      "versions": {
+        "1.0.1": {
+          "name": "cPhaser",
+          "author": "Cal Goheen",
+          "description": "Phaser effect plugin",
+          "license": "gpl-3.0",
+          "type": "effect",
+          "tags": [
+            "Phaser",
+            "Modulation"
+          ],
+          "url": "https://github.com/calgoheen/cPhaser",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/calgoheen/cphaser/cphaser.jpg",
+          "date": "2026-04-25T22:44:32Z",
+          "changes": "1.0.1 release.",
+          "files": [
+            {
+              "systems": [
+                {
+                  "type": "win"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "vst3",
+                "clap"
+              ],
+              "type": "installer",
+              "size": 4844170,
+              "sha256": "022cbcac36a1abdc54e555c0ba25f18a233cc18a542e61f9daf715e37aedbdd4",
+              "url": "https://github.com/calgoheen/cPhaser/releases/download/1.0.1/cPhaser.v1.0.1.exe",
+              "downloads": 5
+            },
+            {
+              "systems": [
+                {
+                  "type": "mac"
+                }
+              ],
+              "architectures": [
+                "arm64",
+                "x64"
+              ],
+              "contains": [
+                "vst3",
+                "component",
+                "clap"
+              ],
+              "type": "installer",
+              "size": 11060324,
+              "sha256": "740377526c69ed5ee16eef3cc5ba1e2a72e4977b1a8d99f440c5a420531f9317",
+              "url": "https://github.com/calgoheen/cPhaser/releases/download/1.0.1/cPhaser.v1.0.1.pkg",
+              "downloads": 6
+            }
+          ],
+          "verified": true,
+          "downloads": 11
+        }
+      },
+      "downloads": 11
     },
     "bsutherland/juceoplvsti": {
       "slug": "bsutherland/juceoplvsti",
