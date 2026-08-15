@@ -26152,6 +26152,88 @@
       },
       "downloads": 281
     },
+    "intoetherion/drumgroovepro": {
+      "slug": "intoetherion/drumgroovepro",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "name": "DrumGroovePro",
+          "author": "InToEtherion",
+          "description": "A free, open-source MIDI drum groove sequencer VST3 plugin. Create, organize, and play custom drum patterns with an intuitive interface. For Windows, MacOS & Linux.",
+          "license": "gpl-3.0",
+          "type": "generator",
+          "tags": [
+            "midi",
+            "drum-sequencer",
+            "groove"
+          ],
+          "url": "https://github.com/InToEtherion/DrumGroovePro",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/intoetherion/drumgroovepro/drumgroovepro.jpg",
+          "date": "2026-05-05T11:09:39Z",
+          "changes": "Fixes: origin mapping now rebuilds correctly after deleting the .xml, and a\nMIDI dissection part is now added correctly to the timeline. New: in BAR\nmode, the Grid BPM and Speed BPM value can be manually typed.",
+          "files": [
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "vst3"
+              ],
+              "type": "archive",
+              "size": 11554217,
+              "sha256": "1bc66f8b18265e708185a3eee226244acd4b46f475b4ed5c1c4cebf0c9e74bbd",
+              "url": "https://github.com/InToEtherion/DrumGroovePro/releases/download/v1.0.0/DrumGroovePro_v01.0.0_LINUX_x64.zip",
+              "downloads": 151
+            },
+            {
+              "systems": [
+                {
+                  "type": "mac"
+                }
+              ],
+              "architectures": [
+                "arm64",
+                "x64"
+              ],
+              "contains": [
+                "vst3"
+              ],
+              "type": "archive",
+              "size": 18552159,
+              "sha256": "7de4586c733dbc62dedb03527222faa56cd1d8a4c6fe0e8fade9b9dd8283c698",
+              "url": "https://github.com/InToEtherion/DrumGroovePro/releases/download/v1.0.0/DrumGroovePro_v01.0.0_MACOS_x64.zip",
+              "downloads": 34
+            },
+            {
+              "systems": [
+                {
+                  "type": "win"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "vst3"
+              ],
+              "type": "archive",
+              "size": 5054578,
+              "sha256": "89df0efe04220bb774534cab82c2efd8ba97153e65b4e075897c48d7d85456d8",
+              "url": "https://github.com/InToEtherion/DrumGroovePro/releases/download/v1.0.0/DrumGroovePro_v01.0.0_Windows_x64.zip",
+              "downloads": 130
+            }
+          ],
+          "verified": true,
+          "downloads": 315
+        }
+      },
+      "downloads": 315
+    },
     "interspectral6/erode": {
       "slug": "interspectral6/erode",
       "version": "1.0.1",
