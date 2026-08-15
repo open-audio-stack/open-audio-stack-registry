@@ -14209,6 +14209,52 @@
       },
       "downloads": 14
     },
+    "polygon/mucap": {
+      "slug": "polygon/mucap",
+      "version": "0.9.0",
+      "versions": {
+        "0.9.0": {
+          "name": "Mucap",
+          "author": "polygon",
+          "description": "Retrospective MIDI recording plugin with sample-accurate capture of all basic MIDI events on all channels, plus bar-marker selection snapping",
+          "license": "gpl-3.0",
+          "type": "tool",
+          "tags": [
+            "MIDI",
+            "Recording",
+            "CLAP"
+          ],
+          "url": "https://github.com/polygon/mucap",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/polygon/mucap/mucap.jpg",
+          "date": "2025-12-24T20:05:20Z",
+          "changes": "v0.9.0 release.",
+          "files": [
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "vst3",
+                "clap"
+              ],
+              "type": "installer",
+              "size": 13809702,
+              "sha256": "b33788ecb1d98a8e0b6ba5df1739928661606052609c61193cdb9fea904e9c33",
+              "url": "https://github.com/polygon/mucap/releases/download/v0.9.0/mucap-0.9.0-amd64.deb",
+              "downloads": 73
+            }
+          ],
+          "verified": true,
+          "downloads": 73
+        }
+      },
+      "downloads": 73
+    },
     "plugdata-team/plugdata": {
       "slug": "plugdata-team/plugdata",
       "version": "0.9.3-2",
@@ -18856,7 +18902,7 @@
               "size": 22447365,
               "sha256": "ca5f35f9dcd9a33f06490d3c92f04061a1a798cb81257d5ca5851bdda0824c66",
               "url": "https://github.com/michaelwillis/dragonfly-reverb/releases/download/3.2.10/dragonfly-reverb-3.2.10-win64.zip",
-              "downloads": 68648
+              "downloads": 68649
             },
             {
               "systems": [
@@ -18882,10 +18928,10 @@
             }
           ],
           "verified": true,
-          "downloads": 129215
+          "downloads": 129216
         }
       },
-      "downloads": 129215
+      "downloads": 129216
     },
     "michael02022/basic-harmonica": {
       "slug": "michael02022/basic-harmonica",
@@ -30977,14 +31023,14 @@
               "size": 247507775,
               "sha256": "56264cd860b3e6e7b29221fb1e46d7d8a288fb001500f830bcd739ec7b115650",
               "url": "https://github.com/falkTX/Carla/releases/download/v2.5.10/Carla-2.5.10-win64.zip",
-              "downloads": 14780
+              "downloads": 14781
             }
           ],
           "verified": true,
-          "downloads": 17870
+          "downloads": 17871
         }
       },
-      "downloads": 30730
+      "downloads": 30731
     },
     "fake-industries/fuzzball": {
       "slug": "fake-industries/fuzzball",

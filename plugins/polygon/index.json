@@ -1,0 +1,48 @@
+{
+  "polygon/mucap": {
+    "slug": "polygon/mucap",
+    "version": "0.9.0",
+    "versions": {
+      "0.9.0": {
+        "name": "Mucap",
+        "author": "polygon",
+        "description": "Retrospective MIDI recording plugin with sample-accurate capture of all basic MIDI events on all channels, plus bar-marker selection snapping",
+        "license": "gpl-3.0",
+        "type": "tool",
+        "tags": [
+          "MIDI",
+          "Recording",
+          "CLAP"
+        ],
+        "url": "https://github.com/polygon/mucap",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/polygon/mucap/mucap.jpg",
+        "date": "2025-12-24T20:05:20Z",
+        "changes": "v0.9.0 release.",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "clap"
+            ],
+            "type": "installer",
+            "size": 13809702,
+            "sha256": "b33788ecb1d98a8e0b6ba5df1739928661606052609c61193cdb9fea904e9c33",
+            "url": "https://github.com/polygon/mucap/releases/download/v0.9.0/mucap-0.9.0-amd64.deb",
+            "downloads": 73
+          }
+        ],
+        "verified": true,
+        "downloads": 73
+      }
+    },
+    "downloads": 73
+  }
+}
