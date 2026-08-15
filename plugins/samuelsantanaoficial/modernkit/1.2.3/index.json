@@ -1,0 +1,47 @@
+{
+  "name": "Modern Kit",
+  "author": "Samuel Santana",
+  "description": "Modern drum kit sample library in SoundFont (SF2) format",
+  "license": "mit",
+  "type": "sampler",
+  "tags": [
+    "Drums",
+    "SoundFont",
+    "Sample Library"
+  ],
+  "url": "https://github.com/samuelsantanaoficial/ModernKit",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/samuelsantanaoficial/modernkit/modernkit.jpg",
+  "date": "2025-07-26T21:09:40Z",
+  "changes": "v1.2.3 release.",
+  "files": [
+    {
+      "systems": [
+        {
+          "type": "linux"
+        },
+        {
+          "type": "mac"
+        },
+        {
+          "type": "win"
+        }
+      ],
+      "architectures": [
+        "arm32",
+        "arm64",
+        "x32",
+        "x64"
+      ],
+      "contains": [
+        "sf2"
+      ],
+      "type": "archive",
+      "size": 4814580,
+      "sha256": "50d18c30d9d64e5d265b79ca0d7318e0b95096d8e4a6340274c68fb86139dcbe",
+      "url": "https://github.com/samuelsantanaoficial/ModernKit/releases/download/1.2.3/Modern.Kit.sf2",
+      "downloads": 7
+    }
+  ],
+  "verified": true,
+  "downloads": 7
+}
