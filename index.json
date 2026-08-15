@@ -2153,6 +2153,58 @@
       },
       "downloads": 697
     },
+    "yonie/wetreverb": {
+      "slug": "yonie/wetreverb",
+      "version": "1.0.1",
+      "versions": {
+        "1.0.1": {
+          "name": "Wet Reverb",
+          "author": "yonie",
+          "description": "Open source reverb plugin with authentic 80s rack-style character — 5 reverb modes, 12-bit quantization, 24kHz internal rate, and early reflections",
+          "license": "mit",
+          "type": "effect",
+          "tags": [
+            "Reverb",
+            "Vintage",
+            "Lo-Fi"
+          ],
+          "url": "https://github.com/yonie/WetReverb",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/yonie/wetreverb/wetreverb.jpg",
+          "date": "2026-03-28T21:35:32Z",
+          "changes": "Fixed a bug where the selected reverb mode was not remembered across DAW sessions.\n\n\n**Full Changelog**: https://github.com/yonie/WetReverb/compare/v1.0.0...v1.0.1",
+          "files": [
+            {
+              "systems": [
+                {
+                  "type": "mac"
+                },
+                {
+                  "type": "win"
+                },
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "arm64",
+                "x64"
+              ],
+              "contains": [
+                "vst3"
+              ],
+              "type": "archive",
+              "size": 4729203,
+              "sha256": "5e1d1d709606cb84809969e48d85ea25f41e3fe4d1f4cc27971ece78c4f14632",
+              "url": "https://github.com/yonie/WetReverb/releases/download/v1.0.1/WetReverb-v1.0.1.zip",
+              "downloads": 1617
+            }
+          ],
+          "verified": true,
+          "downloads": 1617
+        }
+      },
+      "downloads": 1617
+    },
     "yokemura/magical8bitplug2": {
       "slug": "yokemura/magical8bitplug2",
       "version": "1.0.1",
@@ -10779,14 +10831,14 @@
               "size": 10349826,
               "sha256": "83e2825241d4e1c0ab2c44c91c0a9be6a94941a81df0c2fbe05e83b2650470da",
               "url": "https://github.com/Sinuslabs/Reach/releases/download/1.6.6/Reach-Windows.exe",
-              "downloads": 175793
+              "downloads": 175796
             }
           ],
           "verified": true,
-          "downloads": 177633
+          "downloads": 177636
         }
       },
-      "downloads": 177633
+      "downloads": 177636
     },
     "sfztools/sfizz-ui": {
       "slug": "sfztools/sfizz-ui",
@@ -21098,14 +21150,14 @@
               "size": 39364144,
               "sha256": "9144ec0b0263931ccad8d91d6ae8634d8a8f64ecd5e365ea1fa6180688580769",
               "url": "https://github.com/kushview/element/releases/download/1.0.0/element-1.0.0-win64.exe",
-              "downloads": 16894
+              "downloads": 16895
             }
           ],
           "verified": true,
-          "downloads": 24051
+          "downloads": 24052
         }
       },
-      "downloads": 24051
+      "downloads": 24052
     },
     "kiriki-liszt/relief-compressor": {
       "slug": "kiriki-liszt/relief-compressor",
@@ -31738,7 +31790,7 @@
               "size": 27549300,
               "type": "installer",
               "url": "https://github.com/DamRsn/NeuralNote/releases/download/v1.1.0/NeuralNote_Installer_Mac.pkg",
-              "downloads": 38702
+              "downloads": 38703
             },
             {
               "architectures": [
@@ -31761,10 +31813,10 @@
             }
           ],
           "verified": true,
-          "downloads": 187336
+          "downloads": 187337
         }
       },
-      "downloads": 187336
+      "downloads": 187337
     },
     "damiensellier/ctrlrx": {
       "slug": "damiensellier/ctrlrx",
@@ -35303,7 +35355,7 @@
               "size": 11275100,
               "sha256": "5dc4e072af90ec54aa0197790b40856e7db1659ff924ed107c7536b442d3584b",
               "url": "https://github.com/asb2m10/dexed/releases/download/v1.0.1/Dexed-1.0.1-win.exe",
-              "downloads": 82551
+              "downloads": 82553
             },
             {
               "systems": [
@@ -35327,7 +35379,7 @@
             }
           ],
           "verified": true,
-          "downloads": 153772
+          "downloads": 153774
         },
         "0.9.8": {
           "name": "Dexed",
@@ -35412,7 +35464,7 @@
           "downloads": 195800
         }
       },
-      "downloads": 349572
+      "downloads": 349574
     },
     "artfwo/andes": {
       "slug": "artfwo/andes",
