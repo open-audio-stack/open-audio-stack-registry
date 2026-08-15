@@ -1,0 +1,59 @@
+{
+  "name": "Punk OTT MB",
+  "author": "Guillermo Moñino Cánovas",
+  "description": "A JUCE audio plugin that pretends to recreate an OTT-style compressor effect. This is a multiband implementation.",
+  "license": "mit",
+  "type": "effect",
+  "tags": [
+    "Audio Plugin",
+    "Dsp",
+    "Juce Framework",
+    "Juce Plugins"
+  ],
+  "url": "https://github.com/gmoican/PunkOTT-MB",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/gmoican/punkott-mb/punkott-mb.jpg",
+  "date": "2025-12-25T10:35:07Z",
+  "changes": "v1.0.0 release.",
+  "files": [
+    {
+      "systems": [
+        {
+          "type": "mac"
+        }
+      ],
+      "architectures": [
+        "arm64",
+        "x64"
+      ],
+      "contains": [
+        "vst3",
+        "component"
+      ],
+      "type": "archive",
+      "size": 6695679,
+      "sha256": "6bc828dbca60ba44f13dd40c45d9fc40ee73b320d2b70ecd7dd5b831083c4f7b",
+      "url": "https://github.com/gmoican/PunkOTT-MB/releases/download/v1.0.0/PunkOTT-MB-macOS.zip",
+      "downloads": 3
+    },
+    {
+      "systems": [
+        {
+          "type": "win"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3"
+      ],
+      "type": "archive",
+      "size": 3040089,
+      "sha256": "cb79bb30243c4881ffe47ee411d576871ed5ac60a6212845d8b3782a6c2c6bf8",
+      "url": "https://github.com/gmoican/PunkOTT-MB/releases/download/v1.0.0/PunkOTT-MB-Windows.zip",
+      "downloads": 7
+    }
+  ],
+  "verified": true,
+  "downloads": 10
+}
