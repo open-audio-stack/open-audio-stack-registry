@@ -18159,6 +18159,72 @@
         }
       }
     },
+    "mrugalla/xen": {
+      "slug": "mrugalla/xen",
+      "version": "20251209.0.0",
+      "versions": {
+        "20251209.0.0": {
+          "name": "Xen",
+          "author": "Florian Mrugalla",
+          "description": "A VSTi that either acts as an MTS-ESP master or transforms input MIDI to MPE in xenharmonic tuning systems.",
+          "license": "gpl-3.0",
+          "type": "instrument",
+          "tags": [
+            "microtonal",
+            "mpe",
+            "mts-esp",
+            "tuning"
+          ],
+          "url": "https://github.com/Mrugalla/Xen",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/mrugalla/xen/xen.jpg",
+          "date": "2025-12-09T19:43:28Z",
+          "changes": "2025_12_09: VST3 Mac & Windows, added Xen Snap. 2025_11_27: VST3 Windows\n(reduced file size). 2025_11_13: VST3 Mac (MTS-ESP support). 2025_11_05:\nVST3 Windows (added MTS-ESP support).",
+          "files": [
+            {
+              "systems": [
+                {
+                  "type": "mac"
+                }
+              ],
+              "architectures": [
+                "arm64",
+                "x64"
+              ],
+              "contains": [
+                "vst3",
+                "component"
+              ],
+              "type": "installer",
+              "size": 6086789,
+              "sha256": "afa548cfa0e99b32c9145b2c488efebed6048dae11531aa1cf82c2a63e9ebb12",
+              "url": "https://github.com/Mrugalla/Xen/releases/download/vst3/Xen.pkg",
+              "downloads": 27
+            },
+            {
+              "systems": [
+                {
+                  "type": "win"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "vst3"
+              ],
+              "type": "archive",
+              "size": 2530349,
+              "sha256": "70d7e96d5667cfd240a2a2e5521394f3fe65cf7fae3614476fc9869b16129424",
+              "url": "https://github.com/Mrugalla/Xen/releases/download/vst3/Xen.vst3.zip",
+              "downloads": 50
+            }
+          ],
+          "verified": true,
+          "downloads": 77
+        }
+      },
+      "downloads": 77
+    },
     "mrugalla/perlinnoisemod": {
       "slug": "mrugalla/perlinnoisemod",
       "version": "1.0.0",
@@ -28061,14 +28127,14 @@
               "size": 6945028,
               "sha256": "41b40a2069a9821f38b6c993ab761b967c719ba4ea3a96e15ff660624049b459",
               "url": "https://github.com/Hornfisk/squelchbox/releases/download/v0.2.0/squelchbox-windows-x86_64.zip",
-              "downloads": 37
+              "downloads": 38
             }
           ],
           "verified": true,
-          "downloads": 104
+          "downloads": 105
         }
       },
-      "downloads": 104
+      "downloads": 105
     },
     "homerchel/satumorpher": {
       "slug": "homerchel/satumorpher",
@@ -39256,14 +39322,14 @@
               "size": 10388001,
               "sha256": "5df11ce77baf8e02af0bc35fe4981593ce1afdf70d67fe8cde65174b4f8a57ca",
               "url": "https://github.com/asb2m10/dexed/releases/download/v0.9.8/dexed-0.9.8-win.zip",
-              "downloads": 138269
+              "downloads": 138270
             }
           ],
           "verified": true,
-          "downloads": 195800
+          "downloads": 195801
         }
       },
-      "downloads": 350117
+      "downloads": 350118
     },
     "artfwo/andes": {
       "slug": "artfwo/andes",
