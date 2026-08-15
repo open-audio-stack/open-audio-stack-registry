@@ -1,0 +1,44 @@
+name: Wavecleaver
+author: Cem Uzunoglu
+description: Automatically builds wavetables from sampled instruments
+license: gpl-3.0
+type: tool
+tags:
+  - Wavetable
+  - Sampler
+  - Batch Processing
+url: https://github.com/cemkod/wavecleaver
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/cemkod/wavecleaver/wavecleaver.jpg
+date: '2026-04-30T02:46:10Z'
+changes: v1.2.0 release.
+files:
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - elf
+    type: archive
+    size: 24910720
+    sha256: ee1d3fe0cb994b8be8aa8d563bd9043f2f3d57b1a50f419ba040a8c988785b31
+    url: https://github.com/cemkod/wavecleaver/releases/download/v1.2.0/wavecleaver-linux-amd64
+  - systems:
+      - type: mac
+    architectures:
+      - arm64
+    contains:
+      - app
+    type: archive
+    size: 23892770
+    sha256: aa537002e102e10499a650bf5891ffcba4e6c8b2c4f3e9b0822b5ee524babfa8
+    url: https://github.com/cemkod/wavecleaver/releases/download/v1.2.0/wavecleaver-macos-arm64
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - exe
+    type: installer
+    size: 25295872
+    sha256: bfa41b42a928adec3896bced8935eca11d8f660d159ddcd68044a916954894de
+    url: https://github.com/cemkod/wavecleaver/releases/download/v1.2.0/wavecleaver-windows-amd64.exe
