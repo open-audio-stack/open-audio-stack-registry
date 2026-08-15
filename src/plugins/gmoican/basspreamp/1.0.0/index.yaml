@@ -1,0 +1,36 @@
+name: BassPreamp
+author: Guillermo Moñino Cánovas
+description: Bass preamp plugin blending ideas from multiple bass preamp effects — noise gate, MarkBass-inspired character/VPF control, and tone shaping
+license: mit
+type: effect
+tags:
+  - Bass
+  - Preamp
+  - Tone Shaping
+url: https://github.com/gmoican/BassPreamp
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/gmoican/basspreamp/basspreamp.jpg
+date: '2026-03-04T21:50:33Z'
+changes: v1.0.0 release.
+files:
+  - systems:
+      - type: mac
+    architectures:
+      - arm64
+      - x64
+    contains:
+      - vst3
+      - component
+    type: archive
+    size: 10520408
+    sha256: e3395cf83d429b669f169d630730d889210de4a2ec76a6fd6ad3a3c4d2686aae
+    url: https://github.com/gmoican/BassPreamp/releases/download/v1.0.0/BassPreamp-macOS.zip
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - vst3
+    type: archive
+    size: 3969790
+    sha256: 986d5701507e989d0a35cdf3c39556e89735b3a713d1dd9b6da3747b7bc7c0f0
+    url: https://github.com/gmoican/BassPreamp/releases/download/v1.0.0/BassPreamp-Windows.zip
