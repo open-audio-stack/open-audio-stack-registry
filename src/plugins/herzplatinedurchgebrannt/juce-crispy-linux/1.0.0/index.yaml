@@ -1,0 +1,27 @@
+name: Crispy
+author: herzplatinedurchgebrannt
+description: Saturation plugin with odd/even harmonic control, pre-saturation high/low pass filters, oversampling, matched bypass, and auto-gain
+license: mit
+type: effect
+tags:
+  - Saturation
+  - Harmonic Exciter
+  - Oversampling
+url: https://github.com/herzplatinedurchgebrannt/Juce-Crispy-Linux
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/herzplatinedurchgebrannt/juce-crispy-linux/juce-crispy-linux.jpg
+date: '2024-01-09T14:39:38Z'
+changes: Adds a Linux VST3 build on top of the original Mac/Windows plugin.
+files:
+  - systems:
+      - type: mac
+      - type: win
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - vst3
+      - component
+    type: archive
+    size: 27602291
+    sha256: 1b69c1bcfd5bc099ac901b10b4316a8aa031eef91d949e9d137cb74e42bcf60a
+    url: https://github.com/herzplatinedurchgebrannt/Juce-Crispy-Linux/archive/a057e484b007697a3b5dad65278dd9de57eb72e9.zip
