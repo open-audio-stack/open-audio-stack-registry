@@ -176,5 +176,71 @@
       }
     },
     "downloads": 11
+  },
+  "calgoheen/cflanger": {
+    "slug": "calgoheen/cflanger",
+    "version": "1.0.1",
+    "versions": {
+      "1.0.1": {
+        "name": "cFlanger",
+        "author": "Cal Goheen",
+        "description": "Flanger effect plugin",
+        "license": "gpl-3.0",
+        "type": "effect",
+        "tags": [
+          "Flanger",
+          "Modulation"
+        ],
+        "url": "https://github.com/calgoheen/cFlanger",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/calgoheen/cflanger/cflanger.jpg",
+        "date": "2026-04-25T23:19:59Z",
+        "changes": "1.0.1 release.",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "clap"
+            ],
+            "type": "installer",
+            "size": 4845637,
+            "sha256": "448de5303fa7214165ddd0cffb1a86c877f7c84a829d2aa9d58f78d9c383640f",
+            "url": "https://github.com/calgoheen/cFlanger/releases/download/1.0.1/cFlanger.v1.0.1.exe",
+            "downloads": 6
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "component",
+              "clap"
+            ],
+            "type": "installer",
+            "size": 11069369,
+            "sha256": "f141b790c16f3a1ac6aa8c3a72867c51dd7410197d5895b55406b379ca6f49c8",
+            "url": "https://github.com/calgoheen/cFlanger/releases/download/1.0.1/cFlanger.v1.0.1.pkg",
+            "downloads": 8
+          }
+        ],
+        "verified": true,
+        "downloads": 14
+      }
+    },
+    "downloads": 14
   }
 }
