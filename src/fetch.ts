@@ -246,12 +246,13 @@ function inferFileType(filename: string): string {
 // Each installer extractor is gated behind a tool-availability check and degrades gracefully
 // (falls back to the pre-existing filename/text-inference path) if the tool isn't installed —
 // this script may run on machines without pkgutil/hdiutil (Linux) or without 7z/innoextract.
-// Bare binaries uploaded directly as the release asset, with no zip/archive wrapper — most
-// often a Windows VST3 shipped as a single, un-bundled DLL that just keeps the ".vst3"
-// extension (a real macOS .vst3/.component is always a directory bundle, which GitHub can't
-// accept as a single release asset, so a bare file here can only be this Windows case; VST2
-// .dll/.dylib/.so are flat files on every platform, so those are always bare).
-const BARE_BINARY_ASSET = /\.(vst3|dll|dylib|so|clap)$/i;
+// Bare binaries/content files uploaded directly as the release asset, with no zip/archive
+// wrapper — most often a Windows VST3 shipped as a single, un-bundled DLL that just keeps the
+// ".vst3" extension (a real macOS .vst3/.component is always a directory bundle, which GitHub
+// can't accept as a single release asset, so a bare file here can only be this Windows case;
+// VST2 .dll/.dylib/.so are flat files on every platform, so those are always bare). ".sf2" is
+// a single self-contained SoundFont file, routinely uploaded bare the same way.
+const BARE_BINARY_ASSET = /\.(vst3|dll|dylib|so|clap|sf2)$/i;
 const INSPECTABLE_ASSET = new RegExp(
   `\\.(zip|tar\\.gz|tgz|tar\\.xz|tar\\.bz2|pkg|dmg|deb|exe|msi)$|${BARE_BINARY_ASSET.source}`,
   'i',
@@ -554,6 +555,11 @@ function inspectExtractedDir(dir: string): ArchiveInspection {
   // .exe or extensionless Linux binaries, which could just as easily be an installer helper
   // or a build tool bundled alongside the real plugin.
   if (/\.app(\/|$)/m.test(listing)) result.formats.add('app');
+  // SFZ/SF2 are plain-text/data sample-library formats, not compiled binaries — a sampler
+  // that supports the format can load them the same way on every OS, so unlike every format
+  // above there's no platform-specific binary to run `file` on at all.
+  if (/\.sfz$/m.test(listing)) result.formats.add('sfz');
+  if (/\.sf2$/m.test(listing)) result.formats.add('sf2');
   const inBundle = (f: string) => /\.vst3\/|\.component\/|\.clap\/|\.lv2\//i.test(f);
 
   // Inspect real binaries for platform/architecture — `file` reads magic bytes, so this is
@@ -615,6 +621,18 @@ function inspectExtractedDir(dir: string): ArchiveInspection {
       result.standaloneCandidates.push(...linuxStandaloneCandidates.map(f => `linux: ${f}`));
   } catch {
     /* find/file unavailable, or no matching binaries — inspection is best-effort */
+  }
+  // A pure sample library has no binary for the loop above to find and `file` — the archive
+  // is entirely .sfz/.sf2 plus its audio samples, playable on any OS a compatible sampler runs
+  // on. Only fill this in when nothing else was found: a real plugin can legitimately ship an
+  // .sfz/.sf2 alongside its vst3/component (e.g. a factory preset), and there the per-binary
+  // platform detection above is still the accurate signal, not this blanket fallback.
+  if (
+    result.platforms.size === 0 &&
+    result.formats.size > 0 &&
+    [...result.formats].every(f => f === 'sfz' || f === 'sf2')
+  ) {
+    result.platforms.add('linux').add('mac').add('win');
   }
   return result;
 }
