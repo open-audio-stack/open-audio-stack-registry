@@ -69,14 +69,14 @@
               "size": 2408590,
               "sha256": "c08e61ce3b96db41636f8ec7e76f4c7e2c13ebdac7fa1b5a1f52b4f32ec715ab",
               "url": "https://github.com/Tracktion/pluginval/releases/download/v1.0.4/pluginval_Windows.zip",
-              "downloads": 98202
+              "downloads": 98204
             }
           ],
           "verified": true,
-          "downloads": 178390
+          "downloads": 178392
         }
       },
-      "downloads": 178390
+      "downloads": 178392
     },
     "steinberg/validator": {
       "slug": "steinberg/validator",
@@ -267,14 +267,14 @@
               "size": 36417296,
               "sha256": "70775e251eee44c0f2451a1e833326cf8bcbbe304d3e7cd12851e6fce72ef7da",
               "url": "https://github.com/Rikorose/DeepFilterNet/releases/download/v0.5.6/deep-filter-0.5.6-x86_64-unknown-linux-musl",
-              "downloads": 28823
+              "downloads": 28824
             }
           ],
           "verified": true,
-          "downloads": 52326
+          "downloads": 52327
         }
       },
-      "downloads": 52326
+      "downloads": 52327
     },
     "monocasual/giada": {
       "slug": "monocasual/giada",
@@ -4528,14 +4528,14 @@
               "size": 421509729,
               "sha256": "75891d485ffa1f98b6a975e7dc0def3ca45f1cb70437a2370ac778b736cdd11e",
               "url": "https://github.com/VASTDynamics/Vaporizer2/releases/download/v3.5.0/Vaporizer2_installer_win_3.5.0.zip",
-              "downloads": 11772
+              "downloads": 11773
             }
           ],
           "verified": true,
-          "downloads": 15663
+          "downloads": 15664
         }
       },
-      "downloads": 15663
+      "downloads": 15664
     },
     "valsteen/midi-bpm-detection": {
       "slug": "valsteen/midi-bpm-detection",
@@ -8399,11 +8399,11 @@
               "size": 183385478,
               "sha256": "6e221e05f29254508142b9e0ed76a85f22fa1b512501bebde571951e7eefecca",
               "url": "https://github.com/surge-synthesizer/releases-xt/releases/download/1.3.4/surge-xt-win64-1.3.4-setup.exe",
-              "downloads": 510413
+              "downloads": 510417
             }
           ],
           "verified": true,
-          "downloads": 722963
+          "downloads": 722967
         },
         "1.3.1": {
           "name": "Surge XT",
@@ -8530,7 +8530,7 @@
           "downloads": 84185
         }
       },
-      "downloads": 807148
+      "downloads": 807152
     },
     "surge-synthesizer/ob-xf": {
       "slug": "surge-synthesizer/ob-xf",
@@ -10299,6 +10299,88 @@
       },
       "downloads": 42
     },
+    "sout233/im-disperser": {
+      "slug": "sout233/im-disperser",
+      "version": "0.2.0",
+      "versions": {
+        "0.2.0": {
+          "name": "im_disperser",
+          "author": "sout_Nantang",
+          "description": "Disperser plugin that spreads frequencies apart over time using an allpass filter chain",
+          "license": "gpl-3.0",
+          "type": "effect",
+          "tags": [
+            "Disperser",
+            "Allpass",
+            "Sound Design"
+          ],
+          "url": "https://github.com/sout233/im_disperser",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sout233/im-disperser/im-disperser.jpg",
+          "date": "2026-04-04T11:14:37Z",
+          "changes": "Adds a feature to display the corresponding note when adjusting frequency.",
+          "files": [
+            {
+              "systems": [
+                {
+                  "type": "win"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "vst3",
+                "clap"
+              ],
+              "type": "installer",
+              "size": 43433472,
+              "sha256": "dc4802dd81c8599530177d1bd0eaad6e40e444d2a0957a10e5bd03f0f13a5ba3",
+              "url": "https://github.com/sout233/im_disperser/releases/download/v0.2.0/im_disperser_installer_v0.2.0.exe",
+              "downloads": 460
+            },
+            {
+              "systems": [
+                {
+                  "type": "win"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "clap"
+              ],
+              "type": "archive",
+              "size": 21578752,
+              "sha256": "ac0df22e819c1c48eb5f157bba4a0ab480878ebe38938c382e28511913c2ef95",
+              "url": "https://github.com/sout233/im_disperser/releases/download/v0.2.0/im_disperser_v0.2.0.clap",
+              "downloads": 70
+            },
+            {
+              "systems": [
+                {
+                  "type": "win"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "vst3"
+              ],
+              "type": "archive",
+              "size": 21578752,
+              "sha256": "ac0df22e819c1c48eb5f157bba4a0ab480878ebe38938c382e28511913c2ef95",
+              "url": "https://github.com/sout233/im_disperser/releases/download/v0.2.0/im_disperser_v0.2.0.vst3",
+              "downloads": 195
+            }
+          ],
+          "verified": true,
+          "downloads": 725
+        }
+      },
+      "downloads": 725
+    },
     "smiarx/aelapse": {
       "slug": "smiarx/aelapse",
       "version": "1.0.1",
@@ -10952,14 +11034,14 @@
               "size": 667661,
               "sha256": "b0096da1b5acf76b1bb5193545e320cda99b21a96c4f69b49af9baeaef61ac6d",
               "url": "https://github.com/sjaehn/BVibratr/releases/download/v1.2.0/bvibratr-1.2.0-ubuntu24.04-amd64.tar.gz",
-              "downloads": 20
+              "downloads": 21
             }
           ],
           "verified": true,
-          "downloads": 20
+          "downloads": 21
         }
       },
-      "downloads": 20
+      "downloads": 21
     },
     "sinuslabs/reach": {
       "slug": "sinuslabs/reach",
@@ -11035,14 +11117,14 @@
               "size": 10349826,
               "sha256": "83e2825241d4e1c0ab2c44c91c0a9be6a94941a81df0c2fbe05e83b2650470da",
               "url": "https://github.com/Sinuslabs/Reach/releases/download/1.6.6/Reach-Windows.exe",
-              "downloads": 175826
+              "downloads": 175829
             }
           ],
           "verified": true,
-          "downloads": 177666
+          "downloads": 177669
         }
       },
-      "downloads": 177666
+      "downloads": 177669
     },
     "sfztools/sfizz-ui": {
       "slug": "sfztools/sfizz-ui",
@@ -13039,7 +13121,7 @@
               "size": 49872931,
               "sha256": "954072c937e79be2d1adc42ebeca342c0d4cbf95a12442adb0d60a97c260f7f9",
               "url": "https://github.com/reales/OB-Xd/releases/download/v2.19/OB-Xd.2.19.pkg",
-              "downloads": 1483
+              "downloads": 1484
             },
             {
               "systems": [
@@ -13058,14 +13140,14 @@
               "size": 38321128,
               "sha256": "b87017cad87835d00bfd6bdde6a15df3e46816ee5673965decd25c00e9f14ddd",
               "url": "https://github.com/reales/OB-Xd/releases/download/v2.19/Obxd219.exe",
-              "downloads": 134
+              "downloads": 135
             }
           ],
           "verified": true,
-          "downloads": 2256
+          "downloads": 2258
         }
       },
-      "downloads": 2256
+      "downloads": 2258
     },
     "rclement/meeblip-controller": {
       "slug": "rclement/meeblip-controller",
@@ -14246,14 +14328,14 @@
               "size": 13809702,
               "sha256": "b33788ecb1d98a8e0b6ba5df1739928661606052609c61193cdb9fea904e9c33",
               "url": "https://github.com/polygon/mucap/releases/download/v0.9.0/mucap-0.9.0-amd64.deb",
-              "downloads": 73
+              "downloads": 76
             }
           ],
           "verified": true,
-          "downloads": 73
+          "downloads": 76
         }
       },
-      "downloads": 73
+      "downloads": 76
     },
     "plugdata-team/plugdata": {
       "slug": "plugdata-team/plugdata",
@@ -18791,7 +18873,7 @@
               "size": 2267368,
               "sha256": "59f1593120de82e31dd194e2ab1536af14fec2b3ec6ec45abf6d9c8ac02ef430",
               "url": "https://github.com/michaelwillis/dragonfly-reverb/releases/download/3.2.10/dragonfly-reverb-3.2.10-linux-x86_64.tar.xz",
-              "downloads": 10169
+              "downloads": 10170
             },
             {
               "systems": [
@@ -18928,10 +19010,10 @@
             }
           ],
           "verified": true,
-          "downloads": 129216
+          "downloads": 129217
         }
       },
-      "downloads": 129216
+      "downloads": 129217
     },
     "michael02022/basic-harmonica": {
       "slug": "michael02022/basic-harmonica",
@@ -22132,7 +22214,7 @@
               "size": 170906810,
               "sha256": "e3d26fa15f960a2f7e6a9b32f4a442d590a7854d57383448e13605aebcfb5470",
               "url": "https://github.com/kushview/element/releases/download/1.0.0/element-1.0.0-linux-x86_64.deb",
-              "downloads": 1516
+              "downloads": 1517
             },
             {
               "systems": [
@@ -22178,14 +22260,14 @@
               "size": 39364144,
               "sha256": "9144ec0b0263931ccad8d91d6ae8634d8a8f64ecd5e365ea1fa6180688580769",
               "url": "https://github.com/kushview/element/releases/download/1.0.0/element-1.0.0-win64.exe",
-              "downloads": 16903
+              "downloads": 16904
             }
           ],
           "verified": true,
-          "downloads": 24062
+          "downloads": 24064
         }
       },
-      "downloads": 24062
+      "downloads": 24064
     },
     "kiriki-liszt/relief-compressor": {
       "slug": "kiriki-liszt/relief-compressor",
@@ -24229,14 +24311,14 @@
               "size": 2756417,
               "sha256": "68ba367e76a98591f3ad96d01dfb4bdc3e4b8aa284635d21ed482ec4158a80bc",
               "url": "https://github.com/JoseScript/Zubnetic/releases/download/v1.0.0/Zubnetic-v1.0-Windows-VST3.zip",
-              "downloads": 4
+              "downloads": 6
             }
           ],
           "verified": true,
-          "downloads": 4
+          "downloads": 6
         }
       },
-      "downloads": 4
+      "downloads": 6
     },
     "jonet/monksynth": {
       "slug": "jonet/monksynth",
@@ -27298,7 +27380,7 @@
               "size": 5280716,
               "sha256": "63b1588db342495dc2c93d255b9bd9ece7df454d8bf055d20bafddc0ac0df350",
               "url": "https://github.com/HomerChel/SatuMorpher/releases/download/v0.1.0/SatuMorpher-v0.1.0-linux-x86_64.vst3.zip",
-              "downloads": 3
+              "downloads": 4
             },
             {
               "systems": [
@@ -27316,7 +27398,7 @@
               "size": 4034743,
               "sha256": "a9cecbcbab16fe9f64d37c370937896d82bba0c8139c432fc935a9e71bb6db0b",
               "url": "https://github.com/HomerChel/SatuMorpher/releases/download/v0.1.0/SatuMorpher-v0.1.0-macos-arm64.vst3.zip",
-              "downloads": 2
+              "downloads": 3
             },
             {
               "systems": [
@@ -27334,14 +27416,14 @@
               "size": 2124931,
               "sha256": "867b3a91daa136e61c92903f1ca5a521de3ce310cf51d41e17f5a0bf48b5a15e",
               "url": "https://github.com/HomerChel/SatuMorpher/releases/download/v0.1.0/SatuMorpher-v0.1.0-windows-x86_64.vst3.zip",
-              "downloads": 2
+              "downloads": 3
             }
           ],
           "verified": true,
-          "downloads": 7
+          "downloads": 10
         }
       },
-      "downloads": 7
+      "downloads": 10
     },
     "hollance/thekissofshame": {
       "slug": "hollance/thekissofshame",
@@ -28675,7 +28757,7 @@
               "size": 10520408,
               "sha256": "e3395cf83d429b669f169d630730d889210de4a2ec76a6fd6ad3a3c4d2686aae",
               "url": "https://github.com/gmoican/BassPreamp/releases/download/v1.0.0/BassPreamp-macOS.zip",
-              "downloads": 1
+              "downloads": 2
             },
             {
               "systems": [
@@ -28693,14 +28775,14 @@
               "size": 3969790,
               "sha256": "986d5701507e989d0a35cdf3c39556e89735b3a713d1dd9b6da3747b7bc7c0f0",
               "url": "https://github.com/gmoican/BassPreamp/releases/download/v1.0.0/BassPreamp-Windows.zip",
-              "downloads": 3
+              "downloads": 4
             }
           ],
           "verified": true,
-          "downloads": 4
+          "downloads": 6
         }
       },
-      "downloads": 4
+      "downloads": 6
     },
     "giulioz/rdpiano": {
       "slug": "giulioz/rdpiano",
@@ -31133,14 +31215,14 @@
               "size": 247507775,
               "sha256": "56264cd860b3e6e7b29221fb1e46d7d8a288fb001500f830bcd739ec7b115650",
               "url": "https://github.com/falkTX/Carla/releases/download/v2.5.10/Carla-2.5.10-win64.zip",
-              "downloads": 14781
+              "downloads": 14783
             }
           ],
           "verified": true,
-          "downloads": 17871
+          "downloads": 17873
         }
       },
-      "downloads": 30731
+      "downloads": 30733
     },
     "fake-industries/fuzzball": {
       "slug": "fake-industries/fuzzball",
@@ -33604,14 +33686,14 @@
               "size": 8569710,
               "type": "installer",
               "url": "https://github.com/DamRsn/NeuralNote/releases/download/v1.1.0/NeuralNote_Installer_Windows.exe",
-              "downloads": 131916
+              "downloads": 131919
             }
           ],
           "verified": true,
-          "downloads": 187351
+          "downloads": 187354
         }
       },
-      "downloads": 187351
+      "downloads": 187354
     },
     "damiensellier/ctrlrx": {
       "slug": "damiensellier/ctrlrx",
@@ -36323,14 +36405,14 @@
               "size": 16237789,
               "sha256": "21a706090d0a72511756dfd65d6a3c0711257c94b707679346e04d182dc178a0",
               "url": "https://github.com/Birch-san/juicysfplugin/releases/download/3.1.0/juicysfplugin-3.1.0-win-x64.zip",
-              "downloads": 36001
+              "downloads": 36002
             }
           ],
           "verified": true,
-          "downloads": 41819
+          "downloads": 41820
         }
       },
-      "downloads": 41819
+      "downloads": 41820
     },
     "billydm/vitalium-verb": {
       "slug": "billydm/vitalium-verb",
@@ -37629,7 +37711,7 @@
               "size": 11275100,
               "sha256": "5dc4e072af90ec54aa0197790b40856e7db1659ff924ed107c7536b442d3584b",
               "url": "https://github.com/asb2m10/dexed/releases/download/v1.0.1/Dexed-1.0.1-win.exe",
-              "downloads": 82574
+              "downloads": 82577
             },
             {
               "systems": [
@@ -37653,7 +37735,7 @@
             }
           ],
           "verified": true,
-          "downloads": 153812
+          "downloads": 153815
         },
         "0.9.8": {
           "name": "Dexed",
@@ -37738,7 +37820,7 @@
           "downloads": 195800
         }
       },
-      "downloads": 349612
+      "downloads": 349615
     },
     "artfwo/andes": {
       "slug": "artfwo/andes",
