@@ -4093,6 +4093,24 @@
       ]
     }
   },
+  "cjitter/jcbcompressor": {
+    "1.0.1": {
+      "recs": [
+        {
+          "field": "url",
+          "rec": "requires mounting step, consider .pkg instead"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Linux"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Windows"
+        }
+      ]
+    }
+  },
   "christoskonstantas/htekdistortion": {
     "0.1.1": {
       "recs": [

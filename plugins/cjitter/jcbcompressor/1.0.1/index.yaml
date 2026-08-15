@@ -1,0 +1,30 @@
+name: JCBCompressor
+author: cjitter
+description: Plugin compresor de audio hecho con gen~, Plugin Export y JUCE
+license: gpl-3.0
+type: effect
+tags:
+  - compressor
+  - gen
+url: https://github.com/cjitter/JCBCompressor
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/cjitter/jcbcompressor/jcbcompressor.jpg
+date: '2025-11-24T20:01:28Z'
+changes: |-
+  JCBCompressor v1.0.1 improves internal stability without changing the sound
+  or user-facing behavior: stronger sync between the parameter engine (APVTS)
+  and the DSP engine (Gen), safer state restoration via a single parameter
+  queue, and preset loading updated to use it too.
+files:
+  - systems:
+      - type: mac
+    architectures:
+      - arm64
+      - x64
+    contains:
+      - vst3
+      - component
+      - aax
+    type: installer
+    size: 37729683
+    sha256: bf7318b65de74fbeed25b80be5f7d1e6422851a5c798b2cec37059c30235acef
+    url: https://github.com/cjitter/JCBCompressor/releases/download/v1.0.1/JCBCompressor-Installer.dmg
