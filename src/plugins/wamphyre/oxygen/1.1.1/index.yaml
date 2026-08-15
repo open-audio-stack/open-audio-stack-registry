@@ -1,0 +1,24 @@
+name: oXygen
+author: Wamphyre
+description: Mastering plugin with a practical workflow — corrective EQ, multiband control, stereo shaping, final loudness, and an automatic Master Assistant that listens to the input and reference tracks
+license: bsd-3-clause
+type: effect
+tags:
+  - Mastering
+  - EQ
+  - Multiband
+url: https://github.com/Wamphyre/oXygen
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/wamphyre/oxygen/oxygen.jpg
+date: '2026-08-04T18:24:27Z'
+changes: Restores v1.0.4's more natural, mix-preserving processing character and recalibrates the Master Assistant to make smaller, evidence-based moves.
+files:
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - vst3
+    type: archive
+    size: 3086575
+    sha256: 113dd871039c188802a8ceccf1c7381280c67b29ef1008026a888c9f58a42fde
+    url: https://github.com/Wamphyre/oXygen/releases/download/v1.1.1/oXygen-1.1.1-linux-x86_64.zip
