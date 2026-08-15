@@ -169,7 +169,11 @@ function inferSystems(filename: string): Array<{ type: string; min?: number }> {
   // side must allow a digit too ("win32", "win64" have no separator before the number).
   // "w32"/"w64" is a shorthand some CI configs use in place of the full "win32"/"win64".
   if (/(?<![a-z])win(?:dows)?(?=[-_.0-9]|$)|\.exe$|\.msi$/.test(f) || tok('w(?:32|64)').test(f)) found.add('win');
-  if (/mac(os)?[-_.]|[-_.]mac(os)?|darwin|\.dmg$|\.pkg$/.test(f) || tok('osx').test(f)) found.add('mac');
+  // Same left+right boundary discipline as "win" above — without a right boundary, "mac"
+  // as a bare prefix false-positives inside any longer word starting with those three
+  // letters that happens to follow a separator, e.g. "time-machine_linux-x64.tar.xz"
+  // matching on "-mac" from "-machine" and wrongly tagging a Linux-only asset as also Mac.
+  if (/(?<![a-z])mac(?:os)?(?=[-_.0-9]|$)|darwin|\.dmg$|\.pkg$/.test(f) || tok('osx').test(f)) found.add('mac');
   // Distro names (ubuntu, debian, fedora) are common in CI-built asset names and carry
   // no literal "linux" substring — without this, those assets are silently dropped below.
   // "lin"/"lin64"/"lin32" is a shorthand some CI configs use in place of "linux".
