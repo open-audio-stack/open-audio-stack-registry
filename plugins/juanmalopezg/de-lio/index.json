@@ -1,0 +1,51 @@
+{
+  "slug": "juanmalopezg/de-lio",
+  "version": "1.0.0",
+  "versions": {
+    "1.0.0": {
+      "name": "De~Lío",
+      "author": "Juan Manuel López G",
+      "description": "Tremolo and reverb audio plugin made with JUCE. ",
+      "license": "gpl-3.0",
+      "type": "effect",
+      "tags": [
+        "Audio",
+        "Audio Processing",
+        "Juce",
+        "Juce Framework",
+        "Juce Plugin",
+        "Reverb",
+        "Reverberation",
+        "Tango"
+      ],
+      "url": "https://github.com/Juanmalopezg/de-lio",
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/juanmalopezg/de-lio/de-lio.jpg",
+      "date": "2024-07-28T14:52:11Z",
+      "changes": "v1.0.0 release.",
+      "files": [
+        {
+          "systems": [
+            {
+              "type": "mac"
+            }
+          ],
+          "architectures": [
+            "arm64",
+            "x64"
+          ],
+          "contains": [
+            "vst3"
+          ],
+          "type": "installer",
+          "size": 3735369,
+          "sha256": "a4b8a69240a2e3dc1c3b2ecd2c664bdc47fb82964d21930730fad9ead14d7d62",
+          "url": "https://github.com/Juanmalopezg/de-lio/releases/download/v1.0.0/DeLio_macOS.pkg",
+          "downloads": 12
+        }
+      ],
+      "verified": true,
+      "downloads": 12
+    }
+  },
+  "downloads": 12
+}
