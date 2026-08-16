@@ -1,0 +1,144 @@
+{
+  "slug": "davemollen/dm-spaceecho",
+  "version": "0.1.6",
+  "versions": {
+    "0.1.6": {
+      "name": "dm-SpaceEcho",
+      "author": "Dave Mollen",
+      "description": "Delay and reverb plugin",
+      "license": "gpl-3.0",
+      "type": "effect",
+      "tags": [
+        "delay",
+        "reverb",
+        "tape-echo",
+        "Au"
+      ],
+      "url": "https://github.com/davemollen/dm-SpaceEcho",
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/davemollen/dm-spaceecho/dm-spaceecho.jpg",
+      "date": "2026-03-23T08:43:57Z",
+      "changes": "- Fixed linux vst3 build",
+      "files": [
+        {
+          "systems": [
+            {
+              "type": "mac"
+            }
+          ],
+          "architectures": [
+            "arm64",
+            "x64"
+          ],
+          "contains": [
+            "vst3",
+            "component",
+            "clap",
+            "lv2"
+          ],
+          "type": "archive",
+          "size": 20406338,
+          "sha256": "4d8a61b51638bb3fcb213cf636ae6219fb625e9ff511b847b86e0f7cb081748b",
+          "url": "https://github.com/davemollen/dm-SpaceEcho/releases/download/v0.1.6/dm-SpaceEcho-macos.zip",
+          "downloads": 10
+        },
+        {
+          "systems": [
+            {
+              "type": "linux"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "lv2"
+          ],
+          "type": "archive",
+          "size": 1046724,
+          "sha256": "d43e79b4d2bdbd2cbbf7018c3a78fa47b11d2ab7a64b450c36bb48b8af9575bd",
+          "url": "https://github.com/davemollen/dm-SpaceEcho/releases/download/v0.1.6/dm-SpaceEcho-modduo-new.zip",
+          "downloads": 3
+        },
+        {
+          "systems": [
+            {
+              "type": "linux"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "lv2"
+          ],
+          "type": "archive",
+          "size": 1033729,
+          "sha256": "005215b915c3c6116a7164b950665b3159dcbb09f9a6fbb65976e25142b2e5d0",
+          "url": "https://github.com/davemollen/dm-SpaceEcho/releases/download/v0.1.6/dm-SpaceEcho-modduox-new.zip",
+          "downloads": 5
+        },
+        {
+          "systems": [
+            {
+              "type": "linux"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "lv2"
+          ],
+          "type": "archive",
+          "size": 1033232,
+          "sha256": "55907ad18cdcc08cc508148e33b3b5002fd23af008af075f1ac3748c8a386615",
+          "url": "https://github.com/davemollen/dm-SpaceEcho/releases/download/v0.1.6/dm-SpaceEcho-moddwarf-new.zip",
+          "downloads": 5
+        },
+        {
+          "systems": [
+            {
+              "type": "linux"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "vst3",
+            "clap",
+            "lv2"
+          ],
+          "type": "archive",
+          "size": 7811104,
+          "sha256": "e443939732f31f4dc3ee531292b8021e4d3e95eaad3255d84d8352659b9ad0f5",
+          "url": "https://github.com/davemollen/dm-SpaceEcho/releases/download/v0.1.6/dm-SpaceEcho-ubuntu.zip",
+          "downloads": 12
+        },
+        {
+          "systems": [
+            {
+              "type": "win"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "vst3",
+            "clap",
+            "lv2"
+          ],
+          "type": "archive",
+          "size": 6853771,
+          "sha256": "e2f02a7690fbd8b7cdd0ff0953e1cb38789e3d96c14c53a8cd173ead90c8a4ae",
+          "url": "https://github.com/davemollen/dm-SpaceEcho/releases/download/v0.1.6/dm-SpaceEcho-windows.zip",
+          "downloads": 22
+        }
+      ],
+      "verified": true,
+      "downloads": 57
+    }
+  },
+  "downloads": 57
+}
