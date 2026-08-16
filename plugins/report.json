@@ -3369,6 +3369,16 @@
       ]
     }
   },
+  "jacobweber/ostinato": {
+    "0.0.13": {
+      "recs": [
+        {
+          "field": "architectures",
+          "rec": "should support arm64"
+        }
+      ]
+    }
+  },
   "iunusov/shoutvst": {
     "2.1.18": {
       "recs": [

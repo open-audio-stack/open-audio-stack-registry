@@ -1,0 +1,78 @@
+{
+  "name": "Ostinato",
+  "author": "Jacob Weber",
+  "description": "A MIDI arpeggiator plugin.",
+  "license": "gpl-3.0",
+  "type": "effect",
+  "tags": [
+    "Arpeggiator",
+    "Midi",
+    "Sequencer"
+  ],
+  "url": "https://github.com/jacobweber/ostinato",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/jacobweber/ostinato/ostinato.jpg",
+  "date": "2022-02-14T01:32:58Z",
+  "changes": "v0.0.13 release.",
+  "files": [
+    {
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3",
+        "elf"
+      ],
+      "type": "archive",
+      "size": 3902076,
+      "sha256": "4689449c431b68252b40200b1f6c1afe7d06246d77c767ba17da7bb597e3b5df",
+      "url": "https://github.com/jacobweber/ostinato/releases/download/v0.0.13/ostinato-Linux.zip",
+      "downloads": 11
+    },
+    {
+      "systems": [
+        {
+          "type": "mac"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3",
+        "component",
+        "app"
+      ],
+      "type": "archive",
+      "size": 4802185,
+      "sha256": "a1453e8cc908e36496ed7c60a0ee6c0658536e4f0e4235ecbe9252158d17d537",
+      "url": "https://github.com/jacobweber/ostinato/releases/download/v0.0.13/ostinato-macOS.zip",
+      "downloads": 10
+    },
+    {
+      "systems": [
+        {
+          "type": "win"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3",
+        "exe"
+      ],
+      "type": "archive",
+      "size": 4369710,
+      "sha256": "5dde171aa0309d7e2b88e7cbbd53cb4d20c9cfcceb36a196bb91012f6c655495",
+      "url": "https://github.com/jacobweber/ostinato/releases/download/v0.0.13/ostinato-Windows.zip",
+      "downloads": 9
+    }
+  ],
+  "verified": true,
+  "downloads": 30
+}
