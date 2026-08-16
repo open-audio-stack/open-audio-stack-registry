@@ -1,0 +1,46 @@
+{
+  "slug": "vertver/dynation",
+  "version": "1.3.0",
+  "versions": {
+    "1.3.0": {
+      "name": "Dynation",
+      "author": "vertver",
+      "description": "Open-source release of Dynation",
+      "license": "mit",
+      "type": "effect",
+      "tags": [
+        "Audio",
+        "Audio Engine",
+        "Dsp",
+        "Vst"
+      ],
+      "url": "https://github.com/vertver/Dynation",
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/vertver/dynation/dynation.jpg",
+      "date": "2022-04-09T17:52:02Z",
+      "changes": "1.3 release.",
+      "files": [
+        {
+          "systems": [
+            {
+              "type": "win"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "dll"
+          ],
+          "type": "archive",
+          "size": 179446,
+          "sha256": "65196e9f5dc5067d33280bccb28622c3e6095db624ab04c1aac052b8657f3691",
+          "url": "https://github.com/vertver/Dynation/releases/download/1.3/dynation.zip",
+          "downloads": 127
+        }
+      ],
+      "verified": true,
+      "downloads": 127
+    }
+  },
+  "downloads": 127
+}

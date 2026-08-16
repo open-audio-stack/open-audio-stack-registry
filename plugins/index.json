@@ -3325,6 +3325,52 @@
       }
     }
   },
+  "vertver/dynation": {
+    "slug": "vertver/dynation",
+    "version": "1.3.0",
+    "versions": {
+      "1.3.0": {
+        "name": "Dynation",
+        "author": "vertver",
+        "description": "Open-source release of Dynation",
+        "license": "mit",
+        "type": "effect",
+        "tags": [
+          "Audio",
+          "Audio Engine",
+          "Dsp",
+          "Vst"
+        ],
+        "url": "https://github.com/vertver/Dynation",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/vertver/dynation/dynation.jpg",
+        "date": "2022-04-09T17:52:02Z",
+        "changes": "1.3 release.",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "dll"
+            ],
+            "type": "archive",
+            "size": 179446,
+            "sha256": "65196e9f5dc5067d33280bccb28622c3e6095db624ab04c1aac052b8657f3691",
+            "url": "https://github.com/vertver/Dynation/releases/download/1.3/dynation.zip",
+            "downloads": 127
+          }
+        ],
+        "verified": true,
+        "downloads": 127
+      }
+    },
+    "downloads": 127
+  },
   "vastdynamics/vaporizer2": {
     "slug": "vastdynamics/vaporizer2",
     "version": "3.5.0",
@@ -5576,14 +5622,14 @@
             "size": 6929945,
             "sha256": "517c0e99f3ff37cf7b3941ed9afbece1423a0da69d70a9dd8076a473d630a50d",
             "url": "https://github.com/tiagolr/ripplerx/releases/download/v1.5.19/ripplerx-win-v1.5.19.zip",
-            "downloads": 1479
+            "downloads": 1480
           }
         ],
         "verified": true,
-        "downloads": 2418
+        "downloads": 2419
       }
     },
-    "downloads": 2418
+    "downloads": 2419
   },
   "tiagolr/reevr": {
     "slug": "tiagolr/reevr",
@@ -27291,14 +27337,14 @@
             "size": 22861704,
             "sha256": "b2a9b9ee2dd91e740b590d20d1b6d4094b9fd118fd88c546b420c7db0714a11e",
             "url": "https://github.com/hyperfocusdsp/niner/releases/download/v1.0.1/niner-windows-x86_64.zip",
-            "downloads": 477
+            "downloads": 478
           }
         ],
         "verified": true,
-        "downloads": 944
+        "downloads": 945
       }
     },
-    "downloads": 944
+    "downloads": 945
   },
   "hyakkei/molluskvoicechanger": {
     "slug": "hyakkei/molluskvoicechanger",
@@ -32477,7 +32523,7 @@
             "size": 368461548,
             "sha256": "a30e98409974493ade18f598566628369fee67f179a84e1c2cc3ae46a71808b1",
             "url": "https://github.com/falkTX/Carla/releases/download/v2.5.10/Carla-2.5.10-macOS-universal.dmg",
-            "downloads": 3270
+            "downloads": 3272
           },
           {
             "systems": [
@@ -32497,14 +32543,14 @@
             "size": 247507775,
             "sha256": "56264cd860b3e6e7b29221fb1e46d7d8a288fb001500f830bcd739ec7b115650",
             "url": "https://github.com/falkTX/Carla/releases/download/v2.5.10/Carla-2.5.10-win64.zip",
-            "downloads": 15029
+            "downloads": 15031
           }
         ],
         "verified": true,
-        "downloads": 18299
+        "downloads": 18303
       }
     },
-    "downloads": 31160
+    "downloads": 31164
   },
   "fake-industries/fuzzball": {
     "slug": "fake-industries/fuzzball",
