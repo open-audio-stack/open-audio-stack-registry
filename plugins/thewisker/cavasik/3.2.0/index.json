@@ -1,0 +1,56 @@
+{
+  "name": "Cavasik",
+  "author": "Wisker",
+  "description": "Audio visualizer based on CAVA",
+  "license": "gpl-3.0",
+  "type": "tool",
+  "tags": [
+    "visualizer",
+    "cava",
+    "gnome"
+  ],
+  "url": "https://github.com/TheWisker/Cavasik",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/thewisker/cavasik/cavasik.jpg",
+  "date": "2025-07-30T08:13:23Z",
+  "changes": "v3.2.0: added two new mirror modes (Normal+Overlapping and\nReverse+Overlapping), extended conditionality in settings.",
+  "files": [
+    {
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "elf"
+      ],
+      "type": "installer",
+      "size": 1138384,
+      "sha256": "a6a8eba84ad9ee52a655497335d11d13e2f5ae6e399846af592163f8b0b349e4",
+      "url": "https://github.com/TheWisker/Cavasik/releases/download/v3.2.0/cavasik_v3.2.0_amd64.flatpak",
+      "downloads": 98
+    },
+    {
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "elf"
+      ],
+      "type": "installer",
+      "size": 1331200,
+      "sha256": "ed78adbea0b9a555f9079ed31fe5c2eb32d20db2887ae150a2e0d5cb80175841",
+      "url": "https://github.com/TheWisker/Cavasik/releases/download/v3.2.0/cavasik_v3.2.0_amd64.snap",
+      "downloads": 54
+    }
+  ],
+  "verified": true,
+  "downloads": 152
+}
