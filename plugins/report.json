@@ -2645,6 +2645,16 @@
       ]
     }
   },
+  "martindylan/granola": {
+    "1.2.1": {
+      "recs": [
+        {
+          "field": "architectures",
+          "rec": "should support arm64"
+        }
+      ]
+    }
+  },
   "markwilkins/midi-chord-reader": {
     "0.9.0": {
       "recs": [
