@@ -1666,15 +1666,12 @@
               "type": "installer",
               "size": 12623277,
               "sha256": "4f96261cfd628bab587b9ed80564207abb38e5980bcb449fff6999f9a00f5ff1",
-              "url": "https://github.com/zynaddsubfx/zynaddsubfx/releases/download/2.5.3-osx/ZynAddSubFx-2.5.3.dmg",
-              "downloads": 740
+              "url": "https://github.com/zynaddsubfx/zynaddsubfx/releases/download/2.5.3-osx/ZynAddSubFx-2.5.3.dmg"
             }
           ],
-          "verified": true,
-          "downloads": 740
+          "verified": true
         }
-      },
-      "downloads": 740
+      }
     },
     "zones-convolution/zones-client": {
       "slug": "zones-convolution/zones-client",
@@ -40684,6 +40681,88 @@
       },
       "downloads": 3116
     },
+    "colinraab/modern-distortion-synth": {
+      "slug": "colinraab/modern-distortion-synth",
+      "version": "20240831.0.0",
+      "versions": {
+        "20240831.0.0": {
+          "name": "Modern Distortion Synthesizer",
+          "author": "Colin Raab",
+          "description": "A polyphonic wavetable synthesizer featuring four sources (two wavetable oscillators, a noise generator, and a sampler) with per-voice, per-source filters, envelopes, and distortion.",
+          "license": "bsd-3-clause",
+          "type": "instrument",
+          "tags": [
+            "Wavetable",
+            "Synthesizer",
+            "Distortion",
+            "Juce"
+          ],
+          "url": "https://github.com/colinraab/modern-distortion-synth",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/colinraab/modern-distortion-synth/modern-distortion-synth.jpg",
+          "date": "2024-08-31T17:37:32Z",
+          "changes": "Have done very limited testing, so use at your own risk! Please let me know if you run into issues.",
+          "files": [
+            {
+              "systems": [
+                {
+                  "type": "mac"
+                }
+              ],
+              "architectures": [
+                "arm64"
+              ],
+              "contains": [
+                "component"
+              ],
+              "type": "archive",
+              "size": 2979797,
+              "sha256": "0fd26983b50ca50c2da93afc88b7786cfd61932d9b31f153800aa511c3f2cd3c",
+              "url": "https://github.com/colinraab/modern-distortion-synth/releases/download/beta/Capstone.component.zip",
+              "downloads": 4
+            },
+            {
+              "systems": [
+                {
+                  "type": "mac"
+                }
+              ],
+              "architectures": [
+                "arm64"
+              ],
+              "contains": [
+                "vst3"
+              ],
+              "type": "archive",
+              "size": 2982425,
+              "sha256": "011360f326764b188961f945692a53bfe0646a7f8999df259a88aead01ac48cc",
+              "url": "https://github.com/colinraab/modern-distortion-synth/releases/download/beta/Capstone.vst3.zip",
+              "downloads": 5
+            },
+            {
+              "systems": [
+                {
+                  "type": "mac"
+                }
+              ],
+              "architectures": [
+                "arm64"
+              ],
+              "contains": [
+                "app"
+              ],
+              "type": "archive",
+              "size": 3036816,
+              "sha256": "befe9335a7eb1ababcecdc21b56764a39adeedbb946f5bfcd3149f85717a3a13",
+              "url": "https://github.com/colinraab/modern-distortion-synth/releases/download/beta/Capstone.zip",
+              "downloads": 3
+            }
+          ],
+          "verified": true,
+          "downloads": 12
+        }
+      },
+      "downloads": 12
+    },
     "clearly-broken-software/ninjas2": {
       "slug": "clearly-broken-software/ninjas2",
       "version": "0.2.0",
@@ -41456,14 +41535,14 @@
               "size": 10646528,
               "sha256": "8ba6e91196067244837877d9ca4a8e4a1f5bfad60cf33fa699c8a5b41f1211bf",
               "url": "https://github.com/jatinchowdhury18/AnalogTapeModel/releases/download/v2.11.4/ChowTapeModel-Win-64bit-2.11.4.exe",
-              "downloads": 62478
+              "downloads": 62481
             }
           ],
           "verified": false,
-          "downloads": 108242
+          "downloads": 108245
         }
       },
-      "downloads": 108242
+      "downloads": 108245
     },
     "chowdhury-dsp/chowmultitool": {
       "slug": "chowdhury-dsp/chowmultitool",
@@ -43233,14 +43312,14 @@
               "size": 16237789,
               "sha256": "21a706090d0a72511756dfd65d6a3c0711257c94b707679346e04d182dc178a0",
               "url": "https://github.com/Birch-san/juicysfplugin/releases/download/3.1.0/juicysfplugin-3.1.0-win-x64.zip",
-              "downloads": 36068
+              "downloads": 36069
             }
           ],
           "verified": true,
-          "downloads": 41899
+          "downloads": 41900
         }
       },
-      "downloads": 41899
+      "downloads": 41900
     },
     "billydm/vitalium-verb": {
       "slug": "billydm/vitalium-verb",
@@ -44720,7 +44799,7 @@
               "size": 17183630,
               "sha256": "a6505103869d15400e7bed1d988d9dd155d6d8204a3d532f5301966ae7507ad8",
               "url": "https://github.com/asb2m10/dexed/releases/download/v1.0.1/Dexed-1.0.1-macOS.dmg",
-              "downloads": 61916
+              "downloads": 61919
             },
             {
               "systems": [
@@ -44785,7 +44864,7 @@
             }
           ],
           "verified": true,
-          "downloads": 155016
+          "downloads": 155019
         },
         "0.9.8": {
           "name": "Dexed",
@@ -44870,7 +44949,7 @@
           "downloads": 195804
         }
       },
-      "downloads": 350820
+      "downloads": 350823
     },
     "artfwo/andes": {
       "slug": "artfwo/andes",
