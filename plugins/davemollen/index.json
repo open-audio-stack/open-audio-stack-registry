@@ -1,4 +1,147 @@
 {
+  "davemollen/dm-vibrato": {
+    "slug": "davemollen/dm-vibrato",
+    "version": "0.0.9",
+    "versions": {
+      "0.0.9": {
+        "name": "dm-Vibrato",
+        "author": "Dave Mollen",
+        "description": "Vibrato plugin",
+        "license": "gpl-3.0",
+        "type": "effect",
+        "tags": [
+          "vibrato",
+          "modulation",
+          "Au"
+        ],
+        "url": "https://github.com/davemollen/dm-Vibrato",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/davemollen/dm-vibrato/dm-vibrato.jpg",
+        "date": "2026-03-23T08:50:09Z",
+        "changes": "- Fixed linux vst3 build",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "component",
+              "clap",
+              "lv2"
+            ],
+            "type": "archive",
+            "size": 21416013,
+            "sha256": "8c68a05039c60a57030db65b167b61ee277d6566139afb055cdd3c1c7a421030",
+            "url": "https://github.com/davemollen/dm-Vibrato/releases/download/v0.0.9/dm-Vibrato-macos.zip",
+            "downloads": 7
+          },
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "lv2"
+            ],
+            "type": "archive",
+            "size": 954945,
+            "sha256": "4585a72b30883ddcdb948e4534a500d2ba48a81668b82d9f4d6ccea5e8ca14a1",
+            "url": "https://github.com/davemollen/dm-Vibrato/releases/download/v0.0.9/dm-Vibrato-modduo-new.zip",
+            "downloads": 2
+          },
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "lv2"
+            ],
+            "type": "archive",
+            "size": 943308,
+            "sha256": "fd89fdb4e19a7d219ab26288c0c047d91afc0c4f145c9502fcc2a0ba553ca79a",
+            "url": "https://github.com/davemollen/dm-Vibrato/releases/download/v0.0.9/dm-Vibrato-modduox-new.zip",
+            "downloads": 2
+          },
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "lv2"
+            ],
+            "type": "archive",
+            "size": 942988,
+            "sha256": "76a3e59edacfae0c6ba3d2db0a5ec5f64303c8ac9b7c1e913bcde80d22eae40c",
+            "url": "https://github.com/davemollen/dm-Vibrato/releases/download/v0.0.9/dm-Vibrato-moddwarf-new.zip",
+            "downloads": 4
+          },
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "clap",
+              "lv2"
+            ],
+            "type": "archive",
+            "size": 8091482,
+            "sha256": "ca4c50070ae37312e6daa4d00da8a0ecbe544bf02abbb7004f219c1a69eaeace",
+            "url": "https://github.com/davemollen/dm-Vibrato/releases/download/v0.0.9/dm-Vibrato-ubuntu.zip",
+            "downloads": 7
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "clap",
+              "lv2"
+            ],
+            "type": "archive",
+            "size": 7282396,
+            "sha256": "caf6f5dbafbce355670aa6e079abbe6df923a693f7c47e1ea5bbd68452a328bf",
+            "url": "https://github.com/davemollen/dm-Vibrato/releases/download/v0.0.9/dm-Vibrato-windows.zip",
+            "downloads": 26
+          }
+        ],
+        "verified": true,
+        "downloads": 48
+      }
+    },
+    "downloads": 48
+  },
   "davemollen/dm-tubescreamer": {
     "slug": "davemollen/dm-tubescreamer",
     "version": "0.0.9",
