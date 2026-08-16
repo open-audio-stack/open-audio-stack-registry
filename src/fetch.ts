@@ -203,9 +203,17 @@ function inferArchitectures(filename: string): { archs: string[] | null; confide
   if (/arm64|aarch64|[-_]m[123][-_.]|apple[._-]?silicon/.test(f) || tok('arm').test(f))
     return { archs: ['arm64'], confident: true };
   if (/armhf|armv7|arm32/.test(f)) return { archs: ['arm32'], confident: true };
-  if (/x86[_-]64|amd64|64[-_]?bit/.test(f) || tok('x64').test(f)) return { archs: ['x64'], confident: true };
-  if (/i[3-6]86|32[-_]?bit|win32/.test(f) || (tok('x86').test(f) && !/[-_]64/.test(f)) || tok('x32').test(f))
-    return { archs: ['x32'], confident: true };
+  // Bare "x86" (no i386/i686/32bit/win32 qualifier) is ambiguous by name alone, but in
+  // practice release filenames overwhelmingly use it to mean x86-64 now, not 32-bit — e.g.
+  // ZL-Audio's "*-Linux-x86.zip" ships an x86_64-linux VST3 binary. Only tokens that
+  // unambiguously signal 32-bit route to the x32 branch below.
+  if (
+    /x86[_-]64|amd64|64[-_]?bit/.test(f) ||
+    tok('x64').test(f) ||
+    (tok('x86').test(f) && !/i[3-6]86|32[-_]?bit|win32/.test(f))
+  )
+    return { archs: ['x64'], confident: true };
+  if (/i[3-6]86|32[-_]?bit|win32/.test(f) || tok('x32').test(f)) return { archs: ['x32'], confident: true };
   return { archs: ['x64'], confident: false }; // safe default; flag for review if no hint found
 }
 
