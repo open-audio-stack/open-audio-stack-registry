@@ -736,8 +736,12 @@ const IMAGE_URL_EXCLUDE =
 const SCREENSHOT_HINT = /screenshot|preview|screen[-_]?shot|\bui\b|\bgui\b|interface/i;
 
 async function findImageUrl(org: string, repo: string, branch: string, readme: string): Promise<string | null> {
+  // Markdown image syntax allows an optional title after the URL, e.g. `![alt](url "title")`
+  // — without stripping it, the greedy `[^)]*` tail captures the title text too, corrupting
+  // the URL (seen on MichaelHurst97/Noizier, whose 404'd image fetch was actually this).
+  const stripMarkdownTitle = (u: string) => u.replace(/\s+["'][^"']*["']$/, '');
   const readmeCandidates = [
-    ...[...readme.matchAll(/!\[[^\]]*\]\(([^)]+\.(?:png|jpe?g|gif|webp)[^)]*)\)/gi)].map(m => m[1]),
+    ...[...readme.matchAll(/!\[[^\]]*\]\(([^)]+\.(?:png|jpe?g|gif|webp)[^)]*)\)/gi)].map(m => stripMarkdownTitle(m[1])),
     ...[...readme.matchAll(/<img[^>]+src=["']([^"']+\.(?:png|jpe?g|gif|webp))/gi)].map(m => m[1]),
   ].filter(u => !IMAGE_URL_EXCLUDE.test(u));
 
