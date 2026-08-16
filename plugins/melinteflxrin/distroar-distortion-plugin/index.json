@@ -1,0 +1,44 @@
+{
+  "slug": "melinteflxrin/distroar-distortion-plugin",
+  "version": "1.0.0",
+  "versions": {
+    "1.0.0": {
+      "name": "DISTROAR",
+      "author": "Melinte Florin",
+      "description": "Heavy, gritty VST3 distortion plugin for electric guitar.",
+      "license": "gpl-3.0",
+      "type": "effect",
+      "tags": [
+        "distortion",
+        "guitar"
+      ],
+      "url": "https://github.com/melinteflxrin/DISTROAR-Distortion-Plugin",
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/melinteflxrin/distroar-distortion-plugin/distroar-distortion-plugin.jpg",
+      "date": "2025-10-16T21:06:36Z",
+      "changes": "First DISTROAR public release.\r\n\r\nInstallation: Extract and copy DISTROAR.vst3 to your VST3 folder.",
+      "files": [
+        {
+          "systems": [
+            {
+              "type": "win"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "vst3"
+          ],
+          "type": "archive",
+          "size": 22066176,
+          "sha256": "926379fcf521cd042de6dc3499eb7bca243e760ef766328d217d27bcb221ab15",
+          "url": "https://github.com/melinteflxrin/DISTROAR-Distortion-Plugin/releases/download/v1.0.0/DISTROAR.vst3",
+          "downloads": 18
+        }
+      ],
+      "verified": true,
+      "downloads": 18
+    }
+  },
+  "downloads": 18
+}

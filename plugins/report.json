@@ -2477,6 +2477,28 @@
       ]
     }
   },
+  "melinteflxrin/distroar-distortion-plugin": {
+    "1.0.0": {
+      "recs": [
+        {
+          "field": "url",
+          "rec": "not a supported format"
+        },
+        {
+          "field": "architectures",
+          "rec": "should support arm64"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Linux"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Mac"
+        }
+      ]
+    }
+  },
   "meijisirlnd/transfer": {
     "0.0.2": {
       "recs": [
