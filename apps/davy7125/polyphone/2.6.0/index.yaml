@@ -1,0 +1,86 @@
+name: Polyphone
+author: Davy Triponney
+description: A soundfont editor for quickly designing musical instruments.
+license: gpl-3.0
+type: tool
+tags:
+  - Soundfonts
+  - Sf2
+  - Sf3
+  - Sfz
+  - Sfark
+  - Audio Synthesis
+  - Sound Engine
+  - Audio
+url: https://github.com/davy7125/polyphone
+image: https://open-audio-stack.github.io/open-audio-stack-registry/apps/davy7125/polyphone/polyphone.jpg
+date: '2026-05-25T15:02:42Z'
+changes: |-
+  # Changelog
+
+  ## New
+
+  - Dutch and Japanese translations added, all others completed by AI
+  - soundfont explorer to browse and search soundfonts in a directory
+  - csv export
+  - startup view option
+  - RPN messages can change the tuning...
+files:
+  - systems:
+      - type: linux
+    architectures:
+      - arm64
+    type: installer
+    open: Polyphone_2.6.0-linux_aarch64.AppImage
+    size: 39909896
+    sha256: 94038fa27cf2486f77db91070d63d8afe63a5334ad7aa7fbc08a9f0df0c6d3b1
+    url: https://github.com/davy7125/polyphone/releases/download/2.6.0/Polyphone_2.6.0-linux_aarch64.AppImage
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    type: installer
+    open: Polyphone_2.6.0-linux_x64.AppImage
+    size: 40794616
+    sha256: b2ef08a978c54d550740a72a69b72d01d5ee0b11e0460d793eff99dd1ab6afa9
+    url: https://github.com/davy7125/polyphone/releases/download/2.6.0/Polyphone_2.6.0-linux_x64.AppImage
+  - systems:
+      - type: mac
+        min: 12
+    architectures:
+      - arm64
+      - x64
+    type: installer
+    open: Polyphone.app
+    size: 31438016
+    sha256: 6d182033d46f09803ca9217e6caf8f93154ca8443b7633e6050053e58f3a07e4
+    url: https://github.com/davy7125/polyphone/releases/download/2.6.0/Polyphone_2.6.0-macOS_12.dmg
+  - systems:
+      - type: mac
+        min: 12
+    architectures:
+      - x64
+      - arm64
+    type: installer
+    open: Polyphone.app
+    size: 31470562
+    sha256: b01b762329be6904deb03316081c71eefbbc1ae42e0c8202f17a48d6a24ffabf
+    url: https://github.com/davy7125/polyphone/releases/download/2.6.0/Polyphone_2.6.0-macOS_12_Intel.dmg
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    type: installer
+    open: Polyphone.exe
+    size: 20982176
+    sha256: d8a1ca382ff8ea480700161cc5900e4a050a4743e54f80a6b05a27d48309f7e5
+    url: https://github.com/davy7125/polyphone/releases/download/2.6.0/Polyphone_2.6.0-windows_x64-installer.exe
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    type: archive
+    open: Polyphone.exe
+    size: 20587137
+    sha256: 55fd6d242cc14d92cc78bfda5c8e40559a7f4184a721801a02d08eb87ffcf3c9
+    url: https://github.com/davy7125/polyphone/releases/download/2.6.0/Polyphone_2.6.0-windows_x64-portable.zip

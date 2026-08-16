@@ -191,6 +191,36 @@
       ]
     }
   },
+  "davy7125/polyphone": {
+    "2.6.0": {
+      "recs": [
+        {
+          "field": "url",
+          "rec": "requires manual installation steps, consider .deb and .rpm instead"
+        },
+        {
+          "field": "type",
+          "rec": "should match url field"
+        },
+        {
+          "field": "url",
+          "rec": "requires manual installation steps, consider .deb and .rpm instead"
+        },
+        {
+          "field": "type",
+          "rec": "should match url field"
+        },
+        {
+          "field": "url",
+          "rec": "requires mounting step, consider .pkg instead"
+        },
+        {
+          "field": "url",
+          "rec": "requires mounting step, consider .pkg instead"
+        }
+      ]
+    }
+  },
   "christofmuc/knobkraft-orm": {
     "2.9.0": {
       "recs": [
