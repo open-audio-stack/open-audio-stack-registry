@@ -1,0 +1,47 @@
+{
+  "sreyasaju/harmonize": {
+    "slug": "sreyasaju/harmonize",
+    "version": "0.1.1",
+    "versions": {
+      "0.1.1": {
+        "name": "Harmonize",
+        "author": "Sreya Saju",
+        "description": "A Python app that converts vocal recordings into MIDI files. Transform your singing into digital music!",
+        "license": "mit",
+        "type": "generator",
+        "tags": [
+          "midi",
+          "voice-to-midi",
+          "pitch-detection"
+        ],
+        "url": "https://github.com/sreyasaju/harmonize",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sreyasaju/harmonize/harmonize.jpg",
+        "date": "2026-05-16T18:17:20Z",
+        "changes": "v0.1.1 release.",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64"
+            ],
+            "contains": [
+              "app"
+            ],
+            "type": "archive",
+            "size": 643202956,
+            "sha256": "f871313fe778ea4ab822555bff9f426da755c615b5a8412c3f63a4956d689732",
+            "url": "https://github.com/sreyasaju/harmonize/releases/download/v0.1.1/harmonize-mac.zip",
+            "downloads": 5
+          }
+        ],
+        "verified": true,
+        "downloads": 5
+      }
+    },
+    "downloads": 5
+  }
+}
