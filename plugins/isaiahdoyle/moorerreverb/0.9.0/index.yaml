@@ -1,0 +1,23 @@
+name: MoorerReverb
+author: isaiahdoyle
+description: An algorithmic reverb plugin based off James Moorer's design
+license: gpl-3.0
+type: effect
+tags:
+  - Reverb
+  - Algorithmic
+url: https://github.com/isaiahdoyle/moorerreverb
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/isaiahdoyle/moorerreverb/moorerreverb.jpg
+date: '2024-03-26T21:36:19Z'
+changes: Waiting until cross-platform testing is conducted before v1.0 :)
+files:
+  - systems:
+      - type: mac
+    architectures:
+      - x64
+    contains:
+      - vst3
+    type: archive
+    size: 5754224
+    sha256: 69603006865e00593a3326bcbfa5f8a638492a9c0f8b30a969c136d9f81fcb8e
+    url: https://github.com/isaiahdoyle/moorerreverb/releases/download/v0.9/MoorerReverb.vst3.zip
