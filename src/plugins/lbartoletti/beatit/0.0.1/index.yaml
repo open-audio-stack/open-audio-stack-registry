@@ -1,0 +1,88 @@
+name: BeatIt
+author: Loïc Bartoletti
+description: Interactive metronome audio plugin with tempo control, custom time signatures, beat visualization, and multiple click sounds for precise musical timing
+license: mit
+type: tool
+tags:
+  - Metronome
+  - Tempo
+  - Click
+url: https://github.com/lbartoletti/BeatIt
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/lbartoletti/beatit/beatit.jpg
+date: '2024-10-28T19:00:39Z'
+changes: Welcome to BeatIt!
+files:
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - lv2
+      - elf
+    type: archive
+    size: 4087236
+    sha256: 332fec002423829f778585a963a867a15b420b09fbaa01fddc1e2ce796b29106
+    url: https://github.com/lbartoletti/BeatIt/releases/download/0.0.1/BeatIt-0.0.1-FreeBSD.zip
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - vst3
+      - lv2
+      - elf
+    type: archive
+    size: 6611023
+    sha256: cd11bf8da4b08a2ded6fba441eda442ee9070b637a80279686afffc1daee1bbd
+    url: https://github.com/lbartoletti/BeatIt/releases/download/0.0.1/BeatIt-0.0.1-Linux.zip
+  - systems:
+      - type: mac
+    architectures:
+      - arm64
+      - x64
+    contains:
+      - vst3
+      - component
+      - lv2
+      - app
+    type: installer
+    size: 15046132
+    sha256: 091d5ac7078d5e9eb06d58c1cd6b37558a887970d7244c814a666993b3cb6674
+    url: https://github.com/lbartoletti/BeatIt/releases/download/0.0.1/BeatIt-0.0.1-macOS.dmg
+  - systems:
+      - type: mac
+    architectures:
+      - arm64
+      - x64
+    contains:
+      - vst3
+      - component
+      - lv2
+      - app
+    type: archive
+    size: 13666529
+    sha256: 0f4eef0d858e0e5c943f25bf96a487f2b3045dfe16517bb857a85af06a0f5d19
+    url: https://github.com/lbartoletti/BeatIt/releases/download/0.0.1/BeatIt-0.0.1-macOS.zip
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - vst3
+      - lv2
+    type: installer
+    size: 6544182
+    sha256: 23b8646d0e2349f90a9434757cee28285fa2fbfdf74082bf849cb025cbe1c97e
+    url: https://github.com/lbartoletti/BeatIt/releases/download/0.0.1/BeatIt-0.0.1-Windows.exe
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - vst3
+      - lv2
+      - exe
+    type: archive
+    size: 6217519
+    sha256: cc8b1af138c09d5319cbc5512db49b12a0b497d0a7e834e3c1fe5a523915b5bb
+    url: https://github.com/lbartoletti/BeatIt/releases/download/0.0.1/BeatIt-0.0.1-Windows.zip
