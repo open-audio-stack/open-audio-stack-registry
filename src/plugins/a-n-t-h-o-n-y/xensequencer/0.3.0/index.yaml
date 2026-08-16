@@ -1,0 +1,50 @@
+name: XenSequencer
+author: Anthony
+description: Step Sequencer VST Plugin
+license: agpl-3.0
+type: instrument
+tags:
+  - Audio
+  - Daw
+  - Microtonal
+  - Midi
+  - Music Composition
+  - Vst
+  - Xenharmonic
+  - Music
+url: https://github.com/a-n-t-h-o-n-y/XenSequencer
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/a-n-t-h-o-n-y/xensequencer/xensequencer.jpg
+date: '2024-12-11T23:39:37Z'
+changes: Tweaks and additions based on practical use in DAWs.
+files:
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - vst3
+    type: archive
+    size: 4198986
+    sha256: f3af7a435c70a922b32e59ee10ed638e529c03c93826898a67046f9e01423045
+    url: https://github.com/a-n-t-h-o-n-y/XenSequencer/releases/download/v0.3.0/XenSequencer_0_3_0_Linux.vst3.zip
+  - systems:
+      - type: mac
+    architectures:
+      - arm64
+      - x64
+    contains:
+      - vst3
+    type: archive
+    size: 7185136
+    sha256: afccb5982854abdfd90b97869ddae84396769c0497ee8949d343269ca347d446
+    url: https://github.com/a-n-t-h-o-n-y/XenSequencer/releases/download/v0.3.0/XenSequencer_0_3_0_MacOS.vst3.zip
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - vst3
+    type: archive
+    size: 3444016
+    sha256: 95b70d18419e81d692fd3b3630eccbaa06800897701617810b662dd6f2141546
+    url: https://github.com/a-n-t-h-o-n-y/XenSequencer/releases/download/v0.3.0/XenSequencer_0_3_0_Win.vst3.zip
