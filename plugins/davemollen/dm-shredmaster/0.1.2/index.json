@@ -1,0 +1,135 @@
+{
+  "name": "dm-Shredmaster",
+  "author": "Dave Mollen",
+  "description": "Distortion plugin",
+  "license": "gpl-3.0",
+  "type": "effect",
+  "tags": [
+    "distortion",
+    "Au"
+  ],
+  "url": "https://github.com/davemollen/dm-Shredmaster",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/davemollen/dm-shredmaster/dm-shredmaster.jpg",
+  "date": "2026-03-23T08:48:55Z",
+  "changes": "- Fixed linux vst3 build",
+  "files": [
+    {
+      "systems": [
+        {
+          "type": "mac"
+        }
+      ],
+      "architectures": [
+        "arm64",
+        "x64"
+      ],
+      "contains": [
+        "vst3",
+        "component",
+        "clap",
+        "lv2"
+      ],
+      "type": "archive",
+      "size": 21317217,
+      "sha256": "fe09e1439109c5eb5ae14fa8c72d276b7ce811d0bcb543243008180a96632f2e",
+      "url": "https://github.com/davemollen/dm-Shredmaster/releases/download/v0.1.2/dm-Shredmaster-macos.zip",
+      "downloads": 13
+    },
+    {
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "lv2"
+      ],
+      "type": "archive",
+      "size": 864621,
+      "sha256": "5d7e7e90f5113a9edefb4911460c1069a7ccbe1825981c298653a43cad404a2e",
+      "url": "https://github.com/davemollen/dm-Shredmaster/releases/download/v0.1.2/dm-Shredmaster-modduo-new.zip",
+      "downloads": 3
+    },
+    {
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "lv2"
+      ],
+      "type": "archive",
+      "size": 852332,
+      "sha256": "934a6dc39a210b401aac0a7924618f3de07fe2c70743d94a38987a2e553555c0",
+      "url": "https://github.com/davemollen/dm-Shredmaster/releases/download/v0.1.2/dm-Shredmaster-modduox-new.zip",
+      "downloads": 2
+    },
+    {
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "lv2"
+      ],
+      "type": "archive",
+      "size": 851994,
+      "sha256": "66082a782c183c2e68d956d1aaa1997cfba1ea5d78d723a95cabf528656c432c",
+      "url": "https://github.com/davemollen/dm-Shredmaster/releases/download/v0.1.2/dm-Shredmaster-moddwarf-new.zip",
+      "downloads": 4
+    },
+    {
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3",
+        "clap",
+        "lv2"
+      ],
+      "type": "archive",
+      "size": 7997156,
+      "sha256": "b967058d733c0e0be15ceadb2c7b523e2203ddfa571653cb4a53b2758b73c851",
+      "url": "https://github.com/davemollen/dm-Shredmaster/releases/download/v0.1.2/dm-Shredmaster-ubuntu.zip",
+      "downloads": 8
+    },
+    {
+      "systems": [
+        {
+          "type": "win"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3",
+        "clap",
+        "lv2"
+      ],
+      "type": "archive",
+      "size": 7178562,
+      "sha256": "68f8491b92b1a424e47b8ae3129f9376a3195195b201a3551773e7abab4b2736",
+      "url": "https://github.com/davemollen/dm-Shredmaster/releases/download/v0.1.2/dm-Shredmaster-windows.zip",
+      "downloads": 44
+    }
+  ],
+  "verified": true,
+  "downloads": 74
+}
