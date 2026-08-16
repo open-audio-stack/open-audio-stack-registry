@@ -38,7 +38,7 @@
             "size": 12639128,
             "sha256": "111c5cee51772ff5d0599776ed73979f1cc7df3c959bbfdae4bea0c1128a2b53",
             "url": "https://github.com/peastman/ViolaExMachina/releases/download/v1.4/viola_ex_machina-linux-x86.zip",
-            "downloads": 33
+            "downloads": 34
           },
           {
             "systems": [
@@ -97,11 +97,11 @@
             "size": 10563252,
             "sha256": "14808b00f3774beff4672473f038e204b5b976770225e3d7fd783d54552f7c26",
             "url": "https://github.com/peastman/ViolaExMachina/releases/download/v1.4/viola_ex_machina-windows-x86.zip",
-            "downloads": 25
+            "downloads": 26
           }
         ],
         "verified": true,
-        "downloads": 68
+        "downloads": 70
       },
       "1.3.0": {
         "name": "Viola Ex Machina",
@@ -204,7 +204,7 @@
         "downloads": 98
       }
     },
-    "downloads": 166
+    "downloads": 168
   },
   "peastman/sonatina-symphonic-orchestra": {
     "slug": "peastman/sonatina-symphonic-orchestra",
@@ -301,7 +301,7 @@
             "size": 8570902,
             "type": "archive",
             "url": "https://github.com/peastman/ChorusExMachina/releases/download/v1.3/chorus_ex_machina-linux-x86.zip",
-            "downloads": 416
+            "downloads": 418
           },
           {
             "architectures": [
@@ -360,11 +360,11 @@
             "size": 7182011,
             "type": "archive",
             "url": "https://github.com/peastman/ChorusExMachina/releases/download/v1.3/chorus_ex_machina-windows-x86.zip",
-            "downloads": 80
+            "downloads": 81
           }
         ],
         "verified": true,
-        "downloads": 559
+        "downloads": 562
       },
       "1.2.0": {
         "name": "Chorus Ex Machina",
@@ -565,6 +565,6 @@
         "downloads": 92
       }
     },
-    "downloads": 731
+    "downloads": 734
   }
 }

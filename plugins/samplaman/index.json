@@ -35,7 +35,8 @@
             "type": "archive",
             "size": 9760897,
             "sha256": "bdce4edf01677f9df1bf2d05c847236ce67f6757ebbf78f12baaca6bed3012c5",
-            "url": "https://github.com/samplaman/owmb/releases/download/v1.0.0/OWMB-Linux-Distros-x64.tar.gz"
+            "url": "https://github.com/samplaman/owmb/releases/download/v1.0.0/OWMB-Linux-Distros-x64.tar.gz",
+            "downloads": 1
           },
           {
             "systems": [
@@ -58,10 +59,10 @@
           }
         ],
         "verified": true,
-        "downloads": 1
+        "downloads": 2
       }
     },
-    "downloads": 1
+    "downloads": 2
   },
   "samplaman/layerengine": {
     "slug": "samplaman/layerengine",
@@ -176,7 +177,7 @@
             "size": 14836717,
             "sha256": "305247433cfa2136784d69a75d545850bda45e69aa9e9b8c13734ee43babc070",
             "url": "https://github.com/samplaman/layerengine/releases/download/latest/LayerEngine-macOS.zip",
-            "downloads": 234
+            "downloads": 237
           },
           {
             "systems": [
@@ -194,13 +195,13 @@
             "size": 3313997,
             "sha256": "fb6d96a0a5c7be6b7eaf88989f1b9c7666eca8173a49857c811fb149bc1ef9eb",
             "url": "https://github.com/samplaman/layerengine/releases/download/latest/LayerEngine-Windows.zip",
-            "downloads": 604
+            "downloads": 610
           }
         ],
         "verified": true,
-        "downloads": 888
+        "downloads": 897
       }
     },
-    "downloads": 888
+    "downloads": 897
   }
 }
