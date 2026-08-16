@@ -7526,7 +7526,7 @@
             "size": 416715686,
             "sha256": "b56e8d51a8dc2382ae668c9ff4e96bae38dbd452af4e584d5a5ef50ab2d09b07",
             "url": "https://github.com/surge-synthesizer/releases-xt/releases/download/1.3.4/surge-xt-macOS-1.3.4.dmg",
-            "downloads": 153945
+            "downloads": 153946
           },
           {
             "systems": [
@@ -7565,11 +7565,11 @@
             "size": 183385478,
             "sha256": "6e221e05f29254508142b9e0ed76a85f22fa1b512501bebde571951e7eefecca",
             "url": "https://github.com/surge-synthesizer/releases-xt/releases/download/1.3.4/surge-xt-win64-1.3.4-setup.exe",
-            "downloads": 511154
+            "downloads": 511160
           }
         ],
         "verified": true,
-        "downloads": 724079
+        "downloads": 724086
       },
       "1.3.1": {
         "name": "Surge XT",
@@ -7696,7 +7696,7 @@
         "downloads": 84185
       }
     },
-    "downloads": 808264
+    "downloads": 808271
   },
   "surge-synthesizer/ob-xf": {
     "slug": "surge-synthesizer/ob-xf",
@@ -21387,6 +21387,110 @@
       }
     },
     "downloads": 38293
+  },
+  "leon-focker/metrefiddler": {
+    "slug": "leon-focker/metrefiddler",
+    "version": "1.4.0",
+    "versions": {
+      "1.4.0": {
+        "name": "MetreFiddler",
+        "author": "Leon Focker",
+        "description": "VST Plugin creative MIDI processing based on metre.",
+        "license": "gpl-3.0",
+        "type": "generator",
+        "tags": [
+          "midi",
+          "rhythm",
+          "metre"
+        ],
+        "url": "https://github.com/Leon-Focker/MetreFiddler",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/leon-focker/metrefiddler/metrefiddler.jpg",
+        "date": "2026-05-08T18:46:16Z",
+        "changes": "v1.4.0 release.",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "mac",
+                "min": 15
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "clap"
+            ],
+            "type": "archive",
+            "size": 18591274,
+            "sha256": "83316d8f5991def4e45def062afc95c5881602e1262b4e6a407d360f39cbfe64",
+            "url": "https://github.com/Leon-Focker/MetreFiddler/releases/download/v1.4.0/binary-macos-15-intel-x86_64.zip",
+            "downloads": 2
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64"
+            ],
+            "contains": [
+              "vst3",
+              "clap"
+            ],
+            "type": "archive",
+            "size": 157287048,
+            "sha256": "86573fd38647f5af8c95e7ae1293410047b64b30d005fde1333d1d9f3408e10c",
+            "url": "https://github.com/Leon-Focker/MetreFiddler/releases/download/v1.4.0/binary-macos-latest-aarch64.zip",
+            "downloads": 2
+          },
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "clap"
+            ],
+            "type": "archive",
+            "size": 19227084,
+            "sha256": "24ffa825c63d37c28cb45af794ff86c4ac8b8cbfe6be458f2f6db32a9160c188",
+            "url": "https://github.com/Leon-Focker/MetreFiddler/releases/download/v1.4.0/binary-ubuntu-latest-x86_64.zip",
+            "downloads": 2
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "clap"
+            ],
+            "type": "archive",
+            "size": 18595084,
+            "sha256": "805212ade5ad6f9c4243499b72b92fb78808844f3f9ed8caa464fb5533af8cd1",
+            "url": "https://github.com/Leon-Focker/MetreFiddler/releases/download/v1.4.0/binary-windows-latest-x86_64.zip",
+            "downloads": 4
+          }
+        ],
+        "verified": true,
+        "downloads": 10
+      }
+    },
+    "downloads": 10
   },
   "leomccormack/sparta": {
     "slug": "leomccormack/sparta",
@@ -36705,7 +36809,7 @@
             "size": 27549300,
             "type": "installer",
             "url": "https://github.com/DamRsn/NeuralNote/releases/download/v1.1.0/NeuralNote_Installer_Mac.pkg",
-            "downloads": 38759
+            "downloads": 38761
           },
           {
             "architectures": [
@@ -36728,10 +36832,10 @@
           }
         ],
         "verified": true,
-        "downloads": 187596
+        "downloads": 187598
       }
     },
-    "downloads": 187596
+    "downloads": 187598
   },
   "damiensellier/ctrlrx": {
     "slug": "damiensellier/ctrlrx",
