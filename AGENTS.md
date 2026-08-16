@@ -178,6 +178,8 @@ gh api repos/<org>/<repo>/contents/REUSE.toml --jq '.content' | base64 -d   # if
 gh api repos/<org>/<repo>/license --jq '.content' | base64 -d | head -20
 ```
 
+Watch for **multi-component LICENSE files** — some projects bundle a third-party dependency's full license text below their own (e.g. DPF, JUCE), each under its own "X is released under the Y license" heading. The project's own declared license (the first such statement, near the top) is what belongs in the registry entry — not whichever license text happens to appear first in a byte-offset scan, and not a bundled dependency's license. The fetch script's text-detection now prioritizes this explicit declaration for exactly this reason (see [#819](https://github.com/open-audio-stack/open-audio-stack-registry/pull/819)/[#857](https://github.com/open-audio-stack/open-audio-stack-registry/pull/857)), but confirm by eye when a LICENSE file has more than one `##`-style section.
+
 **3e. Has releases with binary builds**
 
 ```bash
@@ -275,11 +277,13 @@ The script is deterministic — it reads only what GitHub's API and the README p
 
 **`author`** — fetched from the GitHub user's display name. If the developer has not set a display name on GitHub, this falls back to their login (e.g. `jatinchowdhury18` instead of `Chowdhury DSP`). Look up the correct author name from the plugin's website or README.
 
-**`description`** — taken from the GitHub repository "About" field (≤255 characters). This is often shorter or less accurate than the plugin's own documentation. Expand or rewrite if needed.
+**`description`** — taken from the GitHub repository "About" field (≤255 characters). This is often shorter or less accurate than the plugin's own documentation — occasionally it's a tagline/pun rather than a functional description at all (e.g. Waxman's was "Let's rock, man!", merged as-is in [#819](https://github.com/open-audio-stack/open-audio-stack-registry/pull/819) until the author flagged it). The fetch script's review checklist now always prints the description and flags anything under 40 characters as likely needing expansion — treat that flag as a prompt to go read the README, not something to dismiss.
 
 **`type`** — inferred by scoring keywords in the description, topics, and README. This can misfire, especially for plugins that are clearly effects (tape, distortion, EQ) but whose README doesn't use the expected keywords. Always confirm: `instrument` / `effect` / `sampler` / `generator` / `tool`.
 
 **`tags`** — **All tags MUST be Title Case** (e.g. `Guitar`, `Pitch Shifter`, `Noise Gate`). The fetch script converts GitHub topics automatically; if you add or edit tags manually, apply Title Case. GitHub topics are technical (e.g. `vst3-plugin`, `juce`) while registry tags should be semantic categories (e.g. `Effect`, `Filter`, `Tape`). Replace with meaningful registry tags. Run `npm run dev:fix-tags` to bulk-fix any all-lowercase tags across the registry.
+
+The fetch script now filters out a known set of technical/toolchain topics (plugin formats, frameworks, languages) before picking the first 8 — this catches the common case, but it's a fixed list, not exhaustive. Still check by hand: a plugin's real descriptive topics (`guitar-pedal`, `rockman`, `noise-gate`-type category words) can be crowded out by an unlisted technical topic, or the repo simply may not have tagged its GitHub topics well at all — read the README for functionality the topics list misses (see [#819](https://github.com/open-audio-stack/open-audio-stack-registry/pull/819), where "Noise Gate" wasn't even a GitHub topic despite being a core feature).
 
 **`changes`** — taken verbatim from the GitHub release body, trimmed to 255 characters. Release bodies often include headers, markdown formatting, or unrelated links. Clean up to a concise bullet list of changes. `changes` is a required field — if the release body is empty (common for rolling/nightly tags), the fetch script falls back to `"<tag> release."`; feel free to replace that with something more specific (e.g. summarizing the latest commit message) if one is available.
 
