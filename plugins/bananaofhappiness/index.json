@@ -1,0 +1,102 @@
+{
+  "bananaofhappiness/soundscope": {
+    "slug": "bananaofhappiness/soundscope",
+    "version": "1.9.2",
+    "versions": {
+      "1.9.2": {
+        "name": "Soundscope",
+        "author": "Egor Kurtashkin",
+        "description": "A TUI app for analyzing audio data such as frequencies and loudness (LUFS)",
+        "license": "mit",
+        "type": "tool",
+        "tags": [
+          "visualizer",
+          "terminal",
+          "lufs",
+          "spectrum-analyzer"
+        ],
+        "url": "https://github.com/bananaofhappiness/soundscope",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/bananaofhappiness/soundscope/soundscope.jpg",
+        "date": "2026-06-11T07:19:01Z",
+        "changes": "v1.9.2: fixed a freeze when a directory is passed as an argument, fixed FFT\nscaling (range now -100..-18 dBFS), and switched to a filled-area chart\nrendering mode for the spectrum analyzer and LUFS meters.",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "elf"
+            ],
+            "type": "archive",
+            "size": 1369702,
+            "sha256": "cd69efc0588826a8bf2dfa0264be6a1126d789483b4a2b11302247f507eb0717",
+            "url": "https://github.com/bananaofhappiness/soundscope/releases/download/v1.9.2/soundscope-Linux-gnu-x86_64.tar.gz",
+            "downloads": 19
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64"
+            ],
+            "contains": [
+              "app"
+            ],
+            "type": "archive",
+            "size": 1235240,
+            "sha256": "996e30c5433b8b58ad9c7ee6c768ba03f18f3e265add6664a3eca423162de5f4",
+            "url": "https://github.com/bananaofhappiness/soundscope/releases/download/v1.9.2/soundscope-macOS-arm64.tar.gz",
+            "downloads": 7
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "app"
+            ],
+            "type": "archive",
+            "size": 1318091,
+            "sha256": "4282eafdac452094a594131d51f6b93a1efa6587885112d0d8978dffda9a2507",
+            "url": "https://github.com/bananaofhappiness/soundscope/releases/download/v1.9.2/soundscope-macOS-x86_64.tar.gz",
+            "downloads": 5
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "exe"
+            ],
+            "type": "archive",
+            "size": 1271501,
+            "sha256": "69ddc6e94a7a2a04324dfd9676169fa71ee770e6107d9091fd53cb7ca70fd112",
+            "url": "https://github.com/bananaofhappiness/soundscope/releases/download/v1.9.2/soundscope-Windows-gnu-x86_64.zip",
+            "downloads": 11
+          }
+        ],
+        "verified": true,
+        "downloads": 42
+      }
+    },
+    "downloads": 42
+  }
+}
