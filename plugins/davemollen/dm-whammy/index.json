@@ -1,0 +1,142 @@
+{
+  "slug": "davemollen/dm-whammy",
+  "version": "0.1.0",
+  "versions": {
+    "0.1.0": {
+      "name": "dm-Whammy",
+      "author": "Dave Mollen",
+      "description": "Pitchshift plugin",
+      "license": "gpl-3.0",
+      "type": "effect",
+      "tags": [
+        "pitch-shift",
+        "Au"
+      ],
+      "url": "https://github.com/davemollen/dm-Whammy",
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/davemollen/dm-whammy/dm-whammy.jpg",
+      "date": "2026-03-23T08:50:23Z",
+      "changes": "- Fixed linux vst3 build",
+      "files": [
+        {
+          "systems": [
+            {
+              "type": "mac"
+            }
+          ],
+          "architectures": [
+            "arm64",
+            "x64"
+          ],
+          "contains": [
+            "vst3",
+            "component",
+            "clap",
+            "lv2"
+          ],
+          "type": "archive",
+          "size": 21254173,
+          "sha256": "6ad44ef627cedfda52e091e9222913ed7f0c8ebeb15667d0906ad689cc1906de",
+          "url": "https://github.com/davemollen/dm-Whammy/releases/download/v0.1.0/dm-Whammy-macos.zip",
+          "downloads": 14
+        },
+        {
+          "systems": [
+            {
+              "type": "linux"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "lv2"
+          ],
+          "type": "archive",
+          "size": 925586,
+          "sha256": "3ff0c977a6790414332c3299c40dc82d3fc3134caae86782cbf0b6414702fd41",
+          "url": "https://github.com/davemollen/dm-Whammy/releases/download/v0.1.0/dm-Whammy-modduo-new.zip",
+          "downloads": 6
+        },
+        {
+          "systems": [
+            {
+              "type": "linux"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "lv2"
+          ],
+          "type": "archive",
+          "size": 915278,
+          "sha256": "befead660ae5ef1854f90b68bd1545b56da77c96fc3018fb08ceb99bb0ac72bc",
+          "url": "https://github.com/davemollen/dm-Whammy/releases/download/v0.1.0/dm-Whammy-modduox-new.zip",
+          "downloads": 2
+        },
+        {
+          "systems": [
+            {
+              "type": "linux"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "lv2"
+          ],
+          "type": "archive",
+          "size": 914919,
+          "sha256": "8017d01be40d8f3b8961dd8d895ca6c194511f327e26c857e18f2c1626e860c1",
+          "url": "https://github.com/davemollen/dm-Whammy/releases/download/v0.1.0/dm-Whammy-moddwarf-new.zip",
+          "downloads": 4
+        },
+        {
+          "systems": [
+            {
+              "type": "linux"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "vst3",
+            "clap",
+            "lv2"
+          ],
+          "type": "archive",
+          "size": 8019676,
+          "sha256": "2e6034eb0679d2eed979a03dab392ffcdbdd7133580a9638cec96d8c402b7efc",
+          "url": "https://github.com/davemollen/dm-Whammy/releases/download/v0.1.0/dm-Whammy-ubuntu.zip",
+          "downloads": 16
+        },
+        {
+          "systems": [
+            {
+              "type": "win"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "vst3",
+            "clap",
+            "lv2"
+          ],
+          "type": "archive",
+          "size": 7201089,
+          "sha256": "4292a8d0eae565a862a495bee458dc7891275ab91734fbbac3b4dd76038b3801",
+          "url": "https://github.com/davemollen/dm-Whammy/releases/download/v0.1.0/dm-Whammy-windows.zip",
+          "downloads": 68
+        }
+      ],
+      "verified": true,
+      "downloads": 110
+    }
+  },
+  "downloads": 110
+}
