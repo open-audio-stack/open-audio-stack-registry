@@ -1,0 +1,53 @@
+name: Granola
+author: Dylan Martin
+description: Sintetizador granular estocástico. (VST3)
+license: gpl-3.0
+type: instrument
+tags:
+  - Puredata
+  - Vst
+url: https://github.com/martindylan/granola
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/martindylan/granola/granola.jpg
+date: '2025-03-23T17:48:05Z'
+changes: '- Se agregó el parámetro de legato faltante, lo cual corría todos los parámetros a partir de ese (breaking change).'
+files:
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - vst3
+    type: archive
+    size: 3976653
+    sha256: bfe99e51e9afa37702da800f89a9654c33d1335f88f5b6950d479b6b83c25093
+    url: https://github.com/martindylan/granola/releases/download/v1.2.1/granola-linux-x86_64.zip
+  - systems:
+      - type: mac
+    architectures:
+      - x64
+    contains:
+      - vst3
+    type: archive
+    size: 1818279
+    sha256: 0ffcdba69e2d073bd32ab6ff375a8152ba9ed36f05c1663cecdd2650c02510c8
+    url: https://github.com/martindylan/granola/releases/download/v1.2.1/granola-macOS.zip
+  - systems:
+      - type: win
+    architectures:
+      - x32
+    contains:
+      - vst3
+    type: archive
+    size: 1953990
+    sha256: 307891afc7d3ba1528fd97986b8da478d99bf06e62ad8d2498d2362d36b300b1
+    url: https://github.com/martindylan/granola/releases/download/v1.2.1/granola-win32.zip
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - vst3
+    type: archive
+    size: 2343552
+    sha256: 305b4dec408a5e152b54565d09e735ba87cb76907c351951d6b3f819af97e56e
+    url: https://github.com/martindylan/granola/releases/download/v1.2.1/granola-win64.zip
