@@ -15352,6 +15352,162 @@
       }
     }
   },
+  "pauljonescodes/pro-punk-drums": {
+    "slug": "pauljonescodes/pro-punk-drums",
+    "version": "1.0.1",
+    "versions": {
+      "1.0.1": {
+        "name": "Pro Punk Drums",
+        "author": "Paul Jones",
+        "description": "JUCE simulation of my drum kit with mixing tools",
+        "license": "gpl-3.0",
+        "type": "sampler",
+        "tags": [
+          "Drums",
+          "Sampler",
+          "Punk"
+        ],
+        "url": "https://github.com/pauljonescodes/pro-punk-drums",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/pauljonescodes/pro-punk-drums/pro-punk-drums.jpg",
+        "date": "2024-02-19T16:57:28Z",
+        "changes": "Mirror:\r\n- [Windows VST3](https://www.dropbox.com/scl/fi/lhk3esg533wwq4asxw9ss/Pro-Punk-Drums.vst3?rlkey=yq8xom5bv93olnk3rjq337aqy&dl=1)\r...",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 129026048,
+            "sha256": "f66cfeb673f61122cad7df4b6a0c1250ab80dcb8858b81a38201288ebf358710",
+            "url": "https://github.com/pauljonescodes/pro-punk-drums/releases/download/1.0.1/Pro-Punk-Drums-Windows-VST3.vst3",
+            "downloads": 36
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "aax"
+            ],
+            "type": "archive",
+            "size": 129003360,
+            "sha256": "6ae40ff9776c0619c0befc033d758f27b8cc75251482fffe92f675e07ba7dc97",
+            "url": "https://github.com/pauljonescodes/pro-punk-drums/releases/download/1.0.1/Pro-Punk-Drums-Windows-AAX.aaxplugin",
+            "downloads": 3
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "component"
+            ],
+            "type": "installer",
+            "size": 187875355,
+            "sha256": "26b655f32dc4f1cb26b2a3c60ca7697ecee49ce3f0abd4cbfdb318e786d1aa2a",
+            "url": "https://github.com/pauljonescodes/pro-punk-drums/releases/download/1.0.1/Pro-Punk-Drums-AU.pkg",
+            "downloads": 5
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "aax"
+            ],
+            "type": "installer",
+            "size": 187850825,
+            "sha256": "03c5a56dc9d786b38a6ae35fcf1ae2da9ef9a1ef3e83ac05f05c149fd4fba8dd",
+            "url": "https://github.com/pauljonescodes/pro-punk-drums/releases/download/1.0.1/Pro-Punk-Drums-macOS-AAX.pkg",
+            "downloads": 4
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "installer",
+            "size": 187874906,
+            "sha256": "48a18b1b88cb4d19d883acbd70e983adf90191547ce7a0218fdeda58fae73d35",
+            "url": "https://github.com/pauljonescodes/pro-punk-drums/releases/download/1.0.1/Pro-Punk-Drums-macOS-VST3.pkg",
+            "downloads": 4
+          },
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 96790102,
+            "sha256": "b9b2683cd1e2b0d170c9ee20498751c272230c6b301605844c289b4d0563f8c9",
+            "url": "https://github.com/pauljonescodes/pro-punk-drums/releases/download/1.0.1/Pro-Punk-Drums-Linux-VST3.zip",
+            "downloads": 12
+          },
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "elf"
+            ],
+            "type": "archive",
+            "size": 96749831,
+            "sha256": "2237194808e5657f5f75f2647543a01693815b669782c84b8ad32d5f16a146fe",
+            "url": "https://github.com/pauljonescodes/pro-punk-drums/releases/download/1.0.1/Pro-Punk-Drums-Linux-Standalone.zip",
+            "downloads": 8
+          }
+        ],
+        "verified": true,
+        "downloads": 72
+      }
+    },
+    "downloads": 72
+  },
   "pachii/topaz-pan": {
     "slug": "pachii/topaz-pan",
     "version": "0.3.1-alpha",
