@@ -7777,7 +7777,7 @@
             "size": 60657850,
             "sha256": "e6f52f453c476dfafbd3225b80c5c3ec341ec20be5748c6f70c01cef14e7e7a8",
             "url": "https://github.com/surge-synthesizer/OB-Xf/releases/download/v1.0.3/ob-xf-macOS-v1.0.3.dmg",
-            "downloads": 2781
+            "downloads": 2782
           },
           {
             "systems": [
@@ -7895,10 +7895,10 @@
           }
         ],
         "verified": true,
-        "downloads": 9505
+        "downloads": 9506
       }
     },
-    "downloads": 9505
+    "downloads": 9506
   },
   "surge-synthesizer/monique-monosynth": {
     "slug": "surge-synthesizer/monique-monosynth",
@@ -13245,7 +13245,7 @@
             "size": 124199089,
             "sha256": "f2df9244befff95b50c2d0d0ea7ffb21b90445b241b4670db26e504e06a85dd2",
             "url": "https://github.com/psemiletov/drumlabooh/releases/download/12.2.0/drumlabooh-installer.exe",
-            "downloads": 281
+            "downloads": 283
           },
           {
             "systems": [
@@ -13321,10 +13321,10 @@
           }
         ],
         "verified": true,
-        "downloads": 1665
+        "downloads": 1667
       }
     },
-    "downloads": 1665
+    "downloads": 1667
   },
   "pschaupp/spectral-abyss-multiband-saturation": {
     "slug": "pschaupp/spectral-abyss-multiband-saturation",
@@ -17340,6 +17340,70 @@
       }
     },
     "downloads": 4384
+  },
+  "mrugalla/absorbiere": {
+    "slug": "mrugalla/absorbiere",
+    "version": "20250824.0.0",
+    "versions": {
+      "20250824.0.0": {
+        "name": "Absorbiere",
+        "author": "Florian Mrugalla",
+        "description": "Autogain Sidechain Ringmod",
+        "license": "gpl-3.0",
+        "type": "effect",
+        "tags": [
+          "ring-modulator",
+          "sidechain",
+          "autogain"
+        ],
+        "url": "https://github.com/Mrugalla/Absorbiere",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/mrugalla/absorbiere/absorbiere.jpg",
+        "date": "2025-08-24T12:14:36Z",
+        "changes": "2025_08_24: Windows + Mac, fixed all known bugs. 2025_08_23: Windows version\nwith the interprocess recapture feature. 2025_08_22: Mac version is now up\nto date again.",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64"
+            ],
+            "contains": [
+              "vst3",
+              "component"
+            ],
+            "type": "installer",
+            "size": 3728284,
+            "sha256": "988eb81f2d103e26e2eacd444d0833251c68adfa764432bd9d9a978462ed48d2",
+            "url": "https://github.com/Mrugalla/Absorbiere/releases/download/vst/2025-08-24_absorbiere.dmg",
+            "downloads": 384
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 3263377,
+            "sha256": "26e417ae72ac466e69ceea823362a182a4acdab9f8f20fef8c582c5e3791e518",
+            "url": "https://github.com/Mrugalla/Absorbiere/releases/download/vst/Absorbiere.vst3.zip",
+            "downloads": 968
+          }
+        ],
+        "verified": true,
+        "downloads": 1352
+      }
+    },
+    "downloads": 1352
   },
   "mm-rnd/kiln": {
     "slug": "mm-rnd/kiln",
@@ -21865,7 +21929,7 @@
             "size": 169157045,
             "sha256": "1364ae3fbc6acec1764b969c779d9d1d3b814014d24287695c3f1f9010c05b90",
             "url": "https://github.com/kushview/element/releases/download/1.0.0/element-1.0.0-macos.dmg",
-            "downloads": 5676
+            "downloads": 5677
           },
           {
             "systems": [
@@ -21891,10 +21955,10 @@
           }
         ],
         "verified": true,
-        "downloads": 24215
+        "downloads": 24216
       }
     },
-    "downloads": 24215
+    "downloads": 24216
   },
   "kiriki-liszt/relief-eq": {
     "slug": "kiriki-liszt/relief-eq",
@@ -22079,14 +22143,14 @@
             "size": 4598786,
             "sha256": "ff882429e2f6c5be9a9757f6f136acd4f8e3b2a1cc212cf1fabbe0f6b28c192f",
             "url": "https://github.com/Kiriki-liszt/JS_Inflator/releases/download/v2.0.3.2/JS.Inflator.Win.v2.0.3.2.zip",
-            "downloads": 32399
+            "downloads": 32400
           }
         ],
         "verified": true,
-        "downloads": 50269
+        "downloads": 50270
       }
     },
-    "downloads": 50269
+    "downloads": 50270
   },
   "killbizz/biztortion": {
     "slug": "killbizz/biztortion",
@@ -24781,14 +24845,14 @@
             "size": 497392105,
             "sha256": "ea621909afc4640fdb317afbf4cb645ac238f4e0d21690074010874c4d697716",
             "url": "https://github.com/JamesStubbsEng/8ridgelite/releases/download/v1.0.5/8ridgelite.pkg",
-            "downloads": 2436
+            "downloads": 2437
           }
         ],
         "verified": true,
-        "downloads": 10605
+        "downloads": 10606
       }
     },
-    "downloads": 10605
+    "downloads": 10606
   },
   "izzyreal/vmpc-juce": {
     "slug": "izzyreal/vmpc-juce",
@@ -36641,7 +36705,7 @@
             "size": 27549300,
             "type": "installer",
             "url": "https://github.com/DamRsn/NeuralNote/releases/download/v1.1.0/NeuralNote_Installer_Mac.pkg",
-            "downloads": 38758
+            "downloads": 38759
           },
           {
             "architectures": [
@@ -36664,10 +36728,10 @@
           }
         ],
         "verified": true,
-        "downloads": 187595
+        "downloads": 187596
       }
     },
-    "downloads": 187595
+    "downloads": 187596
   },
   "damiensellier/ctrlrx": {
     "slug": "damiensellier/ctrlrx",

@@ -2305,6 +2305,20 @@
       ]
     }
   },
+  "mrugalla/absorbiere": {
+    "20250824.0.0": {
+      "recs": [
+        {
+          "field": "url",
+          "rec": "requires mounting step, consider .pkg instead"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Linux"
+        }
+      ]
+    }
+  },
   "mm-rnd/kiln": {
     "0.0.1": {
       "recs": [
