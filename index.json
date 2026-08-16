@@ -339,6 +339,49 @@
       },
       "downloads": 53291
     },
+    "pkunk/pwrate": {
+      "slug": "pkunk/pwrate",
+      "version": "1.7.1",
+      "versions": {
+        "1.7.1": {
+          "name": "Pwrate",
+          "author": "Alex B",
+          "description": "Primitive sample rate chooser for pipewire.",
+          "license": "gpl-3.0",
+          "type": "tool",
+          "tags": [
+            "Pipewire",
+            "Sample Rate",
+            "Linux"
+          ],
+          "url": "https://github.com/pkunk/pwrate",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/apps/pkunk/pwrate/pwrate.jpg",
+          "date": "2025-01-14T18:19:27Z",
+          "changes": "- update rust dependencies",
+          "files": [
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "type": "archive",
+              "open": "pwrate",
+              "size": 650128,
+              "sha256": "ff4e110ee4580590c50fe03c7d6a61aa943bb8c20b0297eebbfe7ae09000dbcb",
+              "url": "https://github.com/pkunk/pwrate/releases/download/1.7.1/pwrate",
+              "downloads": 784
+            }
+          ],
+          "verified": true,
+          "downloads": 784
+        }
+      },
+      "downloads": 784
+    },
     "monocasual/giada": {
       "slug": "monocasual/giada",
       "version": "1.5.0",
@@ -1666,12 +1709,15 @@
               "type": "installer",
               "size": 12623277,
               "sha256": "4f96261cfd628bab587b9ed80564207abb38e5980bcb449fff6999f9a00f5ff1",
-              "url": "https://github.com/zynaddsubfx/zynaddsubfx/releases/download/2.5.3-osx/ZynAddSubFx-2.5.3.dmg"
+              "url": "https://github.com/zynaddsubfx/zynaddsubfx/releases/download/2.5.3-osx/ZynAddSubFx-2.5.3.dmg",
+              "downloads": 740
             }
           ],
-          "verified": true
+          "verified": true,
+          "downloads": 740
         }
-      }
+      },
+      "downloads": 740
     },
     "zones-convolution/zones-client": {
       "slug": "zones-convolution/zones-client",
@@ -18557,7 +18603,7 @@
               "size": 11036578,
               "sha256": "67e77186295a00758df0b760f3345fd0b9081b328f923ecc35307f6190f472d1",
               "url": "https://github.com/nikhilunni/demucs-rs/releases/download/v0.3.4/demucs-x86_64-pc-windows-msvc.zip",
-              "downloads": 196
+              "downloads": 198
             },
             {
               "systems": [
@@ -18579,10 +18625,10 @@
             }
           ],
           "verified": true,
-          "downloads": 517
+          "downloads": 519
         }
       },
-      "downloads": 517
+      "downloads": 519
     },
     "navicisco/stonemistress": {
       "slug": "navicisco/stonemistress",
@@ -20750,7 +20796,7 @@
               "size": 2058296,
               "sha256": "6c830ad1b1cc028b0f3c4f4c0a4b073d7193ba1c8783528ed9365df1fc9b23c2",
               "url": "https://github.com/michaelwillis/dragonfly-reverb/releases/download/3.2.10/dragonfly-reverb-3.2.10-linux-arm64.tar.xz",
-              "downloads": 15620
+              "downloads": 15621
             },
             {
               "systems": [
@@ -20909,10 +20955,10 @@
             }
           ],
           "verified": true,
-          "downloads": 129434
+          "downloads": 129435
         }
       },
-      "downloads": 129434
+      "downloads": 129435
     },
     "michael02022/basic-harmonica": {
       "slug": "michael02022/basic-harmonica",
@@ -25990,7 +26036,7 @@
               "size": 27323710,
               "sha256": "019e4c6e733e36855c068361ab99a4b0eb182117b0a51933f46e66a9c985be1f",
               "url": "https://github.com/Jun-Murakami/ZeroComp/releases/download/v1.1.7/ZeroComp_1.1.7_macOS.pkg",
-              "downloads": 22
+              "downloads": 23
             },
             {
               "systems": [
@@ -26062,10 +26108,10 @@
             }
           ],
           "verified": true,
-          "downloads": 210
+          "downloads": 211
         }
       },
-      "downloads": 210
+      "downloads": 211
     },
     "jun-murakami/tinyvu": {
       "slug": "jun-murakami/tinyvu",
@@ -48220,12 +48266,15 @@
               "type": "archive",
               "size": 64322,
               "sha256": "f1d039a6ddddb7fc6fcf0859e13d94260688b266c77ba951ee8d525ad4409ad9",
-              "url": "https://github.com/antoinegehinstudios/surgeXT-preset/releases/download/Presets/Synthpunk.fxp.zip"
+              "url": "https://github.com/antoinegehinstudios/surgeXT-preset/releases/download/Presets/Synthpunk.fxp.zip",
+              "downloads": 27
             }
           ],
-          "verified": true
+          "verified": true,
+          "downloads": 27
         }
-      }
+      },
+      "downloads": 27
     },
     "antoinegehinstudios/kappa": {
       "slug": "antoinegehinstudios/kappa",
@@ -48278,12 +48327,15 @@
               "type": "archive",
               "size": 5407,
               "sha256": "c1e1d8a9b6b3ef6f44557acb84dde807e755a9dd89d70540a73188744136bc7a",
-              "url": "https://github.com/antoinegehinstudios/surgeXT-preset/releases/download/Presets/Kappa.plays.in.water.fxp.zip"
+              "url": "https://github.com/antoinegehinstudios/surgeXT-preset/releases/download/Presets/Kappa.plays.in.water.fxp.zip",
+              "downloads": 23
             }
           ],
-          "verified": true
+          "verified": true,
+          "downloads": 23
         }
-      }
+      },
+      "downloads": 23
     },
     "antoinegehinstudios/gossip": {
       "slug": "antoinegehinstudios/gossip",
@@ -48335,12 +48387,15 @@
               "type": "archive",
               "size": 4211,
               "sha256": "e803f223e5094dc65c94b8c9e56338ff9e12d75bd05afdfa1b3bed84ec059c20",
-              "url": "https://github.com/antoinegehinstudios/surgeXT-preset/releases/download/Presets/Gossip.Glitchborgs.fxp.zip"
+              "url": "https://github.com/antoinegehinstudios/surgeXT-preset/releases/download/Presets/Gossip.Glitchborgs.fxp.zip",
+              "downloads": 23
             }
           ],
-          "verified": true
+          "verified": true,
+          "downloads": 23
         }
-      }
+      },
+      "downloads": 23
     }
   },
   "projects": {
@@ -48390,15 +48445,18 @@
               "open": "Banwer.als",
               "size": 3720765,
               "sha256": "e99fa24234d02814e3cb788d106b766876a065113c71d4855faf83cb9476ab98",
-              "url": "https://github.com/kmturley/banwer/releases/download/v1.0.1/banwer.zip"
+              "url": "https://github.com/kmturley/banwer/releases/download/v1.0.1/banwer.zip",
+              "downloads": 396
             }
           ],
           "plugins": {
             "surge-synthesizer/surge": "1.3.1"
           },
-          "verified": false
+          "verified": false,
+          "downloads": 396
         }
-      }
+      },
+      "downloads": 396
     }
   }
 }
