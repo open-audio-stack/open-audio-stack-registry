@@ -1,0 +1,110 @@
+{
+  "name": "Recall Sampler",
+  "author": "ummshsh",
+  "description": "VST plugin that records everything, you can drag recoreded parts anywhere",
+  "license": "mit",
+  "type": "sampler",
+  "tags": [
+    "sampler",
+    "looper",
+    "recording"
+  ],
+  "url": "https://github.com/ummshsh/Recall-Sampler",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ummshsh/recall-sampler/recall-sampler.jpg",
+  "date": "2025-08-02T13:01:58Z",
+  "changes": "v1.0 release.",
+  "files": [
+    {
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "lv2"
+      ],
+      "type": "archive",
+      "size": 23872646,
+      "sha256": "c47701f62c89251d6b14b9ed6c3d53abdf45b07ba69a01ab90230d7dbaec7a7a",
+      "url": "https://github.com/ummshsh/Recall-Sampler/releases/download/version-1.0/Recall.Sampler.lv2_linux64.zip",
+      "downloads": 5
+    },
+    {
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3"
+      ],
+      "type": "archive",
+      "size": 25238609,
+      "sha256": "3ad5b65df6a278ff5335634460a2e3f7e6defc95f5c37f0f3f886f4230f9e1e0",
+      "url": "https://github.com/ummshsh/Recall-Sampler/releases/download/version-1.0/Recall.Sampler.vst3_linux64.zip",
+      "downloads": 7
+    },
+    {
+      "systems": [
+        {
+          "type": "win"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3"
+      ],
+      "type": "installer",
+      "size": 6639104,
+      "sha256": "d22516e7f2522a7fca95c64122a581d0a521ec1f5bbe0323827a00c5a5a95cc0",
+      "url": "https://github.com/ummshsh/Recall-Sampler/releases/download/version-1.0/RecallSampler_win64.exe",
+      "downloads": 7
+    },
+    {
+      "systems": [
+        {
+          "type": "win"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3"
+      ],
+      "type": "archive",
+      "size": 6467072,
+      "sha256": "ebb36dc733b47485b9bd1b4aa10380878b330c5f39313f8d37bb8ed367fda054",
+      "url": "https://github.com/ummshsh/Recall-Sampler/releases/download/version-1.0/RecallSampler_win64.vst3",
+      "downloads": 11
+    },
+    {
+      "systems": [
+        {
+          "type": "win"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3"
+      ],
+      "type": "archive",
+      "size": 5287170,
+      "sha256": "48a1b48ce03384d4f640fc52912275963d8f293601763868dcff7b1e83de6aad",
+      "url": "https://github.com/ummshsh/Recall-Sampler/releases/download/version-1.0/RecallSampler_win64_vst3_standalone_1.0.zip",
+      "downloads": 8
+    }
+  ],
+  "verified": true,
+  "downloads": 38
+}
