@@ -69,14 +69,14 @@
               "size": 2408590,
               "sha256": "c08e61ce3b96db41636f8ec7e76f4c7e2c13ebdac7fa1b5a1f52b4f32ec715ab",
               "url": "https://github.com/Tracktion/pluginval/releases/download/v1.0.4/pluginval_Windows.zip",
-              "downloads": 98815
+              "downloads": 98816
             }
           ],
           "verified": true,
-          "downloads": 179595
+          "downloads": 179596
         }
       },
-      "downloads": 179595
+      "downloads": 179596
     },
     "steinberg/validator": {
       "slug": "steinberg/validator",
@@ -26377,7 +26377,7 @@
               "size": 3272248,
               "sha256": "cc60321967884d62a7a0ae39f07c763d21859e47071c15113f7811cdd776f64c",
               "url": "https://github.com/JonET/monksynth/releases/download/v0.2.0-beta.15/MonkSynth-0.2.0-beta.15-Windows-Setup.exe",
-              "downloads": 3111
+              "downloads": 3112
             },
             {
               "systems": [
@@ -26455,10 +26455,10 @@
             }
           ],
           "verified": true,
-          "downloads": 8670
+          "downloads": 8671
         }
       },
-      "downloads": 8670
+      "downloads": 8671
     },
     "joht/speclet": {
       "slug": "joht/speclet",
@@ -46745,6 +46745,93 @@
         }
       },
       "downloads": 15450
+    },
+    "a-n-t-h-o-n-y/xensequencer": {
+      "slug": "a-n-t-h-o-n-y/xensequencer",
+      "version": "0.3.0",
+      "versions": {
+        "0.3.0": {
+          "name": "XenSequencer",
+          "author": "Anthony",
+          "description": "Step Sequencer VST Plugin",
+          "license": "agpl-3.0",
+          "type": "instrument",
+          "tags": [
+            "Audio",
+            "Daw",
+            "Microtonal",
+            "Midi",
+            "Music Composition",
+            "Vst",
+            "Xenharmonic",
+            "Music"
+          ],
+          "url": "https://github.com/a-n-t-h-o-n-y/XenSequencer",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/a-n-t-h-o-n-y/xensequencer/xensequencer.jpg",
+          "date": "2024-12-11T23:39:37Z",
+          "changes": "Tweaks and additions based on practical use in DAWs.",
+          "files": [
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "vst3"
+              ],
+              "type": "archive",
+              "size": 4198986,
+              "sha256": "f3af7a435c70a922b32e59ee10ed638e529c03c93826898a67046f9e01423045",
+              "url": "https://github.com/a-n-t-h-o-n-y/XenSequencer/releases/download/v0.3.0/XenSequencer_0_3_0_Linux.vst3.zip",
+              "downloads": 4
+            },
+            {
+              "systems": [
+                {
+                  "type": "mac"
+                }
+              ],
+              "architectures": [
+                "arm64",
+                "x64"
+              ],
+              "contains": [
+                "vst3"
+              ],
+              "type": "archive",
+              "size": 7185136,
+              "sha256": "afccb5982854abdfd90b97869ddae84396769c0497ee8949d343269ca347d446",
+              "url": "https://github.com/a-n-t-h-o-n-y/XenSequencer/releases/download/v0.3.0/XenSequencer_0_3_0_MacOS.vst3.zip",
+              "downloads": 7
+            },
+            {
+              "systems": [
+                {
+                  "type": "win"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "vst3"
+              ],
+              "type": "archive",
+              "size": 3444016,
+              "sha256": "95b70d18419e81d692fd3b3630eccbaa06800897701617810b662dd6f2141546",
+              "url": "https://github.com/a-n-t-h-o-n-y/XenSequencer/releases/download/v0.3.0/XenSequencer_0_3_0_Win.vst3.zip",
+              "downloads": 23
+            }
+          ],
+          "verified": true,
+          "downloads": 34
+        }
+      },
+      "downloads": 34
     },
     "0x07dc/declicker": {
       "slug": "0x07dc/declicker",
