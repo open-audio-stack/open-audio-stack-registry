@@ -1,0 +1,78 @@
+name: Space Chili
+author: Davide Glafiro
+description: Space Chili is an open source, cross platform delay audio plug-in.
+license: gpl-3.0
+type: effect
+tags:
+  - Delay
+  - Chorus
+  - Feedback
+url: https://github.com/glafiro/space-chili
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/glafiro/space-chili/space-chili.jpg
+date: '2024-09-11T11:57:30Z'
+changes: v0.0.1 release.
+files:
+  - systems:
+      - type: mac
+    architectures:
+      - arm64
+      - x64
+    contains:
+      - component
+    type: archive
+    size: 7866701
+    sha256: 05e63daa53ef8f4a793a9fed3cbebd3ce71decbe770ea47ece68115da154b94b
+    url: https://github.com/glafiro/space-chili/releases/download/v0.0.1/Space.Chili.MacOS.beta.v0.0.1.AU.zip
+  - systems:
+      - type: mac
+    architectures:
+      - arm64
+      - x64
+    contains:
+      - vst3
+    type: archive
+    size: 7854392
+    sha256: fb34326aabee3f30b8f113fa9dd2d1c3a15c98bd79f1613fe7798613601e8c9e
+    url: https://github.com/glafiro/space-chili/releases/download/v0.0.1/Space.Chili.MacOS.beta.v0.0.1.vst3.zip
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - vst3
+    type: archive
+    size: 8202752
+    sha256: 1835bf61c210912588af2835c8da4a44cf6c028ff637882b57e625f7c0e2b4f0
+    url: https://github.com/glafiro/space-chili/releases/download/v0.0.1/SpaceChili.Windows.beta.v0.0.1.vst3
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - vst3
+    type: archive
+    size: 6323334
+    sha256: 980b1da4b7c70777abd6b799cb5e73e272d471c9fd5a7f28dc1cd734e05f761b
+    url: https://github.com/glafiro/space-chili/releases/download/v0.0.1/Space.Chili.Linux.x64.v0.0.1.vst3.zip
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - lv2
+    type: archive
+    size: 27396073
+    sha256: 60ab54ccece217725d17629edcc9ee7b30f6bfe4c6a2295c47ca8af5955abbf5
+    url: https://github.com/glafiro/space-chili/releases/download/v0.0.1/Space.Chili.Linux.x64.v0.0.1.lv2.zip
+  - systems:
+      - type: mac
+    architectures:
+      - arm64
+      - x64
+    contains:
+      - vst3
+      - component
+    type: installer
+    size: 15558048
+    sha256: c2aacceb67e7bc0a4cfcf8b2423f4185b15aa4db89ba380ef9bc761aec0a94c5
+    url: https://github.com/glafiro/space-chili/releases/download/v0.0.1/SpaceChili.v0.0.1.MacOS.pkg
