@@ -1,0 +1,55 @@
+name: Cable
+author: magillos
+description: PyQT application to dynamically modify Pipewire and Wireplumber settings at runtime.
+license: gpl-3.0
+type: tool
+tags:
+  - Pipewire
+  - Wireplumber
+  - Routing
+  - Linux
+url: https://github.com/magillos/Cable
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/magillos/cable/cable.jpg
+date: '2026-08-07T14:00:25Z'
+changes: "-better handling of split nodes visibility (graph)\r\n-in Layout menu, bold font selection replaced by radio buttons (graph)"
+files:
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - elf
+    type: installer
+    size: 1242304
+    sha256: 5536ae826eeab0f46582eff475f53bb21f70e24f1ba4489c4d51a51055575aa1
+    url: https://github.com/magillos/Cable/releases/download/0.10.13/Cable-0.10.13-bare.AppImage
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - elf
+    type: installer
+    size: 128563704
+    sha256: 1e1cfca5ff7f12433f040977ac381ddff54ec976dc900f137626decc6aefcb83
+    url: https://github.com/magillos/Cable/releases/download/0.10.13/Cable-0.10.13-bundled.AppImage
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - elf
+    type: installer
+    size: 250616
+    sha256: c2abcd71204ab4b7786e05f6bfcb225feb52711f166884d7467a14a1dc961a33
+    url: https://github.com/magillos/Cable/releases/download/0.10.13/Cable-0.10.13.deb
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - elf
+    type: installer
+    size: 11794624
+    sha256: 5a8346d8ccd5dc53d2103524dfd6d09d0ff88e3914e4da02b51d8e7a641d7e12
+    url: https://github.com/magillos/Cable/releases/download/0.10.13/Cable-0.10.13.flatpak
