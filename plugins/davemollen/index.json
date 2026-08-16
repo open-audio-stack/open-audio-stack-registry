@@ -1,4 +1,146 @@
 {
+  "davemollen/dm-tubescreamer": {
+    "slug": "davemollen/dm-tubescreamer",
+    "version": "0.0.9",
+    "versions": {
+      "0.0.9": {
+        "name": "dm-TubeScreamer",
+        "author": "Dave Mollen",
+        "description": "Overdrive plugin",
+        "license": "gpl-3.0",
+        "type": "effect",
+        "tags": [
+          "overdrive",
+          "Au"
+        ],
+        "url": "https://github.com/davemollen/dm-TubeScreamer",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/davemollen/dm-tubescreamer/dm-tubescreamer.jpg",
+        "date": "2026-03-23T08:49:55Z",
+        "changes": "- Fixed linux vst3 build",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "component",
+              "clap",
+              "lv2"
+            ],
+            "type": "archive",
+            "size": 21258826,
+            "sha256": "05fdbcdfbf3179ff29e55273e85e9f42fc3918e36a53a1c7bde6ef876679ac48",
+            "url": "https://github.com/davemollen/dm-TubeScreamer/releases/download/v0.0.9/dm-TubeScreamer-macos.zip",
+            "downloads": 18
+          },
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "lv2"
+            ],
+            "type": "archive",
+            "size": 924870,
+            "sha256": "e02a243619ac51a8b93a0f0179871a76e319f30556f28d2f48fe8906e197689b",
+            "url": "https://github.com/davemollen/dm-TubeScreamer/releases/download/v0.0.9/dm-TubeScreamer-modduo-new.zip",
+            "downloads": 8
+          },
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "lv2"
+            ],
+            "type": "archive",
+            "size": 912971,
+            "sha256": "36fbb4a998a393a66c9c2a62dc22266df743ded912e1ce7a41abcc2c1586085f",
+            "url": "https://github.com/davemollen/dm-TubeScreamer/releases/download/v0.0.9/dm-TubeScreamer-modduox-new.zip",
+            "downloads": 4
+          },
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "lv2"
+            ],
+            "type": "archive",
+            "size": 912658,
+            "sha256": "04a2fdb2621540b5e1ea0f571631af556e7900dd525a6693b8b1e0b21ecf19f0",
+            "url": "https://github.com/davemollen/dm-TubeScreamer/releases/download/v0.0.9/dm-TubeScreamer-moddwarf-new.zip",
+            "downloads": 9
+          },
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "clap",
+              "lv2"
+            ],
+            "type": "archive",
+            "size": 8018391,
+            "sha256": "ce384e0a3838cccd306907437aefedb3fec39b6e87c7821b205048cc72c79f31",
+            "url": "https://github.com/davemollen/dm-TubeScreamer/releases/download/v0.0.9/dm-TubeScreamer-ubuntu.zip",
+            "downloads": 27
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "clap",
+              "lv2"
+            ],
+            "type": "archive",
+            "size": 7210139,
+            "sha256": "542249095b6fc8970ac88771f100b4d3a08b65321b539a92a5c631275244bf15",
+            "url": "https://github.com/davemollen/dm-TubeScreamer/releases/download/v0.0.9/dm-TubeScreamer-windows.zip",
+            "downloads": 33
+          }
+        ],
+        "verified": true,
+        "downloads": 99
+      }
+    },
+    "downloads": 99
+  },
   "davemollen/dm-timewarp": {
     "slug": "davemollen/dm-timewarp",
     "version": "0.0.9",
