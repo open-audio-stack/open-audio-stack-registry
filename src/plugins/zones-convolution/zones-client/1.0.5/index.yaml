@@ -1,0 +1,36 @@
+name: Zones
+author: Zones Convolution
+description: Zones convolution allows users to find and share impulse responses captured in great sounding and unique spaces. Zones provides; a simple, intuitive interface to tag, categorise and upload IRs, and a VST/AU plugin to search and convolve these IRs directly
+license: mit
+type: effect
+tags:
+  - Audio
+  - Convolution
+  - Dsp
+  - Juce
+url: https://github.com/zones-convolution/zones_client
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/zones-convolution/zones-client/zones-client.jpg
+date: '2026-07-03T18:44:45Z'
+changes: v1.0.5 release.
+files:
+  - systems:
+      - type: mac
+    architectures:
+      - arm64
+    contains:
+      - vst3
+      - component
+    type: installer
+    size: 6085364
+    sha256: 0d7979e3acc17665e3530417dad43b13034b511fd81df4b45e999dcc86632202
+    url: https://github.com/zones-convolution/zones_client/releases/download/v1.0.5/Zones-arm64.pkg
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - dll
+    type: installer
+    size: 5330701
+    sha256: 922dbdadb724935f139a4400405eea372ddaef03cb6bbde0f764b6ddbee59217
+    url: https://github.com/zones-convolution/zones_client/releases/download/v1.0.5/Zones-v1.0.5-Windows.exe
