@@ -1,0 +1,29 @@
+name: Circulate
+author: Anis Dadou
+description: An open source VST3 phase smearing audio effect based on a bank of 64 allpass filters. With sample accurate parameters / modulation
+license: gpl-3.0
+type: effect
+tags:
+  - phaser
+  - allpass
+  - phase-dispersion
+url: https://github.com/GullDSP/Circulate-VST
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/gulldsp/circulate-vst/circulate-vst.jpg
+date: '2026-06-29T00:30:47Z'
+changes: |-
+  v2: Resizable UI (right click > UI Zoom, saved per-preset), can now set Hz by
+  clicking and typing a value, fixed Ableton UI bug with Hz/Semitone switch,
+  fixed strange bounce-to-audio behavior in some DAWs, and under-the-hood
+  improvements to channel handling, denormal handling, and parameter sample
+  accuracy.
+files:
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - vst3
+    type: archive
+    size: 1537329
+    sha256: 740ef00064a3c854f8dd71cd8f0cb5989e3ae76cee572331c02cc64f8ce303f8
+    url: https://github.com/GullDSP/Circulate-VST/releases/download/v2.0.1.1/circulate-vst3-v2_0_1.zip
