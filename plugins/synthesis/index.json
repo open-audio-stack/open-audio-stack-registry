@@ -1,0 +1,84 @@
+{
+  "synthesis/ftmsynth": {
+    "slug": "synthesis/ftmsynth",
+    "version": "1.0.0",
+    "versions": {
+      "1.0.0": {
+        "name": "FTMSynth",
+        "author": "Synthesis",
+        "description": "A physical modeling JUCE plugin using FTM approach, with visualization",
+        "license": "agpl-3.0",
+        "type": "instrument",
+        "tags": [
+          "Physical Modeling",
+          "Juce",
+          "Drum",
+          "Synthesizer"
+        ],
+        "url": "https://github.com/Synthesis/FTMSynth",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/synthesis/ftmsynth/ftmsynth.jpg",
+        "date": "2026-03-19T21:06:42Z",
+        "changes": "Only the 64-bit Windows builds (standalone, VST2 and VST3 versions) are available for now.\r\nThe macOS builds will be uploaded soon.",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "exe"
+            ],
+            "type": "archive",
+            "size": 3425592,
+            "sha256": "065c5b231856a26fb3513cb00eb76910163e082a87b7217fefb1e4726020c4f3",
+            "url": "https://github.com/Synthesis/FTMSynth/releases/download/v1.0.0/FTMSynth_win-x64-standalone.zip",
+            "downloads": 2
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "dll"
+            ],
+            "type": "archive",
+            "size": 3167069,
+            "sha256": "6494c5625f2fccc2c11adc1fbdb7559b36260c41ef0a2bb4084d57b8816920a3",
+            "url": "https://github.com/Synthesis/FTMSynth/releases/download/v1.0.0/FTMSynth_win-x64-vst2.zip",
+            "downloads": 3
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 3312151,
+            "sha256": "fbd1130164caed52243f54f8b1c1ca3580fe1fed6ad5e45c0e8a8e208a3e20a8",
+            "url": "https://github.com/Synthesis/FTMSynth/releases/download/v1.0.0/FTMSynth_win-x64-vst3.zip",
+            "downloads": 2
+          }
+        ],
+        "verified": true,
+        "downloads": 7
+      }
+    },
+    "downloads": 7
+  }
+}
