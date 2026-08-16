@@ -5910,11 +5910,11 @@
             "size": 3341979,
             "type": "archive",
             "url": "https://github.com/tiagolr/qdelay/releases/download/v1.1.2/qdelay-win-v1.1.2.zip",
-            "downloads": 1581
+            "downloads": 1582
           }
         ],
         "verified": true,
-        "downloads": 2808
+        "downloads": 2809
       },
       "1.1.1": {
         "name": "QDelay",
@@ -6083,7 +6083,7 @@
         "downloads": 744
       }
     },
-    "downloads": 3748
+    "downloads": 3749
   },
   "tiagolr/gate12": {
     "slug": "tiagolr/gate12",
@@ -7643,7 +7643,7 @@
             "size": 416715686,
             "sha256": "b56e8d51a8dc2382ae668c9ff4e96bae38dbd452af4e584d5a5ef50ab2d09b07",
             "url": "https://github.com/surge-synthesizer/releases-xt/releases/download/1.3.4/surge-xt-macOS-1.3.4.dmg",
-            "downloads": 154070
+            "downloads": 154072
           },
           {
             "systems": [
@@ -7686,7 +7686,7 @@
           }
         ],
         "verified": true,
-        "downloads": 724756
+        "downloads": 724758
       },
       "1.3.1": {
         "name": "Surge XT",
@@ -7813,7 +7813,7 @@
         "downloads": 84187
       }
     },
-    "downloads": 808943
+    "downloads": 808945
   },
   "surge-synthesizer/ob-xf": {
     "slug": "surge-synthesizer/ob-xf",
@@ -34212,7 +34212,7 @@
             "size": 368923667,
             "sha256": "16f21250fe656fc766f6c1df79c45244bbdf55ffa90ff0c3c3ace9af70cf3e24",
             "url": "https://github.com/DISTRHO/Cardinal/releases/download/26.02/Cardinal-win64-26.02-installer.exe",
-            "downloads": 8303
+            "downloads": 8304
           },
           {
             "systems": [
@@ -34237,10 +34237,10 @@
           }
         ],
         "verified": true,
-        "downloads": 21421
+        "downloads": 21422
       }
     },
-    "downloads": 21421
+    "downloads": 21422
   },
   "dimethoxy/disflux": {
     "slug": "dimethoxy/disflux",
@@ -38636,7 +38636,7 @@
             "size": 5112948,
             "sha256": "71aaae1c454ac83ac16b248d4cc99c12bf6d11452a87376fcb6b1e79060e3a5c",
             "url": "https://github.com/jatinchowdhury18/AnalogTapeModel/releases/download/v2.11.4/ChowTapeModel-Linux-x64-2.11.4.deb",
-            "downloads": 8818
+            "downloads": 8819
           },
           {
             "systems": [
@@ -38682,10 +38682,10 @@
           }
         ],
         "verified": false,
-        "downloads": 108222
+        "downloads": 108223
       }
     },
-    "downloads": 108222
+    "downloads": 108223
   },
   "chowdhury-dsp/chowmultitool": {
     "slug": "chowdhury-dsp/chowmultitool",
@@ -38724,7 +38724,7 @@
             "size": 11107512,
             "sha256": "69b6718b08a1072d1f27817dace1e07a689a2b8ce7cee9bc9530b107e2343803",
             "url": "https://github.com/Chowdhury-DSP/ChowMultiTool/releases/download/v1.1.0/ChowMultiTool-Linux-x64-1.1.0.deb",
-            "downloads": 5232
+            "downloads": 5233
           },
           {
             "systems": [
@@ -38769,10 +38769,10 @@
           }
         ],
         "verified": true,
-        "downloads": 34548
+        "downloads": 34549
       }
     },
-    "downloads": 34548
+    "downloads": 34549
   },
   "chowdhury-dsp/chowmatrix": {
     "slug": "chowdhury-dsp/chowmatrix",
@@ -44033,6 +44033,68 @@
       }
     },
     "downloads": 103
+  },
+  "ankalot/bifractalizer": {
+    "slug": "ankalot/bifractalizer",
+    "version": "0.2.0",
+    "versions": {
+      "0.2.0": {
+        "name": "Bifractalizer",
+        "author": "Andrew Kotov",
+        "description": "An audio plugin that fractalizes and defractalizes sound 😺",
+        "license": "mit",
+        "type": "effect",
+        "tags": [
+          "fractal",
+          "granular"
+        ],
+        "url": "https://github.com/Ankalot/Bifractalizer",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ankalot/bifractalizer/bifractalizer.jpg",
+        "date": "2025-05-17T13:10:52Z",
+        "changes": "v0.2.0 release.",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "exe"
+            ],
+            "type": "installer",
+            "size": 7234048,
+            "sha256": "087f4b15da125aafcbef3102c9049480e8785094fe2a24d849227f7a7d84ba67",
+            "url": "https://github.com/Ankalot/Bifractalizer/releases/download/v0.2.0/Bifractalizer.exe",
+            "downloads": 28
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 7364096,
+            "sha256": "6bdcba1034d3c49faa5e0138263ec32a7b3ded5e1450d4b76ad65235b145ca32",
+            "url": "https://github.com/Ankalot/Bifractalizer/releases/download/v0.2.0/Bifractalizer.vst3",
+            "downloads": 40
+          }
+        ],
+        "verified": true,
+        "downloads": 68
+      }
+    },
+    "downloads": 68
   },
   "anclark/minaton-xt": {
     "slug": "anclark/minaton-xt",

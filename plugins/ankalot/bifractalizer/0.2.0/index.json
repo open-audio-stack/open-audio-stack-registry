@@ -1,0 +1,55 @@
+{
+  "name": "Bifractalizer",
+  "author": "Andrew Kotov",
+  "description": "An audio plugin that fractalizes and defractalizes sound 😺",
+  "license": "mit",
+  "type": "effect",
+  "tags": [
+    "fractal",
+    "granular"
+  ],
+  "url": "https://github.com/Ankalot/Bifractalizer",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ankalot/bifractalizer/bifractalizer.jpg",
+  "date": "2025-05-17T13:10:52Z",
+  "changes": "v0.2.0 release.",
+  "files": [
+    {
+      "systems": [
+        {
+          "type": "win"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "exe"
+      ],
+      "type": "installer",
+      "size": 7234048,
+      "sha256": "087f4b15da125aafcbef3102c9049480e8785094fe2a24d849227f7a7d84ba67",
+      "url": "https://github.com/Ankalot/Bifractalizer/releases/download/v0.2.0/Bifractalizer.exe",
+      "downloads": 28
+    },
+    {
+      "systems": [
+        {
+          "type": "win"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3"
+      ],
+      "type": "archive",
+      "size": 7364096,
+      "sha256": "6bdcba1034d3c49faa5e0138263ec32a7b3ded5e1450d4b76ad65235b145ca32",
+      "url": "https://github.com/Ankalot/Bifractalizer/releases/download/v0.2.0/Bifractalizer.vst3",
+      "downloads": 40
+    }
+  ],
+  "verified": true,
+  "downloads": 68
+}
