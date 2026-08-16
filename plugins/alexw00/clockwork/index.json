@@ -1,0 +1,68 @@
+{
+  "slug": "alexw00/clockwork",
+  "version": "1.0.2",
+  "versions": {
+    "1.0.2": {
+      "name": "Clockwork",
+      "author": "Alexander Weichart",
+      "description": "🎹 Simple MIDI note repeater plugin (VST3/CLAP).",
+      "license": "gpl-3.0",
+      "type": "effect",
+      "tags": [
+        "Audio",
+        "Audio Effect",
+        "Clap",
+        "Midi",
+        "Midi Effect",
+        "Midi Plugin",
+        "Plugin",
+        "Rust"
+      ],
+      "url": "https://github.com/AlexW00/clockwork",
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/alexw00/clockwork/clockwork.jpg",
+      "date": "2022-09-09T09:17:46Z",
+      "changes": "This is mostly a refactoring patch of existing code for stability.",
+      "files": [
+        {
+          "systems": [
+            {
+              "type": "mac"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "clap"
+          ],
+          "type": "archive",
+          "size": 1790003,
+          "sha256": "c9921807932245e7f738431c3f65f6099d55b39337a2e33d7ed04625740ded6f",
+          "url": "https://github.com/AlexW00/clockwork/releases/download/1.0.2/Clockwork.clap.zip",
+          "downloads": 58
+        },
+        {
+          "systems": [
+            {
+              "type": "mac"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "vst3"
+          ],
+          "type": "archive",
+          "size": 1790003,
+          "sha256": "44bed5c356a0817d2be7688aaa33e70232cd06971685a07249ba3c3c2ba16235",
+          "url": "https://github.com/AlexW00/clockwork/releases/download/1.0.2/Clockwork.vst3.zip",
+          "downloads": 130
+        }
+      ],
+      "verified": true,
+      "downloads": 188
+    }
+  },
+  "downloads": 188
+}
