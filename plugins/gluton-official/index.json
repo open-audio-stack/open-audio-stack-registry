@@ -1,0 +1,65 @@
+{
+  "gluton-official/freqchain": {
+    "slug": "gluton-official/freqchain",
+    "version": "0.1.0",
+    "versions": {
+      "0.1.0": {
+        "name": "FreqChain",
+        "author": "Gluton",
+        "description": "Frequency sidechaining plugin",
+        "license": "gpl-3.0",
+        "type": "effect",
+        "tags": [
+          "sidechain",
+          "spectral",
+          "equalizer"
+        ],
+        "url": "https://github.com/Gluton-Official/FreqChain",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/gluton-official/freqchain/freqchain.jpg",
+        "date": "2025-07-26T18:49:55Z",
+        "changes": "v0.1.0 release.",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "clap"
+            ],
+            "type": "archive",
+            "size": 4852144,
+            "sha256": "618fdb1ff27017e99c0e6d36a4ff9ba3f31e7abe7ce28cf3b5cc93f1c32a6f66",
+            "url": "https://github.com/Gluton-Official/FreqChain/releases/download/v0.1.0/FreqChain.clap",
+            "downloads": 27
+          },
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "elf"
+            ],
+            "type": "archive",
+            "size": 5851840,
+            "sha256": "6cf4faadfa0c2ae5fb075935aa2bbaf64903bd34189a3186d4b519122250266e",
+            "url": "https://github.com/Gluton-Official/FreqChain/releases/download/v0.1.0/FreqChain",
+            "downloads": 57
+          }
+        ],
+        "verified": true,
+        "downloads": 84
+      }
+    },
+    "downloads": 84
+  }
+}
