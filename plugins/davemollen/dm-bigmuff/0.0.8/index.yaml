@@ -1,0 +1,82 @@
+name: dm-BigMuff
+author: Dave Mollen
+description: Distortion plugin
+license: gpl-3.0
+type: effect
+tags:
+  - distortion
+  - fuzz
+  - Au
+url: https://github.com/davemollen/dm-BigMuff
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/davemollen/dm-bigmuff/dm-bigmuff.jpg
+date: '2026-03-23T08:45:47Z'
+changes: '- Fixed linux vst3 build'
+files:
+  - systems:
+      - type: mac
+    architectures:
+      - arm64
+      - x64
+    contains:
+      - vst3
+      - component
+      - clap
+      - lv2
+    type: archive
+    size: 21274172
+    sha256: 76f38d298668a1311a5c2273e024599495453d5eefde04809187f3e06b843461
+    url: https://github.com/davemollen/dm-BigMuff/releases/download/v0.0.8/dm-BigMuff-macos.zip
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - lv2
+    type: archive
+    size: 940253
+    sha256: b625f325b21eca17b3f2b7710c253cc16d22f30dba8a762447f056852ce4d0e5
+    url: https://github.com/davemollen/dm-BigMuff/releases/download/v0.0.8/dm-BigMuff-modduo-new.zip
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - lv2
+    type: archive
+    size: 928510
+    sha256: 5dd4ab9c3c071ae33babd19529a137ffd4ff25062e4e1deabf02d90e8d84c847
+    url: https://github.com/davemollen/dm-BigMuff/releases/download/v0.0.8/dm-BigMuff-modduox-new.zip
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - lv2
+    type: archive
+    size: 928165
+    sha256: 7a93e2ce3a435d277631d3bfafb4729a37e8144b43d586c40b5af66e1136b0ba
+    url: https://github.com/davemollen/dm-BigMuff/releases/download/v0.0.8/dm-BigMuff-moddwarf-new.zip
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - vst3
+      - clap
+      - lv2
+    type: archive
+    size: 8036528
+    sha256: 3e5b0be46e3f0c9653346b3f0b7b32b02186f83620f5bd277ad9b20402e5240a
+    url: https://github.com/davemollen/dm-BigMuff/releases/download/v0.0.8/dm-BigMuff-ubuntu.zip
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - vst3
+      - clap
+      - lv2
+    type: archive
+    size: 7226415
+    sha256: 9ac19d66a275675017992e3480af88c91ba0054997319200c75b4e9e6879911a
+    url: https://github.com/davemollen/dm-BigMuff/releases/download/v0.0.8/dm-BigMuff-windows.zip
