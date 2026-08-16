@@ -9709,6 +9709,69 @@
     },
     "downloads": 734
   },
+  "sout233/folder": {
+    "slug": "sout233/folder",
+    "version": "1.0.0",
+    "versions": {
+      "1.0.0": {
+        "name": "Folder",
+        "author": "sout_Nantang",
+        "description": "A strange distortion VST plugin",
+        "license": "gpl-3.0",
+        "type": "effect",
+        "tags": [
+          "VST3",
+          "Distortion",
+          "Windows"
+        ],
+        "url": "https://github.com/sout233/Folder",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sout233/folder/folder.jpg",
+        "date": "2025-02-03T16:25:55Z",
+        "changes": "## #01 马萨卡，要诞生了吗！？\r\n\r\n「原来如此……是失真插件么……」\r\n\r\nvs2022看着我问道……话是这么说，她编译时用力过度的样子也是很可爱呢……\r\n\r\n「vs酱……要么还是先休息一下吧？」\r\n\r\n「不，不要。」\r\n\r\n欸？意外地很努力呢。虽然感觉她脸上的红晕越来越重了。\r\n\r\n不过就先这样吧，毕竟写完这个我还得去玩千恋万花……",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 5326848,
+            "sha256": "653629b9c7d1179ebf651de268ccdab5c5e0d85211f62a3b5bfd77775cb4b9f3",
+            "url": "https://github.com/sout233/Folder/releases/download/1.0.0.0/SA_Folder_x64_v1.0.vst3",
+            "downloads": 54
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "exe"
+            ],
+            "type": "installer",
+            "size": 3747717,
+            "sha256": "992fdd82b8139a61e1e08cdd52f38acdab85fed7a08d386289a05c70555449e2",
+            "url": "https://github.com/sout233/Folder/releases/download/1.0.0.0/SA_Folder_x64_v1.0_Installer.exe",
+            "downloads": 113
+          }
+        ],
+        "verified": true,
+        "downloads": 167
+      }
+    },
+    "downloads": 167
+  },
   "smiarx/aelapse": {
     "slug": "smiarx/aelapse",
     "version": "1.0.1",
@@ -37362,14 +37425,14 @@
             "size": 31330154,
             "sha256": "1126158ed3758842554dcfda295e1b3779b859387b8eeffad59ada632eabd76c",
             "url": "https://github.com/dan-k-k/vocal-gate/releases/download/v1.0.5/VocalGate_Windows_Installer.exe",
-            "downloads": 3689
+            "downloads": 3690
           }
         ],
         "verified": true,
-        "downloads": 4916
+        "downloads": 4917
       }
     },
-    "downloads": 4916
+    "downloads": 4917
   },
   "damrsn/neuralnote": {
     "slug": "damrsn/neuralnote",
@@ -38865,14 +38928,14 @@
             "size": 7437272,
             "sha256": "0ed347e15d244f2a115e0ecbfc219dbca1dd666ec371292d6a8c56f6deaaffbb",
             "url": "https://github.com/Chowdhury-DSP/ChowMultiTool/releases/download/v1.1.0/ChowMultiTool-Win-64bit-1.1.0.exe",
-            "downloads": 19552
+            "downloads": 19553
           }
         ],
         "verified": true,
-        "downloads": 34549
+        "downloads": 34550
       }
     },
-    "downloads": 34549
+    "downloads": 34550
   },
   "chowdhury-dsp/chowmatrix": {
     "slug": "chowdhury-dsp/chowmatrix",
@@ -38956,14 +39019,14 @@
             "size": 7958887,
             "sha256": "b1e2451ae66362bf82112e77fccc48a1233780b6cbfb58fe1a588b17a77456c5",
             "url": "https://github.com/Chowdhury-DSP/ChowMatrix/releases/download/v1.3.0/ChowMatrix-Win-1.3.0.exe",
-            "downloads": 36621
+            "downloads": 36622
           }
         ],
         "verified": true,
-        "downloads": 64494
+        "downloads": 64495
       }
     },
-    "downloads": 64494
+    "downloads": 64495
   },
   "chowdhury-dsp/chowkick": {
     "slug": "chowdhury-dsp/chowkick",
@@ -39219,14 +39282,14 @@
             "size": 26404896,
             "sha256": "a53fb65cedf90f7673e21ac2d12f5b0778f003ae7f2e34e6c4301854a738c36c",
             "url": "https://github.com/Chowdhury-DSP/BYOD/releases/download/v1.3.0/BYOD-Win-64bit-1.3.0.exe",
-            "downloads": 15643
+            "downloads": 15644
           }
         ],
         "verified": true,
-        "downloads": 29071
+        "downloads": 29072
       }
     },
-    "downloads": 29071
+    "downloads": 29072
   },
   "chmod666music/drumcloud": {
     "slug": "chmod666music/drumcloud",

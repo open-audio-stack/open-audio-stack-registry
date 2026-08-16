@@ -80,5 +80,68 @@
       }
     },
     "downloads": 734
+  },
+  "sout233/folder": {
+    "slug": "sout233/folder",
+    "version": "1.0.0",
+    "versions": {
+      "1.0.0": {
+        "name": "Folder",
+        "author": "sout_Nantang",
+        "description": "A strange distortion VST plugin",
+        "license": "gpl-3.0",
+        "type": "effect",
+        "tags": [
+          "VST3",
+          "Distortion",
+          "Windows"
+        ],
+        "url": "https://github.com/sout233/Folder",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sout233/folder/folder.jpg",
+        "date": "2025-02-03T16:25:55Z",
+        "changes": "## #01 马萨卡，要诞生了吗！？\r\n\r\n「原来如此……是失真插件么……」\r\n\r\nvs2022看着我问道……话是这么说，她编译时用力过度的样子也是很可爱呢……\r\n\r\n「vs酱……要么还是先休息一下吧？」\r\n\r\n「不，不要。」\r\n\r\n欸？意外地很努力呢。虽然感觉她脸上的红晕越来越重了。\r\n\r\n不过就先这样吧，毕竟写完这个我还得去玩千恋万花……",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 5326848,
+            "sha256": "653629b9c7d1179ebf651de268ccdab5c5e0d85211f62a3b5bfd77775cb4b9f3",
+            "url": "https://github.com/sout233/Folder/releases/download/1.0.0.0/SA_Folder_x64_v1.0.vst3",
+            "downloads": 54
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "exe"
+            ],
+            "type": "installer",
+            "size": 3747717,
+            "sha256": "992fdd82b8139a61e1e08cdd52f38acdab85fed7a08d386289a05c70555449e2",
+            "url": "https://github.com/sout233/Folder/releases/download/1.0.0.0/SA_Folder_x64_v1.0_Installer.exe",
+            "downloads": 113
+          }
+        ],
+        "verified": true,
+        "downloads": 167
+      }
+    },
+    "downloads": 167
   }
 }
