@@ -1,0 +1,34 @@
+name: DPCM Bitcrusher
+author: potatoTeto
+description: A JUCE Bitcrush VST emulating NES 2A03 DPCM sound
+license: gpl-3.0
+type: effect
+tags:
+  - bitcrusher
+  - chiptune
+  - lo-fi
+url: https://github.com/potatoTeto/DPCM_Bitcrusher
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/potatoteto/dpcm-bitcrusher/dpcm-bitcrusher.jpg
+date: '2025-06-10T01:20:21Z'
+changes: "- Quality has been renamed to Sample Update Rate.\r\n- Additionally, the Sample Update Rate UI changed from a ComboBox/Dropdown Menu to an automatable slider."
+files:
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - exe
+    type: archive
+    size: 1941430
+    sha256: e407a542920208a46363ae6faa281bb483309604d49d6b0c445bf43fdc55c201
+    url: https://github.com/potatoTeto/DPCM_Bitcrusher/releases/download/v1.2/DPCM_Bitcrusher_StandalonePlugin_v1.2.7z
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - vst3
+    type: archive
+    size: 2021145
+    sha256: 0503824b9b110749d10765fe67924f3e572f247162d72c4a6937c49faabd85cc
+    url: https://github.com/potatoTeto/DPCM_Bitcrusher/releases/download/v1.2/DPCM_Bitcrusher_VST3_v1.2.7z
