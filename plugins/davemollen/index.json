@@ -142,5 +142,141 @@
       }
     },
     "downloads": 81
+  },
+  "davemollen/dm-seq": {
+    "slug": "davemollen/dm-seq",
+    "version": "0.0.6-beta",
+    "versions": {
+      "0.0.6-beta": {
+        "name": "dm-Seq",
+        "author": "Dave Mollen",
+        "description": "MIDI sequencer plugin",
+        "license": "gpl-3.0",
+        "type": "effect",
+        "tags": [
+          "sequencer",
+          "step-sequencer",
+          "midi"
+        ],
+        "url": "https://github.com/davemollen/dm-Seq",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/davemollen/dm-seq/dm-seq.jpg",
+        "date": "2025-10-17T10:51:37Z",
+        "changes": "- Replaced unicode characters in the MOD UI with svg icons.",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "lv2"
+            ],
+            "type": "archive",
+            "size": 613132,
+            "sha256": "f72422ccb623c8f062d3584adc02fed15a2905aed60a38354d50b307a04c80a3",
+            "url": "https://github.com/davemollen/dm-Seq/releases/download/v0.0.6-beta/dm-Seq-macos.zip",
+            "downloads": 15
+          },
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "lv2"
+            ],
+            "type": "archive",
+            "size": 461972,
+            "sha256": "14c979f29c6076b08dc6e95492004f3e461e7164ddaba6e48176f29e59082654",
+            "url": "https://github.com/davemollen/dm-Seq/releases/download/v0.0.6-beta/dm-Seq-modduo-new.zip",
+            "downloads": 7
+          },
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "lv2"
+            ],
+            "type": "archive",
+            "size": 454331,
+            "sha256": "1c948f86507705ce9c7de088f2e146bceaf3abfe2166604181807a6895226986",
+            "url": "https://github.com/davemollen/dm-Seq/releases/download/v0.0.6-beta/dm-Seq-modduox-new.zip",
+            "downloads": 6
+          },
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "lv2"
+            ],
+            "type": "archive",
+            "size": 454068,
+            "sha256": "02e00bde1fad2c5bfbeaab0ca7b9f9a5d7586f9e35f8e691de6784724b9c5f6f",
+            "url": "https://github.com/davemollen/dm-Seq/releases/download/v0.0.6-beta/dm-Seq-moddwarf-new.zip",
+            "downloads": 10
+          },
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "lv2"
+            ],
+            "type": "archive",
+            "size": 455318,
+            "sha256": "e3f589ec4f94d96582517fc84703d77a92ab4de46d13430abe56ae091b1fd817",
+            "url": "https://github.com/davemollen/dm-Seq/releases/download/v0.0.6-beta/dm-Seq-ubuntu.zip",
+            "downloads": 12
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "lv2"
+            ],
+            "type": "archive",
+            "size": 326022,
+            "sha256": "1905b32403fbff6f4e4ca21c8ad4a9f50ca1bf0997b4b41077461ec4300ac854",
+            "url": "https://github.com/davemollen/dm-Seq/releases/download/v0.0.6-beta/dm-Seq-windows.zip",
+            "downloads": 17
+          }
+        ],
+        "verified": true,
+        "downloads": 67
+      }
+    },
+    "downloads": 67
   }
 }
