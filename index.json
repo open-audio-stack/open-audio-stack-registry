@@ -10849,7 +10849,7 @@
               "size": 4648615,
               "sha256": "11d3daf4c548a1d861b4d1ac7435c98e6aaa4e009e42f5c0818ac2d95ad8981f",
               "url": "https://github.com/Skynse/qpitch/releases/download/v1.3.1/QPitch-v1.3.1-linux-clap.zip",
-              "downloads": 62
+              "downloads": 63
             },
             {
               "systems": [
@@ -10867,7 +10867,7 @@
               "size": 4854453,
               "sha256": "b7d98be6391d79368497c011978f5a27773852dab6e37d84ec99ded06bb2261b",
               "url": "https://github.com/Skynse/qpitch/releases/download/v1.3.1/QPitch-v1.3.1-linux-vst3.zip",
-              "downloads": 84
+              "downloads": 86
             },
             {
               "systems": [
@@ -10945,10 +10945,10 @@
             }
           ],
           "verified": true,
-          "downloads": 338
+          "downloads": 341
         }
       },
-      "downloads": 338
+      "downloads": 341
     },
     "sjoerdvankreel/firefly-synth-2": {
       "slug": "sjoerdvankreel/firefly-synth-2",
@@ -35108,6 +35108,141 @@
       },
       "downloads": 67
     },
+    "davemollen/dm-octaver": {
+      "slug": "davemollen/dm-octaver",
+      "version": "0.0.6",
+      "versions": {
+        "0.0.6": {
+          "name": "dm-Octaver",
+          "author": "Dave Mollen",
+          "description": "A harsh octave down plugin",
+          "license": "gpl-3.0",
+          "type": "effect",
+          "tags": [
+            "octaver",
+            "pitch"
+          ],
+          "url": "https://github.com/davemollen/dm-Octaver",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/davemollen/dm-octaver/dm-octaver.jpg",
+          "date": "2025-08-28T14:52:08Z",
+          "changes": "Fixed linear smoothing on parameters",
+          "files": [
+            {
+              "systems": [
+                {
+                  "type": "mac"
+                }
+              ],
+              "architectures": [
+                "arm64",
+                "x64"
+              ],
+              "contains": [
+                "lv2"
+              ],
+              "type": "archive",
+              "size": 1066421,
+              "sha256": "d043e22cfbea3096e8bbdca347528933d5cad8921ff83758c1b09a7ce8cad3a7",
+              "url": "https://github.com/davemollen/dm-Octaver/releases/download/v0.0.6/dm-Octaver-macos.zip",
+              "downloads": 8
+            },
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "lv2"
+              ],
+              "type": "archive",
+              "size": 940851,
+              "sha256": "52ebe98a6589bff5e434a0f23facc72e8b2f059deb32bc5e7a622b78e86e8947",
+              "url": "https://github.com/davemollen/dm-Octaver/releases/download/v0.0.6/dm-Octaver-modduo-new.zip",
+              "downloads": 6
+            },
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "lv2"
+              ],
+              "type": "archive",
+              "size": 930328,
+              "sha256": "4a407af99a3b995390a69b4d5ef6a2adf4b5ea92ad1732fd6ef0f65e68315814",
+              "url": "https://github.com/davemollen/dm-Octaver/releases/download/v0.0.6/dm-Octaver-modduox-new.zip",
+              "downloads": 3
+            },
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "lv2"
+              ],
+              "type": "archive",
+              "size": 929814,
+              "sha256": "c504d8bceca08ada614187306f364832e99252e192526c2e570c177b3c124cd7",
+              "url": "https://github.com/davemollen/dm-Octaver/releases/download/v0.0.6/dm-Octaver-moddwarf-new.zip",
+              "downloads": 7
+            },
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "lv2"
+              ],
+              "type": "archive",
+              "size": 923199,
+              "sha256": "1acfb97adf8eb64a22724c9149c823166d6d27d841eaf9d00b9999c72137ccf8",
+              "url": "https://github.com/davemollen/dm-Octaver/releases/download/v0.0.6/dm-Octaver-ubuntu.zip",
+              "downloads": 30
+            },
+            {
+              "systems": [
+                {
+                  "type": "win"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "lv2"
+              ],
+              "type": "archive",
+              "size": 808660,
+              "sha256": "c3e825652296b467ad21128c7bb74da8fceb23f4331816d4df4cd660ff844404",
+              "url": "https://github.com/davemollen/dm-Octaver/releases/download/v0.0.6/dm-Octaver-windows.zip",
+              "downloads": 20
+            }
+          ],
+          "verified": true,
+          "downloads": 74
+        }
+      },
+      "downloads": 74
+    },
     "davemollen/dm-lfo": {
       "slug": "davemollen/dm-lfo",
       "version": "0.0.6",
@@ -40245,7 +40380,7 @@
               "size": 17183630,
               "sha256": "a6505103869d15400e7bed1d988d9dd155d6d8204a3d532f5301966ae7507ad8",
               "url": "https://github.com/asb2m10/dexed/releases/download/v1.0.1/Dexed-1.0.1-macOS.dmg",
-              "downloads": 61658
+              "downloads": 61663
             },
             {
               "systems": [
@@ -40310,7 +40445,7 @@
             }
           ],
           "verified": true,
-          "downloads": 154437
+          "downloads": 154442
         },
         "0.9.8": {
           "name": "Dexed",
@@ -40395,7 +40530,7 @@
           "downloads": 195801
         }
       },
-      "downloads": 350238
+      "downloads": 350243
     },
     "artfwo/andes": {
       "slug": "artfwo/andes",
