@@ -1,0 +1,146 @@
+{
+  "davemollen/dm-timewarp": {
+    "slug": "davemollen/dm-timewarp",
+    "version": "0.0.9",
+    "versions": {
+      "0.0.9": {
+        "name": "dm-TimeWarp",
+        "author": "Dave Mollen",
+        "description": "Granular delay, looper & sampler plugin with time stretch capabilities",
+        "license": "gpl-3.0",
+        "type": "effect",
+        "tags": [
+          "granular",
+          "delay",
+          "looper",
+          "time-stretch"
+        ],
+        "url": "https://github.com/davemollen/dm-TimeWarp",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/davemollen/dm-timewarp/dm-timewarp.jpg",
+        "date": "2026-03-13T19:55:24Z",
+        "changes": "- Fixed linux vst3 builds",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "component",
+              "clap",
+              "lv2"
+            ],
+            "type": "archive",
+            "size": 35181315,
+            "sha256": "da01d4a342e5d787691e4e495943f5e2bcb2edc7a0dca15871d95d1c432c0b09",
+            "url": "https://github.com/davemollen/dm-TimeWarp/releases/download/v0.0.9/dm-TimeWarp-macos.zip",
+            "downloads": 12
+          },
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "lv2"
+            ],
+            "type": "archive",
+            "size": 2566627,
+            "sha256": "990b25ceff80c610159deca153933423d2d41dcfddc72320b790ac958f6e4086",
+            "url": "https://github.com/davemollen/dm-TimeWarp/releases/download/v0.0.9/dm-TimeWarp-modduo-new.zip",
+            "downloads": 6
+          },
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "lv2"
+            ],
+            "type": "archive",
+            "size": 2645899,
+            "sha256": "bb6a88d72402fc641718e61f21171b25fdae292313f63d0268b54499df9a5c79",
+            "url": "https://github.com/davemollen/dm-TimeWarp/releases/download/v0.0.9/dm-TimeWarp-modduox-new.zip",
+            "downloads": 5
+          },
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "lv2"
+            ],
+            "type": "archive",
+            "size": 2638913,
+            "sha256": "adb8c8c61360f6aaec2502601049fb3de603c3ce3dfc2214b8e0581a1700d0a9",
+            "url": "https://github.com/davemollen/dm-TimeWarp/releases/download/v0.0.9/dm-TimeWarp-moddwarf-new.zip",
+            "downloads": 9
+          },
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "clap",
+              "lv2"
+            ],
+            "type": "archive",
+            "size": 16057422,
+            "sha256": "ddf46c85f770a91b1b3507b1ef64354c2404d9832d13c080bfdff644fc48ca66",
+            "url": "https://github.com/davemollen/dm-TimeWarp/releases/download/v0.0.9/dm-TimeWarp-ubuntu.zip",
+            "downloads": 17
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "clap",
+              "lv2"
+            ],
+            "type": "archive",
+            "size": 12339977,
+            "sha256": "e64e565457c22b3efb9b77a6c923eebb5867d131c06c516ddcff671416828eda",
+            "url": "https://github.com/davemollen/dm-TimeWarp/releases/download/v0.0.9/dm-TimeWarp-windows.zip",
+            "downloads": 32
+          }
+        ],
+        "verified": true,
+        "downloads": 81
+      }
+    },
+    "downloads": 81
+  }
+}
