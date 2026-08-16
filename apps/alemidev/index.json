@@ -1,0 +1,82 @@
+{
+  "alemidev/scope-tui": {
+    "slug": "alemidev/scope-tui",
+    "version": "0.3.5",
+    "versions": {
+      "0.3.5": {
+        "name": "Scope Tui",
+        "author": "alemi.dev",
+        "description": "oscilloscope/vectorscope/spectroscope for your terminal",
+        "license": "mit",
+        "type": "tool",
+        "tags": [
+          "Oscilloscope",
+          "Rust",
+          "Terminal",
+          "Visualizer",
+          "Audio",
+          "Cli",
+          "Spectroscope",
+          "Tui"
+        ],
+        "url": "https://github.com/alemidev/scope-tui",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/apps/alemidev/scope-tui/scope-tui.jpg",
+        "date": "2026-02-20T10:34:27Z",
+        "changes": "## What's Changed\r\n* fix: pad the buffer with zeros if the file cannot fill it. by @Gers2017 in https://github.com/alemidev/scope-tui/pull/13\r\n\r\n## New Contributors\r...",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64"
+            ],
+            "type": "archive",
+            "open": "scope-tui-v0.3.5-darwin-arm64",
+            "size": 1005904,
+            "sha256": "55a357c681747a93a0353f8f4869ed16840b98bf6ead99ee754cdf9339bfae49",
+            "url": "https://github.com/alemidev/scope-tui/releases/download/v0.3.5/scope-tui-v0.3.5-darwin-arm64",
+            "downloads": 46
+          },
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "type": "archive",
+            "open": "scope-tui-v0.3.5-linux-x64-gnu",
+            "size": 1610280,
+            "sha256": "29676ac14a16ba51a28a104a5b45e200617e78e7213720adc404a25654b000d0",
+            "url": "https://github.com/alemidev/scope-tui/releases/download/v0.3.5/scope-tui-v0.3.5-linux-x64-gnu",
+            "downloads": 105
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "type": "archive",
+            "open": "scope-tui-v0.3.5-win32-x64.exe",
+            "size": 1277952,
+            "sha256": "a389d1866370707fbca8460830ef6fb0a56724c2d7799ec23323a8e4a0808ebc",
+            "url": "https://github.com/alemidev/scope-tui/releases/download/v0.3.5/scope-tui-v0.3.5-win32-x64.exe",
+            "downloads": 109
+          }
+        ],
+        "verified": true,
+        "downloads": 260
+      }
+    },
+    "downloads": 260
+  }
+}
