@@ -33926,6 +33926,149 @@
     },
     "downloads": 67
   },
+  "davemollen/dm-repeat": {
+    "slug": "davemollen/dm-repeat",
+    "version": "0.1.0",
+    "versions": {
+      "0.1.0": {
+        "name": "dm-Repeat",
+        "author": "Dave Mollen",
+        "description": "Multi-tap delay plugin",
+        "license": "gpl-3.0",
+        "type": "effect",
+        "tags": [
+          "delay",
+          "multi-tap",
+          "Au"
+        ],
+        "url": "https://github.com/davemollen/dm-Repeat",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/davemollen/dm-repeat/dm-repeat.jpg",
+        "date": "2026-03-23T08:46:47Z",
+        "changes": "- Fixed linux vst3 build",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "component",
+              "clap",
+              "lv2"
+            ],
+            "type": "archive",
+            "size": 21396674,
+            "sha256": "b3b9f69ff8f001cc896862362040b6507e3c04a1310556c6476a13cffb379645",
+            "url": "https://github.com/davemollen/dm-Repeat/releases/download/v0.1.0/dm-Repeat-macos.zip",
+            "downloads": 8
+          },
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "lv2"
+            ],
+            "type": "archive",
+            "size": 965953,
+            "sha256": "73728448b995e6065214bc7e312ec23a1253fa7b39bfcd5d8320a5bbac2d1d6d",
+            "url": "https://github.com/davemollen/dm-Repeat/releases/download/v0.1.0/dm-Repeat-modduo-new.zip",
+            "downloads": 3
+          },
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "lv2"
+            ],
+            "type": "archive",
+            "size": 956930,
+            "sha256": "2b8ce6797c0ae73a9d3b95bc44dc6082f4da408543daaed2b4e9286f9b07b1e2",
+            "url": "https://github.com/davemollen/dm-Repeat/releases/download/v0.1.0/dm-Repeat-modduox-new.zip",
+            "downloads": 3
+          },
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "lv2"
+            ],
+            "type": "archive",
+            "size": 956529,
+            "sha256": "47e991cb77bb3dfe880e2e32cc1c5caf659738c36dc49c0d0c3a92191a323f39",
+            "url": "https://github.com/davemollen/dm-Repeat/releases/download/v0.1.0/dm-Repeat-moddwarf-new.zip",
+            "downloads": 4
+          },
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "clap",
+              "lv2"
+            ],
+            "type": "archive",
+            "size": 8095032,
+            "sha256": "38e3e48bb311d6276f6be041d6e8ed6e432681a97dcdbc787bfe51c73b0ff84a",
+            "url": "https://github.com/davemollen/dm-Repeat/releases/download/v0.1.0/dm-Repeat-ubuntu.zip",
+            "downloads": 6
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "clap",
+              "lv2"
+            ],
+            "type": "archive",
+            "size": 7274139,
+            "sha256": "315e75631e70763f0ea38a116e01b15c1f6d1be4daa4a1adc38aace5fb374127",
+            "url": "https://github.com/davemollen/dm-Repeat/releases/download/v0.1.0/dm-Repeat-windows.zip",
+            "downloads": 20
+          }
+        ],
+        "verified": true,
+        "downloads": 44
+      }
+    },
+    "downloads": 44
+  },
   "davemollen/dm-octaver": {
     "slug": "davemollen/dm-octaver",
     "version": "0.0.6",
