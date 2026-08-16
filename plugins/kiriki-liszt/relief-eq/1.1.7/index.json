@@ -1,0 +1,57 @@
+{
+  "name": "Relief EQ",
+  "author": "Aris Kiriki-Liszt == yg331",
+  "description": "Relief EQ is a EQ for everyday tasks, anywhere from mixing a track to master bus.",
+  "license": "gpl-3.0",
+  "type": "effect",
+  "tags": [
+    "eq",
+    "equalizer"
+  ],
+  "url": "https://github.com/Kiriki-liszt/Relief_EQ",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/kiriki-liszt/relief-eq/relief-eq.jpg",
+  "date": "2024-12-03T10:42:07Z",
+  "changes": "Update:\r\n - Fix : crash when plugin terminates while playing.  \r\n - Revert from the Data Exchange API to the IMessage API.",
+  "files": [
+    {
+      "systems": [
+        {
+          "type": "mac"
+        }
+      ],
+      "architectures": [
+        "arm64",
+        "x64"
+      ],
+      "contains": [
+        "vst3",
+        "component"
+      ],
+      "type": "archive",
+      "size": 3324001,
+      "sha256": "5b9d8adae1e6435b4d401ef03edc391e5fa4356d337edc85ba66fa24127995c6",
+      "url": "https://github.com/Kiriki-liszt/Relief_EQ/releases/download/v1.1.7/Relief.EQ.macOS.v1.1.7.0.zip",
+      "downloads": 380
+    },
+    {
+      "systems": [
+        {
+          "type": "win"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3"
+      ],
+      "type": "archive",
+      "size": 1343272,
+      "sha256": "7d87763630ab0d7f028796100c2d6d70b7ecc1a72c516c8be6ff8de0163e4299",
+      "url": "https://github.com/Kiriki-liszt/Relief_EQ/releases/download/v1.1.7/Relief.EQ.Win.v1.1.7.0.zip",
+      "downloads": 1241
+    }
+  ],
+  "verified": true,
+  "downloads": 1621
+}
