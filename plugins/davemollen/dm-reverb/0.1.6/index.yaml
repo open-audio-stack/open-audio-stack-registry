@@ -1,0 +1,82 @@
+name: dm-Reverb
+author: Dave Mollen
+description: Reverb plugin
+license: gpl-3.0
+type: effect
+tags:
+  - reverb
+  - shimmer
+  - Au
+url: https://github.com/davemollen/dm-Reverb
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/davemollen/dm-reverb/dm-reverb.jpg
+date: '2026-03-23T08:48:43Z'
+changes: '- Fixed linux vst3 build'
+files:
+  - systems:
+      - type: mac
+    architectures:
+      - arm64
+      - x64
+    contains:
+      - vst3
+      - component
+      - clap
+      - lv2
+    type: archive
+    size: 20096088
+    sha256: 3c0f04331bfd99bb4955da178f6da7846f90229a0b6793b4b6457610e3ecc277
+    url: https://github.com/davemollen/dm-Reverb/releases/download/v0.1.6/dm-Reverb-macos.zip
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - lv2
+    type: archive
+    size: 1032682
+    sha256: 46ade9f84949a0a5224b2b1c0b4137bc51fa0a8d4ec728610d7b21a46df655f9
+    url: https://github.com/davemollen/dm-Reverb/releases/download/v0.1.6/dm-Reverb-modduo-new.zip
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - lv2
+    type: archive
+    size: 1019116
+    sha256: 281df2239d75d9dced72344fc49d7b22115a5b46ccc17875f014d08890479399
+    url: https://github.com/davemollen/dm-Reverb/releases/download/v0.1.6/dm-Reverb-modduox-new.zip
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - lv2
+    type: archive
+    size: 1018651
+    sha256: 7006ceb759dfe64f5fd7e2cb49f8ab99def093b0cdb0fabc9680b9804af4260e
+    url: https://github.com/davemollen/dm-Reverb/releases/download/v0.1.6/dm-Reverb-moddwarf-new.zip
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - vst3
+      - clap
+      - lv2
+    type: archive
+    size: 7689570
+    sha256: 1cb59f08ce6453ac30c3337cdfdb96ae7477b253919fbd066c1ea14acf5e052c
+    url: https://github.com/davemollen/dm-Reverb/releases/download/v0.1.6/dm-Reverb-ubuntu.zip
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - vst3
+      - clap
+      - lv2
+    type: archive
+    size: 6757110
+    sha256: 138f5f6dbcd3d26c8e2ea70ac3644bb00603e4311f15ec74dc9ec8895b1d6c8a
+    url: https://github.com/davemollen/dm-Reverb/releases/download/v0.1.6/dm-Reverb-windows.zip
