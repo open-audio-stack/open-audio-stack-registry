@@ -33,7 +33,7 @@
             "size": 5911681,
             "sha256": "c01c49d8063965c4c2dea8324468336768f5c9139e0b1caebde14c2400b55352",
             "url": "https://github.com/Tracktion/pluginval/releases/download/v1.0.4/pluginval_Linux.zip",
-            "downloads": 17509
+            "downloads": 17514
           },
           {
             "systems": [
@@ -49,7 +49,7 @@
             "size": 9202795,
             "sha256": "3c4c533bda0c5059eea3ddaea752d757ee2025041f0f47e6bcb0e87f6082b29f",
             "url": "https://github.com/Tracktion/pluginval/releases/download/v1.0.4/pluginval_macOS.zip",
-            "downloads": 63251
+            "downloads": 63264
           },
           {
             "systems": [
@@ -65,14 +65,14 @@
             "size": 2408590,
             "sha256": "c08e61ce3b96db41636f8ec7e76f4c7e2c13ebdac7fa1b5a1f52b4f32ec715ab",
             "url": "https://github.com/Tracktion/pluginval/releases/download/v1.0.4/pluginval_Windows.zip",
-            "downloads": 98809
+            "downloads": 98815
           }
         ],
         "verified": true,
-        "downloads": 179569
+        "downloads": 179593
       }
     },
-    "downloads": 179569
+    "downloads": 179593
   },
   "steinberg/validator": {
     "slug": "steinberg/validator",
@@ -183,7 +183,7 @@
             "size": 27877081,
             "sha256": "4601e7f4e4c03e59a4c5b5000216ef3add3e808799cfccd95e14e83ea4611081",
             "url": "https://github.com/Rikorose/DeepFilterNet/releases/download/v0.5.6/deep-filter-0.5.6-aarch64-apple-darwin",
-            "downloads": 5606
+            "downloads": 5607
           },
           {
             "systems": [
@@ -231,7 +231,7 @@
             "size": 29933512,
             "sha256": "d3be84003acb7c23e738ad7f70a158ec779a8d233a82e7fa3e717d112eb5b50f",
             "url": "https://github.com/Rikorose/DeepFilterNet/releases/download/v0.5.6/deep-filter-0.5.6-x86_64-apple-darwin",
-            "downloads": 1127
+            "downloads": 1129
           },
           {
             "systems": [
@@ -247,7 +247,7 @@
             "size": 26912256,
             "sha256": "75e11fa16445f560cb6b021521ddb89e89270d13b83089705d98776f58fd7915",
             "url": "https://github.com/Rikorose/DeepFilterNet/releases/download/v0.5.6/deep-filter-0.5.6-x86_64-pc-windows-msvc.exe",
-            "downloads": 12994
+            "downloads": 12998
           },
           {
             "systems": [
@@ -263,14 +263,14 @@
             "size": 36417296,
             "sha256": "70775e251eee44c0f2451a1e833326cf8bcbbe304d3e7cd12851e6fce72ef7da",
             "url": "https://github.com/Rikorose/DeepFilterNet/releases/download/v0.5.6/deep-filter-0.5.6-x86_64-unknown-linux-musl",
-            "downloads": 29507
+            "downloads": 29511
           }
         ],
         "verified": true,
-        "downloads": 53255
+        "downloads": 53266
       }
     },
-    "downloads": 53255
+    "downloads": 53266
   },
   "monocasual/giada": {
     "slug": "monocasual/giada",
@@ -331,6 +331,70 @@
       }
     },
     "downloads": 2644
+  },
+  "juzzlin/noteahead": {
+    "slug": "juzzlin/noteahead",
+    "version": "6.0.0",
+    "versions": {
+      "6.0.0": {
+        "name": "Noteahead",
+        "author": "Jussi Lind",
+        "description": "A MIDI tracker and sequencer with built-in synths and effects written in C++/Qt/QML targeted for Linux.",
+        "license": "gpl-3.0",
+        "type": "tool",
+        "tags": [
+          "Midi",
+          "Midi Controller",
+          "Qml",
+          "Qt6",
+          "Cmake",
+          "Sequencer",
+          "Music Production",
+          "Audio"
+        ],
+        "url": "https://github.com/juzzlin/Noteahead",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/apps/juzzlin/noteahead/noteahead.jpg",
+        "date": "2026-08-02T20:38:36Z",
+        "changes": "Release date:\r\n\r\nSun, 02 Aug 2026 20:54:17 +0300\r\n\r\nNew features:\r\n\r\n* Store the render settings with the song\r\n\r\n* Add optional multi-threaded playback\r\n  - \"Spread playback across CPU cores\" in Audio settings, off by default\r\n\r...",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "type": "installer",
+            "open": "noteahead",
+            "size": 2733144,
+            "sha256": "da41a209b63c116333ca344efb67b093e458ae5cd17f2eecdd95946abd40007f",
+            "url": "https://github.com/juzzlin/Noteahead/releases/download/6.0.0/noteahead-6.0.0-ubuntu-24.04_amd64.deb",
+            "downloads": 10
+          },
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "type": "installer",
+            "open": "noteahead",
+            "size": 4292368,
+            "sha256": "db04ce62f8e601eff656f7f0951dee0c28487b3d625e08dcdad3974d76c8e16e",
+            "url": "https://github.com/juzzlin/Noteahead/releases/download/6.0.0/noteahead-6.0.0-ubuntu-26.04_amd64.deb",
+            "downloads": 11
+          }
+        ],
+        "verified": true,
+        "downloads": 21
+      }
+    },
+    "downloads": 21
   },
   "jun-murakami/cubasedrummapeditor": {
     "slug": "jun-murakami/cubasedrummapeditor",
@@ -1032,14 +1096,14 @@
             "size": 69131397,
             "sha256": "704e02f161eed15ad539331e975eee033b17a43ffa2041aebbcb9c931c34d6f3",
             "url": "https://github.com/christofmuc/KnobKraft-orm/releases/download/2.9.0/knobkraft_orm_setup_2.9.0.exe",
-            "downloads": 327
+            "downloads": 328
           }
         ],
         "verified": true,
-        "downloads": 608
+        "downloads": 609
       }
     },
-    "downloads": 608
+    "downloads": 609
   },
   "christofmuc/bcr2000-master": {
     "slug": "christofmuc/bcr2000-master",

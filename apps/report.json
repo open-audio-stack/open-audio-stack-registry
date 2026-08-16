@@ -55,6 +55,24 @@
       ]
     }
   },
+  "juzzlin/noteahead": {
+    "6.0.0": {
+      "recs": [
+        {
+          "field": "architectures",
+          "rec": "should support arm64"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Mac"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Windows"
+        }
+      ]
+    }
+  },
   "jun-murakami/cubasedrummapeditor": {
     "1.5.0": {
       "recs": [

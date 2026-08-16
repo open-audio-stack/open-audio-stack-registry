@@ -1,0 +1,57 @@
+{
+  "name": "Noteahead",
+  "author": "Jussi Lind",
+  "description": "A MIDI tracker and sequencer with built-in synths and effects written in C++/Qt/QML targeted for Linux.",
+  "license": "gpl-3.0",
+  "type": "tool",
+  "tags": [
+    "Midi",
+    "Midi Controller",
+    "Qml",
+    "Qt6",
+    "Cmake",
+    "Sequencer",
+    "Music Production",
+    "Audio"
+  ],
+  "url": "https://github.com/juzzlin/Noteahead",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/apps/juzzlin/noteahead/noteahead.jpg",
+  "date": "2026-08-02T20:38:36Z",
+  "changes": "Release date:\r\n\r\nSun, 02 Aug 2026 20:54:17 +0300\r\n\r\nNew features:\r\n\r\n* Store the render settings with the song\r\n\r\n* Add optional multi-threaded playback\r\n  - \"Spread playback across CPU cores\" in Audio settings, off by default\r\n\r...",
+  "files": [
+    {
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "type": "installer",
+      "open": "noteahead",
+      "size": 2733144,
+      "sha256": "da41a209b63c116333ca344efb67b093e458ae5cd17f2eecdd95946abd40007f",
+      "url": "https://github.com/juzzlin/Noteahead/releases/download/6.0.0/noteahead-6.0.0-ubuntu-24.04_amd64.deb",
+      "downloads": 10
+    },
+    {
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "type": "installer",
+      "open": "noteahead",
+      "size": 4292368,
+      "sha256": "db04ce62f8e601eff656f7f0951dee0c28487b3d625e08dcdad3974d76c8e16e",
+      "url": "https://github.com/juzzlin/Noteahead/releases/download/6.0.0/noteahead-6.0.0-ubuntu-26.04_amd64.deb",
+      "downloads": 11
+    }
+  ],
+  "verified": true,
+  "downloads": 21
+}
