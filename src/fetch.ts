@@ -545,8 +545,12 @@ const HELPER_BINARY_PATTERN = /unins|uninstall|vc_?redist|dotnetfx|dotnet-|winsp
 // files, and plain-text/doc sidecars a release commonly ships alongside the real downloads.
 // Excluded outright rather than run through system/format inference, which would otherwise
 // occasionally misfire and tag one of these with a `contains` value (seen with a
-// `SHA256SUMS-macOS.txt` that got auto-tagged `contains: [vst3]`).
-const NON_BINARY_ASSET_PATTERN = /^SHA(256|1|512)SUMS|^CHECKSUMS|\.(txt|md|sig|asc|sha256|sha1|pem|crt|yml|yaml)$/i;
+// `SHA256SUMS-macOS.txt` that got auto-tagged `contains: [vst3]`). `.sh`/`.json` build/install
+// helper scripts hit the exact same failure: a name like `build-osx.sh` or `mac_installer.sh`
+// carries an OS-name substring that `inferSystems` happily matches, so a handful-of-bytes shell
+// script ends up with a full systems/architectures/contains entry guessed from README text.
+const NON_BINARY_ASSET_PATTERN =
+  /^SHA(256|1|512)SUMS|^CHECKSUMS|\.(txt|md|sig|asc|sha256|sha1|pem|crt|yml|yaml|sh|json)$/i;
 
 function inspectExtractedDir(dir: string): ArchiveInspection {
   const result: ArchiveInspection = {
