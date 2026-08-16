@@ -1,0 +1,112 @@
+{
+  "slug": "emprcl/signls",
+  "version": "0.9.0",
+  "versions": {
+    "0.9.0": {
+      "name": "Signls",
+      "author": "emprcl",
+      "description": "a non-linear, generative midi sequencer in the terminal :infinity:",
+      "license": "mit",
+      "type": "tool",
+      "tags": [
+        "Bubbletea",
+        "Cli",
+        "Midi",
+        "Midi Controller",
+        "Music",
+        "Musicmaking",
+        "Sequencer",
+        "Sequencer Midi"
+      ],
+      "url": "https://github.com/emprcl/signls",
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/apps/emprcl/signls/signls.jpg",
+      "date": "2026-08-07T13:32:21Z",
+      "changes": "## :sparkles: Features\r\n\r\n- add undo/redo (`ctrl`+`z` / `ctrl`+`y`) for node edits, parameter changes, root/scale/tempo, and bank slot clear/cut/paste — each bank grid keeps its own history. Closes #13.\r...",
+      "files": [
+        {
+          "systems": [
+            {
+              "type": "mac"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "type": "archive",
+          "open": "signls",
+          "size": 1984793,
+          "sha256": "98449aee9819a4dcbc245069e9bd0608a7f3b1b5ca5f7bee4b5299ef232c9e1d",
+          "url": "https://github.com/emprcl/signls/releases/download/v0.9.0/signls_0.9.0_darwin_amd64.tar.gz",
+          "downloads": 3
+        },
+        {
+          "systems": [
+            {
+              "type": "mac"
+            }
+          ],
+          "architectures": [
+            "arm64"
+          ],
+          "type": "archive",
+          "open": "signls",
+          "size": 1860904,
+          "sha256": "949ca9a6cb725487f09f6a67edcc8360a0a02cd82ac2fc8c08a86b8ebd41b8a5",
+          "url": "https://github.com/emprcl/signls/releases/download/v0.9.0/signls_0.9.0_darwin_arm64.tar.gz",
+          "downloads": 7
+        },
+        {
+          "systems": [
+            {
+              "type": "linux"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "type": "archive",
+          "open": "signls",
+          "size": 2362045,
+          "sha256": "5fbdc844aa3eecccf509677dcb9c3992b12a8944b5c6a1cf67cb3396c163154c",
+          "url": "https://github.com/emprcl/signls/releases/download/v0.9.0/signls_0.9.0_linux_amd64.tar.gz",
+          "downloads": 5
+        },
+        {
+          "systems": [
+            {
+              "type": "linux"
+            }
+          ],
+          "architectures": [
+            "arm64"
+          ],
+          "type": "archive",
+          "open": "signls",
+          "size": 2184695,
+          "sha256": "1854d332a9c531ab38d787dc632ac199690fc3ab7ecb0c97ff6ccd64d1a458a6",
+          "url": "https://github.com/emprcl/signls/releases/download/v0.9.0/signls_0.9.0_linux_arm64.tar.gz",
+          "downloads": 3
+        },
+        {
+          "systems": [
+            {
+              "type": "win"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "type": "archive",
+          "open": "signls.exe",
+          "size": 2419186,
+          "sha256": "d54261f5326263f41d6ffbcf919554374232deb860ad663bdfe3c6327c6561d5",
+          "url": "https://github.com/emprcl/signls/releases/download/v0.9.0/signls_0.9.0_windows_amd64.zip",
+          "downloads": 2
+        }
+      ],
+      "verified": true,
+      "downloads": 20
+    }
+  },
+  "downloads": 20
+}
