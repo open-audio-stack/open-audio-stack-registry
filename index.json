@@ -15748,7 +15748,7 @@
               "size": 770562825,
               "sha256": "2d4edfe2f7778572cbfe14f86274fc65b6bd043d75588d274166f0518504d4d3",
               "url": "https://github.com/plugdata-team/plugdata/releases/download/v0.9.3-2/plugdata-macOS-Universal.pkg",
-              "downloads": 1960
+              "downloads": 1961
             },
             {
               "systems": [
@@ -15920,10 +15920,10 @@
             }
           ],
           "verified": true,
-          "downloads": 6637
+          "downloads": 6638
         }
       },
-      "downloads": 6637
+      "downloads": 6638
     },
     "pixelsncodes/lumen": {
       "slug": "pixelsncodes/lumen",
@@ -23632,14 +23632,14 @@
               "size": 6658226,
               "sha256": "861ad556d4767108844ff44ee84656fc2fb71c89af72a385f590ffd9996799a6",
               "url": "https://github.com/liuanlin-mx/MXTune/releases/download/v1.2.0/windows_x86_64_vst_v1.2.0.zip",
-              "downloads": 23576
+              "downloads": 23577
             }
           ],
           "verified": true,
-          "downloads": 38313
+          "downloads": 38314
         }
       },
-      "downloads": 38313
+      "downloads": 38314
     },
     "leon-focker/metrefiddler": {
       "slug": "leon-focker/metrefiddler",
@@ -23976,6 +23976,155 @@
       },
       "downloads": 9673
     },
+    "lbartoletti/beatit": {
+      "slug": "lbartoletti/beatit",
+      "version": "0.0.1",
+      "versions": {
+        "0.0.1": {
+          "name": "BeatIt",
+          "author": "Loïc Bartoletti",
+          "description": "Interactive metronome audio plugin with tempo control, custom time signatures, beat visualization, and multiple click sounds for precise musical timing",
+          "license": "mit",
+          "type": "tool",
+          "tags": [
+            "Metronome",
+            "Tempo",
+            "Click"
+          ],
+          "url": "https://github.com/lbartoletti/BeatIt",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/lbartoletti/beatit/beatit.jpg",
+          "date": "2024-10-28T19:00:39Z",
+          "changes": "Welcome to BeatIt!",
+          "files": [
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "lv2",
+                "elf"
+              ],
+              "type": "archive",
+              "size": 4087236,
+              "sha256": "332fec002423829f778585a963a867a15b420b09fbaa01fddc1e2ce796b29106",
+              "url": "https://github.com/lbartoletti/BeatIt/releases/download/0.0.1/BeatIt-0.0.1-FreeBSD.zip",
+              "downloads": 3
+            },
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "vst3",
+                "lv2",
+                "elf"
+              ],
+              "type": "archive",
+              "size": 6611023,
+              "sha256": "cd11bf8da4b08a2ded6fba441eda442ee9070b637a80279686afffc1daee1bbd",
+              "url": "https://github.com/lbartoletti/BeatIt/releases/download/0.0.1/BeatIt-0.0.1-Linux.zip",
+              "downloads": 5
+            },
+            {
+              "systems": [
+                {
+                  "type": "mac"
+                }
+              ],
+              "architectures": [
+                "arm64",
+                "x64"
+              ],
+              "contains": [
+                "vst3",
+                "component",
+                "lv2",
+                "app"
+              ],
+              "type": "installer",
+              "size": 15046132,
+              "sha256": "091d5ac7078d5e9eb06d58c1cd6b37558a887970d7244c814a666993b3cb6674",
+              "url": "https://github.com/lbartoletti/BeatIt/releases/download/0.0.1/BeatIt-0.0.1-macOS.dmg",
+              "downloads": 5
+            },
+            {
+              "systems": [
+                {
+                  "type": "mac"
+                }
+              ],
+              "architectures": [
+                "arm64",
+                "x64"
+              ],
+              "contains": [
+                "vst3",
+                "component",
+                "lv2",
+                "app"
+              ],
+              "type": "archive",
+              "size": 13666529,
+              "sha256": "0f4eef0d858e0e5c943f25bf96a487f2b3045dfe16517bb857a85af06a0f5d19",
+              "url": "https://github.com/lbartoletti/BeatIt/releases/download/0.0.1/BeatIt-0.0.1-macOS.zip",
+              "downloads": 2
+            },
+            {
+              "systems": [
+                {
+                  "type": "win"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "vst3",
+                "lv2"
+              ],
+              "type": "installer",
+              "size": 6544182,
+              "sha256": "23b8646d0e2349f90a9434757cee28285fa2fbfdf74082bf849cb025cbe1c97e",
+              "url": "https://github.com/lbartoletti/BeatIt/releases/download/0.0.1/BeatIt-0.0.1-Windows.exe",
+              "downloads": 7
+            },
+            {
+              "systems": [
+                {
+                  "type": "win"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "vst3",
+                "lv2",
+                "exe"
+              ],
+              "type": "archive",
+              "size": 6217519,
+              "sha256": "cc8b1af138c09d5319cbc5512db49b12a0b497d0a7e834e3c1fe5a523915b5bb",
+              "url": "https://github.com/lbartoletti/BeatIt/releases/download/0.0.1/BeatIt-0.0.1-Windows.zip",
+              "downloads": 6
+            }
+          ],
+          "verified": true,
+          "downloads": 28
+        }
+      },
+      "downloads": 28
+    },
     "larrymarmalade/the-archaeologist": {
       "slug": "larrymarmalade/the-archaeologist",
       "version": "0.1.0",
@@ -24262,7 +24411,7 @@
               "size": 170906810,
               "sha256": "e3d26fa15f960a2f7e6a9b32f4a442d590a7854d57383448e13605aebcfb5470",
               "url": "https://github.com/kushview/element/releases/download/1.0.0/element-1.0.0-linux-x86_64.deb",
-              "downloads": 1533
+              "downloads": 1534
             },
             {
               "systems": [
@@ -24312,10 +24461,10 @@
             }
           ],
           "verified": true,
-          "downloads": 24330
+          "downloads": 24331
         }
       },
-      "downloads": 24330
+      "downloads": 24331
     },
     "kiriki-liszt/relief-eq": {
       "slug": "kiriki-liszt/relief-eq",
@@ -44051,7 +44200,7 @@
               "size": 17183630,
               "sha256": "a6505103869d15400e7bed1d988d9dd155d6d8204a3d532f5301966ae7507ad8",
               "url": "https://github.com/asb2m10/dexed/releases/download/v1.0.1/Dexed-1.0.1-macOS.dmg",
-              "downloads": 61902
+              "downloads": 61906
             },
             {
               "systems": [
@@ -44116,7 +44265,7 @@
             }
           ],
           "verified": true,
-          "downloads": 154984
+          "downloads": 154988
         },
         "0.9.8": {
           "name": "Dexed",
@@ -44201,7 +44350,7 @@
           "downloads": 195804
         }
       },
-      "downloads": 350788
+      "downloads": 350792
     },
     "artfwo/andes": {
       "slug": "artfwo/andes",
