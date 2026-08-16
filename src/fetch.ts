@@ -71,6 +71,18 @@ async function checkAttestation(org: string, repo: string, sha256: string): Prom
 
 // ── String helpers ────────────────────────────────────────────────────────────
 
+// GitHub topics are a mix of genuinely descriptive categories (guitar-amp, compressor,
+// tape-emulation) and purely technical ones — plugin formats, frameworks, and toolchains
+// (vst3-plugin, clap, lv2, dpf, juce, faust-dsp) that are already captured by this package's
+// own `contains`/`type` fields and add no information as a registry tag. AGENTS.md already
+// documents this distinction for the human reviewer ("GitHub topics are technical... registry
+// tags should be semantic categories"), but blindly taking the first 8 topics let noise like
+// "Clap Plugin"/"Faust Dsp" crowd out real ones like "guitar-pedal"/"rockman" (PR #819).
+// Filtering known-technical topics out before slicing to 8 means more of those slots land on
+// something semantically useful, without changing the reviewer's job of double-checking tags.
+const TECHNICAL_TOPIC_RE =
+  /^(vst|vst2|vst3|vst3-plugin|vst-plugin|clap|clap-plugin|lv2|lv2-plugin|au|au-plugin|aax|aax-plugin|ladspa|ladspa-plugin|dssi|dpf|juce|jsfx|faust|faust-dsp|standalone|audio-plugin|audio-unit|plugin|plugins|cli|sdk|api|library|framework|cross-platform|linux|windows|macos|osx|cmake|rust|cpp|c-plus-plus|python|typescript|javascript|nodejs|wasm|webassembly)$/;
+
 function slugToTitleCase(slug: string): string {
   return slug
     .replace(/([a-z])([A-Z])/g, '$1 $2') // camelCase → camel Case
@@ -93,6 +105,47 @@ function detectLicenseFromText(text: string): string | null {
   // silently fails to match even though the license text is a byte-for-byte standard copy.
   const t = text.slice(0, 4000).replace(/\s+/g, ' ');
   const has = (re: RegExp) => re.test(t);
+
+  // Some LICENSE files aren't a single canonical text — they attribute the project's own
+  // license up top, then quote the license text of each bundled third-party dependency
+  // below (DPF, JUCE, etc.), each with its own boilerplate body. Full-text pattern matching
+  // below can latch onto a *bundled dependency's* canonical paragraph before ever reaching
+  // the project's own (seen on SpotlightKid/waxman: its LICENSE.md says "Waxman is released
+  // under the MIT license" but happens to phrase that grant using ISC's canonical wording,
+  // while a genuinely ISC-licensed dependency is quoted further down — full-text matching
+  // picked ISC for the whole package, which PR #819's author corrected). An explicit
+  // "released/licensed under the X license" declaration is a stronger, more direct signal
+  // of the *project's* license than boilerplate text-sniffing, so check for the first such
+  // declaration before falling back to full-text matching.
+  const declared = t.match(
+    /(?:is |^)(?:released|licen[sc]ed) under the ([A-Za-z0-9][A-Za-z0-9.+\- ]{1,40}?) licen[sc]e/i,
+  );
+  if (declared) {
+    const name = declared[1].trim().toLowerCase();
+    const declaredMap: Array<[RegExp, string]> = [
+      [/^mit$/, 'mit'],
+      [/^isc$/, 'isc'],
+      [/^(bsd-?3(-clause)?|bsd 3-clause)$/, 'bsd-3-clause'],
+      [/^(bsd-?2(-clause)?|bsd 2-clause)$/, 'bsd-2-clause'],
+      [/^apache(?:-| )?2\.0$/, 'apache-2.0'],
+      [/^mpl(?:-| )?2\.0$/, 'mpl-2.0'],
+      [/^(gpl-?3(\.0)?\+?|gplv3\+?)$/, 'gpl-3.0'],
+      [/^(gpl-?2(\.0)?\+?|gplv2\+?)$/, 'gpl-2.0'],
+      [/^(lgpl-?2\.1\+?|lgplv2\.1\+?)$/, 'lgpl-2.1'],
+      [/^(lgpl-?3(\.0)?\+?|lgplv3\+?)$/, 'lgpl-3.0'],
+      [/^(agpl-?3(\.0)?\+?|agplv3\+?)$/, 'agpl-3.0'],
+      [/^zlib$/, 'zlib'],
+      [/^(0bsd|bsd zero-?clause)$/, '0bsd'],
+      [/^cc0(?:-1\.0)?$/, 'cc0-1.0'],
+      [/^unlicense$/, 'unlicense'],
+      [/^wtfpl$/, 'wtfpl'],
+      [/^(bsl(?:-| )?1\.0|boost software license.*)$/, 'bsl-1.0'],
+    ];
+    for (const [re, id] of declaredMap) if (re.test(name)) return id;
+    // Declared name didn't match a known id (could be a bundled third-party component's
+    // license further down the file) — fall through to full-text matching below.
+  }
+
   if (has(/BSD Zero-?Clause License/i)) return '0bsd';
   if (has(/unencumbered software released into the public domain/i)) return 'unlicense';
   if (has(/DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE/i)) return 'wtfpl';
@@ -1087,7 +1140,10 @@ async function main() {
     description: (repoInfo.description ?? '').slice(0, 255),
     license,
     type: inferPluginType(repoInfo.description ?? '', topics, readme),
-    tags: topics.slice(0, 8).map(slugToTitleCase),
+    tags: topics
+      .filter(t => !TECHNICAL_TOPIC_RE.test(t))
+      .slice(0, 8)
+      .map(slugToTitleCase),
     url: `https://github.com/${ghOrg}/${ghRepo}`,
     ...(existsSync(audioLocalPath) ? { audio: audioCdnUrl } : {}),
     ...(existsSync(imageLocalPath) ? { image: imageCdnUrl } : {}),
@@ -1117,6 +1173,14 @@ async function main() {
       `  license: "${license}"  — GitHub's API reported no license/"other"; detected from the LICENSE file's own text, verify`,
     );
   console.log(`  name:    "${pkg.name}"  — confirm display name matches plugin branding`);
+  // The GitHub "About" field is often a tagline/pun rather than a real functional
+  // description (e.g. Waxman's was "Let's rock, man!", merged as-is in PR #819 and flagged
+  // by the plugin author in review) — flag short ones explicitly rather than relying on the
+  // reviewer to notice, since a short description isn't visually distinct from a good one.
+  const descLen = (pkg.description as string).length;
+  console.log(
+    `  description: "${pkg.description}"${descLen < 40 ? '  ⚠ very short — likely a tagline, expand from the README' : '  — confirm it explains what the plugin does, not just a tagline'}`,
+  );
   console.log(`  type:    "${pkg.type}"  — confirm: instrument / effect / sampler / generator / tool`);
   const nonTitleCaseTags = (pkg.tags as string[]).filter(t => t !== slugToTitleCase(t));
   const tagsNote = nonTitleCaseTags.length
