@@ -1,0 +1,45 @@
+{
+  "slug": "rudro085/facemelter",
+  "version": "1.0.1",
+  "versions": {
+    "1.0.1": {
+      "name": "FaceMelter",
+      "author": "Rudro085",
+      "description": "This is a distortion pedal vst plugin for guitar.",
+      "license": "mit",
+      "type": "effect",
+      "tags": [
+        "Distortion",
+        "Guitar",
+        "Pedal"
+      ],
+      "url": "https://github.com/Rudro085/FaceMelter",
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/rudro085/facemelter/facemelter.jpg",
+      "date": "2024-09-13T07:56:08Z",
+      "changes": "v1.0.1 release.",
+      "files": [
+        {
+          "systems": [
+            {
+              "type": "win"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "vst3"
+          ],
+          "type": "archive",
+          "size": 6971904,
+          "sha256": "b5a51d7168f3f41a955b2c99b2fc72b062d6fee5dfd6b2e61d5a4563b7ccf68a",
+          "url": "https://github.com/Rudro085/FaceMelter/releases/download/v1.0.1/FaceMelter.vst3",
+          "downloads": 12
+        }
+      ],
+      "verified": true,
+      "downloads": 12
+    }
+  },
+  "downloads": 12
+}
