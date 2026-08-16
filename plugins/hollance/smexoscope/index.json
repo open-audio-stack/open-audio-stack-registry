@@ -1,0 +1,83 @@
+{
+  "slug": "hollance/smexoscope",
+  "version": "1.0.2",
+  "versions": {
+    "1.0.2": {
+      "name": "sMexoscope",
+      "author": "Matthijs Hollemans",
+      "description": "The classic s(M)exoscope oscilloscope VST using modern JUCE",
+      "license": "gpl-3.0",
+      "type": "tool",
+      "tags": [
+        "oscilloscope",
+        "visualizer"
+      ],
+      "url": "https://github.com/hollance/sMexoscope",
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/hollance/smexoscope/smexoscope.jpg",
+      "date": "2026-07-04T20:25:28Z",
+      "changes": "Add Linux builds",
+      "files": [
+        {
+          "systems": [
+            {
+              "type": "mac"
+            }
+          ],
+          "architectures": [
+            "arm64",
+            "x64"
+          ],
+          "contains": [
+            "vst3",
+            "component"
+          ],
+          "type": "archive",
+          "size": 13675169,
+          "sha256": "d02c57a920424b555a5812eb4076e5c6dca3c10872607c19298265d1758268c3",
+          "url": "https://github.com/hollance/sMexoscope/releases/download/v1.0.2/sMexoscope-v1.0.2.zip",
+          "downloads": 222
+        },
+        {
+          "systems": [
+            {
+              "type": "linux"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "vst3",
+            "lv2"
+          ],
+          "type": "archive",
+          "size": 13675169,
+          "sha256": "d02c57a920424b555a5812eb4076e5c6dca3c10872607c19298265d1758268c3",
+          "url": "https://github.com/hollance/sMexoscope/releases/download/v1.0.2/sMexoscope-v1.0.2.zip",
+          "downloads": 222
+        },
+        {
+          "systems": [
+            {
+              "type": "win"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "vst3"
+          ],
+          "type": "archive",
+          "size": 13675169,
+          "sha256": "d02c57a920424b555a5812eb4076e5c6dca3c10872607c19298265d1758268c3",
+          "url": "https://github.com/hollance/sMexoscope/releases/download/v1.0.2/sMexoscope-v1.0.2.zip",
+          "downloads": 222
+        }
+      ],
+      "verified": true,
+      "downloads": 666
+    }
+  },
+  "downloads": 666
+}
