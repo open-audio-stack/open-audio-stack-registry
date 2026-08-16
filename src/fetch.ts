@@ -265,7 +265,7 @@ function inferFileType(filename: string): string {
 // a single self-contained SoundFont file, routinely uploaded bare the same way.
 const BARE_BINARY_ASSET = /\.(vst3|dll|dylib|so|clap|sf2)$/i;
 const INSPECTABLE_ASSET = new RegExp(
-  `\\.(zip|tar\\.gz|tgz|tar\\.xz|tar\\.bz2|pkg|dmg|deb|exe|msi)$|${BARE_BINARY_ASSET.source}`,
+  `\\.(zip|tar\\.gz|tgz|tar\\.xz|tar\\.bz2|pkg|dmg|deb|exe|msi|7z)$|${BARE_BINARY_ASSET.source}`,
   'i',
 );
 
@@ -443,6 +443,20 @@ function expandMsi(msiPath: string, outDir: string): boolean {
   }
 }
 
+// .7z archive — a plain, passively-parsed archive format (no execution involved, same trust
+// boundary as zip/tar), just less common than zip for release assets. 7z is already a hard
+// dependency for exe/msi extraction above, so no new tool requirement.
+function expand7z(archivePath: string, outDir: string): boolean {
+  if (!commandExists('7z')) return false;
+  mkdirSync(outDir, { recursive: true });
+  try {
+    execSync(`7z x "${archivePath}" -o"${outDir}" -y`, { stdio: 'pipe' });
+    return dirHasFiles(outDir);
+  } catch {
+    return false;
+  }
+}
+
 function extractArchive(tmpFile: string, filename: string): string | null {
   const dir = `${tmpFile}-extracted`;
   try {
@@ -478,6 +492,8 @@ function extractArchive(tmpFile: string, filename: string): string | null {
       if (!expandMsi(tmpFile, dir)) return null;
     } else if (/\.exe$/i.test(filename)) {
       if (!expandExe(tmpFile, dir)) return null;
+    } else if (/\.7z$/i.test(filename)) {
+      if (!expand7z(tmpFile, dir)) return null;
     } else if (BARE_BINARY_ASSET.test(filename)) {
       // No archive to unpack — the asset *is* the binary. Drop it into a directory under its
       // original name so inspectExtractedDir's name/`file`-based matching (which expects a
