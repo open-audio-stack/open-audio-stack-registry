@@ -1,0 +1,81 @@
+name: dm-DS1
+author: Dave Mollen
+description: Distortion plugin
+license: gpl-3.0
+type: effect
+tags:
+  - distortion
+  - Au
+url: https://github.com/davemollen/dm-DS1
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/davemollen/dm-ds1/dm-ds1.jpg
+date: '2026-03-23T08:45:34Z'
+changes: '- Fixed linux vst3 build'
+files:
+  - systems:
+      - type: mac
+    architectures:
+      - arm64
+      - x64
+    contains:
+      - vst3
+      - component
+      - clap
+      - lv2
+    type: archive
+    size: 21279518
+    sha256: 2660839acb4d6598ca3ebcc2baee13d258cf0d2e085e8e8c7ee1d70909af8981
+    url: https://github.com/davemollen/dm-DS1/releases/download/v0.1.3/dm-DS1-macos.zip
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - lv2
+    type: archive
+    size: 947831
+    sha256: c6c4a4223241428ed4125710b19a35800053786c96ee0b9aedc055827cfd8f39
+    url: https://github.com/davemollen/dm-DS1/releases/download/v0.1.3/dm-DS1-modduo-new.zip
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - lv2
+    type: archive
+    size: 935938
+    sha256: 441b6f63e77c740ecc44344a501b9312e7d8d4b36ba27dbd3ec962464e0e6d3a
+    url: https://github.com/davemollen/dm-DS1/releases/download/v0.1.3/dm-DS1-modduox-new.zip
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - lv2
+    type: archive
+    size: 935686
+    sha256: 1a470d956ce8d3471b804e2978f51a484d06a2305cb69a52f99abd19d8264395
+    url: https://github.com/davemollen/dm-DS1/releases/download/v0.1.3/dm-DS1-moddwarf-new.zip
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - vst3
+      - clap
+      - lv2
+    type: archive
+    size: 8041717
+    sha256: d74158fa5c020e8ccf9d35cadf8861060898018210162c15527fd7090e201be0
+    url: https://github.com/davemollen/dm-DS1/releases/download/v0.1.3/dm-DS1-ubuntu.zip
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - vst3
+      - clap
+      - lv2
+    type: archive
+    size: 7231927
+    sha256: d8985e2d08a3320b1fc2cbec97f1bef2dcee2be0f4d2839ac00fc249320136a2
+    url: https://github.com/davemollen/dm-DS1/releases/download/v0.1.3/dm-DS1-windows.zip
