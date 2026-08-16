@@ -358,6 +358,32 @@ function expandNestedPkgs(dir: string): void {
   }
 }
 
+// Recursively expand any bare .zip files left inside an already-extracted directory — some
+// release assets are a zip whose only content is another zip (seen on gmoican/PunkEq's macOS
+// asset: the release .zip contains just "Punk EQ-0.1.0-macOS.zip", one level deeper than a
+// plain zip). Without this, inspection only ever sees the inner zip as an opaque file and falls
+// back to unconfirmed guesses for contains/architectures. Bounded to a few levels since this is
+// a defensive unwrap, not an expectation of arbitrarily deep nesting.
+function expandNestedZips(dir: string, depth = 0): void {
+  if (depth >= 3) return;
+  try {
+    const zipFiles = execSync(`find "${dir}" -maxdepth 3 -iname "*.zip" -type f`, { encoding: 'utf8', stdio: 'pipe' })
+      .split('\n')
+      .filter(Boolean);
+    for (const zipFile of zipFiles) {
+      try {
+        execSync(`unzip -oq "${zipFile}" -d "${dir}"`, { stdio: 'pipe' });
+        execFileSync('rm', ['-f', zipFile], { stdio: 'pipe' });
+      } catch {
+        /* leave this zip in place if it can't be extracted */
+      }
+    }
+    if (zipFiles.length > 0) expandNestedZips(dir, depth + 1);
+  } catch {
+    /* best-effort — leave dir as-is if nested zips can't be found/expanded */
+  }
+}
+
 // macOS disk image. Mounts read-only and copies the volume contents out rather than reading
 // in place, so the mount can be detached immediately (avoids leaking mounted volumes across a
 // batch fetch run). Some dmgs show an embedded software-license prompt on attach; `yes |`
@@ -481,6 +507,7 @@ function extractArchive(tmpFile: string, filename: string): string | null {
         // silently falling back to unreliable prose-based format inference instead.
       }
       expandNestedPkgs(dir); // zip may wrap a .pkg rather than shipping raw bundles
+      expandNestedZips(dir); // zip may wrap another zip rather than shipping raw bundles
     } else if (/\.tar\.gz$|\.tgz$/i.test(filename)) {
       mkdirSync(dir, { recursive: true });
       execSync(`tar -xzf "${tmpFile}" -C "${dir}"`, { stdio: 'pipe' });
