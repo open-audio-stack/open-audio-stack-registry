@@ -1,17 +1,15 @@
 name: Waxman
 author: Christopher Arndt
-description: Let's rock, man!
-license: isc
+description: Waxman is a virtual guitar pre-amp and tone-stack comprising of a noise gate, compressor, distortion and equalizer stage. It is a multi-format, cross-platform audio effect plugin, emulating the sound of a Tom Scholz Rockman headphone practice amp.
+license: mit
 type: effect
 tags:
-  - Audio Effect
-  - Clap
-  - Clap Plugin
-  - Compressor
+  - Guitar Amp
+  - Noise Gate
   - Distortion
   - Equalizer
-  - Faust Dsp
-  - Guitar Amp
+  - Compressor
+  - Rockman
 url: https://github.com/SpotlightKid/waxman
 audio: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/spotlightkid/waxman/waxman.flac
 image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/spotlightkid/waxman/waxman.jpg
