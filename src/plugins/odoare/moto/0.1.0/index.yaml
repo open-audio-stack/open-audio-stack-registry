@@ -1,0 +1,76 @@
+name: MoTo
+author: Olivier Doaré
+description: Monitoring Tool (MoTo)
+license: lgpl-3.0
+type: tool
+tags:
+  - Audio
+  - Daw
+  - Mixing And Mastering
+  - Monitoring Tool
+  - Vst
+url: https://github.com/odoare/MoTo
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/odoare/moto/moto.jpg
+date: '2025-06-03T20:19:45Z'
+changes: New 0.1 version
+files:
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - lv2
+    type: archive
+    size: 3900740
+    sha256: 405311fdd7954183e63d296a2b93fa84ed9ad7a96c619b3104e7ce4716e008b7
+    url: https://github.com/odoare/MoTo/releases/download/0.1/MoTo_0.1_LINx64.lv2.zip
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - so
+    type: archive
+    size: 3892928
+    sha256: aecedf99d9fcbe733c30b05e17b9963789d29c0c7664caf5f6fdc531ce061c58
+    url: https://github.com/odoare/MoTo/releases/download/0.1/MoTo_0.1_LINx64.vst2.zip
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - vst3
+    type: archive
+    size: 4125430
+    sha256: 154afbcdba71a85fe64804316b6bf947cb3f787bcbd7f6d2f863be86864764cb
+    url: https://github.com/odoare/MoTo/releases/download/0.1/MoTo_0.1_LINx64.vst3.zip
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - lv2
+    type: archive
+    size: 2512461
+    sha256: b382a5690418f654e166bf878ce185c0c14180ace77d2d49fd58dff87742f877
+    url: https://github.com/odoare/MoTo/releases/download/0.1/MoTo_0.1_WINx64.lv2.zip
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - dll
+    type: archive
+    size: 2504277
+    sha256: ba4413f4b9d0ad472ad73e8d84ccdf6cc0769a083dab47bb28282c64acf38f83
+    url: https://github.com/odoare/MoTo/releases/download/0.1/MoTo_0.1_WINx64.vst2.zip
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - vst3
+    type: archive
+    size: 2574641
+    sha256: b33fd3b1e781b8d53d491e5f5c45bd6100e3ba37face7709ac89a79276051990
+    url: https://github.com/odoare/MoTo/releases/download/0.1/MoTo_0.1_WINx64.vst3.zip
