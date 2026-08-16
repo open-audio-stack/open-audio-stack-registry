@@ -1,0 +1,38 @@
+{
+  "name": "ActivityTimer",
+  "author": "tgalpha",
+  "description": "A VST plugin to track your project working duration",
+  "license": "gpl-3.0",
+  "type": "tool",
+  "tags": [
+    "Juce Plugins",
+    "Vst",
+    "Vst3"
+  ],
+  "url": "https://github.com/tgalpha/ActivityTimer",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/tgalpha/activitytimer/activitytimer.jpg",
+  "date": "2022-09-05T04:13:04Z",
+  "changes": "Initial release.",
+  "files": [
+    {
+      "systems": [
+        {
+          "type": "win"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3"
+      ],
+      "type": "archive",
+      "size": 1491088,
+      "sha256": "fe93ab903d1d2b7422d57dc18461ad17417f9163036eee7d05565aeda12f2187",
+      "url": "https://github.com/tgalpha/ActivityTimer/releases/download/v1.0.0/ActivityTimer_win_v1.0.0.zip",
+      "downloads": 50
+    }
+  ],
+  "verified": true,
+  "downloads": 50
+}
