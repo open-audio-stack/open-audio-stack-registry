@@ -1,0 +1,39 @@
+{
+  "name": "Live Midi Splitter",
+  "author": "David Vos",
+  "description": "Control multiple MIDI instruments with one input. Aimed at playing live.",
+  "license": "mit",
+  "type": "tool",
+  "tags": [
+    "Midi",
+    "Routing",
+    "Live",
+    "Linux"
+  ],
+  "url": "https://github.com/Davvos11/live-midi-splitter",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/davvos11/live-midi-splitter/live-midi-splitter.jpg",
+  "date": "2025-06-18T20:23:10Z",
+  "changes": "Reworked the midi handler to avoid stuck notes.\r\n\r\nInstead of just sending midi events whenever they are processed, the order in which they arrive is now used to schedule the sending.\r\n\r...",
+  "files": [
+    {
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "elf"
+      ],
+      "type": "archive",
+      "size": 6726539,
+      "sha256": "02468946b90e018446728d10a1e7a22a0bb89e961fbce5fb08345de45788a389",
+      "url": "https://github.com/Davvos11/live-midi-splitter/releases/download/0.9.0/live-midi-splitter-0.9.0-ubuntu-22.04.tar.gz",
+      "downloads": 4
+    }
+  ],
+  "verified": true,
+  "downloads": 4
+}
