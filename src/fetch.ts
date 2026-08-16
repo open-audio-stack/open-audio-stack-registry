@@ -697,7 +697,12 @@ function inferPluginType(description: string, topics: string[], readme: string):
 // READMEs use for a "watch the demo" button — both regularly outrank the real UI screenshot
 // if picked by first-match-wins alone (e.g. a YouTube thumbnail sitting a few lines above the
 // actual screenshot, which is otherwise textually identical to a normal markdown image).
-const IMAGE_URL_EXCLUDE = /badge|shield|ko-?fi|travis|action|workflow|codecov|img\.youtube\.com|ytimg\.com/i;
+// steinbergmedia.github.io/vst3_dev_portal is the official "VST Compatible" trademark logo
+// asset many JUCE/VST3 plugin READMEs embed near the top (required by Steinberg's branding
+// terms) — its filename carries no "badge"/"shield" hint, but it's exactly that: a compliance
+// badge, not a screenshot, and it otherwise wins as the first README image every time.
+const IMAGE_URL_EXCLUDE =
+  /badge|shield|ko-?fi|travis|action|workflow|codecov|img\.youtube\.com|ytimg\.com|steinbergmedia\.github\.io/i;
 // A URL/path containing one of these is very likely an actual UI screenshot rather than a
 // logo, banner, or demo-video thumbnail — used to rank candidates, never to filter them out.
 const SCREENSHOT_HINT = /screenshot|preview|screen[-_]?shot|\bui\b|\bgui\b|interface/i;
