@@ -548,5 +548,148 @@
       }
     },
     "downloads": 37
+  },
+  "davemollen/dm-fuzz": {
+    "slug": "davemollen/dm-fuzz",
+    "version": "0.1.0",
+    "versions": {
+      "0.1.0": {
+        "name": "dm-Fuzz",
+        "author": "Dave Mollen",
+        "description": "Fuzz plugin",
+        "license": "gpl-3.0",
+        "type": "effect",
+        "tags": [
+          "fuzz",
+          "distortion",
+          "Au"
+        ],
+        "url": "https://github.com/davemollen/dm-Fuzz",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/davemollen/dm-fuzz/dm-fuzz.jpg",
+        "date": "2026-03-23T08:46:16Z",
+        "changes": "- Fixed linux vst3 build",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "component",
+              "clap",
+              "lv2"
+            ],
+            "type": "archive",
+            "size": 21583466,
+            "sha256": "d69f80d8d8fb55460ea651cb923378ba0e0f916de82518baf0ae66f405b139c5",
+            "url": "https://github.com/davemollen/dm-Fuzz/releases/download/v0.1.0/dm-Fuzz-macos.zip",
+            "downloads": 7
+          },
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "lv2"
+            ],
+            "type": "archive",
+            "size": 1230598,
+            "sha256": "73eb2264db3c2cd13b6bfa1bc92b53f911c222e70486ae1b33198c9a3f32f5b7",
+            "url": "https://github.com/davemollen/dm-Fuzz/releases/download/v0.1.0/dm-Fuzz-modduo-new.zip",
+            "downloads": 5
+          },
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "lv2"
+            ],
+            "type": "archive",
+            "size": 1218622,
+            "sha256": "11c822b00b4c0f743a53578fedce7cf1fc0cdd5da0b4d861965d18c70ff62411",
+            "url": "https://github.com/davemollen/dm-Fuzz/releases/download/v0.1.0/dm-Fuzz-modduox-new.zip",
+            "downloads": 4
+          },
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "lv2"
+            ],
+            "type": "archive",
+            "size": 1218246,
+            "sha256": "8b1cb30b598c6fb58304665fa9df5755893a2b79a252091e60938ba6d8bfd1fd",
+            "url": "https://github.com/davemollen/dm-Fuzz/releases/download/v0.1.0/dm-Fuzz-moddwarf-new.zip",
+            "downloads": 6
+          },
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "clap",
+              "lv2"
+            ],
+            "type": "archive",
+            "size": 8337608,
+            "sha256": "11af8de837801358e4fb19c62f15badf5d26ef7ee2fa1a8d4bc8607abbc288f6",
+            "url": "https://github.com/davemollen/dm-Fuzz/releases/download/v0.1.0/dm-Fuzz-ubuntu.zip",
+            "downloads": 11
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "clap",
+              "lv2"
+            ],
+            "type": "archive",
+            "size": 7511618,
+            "sha256": "ae2707cc66a10b836f1bb41a6a5f099bca6a4289047e3478fae726b3a4167a95",
+            "url": "https://github.com/davemollen/dm-Fuzz/releases/download/v0.1.0/dm-Fuzz-windows.zip",
+            "downloads": 20
+          }
+        ],
+        "verified": true,
+        "downloads": 53
+      }
+    },
+    "downloads": 53
   }
 }

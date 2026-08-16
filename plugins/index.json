@@ -1579,14 +1579,14 @@
             "size": 37740885,
             "sha256": "e4dcc186102850f8dcebeb766ad1bf34c24f6280bd614ef84b72dae4783fc517",
             "url": "https://github.com/werman/noise-suppression-for-voice/releases/download/v1.10/win-rnnoise.zip",
-            "downloads": 334758
+            "downloads": 334760
           }
         ],
         "verified": true,
-        "downloads": 365508
+        "downloads": 365510
       }
     },
-    "downloads": 365508
+    "downloads": 365510
   },
   "webprofusion/soundshed-guitar": {
     "slug": "webprofusion/soundshed-guitar",
@@ -7526,7 +7526,7 @@
             "size": 416715686,
             "sha256": "b56e8d51a8dc2382ae668c9ff4e96bae38dbd452af4e584d5a5ef50ab2d09b07",
             "url": "https://github.com/surge-synthesizer/releases-xt/releases/download/1.3.4/surge-xt-macOS-1.3.4.dmg",
-            "downloads": 153936
+            "downloads": 153938
           },
           {
             "systems": [
@@ -7569,7 +7569,7 @@
           }
         ],
         "verified": true,
-        "downloads": 724034
+        "downloads": 724036
       },
       "1.3.1": {
         "name": "Surge XT",
@@ -7696,7 +7696,7 @@
         "downloads": 84185
       }
     },
-    "downloads": 808219
+    "downloads": 808221
   },
   "surge-synthesizer/ob-xf": {
     "slug": "surge-synthesizer/ob-xf",
@@ -21510,7 +21510,7 @@
             "size": 160719329,
             "sha256": "4c795c3f582d50af70db77270940ebe5e38e5802df4e3a6d33b37731afa320db",
             "url": "https://github.com/leomccormack/SPARTA/releases/download/v1.8.2/Win64_SPARTA_VST_2026_01_25_v1.8.2.exe",
-            "downloads": 2619
+            "downloads": 2622
           },
           {
             "systems": [
@@ -21550,10 +21550,10 @@
           }
         ],
         "verified": true,
-        "downloads": 9657
+        "downloads": 9660
       }
     },
-    "downloads": 9657
+    "downloads": 9660
   },
   "larrymarmalade/the-archaeologist": {
     "slug": "larrymarmalade/the-archaeologist",
@@ -34196,6 +34196,149 @@
     },
     "downloads": 37
   },
+  "davemollen/dm-fuzz": {
+    "slug": "davemollen/dm-fuzz",
+    "version": "0.1.0",
+    "versions": {
+      "0.1.0": {
+        "name": "dm-Fuzz",
+        "author": "Dave Mollen",
+        "description": "Fuzz plugin",
+        "license": "gpl-3.0",
+        "type": "effect",
+        "tags": [
+          "fuzz",
+          "distortion",
+          "Au"
+        ],
+        "url": "https://github.com/davemollen/dm-Fuzz",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/davemollen/dm-fuzz/dm-fuzz.jpg",
+        "date": "2026-03-23T08:46:16Z",
+        "changes": "- Fixed linux vst3 build",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "component",
+              "clap",
+              "lv2"
+            ],
+            "type": "archive",
+            "size": 21583466,
+            "sha256": "d69f80d8d8fb55460ea651cb923378ba0e0f916de82518baf0ae66f405b139c5",
+            "url": "https://github.com/davemollen/dm-Fuzz/releases/download/v0.1.0/dm-Fuzz-macos.zip",
+            "downloads": 7
+          },
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "lv2"
+            ],
+            "type": "archive",
+            "size": 1230598,
+            "sha256": "73eb2264db3c2cd13b6bfa1bc92b53f911c222e70486ae1b33198c9a3f32f5b7",
+            "url": "https://github.com/davemollen/dm-Fuzz/releases/download/v0.1.0/dm-Fuzz-modduo-new.zip",
+            "downloads": 5
+          },
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "lv2"
+            ],
+            "type": "archive",
+            "size": 1218622,
+            "sha256": "11c822b00b4c0f743a53578fedce7cf1fc0cdd5da0b4d861965d18c70ff62411",
+            "url": "https://github.com/davemollen/dm-Fuzz/releases/download/v0.1.0/dm-Fuzz-modduox-new.zip",
+            "downloads": 4
+          },
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "lv2"
+            ],
+            "type": "archive",
+            "size": 1218246,
+            "sha256": "8b1cb30b598c6fb58304665fa9df5755893a2b79a252091e60938ba6d8bfd1fd",
+            "url": "https://github.com/davemollen/dm-Fuzz/releases/download/v0.1.0/dm-Fuzz-moddwarf-new.zip",
+            "downloads": 6
+          },
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "clap",
+              "lv2"
+            ],
+            "type": "archive",
+            "size": 8337608,
+            "sha256": "11af8de837801358e4fb19c62f15badf5d26ef7ee2fa1a8d4bc8607abbc288f6",
+            "url": "https://github.com/davemollen/dm-Fuzz/releases/download/v0.1.0/dm-Fuzz-ubuntu.zip",
+            "downloads": 11
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "clap",
+              "lv2"
+            ],
+            "type": "archive",
+            "size": 7511618,
+            "sha256": "ae2707cc66a10b836f1bb41a6a5f099bca6a4289047e3478fae726b3a4167a95",
+            "url": "https://github.com/davemollen/dm-Fuzz/releases/download/v0.1.0/dm-Fuzz-windows.zip",
+            "downloads": 20
+          }
+        ],
+        "verified": true,
+        "downloads": 53
+      }
+    },
+    "downloads": 53
+  },
   "datanoisetv/doobie": {
     "slug": "datanoisetv/doobie",
     "version": "0.25.0",
@@ -39239,7 +39382,7 @@
             "size": 11275100,
             "sha256": "5dc4e072af90ec54aa0197790b40856e7db1659ff924ed107c7536b442d3584b",
             "url": "https://github.com/asb2m10/dexed/releases/download/v1.0.1/Dexed-1.0.1-win.exe",
-            "downloads": 82899
+            "downloads": 82900
           },
           {
             "systems": [
@@ -39263,7 +39406,7 @@
           }
         ],
         "verified": true,
-        "downloads": 154442
+        "downloads": 154443
       },
       "0.9.8": {
         "name": "Dexed",
@@ -39348,7 +39491,7 @@
         "downloads": 195801
       }
     },
-    "downloads": 350243
+    "downloads": 350244
   },
   "artfwo/andes": {
     "slug": "artfwo/andes",
