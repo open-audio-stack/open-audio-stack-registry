@@ -1,0 +1,46 @@
+{
+  "slug": "rudro085/proco-rat",
+  "version": "1.0.0",
+  "versions": {
+    "1.0.0": {
+      "name": "Proco-Rat",
+      "author": "Rudro085",
+      "description": "An emulation of Rat distortion pedal using juce",
+      "license": "mit",
+      "type": "effect",
+      "tags": [
+        "Distortion",
+        "Guitar",
+        "Pedal",
+        "Emulation"
+      ],
+      "url": "https://github.com/Rudro085/Proco-Rat",
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/rudro085/proco-rat/proco-rat.jpg",
+      "date": "2024-08-26T13:03:43Z",
+      "changes": "v1.0.0 release.",
+      "files": [
+        {
+          "systems": [
+            {
+              "type": "win"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "vst3"
+          ],
+          "type": "archive",
+          "size": 6898688,
+          "sha256": "e360f72d1f9f5c85e541634b1b68134441a13cccb78e967c02c143839e171741",
+          "url": "https://github.com/Rudro085/Proco-Rat/releases/download/v1.0.0/Proco-Rat.vst3",
+          "downloads": 38
+        }
+      ],
+      "verified": true,
+      "downloads": 38
+    }
+  },
+  "downloads": 38
+}

@@ -1473,6 +1473,28 @@
       ]
     }
   },
+  "rudro085/proco-rat": {
+    "1.0.0": {
+      "recs": [
+        {
+          "field": "url",
+          "rec": "not a supported format"
+        },
+        {
+          "field": "architectures",
+          "rec": "should support arm64"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Linux"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Mac"
+        }
+      ]
+    }
+  },
   "rudro085/facemelter": {
     "1.0.1": {
       "recs": [
