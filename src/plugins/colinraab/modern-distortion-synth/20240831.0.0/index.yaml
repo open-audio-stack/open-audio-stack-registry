@@ -1,0 +1,45 @@
+name: Modern Distortion Synthesizer
+author: Colin Raab
+description: A polyphonic wavetable synthesizer featuring four sources (two wavetable oscillators, a noise generator, and a sampler) with per-voice, per-source filters, envelopes, and distortion.
+license: bsd-3-clause
+type: instrument
+tags:
+  - Wavetable
+  - Synthesizer
+  - Distortion
+  - Juce
+url: https://github.com/colinraab/modern-distortion-synth
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/colinraab/modern-distortion-synth/modern-distortion-synth.jpg
+date: '2024-08-31T17:37:32Z'
+changes: Have done very limited testing, so use at your own risk! Please let me know if you run into issues.
+files:
+  - systems:
+      - type: mac
+    architectures:
+      - arm64
+    contains:
+      - component
+    type: archive
+    size: 2979797
+    sha256: 0fd26983b50ca50c2da93afc88b7786cfd61932d9b31f153800aa511c3f2cd3c
+    url: https://github.com/colinraab/modern-distortion-synth/releases/download/beta/Capstone.component.zip
+  - systems:
+      - type: mac
+    architectures:
+      - arm64
+    contains:
+      - vst3
+    type: archive
+    size: 2982425
+    sha256: 011360f326764b188961f945692a53bfe0646a7f8999df259a88aead01ac48cc
+    url: https://github.com/colinraab/modern-distortion-synth/releases/download/beta/Capstone.vst3.zip
+  - systems:
+      - type: mac
+    architectures:
+      - arm64
+    contains:
+      - app
+    type: archive
+    size: 3036816
+    sha256: befe9335a7eb1ababcecdc21b56764a39adeedbb946f5bfcd3149f85717a3a13
+    url: https://github.com/colinraab/modern-distortion-synth/releases/download/beta/Capstone.zip
