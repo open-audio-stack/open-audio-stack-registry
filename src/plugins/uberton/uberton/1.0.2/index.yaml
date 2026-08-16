@@ -1,0 +1,36 @@
+name: Tesseract
+author: Überton
+description: A resonator/reverb effect plugin with a hypersphere-based UI, from Überton's open-source audio plugin collection.
+license: gpl-3.0
+type: effect
+tags:
+  - Vst
+  - Audio
+  - Physics Simulation
+  - Plugins
+url: https://github.com/Uberton/Uberton
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/uberton/uberton/uberton.jpg
+date: '2022-01-23T19:35:47Z'
+changes: "Third release of the Tesseract plugin for Windows and macOS\r\n- Installer for macOS\r\n- fix cracks with certain parameters\r\n- fix manual input control\r\n\r\nDownloads:\r\n- Windows Installer for plugin, user guide and factory presets\r..."
+files:
+  - systems:
+      - type: mac
+    architectures:
+      - arm64
+      - x64
+    contains:
+      - vst3
+    type: installer
+    size: 8195796
+    sha256: ae8c588383f72f0dfe62f0bf1cb02ebff0c762607c98410eed0d09152ffb0a95
+    url: https://github.com/Uberton/Uberton/releases/download/Tesseract_v1.0.2/Uberton_Tesseract_1-0-2.pkg
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - vst3
+    type: installer
+    size: 9271537
+    sha256: 0800c42bdd14f1ef17c34dcea13e58a06a74feec6df251771679460b07e48de9
+    url: https://github.com/Uberton/Uberton/releases/download/Tesseract_v1.0.2/Tesseract_Installer_1.0.2.exe
