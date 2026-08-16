@@ -3387,6 +3387,28 @@
       ]
     }
   },
+  "happyacccident/quadratic-visualizer-plugin": {
+    "1.0.0": {
+      "recs": [
+        {
+          "field": "url",
+          "rec": "not a supported format"
+        },
+        {
+          "field": "architectures",
+          "rec": "should support arm64"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Linux"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Mac"
+        }
+      ]
+    }
+  },
   "gulldsp/circulate-vst": {
     "2.0.1": {
       "recs": [
