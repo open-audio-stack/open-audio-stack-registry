@@ -1,0 +1,56 @@
+{
+  "name": "Chordcat",
+  "author": "Shriram Ravindranathan",
+  "description": "Chord Naming App with MIDI Support",
+  "license": "gpl-3.0",
+  "type": "tool",
+  "tags": [
+    "Chord Naming",
+    "Chords",
+    "Midi",
+    "Music",
+    "Music Theory",
+    "Music Theory Apps",
+    "Sfml"
+  ],
+  "url": "https://github.com/shriramters/chordcat",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/apps/shriramters/chordcat/chordcat.jpg",
+  "date": "2025-02-15T10:23:56Z",
+  "changes": "## Changes\r\n* Add Grand Staff\r\n* Add Key selection\r\n* Add dynamic note names that change based of selected key center.\r\n\r\n**Full Changelog**: https://github.com/shriramters/chordcat/compare/v0.3.0...v0.4.0\r\n\r\n# SHA256 sums\r\n\r\n|   name|   sha256sum\t|\r...",
+  "files": [
+    {
+      "systems": [
+        {
+          "type": "win"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "type": "installer",
+      "open": "chordcat.exe",
+      "size": 25664494,
+      "sha256": "cd471603d67e02a12fbdd3e2c3bcf40c5ffec29a7414e3269bfe0106f977c606",
+      "url": "https://github.com/shriramters/chordcat/releases/download/v0.4.0/chordcat-0.4.0-win64.exe",
+      "downloads": 171
+    },
+    {
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "type": "installer",
+      "open": "chordcat",
+      "size": 21844804,
+      "sha256": "569b988bd450529849618a743692050fcacc01b8fcaf49c53e0070b0137a0bc0",
+      "url": "https://github.com/shriramters/chordcat/releases/download/v0.4.0/chordcat_0.4.0_amd64.deb",
+      "downloads": 46
+    }
+  ],
+  "verified": true,
+  "downloads": 217
+}
