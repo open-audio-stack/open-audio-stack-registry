@@ -1,0 +1,41 @@
+{
+  "name": "Artix",
+  "author": "Spatian.dev",
+  "description": "A simple Plugin that maps MIDI channels to notes, to simplify your keyswitches and more.",
+  "license": "agpl-3.0",
+  "type": "tool",
+  "tags": [
+    "Au Plugin",
+    "Keyswitch",
+    "Midi",
+    "Plugin",
+    "Vst",
+    "Vst3"
+  ],
+  "url": "https://github.com/spatian-dev/artix",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/spatian-dev/artix/artix.jpg",
+  "date": "2024-12-21T01:04:11Z",
+  "changes": "## What's Changed\r\n* Rewrite by @saadsidqui in https://github.com/spatian-dev/artix/pull/1\r\n\r\n## New Contributors\r\n* @saadsidqui made their first contribution in https://github.com/spatian-dev/artix/pull/1\r\n\r...",
+  "files": [
+    {
+      "systems": [
+        {
+          "type": "win"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3"
+      ],
+      "type": "archive",
+      "size": 2397435,
+      "sha256": "a143d6a97eb44302ca93e48962560d20eb9c70a967d44bf3c202a216fb990bd3",
+      "url": "https://github.com/spatian-dev/artix/releases/download/1.0.0/Artix.vst3_win_x64_v1.0.0.zip",
+      "downloads": 147
+    }
+  ],
+  "verified": true,
+  "downloads": 147
+}
