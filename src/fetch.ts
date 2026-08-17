@@ -884,7 +884,10 @@ async function findImageUrl(org: string, repo: string, branch: string, readme: s
   // Markdown image syntax allows an optional title after the URL, e.g. `![alt](url "title")`
   // — without stripping it, the greedy `[^)]*` tail captures the title text too, corrupting
   // the URL (seen on MichaelHurst97/Noizier, whose 404'd image fetch was actually this).
-  const stripMarkdownTitle = (u: string) => u.replace(/\s+["'][^"']*["']$/, '');
+  // Markdown also tolerates the URL wrapping onto its own line, e.g. `![alt](\nurl\n)` — since
+  // `[^)]` matches newlines, the capture group picks up the surrounding whitespace too, which
+  // breaks the fetch (seen on EMATech/MidiExplorer, whose real screenshots are linked this way).
+  const stripMarkdownTitle = (u: string) => u.trim().replace(/\s+["'][^"']*["']$/, '');
   // GitHub's drag-and-drop README image uploader produces URLs with no file extension at all —
   // either the legacy `github.com/<org>/<repo>/assets/<id>/<uuid>` form or the current
   // `github.com/user-attachments/assets/<uuid>` form — since the real extension only appears
