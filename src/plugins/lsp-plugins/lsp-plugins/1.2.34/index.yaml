@@ -1,0 +1,80 @@
+name: LSP Plugins
+author: Vladimir Sadovnikov
+description: A collection of open-source audio effects, synthesizers, and tools designed for music and sound production, primarily on the GNU/Linux platform.
+license: lgpl-3.0
+type: effect
+tags:
+  - Effect
+  - Multiband
+  - Dynamics
+  - Gate
+  - Density
+  - Phase
+  - De-Esser
+  - Breath Control
+url: https://github.com/lsp-plugins/lsp-plugins
+audio: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/lsp-plugins/lsp-plugins/lsp-plugins.flac
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/lsp-plugins/lsp-plugins/lsp-plugins.jpg
+donate: https://www.patreon.com/c/sadko4u
+date: '2026-08-15T08:49:31Z'
+changes: |
+  * Implemented Deesser Plugin series.
+  * VST2 plugins now are packaged into shell plugin which makes faster scanning of
+    plugins and requires less shared object files to provide.
+  * Significant refactoring of static and dynamic filter functions, eliminated some
+    bugs in mathematics for ARM32 and AArch64 archtectures that were hard to catch.
+  * Added support of biquad filter cascades that contain 16 filters at one time,
+    optimized filter cascades for AVX-512 support.
+files:
+  - systems:
+      - type: linux
+    architectures:
+      - arm64
+    contains:
+      - clap
+      - lv2
+      - vst3
+      - so
+    type: archive
+    size: 35882444
+    sha256: ff26d0dbe2e608eabeb0f762a2d6348beaee92ad51d4f5341d5afe154debc56d
+    url: https://github.com/lsp-plugins/lsp-plugins/releases/download/1.2.34/lsp-plugins-1.2.34-Linux-aarch64.7z
+  - systems:
+      - type: linux
+    architectures:
+      - arm32
+    contains:
+      - clap
+      - lv2
+      - vst3
+      - so
+    type: archive
+    size: 32210272
+    sha256: 36371d1e20cae6c27c6f32745a31b9380e4b73973478f135e3f3abdecd6af8a1
+    url: https://github.com/lsp-plugins/lsp-plugins/releases/download/1.2.34/lsp-plugins-1.2.34-Linux-arm32.7z
+  - systems:
+      - type: linux
+    architectures:
+      - x32
+    contains:
+      - clap
+      - lv2
+      - vst3
+      - so
+    type: archive
+    size: 32975646
+    sha256: 4f4fde4b85a44dce703868241495c839b7f31b5ddf2528ada0581bfc23481a51
+    url: https://github.com/lsp-plugins/lsp-plugins/releases/download/1.2.34/lsp-plugins-1.2.34-Linux-i586.7z
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - clap
+      - lv2
+      - vst3
+      - so
+    type: archive
+    size: 38767750
+    sha256: e366dd875b162a0f164c323a5f221656b7a7699ab3369c719944c63aebe246db
+    url: https://github.com/lsp-plugins/lsp-plugins/releases/download/1.2.34/lsp-plugins-1.2.34-Linux-x86_64.7z
