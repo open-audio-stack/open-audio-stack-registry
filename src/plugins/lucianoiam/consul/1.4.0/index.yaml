@@ -1,0 +1,49 @@
+name: Consul
+author: lucianoiam
+description: A self-contained CLAP/VST plugin with a mixer-like, LAN-accessible web UI for remotely controlling other plugins' MIDI-learn parameters, primarily designed for touch devices.
+license: gpl-3.0
+type: tool
+tags:
+  - MIDI Controller
+  - Remote Control
+  - Control Surface
+url: https://github.com/lucianoiam/consul
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/lucianoiam/consul/consul.jpg
+date: '2022-12-09T00:07:30Z'
+changes: '- CLAP format support'
+files:
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - vst3
+      - clap
+    type: archive
+    size: 1579833
+    sha256: e27c903231761c2dd07df7271eea97e938ded07e84589c22bc8c80afb4f37717
+    url: https://github.com/lucianoiam/consul/releases/download/v1.4.0/consul-linux-x64-1.4.0.zip
+  - systems:
+      - type: mac
+    architectures:
+      - arm64
+      - x64
+    contains:
+      - vst3
+      - clap
+      - vst
+    type: archive
+    size: 2091500
+    sha256: 92b63f972fda6764fa46a06861f60169d97d49b52094a8a545b3502877f01466
+    url: https://github.com/lucianoiam/consul/releases/download/v1.4.0/consul-macos-universal-1.4.0.zip
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - vst3
+      - clap
+    type: archive
+    size: 2497559
+    sha256: 54b6f323b3d571849a00399418c66b9ecc69a7f22ba94e48d0fbaf94c240c4b6
+    url: https://github.com/lucianoiam/consul/releases/download/v1.4.0/consul-windows-x64-1.4.0.zip
