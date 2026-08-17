@@ -67,6 +67,16 @@
       ]
     }
   },
+  "zl-audio/zllmakeup": {
+    "0.2.7": {
+      "recs": [
+        {
+          "field": "url",
+          "rec": "requires mounting step, consider .pkg instead"
+        }
+      ]
+    }
+  },
   "zl-audio/zlinflator": {
     "0.3.0": {
       "recs": [

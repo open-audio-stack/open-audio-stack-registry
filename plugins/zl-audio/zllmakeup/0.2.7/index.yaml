@@ -1,0 +1,47 @@
+name: ZL Loudness Makeup
+author: ZL Audio
+description: A loudness make-up gain plugin, for restoring perceived volume after processing that reduces level (e.g. compression, EQ cuts) earlier in the chain.
+license: gpl-3.0
+type: effect
+tags:
+  - Loudness
+  - Gain
+  - Utility
+  - Mastering
+url: https://github.com/ZL-Audio/ZLLMakeup
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/zl-audio/zllmakeup/zllmakeup.jpg
+date: '2023-10-20T13:37:54Z'
+changes: '- bump JUCE version'
+files:
+  - systems:
+      - type: mac
+    architectures:
+      - arm64
+      - x64
+    contains:
+      - vst3
+      - component
+    type: installer
+    size: 5618707
+    sha256: a868df21bf7cb5b7316afead0ecd525968267cd80a4fa80acc3050b06cb8cc9d
+    url: https://github.com/ZL-Audio/ZLLMakeup/releases/download/v0.2.7/ZLLMakeup-0.2.7.dmg
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - vst3
+    type: installer
+    size: 2599526
+    sha256: 37df74e6d0a5b8b7acd09ab6365901c710bb7fcd3e38218df6b3d19677a0dcac
+    url: https://github.com/ZL-Audio/ZLLMakeup/releases/download/v0.2.7/ZLLMakeup-0.2.7.exe
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - vst3
+    type: archive
+    size: 12239122
+    sha256: 6038937cefa8cadb00b6fcb90cc03b5e1f17d9d4715e4ad315d70847ec05429a
+    url: https://github.com/ZL-Audio/ZLLMakeup/releases/download/v0.2.7/ZLLMakeup-0.2.7.zip
