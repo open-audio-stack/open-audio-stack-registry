@@ -1,0 +1,59 @@
+{
+  "name": "Geonkick",
+  "author": "Quamplex",
+  "description": "Geonkick is a free software synthesizer capable of generating a wide range of percussive sounds, including kicks, snares, claps, hi-hats, shakers, and unique effect sounds.",
+  "license": "gpl-3.0",
+  "type": "instrument",
+  "tags": [
+    "Synthesizer",
+    "Percussion",
+    "Drums"
+  ],
+  "url": "https://github.com/quamplex/geonkick",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/quamplex/geonkick/geonkick.jpg",
+  "date": "2026-01-02T10:37:44Z",
+  "changes": "### Features\r\n\r\n- Velocity & time humanizer\r\n- Bezier mode button\r\n\r\n### Improvements\r\n\r\n- Add non-control points when Bezier mode is enabled\r\n\r\n### Fixes\r\n\r\n- Fix accessing dsp when is not yet created\r...",
+  "files": [
+    {
+      "systems": [
+        {
+          "type": "win"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3",
+        "lv2"
+      ],
+      "type": "installer",
+      "size": 16493555,
+      "sha256": "022f567862b17274d628ada8edf8e51a8e1b3f4eab14b85e9f2bf704d9efab51",
+      "url": "https://github.com/quamplex/geonkick/releases/download/v3.7.0/GeonkickWindowsInstaller-v3.7.0-x86_64_basic.exe",
+      "downloads": 1089
+    },
+    {
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3",
+        "lv2",
+        "elf"
+      ],
+      "type": "archive",
+      "size": 4435094,
+      "sha256": "ee656ef575596ab0b7976bd2ebafa93cac0059920a4721c1dd0a5c9f68a7add0",
+      "url": "https://github.com/quamplex/geonkick/releases/download/v3.7.0/GNULinux_binaries_v3.7.0_basic.zip",
+      "downloads": 1001
+    }
+  ],
+  "verified": true,
+  "downloads": 2090
+}
