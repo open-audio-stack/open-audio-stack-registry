@@ -1,0 +1,37 @@
+name: osccontrol-light
+author: Patric Schmitz
+description: Sends Open Sound Control (OSC) messages directly from a host's automatable plugin controls, at full resolution and without encoding as MIDI CC — available as a GUI preset-prototyping plugin/app, or a headless build preloaded with a YAML preset.
+license: gpl-3.0
+type: tool
+tags:
+  - Open Sound Control
+  - Daw
+  - Music Production
+  - Audiovisual
+  - Intermedia
+  - Mapping
+url: https://github.com/drlight-code/osccontrol-light
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/drlight-code/osccontrol-light/osccontrol-light.jpg
+date: '2023-11-16T07:53:43Z'
+changes: Unversioned pre-release of `85b7e0e3369c32e3b680fb4cbd552ebb43d58882`
+files:
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - lv2
+    type: archive
+    size: 3270940
+    sha256: 5a94bac09e36180bf1af8ad1403bc2a285ecca70cd3e932e1885902f94ed5e0b
+    url: https://github.com/drlight-code/osccontrol-light/releases/download/release/2023.11-pre/osccontrol-light.lv2.tar.gz
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - vst3
+    type: archive
+    size: 3485418
+    sha256: 5725b1818b1e935fb814475bc2f2e57561e0db235f3da9924c416954445853ae
+    url: https://github.com/drlight-code/osccontrol-light/releases/download/release/2023.11-pre/osccontrol-light.vst3.tar.gz
