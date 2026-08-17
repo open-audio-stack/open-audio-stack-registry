@@ -1063,15 +1063,12 @@
             "type": "archive",
             "size": 4729203,
             "sha256": "5e1d1d709606cb84809969e48d85ea25f41e3fe4d1f4cc27971ece78c4f14632",
-            "url": "https://github.com/yonie/WetReverb/releases/download/v1.0.1/WetReverb-v1.0.1.zip",
-            "downloads": 1632
+            "url": "https://github.com/yonie/WetReverb/releases/download/v1.0.1/WetReverb-v1.0.1.zip"
           }
         ],
-        "verified": true,
-        "downloads": 1632
+        "verified": true
       }
-    },
-    "downloads": 1632
+    }
   },
   "yonie/wetdelay": {
     "slug": "yonie/wetdelay",
@@ -34202,6 +34199,51 @@
         "verified": true
       }
     }
+  },
+  "eulmour/handyosc": {
+    "slug": "eulmour/handyosc",
+    "version": "1.0.0",
+    "versions": {
+      "1.0.0": {
+        "name": "HandyOsc",
+        "author": "eulmour",
+        "description": "A wave-warping effect that turns incoming audio into sawtooth-like waves for synth-style tones, with bitcrush, pre/post filtering, and a built-in oscilloscope.",
+        "license": "bsd-3-clause",
+        "type": "effect",
+        "tags": [
+          "Wave Warping",
+          "Bitcrusher",
+          "Synth"
+        ],
+        "url": "https://github.com/eulmour/HandyOsc",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/eulmour/handyosc/handyosc.jpg",
+        "date": "2022-10-26T08:18:20Z",
+        "changes": "First release",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 2438815,
+            "sha256": "d8fe72295c6ba4ba0ec481fa1a33e130e9bf238f52e03a312cfa33aba4e46832",
+            "url": "https://github.com/eulmour/HandyOsc/releases/download/1.0.0/HandyOsc-VST3-Windows.zip",
+            "downloads": 61
+          }
+        ],
+        "verified": true,
+        "downloads": 61
+      }
+    },
+    "downloads": 61
   },
   "essej/paulxstretch": {
     "slug": "essej/paulxstretch",

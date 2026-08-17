@@ -1,0 +1,38 @@
+{
+  "name": "HandyOsc",
+  "author": "eulmour",
+  "description": "A wave-warping effect that turns incoming audio into sawtooth-like waves for synth-style tones, with bitcrush, pre/post filtering, and a built-in oscilloscope.",
+  "license": "bsd-3-clause",
+  "type": "effect",
+  "tags": [
+    "Wave Warping",
+    "Bitcrusher",
+    "Synth"
+  ],
+  "url": "https://github.com/eulmour/HandyOsc",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/eulmour/handyosc/handyosc.jpg",
+  "date": "2022-10-26T08:18:20Z",
+  "changes": "First release",
+  "files": [
+    {
+      "systems": [
+        {
+          "type": "win"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3"
+      ],
+      "type": "archive",
+      "size": 2438815,
+      "sha256": "d8fe72295c6ba4ba0ec481fa1a33e130e9bf238f52e03a312cfa33aba4e46832",
+      "url": "https://github.com/eulmour/HandyOsc/releases/download/1.0.0/HandyOsc-VST3-Windows.zip",
+      "downloads": 61
+    }
+  ],
+  "verified": true,
+  "downloads": 61
+}
