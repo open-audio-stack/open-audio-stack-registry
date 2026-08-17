@@ -2591,6 +2591,16 @@
       ]
     }
   },
+  "mikerodd/june-21": {
+    "0.9.6": {
+      "recs": [
+        {
+          "field": "architectures",
+          "rec": "should support arm64"
+        }
+      ]
+    }
+  },
   "mikeoliphant/stompbox": {
     "0.2.2": {
       "recs": [
