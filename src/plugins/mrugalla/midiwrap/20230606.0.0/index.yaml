@@ -1,0 +1,23 @@
+name: MIDIWrap
+author: Florian Mrugalla
+description: Wraps incoming MIDI notes back into a selected pitch range using an upper and lower limit, especially useful following a MIDI mirror/inversion effect.
+license: gpl-3.0
+type: effect
+tags:
+  - MIDI Effect
+  - MIDI Processing
+url: https://github.com/Mrugalla/MIDIWrap
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/mrugalla/midiwrap/midiwrap.jpg
+date: '2023-06-06T20:37:32Z'
+changes: "Windows:\r\n2023_06_09\r\n- Fixed: Hanging Notes on Parameter Changes\r\n- Improved: If Lower Limit Above Upper Limit, Values Swapped Internally"
+files:
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - vst3
+    type: archive
+    size: 1790323
+    sha256: aa38981b0dc2c72ab2549ba7f3f56f32d85c6c29dafca43f90550b9d3079062a
+    url: https://github.com/Mrugalla/MIDIWrap/releases/download/vst/MIDIWrap.vst3.zip
