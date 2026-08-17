@@ -1,0 +1,41 @@
+name: Open Piano
+author: Michele Perrone
+description: An open-source, real-time physically-modelled piano engine, distributed here as a standalone app (also bundles a companion Spectral Analysis tool).
+license: agpl-3.0
+type: instrument
+tags:
+  - Physical Modelling
+  - Piano
+url: https://github.com/michele-perrone/OpenPiano
+image: https://open-audio-stack.github.io/open-audio-stack-registry/apps/michele-perrone/openpiano/openpiano.jpg
+date: '2022-11-22T18:48:28Z'
+changes: "# About this release\r\nThis is the first binary release of Open Piano. It is targeted at Windows x64, macOS x64/ARM64 (universal binary), and GNU/Linux x64. In this release, only the standalone binaries are provided (no plugins). There is no installer: ..."
+files:
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    type: archive
+    open: Open Piano
+    size: 3078351
+    sha256: a95401aa9e7d3283878a3f0e8af26246552f8eee31c446f180d66b820fce6332
+    url: https://github.com/michele-perrone/OpenPiano/releases/download/0.1.0/Open_Piano_Standalone_GNU_Linux_x64.zip
+  - systems:
+      - type: mac
+    architectures:
+      - arm64
+      - x64
+    type: archive
+    open: Open Piano.app
+    size: 15075204
+    sha256: 4a8e9e1ad6f46fc35767ad4b33b36d0d0e2a8df5ff3c2c238500a3c88d96cd78
+    url: https://github.com/michele-perrone/OpenPiano/releases/download/0.1.0/Open_Piano_Standalone_macOS_Universal-01.zip
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    type: archive
+    open: Open Piano.exe
+    size: 2520308
+    sha256: eaaf56801b827661b5a380b6183f9a65c069282783f73ef213e468bde6fbd4bd
+    url: https://github.com/michele-perrone/OpenPiano/releases/download/0.1.0/Open_Piano_Standalone_Windows_x64.zip
