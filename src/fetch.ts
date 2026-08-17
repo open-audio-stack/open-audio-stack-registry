@@ -684,6 +684,13 @@ interface ArchiveInspection {
   platforms: Set<string>;
   formats: Set<string>; // '__vst2__' stands in for the platform-specific vst/so/dll value
   macArchitectures: Set<string>;
+  // Linux/Windows builds targeting non-desktop hardware (e.g. MOD Devices' MOD Duo/Duo X/Dwarf
+  // pedals) carry no architecture hint in the filename at all — "modduo-new.zip" gives no clue
+  // it's 32-bit ARM, "modduox-new.zip"/"moddwarf-new.zip" no clue they're 64-bit ARM, so all
+  // three previously defaulted to the generic "unconfirmed, assume x64" guess. `file` on the
+  // extracted .so/.exe is authoritative here just like it already is for mac.
+  linuxArchitectures: Set<string>;
+  winArchitectures: Set<string>;
   // Loose (not inside a plugin bundle) win .exe / linux ELF binaries that look like they
   // could be the standalone app entry point, but weren't unambiguous enough to auto-tag as
   // the 'exe'/'elf' format — surfaced to the reviewer rather than guessed.
@@ -710,6 +717,8 @@ function inspectExtractedDir(dir: string): ArchiveInspection {
     platforms: new Set(),
     formats: new Set(),
     macArchitectures: new Set(),
+    linuxArchitectures: new Set(),
+    winArchitectures: new Set(),
     standaloneCandidates: [],
   };
   let listing = '';
@@ -783,10 +792,19 @@ function inspectExtractedDir(dir: string): ArchiveInspection {
         if (/\bx86_64\b/.test(info)) result.macArchitectures.add('x64');
       } else if (/pe32\+?\s+executable|ms-dos/i.test(info)) {
         result.platforms.add('win');
+        if (/\baarch64\b/i.test(info)) result.winArchitectures.add('arm64');
+        else if (/pe32\+/i.test(info)) result.winArchitectures.add('x64');
+        else if (/pe32\s+executable/i.test(info)) result.winArchitectures.add('x32');
         if (/\.exe$/i.test(f) && !inBundle(f) && !HELPER_BINARY_PATTERN.test(path.basename(f)))
           winStandaloneCandidates.push(path.relative(dir, f));
       } else if (/elf\s+\d+-bit/i.test(info)) {
         result.platforms.add('linux');
+        // ARM must be checked before the bit-width fallback: "ARM aarch64" (64-bit) and bare
+        // "ARM" (32-bit, e.g. MOD Devices' MOD Duo pedal) both need telling apart from x86.
+        if (/\baarch64\b/i.test(info)) result.linuxArchitectures.add('arm64');
+        else if (/\barm\b/i.test(info)) result.linuxArchitectures.add('arm32');
+        else if (/x86-64/i.test(info)) result.linuxArchitectures.add('x64');
+        else if (/\b80386\b/i.test(info)) result.linuxArchitectures.add('x32');
         // Linux CLAP/VST2 plugins are a single flat ELF file (unlike the directory bundles
         // used by vst3/component/lv2), so they'd otherwise slip past inBundle() and look like
         // a standalone candidate — exclude by extension instead. Shared libraries following the
@@ -1104,6 +1122,8 @@ async function main() {
     }
 
     let macArchFromInspection: string[] = [];
+    let linuxArchFromInspection: string[] = [];
+    let winArchFromInspection: string[] = [];
     if (tmpFile) {
       const extractedDir = extractArchive(tmpFile, asset.name);
       if (extractedDir) {
@@ -1118,6 +1138,8 @@ async function main() {
           contains = [...inspected.formats].map(f => (f === '__vst2__' ? vst2Value : f));
         }
         macArchFromInspection = [...inspected.macArchitectures];
+        linuxArchFromInspection = [...inspected.linuxArchitectures];
+        winArchFromInspection = [...inspected.winArchitectures];
         if (inspected.standaloneCandidates.length > 0) {
           ambiguousStandaloneBinaries.push(
             `${asset.name}: ${inspected.standaloneCandidates.join(', ')} — could not tell which (if any) is the standalone app`,
@@ -1140,6 +1162,10 @@ async function main() {
 
     if (macArchFromInspection.length > 0) {
       architectures = macArchFromInspection;
+    } else if (linuxArchFromInspection.length > 0) {
+      architectures = linuxArchFromInspection;
+    } else if (winArchFromInspection.length > 0) {
+      architectures = winArchFromInspection;
     } else if (!archResult.confident) {
       // Mac builds are frequently universal (arm64 + x64) with no architecture token in the
       // filename — don't silently assert x64, flag it for the reviewer to confirm. This isn't
@@ -1147,7 +1173,9 @@ async function main() {
       // pierreguillot/Camomile's "CamomileWindows32.zip" vs "...Windows64.zip" — "windows32"
       // never matches the "win32" filename pattern because of the extra "dows" in between, so
       // the genuinely 32-bit build defaulted to x64 with no warning at all before this covered
-      // every platform, not just mac).
+      // every platform, not just mac). Filename-blind hardware-targeted builds (MOD Devices'
+      // MOD Duo/Duo X/Dwarf pedals — "modduo-new.zip" etc, no arch token at all, genuinely
+      // 32-bit or 64-bit ARM) get caught here too when inspection couldn't run or found nothing.
       unconfirmedArchitectures.push(
         `${asset.name} (defaulted to x64 — verify manually, e.g. via 'file' on the binary inside)`,
       );
