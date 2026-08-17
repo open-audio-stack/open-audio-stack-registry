@@ -1,0 +1,90 @@
+{
+  "slug": "jatinchowdhury18/kloncentaur",
+  "version": "1.4.0",
+  "versions": {
+    "1.4.0": {
+      "name": "ChowCentaur",
+      "author": "Chowdhury DSP",
+      "description": "A digital emulation of the Klon Centaur guitar overdrive pedal, using a combination of recurrent neural networks and Wave Digital Filters.",
+      "license": "bsd-3-clause",
+      "type": "effect",
+      "tags": [
+        "Machine Learning",
+        "Embedded Systems",
+        "Guitar Pedal",
+        "Virtual Analog"
+      ],
+      "url": "https://github.com/jatinchowdhury18/KlonCentaur",
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/jatinchowdhury18/kloncentaur/kloncentaur.jpg",
+      "date": "2021-05-26T01:17:51Z",
+      "changes": "Version 1.4.0 release. Updates include:\r\n- Added mono processing mode.\r\n- Improved performance in both \"Traditional\" and \"Neural\" modes.\r\n- iOS: added in-app purchase \"tip jar\".",
+      "files": [
+        {
+          "systems": [
+            {
+              "type": "linux"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "vst3",
+            "lv2",
+            "elf"
+          ],
+          "type": "installer",
+          "size": 2523664,
+          "sha256": "abd0fda32e5b45f0b144ac3d4559009e3b837a9be0b859d99a82c4bba9c52303",
+          "url": "https://github.com/jatinchowdhury18/KlonCentaur/releases/download/v1.4.0/ChowCentaur-Linux-x64-1.4.0.deb",
+          "downloads": 7164
+        },
+        {
+          "systems": [
+            {
+              "type": "mac"
+            }
+          ],
+          "architectures": [
+            "arm64",
+            "x64"
+          ],
+          "contains": [
+            "vst3",
+            "component",
+            "vst",
+            "app"
+          ],
+          "type": "installer",
+          "size": 12346745,
+          "sha256": "8b8c876cc9429d1c9d51d25a08fa3513398370b6b527067cb5d3982ca988bf3e",
+          "url": "https://github.com/jatinchowdhury18/KlonCentaur/releases/download/v1.4.0/ChowCentaur-Mac-1.4.0.dmg",
+          "downloads": 16366
+        },
+        {
+          "systems": [
+            {
+              "type": "win"
+            }
+          ],
+          "architectures": [
+            "x32",
+            "x64"
+          ],
+          "contains": [
+            "vst3",
+            "exe"
+          ],
+          "type": "installer",
+          "size": 9005563,
+          "sha256": "3ff707e3e49e7cac0bb0819219eefcc6ed59b281246b43fc0465c0fb1d198048",
+          "url": "https://github.com/jatinchowdhury18/KlonCentaur/releases/download/v1.4.0/ChowCentaur-Win-1.4.0.exe",
+          "downloads": 28637
+        }
+      ],
+      "verified": true,
+      "downloads": 52167
+    }
+  },
+  "downloads": 52167
+}
