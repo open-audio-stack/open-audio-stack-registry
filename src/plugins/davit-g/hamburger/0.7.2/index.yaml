@@ -1,0 +1,61 @@
+name: Hamburger
+author: Davit G
+description: Hamburger is a distortion plugin with inbuilt dynamics controls and equalisation that can deliver both subtle tangy harmonics and absolute annihilation to any sound.
+license: agpl-3.0
+type: effect
+tags:
+  - Distortion
+  - Compressor
+  - Equalizer
+url: https://github.com/Davit-G/Hamburger
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/davit-g/hamburger/hamburger.jpg
+date: '2026-08-12T01:00:16Z'
+changes: "# Summary\r\n\r\n- Fix issue where sizzle noise's frequency amount was being reset when exporting projects\r\n- Further declicking attempts on startup\r\n\r..."
+files:
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - vst3
+      - clap
+    type: archive
+    size: 6304616
+    sha256: a5a5b2ed70c8e84dabf11d5ff77ead5572b558880ff624b4a494353a002c376c
+    url: https://github.com/Davit-G/Hamburger/releases/download/v0.7.2/Hamburger.v0.7.2.Linux.x86_64.zip
+  - systems:
+      - type: mac
+    architectures:
+      - arm64
+    contains:
+      - vst3
+      - component
+      - clap
+    type: archive
+    size: 14882917
+    sha256: e21c94e48e2befbe03da4959f8a725f844bb561b503efe5c4a8566bd0730d204
+    url: https://github.com/Davit-G/Hamburger/releases/download/v0.7.2/Hamburger.v0.7.2.MacOS.arm64.Apple.Silicon.zip
+  - systems:
+      - type: mac
+    architectures:
+      - x64
+    contains:
+      - vst3
+      - component
+      - clap
+    type: archive
+    size: 15864917
+    sha256: b7fa6983e324a8e4bb37b4380f494d53debce50830ba137f8ab1afe4791425c8
+    url: https://github.com/Davit-G/Hamburger/releases/download/v0.7.2/Hamburger.v0.7.2.MacOS.x86_64.Intel.zip
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - vst3
+      - clap
+      - exe
+    type: archive
+    size: 13694510
+    sha256: 8196057e7274887c6b0158f0600b38575baa5c50c98a8d036de1cddac608ffbb
+    url: https://github.com/Davit-G/Hamburger/releases/download/v0.7.2/Hamburger.v0.7.2.Windows.64bit.x86_64.zip
