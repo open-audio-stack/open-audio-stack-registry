@@ -1,0 +1,66 @@
+name: solidUtility
+author: SolidFuel
+description: A versatile channel utility plugin — swap or mute channels, mid-side encode/decode, invert phase, remove DC offset, and more.
+license: gpl-3.0
+type: tool
+tags:
+  - Utility
+  - Mid-Side
+  - Phase
+  - Audio
+url: https://github.com/SolidFuel/Utility
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/solidfuel/utility/utility.jpg
+date: '2023-12-14T01:17:04Z'
+changes: "# New Features\r\n* DC Offset removal\r\n* Pan control\r\n* Add ability to show only gain and pan controls\r\n\r\n# Bug Fixes\r\n* Remove pops when gain control is fast slewed.\r\n* correct windows installer naming"
+files:
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - vst3
+    type: archive
+    size: 1564655
+    sha256: 310ab776d1763904ea88242f2c9c7cddafb7873dee019c136b857c99a71fcdf7
+    url: https://github.com/SolidFuel/Utility/releases/download/v1.0.0/solidUtility-V1.0.0-linux-vst3.zip
+  - systems:
+      - type: mac
+    architectures:
+      - arm64
+      - x64
+    contains:
+      - vst3
+    type: installer
+    size: 2660829
+    sha256: 373e3b8092656478507baea969d65da33c300158ca7f2c22586c369759bce053
+    url: https://github.com/SolidFuel/Utility/releases/download/v1.0.0/solidUtility-V1.0.0-macos-universal.pkg
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - vst3
+    type: installer
+    size: 2979199
+    sha256: 2beac3894b32c46e9ab8d40b4c82b93a2153e3764759450e89e19a43aa49bd3d
+    url: https://github.com/SolidFuel/Utility/releases/download/v1.0.0/solidUtility-V1.0.0-win64-install.exe
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - vst3
+    type: archive
+    size: 1809984
+    sha256: 76bbc18c31c1b1d26abd653fadc85895aa1c4f471c82905fb91634a8f7a45548
+    url: https://github.com/SolidFuel/Utility/releases/download/v1.0.0/solidUtility-V1.0.0-win64-vst3.zip
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - vst3
+    type: installer
+    size: 1318486
+    sha256: 668f87920370dec851359d07c43bb81b447e0fe057ad82df20a1cc4d5beff308
+    url: https://github.com/SolidFuel/Utility/releases/download/v1.0.0/solidutility_1.0.0_linux-amd64.deb
