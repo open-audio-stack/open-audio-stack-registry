@@ -2690,15 +2690,12 @@
               "type": "archive",
               "size": 5784663,
               "sha256": "2dec7a8b274b82d34d0583e05657f3cefc1389fd1630af0d98fede73ef712038",
-              "url": "https://github.com/yvonneQAQ/spekana-audio-plugin/releases/download/v1.0.0/SPEKANA_v1.0.0_macOS.zip",
-              "downloads": 2
+              "url": "https://github.com/yvonneQAQ/spekana-audio-plugin/releases/download/v1.0.0/SPEKANA_v1.0.0_macOS.zip"
             }
           ],
-          "verified": true,
-          "downloads": 2
+          "verified": true
         }
-      },
-      "downloads": 2
+      }
     },
     "yonie/wetreverb": {
       "slug": "yonie/wetreverb",
@@ -18199,6 +18196,70 @@
         }
       },
       "downloads": 348
+    },
+    "olegkapitonov/kapitonov-plugins-pack": {
+      "slug": "olegkapitonov/kapitonov-plugins-pack",
+      "version": "1.2.1",
+      "versions": {
+        "1.2.1": {
+          "name": "Kapitonov Plugins Pack",
+          "author": "Oleg Kapitonov",
+          "description": "A collection of LV2 guitar sound processing plugins, including a tube amp emulator with preamp/tonestack/power-amp/cabinet stages, distortion, and fuzz.",
+          "license": "gpl-3.0",
+          "type": "effect",
+          "tags": [
+            "Guitar",
+            "Amp Sim",
+            "Distortion",
+            "Fuzz"
+          ],
+          "url": "https://github.com/olegkapitonov/Kapitonov-Plugins-Pack",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/olegkapitonov/kapitonov-plugins-pack/kapitonov-plugins-pack.jpg",
+          "date": "2020-05-25T19:58:46Z",
+          "changes": "This release tested with Ardour 6.0 and brings back broken since 1.1 GUI with Qtractor!\r\n\r\nChanges:\r\n- Added a built-in file picker dialog which replaces zenity.\r\n- Changed the models of Fuzz and Distortion plugins, now they emulate\r...",
+          "files": [
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "lv2"
+              ],
+              "type": "archive",
+              "size": 3839694,
+              "sha256": "338564a2a63ddc28836b34a0f591e36b72e8248b79824ffcf03f87107727db95",
+              "url": "https://github.com/olegkapitonov/Kapitonov-Plugins-Pack/releases/download/1.2.1/KPP-1.2.1-binary-debian10.tar.bz2",
+              "downloads": 483
+            },
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "lv2"
+              ],
+              "type": "archive",
+              "size": 3841602,
+              "sha256": "92f473d26e61aa648a9ccc32a3cf4c1be0e594b7a4cc0c70df77eeed048be520",
+              "url": "https://github.com/olegkapitonov/Kapitonov-Plugins-Pack/releases/download/1.2.1/KPP-1.2.1-binary-ubuntu-bionic.tar.bz2",
+              "downloads": 713
+            }
+          ],
+          "verified": true,
+          "downloads": 1196
+        }
+      },
+      "downloads": 1196
     },
     "odoare/tear": {
       "slug": "odoare/tear",
@@ -45271,7 +45332,7 @@
               "size": 7725160,
               "sha256": "2bac3d0c4237e8c22c4274b6d5b59fe6329fcae72864f81b5830393eff354fc1",
               "url": "https://github.com/asb2m10/dexed/releases/download/v1.0.1/Dexed-1.0.1-lnx.zip",
-              "downloads": 3440
+              "downloads": 3441
             },
             {
               "systems": [
@@ -45358,7 +45419,7 @@
             }
           ],
           "verified": true,
-          "downloads": 155843
+          "downloads": 155844
         },
         "0.9.8": {
           "name": "Dexed",
@@ -45443,7 +45504,7 @@
           "downloads": 195805
         }
       },
-      "downloads": 351648
+      "downloads": 351649
     },
     "artfwo/andes": {
       "slug": "artfwo/andes",
