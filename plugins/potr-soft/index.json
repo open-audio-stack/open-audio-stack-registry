@@ -1,0 +1,85 @@
+{
+  "potr-soft/chord-filter": {
+    "slug": "potr-soft/chord-filter",
+    "version": "0.0.4",
+    "versions": {
+      "0.0.4": {
+        "name": "Polarity Chord Filter",
+        "author": "POTR Software",
+        "description": "Filters notes out of an incoming chord based on their position from the bottom (e.g. always return the 2nd-lowest note) — useful for splitting chord progressions into separate melody/bass lines to send to other instruments.",
+        "license": "bsd-2-clause",
+        "type": "effect",
+        "tags": [
+          "Midi Effect",
+          "Note Filter",
+          "Chord",
+          "Bitwig"
+        ],
+        "url": "https://github.com/POTR-Soft/Chord-Filter",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/potr-soft/chord-filter/chord-filter.jpg",
+        "date": "2021-11-08T16:14:46Z",
+        "changes": "v0.0.4 release.",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 1403214,
+            "sha256": "6eda6038b59c1626a977c30bc17d9398fd4904dcd32fc40622bcbce3dae349ac",
+            "url": "https://github.com/POTR-Soft/Chord-Filter/releases/download/v0.0.4/Linux.zip",
+            "downloads": 26
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 1988436,
+            "sha256": "93a91a9571ee5e2b64b55994a5f225ff15a92e5f584be58e679556d1e921f139",
+            "url": "https://github.com/POTR-Soft/Chord-Filter/releases/download/v0.0.4/macOS.zip",
+            "downloads": 39
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 1486768,
+            "sha256": "eb132df09af08ed7b6bc4a7d39983ba25e18a952997ba0c68f0087cce3be7ba6",
+            "url": "https://github.com/POTR-Soft/Chord-Filter/releases/download/v0.0.4/Windows.zip",
+            "downloads": 116
+          }
+        ],
+        "verified": true,
+        "downloads": 181
+      }
+    },
+    "downloads": 181
+  }
+}
