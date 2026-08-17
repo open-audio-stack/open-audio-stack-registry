@@ -81,7 +81,7 @@ async function checkAttestation(org: string, repo: string, sha256: string): Prom
 // Filtering known-technical topics out before slicing to 8 means more of those slots land on
 // something semantically useful, without changing the reviewer's job of double-checking tags.
 const TECHNICAL_TOPIC_RE =
-  /^(vst|vst2|vst3(-plugin)?|vst-plugin|clap(-plugin)?|lv2(-plugin)?|au|au-plugin|aax(-plugin)?|ladspa(-plugin)?|dssi|dpf|juce(-.*)?|jsfx|faust(-dsp)?|standalone|audio-plugin|audio-unit|plugin|plugins|cli|sdk|api|library|framework|cross-platform|linux|windows|macos|osx|cmake|rust|cpp|c-plus-plus|python|typescript|javascript|nodejs|wasm|webassembly)$/;
+  /^(vst|vst2|vst3(-plugin)?|vst-plugin|clap(-plugin)?|lv2(-plugin)?|au|au-plugin|aax(-plugin)?|ladspa(-plugin)?|dssi|dpf|juce(-.*)?|jsfx|faust(-dsp)?|standalone|audio-plugin|audio-unit|plugin|plugins|cli|sdk|api|library|framework|cross-platform|linux|windows|macos|osx|cmake|c|cpp|c-plus-plus|rust|python|typescript|javascript|nodejs|wasm|webassembly)$/;
 
 function slugToTitleCase(slug: string): string {
   return slug
@@ -133,7 +133,13 @@ function detectLicenseFromText(text: string): string | null {
       [/^(gpl-?2(\.0)?\+?|gplv2\+?)$/, 'gpl-2.0'],
       [/^(lgpl-?2\.1\+?|lgplv2\.1\+?)$/, 'lgpl-2.1'],
       [/^(lgpl-?3(\.0)?\+?|lgplv3\+?)$/, 'lgpl-3.0'],
-      [/^(agpl-?3(\.0)?\+?|agplv3\+?)$/, 'agpl-3.0'],
+      // "AGPL" bare, or spelled out in full with no version number, still resolves to agpl-3.0:
+      // unlike GPL/LGPL (where v2 still sees meaningful real-world use, so an unversioned
+      // mention is genuinely ambiguous), AGPL v1 was never released — every AGPL license in
+      // circulation is v3, so there's no other version an unqualified mention could mean.
+      // Seen on Davit-G/Hamburger: "licensed under the GNU Affero General Public License
+      // (GNU AGPL)" with no version number anywhere near it.
+      [/^(agpl-?3(\.0)?\+?|agplv3\+?|agpl|gnu affero general public(?: license)?)$/, 'agpl-3.0'],
       [/^zlib$/, 'zlib'],
       [/^(0bsd|bsd zero-?clause)$/, '0bsd'],
       [/^cc0(?:-1\.0)?$/, 'cc0-1.0'],
