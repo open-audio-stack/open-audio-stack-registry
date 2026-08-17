@@ -42,5 +42,70 @@
       }
     },
     "downloads": 36
+  },
+  "speechrezz/le-phonk": {
+    "slug": "speechrezz/le-phonk",
+    "version": "1.0.2",
+    "versions": {
+      "1.0.2": {
+        "name": "Le Phonk",
+        "author": "Speechrezz",
+        "description": "A distortion plugin with a built-in \"Le Ottz\" OTT-style multiband compression mode, time and multiplier controls, and automatic update checking.",
+        "license": "mit",
+        "type": "effect",
+        "tags": [
+          "Distortion",
+          "Compression",
+          "Free"
+        ],
+        "url": "https://github.com/Speechrezz/Le-Phonk",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/speechrezz/le-phonk/le-phonk.jpg",
+        "date": "2023-02-08T19:19:15Z",
+        "changes": "- New 'Time' and 'Multiplier' parameters for Le Ottz\r\n- Better OTT algorithm\r\n- Many quality of life improvements\r\n- Automatic update checking\r\n- 'Drippy' skin now 37% more drippy",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "component"
+            ],
+            "type": "installer",
+            "size": 12542150,
+            "sha256": "c2aada8d759a7596f68b7e1bb786da78a98588ce4ccd8e5e7b5e9b18f6fa882a",
+            "url": "https://github.com/Speechrezz/Le-Phonk/releases/download/v1.0.2/LePhonk.Setup.MacOS.pkg",
+            "downloads": 56
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "installer",
+            "size": 4910008,
+            "sha256": "4a18f3ed3314986928cbde291863b69cc750ccc02c0839c923dac8a1c6fc57c2",
+            "url": "https://github.com/Speechrezz/Le-Phonk/releases/download/v1.0.2/LePhonk.Setup.Windows.exe",
+            "downloads": 388
+          }
+        ],
+        "verified": true,
+        "downloads": 444
+      }
+    },
+    "downloads": 444
   }
 }

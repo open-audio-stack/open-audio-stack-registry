@@ -8137,7 +8137,7 @@
             "size": 223339140,
             "sha256": "a6e55064487f624147d515b9ae5fc79a568b69746675b2083abde628ca7bb151",
             "url": "https://github.com/surge-synthesizer/releases-xt/releases/download/1.3.4/surge-xt-linux-x64-1.3.4.deb",
-            "downloads": 36635
+            "downloads": 36636
           },
           {
             "systems": [
@@ -8223,7 +8223,7 @@
           }
         ],
         "verified": true,
-        "downloads": 726293
+        "downloads": 726294
       },
       "1.3.1": {
         "name": "Surge XT",
@@ -8350,7 +8350,7 @@
         "downloads": 84190
       }
     },
-    "downloads": 810483
+    "downloads": 810484
   },
   "surge-synthesizer/ob-xf": {
     "slug": "surge-synthesizer/ob-xf",
@@ -10290,6 +10290,71 @@
       }
     },
     "downloads": 36
+  },
+  "speechrezz/le-phonk": {
+    "slug": "speechrezz/le-phonk",
+    "version": "1.0.2",
+    "versions": {
+      "1.0.2": {
+        "name": "Le Phonk",
+        "author": "Speechrezz",
+        "description": "A distortion plugin with a built-in \"Le Ottz\" OTT-style multiband compression mode, time and multiplier controls, and automatic update checking.",
+        "license": "mit",
+        "type": "effect",
+        "tags": [
+          "Distortion",
+          "Compression",
+          "Free"
+        ],
+        "url": "https://github.com/Speechrezz/Le-Phonk",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/speechrezz/le-phonk/le-phonk.jpg",
+        "date": "2023-02-08T19:19:15Z",
+        "changes": "- New 'Time' and 'Multiplier' parameters for Le Ottz\r\n- Better OTT algorithm\r\n- Many quality of life improvements\r\n- Automatic update checking\r\n- 'Drippy' skin now 37% more drippy",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "component"
+            ],
+            "type": "installer",
+            "size": 12542150,
+            "sha256": "c2aada8d759a7596f68b7e1bb786da78a98588ce4ccd8e5e7b5e9b18f6fa882a",
+            "url": "https://github.com/Speechrezz/Le-Phonk/releases/download/v1.0.2/LePhonk.Setup.MacOS.pkg",
+            "downloads": 56
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "installer",
+            "size": 4910008,
+            "sha256": "4a18f3ed3314986928cbde291863b69cc750ccc02c0839c923dac8a1c6fc57c2",
+            "url": "https://github.com/Speechrezz/Le-Phonk/releases/download/v1.0.2/LePhonk.Setup.Windows.exe",
+            "downloads": 388
+          }
+        ],
+        "verified": true,
+        "downloads": 444
+      }
+    },
+    "downloads": 444
   },
   "spatian-dev/artix": {
     "slug": "spatian-dev/artix",
@@ -37348,6 +37413,112 @@
     },
     "downloads": 4
   },
+  "davit-g/hamburger": {
+    "slug": "davit-g/hamburger",
+    "version": "0.7.2",
+    "versions": {
+      "0.7.2": {
+        "name": "Hamburger",
+        "author": "Davit G",
+        "description": "Hamburger is a distortion plugin with inbuilt dynamics controls and equalisation that can deliver both subtle tangy harmonics and absolute annihilation to any sound.",
+        "license": "agpl-3.0",
+        "type": "effect",
+        "tags": [
+          "Distortion",
+          "Compressor",
+          "Equalizer"
+        ],
+        "url": "https://github.com/Davit-G/Hamburger",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/davit-g/hamburger/hamburger.jpg",
+        "date": "2026-08-12T01:00:16Z",
+        "changes": "# Summary\r\n\r\n- Fix issue where sizzle noise's frequency amount was being reset when exporting projects\r\n- Further declicking attempts on startup\r\n\r...",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "clap"
+            ],
+            "type": "archive",
+            "size": 6304616,
+            "sha256": "a5a5b2ed70c8e84dabf11d5ff77ead5572b558880ff624b4a494353a002c376c",
+            "url": "https://github.com/Davit-G/Hamburger/releases/download/v0.7.2/Hamburger.v0.7.2.Linux.x86_64.zip",
+            "downloads": 11
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64"
+            ],
+            "contains": [
+              "vst3",
+              "component",
+              "clap"
+            ],
+            "type": "archive",
+            "size": 14882917,
+            "sha256": "e21c94e48e2befbe03da4959f8a725f844bb561b503efe5c4a8566bd0730d204",
+            "url": "https://github.com/Davit-G/Hamburger/releases/download/v0.7.2/Hamburger.v0.7.2.MacOS.arm64.Apple.Silicon.zip",
+            "downloads": 5
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "component",
+              "clap"
+            ],
+            "type": "archive",
+            "size": 15864917,
+            "sha256": "b7fa6983e324a8e4bb37b4380f494d53debce50830ba137f8ab1afe4791425c8",
+            "url": "https://github.com/Davit-G/Hamburger/releases/download/v0.7.2/Hamburger.v0.7.2.MacOS.x86_64.Intel.zip",
+            "downloads": 4
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "clap",
+              "exe"
+            ],
+            "type": "archive",
+            "size": 13694510,
+            "sha256": "8196057e7274887c6b0158f0600b38575baa5c50c98a8d036de1cddac608ffbb",
+            "url": "https://github.com/Davit-G/Hamburger/releases/download/v0.7.2/Hamburger.v0.7.2.Windows.64bit.x86_64.zip",
+            "downloads": 9
+          }
+        ],
+        "verified": true,
+        "downloads": 29
+      }
+    },
+    "downloads": 29
+  },
   "davemollen/dm-whammy": {
     "slug": "davemollen/dm-whammy",
     "version": "0.1.0",
@@ -42740,14 +42911,14 @@
             "size": 1299896,
             "sha256": "d1784ede22f7c72351512f021819dfa3da1f1a8fbc462d14df2fc5c4cd866780",
             "url": "https://github.com/bsutherland/JuceOPLVSTi/releases/download/1.0.0/JuceOPLVSTi.x64.Windows.zip",
-            "downloads": 2785
+            "downloads": 2786
           }
         ],
         "verified": true,
-        "downloads": 2785
+        "downloads": 2786
       }
     },
-    "downloads": 2785
+    "downloads": 2786
   },
   "brummer10/rumor": {
     "slug": "brummer10/rumor",
