@@ -1,0 +1,79 @@
+name: BeatMD
+author: Paul Jones
+description: A simple sampler plugin modelled on an old piece of analog gear, available as VST3, AU, and AAX.
+license: gpl-3.0
+type: sampler
+tags:
+  - Sampler
+  - Vintage
+url: https://github.com/pauljonescodes/beat-md
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/pauljonescodes/beat-md/beat-md.jpg
+date: '2024-03-20T00:37:13Z'
+changes: 1.0.0 release.
+files:
+  - systems:
+      - type: mac
+    architectures:
+      - arm64
+      - x64
+    contains:
+      - aax
+    type: archive
+    size: 4266823
+    sha256: a8f133340643ece11a2deebca0f44b21560681a8d885ff61b4b1277b2a74eee6
+    url: https://github.com/pauljonescodes/beat-md/releases/download/1.0.0/BeatMD-macos.aaxplugin.zip
+  - systems:
+      - type: mac
+    architectures:
+      - arm64
+      - x64
+    contains:
+      - vst3
+    type: archive
+    size: 4282969
+    sha256: d58071a38af6171d8e08b25805282c560f27194901fe44326ab9ea9454cc168d
+    url: https://github.com/pauljonescodes/beat-md/releases/download/1.0.0/BeatMD-macos.vst3.zip
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - aax
+    type: archive
+    size: 6117712
+    sha256: c84c3ce23e617a8c1d60daef1f19a470fb20dfc7d584884ce0d7251938830abf
+    url: https://github.com/pauljonescodes/beat-md/releases/download/1.0.0/BeatMD-win.aaxplugin
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - vst3
+    type: archive
+    size: 6101504
+    sha256: e8c319b0e2230486d66b247c03dd319e6665066dd9f6b0a5717516f461ff243b
+    url: https://github.com/pauljonescodes/beat-md/releases/download/1.0.0/BeatMD-win.vst3
+  - systems:
+      - type: mac
+    architectures:
+      - arm64
+      - x64
+    contains:
+      - component
+    type: archive
+    size: 4269554
+    sha256: 75cfd8d7191a476f192d6541d998373cd70d0f4fe1d52a6aa2a1d2ae5ddeacb2
+    url: https://github.com/pauljonescodes/beat-md/releases/download/1.0.0/BeatMD.component.zip
+  - systems:
+      - type: mac
+    architectures:
+      - arm64
+      - x64
+    contains:
+      - vst3
+      - component
+      - aax
+    type: installer
+    size: 12826156
+    sha256: 6dceaecb828e2d7945e5a8ffd454b0232070dfe3ae789517689e0603c1e34284
+    url: https://github.com/pauljonescodes/beat-md/releases/download/1.0.0/BeatMD.pkg
