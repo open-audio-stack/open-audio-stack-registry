@@ -1,0 +1,67 @@
+{
+  "slug": "yeeking/ai-improviser-plugin",
+  "version": "4.0.0",
+  "versions": {
+    "4.0.0": {
+      "name": "MIDI Markov Rebuilt",
+      "author": "Matthew Yee-King",
+      "description": "An AI improviser plugin that learns a Markov model from an incoming MIDI stream in realtime and improvises with what it has learnt — generating chords from monophonic input, playing slower/faster, avoiding the input's register, or a call-and-response mode.",
+      "license": "mit",
+      "type": "instrument",
+      "tags": [
+        "AI",
+        "Markov Chain",
+        "Improvisation",
+        "MIDI Generative"
+      ],
+      "url": "https://github.com/yeeking/ai-improviser-plugin",
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/yeeking/ai-improviser-plugin/ai-improviser-plugin.jpg",
+      "date": "2025-12-11T18:17:35Z",
+      "changes": "**Full Changelog**: https://github.com/yeeking/ai-improviser-plugin/compare/v3.0...v4.0\r\n\r\nThis is a significant update from V3 so I'm calling it V4.\r\n\r\nThe main changes relate to the addition of more complex behaviours:\r...",
+      "files": [
+        {
+          "systems": [
+            {
+              "type": "mac"
+            }
+          ],
+          "architectures": [
+            "arm64",
+            "x64"
+          ],
+          "contains": [
+            "vst3",
+            "component",
+            "app"
+          ],
+          "type": "archive",
+          "size": 33681871,
+          "sha256": "a52af7d75b9da2bb92ce51f624f4c61a2da6fc99a948572646bb32f82c77896e",
+          "url": "https://github.com/yeeking/ai-improviser-plugin/releases/download/v4.0/macos-v41.zip",
+          "downloads": 25
+        },
+        {
+          "systems": [
+            {
+              "type": "win"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "vst3"
+          ],
+          "type": "archive",
+          "size": 5855219,
+          "sha256": "efb90e64928e4003c316ba3abda86e99394737974f2f238c744f9a5de05d672a",
+          "url": "https://github.com/yeeking/ai-improviser-plugin/releases/download/v4.0/win_v4.zip",
+          "downloads": 57
+        }
+      ],
+      "verified": true,
+      "downloads": 82
+    }
+  },
+  "downloads": 82
+}
