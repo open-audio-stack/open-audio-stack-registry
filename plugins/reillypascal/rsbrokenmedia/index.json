@@ -1,0 +1,51 @@
+{
+  "slug": "reillypascal/rsbrokenmedia",
+  "version": "0.3.1",
+  "versions": {
+    "0.3.1": {
+      "name": "RSBroken Media",
+      "author": "Reilly Spitzfaden",
+      "description": "Stereo glitch plugin in JUCE with tape FX, CD skips, data errors, lo-fi codecs, and more.",
+      "license": "gpl-3.0",
+      "type": "effect",
+      "tags": [
+        "Electronic Music",
+        "Experimental",
+        "Glitch",
+        "Music",
+        "Noise Music",
+        "Sound Design",
+        "Stereo"
+      ],
+      "url": "https://github.com/reillypascal/RSBrokenMedia",
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/reillypascal/rsbrokenmedia/rsbrokenmedia.jpg",
+      "date": "2024-06-16T01:47:08Z",
+      "changes": "# Version 0.3.1\r\n\r\n## Updates\r\n- Fixed an issue where text would not appear when compiling on Linux\r\n\r\n## Overview:\r\n- Includes compiled macOS VST3 and AU files, with additional compiler targets for Windows and Linux.\r...",
+      "files": [
+        {
+          "systems": [
+            {
+              "type": "mac"
+            }
+          ],
+          "architectures": [
+            "arm64",
+            "x64"
+          ],
+          "contains": [
+            "vst3",
+            "component"
+          ],
+          "type": "archive",
+          "size": 4323474,
+          "sha256": "971db2e41e48b2be643556a497ce1f123ec39067d1853e1b4108078b524ec9c6",
+          "url": "https://github.com/reillypascal/RSBrokenMedia/releases/download/0.3.1/RSBrokenMedia-v0.3.1-macos.zip",
+          "downloads": 37
+        }
+      ],
+      "verified": true,
+      "downloads": 37
+    }
+  },
+  "downloads": 37
+}
