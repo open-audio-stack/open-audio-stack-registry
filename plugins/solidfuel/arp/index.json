@@ -1,0 +1,100 @@
+{
+  "slug": "solidfuel/arp",
+  "version": "0.3.0",
+  "versions": {
+    "0.3.0": {
+      "name": "solidArp",
+      "author": "SolidFuel",
+      "description": "A random arpeggiator that gives the same stable pattern every time through (rather than re-randomizing on each pass), with optional stable velocity/gate randomization, plus Linear and Spiral algorithm modes.",
+      "license": "gpl-3.0",
+      "type": "generator",
+      "tags": [
+        "Arpeggiator",
+        "Midi Effect",
+        "Random"
+      ],
+      "url": "https://github.com/SolidFuel/Arp",
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/solidfuel/arp/arp.jpg",
+      "date": "2023-12-06T20:50:59Z",
+      "changes": "NEW NAME : solidArp\r\n\r\n[New Features]\r\n* Support for MacOS (Universal)\r\n* Installers for all supported platform\r\n    + '.pkg' for MacOS\r\n    + '.deb' for Linux\r\n    + '.exe' for Windows\r\n\r\n[Bug Fix]\r\n* Send note off when play back stops in all situations.",
+      "files": [
+        {
+          "systems": [
+            {
+              "type": "linux"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "vst3"
+          ],
+          "type": "archive",
+          "size": 1610952,
+          "sha256": "80c96149a438c5154dc771b948facfa9265cd9b40db86aed88a88d86978791fd",
+          "url": "https://github.com/SolidFuel/Arp/releases/download/v0.3.0/solidArp-V0.3.0-linux-vst3.zip",
+          "downloads": 127
+        },
+        {
+          "systems": [
+            {
+              "type": "mac"
+            }
+          ],
+          "architectures": [
+            "arm64",
+            "x64"
+          ],
+          "contains": [
+            "vst3"
+          ],
+          "type": "installer",
+          "size": 2744927,
+          "sha256": "e90551444ccf1e7c23db7ccd088164dc5fede7768d46b9dad090538d9489926c",
+          "url": "https://github.com/SolidFuel/Arp/releases/download/v0.3.0/solidArp-V0.3.0-macos-universal.pkg",
+          "downloads": 84
+        },
+        {
+          "systems": [
+            {
+              "type": "win"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "vst3"
+          ],
+          "type": "installer",
+          "size": 3006125,
+          "sha256": "f79f9ffcd144be6f5b39a94c7245e58d52657ed7beafff6d0e49dff006c0a59a",
+          "url": "https://github.com/SolidFuel/Arp/releases/download/v0.3.0/solidarp-V0.3.0-win64-installer.exe",
+          "downloads": 263
+        },
+        {
+          "systems": [
+            {
+              "type": "linux"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "vst3"
+          ],
+          "type": "installer",
+          "size": 1356612,
+          "sha256": "ba7faf79945c30e03521e7af80b784d93f471264a258e6675cc6c813736a3318",
+          "url": "https://github.com/SolidFuel/Arp/releases/download/v0.3.0/solidarp_0.3.0_linux-amd64.deb",
+          "downloads": 31
+        }
+      ],
+      "verified": true,
+      "downloads": 505
+    }
+  },
+  "downloads": 505
+}
