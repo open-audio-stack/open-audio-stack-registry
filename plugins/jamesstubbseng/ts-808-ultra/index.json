@@ -1,0 +1,51 @@
+{
+  "slug": "jamesstubbseng/ts-808-ultra",
+  "version": "1.0.0",
+  "versions": {
+    "1.0.0": {
+      "name": "TS-808-Ultra",
+      "author": "James Stubbs",
+      "description": "A digital model of the classic Ibanez Tube Screamer 808 overdrive pedal, using Wave Digital Filter nodal analysis of the analog circuit.",
+      "license": "gpl-3.0",
+      "type": "effect",
+      "tags": [
+        "Wdf",
+        "Guitar Pedal",
+        "Overdrive",
+        "Tubescreamer",
+        "Tubescreamer"
+      ],
+      "url": "https://github.com/JamesStubbsEng/TS-808-Ultra",
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/jamesstubbseng/ts-808-ultra/ts-808-ultra.jpg",
+      "date": "2022-01-17T22:50:29Z",
+      "changes": "The first release of TS-808-Ultra! \r\n\r\nThe GUI is bare bones, but if anyone wants to do its UX, I am happy to implement it!\r\n\r\n64 bit .vst3 and .component available.\r\n\r\nClick TS-808-Ultra_build.zip below to download.\r\n\r...",
+      "files": [
+        {
+          "systems": [
+            {
+              "type": "mac"
+            },
+            {
+              "type": "win"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "vst3",
+            "component"
+          ],
+          "type": "archive",
+          "size": 3839810,
+          "sha256": "d2efefcbcd9793090a634fe95167799d4aaa2ccd36b9e249af44ad9c83a9bde1",
+          "url": "https://github.com/JamesStubbsEng/TS-808-Ultra/releases/download/v1.0.0/TS-808-Ultra_build.zip",
+          "downloads": 1589
+        }
+      ],
+      "verified": true,
+      "downloads": 1589
+    }
+  },
+  "downloads": 1589
+}
