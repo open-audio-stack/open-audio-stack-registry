@@ -330,14 +330,14 @@
               "size": 36417296,
               "sha256": "70775e251eee44c0f2451a1e833326cf8bcbbe304d3e7cd12851e6fce72ef7da",
               "url": "https://github.com/Rikorose/DeepFilterNet/releases/download/v0.5.6/deep-filter-0.5.6-x86_64-unknown-linux-musl",
-              "downloads": 30039
+              "downloads": 30040
             }
           ],
           "verified": true,
-          "downloads": 53966
+          "downloads": 53967
         }
       },
-      "downloads": 53966
+      "downloads": 53967
     },
     "pkunk/pwrate": {
       "slug": "pkunk/pwrate",
@@ -1709,15 +1709,12 @@
               "type": "installer",
               "size": 12623277,
               "sha256": "4f96261cfd628bab587b9ed80564207abb38e5980bcb449fff6999f9a00f5ff1",
-              "url": "https://github.com/zynaddsubfx/zynaddsubfx/releases/download/2.5.3-osx/ZynAddSubFx-2.5.3.dmg",
-              "downloads": 740
+              "url": "https://github.com/zynaddsubfx/zynaddsubfx/releases/download/2.5.3-osx/ZynAddSubFx-2.5.3.dmg"
             }
           ],
-          "verified": true,
-          "downloads": 740
+          "verified": true
         }
-      },
-      "downloads": 740
+      }
     },
     "zones-convolution/zones-client": {
       "slug": "zones-convolution/zones-client",
@@ -1756,8 +1753,7 @@
               "type": "installer",
               "size": 6085364,
               "sha256": "0d7979e3acc17665e3530417dad43b13034b511fd81df4b45e999dcc86632202",
-              "url": "https://github.com/zones-convolution/zones_client/releases/download/v1.0.5/Zones-arm64.pkg",
-              "downloads": 89
+              "url": "https://github.com/zones-convolution/zones_client/releases/download/v1.0.5/Zones-arm64.pkg"
             },
             {
               "systems": [
@@ -1774,15 +1770,12 @@
               "type": "installer",
               "size": 5330701,
               "sha256": "922dbdadb724935f139a4400405eea372ddaef03cb6bbde0f764b6ddbee59217",
-              "url": "https://github.com/zones-convolution/zones_client/releases/download/v1.0.5/Zones-v1.0.5-Windows.exe",
-              "downloads": 194
+              "url": "https://github.com/zones-convolution/zones_client/releases/download/v1.0.5/Zones-v1.0.5-Windows.exe"
             }
           ],
-          "verified": true,
-          "downloads": 283
+          "verified": true
         }
-      },
-      "downloads": 283
+      }
     },
     "zmann-org/zmann": {
       "slug": "zmann-org/zmann",
@@ -1818,8 +1811,7 @@
               "type": "archive",
               "size": 76353801,
               "sha256": "4b07516bc2074cf8ee3fd8677b35f7362b6be4fc20a25452c1967c64e9b391bd",
-              "url": "https://github.com/zmann-org/zmann/releases/download/2.0rc-1/Bells.zip",
-              "downloads": 28
+              "url": "https://github.com/zmann-org/zmann/releases/download/2.0rc-1/Bells.zip"
             },
             {
               "systems": [
@@ -1836,8 +1828,7 @@
               "type": "archive",
               "size": 78485504,
               "sha256": "34372d3404f244d33d6aa2e615c1e6bb52391dd736b6f32c997f98a2a4be2f5b",
-              "url": "https://github.com/zmann-org/zmann/releases/download/2.0rc-1/Bells.clap",
-              "downloads": 18
+              "url": "https://github.com/zmann-org/zmann/releases/download/2.0rc-1/Bells.clap"
             },
             {
               "systems": [
@@ -1854,8 +1845,7 @@
               "type": "archive",
               "size": 2355094,
               "sha256": "cd20b3bf45f1fa5c4b8d38b98468ec43c21dca74b53365cbe9d54ff7153c55ab",
-              "url": "https://github.com/zmann-org/zmann/releases/download/2.0rc-1/Orchestron.zip",
-              "downloads": 30
+              "url": "https://github.com/zmann-org/zmann/releases/download/2.0rc-1/Orchestron.zip"
             },
             {
               "systems": [
@@ -1872,15 +1862,12 @@
               "type": "archive",
               "size": 3017728,
               "sha256": "1c9cb404025e0b177c355fc8a5137a17139e42f48de3d721c7687f7edd5942a3",
-              "url": "https://github.com/zmann-org/zmann/releases/download/2.0rc-1/Orchestron.clap",
-              "downloads": 18
+              "url": "https://github.com/zmann-org/zmann/releases/download/2.0rc-1/Orchestron.clap"
             }
           ],
-          "verified": true,
-          "downloads": 94
+          "verified": true
         }
-      },
-      "downloads": 94
+      }
     },
     "zl-audio/zllmatch": {
       "slug": "zl-audio/zllmatch",
@@ -1919,8 +1906,7 @@
               "type": "installer",
               "size": 5555427,
               "sha256": "99ba712300c0164117152a33ddc612e4d40f27b9f3dae5a21af7c12c52497420",
-              "url": "https://github.com/ZL-Audio/ZLLMatch/releases/download/v0.2.4/ZLLMatch-0.2.4.dmg",
-              "downloads": 3021
+              "url": "https://github.com/ZL-Audio/ZLLMatch/releases/download/v0.2.4/ZLLMatch-0.2.4.dmg"
             },
             {
               "systems": [
@@ -1937,8 +1923,7 @@
               "type": "installer",
               "size": 2596186,
               "sha256": "1295d9cd56b5bebe6167b6c2df1cd6bf2b8136bdf4bd76c492fdd5c7bc850a80",
-              "url": "https://github.com/ZL-Audio/ZLLMatch/releases/download/v0.2.4/ZLLMatch-0.2.4.exe",
-              "downloads": 3739
+              "url": "https://github.com/ZL-Audio/ZLLMatch/releases/download/v0.2.4/ZLLMatch-0.2.4.exe"
             },
             {
               "systems": [
@@ -1955,15 +1940,12 @@
               "type": "archive",
               "size": 12271944,
               "sha256": "c8b5deffe32a137fbd6d0113eba56fec2fa270bf3ff08a715cb16b43e634c6d5",
-              "url": "https://github.com/ZL-Audio/ZLLMatch/releases/download/v0.2.4/ZLLMatch-0.2.4.zip",
-              "downloads": 3447
+              "url": "https://github.com/ZL-Audio/ZLLMatch/releases/download/v0.2.4/ZLLMatch-0.2.4.zip"
             }
           ],
-          "verified": true,
-          "downloads": 10207
+          "verified": true
         }
-      },
-      "downloads": 10207
+      }
     },
     "zl-audio/zlequalizer2": {
       "slug": "zl-audio/zlequalizer2",
@@ -2005,8 +1987,7 @@
               ],
               "size": 9230313,
               "type": "archive",
-              "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.2.2/ZL.Equalizer.2-1.2.2-Linux-arm64.zip",
-              "downloads": 330
+              "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.2.2/ZL.Equalizer.2-1.2.2-Linux-arm64.zip"
             },
             {
               "architectures": [
@@ -2025,8 +2006,7 @@
               ],
               "size": 10034620,
               "type": "archive",
-              "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.2.2/ZL.Equalizer.2-1.2.2-Linux-x86-64-AVX2.zip",
-              "downloads": 611
+              "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.2.2/ZL.Equalizer.2-1.2.2-Linux-x86-64-AVX2.zip"
             },
             {
               "architectures": [
@@ -2045,8 +2025,7 @@
               ],
               "size": 9763297,
               "type": "archive",
-              "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.2.2/ZL.Equalizer.2-1.2.2-Linux-x86-64.zip",
-              "downloads": 567
+              "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.2.2/ZL.Equalizer.2-1.2.2-Linux-x86-64.zip"
             },
             {
               "architectures": [
@@ -2067,8 +2046,7 @@
               ],
               "size": 13378811,
               "type": "installer",
-              "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.2.2/ZL.Equalizer.2-1.2.2-macOS-arm64.dmg",
-              "downloads": 3056
+              "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.2.2/ZL.Equalizer.2-1.2.2-macOS-arm64.dmg"
             },
             {
               "architectures": [
@@ -2089,8 +2067,7 @@
               ],
               "size": 14968334,
               "type": "installer",
-              "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.2.2/ZL.Equalizer.2-1.2.2-macOS-x86-64.dmg",
-              "downloads": 1063
+              "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.2.2/ZL.Equalizer.2-1.2.2-macOS-x86-64.dmg"
             },
             {
               "architectures": [
@@ -2108,8 +2085,7 @@
               ],
               "size": 8196096,
               "type": "installer",
-              "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.2.2/ZL.Equalizer.2-1.2.2-Windows-arm64.msi",
-              "downloads": 873
+              "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.2.2/ZL.Equalizer.2-1.2.2-Windows-arm64.msi"
             },
             {
               "architectures": [
@@ -2127,8 +2103,7 @@
               ],
               "size": 11886592,
               "type": "installer",
-              "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.2.2/ZL.Equalizer.2-1.2.2-Windows-x86-64-AVX2.msi",
-              "downloads": 4934
+              "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.2.2/ZL.Equalizer.2-1.2.2-Windows-x86-64-AVX2.msi"
             },
             {
               "architectures": [
@@ -2146,12 +2121,10 @@
               ],
               "size": 11608064,
               "type": "installer",
-              "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.2.2/ZL.Equalizer.2-1.2.2-Windows-x86-64.msi",
-              "downloads": 4855
+              "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.2.2/ZL.Equalizer.2-1.2.2-Windows-x86-64.msi"
             }
           ],
-          "verified": true,
-          "downloads": 16289
+          "verified": true
         },
         "1.1.0": {
           "name": "ZL Equalizer 2",
@@ -2184,8 +2157,7 @@
               ],
               "size": 17295648,
               "type": "archive",
-              "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.1.0/ZL.Equalizer.2-1.1.0-Linux-x86.zip",
-              "downloads": 2546
+              "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.1.0/ZL.Equalizer.2-1.1.0-Linux-x86.zip"
             },
             {
               "architectures": [
@@ -2203,8 +2175,7 @@
               ],
               "size": 11547522,
               "type": "archive",
-              "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.1.0/ZL.Equalizer.2-1.1.0-Linux-arm.zip",
-              "downloads": 889
+              "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.1.0/ZL.Equalizer.2-1.1.0-Linux-arm.zip"
             },
             {
               "architectures": [
@@ -2223,8 +2194,7 @@
               ],
               "size": 22915912,
               "type": "installer",
-              "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.1.0/ZL.Equalizer.2-1.1.0-macOS-x86.dmg",
-              "downloads": 3771
+              "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.1.0/ZL.Equalizer.2-1.1.0-macOS-x86.dmg"
             },
             {
               "architectures": [
@@ -2243,8 +2213,7 @@
               ],
               "size": 15238667,
               "type": "installer",
-              "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.1.0/ZL.Equalizer.2-1.1.0-macOS-arm.dmg",
-              "downloads": 6692
+              "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.1.0/ZL.Equalizer.2-1.1.0-macOS-arm.dmg"
             },
             {
               "architectures": [
@@ -2263,8 +2232,7 @@
               ],
               "size": 11918930,
               "type": "installer",
-              "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.1.0/ZL.Equalizer.2-1.1.0-Windows-x86.exe",
-              "downloads": 22662
+              "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.1.0/ZL.Equalizer.2-1.1.0-Windows-x86.exe"
             },
             {
               "architectures": [
@@ -2282,15 +2250,12 @@
               ],
               "size": 8247800,
               "type": "installer",
-              "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.1.0/ZL.Equalizer.2-1.1.0-Windows-arm.exe",
-              "downloads": 4981
+              "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.1.0/ZL.Equalizer.2-1.1.0-Windows-arm.exe"
             }
           ],
-          "verified": true,
-          "downloads": 41541
+          "verified": true
         }
-      },
-      "downloads": 57830
+      }
     },
     "zl-audio/zlcompressor": {
       "slug": "zl-audio/zlcompressor",
@@ -2328,8 +2293,7 @@
               "type": "archive",
               "size": 8015840,
               "sha256": "4ef0b09548e0dd62a49952202fac8b823d2f23f38e06a83fe546194d294b8270",
-              "url": "https://github.com/ZL-Audio/ZLCompressor/releases/download/0.5.0/ZL.Compressor-0.5.0-Linux-arm64.zip",
-              "downloads": 85
+              "url": "https://github.com/ZL-Audio/ZLCompressor/releases/download/0.5.0/ZL.Compressor-0.5.0-Linux-arm64.zip"
             },
             {
               "systems": [
@@ -2348,8 +2312,7 @@
               "type": "archive",
               "size": 8628636,
               "sha256": "06db9694bf90f807e505853272484ea3a32043ace8ade2607013c28b96159734",
-              "url": "https://github.com/ZL-Audio/ZLCompressor/releases/download/0.5.0/ZL.Compressor-0.5.0-Linux-x86-64-AVX2.zip",
-              "downloads": 364
+              "url": "https://github.com/ZL-Audio/ZLCompressor/releases/download/0.5.0/ZL.Compressor-0.5.0-Linux-x86-64-AVX2.zip"
             },
             {
               "systems": [
@@ -2368,8 +2331,7 @@
               "type": "archive",
               "size": 8401909,
               "sha256": "07600e4f95272223c7405b3142778a89c59516e2b4912be281635aac8c793902",
-              "url": "https://github.com/ZL-Audio/ZLCompressor/releases/download/0.5.0/ZL.Compressor-0.5.0-Linux-x86-64.zip",
-              "downloads": 467
+              "url": "https://github.com/ZL-Audio/ZLCompressor/releases/download/0.5.0/ZL.Compressor-0.5.0-Linux-x86-64.zip"
             },
             {
               "systems": [
@@ -2389,8 +2351,7 @@
               "type": "installer",
               "size": 11435709,
               "sha256": "374f400e888b9de93adc145fbae079e4cf46ed8c72eeb9f43326d104134050d8",
-              "url": "https://github.com/ZL-Audio/ZLCompressor/releases/download/0.5.0/ZL.Compressor-0.5.0-macOS-arm64.dmg",
-              "downloads": 871
+              "url": "https://github.com/ZL-Audio/ZLCompressor/releases/download/0.5.0/ZL.Compressor-0.5.0-macOS-arm64.dmg"
             },
             {
               "systems": [
@@ -2410,8 +2371,7 @@
               "type": "installer",
               "size": 12756094,
               "sha256": "509a6086417603ce8f8980ccd71949d34aa685692d1da8997cf16f8bd5660e31",
-              "url": "https://github.com/ZL-Audio/ZLCompressor/releases/download/0.5.0/ZL.Compressor-0.5.0-macOS-x86-64.dmg",
-              "downloads": 406
+              "url": "https://github.com/ZL-Audio/ZLCompressor/releases/download/0.5.0/ZL.Compressor-0.5.0-macOS-x86-64.dmg"
             },
             {
               "systems": [
@@ -2431,8 +2391,7 @@
               "type": "installer",
               "size": 7200768,
               "sha256": "e853104638e3249908087b47210408f02496b00b1d2fc694147262fbe000413f",
-              "url": "https://github.com/ZL-Audio/ZLCompressor/releases/download/0.5.0/ZL.Compressor-0.5.0-Windows-arm64.msi",
-              "downloads": 329
+              "url": "https://github.com/ZL-Audio/ZLCompressor/releases/download/0.5.0/ZL.Compressor-0.5.0-Windows-arm64.msi"
             },
             {
               "systems": [
@@ -2452,8 +2411,7 @@
               "type": "installer",
               "size": 10240000,
               "sha256": "e7bbb4730be6b906b5c03a6a57d21ff9af735c4573b8a6e4d4ef499f4350146a",
-              "url": "https://github.com/ZL-Audio/ZLCompressor/releases/download/0.5.0/ZL.Compressor-0.5.0-Windows-x86-64-AVX2.msi",
-              "downloads": 1842
+              "url": "https://github.com/ZL-Audio/ZLCompressor/releases/download/0.5.0/ZL.Compressor-0.5.0-Windows-x86-64-AVX2.msi"
             },
             {
               "systems": [
@@ -2473,15 +2431,12 @@
               "type": "installer",
               "size": 9981952,
               "sha256": "5c573b1f5eedf1bdc005a91fd13caec7ea76f52969904c7a924c445733c34926",
-              "url": "https://github.com/ZL-Audio/ZLCompressor/releases/download/0.5.0/ZL.Compressor-0.5.0-Windows-x86-64.msi",
-              "downloads": 2249
+              "url": "https://github.com/ZL-Audio/ZLCompressor/releases/download/0.5.0/ZL.Compressor-0.5.0-Windows-x86-64.msi"
             }
           ],
-          "verified": true,
-          "downloads": 6613
+          "verified": true
         }
-      },
-      "downloads": 6613
+      }
     },
     "zhiyualexzhang/multimeter": {
       "slug": "zhiyualexzhang/multimeter",
@@ -2519,15 +2474,12 @@
               "type": "archive",
               "size": 24233999,
               "sha256": "cac80f4f19cec34554a568a73eac392f4250fe8473c2e9c8293cc8e73545e877",
-              "url": "https://github.com/ZhiyuAlexZhang/MultiMeter/releases/download/v1.0.0/MultiMeter-release-v1.0.0.zip",
-              "downloads": 468
+              "url": "https://github.com/ZhiyuAlexZhang/MultiMeter/releases/download/v1.0.0/MultiMeter-release-v1.0.0.zip"
             }
           ],
-          "verified": true,
-          "downloads": 468
+          "verified": true
         }
-      },
-      "downloads": 468
+      }
     },
     "zamaudio/zam-plugins": {
       "slug": "zamaudio/zam-plugins",
@@ -2567,8 +2519,7 @@
               "type": "archive",
               "size": 39549040,
               "sha256": "4e02771b743afaaa2d6912eac083661c1d9ab0a92dd6787414f29e365877b4c2",
-              "url": "https://github.com/zamaudio/zam-plugins/releases/download/4.5/zam-plugins-4.5-linux-arm64.tar.xz",
-              "downloads": 58
+              "url": "https://github.com/zamaudio/zam-plugins/releases/download/4.5/zam-plugins-4.5-linux-arm64.tar.xz"
             },
             {
               "systems": [
@@ -2589,8 +2540,7 @@
               "type": "archive",
               "size": 37914916,
               "sha256": "9e0dc7d026ddc91d6a6c22856c7e9ea1009a1e22ca0052d5c346bdac416218f8",
-              "url": "https://github.com/zamaudio/zam-plugins/releases/download/4.5/zam-plugins-4.5-linux-armhf.tar.xz",
-              "downloads": 15
+              "url": "https://github.com/zamaudio/zam-plugins/releases/download/4.5/zam-plugins-4.5-linux-armhf.tar.xz"
             },
             {
               "systems": [
@@ -2611,8 +2561,7 @@
               "type": "archive",
               "size": 39867476,
               "sha256": "53e077a5dc66d113fe68981fcc74dd1eaa343db933dba8d8c278816918b4a7df",
-              "url": "https://github.com/zamaudio/zam-plugins/releases/download/4.5/zam-plugins-4.5-linux-i686.tar.xz",
-              "downloads": 19
+              "url": "https://github.com/zamaudio/zam-plugins/releases/download/4.5/zam-plugins-4.5-linux-i686.tar.xz"
             },
             {
               "systems": [
@@ -2633,8 +2582,7 @@
               "type": "archive",
               "size": 39868912,
               "sha256": "16b022cce2998d11d3dbcf15aa6fe176cd14576cad42250ae8cfc56d1b7add7a",
-              "url": "https://github.com/zamaudio/zam-plugins/releases/download/4.5/zam-plugins-4.5-linux-x86_64.tar.xz",
-              "downloads": 311
+              "url": "https://github.com/zamaudio/zam-plugins/releases/download/4.5/zam-plugins-4.5-linux-x86_64.tar.xz"
             },
             {
               "systems": [
@@ -2658,8 +2606,7 @@
               "type": "installer",
               "size": 246954246,
               "sha256": "ac163eb25781b08936b80c12e809777e3aaa523887d0355504f2e6586c4e43cf",
-              "url": "https://github.com/zamaudio/zam-plugins/releases/download/4.5/zam-plugins-4.5-macos-universal.dmg",
-              "downloads": 67
+              "url": "https://github.com/zamaudio/zam-plugins/releases/download/4.5/zam-plugins-4.5-macos-universal.dmg"
             },
             {
               "systems": [
@@ -2680,8 +2627,7 @@
               "type": "archive",
               "size": 131452268,
               "sha256": "596481a35fbf258e39a5823d5e7018093d0f7e75c35547967e04b39e6b328726",
-              "url": "https://github.com/zamaudio/zam-plugins/releases/download/4.5/zam-plugins-4.5-win32.zip",
-              "downloads": 42
+              "url": "https://github.com/zamaudio/zam-plugins/releases/download/4.5/zam-plugins-4.5-win32.zip"
             },
             {
               "systems": [
@@ -2702,15 +2648,12 @@
               "type": "archive",
               "size": 128302481,
               "sha256": "745990b0acdda1cc319cd55aafdf61b6f258015810f310abd31d8bbe849e4da8",
-              "url": "https://github.com/zamaudio/zam-plugins/releases/download/4.5/zam-plugins-4.5-win64.zip",
-              "downloads": 202
+              "url": "https://github.com/zamaudio/zam-plugins/releases/download/4.5/zam-plugins-4.5-win64.zip"
             }
           ],
-          "verified": true,
-          "downloads": 714
+          "verified": true
         }
-      },
-      "downloads": 714
+      }
     },
     "yvonneqaq/spekana-audio-plugin": {
       "slug": "yvonneqaq/spekana-audio-plugin",
@@ -2747,15 +2690,12 @@
               "type": "archive",
               "size": 5784663,
               "sha256": "2dec7a8b274b82d34d0583e05657f3cefc1389fd1630af0d98fede73ef712038",
-              "url": "https://github.com/yvonneQAQ/spekana-audio-plugin/releases/download/v1.0.0/SPEKANA_v1.0.0_macOS.zip",
-              "downloads": 2
+              "url": "https://github.com/yvonneQAQ/spekana-audio-plugin/releases/download/v1.0.0/SPEKANA_v1.0.0_macOS.zip"
             }
           ],
-          "verified": true,
-          "downloads": 2
+          "verified": true
         }
-      },
-      "downloads": 2
+      }
     },
     "yonie/wetreverb": {
       "slug": "yonie/wetreverb",
@@ -2799,15 +2739,12 @@
               "type": "archive",
               "size": 4729203,
               "sha256": "5e1d1d709606cb84809969e48d85ea25f41e3fe4d1f4cc27971ece78c4f14632",
-              "url": "https://github.com/yonie/WetReverb/releases/download/v1.0.1/WetReverb-v1.0.1.zip",
-              "downloads": 1632
+              "url": "https://github.com/yonie/WetReverb/releases/download/v1.0.1/WetReverb-v1.0.1.zip"
             }
           ],
-          "verified": true,
-          "downloads": 1632
+          "verified": true
         }
-      },
-      "downloads": 1632
+      }
     },
     "yonie/wetdelay": {
       "slug": "yonie/wetdelay",
@@ -2851,15 +2788,12 @@
               "type": "archive",
               "size": 4344971,
               "sha256": "ceafafedce425d17505d0ec3b9c2f27b161d9ee01f26c90ce94c1f4813776615",
-              "url": "https://github.com/yonie/WetDelay/releases/download/v1.1.4/WetDelay-v1.1.4.zip",
-              "downloads": 789
+              "url": "https://github.com/yonie/WetDelay/releases/download/v1.1.4/WetDelay-v1.1.4.zip"
             }
           ],
-          "verified": true,
-          "downloads": 789
+          "verified": true
         }
-      },
-      "downloads": 789
+      }
     },
     "yokemura/magical8bitplug2": {
       "slug": "yokemura/magical8bitplug2",
@@ -2900,8 +2834,7 @@
               ],
               "size": 3718577,
               "type": "archive",
-              "url": "https://github.com/yokemura/Magical8bitPlug2/releases/download/v1.0.1/Magical8bitPlug2-win-210508.zip",
-              "downloads": 7570
+              "url": "https://github.com/yokemura/Magical8bitPlug2/releases/download/v1.0.1/Magical8bitPlug2-win-210508.zip"
             },
             {
               "architectures": [
@@ -2919,15 +2852,12 @@
               ],
               "size": 6050600,
               "type": "archive",
-              "url": "https://github.com/yokemura/Magical8bitPlug2/releases/download/v1.0.1/Magical8bitPlug2-mac-210508.zip",
-              "downloads": 1336
+              "url": "https://github.com/yokemura/Magical8bitPlug2/releases/download/v1.0.1/Magical8bitPlug2-mac-210508.zip"
             }
           ],
-          "verified": true,
-          "downloads": 8906
+          "verified": true
         }
-      },
-      "downloads": 8906
+      }
     },
     "xunil-cloud/cloudreverb": {
       "slug": "xunil-cloud/cloudreverb",
@@ -2964,8 +2894,7 @@
               "type": "archive",
               "size": 7050789,
               "sha256": "81cda6a9979cdbaf4d7a261338e59b87c2d4f4a123d05049a5aeaaabe399e6d1",
-              "url": "https://github.com/xunil-cloud/CloudReverb/releases/download/v0.5/CloudReverb-v0.5-Linux-x86_64.zip",
-              "downloads": 150
+              "url": "https://github.com/xunil-cloud/CloudReverb/releases/download/v0.5/CloudReverb-v0.5-Linux-x86_64.zip"
             },
             {
               "systems": [
@@ -2986,8 +2915,7 @@
               "type": "archive",
               "size": 15082485,
               "sha256": "88b60035570f680e29ccc2465711dd1ea9886d80c6c1bcca5f8bf09b2cd49b9c",
-              "url": "https://github.com/xunil-cloud/CloudReverb/releases/download/v0.5/CloudReverb-v0.5-macOS.zip",
-              "downloads": 57
+              "url": "https://github.com/xunil-cloud/CloudReverb/releases/download/v0.5/CloudReverb-v0.5-macOS.zip"
             },
             {
               "systems": [
@@ -3006,15 +2934,12 @@
               "type": "archive",
               "size": 8238611,
               "sha256": "2674dab0c2dd58bb98cc9acdb612cc411b5baa7d896db20127b21fc6a22868a2",
-              "url": "https://github.com/xunil-cloud/CloudReverb/releases/download/v0.5/CloudReverb-v0.5-Windows-x86_64.zip",
-              "downloads": 157
+              "url": "https://github.com/xunil-cloud/CloudReverb/releases/download/v0.5/CloudReverb-v0.5-Windows-x86_64.zip"
             }
           ],
-          "verified": true,
-          "downloads": 364
+          "verified": true
         }
-      },
-      "downloads": 364
+      }
     },
     "wolf-plugins/wolf-spectrum": {
       "slug": "wolf-plugins/wolf-spectrum",
@@ -3052,8 +2977,7 @@
               "type": "archive",
               "size": 491519,
               "sha256": "858c16bf594ace122cee1854024fb8719c232f593d3ecf3dccee72f22c0b2a08",
-              "url": "https://github.com/wolf-plugins/wolf-spectrum/releases/download/v1.0.0/wolf-spectrum-v1.0.0-linux-vst2.tar.gz",
-              "downloads": 309
+              "url": "https://github.com/wolf-plugins/wolf-spectrum/releases/download/v1.0.0/wolf-spectrum-v1.0.0-linux-vst2.tar.gz"
             },
             {
               "systems": [
@@ -3070,15 +2994,12 @@
               "type": "archive",
               "size": 853466,
               "sha256": "7728372c985c4cb0019f5000858d9486a0444f70fed3c44cac724c05db19c94d",
-              "url": "https://github.com/wolf-plugins/wolf-spectrum/releases/download/v1.0.0/wolf-spectrum-v1.0.0-windows-vst2.zip",
-              "downloads": 1105
+              "url": "https://github.com/wolf-plugins/wolf-spectrum/releases/download/v1.0.0/wolf-spectrum-v1.0.0-windows-vst2.zip"
             }
           ],
-          "verified": true,
-          "downloads": 1414
+          "verified": true
         }
-      },
-      "downloads": 1414
+      }
     },
     "wolf-plugins/wolf-shaper": {
       "slug": "wolf-plugins/wolf-shaper",
@@ -3120,8 +3041,7 @@
               "type": "archive",
               "size": 4923270,
               "sha256": "79a2e37416be98b8b393d0732c0e49af4f769cc9d0010ecd60e0d740233b46c2",
-              "url": "https://github.com/wolf-plugins/wolf-shaper/releases/download/v1.0.2/wolf-shaper-v1.0.2-linux-arm64.zip",
-              "downloads": 117
+              "url": "https://github.com/wolf-plugins/wolf-shaper/releases/download/v1.0.2/wolf-shaper-v1.0.2-linux-arm64.zip"
             },
             {
               "systems": [
@@ -3142,8 +3062,7 @@
               "type": "archive",
               "size": 5089663,
               "sha256": "8b844e9b535d2b8a8a07fc6cec207beae8161f7d6da36e4a856a766aa441b848",
-              "url": "https://github.com/wolf-plugins/wolf-shaper/releases/download/v1.0.2/wolf-shaper-v1.0.2-linux-x64.zip",
-              "downloads": 784
+              "url": "https://github.com/wolf-plugins/wolf-shaper/releases/download/v1.0.2/wolf-shaper-v1.0.2-linux-x64.zip"
             },
             {
               "systems": [
@@ -3165,8 +3084,7 @@
               "type": "archive",
               "size": 5980398,
               "sha256": "19bba017c8eed9b697712d0f1e769ab30eb785534c152e6783017735fe73de03",
-              "url": "https://github.com/wolf-plugins/wolf-shaper/releases/download/v1.0.2/wolf-shaper-v1.0.2-macos-universal.zip",
-              "downloads": 2397
+              "url": "https://github.com/wolf-plugins/wolf-shaper/releases/download/v1.0.2/wolf-shaper-v1.0.2-macos-universal.zip"
             },
             {
               "systems": [
@@ -3187,15 +3105,12 @@
               "type": "archive",
               "size": 5481008,
               "sha256": "42a703a5f71b19855d9213d57f2261d2182c73c73d39730775188df3e4c47da9",
-              "url": "https://github.com/wolf-plugins/wolf-shaper/releases/download/v1.0.2/wolf-shaper-v1.0.2+20230515144200-windows-x64.zip",
-              "downloads": 5777
+              "url": "https://github.com/wolf-plugins/wolf-shaper/releases/download/v1.0.2/wolf-shaper-v1.0.2+20230515144200-windows-x64.zip"
             }
           ],
-          "verified": true,
-          "downloads": 9075
+          "verified": true
         }
-      },
-      "downloads": 9075
+      }
     },
     "wheatbread1306/dcoffsetter": {
       "slug": "wheatbread1306/dcoffsetter",
@@ -39419,6 +39334,142 @@
       },
       "downloads": 97
     },
+    "davemollen/dm-reverse": {
+      "slug": "davemollen/dm-reverse",
+      "version": "0.0.7",
+      "versions": {
+        "0.0.7": {
+          "name": "dm-Reverse",
+          "author": "Dave Mollen",
+          "description": "A mono reverse delay effect, written in Rust and compilable to LV2 or MOD Audio plugin formats.",
+          "license": "gpl-3.0",
+          "type": "effect",
+          "tags": [
+            "Delay",
+            "Reverse",
+            "Rust"
+          ],
+          "url": "https://github.com/davemollen/dm-Reverse",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/davemollen/dm-reverse/dm-reverse.jpg",
+          "date": "2025-09-27T13:26:06Z",
+          "changes": "- Fixed linear smoothing on parameters\r\n- Safe resources on mix implementation",
+          "files": [
+            {
+              "systems": [
+                {
+                  "type": "mac"
+                }
+              ],
+              "architectures": [
+                "arm64",
+                "x64"
+              ],
+              "contains": [
+                "lv2"
+              ],
+              "type": "archive",
+              "size": 1080527,
+              "sha256": "c3d58698ce996c165dfc9e99101434fd062184b4fc663211293dc87ddcce09f3",
+              "url": "https://github.com/davemollen/dm-Reverse/releases/download/v0.0.7/dm-Reverse-macos.zip",
+              "downloads": 8
+            },
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "arm32"
+              ],
+              "contains": [
+                "lv2"
+              ],
+              "type": "archive",
+              "size": 951227,
+              "sha256": "a80631ed72f00d9cf770167b7f155f803611de00304a9ca7f2c2746265cc8b73",
+              "url": "https://github.com/davemollen/dm-Reverse/releases/download/v0.0.7/dm-Reverse-modduo-new.zip",
+              "downloads": 5
+            },
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "arm64"
+              ],
+              "contains": [
+                "lv2"
+              ],
+              "type": "archive",
+              "size": 941634,
+              "sha256": "4d19dd87964410f93d725ba1612defebc6e81ae98fff9ae8e88d355a7c3d67ae",
+              "url": "https://github.com/davemollen/dm-Reverse/releases/download/v0.0.7/dm-Reverse-modduox-new.zip",
+              "downloads": 3
+            },
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "arm64"
+              ],
+              "contains": [
+                "lv2"
+              ],
+              "type": "archive",
+              "size": 941201,
+              "sha256": "c8a152732c3e4be4707a25e7df18ebfc13cdb91e04dd124844f351bc40704a9a",
+              "url": "https://github.com/davemollen/dm-Reverse/releases/download/v0.0.7/dm-Reverse-moddwarf-new.zip",
+              "downloads": 5
+            },
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "lv2"
+              ],
+              "type": "archive",
+              "size": 935209,
+              "sha256": "e6a46f5f2f528d9623f97dd4a117dc9c1ca86dcceecb58ab9f8beb4dd6389740",
+              "url": "https://github.com/davemollen/dm-Reverse/releases/download/v0.0.7/dm-Reverse-ubuntu.zip",
+              "downloads": 11
+            },
+            {
+              "systems": [
+                {
+                  "type": "win"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "lv2"
+              ],
+              "type": "archive",
+              "size": 820162,
+              "sha256": "3e2e68543130339699ca6b22ae9812cdc7a421221a50ecfc41d1d2ebf52172d5",
+              "url": "https://github.com/davemollen/dm-Reverse/releases/download/v0.0.7/dm-Reverse-windows.zip",
+              "downloads": 21
+            }
+          ],
+          "verified": true,
+          "downloads": 53
+        }
+      },
+      "downloads": 53
+    },
     "davemollen/dm-reverb": {
       "slug": "davemollen/dm-reverb",
       "version": "0.1.6",
@@ -49235,15 +49286,12 @@
               "type": "archive",
               "size": 64322,
               "sha256": "f1d039a6ddddb7fc6fcf0859e13d94260688b266c77ba951ee8d525ad4409ad9",
-              "url": "https://github.com/antoinegehinstudios/surgeXT-preset/releases/download/Presets/Synthpunk.fxp.zip",
-              "downloads": 27
+              "url": "https://github.com/antoinegehinstudios/surgeXT-preset/releases/download/Presets/Synthpunk.fxp.zip"
             }
           ],
-          "verified": true,
-          "downloads": 27
+          "verified": true
         }
-      },
-      "downloads": 27
+      }
     },
     "antoinegehinstudios/kappa": {
       "slug": "antoinegehinstudios/kappa",
@@ -49296,15 +49344,12 @@
               "type": "archive",
               "size": 5407,
               "sha256": "c1e1d8a9b6b3ef6f44557acb84dde807e755a9dd89d70540a73188744136bc7a",
-              "url": "https://github.com/antoinegehinstudios/surgeXT-preset/releases/download/Presets/Kappa.plays.in.water.fxp.zip",
-              "downloads": 23
+              "url": "https://github.com/antoinegehinstudios/surgeXT-preset/releases/download/Presets/Kappa.plays.in.water.fxp.zip"
             }
           ],
-          "verified": true,
-          "downloads": 23
+          "verified": true
         }
-      },
-      "downloads": 23
+      }
     },
     "antoinegehinstudios/gossip": {
       "slug": "antoinegehinstudios/gossip",
@@ -49356,15 +49401,12 @@
               "type": "archive",
               "size": 4211,
               "sha256": "e803f223e5094dc65c94b8c9e56338ff9e12d75bd05afdfa1b3bed84ec059c20",
-              "url": "https://github.com/antoinegehinstudios/surgeXT-preset/releases/download/Presets/Gossip.Glitchborgs.fxp.zip",
-              "downloads": 23
+              "url": "https://github.com/antoinegehinstudios/surgeXT-preset/releases/download/Presets/Gossip.Glitchborgs.fxp.zip"
             }
           ],
-          "verified": true,
-          "downloads": 23
+          "verified": true
         }
-      },
-      "downloads": 23
+      }
     }
   },
   "projects": {
@@ -49414,18 +49456,15 @@
               "open": "Banwer.als",
               "size": 3720765,
               "sha256": "e99fa24234d02814e3cb788d106b766876a065113c71d4855faf83cb9476ab98",
-              "url": "https://github.com/kmturley/banwer/releases/download/v1.0.1/banwer.zip",
-              "downloads": 396
+              "url": "https://github.com/kmturley/banwer/releases/download/v1.0.1/banwer.zip"
             }
           ],
           "plugins": {
             "surge-synthesizer/surge": "1.3.1"
           },
-          "verified": false,
-          "downloads": 396
+          "verified": false
         }
-      },
-      "downloads": 396
+      }
     }
   }
 }

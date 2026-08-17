@@ -1,0 +1,136 @@
+{
+  "slug": "davemollen/dm-reverse",
+  "version": "0.0.7",
+  "versions": {
+    "0.0.7": {
+      "name": "dm-Reverse",
+      "author": "Dave Mollen",
+      "description": "A mono reverse delay effect, written in Rust and compilable to LV2 or MOD Audio plugin formats.",
+      "license": "gpl-3.0",
+      "type": "effect",
+      "tags": [
+        "Delay",
+        "Reverse",
+        "Rust"
+      ],
+      "url": "https://github.com/davemollen/dm-Reverse",
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/davemollen/dm-reverse/dm-reverse.jpg",
+      "date": "2025-09-27T13:26:06Z",
+      "changes": "- Fixed linear smoothing on parameters\r\n- Safe resources on mix implementation",
+      "files": [
+        {
+          "systems": [
+            {
+              "type": "mac"
+            }
+          ],
+          "architectures": [
+            "arm64",
+            "x64"
+          ],
+          "contains": [
+            "lv2"
+          ],
+          "type": "archive",
+          "size": 1080527,
+          "sha256": "c3d58698ce996c165dfc9e99101434fd062184b4fc663211293dc87ddcce09f3",
+          "url": "https://github.com/davemollen/dm-Reverse/releases/download/v0.0.7/dm-Reverse-macos.zip",
+          "downloads": 8
+        },
+        {
+          "systems": [
+            {
+              "type": "linux"
+            }
+          ],
+          "architectures": [
+            "arm32"
+          ],
+          "contains": [
+            "lv2"
+          ],
+          "type": "archive",
+          "size": 951227,
+          "sha256": "a80631ed72f00d9cf770167b7f155f803611de00304a9ca7f2c2746265cc8b73",
+          "url": "https://github.com/davemollen/dm-Reverse/releases/download/v0.0.7/dm-Reverse-modduo-new.zip",
+          "downloads": 5
+        },
+        {
+          "systems": [
+            {
+              "type": "linux"
+            }
+          ],
+          "architectures": [
+            "arm64"
+          ],
+          "contains": [
+            "lv2"
+          ],
+          "type": "archive",
+          "size": 941634,
+          "sha256": "4d19dd87964410f93d725ba1612defebc6e81ae98fff9ae8e88d355a7c3d67ae",
+          "url": "https://github.com/davemollen/dm-Reverse/releases/download/v0.0.7/dm-Reverse-modduox-new.zip",
+          "downloads": 3
+        },
+        {
+          "systems": [
+            {
+              "type": "linux"
+            }
+          ],
+          "architectures": [
+            "arm64"
+          ],
+          "contains": [
+            "lv2"
+          ],
+          "type": "archive",
+          "size": 941201,
+          "sha256": "c8a152732c3e4be4707a25e7df18ebfc13cdb91e04dd124844f351bc40704a9a",
+          "url": "https://github.com/davemollen/dm-Reverse/releases/download/v0.0.7/dm-Reverse-moddwarf-new.zip",
+          "downloads": 5
+        },
+        {
+          "systems": [
+            {
+              "type": "linux"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "lv2"
+          ],
+          "type": "archive",
+          "size": 935209,
+          "sha256": "e6a46f5f2f528d9623f97dd4a117dc9c1ca86dcceecb58ab9f8beb4dd6389740",
+          "url": "https://github.com/davemollen/dm-Reverse/releases/download/v0.0.7/dm-Reverse-ubuntu.zip",
+          "downloads": 11
+        },
+        {
+          "systems": [
+            {
+              "type": "win"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "lv2"
+          ],
+          "type": "archive",
+          "size": 820162,
+          "sha256": "3e2e68543130339699ca6b22ae9812cdc7a421221a50ecfc41d1d2ebf52172d5",
+          "url": "https://github.com/davemollen/dm-Reverse/releases/download/v0.0.7/dm-Reverse-windows.zip",
+          "downloads": 21
+        }
+      ],
+      "verified": true,
+      "downloads": 53
+    }
+  },
+  "downloads": 53
+}
