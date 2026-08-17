@@ -442,6 +442,81 @@
       },
       "downloads": 2703
     },
+    "michele-perrone/openpiano": {
+      "slug": "michele-perrone/openpiano",
+      "version": "0.1.0",
+      "versions": {
+        "0.1.0": {
+          "name": "Open Piano",
+          "author": "Michele Perrone",
+          "description": "An open-source, real-time physically-modelled piano engine, distributed here as a standalone app (also bundles a companion Spectral Analysis tool).",
+          "license": "agpl-3.0",
+          "type": "instrument",
+          "tags": [
+            "Physical Modelling",
+            "Piano"
+          ],
+          "url": "https://github.com/michele-perrone/OpenPiano",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/apps/michele-perrone/openpiano/openpiano.jpg",
+          "date": "2022-11-22T18:48:28Z",
+          "changes": "# About this release\r\nThis is the first binary release of Open Piano. It is targeted at Windows x64, macOS x64/ARM64 (universal binary), and GNU/Linux x64. In this release, only the standalone binaries are provided (no plugins). There is no installer: ...",
+          "files": [
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "type": "archive",
+              "open": "Open Piano",
+              "size": 3078351,
+              "sha256": "a95401aa9e7d3283878a3f0e8af26246552f8eee31c446f180d66b820fce6332",
+              "url": "https://github.com/michele-perrone/OpenPiano/releases/download/0.1.0/Open_Piano_Standalone_GNU_Linux_x64.zip",
+              "downloads": 202
+            },
+            {
+              "systems": [
+                {
+                  "type": "mac"
+                }
+              ],
+              "architectures": [
+                "arm64",
+                "x64"
+              ],
+              "type": "archive",
+              "open": "Open Piano.app",
+              "size": 15075204,
+              "sha256": "4a8e9e1ad6f46fc35767ad4b33b36d0d0e2a8df5ff3c2c238500a3c88d96cd78",
+              "url": "https://github.com/michele-perrone/OpenPiano/releases/download/0.1.0/Open_Piano_Standalone_macOS_Universal-01.zip",
+              "downloads": 78
+            },
+            {
+              "systems": [
+                {
+                  "type": "win"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "type": "archive",
+              "open": "Open Piano.exe",
+              "size": 2520308,
+              "sha256": "eaaf56801b827661b5a380b6183f9a65c069282783f73ef213e468bde6fbd4bd",
+              "url": "https://github.com/michele-perrone/OpenPiano/releases/download/0.1.0/Open_Piano_Standalone_Windows_x64.zip",
+              "downloads": 532
+            }
+          ],
+          "verified": true,
+          "downloads": 812
+        }
+      },
+      "downloads": 812
+    },
     "juzzlin/noteahead": {
       "slug": "juzzlin/noteahead",
       "version": "6.0.0",
@@ -15923,7 +15998,7 @@
               "size": 16493555,
               "sha256": "022f567862b17274d628ada8edf8e51a8e1b3f4eab14b85e9f2bf704d9efab51",
               "url": "https://github.com/quamplex/geonkick/releases/download/v3.7.0/GeonkickWindowsInstaller-v3.7.0-x86_64_basic.exe",
-              "downloads": 1089
+              "downloads": 1090
             },
             {
               "systems": [
@@ -15947,10 +16022,10 @@
             }
           ],
           "verified": true,
-          "downloads": 2090
+          "downloads": 2091
         }
       },
-      "downloads": 2090
+      "downloads": 2091
     },
     "quamplex/entropictron": {
       "slug": "quamplex/entropictron",
@@ -48145,14 +48220,14 @@
               "size": 5599030,
               "sha256": "d3498b897bfdf967c645b6e14ef981007eef27d57803b00545d049c6e78ab392",
               "url": "https://github.com/ArdenButterfield/Maim/releases/download/v1.1.1/Maim-1.1.1-Windows.exe",
-              "downloads": 11107
+              "downloads": 11109
             }
           ],
           "verified": true,
-          "downloads": 15712
+          "downloads": 15714
         }
       },
-      "downloads": 15712
+      "downloads": 15714
     },
     "archie3d/aeolus": {
       "slug": "archie3d/aeolus",
