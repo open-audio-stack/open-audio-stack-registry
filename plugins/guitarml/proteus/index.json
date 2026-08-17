@@ -1,0 +1,87 @@
+{
+  "slug": "guitarml/proteus",
+  "version": "1.2.0",
+  "versions": {
+    "1.2.0": {
+      "name": "Proteus",
+      "author": "Keith Bloemer",
+      "description": "Guitar amp and pedal capture plugin using neural networks.",
+      "license": "gpl-3.0",
+      "type": "effect",
+      "tags": [
+        "Audio Processing",
+        "Guitar",
+        "Machine Learning",
+        "Neural Networks"
+      ],
+      "url": "https://github.com/GuitarML/Proteus",
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/guitarml/proteus/proteus.jpg",
+      "date": "2023-01-05T13:35:21Z",
+      "changes": "Proteus v1.2 \r\n\r\n- Adds 3 band EQ\r\n- Adds default IR\r\n- Updated graphics\r\n- Reduced installer size from updated graphics resources\r\n\r\nWindows, Mac, and Linux installers for the Proteus guitar plugin (VST3/AU/AAX/LV2).\r\n\r...",
+      "files": [
+        {
+          "systems": [
+            {
+              "type": "mac"
+            }
+          ],
+          "architectures": [
+            "arm64",
+            "x64"
+          ],
+          "contains": [
+            "vst3",
+            "component",
+            "aax"
+          ],
+          "type": "installer",
+          "size": 34119901,
+          "sha256": "7194c26d4b04f40811295ad4ebe1ef3d1bb033a9976f6789ebf3ec021430e7d0",
+          "url": "https://github.com/GuitarML/Proteus/releases/download/v1.2/Install-Proteus-v1.2-Mac.dmg",
+          "downloads": 7277
+        },
+        {
+          "systems": [
+            {
+              "type": "linux"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "vst3",
+            "lv2"
+          ],
+          "type": "installer",
+          "size": 12403836,
+          "sha256": "d3bf5a11127da6cf53af183390dc20350c15543617a8743b166c73f6a1a08e90",
+          "url": "https://github.com/GuitarML/Proteus/releases/download/v1.2/Proteus-Linux-x64-1.2.deb",
+          "downloads": 3708
+        },
+        {
+          "systems": [
+            {
+              "type": "win"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "vst3",
+            "aax"
+          ],
+          "type": "installer",
+          "size": 14044989,
+          "sha256": "f63f39d4f38113c6efb93e4440fb3de84c1397c1cc52294c4922a14f393309c6",
+          "url": "https://github.com/GuitarML/Proteus/releases/download/v1.2/Proteus-Win-1.2.0.exe",
+          "downloads": 14543
+        }
+      ],
+      "verified": true,
+      "downloads": 25528
+    }
+  },
+  "downloads": 25528
+}

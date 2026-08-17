@@ -37,7 +37,7 @@
             "size": 23902192,
             "sha256": "dac888c983e6f0060e99bda1e0109e90751e3a04ae08bae1af965321a5d1d68a",
             "url": "https://github.com/GuitarML/SmartGuitarPedal/releases/download/v1.5/SmartPedal-Linux-x64-1.5.deb",
-            "downloads": 1332
+            "downloads": 1333
           },
           {
             "systems": [
@@ -76,14 +76,14 @@
             "size": 25675484,
             "sha256": "f774e37f1984c3b3bc3469b47ba6f487653ba2d8a064951e0cc8be20419102d6",
             "url": "https://github.com/GuitarML/SmartGuitarPedal/releases/download/v1.5/SmartPedal-Win-1.5.0.exe",
-            "downloads": 4650
+            "downloads": 4651
           }
         ],
         "verified": true,
-        "downloads": 7752
+        "downloads": 7754
       }
     },
-    "downloads": 7752
+    "downloads": 7754
   },
   "guitarml/smartguitaramp": {
     "slug": "guitarml/smartguitaramp",
@@ -123,7 +123,7 @@
             "size": 2172048,
             "sha256": "78b59aa99c0c2cf637de90a47f46d852b6f3ac59ccee1bcab2d3d77dc37a0586",
             "url": "https://github.com/GuitarML/SmartGuitarAmp/releases/download/v1.3/SmartAmp-Linux-x64-1.3.deb",
-            "downloads": 3083
+            "downloads": 3084
           },
           {
             "systems": [
@@ -166,10 +166,10 @@
           }
         ],
         "verified": true,
-        "downloads": 14950
+        "downloads": 14951
       }
     },
-    "downloads": 14950
+    "downloads": 14951
   },
   "guitarml/smartamppro": {
     "slug": "guitarml/smartamppro",
@@ -271,6 +271,93 @@
     },
     "downloads": 3613
   },
+  "guitarml/proteus": {
+    "slug": "guitarml/proteus",
+    "version": "1.2.0",
+    "versions": {
+      "1.2.0": {
+        "name": "Proteus",
+        "author": "Keith Bloemer",
+        "description": "Guitar amp and pedal capture plugin using neural networks.",
+        "license": "gpl-3.0",
+        "type": "effect",
+        "tags": [
+          "Audio Processing",
+          "Guitar",
+          "Machine Learning",
+          "Neural Networks"
+        ],
+        "url": "https://github.com/GuitarML/Proteus",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/guitarml/proteus/proteus.jpg",
+        "date": "2023-01-05T13:35:21Z",
+        "changes": "Proteus v1.2 \r\n\r\n- Adds 3 band EQ\r\n- Adds default IR\r\n- Updated graphics\r\n- Reduced installer size from updated graphics resources\r\n\r\nWindows, Mac, and Linux installers for the Proteus guitar plugin (VST3/AU/AAX/LV2).\r\n\r...",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "component",
+              "aax"
+            ],
+            "type": "installer",
+            "size": 34119901,
+            "sha256": "7194c26d4b04f40811295ad4ebe1ef3d1bb033a9976f6789ebf3ec021430e7d0",
+            "url": "https://github.com/GuitarML/Proteus/releases/download/v1.2/Install-Proteus-v1.2-Mac.dmg",
+            "downloads": 7277
+          },
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "lv2"
+            ],
+            "type": "installer",
+            "size": 12403836,
+            "sha256": "d3bf5a11127da6cf53af183390dc20350c15543617a8743b166c73f6a1a08e90",
+            "url": "https://github.com/GuitarML/Proteus/releases/download/v1.2/Proteus-Linux-x64-1.2.deb",
+            "downloads": 3708
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "aax"
+            ],
+            "type": "installer",
+            "size": 14044989,
+            "sha256": "f63f39d4f38113c6efb93e4440fb3de84c1397c1cc52294c4922a14f393309c6",
+            "url": "https://github.com/GuitarML/Proteus/releases/download/v1.2/Proteus-Win-1.2.0.exe",
+            "downloads": 14543
+          }
+        ],
+        "verified": true,
+        "downloads": 25528
+      }
+    },
+    "downloads": 25528
+  },
   "guitarml/chameleon": {
     "slug": "guitarml/chameleon",
     "version": "1.2.0",
@@ -349,13 +436,13 @@
             "size": 4794770,
             "sha256": "ac7e639eaad7c4db1aba556b6a489a17fd0dd4a67df49cbc5e126367a9a1d690",
             "url": "https://github.com/GuitarML/Chameleon/releases/download/v1.2.0/Chameleon-Win-1.2.0.exe",
-            "downloads": 6088
+            "downloads": 6089
           }
         ],
         "verified": true,
-        "downloads": 11056
+        "downloads": 11057
       }
     },
-    "downloads": 11056
+    "downloads": 11057
   }
 }
