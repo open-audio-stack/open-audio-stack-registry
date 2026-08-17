@@ -81,7 +81,7 @@ async function checkAttestation(org: string, repo: string, sha256: string): Prom
 // Filtering known-technical topics out before slicing to 8 means more of those slots land on
 // something semantically useful, without changing the reviewer's job of double-checking tags.
 const TECHNICAL_TOPIC_RE =
-  /^(vst|vst2|vst3|vst3-plugin|vst-plugin|clap|clap-plugin|lv2|lv2-plugin|au|au-plugin|aax|aax-plugin|ladspa|ladspa-plugin|dssi|dpf|juce|jsfx|faust|faust-dsp|standalone|audio-plugin|audio-unit|plugin|plugins|cli|sdk|api|library|framework|cross-platform|linux|windows|macos|osx|cmake|rust|cpp|c-plus-plus|python|typescript|javascript|nodejs|wasm|webassembly)$/;
+  /^(vst|vst2|vst3(-plugin)?|vst-plugin|clap(-plugin)?|lv2(-plugin)?|au|au-plugin|aax(-plugin)?|ladspa(-plugin)?|dssi|dpf|juce(-.*)?|jsfx|faust(-dsp)?|standalone|audio-plugin|audio-unit|plugin|plugins|cli|sdk|api|library|framework|cross-platform|linux|windows|macos|osx|cmake|rust|cpp|c-plus-plus|python|typescript|javascript|nodejs|wasm|webassembly)$/;
 
 function slugToTitleCase(slug: string): string {
   return slug
@@ -256,6 +256,16 @@ function inferArchitectures(filename: string): { archs: string[] | null; confide
   if (/arm64|aarch64|[-_]m[123][-_.]|apple[._-]?silicon/.test(f) || tok('arm').test(f))
     return { archs: ['arm64'], confident: true };
   if (/armhf|armv7|arm32/.test(f)) return { archs: ['arm32'], confident: true };
+  // "win32"/"win64" are matched further below, but the OS name spelled out in full immediately
+  // followed by a bit-width (e.g. pierreguillot/Camomile's "CamomileWindows32.zip" vs
+  // "...Windows64.zip", or "...Linux64.zip") isn't: the extra letters between the short OS
+  // token and the digits ("dows", "ux") break that literal substring match, so this unambiguous
+  // pairing silently fell through to the unconfident x64 default with no warning surfaced
+  // (the warning itself was also mac-only until this same investigation). Matched here, before
+  // the ambiguous x86 block, since an OS name immediately followed by "32"/"64" is never
+  // ambiguous the way a bare "x86" is.
+  const osBits = f.match(/(?:win(?:dows)?|linux|mac(?:os)?)[-_]?(32|64)(?![0-9])/);
+  if (osBits) return { archs: [osBits[1] === '64' ? 'x64' : 'x32'], confident: true };
   // Bare "x86" (no i386/i686/32bit/win32 qualifier) is ambiguous by name alone, but in
   // practice release filenames overwhelmingly use it to mean x86-64 now, not 32-bit — e.g.
   // ZL-Audio's "*-Linux-x86.zip" ships an x86_64-linux VST3 binary. Only tokens that
@@ -283,7 +293,11 @@ function inferContainsFromFilename(filename: string, systems: Array<{ type: stri
   if (tok('au').test(f) || tok('audiounit').test(f)) formats.push('component');
   if (tok('clap').test(f)) formats.push('clap');
   if (tok('lv2').test(f)) formats.push('lv2');
-  if (tok('aax').test(f)) formats.push('aax');
+  // `tok('aax')` requires a non-alnum boundary on both sides, so it never matches a bare
+  // ".aaxplugin" asset (e.g. "BeatMD-win.aaxplugin", seen on pauljonescodes/beat-md) — "aax" is
+  // immediately followed by "plugin" with no separator. Checking the literal extension too
+  // catches this compound-extension case that the generic token boundary can't.
+  if (tok('aax').test(f) || /\.aaxplugin$/.test(f)) formats.push('aax');
   return formats;
 }
 
@@ -437,6 +451,50 @@ function expandNestedZips(dir: string, depth = 0): void {
   }
 }
 
+// Recursively expand any bare installer .exe/.msi files left inside an already-extracted
+// directory — some zip release assets don't ship the raw plugin bundle directly, they wrap a
+// full installer executable instead (seen on mattanikiej/party-panda-univibe's Windows asset:
+// "PartyPanda1.0.1-windows-installer.zip" contains only "PartyPanda1.0.1-windows-installer.exe",
+// an Inno Setup installer whose payload is the actual .vst3). Without this, inspection only
+// ever sees the opaque installer .exe (no bundle extension to match) and falls back to an
+// unconfirmed guess for contains, exactly like the un-inspectable top-level installer types
+// this same expand* family already handles when they're the release asset directly — this just
+// extends that handling one level deeper. Bounded depth for the same reason as
+// expandNestedZips: a defensive unwrap, not an expectation of arbitrarily deep nesting.
+function expandNestedInstallers(dir: string, depth = 0): void {
+  if (depth >= 3) return;
+  try {
+    const exeFiles = execSync(`find "${dir}" -maxdepth 3 -iname "*.exe" -type f`, { encoding: 'utf8', stdio: 'pipe' })
+      .split('\n')
+      .filter(Boolean);
+    const msiFiles = execSync(`find "${dir}" -maxdepth 3 -iname "*.msi" -type f`, { encoding: 'utf8', stdio: 'pipe' })
+      .split('\n')
+      .filter(Boolean);
+    let expandedAny = false;
+    for (const exeFile of exeFiles) {
+      const subOut = `${exeFile}-expanded`;
+      if (expandExe(exeFile, subOut)) {
+        execFileSync('cp', ['-R', `${subOut}/.`, dir], { stdio: 'pipe' });
+        execFileSync('rm', ['-f', exeFile], { stdio: 'pipe' });
+        expandedAny = true;
+      }
+      execFileSync('rm', ['-rf', subOut], { stdio: 'pipe' });
+    }
+    for (const msiFile of msiFiles) {
+      const subOut = `${msiFile}-expanded`;
+      if (expandMsi(msiFile, subOut)) {
+        execFileSync('cp', ['-R', `${subOut}/.`, dir], { stdio: 'pipe' });
+        execFileSync('rm', ['-f', msiFile], { stdio: 'pipe' });
+        expandedAny = true;
+      }
+      execFileSync('rm', ['-rf', subOut], { stdio: 'pipe' });
+    }
+    if (expandedAny) expandNestedInstallers(dir, depth + 1);
+  } catch {
+    /* best-effort — leave dir as-is if nested installers can't be found/expanded */
+  }
+}
+
 // macOS disk image. Mounts read-only and copies the volume contents out rather than reading
 // in place, so the mount can be detached immediately (avoids leaking mounted volumes across a
 // batch fetch run). Some dmgs show an embedded software-license prompt on attach; `yes |`
@@ -561,6 +619,7 @@ function extractArchive(tmpFile: string, filename: string): string | null {
       }
       expandNestedPkgs(dir); // zip may wrap a .pkg rather than shipping raw bundles
       expandNestedZips(dir); // zip may wrap another zip rather than shipping raw bundles
+      expandNestedInstallers(dir); // zip may wrap a full installer .exe/.msi rather than a raw bundle
     } else if (/\.tar\.gz$|\.tgz$/i.test(filename)) {
       mkdirSync(dir, { recursive: true });
       execSync(`tar -xzf "${tmpFile}" -C "${dir}"`, { stdio: 'pipe' });
@@ -820,9 +879,21 @@ async function findImageUrl(org: string, repo: string, branch: string, readme: s
   // — without stripping it, the greedy `[^)]*` tail captures the title text too, corrupting
   // the URL (seen on MichaelHurst97/Noizier, whose 404'd image fetch was actually this).
   const stripMarkdownTitle = (u: string) => u.replace(/\s+["'][^"']*["']$/, '');
+  // GitHub's drag-and-drop README image uploader produces URLs with no file extension at all —
+  // either the legacy `github.com/<org>/<repo>/assets/<id>/<uuid>` form or the current
+  // `github.com/user-attachments/assets/<uuid>` form — since the real extension only appears
+  // after GitHub 302-redirects to a signed S3 URL. These never match the `.(png|jpe?g|...)`
+  // suffix the other patterns require, so a plugin whose only README image was pasted this way
+  // (the default way of adding an inline screenshot in GitHub's own editor, extremely common —
+  // seen on MrMatch246/MidiStrummer) fell through to "no image found" even with a real
+  // screenshot right there. `fetch()` follows the redirect transparently, so the URL works
+  // exactly like any other once treated as a candidate.
+  const GH_ASSET_URL =
+    /https?:\/\/github\.com\/(?:[^/\s)]+\/[^/\s)]+\/assets\/\d+\/[\w-]+|user-attachments\/assets\/[\w-]+)/gi;
   const readmeCandidates = [
     ...[...readme.matchAll(/!\[[^\]]*\]\(([^)]+\.(?:png|jpe?g|gif|webp)[^)]*)\)/gi)].map(m => stripMarkdownTitle(m[1])),
     ...[...readme.matchAll(/<img[^>]+src=["']([^"']+\.(?:png|jpe?g|gif|webp))/gi)].map(m => m[1]),
+    ...[...readme.matchAll(GH_ASSET_URL)].map(m => m[0]),
   ].filter(u => !IMAGE_URL_EXCLUDE.test(u));
 
   if (readmeCandidates.length > 0) {
@@ -1063,10 +1134,17 @@ async function main() {
 
     if (macArchFromInspection.length > 0) {
       architectures = macArchFromInspection;
-    } else if (!archResult.confident && systems.some(s => s.type === 'mac')) {
+    } else if (!archResult.confident) {
       // Mac builds are frequently universal (arm64 + x64) with no architecture token in the
-      // filename — don't silently assert x64, flag it for the reviewer to confirm.
-      unconfirmedArchitectures.push(`${asset.name} (defaulted to x64 — verify with 'file' on the binary inside)`);
+      // filename — don't silently assert x64, flag it for the reviewer to confirm. This isn't
+      // mac-specific: a Windows/Linux sibling-build pair can be just as silent about it (seen on
+      // pierreguillot/Camomile's "CamomileWindows32.zip" vs "...Windows64.zip" — "windows32"
+      // never matches the "win32" filename pattern because of the extra "dows" in between, so
+      // the genuinely 32-bit build defaulted to x64 with no warning at all before this covered
+      // every platform, not just mac).
+      unconfirmedArchitectures.push(
+        `${asset.name} (defaulted to x64 — verify manually, e.g. via 'file' on the binary inside)`,
+      );
     }
 
     if (contains.length === 0) unknownContains.push(path.basename(asset.name));
