@@ -67,6 +67,16 @@
       ]
     }
   },
+  "zl-audio/zlinflator": {
+    "0.3.0": {
+      "recs": [
+        {
+          "field": "url",
+          "rec": "requires mounting step, consider .pkg instead"
+        }
+      ]
+    }
+  },
   "zl-audio/zlequalizer2": {
     "1.2.2": {
       "recs": [

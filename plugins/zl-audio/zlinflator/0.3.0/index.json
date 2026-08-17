@@ -1,0 +1,72 @@
+{
+  "name": "ZL Inflator",
+  "author": "ZL Audio",
+  "description": "A distortion/saturation plugin that increases perceived loudness, with auto-gain compensation and a dB-scaled response plot.",
+  "license": "gpl-3.0",
+  "type": "effect",
+  "tags": [
+    "Distortion",
+    "Saturation",
+    "Loudness"
+  ],
+  "url": "https://github.com/ZL-Audio/ZLInflator",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/zl-audio/zlinflator/zlinflator.jpg",
+  "date": "2023-12-09T16:32:49Z",
+  "changes": "- add auto-gain-compensation\r\n- remove `SigMOD`\r\n- change the unit of the plot to dB\r\n\r\nNOTICE: this version is not compatible with previous versions",
+  "files": [
+    {
+      "systems": [
+        {
+          "type": "mac"
+        }
+      ],
+      "architectures": [
+        "arm64",
+        "x64"
+      ],
+      "contains": [
+        "vst3",
+        "component"
+      ],
+      "type": "installer",
+      "size": 5745863,
+      "sha256": "2b58fb846a1fe2354a3ce51be4ce21bfcad6cb6e142dd41ebef4a234dfc702f3",
+      "url": "https://github.com/ZL-Audio/ZLInflator/releases/download/0.3.0/ZLInflator-0.3.0.dmg"
+    },
+    {
+      "systems": [
+        {
+          "type": "win"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3"
+      ],
+      "type": "installer",
+      "size": 2623054,
+      "sha256": "a9aa15c0ce65f0979f2c2744a37e8aee3346546cd416978e91cccff5cea9f6b1",
+      "url": "https://github.com/ZL-Audio/ZLInflator/releases/download/0.3.0/ZLInflator-0.3.0.exe"
+    },
+    {
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3"
+      ],
+      "type": "archive",
+      "size": 12419853,
+      "sha256": "98592dc343427e238dca69096b59fd21deffc0de778bdbd8879a905683ec090b",
+      "url": "https://github.com/ZL-Audio/ZLInflator/releases/download/0.3.0/ZLInflator-0.3.0.zip"
+    }
+  ],
+  "verified": true
+}
