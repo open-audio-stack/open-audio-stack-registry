@@ -53,7 +53,7 @@
               "size": 9202795,
               "sha256": "3c4c533bda0c5059eea3ddaea752d757ee2025041f0f47e6bcb0e87f6082b29f",
               "url": "https://github.com/Tracktion/pluginval/releases/download/v1.0.4/pluginval_macOS.zip",
-              "downloads": 63650
+              "downloads": 63653
             },
             {
               "systems": [
@@ -73,10 +73,10 @@
             }
           ],
           "verified": true,
-          "downloads": 180745
+          "downloads": 180748
         }
       },
-      "downloads": 180745
+      "downloads": 180748
     },
     "steinberg/validator": {
       "slug": "steinberg/validator",
@@ -9686,7 +9686,7 @@
               "size": 416715686,
               "sha256": "b56e8d51a8dc2382ae668c9ff4e96bae38dbd452af4e584d5a5ef50ab2d09b07",
               "url": "https://github.com/surge-synthesizer/releases-xt/releases/download/1.3.4/surge-xt-macOS-1.3.4.dmg",
-              "downloads": 154370
+              "downloads": 154371
             },
             {
               "systems": [
@@ -9729,7 +9729,7 @@
             }
           ],
           "verified": true,
-          "downloads": 726292
+          "downloads": 726293
         },
         "1.3.1": {
           "name": "Surge XT",
@@ -9856,7 +9856,7 @@
           "downloads": 84190
         }
       },
-      "downloads": 810482
+      "downloads": 810483
     },
     "surge-synthesizer/ob-xf": {
       "slug": "surge-synthesizer/ob-xf",
@@ -37385,6 +37385,68 @@
         }
       },
       "downloads": 107
+    },
+    "drlight-code/osccontrol-light": {
+      "slug": "drlight-code/osccontrol-light",
+      "version": "2023.11.0",
+      "versions": {
+        "2023.11.0": {
+          "name": "osccontrol-light",
+          "author": "Patric Schmitz",
+          "description": "Sends Open Sound Control (OSC) messages directly from a host's automatable plugin controls, at full resolution and without encoding as MIDI CC — available as a GUI preset-prototyping plugin/app, or a headless build preloaded with a YAML preset.",
+          "license": "gpl-3.0",
+          "type": "tool",
+          "tags": [
+            "Open Sound Control",
+            "Daw",
+            "Music Production",
+            "Audiovisual",
+            "Intermedia",
+            "Mapping"
+          ],
+          "url": "https://github.com/drlight-code/osccontrol-light",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/drlight-code/osccontrol-light/osccontrol-light.jpg",
+          "date": "2023-11-16T07:53:43Z",
+          "changes": "Unversioned pre-release of `85b7e0e3369c32e3b680fb4cbd552ebb43d58882`",
+          "files": [
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "lv2"
+              ],
+              "type": "archive",
+              "size": 3270940,
+              "sha256": "5a94bac09e36180bf1af8ad1403bc2a285ecca70cd3e932e1885902f94ed5e0b",
+              "url": "https://github.com/drlight-code/osccontrol-light/releases/download/release/2023.11-pre/osccontrol-light.lv2.tar.gz"
+            },
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "vst3"
+              ],
+              "type": "archive",
+              "size": 3485418,
+              "sha256": "5725b1818b1e935fb814475bc2f2e57561e0db235f3da9924c416954445853ae",
+              "url": "https://github.com/drlight-code/osccontrol-light/releases/download/release/2023.11-pre/osccontrol-light.vst3.tar.gz"
+            }
+          ],
+          "verified": true
+        }
+      }
     },
     "dlc86/nam-oversampler": {
       "slug": "dlc86/nam-oversampler",
