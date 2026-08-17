@@ -81,7 +81,7 @@ async function checkAttestation(org: string, repo: string, sha256: string): Prom
 // Filtering known-technical topics out before slicing to 8 means more of those slots land on
 // something semantically useful, without changing the reviewer's job of double-checking tags.
 const TECHNICAL_TOPIC_RE =
-  /^(vst|vst2|vst3(-plugins?)?|vst-plugins?|clap(-plugins?)?|lv2(-plugins?)?|au|au-plugins?|aax(-plugins?)?|ladspa(-plugins?)?|dssi|dpf|juce(-.*)?|jsfx|faust(-dsp)?|standalone|audio-plugins?|audio-unit|plugin|plugins|cli|sdk|api|library|framework|cross-platform|linux|windows|macos|osx|cmake|c|cpp|c-plus-plus|rust|python|typescript|javascript|nodejs|wasm|webassembly)$/;
+  /^(vst|vst2|vst3(-plugins?)?|vst-plugins?|clap(-plugins?)?|lv2(-plugins?)?|au|au-plugins?|audiounit|aax(-plugins?)?|ladspa(-plugins?)?|dssi|dpf|juce(-.*)?|jsfx|faust(-dsp)?|standalone|audio-plugins?|audio-unit|plugin|plugins|cli|sdk|api|library|framework|cross-platform|linux|windows|macos|osx|cmake|c|cpp|c-plus-plus|rust|python|typescript|javascript|nodejs|wasm|webassembly)$/;
 
 function slugToTitleCase(slug: string): string {
   return slug
