@@ -1,0 +1,84 @@
+{
+  "slug": "gmoican/punkboost",
+  "version": "0.1.0",
+  "versions": {
+    "0.1.0": {
+      "name": "Punk Boost",
+      "author": "Guillermo Moñino Cánovas",
+      "description": "A JUCE audio plugin that pretends to emulate the behaviour of a bass preamp pedal effect.",
+      "license": "mit",
+      "type": "effect",
+      "tags": [
+        "Preamp",
+        "Pedal",
+        "Bass",
+        "Emulation"
+      ],
+      "url": "https://github.com/gmoican/PunkBoost",
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/gmoican/punkboost/punkboost.jpg",
+      "date": "2024-03-27T09:30:58Z",
+      "changes": "MacOS binaries haven't been signed / notarized / stapled. This may lead to you getting a \"File not safe, might be malware\" message when downloading.",
+      "files": [
+        {
+          "systems": [
+            {
+              "type": "linux"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "vst3"
+          ],
+          "type": "archive",
+          "size": 11985028,
+          "sha256": "10fd08fd66ee7090bdb01e36a6cee94c8716501915da4f86416d4a7c7a7aa461",
+          "url": "https://github.com/gmoican/PunkBoost/releases/download/0.1.0/Punk.Boost-0.1.0-Linux.zip",
+          "downloads": 41
+        },
+        {
+          "systems": [
+            {
+              "type": "mac"
+            }
+          ],
+          "architectures": [
+            "arm64",
+            "x64"
+          ],
+          "contains": [
+            "vst3",
+            "component"
+          ],
+          "type": "archive",
+          "size": 5112743,
+          "sha256": "af0cf0ce4e4070e97ecf223e61c10eefdd2ac005d5459d18106c703602d67449",
+          "url": "https://github.com/gmoican/PunkBoost/releases/download/0.1.0/Punk.Boost-0.1.0-macOS.zip",
+          "downloads": 52
+        },
+        {
+          "systems": [
+            {
+              "type": "win"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "vst3"
+          ],
+          "type": "archive",
+          "size": 1462912,
+          "sha256": "984b2382406008ae01b78bb3ac42a31024aa79b7c6eec8a47e08c72d6f52b12e",
+          "url": "https://github.com/gmoican/PunkBoost/releases/download/0.1.0/Punk.Boost-0.1.0-Windows.zip",
+          "downloads": 166
+        }
+      ],
+      "verified": true,
+      "downloads": 259
+    }
+  },
+  "downloads": 259
+}
