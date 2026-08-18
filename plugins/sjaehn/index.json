@@ -42,5 +42,50 @@
       }
     },
     "downloads": 22
+  },
+  "sjaehn/bsequencer": {
+    "slug": "sjaehn/bsequencer",
+    "version": "1.8.10",
+    "versions": {
+      "1.8.10": {
+        "name": "BSEQuencer",
+        "author": "sjaehn",
+        "description": "A multi-channel MIDI step sequencer with a variable-size pattern matrix (up to 32x16), per-pad randomization, musical scale/drumkit support, and a built-in scale/drumkit editor.",
+        "license": "gpl-3.0",
+        "type": "generator",
+        "tags": [
+          "Sequencer",
+          "Midi Effect",
+          "Drum Machine"
+        ],
+        "url": "https://github.com/sjaehn/BSEQuencer",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sjaehn/bsequencer/bsequencer.jpg",
+        "date": "2021-09-10T07:03:34Z",
+        "changes": "What's new:\r\n\r\n* Logo\r\n* Bugfixes\r\n* Link tool to import drum patterns to presets\r\n* Support LANGUAGE parameter\r\n* Add locales: EN, DE, IT (by LAM)\r\n* Enable web browser call (help, tutorial) on fork-blocking hosts\r...",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "lv2"
+            ],
+            "type": "archive",
+            "size": 661176,
+            "sha256": "a8af68faf11b87c409333499f3db6858d5bfe98bc0952f3361eaf6874b6c17ce",
+            "url": "https://github.com/sjaehn/BSEQuencer/releases/download/1.8.10/BSEQuencer-1.8.10-linux-amd64.lv2.tar.xz",
+            "downloads": 192
+          }
+        ],
+        "verified": true,
+        "downloads": 192
+      }
+    },
+    "downloads": 192
   }
 }
