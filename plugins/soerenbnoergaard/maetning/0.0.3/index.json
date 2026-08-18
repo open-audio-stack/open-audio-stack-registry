@@ -1,0 +1,46 @@
+{
+  "name": "maetning",
+  "author": "soerenbnoergaard",
+  "description": "A saturation plugin with multiple selectable saturation algorithms, available as VST2 and LV2.",
+  "license": "mit",
+  "type": "effect",
+  "tags": [
+    "Saturation",
+    "Distortion"
+  ],
+  "url": "https://github.com/soerenbnoergaard/maetning",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/soerenbnoergaard/maetning/maetning.jpg",
+  "date": "2020-06-29T16:37:40Z",
+  "changes": "Fixed parameter values not being settable correctly in Harrison Mixbus, by removing the integer property of the parameters.",
+  "files": [
+    {
+      "systems": [
+        {
+          "type": "mac"
+        },
+        {
+          "type": "win"
+        },
+        {
+          "type": "linux"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "lv2",
+        "vst",
+        "so",
+        "dll"
+      ],
+      "type": "archive",
+      "size": 495094,
+      "sha256": "32704116aa32ac2a62e47f63863b8e1e744d8dc0704037f47991aaab3ce46b82",
+      "url": "https://github.com/soerenbnoergaard/maetning/releases/download/v0.0.3/maetning-v0.0.3.zip",
+      "downloads": 151
+    }
+  ],
+  "verified": true,
+  "downloads": 151
+}
