@@ -1,0 +1,49 @@
+{
+  "yan-h/midi-lattice": {
+    "slug": "yan-h/midi-lattice",
+    "version": "0.1.1",
+    "versions": {
+      "0.1.1": {
+        "name": "Midi Lattice",
+        "author": "Yan Han",
+        "description": "A VST3/CLAP plugin that visualizes the pitch classes of incoming MIDI notes on a 2D lattice organized by perfect fifths and major thirds, with configurable tuning for exploring 5-limit and 7-limit just intonation.",
+        "license": "mit",
+        "type": "tool",
+        "tags": [
+          "MIDI",
+          "Visualizer",
+          "Microtonal",
+          "Just Intonation"
+        ],
+        "url": "https://github.com/yan-h/midi_lattice",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/yan-h/midi-lattice/midi-lattice.jpg",
+        "date": "2025-03-16T21:15:37Z",
+        "changes": "Added text showing the number of notes received, and how many of them are successfully matched on the lattice.\r\n\r\nUnmatched notes have a shorter line in the spectral view.\r\n\r\nNo Windows version because I no longer have a Windows machine.",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64"
+            ],
+            "contains": [
+              "vst3",
+              "clap"
+            ],
+            "type": "archive",
+            "size": 7053748,
+            "sha256": "b540947d25f4ea192dd74c62f4badeb17d04ff4adcc71652e7dd8c0e014ac593",
+            "url": "https://github.com/yan-h/midi_lattice/releases/download/v0.1.1/OSX.zip",
+            "downloads": 9
+          }
+        ],
+        "verified": true,
+        "downloads": 9
+      }
+    },
+    "downloads": 9
+  }
+}

@@ -235,6 +235,24 @@
       ]
     }
   },
+  "yan-h/midi-lattice": {
+    "0.1.1": {
+      "recs": [
+        {
+          "field": "architectures",
+          "rec": "should support x64"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Linux"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Windows"
+        }
+      ]
+    }
+  },
   "xunil-cloud/cloudreverb": {
     "0.5.0": {
       "recs": [
