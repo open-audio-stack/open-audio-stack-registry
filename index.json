@@ -14467,6 +14467,51 @@
       },
       "downloads": 192
     },
+    "sjaehn/bschaffl": {
+      "slug": "sjaehn/bschaffl",
+      "version": "1.4.10",
+      "versions": {
+        "1.4.10": {
+          "name": "B.Schaffl",
+          "author": "sjaehn",
+          "description": "A slider/shape-controlled MIDI velocity amplification and time-stretch plugin for producing swing/shuffle grooves and vitalizing sequenced MIDI instruments.",
+          "license": "gpl-3.0",
+          "type": "generator",
+          "tags": [
+            "Midi Effect",
+            "Swing",
+            "Groove"
+          ],
+          "url": "https://github.com/sjaehn/BSchaffl",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sjaehn/bschaffl/bschaffl.jpg",
+          "date": "2022-06-21T16:51:56Z",
+          "changes": "Added the ability to enter horizontal marker positions.",
+          "files": [
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "lv2"
+              ],
+              "type": "archive",
+              "size": 347012,
+              "sha256": "5c2ed0e06dd5fb6010f78d7bd90786005400fa786b4bb033fcb028e0a35823f1",
+              "url": "https://github.com/sjaehn/BSchaffl/releases/download/1.4.10/BSchaffl-1.4.10-linux-amd64.lv2.tar.xz",
+              "downloads": 148
+            }
+          ],
+          "verified": true,
+          "downloads": 148
+        }
+      },
+      "downloads": 148
+    },
     "sjaehn/bjumblr": {
       "slug": "sjaehn/bjumblr",
       "version": "1.6.8",
