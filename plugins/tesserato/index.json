@@ -1,0 +1,88 @@
+{
+  "tesserato/pianoforte": {
+    "slug": "tesserato/pianoforte",
+    "version": "1.0.1",
+    "versions": {
+      "1.0.1": {
+        "name": "PianoForte",
+        "author": "Carlos Tarjano",
+        "description": "Piano Forte Audio Plugin",
+        "license": "mit",
+        "type": "instrument",
+        "tags": [
+          "Ai",
+          "Cpp",
+          "Digital Signal Processing",
+          "Free",
+          "Juce",
+          "Music",
+          "Neural Networks",
+          "Sound Synthesis"
+        ],
+        "url": "https://github.com/tesserato/PianoForte",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/tesserato/pianoforte/pianoforte.jpg",
+        "date": "2023-07-03T13:05:51Z",
+        "changes": "fixed issue with framerates other than 44100 Hz distorting AI engine.",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "exe"
+            ],
+            "type": "archive",
+            "size": 29080064,
+            "sha256": "52c7c115adf10521adbb26cd03055d065e54b79fe61810d8460984c4f129d43a",
+            "url": "https://github.com/tesserato/PianoForte/releases/download/v1.0.1/PianoForte.exe",
+            "downloads": 1253
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 29202432,
+            "sha256": "33443b00415d2ce68903a688ae872ff95d1f3ff0b41dcca072e48e255a9b1b52",
+            "url": "https://github.com/tesserato/PianoForte/releases/download/v1.0.1/PianoForte.vst3",
+            "downloads": 2309
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "lv2"
+            ],
+            "type": "archive",
+            "size": 16679947,
+            "sha256": "aeb5e2f17c35165615389ec09d01ddec96f9d4ff6c3ef25bad8fa5ec016fe442",
+            "url": "https://github.com/tesserato/PianoForte/releases/download/v1.0.1/PianoForte.zip",
+            "downloads": 1432
+          }
+        ],
+        "verified": true,
+        "downloads": 4994
+      }
+    },
+    "downloads": 4994
+  }
+}
