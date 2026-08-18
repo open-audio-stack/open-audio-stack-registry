@@ -1,0 +1,49 @@
+{
+  "mrmatch246/midistrummer": {
+    "slug": "mrmatch246/midistrummer",
+    "version": "1.2.0",
+    "versions": {
+      "1.2.0": {
+        "name": "Midi Strummer",
+        "author": "MrMatch246",
+        "description": "MidiStrummer turns incoming MIDI chords into strummed note sequences, with adjustable strum direction, free or tempo-synced timing (including triplets), and note order — inspired by the strum feature on Arturia's KeyStep 37.",
+        "license": "gpl-3.0",
+        "type": "effect",
+        "tags": [
+          "MIDI Effect",
+          "Strumming",
+          "Guitar",
+          "Arpeggiator"
+        ],
+        "url": "https://github.com/MrMatch246/MidiStrummer",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/mrmatch246/midistrummer/midistrummer.jpg",
+        "date": "2024-03-23T19:48:54Z",
+        "changes": "Enforce Order Mode Added\r\n\r\n**Full Changelog**: https://github.com/MrMatch246/MidiStrummer/compare/1.1.0...1.2.0",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "exe"
+            ],
+            "type": "installer",
+            "size": 2944653,
+            "sha256": "209b35d73f8008af752783fcd6d61f89f78c3595c62228e13ddb8db601db1197",
+            "url": "https://github.com/MrMatch246/MidiStrummer/releases/download/1.2.0/MidiStrummer.Installer.exe",
+            "downloads": 27
+          }
+        ],
+        "verified": true,
+        "downloads": 27
+      }
+    },
+    "downloads": 27
+  }
+}
