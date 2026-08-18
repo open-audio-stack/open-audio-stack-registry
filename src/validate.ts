@@ -17,8 +17,10 @@ import path from 'path';
 import { ZodIssue } from 'zod';
 
 const filePath: string = process.argv[2];
-const subPath: string = filePath.split(path.sep).slice(2).join(path.sep);
-// const type: string = filePath.split(path.sep).slice(1, 2).join(path.sep);
+// Split on either separator so a forward-slash path (the form used in AGENTS.md's own
+// example command) still splits correctly when run on Windows, where path.sep is '\\'.
+const subPath: string = filePath.split(/[\\/]/).slice(2).join(path.sep);
+// const type: string = filePath.split(/[\\/]/).slice(1, 2).join(path.sep);
 const slug: string = pathGetSlug(subPath, path.sep);
 const version: string = pathGetVersion(subPath, path.sep);
 
