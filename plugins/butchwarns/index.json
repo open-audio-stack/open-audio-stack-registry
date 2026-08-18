@@ -1,0 +1,48 @@
+{
+  "butchwarns/utilities": {
+    "slug": "butchwarns/utilities",
+    "version": "0.1.2",
+    "versions": {
+      "0.1.2": {
+        "name": "Utilities",
+        "author": "Butch Warns",
+        "description": "A simple utility plugin with phase flip, channel routing (stereo/left/right/swapped), mono-below-frequency bass control, DC offset filtering, stereo width, volume, and pan.",
+        "license": "gpl-3.0",
+        "type": "tool",
+        "tags": [
+          "Utility",
+          "Stereo Width",
+          "Phase"
+        ],
+        "url": "https://github.com/butchwarns/utilities",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/butchwarns/utilities/utilities.jpg",
+        "date": "2024-03-02T15:15:24Z",
+        "changes": "# Release Notes\r\n\r\n## (current) V0.1.2\r\n\r\n- Rename plugin to \"utilities\"\r\n\r\n## V0.1.1\r\n\r\n- Fix: Setting width through text entry resulted in wrong slider values\r\n\r\n## V0.1.0\r\n\r\n- Initial alpha release",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "component"
+            ],
+            "type": "archive",
+            "size": 7438908,
+            "sha256": "bd6ef58a721b7e91fd4cb432aed478b771c6ff46e3c69d3636cf61dc3b72c6c1",
+            "url": "https://github.com/butchwarns/utilities/releases/download/v0.1.2/utilities_mac.zip",
+            "downloads": 20
+          }
+        ],
+        "verified": true,
+        "downloads": 20
+      }
+    },
+    "downloads": 20
+  }
+}
