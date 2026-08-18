@@ -1,0 +1,128 @@
+{
+  "name": "DigiDrie",
+  "author": "Bart Brouns",
+  "description": "A monophonic vector-synthesis synth with 4 phase-locked CZ-style oscillators, morphable macros arranged in a 3D cube, and per-parameter left-right stereo difference control.",
+  "license": "agpl-3.0",
+  "type": "instrument",
+  "tags": [
+    "Synthesizer",
+    "Monophonic",
+    "Vector Synthesis",
+    "Faust"
+  ],
+  "url": "https://github.com/magnetophon/DigiDrie",
+  "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/magnetophon/digidrie/digidrie.flac",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/magnetophon/digidrie/digidrie.jpg",
+  "date": "2026-05-18T18:20:57Z",
+  "changes": "Bugfix and packaging release on top of 0.3.0.\r\n\r\nDefault theme is now ArcDark\r\n\r\nDownstream packaging fixed: 'make install' now produces a correct\r\ntree without per-plug-in subdirectories or broken doc paths, parallel\r...",
+  "files": [
+    {
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "architectures": [
+        "arm64"
+      ],
+      "contains": [
+        "vst3",
+        "clap",
+        "lv2",
+        "elf"
+      ],
+      "type": "archive",
+      "size": 4981490,
+      "sha256": "2bbb2b77b6e6cd0d2e5287635193f76da981876c5d6e8a406bac1763d1b9c958",
+      "url": "https://github.com/magnetophon/DigiDrie/releases/download/v0.3.1/DigiDrie-v0.3.1-linux-aarch64.tar.gz",
+      "downloads": 3
+    },
+    {
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3",
+        "clap",
+        "lv2",
+        "elf"
+      ],
+      "type": "archive",
+      "size": 6243927,
+      "sha256": "14ef3c1657991d9626341eae4ffa3f95f7c85d60a2c8429278a7dadcf3be72d5",
+      "url": "https://github.com/magnetophon/DigiDrie/releases/download/v0.3.1/DigiDrie-v0.3.1-linux-x86_64.tar.gz",
+      "downloads": 6
+    },
+    {
+      "systems": [
+        {
+          "type": "mac"
+        }
+      ],
+      "architectures": [
+        "arm64"
+      ],
+      "contains": [
+        "vst3",
+        "component",
+        "clap",
+        "lv2",
+        "vst"
+      ],
+      "type": "archive",
+      "size": 5000959,
+      "sha256": "1b0ae46037a7cbf6f0d088e802e783cb667a7ecff5c4d01a551e60d75bd7fba9",
+      "url": "https://github.com/magnetophon/DigiDrie/releases/download/v0.3.1/DigiDrie-v0.3.1-macos-aarch64.tar.gz",
+      "downloads": 3
+    },
+    {
+      "systems": [
+        {
+          "type": "mac"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3",
+        "component",
+        "clap",
+        "lv2",
+        "vst"
+      ],
+      "type": "archive",
+      "size": 5297516,
+      "sha256": "8157c27a9288b989791d041096143d5215a36e147f13b4bf79822910cb3aa2a5",
+      "url": "https://github.com/magnetophon/DigiDrie/releases/download/v0.3.1/DigiDrie-v0.3.1-macos-x86_64.tar.gz",
+      "downloads": 2
+    },
+    {
+      "systems": [
+        {
+          "type": "win"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3",
+        "clap",
+        "lv2"
+      ],
+      "type": "archive",
+      "size": 7666093,
+      "sha256": "7de16635be9bc46bc5ab3238943a1fbd9cee086dd23faec6501d9b3565def257",
+      "url": "https://github.com/magnetophon/DigiDrie/releases/download/v0.3.1/DigiDrie-v0.3.1-windows-x86_64.zip",
+      "downloads": 7
+    }
+  ],
+  "verified": true,
+  "downloads": 21
+}
