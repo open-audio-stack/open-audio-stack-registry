@@ -1,0 +1,87 @@
+{
+  "name": "Oscilloscope",
+  "author": "waddafunk",
+  "description": "A simple, resizable oscilloscope for visualizing an audio signal's waveform, with continuous or triggered/static plotting and a customizable refresh time.",
+  "license": "isc",
+  "type": "tool",
+  "tags": [
+    "Oscilloscope",
+    "Audio Analysis",
+    "Visualizer"
+  ],
+  "url": "https://github.com/waddafunk/Oscilloscope",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/waddafunk/oscilloscope/oscilloscope.jpg",
+  "date": "2023-03-27T18:36:16Z",
+  "changes": "Now building also for android.\r\n\r\nImplemented triggered behaviour, you can now switch between continuous (untriggered behaviour) plotting or static plotting (triggered) with a customizable refresh time.",
+  "files": [
+    {
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "so"
+      ],
+      "type": "archive",
+      "size": 57069152,
+      "sha256": "4a1dcb5dfdc6f0b67868d1440dbe4de457d43a4bc8d779c5df12d1779e06e542",
+      "url": "https://github.com/waddafunk/Oscilloscope/releases/download/v0.5.0/Linux.standalone"
+    },
+    {
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3"
+      ],
+      "type": "archive",
+      "size": 62181160,
+      "sha256": "b19471c16e8b345d6b4d230017f58dd29804565ee2d5b4fddd1a086a26d18de3",
+      "url": "https://github.com/waddafunk/Oscilloscope/releases/download/v0.5.0/Linux.VST3.so"
+    },
+    {
+      "systems": [
+        {
+          "type": "win"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "dll"
+      ],
+      "type": "installer",
+      "size": 4706816,
+      "sha256": "3a9a8dda4d7dcbe02bcd4e6e927268d9503b18c2d43079f5f27feecba10ce52d",
+      "url": "https://github.com/waddafunk/Oscilloscope/releases/download/v0.5.0/Windows.standalone.exe"
+    },
+    {
+      "systems": [
+        {
+          "type": "win"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3"
+      ],
+      "type": "archive",
+      "size": 3470848,
+      "sha256": "cb3723891d1e4fa6750b725f0270db3e4dcb323f4cbcb235d975a43982b4d04e",
+      "url": "https://github.com/waddafunk/Oscilloscope/releases/download/v0.5.0/Windows.VST3.vst3"
+    }
+  ],
+  "verified": true
+}
