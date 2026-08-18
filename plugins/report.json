@@ -3805,6 +3805,16 @@
       ]
     }
   },
+  "jpcima/stone-phaser": {
+    "0.1.2": {
+      "recs": [
+        {
+          "field": "architectures",
+          "rec": "should support arm64"
+        }
+      ]
+    }
+  },
   "jpcima/spectacle": {
     "2.0.0": {
       "recs": [

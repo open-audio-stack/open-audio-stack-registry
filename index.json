@@ -4049,8 +4049,7 @@
               "type": "archive",
               "size": 36831356,
               "sha256": "811390b6eb6e28dde023c70590c74d26e74ebb2e595bcf4b95af2341db160e99",
-              "url": "https://github.com/werman/noise-suppression-for-voice/releases/download/v1.10/linux-rnnoise.zip",
-              "downloads": 20975
+              "url": "https://github.com/werman/noise-suppression-for-voice/releases/download/v1.10/linux-rnnoise.zip"
             },
             {
               "systems": [
@@ -4071,8 +4070,7 @@
               "type": "archive",
               "size": 81797637,
               "sha256": "53c41fe3ce8af529b1d2d18802ecbd7e9f0b6d7ad013fd5f92f6af974472a9e9",
-              "url": "https://github.com/werman/noise-suppression-for-voice/releases/download/v1.10/macos-rnnoise.zip",
-              "downloads": 9853
+              "url": "https://github.com/werman/noise-suppression-for-voice/releases/download/v1.10/macos-rnnoise.zip"
             },
             {
               "systems": [
@@ -4091,15 +4089,12 @@
               "type": "archive",
               "size": 37740885,
               "sha256": "e4dcc186102850f8dcebeb766ad1bf34c24f6280bd614ef84b72dae4783fc517",
-              "url": "https://github.com/werman/noise-suppression-for-voice/releases/download/v1.10/win-rnnoise.zip",
-              "downloads": 335491
+              "url": "https://github.com/werman/noise-suppression-for-voice/releases/download/v1.10/win-rnnoise.zip"
             }
           ],
-          "verified": true,
-          "downloads": 366319
+          "verified": true
         }
-      },
-      "downloads": 366319
+      }
     },
     "webprofusion/soundshed-guitar": {
       "slug": "webprofusion/soundshed-guitar",
@@ -30147,6 +30142,128 @@
         }
       },
       "downloads": 21
+    },
+    "jpcima/stone-phaser": {
+      "slug": "jpcima/stone-phaser",
+      "version": "0.1.2",
+      "versions": {
+        "0.1.2": {
+          "name": "Stone Phaser",
+          "author": "JP Cimalando",
+          "description": "A classic analog phaser effect, made with DPF and Faust",
+          "license": "bsl-1.0",
+          "type": "effect",
+          "tags": [
+            "Audio Effect",
+            "Virtual Analog",
+            "Phaser"
+          ],
+          "url": "https://github.com/jpcima/stone-phaser",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/jpcima/stone-phaser/stone-phaser.jpg",
+          "date": "2019-09-28T10:28:29Z",
+          "changes": "v0.1.2 release.",
+          "files": [
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "lv2",
+                "so"
+              ],
+              "type": "installer",
+              "size": 1053138,
+              "sha256": "f93a3ae40171cd0c51139b646a7a7db391171c63fc37b0dc8d5675b6981a06d6",
+              "url": "https://github.com/jpcima/stone-phaser/releases/download/v0.1.2/stone-phaser-0.1.2-linux64.deb",
+              "downloads": 218
+            },
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "lv2",
+                "so"
+              ],
+              "type": "archive",
+              "size": 2972870,
+              "sha256": "4ba5ba79e0320c324e5e8cd46344fd6c0f88bdaff60592676f39cc02d84ff28c",
+              "url": "https://github.com/jpcima/stone-phaser/releases/download/v0.1.2/stone-phaser-0.1.2-linux64.zip",
+              "downloads": 207
+            },
+            {
+              "systems": [
+                {
+                  "type": "mac"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "lv2",
+                "vst"
+              ],
+              "type": "archive",
+              "size": 1123303,
+              "sha256": "91ddf24e935793c9f9bd295b466f76a87e318e62cf5cc39f0273c0e6a9c0bda0",
+              "url": "https://github.com/jpcima/stone-phaser/releases/download/v0.1.2/stone-phaser-0.1.2-macos.zip",
+              "downloads": 90
+            },
+            {
+              "systems": [
+                {
+                  "type": "win"
+                }
+              ],
+              "architectures": [
+                "x32"
+              ],
+              "contains": [
+                "lv2",
+                "dll"
+              ],
+              "type": "archive",
+              "size": 1749143,
+              "sha256": "42f4d824fc3832229ef7ad3f6d0a7137778f7326b361865ed6766a0bdbb059db",
+              "url": "https://github.com/jpcima/stone-phaser/releases/download/v0.1.2/stone-phaser-0.1.2-win32.zip",
+              "downloads": 70
+            },
+            {
+              "systems": [
+                {
+                  "type": "win"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "lv2",
+                "dll"
+              ],
+              "type": "archive",
+              "size": 1742575,
+              "sha256": "34687223fee68b71a864beb8729aa2796c207f049590dc3131c97c8800a25e59",
+              "url": "https://github.com/jpcima/stone-phaser/releases/download/v0.1.2/stone-phaser-0.1.2-win64.zip",
+              "downloads": 264
+            }
+          ],
+          "verified": true,
+          "downloads": 849
+        }
+      },
+      "downloads": 849
     },
     "jpcima/spectacle": {
       "slug": "jpcima/spectacle",
