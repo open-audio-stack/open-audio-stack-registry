@@ -1,0 +1,45 @@
+{
+  "slug": "sjaehn/bjumblr",
+  "version": "1.6.8",
+  "versions": {
+    "1.6.8": {
+      "name": "B.Jumblr",
+      "author": "sjaehn",
+      "description": "A pattern-controlled audio stream / sample re-sequencer, re-ordering chopped-up slices of the input to build new rhythmic patterns.",
+      "license": "gpl-3.0",
+      "type": "generator",
+      "tags": [
+        "Sequencer",
+        "Sampler",
+        "Glitch"
+      ],
+      "url": "https://github.com/sjaehn/BJumblr",
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sjaehn/bjumblr/bjumblr.jpg",
+      "date": "2021-09-10T14:11:10Z",
+      "changes": "Added FR locale, updated sample browser, improved FreeBSD compatibility, optimized DSP code and binary compatibility.",
+      "files": [
+        {
+          "systems": [
+            {
+              "type": "linux"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "lv2"
+          ],
+          "type": "archive",
+          "size": 561820,
+          "sha256": "41b5f50732dae3aa203d6d9a40d064c17b7beb28d8b76c742cba6c2e929b0f36",
+          "url": "https://github.com/sjaehn/BJumblr/releases/download/1.6.8/BJumblr-1.6.8-linux-amd64.lv2.tar.xz",
+          "downloads": 105
+        }
+      ],
+      "verified": true,
+      "downloads": 105
+    }
+  },
+  "downloads": 105
+}

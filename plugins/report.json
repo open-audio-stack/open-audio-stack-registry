@@ -1609,6 +1609,28 @@
       ]
     }
   },
+  "sjaehn/bjumblr": {
+    "1.6.8": {
+      "recs": [
+        {
+          "field": "url",
+          "rec": "not a supported format"
+        },
+        {
+          "field": "architectures",
+          "rec": "should support arm64"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Mac"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Windows"
+        }
+      ]
+    }
+  },
   "sjaehn/bchoppr": {
     "1.12.6": {
       "recs": [
