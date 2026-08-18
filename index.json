@@ -69,14 +69,14 @@
               "size": 2408590,
               "sha256": "c08e61ce3b96db41636f8ec7e76f4c7e2c13ebdac7fa1b5a1f52b4f32ec715ab",
               "url": "https://github.com/Tracktion/pluginval/releases/download/v1.0.4/pluginval_Windows.zip",
-              "downloads": 99391
+              "downloads": 99395
             }
           ],
           "verified": true,
-          "downloads": 180749
+          "downloads": 180753
         }
       },
-      "downloads": 180749
+      "downloads": 180753
     },
     "steinberg/validator": {
       "slug": "steinberg/validator",
@@ -3401,6 +3401,81 @@
               "size": 5481008,
               "sha256": "42a703a5f71b19855d9213d57f2261d2182c73c73d39730775188df3e4c47da9",
               "url": "https://github.com/wolf-plugins/wolf-shaper/releases/download/v1.0.2/wolf-shaper-v1.0.2+20230515144200-windows-x64.zip"
+            }
+          ],
+          "verified": true
+        }
+      }
+    },
+    "whoadrian/midipad": {
+      "slug": "whoadrian/midipad",
+      "version": "0.2.0",
+      "versions": {
+        "0.2.0": {
+          "name": "MidiPad",
+          "author": "whoadrian",
+          "description": "Turns your trackpad or mouse into an expressive MIDI CC controller — hover over the pad's X/Y surface to send continuous control changes.",
+          "license": "gpl-3.0",
+          "type": "tool",
+          "tags": [
+            "MIDI Controller",
+            "MIDI CC"
+          ],
+          "url": "https://github.com/whoadrian/MidiPad",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/whoadrian/midipad/midipad.jpg",
+          "date": "2024-09-17T09:27:33Z",
+          "changes": "Windows & MacOS builds. Tested on Win 11 & MacOS M1.\r\nSee README for installation instructions, in each zip.",
+          "files": [
+            {
+              "systems": [
+                {
+                  "type": "mac"
+                }
+              ],
+              "architectures": [
+                "arm64"
+              ],
+              "contains": [
+                "component"
+              ],
+              "type": "archive",
+              "size": 1638327,
+              "sha256": "37570c70426deef420874217d4f5616186c397d23605b6e607982532e5c992c2",
+              "url": "https://github.com/whoadrian/MidiPad/releases/download/v0.2.0/mac_AU.zip"
+            },
+            {
+              "systems": [
+                {
+                  "type": "mac"
+                }
+              ],
+              "architectures": [
+                "arm64"
+              ],
+              "contains": [
+                "vst3"
+              ],
+              "type": "archive",
+              "size": 1645585,
+              "sha256": "ec1ff30e347357184ba223946f00f83a4c5b0405996b68fbc34576302b36f8cf",
+              "url": "https://github.com/whoadrian/MidiPad/releases/download/v0.2.0/mac_VST3.zip"
+            },
+            {
+              "systems": [
+                {
+                  "type": "win"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "vst3"
+              ],
+              "type": "archive",
+              "size": 1648548,
+              "sha256": "cb8e1ce65056d2b5ff256dad49709d6ef9d24e888d39e53d00dba3676fc4fc57",
+              "url": "https://github.com/whoadrian/MidiPad/releases/download/v0.2.0/win_VST3.zip"
             }
           ],
           "verified": true
@@ -9786,7 +9861,7 @@
               "size": 223339140,
               "sha256": "a6e55064487f624147d515b9ae5fc79a568b69746675b2083abde628ca7bb151",
               "url": "https://github.com/surge-synthesizer/releases-xt/releases/download/1.3.4/surge-xt-linux-x64-1.3.4.deb",
-              "downloads": 36636
+              "downloads": 36637
             },
             {
               "systems": [
@@ -9872,7 +9947,7 @@
             }
           ],
           "verified": true,
-          "downloads": 726305
+          "downloads": 726306
         },
         "1.3.1": {
           "name": "Surge XT",
@@ -9999,7 +10074,7 @@
           "downloads": 84190
         }
       },
-      "downloads": 810495
+      "downloads": 810496
     },
     "surge-synthesizer/ob-xf": {
       "slug": "surge-synthesizer/ob-xf",
@@ -25551,14 +25626,14 @@
               "size": 6658226,
               "sha256": "861ad556d4767108844ff44ee84656fc2fb71c89af72a385f590ffd9996799a6",
               "url": "https://github.com/liuanlin-mx/MXTune/releases/download/v1.2.0/windows_x86_64_vst_v1.2.0.zip",
-              "downloads": 23597
+              "downloads": 23598
             }
           ],
           "verified": true,
-          "downloads": 38346
+          "downloads": 38347
         }
       },
-      "downloads": 38346
+      "downloads": 38347
     },
     "leon-focker/metrefiddler": {
       "slug": "leon-focker/metrefiddler",
@@ -26376,14 +26451,14 @@
               "size": 39364144,
               "sha256": "9144ec0b0263931ccad8d91d6ae8634d8a8f64ecd5e365ea1fa6180688580769",
               "url": "https://github.com/kushview/element/releases/download/1.0.0/element-1.0.0-win64.exe",
-              "downloads": 17239
+              "downloads": 17241
             }
           ],
           "verified": true,
-          "downloads": 24540
+          "downloads": 24542
         }
       },
-      "downloads": 24540
+      "downloads": 24542
     },
     "kiriki-liszt/relief-eq": {
       "slug": "kiriki-liszt/relief-eq",

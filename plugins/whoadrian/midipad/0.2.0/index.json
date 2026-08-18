@@ -1,0 +1,69 @@
+{
+  "name": "MidiPad",
+  "author": "whoadrian",
+  "description": "Turns your trackpad or mouse into an expressive MIDI CC controller — hover over the pad's X/Y surface to send continuous control changes.",
+  "license": "gpl-3.0",
+  "type": "tool",
+  "tags": [
+    "MIDI Controller",
+    "MIDI CC"
+  ],
+  "url": "https://github.com/whoadrian/MidiPad",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/whoadrian/midipad/midipad.jpg",
+  "date": "2024-09-17T09:27:33Z",
+  "changes": "Windows & MacOS builds. Tested on Win 11 & MacOS M1.\r\nSee README for installation instructions, in each zip.",
+  "files": [
+    {
+      "systems": [
+        {
+          "type": "mac"
+        }
+      ],
+      "architectures": [
+        "arm64"
+      ],
+      "contains": [
+        "component"
+      ],
+      "type": "archive",
+      "size": 1638327,
+      "sha256": "37570c70426deef420874217d4f5616186c397d23605b6e607982532e5c992c2",
+      "url": "https://github.com/whoadrian/MidiPad/releases/download/v0.2.0/mac_AU.zip"
+    },
+    {
+      "systems": [
+        {
+          "type": "mac"
+        }
+      ],
+      "architectures": [
+        "arm64"
+      ],
+      "contains": [
+        "vst3"
+      ],
+      "type": "archive",
+      "size": 1645585,
+      "sha256": "ec1ff30e347357184ba223946f00f83a4c5b0405996b68fbc34576302b36f8cf",
+      "url": "https://github.com/whoadrian/MidiPad/releases/download/v0.2.0/mac_VST3.zip"
+    },
+    {
+      "systems": [
+        {
+          "type": "win"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3"
+      ],
+      "type": "archive",
+      "size": 1648548,
+      "sha256": "cb8e1ce65056d2b5ff256dad49709d6ef9d24e888d39e53d00dba3676fc4fc57",
+      "url": "https://github.com/whoadrian/MidiPad/releases/download/v0.2.0/win_VST3.zip"
+    }
+  ],
+  "verified": true
+}
