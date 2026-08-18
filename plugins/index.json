@@ -33425,6 +33425,74 @@
     },
     "downloads": 258
   },
+  "gmoican/punkdist-lstm": {
+    "slug": "gmoican/punkdist-lstm",
+    "version": "1.0.0",
+    "versions": {
+      "1.0.0": {
+        "name": "Punk Dist",
+        "author": "Guillermo Moñino Cánovas",
+        "description": "A JUCE audio plugin that pretends to model the behaviour of a Markbass MiniDist.",
+        "license": "mit",
+        "type": "effect",
+        "tags": [
+          "Audio",
+          "Distortion Effects",
+          "Juce",
+          "Juce Framework",
+          "Juce Plugins",
+          "Plugin"
+        ],
+        "url": "https://github.com/gmoican/PunkDist_LSTM",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/gmoican/punkdist-lstm/punkdist-lstm.jpg",
+        "date": "2024-05-22T15:30:37Z",
+        "changes": "MacOS binaries haven't been signed / notarized / stapled. This may lead to you getting a \"File not safe, might be malware\" message when downloading.\r\n\r...",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "component"
+            ],
+            "type": "archive",
+            "size": 5545315,
+            "sha256": "ebde232125be5565766d17d81dd194746521d075ed68fb7a7079c7095ce16b41",
+            "url": "https://github.com/gmoican/PunkDist_LSTM/releases/download/v1.0.0/Punk.Dist-1.0.0-macOS.zip",
+            "downloads": 29
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 1580054,
+            "sha256": "a933653822384d81cf6dde0d2a5c0bcf13d45a4b32ebffa0ea1ced5ec6f38b4e",
+            "url": "https://github.com/gmoican/PunkDist_LSTM/releases/download/v1.0.0/Punk.Dist-1.0.0-Windows.zip",
+            "downloads": 67
+          }
+        ],
+        "verified": true,
+        "downloads": 96
+      }
+    },
+    "downloads": 96
+  },
   "gmoican/punkboost": {
     "slug": "gmoican/punkboost",
     "version": "0.1.0",
