@@ -14512,6 +14512,51 @@
       },
       "downloads": 148
     },
+    "sjaehn/boops": {
+      "slug": "sjaehn/boops",
+      "version": "1.8.2",
+      "versions": {
+        "1.8.2": {
+          "name": "B.Oops",
+          "author": "sjaehn",
+          "description": "A multi-effect glitch sequencer with up to 12 freely-orderable effect slots from a bank of 32 effects, controlled by extended step-sequencer patterns, randomization, and MIDI.",
+          "license": "gpl-3.0",
+          "type": "effect",
+          "tags": [
+            "Glitch",
+            "Sequencer",
+            "Multi Effect"
+          ],
+          "url": "https://github.com/sjaehn/BOops",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sjaehn/boops/boops.jpg",
+          "date": "2021-09-03T20:17:31Z",
+          "changes": "More detailed documentation, bugfix to restore slot keys.",
+          "files": [
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "lv2"
+              ],
+              "type": "archive",
+              "size": 1296568,
+              "sha256": "0ac4179cc0f467af264d2ce356a591f368f1af7d73689bf81caff27f08298637",
+              "url": "https://github.com/sjaehn/BOops/releases/download/1.8.2/BOops-1.8.2-linux-amd64.lv2.tar.xz",
+              "downloads": 351
+            }
+          ],
+          "verified": true,
+          "downloads": 351
+        }
+      },
+      "downloads": 351
+    },
     "sjaehn/bjumblr": {
       "slug": "sjaehn/bjumblr",
       "version": "1.6.8",
