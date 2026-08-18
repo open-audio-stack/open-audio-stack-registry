@@ -57,6 +57,16 @@
       ]
     }
   },
+  "zl-audio/zlwarm": {
+    "0.2.1": {
+      "recs": [
+        {
+          "field": "url",
+          "rec": "requires mounting step, consider .pkg instead"
+        }
+      ]
+    }
+  },
   "zl-audio/zllmatch": {
     "0.2.4": {
       "recs": [
