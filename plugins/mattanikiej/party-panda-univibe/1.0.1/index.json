@@ -1,0 +1,58 @@
+{
+  "name": "Party Panda",
+  "author": "Matt Anikiej",
+  "description": "Party Panda emulates the classic Uni-Vibe pedal's phaser/vibrato modulation, popularized by guitarists like Jimi Hendrix, with controls for intensity, rate, throb, depth, and dry/wet mix.",
+  "license": "gpl-3.0",
+  "type": "effect",
+  "tags": [
+    "Uni-Vibe",
+    "Phaser",
+    "Vibrato",
+    "Modulation"
+  ],
+  "url": "https://github.com/mattanikiej/party-panda-univibe",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/mattanikiej/party-panda-univibe/party-panda-univibe.jpg",
+  "date": "2024-02-23T02:09:16Z",
+  "changes": "Fixed issue of the plugin stopping the effect!\r\nDownload the installer for your os, or download the vst3/au plugin and install manually\r\n\r\n**Windows:** `PartyPanda1.0.1-windows-installer.zip`\r\n**Mac:** `PartyPanda1.0.1-mac-installer.dmg`\r\n\r...",
+  "files": [
+    {
+      "systems": [
+        {
+          "type": "mac"
+        }
+      ],
+      "architectures": [
+        "arm64",
+        "x64"
+      ],
+      "contains": [
+        "component"
+      ],
+      "type": "installer",
+      "size": 2546341,
+      "sha256": "d97be2a64bd671d44d96397fbaf3dbc14e481acff971c10fa563f3a67ed1d76b",
+      "url": "https://github.com/mattanikiej/party-panda-univibe/releases/download/v1.0.1/PartyPanda1.0.1-mac-installer.dmg",
+      "downloads": 34
+    },
+    {
+      "systems": [
+        {
+          "type": "win"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3"
+      ],
+      "type": "archive",
+      "size": 2758030,
+      "sha256": "666018f6f8beda436d39f3c10545f340bfc9871dafa15e30129258f677263bdd",
+      "url": "https://github.com/mattanikiej/party-panda-univibe/releases/download/v1.0.1/PartyPanda1.0.1-windows-installer.zip",
+      "downloads": 76
+    }
+  ],
+  "verified": true,
+  "downloads": 110
+}

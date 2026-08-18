@@ -2931,6 +2931,20 @@
       ]
     }
   },
+  "mattanikiej/party-panda-univibe": {
+    "1.0.1": {
+      "recs": [
+        {
+          "field": "url",
+          "rec": "requires mounting step, consider .pkg instead"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Linux"
+        }
+      ]
+    }
+  },
   "mattanikiej/pandamonium-fuzz": {
     "1.0.1": {
       "recs": [
