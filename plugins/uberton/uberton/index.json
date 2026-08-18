@@ -35,7 +35,8 @@
           "type": "installer",
           "size": 8195796,
           "sha256": "ae8c588383f72f0dfe62f0bf1cb02ebff0c762607c98410eed0d09152ffb0a95",
-          "url": "https://github.com/Uberton/Uberton/releases/download/Tesseract_v1.0.2/Uberton_Tesseract_1-0-2.pkg"
+          "url": "https://github.com/Uberton/Uberton/releases/download/Tesseract_v1.0.2/Uberton_Tesseract_1-0-2.pkg",
+          "downloads": 174
         },
         {
           "systems": [
@@ -52,10 +53,13 @@
           "type": "installer",
           "size": 9271537,
           "sha256": "0800c42bdd14f1ef17c34dcea13e58a06a74feec6df251771679460b07e48de9",
-          "url": "https://github.com/Uberton/Uberton/releases/download/Tesseract_v1.0.2/Tesseract_Installer_1.0.2.exe"
+          "url": "https://github.com/Uberton/Uberton/releases/download/Tesseract_v1.0.2/Tesseract_Installer_1.0.2.exe",
+          "downloads": 53
         }
       ],
-      "verified": true
+      "verified": true,
+      "downloads": 227
     }
-  }
+  },
+  "downloads": 227
 }

@@ -1,0 +1,37 @@
+{
+  "name": "PPsVaultTracker",
+  "author": "PPsRetroVault",
+  "description": "A modern VSTi tracker with FT2 heritage, VST3 plugin hosting, and MIDI + stems export",
+  "license": "agpl-3.0",
+  "type": "tool",
+  "tags": [
+    "Tracker",
+    "VSTi",
+    "MIDI",
+    "Retro"
+  ],
+  "url": "https://github.com/gPTPPs/ppsvaulttracker",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/apps/gptpps/ppsvaulttracker/ppsvaulttracker.jpg",
+  "date": "2026-08-15T09:48:26Z",
+  "changes": "Bug-fix release. New, Open, Import and Quit now confirm before replacing unsaved work, and untitled sessions are snapshotted every 3 minutes and offered back at startup. No project format change: .ubt folders stay compatible with 1.1.0-beta.",
+  "files": [
+    {
+      "systems": [
+        {
+          "type": "win"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "type": "archive",
+      "open": "PPsVaultTracker-1.1.1-beta-win64/PPsVaultTracker.exe",
+      "size": 4871186,
+      "sha256": "5d7cd92ed6de477499f819b978d0737a4fc28f51ead6d50c0bd961b2fb3af20e",
+      "url": "https://github.com/gPTPPs/ppsvaulttracker/releases/download/v1.1.1-beta/PPsVaultTracker-1.1.1-beta-win64.zip",
+      "downloads": 3
+    }
+  ],
+  "verified": true,
+  "downloads": 3
+}

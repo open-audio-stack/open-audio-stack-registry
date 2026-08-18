@@ -34,7 +34,8 @@
             "type": "archive",
             "size": 2064031,
             "sha256": "0cc03160eb79a90db9ad0dd821398527834c33edfd630b9cf0b863e601a4720a",
-            "url": "https://github.com/toni-lyttinen/CognitoniBlkFx/releases/download/v0.2.0-alpha/BlkFx_macOS.zip"
+            "url": "https://github.com/toni-lyttinen/CognitoniBlkFx/releases/download/v0.2.0-alpha/BlkFx_macOS.zip",
+            "downloads": 12
           },
           {
             "systems": [
@@ -51,11 +52,14 @@
             "type": "archive",
             "size": 3292294,
             "sha256": "49938d74e3560e43a3b13d8192045bed47d4ca5634cb5b841d81afe770c1217d",
-            "url": "https://github.com/toni-lyttinen/CognitoniBlkFx/releases/download/v0.2.0-alpha/BlkFx_x86_64-win.zip"
+            "url": "https://github.com/toni-lyttinen/CognitoniBlkFx/releases/download/v0.2.0-alpha/BlkFx_x86_64-win.zip",
+            "downloads": 14
           }
         ],
-        "verified": true
+        "verified": true,
+        "downloads": 26
       }
-    }
+    },
+    "downloads": 26
   }
 }
