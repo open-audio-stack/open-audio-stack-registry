@@ -4431,6 +4431,24 @@
       ]
     }
   },
+  "everither/dust-saturator": {
+    "0.1.1": {
+      "recs": [
+        {
+          "field": "architectures",
+          "rec": "should support arm64"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Linux"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Mac"
+        }
+      ]
+    }
+  },
   "eulmour/handyosc": {
     "1.0.0": {
       "recs": [

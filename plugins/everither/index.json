@@ -1,0 +1,47 @@
+{
+  "everither/dust-saturator": {
+    "slug": "everither/dust-saturator",
+    "version": "0.1.1",
+    "versions": {
+      "0.1.1": {
+        "name": "Dust Saturator",
+        "author": "Andy Ma",
+        "description": "Dust Saturator adds upper harmonics and a sandy, granular texture to a sound by time-shifting each sample forward based on its amplitude, without clamping the signal's peaks.",
+        "license": "gpl-3.0",
+        "type": "effect",
+        "tags": [
+          "Saturation",
+          "Distortion",
+          "Lo-Fi"
+        ],
+        "url": "https://github.com/Everither/dust-saturator",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/everither/dust-saturator/dust-saturator.jpg",
+        "date": "2023-11-26T01:23:43Z",
+        "changes": "## Changes\r\n\r\n- No longer confined to fixed buffer sizes. Now accepts variable buffer size.\r\n- Max value for `Amount` is increased to 100 samples.\r\n- Min value for `Curve` is changed to 0.1\r\n\r\n## Bug Fixes\r\n\r...",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 2046503,
+            "sha256": "816e59fc1bfa54c1263db5f2f798d1024eb78681d7edf5b85e4419397e907a91",
+            "url": "https://github.com/Everither/dust-saturator/releases/download/v0.1.1/dust_saturator_v0.1.1.vst3.zip",
+            "downloads": 32
+          }
+        ],
+        "verified": true,
+        "downloads": 32
+      }
+    },
+    "downloads": 32
+  }
+}
