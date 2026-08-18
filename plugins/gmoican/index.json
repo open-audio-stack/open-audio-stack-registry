@@ -263,6 +263,89 @@
     },
     "downloads": 258
   },
+  "gmoican/punkeq": {
+    "slug": "gmoican/punkeq",
+    "version": "0.1.0",
+    "versions": {
+      "0.1.0": {
+        "name": "Punk EQ",
+        "author": "Guillermo Moñino Cánovas",
+        "description": "A JUCE audio plugin that pretends to model the behaviour of an equalizer pedal.",
+        "license": "mit",
+        "type": "effect",
+        "tags": [
+          "Equalizer",
+          "Pedal",
+          "Emulation"
+        ],
+        "url": "https://github.com/gmoican/PunkEq",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/gmoican/punkeq/punkeq.jpg",
+        "date": "2024-04-04T09:45:42Z",
+        "changes": "MacOS binaries haven't been signed / notarized / stapled. This may lead to you getting a \"File not safe, might be malware\" message when downloading.",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 12026674,
+            "sha256": "703df15faca6af60b49f9caddd3f1b7e08554798ee4cb7a61d6a723460c6a7b9",
+            "url": "https://github.com/gmoican/PunkEq/releases/download/0.1.0/Punk.EQ-0.1.0-Linux.zip",
+            "downloads": 13
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "component"
+            ],
+            "type": "archive",
+            "size": 5285789,
+            "sha256": "98f4aa1bdaf46aa6de4b15e3a6796d478b3ccd77b436717d6fad43b24edd625d",
+            "url": "https://github.com/gmoican/PunkEq/releases/download/0.1.0/Punk.EQ-0.1.0-macOS.zip",
+            "downloads": 23
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 1508836,
+            "sha256": "3f54d5c4b02cbf4c8398db05684cb679e17e6e2b5972f4d107bf6898078e27d6",
+            "url": "https://github.com/gmoican/PunkEq/releases/download/0.1.0/Punk.EQ-0.1.0-Windows.zip",
+            "downloads": 63
+          }
+        ],
+        "verified": true,
+        "downloads": 99
+      }
+    },
+    "downloads": 99
+  },
   "gmoican/punkdist-lstm": {
     "slug": "gmoican/punkdist-lstm",
     "version": "1.0.0",
