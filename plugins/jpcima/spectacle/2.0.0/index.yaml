@@ -1,0 +1,34 @@
+name: Spectacle
+author: JP Cimalando
+description: A real-time spectral analyzer using the short-time Fourier transform, with a logarithmic musical scale, zoom, smooth interpolation, and peak identification under the cursor.
+license: isc
+type: tool
+tags:
+  - Fft
+  - Spectral Analysis
+  - Visualizer
+url: https://github.com/jpcima/spectacle
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/jpcima/spectacle/spectacle.jpg
+date: '2021-05-12T21:08:49Z'
+changes: "- added accelerated OpenGL graphics\r\n- improved the default color scheme for readability\r\n- added multi-rate algorithms, to increase resolution in the low frequency range\r\n- adopted a more musically-relevant grid scale, and drawn minor grid lines\r..."
+files:
+  - systems:
+      - type: win
+    architectures:
+      - x32
+    contains:
+      - lv2
+    type: archive
+    size: 3652200
+    sha256: efa4e3f6b567b4d213781de6d62f0657916ee0f11b457a36a9e10bbe09fceeb5
+    url: https://github.com/jpcima/spectacle/releases/download/v2.0/spectacle-analyzer-v2.0-win32.zip
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - lv2
+    type: archive
+    size: 3801499
+    sha256: 9e7d10a955c60f0702b632e75b3c0c4d279bf9b061b4ca7a1ef70620c9bd1bc8
+    url: https://github.com/jpcima/spectacle/releases/download/v2.0/spectacle-analyzer-v2.0-win64.zip

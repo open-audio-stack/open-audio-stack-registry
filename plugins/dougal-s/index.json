@@ -1,0 +1,46 @@
+{
+  "dougal-s/aether": {
+    "slug": "dougal-s/aether",
+    "version": "1.2.1",
+    "versions": {
+      "1.2.1": {
+        "name": "Aether",
+        "author": "Dougal Stewart",
+        "description": "An algorithmic reverb plugin, a port of Cloudseed with separate early and late reflection sections.",
+        "license": "mit",
+        "type": "effect",
+        "tags": [
+          "Reverb",
+          "Algorithmic"
+        ],
+        "url": "https://github.com/Dougal-s/Aether",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/dougal-s/aether/aether.jpg",
+        "date": "2021-08-14T09:50:21Z",
+        "changes": "**Important**: This update changes the sound of the late reverberations section as it fixes some really silly dsp mistakes I made. As a result, it does break backwards compatibility. However, the late reverberation now sounds much wider and more natura...",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "lv2"
+            ],
+            "type": "archive",
+            "size": 424884,
+            "sha256": "01d196a1b611062b3219ea3a994b54c70b379bbf6e5b15e2197c863907434dd6",
+            "url": "https://github.com/Dougal-s/Aether/releases/download/v1.2.1/Aether-v1.2.1-Linux.tar.xz",
+            "downloads": 2569
+          }
+        ],
+        "verified": true,
+        "downloads": 2569
+      }
+    },
+    "downloads": 2569
+  }
+}

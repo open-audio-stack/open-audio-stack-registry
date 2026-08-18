@@ -2032,8 +2032,7 @@
             "type": "archive",
             "size": 4923270,
             "sha256": "79a2e37416be98b8b393d0732c0e49af4f769cc9d0010ecd60e0d740233b46c2",
-            "url": "https://github.com/wolf-plugins/wolf-shaper/releases/download/v1.0.2/wolf-shaper-v1.0.2-linux-arm64.zip",
-            "downloads": 117
+            "url": "https://github.com/wolf-plugins/wolf-shaper/releases/download/v1.0.2/wolf-shaper-v1.0.2-linux-arm64.zip"
           },
           {
             "systems": [
@@ -2054,8 +2053,7 @@
             "type": "archive",
             "size": 5089663,
             "sha256": "8b844e9b535d2b8a8a07fc6cec207beae8161f7d6da36e4a856a766aa441b848",
-            "url": "https://github.com/wolf-plugins/wolf-shaper/releases/download/v1.0.2/wolf-shaper-v1.0.2-linux-x64.zip",
-            "downloads": 784
+            "url": "https://github.com/wolf-plugins/wolf-shaper/releases/download/v1.0.2/wolf-shaper-v1.0.2-linux-x64.zip"
           },
           {
             "systems": [
@@ -2077,8 +2075,7 @@
             "type": "archive",
             "size": 5980398,
             "sha256": "19bba017c8eed9b697712d0f1e769ab30eb785534c152e6783017735fe73de03",
-            "url": "https://github.com/wolf-plugins/wolf-shaper/releases/download/v1.0.2/wolf-shaper-v1.0.2-macos-universal.zip",
-            "downloads": 2397
+            "url": "https://github.com/wolf-plugins/wolf-shaper/releases/download/v1.0.2/wolf-shaper-v1.0.2-macos-universal.zip"
           },
           {
             "systems": [
@@ -2099,15 +2096,12 @@
             "type": "archive",
             "size": 5481008,
             "sha256": "42a703a5f71b19855d9213d57f2261d2182c73c73d39730775188df3e4c47da9",
-            "url": "https://github.com/wolf-plugins/wolf-shaper/releases/download/v1.0.2/wolf-shaper-v1.0.2+20230515144200-windows-x64.zip",
-            "downloads": 5777
+            "url": "https://github.com/wolf-plugins/wolf-shaper/releases/download/v1.0.2/wolf-shaper-v1.0.2+20230515144200-windows-x64.zip"
           }
         ],
-        "verified": true,
-        "downloads": 9075
+        "verified": true
       }
-    },
-    "downloads": 9075
+    }
   },
   "whoadrian/midipad": {
     "slug": "whoadrian/midipad",
@@ -2143,8 +2137,7 @@
             "type": "archive",
             "size": 1638327,
             "sha256": "37570c70426deef420874217d4f5616186c397d23605b6e607982532e5c992c2",
-            "url": "https://github.com/whoadrian/MidiPad/releases/download/v0.2.0/mac_AU.zip",
-            "downloads": 132
+            "url": "https://github.com/whoadrian/MidiPad/releases/download/v0.2.0/mac_AU.zip"
           },
           {
             "systems": [
@@ -2161,8 +2154,7 @@
             "type": "archive",
             "size": 1645585,
             "sha256": "ec1ff30e347357184ba223946f00f83a4c5b0405996b68fbc34576302b36f8cf",
-            "url": "https://github.com/whoadrian/MidiPad/releases/download/v0.2.0/mac_VST3.zip",
-            "downloads": 122
+            "url": "https://github.com/whoadrian/MidiPad/releases/download/v0.2.0/mac_VST3.zip"
           },
           {
             "systems": [
@@ -2179,15 +2171,12 @@
             "type": "archive",
             "size": 1648548,
             "sha256": "cb8e1ce65056d2b5ff256dad49709d6ef9d24e888d39e53d00dba3676fc4fc57",
-            "url": "https://github.com/whoadrian/MidiPad/releases/download/v0.2.0/win_VST3.zip",
-            "downloads": 225
+            "url": "https://github.com/whoadrian/MidiPad/releases/download/v0.2.0/win_VST3.zip"
           }
         ],
-        "verified": true,
-        "downloads": 479
+        "verified": true
       }
-    },
-    "downloads": 479
+    }
   },
   "wheatbread1306/dcoffsetter": {
     "slug": "wheatbread1306/dcoffsetter",
@@ -12368,14 +12357,14 @@
             "size": 10349826,
             "sha256": "83e2825241d4e1c0ab2c44c91c0a9be6a94941a81df0c2fbe05e83b2650470da",
             "url": "https://github.com/Sinuslabs/Reach/releases/download/1.6.6/Reach-Windows.exe",
-            "downloads": 177162
+            "downloads": 177165
           }
         ],
         "verified": true,
-        "downloads": 179012
+        "downloads": 179015
       }
     },
-    "downloads": 179012
+    "downloads": 179015
   },
   "sfztools/sfizz-ui": {
     "slug": "sfztools/sfizz-ui",
@@ -28315,6 +28304,69 @@
     },
     "downloads": 21
   },
+  "jpcima/spectacle": {
+    "slug": "jpcima/spectacle",
+    "version": "2.0.0",
+    "versions": {
+      "2.0.0": {
+        "name": "Spectacle",
+        "author": "JP Cimalando",
+        "description": "A real-time spectral analyzer using the short-time Fourier transform, with a logarithmic musical scale, zoom, smooth interpolation, and peak identification under the cursor.",
+        "license": "isc",
+        "type": "tool",
+        "tags": [
+          "Fft",
+          "Spectral Analysis",
+          "Visualizer"
+        ],
+        "url": "https://github.com/jpcima/spectacle",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/jpcima/spectacle/spectacle.jpg",
+        "date": "2021-05-12T21:08:49Z",
+        "changes": "- added accelerated OpenGL graphics\r\n- improved the default color scheme for readability\r\n- added multi-rate algorithms, to increase resolution in the low frequency range\r\n- adopted a more musically-relevant grid scale, and drawn minor grid lines\r...",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x32"
+            ],
+            "contains": [
+              "lv2"
+            ],
+            "type": "archive",
+            "size": 3652200,
+            "sha256": "efa4e3f6b567b4d213781de6d62f0657916ee0f11b457a36a9e10bbe09fceeb5",
+            "url": "https://github.com/jpcima/spectacle/releases/download/v2.0/spectacle-analyzer-v2.0-win32.zip",
+            "downloads": 39
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "lv2"
+            ],
+            "type": "archive",
+            "size": 3801499,
+            "sha256": "9e7d10a955c60f0702b632e75b3c0c4d279bf9b061b4ca7a1ef70620c9bd1bc8",
+            "url": "https://github.com/jpcima/spectacle/releases/download/v2.0/spectacle-analyzer-v2.0-win64.zip",
+            "downloads": 111
+          }
+        ],
+        "verified": true,
+        "downloads": 150
+      }
+    },
+    "downloads": 150
+  },
   "jpcima/opnplug": {
     "slug": "jpcima/opnplug",
     "version": "1.0.2",
@@ -38677,6 +38729,50 @@
       }
     }
   },
+  "dougal-s/aether": {
+    "slug": "dougal-s/aether",
+    "version": "1.2.1",
+    "versions": {
+      "1.2.1": {
+        "name": "Aether",
+        "author": "Dougal Stewart",
+        "description": "An algorithmic reverb plugin, a port of Cloudseed with separate early and late reflection sections.",
+        "license": "mit",
+        "type": "effect",
+        "tags": [
+          "Reverb",
+          "Algorithmic"
+        ],
+        "url": "https://github.com/Dougal-s/Aether",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/dougal-s/aether/aether.jpg",
+        "date": "2021-08-14T09:50:21Z",
+        "changes": "**Important**: This update changes the sound of the late reverberations section as it fixes some really silly dsp mistakes I made. As a result, it does break backwards compatibility. However, the late reverberation now sounds much wider and more natura...",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "lv2"
+            ],
+            "type": "archive",
+            "size": 424884,
+            "sha256": "01d196a1b611062b3219ea3a994b54c70b379bbf6e5b15e2197c863907434dd6",
+            "url": "https://github.com/Dougal-s/Aether/releases/download/v1.2.1/Aether-v1.2.1-Linux.tar.xz",
+            "downloads": 2569
+          }
+        ],
+        "verified": true,
+        "downloads": 2569
+      }
+    },
+    "downloads": 2569
+  },
   "dlc86/nam-oversampler": {
     "slug": "dlc86/nam-oversampler",
     "version": "2.2.3",
@@ -45637,7 +45733,7 @@
             "size": 709388,
             "sha256": "1e553d0e9311554a2b9094048c7a1383364646578417c19a6c60dd97c2910fe9",
             "url": "https://github.com/brummer10/Loopino/releases/download/v0.9.6/Loopino-app-v0.9.6-linux-x86_64.tar.xz",
-            "downloads": 34
+            "downloads": 35
           },
           {
             "systems": [
@@ -45655,7 +45751,7 @@
             "size": 2366116,
             "sha256": "bec4a2f1e61ba4c713ae260cb8aee8bd9ab9ba3d20f2ff00edaf487a2ecf5ee8",
             "url": "https://github.com/brummer10/Loopino/releases/download/v0.9.6/Loopino-clap-v0.9.6-linux-x86_64.tar.xz",
-            "downloads": 81
+            "downloads": 82
           },
           {
             "systems": [
@@ -45691,7 +45787,7 @@
             "size": 2361316,
             "sha256": "b777024ad9578ccd5b3f750d6367045593f4919cec496dfff49b4766a8b14b53",
             "url": "https://github.com/brummer10/Loopino/releases/download/v0.9.6/Loopino-vst2-v0.9.6-linux-x86_64.tar.xz",
-            "downloads": 51
+            "downloads": 52
           },
           {
             "systems": [
@@ -45732,10 +45828,10 @@
           }
         ],
         "verified": true,
-        "downloads": 328
+        "downloads": 331
       }
     },
-    "downloads": 328
+    "downloads": 331
   },
   "brummer10/harmonicexciter": {
     "slug": "brummer10/harmonicexciter",

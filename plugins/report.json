@@ -3795,6 +3795,24 @@
       ]
     }
   },
+  "jpcima/spectacle": {
+    "2.0.0": {
+      "recs": [
+        {
+          "field": "architectures",
+          "rec": "should support arm64"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Linux"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Mac"
+        }
+      ]
+    }
+  },
   "josescript/zubnetic": {
     "1.0.0": {
       "recs": [
@@ -4862,6 +4880,28 @@
   "drlight-code/osccontrol-light": {
     "2023.11.0": {
       "recs": [
+        {
+          "field": "architectures",
+          "rec": "should support arm64"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Mac"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Windows"
+        }
+      ]
+    }
+  },
+  "dougal-s/aether": {
+    "1.2.1": {
+      "recs": [
+        {
+          "field": "url",
+          "rec": "not a supported format"
+        },
         {
           "field": "architectures",
           "rec": "should support arm64"
