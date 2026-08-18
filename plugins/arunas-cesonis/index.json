@@ -1,0 +1,146 @@
+{
+  "arunas-cesonis/live-sampler": {
+    "slug": "arunas-cesonis/live-sampler",
+    "version": "0.0.6",
+    "versions": {
+      "0.0.6": {
+        "name": "Live Sampler",
+        "author": "Arunas Cesonis",
+        "description": "Records incoming audio into a buffer and plays it back looped, sample-accurately, entirely controlled by MIDI notes for recording, triggering playback voices at offsets, and reversing playback.",
+        "license": "mit",
+        "type": "sampler",
+        "tags": [
+          "Live Sampling",
+          "Looper",
+          "MIDI Controlled"
+        ],
+        "url": "https://github.com/arunas-cesonis/live-sampler",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/arunas-cesonis/live-sampler/live-sampler.jpg",
+        "date": "2025-05-24T20:17:39Z",
+        "changes": "0.0.6 release.",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "clap"
+            ],
+            "type": "archive",
+            "size": 18496778,
+            "sha256": "3634da1e684dfdc38d9cd954e5a9537fab820044164a9f39493e2e46021a735a",
+            "url": "https://github.com/arunas-cesonis/live-sampler/releases/download/0.0.6/live-sampler-2025-05-24-200512-vizia_windows.zip",
+            "downloads": 7
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "clap"
+            ],
+            "type": "archive",
+            "size": 12174254,
+            "sha256": "f59469702bf57a7f6fa9df93f4b67d665640f27b525f20d0fc7a35b128ae18fa",
+            "url": "https://github.com/arunas-cesonis/live-sampler/releases/download/0.0.6/live-sampler-2025-05-24-200526-windows.zip",
+            "downloads": 10
+          },
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "clap"
+            ],
+            "type": "archive",
+            "size": 22520041,
+            "sha256": "9d17a3791a009daea7a5e753c0394f0587c9c03a2ba1216a1c9e18acf47bfda8",
+            "url": "https://github.com/arunas-cesonis/live-sampler/releases/download/0.0.6/live-sampler-2025-05-24-200527-vizia_ubuntu-24.04.zip",
+            "downloads": 3
+          },
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "clap"
+            ],
+            "type": "archive",
+            "size": 15262071,
+            "sha256": "c3e8a233f9d74f523741fe28cd6a592df69517ce0845ad56a6077678322f13b1",
+            "url": "https://github.com/arunas-cesonis/live-sampler/releases/download/0.0.6/live-sampler-2025-05-24-200530-ubuntu-24.04.zip",
+            "downloads": 3
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "clap",
+              "app"
+            ],
+            "type": "archive",
+            "size": 27972322,
+            "sha256": "5d7caea38b1b014aab849cb71f39e33ed5031cf92acf9f40d47c3cc63463b452",
+            "url": "https://github.com/arunas-cesonis/live-sampler/releases/download/0.0.6/live-sampler-2025-05-24-200543-macos-universal.zip",
+            "downloads": 4
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64"
+            ],
+            "contains": [
+              "vst3",
+              "clap",
+              "app"
+            ],
+            "type": "archive",
+            "size": 20161892,
+            "sha256": "0404ee4e5580601e94950e06e5cbf99eff2a473cf6aca4d8ec27cc76c49f3b01",
+            "url": "https://github.com/arunas-cesonis/live-sampler/releases/download/0.0.6/live-sampler-2025-05-24-200555-vizia_macos-universal.zip",
+            "downloads": 3
+          }
+        ],
+        "verified": true,
+        "downloads": 30
+      }
+    },
+    "downloads": 30
+  }
+}
