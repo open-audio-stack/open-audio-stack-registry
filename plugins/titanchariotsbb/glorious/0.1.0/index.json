@@ -1,0 +1,38 @@
+{
+  "name": "Glorious",
+  "author": "Christian Abbott",
+  "description": "A stereo chorus plugin made with JUCE",
+  "license": "gpl-3.0",
+  "type": "effect",
+  "tags": [
+    "Chorus",
+    "Juce"
+  ],
+  "url": "https://github.com/TitanChariotsBB/Glorious",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/titanchariotsbb/glorious/glorious.jpg",
+  "date": "2024-08-17T14:15:31Z",
+  "changes": "Release version 0.1.0. All I have at the moment is a windows machine, so the only included binaries are a windows standalone app and VST3.",
+  "files": [
+    {
+      "systems": [
+        {
+          "type": "win"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3",
+        "exe"
+      ],
+      "type": "archive",
+      "size": 7006151,
+      "sha256": "e5cd0aa08cb276261754ded7bbeb5c9a1e49982aeb8b26c379c15720a18ebdaf",
+      "url": "https://github.com/TitanChariotsBB/Glorious/releases/download/0.1.0/Glorious-Windows.zip",
+      "downloads": 10
+    }
+  ],
+  "verified": true,
+  "downloads": 10
+}

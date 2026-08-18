@@ -849,6 +849,24 @@
       ]
     }
   },
+  "titanchariotsbb/glorious": {
+    "0.1.0": {
+      "recs": [
+        {
+          "field": "architectures",
+          "rec": "should support arm64"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Linux"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Mac"
+        }
+      ]
+    }
+  },
   "tiagolr/time12": {
     "1.2.3": {
       "recs": [

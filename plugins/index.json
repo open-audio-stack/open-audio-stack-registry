@@ -737,8 +737,7 @@
             ],
             "size": 9230313,
             "type": "archive",
-            "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.2.2/ZL.Equalizer.2-1.2.2-Linux-arm64.zip",
-            "downloads": 330
+            "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.2.2/ZL.Equalizer.2-1.2.2-Linux-arm64.zip"
           },
           {
             "architectures": [
@@ -757,8 +756,7 @@
             ],
             "size": 10034620,
             "type": "archive",
-            "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.2.2/ZL.Equalizer.2-1.2.2-Linux-x86-64-AVX2.zip",
-            "downloads": 611
+            "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.2.2/ZL.Equalizer.2-1.2.2-Linux-x86-64-AVX2.zip"
           },
           {
             "architectures": [
@@ -777,8 +775,7 @@
             ],
             "size": 9763297,
             "type": "archive",
-            "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.2.2/ZL.Equalizer.2-1.2.2-Linux-x86-64.zip",
-            "downloads": 567
+            "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.2.2/ZL.Equalizer.2-1.2.2-Linux-x86-64.zip"
           },
           {
             "architectures": [
@@ -799,8 +796,7 @@
             ],
             "size": 13378811,
             "type": "installer",
-            "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.2.2/ZL.Equalizer.2-1.2.2-macOS-arm64.dmg",
-            "downloads": 3056
+            "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.2.2/ZL.Equalizer.2-1.2.2-macOS-arm64.dmg"
           },
           {
             "architectures": [
@@ -821,8 +817,7 @@
             ],
             "size": 14968334,
             "type": "installer",
-            "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.2.2/ZL.Equalizer.2-1.2.2-macOS-x86-64.dmg",
-            "downloads": 1063
+            "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.2.2/ZL.Equalizer.2-1.2.2-macOS-x86-64.dmg"
           },
           {
             "architectures": [
@@ -840,8 +835,7 @@
             ],
             "size": 8196096,
             "type": "installer",
-            "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.2.2/ZL.Equalizer.2-1.2.2-Windows-arm64.msi",
-            "downloads": 873
+            "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.2.2/ZL.Equalizer.2-1.2.2-Windows-arm64.msi"
           },
           {
             "architectures": [
@@ -859,8 +853,7 @@
             ],
             "size": 11886592,
             "type": "installer",
-            "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.2.2/ZL.Equalizer.2-1.2.2-Windows-x86-64-AVX2.msi",
-            "downloads": 4934
+            "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.2.2/ZL.Equalizer.2-1.2.2-Windows-x86-64-AVX2.msi"
           },
           {
             "architectures": [
@@ -878,12 +871,10 @@
             ],
             "size": 11608064,
             "type": "installer",
-            "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.2.2/ZL.Equalizer.2-1.2.2-Windows-x86-64.msi",
-            "downloads": 4855
+            "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.2.2/ZL.Equalizer.2-1.2.2-Windows-x86-64.msi"
           }
         ],
-        "verified": true,
-        "downloads": 16289
+        "verified": true
       },
       "1.1.0": {
         "name": "ZL Equalizer 2",
@@ -1015,7 +1006,7 @@
         "verified": true
       }
     },
-    "downloads": 17305
+    "downloads": 1016
   },
   "zl-audio/zlcompressor": {
     "slug": "zl-audio/zlcompressor",
@@ -5861,6 +5852,51 @@
       }
     },
     "downloads": 1011
+  },
+  "titanchariotsbb/glorious": {
+    "slug": "titanchariotsbb/glorious",
+    "version": "0.1.0",
+    "versions": {
+      "0.1.0": {
+        "name": "Glorious",
+        "author": "Christian Abbott",
+        "description": "A stereo chorus plugin made with JUCE",
+        "license": "gpl-3.0",
+        "type": "effect",
+        "tags": [
+          "Chorus",
+          "Juce"
+        ],
+        "url": "https://github.com/TitanChariotsBB/Glorious",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/titanchariotsbb/glorious/glorious.jpg",
+        "date": "2024-08-17T14:15:31Z",
+        "changes": "Release version 0.1.0. All I have at the moment is a windows machine, so the only included binaries are a windows standalone app and VST3.",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "exe"
+            ],
+            "type": "archive",
+            "size": 7006151,
+            "sha256": "e5cd0aa08cb276261754ded7bbeb5c9a1e49982aeb8b26c379c15720a18ebdaf",
+            "url": "https://github.com/TitanChariotsBB/Glorious/releases/download/0.1.0/Glorious-Windows.zip",
+            "downloads": 10
+          }
+        ],
+        "verified": true,
+        "downloads": 10
+      }
+    },
+    "downloads": 10
   },
   "tiagolr/time12": {
     "slug": "tiagolr/time12",
@@ -25844,14 +25880,14 @@
             "size": 4598786,
             "sha256": "ff882429e2f6c5be9a9757f6f136acd4f8e3b2a1cc212cf1fabbe0f6b28c192f",
             "url": "https://github.com/Kiriki-liszt/JS_Inflator/releases/download/v2.0.3.2/JS.Inflator.Win.v2.0.3.2.zip",
-            "downloads": 32460
+            "downloads": 32461
           }
         ],
         "verified": true,
-        "downloads": 50376
+        "downloads": 50377
       }
     },
-    "downloads": 50376
+    "downloads": 50377
   },
   "killbizz/biztortion": {
     "slug": "killbizz/biztortion",
