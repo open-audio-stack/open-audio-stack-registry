@@ -1,0 +1,38 @@
+{
+  "name": "Three Osc",
+  "author": "Madadog",
+  "description": "A polyphonic subtractive synth based on LMMS's Triple Oscillator, with 3 oscillators cross-modulating via PM/FM/AM, 3 filter models, bandlimited wavetable synthesis, and up to 128-voice unison per oscillator.",
+  "license": "gpl-3.0",
+  "type": "instrument",
+  "tags": [
+    "Subtractive Synthesis",
+    "Unison",
+    "Wavetable"
+  ],
+  "url": "https://github.com/Madadog/three_osc",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/madadog/three-osc/three-osc.jpg",
+  "date": "2022-05-07T12:45:45Z",
+  "changes": "If you encounter any problems while using the plugin, please create an issue.",
+  "files": [
+    {
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "lv2"
+      ],
+      "type": "archive",
+      "size": 956321,
+      "sha256": "aac378f358bd05fb6691997ea62bff46c4306ab642e485938227f17275e2b5be",
+      "url": "https://github.com/Madadog/three_osc/releases/download/v0.2.0/three_osc-v0.2.0-linux-x86_64.lv2.tar.gz",
+      "downloads": 31
+    }
+  ],
+  "verified": true,
+  "downloads": 31
+}
