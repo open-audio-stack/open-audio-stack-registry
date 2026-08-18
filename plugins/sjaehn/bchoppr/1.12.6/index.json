@@ -1,0 +1,38 @@
+{
+  "name": "B.Choppr",
+  "author": "sjaehn",
+  "description": "Cuts an audio input stream into a repeated sequence of up to 16 chops, each of which can be leveled up/down (gating) or panned left/right.",
+  "license": "gpl-3.0",
+  "type": "effect",
+  "tags": [
+    "Chopper",
+    "Gate",
+    "Sequencer"
+  ],
+  "url": "https://github.com/sjaehn/BChoppr",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sjaehn/bchoppr/bchoppr.jpg",
+  "date": "2022-12-09T17:07:42Z",
+  "changes": "Migration to the new B.Widgets TK, new internationalization, bugfixes.",
+  "files": [
+    {
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "lv2"
+      ],
+      "type": "archive",
+      "size": 553519,
+      "sha256": "1b7adaa2ff81445932d2c5fd5fad5f6f2aaa209452c8f996c915d9ce659390a7",
+      "url": "https://github.com/sjaehn/BChoppr/releases/download/1.12.6/BChoppr-1.12.6-linux-amd64.tar.gz",
+      "downloads": 133
+    }
+  ],
+  "verified": true,
+  "downloads": 133
+}
