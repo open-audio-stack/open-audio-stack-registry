@@ -53,7 +53,7 @@
               "size": 9202795,
               "sha256": "3c4c533bda0c5059eea3ddaea752d757ee2025041f0f47e6bcb0e87f6082b29f",
               "url": "https://github.com/Tracktion/pluginval/releases/download/v1.0.4/pluginval_macOS.zip",
-              "downloads": 63659
+              "downloads": 63661
             },
             {
               "systems": [
@@ -69,14 +69,14 @@
               "size": 2408590,
               "sha256": "c08e61ce3b96db41636f8ec7e76f4c7e2c13ebdac7fa1b5a1f52b4f32ec715ab",
               "url": "https://github.com/Tracktion/pluginval/releases/download/v1.0.4/pluginval_Windows.zip",
-              "downloads": 99399
+              "downloads": 99402
             }
           ],
           "verified": true,
-          "downloads": 180765
+          "downloads": 180770
         }
       },
-      "downloads": 180765
+      "downloads": 180770
     },
     "steinberg/validator": {
       "slug": "steinberg/validator",
@@ -4314,14 +4314,14 @@
               "size": 37740885,
               "sha256": "e4dcc186102850f8dcebeb766ad1bf34c24f6280bd614ef84b72dae4783fc517",
               "url": "https://github.com/werman/noise-suppression-for-voice/releases/download/v1.10/win-rnnoise.zip",
-              "downloads": 335491
+              "downloads": 335494
             }
           ],
           "verified": true,
-          "downloads": 366319
+          "downloads": 366322
         }
       },
-      "downloads": 366319
+      "downloads": 366322
     },
     "webprofusion/soundshed-guitar": {
       "slug": "webprofusion/soundshed-guitar",
@@ -14721,14 +14721,14 @@
               "size": 10349826,
               "sha256": "83e2825241d4e1c0ab2c44c91c0a9be6a94941a81df0c2fbe05e83b2650470da",
               "url": "https://github.com/Sinuslabs/Reach/releases/download/1.6.6/Reach-Windows.exe",
-              "downloads": 177165
+              "downloads": 177169
             }
           ],
           "verified": true,
-          "downloads": 179015
+          "downloads": 179019
         }
       },
-      "downloads": 179015
+      "downloads": 179019
     },
     "sfztools/sfizz-ui": {
       "slug": "sfztools/sfizz-ui",
@@ -24245,7 +24245,7 @@
               "size": 12527433,
               "sha256": "e6e2da2c962d41d46f8359bbd7ec8cff2be79b561539e18d3f73fdc29721bd93",
               "url": "https://github.com/michaelwillis/dragonfly-reverb/releases/download/3.2.10/dragonfly-reverb-3.2.10-macos-intel.dmg",
-              "downloads": 7520
+              "downloads": 7521
             },
             {
               "systems": [
@@ -24293,10 +24293,10 @@
             }
           ],
           "verified": true,
-          "downloads": 129600
+          "downloads": 129601
         }
       },
-      "downloads": 129600
+      "downloads": 129601
     },
     "michaelhurst97/noizier": {
       "slug": "michaelhurst97/noizier",
@@ -46142,6 +46142,87 @@
         }
       },
       "downloads": 1324
+    },
+    "crowbait/gnomedistort-2": {
+      "slug": "crowbait/gnomedistort-2",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "name": "GnomeDistort 2",
+          "author": "CROWBAIT",
+          "description": "A brutal, destructive multi-band distortion plugin — not intended for soft saturation.",
+          "license": "gpl-3.0",
+          "type": "effect",
+          "tags": [
+            "Distortion",
+            "Multiband",
+            "Music"
+          ],
+          "url": "https://github.com/crowbait/GnomeDistort-2",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/crowbait/gnomedistort-2/gnomedistort-2.jpg",
+          "date": "2023-12-10T17:07:25Z",
+          "changes": "Initial Release",
+          "files": [
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "vst3"
+              ],
+              "type": "archive",
+              "size": 2519460,
+              "sha256": "7a5428fabc012debead31dcde9b9b66d389205400b33d7bf3f56727255c66961",
+              "url": "https://github.com/crowbait/GnomeDistort-2/releases/download/1.0.0/GnomeDistort-2_VST3_linux-x64.zip",
+              "downloads": 70
+            },
+            {
+              "systems": [
+                {
+                  "type": "mac"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "vst3"
+              ],
+              "type": "archive",
+              "size": 2352779,
+              "sha256": "1925f1b63b0ea517b85a40fde84cef36b7687970b902a9adeb8b15c56cd22024",
+              "url": "https://github.com/crowbait/GnomeDistort-2/releases/download/1.0.0/GnomeDistort-2_VST3_MacOS-x64.zip",
+              "downloads": 71
+            },
+            {
+              "systems": [
+                {
+                  "type": "win"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "vst3"
+              ],
+              "type": "archive",
+              "size": 5781504,
+              "sha256": "30c54092e1b30620893003f9d1bcf49644722588946dc7bbc3311ec3eb431c70",
+              "url": "https://github.com/crowbait/GnomeDistort-2/releases/download/1.0.0/GnomeDistort-2_win-x64.vst3",
+              "downloads": 220
+            }
+          ],
+          "verified": true,
+          "downloads": 361
+        }
+      },
+      "downloads": 361
     },
     "creativeintent/temper": {
       "slug": "creativeintent/temper",

@@ -5297,6 +5297,20 @@
       ]
     }
   },
+  "crowbait/gnomedistort-2": {
+    "1.0.0": {
+      "recs": [
+        {
+          "field": "url",
+          "rec": "not a supported format"
+        },
+        {
+          "field": "architectures",
+          "rec": "should support arm64"
+        }
+      ]
+    }
+  },
   "creativeintent/temper": {
     "1.0.4": {
       "recs": [
