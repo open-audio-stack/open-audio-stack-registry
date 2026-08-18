@@ -3246,8 +3246,7 @@
             "type": "archive",
             "size": 914856,
             "sha256": "703cff530fc8d23ca0747787ef5cf7f8229d24420f4c598ebcc328eb2678f744",
-            "url": "https://github.com/Wasted-Audio/wstd-dlay/releases/download/v1.1.1/wstd-dlay-v1.1.1-linux-arm64.tar.xz",
-            "downloads": 6
+            "url": "https://github.com/Wasted-Audio/wstd-dlay/releases/download/v1.1.1/wstd-dlay-v1.1.1-linux-arm64.tar.xz"
           },
           {
             "systems": [
@@ -3267,8 +3266,7 @@
             "type": "archive",
             "size": 875652,
             "sha256": "af73f5d5c7f4d6d3498746223a40b16a3c0b2f7813226a08ce213fe330d3f2b0",
-            "url": "https://github.com/Wasted-Audio/wstd-dlay/releases/download/v1.1.1/wstd-dlay-v1.1.1-linux-armhf.tar.xz",
-            "downloads": 4
+            "url": "https://github.com/Wasted-Audio/wstd-dlay/releases/download/v1.1.1/wstd-dlay-v1.1.1-linux-armhf.tar.xz"
           },
           {
             "systems": [
@@ -3288,8 +3286,7 @@
             "type": "archive",
             "size": 1030828,
             "sha256": "e5f34a537b415b1b4f2887db9f7bac4b36d397c77939f81135b18bb19a0dcd79",
-            "url": "https://github.com/Wasted-Audio/wstd-dlay/releases/download/v1.1.1/wstd-dlay-v1.1.1-linux-i686.tar.xz",
-            "downloads": 5
+            "url": "https://github.com/Wasted-Audio/wstd-dlay/releases/download/v1.1.1/wstd-dlay-v1.1.1-linux-i686.tar.xz"
           },
           {
             "systems": [
@@ -3309,8 +3306,7 @@
             "type": "archive",
             "size": 996176,
             "sha256": "211b881e16b9a2c60af9f08a7ce277a38faa6f875d39abd880e134b6e2a68a49",
-            "url": "https://github.com/Wasted-Audio/wstd-dlay/releases/download/v1.1.1/wstd-dlay-v1.1.1-linux-x86_64.tar.xz",
-            "downloads": 121
+            "url": "https://github.com/Wasted-Audio/wstd-dlay/releases/download/v1.1.1/wstd-dlay-v1.1.1-linux-x86_64.tar.xz"
           },
           {
             "systems": [
@@ -3330,8 +3326,7 @@
             "type": "installer",
             "size": 3144710,
             "sha256": "86a36de8c5bf2644f6e4c7143189491ea14d5d869f310e3568e42779f7e51b9c",
-            "url": "https://github.com/Wasted-Audio/wstd-dlay/releases/download/v1.1.1/wstd-dlay-v1.1.1-macos-intel.pkg",
-            "downloads": 5
+            "url": "https://github.com/Wasted-Audio/wstd-dlay/releases/download/v1.1.1/wstd-dlay-v1.1.1-macos-intel.pkg"
           },
           {
             "systems": [
@@ -3352,8 +3347,7 @@
             "type": "installer",
             "size": 5823000,
             "sha256": "ee69f6bec1714ea1768628178f5778c5435507fa0a8e7aebb6cbcbc97cb6e3d2",
-            "url": "https://github.com/Wasted-Audio/wstd-dlay/releases/download/v1.1.1/wstd-dlay-v1.1.1-macos-universal.pkg",
-            "downloads": 30
+            "url": "https://github.com/Wasted-Audio/wstd-dlay/releases/download/v1.1.1/wstd-dlay-v1.1.1-macos-universal.pkg"
           },
           {
             "systems": [
@@ -3373,8 +3367,7 @@
             "type": "archive",
             "size": 5481966,
             "sha256": "e335596563b620fb5ab5ac120373f41252fa0d8ead653ca54fecf45f45990d29",
-            "url": "https://github.com/Wasted-Audio/wstd-dlay/releases/download/v1.1.1/wstd-dlay-v1.1.1-win32.zip",
-            "downloads": 4
+            "url": "https://github.com/Wasted-Audio/wstd-dlay/releases/download/v1.1.1/wstd-dlay-v1.1.1-win32.zip"
           },
           {
             "systems": [
@@ -3394,15 +3387,12 @@
             "type": "archive",
             "size": 5288107,
             "sha256": "0d9ca539d710b3c7edf97a5f9f1aa38cf2969141555166e7fc7f04411146ffee",
-            "url": "https://github.com/Wasted-Audio/wstd-dlay/releases/download/v1.1.1/wstd-dlay-v1.1.1-win64.zip",
-            "downloads": 73
+            "url": "https://github.com/Wasted-Audio/wstd-dlay/releases/download/v1.1.1/wstd-dlay-v1.1.1-win64.zip"
           }
         ],
-        "verified": true,
-        "downloads": 248
+        "verified": true
       }
-    },
-    "downloads": 248
+    }
   },
   "wasted-audio/wstd-crshr": {
     "slug": "wasted-audio/wstd-crshr",
@@ -24697,8 +24687,119 @@
   },
   "lsp-plugins/lsp-plugins": {
     "slug": "lsp-plugins/lsp-plugins",
-    "version": "1.2.33",
+    "version": "1.2.34",
     "versions": {
+      "1.2.34": {
+        "name": "LSP Plugins",
+        "author": "Vladimir Sadovnikov",
+        "description": "A collection of open-source audio effects, synthesizers, and tools designed for music and sound production, primarily on the GNU/Linux platform.",
+        "license": "lgpl-3.0",
+        "type": "effect",
+        "tags": [
+          "Effect",
+          "Multiband",
+          "Dynamics",
+          "Gate",
+          "Density",
+          "Phase",
+          "De-Esser",
+          "Breath Control"
+        ],
+        "url": "https://github.com/lsp-plugins/lsp-plugins",
+        "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/lsp-plugins/lsp-plugins/lsp-plugins.flac",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/lsp-plugins/lsp-plugins/lsp-plugins.jpg",
+        "donate": "https://www.patreon.com/c/sadko4u",
+        "date": "2026-08-15T08:49:31Z",
+        "changes": "* Implemented Deesser Plugin series.\n* VST2 plugins now are packaged into shell plugin which makes faster scanning of\n  plugins and requires less shared object files to provide.\n* Significant refactoring of static and dynamic filter functions, eliminated some\n  bugs in mathematics for ARM32 and AArch64 archtectures that were hard to catch.\n* Added support of biquad filter cascades that contain 16 filters at one time,\n  optimized filter cascades for AVX-512 support.\n",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "arm64"
+            ],
+            "contains": [
+              "clap",
+              "lv2",
+              "vst3",
+              "so"
+            ],
+            "type": "archive",
+            "size": 35882444,
+            "sha256": "ff26d0dbe2e608eabeb0f762a2d6348beaee92ad51d4f5341d5afe154debc56d",
+            "url": "https://github.com/lsp-plugins/lsp-plugins/releases/download/1.2.34/lsp-plugins-1.2.34-Linux-aarch64.7z",
+            "downloads": 22
+          },
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "arm32"
+            ],
+            "contains": [
+              "clap",
+              "lv2",
+              "vst3",
+              "so"
+            ],
+            "type": "archive",
+            "size": 32210272,
+            "sha256": "36371d1e20cae6c27c6f32745a31b9380e4b73973478f135e3f3abdecd6af8a1",
+            "url": "https://github.com/lsp-plugins/lsp-plugins/releases/download/1.2.34/lsp-plugins-1.2.34-Linux-arm32.7z",
+            "downloads": 7
+          },
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x32"
+            ],
+            "contains": [
+              "clap",
+              "lv2",
+              "vst3",
+              "so"
+            ],
+            "type": "archive",
+            "size": 32975646,
+            "sha256": "4f4fde4b85a44dce703868241495c839b7f31b5ddf2528ada0581bfc23481a51",
+            "url": "https://github.com/lsp-plugins/lsp-plugins/releases/download/1.2.34/lsp-plugins-1.2.34-Linux-i586.7z",
+            "downloads": 20
+          },
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "clap",
+              "lv2",
+              "vst3",
+              "so"
+            ],
+            "type": "archive",
+            "size": 38767750,
+            "sha256": "e366dd875b162a0f164c323a5f221656b7a7699ab3369c719944c63aebe246db",
+            "url": "https://github.com/lsp-plugins/lsp-plugins/releases/download/1.2.34/lsp-plugins-1.2.34-Linux-x86_64.7z",
+            "downloads": 261
+          }
+        ],
+        "verified": true,
+        "downloads": 310
+      },
       "1.2.33": {
         "name": "LSP Plugins",
         "author": "Vladimir Sadovnikov",
@@ -25477,7 +25578,7 @@
         "downloads": 3420
       }
     },
-    "downloads": 25041
+    "downloads": 25351
   },
   "longkelvin/midi-chord-detector-plugin": {
     "slug": "longkelvin/midi-chord-detector-plugin",
