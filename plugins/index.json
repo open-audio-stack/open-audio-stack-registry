@@ -1431,15 +1431,12 @@
             "type": "archive",
             "size": 5784663,
             "sha256": "2dec7a8b274b82d34d0583e05657f3cefc1389fd1630af0d98fede73ef712038",
-            "url": "https://github.com/yvonneQAQ/spekana-audio-plugin/releases/download/v1.0.0/SPEKANA_v1.0.0_macOS.zip",
-            "downloads": 2
+            "url": "https://github.com/yvonneQAQ/spekana-audio-plugin/releases/download/v1.0.0/SPEKANA_v1.0.0_macOS.zip"
           }
         ],
-        "verified": true,
-        "downloads": 2
+        "verified": true
       }
-    },
-    "downloads": 2
+    }
   },
   "yonie/wetreverb": {
     "slug": "yonie/wetreverb",
@@ -21396,6 +21393,86 @@
     },
     "downloads": 129599
   },
+  "michaelhurst97/noizier": {
+    "slug": "michaelhurst97/noizier",
+    "version": "20230612.0.0",
+    "versions": {
+      "20230612.0.0": {
+        "name": "Noizier",
+        "author": "Michael Hurst",
+        "description": "A Simple Noise Generator",
+        "license": "gpl-3.0",
+        "type": "generator",
+        "tags": [
+          "Noise",
+          "Juce"
+        ],
+        "url": "https://github.com/MichaelHurst97/Noizier",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/michaelhurst97/noizier/noizier.jpg",
+        "date": "2023-06-12T11:18:58Z",
+        "changes": "Windows: Use the installer or copy Noizier.vst3 to C:\\Program Files\\Common Files\\VST3\r\n\r\nLinux: Copy Noizier.lv2 folder to your LV2 Plugins Folder",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "installer",
+            "size": 1596512,
+            "sha256": "627633ff4d309430cf5fbc744a863771932c6bc29601ec5aa4555ee894b702f8",
+            "url": "https://github.com/MichaelHurst97/Noizier/releases/download/Release/Noizier-Installer-x64.exe",
+            "downloads": 841
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "lv2"
+            ],
+            "type": "archive",
+            "size": 1944394,
+            "sha256": "a72c42bf89c6f4ad2384c8964105dd1440fa55b1cdde7ced7bf39209c94be37b",
+            "url": "https://github.com/MichaelHurst97/Noizier/releases/download/Release/Noizier.lv2.zip",
+            "downloads": 365
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 4686848,
+            "sha256": "6ddb4ab52d7ba8e6d7ecd48b116bf718f8c887b833df8161a9b2a7d58261c330",
+            "url": "https://github.com/MichaelHurst97/Noizier/releases/download/Release/Noizier.vst3",
+            "downloads": 1046
+          }
+        ],
+        "verified": true,
+        "downloads": 2252
+      }
+    },
+    "downloads": 2252
+  },
   "michael02022/basic-harmonica": {
     "slug": "michael02022/basic-harmonica",
     "version": "1.0.0",
@@ -26193,7 +26270,7 @@
             "size": 8915472,
             "sha256": "1f72cd00b8300ab7d956b108e6614701ec699170768aed5af7fbb2f9be9a0b4d",
             "url": "https://github.com/kayrockscreenprinting/ultramaster_kr106/releases/download/v2.5.13/KR106-Windows-ARM64.zip",
-            "downloads": 877
+            "downloads": 878
           },
           {
             "systems": [
@@ -26217,10 +26294,10 @@
           }
         ],
         "verified": true,
-        "downloads": 5682
+        "downloads": 5683
       }
     },
-    "downloads": 5682
+    "downloads": 5683
   },
   "kaixocode/spectralrotator": {
     "slug": "kaixocode/spectralrotator",
