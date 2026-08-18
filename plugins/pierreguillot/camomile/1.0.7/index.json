@@ -1,0 +1,93 @@
+{
+  "name": "Camomile",
+  "author": "Pierre Guillot",
+  "description": "Camomile is a meta-plugin with Pure Data embedded, letting you load and control Pure Data patches as VST3, Audio Unit, or LV2 plugins in a DAW.",
+  "license": "gpl-3.0",
+  "type": "tool",
+  "tags": [
+    "Pure Data",
+    "Meta Plugin"
+  ],
+  "url": "https://github.com/pierreguillot/Camomile",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/pierreguillot/camomile/camomile.jpg",
+  "date": "2020-09-03T09:19:42Z",
+  "changes": "- Update Pd version (0.51)\r\n- Update Juce version (6.0.0)\r\n- Remove VST2 support\r\n- Fix PdStalFx - DSP not recompiled (#126)\r\n- Fix PdStalFx - no loadbang (#126)\r\n- Fix PdStalFx - undefined when reloaded (#126)\r...",
+  "files": [
+    {
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3",
+        "elf"
+      ],
+      "type": "archive",
+      "size": 12700464,
+      "sha256": "4a6e2462ba02814dcff0640e0cc8ba5a36a8caaea680e691f200dc07baefafab",
+      "url": "https://github.com/pierreguillot/Camomile/releases/download/v1.0.7/CamomileLinux64.zip",
+      "downloads": 1708
+    },
+    {
+      "systems": [
+        {
+          "type": "mac"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3",
+        "component"
+      ],
+      "type": "archive",
+      "size": 10083558,
+      "sha256": "8e1c4c27f73045c109c5ed17fb5cfb6e5da24b75385f9024380cb7a115d606bb",
+      "url": "https://github.com/pierreguillot/Camomile/releases/download/v1.0.7/CamomileMacOS.zip",
+      "downloads": 1927
+    },
+    {
+      "systems": [
+        {
+          "type": "win"
+        }
+      ],
+      "architectures": [
+        "x32"
+      ],
+      "contains": [
+        "vst3"
+      ],
+      "type": "archive",
+      "size": 6568352,
+      "sha256": "d52adac924f114795630bde150e17fbb7681bd99610285f8e6fdedab63caa6a3",
+      "url": "https://github.com/pierreguillot/Camomile/releases/download/v1.0.7/CamomileWindows32.zip",
+      "downloads": 473
+    },
+    {
+      "systems": [
+        {
+          "type": "win"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3"
+      ],
+      "type": "archive",
+      "size": 7722347,
+      "sha256": "a7125fa16fff9e53e844228b5d5e400e2914a28ab69b329e342a6e4b2995c1c1",
+      "url": "https://github.com/pierreguillot/Camomile/releases/download/v1.0.7/CamomileWindows64.zip",
+      "downloads": 3181
+    }
+  ],
+  "verified": true,
+  "downloads": 7289
+}
