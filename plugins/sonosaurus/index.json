@@ -1,0 +1,75 @@
+{
+  "sonosaurus/sonobus": {
+    "slug": "sonosaurus/sonobus",
+    "version": "1.7.2",
+    "versions": {
+      "1.7.2": {
+        "name": "SonoBus",
+        "author": "sonosaurus",
+        "description": "A real-time network audio streaming and collaboration tool for jamming or podcasting remotely with high quality, low-latency, peer-to-peer audio.",
+        "license": "gpl-3.0",
+        "type": "tool",
+        "tags": [
+          "Network",
+          "Peer To Peer",
+          "Low Latency",
+          "Music",
+          "Podcasting"
+        ],
+        "url": "https://github.com/sonosaurus/sonobus",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sonosaurus/sonobus/sonobus.jpg",
+        "date": "2023-12-11T05:36:15Z",
+        "changes": "SonoBus 1.7.2 Release Notes\r\n\r\n- Made the use of the universal font optional (defaulting to off), because it was causing slowdowns on some systems. Only enable it if you need to have universal language character support.\r\n\r\nFrom 1.7.1\r\n\r...",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "component",
+              "aax",
+              "vst",
+              "app"
+            ],
+            "type": "installer",
+            "size": 140693153,
+            "sha256": "4ba6eff849973238f45e0a3538b90c9a2d64c0b001d62882d0d337f46e0ddaa9",
+            "url": "https://github.com/sonosaurus/sonobus/releases/download/1.7.2/sonobus-1.7.2-mac.dmg",
+            "downloads": 13193
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x32",
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "aax",
+              "exe"
+            ],
+            "type": "installer",
+            "size": 81195920,
+            "sha256": "9790d2dee5aee327dc4dbd69e43567ece833d41645a35f8adb05b3c39243cfd8",
+            "url": "https://github.com/sonosaurus/sonobus/releases/download/1.7.2/sonobus-1.7.2-win.exe",
+            "downloads": 18202
+          }
+        ],
+        "verified": true,
+        "downloads": 31395
+      }
+    },
+    "downloads": 31395
+  }
+}
