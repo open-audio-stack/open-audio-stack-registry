@@ -1,0 +1,36 @@
+name: Audio Analyzer
+author: rty65tt
+description: An audio analyzer plugin displaying a real-time spectrogram and sonogram of the incoming signal.
+license: gpl-3.0
+type: tool
+tags:
+  - Spectrogram
+  - Analyzer
+  - Visualizer
+url: https://github.com/rty65tt/AudioAnalyzer
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/rty65tt/audioanalyzer/audioanalyzer.jpg
+date: '2024-08-06T14:46:56Z'
+changes: v0.3.3 release.
+files:
+  - systems:
+      - type: mac
+    architectures:
+      - arm64
+      - x64
+    contains:
+      - vst3
+      - component
+    type: archive
+    size: 4074413
+    sha256: 12ce1419405d859b7eca1b04e52f2c4791a1b7c6d63849670bb8236cdebc0e8a
+    url: https://github.com/rty65tt/AudioAnalyzer/releases/download/v0.3.3/AudioAnalyzer.VST3.AU.v0.3.3.mac.zip
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - vst3
+    type: archive
+    size: 2462307
+    sha256: 63df9160ed34051d0f02cd9b7617b747c80522b008c8c667031213d73ccf38a9
+    url: https://github.com/rty65tt/AudioAnalyzer/releases/download/v0.3.3/AudioAnalyzer.vst3.v0.3.3.win64.zip
