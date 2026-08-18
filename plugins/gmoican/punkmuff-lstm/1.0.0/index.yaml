@@ -1,0 +1,37 @@
+name: Punk Muff
+author: Guillermo Moñino Cánovas
+description: A JUCE audio plugin that emulates the behaviour of the Big Muff pedal effect through a ML model.
+license: mit
+type: effect
+tags:
+  - Distortion
+  - Fuzz
+  - Pedal
+  - Emulation
+url: https://github.com/gmoican/PunkMuff_LSTM
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/gmoican/punkmuff-lstm/punkmuff-lstm.jpg
+date: '2024-05-10T09:57:03Z'
+changes: MacOS binaries haven't been signed / notarized / stapled. This may lead to you getting a "File not safe, might be malware" message when downloading.
+files:
+  - systems:
+      - type: mac
+    architectures:
+      - arm64
+      - x64
+    contains:
+      - vst3
+      - component
+    type: archive
+    size: 5425875
+    sha256: 55007d17cc55ed8233e5a95275a42d63582e0d926883b5d4d7492400eb33b2f9
+    url: https://github.com/gmoican/PunkMuff_LSTM/releases/download/v1.0.0/Punk.Muff-1.0.0-macOS.zip
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - vst3
+    type: archive
+    size: 1547250
+    sha256: f505cca3ae46f0f304c0cecc314504d6486785362d08003189b832866315a8b2
+    url: https://github.com/gmoican/PunkMuff_LSTM/releases/download/v1.0.0/Punk.Muff-1.0.0-Windows.zip

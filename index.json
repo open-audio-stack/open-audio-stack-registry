@@ -2297,8 +2297,7 @@
               "size": 10255980,
               "sha256": "9a9c0a1ec5a6160f9811fa163687f8fec89218a6759f4564250932e2fee79d3e",
               "attested": true,
-              "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.3.1/ZL.Equalizer.2-1.3.1-Linux-arm64.zip",
-              "downloads": 29
+              "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.3.1/ZL.Equalizer.2-1.3.1-Linux-arm64.zip"
             },
             {
               "systems": [
@@ -2318,8 +2317,7 @@
               "size": 11200659,
               "sha256": "f6638907703fa6b7ebeabeb4f37874781a94233060165ff2c13bf69b088f7a1e",
               "attested": true,
-              "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.3.1/ZL.Equalizer.2-1.3.1-Linux-x86-64-AVX2.zip",
-              "downloads": 73
+              "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.3.1/ZL.Equalizer.2-1.3.1-Linux-x86-64-AVX2.zip"
             },
             {
               "systems": [
@@ -2339,8 +2337,7 @@
               "size": 10734404,
               "sha256": "40b2de10d636910ca418f314394aecdac9a7ce2cd6066f7d2eda27011f94f1b1",
               "attested": true,
-              "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.3.1/ZL.Equalizer.2-1.3.1-Linux-x86-64.zip",
-              "downloads": 52
+              "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.3.1/ZL.Equalizer.2-1.3.1-Linux-x86-64.zip"
             },
             {
               "systems": [
@@ -2362,8 +2359,7 @@
               "size": 14492688,
               "sha256": "dba5b278c4c4ba70e58b90130cc4a828fbd7e90f26cc96d2d927821bd5ca7d1a",
               "attested": true,
-              "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.3.1/ZL.Equalizer.2-1.3.1-macOS-arm64.dmg",
-              "downloads": 157
+              "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.3.1/ZL.Equalizer.2-1.3.1-macOS-arm64.dmg"
             },
             {
               "systems": [
@@ -2385,8 +2381,7 @@
               "size": 16299778,
               "sha256": "96f201059308717b38609249caca8cc7ddb74b3f6496812a90c743b45ca57ab9",
               "attested": true,
-              "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.3.1/ZL.Equalizer.2-1.3.1-macOS-x86-64.dmg",
-              "downloads": 57
+              "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.3.1/ZL.Equalizer.2-1.3.1-macOS-x86-64.dmg"
             },
             {
               "systems": [
@@ -2405,8 +2400,7 @@
               "size": 8933376,
               "sha256": "75a820009b5ffdbbabc217a8a0e3a087f0913003cb2bc58b757c95a5d02ef046",
               "attested": true,
-              "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.3.1/ZL.Equalizer.2-1.3.1-Windows-arm64.msi",
-              "downloads": 54
+              "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.3.1/ZL.Equalizer.2-1.3.1-Windows-arm64.msi"
             },
             {
               "systems": [
@@ -2425,8 +2419,7 @@
               "size": 13164544,
               "sha256": "cceb114ec04bab8f2810b4ebe7e7b93911f7525aff5fa9eb6593e7bbbc671dca",
               "attested": true,
-              "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.3.1/ZL.Equalizer.2-1.3.1-Windows-x86-64-AVX2.msi",
-              "downloads": 302
+              "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.3.1/ZL.Equalizer.2-1.3.1-Windows-x86-64-AVX2.msi"
             },
             {
               "systems": [
@@ -2445,12 +2438,10 @@
               "size": 12693504,
               "sha256": "cc514e2786d0218d5afc44d4e565d095e08607fbe6bbbfabbdb6bacfcac7259d",
               "attested": true,
-              "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.3.1/ZL.Equalizer.2-1.3.1-Windows-x86-64.msi",
-              "downloads": 292
+              "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.3.1/ZL.Equalizer.2-1.3.1-Windows-x86-64.msi"
             }
           ],
-          "verified": true,
-          "downloads": 1016
+          "verified": true
         },
         "1.2.2": {
           "name": "ZL Equalizer 2",
@@ -2756,8 +2747,7 @@
           ],
           "verified": true
         }
-      },
-      "downloads": 1016
+      }
     },
     "zl-audio/zlcompressor": {
       "slug": "zl-audio/zlcompressor",
@@ -15131,14 +15121,14 @@
               "size": 3313997,
               "sha256": "fb6d96a0a5c7be6b7eaf88989f1b9c7666eca8173a49857c811fb149bc1ef9eb",
               "url": "https://github.com/samplaman/layerengine/releases/download/latest/LayerEngine-Windows.zip",
-              "downloads": 620
+              "downloads": 621
             }
           ],
           "verified": true,
-          "downloads": 915
+          "downloads": 916
         }
       },
-      "downloads": 915
+      "downloads": 916
     },
     "s-oram/grace": {
       "slug": "s-oram/grace",
@@ -35061,6 +35051,72 @@
       },
       "downloads": 7
     },
+    "gmoican/punkmuff-lstm": {
+      "slug": "gmoican/punkmuff-lstm",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "name": "Punk Muff",
+          "author": "Guillermo Moñino Cánovas",
+          "description": "A JUCE audio plugin that emulates the behaviour of the Big Muff pedal effect through a ML model.",
+          "license": "mit",
+          "type": "effect",
+          "tags": [
+            "Distortion",
+            "Fuzz",
+            "Pedal",
+            "Emulation"
+          ],
+          "url": "https://github.com/gmoican/PunkMuff_LSTM",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/gmoican/punkmuff-lstm/punkmuff-lstm.jpg",
+          "date": "2024-05-10T09:57:03Z",
+          "changes": "MacOS binaries haven't been signed / notarized / stapled. This may lead to you getting a \"File not safe, might be malware\" message when downloading.",
+          "files": [
+            {
+              "systems": [
+                {
+                  "type": "mac"
+                }
+              ],
+              "architectures": [
+                "arm64",
+                "x64"
+              ],
+              "contains": [
+                "vst3",
+                "component"
+              ],
+              "type": "archive",
+              "size": 5425875,
+              "sha256": "55007d17cc55ed8233e5a95275a42d63582e0d926883b5d4d7492400eb33b2f9",
+              "url": "https://github.com/gmoican/PunkMuff_LSTM/releases/download/v1.0.0/Punk.Muff-1.0.0-macOS.zip",
+              "downloads": 65
+            },
+            {
+              "systems": [
+                {
+                  "type": "win"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "vst3"
+              ],
+              "type": "archive",
+              "size": 1547250,
+              "sha256": "f505cca3ae46f0f304c0cecc314504d6486785362d08003189b832866315a8b2",
+              "url": "https://github.com/gmoican/PunkMuff_LSTM/releases/download/v1.0.0/Punk.Muff-1.0.0-Windows.zip",
+              "downloads": 193
+            }
+          ],
+          "verified": true,
+          "downloads": 258
+        }
+      },
+      "downloads": 258
+    },
     "gmoican/guitpreamp": {
       "slug": "gmoican/guitpreamp",
       "version": "1.0.0",
@@ -46127,14 +46183,14 @@
               "size": 1299896,
               "sha256": "d1784ede22f7c72351512f021819dfa3da1f1a8fbc462d14df2fc5c4cd866780",
               "url": "https://github.com/bsutherland/JuceOPLVSTi/releases/download/1.0.0/JuceOPLVSTi.x64.Windows.zip",
-              "downloads": 2786
+              "downloads": 2787
             }
           ],
           "verified": true,
-          "downloads": 2786
+          "downloads": 2787
         }
       },
-      "downloads": 2786
+      "downloads": 2787
     },
     "brummer10/rumor": {
       "slug": "brummer10/rumor",
