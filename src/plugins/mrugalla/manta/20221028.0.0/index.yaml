@@ -1,0 +1,37 @@
+name: Manta
+author: Florian Mrugalla
+description: A resonator effect using parallel bandpass filters, plus a comb filter and ring modulator, with a waveform-generating formula parser and a tuning editor for exploring xenharmonic scales.
+license: gpl-3.0
+type: effect
+tags:
+  - Resonator
+  - Comb Filter
+  - Ring Modulation
+  - Xenharmonic
+url: https://github.com/Mrugalla/Manta
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/mrugalla/manta/manta.jpg
+date: '2022-10-28T21:35:15Z'
+changes: Initial release, with bugfixes for a knob text-entry crash and tuning editor modulation not saving.
+files:
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - vst3
+    type: archive
+    size: 6717952
+    sha256: 13f5ada1256b0ab5433285973db65a732d87dda7e43bffd428ea07ee6fee068d
+    url: https://github.com/Mrugalla/Manta/releases/download/VST3/Manta.vst3
+  - systems:
+      - type: mac
+    architectures:
+      - arm64
+      - x64
+    contains:
+      - vst3
+      - component
+    type: archive
+    size: 6822746
+    sha256: ed64285354c546258b966394ed265dc83926104c5aa55a575cf640d1aab35c07
+    url: https://github.com/Mrugalla/Manta/files/9893783/Manta_MacOS_download.zip
