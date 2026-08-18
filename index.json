@@ -3762,8 +3762,7 @@
               "type": "archive",
               "size": 491519,
               "sha256": "858c16bf594ace122cee1854024fb8719c232f593d3ecf3dccee72f22c0b2a08",
-              "url": "https://github.com/wolf-plugins/wolf-spectrum/releases/download/v1.0.0/wolf-spectrum-v1.0.0-linux-vst2.tar.gz",
-              "downloads": 309
+              "url": "https://github.com/wolf-plugins/wolf-spectrum/releases/download/v1.0.0/wolf-spectrum-v1.0.0-linux-vst2.tar.gz"
             },
             {
               "systems": [
@@ -3780,15 +3779,12 @@
               "type": "archive",
               "size": 853466,
               "sha256": "7728372c985c4cb0019f5000858d9486a0444f70fed3c44cac724c05db19c94d",
-              "url": "https://github.com/wolf-plugins/wolf-spectrum/releases/download/v1.0.0/wolf-spectrum-v1.0.0-windows-vst2.zip",
-              "downloads": 1105
+              "url": "https://github.com/wolf-plugins/wolf-spectrum/releases/download/v1.0.0/wolf-spectrum-v1.0.0-windows-vst2.zip"
             }
           ],
-          "verified": true,
-          "downloads": 1414
+          "verified": true
         }
-      },
-      "downloads": 1414
+      }
     },
     "wolf-plugins/wolf-shaper": {
       "slug": "wolf-plugins/wolf-shaper",
@@ -4110,14 +4106,14 @@
               "size": 37740885,
               "sha256": "e4dcc186102850f8dcebeb766ad1bf34c24f6280bd614ef84b72dae4783fc517",
               "url": "https://github.com/werman/noise-suppression-for-voice/releases/download/v1.10/win-rnnoise.zip",
-              "downloads": 335489
+              "downloads": 335491
             }
           ],
           "verified": true,
-          "downloads": 366317
+          "downloads": 366319
         }
       },
-      "downloads": 366317
+      "downloads": 366319
     },
     "webprofusion/soundshed-guitar": {
       "slug": "webprofusion/soundshed-guitar",
@@ -29890,6 +29886,90 @@
         }
       },
       "downloads": 12
+    },
+    "jthwho/sickbeatbetty": {
+      "slug": "jthwho/sickbeatbetty",
+      "version": "1.0.3",
+      "versions": {
+        "1.0.3": {
+          "name": "Sick Beat Betty",
+          "author": "Jason Howard",
+          "description": "A MIDI drum machine and pattern generator, available as a VST plugin and standalone application.",
+          "license": "gpl-3.0",
+          "type": "generator",
+          "tags": [
+            "Drum Machine",
+            "Midi",
+            "Sequencer"
+          ],
+          "url": "https://github.com/jthwho/SickBeatBetty",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/jthwho/sickbeatbetty/sickbeatbetty.jpg",
+          "date": "2022-06-13T04:32:25Z",
+          "changes": "- Windows installer executables are now properly signed by me.\r\n- Now providing a build for Ubuntu Linux.\r\n\r...",
+          "files": [
+            {
+              "systems": [
+                {
+                  "type": "win"
+                }
+              ],
+              "architectures": [
+                "x32"
+              ],
+              "contains": [
+                "vst3",
+                "exe"
+              ],
+              "type": "installer",
+              "size": 4198400,
+              "sha256": "aa7d42f3332783c0a613b5097a8688fddb4a9b28f92596ddf8ac4ae969cca0bc",
+              "url": "https://github.com/jthwho/SickBeatBetty/releases/download/v1.0.3/Sick.Beat.Betty-1.0.3-win32.msi",
+              "downloads": 163
+            },
+            {
+              "systems": [
+                {
+                  "type": "win"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "vst3",
+                "exe"
+              ],
+              "type": "installer",
+              "size": 4915200,
+              "sha256": "18201a719c9315e290701e0751c2ff4506fdbdd5d4ec19997e34ee96d5906143",
+              "url": "https://github.com/jthwho/SickBeatBetty/releases/download/v1.0.3/Sick.Beat.Betty-1.0.3-win64.msi",
+              "downloads": 885
+            },
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "vst3",
+                "elf"
+              ],
+              "type": "archive",
+              "size": 9321537,
+              "sha256": "26c5139625062cffea316aeac0e2e1082c463c2919c2206f5515d9172285210a",
+              "url": "https://github.com/jthwho/SickBeatBetty/releases/download/v1.0.3/sickbeatbetty-ubuntu-release-x64-v1.0.3-9a98bf8b.zip",
+              "downloads": 269
+            }
+          ],
+          "verified": true,
+          "downloads": 1317
+        }
+      },
+      "downloads": 1317
     },
     "jsvaldezv/duck-synth": {
       "slug": "jsvaldezv/duck-synth",
