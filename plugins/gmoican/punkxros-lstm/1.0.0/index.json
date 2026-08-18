@@ -1,0 +1,59 @@
+{
+  "name": "Punk Xros",
+  "author": "Guillermo Moñino Cánovas",
+  "description": "A multiband distortion plugin inspired by the Darkglass Microtubes X, using a machine-learning model trained on the Darkglass Microtubes B3k pedal for its distortion stage.",
+  "license": "mit",
+  "type": "effect",
+  "tags": [
+    "Distortion",
+    "Multiband",
+    "Guitar Pedal",
+    "Darkglass Microtubes B3k"
+  ],
+  "url": "https://github.com/gmoican/PunkXros_LSTM",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/gmoican/punkxros-lstm/punkxros-lstm.jpg",
+  "date": "2024-05-11T15:40:49Z",
+  "changes": "MacOS binaries haven't been signed / notarized / stapled. This may lead to you getting a \"File not safe, might be malware\" message when downloading.\r\n\r\nThe main addition of this release is that the distortion processing is now based on a B3k model.",
+  "files": [
+    {
+      "systems": [
+        {
+          "type": "mac"
+        }
+      ],
+      "architectures": [
+        "arm64",
+        "x64"
+      ],
+      "contains": [
+        "vst3",
+        "component"
+      ],
+      "type": "archive",
+      "size": 5487714,
+      "sha256": "f4dc19d33a06e67d026a4b3f1ad9ebe9129b164bb47f1fd8ec42f4e10064892a",
+      "url": "https://github.com/gmoican/PunkXros_LSTM/releases/download/v1.0.0/Punk.Xros-1.0.0-macOS.zip",
+      "downloads": 51
+    },
+    {
+      "systems": [
+        {
+          "type": "win"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3"
+      ],
+      "type": "archive",
+      "size": 1566657,
+      "sha256": "c04c0834e155f09b39fd3dd00dc98cecf08a166d8df9afa0fb3c67133d61bfae",
+      "url": "https://github.com/gmoican/PunkXros_LSTM/releases/download/v1.0.0/Punk.Xros-1.0.0-Windows.zip",
+      "downloads": 167
+    }
+  ],
+  "verified": true,
+  "downloads": 218
+}
