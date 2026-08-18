@@ -67,6 +67,20 @@
       ]
     }
   },
+  "zl-audio/zlsplitter": {
+    "0.3.0": {
+      "recs": [
+        {
+          "field": "url",
+          "rec": "requires mounting step, consider .pkg instead"
+        },
+        {
+          "field": "url",
+          "rec": "requires mounting step, consider .pkg instead"
+        }
+      ]
+    }
+  },
   "zl-audio/zllmatch": {
     "0.2.4": {
       "recs": [
