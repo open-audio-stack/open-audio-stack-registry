@@ -1,0 +1,38 @@
+{
+  "name": "B.Angr",
+  "author": "sjaehn",
+  "description": "A multi-dimensional, dynamically distorted staggered multi-bandpass plugin for extreme sound mangling, cross-fading between four instances that can follow the beat automatically or be user-controlled.",
+  "license": "gpl-3.0",
+  "type": "effect",
+  "tags": [
+    "Distortion",
+    "Bandpass",
+    "Sound Design"
+  ],
+  "url": "https://github.com/sjaehn/BAngr",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sjaehn/bangr/bangr.jpg",
+  "date": "2023-01-17T09:46:37Z",
+  "changes": "Use new B.Widgets toolkit, internationalization (EN, DE).",
+  "files": [
+    {
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "lv2"
+      ],
+      "type": "archive",
+      "size": 282980,
+      "sha256": "307a2859c78cf3d5a18773b196f8d3409f5a1179be0517c28925ea9bd2777480",
+      "url": "https://github.com/sjaehn/BAngr/releases/download/1.6.2/BAngr-1.6.2-linux-amd64.lv2.tar.xz",
+      "downloads": 75
+    }
+  ],
+  "verified": true,
+  "downloads": 75
+}
