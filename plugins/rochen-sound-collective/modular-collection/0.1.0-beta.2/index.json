@@ -1,0 +1,79 @@
+{
+  "name": "Modular::Patterns",
+  "author": "Rochen Sound Collective",
+  "description": "A MIDI arpeggiator that separates a chord channel from a rhythmic pattern channel, so a chord progression's timing and voicing can be edited independently in the DAW's own MIDI clip editor. Bitwig-only for now.",
+  "license": "gpl-3.0",
+  "type": "generator",
+  "tags": [
+    "Arpeggiator",
+    "Midi Effect",
+    "Chord",
+    "Midi"
+  ],
+  "url": "https://github.com/rochen-sound-collective/modular_collection",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/rochen-sound-collective/modular-collection/modular-collection.jpg",
+  "date": "2022-11-24T23:16:09Z",
+  "changes": "Linux and MacOS builds are untested",
+  "files": [
+    {
+      "systems": [
+        {
+          "type": "mac"
+        }
+      ],
+      "architectures": [
+        "arm64",
+        "x64"
+      ],
+      "contains": [
+        "vst3",
+        "clap"
+      ],
+      "type": "archive",
+      "size": 2042255,
+      "sha256": "76b7db37ad7c5fbf80f6b23ec31061c141cc38c1f4582f0d8853fd8d1cbe20c6",
+      "url": "https://github.com/rochen-sound-collective/modular_collection/releases/download/v0.1.0-beta.2/modular-collection-71107ef-macos-universal.zip",
+      "downloads": 15
+    },
+    {
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3",
+        "clap"
+      ],
+      "type": "archive",
+      "size": 1116391,
+      "sha256": "ea5696964dfc18b20ec25e4347f2b114d628853266ef5e8cc6fe0495ae212a4a",
+      "url": "https://github.com/rochen-sound-collective/modular_collection/releases/download/v0.1.0-beta.2/modular-collection-71107ef-ubuntu-18.04.zip",
+      "downloads": 13
+    },
+    {
+      "systems": [
+        {
+          "type": "win"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3",
+        "clap"
+      ],
+      "type": "archive",
+      "size": 844265,
+      "sha256": "9b396385a9ea6535772a90d75b830b2139cf56625c7f4fa38d48859a83b1d113",
+      "url": "https://github.com/rochen-sound-collective/modular_collection/releases/download/v0.1.0-beta.2/modular-collection-71107ef-windows.zip",
+      "downloads": 27
+    }
+  ],
+  "verified": true,
+  "downloads": 55
+}
