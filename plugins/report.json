@@ -277,6 +277,16 @@
       ]
     }
   },
+  "xivilay/scale-remapper": {
+    "0.7.6": {
+      "recs": [
+        {
+          "field": "architectures",
+          "rec": "should support arm64"
+        }
+      ]
+    }
+  },
   "wolf-plugins/wolf-spectrum": {
     "1.0.0": {
       "recs": [
