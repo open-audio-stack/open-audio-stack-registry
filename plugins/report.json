@@ -1819,6 +1819,20 @@
       ]
     }
   },
+  "raphaelradna/xenos": {
+    "1.0.1": {
+      "recs": [
+        {
+          "field": "url",
+          "rec": "requires mounting step, consider .pkg instead"
+        },
+        {
+          "field": "architectures",
+          "rec": "should support arm64"
+        }
+      ]
+    }
+  },
   "qvbdev/quantumverb": {
     "1.0.0": {
       "recs": [
