@@ -1,0 +1,50 @@
+name: Cypher
+author: WormJuiceDev
+description: A feature-rich, open-source music looper with synthesizer, written entirely in Rust.
+license: gpl-3.0
+type: instrument
+tags:
+  - looper
+  - synthesizer
+  - sampler
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/wormjuicedev/cypher/cypher.jpg
+url: https://github.com/WormJuiceDev/Cypher
+date: '2025-08-16T15:16:10Z'
+changes: |-
+  v0.1.4 "The Atmosphere Engine": adds a generative soundscape instrument
+  (X/Y pad blending four scenes, each with four granular-looping or
+  triggered-event layers), a metronome with BPM double/halve controls, a
+  Formant Filter FX, dedicated looper stop/play, and a supercharged MIDI
+  mapping system (map notes not just CCs, per-device control channels,
+  relative encoder support).
+files:
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - elf
+    type: archive
+    size: 915999474
+    sha256: 314a21923b212eab6fb76b87a738d80d17290efd027ee8a4730642b99727ab12
+    url: https://github.com/WormJuiceDev/Cypher/releases/download/v0.1.4/Cypher-v0.1.4-Linux-x86_64.zip
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - exe
+    type: archive
+    size: 909982816
+    sha256: 2141dfdfe48c9f82971b5192c5f06a048e4eeb2c3b50b4b0d22bd3d358ee68b2
+    url: https://github.com/WormJuiceDev/Cypher/releases/download/v0.1.4/Cypher-v0.1.4-Windows-x86_64.zip
+  - systems:
+      - type: linux
+    architectures:
+      - arm64
+    contains:
+      - elf
+    type: archive
+    size: 1049085822
+    sha256: c5c41b74027929d168656835b45908937a0027f0d9a5b5d8e9856df90e82d2dd
+    url: https://github.com/WormJuiceDev/Cypher/releases/download/v0.1.4/Cypher.0.1.4.Linux.Arm64.zip
