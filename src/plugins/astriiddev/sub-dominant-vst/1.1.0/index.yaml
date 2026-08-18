@@ -1,0 +1,59 @@
+name: Sub Dominant
+author: _astriid_
+description: A glitchy sub-octave fuzz plugin inspired by the EarthQuaker Devices Bit Commander guitar pedal, combining an octave-up fuzz with two filterable, glitching binary-counter sub-octaves.
+license: gpl-3.0
+type: effect
+tags:
+  - Fuzz
+  - Octave
+  - EQD Bit Commander
+url: https://github.com/astriiddev/Sub_Dominant-VST
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/astriiddev/sub-dominant-vst/sub-dominant-vst.jpg
+date: '2024-03-26T03:05:41Z'
+changes: "- removed the pop that would occur during initialization\r\n- fixed bug that would remove custom graphics in one instance of plugin if other instance was deleted\r\n- updated to JUCE 7.0.10"
+files:
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - vst3
+      - lv2
+    type: archive
+    size: 2803619
+    sha256: 2177a407f717cbf8b62e61c886b81a336d90d900462b008134df2ce59c7f0c98
+    url: https://github.com/astriiddev/Sub_Dominant-VST/releases/download/v1.1/SubDominant_linux_x86_64.7z
+  - systems:
+      - type: mac
+    architectures:
+      - arm64
+      - x64
+    contains:
+      - vst3
+      - component
+    type: archive
+    size: 1798176
+    sha256: b488958e52139d32c45cae10a3f14d8aba4f04e7a48be3b16a26766bb44abe59
+    url: https://github.com/astriiddev/Sub_Dominant-VST/releases/download/v1.1/SubDominant_macOS.7z
+  - systems:
+      - type: mac
+    architectures:
+      - arm64
+      - x64
+    contains:
+      - vst3
+      - component
+    type: installer
+    size: 4016613
+    sha256: c3677b7f76f4dadedd9e73f68daf38603c4d0ef4355407f4f28478bf6b003391
+    url: https://github.com/astriiddev/Sub_Dominant-VST/releases/download/v1.1/SubDominant_macOS.pkg
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - vst3
+    type: archive
+    size: 1998848
+    sha256: 7ece7be06aac25d8e260a39defebccf8db91cab14ee2ec050d54a274d1bddfe3
+    url: https://github.com/astriiddev/Sub_Dominant-VST/releases/download/v1.1/SubDominant_win_x86_64.vst3
