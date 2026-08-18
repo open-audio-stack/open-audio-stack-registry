@@ -3121,6 +3121,28 @@
       ]
     }
   },
+  "madskjeldgaard/birdhouse": {
+    "0.1.2": {
+      "recs": [
+        {
+          "field": "url",
+          "rec": "requires mounting step, consider .pkg instead"
+        },
+        {
+          "field": "architectures",
+          "rec": "should support x64"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Linux"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Windows"
+        }
+      ]
+    }
+  },
   "madadog/three-osc": {
     "0.2.0": {
       "recs": [

@@ -1,0 +1,48 @@
+{
+  "slug": "madskjeldgaard/birdhouse",
+  "version": "0.1.2",
+  "versions": {
+    "0.1.2": {
+      "name": "Birdhouse",
+      "author": "Mads Kjeldgaard",
+      "description": "Birdhouse listens for OSC messages and converts them to MIDI (note on/off, CC, pitch bend) in realtime, so OSC-based controllers and software can drive a DAW or plugin host directly.",
+      "license": "gpl-3.0",
+      "type": "tool",
+      "tags": [
+        "MIDI",
+        "OSC",
+        "Bridge"
+      ],
+      "url": "https://github.com/madskjeldgaard/Birdhouse",
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/madskjeldgaard/birdhouse/birdhouse.jpg",
+      "date": "2024-04-10T21:39:24Z",
+      "changes": "**Full Changelog**: https://github.com/madskjeldgaard/Birdhouse/compare/v0.1.1...v0.1.2",
+      "files": [
+        {
+          "systems": [
+            {
+              "type": "mac"
+            }
+          ],
+          "architectures": [
+            "arm64"
+          ],
+          "contains": [
+            "vst3",
+            "component",
+            "clap",
+            "app"
+          ],
+          "type": "installer",
+          "size": 18785989,
+          "sha256": "4d17402902205cbaeea5b63315c40d53e926fdead6cc7a5a1a8593d1a826bd0e",
+          "url": "https://github.com/madskjeldgaard/Birdhouse/releases/download/v0.1.2/BirdHouse_MacARM.dmg",
+          "downloads": 71
+        }
+      ],
+      "verified": true,
+      "downloads": 71
+    }
+  },
+  "downloads": 71
+}
