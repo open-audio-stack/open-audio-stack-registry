@@ -53,7 +53,7 @@
               "size": 9202795,
               "sha256": "3c4c533bda0c5059eea3ddaea752d757ee2025041f0f47e6bcb0e87f6082b29f",
               "url": "https://github.com/Tracktion/pluginval/releases/download/v1.0.4/pluginval_macOS.zip",
-              "downloads": 63655
+              "downloads": 63658
             },
             {
               "systems": [
@@ -73,10 +73,10 @@
             }
           ],
           "verified": true,
-          "downloads": 180756
+          "downloads": 180759
         }
       },
-      "downloads": 180756
+      "downloads": 180759
     },
     "steinberg/validator": {
       "slug": "steinberg/validator",
@@ -215,6 +215,49 @@
         }
       },
       "downloads": 217
+    },
+    "saivert/pwvucontrol": {
+      "slug": "saivert/pwvucontrol",
+      "version": "0.5.3",
+      "versions": {
+        "0.5.3": {
+          "name": "Pwvucontrol",
+          "author": "saivert",
+          "description": "Pipewire Volume Control",
+          "license": "gpl-3.0",
+          "type": "tool",
+          "tags": [
+            "Pipewire",
+            "Volume Control",
+            "Linux"
+          ],
+          "url": "https://github.com/saivert/pwvucontrol",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/apps/saivert/pwvucontrol/pwvucontrol.jpg",
+          "date": "2026-07-08T18:02:00Z",
+          "changes": "What is new?\r\n\r\n- Fixes so it now follows system color scheme (caused by wrong initialization of app).",
+          "files": [
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "type": "installer",
+              "open": "pwvucontrol",
+              "size": 1112056,
+              "sha256": "51f01d55da882c546a56b30a941ad4ac0d57e3e5b6bf69933b06e8fb8ecef0c6",
+              "url": "https://github.com/saivert/pwvucontrol/releases/download/0.5.3/pwvucontrol.flatpak",
+              "downloads": 20
+            }
+          ],
+          "verified": true,
+          "downloads": 20
+        }
+      },
+      "downloads": 20
     },
     "rikorose/deepfilternet": {
       "slug": "rikorose/deepfilternet",
@@ -3231,15 +3274,12 @@
               "type": "archive",
               "size": 4729203,
               "sha256": "5e1d1d709606cb84809969e48d85ea25f41e3fe4d1f4cc27971ece78c4f14632",
-              "url": "https://github.com/yonie/WetReverb/releases/download/v1.0.1/WetReverb-v1.0.1.zip",
-              "downloads": 1633
+              "url": "https://github.com/yonie/WetReverb/releases/download/v1.0.1/WetReverb-v1.0.1.zip"
             }
           ],
-          "verified": true,
-          "downloads": 1633
+          "verified": true
         }
-      },
-      "downloads": 1633
+      }
     },
     "yonie/wetdelay": {
       "slug": "yonie/wetdelay",
@@ -23069,7 +23109,7 @@
               "size": 24954281,
               "sha256": "e0b854b92a4e51ce5851320fb1a9f91ab1a4309f997de070e175b3e5cab4adaf",
               "url": "https://github.com/michaelwillis/dragonfly-reverb/releases/download/3.2.10/dragonfly-reverb-3.2.10-macos-universal.dmg",
-              "downloads": 14270
+              "downloads": 14271
             },
             {
               "systems": [
@@ -23139,10 +23179,10 @@
             }
           ],
           "verified": true,
-          "downloads": 129599
+          "downloads": 129600
         }
       },
-      "downloads": 129599
+      "downloads": 129600
     },
     "michaelhurst97/noizier": {
       "slug": "michaelhurst97/noizier",

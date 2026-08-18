@@ -33,6 +33,32 @@
       ]
     }
   },
+  "saivert/pwvucontrol": {
+    "0.5.3": {
+      "recs": [
+        {
+          "field": "url",
+          "rec": "not a supported format"
+        },
+        {
+          "field": "type",
+          "rec": "should match url field"
+        },
+        {
+          "field": "architectures",
+          "rec": "should support arm64"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Mac"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Windows"
+        }
+      ]
+    }
+  },
   "rikorose/deepfilternet": {
     "0.5.6": {
       "recs": [
