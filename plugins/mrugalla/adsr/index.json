@@ -1,0 +1,63 @@
+{
+  "slug": "mrugalla/adsr",
+  "version": "20221219.0.0",
+  "versions": {
+    "20221219.0.0": {
+      "name": "ADSR",
+      "author": "Florian Mrugalla",
+      "description": "A plugin that transforms MIDI input into an ADSR modulator audio output, usable as a modulation source for other plugins.",
+      "license": "gpl-3.0",
+      "type": "generator",
+      "tags": [
+        "Modulation",
+        "Envelope",
+        "Midi"
+      ],
+      "url": "https://github.com/Mrugalla/ADSR",
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/mrugalla/adsr/adsr.jpg",
+      "date": "2022-12-19T18:19:11Z",
+      "changes": "Initial release.",
+      "files": [
+        {
+          "systems": [
+            {
+              "type": "win"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "vst3"
+          ],
+          "type": "archive",
+          "size": 5669376,
+          "sha256": "0c69f6a03a778138742b80013e34b9522118c0f78df5f2f05b7fc544ca8fe73c",
+          "url": "https://github.com/Mrugalla/ADSR/releases/download/vst/ADSR.vst3",
+          "downloads": 1889
+        },
+        {
+          "systems": [
+            {
+              "type": "mac"
+            }
+          ],
+          "architectures": [
+            "arm64",
+            "x64"
+          ],
+          "contains": [
+            "vst3"
+          ],
+          "type": "archive",
+          "size": 3404433,
+          "sha256": "36216ef4f2755596aa80893cae99bd9dbd5aa9eb6e6b576f7685e4d37f69d537",
+          "url": "https://github.com/Mrugalla/ADSR/files/10298258/ADSR.vst3.mac.zip"
+        }
+      ],
+      "verified": true,
+      "downloads": 1889
+    }
+  },
+  "downloads": 1889
+}
