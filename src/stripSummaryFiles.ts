@@ -1,5 +1,5 @@
 import path from 'path';
-import { fileCreateJson, fileReadJson, RegistryType } from '@open-audio-stack/core';
+import { fileCreateJson, fileExists, fileReadJson, RegistryType } from '@open-audio-stack/core';
 
 // Fields dropped from each file entry at the summary tier - the only fields not needed until a
 // client actually installs a package (which always goes through the org/package/version
@@ -46,6 +46,9 @@ export function stripSummaryFiles(dir: string): void {
     ...Object.values(RegistryType).map(type => path.join(dir, type, 'index.json')),
   ];
   for (const summaryPath of summaryPaths) {
+    // Not every registry.export() call registers all four managers (e.g. a partial build, or a
+    // test that only cares about one type) - skip whichever summary files weren't produced.
+    if (!fileExists(summaryPath)) continue;
     const data = fileReadJson(summaryPath);
     trimSummaryPackage(data);
     fileCreateJson(summaryPath, data);
