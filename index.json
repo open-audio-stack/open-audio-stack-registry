@@ -53,7 +53,7 @@
               "size": 9202795,
               "sha256": "3c4c533bda0c5059eea3ddaea752d757ee2025041f0f47e6bcb0e87f6082b29f",
               "url": "https://github.com/Tracktion/pluginval/releases/download/v1.0.4/pluginval_macOS.zip",
-              "downloads": 66341
+              "downloads": 66343
             },
             {
               "systems": [
@@ -69,14 +69,14 @@
               "size": 2408590,
               "sha256": "c08e61ce3b96db41636f8ec7e76f4c7e2c13ebdac7fa1b5a1f52b4f32ec715ab",
               "url": "https://github.com/Tracktion/pluginval/releases/download/v1.0.4/pluginval_Windows.zip",
-              "downloads": 102812
+              "downloads": 102815
             }
           ],
           "verified": true,
-          "downloads": 187548
+          "downloads": 187553
         }
       },
-      "downloads": 187548
+      "downloads": 187553
     },
     "stemdeckapp/stemdeck": {
       "slug": "stemdeckapp/stemdeck",
@@ -162,7 +162,7 @@
               "size": 7938696,
               "sha256": "30157c1670854fc6626fdda49168f3dabfc61ee9da06b6eca610eb0c1f6e8e85",
               "url": "https://github.com/stemdeckapp/stemdeck/releases/download/v0.14.0/StemDeck-macOS-x64.dmg",
-              "downloads": 27
+              "downloads": 31
             },
             {
               "systems": [
@@ -178,7 +178,7 @@
               "size": 284008736,
               "sha256": "0d781c98de787c1e0a1ed6b9ac77015abaef8510f8c36722db6934c7669eedd0",
               "url": "https://github.com/stemdeckapp/stemdeck/releases/download/v0.14.0/StemDeck-Windows-x64.zip",
-              "downloads": 99
+              "downloads": 101
             },
             {
               "systems": [
@@ -198,10 +198,10 @@
             }
           ],
           "verified": true,
-          "downloads": 371
+          "downloads": 377
         }
       },
-      "downloads": 371
+      "downloads": 377
     },
     "steinberg/validator": {
       "slug": "steinberg/validator",
@@ -498,14 +498,14 @@
               "size": 36417296,
               "sha256": "70775e251eee44c0f2451a1e833326cf8bcbbe304d3e7cd12851e6fce72ef7da",
               "url": "https://github.com/Rikorose/DeepFilterNet/releases/download/v0.5.6/deep-filter-0.5.6-x86_64-unknown-linux-musl",
-              "downloads": 33070
+              "downloads": 33072
             }
           ],
           "verified": true,
-          "downloads": 57962
+          "downloads": 57964
         }
       },
-      "downloads": 57962
+      "downloads": 57964
     },
     "pkunk/pwrate": {
       "slug": "pkunk/pwrate",
@@ -9459,8 +9459,7 @@
               "type": "archive",
               "size": 1540951,
               "sha256": "99174bcd35dceaa675124357e7f37f8ec0d31a987db1e579884ce6ff47e770f0",
-              "url": "https://github.com/Thiagohgl/DyERS-dynamic-resonance-suppressor/releases/download/v0.3/DynamicEqualizer-AU-MacOS.zip",
-              "downloads": 4
+              "url": "https://github.com/Thiagohgl/DyERS-dynamic-resonance-suppressor/releases/download/v0.3/DynamicEqualizer-AU-MacOS.zip"
             },
             {
               "systems": [
@@ -9477,15 +9476,12 @@
               "type": "archive",
               "size": 1535910,
               "sha256": "acf25ca4d13a2a6d84686860e1769b08f51903c80daaafb847d38e42a6150ad0",
-              "url": "https://github.com/Thiagohgl/DyERS-dynamic-resonance-suppressor/releases/download/v0.3/DynamicEqualizer-VST-MacOS.zip",
-              "downloads": 4
+              "url": "https://github.com/Thiagohgl/DyERS-dynamic-resonance-suppressor/releases/download/v0.3/DynamicEqualizer-VST-MacOS.zip"
             }
           ],
-          "verified": true,
-          "downloads": 8
+          "verified": true
         }
-      },
-      "downloads": 8
+      }
     },
     "thewisker/cavasik": {
       "slug": "thewisker/cavasik",
@@ -13187,7 +13183,7 @@
               "size": 140693153,
               "sha256": "4ba6eff849973238f45e0a3538b90c9a2d64c0b001d62882d0d337f46e0ddaa9",
               "url": "https://github.com/sonosaurus/sonobus/releases/download/1.7.2/sonobus-1.7.2-mac.dmg",
-              "downloads": 13813
+              "downloads": 13814
             },
             {
               "systems": [
@@ -13212,10 +13208,10 @@
             }
           ],
           "verified": true,
-          "downloads": 32107
+          "downloads": 32108
         }
       },
-      "downloads": 32107
+      "downloads": 32108
     },
     "solidfuel/utility": {
       "slug": "solidfuel/utility",
@@ -14495,14 +14491,14 @@
               "size": 10349826,
               "sha256": "83e2825241d4e1c0ab2c44c91c0a9be6a94941a81df0c2fbe05e83b2650470da",
               "url": "https://github.com/Sinuslabs/Reach/releases/download/1.6.6/Reach-Windows.exe",
-              "downloads": 180132
+              "downloads": 180136
             }
           ],
           "verified": true,
-          "downloads": 182003
+          "downloads": 182007
         }
       },
-      "downloads": 182003
+      "downloads": 182007
     },
     "sfztools/sfizz-ui": {
       "slug": "sfztools/sfizz-ui",
@@ -26627,8 +26623,119 @@
     },
     "lsp-plugins/lsp-plugins": {
       "slug": "lsp-plugins/lsp-plugins",
-      "version": "1.2.34",
+      "version": "1.2.35",
       "versions": {
+        "1.2.35": {
+          "name": "LSP Plugins",
+          "author": "Vladimir Sadovnikov",
+          "description": "A collection of open-source audio effects, synthesizers, and tools designed for music and sound production, primarily on the GNU/Linux platform.",
+          "license": "lgpl-3.0",
+          "type": "effect",
+          "tags": [
+            "Effect",
+            "Multiband",
+            "Dynamics",
+            "Gate",
+            "Density",
+            "Phase",
+            "De-Esser",
+            "Breath Control"
+          ],
+          "url": "https://github.com/lsp-plugins/lsp-plugins",
+          "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/lsp-plugins/lsp-plugins/lsp-plugins.flac",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/lsp-plugins/lsp-plugins/lsp-plugins.jpg",
+          "donate": "https://www.patreon.com/c/sadko4u",
+          "date": "2026-08-23T13:19:32Z",
+          "changes": "* Bugfix in JACK driver that could cause connection estimation problem on the\n  libjack library that could not be detected under PipeWire.\n* Updated build scripts that could crash on binary dependencies when issuing\n  multithreaded build.\n",
+          "files": [
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "arm64"
+              ],
+              "contains": [
+                "clap",
+                "lv2",
+                "vst3",
+                "so"
+              ],
+              "type": "archive",
+              "size": 35839682,
+              "sha256": "045d15f8a2f2b9c020cada7c22ed8d62f8d65bf665c4f271626817bd68d036c3",
+              "url": "https://github.com/lsp-plugins/lsp-plugins/releases/download/1.2.35/lsp-plugins-1.2.35-Linux-aarch64.7z",
+              "downloads": 6
+            },
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "arm32"
+              ],
+              "contains": [
+                "clap",
+                "lv2",
+                "vst3",
+                "so"
+              ],
+              "type": "archive",
+              "size": 32189163,
+              "sha256": "4f5b0879bb0bc10b079d381f46f6b6f762247886a3889351c5c9a444343a3ed0",
+              "url": "https://github.com/lsp-plugins/lsp-plugins/releases/download/1.2.35/lsp-plugins-1.2.35-Linux-arm32.7z",
+              "downloads": 2
+            },
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "x32"
+              ],
+              "contains": [
+                "clap",
+                "lv2",
+                "vst3",
+                "so"
+              ],
+              "type": "archive",
+              "size": 32961513,
+              "sha256": "83903f25f1fb57948ac67a76efa835c69f7a0237648a94a1de81e3ec0ad24a61",
+              "url": "https://github.com/lsp-plugins/lsp-plugins/releases/download/1.2.35/lsp-plugins-1.2.35-Linux-i586.7z",
+              "downloads": 4
+            },
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "clap",
+                "lv2",
+                "vst3",
+                "so"
+              ],
+              "type": "archive",
+              "size": 38793460,
+              "sha256": "4ef3b2f63b29a522fdaf3a18f879c1c85c82f0bdd1e0b3c849a5f3c4b08d2550",
+              "url": "https://github.com/lsp-plugins/lsp-plugins/releases/download/1.2.35/lsp-plugins-1.2.35-Linux-x86_64.7z",
+              "downloads": 86
+            }
+          ],
+          "verified": true,
+          "downloads": 98
+        },
         "1.2.34": {
           "name": "LSP Plugins",
           "author": "Vladimir Sadovnikov",
@@ -27518,7 +27625,7 @@
           "downloads": 3421
         }
       },
-      "downloads": 25836
+      "downloads": 25934
     },
     "longkelvin/midi-chord-detector-plugin": {
       "slug": "longkelvin/midi-chord-detector-plugin",
@@ -28658,14 +28765,14 @@
               "size": 39364144,
               "sha256": "9144ec0b0263931ccad8d91d6ae8634d8a8f64ecd5e365ea1fa6180688580769",
               "url": "https://github.com/kushview/element/releases/download/1.0.0/element-1.0.0-win64.exe",
-              "downloads": 18024
+              "downloads": 18025
             }
           ],
           "verified": true,
-          "downloads": 25652
+          "downloads": 25653
         }
       },
-      "downloads": 25652
+      "downloads": 25653
     },
     "kiriki-liszt/relief-eq": {
       "slug": "kiriki-liszt/relief-eq",
@@ -47150,14 +47257,14 @@
               "size": 10646528,
               "sha256": "8ba6e91196067244837877d9ca4a8e4a1f5bfad60cf33fa699c8a5b41f1211bf",
               "url": "https://github.com/jatinchowdhury18/AnalogTapeModel/releases/download/v2.11.4/ChowTapeModel-Win-64bit-2.11.4.exe",
-              "downloads": 63136
+              "downloads": 63138
             }
           ],
           "verified": false,
-          "downloads": 109347
+          "downloads": 109349
         }
       },
-      "downloads": 109347
+      "downloads": 109349
     },
     "chowdhury-dsp/chowmultitool": {
       "slug": "chowdhury-dsp/chowmultitool",
@@ -53261,14 +53368,14 @@
               "size": 52657139,
               "sha256": "b1f48ed38f3fe46f1d3a3949d69db6cf8a1b6e74ffd3166840686f57d445e7b0",
               "url": "https://github.com/Altinus/Alt-Denoiser/releases/download/v1.0.1/Alt-Denoiser-windows.zip",
-              "downloads": 975
+              "downloads": 976
             }
           ],
           "verified": true,
-          "downloads": 975
+          "downloads": 976
         }
       },
-      "downloads": 975
+      "downloads": 976
     },
     "allenloves/guitarstrumsequencer": {
       "slug": "allenloves/guitarstrumsequencer",

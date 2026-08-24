@@ -3496,6 +3496,18 @@
     }
   },
   "lsp-plugins/lsp-plugins": {
+    "1.2.35": {
+      "recs": [
+        {
+          "field": "systems",
+          "rec": "should support Mac"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Windows"
+        }
+      ]
+    },
     "1.2.34": {
       "recs": [
         {
