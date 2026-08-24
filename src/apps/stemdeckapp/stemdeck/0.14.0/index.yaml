@@ -1,0 +1,71 @@
+name: StemDeck
+author: StemDeck
+description: Free, local stem separation for musicians and producers. Splits audio into up to six stems (vocals, drums, bass, guitar, piano, other) using Demucs, with a DAW-style multitrack mixer for playback, muting, soloing, looping, and exporting.
+license: apache-2.0
+type: tool
+tags:
+  - Stem Separation
+  - Demucs
+  - Mixer
+  - Waveform Editor
+  - Local
+url: https://github.com/stemdeckapp/stemdeck
+image: https://open-audio-stack.github.io/open-audio-stack-registry/apps/stemdeckapp/stemdeck/stemdeck.jpg
+date: '2026-08-23T20:30:03Z'
+changes: |
+  Click-to-update on Windows and Linux, fetching only the app layer instead of the full package. French translation added. Update check now sees pre-releases. Leaner Windows packages.
+files:
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    type: archive
+    open: StemDeck
+    size: 391797882
+    sha256: 2050d509f0656766aa529328cd28447c8d53be739f43876b641942edd0b54b68
+    url: https://github.com/stemdeckapp/stemdeck/releases/download/v0.14.0/StemDeck-Linux-x64.tar.gz
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    type: archive
+    open: StemDeck
+    size: 391931628
+    sha256: c6de6504e4c1b919e198e1bae47bde6d76d384e2da0580f71367282b71daa3ec
+    url: https://github.com/stemdeckapp/stemdeck/releases/download/v0.14.0/StemDeck-Linux-x64.NVIDIA.tar.gz
+  - systems:
+      - type: mac
+    architectures:
+      - arm64
+    type: installer
+    open: StemDeck.app
+    size: 7755967
+    sha256: 65e463c2b083fed6f76771bc8b562f5e268f3e41a9dec962e67c035814e8d575
+    url: https://github.com/stemdeckapp/stemdeck/releases/download/v0.14.0/StemDeck-macOS-arm64.dmg
+  - systems:
+      - type: mac
+    architectures:
+      - x64
+    type: installer
+    open: StemDeck.app
+    size: 7938696
+    sha256: 30157c1670854fc6626fdda49168f3dabfc61ee9da06b6eca610eb0c1f6e8e85
+    url: https://github.com/stemdeckapp/stemdeck/releases/download/v0.14.0/StemDeck-macOS-x64.dmg
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    type: archive
+    open: StemDeck.exe
+    size: 284008736
+    sha256: 0d781c98de787c1e0a1ed6b9ac77015abaef8510f8c36722db6934c7669eedd0
+    url: https://github.com/stemdeckapp/stemdeck/releases/download/v0.14.0/StemDeck-Windows-x64.zip
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    type: archive
+    open: StemDeck.exe
+    size: 284007982
+    sha256: c039699ad0603e5579b1d350dd6f54260f8711017d21cd0d4196dbbce467a259
+    url: https://github.com/stemdeckapp/stemdeck/releases/download/v0.14.0/StemDeck-Windows-x64.NVIDIA.zip
