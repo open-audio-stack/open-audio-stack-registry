@@ -9,6 +9,20 @@
       ]
     }
   },
+  "stemdeckapp/stemdeck": {
+    "0.14.0": {
+      "recs": [
+        {
+          "field": "url",
+          "rec": "requires mounting step, consider .pkg instead"
+        },
+        {
+          "field": "url",
+          "rec": "requires mounting step, consider .pkg instead"
+        }
+      ]
+    }
+  },
   "steinberg/validator": {
     "0.0.1": {
       "recs": [
