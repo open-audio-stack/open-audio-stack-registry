@@ -1,0 +1,56 @@
+name: Sfizioso Player
+author: Patrizio Rullo
+description: An open-source SFZ sample player (VST3/AU/Standalone) with MPE support, built on the sfizioso engine — an independent, MPE-capable fork of sfizz.
+license: agpl-3.0
+type: sampler
+tags:
+  - Sampler
+  - Sample Player
+  - Rompler
+  - SFZ
+  - Virtual Instrument
+  - MPE
+  - Music Production
+  - Sfizz
+url: https://github.com/rullopat/sfizioso-player
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/rullopat/sfizioso-player/sfizioso-player.jpg
+date: '2026-08-26T08:54:33Z'
+changes: |-
+  Adds native Linux support (VST3 + Standalone) with CI packaging and pluginval
+  validation, and updates the bundled sfizioso engine to 1.1.0. Fixes Linux
+  WebView plugin-host integration and PIC builds for VST3 linkage.
+files:
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - vst3
+      - elf
+    type: archive
+    size: 7207348
+    sha256: eda38ead85bdff88319a670ff9ad3aa85ee7bf32660042a411369e1b5900d47c
+    url: https://github.com/rullopat/sfizioso-player/releases/download/v0.11.0/sfizioso-player-linux.tar.gz
+  - systems:
+      - type: mac
+    architectures:
+      - arm64
+    contains:
+      - vst3
+      - component
+      - app
+    type: archive
+    size: 7420532
+    sha256: a1a6a1653d6a54392296932200b7b34a1f1fd177109491e5b6aa21ed8c283de8
+    url: https://github.com/rullopat/sfizioso-player/releases/download/v0.11.0/sfizioso-player-macos.tar.gz
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - vst3
+      - exe
+    type: archive
+    size: 5120508
+    sha256: e13ae22627df93e49beb87833e7afe9fe3656dd8e008907177bda5dea6ff3995
+    url: https://github.com/rullopat/sfizioso-player/releases/download/v0.11.0/sfizioso-player-windows.zip

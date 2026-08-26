@@ -39,7 +39,8 @@
           ],
           "size": 8521431,
           "type": "archive",
-          "url": "https://github.com/trencrumb/SpectralShift/releases/download/v0.1.1/Spectral.Shift-0.1.1-Linux.zip"
+          "url": "https://github.com/trencrumb/SpectralShift/releases/download/v0.1.1/Spectral.Shift-0.1.1-Linux.zip",
+          "downloads": 217
         },
         {
           "architectures": [
@@ -61,7 +62,8 @@
           ],
           "size": 18460439,
           "type": "installer",
-          "url": "https://github.com/trencrumb/SpectralShift/releases/download/v0.1.1/Spectral.Shift-0.1.1-macOS.pkg"
+          "url": "https://github.com/trencrumb/SpectralShift/releases/download/v0.1.1/Spectral.Shift-0.1.1-macOS.pkg",
+          "downloads": 55
         },
         {
           "architectures": [
@@ -81,10 +83,13 @@
           ],
           "size": 11325440,
           "type": "installer",
-          "url": "https://github.com/trencrumb/SpectralShift/releases/download/v0.1.1/Spectral.Shift-0.1.1-Windows.msi"
+          "url": "https://github.com/trencrumb/SpectralShift/releases/download/v0.1.1/Spectral.Shift-0.1.1-Windows.msi",
+          "downloads": 139
         }
       ],
-      "verified": true
+      "verified": true,
+      "downloads": 411
     }
-  }
+  },
+  "downloads": 411
 }

@@ -35,7 +35,7 @@
             "size": 391797882,
             "sha256": "2050d509f0656766aa529328cd28447c8d53be739f43876b641942edd0b54b68",
             "url": "https://github.com/stemdeckapp/stemdeck/releases/download/v0.14.0/StemDeck-Linux-x64.tar.gz",
-            "downloads": 30
+            "downloads": 55
           },
           {
             "systems": [
@@ -51,7 +51,7 @@
             "size": 391931628,
             "sha256": "c6de6504e4c1b919e198e1bae47bde6d76d384e2da0580f71367282b71daa3ec",
             "url": "https://github.com/stemdeckapp/stemdeck/releases/download/v0.14.0/StemDeck-Linux-x64.NVIDIA.tar.gz",
-            "downloads": 26
+            "downloads": 46
           },
           {
             "systems": [
@@ -67,7 +67,7 @@
             "size": 7755967,
             "sha256": "65e463c2b083fed6f76771bc8b562f5e268f3e41a9dec962e67c035814e8d575",
             "url": "https://github.com/stemdeckapp/stemdeck/releases/download/v0.14.0/StemDeck-macOS-arm64.dmg",
-            "downloads": 74
+            "downloads": 167
           },
           {
             "systems": [
@@ -83,7 +83,7 @@
             "size": 7938696,
             "sha256": "30157c1670854fc6626fdda49168f3dabfc61ee9da06b6eca610eb0c1f6e8e85",
             "url": "https://github.com/stemdeckapp/stemdeck/releases/download/v0.14.0/StemDeck-macOS-x64.dmg",
-            "downloads": 31
+            "downloads": 64
           },
           {
             "systems": [
@@ -99,7 +99,7 @@
             "size": 284008736,
             "sha256": "0d781c98de787c1e0a1ed6b9ac77015abaef8510f8c36722db6934c7669eedd0",
             "url": "https://github.com/stemdeckapp/stemdeck/releases/download/v0.14.0/StemDeck-Windows-x64.zip",
-            "downloads": 101
+            "downloads": 248
           },
           {
             "systems": [
@@ -115,13 +115,13 @@
             "size": 284007982,
             "sha256": "c039699ad0603e5579b1d350dd6f54260f8711017d21cd0d4196dbbce467a259",
             "url": "https://github.com/stemdeckapp/stemdeck/releases/download/v0.14.0/StemDeck-Windows-x64.NVIDIA.zip",
-            "downloads": 115
+            "downloads": 257
           }
         ],
         "verified": true,
-        "downloads": 377
+        "downloads": 837
       }
     },
-    "downloads": 377
+    "downloads": 837
   }
 }

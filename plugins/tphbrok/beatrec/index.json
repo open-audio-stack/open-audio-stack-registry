@@ -33,7 +33,8 @@
           "type": "archive",
           "size": 5844765,
           "sha256": "01fe42b0a3bdc979ee5fd1ca50c8f8162679e6da0613d0809c38fdd4783137f0",
-          "url": "https://github.com/tphbrok/beatrec/releases/download/v0.2.1/beatrec-v0.2.1-linux-x86_64-clap.zip"
+          "url": "https://github.com/tphbrok/beatrec/releases/download/v0.2.1/beatrec-v0.2.1-linux-x86_64-clap.zip",
+          "downloads": 12
         },
         {
           "systems": [
@@ -50,7 +51,8 @@
           "type": "archive",
           "size": 5845355,
           "sha256": "ad7383651a2f1b867aebf44553400e40532ddb1705ba853e42158da364d98303",
-          "url": "https://github.com/tphbrok/beatrec/releases/download/v0.2.1/beatrec-v0.2.1-linux-x86_64-vst3.zip"
+          "url": "https://github.com/tphbrok/beatrec/releases/download/v0.2.1/beatrec-v0.2.1-linux-x86_64-vst3.zip",
+          "downloads": 17
         },
         {
           "systems": [
@@ -67,7 +69,8 @@
           "type": "archive",
           "size": 4007403,
           "sha256": "c2874dbf5039b2e0fcb8def2b31c1175df67bd70ca8c1df345d08b63a514e8b4",
-          "url": "https://github.com/tphbrok/beatrec/releases/download/v0.2.1/beatrec-v0.2.1-macos-arm64-clap.zip"
+          "url": "https://github.com/tphbrok/beatrec/releases/download/v0.2.1/beatrec-v0.2.1-macos-arm64-clap.zip",
+          "downloads": 10
         },
         {
           "systems": [
@@ -84,7 +87,8 @@
           "type": "archive",
           "size": 4007403,
           "sha256": "336501e4f02b26b65f224b3b22316132add6fc3301bee43e70b17b892de332e9",
-          "url": "https://github.com/tphbrok/beatrec/releases/download/v0.2.1/beatrec-v0.2.1-macos-arm64-vst3.zip"
+          "url": "https://github.com/tphbrok/beatrec/releases/download/v0.2.1/beatrec-v0.2.1-macos-arm64-vst3.zip",
+          "downloads": 10
         },
         {
           "systems": [
@@ -101,7 +105,8 @@
           "type": "archive",
           "size": 4133245,
           "sha256": "d56fe6ca4f41b59369b6a6c4df3fc7b0e77cc4a7b6b50197775bd6e2e7100016",
-          "url": "https://github.com/tphbrok/beatrec/releases/download/v0.2.1/beatrec-v0.2.1-macos-x86_64-clap.zip"
+          "url": "https://github.com/tphbrok/beatrec/releases/download/v0.2.1/beatrec-v0.2.1-macos-x86_64-clap.zip",
+          "downloads": 6
         },
         {
           "systems": [
@@ -118,10 +123,13 @@
           "type": "archive",
           "size": 4133245,
           "sha256": "65e996beb3891f98b4ba2446dbe02f5f172ee5000bb3be037e0ba64ff5adf4df",
-          "url": "https://github.com/tphbrok/beatrec/releases/download/v0.2.1/beatrec-v0.2.1-macos-x86_64-vst3.zip"
+          "url": "https://github.com/tphbrok/beatrec/releases/download/v0.2.1/beatrec-v0.2.1-macos-x86_64-vst3.zip",
+          "downloads": 16
         }
       ],
-      "verified": true
+      "verified": true,
+      "downloads": 71
     }
-  }
+  },
+  "downloads": 71
 }
