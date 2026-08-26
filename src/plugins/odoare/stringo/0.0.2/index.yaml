@@ -1,0 +1,33 @@
+name: StrinGO
+author: odoare
+description: A waveguide synthesis plugin
+type: instrument
+license: lgpl-3.0
+tags:
+  - Synth
+  - Wavetable
+url: https://github.com/odoare/StrinGO
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/odoare/stringo/stringo.jpg
+date: '2024-10-06T00:00:00.000Z'
+changes: '- New version with 3 lfo than can modulate some parameters.'
+files:
+  - architectures:
+      - x64
+    contains:
+      - vst3
+    sha256: ab94cd506f03afaf674cdfdee791fbb2387ce7dc1f45a8f3b6bcf6b4ffa5a984
+    systems:
+      - type: linux
+    size: 4716556
+    type: archive
+    url: https://github.com/odoare/StrinGO/releases/download/0.0.2/StrinGO-0.0.2-LIN-VST3.7z
+  - architectures:
+      - x64
+    contains:
+      - vst3
+    sha256: 0cf26468ef1f01d8f7917fe0463d49a0eed67086d87663d5fa1fee3718159f12
+    systems:
+      - type: win
+    size: 2318485
+    type: archive
+    url: https://github.com/odoare/StrinGO/releases/download/0.0.2/StrinGO-0.0.2-WIN-VST3.7z
