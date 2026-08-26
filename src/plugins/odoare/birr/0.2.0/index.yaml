@@ -1,0 +1,67 @@
+name: BiRR
+author: Olivier Doaré
+description: Binaural Room Reverb
+license: lgpl-3.0
+type: effect
+tags:
+  - Binaural
+  - Impulse Response
+  - Reverb
+url: https://github.com/odoare/BiRR
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/odoare/birr/birr.jpg
+date: '2025-10-01T17:43:45Z'
+changes: |-
+  - There are now 3 room views : XY plane, XZ plane, and a 3D box view
+  - Fix a bug in AmbiRR if samplerate > 44100Hz
+  - IR export now works on Windows too
+files:
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - dll
+    type: archive
+    size: 14404897
+    sha256: b09628ca048b1f24f46be1fc457746f9bf4066811d2a93fa89171a4a4012df46
+    url: https://github.com/odoare/BiRR/releases/download/0.2/BiRR_AmbiRR.0.2.WIN.x64.VST2.zip
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - vst3
+    type: archive
+    size: 14544390
+    sha256: 11374b6cf0f3ec6cdfb8011f3c21bd9ef16a9b3471fd92782c6c18591e1f6a4a
+    url: https://github.com/odoare/BiRR/releases/download/0.2/BiRR_AmbiRR.0.2.WIN.x64.VST3.zip
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - so
+    type: archive
+    size: 17559233
+    sha256: f5b86ac38c91d6c65ea4dd65ae65e4ad9df53ff1b7085a9bbde55ac8e59bd0d0
+    url: https://github.com/odoare/BiRR/releases/download/0.2/BiRR_AmbiRR.0.2.LIN.x64.VST2.zip
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - vst3
+    type: archive
+    size: 18023657
+    sha256: fa50647122630e5285c4323acadec774987a7436859995d53245a22ddef94fb3
+    url: https://github.com/odoare/BiRR/releases/download/0.2/BiRR_AmbiRR.0.2.LIN.x64.VST3.zip
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - lv2
+    type: archive
+    size: 17575882
+    sha256: 19340d0814d20bd4da1ec157cb96e36681a4e9faf2b19aaa39ae8180b1d8288c
+    url: https://github.com/odoare/BiRR/releases/download/0.2/BiRR_AmbiRR.0.2.LIN.x64.LV2.zip
