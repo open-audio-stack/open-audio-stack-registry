@@ -33,7 +33,8 @@
             "type": "archive",
             "size": 8969709,
             "sha256": "784902d77964a1e64cbf1547c52afc1cc235c37b6f282bbe1e51fae48b42ac13",
-            "url": "https://github.com/tucktuckg00se/INTERSECT/releases/download/v0.15.2/INTERSECT-v0.15.2-Linux-x64.zip"
+            "url": "https://github.com/tucktuckg00se/INTERSECT/releases/download/v0.15.2/INTERSECT-v0.15.2-Linux-x64.zip",
+            "downloads": 44
           },
           {
             "systems": [
@@ -52,7 +53,8 @@
             "type": "archive",
             "size": 8860344,
             "sha256": "2e52b922469488b5b5cdd9a428903966b9ecadc0997b68505fa5fc23aaa833d5",
-            "url": "https://github.com/tucktuckg00se/INTERSECT/releases/download/v0.15.2/INTERSECT-v0.15.2-macOS-arm64.zip"
+            "url": "https://github.com/tucktuckg00se/INTERSECT/releases/download/v0.15.2/INTERSECT-v0.15.2-macOS-arm64.zip",
+            "downloads": 22
           },
           {
             "systems": [
@@ -71,7 +73,8 @@
             "type": "archive",
             "size": 9631110,
             "sha256": "227bdcae9b8da7cc35f7d3ff0ba0dcba01229ce2fc6bc4e47b09deb9efcb39db",
-            "url": "https://github.com/tucktuckg00se/INTERSECT/releases/download/v0.15.2/INTERSECT-v0.15.2-macOS-x64.zip"
+            "url": "https://github.com/tucktuckg00se/INTERSECT/releases/download/v0.15.2/INTERSECT-v0.15.2-macOS-x64.zip",
+            "downloads": 18
           },
           {
             "systems": [
@@ -89,10 +92,12 @@
             "type": "archive",
             "size": 7127409,
             "sha256": "884f0b22fe1ffc985ab5e3cb8e5359d5e560c89ec56ea6be52d787adb8470738",
-            "url": "https://github.com/tucktuckg00se/INTERSECT/releases/download/v0.15.2/INTERSECT-v0.15.2-Windows-x64.zip"
+            "url": "https://github.com/tucktuckg00se/INTERSECT/releases/download/v0.15.2/INTERSECT-v0.15.2-Windows-x64.zip",
+            "downloads": 91
           }
         ],
-        "verified": true
+        "verified": true,
+        "downloads": 175
       },
       "0.15.1": {
         "name": "INTERSECT",
@@ -124,7 +129,8 @@
             "type": "archive",
             "size": 8972398,
             "sha256": "b4feec14c28b03fcb5ca90acd3d260907e05acf08b5465df36cf7b4de3dddaa8",
-            "url": "https://github.com/tucktuckg00se/INTERSECT/releases/download/v0.15.1/INTERSECT-v0.15.1-Linux-x64.zip"
+            "url": "https://github.com/tucktuckg00se/INTERSECT/releases/download/v0.15.1/INTERSECT-v0.15.1-Linux-x64.zip",
+            "downloads": 131
           },
           {
             "systems": [
@@ -142,7 +148,8 @@
             "type": "archive",
             "size": 8802875,
             "sha256": "de7b2b685c116c833ccec02433ebcfb1fff5950ed142ad8f6284627566058d93",
-            "url": "https://github.com/tucktuckg00se/INTERSECT/releases/download/v0.15.1/INTERSECT-v0.15.1-macOS-arm64.zip"
+            "url": "https://github.com/tucktuckg00se/INTERSECT/releases/download/v0.15.1/INTERSECT-v0.15.1-macOS-arm64.zip",
+            "downloads": 65
           },
           {
             "systems": [
@@ -160,7 +167,8 @@
             "type": "archive",
             "size": 9632468,
             "sha256": "c52f799a8df16170a6db2671897ffd7ce3f0ddc60170e8056243c68b04c360e9",
-            "url": "https://github.com/tucktuckg00se/INTERSECT/releases/download/v0.15.1/INTERSECT-v0.15.1-macOS-x64.zip"
+            "url": "https://github.com/tucktuckg00se/INTERSECT/releases/download/v0.15.1/INTERSECT-v0.15.1-macOS-x64.zip",
+            "downloads": 38
           },
           {
             "systems": [
@@ -178,11 +186,14 @@
             "type": "archive",
             "size": 6835454,
             "sha256": "78831b9ac1fd828b018e2da556215ba25706d5a25dd78903ec25e360cca0c0b3",
-            "url": "https://github.com/tucktuckg00se/INTERSECT/releases/download/v0.15.1/INTERSECT-v0.15.1-Windows-x64.zip"
+            "url": "https://github.com/tucktuckg00se/INTERSECT/releases/download/v0.15.1/INTERSECT-v0.15.1-Windows-x64.zip",
+            "downloads": 227
           }
         ],
-        "verified": true
+        "verified": true,
+        "downloads": 461
       }
-    }
+    },
+    "downloads": 636
   }
 }

@@ -1,7 +1,7 @@
 {
   "name": "Wet Reverb",
   "author": "yonie",
-  "description": "Open source reverb plugin with authentic 80s rack-style character — 5 reverb modes, 12-bit quantization, 24kHz internal rate, and early reflections",
+  "description": "An open-source reverb with 80s rack-style character: five modes, 24 kHz internal rate, 12-bit quantisation. Free, MIT, VST3 for Windows, macOS and Linux.",
   "license": "mit",
   "type": "effect",
   "tags": [
@@ -11,8 +11,8 @@
   ],
   "url": "https://github.com/yonie/WetReverb",
   "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/yonie/wetreverb/wetreverb.jpg",
-  "date": "2026-03-28T21:35:32Z",
-  "changes": "Fixed a bug where the selected reverb mode was not remembered across DAW sessions.\n\n\n**Full Changelog**: https://github.com/yonie/WetReverb/compare/v1.0.0...v1.0.1",
+  "date": "2026-08-28T19:56:49Z",
+  "changes": "Adds a UI zoom option for high-resolution displays. Right-click the panel and choose 75, 100 or 125 percent.",
   "files": [
     {
       "systems": [
@@ -34,12 +34,12 @@
         "vst3"
       ],
       "type": "archive",
-      "size": 4729203,
-      "sha256": "5e1d1d709606cb84809969e48d85ea25f41e3fe4d1f4cc27971ece78c4f14632",
-      "url": "https://github.com/yonie/WetReverb/releases/download/v1.0.1/WetReverb-v1.0.1.zip",
-      "downloads": 1659
+      "size": 4733779,
+      "sha256": "5558474c171e40ba8bf847ba56dd79fee68b390f063d66a667edb5c996a80dad",
+      "url": "https://github.com/yonie/WetReverb/releases/download/v1.1.0/WetReverb-v1.1.0.zip",
+      "downloads": 10
     }
   ],
   "verified": true,
-  "downloads": 1659
+  "downloads": 10
 }
