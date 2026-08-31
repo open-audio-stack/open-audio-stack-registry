@@ -146,5 +146,56 @@
         "verified": true
       }
     }
+  },
+  "yonie/wetcompressor": {
+    "slug": "yonie/wetcompressor",
+    "version": "1.0.0",
+    "versions": {
+      "1.0.0": {
+        "name": "Wet Compressor",
+        "author": "yonie",
+        "description": "An open-source 76-style FET compressor modelled as the circuit: feedback detector, a gain cell that bottoms out, four amplifiers. Free, MIT, VST3 for Windows, macOS and Linux.",
+        "license": "mit",
+        "type": "effect",
+        "tags": [
+          "Compressor",
+          "Dynamics",
+          "FET",
+          "Analog Modeling",
+          "Vintage"
+        ],
+        "url": "https://github.com/yonie/WetCompressor",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/yonie/wetcompressor/wetcompressor.jpg",
+        "date": "2026-08-30T10:34:15Z",
+        "changes": "First release. FET compressor with stepped INPUT and OUTPUT controls and fast, normal and slow time constants. Fixed threshold and ratio. Input, gain reduction and output metering. Runs at the host sample rate.",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "mac"
+              },
+              {
+                "type": "win"
+              },
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 5268577,
+            "sha256": "150b35c9d4f5b16032b827af961e4ab5799039699c0d1be8062528143923e4ee",
+            "url": "https://github.com/yonie/WetCompressor/releases/download/v1.0.0/WetCompressor-v1.0.0.zip"
+          }
+        ],
+        "verified": true
+      }
+    }
   }
 }
