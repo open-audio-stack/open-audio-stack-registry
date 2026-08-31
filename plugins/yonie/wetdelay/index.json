@@ -1,7 +1,50 @@
 {
   "slug": "yonie/wetdelay",
-  "version": "1.1.4",
+  "version": "1.2.0",
   "versions": {
+    "1.2.0": {
+      "name": "Wet Delay",
+      "author": "yonie",
+      "description": "An open-source stereo delay with 80s rack-style character: 24 kHz internal rate, 12-bit quantisation, channel crosstalk. Free, MIT, VST3 for Windows, macOS and Linux.",
+      "license": "mit",
+      "type": "effect",
+      "tags": [
+        "Delay",
+        "Vintage",
+        "Lo-Fi"
+      ],
+      "url": "https://github.com/yonie/WetDelay",
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/yonie/wetdelay/wetdelay.jpg",
+      "date": "2026-08-28T19:56:19Z",
+      "changes": "Adds a UI zoom option for high-resolution displays. Right-click the panel and choose 75, 100 or 125 percent.",
+      "files": [
+        {
+          "systems": [
+            {
+              "type": "mac"
+            },
+            {
+              "type": "win"
+            },
+            {
+              "type": "linux"
+            }
+          ],
+          "architectures": [
+            "arm64",
+            "x64"
+          ],
+          "contains": [
+            "vst3"
+          ],
+          "type": "archive",
+          "size": 4344927,
+          "sha256": "5e0e783e930963b81912bf2b7c953dc5423dbb54ec288a80d31b1d2f795a2542",
+          "url": "https://github.com/yonie/WetDelay/releases/download/v1.2.0/WetDelay-v1.2.0.zip"
+        }
+      ],
+      "verified": true
+    },
     "1.1.4": {
       "name": "Wet Delay",
       "author": "yonie",

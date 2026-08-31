@@ -1682,8 +1682,51 @@
   },
   "yonie/wetdelay": {
     "slug": "yonie/wetdelay",
-    "version": "1.1.4",
+    "version": "1.2.0",
     "versions": {
+      "1.2.0": {
+        "name": "Wet Delay",
+        "author": "yonie",
+        "description": "An open-source stereo delay with 80s rack-style character: 24 kHz internal rate, 12-bit quantisation, channel crosstalk. Free, MIT, VST3 for Windows, macOS and Linux.",
+        "license": "mit",
+        "type": "effect",
+        "tags": [
+          "Delay",
+          "Vintage",
+          "Lo-Fi"
+        ],
+        "url": "https://github.com/yonie/WetDelay",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/yonie/wetdelay/wetdelay.jpg",
+        "date": "2026-08-28T19:56:19Z",
+        "changes": "Adds a UI zoom option for high-resolution displays. Right-click the panel and choose 75, 100 or 125 percent.",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "mac"
+              },
+              {
+                "type": "win"
+              },
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 4344927,
+            "sha256": "5e0e783e930963b81912bf2b7c953dc5423dbb54ec288a80d31b1d2f795a2542",
+            "url": "https://github.com/yonie/WetDelay/releases/download/v1.2.0/WetDelay-v1.2.0.zip"
+          }
+        ],
+        "verified": true
+      },
       "1.1.4": {
         "name": "Wet Delay",
         "author": "yonie",
@@ -8804,7 +8847,7 @@
             "size": 223339140,
             "sha256": "a6e55064487f624147d515b9ae5fc79a568b69746675b2083abde628ca7bb151",
             "url": "https://github.com/surge-synthesizer/releases-xt/releases/download/1.3.4/surge-xt-linux-x64-1.3.4.deb",
-            "downloads": 37766
+            "downloads": 37767
           },
           {
             "systems": [
@@ -8847,7 +8890,7 @@
             "size": 416715686,
             "sha256": "b56e8d51a8dc2382ae668c9ff4e96bae38dbd452af4e584d5a5ef50ab2d09b07",
             "url": "https://github.com/surge-synthesizer/releases-xt/releases/download/1.3.4/surge-xt-macOS-1.3.4.dmg",
-            "downloads": 157847
+            "downloads": 157852
           },
           {
             "systems": [
@@ -8866,7 +8909,7 @@
             "size": 180883859,
             "sha256": "6fe3fb20ef21672666dddb816ad73f2966e98b70edad9189183451a255c2b2d1",
             "url": "https://github.com/surge-synthesizer/releases-xt/releases/download/1.3.4/surge-xt-win32-1.3.4-setup.exe",
-            "downloads": 19397
+            "downloads": 19398
           },
           {
             "systems": [
@@ -8886,11 +8929,11 @@
             "size": 183385478,
             "sha256": "6e221e05f29254508142b9e0ed76a85f22fa1b512501bebde571951e7eefecca",
             "url": "https://github.com/surge-synthesizer/releases-xt/releases/download/1.3.4/surge-xt-win64-1.3.4-setup.exe",
-            "downloads": 523418
+            "downloads": 523426
           }
         ],
         "verified": true,
-        "downloads": 742138
+        "downloads": 742153
       },
       "1.3.1": {
         "name": "Surge XT",
@@ -9017,7 +9060,7 @@
         "downloads": 84221
       }
     },
-    "downloads": 826359
+    "downloads": 826374
   },
   "surge-synthesizer/ob-xf": {
     "slug": "surge-synthesizer/ob-xf",
@@ -11324,7 +11367,7 @@
             "size": 140693153,
             "sha256": "4ba6eff849973238f45e0a3538b90c9a2d64c0b001d62882d0d337f46e0ddaa9",
             "url": "https://github.com/sonosaurus/sonobus/releases/download/1.7.2/sonobus-1.7.2-mac.dmg",
-            "downloads": 14516
+            "downloads": 14517
           },
           {
             "systems": [
@@ -11349,10 +11392,10 @@
           }
         ],
         "verified": true,
-        "downloads": 32946
+        "downloads": 32947
       }
     },
-    "downloads": 32946
+    "downloads": 32947
   },
   "solidfuel/utility": {
     "slug": "solidfuel/utility",
@@ -12632,14 +12675,14 @@
             "size": 10349826,
             "sha256": "83e2825241d4e1c0ab2c44c91c0a9be6a94941a81df0c2fbe05e83b2650470da",
             "url": "https://github.com/Sinuslabs/Reach/releases/download/1.6.6/Reach-Windows.exe",
-            "downloads": 183466
+            "downloads": 183469
           }
         ],
         "verified": true,
-        "downloads": 185361
+        "downloads": 185364
       }
     },
-    "downloads": 185361
+    "downloads": 185364
   },
   "sfztools/sfizz-ui": {
     "slug": "sfztools/sfizz-ui",
@@ -26995,14 +27038,14 @@
             "size": 39364144,
             "sha256": "9144ec0b0263931ccad8d91d6ae8634d8a8f64ecd5e365ea1fa6180688580769",
             "url": "https://github.com/kushview/element/releases/download/1.0.0/element-1.0.0-win64.exe",
-            "downloads": 18852
+            "downloads": 18853
           }
         ],
         "verified": true,
-        "downloads": 26838
+        "downloads": 26839
       }
     },
-    "downloads": 26838
+    "downloads": 26839
   },
   "kiriki-liszt/relief-eq": {
     "slug": "kiriki-liszt/relief-eq",
@@ -30172,14 +30215,14 @@
             "size": 9005563,
             "sha256": "3ff707e3e49e7cac0bb0819219eefcc6ed59b281246b43fc0465c0fb1d198048",
             "url": "https://github.com/jatinchowdhury18/KlonCentaur/releases/download/v1.4.0/ChowCentaur-Win-1.4.0.exe",
-            "downloads": 28806
+            "downloads": 28807
           }
         ],
         "verified": true,
-        "downloads": 52565
+        "downloads": 52566
       }
     },
-    "downloads": 52565
+    "downloads": 52566
   },
   "jatinchowdhury18/chowphaser": {
     "slug": "jatinchowdhury18/chowphaser",
@@ -36030,14 +36073,14 @@
             "size": 5293192,
             "sha256": "069e5ce0dc395c8d53111daa12c0f34d1425e2f39fa24a0222c727da04c46828",
             "url": "https://github.com/gbevin/ShowMIDI/releases/download/1.0.1/ShowMIDI-Windows-1.0.1.exe",
-            "downloads": 4958
+            "downloads": 4960
           }
         ],
         "verified": true,
-        "downloads": 11245
+        "downloads": 11247
       }
     },
-    "downloads": 11245
+    "downloads": 11247
   },
   "garneek/crunchy": {
     "slug": "garneek/crunchy",
@@ -43800,7 +43843,7 @@
             "size": 27549300,
             "type": "installer",
             "url": "https://github.com/DamRsn/NeuralNote/releases/download/v1.1.0/NeuralNote_Installer_Mac.pkg",
-            "downloads": 39744
+            "downloads": 39745
           },
           {
             "architectures": [
@@ -43823,10 +43866,10 @@
           }
         ],
         "verified": true,
-        "downloads": 192395
+        "downloads": 192396
       }
     },
-    "downloads": 192395
+    "downloads": 192396
   },
   "damiensellier/ctrlrx": {
     "slug": "damiensellier/ctrlrx",
@@ -45580,14 +45623,14 @@
             "size": 5791948,
             "sha256": "d136b3938111a118d64e1dfc01f6b153a8c3ee5641001aed31b42cb033616c82",
             "url": "https://github.com/Chowdhury-DSP/ChowKick/releases/download/v1.2.0/ChowKick-Win-64bit-1.2.0.exe",
-            "downloads": 18899
+            "downloads": 18900
           }
         ],
         "verified": true,
-        "downloads": 34827
+        "downloads": 34828
       }
     },
-    "downloads": 34827
+    "downloads": 34828
   },
   "chowdhury-dsp/chow": {
     "slug": "chowdhury-dsp/chow",
@@ -47113,14 +47156,14 @@
             "size": 16237789,
             "sha256": "21a706090d0a72511756dfd65d6a3c0711257c94b707679346e04d182dc178a0",
             "url": "https://github.com/Birch-san/juicysfplugin/releases/download/3.1.0/juicysfplugin-3.1.0-win-x64.zip",
-            "downloads": 36557
+            "downloads": 36558
           }
         ],
         "verified": true,
-        "downloads": 42477
+        "downloads": 42478
       }
     },
-    "downloads": 42477
+    "downloads": 42478
   },
   "billydm/vitalium-verb": {
     "slug": "billydm/vitalium-verb",
@@ -50123,14 +50166,14 @@
             "size": 5599030,
             "sha256": "d3498b897bfdf967c645b6e14ef981007eef27d57803b00545d049c6e78ab392",
             "url": "https://github.com/ArdenButterfield/Maim/releases/download/v1.1.1/Maim-1.1.1-Windows.exe",
-            "downloads": 11711
+            "downloads": 11714
           }
         ],
         "verified": true,
-        "downloads": 16569
+        "downloads": 16572
       }
     },
-    "downloads": 16569
+    "downloads": 16572
   },
   "archie3d/aeolus": {
     "slug": "archie3d/aeolus",
