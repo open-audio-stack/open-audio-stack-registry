@@ -1,0 +1,106 @@
+name: TONE3000 Plugin
+author: TONE3000
+description: >-
+  A JUCE-based audio plugin that loads Neural Amp Modeler (NAM) captures and
+  impulse responses (IRs) from the TONE3000 online tone catalog, letting you
+  browse, sign in, and add tones directly into your signal chain.
+license: mit
+type: effect
+tags:
+  - Guitar
+  - Amp
+  - NAM
+  - Impulse Response
+  - Cloud
+url: https://github.com/tone-3000/tone3000-plugin
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/tone-3000/tone3000-plugin/tone3000-plugin.jpg
+date: '2026-08-31T19:36:14Z'
+changes: |
+  - NAM A2 LITE/FULL size is now set per block
+  - Bass tuner tracks 5-string bass at high sample rates
+  - Enter key now passes through to host
+  - Tone browser filter persists across tabs
+  - Updated factory presets, incl. new Ampeg Bass Drive
+files:
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - vst3
+      - clap
+      - lv2
+      - elf
+    type: archive
+    size: 36323160
+    sha256: 904fcccd3f871e288e7b6548ee5e5267812f0e7acfc9a29506e6e6f6f6c2c4bb
+    url: https://github.com/tone-3000/tone3000-plugin/releases/download/v0.0.2/TONE3000-v0.0.2-linux-x64.tar.gz
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - vst3
+      - clap
+      - lv2
+      - elf
+    type: archive
+    size: 36233600
+    sha256: fade5434e78a0cfefeb7b13987cd549e169f7c1caf0584eebc1ce1497dac636d
+    url: https://github.com/tone-3000/tone3000-plugin/releases/download/v0.0.2/TONE3000-v0.0.2-linux-x64.zip
+  - systems:
+      - type: mac
+    architectures:
+      - arm64
+      - x64
+    contains:
+      - vst3
+      - component
+      - clap
+      - aax
+      - app
+    type: installer
+    size: 63363885
+    sha256: 86f2f97cde29873457e84fff3c44c3dcc4ac7cb824fe8a6f493e780288a71917
+    url: https://github.com/tone-3000/tone3000-plugin/releases/download/v0.0.2/TONE3000-v0.0.2-macos-universal.pkg
+  - systems:
+      - type: mac
+    architectures:
+      - arm64
+      - x64
+    contains:
+      - vst3
+      - component
+      - clap
+      - aax
+      - app
+    type: archive
+    size: 63193350
+    sha256: 45bcfcbbbc57d44336b2bd5d35d577f3c52a85fbd4d7a727b1e46b38e255e89f
+    url: https://github.com/tone-3000/tone3000-plugin/releases/download/v0.0.2/TONE3000-v0.0.2-macos-universal.zip
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - vst3
+      - clap
+      - aax
+      - exe
+    type: installer
+    size: 13747272
+    sha256: 95d7278fba109859bfe6d42e241fb71ca68248db810728da76adc6fc7bc20774
+    url: https://github.com/tone-3000/tone3000-plugin/releases/download/v0.0.2/TONE3000-v0.0.2-windows-x64.exe
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - vst3
+      - clap
+      - aax
+      - exe
+    type: archive
+    size: 13238279
+    sha256: 68bc6d43fbe22c6a0ec00ccda37667be1eceb63eafabf32b61d0f5a76d9b3e3a
+    url: https://github.com/tone-3000/tone3000-plugin/releases/download/v0.0.2/TONE3000-v0.0.2-windows-x64.zip
