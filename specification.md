@@ -69,6 +69,8 @@ The registry root (`GET /`) and the four type-listing endpoints (`GET /apps`, `G
 - Clients that need to see older versions should fetch the org or package endpoint (`GET /apps/{org}` and `GET /apps/{slug}`)
 - Clients that are about to download a file should fetch the specific version endpoint to get that file's url and sha256. (`GET /apps/{slug}/{version}`)
 
+For a given package version, its `files` array must be in the same order at every tier that includes that version - the registry root, type-listing, org, package, and version endpoints all list a version's files identically, only the presence of `url`/`sha256` differs. A client can therefore identify a file selected from a listing-tier entry (where `url`/`sha256` are omitted) by its position in that array, and use the same index to find that file's full data - including `url`/`sha256` - once it fetches the org, package, or version endpoint for that package. Registries must preserve this ordering; they must not add, remove, or reorder a version's files between tiers.
+
 ### Registry root
 
 Each registry has a root url such as:  
