@@ -41,7 +41,7 @@
           "size": 5451971,
           "type": "archive",
           "url": "https://github.com/tiagolr/qdelay/releases/download/v1.1.2/qdelay-linux-v1.1.2.zip",
-          "downloads": 733
+          "downloads": 774
         },
         {
           "architectures": [
@@ -61,7 +61,7 @@
           "size": 8795936,
           "type": "archive",
           "url": "https://github.com/tiagolr/qdelay/releases/download/v1.1.2/qdelay-macos-v1.1.2.zip",
-          "downloads": 630
+          "downloads": 660
         },
         {
           "architectures": [
@@ -79,11 +79,11 @@
           "size": 3341979,
           "type": "archive",
           "url": "https://github.com/tiagolr/qdelay/releases/download/v1.1.2/qdelay-win-v1.1.2.zip",
-          "downloads": 1771
+          "downloads": 1850
         }
       ],
       "verified": true,
-      "downloads": 3134
+      "downloads": 3284
     },
     "1.1.1": {
       "name": "QDelay",
@@ -144,7 +144,7 @@
           "size": 8795400,
           "sha256": "d622d42e821759f842353b6ecc1381a9d0079b5a50a44bce4acf6ded8b842fe4",
           "url": "https://github.com/tiagolr/qdelay/releases/download/v1.1.1/qdelay-macos-v1.1.1.zip",
-          "downloads": 47
+          "downloads": 48
         },
         {
           "systems": [
@@ -166,7 +166,7 @@
         }
       ],
       "verified": true,
-      "downloads": 196
+      "downloads": 197
     },
     "1.0.3": {
       "name": "QDelay",
@@ -252,5 +252,5 @@
       "downloads": 744
     }
   },
-  "downloads": 4074
+  "downloads": 4225
 }
