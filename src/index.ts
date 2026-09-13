@@ -1,5 +1,6 @@
 import { ConfigInterface, ConfigLocal, RegistryLocal, RegistryType, ManagerLocal } from '@open-audio-stack/core';
 import { enrichDownloads } from './downloads.js';
+import { stripSummaryFiles } from './stripSummaryFiles.js';
 
 const managerConfig: ConfigInterface = {
   appDir: 'src',
@@ -41,6 +42,7 @@ try {
   console.warn(`Skipping download-count enrichment: ${err.message}`);
 }
 registry.export('out');
+stripSummaryFiles('out');
 
 const config: ConfigLocal = new ConfigLocal(managerConfig);
 config.logEnable();

@@ -16,6 +16,7 @@ import {
   fileReadJson,
 } from '@open-audio-stack/core';
 import path from 'path';
+import { stripSummaryFiles } from '../src/stripSummaryFiles.js';
 
 const CONFIG: ConfigInterface = {
   appDir: 'src',
@@ -181,4 +182,61 @@ test('Validate json package version', () => {
   registry.export('out');
   const fileJSON = fileReadJson(path.join('out', 'plugins', PLUGIN_PACKAGE.slug, PLUGIN_PACKAGE.version, 'index.json'));
   expect(fileJSON).toEqual(PLUGIN);
+});
+
+test('Strip summary files trims old versions and drops url/sha256 per file at the registry root and list endpoints', () => {
+  const registry: RegistryLocal = new RegistryLocal(REGISTRY.name, REGISTRY.url, REGISTRY.version);
+  const manager: ManagerLocal = new ManagerLocal(RegistryType.Plugins, CONFIG);
+  registry.addManager(manager);
+  registry.scan('yaml', false);
+  registry.export('out');
+  stripSummaryFiles('out');
+  const pkg = manager.getPackage(PLUGIN_PACKAGE.slug);
+  const latest = pkg!.latestVersion();
+  const latestFiles = pkg!.getVersion(latest)!.files;
+
+  const rootJSON = fileReadJson(path.join('out', 'index.json'));
+  const rootEntry = rootJSON.plugins[PLUGIN_PACKAGE.slug];
+  expect(Object.keys(rootEntry.versions)).toEqual([latest]);
+  expect(rootEntry.versions[latest].files).toHaveLength(latestFiles.length);
+  rootEntry.versions[latest].files.forEach((file: Record<string, unknown>, index: number) => {
+    expect(file.url).toBeUndefined();
+    expect(file.sha256).toBeUndefined();
+    expect(file.architectures).toEqual(latestFiles[index].architectures);
+    expect(file.systems).toEqual(latestFiles[index].systems);
+    expect(file.contains).toEqual(latestFiles[index].contains);
+    expect(file.type).toEqual(latestFiles[index].type);
+    expect(file.size).toEqual(latestFiles[index].size);
+  });
+
+  const listJSON = fileReadJson(path.join('out', 'plugins', 'index.json'));
+  const listEntry = listJSON[PLUGIN_PACKAGE.slug];
+  expect(Object.keys(listEntry.versions)).toEqual([latest]);
+  listEntry.versions[latest].files.forEach((file: Record<string, unknown>) => {
+    expect(file.url).toBeUndefined();
+    expect(file.sha256).toBeUndefined();
+  });
+});
+
+test('Strip summary files leaves org/package/version endpoints untouched', () => {
+  const registry: RegistryLocal = new RegistryLocal(REGISTRY.name, REGISTRY.url, REGISTRY.version);
+  const manager: ManagerLocal = new ManagerLocal(RegistryType.Plugins, CONFIG);
+  registry.addManager(manager);
+  registry.scan('yaml', false);
+  registry.export('out');
+  stripSummaryFiles('out');
+  const pkg = manager.getPackage(PLUGIN_PACKAGE.slug);
+
+  const orgJSON = fileReadJson(path.join('out', 'plugins', PLUGIN_PACKAGE.slug.split('/')[0], 'index.json'));
+  const orgEntry = orgJSON[PLUGIN_PACKAGE.slug];
+  expect(Object.keys(orgEntry.versions).length).toEqual(pkg!.versions.size);
+  expect(orgEntry.versions[PLUGIN_PACKAGE.version]).toEqual(PLUGIN);
+
+  const pkgJSON = fileReadJson(path.join('out', 'plugins', PLUGIN_PACKAGE.slug, 'index.json'));
+  expect(pkgJSON.versions[PLUGIN_PACKAGE.version]).toEqual(PLUGIN);
+
+  const versionJSON = fileReadJson(
+    path.join('out', 'plugins', PLUGIN_PACKAGE.slug, PLUGIN_PACKAGE.version, 'index.json'),
+  );
+  expect(versionJSON).toEqual(PLUGIN);
 });
