@@ -1,7 +1,7 @@
 import {
-  apiBuffer,
+  apiStream,
   dirCreate,
-  fileCreate,
+  fileCreateFromStream,
   fileExists,
   fileReadYaml,
   fileValidateMetadata,
@@ -59,10 +59,9 @@ for (const type in pkgJson.files) {
   // Downloads directory is scanned for viruses in the next GitHub Action
   if (!fileExists(fileLocalPath)) {
     try {
-      const fileArrayBuffer: ArrayBuffer = await apiBuffer(file.url);
-      const fileBuffer: Buffer = Buffer.from(fileArrayBuffer);
+      const fileStream = await apiStream(file.url);
       dirCreate(path.dirname(fileLocalPath));
-      fileCreate(fileLocalPath, fileBuffer);
+      await fileCreateFromStream(fileLocalPath, fileStream);
     } catch (err) {
       hasErrors = true;
       const message = err instanceof Error ? err.message : String(err);
