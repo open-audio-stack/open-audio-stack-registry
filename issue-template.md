@@ -303,7 +303,7 @@ still belong under "Excluded" — the split is about provenance, not severity.
    search does **not** do exact-phrase matching — it tokenizes on the hyphens, so
    past the first ~30 results it starts returning unrelated issues that merely
    contain "open", "audio", "stack", or "tracker" somewhere. Always pass a high
-   `--limit` (the default silently truncates once the real count exceeds it) *and*
+   `--limit` (the default silently truncates once the real count exceeds it) _and_
    filter results down to ones that actually contain the literal marker comment:
 
    ```bash
