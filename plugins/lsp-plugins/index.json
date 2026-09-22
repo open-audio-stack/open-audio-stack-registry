@@ -45,7 +45,7 @@
             "size": 35839682,
             "sha256": "045d15f8a2f2b9c020cada7c22ed8d62f8d65bf665c4f271626817bd68d036c3",
             "url": "https://github.com/lsp-plugins/lsp-plugins/releases/download/1.2.35/lsp-plugins-1.2.35-Linux-aarch64.7z",
-            "downloads": 142
+            "downloads": 144
           },
           {
             "systems": [
@@ -108,11 +108,11 @@
             "size": 38793460,
             "sha256": "4ef3b2f63b29a522fdaf3a18f879c1c85c82f0bdd1e0b3c849a5f3c4b08d2550",
             "url": "https://github.com/lsp-plugins/lsp-plugins/releases/download/1.2.35/lsp-plugins-1.2.35-Linux-x86_64.7z",
-            "downloads": 2086
+            "downloads": 2102
           }
         ],
         "verified": true,
-        "downloads": 2322
+        "downloads": 2340
       },
       "1.2.34": {
         "name": "LSP Plugins",
@@ -330,11 +330,11 @@
             "size": 38262669,
             "sha256": "61dbde3642f320728f0ca4128a6798f1e93bff9c9217791115f6970337132730",
             "url": "https://github.com/lsp-plugins/lsp-plugins/releases/download/1.2.33/lsp-plugins-1.2.33-Linux-x86_64.7z",
-            "downloads": 4113
+            "downloads": 4114
           }
         ],
         "verified": true,
-        "downloads": 4480
+        "downloads": 4481
       },
       "1.2.29": {
         "name": "LSP Plugins",
@@ -1003,6 +1003,6 @@
         "downloads": 3425
       }
     },
-    "downloads": 28375
+    "downloads": 28394
   }
 }

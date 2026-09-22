@@ -1,0 +1,57 @@
+{
+  "slug": "sgossner/vsco-2-ce",
+  "version": "1.1.0",
+  "versions": {
+    "1.1.0": {
+      "name": "VSCO 2 Community Edition",
+      "author": "Versilian Studios",
+      "description": "Orchestral sample library in SFZ format: 3,138 hand-picked samples from the Versilian Studios 21,500-sample source library, covering strings, brass, woodwind, percussion and keys.",
+      "type": "sampler",
+      "license": "cc0-1.0",
+      "tags": [
+        "Instrument",
+        "Orchestra",
+        "Strings",
+        "Brass",
+        "Winds",
+        "Percussion",
+        "Keys",
+        "Sfz"
+      ],
+      "url": "https://github.com/sgossner/VSCO-2-CE",
+      "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sgossner/vsco-2-ce/vsco-2-ce.flac",
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sgossner/vsco-2-ce/vsco-2-ce.jpg",
+      "date": "2019-01-17T02:55:20.000Z",
+      "changes": "- SFZ version of the VSCO 2 Community Edition library.\n",
+      "files": [
+        {
+          "systems": [
+            {
+              "type": "linux"
+            },
+            {
+              "type": "mac"
+            },
+            {
+              "type": "win"
+            }
+          ],
+          "architectures": [
+            "arm32",
+            "arm64",
+            "x32",
+            "x64"
+          ],
+          "contains": [
+            "sfz"
+          ],
+          "type": "archive",
+          "size": 2297836334,
+          "sha256": "1f34a21b9dc8bc7646f4b7e9bb26ad0d20e4a400a69a6a47ea783c6162e3bde2",
+          "url": "https://github.com/sgossner/VSCO-2-CE/archive/28092772094b2d9f1148d84cea97f4545b8c687d.zip"
+        }
+      ],
+      "verified": true
+    }
+  }
+}
