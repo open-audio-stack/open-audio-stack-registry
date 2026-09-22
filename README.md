@@ -40,7 +40,7 @@ The registry is built for **audio software developers**. It gives you two things
 
 It exists to solve the problems audio developers repeatedly re-solve — cross-platform installation, versioning, dependency management, broken download links and plugin-format differences. By sharing an **open, interoperable standard**, every developer's tools become compatible with every other's.
 
-The ultimate beneficiaries are the audio software developers'  customers: **musicians and music producers**, who get a more consistent experience installing audio software.
+The ultimate beneficiaries are the audio software developers' customers: **musicians and music producers**, who get a more consistent experience installing audio software.
 
 - **Primary audience:** audio software developers registering packages and integrating the registry API.
 - **Secondary audience:** musicians and music producers who install and use those packages.
