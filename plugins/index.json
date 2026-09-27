@@ -9062,7 +9062,7 @@
             "size": 223339140,
             "sha256": "a6e55064487f624147d515b9ae5fc79a568b69746675b2083abde628ca7bb151",
             "url": "https://github.com/surge-synthesizer/releases-xt/releases/download/1.3.4/surge-xt-linux-x64-1.3.4.deb",
-            "downloads": 40705
+            "downloads": 40709
           },
           {
             "systems": [
@@ -9083,7 +9083,7 @@
             "size": 349080230,
             "sha256": "aa57df9b79735db392b147e5ca6a9db7e9e9e5ba2907717aa055c501f3f59659",
             "url": "https://github.com/surge-synthesizer/releases-xt/releases/download/1.3.4/surge-xt-x86_64-1.3.4.rpm",
-            "downloads": 4241
+            "downloads": 4242
           },
           {
             "systems": [
@@ -9105,7 +9105,7 @@
             "size": 416715686,
             "sha256": "b56e8d51a8dc2382ae668c9ff4e96bae38dbd452af4e584d5a5ef50ab2d09b07",
             "url": "https://github.com/surge-synthesizer/releases-xt/releases/download/1.3.4/surge-xt-macOS-1.3.4.dmg",
-            "downloads": 166247
+            "downloads": 166251
           },
           {
             "systems": [
@@ -9144,11 +9144,11 @@
             "size": 183385478,
             "sha256": "6e221e05f29254508142b9e0ed76a85f22fa1b512501bebde571951e7eefecca",
             "url": "https://github.com/surge-synthesizer/releases-xt/releases/download/1.3.4/surge-xt-win64-1.3.4-setup.exe",
-            "downloads": 545954
+            "downloads": 545961
           }
         ],
         "verified": true,
-        "downloads": 787513
+        "downloads": 787529
       },
       "1.3.1": {
         "name": "Surge XT",
@@ -9275,7 +9275,7 @@
         "downloads": 84327
       }
     },
-    "downloads": 871840
+    "downloads": 871856
   },
   "surge-synthesizer/ob-xf": {
     "slug": "surge-synthesizer/ob-xf",
@@ -11582,7 +11582,7 @@
             "size": 140693153,
             "sha256": "4ba6eff849973238f45e0a3538b90c9a2d64c0b001d62882d0d337f46e0ddaa9",
             "url": "https://github.com/sonosaurus/sonobus/releases/download/1.7.2/sonobus-1.7.2-mac.dmg",
-            "downloads": 17291
+            "downloads": 17292
           },
           {
             "systems": [
@@ -11607,10 +11607,10 @@
           }
         ],
         "verified": true,
-        "downloads": 36258
+        "downloads": 36259
       }
     },
-    "downloads": 36258
+    "downloads": 36259
   },
   "solidfuel/utility": {
     "slug": "solidfuel/utility",
@@ -12890,14 +12890,14 @@
             "size": 10349826,
             "sha256": "83e2825241d4e1c0ab2c44c91c0a9be6a94941a81df0c2fbe05e83b2650470da",
             "url": "https://github.com/Sinuslabs/Reach/releases/download/1.6.6/Reach-Windows.exe",
-            "downloads": 196478
+            "downloads": 196485
           }
         ],
         "verified": true,
-        "downloads": 198455
+        "downloads": 198462
       }
     },
-    "downloads": 198455
+    "downloads": 198462
   },
   "sgossner/vsco-2-ce": {
     "slug": "sgossner/vsco-2-ce",
@@ -13047,20 +13047,20 @@
     "versions": {
       "1.2.1": {
         "name": "Sfizz",
-        "author": "SFZTools",
-        "description": "SFZ parser and synth c++ library, providing AU / LV2 / VST3 plugins and JACK standalone client.",
+        "author": "SFZ Tools",
+        "description": "SFZ sample-player plugin built on the sfizz SFZ parser and synth engine, providing AU, LV2 and VST3 plugins. Later versions are published as Sfizz UI.",
         "license": "bsd-2-clause",
         "type": "sampler",
         "tags": [
           "Instrument",
           "Sampler",
-          "Synth"
+          "Sfz"
         ],
         "url": "https://github.com/sfztools/sfizz",
         "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfztools/sfizz/sfizz.flac",
         "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfztools/sfizz/sfizz.jpg",
-        "date": "2024-01-14T00:00:00.000Z",
-        "changes": "- Mac OS Installer\n- Updated bundled dependencies and added more options to use those\n- preinstalled in system\n- CI: Various updates and fixes for GitHub Actions; removed Travis and Appveyor\n- Add LFO frequency as an EG target\n",
+        "date": "2023-04-15T00:06:30.000Z",
+        "changes": "- Mac OS Installer\n- Updated bundled dependencies and added more options to use those preinstalled in system\n- Add LFO frequency as an EG target\n- New image_controls opcode for a background image on the UI Controls tab\n- HiDPI zoom menu in Settings\n",
         "files": [
           {
             "systems": [
@@ -13069,7 +13069,6 @@
               }
             ],
             "architectures": [
-              "arm64",
               "x64"
             ],
             "contains": [
@@ -13090,10 +13089,29 @@
               }
             ],
             "architectures": [
+              "x32"
+            ],
+            "contains": [
+              "lv2",
+              "vst3"
+            ],
+            "type": "installer",
+            "size": 3376144,
+            "sha256": "5b01db0dad61aa4478289a05ece054e00edbd1bea655b8f16e6332273369fdcd",
+            "url": "https://github.com/sfztools/sfizz/releases/download/1.2.1/sfizz-1.2.1-win32.exe",
+            "downloads": 271
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
               "x64"
             ],
             "contains": [
-              "dll",
+              "lv2",
               "vst3"
             ],
             "type": "installer",
@@ -13104,10 +13122,10 @@
           }
         ],
         "verified": true,
-        "downloads": 3492
+        "downloads": 3763
       }
     },
-    "downloads": 3492
+    "downloads": 3763
   },
   "sfzinstruments/war-tuba": {
     "slug": "sfzinstruments/war-tuba",
@@ -13925,11 +13943,11 @@
             "size": 3637345,
             "sha256": "8da37afde1f0797c773d6b8709da89bdda40c0e45f67cf3e4d87291e9b5e9da5",
             "url": "https://github.com/sdatkinson/NeuralAmpModelerPlugin/releases/download/v0.7.13/NeuralAmpModeler-v0.7.13-win.zip",
-            "downloads": 282140
+            "downloads": 282142
           }
         ],
         "verified": true,
-        "downloads": 368098
+        "downloads": 368100
       },
       "0.7.12": {
         "name": "Neural Amp Modeler",
@@ -13991,7 +14009,7 @@
         "downloads": 9367
       }
     },
-    "downloads": 377465
+    "downloads": 377467
   },
   "samuelsantanaoficial/modernkit": {
     "slug": "samuelsantanaoficial/modernkit",
@@ -25190,7 +25208,7 @@
             "size": 35839682,
             "sha256": "045d15f8a2f2b9c020cada7c22ed8d62f8d65bf665c4f271626817bd68d036c3",
             "url": "https://github.com/lsp-plugins/lsp-plugins/releases/download/1.2.35/lsp-plugins-1.2.35-Linux-aarch64.7z",
-            "downloads": 160
+            "downloads": 161
           },
           {
             "systems": [
@@ -25253,11 +25271,11 @@
             "size": 38793460,
             "sha256": "4ef3b2f63b29a522fdaf3a18f879c1c85c82f0bdd1e0b3c849a5f3c4b08d2550",
             "url": "https://github.com/lsp-plugins/lsp-plugins/releases/download/1.2.35/lsp-plugins-1.2.35-Linux-x86_64.7z",
-            "downloads": 2466
+            "downloads": 2467
           }
         ],
         "verified": true,
-        "downloads": 2732
+        "downloads": 2734
       },
       "1.2.34": {
         "name": "LSP Plugins",
@@ -26148,7 +26166,7 @@
         "downloads": 3425
       }
     },
-    "downloads": 28808
+    "downloads": 28810
   },
   "longkelvin/midi-chord-detector-plugin": {
     "slug": "longkelvin/midi-chord-detector-plugin",
@@ -26463,14 +26481,14 @@
             "size": 6658226,
             "sha256": "861ad556d4767108844ff44ee84656fc2fb71c89af72a385f590ffd9996799a6",
             "url": "https://github.com/liuanlin-mx/MXTune/releases/download/v1.2.0/windows_x86_64_vst_v1.2.0.zip",
-            "downloads": 24179
+            "downloads": 24180
           }
         ],
         "verified": true,
-        "downloads": 39338
+        "downloads": 39339
       }
     },
-    "downloads": 39338
+    "downloads": 39339
   },
   "leon-focker/metrefiddler": {
     "slug": "leon-focker/metrefiddler",
@@ -40472,7 +40490,7 @@
             "size": 974061970,
             "sha256": "5f62f020aab3987aea4bf7bfde4caf09b4c41ab555f485c0e7ebf46944bdb415",
             "url": "https://github.com/DISTRHO/Cardinal/releases/download/26.02/Cardinal-macOS-universal-26.02.pkg",
-            "downloads": 7352
+            "downloads": 7353
           },
           {
             "systems": [
@@ -40560,10 +40578,10 @@
           }
         ],
         "verified": true,
-        "downloads": 27334
+        "downloads": 27335
       }
     },
-    "downloads": 27334
+    "downloads": 27335
   },
   "dimethoxy/disflux": {
     "slug": "dimethoxy/disflux",
@@ -42702,7 +42720,7 @@
             "size": 7951032,
             "sha256": "e5725b4b6deb732e419b73b889def1532b09078387311171850969c0809ce639",
             "url": "https://github.com/davemollen/dm-Rat/releases/download/v0.1.2/dm-Rat-ubuntu.zip",
-            "downloads": 53
+            "downloads": 54
           },
           {
             "systems": [
@@ -42722,14 +42740,14 @@
             "size": 7134409,
             "sha256": "2dda838d88a45a67750bf8e1fcf380373e41de8e39c3a40e8d9fbe3269229302",
             "url": "https://github.com/davemollen/dm-Rat/releases/download/v0.1.2/dm-Rat-windows.zip",
-            "downloads": 55
+            "downloads": 56
           }
         ],
         "verified": true,
-        "downloads": 148
+        "downloads": 150
       }
     },
-    "downloads": 148
+    "downloads": 150
   },
   "davemollen/dm-octaver": {
     "slug": "davemollen/dm-octaver",
@@ -44093,7 +44111,7 @@
             "size": 27549300,
             "type": "installer",
             "url": "https://github.com/DamRsn/NeuralNote/releases/download/v1.1.0/NeuralNote_Installer_Mac.pkg",
-            "downloads": 41732
+            "downloads": 41734
           },
           {
             "architectures": [
@@ -44112,14 +44130,14 @@
             "size": 8569710,
             "type": "installer",
             "url": "https://github.com/DamRsn/NeuralNote/releases/download/v1.1.0/NeuralNote_Installer_Windows.exe",
-            "downloads": 140101
+            "downloads": 140102
           }
         ],
         "verified": true,
-        "downloads": 199767
+        "downloads": 199770
       }
     },
-    "downloads": 199767
+    "downloads": 199770
   },
   "damiensellier/ctrlrx": {
     "slug": "damiensellier/ctrlrx",
@@ -45675,14 +45693,14 @@
             "size": 7437272,
             "sha256": "0ed347e15d244f2a115e0ecbfc219dbca1dd666ec371292d6a8c56f6deaaffbb",
             "url": "https://github.com/Chowdhury-DSP/ChowMultiTool/releases/download/v1.1.0/ChowMultiTool-Win-64bit-1.1.0.exe",
-            "downloads": 20882
+            "downloads": 20883
           }
         ],
         "verified": true,
-        "downloads": 37028
+        "downloads": 37029
       }
     },
-    "downloads": 37028
+    "downloads": 37029
   },
   "chowdhury-dsp/chowmatrix": {
     "slug": "chowdhury-dsp/chowmatrix",
@@ -47386,7 +47404,7 @@
             "size": 28813905,
             "sha256": "0321213ead513da5e95b69eba89f37e28cb480b4737a22713fdd966124b8e340",
             "url": "https://github.com/Birch-san/juicysfplugin/releases/download/3.1.0/juicysfplugin-3.1.0-macOS.tar.xz",
-            "downloads": 6104
+            "downloads": 6105
           },
           {
             "systems": [
@@ -47406,14 +47424,14 @@
             "size": 16237789,
             "sha256": "21a706090d0a72511756dfd65d6a3c0711257c94b707679346e04d182dc178a0",
             "url": "https://github.com/Birch-san/juicysfplugin/releases/download/3.1.0/juicysfplugin-3.1.0-win-x64.zip",
-            "downloads": 37443
+            "downloads": 37444
           }
         ],
         "verified": true,
-        "downloads": 43547
+        "downloads": 43549
       }
     },
-    "downloads": 43547
+    "downloads": 43549
   },
   "billydm/vitalium-verb": {
     "slug": "billydm/vitalium-verb",
@@ -48893,7 +48911,7 @@
             "size": 17183630,
             "sha256": "a6505103869d15400e7bed1d988d9dd155d6d8204a3d532f5301966ae7507ad8",
             "url": "https://github.com/asb2m10/dexed/releases/download/v1.0.1/Dexed-1.0.1-macOS.dmg",
-            "downloads": 75938
+            "downloads": 75941
           },
           {
             "systems": [
@@ -48934,7 +48952,7 @@
             "size": 11275100,
             "sha256": "5dc4e072af90ec54aa0197790b40856e7db1659ff924ed107c7536b442d3584b",
             "url": "https://github.com/asb2m10/dexed/releases/download/v1.0.1/Dexed-1.0.1-win.exe",
-            "downloads": 97144
+            "downloads": 97149
           },
           {
             "systems": [
@@ -48958,7 +48976,7 @@
           }
         ],
         "verified": true,
-        "downloads": 185610
+        "downloads": 185618
       },
       "0.9.8": {
         "name": "Dexed",
@@ -49043,7 +49061,7 @@
         "downloads": 198273
       }
     },
-    "downloads": 383883
+    "downloads": 383891
   },
   "arunas-cesonis/live-sampler": {
     "slug": "arunas-cesonis/live-sampler",
@@ -50397,7 +50415,7 @@
             "size": 17636483,
             "sha256": "6527b266948277b9bcc281a35d9a4bb6a70bd5667baf98664a6579b793919ee4",
             "url": "https://github.com/ArdenButterfield/Maim/releases/download/v1.1.1/Maim-1.1.1-macOS.dmg",
-            "downloads": 3493
+            "downloads": 3494
           },
           {
             "systems": [
@@ -50420,10 +50438,10 @@
           }
         ],
         "verified": true,
-        "downloads": 18777
+        "downloads": 18778
       }
     },
-    "downloads": 18777
+    "downloads": 18778
   },
   "archie3d/aeolus": {
     "slug": "archie3d/aeolus",
@@ -52294,14 +52312,14 @@
             "size": 3078656,
             "sha256": "8549467ccff3aedd01dc55740de30d79c0252a36f75ec36f50ece40f5806c02e",
             "url": "https://github.com/0x07dc/declicker/releases/download/WindowsVST/Declicker.vst3",
-            "downloads": 350
+            "downloads": 351
           }
         ],
         "verified": true,
-        "downloads": 350
+        "downloads": 351
       }
     },
-    "downloads": 350
+    "downloads": 351
   },
   "008takeshi/drawwave-vocoder": {
     "slug": "008takeshi/drawwave-vocoder",
