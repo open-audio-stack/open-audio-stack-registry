@@ -38,7 +38,7 @@
             "size": 12807099,
             "type": "archive",
             "url": "https://github.com/magnetophon/lamb-rs/releases/download/v2.1.0/lamb-v2.1.0-ubuntu-20.04.zip",
-            "downloads": 1778
+            "downloads": 1794
           },
           {
             "architectures": [
@@ -58,7 +58,7 @@
             "size": 23920420,
             "type": "archive",
             "url": "https://github.com/magnetophon/lamb-rs/releases/download/v2.1.0/lamb-v2.1.0-macos-universal.zip",
-            "downloads": 157
+            "downloads": 158
           },
           {
             "architectures": [
@@ -78,14 +78,14 @@
             "size": 11499144,
             "type": "archive",
             "url": "https://github.com/magnetophon/lamb-rs/releases/download/v2.1.0/lamb-v2.1.0-windows.zip",
-            "downloads": 466
+            "downloads": 471
           }
         ],
         "verified": true,
-        "downloads": 2401
+        "downloads": 2423
       }
     },
-    "downloads": 2401
+    "downloads": 2423
   },
   "magnetophon/digidrie": {
     "slug": "magnetophon/digidrie",
@@ -171,7 +171,7 @@
             "size": 5000959,
             "sha256": "1b0ae46037a7cbf6f0d088e802e783cb667a7ecff5c4d01a551e60d75bd7fba9",
             "url": "https://github.com/magnetophon/DigiDrie/releases/download/v0.3.1/DigiDrie-v0.3.1-macos-aarch64.tar.gz",
-            "downloads": 3
+            "downloads": 4
           },
           {
             "systems": [
@@ -213,14 +213,14 @@
             "size": 7666093,
             "sha256": "7de16635be9bc46bc5ab3238943a1fbd9cee086dd23faec6501d9b3565def257",
             "url": "https://github.com/magnetophon/DigiDrie/releases/download/v0.3.1/DigiDrie-v0.3.1-windows-x86_64.zip",
-            "downloads": 8
+            "downloads": 10
           }
         ],
         "verified": true,
-        "downloads": 26
+        "downloads": 29
       }
     },
-    "downloads": 26
+    "downloads": 29
   },
   "magnetophon/del2": {
     "slug": "magnetophon/del2",
@@ -258,7 +258,7 @@
             "size": 8455873,
             "sha256": "8ff412a08582c8c4df78559a1f6f75c24702176e2271f6ab6bc7dab63dcacc33",
             "url": "https://github.com/magnetophon/DEL2/releases/download/V0.2.0/DEL2-V0.2.0-ubuntu-20.04.zip",
-            "downloads": 151
+            "downloads": 157
           },
           {
             "systems": [
@@ -301,9 +301,9 @@
           }
         ],
         "verified": true,
-        "downloads": 219
+        "downloads": 225
       }
     },
-    "downloads": 219
+    "downloads": 225
   }
 }
