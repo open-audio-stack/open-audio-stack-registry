@@ -1,27 +1,26 @@
 name: Sfizz
-author: SFZTools
-description: SFZ parser and synth c++ library, providing AU / LV2 / VST3 plugins and JACK standalone client.
+author: SFZ Tools
+description: SFZ sample-player plugin built on the sfizz SFZ parser and synth engine, providing AU, LV2 and VST3 plugins. Later versions are published as Sfizz UI.
 license: bsd-2-clause
 type: sampler
 tags:
   - Instrument
   - Sampler
-  - Synth
+  - Sfz
 url: https://github.com/sfztools/sfizz
 audio: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfztools/sfizz/sfizz.flac
 image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfztools/sfizz/sfizz.jpg
-date: '2024-01-14T00:00:00.000Z'
+date: '2023-04-15T00:06:30.000Z'
 changes: |
   - Mac OS Installer
-  - Updated bundled dependencies and added more options to use those
-  - preinstalled in system
-  - CI: Various updates and fixes for GitHub Actions; removed Travis and Appveyor
+  - Updated bundled dependencies and added more options to use those preinstalled in system
   - Add LFO frequency as an EG target
+  - New image_controls opcode for a background image on the UI Controls tab
+  - HiDPI zoom menu in Settings
 files:
   - systems:
       - type: mac
     architectures:
-      - arm64
       - x64
     contains:
       - component
@@ -34,9 +33,20 @@ files:
   - systems:
       - type: win
     architectures:
+      - x32
+    contains:
+      - lv2
+      - vst3
+    type: installer
+    size: 3376144
+    sha256: 5b01db0dad61aa4478289a05ece054e00edbd1bea655b8f16e6332273369fdcd
+    url: https://github.com/sfztools/sfizz/releases/download/1.2.1/sfizz-1.2.1-win32.exe
+  - systems:
+      - type: win
+    architectures:
       - x64
     contains:
-      - dll
+      - lv2
       - vst3
     type: installer
     size: 3528441
