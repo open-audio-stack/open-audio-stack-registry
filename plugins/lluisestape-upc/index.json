@@ -79,14 +79,14 @@
             "size": 21808640,
             "sha256": "77a0165404338e9194cc0fc3bc4f71d1a18c46eb3967ccea39b5ec8f84fd506e",
             "url": "https://github.com/lluisestape-upc/Synth1.0/releases/download/v1.0.0/Synth1_0.vst3",
-            "downloads": 18
+            "downloads": 63
           }
         ],
         "verified": true,
-        "downloads": 18
+        "downloads": 63
       }
     },
-    "downloads": 18
+    "downloads": 63
   },
   "lluisestape-upc/spectrumanalyzer": {
     "slug": "lluisestape-upc/spectrumanalyzer",
@@ -132,6 +132,52 @@
     },
     "downloads": 10
   },
+  "lluisestape-upc/megacrusher": {
+    "slug": "lluisestape-upc/megacrusher",
+    "version": "1.0.2",
+    "versions": {
+      "1.0.2": {
+        "name": "MegaCrusher",
+        "author": "Lluís Estapé",
+        "description": "VST3 distortion plugin — SOFT/HARD/FOLD saturation, bit-crusher, tone, animated ember UI. Built with JUCE 8.",
+        "license": "gpl-3.0",
+        "type": "effect",
+        "tags": [
+          "Distortion",
+          "Saturation",
+          "Bitcrusher",
+          "Effect"
+        ],
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/lluisestape-upc/megacrusher/megacrusher.jpg",
+        "url": "https://github.com/lluisestape-upc/MegaCrusher",
+        "date": "2026-09-28T17:17:14Z",
+        "changes": "A packaging release. Same audio processing as v1.0.1, recompiled from the same source.\n- Zip now includes LICENSE.txt and README.txt\n- Ships as a proper VST3 bundle with a generated manifest\n- Plugin version bumped to 1.0.2",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 2349374,
+            "sha256": "5f909be8d2ec8116523d5c084ed22a442a8d7526b8c6a6d2ffba7dbb0d9f768e",
+            "url": "https://github.com/lluisestape-upc/MegaCrusher/releases/download/v1.0.2/MegaCrusher-1.0.2-win-x64.zip",
+            "downloads": 7
+          }
+        ],
+        "verified": true,
+        "downloads": 7
+      }
+    },
+    "downloads": 7
+  },
   "lluisestape-upc/basiclimiter": {
     "slug": "lluisestape-upc/basiclimiter",
     "version": "2.0.0",
@@ -167,13 +213,13 @@
             "size": 6548992,
             "sha256": "7ad6b4450e8bfe03972206e21d734f6f9c7b478ed03b909b945b8dd11c7f3387",
             "url": "https://github.com/lluisestape-upc/BasicLimiter/releases/download/v2.0.0/ESP-L1.vst3",
-            "downloads": 45
+            "downloads": 62
           }
         ],
         "verified": true,
-        "downloads": 45
+        "downloads": 62
       }
     },
-    "downloads": 45
+    "downloads": 62
   }
 }
