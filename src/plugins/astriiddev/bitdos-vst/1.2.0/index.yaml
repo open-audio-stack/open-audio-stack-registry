@@ -1,0 +1,46 @@
+name: BitDOS
+author: _astriid_
+description: BitDOS (Bit-Destruction of Sound) lets you click individual bits of the signal's 8-bit representation to invert or hard-zero them, for extreme bit-level distortion.
+license: agpl-3.0
+type: effect
+tags:
+  - Bitcrusher
+  - Industrial
+  - 8 Bit
+url: https://github.com/astriiddev/BitDOS-VST
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/astriiddev/bitdos-vst/bitdos-vst.jpg
+date: '2024-07-21T17:07:38Z'
+changes: "- fixed bug in AVPTS paramater initialization that caused crash in some DAWs like Ableton and Maschine\r\n- renamed parameter names in AVPTS to remove asserts in LV2 (old parameter names will still load the same)\r..."
+files:
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - vst3
+      - lv2
+    type: archive
+    size: 23320647
+    sha256: c507589990978f661f63faed5d8f157b0e18ff8a915b2477b98e12796718559e
+    url: https://github.com/astriiddev/BitDOS-VST/releases/download/1.2/BitDOS_linux_x86_64.7z
+  - systems:
+      - type: mac
+    architectures:
+      - arm64
+    contains:
+      - vst3
+      - component
+    type: installer
+    size: 21068608
+    sha256: 9c7f9c38645505aedb0ffe65a5869d34f59ded8f7965f46317602ea85afb4983
+    url: https://github.com/astriiddev/BitDOS-VST/releases/download/1.2/BitDOS_macOS.pkg
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - vst3
+    type: archive
+    size: 10155098
+    sha256: 6032437b460a037f7b51434b2a75b6618745ea0b12581447483789fffe65e709
+    url: https://github.com/astriiddev/BitDOS-VST/releases/download/1.2/BitDOS_win_x86_64.7z
