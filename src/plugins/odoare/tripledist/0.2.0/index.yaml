@@ -1,0 +1,33 @@
+name: Triple Dist
+author: Olivier Doaré
+description: TripleDist is a filter and distortion effect plugin combining three cascaded distortion/filter stages.
+license: lgpl-3.0
+type: effect
+tags:
+  - Distortion
+  - Filter
+url: https://github.com/odoare/TripleDist
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/odoare/tripledist/tripledist.jpg
+date: '2024-10-16T19:50:09Z'
+changes: New release win new GUI.
+files:
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - vst3
+    type: archive
+    size: 4180895
+    sha256: 79a0949c6109552e15ba595fbd80b8470817307f7752d2d23bfaa299fe16231e
+    url: https://github.com/odoare/TripleDist/releases/download/0.2/TripleDist-0.2-LIN-VST3.7z
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - vst3
+    type: archive
+    size: 2510053
+    sha256: 5d0ddd87ea32635ae1792c148b0f8d4cea82cd748607fe87922ddb26028a92d7
+    url: https://github.com/odoare/TripleDist/releases/download/0.2/TripleDist-0.2-WIN-VST3.7z
