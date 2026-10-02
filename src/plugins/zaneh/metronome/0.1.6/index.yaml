@@ -1,0 +1,99 @@
+name: Metronome
+author: Zane Helton
+description: 🥁 A cross-platform metronome. Includes a tempo tapper, themes, and more!
+license: mit
+type: tool
+tags:
+  - Cross Platform
+  - Desktop
+  - Metronome
+  - Music
+  - React
+  - Tauri
+  - Dark Mode
+  - Bpm
+url: https://github.com/ZaneH/metronome
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/zaneh/metronome/metronome.jpg
+date: '2023-06-24T04:55:47Z'
+changes: "* Turn off `allowlist: true`\r\n* Update underlying packages"
+files:
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - elf
+    type: archive
+    size: 78648512
+    sha256: 8180341445fbd9770946cdc0b59e2ed644e2fd5cd490a3a475e96ddbdf0ee375
+    url: https://github.com/ZaneH/metronome/releases/download/app-v0.1.6/metronome_0.1.6_amd64.AppImage
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - elf
+    type: archive
+    size: 77934127
+    sha256: 6a056c681d8bdd9738fc62d09564b576b61931d0f0f5457ab73caa4c5f30861c
+    url: https://github.com/ZaneH/metronome/releases/download/app-v0.1.6/metronome_0.1.6_amd64.AppImage.tar.gz
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - elf
+    type: installer
+    size: 6249502
+    sha256: 404140a09aca92b2506a3289584306db97410e32ba4824b598b33e596306e159
+    url: https://github.com/ZaneH/metronome/releases/download/app-v0.1.6/metronome_0.1.6_amd64.deb
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - exe
+    type: installer
+    size: 3902947
+    sha256: 96035148b16ff70948039b27d2209b6438fc9e2ae0fa55c358139368b3f2e5bb
+    url: https://github.com/ZaneH/metronome/releases/download/app-v0.1.6/Metronome_0.1.6_x64-setup.exe
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - exe
+    type: archive
+    size: 3903103
+    sha256: d1227998696ab43422d083bc71839936e782080304d1eeeae2e35c4f23fff6e6
+    url: https://github.com/ZaneH/metronome/releases/download/app-v0.1.6/Metronome_0.1.6_x64-setup.nsis.zip
+  - systems:
+      - type: mac
+    architectures:
+      - x64
+    contains:
+      - app
+    type: installer
+    size: 4746978
+    sha256: 29c7c3861f9076a037b5cd5f0a8097a160f17f4f193608bcab77e90aa5ea2f81
+    url: https://github.com/ZaneH/metronome/releases/download/app-v0.1.6/Metronome_0.1.6_x64.dmg
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - exe
+    type: installer
+    size: 4014080
+    sha256: ad3b5503b8cc0553cab35aef69e4a6fa3683482e5727a5ed32c318ab7b091d93
+    url: https://github.com/ZaneH/metronome/releases/download/app-v0.1.6/Metronome_0.1.6_x64_en-US.msi
+  - systems:
+      - type: mac
+    architectures:
+      - x64
+    contains:
+      - app
+    type: archive
+    size: 4803858
+    sha256: 62ce5f3a98b8f613537bbdfc949cc4c92e446f9c4669555a734c29238d2edba2
+    url: https://github.com/ZaneH/metronome/releases/download/app-v0.1.6/Metronome_x64.app.tar.gz
