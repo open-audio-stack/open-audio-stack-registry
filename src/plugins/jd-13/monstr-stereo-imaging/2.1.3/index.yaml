@@ -1,0 +1,45 @@
+name: MONSTR
+author: jd-13
+description: Multiband stereo imaging plugin, allowing control of stereo width in up to 6 frequency bands.
+license: gpl-3.0
+type: effect
+tags:
+  - Stereo Width
+  - Multiband
+url: https://github.com/jd-13/MONSTR-Stereo-Imaging
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/jd-13/monstr-stereo-imaging/monstr-stereo-imaging.jpg
+date: '2024-06-24T21:19:59Z'
+changes: 'Updated the WECore dependency to v0.2.8.'
+files:
+  - systems:
+      - type: mac
+    architectures:
+      - arm64
+      - x64
+    contains:
+      - vst3
+      - component
+    type: archive
+    size: 11134698
+    sha256: bb3ff55a16056a7654b9d067fd51b9d9a386e487330b4f589f33a5fd2c686b07
+    url: https://github.com/jd-13/wea-releases/releases/download/monstr-v2.1.3/MONSTR.v2.1.3.zip
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - vst3
+    type: archive
+    size: 11134698
+    sha256: bb3ff55a16056a7654b9d067fd51b9d9a386e487330b4f589f33a5fd2c686b07
+    url: https://github.com/jd-13/wea-releases/releases/download/monstr-v2.1.3/MONSTR.v2.1.3.zip
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - vst3
+    type: archive
+    size: 11134698
+    sha256: bb3ff55a16056a7654b9d067fd51b9d9a386e487330b4f589f33a5fd2c686b07
+    url: https://github.com/jd-13/wea-releases/releases/download/monstr-v2.1.3/MONSTR.v2.1.3.zip
