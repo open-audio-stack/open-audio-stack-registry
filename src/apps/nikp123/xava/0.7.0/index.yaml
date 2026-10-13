@@ -1,0 +1,33 @@
+name: Xava
+author: nikp123
+description: X11 Audio Visualizer for ALSA
+license: mit
+type: tool
+tags:
+  - Visualizer
+  - ALSA
+  - X11
+  - Windows
+url: https://github.com/nikp123/xava
+image: https://open-audio-stack.github.io/open-audio-stack-registry/apps/nikp123/xava/xava.jpg
+date: '2021-09-09T10:46:56Z'
+changes: "This version of XAVA pretty much changed everything:\r\n* Input and Output methods are now loaded as a \"library file module\"\r\n* There are filter modules as well that control how audio is processed\r\n* OpenGL is now by default\r..."
+files:
+  - systems:
+      - type: win
+    architectures:
+      - x32
+    type: installer
+    open: xava.exe
+    size: 5278082
+    sha256: ea6d7f751ce45d07b28063bb2a0fb256096459eadb33672cf0eab9cc0191dfc6
+    url: https://github.com/nikp123/xava/releases/download/0.7.0.0/xava-win-installer-i686.exe
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    type: installer
+    open: xava.exe
+    size: 5451227
+    sha256: c788f44bdfb8e8ae722f395e0c4187913c655308d4140299fe4df05fbcd310e3
+    url: https://github.com/nikp123/xava/releases/download/0.7.0.0/xava-win-installer-x86_64.exe
