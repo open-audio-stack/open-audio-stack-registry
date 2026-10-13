@@ -1,0 +1,118 @@
+name: CChorus
+author: Christopher Arndt
+description: A versatile stereo chorus, multi-format audio effect plugin
+license: mit
+type: effect
+tags:
+  - Chorus
+  - Modulation
+url: https://github.com/SpotlightKid/cchorus
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/spotlightkid/cchorus/cchorus.jpg
+date: '2024-11-18T03:36:04Z'
+changes: Initial public release.
+files:
+  - systems:
+      - type: linux
+    architectures:
+      - arm64
+    contains:
+      - vst3
+      - so
+      - clap
+      - lv2
+    type: archive
+    size: 551891
+    sha256: ae22384f880906139d3b5a0d4c10eab34c39535959c353b10668bec3a1106dad
+    url: https://github.com/SpotlightKid/cchorus/releases/download/v2.2.0/cchorus-linux-arm64-2.2.0.zip
+  - systems:
+      - type: linux
+    architectures:
+      - arm32
+    contains:
+      - vst3
+      - so
+      - clap
+      - lv2
+    type: archive
+    size: 444716
+    sha256: c5d8641c075b81ac8a042ba89f4b70b20a9b5e9a0672acb04f40233793fff33e
+    url: https://github.com/SpotlightKid/cchorus/releases/download/v2.2.0/cchorus-linux-armhf-2.2.0.zip
+  - systems:
+      - type: linux
+    architectures:
+      - x32
+    contains:
+      - vst3
+      - so
+      - clap
+      - lv2
+    type: archive
+    size: 605188
+    sha256: 81b8fa71d14bc93f6fdff8bb9ceaaeac771956a81fe8a92c897671aefb2970d6
+    url: https://github.com/SpotlightKid/cchorus/releases/download/v2.2.0/cchorus-linux-i686-2.2.0.zip
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - vst3
+      - so
+      - clap
+      - lv2
+    type: archive
+    size: 572517
+    sha256: 156ec43ec2fa5446c2b75a3a7b063358ede45188f2e24d23e226739a2fcc1894
+    url: https://github.com/SpotlightKid/cchorus/releases/download/v2.2.0/cchorus-linux-x86_64-2.2.0.zip
+  - systems:
+      - type: mac
+    architectures:
+      - x64
+    contains:
+      - vst3
+      - vst
+      - clap
+      - lv2
+    type: archive
+    size: 140375
+    sha256: 55f0579a25156c72da16ae8df6bda34b5f31846e36343272f2d8c6b1899d68f7
+    url: https://github.com/SpotlightKid/cchorus/releases/download/v2.2.0/cchorus-macos-intel-2.2.0.zip
+  - systems:
+      - type: mac
+    architectures:
+      - arm64
+      - x64
+    contains:
+      - vst3
+      - vst
+      - clap
+      - lv2
+    type: archive
+    size: 278395
+    sha256: bb5666b2d47e9f133ee71ad1877fcf6881bd2d22201aef6c55f27d1c3a0c397a
+    url: https://github.com/SpotlightKid/cchorus/releases/download/v2.2.0/cchorus-macos-universal-2.2.0.zip
+  - systems:
+      - type: win
+    architectures:
+      - x32
+    contains:
+      - vst3
+      - dll
+      - clap
+      - lv2
+    type: archive
+    size: 490808
+    sha256: 17d718875a00fde4c6bee4bf8cdc7433f46e24d54e067fa9d993877c1fdfb98a
+    url: https://github.com/SpotlightKid/cchorus/releases/download/v2.2.0/cchorus-win32-2.2.0.zip
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - vst3
+      - dll
+      - clap
+      - lv2
+    type: archive
+    size: 678526
+    sha256: 499ca6e7a4750964d4f77bc51b097fba5feea4bd3b7e22ef00ed27fcb51ec5a9
+    url: https://github.com/SpotlightKid/cchorus/releases/download/v2.2.0/cchorus-win64-2.2.0.zip
