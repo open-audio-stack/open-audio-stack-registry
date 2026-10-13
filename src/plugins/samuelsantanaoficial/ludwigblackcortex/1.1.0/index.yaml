@@ -1,0 +1,29 @@
+name: Ludwig Black Cortex
+author: Samuel Santana
+description: SFZ sample library of a 1970s Ludwig SuperClassic Black Cortex drum kit, ready to use in sfizz with a graphical interface and General MIDI mapping
+license: mit
+type: sampler
+tags:
+  - Drums
+  - SFZ
+  - Sample Library
+url: https://github.com/samuelsantanaoficial/LudwigBlackCortex
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/samuelsantanaoficial/ludwigblackcortex/ludwigblackcortex.jpg
+date: '2025-07-11T04:04:06Z'
+changes: v1.1.0 release.
+files:
+  - systems:
+      - type: linux
+      - type: mac
+      - type: win
+    architectures:
+      - arm32
+      - arm64
+      - x32
+      - x64
+    contains:
+      - sfz
+    type: archive
+    size: 773460726
+    sha256: 273d842999c269bf6eb2f14757eff42a1f45b399f7c5356ac4ab3f43b2a70a93
+    url: https://github.com/samuelsantanaoficial/LudwigBlackCortex/releases/download/1.1.0/Ludwig.Black.Cortex.zip
