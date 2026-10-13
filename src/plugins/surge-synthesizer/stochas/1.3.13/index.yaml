@@ -1,0 +1,59 @@
+name: Stochas
+author: Surge Synthesizer Team
+description: The Stochas Sequencer
+license: gpl-3.0
+type: generator
+tags:
+  - Sequencer
+  - MIDI
+url: https://github.com/surge-synthesizer/stochas
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/surge-synthesizer/stochas/stochas.jpg
+date: '2024-11-16T01:32:19Z'
+changes: v1.3.13 release.
+files:
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - vst3
+      - clap
+    type: archive
+    size: 4658139
+    sha256: 3f858e3a57ded0ffe3ce9a23ed67fa8d0d91941fc1600332650073a3e0a214fd
+    url: https://github.com/surge-synthesizer/stochas/releases/download/v1.3.13/stochas-1.3.13.360d5ca-win.zip
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - vst3
+      - clap
+    type: archive
+    size: 10917720
+    sha256: c552d9d63c7e09e5d781d1d5c71b7fe389f2940c8a18b888ef22beebe6e4807c
+    url: https://github.com/surge-synthesizer/stochas/releases/download/v1.3.13/stochas-1.3.13.360d5ca.linux-x86_64.tgz
+  - systems:
+      - type: mac
+    architectures:
+      - arm64
+      - x64
+    contains:
+      - vst3
+      - component
+      - clap
+    type: installer
+    size: 22411045
+    sha256: 36adaa836548d6b7e4424c25ab1b7b7322ab90a4cd1d75170ce5c24df437283a
+    url: https://github.com/surge-synthesizer/stochas/releases/download/v1.3.13/stochas-macOS-1.3.13.dmg
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - vst3
+      - clap
+    type: installer
+    size: 3423970
+    sha256: 82f356390302e42ae0bd64a3d0aaa85356eb5c5188b23df191ab95f40722d77d
+    url: https://github.com/surge-synthesizer/stochas/releases/download/v1.3.13/stochas_windows_installer.exe
