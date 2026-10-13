@@ -1,0 +1,55 @@
+name: RhyGa
+author: odoare
+description: A Rhythmic Gate
+type: effect
+license: gpl-3.0
+tags:
+  - Effect
+  - Gate
+url: https://github.com/odoare/RhyGa
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/odoare/rhyga/rhyga.jpg
+date: '2025-12-20T00:00:00.000Z'
+changes: |-
+  - Now runs also when the DAW is not playing
+  - Steps linking works even if the GUI is not showing. It is now possible to automate a parameter for all steps by just automating one parameter, even if the GUI is closed. This is a more predictable behavior.
+files:
+  - architectures:
+      - x64
+    contains:
+      - vst
+    sha256: 05716a298daad10a1ad611220fd6409a8366dfd19b5444cea08a5e1171e8ccc2
+    systems:
+      - type: linux
+    size: 3904605
+    type: archive
+    url: https://github.com/odoare/RhyGa/releases/download/0.2/RhyGa.0.2.LIN.x64.VST2.zip
+  - architectures:
+      - x64
+    contains:
+      - vst3
+    sha256: 6cef81627b1c87eea7c79b024931d7808ac960321b3fb3b670e87b7aa83e67b4
+    systems:
+      - type: linux
+    size: 4139858
+    type: installer
+    url: https://github.com/odoare/RhyGa/releases/download/0.2/RhyGa.0.2.LIN.x64.VST3.zip
+  - architectures:
+      - x64
+    contains:
+      - vst
+    sha256: 9d3504fca69c8db74ef351a55ccfda0c519f0d150962f9eeb617b5fa1c733de9
+    systems:
+      - type: win
+    size: 2534506
+    type: installer
+    url: https://github.com/odoare/RhyGa/releases/download/0.2/RhyGa.0.2.WIN.x64.VST2.zip
+  - architectures:
+      - x64
+    contains:
+      - vst3
+    sha256: 898b1ebcb70f0b396330d31489d090872623210cb1441340007ab9f501635694
+    systems:
+      - type: win
+    size: 2604387
+    type: installer
+    url: https://github.com/odoare/RhyGa/releases/download/0.2/RhyGa.0.2.WIN.x64.VST3.zip
