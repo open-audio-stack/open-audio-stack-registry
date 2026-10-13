@@ -1,0 +1,65 @@
+name: Ami Sampler
+author: _astriid_
+description: An 8-bit sampler plugin inspired by the sound of the Commodore Amiga and its Protracker-era demoscene tracker software.
+license: gpl-3.0
+type: sampler
+tags:
+  - Amiga
+  - Demoscene
+  - Protracker
+  - 8 Bit
+  - Chiptune
+url: https://github.com/astriiddev/Ami-Sampler-VST
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/astriiddev/ami-sampler-vst/ami-sampler-vst.jpg
+date: '2024-05-01T21:38:37Z'
+changes: "minor bug fixes and improvements:\r\n- fixed midi mapping textbox bug that would change the high range textbox when low was changed and base note textbox when high was changed (only affected the visual value, not the internal value, but added confusion)\r..."
+files:
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - vst3
+      - lv2
+      - elf
+    type: archive
+    size: 4267757
+    sha256: 2b8d411c6720c767345b448e1de4c8b3d3ea9362ae9f430ebb1951a2aa1ad227
+    url: https://github.com/astriiddev/Ami-Sampler-VST/releases/download/v0.7.2/AmiSampler_linux_x86_64.7z
+  - systems:
+      - type: mac
+    architectures:
+      - arm64
+      - x64
+    contains:
+      - vst3
+      - component
+      - app
+    type: archive
+    size: 3928490
+    sha256: 5ca0cf045c5b4271b9c9ac61eb5fd70db6b97c34a9ea0155474373f12c003eb5
+    url: https://github.com/astriiddev/Ami-Sampler-VST/releases/download/v0.7.2/AmiSampler_macOS.7z
+  - systems:
+      - type: mac
+    architectures:
+      - arm64
+      - x64
+    contains:
+      - vst3
+      - component
+      - app
+    type: installer
+    size: 10980161
+    sha256: 64a8c4aa425784a7f346ed0e1ec789503676869ea7de7c359884181234f14454
+    url: https://github.com/astriiddev/Ami-Sampler-VST/releases/download/v0.7.2/AmiSampler_macOS.pkg
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - vst3
+      - exe
+    type: archive
+    size: 2556377
+    sha256: a46983278f7031374d9baf1fed65701a338de719b1b85ae349e9f720ee7d2206
+    url: https://github.com/astriiddev/Ami-Sampler-VST/releases/download/v0.7.2/AmiSampler_win_x86_64.7z
