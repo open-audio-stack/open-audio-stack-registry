@@ -38,7 +38,7 @@
             "size": 12639128,
             "sha256": "111c5cee51772ff5d0599776ed73979f1cc7df3c959bbfdae4bea0c1128a2b53",
             "url": "https://github.com/peastman/ViolaExMachina/releases/download/v1.4/viola_ex_machina-linux-x86.zip",
-            "downloads": 54
+            "downloads": 58
           },
           {
             "systems": [
@@ -58,7 +58,7 @@
             "size": 17821683,
             "sha256": "532a507cb0432d48db1bc1b3abd41be9017ada8cb237e761cae10ee36ab6830f",
             "url": "https://github.com/peastman/ViolaExMachina/releases/download/v1.4/viola_ex_machina-mac-x86.zip",
-            "downloads": 5
+            "downloads": 6
           },
           {
             "systems": [
@@ -78,7 +78,7 @@
             "size": 16770889,
             "sha256": "042ece4408c085423abb72e71a30fa5ea52f6f639d8343d9d8345f49beede55a",
             "url": "https://github.com/peastman/ViolaExMachina/releases/download/v1.4/viola_ex_machina-mac-arm.zip",
-            "downloads": 6
+            "downloads": 10
           },
           {
             "systems": [
@@ -97,11 +97,11 @@
             "size": 10563252,
             "sha256": "14808b00f3774beff4672473f038e204b5b976770225e3d7fd783d54552f7c26",
             "url": "https://github.com/peastman/ViolaExMachina/releases/download/v1.4/viola_ex_machina-windows-x86.zip",
-            "downloads": 37
+            "downloads": 45
           }
         ],
         "verified": true,
-        "downloads": 102
+        "downloads": 119
       },
       "1.3.0": {
         "name": "Viola Ex Machina",
@@ -204,7 +204,7 @@
         "downloads": 98
       }
     },
-    "downloads": 200
+    "downloads": 217
   },
   "peastman/sonatina-symphonic-orchestra": {
     "slug": "peastman/sonatina-symphonic-orchestra",
@@ -301,7 +301,7 @@
             "size": 8570902,
             "type": "archive",
             "url": "https://github.com/peastman/ChorusExMachina/releases/download/v1.3/chorus_ex_machina-linux-x86.zip",
-            "downloads": 506
+            "downloads": 534
           },
           {
             "architectures": [
@@ -341,7 +341,7 @@
             "size": 11767212,
             "type": "archive",
             "url": "https://github.com/peastman/ChorusExMachina/releases/download/v1.3/chorus_ex_machina-mac-arm.zip",
-            "downloads": 47
+            "downloads": 51
           },
           {
             "architectures": [
@@ -360,11 +360,11 @@
             "size": 7182011,
             "type": "archive",
             "url": "https://github.com/peastman/ChorusExMachina/releases/download/v1.3/chorus_ex_machina-windows-x86.zip",
-            "downloads": 100
+            "downloads": 110
           }
         ],
         "verified": true,
-        "downloads": 679
+        "downloads": 721
       },
       "1.2.0": {
         "name": "Chorus Ex Machina",
@@ -499,7 +499,7 @@
             "size": 8622522,
             "type": "archive",
             "url": "https://github.com/peastman/ChorusExMachina/releases/download/v1.1/chorus_ex_machina-linux-x86.zip",
-            "downloads": 24
+            "downloads": 25
           },
           {
             "architectures": [
@@ -562,9 +562,9 @@
           }
         ],
         "verified": true,
-        "downloads": 93
+        "downloads": 94
       }
     },
-    "downloads": 854
+    "downloads": 897
   }
 }

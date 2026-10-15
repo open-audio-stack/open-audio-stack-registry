@@ -57,7 +57,7 @@
             "size": 15033057,
             "sha256": "45910ea4c07473542b79060f83348ade8b5a0ca66e74568432dfe0935b97ad06",
             "url": "https://github.com/dusk-audio/dusk-audio-plugins/releases/download/multi-comp-v1.3.1/multi-comp-linux.zip",
-            "downloads": 91
+            "downloads": 93
           },
           {
             "systems": [
@@ -78,7 +78,7 @@
             "size": 23051427,
             "sha256": "0fe1fdd3d5f2997f8cd8f13b0d7fbee6b01f6bdbba0edc850edb8dd7b7bfbfc3",
             "url": "https://github.com/dusk-audio/dusk-audio-plugins/releases/download/multi-comp-v1.3.1/multi-comp-macos.zip",
-            "downloads": 46
+            "downloads": 48
           },
           {
             "systems": [
@@ -97,14 +97,14 @@
             "size": 4794443,
             "sha256": "d1c0449e4ffb008edfebb4f512474350f19caaf958a6fc49b72baeef8be903d7",
             "url": "https://github.com/dusk-audio/dusk-audio-plugins/releases/download/multi-comp-v1.3.1/multi-comp-windows.zip",
-            "downloads": 103
+            "downloads": 104
           }
         ],
         "verified": false,
-        "downloads": 256
+        "downloads": 261
       }
     },
-    "downloads": 256
+    "downloads": 261
   },
   "luna-co-software/4k-eq": {
     "slug": "luna-co-software/4k-eq",
@@ -145,7 +145,7 @@
             "size": 14258666,
             "type": "archive",
             "url": "https://github.com/dusk-audio/dusk-audio-plugins/releases/download/4k-eq-v1.0.10/4k-eq-linux.zip",
-            "downloads": 360
+            "downloads": 379
           },
           {
             "architectures": [
@@ -186,7 +186,7 @@
             "size": 22056602,
             "type": "archive",
             "url": "https://github.com/dusk-audio/dusk-audio-plugins/releases/download/4k-eq-v1.0.10/4k-eq-macos.zip",
-            "downloads": 189
+            "downloads": 191
           },
           {
             "architectures": [
@@ -205,13 +205,13 @@
             "size": 4263757,
             "type": "archive",
             "url": "https://github.com/dusk-audio/dusk-audio-plugins/releases/download/4k-eq-v1.0.10/4k-eq-windows.zip",
-            "downloads": 405
+            "downloads": 406
           }
         ],
         "verified": false,
-        "downloads": 1032
+        "downloads": 1054
       }
     },
-    "downloads": 1032
+    "downloads": 1054
   }
 }
