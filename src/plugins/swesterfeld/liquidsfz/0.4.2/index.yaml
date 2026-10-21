@@ -1,0 +1,26 @@
+name: liquidsfz
+author: Stefan Westerfeld
+description: SFZ sampler library with JACK client and LV2 plugin. Loads SFZ instruments, supports sample playback, filters, envelopes, LFOs, keyswitches and MIDI CC control.
+license: mpl-2.0
+type: sampler
+tags:
+  - Sampler
+  - SFZ
+  - Sample Player
+  - LV2
+url: https://github.com/swesterfeld/liquidsfz
+date: '2026-10-20T12:55:33Z'
+changes: |-
+  File dialog updates, LV2 MIDI keyboard widget with range/notes display, clang realtime sanitizer support, many stability fixes after AI code review (#56).
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/swesterfeld/liquidsfz/liquidsfz.jpg
+files:
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - lv2
+    type: archive
+    size: 8487723
+    sha256: aace26ada2fa0506056a401412d5cc75c9930977bd8f38b3b7199c57fbfe82a0
+    url: https://github.com/swesterfeld/liquidsfz/releases/download/0.4.2/liquidsfz-0.4.2-x86_64.tar.gz
