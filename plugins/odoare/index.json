@@ -71,7 +71,7 @@
             "size": 2268187,
             "sha256": "5b0580b2766e49fce8ec398d6e7f4be2e814bb1f0ccdcf1dd0f3fe992bc99bdf",
             "url": "https://github.com/odoare/TeAr/releases/download/v0.3.1/TeAr-VST3-Linux-arm64.zip",
-            "downloads": 11
+            "downloads": 12
           },
           {
             "systems": [
@@ -89,7 +89,7 @@
             "size": 2213510,
             "sha256": "30ca584096e23f833166c43832a2898da32354a126ca992c0a2fd7b7a79f6b8d",
             "url": "https://github.com/odoare/TeAr/releases/download/v0.3.1/TeAr-VST3-Linux-x86_64.zip",
-            "downloads": 34
+            "downloads": 36
           },
           {
             "systems": [
@@ -107,14 +107,14 @@
             "size": 2602907,
             "sha256": "ca79d0785b61dd8a1f9bfd5762b3eddadc2c4d455ff47330c70fa5e37dc2d8a1",
             "url": "https://github.com/odoare/TeAr/releases/download/v0.3.1/TeAr-VST3-Windows-x86_64.zip",
-            "downloads": 96
+            "downloads": 98
           }
         ],
         "verified": true,
-        "downloads": 191
+        "downloads": 196
       }
     },
-    "downloads": 191
+    "downloads": 196
   },
   "odoare/fxmesampler": {
     "slug": "odoare/fxmesampler",
@@ -152,7 +152,7 @@
             "size": 226825742,
             "sha256": "4b32a0896a41ac273be9611ae568080e1d94995ee264cdfd869c23af468e3db1",
             "url": "https://github.com/odoare/FxmeSampler/releases/download/v0.2.0/BlackWidowDrums-Windows-Setup.exe",
-            "downloads": 329
+            "downloads": 335
           },
           {
             "systems": [
@@ -170,7 +170,7 @@
             "size": 51582782,
             "sha256": "c08cb4e83c24c5cb2aa2c038b22c68100d75d061bb94897e80b7751cd5188f58",
             "url": "https://github.com/odoare/FxmeSampler/releases/download/v0.2.0/CenturyDrums-Windows-Setup.exe",
-            "downloads": 258
+            "downloads": 263
           },
           {
             "systems": [
@@ -226,7 +226,7 @@
             "size": 278788137,
             "sha256": "8b12df45d9f507b4aa4283fdea4b4e2425731467713ad894279428f3de562419",
             "url": "https://github.com/odoare/FxmeSampler/releases/download/v0.2.0/FxmeSampler-VST3-Linux-x86_64.zip",
-            "downloads": 333
+            "downloads": 349
           },
           {
             "systems": [
@@ -245,14 +245,14 @@
             "size": 280452907,
             "sha256": "535840459302e627c4273c2a67b9c0f3d89deab76da3c05740cff4ce2a6ab2d7",
             "url": "https://github.com/odoare/FxmeSampler/releases/download/v0.2.0/FxmeSampler-VST3-macOS-universal.zip",
-            "downloads": 61
+            "downloads": 62
           }
         ],
         "verified": true,
-        "downloads": 1145
+        "downloads": 1173
       }
     },
-    "downloads": 1145
+    "downloads": 1173
   },
   "odoare/ambirr2": {
     "slug": "odoare/ambirr2",
@@ -291,7 +291,7 @@
             "size": 5067500,
             "sha256": "9413623f0c7943bc0390d332cd8c7545524de0d6b2b43f3b465adfbd0502a83a",
             "url": "https://github.com/odoare/AmbiRR2/releases/download/v0.1.1/AmbiRR2-Linux-x86_64.zip",
-            "downloads": 57
+            "downloads": 59
           },
           {
             "systems": [
@@ -349,13 +349,13 @@
             "size": 3900111,
             "sha256": "a29e4272d8aa929ed6136b9e10716c14259690306a31d24fdf34da6b52fba913",
             "url": "https://github.com/odoare/AmbiRR2/releases/download/v0.1.1/AmbiRR2-Windows-x86_64.zip",
-            "downloads": 175
+            "downloads": 177
           }
         ],
         "verified": true,
-        "downloads": 312
+        "downloads": 316
       }
     },
-    "downloads": 312
+    "downloads": 316
   }
 }

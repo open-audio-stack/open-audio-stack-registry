@@ -36,7 +36,7 @@
             "size": 6916948,
             "sha256": "4ebd57d5f53c7ed86e39e1b27c14b228b29de308035886a5d266f3f312eaff05",
             "url": "https://github.com/ardura/Subhoofer/releases/download/v2.2.3/Subhoofer_v223_linux_build.zip",
-            "downloads": 149
+            "downloads": 158
           },
           {
             "architectures": [
@@ -55,7 +55,7 @@
             "size": 4188028,
             "type": "archive",
             "url": "https://github.com/ardura/Subhoofer/releases/download/v2.2.3/Subhoofer_v223_macos_m1_build.zip",
-            "downloads": 56
+            "downloads": 59
           },
           {
             "systems": [
@@ -74,7 +74,7 @@
             "size": 4344866,
             "sha256": "4e109f25c270c0c032510e350cfd26c5a28f8ca735500b648e6a63b35189d6bb",
             "url": "https://github.com/ardura/Subhoofer/releases/download/v2.2.3/Subhoofer_v223_macos_build.zip",
-            "downloads": 40
+            "downloads": 42
           },
           {
             "systems": [
@@ -93,11 +93,11 @@
             "size": 3779322,
             "sha256": "0f8543eabdc9747a201ad3c47863fef6a58e10bb22f393c4279769fb3bf96181",
             "url": "https://github.com/ardura/Subhoofer/releases/download/v2.2.3/Subhoofer_v223_windows_build.zip",
-            "downloads": 189
+            "downloads": 201
           }
         ],
         "verified": true,
-        "downloads": 434
+        "downloads": 460
       },
       "2.2.2": {
         "name": "Subhoofer",
@@ -151,7 +151,7 @@
             "size": 4009494,
             "sha256": "ceb6ea2261e4b4c059d51a9c93be1f21695cc837c0ed96df07d56926ba0db6ce",
             "url": "https://github.com/ardura/Subhoofer/releases/download/v2.2.2/Subhoofer_v222_MacOS.zip",
-            "downloads": 144
+            "downloads": 145
           },
           {
             "systems": [
@@ -174,10 +174,10 @@
           }
         ],
         "verified": true,
-        "downloads": 838
+        "downloads": 839
       }
     },
-    "downloads": 1272
+    "downloads": 1299
   },
   "ardura/scrollscope": {
     "slug": "ardura/scrollscope",
@@ -217,7 +217,7 @@
             "size": 7807675,
             "sha256": "d82d0fcebf216a743fdf26a64f939647e32528bdace57d08d125cb0f79a7d056",
             "url": "https://github.com/ardura/Scrollscope/releases/download/v1.4.3/Scrollscope_v143_linux_build.zip",
-            "downloads": 131
+            "downloads": 139
           },
           {
             "systems": [
@@ -237,7 +237,7 @@
             "size": 7197902,
             "sha256": "92419a6de0270b3c1ea63df7eaa6603a62804668674d73510d2d164e104dcf98",
             "url": "https://github.com/ardura/Scrollscope/releases/download/v1.4.3/Scrollscope_v143_macos_build.zip",
-            "downloads": 80
+            "downloads": 82
           },
           {
             "systems": [
@@ -257,7 +257,7 @@
             "size": 6600898,
             "sha256": "c6af33fc1008d58a1e00e670bbc9fb8afb9934a28bcf21bd4d9b10425d8f1963",
             "url": "https://github.com/ardura/Scrollscope/releases/download/v1.4.3/Scrollscope_v143_macos_m1_build.zip",
-            "downloads": 91
+            "downloads": 92
           },
           {
             "systems": [
@@ -277,11 +277,11 @@
             "size": 6846957,
             "sha256": "ec04c71cf09e0083a42453cdc7539fba45bce9b244c4998d7c74c37f7a5725b4",
             "url": "https://github.com/ardura/Scrollscope/releases/download/v1.4.3/Scrollscope_v143_windows_build.zip",
-            "downloads": 241
+            "downloads": 243
           }
         ],
         "verified": true,
-        "downloads": 543
+        "downloads": 556
       },
       "1.4.2": {
         "name": "Scrollscope",
@@ -337,7 +337,7 @@
             "size": 7090711,
             "sha256": "821208a2fc6d44ec719277892111cdcc041d9d2edee3222713c69c466d394dcc",
             "url": "https://github.com/ardura/Scrollscope/releases/download/v1.4.2/Scrollscope_macos_build_v142.zip",
-            "downloads": 53
+            "downloads": 55
           },
           {
             "systems": [
@@ -357,7 +357,7 @@
             "size": 6579412,
             "sha256": "252b2237876352041cf2f8d70e5b10ffec06313922ad0710ec8801266c51dff0",
             "url": "https://github.com/ardura/Scrollscope/releases/download/v1.4.2/Scrollscope_macos_m1_build_v142.zip",
-            "downloads": 75
+            "downloads": 77
           },
           {
             "systems": [
@@ -381,7 +381,7 @@
           }
         ],
         "verified": true,
-        "downloads": 405
+        "downloads": 409
       },
       "1.4.1": {
         "name": "Scrollscope",
@@ -437,7 +437,7 @@
             "size": 6925944,
             "sha256": "efd61d1fb05364676933c928f436e42fce070bc6023d9c59ec7bf14a163dd6b6",
             "url": "https://github.com/ardura/Scrollscope/releases/download/v1.4.1/Scrollscope_v141_macos_build.zip",
-            "downloads": 136
+            "downloads": 138
           },
           {
             "systems": [
@@ -457,7 +457,7 @@
             "size": 6413946,
             "sha256": "6982220abde622395ef8cabc108dcf2cc5b4b61f8676fd82d6d9ed8fe51a5a62",
             "url": "https://github.com/ardura/Scrollscope/releases/download/v1.4.1/Scrollscope_v141_macos_m1_build.zip",
-            "downloads": 172
+            "downloads": 174
           },
           {
             "systems": [
@@ -481,10 +481,10 @@
           }
         ],
         "verified": true,
-        "downloads": 907
+        "downloads": 911
       }
     },
-    "downloads": 1855
+    "downloads": 1876
   },
   "ardura/interleaf": {
     "slug": "ardura/interleaf",
@@ -522,7 +522,7 @@
             "size": 3822972,
             "sha256": "13a275e0dba11f6a3028e8e4bb1269befcedfcb54697c754fc13ff135e4ba825",
             "url": "https://github.com/ardura/Interleaf/releases/download/v1.0/linux_build.zip",
-            "downloads": 72
+            "downloads": 74
           },
           {
             "systems": [
@@ -560,7 +560,7 @@
             "size": 3365550,
             "sha256": "4ea2fedb0efa1ce5dd0749924e65189f1e4575c3f5ef83d92124495a1374c46f",
             "url": "https://github.com/ardura/Interleaf/releases/download/v1.0/macos_m1_build.zip",
-            "downloads": 61
+            "downloads": 62
           },
           {
             "systems": [
@@ -579,14 +579,14 @@
             "size": 3194614,
             "sha256": "aa76f3cf00ca8449a324f3fbbbdf8229ee20de68000ce89c8b458ad65bd33599",
             "url": "https://github.com/ardura/Interleaf/releases/download/v1.0/windows_build.zip",
-            "downloads": 171
+            "downloads": 174
           }
         ],
         "verified": true,
-        "downloads": 370
+        "downloads": 376
       }
     },
-    "downloads": 370
+    "downloads": 376
   },
   "ardura/gladedesk": {
     "slug": "ardura/gladedesk",
@@ -626,7 +626,7 @@
             "size": 4202182,
             "sha256": "4bf665db88cfc3f85808241f85d7a1173131224ca6f4ac1a7ebd77a80c6c55d2",
             "url": "https://github.com/ardura/GladeDesk/releases/download/v1.0b/linux_build.zip",
-            "downloads": 42
+            "downloads": 43
           },
           {
             "systems": [
@@ -664,14 +664,14 @@
             "size": 3451574,
             "sha256": "11c628bea7d5ffbc8c0bd3292c12abdbaf27525ee375f4dc20ba3cadfe7bd66c",
             "url": "https://github.com/ardura/GladeDesk/releases/download/v1.0b/windows_build.zip",
-            "downloads": 81
+            "downloads": 83
           }
         ],
         "verified": true,
-        "downloads": 172
+        "downloads": 175
       }
     },
-    "downloads": 172
+    "downloads": 175
   },
   "ardura/actuate": {
     "slug": "ardura/actuate",
@@ -711,7 +711,7 @@
             "size": 8330288,
             "type": "archive",
             "url": "https://github.com/ardura/Actuate/releases/download/v1.4.3/Actuate_v143_windows_build.zip",
-            "downloads": 56
+            "downloads": 58
           },
           {
             "architectures": [
@@ -730,7 +730,7 @@
             "size": 9395724,
             "type": "archive",
             "url": "https://github.com/ardura/Actuate/releases/download/v1.4.3/Actuate_v143_linux_build.zip",
-            "downloads": 62
+            "downloads": 65
           },
           {
             "architectures": [
@@ -772,7 +772,7 @@
           }
         ],
         "verified": true,
-        "downloads": 165
+        "downloads": 170
       },
       "1.4.2": {
         "name": "Actuate",
@@ -1066,6 +1066,6 @@
         "downloads": 239
       }
     },
-    "downloads": 962
+    "downloads": 967
   }
 }
