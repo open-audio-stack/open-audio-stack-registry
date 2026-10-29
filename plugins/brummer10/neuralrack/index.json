@@ -1,7 +1,262 @@
 {
   "slug": "brummer10/neuralrack",
-  "version": "0.3.3",
+  "version": "0.4.1",
   "versions": {
+    "0.4.1": {
+      "name": "NeuralRack",
+      "author": "brummer10",
+      "description": "NeuralRack is a Neural Model and Impulse Response File loader for Linux/Windows.",
+      "license": "bsd-3-clause",
+      "type": "effect",
+      "tags": [
+        "Effect",
+        "Guitar",
+        "NAM",
+        "AIDA-X"
+      ],
+      "url": "https://github.com/brummer10/NeuralRack",
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/brummer10/neuralrack/neuralrack.jpg",
+      "date": "2026-08-03T14:21:14Z",
+      "changes": "- Fix CLAP plugin crash in Bitwig\n- Add Linux CLAP, VST2 and VST3 builds\n",
+      "files": [
+        {
+          "systems": [
+            {
+              "type": "linux"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "lv2"
+          ],
+          "type": "archive",
+          "size": 2519848,
+          "sha256": "7d87de0cc576a4c91ad734c42a5fbf3f480d90d55a28db529dd9d6355d66181f",
+          "url": "https://github.com/brummer10/NeuralRack/releases/download/v0.4.1/NeuralRack-v0.4.1-linux-x86_64.tar.xz",
+          "downloads": 158
+        },
+        {
+          "systems": [
+            {
+              "type": "linux"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "lv2"
+          ],
+          "type": "archive",
+          "size": 2507624,
+          "sha256": "3db2ef29e697c0c2e60f9318170e62a8f3db30aebc7b3b28e066b54fdce1aa15",
+          "url": "https://github.com/brummer10/NeuralRack/releases/download/v0.4.1/NeuralRack-v3-lv2-v0.4.1-linux-x86_64.tar.xz",
+          "downloads": 110
+        },
+        {
+          "systems": [
+            {
+              "type": "linux"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "clap"
+          ],
+          "type": "archive",
+          "size": 2513940,
+          "sha256": "6a696bfd88a7e3592bcbbf47c9c173b268091f3847b01a530e3494101ff16627",
+          "url": "https://github.com/brummer10/NeuralRack/releases/download/v0.4.1/NeuralRack-v0.4.1-clap-linux-x86_64.tar.xz",
+          "downloads": 199
+        },
+        {
+          "systems": [
+            {
+              "type": "linux"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "so"
+          ],
+          "type": "archive",
+          "size": 2511976,
+          "sha256": "8bb6e8a08ec7fec02a68b913c013549a07739ac1d61375c369d3abef994a65da",
+          "url": "https://github.com/brummer10/NeuralRack/releases/download/v0.4.1/NeuralRack-v0.4.1-vst2-linux-x86_64.tar.xz",
+          "downloads": 57
+        },
+        {
+          "systems": [
+            {
+              "type": "linux"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "vst3"
+          ],
+          "type": "archive",
+          "size": 2516320,
+          "sha256": "9a0c20c5610ba542ec1895fb9efafc4d4bcde65b30324f522ecfce8a356207cc",
+          "url": "https://github.com/brummer10/NeuralRack/releases/download/v0.4.1/NeuralRack-v0.4.1-vst3-linux-x86_64.tar.xz",
+          "downloads": 229
+        },
+        {
+          "systems": [
+            {
+              "type": "linux"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "elf"
+          ],
+          "type": "archive",
+          "size": 2403744,
+          "sha256": "280866ca7095a8a52b40aff563e25d85a1ad35a73c996f3bc8e13bb1da06faf4",
+          "url": "https://github.com/brummer10/NeuralRack/releases/download/v0.4.1/NeuralRack-app-v0.4.1-linux-x86_64.tar.xz",
+          "downloads": 293
+        },
+        {
+          "systems": [
+            {
+              "type": "linux"
+            }
+          ],
+          "architectures": [
+            "arm64"
+          ],
+          "contains": [
+            "lv2"
+          ],
+          "type": "archive",
+          "size": 2282136,
+          "sha256": "c9ced67afeb8e48a8366f97e9e9b3899d6fdb09548d27e4d87010d48c5513bf5",
+          "url": "https://github.com/brummer10/NeuralRack/releases/download/v0.4.1/NeuralRack-v0.4.1-lv2-linux-arm64.tar.xz",
+          "downloads": 81
+        },
+        {
+          "systems": [
+            {
+              "type": "win"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "lv2"
+          ],
+          "type": "archive",
+          "size": 3191160,
+          "sha256": "ee1f816f6bb6a62ae9fcf42d8885c2e4bff3504407443912f5d22bdd82dcdf5b",
+          "url": "https://github.com/brummer10/NeuralRack/releases/download/v0.4.1/NeuralRack-v0.4.1-win64.zip",
+          "downloads": 77
+        },
+        {
+          "systems": [
+            {
+              "type": "win"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "lv2"
+          ],
+          "type": "archive",
+          "size": 3174389,
+          "sha256": "b6b36852dba4bec4d1d59f0db72fcdc1369411c77173140e4575593217fa3adf",
+          "url": "https://github.com/brummer10/NeuralRack/releases/download/v0.4.1/NeuralRack-v3-lv2-v0.4.1-win64.zip",
+          "downloads": 31
+        },
+        {
+          "systems": [
+            {
+              "type": "win"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "clap"
+          ],
+          "type": "archive",
+          "size": 3138320,
+          "sha256": "f27ae5e96da0b5cafbe8c5bee7b27340e86fced0d5aa0319f5b80da1a9bc353f",
+          "url": "https://github.com/brummer10/NeuralRack/releases/download/v0.4.1/NeuralRack-clap-v0.4.1-win64.zip",
+          "downloads": 54
+        },
+        {
+          "systems": [
+            {
+              "type": "win"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "dll"
+          ],
+          "type": "archive",
+          "size": 3140386,
+          "sha256": "5b12a6adc8909449c723310bb2663fb4dddbba31f58d8464fd9caaf1464ab21a",
+          "url": "https://github.com/brummer10/NeuralRack/releases/download/v0.4.1/NeuralRack-vst2-v0.4.1-win64.zip",
+          "downloads": 34
+        },
+        {
+          "systems": [
+            {
+              "type": "win"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "vst3"
+          ],
+          "type": "archive",
+          "size": 3140629,
+          "sha256": "522bd2ade9efcc906a132bd773b70df4b0744659546db5e9dcc8c4ccd4ddd0ae",
+          "url": "https://github.com/brummer10/NeuralRack/releases/download/v0.4.1/NeuralRack-vst3-v0.4.1-win64.zip",
+          "downloads": 97
+        },
+        {
+          "systems": [
+            {
+              "type": "win"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "exe"
+          ],
+          "type": "archive",
+          "size": 3289307,
+          "sha256": "3d79bdd792993136bd8c48de930d937570c3c1ed0d2e17074000ac16deafa565",
+          "url": "https://github.com/brummer10/NeuralRack/releases/download/v0.4.1/NeuralRack-app-v0.4.1-win64.zip",
+          "downloads": 135
+        }
+      ],
+      "verified": true,
+      "downloads": 1555
+    },
     "0.3.3": {
       "name": "NeuralRack",
       "author": "brummer10",
@@ -186,5 +441,5 @@
       "downloads": 1630
     }
   },
-  "downloads": 1630
+  "downloads": 3185
 }

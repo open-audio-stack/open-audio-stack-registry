@@ -37,7 +37,7 @@
               "size": 5911681,
               "sha256": "c01c49d8063965c4c2dea8324468336768f5c9139e0b1caebde14c2400b55352",
               "url": "https://github.com/Tracktion/pluginval/releases/download/v1.0.4/pluginval_Linux.zip",
-              "downloads": 56085
+              "downloads": 56099
             },
             {
               "systems": [
@@ -53,7 +53,7 @@
               "size": 9202795,
               "sha256": "3c4c533bda0c5059eea3ddaea752d757ee2025041f0f47e6bcb0e87f6082b29f",
               "url": "https://github.com/Tracktion/pluginval/releases/download/v1.0.4/pluginval_macOS.zip",
-              "downloads": 126707
+              "downloads": 126726
             },
             {
               "systems": [
@@ -69,14 +69,14 @@
               "size": 2408590,
               "sha256": "c08e61ce3b96db41636f8ec7e76f4c7e2c13ebdac7fa1b5a1f52b4f32ec715ab",
               "url": "https://github.com/Tracktion/pluginval/releases/download/v1.0.4/pluginval_Windows.zip",
-              "downloads": 182079
+              "downloads": 182096
             }
           ],
           "verified": true,
-          "downloads": 364871
+          "downloads": 364921
         }
       },
-      "downloads": 364871
+      "downloads": 364921
     },
     "stemdeckapp/stemdeck": {
       "slug": "stemdeckapp/stemdeck",
@@ -434,7 +434,7 @@
               "size": 39238496,
               "sha256": "14e02a1c0028f3ca0bdf83b62b3336e56ba0556894ef295a95e8573f06557166",
               "url": "https://github.com/Rikorose/DeepFilterNet/releases/download/v0.5.6/deep-filter-0.5.6-aarch64-unknown-linux-gnu",
-              "downloads": 7756
+              "downloads": 7758
             },
             {
               "systems": [
@@ -498,14 +498,14 @@
               "size": 36417296,
               "sha256": "70775e251eee44c0f2451a1e833326cf8bcbbe304d3e7cd12851e6fce72ef7da",
               "url": "https://github.com/Rikorose/DeepFilterNet/releases/download/v0.5.6/deep-filter-0.5.6-x86_64-unknown-linux-musl",
-              "downloads": 97564
+              "downloads": 97568
             }
           ],
           "verified": true,
-          "downloads": 163085
+          "downloads": 163091
         }
       },
-      "downloads": 163085
+      "downloads": 163091
     },
     "pkunk/pwrate": {
       "slug": "pkunk/pwrate",
@@ -1637,14 +1637,14 @@
               "size": 20587137,
               "sha256": "55fd6d242cc14d92cc78bfda5c8e40559a7f4184a721801a02d08eb87ffcf3c9",
               "url": "https://github.com/davy7125/polyphone/releases/download/2.6.0/Polyphone_2.6.0-windows_x64-portable.zip",
-              "downloads": 263
+              "downloads": 264
             }
           ],
           "verified": true,
-          "downloads": 716
+          "downloads": 717
         }
       },
-      "downloads": 716
+      "downloads": 717
     },
     "christofmuc/knobkraft-orm": {
       "slug": "christofmuc/knobkraft-orm",
@@ -4673,14 +4673,14 @@
               "size": 37740885,
               "sha256": "e4dcc186102850f8dcebeb766ad1bf34c24f6280bd614ef84b72dae4783fc517",
               "url": "https://github.com/werman/noise-suppression-for-voice/releases/download/v1.10/win-rnnoise.zip",
-              "downloads": 362137
+              "downloads": 362140
             }
           ],
           "verified": true,
-          "downloads": 396057
+          "downloads": 396060
         }
       },
-      "downloads": 396057
+      "downloads": 396060
     },
     "webprofusion/soundshed-guitar": {
       "slug": "webprofusion/soundshed-guitar",
@@ -11563,7 +11563,7 @@
               "size": 416715686,
               "sha256": "b56e8d51a8dc2382ae668c9ff4e96bae38dbd452af4e584d5a5ef50ab2d09b07",
               "url": "https://github.com/surge-synthesizer/releases-xt/releases/download/1.3.4/surge-xt-macOS-1.3.4.dmg",
-              "downloads": 177396
+              "downloads": 177400
             },
             {
               "systems": [
@@ -11606,7 +11606,7 @@
             }
           ],
           "verified": true,
-          "downloads": 837746
+          "downloads": 837750
         },
         "1.3.1": {
           "name": "Surge XT",
@@ -11733,7 +11733,7 @@
           "downloads": 84522
         }
       },
-      "downloads": 922268
+      "downloads": 922272
     },
     "surge-synthesizer/ob-xf": {
       "slug": "surge-synthesizer/ob-xf",
@@ -15348,14 +15348,14 @@
               "size": 10349826,
               "sha256": "83e2825241d4e1c0ab2c44c91c0a9be6a94941a81df0c2fbe05e83b2650470da",
               "url": "https://github.com/Sinuslabs/Reach/releases/download/1.6.6/Reach-Windows.exe",
-              "downloads": 211838
+              "downloads": 211842
             }
           ],
           "verified": true,
-          "downloads": 213907
+          "downloads": 213911
         }
       },
-      "downloads": 213907
+      "downloads": 213911
     },
     "sgossner/vsco-2-ce": {
       "slug": "sgossner/vsco-2-ce",
@@ -35729,11 +35729,11 @@
               "size": 2717837,
               "sha256": "3b8ad6f0def5da7dc54fe66777e80c86e9ddd70c1c509351afed7d3acd223d81",
               "url": "https://github.com/hqrrr/PerceptoMap/releases/download/v0.18.2/PerceptoMap_vst3_v0.18.2_windows_x64.zip",
-              "downloads": 146
+              "downloads": 147
             }
           ],
           "verified": true,
-          "downloads": 286
+          "downloads": 287
         },
         "0.16.1": {
           "name": "PerceptoMap",
@@ -35918,7 +35918,7 @@
           "downloads": 247
         }
       },
-      "downloads": 780
+      "downloads": 781
     },
     "hornfisk/squelchbox": {
       "slug": "hornfisk/squelchbox",
@@ -39175,7 +39175,8 @@
               "type": "archive",
               "size": 16789757,
               "sha256": "502a54b1ef5004e7d32e645394ae952efd699693e609623d6e87e4edca60d751",
-              "url": "https://github.com/gabrielsoule/resonarium/releases/download/v0.0.11/Resonarium-Effect-0.0.11-Linux.zip"
+              "url": "https://github.com/gabrielsoule/resonarium/releases/download/v0.0.11/Resonarium-Effect-0.0.11-Linux.zip",
+              "downloads": 1423
             },
             {
               "systems": [
@@ -39195,7 +39196,8 @@
               "type": "archive",
               "size": 41180925,
               "sha256": "8942ccb403694ca04c71a2a0401fc36eadb2c1936128d6db48abf830f8ee78fd",
-              "url": "https://github.com/gabrielsoule/resonarium/releases/download/v0.0.11/Resonarium-Effect-0.0.11-macOS-notarized.zip"
+              "url": "https://github.com/gabrielsoule/resonarium/releases/download/v0.0.11/Resonarium-Effect-0.0.11-macOS-notarized.zip",
+              "downloads": 821
             },
             {
               "systems": [
@@ -39212,7 +39214,8 @@
               "type": "archive",
               "size": 12483020,
               "sha256": "326bc684567641e55fdf7d98573cbf9ac05f6949d884c65084fe5b15e76bc818",
-              "url": "https://github.com/gabrielsoule/resonarium/releases/download/v0.0.11/Resonarium-Effect-0.0.11-Windows.zip"
+              "url": "https://github.com/gabrielsoule/resonarium/releases/download/v0.0.11/Resonarium-Effect-0.0.11-Windows.zip",
+              "downloads": 1766
             },
             {
               "systems": [
@@ -39229,7 +39232,8 @@
               "type": "archive",
               "size": 16788285,
               "sha256": "2fb91903b989fe08fc2ac3a60b4dfba6fd22f692bc23ba398cef7625ed7f03b1",
-              "url": "https://github.com/gabrielsoule/resonarium/releases/download/v0.0.11/Resonarium-Instrument-0.0.11-Linux.zip"
+              "url": "https://github.com/gabrielsoule/resonarium/releases/download/v0.0.11/Resonarium-Instrument-0.0.11-Linux.zip",
+              "downloads": 1517
             },
             {
               "systems": [
@@ -39249,7 +39253,8 @@
               "type": "archive",
               "size": 41180203,
               "sha256": "695c898abe7798a3b259573017727cf3ae69aa03c1fafa6c5bb6b3304a1f6aea",
-              "url": "https://github.com/gabrielsoule/resonarium/releases/download/v0.0.11/Resonarium-Instrument-0.0.11-macOS-notarized.zip"
+              "url": "https://github.com/gabrielsoule/resonarium/releases/download/v0.0.11/Resonarium-Instrument-0.0.11-macOS-notarized.zip",
+              "downloads": 844
             },
             {
               "systems": [
@@ -39266,12 +39271,15 @@
               "type": "archive",
               "size": 12482545,
               "sha256": "e362230352e5872632f9099f3ffa389ce7a328d8ef1ec40aa55b205070973c59",
-              "url": "https://github.com/gabrielsoule/resonarium/releases/download/v0.0.11/Resonarium-Instrument-0.0.11-Windows.zip"
+              "url": "https://github.com/gabrielsoule/resonarium/releases/download/v0.0.11/Resonarium-Instrument-0.0.11-Windows.zip",
+              "downloads": 1943
             }
           ],
-          "verified": true
+          "verified": true,
+          "downloads": 8314
         }
-      }
+      },
+      "downloads": 8314
     },
     "fullfxmedia/setekh": {
       "slug": "fullfxmedia/setekh",
@@ -46983,8 +46991,7 @@
               "type": "archive",
               "size": 14699710,
               "sha256": "5b3b233ed361d8bc41e1a7a987b31f7b33bcf4b66ac7e843ee5fac5756b87092",
-              "url": "https://github.com/consint/Pult-EQ/releases/download/1.0.0/Pult.EQ_1_0_0_Linux_vst3.zip",
-              "downloads": 944
+              "url": "https://github.com/consint/Pult-EQ/releases/download/1.0.0/Pult.EQ_1_0_0_Linux_vst3.zip"
             },
             {
               "systems": [
@@ -47001,15 +47008,12 @@
               "type": "archive",
               "size": 11963479,
               "sha256": "506fd14cdd7c5710f978bf01d0c56d9ca9c8518fbd0478aea8e1dac541a2ae7a",
-              "url": "https://github.com/consint/Pult-EQ/releases/download/1.0.0/Pult.EQ_1_0_0_Win_vst3.zip",
-              "downloads": 1507
+              "url": "https://github.com/consint/Pult-EQ/releases/download/1.0.0/Pult.EQ_1_0_0_Win_vst3.zip"
             }
           ],
-          "verified": true,
-          "downloads": 2451
+          "verified": true
         }
-      },
-      "downloads": 2451
+      }
     },
     "consint/panacea": {
       "slug": "consint/panacea",
@@ -48958,8 +48962,263 @@
     },
     "brummer10/neuralrack": {
       "slug": "brummer10/neuralrack",
-      "version": "0.3.3",
+      "version": "0.4.1",
       "versions": {
+        "0.4.1": {
+          "name": "NeuralRack",
+          "author": "brummer10",
+          "description": "NeuralRack is a Neural Model and Impulse Response File loader for Linux/Windows.",
+          "license": "bsd-3-clause",
+          "type": "effect",
+          "tags": [
+            "Effect",
+            "Guitar",
+            "NAM",
+            "AIDA-X"
+          ],
+          "url": "https://github.com/brummer10/NeuralRack",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/brummer10/neuralrack/neuralrack.jpg",
+          "date": "2026-08-03T14:21:14Z",
+          "changes": "- Fix CLAP plugin crash in Bitwig\n- Add Linux CLAP, VST2 and VST3 builds\n",
+          "files": [
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "lv2"
+              ],
+              "type": "archive",
+              "size": 2519848,
+              "sha256": "7d87de0cc576a4c91ad734c42a5fbf3f480d90d55a28db529dd9d6355d66181f",
+              "url": "https://github.com/brummer10/NeuralRack/releases/download/v0.4.1/NeuralRack-v0.4.1-linux-x86_64.tar.xz",
+              "downloads": 158
+            },
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "lv2"
+              ],
+              "type": "archive",
+              "size": 2507624,
+              "sha256": "3db2ef29e697c0c2e60f9318170e62a8f3db30aebc7b3b28e066b54fdce1aa15",
+              "url": "https://github.com/brummer10/NeuralRack/releases/download/v0.4.1/NeuralRack-v3-lv2-v0.4.1-linux-x86_64.tar.xz",
+              "downloads": 110
+            },
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "clap"
+              ],
+              "type": "archive",
+              "size": 2513940,
+              "sha256": "6a696bfd88a7e3592bcbbf47c9c173b268091f3847b01a530e3494101ff16627",
+              "url": "https://github.com/brummer10/NeuralRack/releases/download/v0.4.1/NeuralRack-v0.4.1-clap-linux-x86_64.tar.xz",
+              "downloads": 199
+            },
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "so"
+              ],
+              "type": "archive",
+              "size": 2511976,
+              "sha256": "8bb6e8a08ec7fec02a68b913c013549a07739ac1d61375c369d3abef994a65da",
+              "url": "https://github.com/brummer10/NeuralRack/releases/download/v0.4.1/NeuralRack-v0.4.1-vst2-linux-x86_64.tar.xz",
+              "downloads": 57
+            },
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "vst3"
+              ],
+              "type": "archive",
+              "size": 2516320,
+              "sha256": "9a0c20c5610ba542ec1895fb9efafc4d4bcde65b30324f522ecfce8a356207cc",
+              "url": "https://github.com/brummer10/NeuralRack/releases/download/v0.4.1/NeuralRack-v0.4.1-vst3-linux-x86_64.tar.xz",
+              "downloads": 229
+            },
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "elf"
+              ],
+              "type": "archive",
+              "size": 2403744,
+              "sha256": "280866ca7095a8a52b40aff563e25d85a1ad35a73c996f3bc8e13bb1da06faf4",
+              "url": "https://github.com/brummer10/NeuralRack/releases/download/v0.4.1/NeuralRack-app-v0.4.1-linux-x86_64.tar.xz",
+              "downloads": 293
+            },
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "arm64"
+              ],
+              "contains": [
+                "lv2"
+              ],
+              "type": "archive",
+              "size": 2282136,
+              "sha256": "c9ced67afeb8e48a8366f97e9e9b3899d6fdb09548d27e4d87010d48c5513bf5",
+              "url": "https://github.com/brummer10/NeuralRack/releases/download/v0.4.1/NeuralRack-v0.4.1-lv2-linux-arm64.tar.xz",
+              "downloads": 81
+            },
+            {
+              "systems": [
+                {
+                  "type": "win"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "lv2"
+              ],
+              "type": "archive",
+              "size": 3191160,
+              "sha256": "ee1f816f6bb6a62ae9fcf42d8885c2e4bff3504407443912f5d22bdd82dcdf5b",
+              "url": "https://github.com/brummer10/NeuralRack/releases/download/v0.4.1/NeuralRack-v0.4.1-win64.zip",
+              "downloads": 77
+            },
+            {
+              "systems": [
+                {
+                  "type": "win"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "lv2"
+              ],
+              "type": "archive",
+              "size": 3174389,
+              "sha256": "b6b36852dba4bec4d1d59f0db72fcdc1369411c77173140e4575593217fa3adf",
+              "url": "https://github.com/brummer10/NeuralRack/releases/download/v0.4.1/NeuralRack-v3-lv2-v0.4.1-win64.zip",
+              "downloads": 31
+            },
+            {
+              "systems": [
+                {
+                  "type": "win"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "clap"
+              ],
+              "type": "archive",
+              "size": 3138320,
+              "sha256": "f27ae5e96da0b5cafbe8c5bee7b27340e86fced0d5aa0319f5b80da1a9bc353f",
+              "url": "https://github.com/brummer10/NeuralRack/releases/download/v0.4.1/NeuralRack-clap-v0.4.1-win64.zip",
+              "downloads": 54
+            },
+            {
+              "systems": [
+                {
+                  "type": "win"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "dll"
+              ],
+              "type": "archive",
+              "size": 3140386,
+              "sha256": "5b12a6adc8909449c723310bb2663fb4dddbba31f58d8464fd9caaf1464ab21a",
+              "url": "https://github.com/brummer10/NeuralRack/releases/download/v0.4.1/NeuralRack-vst2-v0.4.1-win64.zip",
+              "downloads": 34
+            },
+            {
+              "systems": [
+                {
+                  "type": "win"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "vst3"
+              ],
+              "type": "archive",
+              "size": 3140629,
+              "sha256": "522bd2ade9efcc906a132bd773b70df4b0744659546db5e9dcc8c4ccd4ddd0ae",
+              "url": "https://github.com/brummer10/NeuralRack/releases/download/v0.4.1/NeuralRack-vst3-v0.4.1-win64.zip",
+              "downloads": 97
+            },
+            {
+              "systems": [
+                {
+                  "type": "win"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "exe"
+              ],
+              "type": "archive",
+              "size": 3289307,
+              "sha256": "3d79bdd792993136bd8c48de930d937570c3c1ed0d2e17074000ac16deafa565",
+              "url": "https://github.com/brummer10/NeuralRack/releases/download/v0.4.1/NeuralRack-app-v0.4.1-win64.zip",
+              "downloads": 135
+            }
+          ],
+          "verified": true,
+          "downloads": 1555
+        },
         "0.3.3": {
           "name": "NeuralRack",
           "author": "brummer10",
@@ -49144,7 +49403,7 @@
           "downloads": 1630
         }
       },
-      "downloads": 1630
+      "downloads": 3185
     },
     "brummer10/loopino": {
       "slug": "brummer10/loopino",
