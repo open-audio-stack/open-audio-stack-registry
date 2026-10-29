@@ -64,28 +64,49 @@ jobs:
             }
             if (!entries.length) return;
 
-            // Submit urls to VirusTotal when an API key is available (not on fork PRs).
-            // Failures are only warnings, links below are deterministic so are posted regardless.
-            if (process.env.VT_API_KEY) {
+            // When an API key is available (not on fork PRs), read existing scan results by sha256
+            // and submit the url of any file VirusTotal has not seen yet. Failures are only warnings,
+            // links below are deterministic so are posted regardless. Public API is limited to 4 requests/min.
+            const apiKey = process.env.VT_API_KEY;
+            const wait = () => new Promise(resolve => setTimeout(resolve, 15000));
+            if (apiKey) {
               for (const entry of entries) {
                 try {
-                  const res = await fetch('https://www.virustotal.com/api/v3/urls', {
-                    method: 'POST',
-                    headers: { 'x-apikey': process.env.VT_API_KEY, 'content-type': 'application/x-www-form-urlencoded' },
-                    body: new URLSearchParams({ url: entry.url }),
-                  });
-                  if (!res.ok) core.warning(`VirusTotal submit failed (${res.status}): ${entry.url}`);
+                  if (entry.sha256) {
+                    const res = await fetch(`https://www.virustotal.com/api/v3/files/${entry.sha256}`, {
+                      headers: { 'x-apikey': apiKey },
+                    });
+                    if (res.ok) {
+                      const stats = (await res.json()).data.attributes.last_analysis_stats;
+                      entry.flags = stats.malicious + stats.suspicious;
+                    } else if (res.status !== 404) {
+                      core.warning(`VirusTotal lookup failed (${res.status}): ${entry.url}`);
+                    }
+                    await wait();
+                  }
+                  if (entry.flags === undefined) {
+                    const res = await fetch('https://www.virustotal.com/api/v3/urls', {
+                      method: 'POST',
+                      headers: { 'x-apikey': apiKey, 'content-type': 'application/x-www-form-urlencoded' },
+                      body: new URLSearchParams({ url: entry.url }),
+                    });
+                    if (!res.ok) core.warning(`VirusTotal submit failed (${res.status}): ${entry.url}`);
+                    entry.submitted = res.ok;
+                    await wait();
+                  }
                 } catch (e) {
-                  core.warning(`VirusTotal submit failed: ${entry.url} ${e.message}`);
+                  core.warning(`VirusTotal request failed: ${entry.url} ${e.message}`);
                 }
-                await new Promise(resolve => setTimeout(resolve, 15000));
               }
             }
 
             let output = 'VirusTotal Report:\n';
             for (const entry of entries) {
               const name = path.basename(entry.url);
-              output += entry.sha256 ? `- [${name}](https://www.virustotal.com/gui/file/${entry.sha256})\n` : `- ${name}\n`;
+              let line = entry.sha256 ? `[${name}](https://www.virustotal.com/gui/file/${entry.sha256})` : name;
+              if (entry.flags !== undefined) line += ` (${entry.flags} ${entry.flags === 1 ? 'flag' : 'flags'})`;
+              else if (entry.submitted) line += ' (scan submitted)';
+              output += `- ${line}\n`;
             }
             output += '\nItems not yet scanned by VirusTotal may show as not found.\n';
 
