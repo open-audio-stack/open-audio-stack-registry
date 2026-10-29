@@ -45,7 +45,6 @@ jobs:
           script: |
             const fs = require('fs');
             const path = require('path');
-            const crypto = require('crypto');
             const yaml = require(path.join(process.cwd(), 'node_modules/js-yaml'));
             const changedFiles = process.env.CHANGED_FILES;
             if (!changedFiles) return;
@@ -85,10 +84,8 @@ jobs:
 
             let output = 'VirusTotal Report:\n';
             for (const entry of entries) {
-              const urlId = crypto.createHash('sha256').update(entry.url).digest('hex');
-              output += `- ${path.basename(entry.url)}: [url](https://www.virustotal.com/gui/url/${urlId})`;
-              if (entry.sha256) output += ` · [file](https://www.virustotal.com/gui/file/${entry.sha256})`;
-              output += '\n';
+              const name = path.basename(entry.url);
+              output += entry.sha256 ? `- [${name}](https://www.virustotal.com/gui/file/${entry.sha256})\n` : `- ${name}\n`;
             }
             output += '\nItems not yet scanned by VirusTotal may show as not found.\n';
 
