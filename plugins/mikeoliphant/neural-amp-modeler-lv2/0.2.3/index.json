@@ -1,0 +1,128 @@
+{
+  "name": "Neural Amp Modeler LV2",
+  "author": "Mike Oliphant",
+  "description": "Neural Amp Modeler LV2 plugin, supporting both NAM and RTNeural models without a custom GUI",
+  "license": "gpl-3.0",
+  "type": "effect",
+  "tags": [
+    "Guitar",
+    "Amp",
+    "NAM"
+  ],
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/mikeoliphant/neural-amp-modeler-lv2/neural-amp-modeler-lv2.jpg",
+  "url": "https://github.com/mikeoliphant/neural-amp-modeler-lv2",
+  "date": "2026-07-20T14:23:03Z",
+  "changes": "- WaveNet performance increases, particularly for A2 Full models.\n- Faster and less resource-intensive compilation.\n- Better build optimizations for all platforms.\n- Fix quality scaling not initializing properly in some hosts.\n",
+  "files": [
+    {
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "lv2"
+      ],
+      "type": "archive",
+      "size": 2222822,
+      "sha256": "b866d44f535b770f423f99d1083c03ddbafb07e63ed639d11e7f10c7dffb2f5e",
+      "url": "https://github.com/mikeoliphant/neural-amp-modeler-lv2/releases/download/v0.2.3/neural_amp_modeler_lv2_linux_x64.tgz",
+      "downloads": 1309
+    },
+    {
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "lv2"
+      ],
+      "type": "archive",
+      "size": 2285703,
+      "sha256": "a9c5fbbd79624ef28d543c7aec5c511c32c6abc974524c0efb0e84c3811162ee",
+      "url": "https://github.com/mikeoliphant/neural-amp-modeler-lv2/releases/download/v0.2.3/neural_amp_modeler_lv2_linux_x64v3.tgz",
+      "downloads": 1055
+    },
+    {
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "architectures": [
+        "arm64"
+      ],
+      "contains": [
+        "lv2"
+      ],
+      "type": "archive",
+      "size": 4657435,
+      "sha256": "f2ea68668621fbe2d12a710f4117d586224321ffdaa718735589fdbbc5f7a06a",
+      "url": "https://github.com/mikeoliphant/neural-amp-modeler-lv2/releases/download/v0.2.3/neural_amp_modeler_lv2_rpi4.tgz",
+      "downloads": 72
+    },
+    {
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "architectures": [
+        "arm64"
+      ],
+      "contains": [
+        "lv2"
+      ],
+      "type": "archive",
+      "size": 4656022,
+      "sha256": "80d1a711d573afb7323cbf2ea1a79e39386e58ba449d076c5d89e10b50de3212",
+      "url": "https://github.com/mikeoliphant/neural-amp-modeler-lv2/releases/download/v0.2.3/neural_amp_modeler_lv2_rpi5.tgz",
+      "downloads": 88
+    },
+    {
+      "systems": [
+        {
+          "type": "win"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "lv2"
+      ],
+      "type": "archive",
+      "size": 1314539,
+      "sha256": "d64aec201ae0285e0adb9f1ac22e720d62a15c9947b9506e61dd7c6f8e9ad0ef",
+      "url": "https://github.com/mikeoliphant/neural-amp-modeler-lv2/releases/download/v0.2.3/neural_amp_modeler_lv2_win_x64.zip",
+      "downloads": 170
+    },
+    {
+      "systems": [
+        {
+          "type": "win"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "lv2"
+      ],
+      "type": "archive",
+      "size": 1347094,
+      "sha256": "e6b5c8b8b18888db64e341f192cf950e2f1e0b2dfc518f0f67a3c57e7520faff",
+      "url": "https://github.com/mikeoliphant/neural-amp-modeler-lv2/releases/download/v0.2.3/neural_amp_modeler_lv2_win_x64v3.zip",
+      "downloads": 163
+    }
+  ],
+  "verified": true,
+  "downloads": 2857
+}
