@@ -36,7 +36,7 @@
           "size": 5066023,
           "type": "archive",
           "url": "https://github.com/tiagolr/time12/releases/download/v1.2.3/time12-linux-v1.2.3.zip",
-          "downloads": 1126
+          "downloads": 1169
         },
         {
           "architectures": [
@@ -56,7 +56,7 @@
           "size": 12313409,
           "type": "archive",
           "url": "https://github.com/tiagolr/time12/releases/download/v1.2.3/time12-macos-v1.2.3.zip",
-          "downloads": 2204
+          "downloads": 2252
         },
         {
           "systems": [
@@ -75,11 +75,11 @@
           "size": 5539406,
           "sha256": "b5699e49850826a8279e315d51cc8cf92636fc98d5d649bcfadd7ae026982989",
           "url": "https://github.com/tiagolr/time12/releases/download/v1.2.3/time12-win-v1.2.3.zip",
-          "downloads": 4561
+          "downloads": 4660
         }
       ],
       "verified": true,
-      "downloads": 7891
+      "downloads": 8081
     },
     "1.2.2": {
       "name": "TIME-12",
@@ -154,11 +154,11 @@
           "size": 5544638,
           "sha256": "1c80421cda934a5a0c7f75af427d24358921e182b953ad92a120d19d095f0a4e",
           "url": "https://github.com/tiagolr/time12/releases/download/v1.2.2/time12-win-v1.2.2.zip",
-          "downloads": 2560
+          "downloads": 2561
         }
       ],
       "verified": true,
-      "downloads": 4501
+      "downloads": 4502
     },
     "1.2.1": {
       "name": "TIME-12",
@@ -319,5 +319,5 @@
       "downloads": 3633
     }
   },
-  "downloads": 16299
+  "downloads": 16490
 }
