@@ -92,26 +92,32 @@ jobs:
             }
             output += '\nItems not yet scanned by VirusTotal may show as not found.\n';
 
-            const { data: comments } = await github.rest.issues.listComments({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              issue_number: context.payload.number,
-            });
-            const existingComment = comments.find(comment => comment.body.includes('VirusTotal Report:'));
-            if (existingComment) {
-              await github.rest.issues.updateComment({
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                comment_id: existingComment.id,
-                body: output
-              });
-            } else {
-              await github.rest.issues.createComment({
+            await core.summary.addRaw(output, true).write();
+            // Fork PRs get a read-only token, so commenting may fail
+            try {
+              const { data: comments } = await github.rest.issues.listComments({
                 owner: context.repo.owner,
                 repo: context.repo.repo,
                 issue_number: context.payload.number,
-                body: output
               });
+              const existingComment = comments.find(comment => comment.body.includes('VirusTotal Report:'));
+              if (existingComment) {
+                await github.rest.issues.updateComment({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  comment_id: existingComment.id,
+                  body: output
+                });
+              } else {
+                await github.rest.issues.createComment({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  issue_number: context.payload.number,
+                  body: output
+                });
+              }
+            } catch (e) {
+              core.warning(`Could not post comment: ${e.message}`);
             }
 
       - name: Destination urls
@@ -140,26 +146,32 @@ jobs:
               }
             }
 
-            const { data: comments } = await github.rest.issues.listComments({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              issue_number: context.payload.number,
-            });
-            const existingUrlComment = comments.find(comment => comment.body.includes('Destination urls:'));
-            if (existingUrlComment) {
-              await github.rest.issues.updateComment({
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                comment_id: existingUrlComment.id,
-                body: output
-              });
-            } else {
-              await github.rest.issues.createComment({
+            await core.summary.addRaw(output, true).write();
+            // Fork PRs get a read-only token, so commenting may fail
+            try {
+              const { data: comments } = await github.rest.issues.listComments({
                 owner: context.repo.owner,
                 repo: context.repo.repo,
                 issue_number: context.payload.number,
-                body: output
               });
+              const existingUrlComment = comments.find(comment => comment.body.includes('Destination urls:'));
+              if (existingUrlComment) {
+                await github.rest.issues.updateComment({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  comment_id: existingUrlComment.id,
+                  body: output
+                });
+              } else {
+                await github.rest.issues.createComment({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  issue_number: context.payload.number,
+                  body: output
+                });
+              }
+            } catch (e) {
+              core.warning(`Could not post comment: ${e.message}`);
             }
 
       - name: Notify plugin authors
@@ -195,24 +207,29 @@ jobs:
 
             const body = `Plugin author notification:\n\n${mentions} — your plugin has been submitted to the Open Audio Stack registry. Please review this PR and let us know if the metadata (name, description, tags, files) is correct. To see a full list of all currently added plugins, click <a href="https://studiorack.github.io/studiorack-site/plugins">here</a>.`;
 
-            const { data: comments } = await github.rest.issues.listComments({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              issue_number: pr.number,
-            });
-            const existing = comments.find(c => c.body.includes('Plugin author notification:'));
-            if (existing) {
-              await github.rest.issues.updateComment({
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                comment_id: existing.id,
-                body,
-              });
-            } else {
-              await github.rest.issues.createComment({
+            // Fork PRs get a read-only token, so commenting may fail
+            try {
+              const { data: comments } = await github.rest.issues.listComments({
                 owner: context.repo.owner,
                 repo: context.repo.repo,
                 issue_number: pr.number,
-                body,
               });
+              const existing = comments.find(c => c.body.includes('Plugin author notification:'));
+              if (existing) {
+                await github.rest.issues.updateComment({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  comment_id: existing.id,
+                  body,
+                });
+              } else {
+                await github.rest.issues.createComment({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  issue_number: pr.number,
+                  body,
+                });
+              }
+            } catch (e) {
+              core.warning(`Could not post comment: ${e.message}`);
             }
