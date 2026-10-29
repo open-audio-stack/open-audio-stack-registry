@@ -35,53 +35,63 @@ jobs:
           ls ./test/downloads/ || true
           exit $exit_code
 
-      - name: VirusTotal Scan
-        id: virustotal
-        if: ${{ !cancelled() }}
-        continue-on-error: true
-        uses: crazy-max/ghaction-virustotal@v5
-        with:
-          vt_api_key: ${{ secrets.VT_API_KEY }}
-          request_rate: 4
-          files: ./test/downloads/**/*
-
       - name: VirusTotal Report
         if: ${{ !cancelled() }}
         uses: actions/github-script@v7
         env:
-          VT_ANALYSIS: ${{ steps.virustotal.outputs.analysis }}
+          CHANGED_FILES: ${{ steps.changed-files.outputs.all_changed_files }}
+          VT_API_KEY: ${{ secrets.VT_API_KEY }}
         with:
           script: |
             const fs = require('fs');
             const path = require('path');
             const crypto = require('crypto');
+            const yaml = require(path.join(process.cwd(), 'node_modules/js-yaml'));
+            const changedFiles = process.env.CHANGED_FILES;
+            if (!changedFiles) return;
 
-            // Links by sha256 are deterministic, so they are posted even when the upload fails
-            // (e.g. file already uploaded, missing API key on fork PRs).
-            const walk = dir => {
-              if (!fs.existsSync(dir)) return [];
-              return fs.readdirSync(dir, { withFileTypes: true }).flatMap(entry => {
-                const full = path.join(dir, entry.name);
-                return entry.isDirectory() ? walk(full) : [full];
-              });
-            };
-            const analysisLinks = {};
-            for (const item of (process.env.VT_ANALYSIS || '').split(',')) {
-              const index = item.indexOf('=https');
-              if (index > 0) analysisLinks[item.slice(0, index).replace('./test/downloads/', '')] = item.slice(index + 1);
+            // Collect the file urls from the changed package yaml files
+            const entries = [];
+            for (const file of changedFiles.split(' ')) {
+              if (!file.endsWith('.yaml')) continue;
+              try {
+                const data = yaml.load(fs.readFileSync(file, 'utf8'));
+                for (const f of data.files || []) {
+                  if (f.url) entries.push({ url: f.url, sha256: f.sha256 });
+                }
+              } catch (e) {
+                core.warning(`Could not read ${file}: ${e.message}`);
+              }
             }
-            const files = walk('./test/downloads');
-            if (!files.length) return;
+            if (!entries.length) return;
+
+            // Submit urls to VirusTotal when an API key is available (not on fork PRs).
+            // Failures are only warnings, links below are deterministic so are posted regardless.
+            if (process.env.VT_API_KEY) {
+              for (const entry of entries) {
+                try {
+                  const res = await fetch('https://www.virustotal.com/api/v3/urls', {
+                    method: 'POST',
+                    headers: { 'x-apikey': process.env.VT_API_KEY, 'content-type': 'application/x-www-form-urlencoded' },
+                    body: new URLSearchParams({ url: entry.url }),
+                  });
+                  if (!res.ok) core.warning(`VirusTotal submit failed (${res.status}): ${entry.url}`);
+                } catch (e) {
+                  core.warning(`VirusTotal submit failed: ${entry.url} ${e.message}`);
+                }
+                await new Promise(resolve => setTimeout(resolve, 15000));
+              }
+            }
 
             let output = 'VirusTotal Report:\n';
-            for (const file of files) {
-              const name = path.relative('./test/downloads', file);
-              const sha256 = crypto.createHash('sha256').update(fs.readFileSync(file)).digest('hex');
-              output += `- [${name}](https://www.virustotal.com/gui/file/${sha256})`;
-              if (analysisLinks[name]) output += ` ([analysis](${analysisLinks[name]}))`;
+            for (const entry of entries) {
+              const urlId = crypto.createHash('sha256').update(entry.url).digest('hex');
+              output += `- ${path.basename(entry.url)}: [url](https://www.virustotal.com/gui/url/${urlId})`;
+              if (entry.sha256) output += ` · [file](https://www.virustotal.com/gui/file/${entry.sha256})`;
               output += '\n';
             }
-            output += '\nFiles not yet scanned by VirusTotal may show as not found.\n';
+            output += '\nItems not yet scanned by VirusTotal may show as not found.\n';
+
             const { data: comments } = await github.rest.issues.listComments({
               owner: context.repo.owner,
               repo: context.repo.repo,
