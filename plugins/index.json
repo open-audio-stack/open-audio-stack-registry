@@ -33,12 +33,15 @@
             "type": "installer",
             "size": 12623277,
             "sha256": "4f96261cfd628bab587b9ed80564207abb38e5980bcb449fff6999f9a00f5ff1",
-            "url": "https://github.com/zynaddsubfx/zynaddsubfx/releases/download/2.5.3-osx/ZynAddSubFx-2.5.3.dmg"
+            "url": "https://github.com/zynaddsubfx/zynaddsubfx/releases/download/2.5.3-osx/ZynAddSubFx-2.5.3.dmg",
+            "downloads": 782
           }
         ],
-        "verified": true
+        "verified": true,
+        "downloads": 782
       }
-    }
+    },
+    "downloads": 782
   },
   "zones-convolution/zones-client": {
     "slug": "zones-convolution/zones-client",
@@ -77,7 +80,8 @@
             "type": "installer",
             "size": 6085364,
             "sha256": "0d7979e3acc17665e3530417dad43b13034b511fd81df4b45e999dcc86632202",
-            "url": "https://github.com/zones-convolution/zones_client/releases/download/v1.0.5/Zones-arm64.pkg"
+            "url": "https://github.com/zones-convolution/zones_client/releases/download/v1.0.5/Zones-arm64.pkg",
+            "downloads": 110
           },
           {
             "systems": [
@@ -94,12 +98,15 @@
             "type": "installer",
             "size": 5330701,
             "sha256": "922dbdadb724935f139a4400405eea372ddaef03cb6bbde0f764b6ddbee59217",
-            "url": "https://github.com/zones-convolution/zones_client/releases/download/v1.0.5/Zones-v1.0.5-Windows.exe"
+            "url": "https://github.com/zones-convolution/zones_client/releases/download/v1.0.5/Zones-v1.0.5-Windows.exe",
+            "downloads": 230
           }
         ],
-        "verified": true
+        "verified": true,
+        "downloads": 340
       }
-    }
+    },
+    "downloads": 340
   },
   "zmann-org/zmann": {
     "slug": "zmann-org/zmann",
@@ -135,7 +142,8 @@
             "type": "archive",
             "size": 76353801,
             "sha256": "4b07516bc2074cf8ee3fd8677b35f7362b6be4fc20a25452c1967c64e9b391bd",
-            "url": "https://github.com/zmann-org/zmann/releases/download/2.0rc-1/Bells.zip"
+            "url": "https://github.com/zmann-org/zmann/releases/download/2.0rc-1/Bells.zip",
+            "downloads": 40
           },
           {
             "systems": [
@@ -152,7 +160,8 @@
             "type": "archive",
             "size": 78485504,
             "sha256": "34372d3404f244d33d6aa2e615c1e6bb52391dd736b6f32c997f98a2a4be2f5b",
-            "url": "https://github.com/zmann-org/zmann/releases/download/2.0rc-1/Bells.clap"
+            "url": "https://github.com/zmann-org/zmann/releases/download/2.0rc-1/Bells.clap",
+            "downloads": 21
           },
           {
             "systems": [
@@ -169,7 +178,8 @@
             "type": "archive",
             "size": 2355094,
             "sha256": "cd20b3bf45f1fa5c4b8d38b98468ec43c21dca74b53365cbe9d54ff7153c55ab",
-            "url": "https://github.com/zmann-org/zmann/releases/download/2.0rc-1/Orchestron.zip"
+            "url": "https://github.com/zmann-org/zmann/releases/download/2.0rc-1/Orchestron.zip",
+            "downloads": 38
           },
           {
             "systems": [
@@ -186,12 +196,15 @@
             "type": "archive",
             "size": 3017728,
             "sha256": "1c9cb404025e0b177c355fc8a5137a17139e42f48de3d721c7687f7edd5942a3",
-            "url": "https://github.com/zmann-org/zmann/releases/download/2.0rc-1/Orchestron.clap"
+            "url": "https://github.com/zmann-org/zmann/releases/download/2.0rc-1/Orchestron.clap",
+            "downloads": 19
           }
         ],
-        "verified": true
+        "verified": true,
+        "downloads": 118
       }
-    }
+    },
+    "downloads": 118
   },
   "zl-audio/zlwarm": {
     "slug": "zl-audio/zlwarm",
@@ -229,7 +242,8 @@
             "type": "installer",
             "size": 6115643,
             "sha256": "1219606cd0ed1e8b02eaac93041f2e70d9387bde6e669b395fa116f333da0632",
-            "url": "https://github.com/ZL-Audio/ZLWarm/releases/download/0.2.1/ZL.Warm-0.2.1.dmg"
+            "url": "https://github.com/ZL-Audio/ZLWarm/releases/download/0.2.1/ZL.Warm-0.2.1.dmg",
+            "downloads": 3423
           },
           {
             "systems": [
@@ -246,7 +260,8 @@
             "type": "installer",
             "size": 2707517,
             "sha256": "61713ffdeabbc87bf79b4f6070619282ceb5add98094ccbc758c383fd2ae4177",
-            "url": "https://github.com/ZL-Audio/ZLWarm/releases/download/0.2.1/ZL.Warm-0.2.1.exe"
+            "url": "https://github.com/ZL-Audio/ZLWarm/releases/download/0.2.1/ZL.Warm-0.2.1.exe",
+            "downloads": 4301
           },
           {
             "systems": [
@@ -263,12 +278,15 @@
             "type": "archive",
             "size": 14110770,
             "sha256": "1e37bde56287423e075360cb44159bee4498a139144ff3c65c6d4e85e5198ef4",
-            "url": "https://github.com/ZL-Audio/ZLWarm/releases/download/0.2.1/ZL.Warm-0.2.1.zip"
+            "url": "https://github.com/ZL-Audio/ZLWarm/releases/download/0.2.1/ZL.Warm-0.2.1.zip",
+            "downloads": 3966
           }
         ],
-        "verified": true
+        "verified": true,
+        "downloads": 11690
       }
-    }
+    },
+    "downloads": 11690
   },
   "zl-audio/zlsplitter": {
     "slug": "zl-audio/zlsplitter",
@@ -311,7 +329,8 @@
             "size": 5505594,
             "sha256": "3d8e5e60298a30073b12ca773ad522034392350aacd6d6c7ae045f63c93d4012",
             "attested": true,
-            "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.3.0/ZL.Splitter-0.3.0-Linux-arm.zip"
+            "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.3.0/ZL.Splitter-0.3.0-Linux-arm.zip",
+            "downloads": 141
           },
           {
             "systems": [
@@ -330,7 +349,8 @@
             "size": 8851204,
             "sha256": "52e856331ff7248fc9d1b1d348df2eb7827610eeb5406dc62826866cdafdb9a4",
             "attested": true,
-            "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.3.0/ZL.Splitter-0.3.0-Linux-x86.zip"
+            "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.3.0/ZL.Splitter-0.3.0-Linux-x86.zip",
+            "downloads": 778
           },
           {
             "systems": [
@@ -349,7 +369,8 @@
             "size": 5201749,
             "sha256": "3e971970de57f9dfa206a2e737ff2c9f149fd5d5b035fb121e6e986a0f23ed96",
             "attested": true,
-            "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.3.0/ZL.Splitter-0.3.0-macOS-arm.dmg"
+            "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.3.0/ZL.Splitter-0.3.0-macOS-arm.dmg",
+            "downloads": 1022
           },
           {
             "systems": [
@@ -368,7 +389,8 @@
             "size": 9183755,
             "sha256": "b90a439b47cc7587f68941677fdc1046c8c243ef8f675b6758b843f909eb4ea6",
             "attested": true,
-            "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.3.0/ZL.Splitter-0.3.0-macOS-x86.dmg"
+            "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.3.0/ZL.Splitter-0.3.0-macOS-x86.dmg",
+            "downloads": 467
           },
           {
             "systems": [
@@ -387,7 +409,8 @@
             "size": 5025792,
             "sha256": "d816072be93907ea8a844b47492b2a2b43ec240639685532900e395311d29837",
             "attested": true,
-            "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.3.0/ZL.Splitter-0.3.0-Windows-arm.msi"
+            "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.3.0/ZL.Splitter-0.3.0-Windows-arm.msi",
+            "downloads": 592
           },
           {
             "systems": [
@@ -406,12 +429,15 @@
             "size": 5566464,
             "sha256": "4ab477adc74626a6841c947c7bf0dc0598641c4f288161ecc8234acebc3f6a83",
             "attested": true,
-            "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.3.0/ZL.Splitter-0.3.0-Windows-x86.msi"
+            "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.3.0/ZL.Splitter-0.3.0-Windows-x86.msi",
+            "downloads": 3150
           }
         ],
-        "verified": true
+        "verified": true,
+        "downloads": 6150
       }
-    }
+    },
+    "downloads": 6150
   },
   "zl-audio/zllmatch": {
     "slug": "zl-audio/zllmatch",
@@ -450,7 +476,8 @@
             "type": "installer",
             "size": 5555427,
             "sha256": "99ba712300c0164117152a33ddc612e4d40f27b9f3dae5a21af7c12c52497420",
-            "url": "https://github.com/ZL-Audio/ZLLMatch/releases/download/v0.2.4/ZLLMatch-0.2.4.dmg"
+            "url": "https://github.com/ZL-Audio/ZLLMatch/releases/download/v0.2.4/ZLLMatch-0.2.4.dmg",
+            "downloads": 3373
           },
           {
             "systems": [
@@ -467,7 +494,8 @@
             "type": "installer",
             "size": 2596186,
             "sha256": "1295d9cd56b5bebe6167b6c2df1cd6bf2b8136bdf4bd76c492fdd5c7bc850a80",
-            "url": "https://github.com/ZL-Audio/ZLLMatch/releases/download/v0.2.4/ZLLMatch-0.2.4.exe"
+            "url": "https://github.com/ZL-Audio/ZLLMatch/releases/download/v0.2.4/ZLLMatch-0.2.4.exe",
+            "downloads": 4082
           },
           {
             "systems": [
@@ -484,12 +512,15 @@
             "type": "archive",
             "size": 12271944,
             "sha256": "c8b5deffe32a137fbd6d0113eba56fec2fa270bf3ff08a715cb16b43e634c6d5",
-            "url": "https://github.com/ZL-Audio/ZLLMatch/releases/download/v0.2.4/ZLLMatch-0.2.4.zip"
+            "url": "https://github.com/ZL-Audio/ZLLMatch/releases/download/v0.2.4/ZLLMatch-0.2.4.zip",
+            "downloads": 3802
           }
         ],
-        "verified": true
+        "verified": true,
+        "downloads": 11257
       }
-    }
+    },
+    "downloads": 11257
   },
   "zl-audio/zllmakeup": {
     "slug": "zl-audio/zllmakeup",
@@ -529,7 +560,8 @@
             "type": "installer",
             "size": 5618707,
             "sha256": "a868df21bf7cb5b7316afead0ecd525968267cd80a4fa80acc3050b06cb8cc9d",
-            "url": "https://github.com/ZL-Audio/ZLLMakeup/releases/download/v0.2.7/ZLLMakeup-0.2.7.dmg"
+            "url": "https://github.com/ZL-Audio/ZLLMakeup/releases/download/v0.2.7/ZLLMakeup-0.2.7.dmg",
+            "downloads": 3380
           },
           {
             "systems": [
@@ -546,7 +578,8 @@
             "type": "installer",
             "size": 2599526,
             "sha256": "37df74e6d0a5b8b7acd09ab6365901c710bb7fcd3e38218df6b3d19677a0dcac",
-            "url": "https://github.com/ZL-Audio/ZLLMakeup/releases/download/v0.2.7/ZLLMakeup-0.2.7.exe"
+            "url": "https://github.com/ZL-Audio/ZLLMakeup/releases/download/v0.2.7/ZLLMakeup-0.2.7.exe",
+            "downloads": 4050
           },
           {
             "systems": [
@@ -563,12 +596,15 @@
             "type": "archive",
             "size": 12239122,
             "sha256": "6038937cefa8cadb00b6fcb90cc03b5e1f17d9d4715e4ad315d70847ec05429a",
-            "url": "https://github.com/ZL-Audio/ZLLMakeup/releases/download/v0.2.7/ZLLMakeup-0.2.7.zip"
+            "url": "https://github.com/ZL-Audio/ZLLMakeup/releases/download/v0.2.7/ZLLMakeup-0.2.7.zip",
+            "downloads": 3743
           }
         ],
-        "verified": true
+        "verified": true,
+        "downloads": 11173
       }
-    }
+    },
+    "downloads": 11173
   },
   "zl-audio/zlinflator": {
     "slug": "zl-audio/zlinflator",
@@ -607,7 +643,8 @@
             "type": "installer",
             "size": 5745863,
             "sha256": "2b58fb846a1fe2354a3ce51be4ce21bfcad6cb6e142dd41ebef4a234dfc702f3",
-            "url": "https://github.com/ZL-Audio/ZLInflator/releases/download/0.3.0/ZLInflator-0.3.0.dmg"
+            "url": "https://github.com/ZL-Audio/ZLInflator/releases/download/0.3.0/ZLInflator-0.3.0.dmg",
+            "downloads": 3545
           },
           {
             "systems": [
@@ -624,7 +661,8 @@
             "type": "installer",
             "size": 2623054,
             "sha256": "a9aa15c0ce65f0979f2c2744a37e8aee3346546cd416978e91cccff5cea9f6b1",
-            "url": "https://github.com/ZL-Audio/ZLInflator/releases/download/0.3.0/ZLInflator-0.3.0.exe"
+            "url": "https://github.com/ZL-Audio/ZLInflator/releases/download/0.3.0/ZLInflator-0.3.0.exe",
+            "downloads": 4488
           },
           {
             "systems": [
@@ -641,12 +679,15 @@
             "type": "archive",
             "size": 12419853,
             "sha256": "98592dc343427e238dca69096b59fd21deffc0de778bdbd8879a905683ec090b",
-            "url": "https://github.com/ZL-Audio/ZLInflator/releases/download/0.3.0/ZLInflator-0.3.0.zip"
+            "url": "https://github.com/ZL-Audio/ZLInflator/releases/download/0.3.0/ZLInflator-0.3.0.zip",
+            "downloads": 3997
           }
         ],
-        "verified": true
+        "verified": true,
+        "downloads": 12030
       }
-    }
+    },
+    "downloads": 12030
   },
   "zl-audio/zlequalizer2": {
     "slug": "zl-audio/zlequalizer2",
@@ -880,7 +921,8 @@
             ],
             "size": 9230313,
             "type": "archive",
-            "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.2.2/ZL.Equalizer.2-1.2.2-Linux-arm64.zip"
+            "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.2.2/ZL.Equalizer.2-1.2.2-Linux-arm64.zip",
+            "downloads": 331
           },
           {
             "architectures": [
@@ -899,7 +941,8 @@
             ],
             "size": 10034620,
             "type": "archive",
-            "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.2.2/ZL.Equalizer.2-1.2.2-Linux-x86-64-AVX2.zip"
+            "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.2.2/ZL.Equalizer.2-1.2.2-Linux-x86-64-AVX2.zip",
+            "downloads": 618
           },
           {
             "architectures": [
@@ -918,7 +961,8 @@
             ],
             "size": 9763297,
             "type": "archive",
-            "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.2.2/ZL.Equalizer.2-1.2.2-Linux-x86-64.zip"
+            "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.2.2/ZL.Equalizer.2-1.2.2-Linux-x86-64.zip",
+            "downloads": 571
           },
           {
             "architectures": [
@@ -939,7 +983,8 @@
             ],
             "size": 13378811,
             "type": "installer",
-            "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.2.2/ZL.Equalizer.2-1.2.2-macOS-arm64.dmg"
+            "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.2.2/ZL.Equalizer.2-1.2.2-macOS-arm64.dmg",
+            "downloads": 3059
           },
           {
             "architectures": [
@@ -960,7 +1005,8 @@
             ],
             "size": 14968334,
             "type": "installer",
-            "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.2.2/ZL.Equalizer.2-1.2.2-macOS-x86-64.dmg"
+            "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.2.2/ZL.Equalizer.2-1.2.2-macOS-x86-64.dmg",
+            "downloads": 1066
           },
           {
             "architectures": [
@@ -978,7 +1024,8 @@
             ],
             "size": 8196096,
             "type": "installer",
-            "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.2.2/ZL.Equalizer.2-1.2.2-Windows-arm64.msi"
+            "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.2.2/ZL.Equalizer.2-1.2.2-Windows-arm64.msi",
+            "downloads": 874
           },
           {
             "architectures": [
@@ -996,7 +1043,8 @@
             ],
             "size": 11886592,
             "type": "installer",
-            "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.2.2/ZL.Equalizer.2-1.2.2-Windows-x86-64-AVX2.msi"
+            "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.2.2/ZL.Equalizer.2-1.2.2-Windows-x86-64-AVX2.msi",
+            "downloads": 4941
           },
           {
             "architectures": [
@@ -1014,10 +1062,12 @@
             ],
             "size": 11608064,
             "type": "installer",
-            "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.2.2/ZL.Equalizer.2-1.2.2-Windows-x86-64.msi"
+            "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.2.2/ZL.Equalizer.2-1.2.2-Windows-x86-64.msi",
+            "downloads": 4859
           }
         ],
-        "verified": true
+        "verified": true,
+        "downloads": 16319
       },
       "1.1.0": {
         "name": "ZL Equalizer 2",
@@ -1050,7 +1100,8 @@
             ],
             "size": 17295648,
             "type": "archive",
-            "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.1.0/ZL.Equalizer.2-1.1.0-Linux-x86.zip"
+            "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.1.0/ZL.Equalizer.2-1.1.0-Linux-x86.zip",
+            "downloads": 2559
           },
           {
             "architectures": [
@@ -1068,7 +1119,8 @@
             ],
             "size": 11547522,
             "type": "archive",
-            "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.1.0/ZL.Equalizer.2-1.1.0-Linux-arm.zip"
+            "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.1.0/ZL.Equalizer.2-1.1.0-Linux-arm.zip",
+            "downloads": 910
           },
           {
             "architectures": [
@@ -1087,7 +1139,8 @@
             ],
             "size": 22915912,
             "type": "installer",
-            "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.1.0/ZL.Equalizer.2-1.1.0-macOS-x86.dmg"
+            "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.1.0/ZL.Equalizer.2-1.1.0-macOS-x86.dmg",
+            "downloads": 3783
           },
           {
             "architectures": [
@@ -1106,7 +1159,8 @@
             ],
             "size": 15238667,
             "type": "installer",
-            "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.1.0/ZL.Equalizer.2-1.1.0-macOS-arm.dmg"
+            "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.1.0/ZL.Equalizer.2-1.1.0-macOS-arm.dmg",
+            "downloads": 6714
           },
           {
             "architectures": [
@@ -1125,7 +1179,8 @@
             ],
             "size": 11918930,
             "type": "installer",
-            "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.1.0/ZL.Equalizer.2-1.1.0-Windows-x86.exe"
+            "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.1.0/ZL.Equalizer.2-1.1.0-Windows-x86.exe",
+            "downloads": 22815
           },
           {
             "architectures": [
@@ -1143,13 +1198,15 @@
             ],
             "size": 8247800,
             "type": "installer",
-            "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.1.0/ZL.Equalizer.2-1.1.0-Windows-arm.exe"
+            "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.1.0/ZL.Equalizer.2-1.1.0-Windows-arm.exe",
+            "downloads": 5056
           }
         ],
-        "verified": true
+        "verified": true,
+        "downloads": 41837
       }
     },
-    "downloads": 11366
+    "downloads": 69522
   },
   "zl-audio/zlcompressor": {
     "slug": "zl-audio/zlcompressor",
@@ -2403,7 +2460,7 @@
             "size": 5089663,
             "sha256": "8b844e9b535d2b8a8a07fc6cec207beae8161f7d6da36e4a856a766aa441b848",
             "url": "https://github.com/wolf-plugins/wolf-shaper/releases/download/v1.0.2/wolf-shaper-v1.0.2-linux-x64.zip",
-            "downloads": 1003
+            "downloads": 1005
           },
           {
             "systems": [
@@ -2426,7 +2483,7 @@
             "size": 5980398,
             "sha256": "19bba017c8eed9b697712d0f1e769ab30eb785534c152e6783017735fe73de03",
             "url": "https://github.com/wolf-plugins/wolf-shaper/releases/download/v1.0.2/wolf-shaper-v1.0.2-macos-universal.zip",
-            "downloads": 2631
+            "downloads": 2634
           },
           {
             "systems": [
@@ -2448,14 +2505,14 @@
             "size": 5481008,
             "sha256": "42a703a5f71b19855d9213d57f2261d2182c73c73d39730775188df3e4c47da9",
             "url": "https://github.com/wolf-plugins/wolf-shaper/releases/download/v1.0.2/wolf-shaper-v1.0.2+20230515144200-windows-x64.zip",
-            "downloads": 6242
+            "downloads": 6244
           }
         ],
         "verified": true,
-        "downloads": 10017
+        "downloads": 10024
       }
     },
-    "downloads": 10017
+    "downloads": 10024
   },
   "whoadrian/midipad": {
     "slug": "whoadrian/midipad",
@@ -9550,7 +9607,7 @@
             "size": 416715686,
             "sha256": "b56e8d51a8dc2382ae668c9ff4e96bae38dbd452af4e584d5a5ef50ab2d09b07",
             "url": "https://github.com/surge-synthesizer/releases-xt/releases/download/1.3.4/surge-xt-macOS-1.3.4.dmg",
-            "downloads": 177389
+            "downloads": 177396
           },
           {
             "systems": [
@@ -9589,11 +9646,11 @@
             "size": 183385478,
             "sha256": "6e221e05f29254508142b9e0ed76a85f22fa1b512501bebde571951e7eefecca",
             "url": "https://github.com/surge-synthesizer/releases-xt/releases/download/1.3.4/surge-xt-win64-1.3.4-setup.exe",
-            "downloads": 577106
+            "downloads": 577111
           }
         ],
         "verified": true,
-        "downloads": 837729
+        "downloads": 837741
       },
       "1.3.1": {
         "name": "Surge XT",
@@ -9720,7 +9777,7 @@
         "downloads": 84522
       }
     },
-    "downloads": 922251
+    "downloads": 922263
   },
   "surge-synthesizer/ob-xf": {
     "slug": "surge-synthesizer/ob-xf",
@@ -12027,7 +12084,7 @@
             "size": 140693153,
             "sha256": "4ba6eff849973238f45e0a3538b90c9a2d64c0b001d62882d0d337f46e0ddaa9",
             "url": "https://github.com/sonosaurus/sonobus/releases/download/1.7.2/sonobus-1.7.2-mac.dmg",
-            "downloads": 20685
+            "downloads": 20686
           },
           {
             "systems": [
@@ -12052,10 +12109,10 @@
           }
         ],
         "verified": true,
-        "downloads": 40700
+        "downloads": 40701
       }
     },
-    "downloads": 40700
+    "downloads": 40701
   },
   "solidfuel/utility": {
     "slug": "solidfuel/utility",
@@ -13335,14 +13392,14 @@
             "size": 10349826,
             "sha256": "83e2825241d4e1c0ab2c44c91c0a9be6a94941a81df0c2fbe05e83b2650470da",
             "url": "https://github.com/Sinuslabs/Reach/releases/download/1.6.6/Reach-Windows.exe",
-            "downloads": 211835
+            "downloads": 211838
           }
         ],
         "verified": true,
-        "downloads": 213904
+        "downloads": 213907
       }
     },
-    "downloads": 213904
+    "downloads": 213907
   },
   "sgossner/vsco-2-ce": {
     "slug": "sgossner/vsco-2-ce",
@@ -36625,7 +36682,7 @@
             "size": 10645504,
             "sha256": "0a7093a4dd4e4e537747e76d7d5d8efe71ce43d6ff99c295f89c456de7c8f420",
             "url": "https://github.com/giulioz/rdpiano/releases/download/latest/rdpiano_juce.vst3",
-            "downloads": 6994
+            "downloads": 6995
           },
           {
             "systems": [
@@ -36683,10 +36740,10 @@
           }
         ],
         "verified": true,
-        "downloads": 16578
+        "downloads": 16579
       }
     },
-    "downloads": 16578
+    "downloads": 16579
   },
   "geraldmwangi/guitarmidi-lv2": {
     "slug": "geraldmwangi/guitarmidi-lv2",
@@ -45934,14 +45991,14 @@
             "size": 10646528,
             "sha256": "8ba6e91196067244837877d9ca4a8e4a1f5bfad60cf33fa699c8a5b41f1211bf",
             "url": "https://github.com/jatinchowdhury18/AnalogTapeModel/releases/download/v2.11.4/ChowTapeModel-Win-64bit-2.11.4.exe",
-            "downloads": 69935
+            "downloads": 69936
           }
         ],
         "verified": false,
-        "downloads": 121416
+        "downloads": 121417
       }
     },
-    "downloads": 121416
+    "downloads": 121417
   },
   "chowdhury-dsp/chowmultitool": {
     "slug": "chowdhury-dsp/chowmultitool",
@@ -47752,14 +47809,14 @@
             "size": 16237789,
             "sha256": "21a706090d0a72511756dfd65d6a3c0711257c94b707679346e04d182dc178a0",
             "url": "https://github.com/Birch-san/juicysfplugin/releases/download/3.1.0/juicysfplugin-3.1.0-win-x64.zip",
-            "downloads": 38554
+            "downloads": 38555
           }
         ],
         "verified": true,
-        "downloads": 44906
+        "downloads": 44907
       }
     },
-    "downloads": 44906
+    "downloads": 44907
   },
   "billydm/vitalium-verb": {
     "slug": "billydm/vitalium-verb",
@@ -47989,7 +48046,7 @@
             "size": 74662940,
             "sha256": "f31f37593fb4e1981701775be8bc1b700608d1ce3ddbdc4da336615d5eff79b6",
             "url": "https://github.com/BespokeSynth/BespokeSynth/releases/download/v1.3.0/BespokeSynth-Mac-1_3_0.dmg",
-            "downloads": 8580
+            "downloads": 8581
           },
           {
             "systems": [
@@ -48007,14 +48064,14 @@
             "size": 71011202,
             "sha256": "796655e0ed70999782015fb5d94d167c691eec706d676b89b01bf02722d2741a",
             "url": "https://github.com/BespokeSynth/BespokeSynth/releases/download/v1.3.0/BespokeSynth-Windows-1_3_0.msi",
-            "downloads": 22045
+            "downloads": 22046
           }
         ],
         "verified": true,
-        "downloads": 31853
+        "downloads": 31855
       }
     },
-    "downloads": 31853
+    "downloads": 31855
   },
   "bananaofhappiness/soundscope": {
     "slug": "bananaofhappiness/soundscope",
@@ -49239,7 +49296,7 @@
             "size": 17183630,
             "sha256": "a6505103869d15400e7bed1d988d9dd155d6d8204a3d532f5301966ae7507ad8",
             "url": "https://github.com/asb2m10/dexed/releases/download/v1.0.1/Dexed-1.0.1-macOS.dmg",
-            "downloads": 87295
+            "downloads": 87299
           },
           {
             "systems": [
@@ -49304,7 +49361,7 @@
           }
         ],
         "verified": true,
-        "downloads": 213034
+        "downloads": 213038
       },
       "0.9.8": {
         "name": "Dexed",
@@ -49389,7 +49446,7 @@
         "downloads": 198652
       }
     },
-    "downloads": 411686
+    "downloads": 411690
   },
   "arunas-cesonis/live-sampler": {
     "slug": "arunas-cesonis/live-sampler",
