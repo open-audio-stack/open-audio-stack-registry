@@ -103,7 +103,13 @@ jobs:
             let output = 'VirusTotal Report:\n';
             for (const entry of entries) {
               const name = path.basename(entry.url);
-              let line = entry.sha256 ? `[${name}](https://www.virustotal.com/gui/file/${entry.sha256})` : name;
+              // A submitted url has no file report until VirusTotal finishes fetching it, so link the url report instead
+              const urlId = require('crypto').createHash('sha256').update(entry.url).digest('hex');
+              let line = entry.submitted
+                ? `[${name}](https://www.virustotal.com/gui/url/${urlId})`
+                : entry.sha256
+                  ? `[${name}](https://www.virustotal.com/gui/file/${entry.sha256})`
+                  : name;
               if (entry.flags !== undefined) line += ` (${entry.flags} ${entry.flags === 1 ? 'flag' : 'flags'})`;
               else if (entry.submitted) line += ' (scan submitted)';
               output += `- ${line}\n`;
