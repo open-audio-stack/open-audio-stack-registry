@@ -33,7 +33,7 @@
             "size": 5911681,
             "sha256": "c01c49d8063965c4c2dea8324468336768f5c9139e0b1caebde14c2400b55352",
             "url": "https://github.com/Tracktion/pluginval/releases/download/v1.0.4/pluginval_Linux.zip",
-            "downloads": 56099
+            "downloads": 65379
           },
           {
             "systems": [
@@ -49,7 +49,7 @@
             "size": 9202795,
             "sha256": "3c4c533bda0c5059eea3ddaea752d757ee2025041f0f47e6bcb0e87f6082b29f",
             "url": "https://github.com/Tracktion/pluginval/releases/download/v1.0.4/pluginval_macOS.zip",
-            "downloads": 126726
+            "downloads": 138409
           },
           {
             "systems": [
@@ -65,14 +65,14 @@
             "size": 2408590,
             "sha256": "c08e61ce3b96db41636f8ec7e76f4c7e2c13ebdac7fa1b5a1f52b4f32ec715ab",
             "url": "https://github.com/Tracktion/pluginval/releases/download/v1.0.4/pluginval_Windows.zip",
-            "downloads": 182096
+            "downloads": 197951
           }
         ],
         "verified": true,
-        "downloads": 364921
+        "downloads": 401739
       }
     },
-    "downloads": 364921
+    "downloads": 401739
   },
   "stemdeckapp/stemdeck": {
     "slug": "stemdeckapp/stemdeck",
@@ -158,7 +158,7 @@
             "size": 7938696,
             "sha256": "30157c1670854fc6626fdda49168f3dabfc61ee9da06b6eca610eb0c1f6e8e85",
             "url": "https://github.com/stemdeckapp/stemdeck/releases/download/v0.14.0/StemDeck-macOS-x64.dmg",
-            "downloads": 101
+            "downloads": 103
           },
           {
             "systems": [
@@ -194,10 +194,10 @@
           }
         ],
         "verified": true,
-        "downloads": 939
+        "downloads": 941
       }
     },
-    "downloads": 939
+    "downloads": 941
   },
   "steinberg/validator": {
     "slug": "steinberg/validator",
@@ -233,7 +233,7 @@
             "size": 451990,
             "sha256": "a22e18d658c3a37a21f339074fc057a6301d3e03c758e4a11a261824c8d7587e",
             "url": "https://github.com/studiorack/studiorack-template-steinberg/releases/download/v0.0.1/validator-linux.zip",
-            "downloads": 539
+            "downloads": 543
           },
           {
             "systems": [
@@ -269,10 +269,10 @@
           }
         ],
         "verified": false,
-        "downloads": 1021
+        "downloads": 1025
       }
     },
-    "downloads": 1021
+    "downloads": 1025
   },
   "shriramters/chordcat": {
     "slug": "shriramters/chordcat",
@@ -312,7 +312,7 @@
             "size": 25664494,
             "sha256": "cd471603d67e02a12fbdd3e2c3bcf40c5ffec29a7414e3269bfe0106f977c606",
             "url": "https://github.com/shriramters/chordcat/releases/download/v0.4.0/chordcat-0.4.0-win64.exe",
-            "downloads": 199
+            "downloads": 201
           },
           {
             "systems": [
@@ -332,10 +332,10 @@
           }
         ],
         "verified": true,
-        "downloads": 248
+        "downloads": 250
       }
     },
-    "downloads": 248
+    "downloads": 250
   },
   "saivert/pwvucontrol": {
     "slug": "saivert/pwvucontrol",
@@ -371,14 +371,14 @@
             "size": 1112056,
             "sha256": "51f01d55da882c546a56b30a941ad4ac0d57e3e5b6bf69933b06e8fb8ecef0c6",
             "url": "https://github.com/saivert/pwvucontrol/releases/download/0.5.3/pwvucontrol.flatpak",
-            "downloads": 51
+            "downloads": 54
           }
         ],
         "verified": true,
-        "downloads": 51
+        "downloads": 54
       }
     },
-    "downloads": 51
+    "downloads": 54
   },
   "rikorose/deepfilternet": {
     "slug": "rikorose/deepfilternet",
@@ -414,7 +414,7 @@
             "size": 27877081,
             "sha256": "4601e7f4e4c03e59a4c5b5000216ef3add3e808799cfccd95e14e83ea4611081",
             "url": "https://github.com/Rikorose/DeepFilterNet/releases/download/v0.5.6/deep-filter-0.5.6-aarch64-apple-darwin",
-            "downloads": 20128
+            "downloads": 23083
           },
           {
             "systems": [
@@ -430,7 +430,7 @@
             "size": 39238496,
             "sha256": "14e02a1c0028f3ca0bdf83b62b3336e56ba0556894ef295a95e8573f06557166",
             "url": "https://github.com/Rikorose/DeepFilterNet/releases/download/v0.5.6/deep-filter-0.5.6-aarch64-unknown-linux-gnu",
-            "downloads": 7758
+            "downloads": 8580
           },
           {
             "systems": [
@@ -446,7 +446,7 @@
             "size": 35353724,
             "sha256": "29feffdfacbaa30ff7811bd275f252d405d43ad6e5523ffcedeaf3ff5bb8335b",
             "url": "https://github.com/Rikorose/DeepFilterNet/releases/download/v0.5.6/deep-filter-0.5.6-armv7-unknown-linux-gnueabihf",
-            "downloads": 500
+            "downloads": 508
           },
           {
             "systems": [
@@ -462,7 +462,7 @@
             "size": 29933512,
             "sha256": "d3be84003acb7c23e738ad7f70a158ec779a8d233a82e7fa3e717d112eb5b50f",
             "url": "https://github.com/Rikorose/DeepFilterNet/releases/download/v0.5.6/deep-filter-0.5.6-x86_64-apple-darwin",
-            "downloads": 2685
+            "downloads": 2967
           },
           {
             "systems": [
@@ -478,7 +478,7 @@
             "size": 26912256,
             "sha256": "75e11fa16445f560cb6b021521ddb89e89270d13b83089705d98776f58fd7915",
             "url": "https://github.com/Rikorose/DeepFilterNet/releases/download/v0.5.6/deep-filter-0.5.6-x86_64-pc-windows-msvc.exe",
-            "downloads": 34455
+            "downloads": 39218
           },
           {
             "systems": [
@@ -494,14 +494,14 @@
             "size": 36417296,
             "sha256": "70775e251eee44c0f2451a1e833326cf8bcbbe304d3e7cd12851e6fce72ef7da",
             "url": "https://github.com/Rikorose/DeepFilterNet/releases/download/v0.5.6/deep-filter-0.5.6-x86_64-unknown-linux-musl",
-            "downloads": 97568
+            "downloads": 109323
           }
         ],
         "verified": true,
-        "downloads": 163094
+        "downloads": 183679
       }
     },
-    "downloads": 163094
+    "downloads": 183679
   },
   "pkunk/pwrate": {
     "slug": "pkunk/pwrate",
@@ -537,14 +537,14 @@
             "size": 650128,
             "sha256": "ff4e110ee4580590c50fe03c7d6a61aa943bb8c20b0297eebbfe7ae09000dbcb",
             "url": "https://github.com/pkunk/pwrate/releases/download/1.7.1/pwrate",
-            "downloads": 827
+            "downloads": 829
           }
         ],
         "verified": true,
-        "downloads": 827
+        "downloads": 829
       }
     },
-    "downloads": 827
+    "downloads": 829
   },
   "monocasual/giada": {
     "slug": "monocasual/giada",
@@ -581,7 +581,7 @@
             "size": 7702562,
             "sha256": "085d535d7e8bc024872950e477c3b354c77b4a678cf6b09de5880e98880e2eae",
             "url": "https://github.com/monocasual/giada/releases/download/1.5.0/giada-1.5.0-arm64-macos.zip",
-            "downloads": 1170
+            "downloads": 1174
           },
           {
             "systems": [
@@ -597,14 +597,14 @@
             "size": 6552450,
             "sha256": "168e7799227dd2241d11d78f8943c959f3e87b4fac57992a46213595b9e02e1a",
             "url": "https://github.com/monocasual/giada/releases/download/1.5.0/giada-1.5.0-x86_64-windows.zip",
-            "downloads": 3012
+            "downloads": 3041
           }
         ],
         "verified": true,
-        "downloads": 4182
+        "downloads": 4215
       }
     },
-    "downloads": 4182
+    "downloads": 4215
   },
   "michele-perrone/openpiano": {
     "slug": "michele-perrone/openpiano",
@@ -639,7 +639,7 @@
             "size": 3078351,
             "sha256": "a95401aa9e7d3283878a3f0e8af26246552f8eee31c446f180d66b820fce6332",
             "url": "https://github.com/michele-perrone/OpenPiano/releases/download/0.1.0/Open_Piano_Standalone_GNU_Linux_x64.zip",
-            "downloads": 234
+            "downloads": 241
           },
           {
             "systems": [
@@ -656,7 +656,7 @@
             "size": 15075204,
             "sha256": "4a8e9e1ad6f46fc35767ad4b33b36d0d0e2a8df5ff3c2c238500a3c88d96cd78",
             "url": "https://github.com/michele-perrone/OpenPiano/releases/download/0.1.0/Open_Piano_Standalone_macOS_Universal-01.zip",
-            "downloads": 83
+            "downloads": 86
           },
           {
             "systems": [
@@ -672,14 +672,14 @@
             "size": 2520308,
             "sha256": "eaaf56801b827661b5a380b6183f9a65c069282783f73ef213e468bde6fbd4bd",
             "url": "https://github.com/michele-perrone/OpenPiano/releases/download/0.1.0/Open_Piano_Standalone_Windows_x64.zip",
-            "downloads": 603
+            "downloads": 619
           }
         ],
         "verified": true,
-        "downloads": 920
+        "downloads": 946
       }
     },
-    "downloads": 920
+    "downloads": 946
   },
   "juzzlin/noteahead": {
     "slug": "juzzlin/noteahead",
@@ -720,7 +720,7 @@
             "size": 2733144,
             "sha256": "da41a209b63c116333ca344efb67b093e458ae5cd17f2eecdd95946abd40007f",
             "url": "https://github.com/juzzlin/Noteahead/releases/download/6.0.0/noteahead-6.0.0-ubuntu-24.04_amd64.deb",
-            "downloads": 13
+            "downloads": 14
           },
           {
             "systems": [
@@ -736,14 +736,14 @@
             "size": 4292368,
             "sha256": "db04ce62f8e601eff656f7f0951dee0c28487b3d625e08dcdad3974d76c8e16e",
             "url": "https://github.com/juzzlin/Noteahead/releases/download/6.0.0/noteahead-6.0.0-ubuntu-26.04_amd64.deb",
-            "downloads": 12
+            "downloads": 13
           }
         ],
         "verified": true,
-        "downloads": 25
+        "downloads": 27
       }
     },
-    "downloads": 25
+    "downloads": 27
   },
   "jun-murakami/cubasedrummapeditor": {
     "slug": "jun-murakami/cubasedrummapeditor",
@@ -780,7 +780,7 @@
             "size": 88598044,
             "sha256": "5ef44bbe1fa06db8b37d73d15819972274ef08ec690e83d8d0ef555d92a11a4b",
             "url": "https://github.com/Jun-Murakami/CubaseDrumMapEditor/releases/download/v1.5/CubaseDrumMapEditor_v1.5_mac.dmg",
-            "downloads": 35
+            "downloads": 36
           },
           {
             "systems": [
@@ -796,14 +796,14 @@
             "size": 43212697,
             "sha256": "2ecf439114ea02a74cd8f339ceaaf397b20f48ec17d5b7bcb200c94845c1694d",
             "url": "https://github.com/Jun-Murakami/CubaseDrumMapEditor/releases/download/v1.5/CubaseDrumMapEditor_v1.5_win.zip",
-            "downloads": 59
+            "downloads": 61
           }
         ],
         "verified": true,
-        "downloads": 94
+        "downloads": 97
       }
     },
-    "downloads": 94
+    "downloads": 97
   },
   "helio-fm/helio-sequencer": {
     "slug": "helio-fm/helio-sequencer",
@@ -1055,14 +1055,14 @@
             "size": 663716,
             "sha256": "df0410d58030c9a2214d856d43487f32153bbbd60b151ccaf1b227ee71399b77",
             "url": "https://github.com/gbevin/SendMIDI/releases/download/1.4.1/sendmidi-windows-1.4.1.zip",
-            "downloads": 43
+            "downloads": 44
           }
         ],
         "verified": true,
-        "downloads": 81
+        "downloads": 82
       }
     },
-    "downloads": 81
+    "downloads": 82
   },
   "gbevin/receivemidi": {
     "slug": "gbevin/receivemidi",
@@ -1158,7 +1158,7 @@
             "size": 223461,
             "sha256": "6ce7185de6d191b681f337ca85b224d3b11c76ff85f2e4538f049db54d1f1a3b",
             "url": "https://github.com/free-audio/clap-info/releases/download/v1.2.2/clap-info-linux-x64.zip",
-            "downloads": 1165
+            "downloads": 1168
           },
           {
             "systems": [
@@ -1175,7 +1175,7 @@
             "size": 439006,
             "sha256": "afaa46e9f64c7bb4236bdf60aacac2f5874a4c1c20680bcd88dfd121be480c42",
             "url": "https://github.com/free-audio/clap-info/releases/download/v1.2.2/clap-info-mac-universal.zip",
-            "downloads": 239
+            "downloads": 242
           },
           {
             "systems": [
@@ -1191,7 +1191,7 @@
             "size": 279611,
             "sha256": "11d433eb1e3a39dbeb874ac4107650944d6041d7c2f3dacc9cfaf0b520d2a03a",
             "url": "https://github.com/free-audio/clap-info/releases/download/v1.2.2/clap-info-win-arm64ec.zip",
-            "downloads": 12
+            "downloads": 16
           },
           {
             "systems": [
@@ -1207,14 +1207,14 @@
             "size": 292331,
             "sha256": "bc258a0e1cfb000d8598cadca56a0ce22c67edc4d420bb80ed75638e5a79e41b",
             "url": "https://github.com/free-audio/clap-info/releases/download/v1.2.2/clap-info-win-x64.zip",
-            "downloads": 314
+            "downloads": 320
           }
         ],
         "verified": true,
-        "downloads": 1730
+        "downloads": 1746
       }
     },
-    "downloads": 1730
+    "downloads": 1746
   },
   "emprcl/signls": {
     "slug": "emprcl/signls",
@@ -1255,7 +1255,7 @@
             "size": 1984793,
             "sha256": "98449aee9819a4dcbc245069e9bd0608a7f3b1b5ca5f7bee4b5299ef232c9e1d",
             "url": "https://github.com/emprcl/signls/releases/download/v0.9.0/signls_0.9.0_darwin_amd64.tar.gz",
-            "downloads": 12
+            "downloads": 13
           },
           {
             "systems": [
@@ -1271,7 +1271,7 @@
             "size": 1860904,
             "sha256": "949ca9a6cb725487f09f6a67edcc8360a0a02cd82ac2fc8c08a86b8ebd41b8a5",
             "url": "https://github.com/emprcl/signls/releases/download/v0.9.0/signls_0.9.0_darwin_arm64.tar.gz",
-            "downloads": 24
+            "downloads": 27
           },
           {
             "systems": [
@@ -1287,7 +1287,7 @@
             "size": 2362045,
             "sha256": "5fbdc844aa3eecccf509677dcb9c3992b12a8944b5c6a1cf67cb3396c163154c",
             "url": "https://github.com/emprcl/signls/releases/download/v0.9.0/signls_0.9.0_linux_amd64.tar.gz",
-            "downloads": 31
+            "downloads": 33
           },
           {
             "systems": [
@@ -1303,7 +1303,7 @@
             "size": 2184695,
             "sha256": "1854d332a9c531ab38d787dc632ac199690fc3ab7ecb0c97ff6ccd64d1a458a6",
             "url": "https://github.com/emprcl/signls/releases/download/v0.9.0/signls_0.9.0_linux_arm64.tar.gz",
-            "downloads": 11
+            "downloads": 12
           },
           {
             "systems": [
@@ -1319,14 +1319,14 @@
             "size": 2419186,
             "sha256": "d54261f5326263f41d6ffbcf919554374232deb860ad663bdfe3c6327c6561d5",
             "url": "https://github.com/emprcl/signls/releases/download/v0.9.0/signls_0.9.0_windows_amd64.zip",
-            "downloads": 15
+            "downloads": 19
           }
         ],
         "verified": true,
-        "downloads": 93
+        "downloads": 104
       }
     },
-    "downloads": 93
+    "downloads": 104
   },
   "dropsnorz/owlplug": {
     "slug": "dropsnorz/owlplug",
@@ -1393,7 +1393,7 @@
             "size": 149111813,
             "sha256": "f3019646e63d63117ed5daea06200b2a0c58ea39271cfdbff333a321bbbeb285",
             "url": "https://github.com/DropSnorz/OwlPlug/releases/download/1.33.1/OwlPlug-1.33.1-osx-arm64.dmg",
-            "downloads": 420
+            "downloads": 421
           },
           {
             "systems": [
@@ -1425,14 +1425,14 @@
             "size": 136294948,
             "sha256": "819a4c98806fb2b9202f413622ea68a56e3ea4e063afb9ee1a7e49d153cf9330",
             "url": "https://github.com/DropSnorz/OwlPlug/releases/download/1.33.1/OwlPlug-1.33.1-win-x64.msi",
-            "downloads": 1625
+            "downloads": 1637
           }
         ],
         "verified": true,
-        "downloads": 2431
+        "downloads": 2444
       }
     },
-    "downloads": 2431
+    "downloads": 2444
   },
   "dfl/faveworm": {
     "slug": "dfl/faveworm",
@@ -1468,7 +1468,7 @@
             "size": 3074506,
             "sha256": "16117fc1452133a3d334ea79658cdc3e2b2073c4be755fc431201045ca35a86b",
             "url": "https://github.com/dfl/faveworm/releases/download/v1.0.1/faveworm-linux-x86_64.tar.gz",
-            "downloads": 8
+            "downloads": 9
           },
           {
             "systems": [
@@ -1505,10 +1505,10 @@
           }
         ],
         "verified": true,
-        "downloads": 36
+        "downloads": 37
       }
     },
-    "downloads": 36
+    "downloads": 37
   },
   "davy7125/polyphone": {
     "slug": "davy7125/polyphone",
@@ -1549,7 +1549,7 @@
             "size": 39909896,
             "sha256": "94038fa27cf2486f77db91070d63d8afe63a5334ad7aa7fbc08a9f0df0c6d3b1",
             "url": "https://github.com/davy7125/polyphone/releases/download/2.6.0/Polyphone_2.6.0-linux_aarch64.AppImage",
-            "downloads": 23
+            "downloads": 26
           },
           {
             "systems": [
@@ -1565,7 +1565,7 @@
             "size": 40794616,
             "sha256": "b2ef08a978c54d550740a72a69b72d01d5ee0b11e0460d793eff99dd1ab6afa9",
             "url": "https://github.com/davy7125/polyphone/releases/download/2.6.0/Polyphone_2.6.0-linux_x64.AppImage",
-            "downloads": 90
+            "downloads": 102
           },
           {
             "systems": [
@@ -1583,7 +1583,7 @@
             "size": 31438016,
             "sha256": "6d182033d46f09803ca9217e6caf8f93154ca8443b7633e6050053e58f3a07e4",
             "url": "https://github.com/davy7125/polyphone/releases/download/2.6.0/Polyphone_2.6.0-macOS_12.dmg",
-            "downloads": 103
+            "downloads": 117
           },
           {
             "systems": [
@@ -1601,7 +1601,7 @@
             "size": 31470562,
             "sha256": "b01b762329be6904deb03316081c71eefbbc1ae42e0c8202f17a48d6a24ffabf",
             "url": "https://github.com/davy7125/polyphone/releases/download/2.6.0/Polyphone_2.6.0-macOS_12_Intel.dmg",
-            "downloads": 25
+            "downloads": 30
           },
           {
             "systems": [
@@ -1617,7 +1617,7 @@
             "size": 20982176,
             "sha256": "d8a1ca382ff8ea480700161cc5900e4a050a4743e54f80a6b05a27d48309f7e5",
             "url": "https://github.com/davy7125/polyphone/releases/download/2.6.0/Polyphone_2.6.0-windows_x64-installer.exe",
-            "downloads": 212
+            "downloads": 220
           },
           {
             "systems": [
@@ -1633,14 +1633,14 @@
             "size": 20587137,
             "sha256": "55fd6d242cc14d92cc78bfda5c8e40559a7f4184a721801a02d08eb87ffcf3c9",
             "url": "https://github.com/davy7125/polyphone/releases/download/2.6.0/Polyphone_2.6.0-windows_x64-portable.zip",
-            "downloads": 264
+            "downloads": 282
           }
         ],
         "verified": true,
-        "downloads": 717
+        "downloads": 777
       }
     },
-    "downloads": 717
+    "downloads": 777
   },
   "christofmuc/knobkraft-orm": {
     "slug": "christofmuc/knobkraft-orm",
@@ -1678,7 +1678,7 @@
             "size": 80930279,
             "sha256": "89accb39c29fe193b30d2c4c36e2215de8aa87a5e12f0cc9e17526ae6ed71741",
             "url": "https://github.com/christofmuc/KnobKraft-orm/releases/download/2.9.0/KnobKraft_Orm-2.9.0-Darwin.dmg",
-            "downloads": 249
+            "downloads": 250
           },
           {
             "systems": [
@@ -1694,7 +1694,7 @@
             "size": 18058121,
             "sha256": "de23a08eae7ff413f8733205bbc6582efc4838bdc417653966047b924a190e51",
             "url": "https://github.com/christofmuc/KnobKraft-orm/releases/download/2.9.0/KnobKraft_Orm-2.9.0-Linux.tar.gz",
-            "downloads": 47
+            "downloads": 48
           },
           {
             "systems": [
@@ -1710,7 +1710,7 @@
             "size": 18087284,
             "sha256": "a24fe35bbf14e5fe33623a1c014dc648d600a88680ebd3694fee5a550749c212",
             "url": "https://github.com/christofmuc/KnobKraft-orm/releases/download/2.9.0/KnobKraft_Orm-2.9.0-Ubuntu24.tar.gz",
-            "downloads": 44
+            "downloads": 45
           },
           {
             "systems": [
@@ -1726,14 +1726,14 @@
             "size": 69131397,
             "sha256": "704e02f161eed15ad539331e975eee033b17a43ffa2041aebbcb9c931c34d6f3",
             "url": "https://github.com/christofmuc/KnobKraft-orm/releases/download/2.9.0/knobkraft_orm_setup_2.9.0.exe",
-            "downloads": 367
+            "downloads": 368
           }
         ],
         "verified": true,
-        "downloads": 707
+        "downloads": 711
       }
     },
-    "downloads": 707
+    "downloads": 711
   },
   "christofmuc/bcr2000-master": {
     "slug": "christofmuc/bcr2000-master",
@@ -1769,14 +1769,14 @@
             "size": 26108901,
             "sha256": "594d5c8e7a09c3deda6e807685d74b95004e3348c5070b326c4c738a970a590e",
             "url": "https://github.com/christofmuc/BCR2000_Master/releases/download/1.0.4/bcrmaster_setup.exe",
-            "downloads": 83
+            "downloads": 90
           }
         ],
         "verified": true,
-        "downloads": 83
+        "downloads": 90
       }
     },
-    "downloads": 83
+    "downloads": 90
   },
   "calloga/unshuffle": {
     "slug": "calloga/unshuffle",
@@ -1828,7 +1828,7 @@
             "size": 147213416,
             "sha256": "35ca752e81b2c3963697bfc44b56b7dbd2955bd4ae813214021dece75b5ecd9c",
             "url": "https://github.com/calloga/unshuffle/releases/download/v1.0.2/unshuffle_1.0.2_amd64.deb",
-            "downloads": 167
+            "downloads": 173
           },
           {
             "systems": [
@@ -1864,10 +1864,10 @@
           }
         ],
         "verified": true,
-        "downloads": 1166
+        "downloads": 1172
       }
     },
-    "downloads": 1166
+    "downloads": 1172
   },
   "alemidev/scope-tui": {
     "slug": "alemidev/scope-tui",
@@ -1908,7 +1908,7 @@
             "size": 1005904,
             "sha256": "55a357c681747a93a0353f8f4869ed16840b98bf6ead99ee754cdf9339bfae49",
             "url": "https://github.com/alemidev/scope-tui/releases/download/v0.3.5/scope-tui-v0.3.5-darwin-arm64",
-            "downloads": 61
+            "downloads": 64
           },
           {
             "systems": [
@@ -1924,7 +1924,7 @@
             "size": 1610280,
             "sha256": "29676ac14a16ba51a28a104a5b45e200617e78e7213720adc404a25654b000d0",
             "url": "https://github.com/alemidev/scope-tui/releases/download/v0.3.5/scope-tui-v0.3.5-linux-x64-gnu",
-            "downloads": 158
+            "downloads": 163
           },
           {
             "systems": [
@@ -1940,13 +1940,13 @@
             "size": 1277952,
             "sha256": "a389d1866370707fbca8460830ef6fb0a56724c2d7799ec23323a8e4a0808ebc",
             "url": "https://github.com/alemidev/scope-tui/releases/download/v0.3.5/scope-tui-v0.3.5-win32-x64.exe",
-            "downloads": 147
+            "downloads": 151
           }
         ],
         "verified": true,
-        "downloads": 366
+        "downloads": 378
       }
     },
-    "downloads": 366
+    "downloads": 378
   }
 }
