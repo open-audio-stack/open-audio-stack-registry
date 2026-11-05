@@ -823,8 +823,11 @@ function inspectExtractedDir(dir: string): ArchiveInspection {
     if (linuxStandaloneCandidates.length === 1) result.formats.add('elf');
     else if (linuxStandaloneCandidates.length > 1)
       result.standaloneCandidates.push(...linuxStandaloneCandidates.map(f => `linux: ${f}`));
-  } catch {
-    /* find/file unavailable, or no matching binaries — inspection is best-effort */
+  } catch (err) {
+    // find exits 0 with no matches, so reaching here means find/file itself failed (unsupported
+    // flag, tool missing). Inspection stays best-effort, but surface it rather than silently
+    // leaving the platform undetected.
+    console.warn(`  ⚠ binary inspection failed: ${err instanceof Error ? err.message.split('\n')[0] : String(err)}`);
   }
   // A pure sample library has no binary for the loop above to find and `file` — the archive
   // is entirely .sfz/.sf2 plus its audio samples, playable on any OS a compatible sampler runs
