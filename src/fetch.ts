@@ -761,13 +761,13 @@ function inspectExtractedDir(dir: string): ArchiveInspection {
     // Bundle payload binaries (e.g. a Windows VST3's actual PE32 DLL, which conventionally
     // keeps the bundle's own name + ".vst3" extension rather than ".dll") are matched by
     // name here too — zip extraction routinely drops the executable bit for these, so relying
-    // on -perm +111 alone leaves them invisible to `file` and the platform undetected entirely.
+    // on the executable-bit check alone leaves them invisible to `file` and the platform undetected entirely.
     // A macOS bundle's own executable (Contents/MacOS/<name>) is the same story but worse: by
     // convention it has *no extension at all* (just the bundle's product name), so it can't be
     // caught by any of the name patterns above either — only the Contents/MacOS/ path shape
     // identifies it, hence the dedicated -path clause.
     const candidates = execSync(
-      `find "${dir}" -type f \\( -name "*.dylib" -o -name "*.so" -o -name "*.dll" -o -name "*.exe" -o -name "*.vst3" -o -name "*.component" -o -name "*.clap" -o -name "*.lv2" -o -path "*/Contents/MacOS/*" -o -perm +111 \\)`,
+      `find "${dir}" -type f \\( -name "*.dylib" -o -name "*.so" -o -name "*.dll" -o -name "*.exe" -o -name "*.vst3" -o -name "*.component" -o -name "*.clap" -o -name "*.lv2" -o -path "*/Contents/MacOS/*" -o -perm -100 -o -perm -010 -o -perm -001 \\)`,
       { encoding: 'utf8', stdio: ['pipe', 'pipe', 'pipe'] },
     )
       .split('\n')
@@ -823,8 +823,11 @@ function inspectExtractedDir(dir: string): ArchiveInspection {
     if (linuxStandaloneCandidates.length === 1) result.formats.add('elf');
     else if (linuxStandaloneCandidates.length > 1)
       result.standaloneCandidates.push(...linuxStandaloneCandidates.map(f => `linux: ${f}`));
-  } catch {
-    /* find/file unavailable, or no matching binaries — inspection is best-effort */
+  } catch (err) {
+    // find exits 0 with no matches, so reaching here means find/file itself failed (unsupported
+    // flag, tool missing). Inspection stays best-effort, but surface it rather than silently
+    // leaving the platform undetected.
+    console.warn(`  ⚠ binary inspection failed: ${err instanceof Error ? err.message.split('\n')[0] : String(err)}`);
   }
   // A pure sample library has no binary for the loop above to find and `file` — the archive
   // is entirely .sfz/.sf2 plus its audio samples, playable on any OS a compatible sampler runs
