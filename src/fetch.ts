@@ -761,13 +761,13 @@ function inspectExtractedDir(dir: string): ArchiveInspection {
     // Bundle payload binaries (e.g. a Windows VST3's actual PE32 DLL, which conventionally
     // keeps the bundle's own name + ".vst3" extension rather than ".dll") are matched by
     // name here too — zip extraction routinely drops the executable bit for these, so relying
-    // on -perm +111 alone leaves them invisible to `file` and the platform undetected entirely.
+    // on the executable-bit check alone leaves them invisible to `file` and the platform undetected entirely.
     // A macOS bundle's own executable (Contents/MacOS/<name>) is the same story but worse: by
     // convention it has *no extension at all* (just the bundle's product name), so it can't be
     // caught by any of the name patterns above either — only the Contents/MacOS/ path shape
     // identifies it, hence the dedicated -path clause.
     const candidates = execSync(
-      `find "${dir}" -type f \\( -name "*.dylib" -o -name "*.so" -o -name "*.dll" -o -name "*.exe" -o -name "*.vst3" -o -name "*.component" -o -name "*.clap" -o -name "*.lv2" -o -path "*/Contents/MacOS/*" -o -perm +111 \\)`,
+      `find "${dir}" -type f \\( -name "*.dylib" -o -name "*.so" -o -name "*.dll" -o -name "*.exe" -o -name "*.vst3" -o -name "*.component" -o -name "*.clap" -o -name "*.lv2" -o -path "*/Contents/MacOS/*" -o -perm -100 -o -perm -010 -o -perm -001 \\)`,
       { encoding: 'utf8', stdio: ['pipe', 'pipe', 'pipe'] },
     )
       .split('\n')
