@@ -1,0 +1,45 @@
+name: Sand Stretch
+author: s4n7r0
+description: A granular time-stretching and glitch effect plugin, remaking the classic dblue_stretch with added features like tempo-synced grain length, reverse playback, crossfading, and zero-crossing alignment.
+license: gpl-3.0
+type: effect
+tags:
+  - Granular
+  - Time Stretch
+  - Glitch
+url: https://github.com/s4n7r0/sand_stretch
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/s4n7r0/sand-stretch/sand-stretch.jpg
+date: '2024-11-12T21:44:32Z'
+changes: "### Changelog\r\n- Added declicking\r\n- Added proper crossfading\r\n- Added tempo mode (for using note durations as grain size)\r\n- Added proper reverse mode\r\n- Added a gui\r\n- Removed Skip Samples\r\n- Removed \"Remove DC Offset\"\r..."
+files:
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - vst3
+    type: archive
+    size: 11104120
+    sha256: b04953009709db252b2be088ee54802fed7bcb6b91185445f7fbed89348173fe
+    url: https://github.com/s4n7r0/sand_stretch/releases/download/v2.0.0/sand_stretch2_linux.so
+  - systems:
+      - type: mac
+    architectures:
+      - x64
+    contains:
+      - vst3
+      - component
+    type: archive
+    size: 3708485
+    sha256: c8307ecdcdd273c12ef25846c142f4da9b6a58bf984e448db3269d2e870bbf38
+    url: https://github.com/s4n7r0/sand_stretch/releases/download/v2.0.0/sand_stretch2_mac.zip
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - vst3
+    type: archive
+    size: 5957120
+    sha256: 829bc273237e8f67eab1d8514fb052bead98496d03376488d234be5dbf1e35b6
+    url: https://github.com/s4n7r0/sand_stretch/releases/download/v2.0.0/sand_stretch2_windows.vst3
