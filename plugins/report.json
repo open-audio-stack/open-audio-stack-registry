@@ -1743,6 +1743,24 @@
       ]
     }
   },
+  "shuichi346/deepfilternet3-vst3": {
+    "0.7.0": {
+      "recs": [
+        {
+          "field": "architectures",
+          "rec": "should support x64"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Linux"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Windows"
+        }
+      ]
+    }
+  },
   "sfztools/sfizz-ui": {
     "1.2.3": {
       "recs": [

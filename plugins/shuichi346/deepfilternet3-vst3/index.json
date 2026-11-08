@@ -1,0 +1,48 @@
+{
+  "slug": "shuichi346/deepfilternet3-vst3",
+  "version": "0.7.0",
+  "versions": {
+    "0.7.0": {
+      "name": "DeepFilterNet3 VST3",
+      "author": "Shuichi",
+      "description": "Real-time and offline noise reduction plugin (VST3 and CLAP) for macOS that embeds the DeepFilterNet3 neural network, with attenuation limit and mix controls.",
+      "license": "mit",
+      "type": "effect",
+      "tags": [
+        "Noise Reduction",
+        "Denoiser",
+        "Neural Network",
+        "DeepFilterNet"
+      ],
+      "url": "https://github.com/Shuichi346/DeepFilterNet3-VST3",
+      "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/shuichi346/deepfilternet3-vst3/deepfilternet3-vst3.flac",
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/shuichi346/deepfilternet3-vst3/deepfilternet3-vst3.jpg",
+      "date": "2026-09-26T08:48:17Z",
+      "changes": "Fixed minor bugs. Library update. Plug-ins are ad-hoc code signed, not Developer ID signed or notarized, so macOS may quarantine them.",
+      "files": [
+        {
+          "systems": [
+            {
+              "type": "mac"
+            }
+          ],
+          "architectures": [
+            "arm64"
+          ],
+          "contains": [
+            "vst3",
+            "clap"
+          ],
+          "type": "archive",
+          "size": 88209537,
+          "sha256": "0589d9e42dd6532c45adfe6d519ec36229a80c1315f40aa847ea4b37958969a4",
+          "url": "https://github.com/Shuichi346/DeepFilterNet3-VST3/releases/download/v0.7.0/DeepFilterNR-v0.7.0-macos-arm64.zip",
+          "downloads": 215
+        }
+      ],
+      "verified": true,
+      "downloads": 215
+    }
+  },
+  "downloads": 215
+}
