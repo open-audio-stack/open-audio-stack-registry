@@ -1,0 +1,59 @@
+{
+  "name": "CollidingCombSynth",
+  "author": "Takamitsu Endo",
+  "description": "CollidingCombSynth is an experimental synthesizer which sounds like bowed string. Equipped with 24 Karplus-Strong string models which collide to each other. Tuning of pitch is possible, but difficult. So mostly suitable for sound effects.",
+  "license": "gpl-3.0",
+  "type": "instrument",
+  "tags": [
+    "Synth",
+    "Uhhyou"
+  ],
+  "url": "https://github.com/ryukau/VSTPlugins",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ryukau/collidingcombsynth/collidingcombsynth.jpg",
+  "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ryukau/collidingcombsynth/collidingcombsynth.flac",
+  "date": "2026-09-18T06:09:05Z",
+  "changes": "Uhhyou Plugins 0.71.0: fixed resetting on some DAWs (reset is triggered in setProcessing and setActive).",
+  "files": [
+    {
+      "systems": [
+        {
+          "type": "win"
+        },
+        {
+          "type": "linux"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3"
+      ],
+      "type": "archive",
+      "size": 2879543,
+      "sha256": "f2dd6f1a307ac2364a704ea64c3e9451b33666b17a4746d5c61a9f68862737ec",
+      "url": "https://github.com/ryukau/VSTPlugins/releases/download/UhhyouPlugins0.71.0/CollidingCombSynth_0.1.20.zip"
+    },
+    {
+      "systems": [
+        {
+          "type": "mac"
+        }
+      ],
+      "architectures": [
+        "arm64",
+        "x64"
+      ],
+      "contains": [
+        "vst3"
+      ],
+      "type": "archive",
+      "size": 1207844,
+      "sha256": "332d4365111472ea69336a4bbd15a285ff62ec91fff5134772ad845ad17093c9",
+      "url": "https://github.com/ryukau/VSTPlugins/releases/download/UhhyouPlugins0.71.0/CollidingCombSynth_0.1.20_macOS.zip",
+      "downloads": 20
+    }
+  ],
+  "verified": true,
+  "downloads": 20
+}
