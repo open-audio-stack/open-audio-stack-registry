@@ -1,0 +1,66 @@
+{
+  "slug": "ryukau/envelopedsine",
+  "version": "0.1.29",
+  "versions": {
+    "0.1.29": {
+      "name": "EnvelopedSine",
+      "author": "Takamitsu Endo",
+      "description": "EnvelopedSine is an additive synthesizer that computes 64 sine waves for each note. Difference to IterativeSinCluster is that this synth has AD envelope and saturator for each oscillator. EnvelopedSine is better suited for percussive sounds.",
+      "license": "gpl-3.0",
+      "type": "instrument",
+      "tags": [
+        "Synth",
+        "Uhhyou"
+      ],
+      "url": "https://github.com/ryukau/VSTPlugins",
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ryukau/envelopedsine/envelopedsine.jpg",
+      "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ryukau/envelopedsine/envelopedsine.flac",
+      "date": "2026-09-18T06:09:05Z",
+      "changes": "Uhhyou Plugins 0.71.0: fixed resetting on some DAWs (reset is triggered in setProcessing and setActive).",
+      "files": [
+        {
+          "systems": [
+            {
+              "type": "win"
+            },
+            {
+              "type": "linux"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "vst3"
+          ],
+          "type": "archive",
+          "size": 2954319,
+          "sha256": "42a0a8b62ecbe6b52ce307cc9d8c6d7b62fe280e467baeaa84f56e7a08f253a3",
+          "url": "https://github.com/ryukau/VSTPlugins/releases/download/UhhyouPlugins0.71.0/EnvelopedSine_0.1.29.zip"
+        },
+        {
+          "systems": [
+            {
+              "type": "mac"
+            }
+          ],
+          "architectures": [
+            "arm64",
+            "x64"
+          ],
+          "contains": [
+            "vst3"
+          ],
+          "type": "archive",
+          "size": 1250013,
+          "sha256": "38297ed60480d1e0a760d28cf3944f5f8dae06d59ee0b443b9febdd749f10220",
+          "url": "https://github.com/ryukau/VSTPlugins/releases/download/UhhyouPlugins0.71.0/EnvelopedSine_0.1.29_macOS.zip",
+          "downloads": 16
+        }
+      ],
+      "verified": true,
+      "downloads": 16
+    }
+  },
+  "downloads": 16
+}
