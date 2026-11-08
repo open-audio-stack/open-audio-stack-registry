@@ -1,0 +1,30 @@
+name: Sysex77
+author: nseaprotector
+description: MIDI SysEx voice editor and librarian for the Yamaha SY77, TG77 and SY99 FM synthesizers, made with JUCE in C++.
+license: mit
+type: tool
+tags:
+  - MIDI
+  - Editor
+  - SysEx
+  - Yamaha
+  - SY77
+  - TG77
+  - SY99
+  - FM Synth
+
+url: https://github.com/nseaSeb/Sysex77
+image: https://open-audio-stack.github.io/open-audio-stack-registry/apps/nseaseb/sysex77/sysex77.jpg
+date: '2026-11-08T10:30:30Z'
+changes: 'Release v1.4.0 of the Sysex77 voice editor for macOS (Apple Silicon).'
+files:
+  - systems:
+      - type: mac
+    architectures:
+      - arm64
+    contains:
+      - app
+    type: archive
+    size: 6735905
+    sha256: 204642d52ba8adb773c6ebeb1430a421f6bab92fc4f2fd2b684b26964bc776d3
+    url: https://github.com/nseaSeb/Sysex77/releases/download/v1.4.0/Sysex77-1.4.0.app.zip
