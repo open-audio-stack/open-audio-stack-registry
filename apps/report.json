@@ -121,6 +121,24 @@
       ]
     }
   },
+  "nseaseb/sysex77": {
+    "1.4.0": {
+      "recs": [
+        {
+          "field": "architectures",
+          "rec": "should support x64"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Linux"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Windows"
+        }
+      ]
+    }
+  },
   "monocasual/giada": {
     "1.5.0": {
       "recs": [
