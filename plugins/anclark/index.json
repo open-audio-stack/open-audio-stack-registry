@@ -201,5 +201,72 @@
       }
     },
     "downloads": 75
+  },
+  "anclark/classicreverb-re02": {
+    "slug": "anclark/classicreverb-re02",
+    "version": "1.1.1",
+    "versions": {
+      "1.1.1": {
+        "name": "Classic Reverb RE-02",
+        "author": "AnClark Liu",
+        "description": "Reverse-engineered reimplementation of Kjaerhus Audio Classic Reverb (RE-02 variant) with a different timbre of sound, as VST3 and CLAP.",
+        "license": "gpl-3.0",
+        "type": "effect",
+        "tags": [
+          "Reverb",
+          "Emulation",
+          "Classic Reverb",
+          "Kjaerhus Classic Reverb"
+        ],
+        "url": "https://github.com/AnClark/ClassicReverb-RE02",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/anclark/classicreverb-re02/classicreverb-re02.jpg",
+        "date": "2026-09-20T07:41:18Z",
+        "changes": "First out-of-box release of Classic Reverb RE-02.",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64"
+            ],
+            "contains": [
+              "vst3",
+              "clap",
+              "vst"
+            ],
+            "type": "installer",
+            "size": 4839200,
+            "sha256": "c070a8a1c23a31fecff8a481f438384a6e90494194f9eac2eeb7f4b028eccc41",
+            "url": "https://github.com/AnClark/ClassicReverb-RE02/releases/download/v1.1.1/ClassicReverb-RE02-arm64-macOS-1.1.1-5507cfff.pkg",
+            "downloads": 25
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "clap"
+            ],
+            "type": "archive",
+            "size": 20291018,
+            "sha256": "6bf83e36c71055de93dcc6d96113bdbe4ccf10bb3840bcbbb0813c9f41dd4f72",
+            "url": "https://github.com/AnClark/ClassicReverb-RE02/releases/download/v1.1.1/ClassicReverb-RE02-x86_64-Windows-1.1.1-5507cfff.zip",
+            "downloads": 52
+          }
+        ],
+        "verified": true,
+        "downloads": 77
+      }
+    },
+    "downloads": 77
   }
 }

@@ -9564,7 +9564,7 @@
             "size": 223339140,
             "sha256": "a6e55064487f624147d515b9ae5fc79a568b69746675b2083abde628ca7bb151",
             "url": "https://github.com/surge-synthesizer/releases-xt/releases/download/1.3.4/surge-xt-linux-x64-1.3.4.deb",
-            "downloads": 47209
+            "downloads": 47210
           },
           {
             "systems": [
@@ -9650,7 +9650,7 @@
           }
         ],
         "verified": true,
-        "downloads": 857068
+        "downloads": 857069
       },
       "1.3.1": {
         "name": "Surge XT",
@@ -9777,7 +9777,7 @@
         "downloads": 84591
       }
     },
-    "downloads": 941659
+    "downloads": 941660
   },
   "surge-synthesizer/ob-xf": {
     "slug": "surge-synthesizer/ob-xf",
@@ -10538,7 +10538,7 @@
             "size": 27043000,
             "sha256": "5256157ad626ea12bad5cab0ded3ea31075428cd2dcf59ddea6e906420fc0109",
             "url": "https://github.com/StrangeLoopsAudio/gRainbow/releases/download/v1.0.3/gRainbow-1.0.3-macOS.dmg",
-            "downloads": 410
+            "downloads": 411
           },
           {
             "systems": [
@@ -10560,10 +10560,10 @@
           }
         ],
         "verified": true,
-        "downloads": 1850
+        "downloads": 1851
       }
     },
-    "downloads": 1850
+    "downloads": 1851
   },
   "stevefolta/sfzq": {
     "slug": "stevefolta/sfzq",
@@ -28475,7 +28475,7 @@
             "size": 35810437,
             "sha256": "d0fc5c5600bee23eb088f99f899b7dd0bae6da43dc12e020df3ad56e3e0ed15a",
             "url": "https://github.com/lsp-plugins/lsp-plugins/releases/download/1.2.37/lsp-plugins-1.2.37-Linux-aarch64.7z",
-            "downloads": 54
+            "downloads": 55
           },
           {
             "systems": [
@@ -28542,7 +28542,7 @@
           }
         ],
         "verified": true,
-        "downloads": 865
+        "downloads": 866
       },
       "1.2.35": {
         "name": "LSP Plugins",
@@ -29544,7 +29544,7 @@
         "downloads": 3435
       }
     },
-    "downloads": 33045
+    "downloads": 33046
   },
   "longkelvin/midi-chord-detector-plugin": {
     "slug": "longkelvin/midi-chord-detector-plugin",
@@ -40456,7 +40456,8 @@
             "type": "archive",
             "size": 20369542,
             "sha256": "afa225358f65330701146fc552883ab9d0e81c9d76fdf411321b3f2fc61f5a5c",
-            "url": "https://github.com/fsecada01/bus_channel_strip/releases/download/v0.5.0/Bus-Channel-Strip-linux.tar.gz"
+            "url": "https://github.com/fsecada01/bus_channel_strip/releases/download/v0.5.0/Bus-Channel-Strip-linux.tar.gz",
+            "downloads": 14
           },
           {
             "systems": [
@@ -40474,7 +40475,8 @@
             "type": "archive",
             "size": 18276422,
             "sha256": "7f376df4ca023a550442525d16dc52ad73f29ec8dde5aeeb48f6199a8a6ae83c",
-            "url": "https://github.com/fsecada01/bus_channel_strip/releases/download/v0.5.0/Bus-Channel-Strip-macos-arm64.tar.gz"
+            "url": "https://github.com/fsecada01/bus_channel_strip/releases/download/v0.5.0/Bus-Channel-Strip-macos-arm64.tar.gz",
+            "downloads": 3
           },
           {
             "systems": [
@@ -40492,7 +40494,8 @@
             "type": "archive",
             "size": 1877386,
             "sha256": "680a623fada552d1856c4cd78dda88d6a7698bb7f68d467f8bd7a89545994a6e",
-            "url": "https://github.com/fsecada01/bus_channel_strip/releases/download/v0.5.0/Bus-Channel-Strip-macos-intel.tar.gz"
+            "url": "https://github.com/fsecada01/bus_channel_strip/releases/download/v0.5.0/Bus-Channel-Strip-macos-intel.tar.gz",
+            "downloads": 4
           },
           {
             "systems": [
@@ -40510,12 +40513,15 @@
             "type": "archive",
             "size": 20098666,
             "sha256": "b4f848aec19fa9885ec19b689051aabad94bf5c9144cf1cfdb2ee556a531def7",
-            "url": "https://github.com/fsecada01/bus_channel_strip/releases/download/v0.5.0/Bus-Channel-Strip-windows.zip"
+            "url": "https://github.com/fsecada01/bus_channel_strip/releases/download/v0.5.0/Bus-Channel-Strip-windows.zip",
+            "downloads": 12
           }
         ],
-        "verified": true
+        "verified": true,
+        "downloads": 33
       }
-    }
+    },
+    "downloads": 33
   },
   "freepats/upright-piano-kw": {
     "slug": "freepats/upright-piano-kw",
@@ -48184,8 +48190,7 @@
             "type": "archive",
             "size": 2979797,
             "sha256": "0fd26983b50ca50c2da93afc88b7786cfd61932d9b31f153800aa511c3f2cd3c",
-            "url": "https://github.com/colinraab/modern-distortion-synth/releases/download/beta/Capstone.component.zip",
-            "downloads": 4
+            "url": "https://github.com/colinraab/modern-distortion-synth/releases/download/beta/Capstone.component.zip"
           },
           {
             "systems": [
@@ -48202,8 +48207,7 @@
             "type": "archive",
             "size": 2982425,
             "sha256": "011360f326764b188961f945692a53bfe0646a7f8999df259a88aead01ac48cc",
-            "url": "https://github.com/colinraab/modern-distortion-synth/releases/download/beta/Capstone.vst3.zip",
-            "downloads": 6
+            "url": "https://github.com/colinraab/modern-distortion-synth/releases/download/beta/Capstone.vst3.zip"
           },
           {
             "systems": [
@@ -48220,15 +48224,12 @@
             "type": "archive",
             "size": 3036816,
             "sha256": "befe9335a7eb1ababcecdc21b56764a39adeedbb946f5bfcd3149f85717a3a13",
-            "url": "https://github.com/colinraab/modern-distortion-synth/releases/download/beta/Capstone.zip",
-            "downloads": 3
+            "url": "https://github.com/colinraab/modern-distortion-synth/releases/download/beta/Capstone.zip"
           }
         ],
-        "verified": true,
-        "downloads": 13
+        "verified": true
       }
-    },
-    "downloads": 13
+    }
   },
   "clearly-broken-software/ninjas2": {
     "slug": "clearly-broken-software/ninjas2",
@@ -55184,6 +55185,73 @@
       }
     },
     "downloads": 75
+  },
+  "anclark/classicreverb-re02": {
+    "slug": "anclark/classicreverb-re02",
+    "version": "1.1.1",
+    "versions": {
+      "1.1.1": {
+        "name": "Classic Reverb RE-02",
+        "author": "AnClark Liu",
+        "description": "Reverse-engineered reimplementation of Kjaerhus Audio Classic Reverb (RE-02 variant) with a different timbre of sound, as VST3 and CLAP.",
+        "license": "gpl-3.0",
+        "type": "effect",
+        "tags": [
+          "Reverb",
+          "Emulation",
+          "Classic Reverb",
+          "Kjaerhus Classic Reverb"
+        ],
+        "url": "https://github.com/AnClark/ClassicReverb-RE02",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/anclark/classicreverb-re02/classicreverb-re02.jpg",
+        "date": "2026-09-20T07:41:18Z",
+        "changes": "First out-of-box release of Classic Reverb RE-02.",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64"
+            ],
+            "contains": [
+              "vst3",
+              "clap",
+              "vst"
+            ],
+            "type": "installer",
+            "size": 4839200,
+            "sha256": "c070a8a1c23a31fecff8a481f438384a6e90494194f9eac2eeb7f4b028eccc41",
+            "url": "https://github.com/AnClark/ClassicReverb-RE02/releases/download/v1.1.1/ClassicReverb-RE02-arm64-macOS-1.1.1-5507cfff.pkg",
+            "downloads": 25
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "clap"
+            ],
+            "type": "archive",
+            "size": 20291018,
+            "sha256": "6bf83e36c71055de93dcc6d96113bdbe4ccf10bb3840bcbbb0813c9f41dd4f72",
+            "url": "https://github.com/AnClark/ClassicReverb-RE02/releases/download/v1.1.1/ClassicReverb-RE02-x86_64-Windows-1.1.1-5507cfff.zip",
+            "downloads": 52
+          }
+        ],
+        "verified": true,
+        "downloads": 77
+      }
+    },
+    "downloads": 77
   },
   "anaremore/chipper": {
     "slug": "anaremore/chipper",
