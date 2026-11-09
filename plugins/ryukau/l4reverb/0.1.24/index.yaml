@@ -1,0 +1,36 @@
+name: L4Reverb
+author: Takamitsu Endo
+description: 'L4Reverb is an extended version of LatticeReverb. This time, lattice structure has 4 * 4 * 4 * 4 = 256 sections per channel.'
+license: gpl-3.0
+type: effect
+tags:
+  - Reverb
+  - Uhhyou
+url: https://github.com/ryukau/VSTPlugins
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ryukau/l4reverb/l4reverb.jpg
+audio: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ryukau/l4reverb/l4reverb.flac
+date: '2026-09-18T06:09:05Z'
+changes: 'Uhhyou Plugins 0.71.0: fixed resetting on some DAWs (reset is triggered in setProcessing and setActive).'
+files:
+  - systems:
+      - type: win
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - vst3
+    type: archive
+    size: 2893831
+    sha256: 9b54871fc1570eda99768a5b23111d954d42648ff7c8ca76f1a95bfa17c6f91d
+    url: https://github.com/ryukau/VSTPlugins/releases/download/UhhyouPlugins0.71.0/L4Reverb_0.1.24.zip
+  - systems:
+      - type: mac
+    architectures:
+      - arm64
+      - x64
+    contains:
+      - vst3
+    type: archive
+    size: 1236935
+    sha256: 65901e8fae66855461a9b224a1e4c064288e5bbd964125b097f7e67672a22516
+    url: https://github.com/ryukau/VSTPlugins/releases/download/UhhyouPlugins0.71.0/L4Reverb_0.1.24_macOS.zip

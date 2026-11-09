@@ -1,0 +1,60 @@
+{
+  "name": "TrapezoidSynth",
+  "author": "Takamitsu Endo",
+  "description": "TrapezoidSynth is a monophonic synthesizer with 2 trapezoid oscillators based on PTR (Polynomial Transition Regions), 8 times oversampled to reduce high-frequency noise. 2 pitch shifters are added to make some chords.",
+  "license": "gpl-3.0",
+  "type": "instrument",
+  "tags": [
+    "Synth",
+    "Uhhyou"
+  ],
+  "url": "https://github.com/ryukau/VSTPlugins",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ryukau/trapezoidsynth/trapezoidsynth.jpg",
+  "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ryukau/trapezoidsynth/trapezoidsynth.flac",
+  "date": "2026-09-18T06:09:05Z",
+  "changes": "Uhhyou Plugins 0.71.0: fixed resetting on some DAWs (reset is triggered in setProcessing and setActive).",
+  "files": [
+    {
+      "systems": [
+        {
+          "type": "win"
+        },
+        {
+          "type": "linux"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3"
+      ],
+      "type": "archive",
+      "size": 2706567,
+      "sha256": "b651fe44439a4f789958fceace4253673f8802a98e6b393a2ccf3a3d5e3bc8f2",
+      "url": "https://github.com/ryukau/VSTPlugins/releases/download/UhhyouPlugins0.71.0/TrapezoidSynth_0.1.29.zip",
+      "downloads": 32
+    },
+    {
+      "systems": [
+        {
+          "type": "mac"
+        }
+      ],
+      "architectures": [
+        "arm64",
+        "x64"
+      ],
+      "contains": [
+        "vst3"
+      ],
+      "type": "archive",
+      "size": 1118087,
+      "sha256": "d5a516ebc6b07cdc033ca49c2c4c7988488870cc3cc0d7f455eec50c3e16450e",
+      "url": "https://github.com/ryukau/VSTPlugins/releases/download/UhhyouPlugins0.71.0/TrapezoidSynth_0.1.29_macOS.zip",
+      "downloads": 22
+    }
+  ],
+  "verified": true,
+  "downloads": 54
+}

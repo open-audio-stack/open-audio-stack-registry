@@ -1,4 +1,801 @@
 {
+  "ryukau/wavecymbal": {
+    "slug": "ryukau/wavecymbal",
+    "version": "0.1.29",
+    "versions": {
+      "0.1.29": {
+        "name": "WaveCymbal",
+        "author": "Takamitsu Endo",
+        "description": "WaveCymbal is an attempt to make a cymbal synthesizer with banded wave-guide model. The result is more like dragging bunch of empty cans or thin metal plate on asphalt rather than cymbal.",
+        "license": "gpl-3.0",
+        "type": "instrument",
+        "tags": [
+          "Cymbal",
+          "Percussion",
+          "Uhhyou"
+        ],
+        "url": "https://github.com/ryukau/VSTPlugins",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ryukau/wavecymbal/wavecymbal.jpg",
+        "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ryukau/wavecymbal/wavecymbal.flac",
+        "date": "2026-09-18T06:09:05Z",
+        "changes": "Uhhyou Plugins 0.71.0: fixed resetting on some DAWs (reset is triggered in setProcessing and setActive).",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "win"
+              },
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 2671177,
+            "sha256": "9d7236ee0c25bf432e73c1ff85b4d44a72e50a30700ee55ac93698a5b8e2e0db",
+            "url": "https://github.com/ryukau/VSTPlugins/releases/download/UhhyouPlugins0.71.0/WaveCymbal_0.1.29.zip",
+            "downloads": 53
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 1091538,
+            "sha256": "ba060dab539210b8d296e960300317d7660cdd5cfb645a170c9d16b1b4232fd9",
+            "url": "https://github.com/ryukau/VSTPlugins/releases/download/UhhyouPlugins0.71.0/WaveCymbal_0.1.29_macOS.zip",
+            "downloads": 24
+          }
+        ],
+        "verified": true,
+        "downloads": 77
+      }
+    },
+    "downloads": 77
+  },
+  "ryukau/trapezoidsynth": {
+    "slug": "ryukau/trapezoidsynth",
+    "version": "0.1.29",
+    "versions": {
+      "0.1.29": {
+        "name": "TrapezoidSynth",
+        "author": "Takamitsu Endo",
+        "description": "TrapezoidSynth is a monophonic synthesizer with 2 trapezoid oscillators based on PTR (Polynomial Transition Regions), 8 times oversampled to reduce high-frequency noise. 2 pitch shifters are added to make some chords.",
+        "license": "gpl-3.0",
+        "type": "instrument",
+        "tags": [
+          "Synth",
+          "Uhhyou"
+        ],
+        "url": "https://github.com/ryukau/VSTPlugins",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ryukau/trapezoidsynth/trapezoidsynth.jpg",
+        "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ryukau/trapezoidsynth/trapezoidsynth.flac",
+        "date": "2026-09-18T06:09:05Z",
+        "changes": "Uhhyou Plugins 0.71.0: fixed resetting on some DAWs (reset is triggered in setProcessing and setActive).",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "win"
+              },
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 2706567,
+            "sha256": "b651fe44439a4f789958fceace4253673f8802a98e6b393a2ccf3a3d5e3bc8f2",
+            "url": "https://github.com/ryukau/VSTPlugins/releases/download/UhhyouPlugins0.71.0/TrapezoidSynth_0.1.29.zip",
+            "downloads": 32
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 1118087,
+            "sha256": "d5a516ebc6b07cdc033ca49c2c4c7988488870cc3cc0d7f455eec50c3e16450e",
+            "url": "https://github.com/ryukau/VSTPlugins/releases/download/UhhyouPlugins0.71.0/TrapezoidSynth_0.1.29_macOS.zip",
+            "downloads": 22
+          }
+        ],
+        "verified": true,
+        "downloads": 54
+      }
+    },
+    "downloads": 54
+  },
+  "ryukau/syncsawsynth": {
+    "slug": "ryukau/syncsawsynth",
+    "version": "0.1.33",
+    "versions": {
+      "0.1.33": {
+        "name": "SyncSawSynth",
+        "author": "Takamitsu Endo",
+        "description": "SyncSawSynth is a 32 voice polyphonic synthesizer using up to 10th order PTR sawtooth oscillator. Just a basic synthesizer but very easy to make a noise similar to low battery sound of some toys.",
+        "license": "gpl-3.0",
+        "type": "instrument",
+        "tags": [
+          "Synth",
+          "Uhhyou"
+        ],
+        "url": "https://github.com/ryukau/VSTPlugins",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ryukau/syncsawsynth/syncsawsynth.jpg",
+        "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ryukau/syncsawsynth/syncsawsynth.flac",
+        "date": "2026-09-18T06:09:05Z",
+        "changes": "Uhhyou Plugins 0.71.0: fixed resetting on some DAWs (reset is triggered in setProcessing and setActive).",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "win"
+              },
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 2701436,
+            "sha256": "1455ff5ac5371aa15b453d672a8a57b1be6f5417d86b2e3766bdda4cd983bbc1",
+            "url": "https://github.com/ryukau/VSTPlugins/releases/download/UhhyouPlugins0.71.0/SyncSawSynth_0.1.33.zip"
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 1121484,
+            "sha256": "43d3df49212d18be2330fe5717c167199f6d7e9abc88de27e1525f92c139d561",
+            "url": "https://github.com/ryukau/VSTPlugins/releases/download/UhhyouPlugins0.71.0/SyncSawSynth_0.1.33_macOS.zip",
+            "downloads": 24
+          }
+        ],
+        "verified": true,
+        "downloads": 24
+      }
+    },
+    "downloads": 24
+  },
+  "ryukau/sevendelay": {
+    "slug": "ryukau/sevendelay",
+    "version": "0.1.33",
+    "versions": {
+      "0.1.33": {
+        "name": "SevenDelay",
+        "author": "Takamitsu Endo",
+        "description": "SevenDelay is a stereo delay with 7th order lagrange interpolated fractional delay and 7x oversampling.",
+        "license": "gpl-3.0",
+        "type": "effect",
+        "tags": [
+          "Delay",
+          "Uhhyou"
+        ],
+        "url": "https://github.com/ryukau/VSTPlugins",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ryukau/sevendelay/sevendelay.jpg",
+        "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ryukau/sevendelay/sevendelay.flac",
+        "date": "2026-09-18T06:09:05Z",
+        "changes": "Uhhyou Plugins 0.71.0: fixed resetting on some DAWs (reset is triggered in setProcessing and setActive).",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "win"
+              },
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 2659971,
+            "sha256": "0667cab42197352894508963f3d025760bb59d0133005aaa7ae48ce519b8a1d9",
+            "url": "https://github.com/ryukau/VSTPlugins/releases/download/UhhyouPlugins0.71.0/SevenDelay_0.1.33.zip",
+            "downloads": 48
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 1095410,
+            "sha256": "ce44b78fa15b98a044c9c8775a723d556aaefa08ec64aa96697aa2f60bd71c87",
+            "url": "https://github.com/ryukau/VSTPlugins/releases/download/UhhyouPlugins0.71.0/SevenDelay_0.1.33_macOS.zip",
+            "downloads": 33
+          }
+        ],
+        "verified": true,
+        "downloads": 81
+      }
+    },
+    "downloads": 81
+  },
+  "ryukau/lightpadsynth": {
+    "slug": "ryukau/lightpadsynth",
+    "version": "0.1.28",
+    "versions": {
+      "0.1.28": {
+        "name": "LightPadSynth",
+        "author": "Takamitsu Endo",
+        "description": "LightPadSynth is a lightweight version of CubicPadSynth. For efficiency, interpolation is changed to linear. Also pitch modulation is omitted. Instead, a delay is added for each voice.",
+        "license": "gpl-3.0",
+        "type": "instrument",
+        "tags": [
+          "Synth",
+          "Uhhyou"
+        ],
+        "url": "https://github.com/ryukau/VSTPlugins",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ryukau/lightpadsynth/lightpadsynth.jpg",
+        "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ryukau/lightpadsynth/lightpadsynth.flac",
+        "date": "2026-09-18T06:09:05Z",
+        "changes": "Uhhyou Plugins 0.71.0: fixed resetting on some DAWs (reset is triggered in setProcessing and setActive).",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "win"
+              },
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 3172729,
+            "sha256": "97c36826a9db289fd41cf2efb97d5e26638ee4609cb29791e144df6cd5f5db5a",
+            "url": "https://github.com/ryukau/VSTPlugins/releases/download/UhhyouPlugins0.71.0/LightPadSynth_0.1.28.zip"
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 1334902,
+            "sha256": "702431d8151665c499bb5da86ff9e6d54b29718223d48902a64e6316c48d2bd0",
+            "url": "https://github.com/ryukau/VSTPlugins/releases/download/UhhyouPlugins0.71.0/LightPadSynth_0.1.28_macOS.zip",
+            "downloads": 17
+          }
+        ],
+        "verified": true,
+        "downloads": 17
+      }
+    },
+    "downloads": 17
+  },
+  "ryukau/latticereverb": {
+    "slug": "ryukau/latticereverb",
+    "version": "0.1.27",
+    "versions": {
+      "0.1.27": {
+        "name": "LatticeReverb",
+        "author": "Takamitsu Endo",
+        "description": "LatticeReverb is a reverb using lattice structure. Equipped with 16 delays per channel.",
+        "license": "gpl-3.0",
+        "type": "effect",
+        "tags": [
+          "Reverb",
+          "Uhhyou"
+        ],
+        "url": "https://github.com/ryukau/VSTPlugins",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ryukau/latticereverb/latticereverb.jpg",
+        "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ryukau/latticereverb/latticereverb.flac",
+        "date": "2026-09-18T06:09:05Z",
+        "changes": "Uhhyou Plugins 0.71.0: fixed resetting on some DAWs (reset is triggered in setProcessing and setActive).",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "win"
+              },
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 2844007,
+            "sha256": "bcf4d6aee896c0e2b9392394d59bbe43aadd4541c15db7693c24f4471e3f3d06",
+            "url": "https://github.com/ryukau/VSTPlugins/releases/download/UhhyouPlugins0.71.0/LatticeReverb_0.1.27.zip"
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 1154211,
+            "sha256": "8b577f8a996bc2721a07b389f1cc05d9cd69606a9f96f1136afcc3a3d838b8f7",
+            "url": "https://github.com/ryukau/VSTPlugins/releases/download/UhhyouPlugins0.71.0/LatticeReverb_0.1.27_macOS.zip",
+            "downloads": 20
+          }
+        ],
+        "verified": true,
+        "downloads": 20
+      }
+    },
+    "downloads": 20
+  },
+  "ryukau/l4reverb": {
+    "slug": "ryukau/l4reverb",
+    "version": "0.1.24",
+    "versions": {
+      "0.1.24": {
+        "name": "L4Reverb",
+        "author": "Takamitsu Endo",
+        "description": "L4Reverb is an extended version of LatticeReverb. This time, lattice structure has 4 * 4 * 4 * 4 = 256 sections per channel.",
+        "license": "gpl-3.0",
+        "type": "effect",
+        "tags": [
+          "Reverb",
+          "Uhhyou"
+        ],
+        "url": "https://github.com/ryukau/VSTPlugins",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ryukau/l4reverb/l4reverb.jpg",
+        "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ryukau/l4reverb/l4reverb.flac",
+        "date": "2026-09-18T06:09:05Z",
+        "changes": "Uhhyou Plugins 0.71.0: fixed resetting on some DAWs (reset is triggered in setProcessing and setActive).",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "win"
+              },
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 2893831,
+            "sha256": "9b54871fc1570eda99768a5b23111d954d42648ff7c8ca76f1a95bfa17c6f91d",
+            "url": "https://github.com/ryukau/VSTPlugins/releases/download/UhhyouPlugins0.71.0/L4Reverb_0.1.24.zip"
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 1236935,
+            "sha256": "65901e8fae66855461a9b224a1e4c064288e5bbd964125b097f7e67672a22516",
+            "url": "https://github.com/ryukau/VSTPlugins/releases/download/UhhyouPlugins0.71.0/L4Reverb_0.1.24_macOS.zip",
+            "downloads": 29
+          }
+        ],
+        "verified": true,
+        "downloads": 29
+      }
+    },
+    "downloads": 29
+  },
+  "ryukau/l3reverb": {
+    "slug": "ryukau/l3reverb",
+    "version": "0.1.24",
+    "versions": {
+      "0.1.24": {
+        "name": "L3Reverb",
+        "author": "Takamitsu Endo",
+        "description": "L4Reverb is an extended version of LatticeReverb. This time, lattice structure has 4 * 4 * 4 * 4 = 256 sections per channel.",
+        "license": "gpl-3.0",
+        "type": "effect",
+        "tags": [
+          "Reverb",
+          "Uhhyou"
+        ],
+        "url": "https://github.com/ryukau/VSTPlugins",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ryukau/l3reverb/l3reverb.jpg",
+        "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ryukau/l3reverb/l3reverb.flac",
+        "date": "2026-09-18T06:09:05Z",
+        "changes": "Uhhyou Plugins 0.71.0: fixed resetting on some DAWs (reset is triggered in setProcessing and setActive).",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "win"
+              },
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 2853412,
+            "sha256": "5de3c80ba5c79a1e56c16f4e1923374dea807a21bc8e051868e08301b075da90",
+            "url": "https://github.com/ryukau/VSTPlugins/releases/download/UhhyouPlugins0.71.0/L3Reverb_0.1.24.zip"
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 1196073,
+            "sha256": "c7d947dea53519c2d6d55c8a23b9ac30a822072e496e09bc4bf392f5a9bae39c",
+            "url": "https://github.com/ryukau/VSTPlugins/releases/download/UhhyouPlugins0.71.0/L3Reverb_0.1.24_macOS.zip",
+            "downloads": 19
+          }
+        ],
+        "verified": true,
+        "downloads": 19
+      }
+    },
+    "downloads": 19
+  },
+  "ryukau/iterativesincluster": {
+    "slug": "ryukau/iterativesincluster",
+    "version": "0.1.31",
+    "versions": {
+      "0.1.31": {
+        "name": "IterativeSinCluster",
+        "author": "Takamitsu Endo",
+        "description": "IterativeSinCluster is an additive synthesizer. This synth computes 512 sine waves for each note to make tone cluster. I somehow thought \"iterative sin\" is a valid term. Correct term is \"recursive sine\".",
+        "license": "gpl-3.0",
+        "type": "instrument",
+        "tags": [
+          "Synth",
+          "Uhhyou"
+        ],
+        "url": "https://github.com/ryukau/VSTPlugins",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ryukau/iterativesincluster/iterativesincluster.jpg",
+        "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ryukau/iterativesincluster/iterativesincluster.flac",
+        "date": "2026-09-18T06:09:05Z",
+        "changes": "Uhhyou Plugins 0.71.0: fixed resetting on some DAWs (reset is triggered in setProcessing and setActive).",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "win"
+              },
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 2842848,
+            "sha256": "4fcd1479c1d1b0215432ac4c9164bf609411cde580febe1910cb9a9d67266b43",
+            "url": "https://github.com/ryukau/VSTPlugins/releases/download/UhhyouPlugins0.71.0/IterativeSinCluster_0.1.31.zip"
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 1184062,
+            "sha256": "4a63ef2314e14fca4427a877e4d2927ec910e3fceb1bee729bc5d0ad57a69c1d",
+            "url": "https://github.com/ryukau/VSTPlugins/releases/download/UhhyouPlugins0.71.0/IterativeSinCluster_0.1.31_macOS.zip",
+            "downloads": 20
+          }
+        ],
+        "verified": true,
+        "downloads": 20
+      }
+    },
+    "downloads": 20
+  },
+  "ryukau/fdncymbal": {
+    "slug": "ryukau/fdncymbal",
+    "version": "0.2.22",
+    "versions": {
+      "0.2.22": {
+        "name": "FDNCymbal",
+        "author": "Takamitsu Endo",
+        "description": "FDNCymbal is a cymbal sound synthesizer that can also be used as an effect. Most of the metallic texture comes from a Schroeder allpass section; the FDN (feedback delay network) section makes a nice impact sound. Tremolo simulates cymbal wobble.",
+        "license": "gpl-3.0",
+        "type": "instrument",
+        "tags": [
+          "Cymbal",
+          "Percussion",
+          "Uhhyou"
+        ],
+        "url": "https://github.com/ryukau/VSTPlugins",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ryukau/fdncymbal/fdncymbal.jpg",
+        "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ryukau/fdncymbal/fdncymbal.flac",
+        "date": "2026-09-18T06:09:05Z",
+        "changes": "Uhhyou Plugins 0.71.0: fixed resetting on some DAWs (reset is triggered in setProcessing and setActive).",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "win"
+              },
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 2718788,
+            "sha256": "da852c017613161b0b79a2f0c1a57a895785d2527b487fd0532eaceaafa28a5b",
+            "url": "https://github.com/ryukau/VSTPlugins/releases/download/UhhyouPlugins0.71.0/FDNCymbal_0.2.22.zip"
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 1099019,
+            "sha256": "2646f2c423fbd634b04eddc7c08ef272033819733b7dfded5cda375a1a9d8dd0",
+            "url": "https://github.com/ryukau/VSTPlugins/releases/download/UhhyouPlugins0.71.0/FDNCymbal_0.2.22_macOS.zip",
+            "downloads": 20
+          }
+        ],
+        "verified": true,
+        "downloads": 20
+      }
+    },
+    "downloads": 20
+  },
+  "ryukau/fdn64reverb": {
+    "slug": "ryukau/fdn64reverb",
+    "version": "0.1.20",
+    "versions": {
+      "0.1.20": {
+        "name": "FDN64Reverb",
+        "author": "Takamitsu Endo",
+        "description": "FDN64Reverb is a reverb equipped with a feedback delay network (FDN). However, the size of feedback matrix is 64.",
+        "license": "gpl-3.0",
+        "type": "effect",
+        "tags": [
+          "Reverb",
+          "Uhhyou"
+        ],
+        "url": "https://github.com/ryukau/VSTPlugins",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ryukau/fdn64reverb/fdn64reverb.jpg",
+        "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ryukau/fdn64reverb/fdn64reverb.flac",
+        "date": "2026-09-18T06:09:05Z",
+        "changes": "Uhhyou Plugins 0.71.0: fixed resetting on some DAWs (reset is triggered in setProcessing and setActive).",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "win"
+              },
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 2872258,
+            "sha256": "f14970708334d786a98a16e0e9ea1860e849fcf4bfbc1d5b362117c1cf8bbcdc",
+            "url": "https://github.com/ryukau/VSTPlugins/releases/download/UhhyouPlugins0.71.0/FDN64Reverb_0.1.20.zip"
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 1188622,
+            "sha256": "9faca9d7db91b798a5979005f8f9778d719531e803acb382b7601d2912435676",
+            "url": "https://github.com/ryukau/VSTPlugins/releases/download/UhhyouPlugins0.71.0/FDN64Reverb_0.1.20_macOS.zip",
+            "downloads": 19
+          }
+        ],
+        "verified": true,
+        "downloads": 19
+      }
+    },
+    "downloads": 19
+  },
+  "ryukau/esphaser": {
+    "slug": "ryukau/esphaser",
+    "version": "0.1.23",
+    "versions": {
+      "0.1.23": {
+        "name": "EsPhaser",
+        "author": "Takamitsu Endo",
+        "description": "EsPhaser is a phaser with up to 4096 stages of order 2 Thiran all-pass filters. This is the same phaser used in EnvelopedSine.",
+        "license": "gpl-3.0",
+        "type": "effect",
+        "tags": [
+          "Modulation",
+          "Uhhyou"
+        ],
+        "url": "https://github.com/ryukau/VSTPlugins",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ryukau/esphaser/esphaser.jpg",
+        "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ryukau/esphaser/esphaser.flac",
+        "date": "2026-09-18T06:09:05Z",
+        "changes": "Uhhyou Plugins 0.71.0: fixed resetting on some DAWs (reset is triggered in setProcessing and setActive).",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "win"
+              },
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 2496316,
+            "sha256": "fd547ef026cf7233b587540277b63c80429120eb29c7100c1be96f74520e771b",
+            "url": "https://github.com/ryukau/VSTPlugins/releases/download/UhhyouPlugins0.71.0/EsPhaser_0.1.23.zip"
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 1029602,
+            "sha256": "13620781baa6b220c9ef44d11970afc255769b1e8bd3bcc6b45a05eef4f2c28b",
+            "url": "https://github.com/ryukau/VSTPlugins/releases/download/UhhyouPlugins0.71.0/EsPhaser_0.1.23_macOS.zip",
+            "downloads": 27
+          }
+        ],
+        "verified": true,
+        "downloads": 27
+      }
+    },
+    "downloads": 27
+  },
   "ryukau/envelopedsine": {
     "slug": "ryukau/envelopedsine",
     "version": "0.1.29",
@@ -56,14 +853,14 @@
             "size": 1250013,
             "sha256": "38297ed60480d1e0a760d28cf3944f5f8dae06d59ee0b443b9febdd749f10220",
             "url": "https://github.com/ryukau/VSTPlugins/releases/download/UhhyouPlugins0.71.0/EnvelopedSine_0.1.29_macOS.zip",
-            "downloads": 16
+            "downloads": 24
           }
         ],
         "verified": true,
-        "downloads": 16
+        "downloads": 24
       }
     },
-    "downloads": 16
+    "downloads": 24
   },
   "ryukau/cubicpadsynth": {
     "slug": "ryukau/cubicpadsynth",
@@ -122,14 +919,14 @@
             "size": 2386998,
             "sha256": "1694c0e54257e11912b99f6c599b017eb5c9b6deb697f042b40a4b79462351bf",
             "url": "https://github.com/ryukau/VSTPlugins/releases/download/UhhyouPlugins0.71.0/CubicPadSynth_0.1.30_macOS.zip",
-            "downloads": 16
+            "downloads": 25
           }
         ],
         "verified": true,
-        "downloads": 16
+        "downloads": 25
       }
     },
-    "downloads": 16
+    "downloads": 25
   },
   "ryukau/collidingcombsynth": {
     "slug": "ryukau/collidingcombsynth",
@@ -188,13 +985,145 @@
             "size": 1207844,
             "sha256": "332d4365111472ea69336a4bbd15a285ff62ec91fff5134772ad845ad17093c9",
             "url": "https://github.com/ryukau/VSTPlugins/releases/download/UhhyouPlugins0.71.0/CollidingCombSynth_0.1.20_macOS.zip",
-            "downloads": 20
+            "downloads": 29
           }
         ],
         "verified": true,
-        "downloads": 20
+        "downloads": 29
       }
     },
-    "downloads": 20
+    "downloads": 29
+  },
+  "ryukau/basiclimiterautomake": {
+    "slug": "ryukau/basiclimiterautomake",
+    "version": "0.1.24",
+    "versions": {
+      "0.1.24": {
+        "name": "BasicLimiterAutoMake",
+        "author": "Takamitsu Endo",
+        "description": "BasicLimiter is a basic single band limiter. The sound is nothing new, but the design of true peak mode is a bit luxurious.",
+        "license": "gpl-3.0",
+        "type": "effect",
+        "tags": [
+          "Dynamics",
+          "Uhhyou"
+        ],
+        "url": "https://github.com/ryukau/VSTPlugins",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ryukau/basiclimiterautomake/basiclimiterautomake.jpg",
+        "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ryukau/basiclimiterautomake/basiclimiterautomake.flac",
+        "date": "2026-09-18T06:09:05Z",
+        "changes": "Uhhyou Plugins 0.71.0: fixed resetting on some DAWs (reset is triggered in setProcessing and setActive).",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "win"
+              },
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 2587874,
+            "sha256": "0d28008a7bf8b939dac544f71bee1251438a2117e55b9720a63a08216e3ab7b9",
+            "url": "https://github.com/ryukau/VSTPlugins/releases/download/UhhyouPlugins0.71.0/BasicLimiterAutoMake_0.1.24.zip"
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 1064564,
+            "sha256": "0635df7ca465a07954b2f45618dcb37b6642656961601d15c2efbd13618beb4b",
+            "url": "https://github.com/ryukau/VSTPlugins/releases/download/UhhyouPlugins0.71.0/BasicLimiterAutoMake_0.1.24_macOS.zip",
+            "downloads": 21
+          }
+        ],
+        "verified": true,
+        "downloads": 21
+      }
+    },
+    "downloads": 21
+  },
+  "ryukau/basiclimiter": {
+    "slug": "ryukau/basiclimiter",
+    "version": "0.1.24",
+    "versions": {
+      "0.1.24": {
+        "name": "BasicLimiter",
+        "author": "Takamitsu Endo",
+        "description": "BasicLimiter is a basic single band limiter. The sound is nothing new, but the design of true peak mode is a bit luxurious.",
+        "license": "gpl-3.0",
+        "type": "effect",
+        "tags": [
+          "Dynamics",
+          "Uhhyou"
+        ],
+        "url": "https://github.com/ryukau/VSTPlugins",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ryukau/basiclimiter/basiclimiter.jpg",
+        "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ryukau/basiclimiter/basiclimiter.flac",
+        "date": "2026-09-18T06:09:05Z",
+        "changes": "Uhhyou Plugins 0.71.0: fixed resetting on some DAWs (reset is triggered in setProcessing and setActive).",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "win"
+              },
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 2566452,
+            "sha256": "d6fe9fea47ae4c115491f2fdb875789ab3cb60ea33397a15d0893436a65b8ce5",
+            "url": "https://github.com/ryukau/VSTPlugins/releases/download/UhhyouPlugins0.71.0/BasicLimiter_0.1.24.zip"
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 1053346,
+            "sha256": "290a99dc71c994c6bbf2a83fabff5e08b4b25cdfe626ec499bd23eec67092cb6",
+            "url": "https://github.com/ryukau/VSTPlugins/releases/download/UhhyouPlugins0.71.0/BasicLimiter_0.1.24_macOS.zip",
+            "downloads": 36
+          }
+        ],
+        "verified": true,
+        "downloads": 36
+      }
+    },
+    "downloads": 36
   }
 }

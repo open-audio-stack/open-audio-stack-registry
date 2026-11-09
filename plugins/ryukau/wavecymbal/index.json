@@ -1,0 +1,68 @@
+{
+  "slug": "ryukau/wavecymbal",
+  "version": "0.1.29",
+  "versions": {
+    "0.1.29": {
+      "name": "WaveCymbal",
+      "author": "Takamitsu Endo",
+      "description": "WaveCymbal is an attempt to make a cymbal synthesizer with banded wave-guide model. The result is more like dragging bunch of empty cans or thin metal plate on asphalt rather than cymbal.",
+      "license": "gpl-3.0",
+      "type": "instrument",
+      "tags": [
+        "Cymbal",
+        "Percussion",
+        "Uhhyou"
+      ],
+      "url": "https://github.com/ryukau/VSTPlugins",
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ryukau/wavecymbal/wavecymbal.jpg",
+      "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ryukau/wavecymbal/wavecymbal.flac",
+      "date": "2026-09-18T06:09:05Z",
+      "changes": "Uhhyou Plugins 0.71.0: fixed resetting on some DAWs (reset is triggered in setProcessing and setActive).",
+      "files": [
+        {
+          "systems": [
+            {
+              "type": "win"
+            },
+            {
+              "type": "linux"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "vst3"
+          ],
+          "type": "archive",
+          "size": 2671177,
+          "sha256": "9d7236ee0c25bf432e73c1ff85b4d44a72e50a30700ee55ac93698a5b8e2e0db",
+          "url": "https://github.com/ryukau/VSTPlugins/releases/download/UhhyouPlugins0.71.0/WaveCymbal_0.1.29.zip",
+          "downloads": 53
+        },
+        {
+          "systems": [
+            {
+              "type": "mac"
+            }
+          ],
+          "architectures": [
+            "arm64",
+            "x64"
+          ],
+          "contains": [
+            "vst3"
+          ],
+          "type": "archive",
+          "size": 1091538,
+          "sha256": "ba060dab539210b8d296e960300317d7660cdd5cfb645a170c9d16b1b4232fd9",
+          "url": "https://github.com/ryukau/VSTPlugins/releases/download/UhhyouPlugins0.71.0/WaveCymbal_0.1.29_macOS.zip",
+          "downloads": 24
+        }
+      ],
+      "verified": true,
+      "downloads": 77
+    }
+  },
+  "downloads": 77
+}

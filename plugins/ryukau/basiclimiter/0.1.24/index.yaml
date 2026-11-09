@@ -1,0 +1,36 @@
+name: BasicLimiter
+author: Takamitsu Endo
+description: 'BasicLimiter is a basic single band limiter. The sound is nothing new, but the design of true peak mode is a bit luxurious.'
+license: gpl-3.0
+type: effect
+tags:
+  - Dynamics
+  - Uhhyou
+url: https://github.com/ryukau/VSTPlugins
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ryukau/basiclimiter/basiclimiter.jpg
+audio: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ryukau/basiclimiter/basiclimiter.flac
+date: '2026-09-18T06:09:05Z'
+changes: 'Uhhyou Plugins 0.71.0: fixed resetting on some DAWs (reset is triggered in setProcessing and setActive).'
+files:
+  - systems:
+      - type: win
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - vst3
+    type: archive
+    size: 2566452
+    sha256: d6fe9fea47ae4c115491f2fdb875789ab3cb60ea33397a15d0893436a65b8ce5
+    url: https://github.com/ryukau/VSTPlugins/releases/download/UhhyouPlugins0.71.0/BasicLimiter_0.1.24.zip
+  - systems:
+      - type: mac
+    architectures:
+      - arm64
+      - x64
+    contains:
+      - vst3
+    type: archive
+    size: 1053346
+    sha256: 290a99dc71c994c6bbf2a83fabff5e08b4b25cdfe626ec499bd23eec67092cb6
+    url: https://github.com/ryukau/VSTPlugins/releases/download/UhhyouPlugins0.71.0/BasicLimiter_0.1.24_macOS.zip

@@ -1,0 +1,66 @@
+{
+  "slug": "ryukau/iterativesincluster",
+  "version": "0.1.31",
+  "versions": {
+    "0.1.31": {
+      "name": "IterativeSinCluster",
+      "author": "Takamitsu Endo",
+      "description": "IterativeSinCluster is an additive synthesizer. This synth computes 512 sine waves for each note to make tone cluster. I somehow thought \"iterative sin\" is a valid term. Correct term is \"recursive sine\".",
+      "license": "gpl-3.0",
+      "type": "instrument",
+      "tags": [
+        "Synth",
+        "Uhhyou"
+      ],
+      "url": "https://github.com/ryukau/VSTPlugins",
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ryukau/iterativesincluster/iterativesincluster.jpg",
+      "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ryukau/iterativesincluster/iterativesincluster.flac",
+      "date": "2026-09-18T06:09:05Z",
+      "changes": "Uhhyou Plugins 0.71.0: fixed resetting on some DAWs (reset is triggered in setProcessing and setActive).",
+      "files": [
+        {
+          "systems": [
+            {
+              "type": "win"
+            },
+            {
+              "type": "linux"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "vst3"
+          ],
+          "type": "archive",
+          "size": 2842848,
+          "sha256": "4fcd1479c1d1b0215432ac4c9164bf609411cde580febe1910cb9a9d67266b43",
+          "url": "https://github.com/ryukau/VSTPlugins/releases/download/UhhyouPlugins0.71.0/IterativeSinCluster_0.1.31.zip"
+        },
+        {
+          "systems": [
+            {
+              "type": "mac"
+            }
+          ],
+          "architectures": [
+            "arm64",
+            "x64"
+          ],
+          "contains": [
+            "vst3"
+          ],
+          "type": "archive",
+          "size": 1184062,
+          "sha256": "4a63ef2314e14fca4427a877e4d2927ec910e3fceb1bee729bc5d0ad57a69c1d",
+          "url": "https://github.com/ryukau/VSTPlugins/releases/download/UhhyouPlugins0.71.0/IterativeSinCluster_0.1.31_macOS.zip",
+          "downloads": 20
+        }
+      ],
+      "verified": true,
+      "downloads": 20
+    }
+  },
+  "downloads": 20
+}

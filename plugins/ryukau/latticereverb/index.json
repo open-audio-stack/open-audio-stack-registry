@@ -1,0 +1,66 @@
+{
+  "slug": "ryukau/latticereverb",
+  "version": "0.1.27",
+  "versions": {
+    "0.1.27": {
+      "name": "LatticeReverb",
+      "author": "Takamitsu Endo",
+      "description": "LatticeReverb is a reverb using lattice structure. Equipped with 16 delays per channel.",
+      "license": "gpl-3.0",
+      "type": "effect",
+      "tags": [
+        "Reverb",
+        "Uhhyou"
+      ],
+      "url": "https://github.com/ryukau/VSTPlugins",
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ryukau/latticereverb/latticereverb.jpg",
+      "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ryukau/latticereverb/latticereverb.flac",
+      "date": "2026-09-18T06:09:05Z",
+      "changes": "Uhhyou Plugins 0.71.0: fixed resetting on some DAWs (reset is triggered in setProcessing and setActive).",
+      "files": [
+        {
+          "systems": [
+            {
+              "type": "win"
+            },
+            {
+              "type": "linux"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "vst3"
+          ],
+          "type": "archive",
+          "size": 2844007,
+          "sha256": "bcf4d6aee896c0e2b9392394d59bbe43aadd4541c15db7693c24f4471e3f3d06",
+          "url": "https://github.com/ryukau/VSTPlugins/releases/download/UhhyouPlugins0.71.0/LatticeReverb_0.1.27.zip"
+        },
+        {
+          "systems": [
+            {
+              "type": "mac"
+            }
+          ],
+          "architectures": [
+            "arm64",
+            "x64"
+          ],
+          "contains": [
+            "vst3"
+          ],
+          "type": "archive",
+          "size": 1154211,
+          "sha256": "8b577f8a996bc2721a07b389f1cc05d9cd69606a9f96f1136afcc3a3d838b8f7",
+          "url": "https://github.com/ryukau/VSTPlugins/releases/download/UhhyouPlugins0.71.0/LatticeReverb_0.1.27_macOS.zip",
+          "downloads": 20
+        }
+      ],
+      "verified": true,
+      "downloads": 20
+    }
+  },
+  "downloads": 20
+}

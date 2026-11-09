@@ -1,0 +1,36 @@
+name: BasicLimiterAutoMake
+author: Takamitsu Endo
+description: 'BasicLimiter is a basic single band limiter. The sound is nothing new, but the design of true peak mode is a bit luxurious.'
+license: gpl-3.0
+type: effect
+tags:
+  - Dynamics
+  - Uhhyou
+url: https://github.com/ryukau/VSTPlugins
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ryukau/basiclimiterautomake/basiclimiterautomake.jpg
+audio: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ryukau/basiclimiterautomake/basiclimiterautomake.flac
+date: '2026-09-18T06:09:05Z'
+changes: 'Uhhyou Plugins 0.71.0: fixed resetting on some DAWs (reset is triggered in setProcessing and setActive).'
+files:
+  - systems:
+      - type: win
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - vst3
+    type: archive
+    size: 2587874
+    sha256: 0d28008a7bf8b939dac544f71bee1251438a2117e55b9720a63a08216e3ab7b9
+    url: https://github.com/ryukau/VSTPlugins/releases/download/UhhyouPlugins0.71.0/BasicLimiterAutoMake_0.1.24.zip
+  - systems:
+      - type: mac
+    architectures:
+      - arm64
+      - x64
+    contains:
+      - vst3
+    type: archive
+    size: 1064564
+    sha256: 0635df7ca465a07954b2f45618dcb37b6642656961601d15c2efbd13618beb4b
+    url: https://github.com/ryukau/VSTPlugins/releases/download/UhhyouPlugins0.71.0/BasicLimiterAutoMake_0.1.24_macOS.zip
