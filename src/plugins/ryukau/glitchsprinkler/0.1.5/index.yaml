@@ -1,0 +1,36 @@
+name: GlitchSprinkler
+author: Takamitsu Endo
+description: 'Synthesizer specialized for fast arpeggios. Restricting the oscillator period to integer sample counts is a cheap anti-aliasing trick that detunes higher notes, giving a unique texture.'
+license: gpl-3.0
+type: instrument
+tags:
+  - Synth
+  - Arpeggio
+  - Uhhyou
+url: https://github.com/ryukau/VSTPlugins
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ryukau/glitchsprinkler/glitchsprinkler.jpg
+date: '2026-09-18T06:09:05Z'
+changes: 'Uhhyou Plugins 0.71.0: fixed resetting on some DAWs (reset is triggered in setProcessing and setActive).'
+files:
+  - systems:
+      - type: win
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - vst3
+    type: archive
+    size: 2813884
+    sha256: 877e9f6d8547d278318d459205125b53b6d6ab7af219a1901cd6346d11d4e7bd
+    url: https://github.com/ryukau/VSTPlugins/releases/download/UhhyouPlugins0.71.0/GlitchSprinkler_0.1.5.zip
+  - systems:
+      - type: mac
+    architectures:
+      - arm64
+      - x64
+    contains:
+      - vst3
+    type: archive
+    size: 1173799
+    sha256: cd26d94871a7ae1ef015978e76f9ec3b8bb6a6ce80a63a63555e92fadf73da02
+    url: https://github.com/ryukau/VSTPlugins/releases/download/UhhyouPlugins0.71.0/GlitchSprinkler_0.1.5_macOS.zip
