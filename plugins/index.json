@@ -22589,6 +22589,71 @@
     },
     "downloads": 1241
   },
+  "olegcontactbox/polytec-drums": {
+    "slug": "olegcontactbox/polytec-drums",
+    "version": "0.1.0",
+    "versions": {
+      "0.1.0": {
+        "name": "Polytec Drums",
+        "author": "Oleg",
+        "description": "Drum machine instrument plugin built with HISE (free beta). Trigger notes are C2 to G2; macOS builds ship as Audio Unit, Windows as VST3 and CLAP.",
+        "license": "mit",
+        "type": "instrument",
+        "tags": [
+          "Drum Machine",
+          "Drums",
+          "HISE"
+        ],
+        "url": "https://github.com/olegcontactbox/polytec-drums",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/olegcontactbox/polytec-drums/polytec-drums.jpg",
+        "date": "2026-03-16T20:04:41Z",
+        "changes": "Free beta 0.1.0. Trigger notes are C2 to G2. macOS README updated.",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "component"
+            ],
+            "type": "archive",
+            "size": 141183172,
+            "sha256": "09711312f6ff787737a5a804b561f36fbad662e7d86c4f632616992c247c9ef3",
+            "url": "https://github.com/olegcontactbox/polytec-drums/releases/download/polytec-drums-release/polytecDrumsFreeBetaMacos.-.0.1.0b.zip",
+            "downloads": 181
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "clap"
+            ],
+            "type": "archive",
+            "size": 84104360,
+            "sha256": "7b762de7a3ddb45e8972ec0eeb885d14ff647958e26e5077973b09aee1301e61",
+            "url": "https://github.com/olegcontactbox/polytec-drums/releases/download/polytec-drums-release/polytecDrumsFreeBetaWin.-.0.1.0.zip",
+            "downloads": 400
+          }
+        ],
+        "verified": true,
+        "downloads": 581
+      }
+    },
+    "downloads": 581
+  },
   "odoare/tear": {
     "slug": "odoare/tear",
     "version": "0.3.1",
