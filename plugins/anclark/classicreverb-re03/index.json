@@ -1,0 +1,67 @@
+{
+  "slug": "anclark/classicreverb-re03",
+  "version": "1.1.1",
+  "versions": {
+    "1.1.1": {
+      "name": "Classic Reverb RE-03",
+      "author": "AnClark Liu",
+      "description": "Reverse-engineered reimplementation of Kjaerhus Audio Classic Reverb (RE-03 variant) with shaping controls, as VST3 and CLAP.",
+      "license": "gpl-3.0",
+      "type": "effect",
+      "tags": [
+        "Reverb",
+        "Emulation",
+        "Classic Reverb",
+        "Kjaerhus Classic Reverb"
+      ],
+      "url": "https://github.com/AnClark/ClassicReverb-RE03",
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/anclark/classicreverb-re03/classicreverb-re03.jpg",
+      "date": "2026-09-18T14:06:05Z",
+      "changes": "First out-of-box release of Classic Reverb RE-03.",
+      "files": [
+        {
+          "systems": [
+            {
+              "type": "mac"
+            }
+          ],
+          "architectures": [
+            "arm64"
+          ],
+          "contains": [
+            "vst3",
+            "clap",
+            "vst"
+          ],
+          "type": "installer",
+          "size": 4839578,
+          "sha256": "6537be3cc5dc0122d828435ee59a66fc1d3d56e7dfc7037828c28c7c51bd1034",
+          "url": "https://github.com/AnClark/ClassicReverb-RE03/releases/download/v1.1.1/ClassicReverb-RE03-arm64-macOS-1.1.1-73abf71c.pkg",
+          "downloads": 26
+        },
+        {
+          "systems": [
+            {
+              "type": "win"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "vst3",
+            "clap"
+          ],
+          "type": "archive",
+          "size": 20291137,
+          "sha256": "401540d8a59fd2728e1bd78ad9dc7e55ffb512a3f2b1d6313411194c86a15a27",
+          "url": "https://github.com/AnClark/ClassicReverb-RE03/releases/download/v1.1.1/ClassicReverb-RE03-x86_64-Windows-1.1.1-73abf71c.zip",
+          "downloads": 50
+        }
+      ],
+      "verified": true,
+      "downloads": 76
+    }
+  },
+  "downloads": 76
+}
