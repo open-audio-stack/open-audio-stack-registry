@@ -1,0 +1,37 @@
+name: MaybeSnare
+author: Takamitsu Endo
+description: 'Snare drum-like synthesizer made of 2 MembraneSynth voices coupled by cross feedback. There is no snare wire, but modulation noise adds a similar rattling texture.'
+license: gpl-3.0
+type: instrument
+tags:
+  - Snare
+  - Drum
+  - Percussion
+  - Uhhyou
+url: https://github.com/ryukau/VSTPlugins
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ryukau/maybesnare/maybesnare.jpg
+date: '2026-09-18T06:09:05Z'
+changes: 'Uhhyou Plugins 0.71.0: fixed resetting on some DAWs (reset is triggered in setProcessing and setActive).'
+files:
+  - systems:
+      - type: win
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - vst3
+    type: archive
+    size: 2903441
+    sha256: 14c2075669305386f9760d5d65aef29c1d48e7561d3dd38c93e7b30d270fe049
+    url: https://github.com/ryukau/VSTPlugins/releases/download/UhhyouPlugins0.71.0/MaybeSnare_0.1.12.zip
+  - systems:
+      - type: mac
+    architectures:
+      - arm64
+      - x64
+    contains:
+      - vst3
+    type: archive
+    size: 1193131
+    sha256: 1ac6ff98521f63e4dcc2c8fd503acbc9906069f565dc7dfed32310160848a675
+    url: https://github.com/ryukau/VSTPlugins/releases/download/UhhyouPlugins0.71.0/MaybeSnare_0.1.12_macOS.zip

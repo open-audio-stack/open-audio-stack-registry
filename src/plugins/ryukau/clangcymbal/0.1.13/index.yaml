@@ -1,0 +1,36 @@
+name: ClangCymbal
+author: Takamitsu Endo
+description: 'Monophonic cymbal synthesizer, a spin off of ClangSynth with a 64 * 64 feedback delay network for richer harmonics and a noise/pulse oscillator mix suited to cymbal sounds.'
+license: gpl-3.0
+type: instrument
+tags:
+  - Cymbal
+  - Percussion
+  - Uhhyou
+url: https://github.com/ryukau/VSTPlugins
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ryukau/clangcymbal/clangcymbal.jpg
+date: '2026-09-18T06:09:05Z'
+changes: 'Uhhyou Plugins 0.71.0: fixed resetting on some DAWs (reset is triggered in setProcessing and setActive).'
+files:
+  - systems:
+      - type: win
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - vst3
+    type: archive
+    size: 3171567
+    sha256: bd7b4fbb487f832e22760488ccaf45aabb425d532b8f63b51f5543b6dde3d219
+    url: https://github.com/ryukau/VSTPlugins/releases/download/UhhyouPlugins0.71.0/ClangCymbal_0.1.13.zip
+  - systems:
+      - type: mac
+    architectures:
+      - arm64
+      - x64
+    contains:
+      - vst3
+    type: archive
+    size: 1268707
+    sha256: 5ee7d7964edb535215a94e812808f98555458e332a8aa7cb6ff0df337d68eb45
+    url: https://github.com/ryukau/VSTPlugins/releases/download/UhhyouPlugins0.71.0/ClangCymbal_0.1.13_macOS.zip
