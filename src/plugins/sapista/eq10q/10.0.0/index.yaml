@@ -1,0 +1,26 @@
+name: EQ10Q
+author: sapista
+description: 'Suite of LV2 audio plugins: a 10-band parametric equalizer with real-time frequency response plot, plus compression, gating and expansion, with 64-bit floating point DSP.'
+license: gpl-3.0
+type: effect
+tags:
+  - EQ
+  - Equalizer
+  - Compressor
+  - Gate
+  - Dynamics
+url: https://github.com/sapista/eq10q
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sapista/eq10q/eq10q.jpg
+date: '2026-09-26T05:18:12Z'
+changes: 'LV2 compatibility updates for modern hosts, build system cleanup and pre-built binaries for Debian 13 and derivatives.'
+files:
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - lv2
+    type: archive
+    size: 1132789
+    sha256: e4114860c2bf8c9bcbd1fb77b1a298dba39ae6640b6030f32bc24d824b3383fd
+    url: https://github.com/sapista/eq10q/releases/download/eq10q/EQ10QPlugins.zip
