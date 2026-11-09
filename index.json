@@ -434,7 +434,7 @@
               "size": 39238496,
               "sha256": "14e02a1c0028f3ca0bdf83b62b3336e56ba0556894ef295a95e8573f06557166",
               "url": "https://github.com/Rikorose/DeepFilterNet/releases/download/v0.5.6/deep-filter-0.5.6-aarch64-unknown-linux-gnu",
-              "downloads": 8963
+              "downloads": 8964
             },
             {
               "systems": [
@@ -502,10 +502,10 @@
             }
           ],
           "verified": true,
-          "downloads": 194655
+          "downloads": 194656
         }
       },
-      "downloads": 194655
+      "downloads": 194656
     },
     "pkunk/pwrate": {
       "slug": "pkunk/pwrate",
@@ -15657,14 +15657,14 @@
               "size": 3626650,
               "sha256": "56f57dfe443018e947b82b8e2bf4c9d824a9c961ff2b8eb6c5e929030b71b937",
               "url": "https://github.com/sfztools/sfizz-ui/releases/download/1.2.3/sfizz-1.2.3-win64.exe",
-              "downloads": 11576
+              "downloads": 11577
             }
           ],
           "verified": true,
-          "downloads": 15647
+          "downloads": 15648
         }
       },
-      "downloads": 15647
+      "downloads": 15648
     },
     "sfztools/sfizz": {
       "slug": "sfztools/sfizz",
@@ -16635,6 +16635,53 @@
         }
       },
       "downloads": 378771
+    },
+    "sapista/eq10q": {
+      "slug": "sapista/eq10q",
+      "version": "10.0.0",
+      "versions": {
+        "10.0.0": {
+          "name": "EQ10Q",
+          "author": "sapista",
+          "description": "Suite of LV2 audio plugins: a 10-band parametric equalizer with real-time frequency response plot, plus compression, gating and expansion, with 64-bit floating point DSP.",
+          "license": "gpl-3.0",
+          "type": "effect",
+          "tags": [
+            "EQ",
+            "Equalizer",
+            "Compressor",
+            "Gate",
+            "Dynamics"
+          ],
+          "url": "https://github.com/sapista/eq10q",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sapista/eq10q/eq10q.jpg",
+          "date": "2026-09-26T05:18:12Z",
+          "changes": "LV2 compatibility updates for modern hosts, build system cleanup and pre-built binaries for Debian 13 and derivatives.",
+          "files": [
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "lv2"
+              ],
+              "type": "archive",
+              "size": 1132789,
+              "sha256": "e4114860c2bf8c9bcbd1fb77b1a298dba39ae6640b6030f32bc24d824b3383fd",
+              "url": "https://github.com/sapista/eq10q/releases/download/eq10q/EQ10QPlugins.zip",
+              "downloads": 57
+            }
+          ],
+          "verified": true,
+          "downloads": 57
+        }
+      },
+      "downloads": 57
     },
     "samuelsantanaoficial/modernkit": {
       "slug": "samuelsantanaoficial/modernkit",
