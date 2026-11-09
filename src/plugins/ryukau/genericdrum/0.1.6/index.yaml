@@ -1,0 +1,36 @@
+name: GenericDrum
+author: Takamitsu Endo
+description: 'Generic drum synthesizer using delays. It can make convincing snare and bass drum sounds; cymbal sounds are possible but not as good as lower pitched drums.'
+license: gpl-3.0
+type: instrument
+tags:
+  - Drum
+  - Percussion
+  - Uhhyou
+url: https://github.com/ryukau/VSTPlugins
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ryukau/genericdrum/genericdrum.jpg
+date: '2026-09-18T06:09:05Z'
+changes: 'Uhhyou Plugins 0.71.0: fixed resetting on some DAWs (reset is triggered in setProcessing and setActive).'
+files:
+  - systems:
+      - type: win
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - vst3
+    type: archive
+    size: 3061973
+    sha256: fccee80f442d398838c9a88c38efb1c084e4afd8e4ac431da5c7b3947a89b7ea
+    url: https://github.com/ryukau/VSTPlugins/releases/download/UhhyouPlugins0.71.0/GenericDrum_0.1.6.zip
+  - systems:
+      - type: mac
+    architectures:
+      - arm64
+      - x64
+    contains:
+      - vst3
+    type: archive
+    size: 1283375
+    sha256: 21fa1b0f17f74502a7d15b8c97a9e8e71865042e5d19f536c431345e15d7ff8b
+    url: https://github.com/ryukau/VSTPlugins/releases/download/UhhyouPlugins0.71.0/GenericDrum_0.1.6_macOS.zip
