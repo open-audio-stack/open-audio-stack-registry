@@ -1,0 +1,36 @@
+name: LongPhaser
+author: Takamitsu Endo
+description: 'Phaser built from Schroeder all-pass filters that can use long delay times, sounding somewhere between delay and phaser. LFO and note event modulation add character.'
+license: gpl-3.0
+type: effect
+tags:
+  - Phaser
+  - Modulation
+  - Uhhyou
+url: https://github.com/ryukau/VSTPlugins
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ryukau/longphaser/longphaser.jpg
+date: '2026-09-18T06:09:05Z'
+changes: 'Uhhyou Plugins 0.71.0: fixed resetting on some DAWs (reset is triggered in setProcessing and setActive).'
+files:
+  - systems:
+      - type: win
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - vst3
+    type: archive
+    size: 2760285
+    sha256: 70e3d55a5cd6f9c40e897d6206c217495c0dab1c9ee1bee1e82d24d66bec3a1b
+    url: https://github.com/ryukau/VSTPlugins/releases/download/UhhyouPlugins0.71.0/LongPhaser_0.1.8.zip
+  - systems:
+      - type: mac
+    architectures:
+      - arm64
+      - x64
+    contains:
+      - vst3
+    type: archive
+    size: 1145464
+    sha256: e9ca82719aa8176bb3e6837076186c7e71396447bda242107597addbd0eb1673
+    url: https://github.com/ryukau/VSTPlugins/releases/download/UhhyouPlugins0.71.0/LongPhaser_0.1.8_macOS.zip
