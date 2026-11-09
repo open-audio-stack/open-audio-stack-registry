@@ -1,0 +1,36 @@
+name: LightPadSynth
+author: Takamitsu Endo
+description: 'LightPadSynth is a lightweight version of CubicPadSynth. For efficiency, interpolation is changed to linear. Also pitch modulation is omitted. Instead, a delay is added for each voice.'
+license: gpl-3.0
+type: instrument
+tags:
+  - Synth
+  - Uhhyou
+url: https://github.com/ryukau/VSTPlugins
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ryukau/lightpadsynth/lightpadsynth.jpg
+audio: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ryukau/lightpadsynth/lightpadsynth.flac
+date: '2026-09-18T06:09:05Z'
+changes: 'Uhhyou Plugins 0.71.0: fixed resetting on some DAWs (reset is triggered in setProcessing and setActive).'
+files:
+  - systems:
+      - type: win
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - vst3
+    type: archive
+    size: 3172729
+    sha256: 97c36826a9db289fd41cf2efb97d5e26638ee4609cb29791e144df6cd5f5db5a
+    url: https://github.com/ryukau/VSTPlugins/releases/download/UhhyouPlugins0.71.0/LightPadSynth_0.1.28.zip
+  - systems:
+      - type: mac
+    architectures:
+      - arm64
+      - x64
+    contains:
+      - vst3
+    type: archive
+    size: 1334902
+    sha256: 702431d8151665c499bb5da86ff9e6d54b29718223d48902a64e6316c48d2bd0
+    url: https://github.com/ryukau/VSTPlugins/releases/download/UhhyouPlugins0.71.0/LightPadSynth_0.1.28_macOS.zip
