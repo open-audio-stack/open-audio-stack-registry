@@ -1,0 +1,105 @@
+{
+  "oxesoft/oxefmsynth": {
+    "slug": "oxesoft/oxefmsynth",
+    "version": "2.0.0-beta3",
+    "versions": {
+      "2.0.0-beta3": {
+        "name": "Oxe FM Synth",
+        "author": "Daniel Moura",
+        "description": "FM synthesizer by Daniel Moura, available as CLAP and VST3 plugins for Windows, Linux and macOS (the repository also includes a standalone app and a demo mode).",
+        "license": "gpl-3.0",
+        "type": "instrument",
+        "tags": [
+          "FM",
+          "Synth"
+        ],
+        "url": "https://github.com/oxesoft/oxefmsynth",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/oxesoft/oxefmsynth/oxefmsynth.jpg",
+        "date": "2026-10-27T22:40:00Z",
+        "changes": "Added finer knob adjustment (hold Shift while dragging or using the mouse wheel for 10x finer sensitivity). Beta release.",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "arm64"
+            ],
+            "contains": [
+              "vst3",
+              "clap"
+            ],
+            "type": "archive",
+            "size": 2354720,
+            "sha256": "f69b6ceadaa22bd9f19f760a185ecc36e1213090b6f038f617b9940abb716f37",
+            "url": "https://github.com/oxesoft/oxefmsynth/releases/download/v2.0.0-beta3/oxefmsynth-linux-arm64.zip",
+            "downloads": 11
+          },
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "clap"
+            ],
+            "type": "archive",
+            "size": 2776015,
+            "sha256": "629c8006741782b24741411470ea4442009146c925ce8a0fe15645f9aac74385",
+            "url": "https://github.com/oxesoft/oxefmsynth/releases/download/v2.0.0-beta3/oxefmsynth-linux-x86_64.zip",
+            "downloads": 24
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "clap"
+            ],
+            "type": "archive",
+            "size": 4586689,
+            "sha256": "6c92d7cda00bd979aa1c6023c8488ab6d8d3bf5cb2e4da5ff76acf6e795fc530",
+            "url": "https://github.com/oxesoft/oxefmsynth/releases/download/v2.0.0-beta3/oxefmsynth-macos-universal.zip",
+            "downloads": 11
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "clap"
+            ],
+            "type": "archive",
+            "size": 2816713,
+            "sha256": "4482b6a594f349d67215369062330fc30470387e3e73d5244f7f762b5989c38d",
+            "url": "https://github.com/oxesoft/oxefmsynth/releases/download/v2.0.0-beta3/oxefmsynth-windows-x64.zip",
+            "downloads": 29
+          }
+        ],
+        "verified": true,
+        "downloads": 75
+      }
+    },
+    "downloads": 75
+  }
+}

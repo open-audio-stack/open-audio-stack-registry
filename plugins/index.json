@@ -9564,7 +9564,7 @@
             "size": 223339140,
             "sha256": "a6e55064487f624147d515b9ae5fc79a568b69746675b2083abde628ca7bb151",
             "url": "https://github.com/surge-synthesizer/releases-xt/releases/download/1.3.4/surge-xt-linux-x64-1.3.4.deb",
-            "downloads": 47210
+            "downloads": 47214
           },
           {
             "systems": [
@@ -9607,7 +9607,7 @@
             "size": 416715686,
             "sha256": "b56e8d51a8dc2382ae668c9ff4e96bae38dbd452af4e584d5a5ef50ab2d09b07",
             "url": "https://github.com/surge-synthesizer/releases-xt/releases/download/1.3.4/surge-xt-macOS-1.3.4.dmg",
-            "downloads": 181614
+            "downloads": 181617
           },
           {
             "systems": [
@@ -9626,7 +9626,7 @@
             "size": 180883859,
             "sha256": "6fe3fb20ef21672666dddb816ad73f2966e98b70edad9189183451a255c2b2d1",
             "url": "https://github.com/surge-synthesizer/releases-xt/releases/download/1.3.4/surge-xt-win32-1.3.4-setup.exe",
-            "downloads": 22027
+            "downloads": 22030
           },
           {
             "systems": [
@@ -9646,11 +9646,11 @@
             "size": 183385478,
             "sha256": "6e221e05f29254508142b9e0ed76a85f22fa1b512501bebde571951e7eefecca",
             "url": "https://github.com/surge-synthesizer/releases-xt/releases/download/1.3.4/surge-xt-win64-1.3.4-setup.exe",
-            "downloads": 589192
+            "downloads": 589199
           }
         ],
         "verified": true,
-        "downloads": 857069
+        "downloads": 857086
       },
       "1.3.1": {
         "name": "Surge XT",
@@ -9777,7 +9777,7 @@
         "downloads": 84591
       }
     },
-    "downloads": 941660
+    "downloads": 941677
   },
   "surge-synthesizer/ob-xf": {
     "slug": "surge-synthesizer/ob-xf",
@@ -13651,14 +13651,14 @@
             "size": 3626650,
             "sha256": "56f57dfe443018e947b82b8e2bf4c9d824a9c961ff2b8eb6c5e929030b71b937",
             "url": "https://github.com/sfztools/sfizz-ui/releases/download/1.2.3/sfizz-1.2.3-win64.exe",
-            "downloads": 11577
+            "downloads": 11578
           }
         ],
         "verified": true,
-        "downloads": 15648
+        "downloads": 15649
       }
     },
-    "downloads": 15648
+    "downloads": 15649
   },
   "sfztools/sfizz": {
     "slug": "sfztools/sfizz",
@@ -13699,7 +13699,7 @@
             "size": 6605399,
             "sha256": "78f89627fd0685be3c8eacaed79311d8063e2981f8dad96f99a194704e1b383c",
             "url": "https://github.com/sfztools/sfizz/releases/download/1.2.1/sfizz-1.2.1-macos.pkg",
-            "downloads": 743
+            "downloads": 745
           },
           {
             "systems": [
@@ -13741,10 +13741,10 @@
           }
         ],
         "verified": true,
-        "downloads": 3906
+        "downloads": 3908
       }
     },
-    "downloads": 3906
+    "downloads": 3908
   },
   "sfzinstruments/war-tuba": {
     "slug": "sfzinstruments/war-tuba",
@@ -21774,6 +21774,109 @@
       }
     },
     "downloads": 84
+  },
+  "oxesoft/oxefmsynth": {
+    "slug": "oxesoft/oxefmsynth",
+    "version": "2.0.0-beta3",
+    "versions": {
+      "2.0.0-beta3": {
+        "name": "Oxe FM Synth",
+        "author": "Daniel Moura",
+        "description": "FM synthesizer by Daniel Moura, available as CLAP and VST3 plugins for Windows, Linux and macOS (the repository also includes a standalone app and a demo mode).",
+        "license": "gpl-3.0",
+        "type": "instrument",
+        "tags": [
+          "FM",
+          "Synth"
+        ],
+        "url": "https://github.com/oxesoft/oxefmsynth",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/oxesoft/oxefmsynth/oxefmsynth.jpg",
+        "date": "2026-10-27T22:40:00Z",
+        "changes": "Added finer knob adjustment (hold Shift while dragging or using the mouse wheel for 10x finer sensitivity). Beta release.",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "arm64"
+            ],
+            "contains": [
+              "vst3",
+              "clap"
+            ],
+            "type": "archive",
+            "size": 2354720,
+            "sha256": "f69b6ceadaa22bd9f19f760a185ecc36e1213090b6f038f617b9940abb716f37",
+            "url": "https://github.com/oxesoft/oxefmsynth/releases/download/v2.0.0-beta3/oxefmsynth-linux-arm64.zip",
+            "downloads": 11
+          },
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "clap"
+            ],
+            "type": "archive",
+            "size": 2776015,
+            "sha256": "629c8006741782b24741411470ea4442009146c925ce8a0fe15645f9aac74385",
+            "url": "https://github.com/oxesoft/oxefmsynth/releases/download/v2.0.0-beta3/oxefmsynth-linux-x86_64.zip",
+            "downloads": 24
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "clap"
+            ],
+            "type": "archive",
+            "size": 4586689,
+            "sha256": "6c92d7cda00bd979aa1c6023c8488ab6d8d3bf5cb2e4da5ff76acf6e795fc530",
+            "url": "https://github.com/oxesoft/oxefmsynth/releases/download/v2.0.0-beta3/oxefmsynth-macos-universal.zip",
+            "downloads": 11
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "clap"
+            ],
+            "type": "archive",
+            "size": 2816713,
+            "sha256": "4482b6a594f349d67215369062330fc30470387e3e73d5244f7f762b5989c38d",
+            "url": "https://github.com/oxesoft/oxefmsynth/releases/download/v2.0.0-beta3/oxefmsynth-windows-x64.zip",
+            "downloads": 29
+          }
+        ],
+        "verified": true,
+        "downloads": 75
+      }
+    },
+    "downloads": 75
   },
   "otodesk4193/quadmorphfilter": {
     "slug": "otodesk4193/quadmorphfilter",
@@ -30951,7 +31054,7 @@
             "size": 10085918,
             "sha256": "061e5ffa3522f26f7ff0b88213e30b52feefbaf5f4c6bfdcd0c46f6bfb5a144d",
             "url": "https://github.com/Kiriki-liszt/JS_Inflator/releases/download/v2.0.3.2/JS.Inflator.macOS.v2.0.3.2.zip",
-            "downloads": 20041
+            "downloads": 20042
           },
           {
             "systems": [
@@ -30973,10 +31076,10 @@
           }
         ],
         "verified": true,
-        "downloads": 56035
+        "downloads": 56036
       }
     },
-    "downloads": 56035
+    "downloads": 56036
   },
   "killbizz/biztortion": {
     "slug": "killbizz/biztortion",
@@ -52651,7 +52754,7 @@
             "size": 11275100,
             "sha256": "5dc4e072af90ec54aa0197790b40856e7db1659ff924ed107c7536b442d3584b",
             "url": "https://github.com/asb2m10/dexed/releases/download/v1.0.1/Dexed-1.0.1-win.exe",
-            "downloads": 109970
+            "downloads": 109971
           },
           {
             "systems": [
@@ -52675,7 +52778,7 @@
           }
         ],
         "verified": true,
-        "downloads": 216298
+        "downloads": 216299
       },
       "0.9.8": {
         "name": "Dexed",
@@ -52760,7 +52863,7 @@
         "downloads": 198776
       }
     },
-    "downloads": 415074
+    "downloads": 415075
   },
   "arunas-cesonis/live-sampler": {
     "slug": "arunas-cesonis/live-sampler",
