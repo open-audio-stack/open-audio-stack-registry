@@ -1,0 +1,36 @@
+name: OrdinaryPhaser
+author: Takamitsu Endo
+description: 'Ordinary phaser with a delay in the feedback path. Note events can control the all-pass cutoff frequencies and the delay time.'
+license: gpl-3.0
+type: effect
+tags:
+  - Phaser
+  - Modulation
+  - Uhhyou
+url: https://github.com/ryukau/VSTPlugins
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ryukau/ordinaryphaser/ordinaryphaser.jpg
+date: '2026-09-18T06:09:05Z'
+changes: 'Uhhyou Plugins 0.71.0: fixed resetting on some DAWs (reset is triggered in setProcessing and setActive).'
+files:
+  - systems:
+      - type: win
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - vst3
+    type: archive
+    size: 2757907
+    sha256: ae08edf708b1875a7aeb533ea3a5c423ac3be9a6c174d5f0c38c10288dc39620
+    url: https://github.com/ryukau/VSTPlugins/releases/download/UhhyouPlugins0.71.0/OrdinaryPhaser_0.1.8.zip
+  - systems:
+      - type: mac
+    architectures:
+      - arm64
+      - x64
+    contains:
+      - vst3
+    type: archive
+    size: 1142334
+    sha256: c390dfff4ecc9ef0ec1b1be84bdf0bc91d92a62f73196177fbbf5c374f89c77c
+    url: https://github.com/ryukau/VSTPlugins/releases/download/UhhyouPlugins0.71.0/OrdinaryPhaser_0.1.8_macOS.zip
