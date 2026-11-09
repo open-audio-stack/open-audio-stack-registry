@@ -1,0 +1,67 @@
+{
+  "slug": "ryukau/pitchshiftdelay",
+  "version": "0.2.14",
+  "versions": {
+    "0.2.14": {
+      "name": "PitchShiftDelay",
+      "author": "Takamitsu Endo",
+      "description": "Time-domain pitch shifter based on a delay, with 16x oversampling to reduce artifacts and a buffer length that can change in real time. There is no formant correction.",
+      "license": "gpl-3.0",
+      "type": "effect",
+      "tags": [
+        "Pitch Shifter",
+        "Delay",
+        "Uhhyou"
+      ],
+      "url": "https://github.com/ryukau/VSTPlugins",
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ryukau/pitchshiftdelay/pitchshiftdelay.jpg",
+      "date": "2026-09-18T06:09:05Z",
+      "changes": "Uhhyou Plugins 0.71.0: fixed resetting on some DAWs (reset is triggered in setProcessing and setActive).",
+      "files": [
+        {
+          "systems": [
+            {
+              "type": "win"
+            },
+            {
+              "type": "linux"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "vst3"
+          ],
+          "type": "archive",
+          "size": 2796524,
+          "sha256": "7c872243ab02d078389a0cc21b9338b83d39de1b4894a86be798a53245ba2685",
+          "url": "https://github.com/ryukau/VSTPlugins/releases/download/UhhyouPlugins0.71.0/PitchShiftDelay_0.2.14.zip",
+          "downloads": 50
+        },
+        {
+          "systems": [
+            {
+              "type": "mac"
+            }
+          ],
+          "architectures": [
+            "arm64",
+            "x64"
+          ],
+          "contains": [
+            "vst3"
+          ],
+          "type": "archive",
+          "size": 1153560,
+          "sha256": "b39c439386bbca262e3d5830e3364b5acf7ce416aedac6e69615854d744df24c",
+          "url": "https://github.com/ryukau/VSTPlugins/releases/download/UhhyouPlugins0.71.0/PitchShiftDelay_0.2.14_macOS.zip",
+          "downloads": 25
+        }
+      ],
+      "verified": true,
+      "downloads": 75
+    }
+  },
+  "downloads": 75
+}

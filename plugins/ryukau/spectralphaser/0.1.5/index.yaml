@@ -1,0 +1,36 @@
+name: SpectralPhaser
+author: Takamitsu Endo
+description: 'Effect that makes a phaser-like sound by applying a mask in the frequency domain. Besides FFT, fast Walsh-Hadamard (FWHT) and Haar transforms are available.'
+license: gpl-3.0
+type: effect
+tags:
+  - Phaser
+  - Spectral
+  - Uhhyou
+url: https://github.com/ryukau/VSTPlugins
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ryukau/spectralphaser/spectralphaser.jpg
+date: '2026-09-18T06:09:05Z'
+changes: 'Uhhyou Plugins 0.71.0: fixed resetting on some DAWs (reset is triggered in setProcessing and setActive).'
+files:
+  - systems:
+      - type: win
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - vst3
+    type: archive
+    size: 5795046
+    sha256: f8cbac7e41c647f3bd74b3434c9ad60fd3ac2c9144ca20ad7ec5a0665a6d6b06
+    url: https://github.com/ryukau/VSTPlugins/releases/download/UhhyouPlugins0.71.0/SpectralPhaser_0.1.5.zip
+  - systems:
+      - type: mac
+    architectures:
+      - arm64
+      - x64
+    contains:
+      - vst3
+    type: archive
+    size: 2040027
+    sha256: 258bf37760babb775d0b21fbcaf8028e274b3ee943335fc11a8d4b1e76cdd326
+    url: https://github.com/ryukau/VSTPlugins/releases/download/UhhyouPlugins0.71.0/SpectralPhaser_0.1.5_macOS.zip

@@ -1,0 +1,60 @@
+{
+  "name": "UltrasonicRingMod",
+  "author": "Takamitsu Endo",
+  "description": "Ring modulator with 64-fold oversampling and modulator frequencies up to 1 MHz. Phase modulation and hard clipping make the ultrasonic modulation audible.",
+  "license": "gpl-3.0",
+  "type": "effect",
+  "tags": [
+    "Ring Modulator",
+    "Oversampling",
+    "Uhhyou"
+  ],
+  "url": "https://github.com/ryukau/VSTPlugins",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ryukau/ultrasonicringmod/ultrasonicringmod.jpg",
+  "date": "2026-09-18T06:09:05Z",
+  "changes": "Uhhyou Plugins 0.71.0: fixed resetting on some DAWs (reset is triggered in setProcessing and setActive).",
+  "files": [
+    {
+      "systems": [
+        {
+          "type": "win"
+        },
+        {
+          "type": "linux"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3"
+      ],
+      "type": "archive",
+      "size": 2549283,
+      "sha256": "373979b76f4e82f052a52d35696a0a5ea619820898fef47e072844dff80321a2",
+      "url": "https://github.com/ryukau/VSTPlugins/releases/download/UhhyouPlugins0.71.0/UltrasonicRingMod_0.1.8.zip",
+      "downloads": 26
+    },
+    {
+      "systems": [
+        {
+          "type": "mac"
+        }
+      ],
+      "architectures": [
+        "arm64",
+        "x64"
+      ],
+      "contains": [
+        "vst3"
+      ],
+      "type": "archive",
+      "size": 1048476,
+      "sha256": "706c4f614023db12a5d2155c8436797372c7f26d0213b4ff4ba21743ac9325a9",
+      "url": "https://github.com/ryukau/VSTPlugins/releases/download/UhhyouPlugins0.71.0/UltrasonicRingMod_0.1.8_macOS.zip",
+      "downloads": 25
+    }
+  ],
+  "verified": true,
+  "downloads": 51
+}

@@ -1,0 +1,67 @@
+{
+  "slug": "ryukau/minicliffeq",
+  "version": "0.1.19",
+  "versions": {
+    "0.1.19": {
+      "name": "MiniCliffEQ",
+      "author": "Takamitsu Endo",
+      "description": "Linear phase FIR filter with 32768 taps (latency over 0.34 s at 48 kHz). Mainly for suppressing DC, and usable as a very sharp low-pass, high-pass, low-shelf or high-shelf filter.",
+      "license": "gpl-3.0",
+      "type": "effect",
+      "tags": [
+        "EQ",
+        "Filter",
+        "Linear Phase",
+        "Uhhyou"
+      ],
+      "url": "https://github.com/ryukau/VSTPlugins",
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ryukau/minicliffeq/minicliffeq.jpg",
+      "date": "2026-09-18T06:09:05Z",
+      "changes": "Uhhyou Plugins 0.71.0: fixed resetting on some DAWs (reset is triggered in setProcessing and setActive).",
+      "files": [
+        {
+          "systems": [
+            {
+              "type": "win"
+            },
+            {
+              "type": "linux"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "vst3"
+          ],
+          "type": "archive",
+          "size": 5645572,
+          "sha256": "cd03c4c42a975bd28a69d22c8c96c8ab9b027e773d9391d932b38cf01c24d50d",
+          "url": "https://github.com/ryukau/VSTPlugins/releases/download/UhhyouPlugins0.71.0/MiniCliffEQ_0.1.19.zip"
+        },
+        {
+          "systems": [
+            {
+              "type": "mac"
+            }
+          ],
+          "architectures": [
+            "arm64",
+            "x64"
+          ],
+          "contains": [
+            "vst3"
+          ],
+          "type": "archive",
+          "size": 1976256,
+          "sha256": "28a02ef89d68a7ac19be89c19046964b24c8bd782b4eb8bc93ea1e6efde1c35c",
+          "url": "https://github.com/ryukau/VSTPlugins/releases/download/UhhyouPlugins0.71.0/MiniCliffEQ_0.1.19_macOS.zip",
+          "downloads": 30
+        }
+      ],
+      "verified": true,
+      "downloads": 30
+    }
+  },
+  "downloads": 30
+}

@@ -1,0 +1,59 @@
+{
+  "name": "FeedbackPhaser",
+  "author": "Takamitsu Endo",
+  "description": "Phaser whose modulation source is the feedback signal rather than an LFO. It most often sounds more like a distortion than a phaser.",
+  "license": "gpl-3.0",
+  "type": "effect",
+  "tags": [
+    "Phaser",
+    "Modulation",
+    "Uhhyou"
+  ],
+  "url": "https://github.com/ryukau/VSTPlugins",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ryukau/feedbackphaser/feedbackphaser.jpg",
+  "date": "2026-09-18T06:09:05Z",
+  "changes": "Uhhyou Plugins 0.71.0: fixed resetting on some DAWs (reset is triggered in setProcessing and setActive).",
+  "files": [
+    {
+      "systems": [
+        {
+          "type": "win"
+        },
+        {
+          "type": "linux"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3"
+      ],
+      "type": "archive",
+      "size": 2604863,
+      "sha256": "05712c9f04c9f7365b5d56167f1c9b868d71b83c8b154d1ebae0243b3736f5a2",
+      "url": "https://github.com/ryukau/VSTPlugins/releases/download/UhhyouPlugins0.71.0/FeedbackPhaser_0.1.8.zip"
+    },
+    {
+      "systems": [
+        {
+          "type": "mac"
+        }
+      ],
+      "architectures": [
+        "arm64",
+        "x64"
+      ],
+      "contains": [
+        "vst3"
+      ],
+      "type": "archive",
+      "size": 1072666,
+      "sha256": "10b35031aaeac11853fd42cd9d718a6b844539988ba814073dee9465a8412e0d",
+      "url": "https://github.com/ryukau/VSTPlugins/releases/download/UhhyouPlugins0.71.0/FeedbackPhaser_0.1.8_macOS.zip",
+      "downloads": 20
+    }
+  ],
+  "verified": true,
+  "downloads": 20
+}

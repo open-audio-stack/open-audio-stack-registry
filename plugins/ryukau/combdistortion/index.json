@@ -1,0 +1,66 @@
+{
+  "slug": "ryukau/combdistortion",
+  "version": "0.1.8",
+  "versions": {
+    "0.1.8": {
+      "name": "CombDistortion",
+      "author": "Takamitsu Endo",
+      "description": "Distortion using a self-modulating comb filter. The raw output sounds harsh, so it works best with an external cabinet impulse response. Note events can control the comb filter delay time.",
+      "license": "gpl-3.0",
+      "type": "effect",
+      "tags": [
+        "Distortion",
+        "Comb Filter",
+        "Uhhyou"
+      ],
+      "url": "https://github.com/ryukau/VSTPlugins",
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ryukau/combdistortion/combdistortion.jpg",
+      "date": "2026-09-18T06:09:05Z",
+      "changes": "Uhhyou Plugins 0.71.0: fixed resetting on some DAWs (reset is triggered in setProcessing and setActive).",
+      "files": [
+        {
+          "systems": [
+            {
+              "type": "win"
+            },
+            {
+              "type": "linux"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "vst3"
+          ],
+          "type": "archive",
+          "size": 2561844,
+          "sha256": "7ec4378e40aca12bba986de6b45e5f05c29c8668fa0d6f011d7deaba73bb0750",
+          "url": "https://github.com/ryukau/VSTPlugins/releases/download/UhhyouPlugins0.71.0/CombDistortion_0.1.8.zip"
+        },
+        {
+          "systems": [
+            {
+              "type": "mac"
+            }
+          ],
+          "architectures": [
+            "arm64",
+            "x64"
+          ],
+          "contains": [
+            "vst3"
+          ],
+          "type": "archive",
+          "size": 1055261,
+          "sha256": "f5d3286622a27adeb453d7e2204a0d36edb0bc68bc781ee0d72a467aa23891fe",
+          "url": "https://github.com/ryukau/VSTPlugins/releases/download/UhhyouPlugins0.71.0/CombDistortion_0.1.8_macOS.zip",
+          "downloads": 22
+        }
+      ],
+      "verified": true,
+      "downloads": 22
+    }
+  },
+  "downloads": 22
+}

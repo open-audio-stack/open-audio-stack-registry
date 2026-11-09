@@ -1,0 +1,60 @@
+{
+  "name": "NarrowingDelay",
+  "author": "Takamitsu Endo",
+  "description": "Delay with a serial pitch shifter and frequency shifter in the feedback path, narrowing or expanding the input spectrum on each repeat. Note events can control the frequency shift amount.",
+  "license": "gpl-3.0",
+  "type": "effect",
+  "tags": [
+    "Delay",
+    "Pitch Shifter",
+    "Frequency Shifter",
+    "Uhhyou"
+  ],
+  "url": "https://github.com/ryukau/VSTPlugins",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ryukau/narrowingdelay/narrowingdelay.jpg",
+  "date": "2026-09-18T06:09:05Z",
+  "changes": "Uhhyou Plugins 0.71.0: fixed resetting on some DAWs (reset is triggered in setProcessing and setActive).",
+  "files": [
+    {
+      "systems": [
+        {
+          "type": "win"
+        },
+        {
+          "type": "linux"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3"
+      ],
+      "type": "archive",
+      "size": 2597973,
+      "sha256": "63093a207cd68301bcf2f4bd5ccc6a0a890dea4a6a20cf096d8987ef5a5b38d6",
+      "url": "https://github.com/ryukau/VSTPlugins/releases/download/UhhyouPlugins0.71.0/NarrowingDelay_0.1.8.zip"
+    },
+    {
+      "systems": [
+        {
+          "type": "mac"
+        }
+      ],
+      "architectures": [
+        "arm64",
+        "x64"
+      ],
+      "contains": [
+        "vst3"
+      ],
+      "type": "archive",
+      "size": 1069193,
+      "sha256": "c67102f9e6cda5b33e5c52a74acd7eb422070dd9f3680854e607e5b16052b1db",
+      "url": "https://github.com/ryukau/VSTPlugins/releases/download/UhhyouPlugins0.71.0/NarrowingDelay_0.1.8_macOS.zip",
+      "downloads": 21
+    }
+  ],
+  "verified": true,
+  "downloads": 21
+}

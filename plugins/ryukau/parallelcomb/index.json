@@ -1,0 +1,66 @@
+{
+  "slug": "ryukau/parallelcomb",
+  "version": "0.2.15",
+  "versions": {
+    "0.2.15": {
+      "name": "ParallelComb",
+      "author": "Takamitsu Endo",
+      "description": "Comb filter with 4 delay times sharing 1 buffer. A feedback limiter keeps the output clean, and modulating delay time by feedback amplitude adds weird distortion.",
+      "license": "gpl-3.0",
+      "type": "effect",
+      "tags": [
+        "Comb Filter",
+        "Distortion",
+        "Uhhyou"
+      ],
+      "url": "https://github.com/ryukau/VSTPlugins",
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ryukau/parallelcomb/parallelcomb.jpg",
+      "date": "2026-09-18T06:09:05Z",
+      "changes": "Uhhyou Plugins 0.71.0: fixed resetting on some DAWs (reset is triggered in setProcessing and setActive).",
+      "files": [
+        {
+          "systems": [
+            {
+              "type": "win"
+            },
+            {
+              "type": "linux"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "vst3"
+          ],
+          "type": "archive",
+          "size": 2755220,
+          "sha256": "720abb3fb255240c4ad5fd56edc6215ef098003f82ec6a1ab07b80b47be8ad10",
+          "url": "https://github.com/ryukau/VSTPlugins/releases/download/UhhyouPlugins0.71.0/ParallelComb_0.2.15.zip"
+        },
+        {
+          "systems": [
+            {
+              "type": "mac"
+            }
+          ],
+          "architectures": [
+            "arm64",
+            "x64"
+          ],
+          "contains": [
+            "vst3"
+          ],
+          "type": "archive",
+          "size": 1128312,
+          "sha256": "10465148dad8724a88f05ea2b3c2acd87192b333b383e53192f8437a2c364af5",
+          "url": "https://github.com/ryukau/VSTPlugins/releases/download/UhhyouPlugins0.71.0/ParallelComb_0.2.15_macOS.zip",
+          "downloads": 17
+        }
+      ],
+      "verified": true,
+      "downloads": 17
+    }
+  },
+  "downloads": 17
+}

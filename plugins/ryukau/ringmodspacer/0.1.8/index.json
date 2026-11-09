@@ -1,0 +1,61 @@
+{
+  "name": "RingModSpacer",
+  "author": "Takamitsu Endo",
+  "description": "Sidechain limiter that adds severe distortion: the rectified sidechain input amplitude-modulates the main input, and the sum won't clip while both peaks are under 0 dB.",
+  "license": "gpl-3.0",
+  "type": "effect",
+  "tags": [
+    "Ring Modulator",
+    "Sidechain",
+    "Limiter",
+    "Uhhyou"
+  ],
+  "url": "https://github.com/ryukau/VSTPlugins",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ryukau/ringmodspacer/ringmodspacer.jpg",
+  "date": "2026-09-18T06:09:05Z",
+  "changes": "Uhhyou Plugins 0.71.0: fixed resetting on some DAWs (reset is triggered in setProcessing and setActive).",
+  "files": [
+    {
+      "systems": [
+        {
+          "type": "win"
+        },
+        {
+          "type": "linux"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3"
+      ],
+      "type": "archive",
+      "size": 2490031,
+      "sha256": "24b00d22439b9684d15be723264554a9b89a32eb5e88c7abe6d99950e6bb954a",
+      "url": "https://github.com/ryukau/VSTPlugins/releases/download/UhhyouPlugins0.71.0/RingModSpacer_0.1.8.zip",
+      "downloads": 39
+    },
+    {
+      "systems": [
+        {
+          "type": "mac"
+        }
+      ],
+      "architectures": [
+        "arm64",
+        "x64"
+      ],
+      "contains": [
+        "vst3"
+      ],
+      "type": "archive",
+      "size": 1025590,
+      "sha256": "5ce621bce442f47459b9043df136130e1a0dda03650c0b568956902981b02519",
+      "url": "https://github.com/ryukau/VSTPlugins/releases/download/UhhyouPlugins0.71.0/RingModSpacer_0.1.8_macOS.zip",
+      "downloads": 25
+    }
+  ],
+  "verified": true,
+  "downloads": 64
+}
