@@ -1,0 +1,66 @@
+{
+  "slug": "ryukau/membranesynth",
+  "version": "0.1.13",
+  "versions": {
+    "0.1.13": {
+      "name": "MembraneSynth",
+      "author": "Takamitsu Endo",
+      "description": "Synthesizer resembling membrane percussion such as bass drum or tom tom. Self-modulation oscillation can also make some strange noises.",
+      "license": "gpl-3.0",
+      "type": "instrument",
+      "tags": [
+        "Drum",
+        "Percussion",
+        "Uhhyou"
+      ],
+      "url": "https://github.com/ryukau/VSTPlugins",
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ryukau/membranesynth/membranesynth.jpg",
+      "date": "2026-09-18T06:09:05Z",
+      "changes": "Uhhyou Plugins 0.71.0: fixed resetting on some DAWs (reset is triggered in setProcessing and setActive).",
+      "files": [
+        {
+          "systems": [
+            {
+              "type": "win"
+            },
+            {
+              "type": "linux"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "vst3"
+          ],
+          "type": "archive",
+          "size": 2828714,
+          "sha256": "44b3bd580c82acef43f3e06d47e5596e319b29acd72dc5e72adb9e4d86838df8",
+          "url": "https://github.com/ryukau/VSTPlugins/releases/download/UhhyouPlugins0.71.0/MembraneSynth_0.1.13.zip"
+        },
+        {
+          "systems": [
+            {
+              "type": "mac"
+            }
+          ],
+          "architectures": [
+            "arm64",
+            "x64"
+          ],
+          "contains": [
+            "vst3"
+          ],
+          "type": "archive",
+          "size": 1168394,
+          "sha256": "cf549e444acaa5cff294b81bf744b90b256a709cfa52fffe06c34e0c444b0232",
+          "url": "https://github.com/ryukau/VSTPlugins/releases/download/UhhyouPlugins0.71.0/MembraneSynth_0.1.13_macOS.zip",
+          "downloads": 23
+        }
+      ],
+      "verified": true,
+      "downloads": 23
+    }
+  },
+  "downloads": 23
+}

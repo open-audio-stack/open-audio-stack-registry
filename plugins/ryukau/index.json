@@ -67,6 +67,73 @@
     },
     "downloads": 77
   },
+  "ryukau/ultrasynth": {
+    "slug": "ryukau/ultrasynth",
+    "version": "0.1.12",
+    "versions": {
+      "0.1.12": {
+        "name": "UltraSynth",
+        "author": "Takamitsu Endo",
+        "description": "Ordinary synthesizer with 64-fold oversampling, the same as UltrasonicRingMod. The high oversampling gives good modulation sound but high CPU load.",
+        "license": "gpl-3.0",
+        "type": "instrument",
+        "tags": [
+          "Synth",
+          "Oversampling",
+          "Uhhyou"
+        ],
+        "url": "https://github.com/ryukau/VSTPlugins",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ryukau/ultrasynth/ultrasynth.jpg",
+        "date": "2026-09-18T06:09:05Z",
+        "changes": "Uhhyou Plugins 0.71.0: fixed resetting on some DAWs (reset is triggered in setProcessing and setActive).",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "win"
+              },
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 2702180,
+            "sha256": "f03db15aceb24a5cf9a0c347025511bcd61fbdd3bf7905552e700232f7c12676",
+            "url": "https://github.com/ryukau/VSTPlugins/releases/download/UhhyouPlugins0.71.0/UltraSynth_0.1.12.zip",
+            "downloads": 41
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 1115868,
+            "sha256": "63f0f6001fa52b9e949352739e2fc8e19e3b092264e5c36dfbb9ad3ea348ae32",
+            "url": "https://github.com/ryukau/VSTPlugins/releases/download/UhhyouPlugins0.71.0/UltraSynth_0.1.12_macOS.zip",
+            "downloads": 22
+          }
+        ],
+        "verified": true,
+        "downloads": 63
+      }
+    },
+    "downloads": 63
+  },
   "ryukau/trapezoidsynth": {
     "slug": "ryukau/trapezoidsynth",
     "version": "0.1.29",
@@ -266,6 +333,139 @@
       }
     },
     "downloads": 81
+  },
+  "ryukau/membranesynth": {
+    "slug": "ryukau/membranesynth",
+    "version": "0.1.13",
+    "versions": {
+      "0.1.13": {
+        "name": "MembraneSynth",
+        "author": "Takamitsu Endo",
+        "description": "Synthesizer resembling membrane percussion such as bass drum or tom tom. Self-modulation oscillation can also make some strange noises.",
+        "license": "gpl-3.0",
+        "type": "instrument",
+        "tags": [
+          "Drum",
+          "Percussion",
+          "Uhhyou"
+        ],
+        "url": "https://github.com/ryukau/VSTPlugins",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ryukau/membranesynth/membranesynth.jpg",
+        "date": "2026-09-18T06:09:05Z",
+        "changes": "Uhhyou Plugins 0.71.0: fixed resetting on some DAWs (reset is triggered in setProcessing and setActive).",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "win"
+              },
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 2828714,
+            "sha256": "44b3bd580c82acef43f3e06d47e5596e319b29acd72dc5e72adb9e4d86838df8",
+            "url": "https://github.com/ryukau/VSTPlugins/releases/download/UhhyouPlugins0.71.0/MembraneSynth_0.1.13.zip"
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 1168394,
+            "sha256": "cf549e444acaa5cff294b81bf744b90b256a709cfa52fffe06c34e0c444b0232",
+            "url": "https://github.com/ryukau/VSTPlugins/releases/download/UhhyouPlugins0.71.0/MembraneSynth_0.1.13_macOS.zip",
+            "downloads": 23
+          }
+        ],
+        "verified": true,
+        "downloads": 23
+      }
+    },
+    "downloads": 23
+  },
+  "ryukau/maybesnare": {
+    "slug": "ryukau/maybesnare",
+    "version": "0.1.12",
+    "versions": {
+      "0.1.12": {
+        "name": "MaybeSnare",
+        "author": "Takamitsu Endo",
+        "description": "Snare drum-like synthesizer made of 2 MembraneSynth voices coupled by cross feedback. There is no snare wire, but modulation noise adds a similar rattling texture.",
+        "license": "gpl-3.0",
+        "type": "instrument",
+        "tags": [
+          "Snare",
+          "Drum",
+          "Percussion",
+          "Uhhyou"
+        ],
+        "url": "https://github.com/ryukau/VSTPlugins",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ryukau/maybesnare/maybesnare.jpg",
+        "date": "2026-09-18T06:09:05Z",
+        "changes": "Uhhyou Plugins 0.71.0: fixed resetting on some DAWs (reset is triggered in setProcessing and setActive).",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "win"
+              },
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 2903441,
+            "sha256": "14c2075669305386f9760d5d65aef29c1d48e7561d3dd38c93e7b30d270fe049",
+            "url": "https://github.com/ryukau/VSTPlugins/releases/download/UhhyouPlugins0.71.0/MaybeSnare_0.1.12.zip"
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 1193131,
+            "sha256": "1ac6ff98521f63e4dcc2c8fd503acbc9906069f565dc7dfed32310160848a675",
+            "url": "https://github.com/ryukau/VSTPlugins/releases/download/UhhyouPlugins0.71.0/MaybeSnare_0.1.12_macOS.zip",
+            "downloads": 18
+          }
+        ],
+        "verified": true,
+        "downloads": 18
+      }
+    },
+    "downloads": 18
   },
   "ryukau/lightpadsynth": {
     "slug": "ryukau/lightpadsynth",
@@ -597,6 +797,138 @@
     },
     "downloads": 20
   },
+  "ryukau/glitchsprinkler": {
+    "slug": "ryukau/glitchsprinkler",
+    "version": "0.1.5",
+    "versions": {
+      "0.1.5": {
+        "name": "GlitchSprinkler",
+        "author": "Takamitsu Endo",
+        "description": "Synthesizer specialized for fast arpeggios. Restricting the oscillator period to integer sample counts is a cheap anti-aliasing trick that detunes higher notes, giving a unique texture.",
+        "license": "gpl-3.0",
+        "type": "instrument",
+        "tags": [
+          "Synth",
+          "Arpeggio",
+          "Uhhyou"
+        ],
+        "url": "https://github.com/ryukau/VSTPlugins",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ryukau/glitchsprinkler/glitchsprinkler.jpg",
+        "date": "2026-09-18T06:09:05Z",
+        "changes": "Uhhyou Plugins 0.71.0: fixed resetting on some DAWs (reset is triggered in setProcessing and setActive).",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "win"
+              },
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 2813884,
+            "sha256": "877e9f6d8547d278318d459205125b53b6d6ab7af219a1901cd6346d11d4e7bd",
+            "url": "https://github.com/ryukau/VSTPlugins/releases/download/UhhyouPlugins0.71.0/GlitchSprinkler_0.1.5.zip"
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 1173799,
+            "sha256": "cd26d94871a7ae1ef015978e76f9ec3b8bb6a6ce80a63a63555e92fadf73da02",
+            "url": "https://github.com/ryukau/VSTPlugins/releases/download/UhhyouPlugins0.71.0/GlitchSprinkler_0.1.5_macOS.zip",
+            "downloads": 33
+          }
+        ],
+        "verified": true,
+        "downloads": 33
+      }
+    },
+    "downloads": 33
+  },
+  "ryukau/genericdrum": {
+    "slug": "ryukau/genericdrum",
+    "version": "0.1.6",
+    "versions": {
+      "0.1.6": {
+        "name": "GenericDrum",
+        "author": "Takamitsu Endo",
+        "description": "Generic drum synthesizer using delays. It can make convincing snare and bass drum sounds; cymbal sounds are possible but not as good as lower pitched drums.",
+        "license": "gpl-3.0",
+        "type": "instrument",
+        "tags": [
+          "Drum",
+          "Percussion",
+          "Uhhyou"
+        ],
+        "url": "https://github.com/ryukau/VSTPlugins",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ryukau/genericdrum/genericdrum.jpg",
+        "date": "2026-09-18T06:09:05Z",
+        "changes": "Uhhyou Plugins 0.71.0: fixed resetting on some DAWs (reset is triggered in setProcessing and setActive).",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "win"
+              },
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 3061973,
+            "sha256": "fccee80f442d398838c9a88c38efb1c084e4afd8e4ac431da5c7b3947a89b7ea",
+            "url": "https://github.com/ryukau/VSTPlugins/releases/download/UhhyouPlugins0.71.0/GenericDrum_0.1.6.zip"
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 1283375,
+            "sha256": "21fa1b0f17f74502a7d15b8c97a9e8e71865042e5d19f536c431345e15d7ff8b",
+            "url": "https://github.com/ryukau/VSTPlugins/releases/download/UhhyouPlugins0.71.0/GenericDrum_0.1.6_macOS.zip",
+            "downloads": 25
+          }
+        ],
+        "verified": true,
+        "downloads": 25
+      }
+    },
+    "downloads": 25
+  },
   "ryukau/fdncymbal": {
     "slug": "ryukau/fdncymbal",
     "version": "0.2.22",
@@ -862,6 +1194,72 @@
     },
     "downloads": 24
   },
+  "ryukau/doubleloopcymbal": {
+    "slug": "ryukau/doubleloopcymbal",
+    "version": "0.1.3",
+    "versions": {
+      "0.1.3": {
+        "name": "DoubleLoopCymbal",
+        "author": "Takamitsu Endo",
+        "description": "Synthesizer that produces a sound somewhere between a hi-hat and a triangle. The metallic texture comes from 2 all-pass loops.",
+        "license": "gpl-3.0",
+        "type": "instrument",
+        "tags": [
+          "Cymbal",
+          "Percussion",
+          "Uhhyou"
+        ],
+        "url": "https://github.com/ryukau/VSTPlugins",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ryukau/doubleloopcymbal/doubleloopcymbal.jpg",
+        "date": "2026-09-18T06:09:05Z",
+        "changes": "Uhhyou Plugins 0.71.0: fixed resetting on some DAWs (reset is triggered in setProcessing and setActive).",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "win"
+              },
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 2724558,
+            "sha256": "7b3fc358b44f356d40ea0c480264bb3fe20ef173310e48a16d8331a49e067130",
+            "url": "https://github.com/ryukau/VSTPlugins/releases/download/UhhyouPlugins0.71.0/DoubleLoopCymbal_0.1.3.zip"
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 1140352,
+            "sha256": "a8f5c0b52d7ad1bab8b56dc82ba745f21b8e443017a3e8d70ac63473b3e133f6",
+            "url": "https://github.com/ryukau/VSTPlugins/releases/download/UhhyouPlugins0.71.0/DoubleLoopCymbal_0.1.3_macOS.zip",
+            "downloads": 19
+          }
+        ],
+        "verified": true,
+        "downloads": 19
+      }
+    },
+    "downloads": 19
+  },
   "ryukau/cubicpadsynth": {
     "slug": "ryukau/cubicpadsynth",
     "version": "0.1.30",
@@ -993,6 +1391,138 @@
       }
     },
     "downloads": 29
+  },
+  "ryukau/clangsynth": {
+    "slug": "ryukau/clangsynth",
+    "version": "0.1.13",
+    "versions": {
+      "0.1.13": {
+        "name": "ClangSynth",
+        "author": "Takamitsu Endo",
+        "description": "Synthesizer suited to percussion sounds. Each voice has an 8 * 8 feedback delay network (FDN) resonator, and the static wavetable oscillator has controls specialized for making pulse trains.",
+        "license": "gpl-3.0",
+        "type": "instrument",
+        "tags": [
+          "Percussion",
+          "Synth",
+          "Uhhyou"
+        ],
+        "url": "https://github.com/ryukau/VSTPlugins",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ryukau/clangsynth/clangsynth.jpg",
+        "date": "2026-09-18T06:09:05Z",
+        "changes": "Uhhyou Plugins 0.71.0: fixed resetting on some DAWs (reset is triggered in setProcessing and setActive).",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "win"
+              },
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 3569517,
+            "sha256": "0e260b4d3f3780fff3abf9a4bd4961d35ff945be5964d05c1c3e03f5d20041cf",
+            "url": "https://github.com/ryukau/VSTPlugins/releases/download/UhhyouPlugins0.71.0/ClangSynth_0.1.13.zip"
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 1487427,
+            "sha256": "7d1a9b3b53a258c7bcfad5ddf71e14a9e5cbc2c60312265763d035a2083510f3",
+            "url": "https://github.com/ryukau/VSTPlugins/releases/download/UhhyouPlugins0.71.0/ClangSynth_0.1.13_macOS.zip",
+            "downloads": 24
+          }
+        ],
+        "verified": true,
+        "downloads": 24
+      }
+    },
+    "downloads": 24
+  },
+  "ryukau/clangcymbal": {
+    "slug": "ryukau/clangcymbal",
+    "version": "0.1.13",
+    "versions": {
+      "0.1.13": {
+        "name": "ClangCymbal",
+        "author": "Takamitsu Endo",
+        "description": "Monophonic cymbal synthesizer, a spin off of ClangSynth with a 64 * 64 feedback delay network for richer harmonics and a noise/pulse oscillator mix suited to cymbal sounds.",
+        "license": "gpl-3.0",
+        "type": "instrument",
+        "tags": [
+          "Cymbal",
+          "Percussion",
+          "Uhhyou"
+        ],
+        "url": "https://github.com/ryukau/VSTPlugins",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ryukau/clangcymbal/clangcymbal.jpg",
+        "date": "2026-09-18T06:09:05Z",
+        "changes": "Uhhyou Plugins 0.71.0: fixed resetting on some DAWs (reset is triggered in setProcessing and setActive).",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "win"
+              },
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 3171567,
+            "sha256": "bd7b4fbb487f832e22760488ccaf45aabb425d532b8f63b51f5543b6dde3d219",
+            "url": "https://github.com/ryukau/VSTPlugins/releases/download/UhhyouPlugins0.71.0/ClangCymbal_0.1.13.zip"
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 1268707,
+            "sha256": "5ee7d7964edb535215a94e812808f98555458e332a8aa7cb6ff0df337d68eb45",
+            "url": "https://github.com/ryukau/VSTPlugins/releases/download/UhhyouPlugins0.71.0/ClangCymbal_0.1.13_macOS.zip",
+            "downloads": 24
+          }
+        ],
+        "verified": true,
+        "downloads": 24
+      }
+    },
+    "downloads": 24
   },
   "ryukau/basiclimiterautomake": {
     "slug": "ryukau/basiclimiterautomake",

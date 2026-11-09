@@ -33,12 +33,15 @@
             "type": "installer",
             "size": 12623277,
             "sha256": "4f96261cfd628bab587b9ed80564207abb38e5980bcb449fff6999f9a00f5ff1",
-            "url": "https://github.com/zynaddsubfx/zynaddsubfx/releases/download/2.5.3-osx/ZynAddSubFx-2.5.3.dmg"
+            "url": "https://github.com/zynaddsubfx/zynaddsubfx/releases/download/2.5.3-osx/ZynAddSubFx-2.5.3.dmg",
+            "downloads": 786
           }
         ],
-        "verified": true
+        "verified": true,
+        "downloads": 786
       }
-    }
+    },
+    "downloads": 786
   },
   "zones-convolution/zones-client": {
     "slug": "zones-convolution/zones-client",
@@ -77,7 +80,8 @@
             "type": "installer",
             "size": 6085364,
             "sha256": "0d7979e3acc17665e3530417dad43b13034b511fd81df4b45e999dcc86632202",
-            "url": "https://github.com/zones-convolution/zones_client/releases/download/v1.0.5/Zones-arm64.pkg"
+            "url": "https://github.com/zones-convolution/zones_client/releases/download/v1.0.5/Zones-arm64.pkg",
+            "downloads": 114
           },
           {
             "systems": [
@@ -94,12 +98,15 @@
             "type": "installer",
             "size": 5330701,
             "sha256": "922dbdadb724935f139a4400405eea372ddaef03cb6bbde0f764b6ddbee59217",
-            "url": "https://github.com/zones-convolution/zones_client/releases/download/v1.0.5/Zones-v1.0.5-Windows.exe"
+            "url": "https://github.com/zones-convolution/zones_client/releases/download/v1.0.5/Zones-v1.0.5-Windows.exe",
+            "downloads": 233
           }
         ],
-        "verified": true
+        "verified": true,
+        "downloads": 347
       }
-    }
+    },
+    "downloads": 347
   },
   "zmann-org/zmann": {
     "slug": "zmann-org/zmann",
@@ -135,7 +142,8 @@
             "type": "archive",
             "size": 76353801,
             "sha256": "4b07516bc2074cf8ee3fd8677b35f7362b6be4fc20a25452c1967c64e9b391bd",
-            "url": "https://github.com/zmann-org/zmann/releases/download/2.0rc-1/Bells.zip"
+            "url": "https://github.com/zmann-org/zmann/releases/download/2.0rc-1/Bells.zip",
+            "downloads": 40
           },
           {
             "systems": [
@@ -152,7 +160,8 @@
             "type": "archive",
             "size": 78485504,
             "sha256": "34372d3404f244d33d6aa2e615c1e6bb52391dd736b6f32c997f98a2a4be2f5b",
-            "url": "https://github.com/zmann-org/zmann/releases/download/2.0rc-1/Bells.clap"
+            "url": "https://github.com/zmann-org/zmann/releases/download/2.0rc-1/Bells.clap",
+            "downloads": 21
           },
           {
             "systems": [
@@ -169,7 +178,8 @@
             "type": "archive",
             "size": 2355094,
             "sha256": "cd20b3bf45f1fa5c4b8d38b98468ec43c21dca74b53365cbe9d54ff7153c55ab",
-            "url": "https://github.com/zmann-org/zmann/releases/download/2.0rc-1/Orchestron.zip"
+            "url": "https://github.com/zmann-org/zmann/releases/download/2.0rc-1/Orchestron.zip",
+            "downloads": 41
           },
           {
             "systems": [
@@ -186,12 +196,15 @@
             "type": "archive",
             "size": 3017728,
             "sha256": "1c9cb404025e0b177c355fc8a5137a17139e42f48de3d721c7687f7edd5942a3",
-            "url": "https://github.com/zmann-org/zmann/releases/download/2.0rc-1/Orchestron.clap"
+            "url": "https://github.com/zmann-org/zmann/releases/download/2.0rc-1/Orchestron.clap",
+            "downloads": 19
           }
         ],
-        "verified": true
+        "verified": true,
+        "downloads": 121
       }
-    }
+    },
+    "downloads": 121
   },
   "zl-audio/zlwarm": {
     "slug": "zl-audio/zlwarm",
@@ -229,7 +242,8 @@
             "type": "installer",
             "size": 6115643,
             "sha256": "1219606cd0ed1e8b02eaac93041f2e70d9387bde6e669b395fa116f333da0632",
-            "url": "https://github.com/ZL-Audio/ZLWarm/releases/download/0.2.1/ZL.Warm-0.2.1.dmg"
+            "url": "https://github.com/ZL-Audio/ZLWarm/releases/download/0.2.1/ZL.Warm-0.2.1.dmg",
+            "downloads": 3482
           },
           {
             "systems": [
@@ -246,7 +260,8 @@
             "type": "installer",
             "size": 2707517,
             "sha256": "61713ffdeabbc87bf79b4f6070619282ceb5add98094ccbc758c383fd2ae4177",
-            "url": "https://github.com/ZL-Audio/ZLWarm/releases/download/0.2.1/ZL.Warm-0.2.1.exe"
+            "url": "https://github.com/ZL-Audio/ZLWarm/releases/download/0.2.1/ZL.Warm-0.2.1.exe",
+            "downloads": 4360
           },
           {
             "systems": [
@@ -263,12 +278,15 @@
             "type": "archive",
             "size": 14110770,
             "sha256": "1e37bde56287423e075360cb44159bee4498a139144ff3c65c6d4e85e5198ef4",
-            "url": "https://github.com/ZL-Audio/ZLWarm/releases/download/0.2.1/ZL.Warm-0.2.1.zip"
+            "url": "https://github.com/ZL-Audio/ZLWarm/releases/download/0.2.1/ZL.Warm-0.2.1.zip",
+            "downloads": 4026
           }
         ],
-        "verified": true
+        "verified": true,
+        "downloads": 11868
       }
-    }
+    },
+    "downloads": 11868
   },
   "zl-audio/zlsplitter": {
     "slug": "zl-audio/zlsplitter",
@@ -311,7 +329,8 @@
             "size": 5505594,
             "sha256": "3d8e5e60298a30073b12ca773ad522034392350aacd6d6c7ae045f63c93d4012",
             "attested": true,
-            "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.3.0/ZL.Splitter-0.3.0-Linux-arm.zip"
+            "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.3.0/ZL.Splitter-0.3.0-Linux-arm.zip",
+            "downloads": 155
           },
           {
             "systems": [
@@ -330,7 +349,8 @@
             "size": 8851204,
             "sha256": "52e856331ff7248fc9d1b1d348df2eb7827610eeb5406dc62826866cdafdb9a4",
             "attested": true,
-            "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.3.0/ZL.Splitter-0.3.0-Linux-x86.zip"
+            "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.3.0/ZL.Splitter-0.3.0-Linux-x86.zip",
+            "downloads": 838
           },
           {
             "systems": [
@@ -349,7 +369,8 @@
             "size": 5201749,
             "sha256": "3e971970de57f9dfa206a2e737ff2c9f149fd5d5b035fb121e6e986a0f23ed96",
             "attested": true,
-            "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.3.0/ZL.Splitter-0.3.0-macOS-arm.dmg"
+            "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.3.0/ZL.Splitter-0.3.0-macOS-arm.dmg",
+            "downloads": 1096
           },
           {
             "systems": [
@@ -368,7 +389,8 @@
             "size": 9183755,
             "sha256": "b90a439b47cc7587f68941677fdc1046c8c243ef8f675b6758b843f909eb4ea6",
             "attested": true,
-            "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.3.0/ZL.Splitter-0.3.0-macOS-x86.dmg"
+            "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.3.0/ZL.Splitter-0.3.0-macOS-x86.dmg",
+            "downloads": 493
           },
           {
             "systems": [
@@ -387,7 +409,8 @@
             "size": 5025792,
             "sha256": "d816072be93907ea8a844b47492b2a2b43ec240639685532900e395311d29837",
             "attested": true,
-            "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.3.0/ZL.Splitter-0.3.0-Windows-arm.msi"
+            "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.3.0/ZL.Splitter-0.3.0-Windows-arm.msi",
+            "downloads": 627
           },
           {
             "systems": [
@@ -406,12 +429,15 @@
             "size": 5566464,
             "sha256": "4ab477adc74626a6841c947c7bf0dc0598641c4f288161ecc8234acebc3f6a83",
             "attested": true,
-            "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.3.0/ZL.Splitter-0.3.0-Windows-x86.msi"
+            "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.3.0/ZL.Splitter-0.3.0-Windows-x86.msi",
+            "downloads": 3350
           }
         ],
-        "verified": true
+        "verified": true,
+        "downloads": 6559
       }
-    }
+    },
+    "downloads": 6559
   },
   "zl-audio/zllmatch": {
     "slug": "zl-audio/zllmatch",
@@ -450,7 +476,8 @@
             "type": "installer",
             "size": 5555427,
             "sha256": "99ba712300c0164117152a33ddc612e4d40f27b9f3dae5a21af7c12c52497420",
-            "url": "https://github.com/ZL-Audio/ZLLMatch/releases/download/v0.2.4/ZLLMatch-0.2.4.dmg"
+            "url": "https://github.com/ZL-Audio/ZLLMatch/releases/download/v0.2.4/ZLLMatch-0.2.4.dmg",
+            "downloads": 3432
           },
           {
             "systems": [
@@ -467,7 +494,8 @@
             "type": "installer",
             "size": 2596186,
             "sha256": "1295d9cd56b5bebe6167b6c2df1cd6bf2b8136bdf4bd76c492fdd5c7bc850a80",
-            "url": "https://github.com/ZL-Audio/ZLLMatch/releases/download/v0.2.4/ZLLMatch-0.2.4.exe"
+            "url": "https://github.com/ZL-Audio/ZLLMatch/releases/download/v0.2.4/ZLLMatch-0.2.4.exe",
+            "downloads": 4138
           },
           {
             "systems": [
@@ -484,12 +512,15 @@
             "type": "archive",
             "size": 12271944,
             "sha256": "c8b5deffe32a137fbd6d0113eba56fec2fa270bf3ff08a715cb16b43e634c6d5",
-            "url": "https://github.com/ZL-Audio/ZLLMatch/releases/download/v0.2.4/ZLLMatch-0.2.4.zip"
+            "url": "https://github.com/ZL-Audio/ZLLMatch/releases/download/v0.2.4/ZLLMatch-0.2.4.zip",
+            "downloads": 3858
           }
         ],
-        "verified": true
+        "verified": true,
+        "downloads": 11428
       }
-    }
+    },
+    "downloads": 11428
   },
   "zl-audio/zllmakeup": {
     "slug": "zl-audio/zllmakeup",
@@ -529,7 +560,8 @@
             "type": "installer",
             "size": 5618707,
             "sha256": "a868df21bf7cb5b7316afead0ecd525968267cd80a4fa80acc3050b06cb8cc9d",
-            "url": "https://github.com/ZL-Audio/ZLLMakeup/releases/download/v0.2.7/ZLLMakeup-0.2.7.dmg"
+            "url": "https://github.com/ZL-Audio/ZLLMakeup/releases/download/v0.2.7/ZLLMakeup-0.2.7.dmg",
+            "downloads": 3428
           },
           {
             "systems": [
@@ -546,7 +578,8 @@
             "type": "installer",
             "size": 2599526,
             "sha256": "37df74e6d0a5b8b7acd09ab6365901c710bb7fcd3e38218df6b3d19677a0dcac",
-            "url": "https://github.com/ZL-Audio/ZLLMakeup/releases/download/v0.2.7/ZLLMakeup-0.2.7.exe"
+            "url": "https://github.com/ZL-Audio/ZLLMakeup/releases/download/v0.2.7/ZLLMakeup-0.2.7.exe",
+            "downloads": 4104
           },
           {
             "systems": [
@@ -563,12 +596,15 @@
             "type": "archive",
             "size": 12239122,
             "sha256": "6038937cefa8cadb00b6fcb90cc03b5e1f17d9d4715e4ad315d70847ec05429a",
-            "url": "https://github.com/ZL-Audio/ZLLMakeup/releases/download/v0.2.7/ZLLMakeup-0.2.7.zip"
+            "url": "https://github.com/ZL-Audio/ZLLMakeup/releases/download/v0.2.7/ZLLMakeup-0.2.7.zip",
+            "downloads": 3798
           }
         ],
-        "verified": true
+        "verified": true,
+        "downloads": 11330
       }
-    }
+    },
+    "downloads": 11330
   },
   "zl-audio/zlinflator": {
     "slug": "zl-audio/zlinflator",
@@ -607,7 +643,8 @@
             "type": "installer",
             "size": 5745863,
             "sha256": "2b58fb846a1fe2354a3ce51be4ce21bfcad6cb6e142dd41ebef4a234dfc702f3",
-            "url": "https://github.com/ZL-Audio/ZLInflator/releases/download/0.3.0/ZLInflator-0.3.0.dmg"
+            "url": "https://github.com/ZL-Audio/ZLInflator/releases/download/0.3.0/ZLInflator-0.3.0.dmg",
+            "downloads": 3603
           },
           {
             "systems": [
@@ -624,7 +661,8 @@
             "type": "installer",
             "size": 2623054,
             "sha256": "a9aa15c0ce65f0979f2c2744a37e8aee3346546cd416978e91cccff5cea9f6b1",
-            "url": "https://github.com/ZL-Audio/ZLInflator/releases/download/0.3.0/ZLInflator-0.3.0.exe"
+            "url": "https://github.com/ZL-Audio/ZLInflator/releases/download/0.3.0/ZLInflator-0.3.0.exe",
+            "downloads": 4551
           },
           {
             "systems": [
@@ -641,12 +679,15 @@
             "type": "archive",
             "size": 12419853,
             "sha256": "98592dc343427e238dca69096b59fd21deffc0de778bdbd8879a905683ec090b",
-            "url": "https://github.com/ZL-Audio/ZLInflator/releases/download/0.3.0/ZLInflator-0.3.0.zip"
+            "url": "https://github.com/ZL-Audio/ZLInflator/releases/download/0.3.0/ZLInflator-0.3.0.zip",
+            "downloads": 4056
           }
         ],
-        "verified": true
+        "verified": true,
+        "downloads": 12210
       }
-    }
+    },
+    "downloads": 12210
   },
   "zl-audio/zlequalizer2": {
     "slug": "zl-audio/zlequalizer2",
@@ -689,7 +730,8 @@
             "size": 10255980,
             "sha256": "9a9c0a1ec5a6160f9811fa163687f8fec89218a6759f4564250932e2fee79d3e",
             "attested": true,
-            "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.3.1/ZL.Equalizer.2-1.3.1-Linux-arm64.zip"
+            "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.3.1/ZL.Equalizer.2-1.3.1-Linux-arm64.zip",
+            "downloads": 271
           },
           {
             "systems": [
@@ -709,7 +751,8 @@
             "size": 11200659,
             "sha256": "f6638907703fa6b7ebeabeb4f37874781a94233060165ff2c13bf69b088f7a1e",
             "attested": true,
-            "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.3.1/ZL.Equalizer.2-1.3.1-Linux-x86-64-AVX2.zip"
+            "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.3.1/ZL.Equalizer.2-1.3.1-Linux-x86-64-AVX2.zip",
+            "downloads": 549
           },
           {
             "systems": [
@@ -729,7 +772,8 @@
             "size": 10734404,
             "sha256": "40b2de10d636910ca418f314394aecdac9a7ce2cd6066f7d2eda27011f94f1b1",
             "attested": true,
-            "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.3.1/ZL.Equalizer.2-1.3.1-Linux-x86-64.zip"
+            "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.3.1/ZL.Equalizer.2-1.3.1-Linux-x86-64.zip",
+            "downloads": 475
           },
           {
             "systems": [
@@ -751,7 +795,8 @@
             "size": 14492688,
             "sha256": "dba5b278c4c4ba70e58b90130cc4a828fbd7e90f26cc96d2d927821bd5ca7d1a",
             "attested": true,
-            "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.3.1/ZL.Equalizer.2-1.3.1-macOS-arm64.dmg"
+            "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.3.1/ZL.Equalizer.2-1.3.1-macOS-arm64.dmg",
+            "downloads": 2826
           },
           {
             "systems": [
@@ -773,7 +818,8 @@
             "size": 16299778,
             "sha256": "96f201059308717b38609249caca8cc7ddb74b3f6496812a90c743b45ca57ab9",
             "attested": true,
-            "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.3.1/ZL.Equalizer.2-1.3.1-macOS-x86-64.dmg"
+            "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.3.1/ZL.Equalizer.2-1.3.1-macOS-x86-64.dmg",
+            "downloads": 702
           },
           {
             "systems": [
@@ -792,7 +838,8 @@
             "size": 8933376,
             "sha256": "75a820009b5ffdbbabc217a8a0e3a087f0913003cb2bc58b757c95a5d02ef046",
             "attested": true,
-            "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.3.1/ZL.Equalizer.2-1.3.1-Windows-arm64.msi"
+            "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.3.1/ZL.Equalizer.2-1.3.1-Windows-arm64.msi",
+            "downloads": 659
           },
           {
             "systems": [
@@ -811,7 +858,8 @@
             "size": 13164544,
             "sha256": "cceb114ec04bab8f2810b4ebe7e7b93911f7525aff5fa9eb6593e7bbbc671dca",
             "attested": true,
-            "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.3.1/ZL.Equalizer.2-1.3.1-Windows-x86-64-AVX2.msi"
+            "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.3.1/ZL.Equalizer.2-1.3.1-Windows-x86-64-AVX2.msi",
+            "downloads": 3058
           },
           {
             "systems": [
@@ -830,10 +878,12 @@
             "size": 12693504,
             "sha256": "cc514e2786d0218d5afc44d4e565d095e08607fbe6bbbfabbdb6bacfcac7259d",
             "attested": true,
-            "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.3.1/ZL.Equalizer.2-1.3.1-Windows-x86-64.msi"
+            "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.3.1/ZL.Equalizer.2-1.3.1-Windows-x86-64.msi",
+            "downloads": 2925
           }
         ],
-        "verified": true
+        "verified": true,
+        "downloads": 11465
       },
       "1.2.2": {
         "name": "ZL Equalizer 2",
@@ -871,7 +921,8 @@
             ],
             "size": 9230313,
             "type": "archive",
-            "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.2.2/ZL.Equalizer.2-1.2.2-Linux-arm64.zip"
+            "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.2.2/ZL.Equalizer.2-1.2.2-Linux-arm64.zip",
+            "downloads": 331
           },
           {
             "architectures": [
@@ -890,7 +941,8 @@
             ],
             "size": 10034620,
             "type": "archive",
-            "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.2.2/ZL.Equalizer.2-1.2.2-Linux-x86-64-AVX2.zip"
+            "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.2.2/ZL.Equalizer.2-1.2.2-Linux-x86-64-AVX2.zip",
+            "downloads": 619
           },
           {
             "architectures": [
@@ -909,7 +961,8 @@
             ],
             "size": 9763297,
             "type": "archive",
-            "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.2.2/ZL.Equalizer.2-1.2.2-Linux-x86-64.zip"
+            "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.2.2/ZL.Equalizer.2-1.2.2-Linux-x86-64.zip",
+            "downloads": 572
           },
           {
             "architectures": [
@@ -930,7 +983,8 @@
             ],
             "size": 13378811,
             "type": "installer",
-            "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.2.2/ZL.Equalizer.2-1.2.2-macOS-arm64.dmg"
+            "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.2.2/ZL.Equalizer.2-1.2.2-macOS-arm64.dmg",
+            "downloads": 3059
           },
           {
             "architectures": [
@@ -951,7 +1005,8 @@
             ],
             "size": 14968334,
             "type": "installer",
-            "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.2.2/ZL.Equalizer.2-1.2.2-macOS-x86-64.dmg"
+            "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.2.2/ZL.Equalizer.2-1.2.2-macOS-x86-64.dmg",
+            "downloads": 1066
           },
           {
             "architectures": [
@@ -969,7 +1024,8 @@
             ],
             "size": 8196096,
             "type": "installer",
-            "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.2.2/ZL.Equalizer.2-1.2.2-Windows-arm64.msi"
+            "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.2.2/ZL.Equalizer.2-1.2.2-Windows-arm64.msi",
+            "downloads": 874
           },
           {
             "architectures": [
@@ -987,7 +1043,8 @@
             ],
             "size": 11886592,
             "type": "installer",
-            "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.2.2/ZL.Equalizer.2-1.2.2-Windows-x86-64-AVX2.msi"
+            "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.2.2/ZL.Equalizer.2-1.2.2-Windows-x86-64-AVX2.msi",
+            "downloads": 4943
           },
           {
             "architectures": [
@@ -1005,10 +1062,12 @@
             ],
             "size": 11608064,
             "type": "installer",
-            "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.2.2/ZL.Equalizer.2-1.2.2-Windows-x86-64.msi"
+            "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.2.2/ZL.Equalizer.2-1.2.2-Windows-x86-64.msi",
+            "downloads": 4859
           }
         ],
-        "verified": true
+        "verified": true,
+        "downloads": 16323
       },
       "1.1.0": {
         "name": "ZL Equalizer 2",
@@ -1041,7 +1100,8 @@
             ],
             "size": 17295648,
             "type": "archive",
-            "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.1.0/ZL.Equalizer.2-1.1.0-Linux-x86.zip"
+            "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.1.0/ZL.Equalizer.2-1.1.0-Linux-x86.zip",
+            "downloads": 2560
           },
           {
             "architectures": [
@@ -1059,7 +1119,8 @@
             ],
             "size": 11547522,
             "type": "archive",
-            "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.1.0/ZL.Equalizer.2-1.1.0-Linux-arm.zip"
+            "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.1.0/ZL.Equalizer.2-1.1.0-Linux-arm.zip",
+            "downloads": 914
           },
           {
             "architectures": [
@@ -1078,7 +1139,8 @@
             ],
             "size": 22915912,
             "type": "installer",
-            "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.1.0/ZL.Equalizer.2-1.1.0-macOS-x86.dmg"
+            "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.1.0/ZL.Equalizer.2-1.1.0-macOS-x86.dmg",
+            "downloads": 3783
           },
           {
             "architectures": [
@@ -1097,7 +1159,8 @@
             ],
             "size": 15238667,
             "type": "installer",
-            "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.1.0/ZL.Equalizer.2-1.1.0-macOS-arm.dmg"
+            "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.1.0/ZL.Equalizer.2-1.1.0-macOS-arm.dmg",
+            "downloads": 6714
           },
           {
             "architectures": [
@@ -1116,7 +1179,8 @@
             ],
             "size": 11918930,
             "type": "installer",
-            "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.1.0/ZL.Equalizer.2-1.1.0-Windows-x86.exe"
+            "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.1.0/ZL.Equalizer.2-1.1.0-Windows-x86.exe",
+            "downloads": 22843
           },
           {
             "architectures": [
@@ -1134,12 +1198,15 @@
             ],
             "size": 8247800,
             "type": "installer",
-            "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.1.0/ZL.Equalizer.2-1.1.0-Windows-arm.exe"
+            "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.1.0/ZL.Equalizer.2-1.1.0-Windows-arm.exe",
+            "downloads": 5066
           }
         ],
-        "verified": true
+        "verified": true,
+        "downloads": 41880
       }
-    }
+    },
+    "downloads": 69668
   },
   "zl-audio/zlcompressor": {
     "slug": "zl-audio/zlcompressor",
@@ -1177,7 +1244,8 @@
             "type": "archive",
             "size": 8015840,
             "sha256": "4ef0b09548e0dd62a49952202fac8b823d2f23f38e06a83fe546194d294b8270",
-            "url": "https://github.com/ZL-Audio/ZLCompressor/releases/download/0.5.0/ZL.Compressor-0.5.0-Linux-arm64.zip"
+            "url": "https://github.com/ZL-Audio/ZLCompressor/releases/download/0.5.0/ZL.Compressor-0.5.0-Linux-arm64.zip",
+            "downloads": 96
           },
           {
             "systems": [
@@ -1196,7 +1264,8 @@
             "type": "archive",
             "size": 8628636,
             "sha256": "06db9694bf90f807e505853272484ea3a32043ace8ade2607013c28b96159734",
-            "url": "https://github.com/ZL-Audio/ZLCompressor/releases/download/0.5.0/ZL.Compressor-0.5.0-Linux-x86-64-AVX2.zip"
+            "url": "https://github.com/ZL-Audio/ZLCompressor/releases/download/0.5.0/ZL.Compressor-0.5.0-Linux-x86-64-AVX2.zip",
+            "downloads": 458
           },
           {
             "systems": [
@@ -1215,7 +1284,8 @@
             "type": "archive",
             "size": 8401909,
             "sha256": "07600e4f95272223c7405b3142778a89c59516e2b4912be281635aac8c793902",
-            "url": "https://github.com/ZL-Audio/ZLCompressor/releases/download/0.5.0/ZL.Compressor-0.5.0-Linux-x86-64.zip"
+            "url": "https://github.com/ZL-Audio/ZLCompressor/releases/download/0.5.0/ZL.Compressor-0.5.0-Linux-x86-64.zip",
+            "downloads": 658
           },
           {
             "systems": [
@@ -1235,7 +1305,8 @@
             "type": "installer",
             "size": 11435709,
             "sha256": "374f400e888b9de93adc145fbae079e4cf46ed8c72eeb9f43326d104134050d8",
-            "url": "https://github.com/ZL-Audio/ZLCompressor/releases/download/0.5.0/ZL.Compressor-0.5.0-macOS-arm64.dmg"
+            "url": "https://github.com/ZL-Audio/ZLCompressor/releases/download/0.5.0/ZL.Compressor-0.5.0-macOS-arm64.dmg",
+            "downloads": 1000
           },
           {
             "systems": [
@@ -1255,7 +1326,8 @@
             "type": "installer",
             "size": 12756094,
             "sha256": "509a6086417603ce8f8980ccd71949d34aa685692d1da8997cf16f8bd5660e31",
-            "url": "https://github.com/ZL-Audio/ZLCompressor/releases/download/0.5.0/ZL.Compressor-0.5.0-macOS-x86-64.dmg"
+            "url": "https://github.com/ZL-Audio/ZLCompressor/releases/download/0.5.0/ZL.Compressor-0.5.0-macOS-x86-64.dmg",
+            "downloads": 462
           },
           {
             "systems": [
@@ -1275,7 +1347,8 @@
             "type": "installer",
             "size": 7200768,
             "sha256": "e853104638e3249908087b47210408f02496b00b1d2fc694147262fbe000413f",
-            "url": "https://github.com/ZL-Audio/ZLCompressor/releases/download/0.5.0/ZL.Compressor-0.5.0-Windows-arm64.msi"
+            "url": "https://github.com/ZL-Audio/ZLCompressor/releases/download/0.5.0/ZL.Compressor-0.5.0-Windows-arm64.msi",
+            "downloads": 379
           },
           {
             "systems": [
@@ -1295,7 +1368,8 @@
             "type": "installer",
             "size": 10240000,
             "sha256": "e7bbb4730be6b906b5c03a6a57d21ff9af735c4573b8a6e4d4ef499f4350146a",
-            "url": "https://github.com/ZL-Audio/ZLCompressor/releases/download/0.5.0/ZL.Compressor-0.5.0-Windows-x86-64-AVX2.msi"
+            "url": "https://github.com/ZL-Audio/ZLCompressor/releases/download/0.5.0/ZL.Compressor-0.5.0-Windows-x86-64-AVX2.msi",
+            "downloads": 2185
           },
           {
             "systems": [
@@ -1315,12 +1389,15 @@
             "type": "installer",
             "size": 9981952,
             "sha256": "5c573b1f5eedf1bdc005a91fd13caec7ea76f52969904c7a924c445733c34926",
-            "url": "https://github.com/ZL-Audio/ZLCompressor/releases/download/0.5.0/ZL.Compressor-0.5.0-Windows-x86-64.msi"
+            "url": "https://github.com/ZL-Audio/ZLCompressor/releases/download/0.5.0/ZL.Compressor-0.5.0-Windows-x86-64.msi",
+            "downloads": 2584
           }
         ],
-        "verified": true
+        "verified": true,
+        "downloads": 7822
       }
-    }
+    },
+    "downloads": 7822
   },
   "zhiyualexzhang/multimeter": {
     "slug": "zhiyualexzhang/multimeter",
@@ -1358,12 +1435,15 @@
             "type": "archive",
             "size": 24233999,
             "sha256": "cac80f4f19cec34554a568a73eac392f4250fe8473c2e9c8293cc8e73545e877",
-            "url": "https://github.com/ZhiyuAlexZhang/MultiMeter/releases/download/v1.0.0/MultiMeter-release-v1.0.0.zip"
+            "url": "https://github.com/ZhiyuAlexZhang/MultiMeter/releases/download/v1.0.0/MultiMeter-release-v1.0.0.zip",
+            "downloads": 480
           }
         ],
-        "verified": true
+        "verified": true,
+        "downloads": 480
       }
-    }
+    },
+    "downloads": 480
   },
   "zamaudio/zam-plugins": {
     "slug": "zamaudio/zam-plugins",
@@ -1403,7 +1483,8 @@
             "type": "archive",
             "size": 39549040,
             "sha256": "4e02771b743afaaa2d6912eac083661c1d9ab0a92dd6787414f29e365877b4c2",
-            "url": "https://github.com/zamaudio/zam-plugins/releases/download/4.5/zam-plugins-4.5-linux-arm64.tar.xz"
+            "url": "https://github.com/zamaudio/zam-plugins/releases/download/4.5/zam-plugins-4.5-linux-arm64.tar.xz",
+            "downloads": 126
           },
           {
             "systems": [
@@ -1424,7 +1505,8 @@
             "type": "archive",
             "size": 37914916,
             "sha256": "9e0dc7d026ddc91d6a6c22856c7e9ea1009a1e22ca0052d5c346bdac416218f8",
-            "url": "https://github.com/zamaudio/zam-plugins/releases/download/4.5/zam-plugins-4.5-linux-armhf.tar.xz"
+            "url": "https://github.com/zamaudio/zam-plugins/releases/download/4.5/zam-plugins-4.5-linux-armhf.tar.xz",
+            "downloads": 21
           },
           {
             "systems": [
@@ -1445,7 +1527,8 @@
             "type": "archive",
             "size": 39867476,
             "sha256": "53e077a5dc66d113fe68981fcc74dd1eaa343db933dba8d8c278816918b4a7df",
-            "url": "https://github.com/zamaudio/zam-plugins/releases/download/4.5/zam-plugins-4.5-linux-i686.tar.xz"
+            "url": "https://github.com/zamaudio/zam-plugins/releases/download/4.5/zam-plugins-4.5-linux-i686.tar.xz",
+            "downloads": 35
           },
           {
             "systems": [
@@ -1466,7 +1549,8 @@
             "type": "archive",
             "size": 39868912,
             "sha256": "16b022cce2998d11d3dbcf15aa6fe176cd14576cad42250ae8cfc56d1b7add7a",
-            "url": "https://github.com/zamaudio/zam-plugins/releases/download/4.5/zam-plugins-4.5-linux-x86_64.tar.xz"
+            "url": "https://github.com/zamaudio/zam-plugins/releases/download/4.5/zam-plugins-4.5-linux-x86_64.tar.xz",
+            "downloads": 652
           },
           {
             "systems": [
@@ -1490,7 +1574,8 @@
             "type": "installer",
             "size": 246954246,
             "sha256": "ac163eb25781b08936b80c12e809777e3aaa523887d0355504f2e6586c4e43cf",
-            "url": "https://github.com/zamaudio/zam-plugins/releases/download/4.5/zam-plugins-4.5-macos-universal.dmg"
+            "url": "https://github.com/zamaudio/zam-plugins/releases/download/4.5/zam-plugins-4.5-macos-universal.dmg",
+            "downloads": 142
           },
           {
             "systems": [
@@ -1511,7 +1596,8 @@
             "type": "archive",
             "size": 131452268,
             "sha256": "596481a35fbf258e39a5823d5e7018093d0f7e75c35547967e04b39e6b328726",
-            "url": "https://github.com/zamaudio/zam-plugins/releases/download/4.5/zam-plugins-4.5-win32.zip"
+            "url": "https://github.com/zamaudio/zam-plugins/releases/download/4.5/zam-plugins-4.5-win32.zip",
+            "downloads": 69
           },
           {
             "systems": [
@@ -1532,12 +1618,15 @@
             "type": "archive",
             "size": 128302481,
             "sha256": "745990b0acdda1cc319cd55aafdf61b6f258015810f310abd31d8bbe849e4da8",
-            "url": "https://github.com/zamaudio/zam-plugins/releases/download/4.5/zam-plugins-4.5-win64.zip"
+            "url": "https://github.com/zamaudio/zam-plugins/releases/download/4.5/zam-plugins-4.5-win64.zip",
+            "downloads": 558
           }
         ],
-        "verified": true
+        "verified": true,
+        "downloads": 1603
       }
-    }
+    },
+    "downloads": 1603
   },
   "yvonneqaq/spekana-audio-plugin": {
     "slug": "yvonneqaq/spekana-audio-plugin",
@@ -1574,12 +1663,15 @@
             "type": "archive",
             "size": 5784663,
             "sha256": "2dec7a8b274b82d34d0583e05657f3cefc1389fd1630af0d98fede73ef712038",
-            "url": "https://github.com/yvonneQAQ/spekana-audio-plugin/releases/download/v1.0.0/SPEKANA_v1.0.0_macOS.zip"
+            "url": "https://github.com/yvonneQAQ/spekana-audio-plugin/releases/download/v1.0.0/SPEKANA_v1.0.0_macOS.zip",
+            "downloads": 15
           }
         ],
-        "verified": true
+        "verified": true,
+        "downloads": 15
       }
-    }
+    },
+    "downloads": 15
   },
   "yonie/wetreverb": {
     "slug": "yonie/wetreverb",
@@ -1623,10 +1715,12 @@
             "type": "archive",
             "size": 4733779,
             "sha256": "5558474c171e40ba8bf847ba56dd79fee68b390f063d66a667edb5c996a80dad",
-            "url": "https://github.com/yonie/WetReverb/releases/download/v1.1.0/WetReverb-v1.1.0.zip"
+            "url": "https://github.com/yonie/WetReverb/releases/download/v1.1.0/WetReverb-v1.1.0.zip",
+            "downloads": 57
           }
         ],
-        "verified": true
+        "verified": true,
+        "downloads": 57
       },
       "1.0.1": {
         "name": "Wet Reverb",
@@ -1666,12 +1760,15 @@
             "type": "archive",
             "size": 4729203,
             "sha256": "5e1d1d709606cb84809969e48d85ea25f41e3fe4d1f4cc27971ece78c4f14632",
-            "url": "https://github.com/yonie/WetReverb/releases/download/v1.0.1/WetReverb-v1.0.1.zip"
+            "url": "https://github.com/yonie/WetReverb/releases/download/v1.0.1/WetReverb-v1.0.1.zip",
+            "downloads": 1734
           }
         ],
-        "verified": true
+        "verified": true,
+        "downloads": 1734
       }
-    }
+    },
+    "downloads": 1791
   },
   "yonie/weteq": {
     "slug": "yonie/weteq",
@@ -9446,7 +9543,7 @@
             "size": 97294804,
             "sha256": "dd431b75f5fa197c4bffa6ca27ca46970f0a94c834119bb1db7decdeec4c28db",
             "url": "https://github.com/surge-synthesizer/releases-xt/releases/download/1.3.4/surge-xt-linux-1.3.4-pluginsonly.tar.gz",
-            "downloads": 12440
+            "downloads": 12441
           },
           {
             "systems": [
@@ -9553,7 +9650,7 @@
           }
         ],
         "verified": true,
-        "downloads": 856998
+        "downloads": 856999
       },
       "1.3.1": {
         "name": "Surge XT",
@@ -9680,7 +9777,7 @@
         "downloads": 84591
       }
     },
-    "downloads": 941589
+    "downloads": 941590
   },
   "surge-synthesizer/ob-xf": {
     "slug": "surge-synthesizer/ob-xf",
@@ -9875,14 +9972,14 @@
             "size": 9222959,
             "sha256": "149fda0649daf8a3aa0851801f92515f0dbf6203acf33c0edc7d3c445e80b1e7",
             "url": "https://github.com/surge-synthesizer/OB-Xf/releases/download/v1.0.3/ob-xf-Windows-v1.0.3.zip",
-            "downloads": 1094
+            "downloads": 1095
           }
         ],
         "verified": true,
-        "downloads": 17526
+        "downloads": 17527
       }
     },
-    "downloads": 17526
+    "downloads": 17527
   },
   "surge-synthesizer/monique-monosynth": {
     "slug": "surge-synthesizer/monique-monosynth",
@@ -14913,6 +15010,73 @@
     },
     "downloads": 77
   },
+  "ryukau/ultrasynth": {
+    "slug": "ryukau/ultrasynth",
+    "version": "0.1.12",
+    "versions": {
+      "0.1.12": {
+        "name": "UltraSynth",
+        "author": "Takamitsu Endo",
+        "description": "Ordinary synthesizer with 64-fold oversampling, the same as UltrasonicRingMod. The high oversampling gives good modulation sound but high CPU load.",
+        "license": "gpl-3.0",
+        "type": "instrument",
+        "tags": [
+          "Synth",
+          "Oversampling",
+          "Uhhyou"
+        ],
+        "url": "https://github.com/ryukau/VSTPlugins",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ryukau/ultrasynth/ultrasynth.jpg",
+        "date": "2026-09-18T06:09:05Z",
+        "changes": "Uhhyou Plugins 0.71.0: fixed resetting on some DAWs (reset is triggered in setProcessing and setActive).",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "win"
+              },
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 2702180,
+            "sha256": "f03db15aceb24a5cf9a0c347025511bcd61fbdd3bf7905552e700232f7c12676",
+            "url": "https://github.com/ryukau/VSTPlugins/releases/download/UhhyouPlugins0.71.0/UltraSynth_0.1.12.zip",
+            "downloads": 41
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 1115868,
+            "sha256": "63f0f6001fa52b9e949352739e2fc8e19e3b092264e5c36dfbb9ad3ea348ae32",
+            "url": "https://github.com/ryukau/VSTPlugins/releases/download/UhhyouPlugins0.71.0/UltraSynth_0.1.12_macOS.zip",
+            "downloads": 22
+          }
+        ],
+        "verified": true,
+        "downloads": 63
+      }
+    },
+    "downloads": 63
+  },
   "ryukau/trapezoidsynth": {
     "slug": "ryukau/trapezoidsynth",
     "version": "0.1.29",
@@ -15112,6 +15276,139 @@
       }
     },
     "downloads": 81
+  },
+  "ryukau/membranesynth": {
+    "slug": "ryukau/membranesynth",
+    "version": "0.1.13",
+    "versions": {
+      "0.1.13": {
+        "name": "MembraneSynth",
+        "author": "Takamitsu Endo",
+        "description": "Synthesizer resembling membrane percussion such as bass drum or tom tom. Self-modulation oscillation can also make some strange noises.",
+        "license": "gpl-3.0",
+        "type": "instrument",
+        "tags": [
+          "Drum",
+          "Percussion",
+          "Uhhyou"
+        ],
+        "url": "https://github.com/ryukau/VSTPlugins",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ryukau/membranesynth/membranesynth.jpg",
+        "date": "2026-09-18T06:09:05Z",
+        "changes": "Uhhyou Plugins 0.71.0: fixed resetting on some DAWs (reset is triggered in setProcessing and setActive).",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "win"
+              },
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 2828714,
+            "sha256": "44b3bd580c82acef43f3e06d47e5596e319b29acd72dc5e72adb9e4d86838df8",
+            "url": "https://github.com/ryukau/VSTPlugins/releases/download/UhhyouPlugins0.71.0/MembraneSynth_0.1.13.zip"
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 1168394,
+            "sha256": "cf549e444acaa5cff294b81bf744b90b256a709cfa52fffe06c34e0c444b0232",
+            "url": "https://github.com/ryukau/VSTPlugins/releases/download/UhhyouPlugins0.71.0/MembraneSynth_0.1.13_macOS.zip",
+            "downloads": 23
+          }
+        ],
+        "verified": true,
+        "downloads": 23
+      }
+    },
+    "downloads": 23
+  },
+  "ryukau/maybesnare": {
+    "slug": "ryukau/maybesnare",
+    "version": "0.1.12",
+    "versions": {
+      "0.1.12": {
+        "name": "MaybeSnare",
+        "author": "Takamitsu Endo",
+        "description": "Snare drum-like synthesizer made of 2 MembraneSynth voices coupled by cross feedback. There is no snare wire, but modulation noise adds a similar rattling texture.",
+        "license": "gpl-3.0",
+        "type": "instrument",
+        "tags": [
+          "Snare",
+          "Drum",
+          "Percussion",
+          "Uhhyou"
+        ],
+        "url": "https://github.com/ryukau/VSTPlugins",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ryukau/maybesnare/maybesnare.jpg",
+        "date": "2026-09-18T06:09:05Z",
+        "changes": "Uhhyou Plugins 0.71.0: fixed resetting on some DAWs (reset is triggered in setProcessing and setActive).",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "win"
+              },
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 2903441,
+            "sha256": "14c2075669305386f9760d5d65aef29c1d48e7561d3dd38c93e7b30d270fe049",
+            "url": "https://github.com/ryukau/VSTPlugins/releases/download/UhhyouPlugins0.71.0/MaybeSnare_0.1.12.zip"
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 1193131,
+            "sha256": "1ac6ff98521f63e4dcc2c8fd503acbc9906069f565dc7dfed32310160848a675",
+            "url": "https://github.com/ryukau/VSTPlugins/releases/download/UhhyouPlugins0.71.0/MaybeSnare_0.1.12_macOS.zip",
+            "downloads": 18
+          }
+        ],
+        "verified": true,
+        "downloads": 18
+      }
+    },
+    "downloads": 18
   },
   "ryukau/lightpadsynth": {
     "slug": "ryukau/lightpadsynth",
@@ -15443,6 +15740,138 @@
     },
     "downloads": 20
   },
+  "ryukau/glitchsprinkler": {
+    "slug": "ryukau/glitchsprinkler",
+    "version": "0.1.5",
+    "versions": {
+      "0.1.5": {
+        "name": "GlitchSprinkler",
+        "author": "Takamitsu Endo",
+        "description": "Synthesizer specialized for fast arpeggios. Restricting the oscillator period to integer sample counts is a cheap anti-aliasing trick that detunes higher notes, giving a unique texture.",
+        "license": "gpl-3.0",
+        "type": "instrument",
+        "tags": [
+          "Synth",
+          "Arpeggio",
+          "Uhhyou"
+        ],
+        "url": "https://github.com/ryukau/VSTPlugins",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ryukau/glitchsprinkler/glitchsprinkler.jpg",
+        "date": "2026-09-18T06:09:05Z",
+        "changes": "Uhhyou Plugins 0.71.0: fixed resetting on some DAWs (reset is triggered in setProcessing and setActive).",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "win"
+              },
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 2813884,
+            "sha256": "877e9f6d8547d278318d459205125b53b6d6ab7af219a1901cd6346d11d4e7bd",
+            "url": "https://github.com/ryukau/VSTPlugins/releases/download/UhhyouPlugins0.71.0/GlitchSprinkler_0.1.5.zip"
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 1173799,
+            "sha256": "cd26d94871a7ae1ef015978e76f9ec3b8bb6a6ce80a63a63555e92fadf73da02",
+            "url": "https://github.com/ryukau/VSTPlugins/releases/download/UhhyouPlugins0.71.0/GlitchSprinkler_0.1.5_macOS.zip",
+            "downloads": 33
+          }
+        ],
+        "verified": true,
+        "downloads": 33
+      }
+    },
+    "downloads": 33
+  },
+  "ryukau/genericdrum": {
+    "slug": "ryukau/genericdrum",
+    "version": "0.1.6",
+    "versions": {
+      "0.1.6": {
+        "name": "GenericDrum",
+        "author": "Takamitsu Endo",
+        "description": "Generic drum synthesizer using delays. It can make convincing snare and bass drum sounds; cymbal sounds are possible but not as good as lower pitched drums.",
+        "license": "gpl-3.0",
+        "type": "instrument",
+        "tags": [
+          "Drum",
+          "Percussion",
+          "Uhhyou"
+        ],
+        "url": "https://github.com/ryukau/VSTPlugins",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ryukau/genericdrum/genericdrum.jpg",
+        "date": "2026-09-18T06:09:05Z",
+        "changes": "Uhhyou Plugins 0.71.0: fixed resetting on some DAWs (reset is triggered in setProcessing and setActive).",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "win"
+              },
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 3061973,
+            "sha256": "fccee80f442d398838c9a88c38efb1c084e4afd8e4ac431da5c7b3947a89b7ea",
+            "url": "https://github.com/ryukau/VSTPlugins/releases/download/UhhyouPlugins0.71.0/GenericDrum_0.1.6.zip"
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 1283375,
+            "sha256": "21fa1b0f17f74502a7d15b8c97a9e8e71865042e5d19f536c431345e15d7ff8b",
+            "url": "https://github.com/ryukau/VSTPlugins/releases/download/UhhyouPlugins0.71.0/GenericDrum_0.1.6_macOS.zip",
+            "downloads": 25
+          }
+        ],
+        "verified": true,
+        "downloads": 25
+      }
+    },
+    "downloads": 25
+  },
   "ryukau/fdncymbal": {
     "slug": "ryukau/fdncymbal",
     "version": "0.2.22",
@@ -15708,6 +16137,72 @@
     },
     "downloads": 24
   },
+  "ryukau/doubleloopcymbal": {
+    "slug": "ryukau/doubleloopcymbal",
+    "version": "0.1.3",
+    "versions": {
+      "0.1.3": {
+        "name": "DoubleLoopCymbal",
+        "author": "Takamitsu Endo",
+        "description": "Synthesizer that produces a sound somewhere between a hi-hat and a triangle. The metallic texture comes from 2 all-pass loops.",
+        "license": "gpl-3.0",
+        "type": "instrument",
+        "tags": [
+          "Cymbal",
+          "Percussion",
+          "Uhhyou"
+        ],
+        "url": "https://github.com/ryukau/VSTPlugins",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ryukau/doubleloopcymbal/doubleloopcymbal.jpg",
+        "date": "2026-09-18T06:09:05Z",
+        "changes": "Uhhyou Plugins 0.71.0: fixed resetting on some DAWs (reset is triggered in setProcessing and setActive).",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "win"
+              },
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 2724558,
+            "sha256": "7b3fc358b44f356d40ea0c480264bb3fe20ef173310e48a16d8331a49e067130",
+            "url": "https://github.com/ryukau/VSTPlugins/releases/download/UhhyouPlugins0.71.0/DoubleLoopCymbal_0.1.3.zip"
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 1140352,
+            "sha256": "a8f5c0b52d7ad1bab8b56dc82ba745f21b8e443017a3e8d70ac63473b3e133f6",
+            "url": "https://github.com/ryukau/VSTPlugins/releases/download/UhhyouPlugins0.71.0/DoubleLoopCymbal_0.1.3_macOS.zip",
+            "downloads": 19
+          }
+        ],
+        "verified": true,
+        "downloads": 19
+      }
+    },
+    "downloads": 19
+  },
   "ryukau/cubicpadsynth": {
     "slug": "ryukau/cubicpadsynth",
     "version": "0.1.30",
@@ -15839,6 +16334,138 @@
       }
     },
     "downloads": 29
+  },
+  "ryukau/clangsynth": {
+    "slug": "ryukau/clangsynth",
+    "version": "0.1.13",
+    "versions": {
+      "0.1.13": {
+        "name": "ClangSynth",
+        "author": "Takamitsu Endo",
+        "description": "Synthesizer suited to percussion sounds. Each voice has an 8 * 8 feedback delay network (FDN) resonator, and the static wavetable oscillator has controls specialized for making pulse trains.",
+        "license": "gpl-3.0",
+        "type": "instrument",
+        "tags": [
+          "Percussion",
+          "Synth",
+          "Uhhyou"
+        ],
+        "url": "https://github.com/ryukau/VSTPlugins",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ryukau/clangsynth/clangsynth.jpg",
+        "date": "2026-09-18T06:09:05Z",
+        "changes": "Uhhyou Plugins 0.71.0: fixed resetting on some DAWs (reset is triggered in setProcessing and setActive).",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "win"
+              },
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 3569517,
+            "sha256": "0e260b4d3f3780fff3abf9a4bd4961d35ff945be5964d05c1c3e03f5d20041cf",
+            "url": "https://github.com/ryukau/VSTPlugins/releases/download/UhhyouPlugins0.71.0/ClangSynth_0.1.13.zip"
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 1487427,
+            "sha256": "7d1a9b3b53a258c7bcfad5ddf71e14a9e5cbc2c60312265763d035a2083510f3",
+            "url": "https://github.com/ryukau/VSTPlugins/releases/download/UhhyouPlugins0.71.0/ClangSynth_0.1.13_macOS.zip",
+            "downloads": 24
+          }
+        ],
+        "verified": true,
+        "downloads": 24
+      }
+    },
+    "downloads": 24
+  },
+  "ryukau/clangcymbal": {
+    "slug": "ryukau/clangcymbal",
+    "version": "0.1.13",
+    "versions": {
+      "0.1.13": {
+        "name": "ClangCymbal",
+        "author": "Takamitsu Endo",
+        "description": "Monophonic cymbal synthesizer, a spin off of ClangSynth with a 64 * 64 feedback delay network for richer harmonics and a noise/pulse oscillator mix suited to cymbal sounds.",
+        "license": "gpl-3.0",
+        "type": "instrument",
+        "tags": [
+          "Cymbal",
+          "Percussion",
+          "Uhhyou"
+        ],
+        "url": "https://github.com/ryukau/VSTPlugins",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ryukau/clangcymbal/clangcymbal.jpg",
+        "date": "2026-09-18T06:09:05Z",
+        "changes": "Uhhyou Plugins 0.71.0: fixed resetting on some DAWs (reset is triggered in setProcessing and setActive).",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "win"
+              },
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 3171567,
+            "sha256": "bd7b4fbb487f832e22760488ccaf45aabb425d532b8f63b51f5543b6dde3d219",
+            "url": "https://github.com/ryukau/VSTPlugins/releases/download/UhhyouPlugins0.71.0/ClangCymbal_0.1.13.zip"
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 1268707,
+            "sha256": "5ee7d7964edb535215a94e812808f98555458e332a8aa7cb6ff0df337d68eb45",
+            "url": "https://github.com/ryukau/VSTPlugins/releases/download/UhhyouPlugins0.71.0/ClangCymbal_0.1.13_macOS.zip",
+            "downloads": 24
+          }
+        ],
+        "verified": true,
+        "downloads": 24
+      }
+    },
+    "downloads": 24
   },
   "ryukau/basiclimiterautomake": {
     "slug": "ryukau/basiclimiterautomake",

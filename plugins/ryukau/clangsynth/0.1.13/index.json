@@ -1,0 +1,59 @@
+{
+  "name": "ClangSynth",
+  "author": "Takamitsu Endo",
+  "description": "Synthesizer suited to percussion sounds. Each voice has an 8 * 8 feedback delay network (FDN) resonator, and the static wavetable oscillator has controls specialized for making pulse trains.",
+  "license": "gpl-3.0",
+  "type": "instrument",
+  "tags": [
+    "Percussion",
+    "Synth",
+    "Uhhyou"
+  ],
+  "url": "https://github.com/ryukau/VSTPlugins",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ryukau/clangsynth/clangsynth.jpg",
+  "date": "2026-09-18T06:09:05Z",
+  "changes": "Uhhyou Plugins 0.71.0: fixed resetting on some DAWs (reset is triggered in setProcessing and setActive).",
+  "files": [
+    {
+      "systems": [
+        {
+          "type": "win"
+        },
+        {
+          "type": "linux"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3"
+      ],
+      "type": "archive",
+      "size": 3569517,
+      "sha256": "0e260b4d3f3780fff3abf9a4bd4961d35ff945be5964d05c1c3e03f5d20041cf",
+      "url": "https://github.com/ryukau/VSTPlugins/releases/download/UhhyouPlugins0.71.0/ClangSynth_0.1.13.zip"
+    },
+    {
+      "systems": [
+        {
+          "type": "mac"
+        }
+      ],
+      "architectures": [
+        "arm64",
+        "x64"
+      ],
+      "contains": [
+        "vst3"
+      ],
+      "type": "archive",
+      "size": 1487427,
+      "sha256": "7d1a9b3b53a258c7bcfad5ddf71e14a9e5cbc2c60312265763d035a2083510f3",
+      "url": "https://github.com/ryukau/VSTPlugins/releases/download/UhhyouPlugins0.71.0/ClangSynth_0.1.13_macOS.zip",
+      "downloads": 24
+    }
+  ],
+  "verified": true,
+  "downloads": 24
+}
