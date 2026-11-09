@@ -1,0 +1,36 @@
+name: EsPhaser
+author: Takamitsu Endo
+description: 'EsPhaser is a phaser with up to 4096 stages of order 2 Thiran all-pass filters. This is the same phaser used in EnvelopedSine.'
+license: gpl-3.0
+type: effect
+tags:
+  - Modulation
+  - Uhhyou
+url: https://github.com/ryukau/VSTPlugins
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ryukau/esphaser/esphaser.jpg
+audio: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ryukau/esphaser/esphaser.flac
+date: '2026-09-18T06:09:05Z'
+changes: 'Uhhyou Plugins 0.71.0: fixed resetting on some DAWs (reset is triggered in setProcessing and setActive).'
+files:
+  - systems:
+      - type: win
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - vst3
+    type: archive
+    size: 2496316
+    sha256: fd547ef026cf7233b587540277b63c80429120eb29c7100c1be96f74520e771b
+    url: https://github.com/ryukau/VSTPlugins/releases/download/UhhyouPlugins0.71.0/EsPhaser_0.1.23.zip
+  - systems:
+      - type: mac
+    architectures:
+      - arm64
+      - x64
+    contains:
+      - vst3
+    type: archive
+    size: 1029602
+    sha256: 13620781baa6b220c9ef44d11970afc255769b1e8bd3bcc6b45a05eef4f2c28b
+    url: https://github.com/ryukau/VSTPlugins/releases/download/UhhyouPlugins0.71.0/EsPhaser_0.1.23_macOS.zip

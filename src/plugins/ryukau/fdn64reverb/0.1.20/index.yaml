@@ -1,0 +1,36 @@
+name: FDN64Reverb
+author: Takamitsu Endo
+description: 'FDN64Reverb is a reverb equipped with a feedback delay network (FDN). However, the size of feedback matrix is 64.'
+license: gpl-3.0
+type: effect
+tags:
+  - Reverb
+  - Uhhyou
+url: https://github.com/ryukau/VSTPlugins
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ryukau/fdn64reverb/fdn64reverb.jpg
+audio: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ryukau/fdn64reverb/fdn64reverb.flac
+date: '2026-09-18T06:09:05Z'
+changes: 'Uhhyou Plugins 0.71.0: fixed resetting on some DAWs (reset is triggered in setProcessing and setActive).'
+files:
+  - systems:
+      - type: win
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - vst3
+    type: archive
+    size: 2872258
+    sha256: f14970708334d786a98a16e0e9ea1860e849fcf4bfbc1d5b362117c1cf8bbcdc
+    url: https://github.com/ryukau/VSTPlugins/releases/download/UhhyouPlugins0.71.0/FDN64Reverb_0.1.20.zip
+  - systems:
+      - type: mac
+    architectures:
+      - arm64
+      - x64
+    contains:
+      - vst3
+    type: archive
+    size: 1188622
+    sha256: 9faca9d7db91b798a5979005f8f9778d719531e803acb382b7601d2912435676
+    url: https://github.com/ryukau/VSTPlugins/releases/download/UhhyouPlugins0.71.0/FDN64Reverb_0.1.20_macOS.zip
