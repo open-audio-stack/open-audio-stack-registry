@@ -1,0 +1,37 @@
+name: FDNCymbal
+author: Takamitsu Endo
+description: 'FDNCymbal is a cymbal sound synthesizer that can also be used as an effect. Most of the metallic texture comes from a Schroeder allpass section; the FDN (feedback delay network) section makes a nice impact sound. Tremolo simulates cymbal wobble.'
+license: gpl-3.0
+type: instrument
+tags:
+  - Cymbal
+  - Percussion
+  - Uhhyou
+url: https://github.com/ryukau/VSTPlugins
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ryukau/fdncymbal/fdncymbal.jpg
+audio: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ryukau/fdncymbal/fdncymbal.flac
+date: '2026-09-18T06:09:05Z'
+changes: 'Uhhyou Plugins 0.71.0: fixed resetting on some DAWs (reset is triggered in setProcessing and setActive).'
+files:
+  - systems:
+      - type: win
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - vst3
+    type: archive
+    size: 2718788
+    sha256: da852c017613161b0b79a2f0c1a57a895785d2527b487fd0532eaceaafa28a5b
+    url: https://github.com/ryukau/VSTPlugins/releases/download/UhhyouPlugins0.71.0/FDNCymbal_0.2.22.zip
+  - systems:
+      - type: mac
+    architectures:
+      - arm64
+      - x64
+    contains:
+      - vst3
+    type: archive
+    size: 1099019
+    sha256: 2646f2c423fbd634b04eddc7c08ef272033819733b7dfded5cda375a1a9d8dd0
+    url: https://github.com/ryukau/VSTPlugins/releases/download/UhhyouPlugins0.71.0/FDNCymbal_0.2.22_macOS.zip
