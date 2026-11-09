@@ -1,0 +1,85 @@
+{
+  "furmanlukasz/frequency-shifter": {
+    "slug": "furmanlukasz/frequency-shifter",
+    "version": "110.0.0",
+    "versions": {
+      "110.0.0": {
+        "name": "Harmonic-Preserving Frequency Shifter",
+        "author": "Łukasz Furman",
+        "description": "VST3 and Audio Unit frequency shifter that combines frequency shifting with musical scale quantization, so shifted partials stay in tune with the chosen scale.",
+        "license": "mit",
+        "type": "effect",
+        "tags": [
+          "Frequency Shifter",
+          "Scale Quantizer",
+          "Pitch"
+        ],
+        "url": "https://github.com/furmanlukasz/frequency-shifter",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/furmanlukasz/frequency-shifter/frequency-shifter.jpg",
+        "date": "2026-04-02T18:44:37Z",
+        "changes": "Release v110 of the Harmonic-Preserving Frequency Shifter: VST3/AU plugin combining frequency shifting with musical scale quantization.",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "component"
+            ],
+            "type": "archive",
+            "size": 10117373,
+            "sha256": "f8b0d6b4f6d5a8cfafd68c6dcf4d707c71dfc091c783b6a925681a5205bbc91f",
+            "url": "https://github.com/furmanlukasz/frequency-shifter/releases/download/v110/FrequencyShifter-macOS-AU.zip",
+            "downloads": 16
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 10340246,
+            "sha256": "04d9793f8d478a30680b60ad51ca0971366cc47610d6bfd0770b1ece9d3895a2",
+            "url": "https://github.com/furmanlukasz/frequency-shifter/releases/download/v110/FrequencyShifter-macOS-VST3.zip",
+            "downloads": 16
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 3294617,
+            "sha256": "efbdc2760489f5fca442ef0a18223930099e3cb6b2903bc2ec8a589cfb15013a",
+            "url": "https://github.com/furmanlukasz/frequency-shifter/releases/download/v110/FrequencyShifter-Windows-VST3.zip",
+            "downloads": 18
+          }
+        ],
+        "verified": true,
+        "downloads": 50
+      }
+    },
+    "downloads": 50
+  }
+}
