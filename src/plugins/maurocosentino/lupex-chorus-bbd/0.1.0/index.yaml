@@ -1,0 +1,35 @@
+name: Lupex Chorus BBD
+author: Mauro Cosentino
+description: 'Analog-inspired BBD chorus VST3 plugin built with JUCE: warm, simple and musical.'
+license: mit
+type: effect
+tags:
+  - Analog
+  - BBD
+  - Chorus
+  - Pedal
+url: https://github.com/maurocosentino/lupex-chorus-bbd
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/maurocosentino/lupex-chorus-bbd/lupex-chorus-bbd.jpg
+date: '2026-05-01T01:34:58Z'
+changes: v0.1.0 release.
+files:
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - vst3
+    type: archive
+    size: 4088838
+    sha256: fdfd1f1c0d30b51303bd3dcf91390dc359d01f55394156c2272b36968be96d06
+    url: https://github.com/maurocosentino/lupex-chorus-bbd/releases/download/v0.1.0/ChorusBBD-Linux-VST3.zip
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - vst3
+    type: archive
+    size: 4670255
+    sha256: 47d60a4c5dac109984001fb63a81f6b575fdc542796cf4bcca1e417522e0d28d
+    url: https://github.com/maurocosentino/lupex-chorus-bbd/releases/download/v0.1.0/ChorusBBD-Windows-VST3.zip
