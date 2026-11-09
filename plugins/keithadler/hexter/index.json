@@ -1,0 +1,131 @@
+{
+  "slug": "keithadler/hexter",
+  "version": "2.9.1",
+  "versions": {
+    "2.9.1": {
+      "name": "Hexter",
+      "author": "Keith Adler",
+      "description": "Yamaha DX7 modeling synthesizer: six-operator FM with all 32 algorithms, loads any DX7 bank. CLAP, LV2, Audio Unit and standalone builds; a continuation of Sean Bolton's original hexter.",
+      "license": "gpl-2.0",
+      "type": "instrument",
+      "tags": [
+        "FM",
+        "Synth",
+        "Emulation",
+        "Yamaha DX7",
+        "DX7"
+      ],
+      "url": "https://github.com/keithadler/hexter",
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/keithadler/hexter/hexter.jpg",
+      "date": "2026-10-24T17:17:48Z",
+      "changes": "Fixed: plugins and hexter-render reported version 2.0.0 instead of the real release version, so hosts listed every release since 2.0.0 as 2.0.0.",
+      "files": [
+        {
+          "systems": [
+            {
+              "type": "linux"
+            }
+          ],
+          "architectures": [
+            "arm64"
+          ],
+          "contains": [
+            "clap",
+            "lv2",
+            "elf"
+          ],
+          "type": "archive",
+          "size": 640001,
+          "sha256": "ad879de83c3bb7d5a287f6759e88d0d99046bc65822a6cf00e34c295b99572f7",
+          "url": "https://github.com/keithadler/hexter/releases/download/v2.9.1/hexter-2.9.1-linux-aarch64.tar.gz",
+          "downloads": 14
+        },
+        {
+          "systems": [
+            {
+              "type": "linux"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "clap",
+            "lv2",
+            "elf"
+          ],
+          "type": "archive",
+          "size": 639958,
+          "sha256": "15f0455d035f70b755a811135e9405fa2160588f1a54ad87bbc9c666d86a76d8",
+          "url": "https://github.com/keithadler/hexter/releases/download/v2.9.1/hexter-2.9.1-linux-x86_64.tar.gz",
+          "downloads": 16
+        },
+        {
+          "systems": [
+            {
+              "type": "mac"
+            }
+          ],
+          "architectures": [
+            "arm64",
+            "x64"
+          ],
+          "contains": [
+            "component",
+            "clap",
+            "lv2",
+            "app"
+          ],
+          "type": "archive",
+          "size": 1081750,
+          "sha256": "91f0a272e18615a2d8649cd3c570314b57b8880baaf1001a6a09cb597f80aa54",
+          "url": "https://github.com/keithadler/hexter/releases/download/v2.9.1/hexter-2.9.1-macos-universal.zip",
+          "downloads": 19
+        },
+        {
+          "systems": [
+            {
+              "type": "win"
+            }
+          ],
+          "architectures": [
+            "arm64"
+          ],
+          "contains": [
+            "clap",
+            "lv2",
+            "exe"
+          ],
+          "type": "archive",
+          "size": 889136,
+          "sha256": "086fe5e16cbcb594d91cd5ef9b4fa0e2eea81c63734451bdee54f5d015f04a57",
+          "url": "https://github.com/keithadler/hexter/releases/download/v2.9.1/hexter-2.9.1-windows-arm64.zip",
+          "downloads": 20
+        },
+        {
+          "systems": [
+            {
+              "type": "win"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "clap",
+            "lv2",
+            "exe"
+          ],
+          "type": "archive",
+          "size": 949697,
+          "sha256": "6d83c01a68c6e4788c2acfcd601166dce99986d521f0e11cf1883f0d141fb79f",
+          "url": "https://github.com/keithadler/hexter/releases/download/v2.9.1/hexter-2.9.1-windows-x86_64.zip",
+          "downloads": 22
+        }
+      ],
+      "verified": true,
+      "downloads": 91
+    }
+  },
+  "downloads": 91
+}
