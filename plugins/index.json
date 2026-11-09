@@ -41107,12 +41107,15 @@
             "type": "archive",
             "size": 4943846,
             "sha256": "173f775222991061291767724d57c7c21242a3c3254407b266aabd548df23dbb",
-            "url": "https://github.com/freepats/spanish-classical-guitar/releases/download/v1.0.0/SpanishClassicalGuitar-20190618.zip"
+            "url": "https://github.com/freepats/spanish-classical-guitar/releases/download/v1.0.0/SpanishClassicalGuitar-20190618.zip",
+            "downloads": 382
           }
         ],
-        "verified": true
+        "verified": true,
+        "downloads": 382
       }
-    }
+    },
+    "downloads": 382
   },
   "freepats/hang-d-minor": {
     "slug": "freepats/hang-d-minor",
@@ -48825,15 +48828,12 @@
             "type": "installer",
             "size": 32719501,
             "sha256": "9a742290d54ee397480bad3269a75d0da396e0dd8169668550cd12576b7b0bab",
-            "url": "https://github.com/cjitter/JCBTransient/releases/download/v1.0.1/JCBTransient-Installer.dmg",
-            "downloads": 13
+            "url": "https://github.com/cjitter/JCBTransient/releases/download/v1.0.1/JCBTransient-Installer.dmg"
           }
         ],
-        "verified": true,
-        "downloads": 13
+        "verified": true
       }
-    },
-    "downloads": 13
+    }
   },
   "cjitter/jcbreverb": {
     "slug": "cjitter/jcbreverb",
@@ -51283,6 +51283,127 @@
       }
     },
     "downloads": 42
+  },
+  "blubass/funkymooseamp": {
+    "slug": "blubass/funkymooseamp",
+    "version": "1.3.1",
+    "versions": {
+      "1.3.1": {
+        "name": "Funky Moose Amp",
+        "author": "Uwe Arthur Felchle",
+        "description": "Clean, punchy bass amp simulation plugin for funk, slap and modern bass tones, with compressor, octaver, envelope filter, phaser and chorus. Built with JUCE.",
+        "license": "mit",
+        "type": "effect",
+        "tags": [
+          "Bass",
+          "Amp",
+          "Bass Amp",
+          "Guitar Amp"
+        ],
+        "url": "https://github.com/blubass/FunkyMooseAmp",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/blubass/funkymooseamp/funkymooseamp.jpg",
+        "date": "2026-05-07T15:42:22Z",
+        "changes": "Fixed editor resizing persistence: supported hosts should now reopen the UI at the last saved size.",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "component"
+            ],
+            "type": "archive",
+            "size": 19693653,
+            "sha256": "a1de989a42e3cee8645c9e29cf55e9f83bf4ab9407669e6f311fc5e069def106",
+            "url": "https://github.com/blubass/FunkyMooseAmp/releases/download/v1.3.1/FunkyMooseAmp-macOS-AU.zip",
+            "downloads": 41
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "app"
+            ],
+            "type": "archive",
+            "size": 22375061,
+            "sha256": "a71494efca5d06b8e20a6341d38f2e0223add1c8dbb3cab098521a518351f3f7",
+            "url": "https://github.com/blubass/FunkyMooseAmp/releases/download/v1.3.1/FunkyMooseAmp-macOS-Standalone.zip",
+            "downloads": 25
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 19887042,
+            "sha256": "f5a59239066d4e0b198304136a810b50a974396fbdbd6cf5f3615df8fd9d3629",
+            "url": "https://github.com/blubass/FunkyMooseAmp/releases/download/v1.3.1/FunkyMooseAmp-macOS-VST3.zip",
+            "downloads": 30
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "exe"
+            ],
+            "type": "archive",
+            "size": 8200299,
+            "sha256": "ba6d4e74d33da0d613cb29363d82725d63b7b1ffc918f963be11e054c32f8efb",
+            "url": "https://github.com/blubass/FunkyMooseAmp/releases/download/v1.3.1/FunkyMooseAmp-Windows-Standalone.zip",
+            "downloads": 30
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 8187622,
+            "sha256": "72c4dbc3dfab6b1219166b0bd31d6e3cce087912417c87e3b49bcff2f9aec127",
+            "url": "https://github.com/blubass/FunkyMooseAmp/releases/download/v1.3.1/FunkyMooseAmp-Windows-VST3.zip",
+            "downloads": 47
+          }
+        ],
+        "verified": true,
+        "downloads": 173
+      }
+    },
+    "downloads": 173
   },
   "blubass/funky-moose-rootflow-synth": {
     "slug": "blubass/funky-moose-rootflow-synth",
