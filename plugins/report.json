@@ -3329,6 +3329,20 @@
       ]
     }
   },
+  "maurocosentino/lupex-analog-delay": {
+    "1.1.0": {
+      "recs": [
+        {
+          "field": "architectures",
+          "rec": "should support arm64"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Mac"
+        }
+      ]
+    }
+  },
   "matth-ewe-f/audio-plugin-delay-intervals": {
     "1.0.4": {
       "recs": [
@@ -5917,6 +5931,40 @@
         {
           "field": "systems",
           "rec": "should support Mac"
+        }
+      ]
+    }
+  },
+  "brummer10/smoothir": {
+    "0.3.0": {
+      "recs": [
+        {
+          "field": "url",
+          "rec": "not a supported format"
+        },
+        {
+          "field": "url",
+          "rec": "not a supported format"
+        },
+        {
+          "field": "url",
+          "rec": "requires manual installation steps, consider .deb and .rpm instead"
+        },
+        {
+          "field": "type",
+          "rec": "should match url field"
+        },
+        {
+          "field": "architectures",
+          "rec": "should support arm64"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Mac"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Windows"
         }
       ]
     }

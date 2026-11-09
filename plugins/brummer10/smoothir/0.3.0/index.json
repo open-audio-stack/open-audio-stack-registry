@@ -1,0 +1,75 @@
+{
+  "name": "SmoothIR",
+  "author": "Hermann",
+  "description": "Linear phase EQ based on impulse response processing, as a CLAP plugin and standalone app for Linux.",
+  "license": "bsd-3-clause",
+  "type": "effect",
+  "tags": [
+    "EQ",
+    "Equalizer",
+    "Linear Phase",
+    "Impulse Response"
+  ],
+  "url": "https://github.com/brummer10/SmoothIR",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/brummer10/smoothir/smoothir.jpg",
+  "date": "2026-05-20T05:47:53Z",
+  "changes": "SmoothIR v0.3 release: Linux standalone app (tar.xz and AppImage) and CLAP plugin.",
+  "files": [
+    {
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "elf"
+      ],
+      "type": "archive",
+      "size": 693120,
+      "sha256": "d7dd98eb70a8b2bd468e24f612b11226d927071721d4304fb0d27e64f1d13cb2",
+      "url": "https://github.com/brummer10/SmoothIR/releases/download/v0.3/SmoothIR-app-v0.3-linux-x86_64.tar.xz",
+      "downloads": 44
+    },
+    {
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "clap"
+      ],
+      "type": "archive",
+      "size": 2616596,
+      "sha256": "5d9f8b14c504557148c03d8c4b3c9830f8ca888f502c77031189621d4db9c613",
+      "url": "https://github.com/brummer10/SmoothIR/releases/download/v0.3/SmoothIR-v0.3-clap-linux-x86_64.tar.xz",
+      "downloads": 56
+    },
+    {
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "elf"
+      ],
+      "type": "installer",
+      "size": 6019576,
+      "sha256": "8a8a6187a52b5de2b293069ec7e780a1da604643267d5803a15aef345d198542",
+      "url": "https://github.com/brummer10/SmoothIR/releases/download/v0.3/SmoothIR-x86_64-v0.3.AppImage",
+      "downloads": 37
+    }
+  ],
+  "verified": true,
+  "downloads": 137
+}

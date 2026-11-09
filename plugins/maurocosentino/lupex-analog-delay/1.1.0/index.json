@@ -1,0 +1,57 @@
+{
+  "name": "Lupex Delay",
+  "author": "Mauro Cosentino",
+  "description": "Analog BBD-style delay VST3 plugin built with JUCE, inspired by classic bucket brigade pedals.",
+  "license": "mit",
+  "type": "effect",
+  "tags": [
+    "Analog",
+    "BBD",
+    "Delay",
+    "Pedal"
+  ],
+  "url": "https://github.com/maurocosentino/lupex-analog-delay",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/maurocosentino/lupex-analog-delay/lupex-analog-delay.jpg",
+  "date": "2026-05-01T01:12:11Z",
+  "changes": "Plugin renamed to Lupex Delay. Fixed BBDFilter state leak on reset, added a DC blocking filter to prevent output drift, and smooth bypass.",
+  "files": [
+    {
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3"
+      ],
+      "type": "archive",
+      "size": 4077998,
+      "sha256": "e1b49fa909b6f2b18e317b449e1aebe976fd033d40b57509b5b3336d21cdbc61",
+      "url": "https://github.com/maurocosentino/lupex-analog-delay/releases/download/v1.1.0/Lupex-Linux-VST3.zip",
+      "downloads": 172
+    },
+    {
+      "systems": [
+        {
+          "type": "win"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3"
+      ],
+      "type": "archive",
+      "size": 4268667,
+      "sha256": "d3a02e93782e6ccd49132a4a4328123ecd07109051418ce55cf71c3e435e9f11",
+      "url": "https://github.com/maurocosentino/lupex-analog-delay/releases/download/v1.1.0/Lupex-Windows-VST3.zip",
+      "downloads": 356
+    }
+  ],
+  "verified": true,
+  "downloads": 528
+}
