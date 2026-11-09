@@ -1,0 +1,36 @@
+name: UltraSynth
+author: Takamitsu Endo
+description: 'Ordinary synthesizer with 64-fold oversampling, the same as UltrasonicRingMod. The high oversampling gives good modulation sound but high CPU load.'
+license: gpl-3.0
+type: instrument
+tags:
+  - Synth
+  - Oversampling
+  - Uhhyou
+url: https://github.com/ryukau/VSTPlugins
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ryukau/ultrasynth/ultrasynth.jpg
+date: '2026-09-18T06:09:05Z'
+changes: 'Uhhyou Plugins 0.71.0: fixed resetting on some DAWs (reset is triggered in setProcessing and setActive).'
+files:
+  - systems:
+      - type: win
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - vst3
+    type: archive
+    size: 2702180
+    sha256: f03db15aceb24a5cf9a0c347025511bcd61fbdd3bf7905552e700232f7c12676
+    url: https://github.com/ryukau/VSTPlugins/releases/download/UhhyouPlugins0.71.0/UltraSynth_0.1.12.zip
+  - systems:
+      - type: mac
+    architectures:
+      - arm64
+      - x64
+    contains:
+      - vst3
+    type: archive
+    size: 1115868
+    sha256: 63f0f6001fa52b9e949352739e2fc8e19e3b092264e5c36dfbb9ad3ea348ae32
+    url: https://github.com/ryukau/VSTPlugins/releases/download/UhhyouPlugins0.71.0/UltraSynth_0.1.12_macOS.zip
