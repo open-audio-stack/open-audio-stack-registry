@@ -29917,6 +29917,91 @@
       },
       "downloads": 523
     },
+    "manaswolrd/sttr": {
+      "slug": "manaswolrd/sttr",
+      "version": "0.1.0",
+      "versions": {
+        "0.1.0": {
+          "name": "STTR",
+          "author": "ManasWolrd",
+          "description": "Short-time time reversal granular effect based on CCRMA research: adds harmonics above the original spectrum with reverse/forward playback, simple formant shifting and flexible window shaping.",
+          "license": "gpl-3.0",
+          "type": "effect",
+          "tags": [
+            "Granular",
+            "Time Reversal",
+            "Formant Shifter",
+            "Experimental"
+          ],
+          "url": "https://github.com/ManasWolrd/dev-plugins",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/manaswolrd/sttr/sttr.jpg",
+          "date": "2026-08-09T04:45:39Z",
+          "changes": "STTR 0.1.0 (breaking: window parameter changed; stretch parameter replaced by formant with a new range).",
+          "files": [
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "vst3",
+                "lv2"
+              ],
+              "type": "archive",
+              "size": 4670309,
+              "sha256": "b25f25891c3d6977681a58bf85dc0d6afa263881cd292a4595833d4d79a9c830",
+              "url": "https://github.com/ManasWolrd/dev-plugins/releases/download/STTR%400.1.0/STTR-v0.1.0-linux.zip",
+              "downloads": 101
+            },
+            {
+              "systems": [
+                {
+                  "type": "mac"
+                }
+              ],
+              "architectures": [
+                "arm64",
+                "x64"
+              ],
+              "contains": [
+                "vst3",
+                "component"
+              ],
+              "type": "archive",
+              "size": 7339958,
+              "sha256": "669366025df82296377803cb3cdf68520d5d164ed34c46907ee86e43a1252b46",
+              "url": "https://github.com/ManasWolrd/dev-plugins/releases/download/STTR%400.1.0/STTR-v0.1.0-macos.zip",
+              "downloads": 84
+            },
+            {
+              "systems": [
+                {
+                  "type": "win"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "vst3"
+              ],
+              "type": "archive",
+              "size": 2269049,
+              "sha256": "e23a02d0787c05984fbe6330ff8dbdc7dde27ceeafd1d099e95f077171f33340",
+              "url": "https://github.com/ManasWolrd/dev-plugins/releases/download/STTR%400.1.0/STTR-v0.1.0-win.zip",
+              "downloads": 142
+            }
+          ],
+          "verified": true,
+          "downloads": 327
+        }
+      },
+      "downloads": 327
+    },
     "manaswolrd/steepflanger": {
       "slug": "manaswolrd/steepflanger",
       "version": "0.2.1-separate",
@@ -52321,7 +52406,7 @@
               "size": 22194032,
               "sha256": "c1803ae57b717bab04ef2072c10284bcb7d44fbe352d42645075b0c6875c9aeb",
               "url": "https://github.com/Chowdhury-DSP/BYOD/releases/download/v1.3.0/BYOD-Linux-x64-1.3.0.deb",
-              "downloads": 7600
+              "downloads": 7601
             },
             {
               "systems": [
@@ -52365,10 +52450,10 @@
             }
           ],
           "verified": true,
-          "downloads": 34283
+          "downloads": 34284
         }
       },
-      "downloads": 34283
+      "downloads": 34284
     },
     "chmod666music/drumcloud": {
       "slug": "chmod666music/drumcloud",
