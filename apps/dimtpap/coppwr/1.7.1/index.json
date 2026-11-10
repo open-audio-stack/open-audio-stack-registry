@@ -1,0 +1,55 @@
+{
+  "name": "coppwr",
+  "author": "Dimitris Papaioannou",
+  "description": "Low level control GUI for the PipeWire multimedia server: graph editor, profiler, metadata editor and object creator.",
+  "license": "gpl-3.0",
+  "type": "tool",
+  "tags": [
+    "PipeWire",
+    "Utility",
+    "Graph",
+    "Profiler"
+  ],
+  "url": "https://github.com/dimtpap/coppwr",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/apps/dimtpap/coppwr/coppwr.jpg",
+  "date": "2025-12-06T11:19:48Z",
+  "changes": "coppwr 1.7.1: low level PipeWire control GUI (rpm and deb packages).",
+  "files": [
+    {
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [],
+      "type": "installer",
+      "size": 4857059,
+      "sha256": "5a30eb52bed3d5a049dc3f639a026579d654a2a7585206dd1fe934d8c7ad715f",
+      "url": "https://github.com/dimtpap/coppwr/releases/download/1.7.1/coppwr-1.7.1-1-x86_64.rpm",
+      "downloads": 116
+    },
+    {
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "elf"
+      ],
+      "type": "installer",
+      "size": 4461172,
+      "sha256": "d57fbebc4e80fdad3fb8434a6f6a5917b17604216b0787a0a6de3c35e7d15a2d",
+      "url": "https://github.com/dimtpap/coppwr/releases/download/1.7.1/coppwr-1.7.1-amd64.deb",
+      "downloads": 603
+    }
+  ],
+  "verified": true,
+  "downloads": 719
+}
