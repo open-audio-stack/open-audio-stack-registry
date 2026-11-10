@@ -1,0 +1,26 @@
+name: sjf_granSynth
+author: Simon Fay
+description: 'Granular synthesizer designed to create asynchronous clouds and textures from audio samples.'
+license: mit
+type: instrument
+tags:
+  - Granular
+  - Synth
+  - Sampler
+url: https://github.com/simohnf/sjf_granSynth
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/simohnf/sjf-gransynth/sjf-gransynth.jpg
+date: '2026-09-23T20:15:24Z'
+changes: 'sjf_granSynth v0.0.1: macOS installer (VST3 and AU).'
+files:
+  - systems:
+      - type: mac
+    architectures:
+      - arm64
+      - x64
+    contains:
+      - vst3
+      - component
+    type: installer
+    size: 5962068
+    sha256: af055f788f1132217634197d2968aced6ea802c4ddf2fc1472c24f2f464f6f82
+    url: https://github.com/simohnf/sjf_granSynth/releases/download/v0.0.1/sjf_granSynth.pkg
