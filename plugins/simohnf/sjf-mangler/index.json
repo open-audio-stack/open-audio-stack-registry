@@ -1,0 +1,47 @@
+{
+  "slug": "simohnf/sjf-mangler",
+  "version": "0.0.1",
+  "versions": {
+    "0.0.1": {
+      "name": "sjf_mangler",
+      "author": "Simon Fay",
+      "description": "Creates randomised variations of looped audio samples: reverse, speed, repeat, amplitude and shuffle controls with slicing and sync.",
+      "license": "mit",
+      "type": "effect",
+      "tags": [
+        "Sample Manipulation",
+        "Glitch",
+        "Randomizer"
+      ],
+      "url": "https://github.com/simohnf/sjf_mangler",
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/simohnf/sjf-mangler/sjf-mangler.jpg",
+      "date": "2026-09-23T19:15:35Z",
+      "changes": "sjf_mangler2 v0.0.1: macOS installer (VST3 and AU).",
+      "files": [
+        {
+          "systems": [
+            {
+              "type": "mac"
+            }
+          ],
+          "architectures": [
+            "arm64",
+            "x64"
+          ],
+          "contains": [
+            "vst3",
+            "component"
+          ],
+          "type": "installer",
+          "size": 6108858,
+          "sha256": "0125c7016af35f9be7fc32182b0a6ad52554ee4ddb2bc8e6fde02b6d3ffd2c6d",
+          "url": "https://github.com/simohnf/sjf_mangler/releases/download/v0.0.1/sjf_mangler2.pkg",
+          "downloads": 14
+        }
+      ],
+      "verified": true,
+      "downloads": 14
+    }
+  },
+  "downloads": 14
+}

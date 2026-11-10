@@ -1757,6 +1757,20 @@
       ]
     }
   },
+  "simohnf/sjf-mangler": {
+    "0.0.1": {
+      "recs": [
+        {
+          "field": "systems",
+          "rec": "should support Linux"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Windows"
+        }
+      ]
+    }
+  },
   "simohnf/sjf-gransynth": {
     "0.0.1": {
       "recs": [
