@@ -1,0 +1,24 @@
+name: Eternal Darkness
+author: Michael Hurst
+description: 'VST3 effect plugin for distorted and pitch-shifted reverberation, with reverb size, wet level, pitch, drive, filter and dry/wet controls.'
+license: mit
+type: effect
+tags:
+  - Reverb
+  - Pitch Shifter
+  - Distortion
+url: https://github.com/MichaelHurst97/Eternal-Darkness-VST
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/michaelhurst97/eternal-darkness-vst/eternal-darkness-vst.jpg
+date: '2024-07-24T15:19:26Z'
+changes: 'Release of the Eternal Darkness VST3 for Windows (version folder taken from the release date, 2024-07-24).'
+files:
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - vst3
+    type: archive
+    size: 5053440
+    sha256: 688e7b1de568e281c0668d2e51eee4217999ede8f7bda6548d26ea9b72715ab6
+    url: https://github.com/MichaelHurst97/Eternal-Darkness-VST/releases/download/Release/Eternal_Darkness.vst3
