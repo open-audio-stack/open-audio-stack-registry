@@ -1,0 +1,41 @@
+{
+  "name": "MS Exciter",
+  "author": "Kevin Kopczynski",
+  "description": "A JUCE based stereo expander and harmonic exciter using Mid-Side processing and tube-based distortion for increased stereo width and harmonic richness.",
+  "license": "mit",
+  "type": "effect",
+  "tags": [
+    "Stereo Widener",
+    "Exciter",
+    "Mid-Side",
+    "Distortion"
+  ],
+  "url": "https://github.com/KevinToodlepoot/MS-Exciter",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/kevintoodlepoot/ms-exciter/ms-exciter.jpg",
+  "date": "2023-01-21T21:44:07Z",
+  "changes": "First release of M/S Exciter, with the Mac package installer.",
+  "files": [
+    {
+      "systems": [
+        {
+          "type": "mac"
+        }
+      ],
+      "architectures": [
+        "arm64",
+        "x64"
+      ],
+      "contains": [
+        "vst3",
+        "component"
+      ],
+      "type": "installer",
+      "size": 9896026,
+      "sha256": "6dc88319a7c676f467966ac1e25057efea936dac69fb3a8a0c920aa529b82b51",
+      "url": "https://github.com/KevinToodlepoot/MS-Exciter/releases/download/1.0.0/MS-Exciter.pkg",
+      "downloads": 54
+    }
+  ],
+  "verified": true,
+  "downloads": 54
+}
