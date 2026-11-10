@@ -1,0 +1,45 @@
+name: Uhhyou Plugins JUCE
+author: ryukau
+description: 'Bundle of JUCE-based effects by Takamitsu Endo: AmplitudeModulator, ClickyTransient, EasyOverdrive, ShockFlanger, SlopeFilter and TwoBandStereo (VST3).'
+license: agpl-3.0
+type: effect
+tags:
+  - Uhhyou
+  - Bundle
+url: https://github.com/ryukau/UhhyouPluginsJuce
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/ryukau/uhhyoupluginsjuce/uhhyoupluginsjuce.jpg
+date: '2026-04-13T21:07:28Z'
+changes: 'Initial non-experimental release; internals overhauled.'
+files:
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - vst3
+    type: archive
+    size: 25777215
+    sha256: 09ac8733733ea28538d664aae9c4b22439b45ad0e59733f496dd296daf780d42
+    url: https://github.com/ryukau/UhhyouPluginsJuce/releases/download/UhhyouPluginsJuce0.2.0/UhhyouPlugins_Linux.zip
+  - systems:
+      - type: mac
+    architectures:
+      - arm64
+      - x64
+    contains:
+      - vst3
+      - component
+    type: archive
+    size: 79264072
+    sha256: ec17a984d40f3eae79fce6b8f337f8b3f1635ef62cb1e9cfc702cec8a16d9c6a
+    url: https://github.com/ryukau/UhhyouPluginsJuce/releases/download/UhhyouPluginsJuce0.2.0/UhhyouPlugins_macOS.zip
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - vst3
+    type: archive
+    size: 17206124
+    sha256: e01d328c058df852ade9b564bce64fa4b28878aea553897961209048e5623ae8
+    url: https://github.com/ryukau/UhhyouPluginsJuce/releases/download/UhhyouPluginsJuce0.2.0/UhhyouPlugins_Windows.zip
