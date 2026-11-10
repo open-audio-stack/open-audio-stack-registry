@@ -466,7 +466,7 @@
               "size": 29933512,
               "sha256": "d3be84003acb7c23e738ad7f70a158ec779a8d233a82e7fa3e717d112eb5b50f",
               "url": "https://github.com/Rikorose/DeepFilterNet/releases/download/v0.5.6/deep-filter-0.5.6-x86_64-apple-darwin",
-              "downloads": 3189
+              "downloads": 3190
             },
             {
               "systems": [
@@ -502,10 +502,10 @@
             }
           ],
           "verified": true,
-          "downloads": 200462
+          "downloads": 200463
         }
       },
-      "downloads": 200462
+      "downloads": 200463
     },
     "pkunk/pwrate": {
       "slug": "pkunk/pwrate",
@@ -734,6 +734,106 @@
         }
       },
       "downloads": 953
+    },
+    "lemonxah/zestbay": {
+      "slug": "lemonxah/zestbay",
+      "version": "1.2.3",
+      "versions": {
+        "1.2.3": {
+          "name": "ZestBay",
+          "author": "lemonxah",
+          "description": "PipeWire patchbay for Linux that visualizes your audio graph and hosts LV2, VST2, VST3 and CLAP effects, with per-plugin routing, subgraphs and rules.",
+          "license": "mit",
+          "type": "tool",
+          "tags": [
+            "PipeWire",
+            "Patchbay",
+            "Routing",
+            "Plugin Host"
+          ],
+          "url": "https://github.com/lemonxah/zestbay",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/apps/lemonxah/zestbay/zestbay.jpg",
+          "date": "2026-11-09T21:01:27Z",
+          "changes": "ZestBay 1.2.3: PipeWire patchbay and plugin host for Linux (rpm, deb for Debian 12/13, tar.gz).",
+          "files": [
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "elf"
+              ],
+              "type": "installer",
+              "size": 3751814,
+              "sha256": "cce891ddd2cd8af8259a5ad184e85c86068760bac1607ceb2cc9036f6d2d7792",
+              "url": "https://github.com/lemonxah/zestbay/releases/download/v1.2.3/zestbay-1.2.3-1.fc45.x86_64.rpm",
+              "downloads": 12
+            },
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "elf"
+              ],
+              "type": "archive",
+              "size": 4583315,
+              "sha256": "10df15714a1f0014a0a54fa9ea2364ec55817cf8fa149962faa228b89f3188ca",
+              "url": "https://github.com/lemonxah/zestbay/releases/download/v1.2.3/zestbay-1.2.3-x86_64-linux.tar.gz",
+              "downloads": 17
+            },
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "elf"
+              ],
+              "type": "installer",
+              "size": 3080116,
+              "sha256": "e7fa03fca39a7d657436c1801fb06a67d589c07a48579525340cc12018c31cc0",
+              "url": "https://github.com/lemonxah/zestbay/releases/download/v1.2.3/zestbay_1.2.3-debian12_amd64.deb",
+              "downloads": 12
+            },
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "elf"
+              ],
+              "type": "installer",
+              "size": 3162356,
+              "sha256": "8834aa324c5f7c0d0349fdd69d7c1f2ad701932e91058c04472badf2be23859a",
+              "url": "https://github.com/lemonxah/zestbay/releases/download/v1.2.3/zestbay_1.2.3-debian13_amd64.deb",
+              "downloads": 13
+            }
+          ],
+          "verified": true,
+          "downloads": 54
+        }
+      },
+      "downloads": 54
     },
     "juzzlin/noteahead": {
       "slug": "juzzlin/noteahead",
@@ -9309,7 +9409,7 @@
               "size": 15634131,
               "sha256": "24189919de96d6e5a4b80343ab4b664dc7ad5f7f049a06336da34559e4ddddbe",
               "url": "https://github.com/tiagolr/ripplerx/releases/download/v1.5.19/ripplerx-macos-v1.5.19.zip",
-              "downloads": 1083
+              "downloads": 1084
             },
             {
               "systems": [
@@ -9332,10 +9432,10 @@
             }
           ],
           "verified": true,
-          "downloads": 4911
+          "downloads": 4912
         }
       },
-      "downloads": 4911
+      "downloads": 4912
     },
     "tiagolr/reevr": {
       "slug": "tiagolr/reevr",
@@ -11653,7 +11753,7 @@
               "size": 349080230,
               "sha256": "aa57df9b79735db392b147e5ca6a9db7e9e9e5ba2907717aa055c501f3f59659",
               "url": "https://github.com/surge-synthesizer/releases-xt/releases/download/1.3.4/surge-xt-x86_64-1.3.4.rpm",
-              "downloads": 4598
+              "downloads": 4599
             },
             {
               "systems": [
@@ -11718,7 +11818,7 @@
             }
           ],
           "verified": true,
-          "downloads": 860265
+          "downloads": 860266
         },
         "1.3.1": {
           "name": "Surge XT",
@@ -11845,7 +11945,7 @@
           "downloads": 84633
         }
       },
-      "downloads": 944898
+      "downloads": 944899
     },
     "surge-synthesizer/ob-xf": {
       "slug": "surge-synthesizer/ob-xf",
@@ -11926,7 +12026,7 @@
               "size": 60657850,
               "sha256": "e6f52f453c476dfafbd3225b80c5c3ec341ec20be5748c6f70c01cef14e7e7a8",
               "url": "https://github.com/surge-synthesizer/OB-Xf/releases/download/v1.0.3/ob-xf-macOS-v1.0.3.dmg",
-              "downloads": 5009
+              "downloads": 5010
             },
             {
               "systems": [
@@ -12044,10 +12144,10 @@
             }
           ],
           "verified": true,
-          "downloads": 17726
+          "downloads": 17727
         }
       },
-      "downloads": 17726
+      "downloads": 17727
     },
     "surge-synthesizer/monique-monosynth": {
       "slug": "surge-synthesizer/monique-monosynth",
@@ -14242,14 +14342,14 @@
               "size": 81195920,
               "sha256": "9790d2dee5aee327dc4dbd69e43567ece833d41645a35f8adb05b3c39243cfd8",
               "url": "https://github.com/sonosaurus/sonobus/releases/download/1.7.2/sonobus-1.7.2-win.exe",
-              "downloads": 20485
+              "downloads": 20486
             }
           ],
           "verified": true,
-          "downloads": 42553
+          "downloads": 42554
         }
       },
-      "downloads": 42553
+      "downloads": 42554
     },
     "solidfuel/utility": {
       "slug": "solidfuel/utility",
@@ -44029,7 +44129,8 @@
               "type": "archive",
               "size": 32236084,
               "sha256": "6210163187344df99f88eb8e6be28ae4dcdd6c62a1d23a264d07c793345e824c",
-              "url": "https://github.com/floe-audio/Floe/releases/download/v2.0.1/Floe-VST3-v2.0.1-Linux.tar.gz"
+              "url": "https://github.com/floe-audio/Floe/releases/download/v2.0.1/Floe-VST3-v2.0.1-Linux.tar.gz",
+              "downloads": 28
             },
             {
               "systems": [
@@ -44046,7 +44147,8 @@
               "type": "archive",
               "size": 29467462,
               "sha256": "cadf6a7a5d526906d65c83996fbaa54c472a54a439a0d49396e28200842f465e",
-              "url": "https://github.com/floe-audio/Floe/releases/download/v2.0.1/Floe-CLAP-v2.0.1-Linux.tar.gz"
+              "url": "https://github.com/floe-audio/Floe/releases/download/v2.0.1/Floe-CLAP-v2.0.1-Linux.tar.gz",
+              "downloads": 17
             },
             {
               "systems": [
@@ -44066,7 +44168,8 @@
               "type": "archive",
               "size": 33596401,
               "sha256": "7be0abcc1c6138c3f44e1bad47bba169cc0aec234e7de387ca40fa2af4050246",
-              "url": "https://github.com/floe-audio/Floe/releases/download/v2.0.1/Floe-Installer-v2.0.1-macOS-Apple-Silicon.zip"
+              "url": "https://github.com/floe-audio/Floe/releases/download/v2.0.1/Floe-Installer-v2.0.1-macOS-Apple-Silicon.zip",
+              "downloads": 73
             },
             {
               "systems": [
@@ -44086,7 +44189,8 @@
               "type": "archive",
               "size": 34132898,
               "sha256": "2c8805e4c1434cde9f7d4f352664f210d45ac7ae0733901eec982239ad58ee33",
-              "url": "https://github.com/floe-audio/Floe/releases/download/v2.0.1/Floe-Installer-v2.0.1-macOS-Intel.zip"
+              "url": "https://github.com/floe-audio/Floe/releases/download/v2.0.1/Floe-Installer-v2.0.1-macOS-Intel.zip",
+              "downloads": 5
             },
             {
               "systems": [
@@ -44106,7 +44210,8 @@
               "type": "archive",
               "size": 33823718,
               "sha256": "3b529ae4429c7bd549f60f0fe36c2048f5a93857d40c9705966c03a133b46329",
-              "url": "https://github.com/floe-audio/Floe/releases/download/v2.0.1/Floe-Manual-Install-v2.0.1-macOS-Apple-Silicon.zip"
+              "url": "https://github.com/floe-audio/Floe/releases/download/v2.0.1/Floe-Manual-Install-v2.0.1-macOS-Apple-Silicon.zip",
+              "downloads": 10
             },
             {
               "systems": [
@@ -44126,7 +44231,8 @@
               "type": "archive",
               "size": 34372178,
               "sha256": "dad263a978292857f577810e5738d175ce3bc259e078a5a6782f14c93df3e7aa",
-              "url": "https://github.com/floe-audio/Floe/releases/download/v2.0.1/Floe-Manual-Install-v2.0.1-macOS-Intel.zip"
+              "url": "https://github.com/floe-audio/Floe/releases/download/v2.0.1/Floe-Manual-Install-v2.0.1-macOS-Intel.zip",
+              "downloads": 15
             },
             {
               "systems": [
@@ -44144,7 +44250,8 @@
               "type": "archive",
               "size": 71323777,
               "sha256": "0537fdcfe014242daab8e0fe697f09e47e2f535e1f0381cfe5439951b2b512ba",
-              "url": "https://github.com/floe-audio/Floe/releases/download/v2.0.1/Floe-Installer-v2.0.1-Windows.zip"
+              "url": "https://github.com/floe-audio/Floe/releases/download/v2.0.1/Floe-Installer-v2.0.1-Windows.zip",
+              "downloads": 337
             },
             {
               "systems": [
@@ -44162,12 +44269,15 @@
               "type": "archive",
               "size": 59727596,
               "sha256": "560e27c38efacafc5279aa9d0b096d1c89962b5ed54c2e2b2ef6f43716770929",
-              "url": "https://github.com/floe-audio/Floe/releases/download/v2.0.1/Floe-Manual-Install-v2.0.1-Windows.zip"
+              "url": "https://github.com/floe-audio/Floe/releases/download/v2.0.1/Floe-Manual-Install-v2.0.1-Windows.zip",
+              "downloads": 28
             }
           ],
-          "verified": true
+          "verified": true,
+          "downloads": 513
         }
-      }
+      },
+      "downloads": 513
     },
     "flarkflarkflark/audiorestorationvst": {
       "slug": "flarkflarkflark/audiorestorationvst",
@@ -51734,15 +51844,12 @@
               "type": "installer",
               "size": 34029113,
               "sha256": "c971a665c770e20df4bc029f2356b82924cf85f35869f8be5661eb2a169f15ec",
-              "url": "https://github.com/cjitter/JCBImager/releases/download/v1.0.2/JCBImager-Installer.dmg",
-              "downloads": 14
+              "url": "https://github.com/cjitter/JCBImager/releases/download/v1.0.2/JCBImager-Installer.dmg"
             }
           ],
-          "verified": true,
-          "downloads": 14
+          "verified": true
         }
-      },
-      "downloads": 14
+      }
     },
     "cjitter/jcbexpander": {
       "slug": "cjitter/jcbexpander",
@@ -52151,7 +52258,7 @@
               "size": 5112948,
               "sha256": "71aaae1c454ac83ac16b248d4cc99c12bf6d11452a87376fcb6b1e79060e3a5c",
               "url": "https://github.com/jatinchowdhury18/AnalogTapeModel/releases/download/v2.11.4/ChowTapeModel-Linux-x64-2.11.4.deb",
-              "downloads": 10984
+              "downloads": 10985
             },
             {
               "systems": [
@@ -52197,10 +52304,10 @@
             }
           ],
           "verified": false,
-          "downloads": 124464
+          "downloads": 124465
         }
       },
-      "downloads": 124464
+      "downloads": 124465
     },
     "chowdhury-dsp/chowmultitool": {
       "slug": "chowdhury-dsp/chowmultitool",
@@ -59405,14 +59512,14 @@
               "size": 4208886,
               "sha256": "02e504aa26b92fb5b591d8cb4e473a4f02d756c3f1f51f866e0e555a6f287c3f",
               "url": "https://github.com/a2aaron/nyasynth/releases/download/1.0/Nyasynth.1.0.Windows.x86-64.zip",
-              "downloads": 9884
+              "downloads": 9885
             }
           ],
           "verified": true,
-          "downloads": 17606
+          "downloads": 17607
         }
       },
-      "downloads": 17606
+      "downloads": 17607
     },
     "a-n-t-h-o-n-y/xensequencer": {
       "slug": "a-n-t-h-o-n-y/xensequencer",

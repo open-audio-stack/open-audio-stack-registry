@@ -1,0 +1,55 @@
+name: ZestBay
+author: lemonxah
+description: 'PipeWire patchbay for Linux that visualizes your audio graph and hosts LV2, VST2, VST3 and CLAP effects, with per-plugin routing, subgraphs and rules.'
+license: mit
+type: tool
+tags:
+  - PipeWire
+  - Patchbay
+  - Routing
+  - Plugin Host
+url: https://github.com/lemonxah/zestbay
+image: https://open-audio-stack.github.io/open-audio-stack-registry/apps/lemonxah/zestbay/zestbay.jpg
+date: '2026-11-09T21:01:27Z'
+changes: 'ZestBay 1.2.3: PipeWire patchbay and plugin host for Linux (rpm, deb for Debian 12/13, tar.gz).'
+files:
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - elf
+    type: installer
+    size: 3751814
+    sha256: cce891ddd2cd8af8259a5ad184e85c86068760bac1607ceb2cc9036f6d2d7792
+    url: https://github.com/lemonxah/zestbay/releases/download/v1.2.3/zestbay-1.2.3-1.fc45.x86_64.rpm
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - elf
+    type: archive
+    size: 4583315
+    sha256: 10df15714a1f0014a0a54fa9ea2364ec55817cf8fa149962faa228b89f3188ca
+    url: https://github.com/lemonxah/zestbay/releases/download/v1.2.3/zestbay-1.2.3-x86_64-linux.tar.gz
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - elf
+    type: installer
+    size: 3080116
+    sha256: e7fa03fca39a7d657436c1801fb06a67d589c07a48579525340cc12018c31cc0
+    url: https://github.com/lemonxah/zestbay/releases/download/v1.2.3/zestbay_1.2.3-debian12_amd64.deb
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - elf
+    type: installer
+    size: 3162356
+    sha256: 8834aa324c5f7c0d0349fdd69d7c1f2ad701932e91058c04472badf2be23859a
+    url: https://github.com/lemonxah/zestbay/releases/download/v1.2.3/zestbay_1.2.3-debian13_amd64.deb
