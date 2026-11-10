@@ -21819,6 +21819,71 @@
       },
       "downloads": 64
     },
+    "preset741/frequency-shifter": {
+      "slug": "preset741/frequency-shifter",
+      "version": "0.2.3",
+      "versions": {
+        "0.2.3": {
+          "name": "Holy Shifter",
+          "author": "preset741",
+          "description": "Frequency shifter and spectral in-key effect (VST3, AU) from Heathen Machines: shifts all frequencies by a fixed Hz amount while keeping the result musical with scale quantization.",
+          "license": "mit",
+          "type": "effect",
+          "tags": [
+            "Frequency Shifter",
+            "Scale Quantizer",
+            "Spectral"
+          ],
+          "url": "https://github.com/preset741/frequency-shifter",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/preset741/frequency-shifter/frequency-shifter.jpg",
+          "date": "2026-06-21T11:36:28Z",
+          "changes": "Holy Shifter v0.2.3 (Heathen Machines): universal macOS and Windows frequency shifter.",
+          "files": [
+            {
+              "systems": [
+                {
+                  "type": "win"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "vst3"
+              ],
+              "type": "archive",
+              "size": 7502938,
+              "sha256": "54b65ca5bc3b18e8feadec1e5ee9050edcdd81919c08ae45968aae54d0781261",
+              "url": "https://github.com/preset741/frequency-shifter/releases/download/v0.2.3/Holy.Shifter.v0.2.3-Windows-VST3.zip",
+              "downloads": 8
+            },
+            {
+              "systems": [
+                {
+                  "type": "mac"
+                }
+              ],
+              "architectures": [
+                "arm64",
+                "x64"
+              ],
+              "contains": [
+                "vst3",
+                "component"
+              ],
+              "type": "installer",
+              "size": 36326377,
+              "sha256": "0512219c39c567f5562c687118641b4504a74218f43b04ff2e36555c8e88cba3",
+              "url": "https://github.com/preset741/frequency-shifter/releases/download/v0.2.3/Holy.Shifter.v0.2.3.pkg",
+              "downloads": 8
+            }
+          ],
+          "verified": true,
+          "downloads": 16
+        }
+      },
+      "downloads": 16
+    },
     "powerpcme/prism": {
       "slug": "powerpcme/prism",
       "version": "1.0.3",
