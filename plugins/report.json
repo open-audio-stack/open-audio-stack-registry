@@ -6267,6 +6267,28 @@
       ]
     }
   },
+  "azteriisk/spectralsubtractor": {
+    "0.0.1": {
+      "recs": [
+        {
+          "field": "url",
+          "rec": "not a supported format"
+        },
+        {
+          "field": "architectures",
+          "rec": "should support arm64"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Linux"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Mac"
+        }
+      ]
+    }
+  },
   "awallenfang/delax": {
     "0.2.0": {
       "recs": [

@@ -1,0 +1,47 @@
+{
+  "azteriisk/spectralsubtractor": {
+    "slug": "azteriisk/spectralsubtractor",
+    "version": "0.0.1",
+    "versions": {
+      "0.0.1": {
+        "name": "Spectral Subtractor",
+        "author": "Alec",
+        "description": "A Real-Time Spectral Subtraction VST3 Plugin & Audio Analysis Study built with JUCE",
+        "license": "mit",
+        "type": "effect",
+        "tags": [
+          "Noise Reduction",
+          "Spectral",
+          "Denoiser"
+        ],
+        "url": "https://github.com/Azteriisk/SpectralSubtractor",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/azteriisk/spectralsubtractor/spectralsubtractor.jpg",
+        "date": "2026-01-29T05:19:21Z",
+        "changes": "Initial release of the real-time spectral subtraction VST3 plugin.",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 6910464,
+            "sha256": "691670c402647da407f0da8f446181e917f0f5fd87e56fcc940e737263093c18",
+            "url": "https://github.com/Azteriisk/SpectralSubtractor/releases/download/0.0.1/SpectralSubtrator.vst3",
+            "downloads": 17
+          }
+        ],
+        "verified": true,
+        "downloads": 17
+      }
+    },
+    "downloads": 17
+  }
+}
