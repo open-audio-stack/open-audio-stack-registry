@@ -1,4 +1,51 @@
 {
+  "simohnf/sjf-verb": {
+    "slug": "simohnf/sjf-verb",
+    "version": "0.0.1",
+    "versions": {
+      "0.0.1": {
+        "name": "sjf_verb",
+        "author": "Simon Fay",
+        "description": "Algorithmic reverb based on feedback delay networks, with an optional shimmer effect.",
+        "license": "mit",
+        "type": "effect",
+        "tags": [
+          "Reverb",
+          "Shimmer",
+          "FDN"
+        ],
+        "url": "https://github.com/simohnf/sjf_verb",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/simohnf/sjf-verb/sjf-verb.jpg",
+        "date": "2026-09-23T20:19:00Z",
+        "changes": "sjf_verb v0.0.1: macOS installer (VST3 and AU).",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "component"
+            ],
+            "type": "installer",
+            "size": 23307700,
+            "sha256": "8b6179b5541bd03335f0d4a17114a276e3026976013d94ca6874a8cc74439e34",
+            "url": "https://github.com/simohnf/sjf_verb/releases/download/v0.0.1/sjf_verb.pkg",
+            "downloads": 10
+          }
+        ],
+        "verified": true,
+        "downloads": 10
+      }
+    },
+    "downloads": 10
+  },
   "simohnf/sjf-gransynth": {
     "slug": "simohnf/sjf-gransynth",
     "version": "0.0.1",
