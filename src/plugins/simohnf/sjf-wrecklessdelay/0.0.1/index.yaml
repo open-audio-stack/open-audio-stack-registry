@@ -1,0 +1,26 @@
+name: sjf_wrecklessDelay
+author: Simon Fay
+description: 'Stereo delay with pitch shifting, overdrive and modulation.'
+license: mit
+type: effect
+tags:
+  - Delay
+  - Pitch Shifter
+  - Overdrive
+url: https://github.com/simohnf/sjf_wrecklessDelay
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/simohnf/sjf-wrecklessdelay/sjf-wrecklessdelay.jpg
+date: '2026-09-23T20:13:56Z'
+changes: 'sjf_wrecklessDelay v0.0.1: macOS installer (VST3 and AU).'
+files:
+  - systems:
+      - type: mac
+    architectures:
+      - arm64
+      - x64
+    contains:
+      - vst3
+      - component
+    type: installer
+    size: 15287594
+    sha256: b5c9e61c1640e01a42375ba9e042014ca0806ff425ae43d7f9be7047f69dbb20
+    url: https://github.com/simohnf/sjf_wrecklessDelay/releases/download/v0.0.1/sjf_wrecklessDelay.pkg
