@@ -482,7 +482,7 @@
               "size": 26912256,
               "sha256": "75e11fa16445f560cb6b021521ddb89e89270d13b83089705d98776f58fd7915",
               "url": "https://github.com/Rikorose/DeepFilterNet/releases/download/v0.5.6/deep-filter-0.5.6-x86_64-pc-windows-msvc.exe",
-              "downloads": 43581
+              "downloads": 43583
             },
             {
               "systems": [
@@ -498,14 +498,14 @@
               "size": 36417296,
               "sha256": "70775e251eee44c0f2451a1e833326cf8bcbbe304d3e7cd12851e6fce72ef7da",
               "url": "https://github.com/Rikorose/DeepFilterNet/releases/download/v0.5.6/deep-filter-0.5.6-x86_64-unknown-linux-musl",
-              "downloads": 118785
+              "downloads": 118793
             }
           ],
           "verified": true,
-          "downloads": 201130
+          "downloads": 201140
         }
       },
-      "downloads": 201130
+      "downloads": 201140
     },
     "pkunk/pwrate": {
       "slug": "pkunk/pwrate",
@@ -15629,14 +15629,14 @@
               "size": 10349826,
               "sha256": "83e2825241d4e1c0ab2c44c91c0a9be6a94941a81df0c2fbe05e83b2650470da",
               "url": "https://github.com/Sinuslabs/Reach/releases/download/1.6.6/Reach-Windows.exe",
-              "downloads": 218009
+              "downloads": 218012
             }
           ],
           "verified": true,
-          "downloads": 220116
+          "downloads": 220119
         }
       },
-      "downloads": 220116
+      "downloads": 220119
     },
     "simohnf/sjf-wrecklessdelay": {
       "slug": "simohnf/sjf-wrecklessdelay",
@@ -44461,7 +44461,8 @@
               "type": "installer",
               "size": 10041848,
               "sha256": "902bbe66aff22af38749f4dc246e8ea2979d2c5148d42509d14cf0a34a7c6104",
-              "url": "https://github.com/flarkflarkflark/AudioRestorationVST/releases/download/v1.6.35/AudioRestoration-Linux-v1.6.35-Portable.AppImage"
+              "url": "https://github.com/flarkflarkflark/AudioRestorationVST/releases/download/v1.6.35/AudioRestoration-Linux-v1.6.35-Portable.AppImage",
+              "downloads": 26
             },
             {
               "systems": [
@@ -44478,7 +44479,8 @@
               "type": "archive",
               "size": 15761870,
               "sha256": "500a9e97257a28b424389a33c2dc944f38dfebfbb0ad1e2c099fa0fa66db30de",
-              "url": "https://github.com/flarkflarkflark/AudioRestorationVST/releases/download/v1.6.35/AudioRestoration-Linux-v1.6.35-Standalone.zip"
+              "url": "https://github.com/flarkflarkflark/AudioRestorationVST/releases/download/v1.6.35/AudioRestoration-Linux-v1.6.35-Standalone.zip",
+              "downloads": 25
             },
             {
               "systems": [
@@ -44495,7 +44497,8 @@
               "type": "archive",
               "size": 14225955,
               "sha256": "9354b4d13d2088b1278e7ca89066defbb80d05d391df3b72998c371fee5510e3",
-              "url": "https://github.com/flarkflarkflark/AudioRestorationVST/releases/download/v1.6.35/AudioRestoration-Linux-v1.6.35-VST3.zip"
+              "url": "https://github.com/flarkflarkflark/AudioRestorationVST/releases/download/v1.6.35/AudioRestoration-Linux-v1.6.35-VST3.zip",
+              "downloads": 47
             },
             {
               "systems": [
@@ -44513,7 +44516,8 @@
               "type": "archive",
               "size": 17722655,
               "sha256": "e7e37bdc5eb7e0d9963e37099aa2ea6429b2eb70f1d7a583e38c701f7e0c7558",
-              "url": "https://github.com/flarkflarkflark/AudioRestorationVST/releases/download/v1.6.35/AudioRestoration-macOS-Universal-Ventura-v1.6.35-VST3.zip"
+              "url": "https://github.com/flarkflarkflark/AudioRestorationVST/releases/download/v1.6.35/AudioRestoration-macOS-Universal-Ventura-v1.6.35-VST3.zip",
+              "downloads": 43
             },
             {
               "systems": [
@@ -44531,7 +44535,8 @@
               "type": "installer",
               "size": 22605516,
               "sha256": "6cac362dc95f37d3b26c9ad6f757ad882dfa0aa97d64120cd779b759a94230ac",
-              "url": "https://github.com/flarkflarkflark/AudioRestorationVST/releases/download/v1.6.35/AudioRestoration-macOS-v1.6.35-Portable.dmg"
+              "url": "https://github.com/flarkflarkflark/AudioRestorationVST/releases/download/v1.6.35/AudioRestoration-macOS-v1.6.35-Portable.dmg",
+              "downloads": 35
             },
             {
               "systems": [
@@ -44548,7 +44553,8 @@
               "type": "archive",
               "size": 9078871,
               "sha256": "c2cce235e50475542b457307286ee8f6037c9d57f6c51d499e3f3331899b7e60",
-              "url": "https://github.com/flarkflarkflark/AudioRestorationVST/releases/download/v1.6.35/AudioRestoration-Windows-v1.6.35-Standalone.zip"
+              "url": "https://github.com/flarkflarkflark/AudioRestorationVST/releases/download/v1.6.35/AudioRestoration-Windows-v1.6.35-Standalone.zip",
+              "downloads": 86
             },
             {
               "systems": [
@@ -44565,12 +44571,15 @@
               "type": "archive",
               "size": 13993026,
               "sha256": "5b78475bc9a492fd6d0049e5790d377dd3b69a7dd8ac81a0220d279f0186279c",
-              "url": "https://github.com/flarkflarkflark/AudioRestorationVST/releases/download/v1.6.35/AudioRestoration-Windows-v1.6.35-VST3.zip"
+              "url": "https://github.com/flarkflarkflark/AudioRestorationVST/releases/download/v1.6.35/AudioRestoration-Windows-v1.6.35-VST3.zip",
+              "downloads": 132
             }
           ],
-          "verified": true
+          "verified": true,
+          "downloads": 394
         }
-      }
+      },
+      "downloads": 394
     },
     "filter87/vst-analogchannel": {
       "slug": "filter87/vst-analogchannel",
@@ -45499,6 +45508,86 @@
               "size": 31388044,
               "sha256": "c068e54697ff39df687a5199e285e5834c4723fa768595a00c4bede43f32dfeb",
               "url": "https://github.com/FigBug/mverb/releases/download/v1.1.5/Mverb2020.pkg"
+            }
+          ],
+          "verified": true
+        }
+      }
+    },
+    "fcaspe/besselstrick": {
+      "slug": "fcaspe/besselstrick",
+      "version": "0.12.0",
+      "versions": {
+        "0.12.0": {
+          "name": "Bessel's Trick",
+          "author": "Franco Caspe",
+          "description": "Neural audio plugin for really-real-time FM tone transfer: a 6-operator, DX7-style FM synth controlled from an audio input (voice, violin, guitar, trumpet), with 1.3 ms inference latency and pretrained sounds.",
+          "license": "gpl-3.0",
+          "type": "instrument",
+          "tags": [
+            "FM",
+            "Synth",
+            "Audio Input",
+            "Neural Network",
+            "Tone Transfer"
+          ],
+          "url": "https://github.com/fcaspe/BesselsTrick",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/fcaspe/besselstrick/besselstrick.jpg",
+          "date": "2023-10-22T12:38:45Z",
+          "changes": "v0.12: increased compatibility with older CPUs. For minimum latency run at the smallest block size your system allows (ideally 64 samples).",
+          "files": [
+            {
+              "systems": [
+                {
+                  "type": "mac"
+                }
+              ],
+              "architectures": [
+                "arm64"
+              ],
+              "contains": [
+                "vst3",
+                "component"
+              ],
+              "type": "archive",
+              "size": 73240438,
+              "sha256": "4b8086d8aaab51f127bdbb0ca7a3da7763404a5ee10a33fcc7f8f041a6f10125",
+              "url": "https://github.com/fcaspe/BesselsTrick/releases/download/v0.12/BesselsTrick_MacOS_arm64.zip"
+            },
+            {
+              "systems": [
+                {
+                  "type": "mac"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "vst3",
+                "component"
+              ],
+              "type": "archive",
+              "size": 238078400,
+              "sha256": "b8a1571e64e85bad82f025c3810f5c512ed487c4c086855fc1e0b4fa20860cfe",
+              "url": "https://github.com/fcaspe/BesselsTrick/releases/download/v0.12/BesselsTrick_MacOS_intel.zip"
+            },
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "vst3"
+              ],
+              "type": "archive",
+              "size": 172022729,
+              "sha256": "fd2086a73b52e97ad3a52554d213fe24cdb6c923cd9903fea064ffde730d0f58",
+              "url": "https://github.com/fcaspe/BesselsTrick/releases/download/v0.12/BesselsTrick_Ubuntu.zip"
             }
           ],
           "verified": true
