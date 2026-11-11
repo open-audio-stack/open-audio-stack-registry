@@ -1,0 +1,81 @@
+name: dm-SD1
+author: Dave Mollen
+description: Overdrive plugin
+license: gpl-3.0
+type: effect
+tags:
+  - overdrive
+  - Au
+url: https://github.com/davemollen/dm-SD1
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/davemollen/dm-sd1/dm-sd1.jpg
+date: '2026-10-30T14:33:26Z'
+changes: "Plugin changes:\r\n* Lower CPU usage on filter calculations\r\n* Reset internal state on activation\r\n\r\nLV2 / MOD plugin changes only:\r\n* Fades are applied when bypass is turned on and off\r\n* Processing is skipped when bypass is active for lower CPU usage"
+files:
+  - systems:
+      - type: mac
+    architectures:
+      - arm64
+      - x64
+    contains:
+      - vst3
+      - component
+      - clap
+      - lv2
+    type: archive
+    size: 21338676
+    sha256: e5e238eef29d4616b583532a7f852d7d7e687e153823689916e439aae72bc76e
+    url: https://github.com/davemollen/dm-SD1/releases/download/v0.1.1/dm-SD1-macos.zip
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - lv2
+    type: archive
+    size: 924450
+    sha256: fedcd52aad132395f78a6337ec9da1f0b009ed468311fb905ba9eba350452bc1
+    url: https://github.com/davemollen/dm-SD1/releases/download/v0.1.1/dm-SD1-modduo-new.zip
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - lv2
+    type: archive
+    size: 912773
+    sha256: ef88aba5432ce30b76dc666eb36a51dbc618a54109e456209d986e2bd8df37f0
+    url: https://github.com/davemollen/dm-SD1/releases/download/v0.1.1/dm-SD1-modduox-new.zip
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - lv2
+    type: archive
+    size: 912440
+    sha256: 2d83a7254618a596682956f92b9a21502e4e78b827e0d26b83d96c630539ebe3
+    url: https://github.com/davemollen/dm-SD1/releases/download/v0.1.1/dm-SD1-moddwarf-new.zip
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - vst3
+      - clap
+      - lv2
+    type: archive
+    size: 8001488
+    sha256: 270f611bb46c9182a16d4cb3d4f520088c41abe0a0c2269a1adda329cd18c6e4
+    url: https://github.com/davemollen/dm-SD1/releases/download/v0.1.1/dm-SD1-ubuntu.zip
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - vst3
+      - clap
+      - lv2
+    type: archive
+    size: 7371283
+    sha256: 84ec74444a2b46f905635729822158db7c30da70d964de0e952fea8b59995a4b
+    url: https://github.com/davemollen/dm-SD1/releases/download/v0.1.1/dm-SD1-windows.zip
