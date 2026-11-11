@@ -1,0 +1,76 @@
+{
+  "name": "VitalReverb",
+  "author": "ManasWolrd",
+  "description": "Port of the Reverb plugin from the Vital synthesizer, with SIMD dispatch (VST3, LV2, AU).",
+  "license": "gpl-3.0",
+  "type": "effect",
+  "tags": [
+    "Reverb",
+    "Vital"
+  ],
+  "url": "https://github.com/ManasWolrd/dev-plugins",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/manaswolrd/vitalreverb/vitalreverb.jpg",
+  "date": "2026-08-02T14:20:30Z",
+  "changes": "VitalReverb 0.2.6: SIMD dispatch. Breaking change: parameter IDs changed, so finish existing projects with the old version first.",
+  "files": [
+    {
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3",
+        "lv2"
+      ],
+      "type": "archive",
+      "size": 4703816,
+      "sha256": "06d02c5560805ddb72692d3d9d472eca8a4e2e40bdf0fdffa58a54dcdcd652e2",
+      "url": "https://github.com/ManasWolrd/dev-plugins/releases/download/VitalReverb%400.2.6/VitalReverb-v0.2.6-linux.zip",
+      "downloads": 62
+    },
+    {
+      "systems": [
+        {
+          "type": "mac"
+        }
+      ],
+      "architectures": [
+        "arm64",
+        "x64"
+      ],
+      "contains": [
+        "vst3",
+        "component"
+      ],
+      "type": "archive",
+      "size": 7335046,
+      "sha256": "4c415d81463b0716f225c5987206045187d9e613154ebae70a84346292b6cf8c",
+      "url": "https://github.com/ManasWolrd/dev-plugins/releases/download/VitalReverb%400.2.6/VitalReverb-v0.2.6-macos.zip",
+      "downloads": 25
+    },
+    {
+      "systems": [
+        {
+          "type": "win"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3"
+      ],
+      "type": "archive",
+      "size": 2281736,
+      "sha256": "7149070447195c65dee25ccee943fe55cd6bd0bb310ee0f8ab27e304118708f9",
+      "url": "https://github.com/ManasWolrd/dev-plugins/releases/download/VitalReverb%400.2.6/VitalReverb-v0.2.6-win.zip",
+      "downloads": 66
+    }
+  ],
+  "verified": true,
+  "downloads": 153
+}
