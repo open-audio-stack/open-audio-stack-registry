@@ -336,6 +336,180 @@
     },
     "downloads": 93
   },
+  "anclark/classicmasterlimiter-re01": {
+    "slug": "anclark/classicmasterlimiter-re01",
+    "version": "1.1.1",
+    "versions": {
+      "1.1.1": {
+        "name": "Classic Master Limiter RE-01",
+        "author": "AnClark Liu",
+        "description": "Reverse-engineered reimplementation of Kjaerhus Audio Classic Master Limiter, a light-weight vintage-style limiter, as VST3, CLAP and VST2.",
+        "license": "gpl-3.0",
+        "type": "effect",
+        "tags": [
+          "Limiter",
+          "Emulation",
+          "Classic Master Limiter",
+          "Kjaerhus Classic Master Limiter"
+        ],
+        "url": "https://github.com/AnClark/ClassicMasterLimiter-RE01",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/anclark/classicmasterlimiter-re01/classicmasterlimiter-re01.jpg",
+        "date": "2026-11-10T15:02:55Z",
+        "changes": "Classic Master Limiter RE-01 v1.1.1: macOS, Linux and Windows builds.",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "clap",
+              "vst"
+            ],
+            "type": "installer",
+            "size": 8759066,
+            "sha256": "933d6875b3b42f40beba9f80ae6432ae421ff2e68682faa3dec42248e9c3c75f",
+            "url": "https://github.com/AnClark/ClassicMasterLimiter-RE01/releases/download/v1.1.1/ClassicMasterLimiter-arm64-macOS-1.1.1-98c2ae3d.pkg",
+            "downloads": 2
+          },
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "clap"
+            ],
+            "type": "archive",
+            "size": 4920364,
+            "sha256": "444c9534b02fb051c5f72100663bc505458b17d8ef1d79a2bd691eeac9cf6938",
+            "url": "https://github.com/AnClark/ClassicMasterLimiter-RE01/releases/download/v1.1.1/ClassicMasterLimiter-x86_64-Linux-1.1.1-98c2ae3d.zip",
+            "downloads": 2
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "clap"
+            ],
+            "type": "archive",
+            "size": 5889564,
+            "sha256": "3b3f2040d241b152ef5105c5f858bf52faaef9e4ad55837aa02854fe699290ea",
+            "url": "https://github.com/AnClark/ClassicMasterLimiter-RE01/releases/download/v1.1.1/ClassicMasterLimiter-x86_64-Windows-1.1.1-98c2ae3d.zip",
+            "downloads": 3
+          }
+        ],
+        "verified": true,
+        "downloads": 7
+      }
+    },
+    "downloads": 7
+  },
+  "anclark/classicflanger-re01": {
+    "slug": "anclark/classicflanger-re01",
+    "version": "1.1.0",
+    "versions": {
+      "1.1.0": {
+        "name": "Classic Flanger RE-01",
+        "author": "AnClark Liu",
+        "description": "Reverse-engineered reimplementation of Kjaerhus Audio Classic Flanger as VST3, CLAP and VST2.",
+        "license": "gpl-3.0",
+        "type": "effect",
+        "tags": [
+          "Flanger",
+          "Emulation",
+          "Classic Flanger",
+          "Kjaerhus Classic Flanger"
+        ],
+        "url": "https://github.com/AnClark/ClassicFlanger-RE01",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/anclark/classicflanger-re01/classicflanger-re01.jpg",
+        "date": "2026-11-10T14:43:23Z",
+        "changes": "Classic Flanger RE-01 v1.1.0: macOS, Linux and Windows builds.",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "clap",
+              "vst"
+            ],
+            "type": "installer",
+            "size": 9881981,
+            "sha256": "52b381680011ac46fcde96afbd276491e86ed02f7e88485ceae243a677113efc",
+            "url": "https://github.com/AnClark/ClassicFlanger-RE01/releases/download/v1.1.0/ClassicFlanger_RE01-arm64-macOS-1.1.0-30e9aad0.pkg",
+            "downloads": 2
+          },
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "clap"
+            ],
+            "type": "archive",
+            "size": 5579329,
+            "sha256": "85bb1d49d310994346dbe2cac0ab6cfb625756fbf5f750bf0772e5f4d4564fef",
+            "url": "https://github.com/AnClark/ClassicFlanger-RE01/releases/download/v1.1.0/ClassicFlanger_RE01-x86_64-Linux-1.1.0-30e9aad0.zip",
+            "downloads": 2
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "clap"
+            ],
+            "type": "archive",
+            "size": 8128324,
+            "sha256": "7302354401459f65ff4e0d5c31be47ed3fb1d18bf7f41a87d3a803dc998f76eb",
+            "url": "https://github.com/AnClark/ClassicFlanger-RE01/releases/download/v1.1.0/ClassicFlanger_RE01-x86_64-Windows-1.1.0-30e9aad0.zip",
+            "downloads": 2
+          }
+        ],
+        "verified": true,
+        "downloads": 6
+      }
+    },
+    "downloads": 6
+  },
   "anclark/classicchorus-re01": {
     "slug": "anclark/classicchorus-re01",
     "version": "1.1.2",
