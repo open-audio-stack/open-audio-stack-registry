@@ -21734,6 +21734,69 @@
     },
     "downloads": 1011
   },
+  "pdesaulniers/misstortion1": {
+    "slug": "pdesaulniers/misstortion1",
+    "version": "1.2.0",
+    "versions": {
+      "1.2.0": {
+        "name": "Misstortion",
+        "author": "Patrick Desaulniers",
+        "description": "Unofficial Linux port of Misstortion (LV2 and VST2), a distortion plugin modelled on Logic's Clip Distortion that is popular for hardstyle. Fork of nimbletools/misstortion.",
+        "license": "gpl-3.0",
+        "type": "effect",
+        "tags": [
+          "Distortion",
+          "Clipper",
+          "Hardstyle"
+        ],
+        "url": "https://github.com/pdesaulniers/misstortion1",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/pdesaulniers/misstortion1/misstortion1.jpg",
+        "date": "2018-07-11T14:37:18Z",
+        "changes": "v1.2: Linux x64 builds as LV2 and VST2.",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "lv2"
+            ],
+            "type": "archive",
+            "size": 2471393,
+            "sha256": "50303b333a01df3c6f2ffa2e03a923ba114429acfeeed0306dc41d1d9a652083",
+            "url": "https://github.com/pdesaulniers/misstortion1/releases/download/v1.2/Misstortion.lv2.zip",
+            "downloads": 34
+          },
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "so"
+            ],
+            "type": "archive",
+            "size": 945259,
+            "sha256": "bc54b787c579d1359c791488d7a3bfc2341798ba7ec0bac24c242895f7479511",
+            "url": "https://github.com/pdesaulniers/misstortion1/releases/download/v1.2/Misstortion.vst.zip",
+            "downloads": 42
+          }
+        ],
+        "verified": true,
+        "downloads": 76
+      }
+    },
+    "downloads": 76
+  },
   "paynebc/tunefish": {
     "slug": "paynebc/tunefish",
     "version": "4.2.0",
