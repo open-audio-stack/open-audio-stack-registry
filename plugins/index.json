@@ -9564,7 +9564,7 @@
             "size": 223339140,
             "sha256": "a6e55064487f624147d515b9ae5fc79a568b69746675b2083abde628ca7bb151",
             "url": "https://github.com/surge-synthesizer/releases-xt/releases/download/1.3.4/surge-xt-linux-x64-1.3.4.deb",
-            "downloads": 47648
+            "downloads": 47651
           },
           {
             "systems": [
@@ -9646,11 +9646,11 @@
             "size": 183385478,
             "sha256": "6e221e05f29254508142b9e0ed76a85f22fa1b512501bebde571951e7eefecca",
             "url": "https://github.com/surge-synthesizer/releases-xt/releases/download/1.3.4/surge-xt-win64-1.3.4-setup.exe",
-            "downloads": 591375
+            "downloads": 591381
           }
         ],
         "verified": true,
-        "downloads": 860851
+        "downloads": 860860
       },
       "1.3.1": {
         "name": "Surge XT",
@@ -9777,7 +9777,7 @@
         "downloads": 84633
       }
     },
-    "downloads": 945484
+    "downloads": 945493
   },
   "surge-synthesizer/ob-xf": {
     "slug": "surge-synthesizer/ob-xf",
@@ -12153,7 +12153,7 @@
             "size": 140693153,
             "sha256": "4ba6eff849973238f45e0a3538b90c9a2d64c0b001d62882d0d337f46e0ddaa9",
             "url": "https://github.com/sonosaurus/sonobus/releases/download/1.7.2/sonobus-1.7.2-mac.dmg",
-            "downloads": 22101
+            "downloads": 22102
           },
           {
             "systems": [
@@ -12178,10 +12178,10 @@
           }
         ],
         "verified": true,
-        "downloads": 42597
+        "downloads": 42598
       }
     },
-    "downloads": 42597
+    "downloads": 42598
   },
   "solidfuel/utility": {
     "slug": "solidfuel/utility",
@@ -28136,7 +28136,7 @@
             "size": 4703816,
             "sha256": "06d02c5560805ddb72692d3d9d472eca8a4e2e40bdf0fdffa58a54dcdcd652e2",
             "url": "https://github.com/ManasWolrd/dev-plugins/releases/download/VitalReverb%400.2.6/VitalReverb-v0.2.6-linux.zip",
-            "downloads": 62
+            "downloads": 68
           },
           {
             "systems": [
@@ -28156,7 +28156,7 @@
             "size": 7335046,
             "sha256": "4c415d81463b0716f225c5987206045187d9e613154ebae70a84346292b6cf8c",
             "url": "https://github.com/ManasWolrd/dev-plugins/releases/download/VitalReverb%400.2.6/VitalReverb-v0.2.6-macos.zip",
-            "downloads": 25
+            "downloads": 31
           },
           {
             "systems": [
@@ -28174,14 +28174,14 @@
             "size": 2281736,
             "sha256": "7149070447195c65dee25ccee943fe55cd6bd0bb310ee0f8ab27e304118708f9",
             "url": "https://github.com/ManasWolrd/dev-plugins/releases/download/VitalReverb%400.2.6/VitalReverb-v0.2.6-win.zip",
-            "downloads": 66
+            "downloads": 70
           }
         ],
         "verified": true,
-        "downloads": 153
+        "downloads": 169
       }
     },
-    "downloads": 153
+    "downloads": 169
   },
   "manaswolrd/sttr": {
     "slug": "manaswolrd/sttr",
@@ -29725,7 +29725,7 @@
             "size": 35839682,
             "sha256": "045d15f8a2f2b9c020cada7c22ed8d62f8d65bf665c4f271626817bd68d036c3",
             "url": "https://github.com/lsp-plugins/lsp-plugins/releases/download/1.2.35/lsp-plugins-1.2.35-Linux-aarch64.7z",
-            "downloads": 309
+            "downloads": 311
           },
           {
             "systems": [
@@ -29788,11 +29788,11 @@
             "size": 38793460,
             "sha256": "4ef3b2f63b29a522fdaf3a18f879c1c85c82f0bdd1e0b3c849a5f3c4b08d2550",
             "url": "https://github.com/lsp-plugins/lsp-plugins/releases/download/1.2.35/lsp-plugins-1.2.35-Linux-x86_64.7z",
-            "downloads": 5352
+            "downloads": 5354
           }
         ],
         "verified": true,
-        "downloads": 5861
+        "downloads": 5865
       },
       "1.2.34": {
         "name": "LSP Plugins",
@@ -30683,7 +30683,7 @@
         "downloads": 3437
       }
     },
-    "downloads": 33252
+    "downloads": 33256
   },
   "longkelvin/midi-chord-detector-plugin": {
     "slug": "longkelvin/midi-chord-detector-plugin",
@@ -41194,14 +41194,14 @@
             "size": 5293192,
             "sha256": "069e5ce0dc395c8d53111daa12c0f34d1425e2f39fa24a0222c727da04c46828",
             "url": "https://github.com/gbevin/ShowMIDI/releases/download/1.0.1/ShowMIDI-Windows-1.0.1.exe",
-            "downloads": 5504
+            "downloads": 5505
           }
         ],
         "verified": true,
-        "downloads": 12358
+        "downloads": 12359
       }
     },
-    "downloads": 12358
+    "downloads": 12359
   },
   "garneek/crunchy": {
     "slug": "garneek/crunchy",
@@ -42447,7 +42447,8 @@
             "type": "archive",
             "size": 12043465,
             "sha256": "66011abf0c7527f32a512b7a668dca5ab16a21db684e6bf1afd0ed23fbacbf26",
-            "url": "https://github.com/FilTer87/VST-AnalogChannel/releases/download/v0.6.0/AnalogChannel_Release_v0.6.0.zip"
+            "url": "https://github.com/FilTer87/VST-AnalogChannel/releases/download/v0.6.0/AnalogChannel_Release_v0.6.0.zip",
+            "downloads": 3109
           },
           {
             "systems": [
@@ -42465,7 +42466,8 @@
             "type": "archive",
             "size": 12043465,
             "sha256": "66011abf0c7527f32a512b7a668dca5ab16a21db684e6bf1afd0ed23fbacbf26",
-            "url": "https://github.com/FilTer87/VST-AnalogChannel/releases/download/v0.6.0/AnalogChannel_Release_v0.6.0.zip"
+            "url": "https://github.com/FilTer87/VST-AnalogChannel/releases/download/v0.6.0/AnalogChannel_Release_v0.6.0.zip",
+            "downloads": 3109
           },
           {
             "systems": [
@@ -42482,12 +42484,15 @@
             "type": "archive",
             "size": 12043465,
             "sha256": "66011abf0c7527f32a512b7a668dca5ab16a21db684e6bf1afd0ed23fbacbf26",
-            "url": "https://github.com/FilTer87/VST-AnalogChannel/releases/download/v0.6.0/AnalogChannel_Release_v0.6.0.zip"
+            "url": "https://github.com/FilTer87/VST-AnalogChannel/releases/download/v0.6.0/AnalogChannel_Release_v0.6.0.zip",
+            "downloads": 3109
           }
         ],
-        "verified": true
+        "verified": true,
+        "downloads": 9327
       }
-    }
+    },
+    "downloads": 9327
   },
   "filipeborato/borato-224": {
     "slug": "filipeborato/borato-224",
@@ -42524,7 +42529,8 @@
             "type": "archive",
             "size": 3056408,
             "sha256": "c4df2f86c1e3e6b92fc63f6cd6e4039aaed9423d14ca0291ae1cb563d70fee5a",
-            "url": "https://github.com/filipeborato/borato-224/releases/download/v0.0.6/Borato224-v0.0.6-macOS-arm64-AU.zip"
+            "url": "https://github.com/filipeborato/borato-224/releases/download/v0.0.6/Borato224-v0.0.6-macOS-arm64-AU.zip",
+            "downloads": 7
           },
           {
             "systems": [
@@ -42541,7 +42547,8 @@
             "type": "archive",
             "size": 3034500,
             "sha256": "a0e474ec0dd2895607af7a230e98811507be8d114d2a06caf075e0301f8a2af2",
-            "url": "https://github.com/filipeborato/borato-224/releases/download/v0.0.6/Borato224-v0.0.6-macOS-arm64-CLAP.zip"
+            "url": "https://github.com/filipeborato/borato-224/releases/download/v0.0.6/Borato224-v0.0.6-macOS-arm64-CLAP.zip",
+            "downloads": 4
           },
           {
             "systems": [
@@ -42558,7 +42565,8 @@
             "type": "archive",
             "size": 3627460,
             "sha256": "346276f0061a2bc5ea941abbb16d1d55bbe0ec73034d5299081af2d0be4e6656",
-            "url": "https://github.com/filipeborato/borato-224/releases/download/v0.0.6/Borato224-v0.0.6-macOS-arm64-Standalone.zip"
+            "url": "https://github.com/filipeborato/borato-224/releases/download/v0.0.6/Borato224-v0.0.6-macOS-arm64-Standalone.zip",
+            "downloads": 5
           },
           {
             "systems": [
@@ -42575,7 +42583,8 @@
             "type": "archive",
             "size": 3143819,
             "sha256": "2ea9b68c5068a4cf55e7ad3374749a9991d4e6cf273db3d3f9c5a23a97fcbf91",
-            "url": "https://github.com/filipeborato/borato-224/releases/download/v0.0.6/Borato224-v0.0.6-macOS-arm64-VST3.zip"
+            "url": "https://github.com/filipeborato/borato-224/releases/download/v0.0.6/Borato224-v0.0.6-macOS-arm64-VST3.zip",
+            "downloads": 21
           },
           {
             "systems": [
@@ -42592,7 +42601,8 @@
             "type": "archive",
             "size": 3376335,
             "sha256": "56af50b95e05469bf37c327dd0883c49373ae8f0ea2c9908717831184a5aa90e",
-            "url": "https://github.com/filipeborato/borato-224/releases/download/v0.0.6/Borato224-v0.0.6-macOS-intel-AU.zip"
+            "url": "https://github.com/filipeborato/borato-224/releases/download/v0.0.6/Borato224-v0.0.6-macOS-intel-AU.zip",
+            "downloads": 5
           },
           {
             "systems": [
@@ -42609,7 +42619,8 @@
             "type": "archive",
             "size": 3281379,
             "sha256": "b778d0f0bd25e8d7d493c3534483f97cfe2bfd18b1197b9ccf4547fa34ed222b",
-            "url": "https://github.com/filipeborato/borato-224/releases/download/v0.0.6/Borato224-v0.0.6-macOS-intel-CLAP.zip"
+            "url": "https://github.com/filipeborato/borato-224/releases/download/v0.0.6/Borato224-v0.0.6-macOS-intel-CLAP.zip",
+            "downloads": 4
           },
           {
             "systems": [
@@ -42626,7 +42637,8 @@
             "type": "archive",
             "size": 3918350,
             "sha256": "de1422583df5c35bf28446ec7f569bfe505289ba2463176a8137b07b11be311a",
-            "url": "https://github.com/filipeborato/borato-224/releases/download/v0.0.6/Borato224-v0.0.6-macOS-intel-Standalone.zip"
+            "url": "https://github.com/filipeborato/borato-224/releases/download/v0.0.6/Borato224-v0.0.6-macOS-intel-Standalone.zip",
+            "downloads": 4
           },
           {
             "systems": [
@@ -42643,7 +42655,8 @@
             "type": "archive",
             "size": 3473105,
             "sha256": "99a1e8a8eb7e5ac79cbd9c667783522ca0a67773e3abde55ffd3ff9575a141f8",
-            "url": "https://github.com/filipeborato/borato-224/releases/download/v0.0.6/Borato224-v0.0.6-macOS-intel-VST3.zip"
+            "url": "https://github.com/filipeborato/borato-224/releases/download/v0.0.6/Borato224-v0.0.6-macOS-intel-VST3.zip",
+            "downloads": 13
           },
           {
             "systems": [
@@ -42660,7 +42673,8 @@
             "type": "archive",
             "size": 4047145,
             "sha256": "7ea001fc632e7ced6bbd48d4ca8761d0cede0fadb23be0a51aa9cf375b3f524b",
-            "url": "https://github.com/filipeborato/borato-224/releases/download/v0.0.6/Borato224-v0.0.6-Ubuntu-CLAP.tar.gz"
+            "url": "https://github.com/filipeborato/borato-224/releases/download/v0.0.6/Borato224-v0.0.6-Ubuntu-CLAP.tar.gz",
+            "downloads": 20
           },
           {
             "systems": [
@@ -42677,7 +42691,8 @@
             "type": "archive",
             "size": 4847294,
             "sha256": "6fe6eb6c91a01b54a00cbd9781f2f14f8ef08b0ca1dc585b6aa88ef787478ac9",
-            "url": "https://github.com/filipeborato/borato-224/releases/download/v0.0.6/Borato224-v0.0.6-Ubuntu-Standalone.tar.gz"
+            "url": "https://github.com/filipeborato/borato-224/releases/download/v0.0.6/Borato224-v0.0.6-Ubuntu-Standalone.tar.gz",
+            "downloads": 5
           },
           {
             "systems": [
@@ -42694,7 +42709,8 @@
             "type": "archive",
             "size": 4250379,
             "sha256": "68523b9fdeffa93c160b55cc7064a3eb67635edc765bf7807325bf8c5ed2c5b8",
-            "url": "https://github.com/filipeborato/borato-224/releases/download/v0.0.6/Borato224-v0.0.6-Ubuntu-VST3.tar.gz"
+            "url": "https://github.com/filipeborato/borato-224/releases/download/v0.0.6/Borato224-v0.0.6-Ubuntu-VST3.tar.gz",
+            "downloads": 28
           },
           {
             "systems": [
@@ -42711,7 +42727,8 @@
             "type": "archive",
             "size": 2927833,
             "sha256": "d6a8bb04ac63fe3acb36f3c4918f0b08bc735fefcdc3d056ef92ee9374b53f97",
-            "url": "https://github.com/filipeborato/borato-224/releases/download/v0.0.6/Borato224-v0.0.6-Windows-x64-CLAP.zip"
+            "url": "https://github.com/filipeborato/borato-224/releases/download/v0.0.6/Borato224-v0.0.6-Windows-x64-CLAP.zip",
+            "downloads": 27
           },
           {
             "systems": [
@@ -42728,7 +42745,8 @@
             "type": "archive",
             "size": 3455454,
             "sha256": "385a61262054347c3f43bac353db011bd0485b08e51180e73e75a0d9c631912d",
-            "url": "https://github.com/filipeborato/borato-224/releases/download/v0.0.6/Borato224-v0.0.6-Windows-x64-Standalone.zip"
+            "url": "https://github.com/filipeborato/borato-224/releases/download/v0.0.6/Borato224-v0.0.6-Windows-x64-Standalone.zip",
+            "downloads": 17
           },
           {
             "systems": [
@@ -42745,12 +42763,15 @@
             "type": "archive",
             "size": 3051591,
             "sha256": "9f71b2bb61d621906300441b39dfa888836c9fad6fc14908a82b0e313c324fbf",
-            "url": "https://github.com/filipeborato/borato-224/releases/download/v0.0.6/Borato224-v0.0.6-Windows-x64-VST3.zip"
+            "url": "https://github.com/filipeborato/borato-224/releases/download/v0.0.6/Borato224-v0.0.6-Windows-x64-VST3.zip",
+            "downloads": 64
           }
         ],
-        "verified": true
+        "verified": true,
+        "downloads": 224
       }
-    }
+    },
+    "downloads": 224
   },
   "figbug/wavetable": {
     "slug": "figbug/wavetable",
@@ -49956,15 +49977,12 @@
             "type": "installer",
             "size": 32628014,
             "sha256": "4de58d154d68ffa150251f8739fcbfbbeb77fffa967693ab28f2a91f10c936e3",
-            "url": "https://github.com/cjitter/JCBExpander/releases/download/v1.0.1/JCBExpander-Installer.dmg",
-            "downloads": 17
+            "url": "https://github.com/cjitter/JCBExpander/releases/download/v1.0.1/JCBExpander-Installer.dmg"
           }
         ],
-        "verified": true,
-        "downloads": 17
+        "verified": true
       }
-    },
-    "downloads": 17
+    }
   },
   "cjitter/jcbdistortion": {
     "slug": "cjitter/jcbdistortion",
@@ -50004,15 +50022,12 @@
             "type": "installer",
             "size": 35364750,
             "sha256": "3e51dfe0e52697e7dbcf52de4f48f8724a97d5d96d0e8422e39ae2cf7b76a730",
-            "url": "https://github.com/cjitter/JCBDistortion/releases/download/v1.0.1/JCBDistortion-Installer.dmg",
-            "downloads": 14
+            "url": "https://github.com/cjitter/JCBDistortion/releases/download/v1.0.1/JCBDistortion-Installer.dmg"
           }
         ],
-        "verified": true,
-        "downloads": 14
+        "verified": true
       }
-    },
-    "downloads": 14
+    }
   },
   "cjitter/jcbcompressor": {
     "slug": "cjitter/jcbcompressor",
@@ -55698,14 +55713,14 @@
             "size": 5599030,
             "sha256": "d3498b897bfdf967c645b6e14ef981007eef27d57803b00545d049c6e78ab392",
             "url": "https://github.com/ArdenButterfield/Maim/releases/download/v1.1.1/Maim-1.1.1-Windows.exe",
-            "downloads": 16113
+            "downloads": 16114
           }
         ],
         "verified": true,
-        "downloads": 22617
+        "downloads": 22618
       }
     },
-    "downloads": 22617
+    "downloads": 22618
   },
   "archie3d/aeolus": {
     "slug": "archie3d/aeolus",
@@ -56931,6 +56946,180 @@
       }
     },
     "downloads": 93
+  },
+  "anclark/classicflanger-re01": {
+    "slug": "anclark/classicflanger-re01",
+    "version": "1.1.0",
+    "versions": {
+      "1.1.0": {
+        "name": "Classic Flanger RE-01",
+        "author": "AnClark Liu",
+        "description": "Reverse-engineered reimplementation of Kjaerhus Audio Classic Flanger as VST3, CLAP and VST2.",
+        "license": "gpl-3.0",
+        "type": "effect",
+        "tags": [
+          "Flanger",
+          "Emulation",
+          "Classic Flanger",
+          "Kjaerhus Classic Flanger"
+        ],
+        "url": "https://github.com/AnClark/ClassicFlanger-RE01",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/anclark/classicflanger-re01/classicflanger-re01.jpg",
+        "date": "2026-11-10T14:43:23Z",
+        "changes": "Classic Flanger RE-01 v1.1.0: macOS, Linux and Windows builds.",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "clap",
+              "vst"
+            ],
+            "type": "installer",
+            "size": 9881981,
+            "sha256": "52b381680011ac46fcde96afbd276491e86ed02f7e88485ceae243a677113efc",
+            "url": "https://github.com/AnClark/ClassicFlanger-RE01/releases/download/v1.1.0/ClassicFlanger_RE01-arm64-macOS-1.1.0-30e9aad0.pkg",
+            "downloads": 2
+          },
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "clap"
+            ],
+            "type": "archive",
+            "size": 5579329,
+            "sha256": "85bb1d49d310994346dbe2cac0ab6cfb625756fbf5f750bf0772e5f4d4564fef",
+            "url": "https://github.com/AnClark/ClassicFlanger-RE01/releases/download/v1.1.0/ClassicFlanger_RE01-x86_64-Linux-1.1.0-30e9aad0.zip",
+            "downloads": 2
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "clap"
+            ],
+            "type": "archive",
+            "size": 8128324,
+            "sha256": "7302354401459f65ff4e0d5c31be47ed3fb1d18bf7f41a87d3a803dc998f76eb",
+            "url": "https://github.com/AnClark/ClassicFlanger-RE01/releases/download/v1.1.0/ClassicFlanger_RE01-x86_64-Windows-1.1.0-30e9aad0.zip",
+            "downloads": 2
+          }
+        ],
+        "verified": true,
+        "downloads": 6
+      }
+    },
+    "downloads": 6
+  },
+  "anclark/classicchorus-re01": {
+    "slug": "anclark/classicchorus-re01",
+    "version": "1.1.2",
+    "versions": {
+      "1.1.2": {
+        "name": "Classic Chorus RE-01",
+        "author": "AnClark Liu",
+        "description": "Reverse-engineered reimplementation of Kjaerhus Audio Classic Chorus, bringing the legendary chorus to modern systems as VST3, CLAP and VST2.",
+        "license": "gpl-3.0",
+        "type": "effect",
+        "tags": [
+          "Chorus",
+          "Emulation",
+          "Classic Chorus",
+          "Kjaerhus Classic Chorus"
+        ],
+        "url": "https://github.com/AnClark/ClassicChorus-RE01",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/anclark/classicchorus-re01/classicchorus-re01.jpg",
+        "date": "2026-11-10T15:57:28Z",
+        "changes": "Classic Chorus RE-01 v1.1.2: macOS, Linux and Windows builds.",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "clap",
+              "vst"
+            ],
+            "type": "installer",
+            "size": 9882319,
+            "sha256": "42767b4126d2a214185e3369a1141ec215186b16f6647eeeebcaba8af53b3aad",
+            "url": "https://github.com/AnClark/ClassicChorus-RE01/releases/download/v1.1.2/ClassicChorus-RE01-arm64-macOS-1.1.2-66feb24f.pkg",
+            "downloads": 2
+          },
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "clap"
+            ],
+            "type": "archive",
+            "size": 5579225,
+            "sha256": "f66a00da7f72cc681f3bad4250152a2d2cd9885e20a19bf579dadab85f190233",
+            "url": "https://github.com/AnClark/ClassicChorus-RE01/releases/download/v1.1.2/ClassicChorus-RE01-x86_64-Linux-1.1.2-66feb24f.zip",
+            "downloads": 2
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "clap"
+            ],
+            "type": "archive",
+            "size": 8130260,
+            "sha256": "bc374e88c10bd7b710770615559c6b313df07bd42be13bdfd288ba69635b7ced",
+            "url": "https://github.com/AnClark/ClassicChorus-RE01/releases/download/v1.1.2/ClassicChorus-RE01-x86_64-Windows-1.1.2-66feb24f.zip",
+            "downloads": 2
+          }
+        ],
+        "verified": true,
+        "downloads": 6
+      }
+    },
+    "downloads": 6
   },
   "anaremore/chipper": {
     "slug": "anaremore/chipper",

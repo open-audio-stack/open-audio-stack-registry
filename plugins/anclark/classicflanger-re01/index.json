@@ -1,0 +1,87 @@
+{
+  "slug": "anclark/classicflanger-re01",
+  "version": "1.1.0",
+  "versions": {
+    "1.1.0": {
+      "name": "Classic Flanger RE-01",
+      "author": "AnClark Liu",
+      "description": "Reverse-engineered reimplementation of Kjaerhus Audio Classic Flanger as VST3, CLAP and VST2.",
+      "license": "gpl-3.0",
+      "type": "effect",
+      "tags": [
+        "Flanger",
+        "Emulation",
+        "Classic Flanger",
+        "Kjaerhus Classic Flanger"
+      ],
+      "url": "https://github.com/AnClark/ClassicFlanger-RE01",
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/anclark/classicflanger-re01/classicflanger-re01.jpg",
+      "date": "2026-11-10T14:43:23Z",
+      "changes": "Classic Flanger RE-01 v1.1.0: macOS, Linux and Windows builds.",
+      "files": [
+        {
+          "systems": [
+            {
+              "type": "mac"
+            }
+          ],
+          "architectures": [
+            "arm64",
+            "x64"
+          ],
+          "contains": [
+            "vst3",
+            "clap",
+            "vst"
+          ],
+          "type": "installer",
+          "size": 9881981,
+          "sha256": "52b381680011ac46fcde96afbd276491e86ed02f7e88485ceae243a677113efc",
+          "url": "https://github.com/AnClark/ClassicFlanger-RE01/releases/download/v1.1.0/ClassicFlanger_RE01-arm64-macOS-1.1.0-30e9aad0.pkg",
+          "downloads": 2
+        },
+        {
+          "systems": [
+            {
+              "type": "linux"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "vst3",
+            "clap"
+          ],
+          "type": "archive",
+          "size": 5579329,
+          "sha256": "85bb1d49d310994346dbe2cac0ab6cfb625756fbf5f750bf0772e5f4d4564fef",
+          "url": "https://github.com/AnClark/ClassicFlanger-RE01/releases/download/v1.1.0/ClassicFlanger_RE01-x86_64-Linux-1.1.0-30e9aad0.zip",
+          "downloads": 2
+        },
+        {
+          "systems": [
+            {
+              "type": "win"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "vst3",
+            "clap"
+          ],
+          "type": "archive",
+          "size": 8128324,
+          "sha256": "7302354401459f65ff4e0d5c31be47ed3fb1d18bf7f41a87d3a803dc998f76eb",
+          "url": "https://github.com/AnClark/ClassicFlanger-RE01/releases/download/v1.1.0/ClassicFlanger_RE01-x86_64-Windows-1.1.0-30e9aad0.zip",
+          "downloads": 2
+        }
+      ],
+      "verified": true,
+      "downloads": 6
+    }
+  },
+  "downloads": 6
+}

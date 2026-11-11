@@ -335,5 +335,179 @@
       }
     },
     "downloads": 93
+  },
+  "anclark/classicflanger-re01": {
+    "slug": "anclark/classicflanger-re01",
+    "version": "1.1.0",
+    "versions": {
+      "1.1.0": {
+        "name": "Classic Flanger RE-01",
+        "author": "AnClark Liu",
+        "description": "Reverse-engineered reimplementation of Kjaerhus Audio Classic Flanger as VST3, CLAP and VST2.",
+        "license": "gpl-3.0",
+        "type": "effect",
+        "tags": [
+          "Flanger",
+          "Emulation",
+          "Classic Flanger",
+          "Kjaerhus Classic Flanger"
+        ],
+        "url": "https://github.com/AnClark/ClassicFlanger-RE01",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/anclark/classicflanger-re01/classicflanger-re01.jpg",
+        "date": "2026-11-10T14:43:23Z",
+        "changes": "Classic Flanger RE-01 v1.1.0: macOS, Linux and Windows builds.",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "clap",
+              "vst"
+            ],
+            "type": "installer",
+            "size": 9881981,
+            "sha256": "52b381680011ac46fcde96afbd276491e86ed02f7e88485ceae243a677113efc",
+            "url": "https://github.com/AnClark/ClassicFlanger-RE01/releases/download/v1.1.0/ClassicFlanger_RE01-arm64-macOS-1.1.0-30e9aad0.pkg",
+            "downloads": 2
+          },
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "clap"
+            ],
+            "type": "archive",
+            "size": 5579329,
+            "sha256": "85bb1d49d310994346dbe2cac0ab6cfb625756fbf5f750bf0772e5f4d4564fef",
+            "url": "https://github.com/AnClark/ClassicFlanger-RE01/releases/download/v1.1.0/ClassicFlanger_RE01-x86_64-Linux-1.1.0-30e9aad0.zip",
+            "downloads": 2
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "clap"
+            ],
+            "type": "archive",
+            "size": 8128324,
+            "sha256": "7302354401459f65ff4e0d5c31be47ed3fb1d18bf7f41a87d3a803dc998f76eb",
+            "url": "https://github.com/AnClark/ClassicFlanger-RE01/releases/download/v1.1.0/ClassicFlanger_RE01-x86_64-Windows-1.1.0-30e9aad0.zip",
+            "downloads": 2
+          }
+        ],
+        "verified": true,
+        "downloads": 6
+      }
+    },
+    "downloads": 6
+  },
+  "anclark/classicchorus-re01": {
+    "slug": "anclark/classicchorus-re01",
+    "version": "1.1.2",
+    "versions": {
+      "1.1.2": {
+        "name": "Classic Chorus RE-01",
+        "author": "AnClark Liu",
+        "description": "Reverse-engineered reimplementation of Kjaerhus Audio Classic Chorus, bringing the legendary chorus to modern systems as VST3, CLAP and VST2.",
+        "license": "gpl-3.0",
+        "type": "effect",
+        "tags": [
+          "Chorus",
+          "Emulation",
+          "Classic Chorus",
+          "Kjaerhus Classic Chorus"
+        ],
+        "url": "https://github.com/AnClark/ClassicChorus-RE01",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/anclark/classicchorus-re01/classicchorus-re01.jpg",
+        "date": "2026-11-10T15:57:28Z",
+        "changes": "Classic Chorus RE-01 v1.1.2: macOS, Linux and Windows builds.",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "clap",
+              "vst"
+            ],
+            "type": "installer",
+            "size": 9882319,
+            "sha256": "42767b4126d2a214185e3369a1141ec215186b16f6647eeeebcaba8af53b3aad",
+            "url": "https://github.com/AnClark/ClassicChorus-RE01/releases/download/v1.1.2/ClassicChorus-RE01-arm64-macOS-1.1.2-66feb24f.pkg",
+            "downloads": 2
+          },
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "clap"
+            ],
+            "type": "archive",
+            "size": 5579225,
+            "sha256": "f66a00da7f72cc681f3bad4250152a2d2cd9885e20a19bf579dadab85f190233",
+            "url": "https://github.com/AnClark/ClassicChorus-RE01/releases/download/v1.1.2/ClassicChorus-RE01-x86_64-Linux-1.1.2-66feb24f.zip",
+            "downloads": 2
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "clap"
+            ],
+            "type": "archive",
+            "size": 8130260,
+            "sha256": "bc374e88c10bd7b710770615559c6b313df07bd42be13bdfd288ba69635b7ced",
+            "url": "https://github.com/AnClark/ClassicChorus-RE01/releases/download/v1.1.2/ClassicChorus-RE01-x86_64-Windows-1.1.2-66feb24f.zip",
+            "downloads": 2
+          }
+        ],
+        "verified": true,
+        "downloads": 6
+      }
+    },
+    "downloads": 6
   }
 }
