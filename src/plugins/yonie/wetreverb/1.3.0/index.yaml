@@ -1,0 +1,35 @@
+name: Wet Reverb
+author: yonie
+description: Open source reverb plugin with authentic 80s rack-style character — 5 reverb modes, 12-bit quantization, 24kHz internal rate, and early reflections
+license: mit
+type: effect
+tags:
+  - Reverb
+  - Vintage
+  - Lo-Fi
+url: https://github.com/yonie/WetReverb
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/yonie/wetreverb/wetreverb.jpg
+date: '2026-10-14T18:35:30Z'
+changes: |-
+  **WetReverb 1.3.0**
+
+  Product page: https://wetvst.com/wetreverb/
+
+  What's new:
+
+  - added 50% zoom percentage for even smaller plugin GUI (so you can fit more plugins on your screen)
+  - plugins now open on 75% scale by default, right click a panel to change i
+files:
+  - systems:
+      - type: mac
+      - type: win
+      - type: linux
+    architectures:
+      - arm64
+      - x64
+    contains:
+      - vst3
+    type: archive
+    size: 7320971
+    sha256: 06118cf23aa419e85d17c5f10a13b0c91a34d4997666a364f3bd678d99d857c6
+    url: https://github.com/yonie/WetReverb/releases/download/v1.3.0/WetReverb-v1.3.0.zip
