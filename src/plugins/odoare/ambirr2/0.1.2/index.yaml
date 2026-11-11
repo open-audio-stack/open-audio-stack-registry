@@ -1,0 +1,62 @@
+name: AmbiRR2
+author: Olivier Doaré
+description: Room reverb that places up to 16 mono sources in a virtual room, capturing the result as a 3rd-order ambisonic stream or a stereo pair of virtual microphones.
+license: lgpl-3.0
+type: effect
+tags:
+  - Reverb
+  - Ambisonic
+  - Spatial Audio
+url: https://github.com/odoare/AmbiRR2
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/odoare/ambirr2/ambirr2.jpg
+date: '2026-08-03T11:34:01Z'
+changes: |-
+  Fix macOD intel release + codesign in macOS workflow
+
+  **Full Changelog**: https://github.com/odoare/AmbiRR2/compare/v0.1.1...v0.1.2
+files:
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - vst3
+      - elf
+    type: archive
+    size: 5070070
+    sha256: c340d58d7d6d4eee921d40c79655dd84bf01b060c72d55e9fd19155dc33bf65e
+    url: https://github.com/odoare/AmbiRR2/releases/download/v0.1.2/AmbiRR2-Linux-x86_64.zip
+  - systems:
+      - type: mac
+    architectures:
+      - arm64
+    contains:
+      - vst3
+      - component
+      - app
+    type: archive
+    size: 11640631
+    sha256: fbf08ecc823b8a7a5af410f9cc15ce9be11035669f03a5b793133af2875ed7ce
+    url: https://github.com/odoare/AmbiRR2/releases/download/v0.1.2/AmbiRR2-macOS-universal.zip
+  - systems:
+      - type: mac
+    architectures:
+      - arm64
+    contains:
+      - vst3
+      - component
+    type: installer
+    size: 7414544
+    sha256: 5f44b872e76d613331ff5be102bd22fb25f5fe44a1329a9ba02609c77e795700
+    url: https://github.com/odoare/AmbiRR2/releases/download/v0.1.2/AmbiRR2-macOS.pkg
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - vst3
+      - exe
+    type: archive
+    size: 3901121
+    sha256: 575deee3f964481cbf5c3f08b480efe45ead9fc8c856b9dd022b4a5fbb475fb4
+    url: https://github.com/odoare/AmbiRR2/releases/download/v0.1.2/AmbiRR2-Windows-x86_64.zip
