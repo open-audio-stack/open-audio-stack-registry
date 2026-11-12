@@ -1,8 +1,61 @@
 {
   "gbevin/sendmidi": {
     "slug": "gbevin/sendmidi",
-    "version": "1.4.1",
+    "version": "1.4.4",
     "versions": {
+      "1.4.4": {
+        "name": "SendMIDI",
+        "author": "Geert Bevin",
+        "description": "Multi-platform command-line tool to send out MIDI messages",
+        "license": "gpl-3.0",
+        "type": "tool",
+        "tags": [
+          "Midi",
+          "Command Line",
+          "Utility"
+        ],
+        "url": "https://github.com/gbevin/SendMIDI",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/apps/gbevin/sendmidi/sendmidi.jpg",
+        "date": "2026-09-17T13:27:40Z",
+        "changes": "- An empty argument no longer runs the `list` command\n- Built with JUCE 9.0.2; Windows builds now need Visual Studio 2022, and the projects moved from `Builds/VisualStudio2017` to `Builds/VisualStudio2022`\n- End-to-end tests now drive the real binary thro",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "open": "sendmidi",
+            "type": "archive",
+            "size": 696181,
+            "sha256": "53811dc70eda6cf00a5b486ced68f13352d41696c2158c81019c02e11691ea92",
+            "url": "https://github.com/gbevin/SendMIDI/releases/download/1.4.4/sendmidi-macOS-1.4.4.zip",
+            "downloads": 277
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "open": "sendmidi.exe",
+            "type": "archive",
+            "size": 698300,
+            "sha256": "b8c4382fa5ce2674f69c230f08da45bb7cd5797b2022a0c187c33786c4036c30",
+            "url": "https://github.com/gbevin/SendMIDI/releases/download/1.4.4/sendmidi-windows-1.4.4.zip",
+            "downloads": 291
+          }
+        ],
+        "verified": true,
+        "downloads": 568
+      },
       "1.4.1": {
         "name": "SendMIDI",
         "author": "Geert Bevin",
@@ -57,12 +110,65 @@
         "downloads": 82
       }
     },
-    "downloads": 82
+    "downloads": 650
   },
   "gbevin/receivemidi": {
     "slug": "gbevin/receivemidi",
-    "version": "1.5.0",
+    "version": "1.6.2",
     "versions": {
+      "1.6.2": {
+        "name": "ReceiveMIDI",
+        "author": "Geert Bevin",
+        "description": "Multi-platform command-line tool to monitor and receive MIDI messages",
+        "license": "gpl-3.0",
+        "type": "tool",
+        "tags": [
+          "Midi",
+          "Command Line",
+          "Utility"
+        ],
+        "url": "https://github.com/gbevin/ReceiveMIDI",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/apps/gbevin/receivemidi/receivemidi.jpg",
+        "date": "2026-09-17T13:27:41Z",
+        "changes": "- The `nrpn` and `rpn` filters print the parameter number and value again instead of zeros, now that the stateful detector sees each controller message only once\n- Several controller filters on one command line all stay active, instead of only the last on",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "open": "receivemidi",
+            "type": "archive",
+            "size": 1562885,
+            "sha256": "8cc01e5427f60a5d329d2f63935c26856db0d8779aa797d1d5ae424b90f96c9e",
+            "url": "https://github.com/gbevin/ReceiveMIDI/releases/download/1.6.2/receivemidi-macOS-1.6.2.zip",
+            "downloads": 123
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "open": "receivemidi.exe",
+            "type": "archive",
+            "size": 1163375,
+            "sha256": "a924ff50d63eaae9c1b178c5842bc9266db8e1e6e1c1dc4530ae3fc760049bd3",
+            "url": "https://github.com/gbevin/ReceiveMIDI/releases/download/1.6.2/receivemidi-windows-1.6.2.zip",
+            "downloads": 74
+          }
+        ],
+        "verified": true,
+        "downloads": 197
+      },
       "1.5.0": {
         "name": "ReceiveMIDI",
         "author": "Geert Bevin",
@@ -117,6 +223,6 @@
         "downloads": 46
       }
     },
-    "downloads": 46
+    "downloads": 243
   }
 }

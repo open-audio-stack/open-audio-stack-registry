@@ -1,7 +1,60 @@
 {
   "slug": "monocasual/giada",
-  "version": "1.5.0",
+  "version": "1.6.0",
   "versions": {
+    "1.6.0": {
+      "name": "Giada",
+      "author": "Monocasual Laboratories",
+      "description": "A minimalistic, hardcore loop machine and sample player for DJs, live performers and electronic musicians, with MIDI sequencing and VST hosting.",
+      "license": "gpl-3.0",
+      "type": "tool",
+      "tags": [
+        "Loop Machine",
+        "Sample Player",
+        "Live Performance",
+        "Sequencer"
+      ],
+      "url": "https://github.com/monocasual/giada",
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/apps/monocasual/giada/giada.jpg",
+      "date": "2026-09-22T14:14:32Z",
+      "changes": "Mavka is a type of female spirit in Ukrainian folklore and Slavic mythology. The Mavka is a long-haired \"Soul of the Forest\", typically depicted as a temptress figure who lures men to their deaths.\r\n\r\nThis release introduces elastic time-stretching for sa",
+      "files": [
+        {
+          "systems": [
+            {
+              "type": "mac"
+            }
+          ],
+          "architectures": [
+            "arm64"
+          ],
+          "open": "giada.app",
+          "type": "archive",
+          "size": 8539302,
+          "sha256": "c9a6469e888432e2844bc6c90637eb8c58f969d07dd31b231796b83ccc3366c4",
+          "url": "https://github.com/monocasual/giada/releases/download/1.6.0/giada-1.6.0-arm64-macos.zip",
+          "downloads": 776
+        },
+        {
+          "systems": [
+            {
+              "type": "win"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "open": "giada.exe",
+          "type": "archive",
+          "size": 8064295,
+          "sha256": "c9242fcc8887c4ddc26704c18784227999b8d6707365e645ee78cf7285937765",
+          "url": "https://github.com/monocasual/giada/releases/download/1.6.0/giada-1.6.0-x86_64-windows.zip",
+          "downloads": 2548
+        }
+      ],
+      "verified": true,
+      "downloads": 3324
+    },
     "1.5.0": {
       "name": "Giada",
       "author": "Monocasual Laboratories",
@@ -33,7 +86,7 @@
           "size": 7702562,
           "sha256": "085d535d7e8bc024872950e477c3b354c77b4a678cf6b09de5880e98880e2eae",
           "url": "https://github.com/monocasual/giada/releases/download/1.5.0/giada-1.5.0-arm64-macos.zip",
-          "downloads": 1177
+          "downloads": 1178
         },
         {
           "systems": [
@@ -49,12 +102,12 @@
           "size": 6552450,
           "sha256": "168e7799227dd2241d11d78f8943c959f3e87b4fac57992a46213595b9e02e1a",
           "url": "https://github.com/monocasual/giada/releases/download/1.5.0/giada-1.5.0-x86_64-windows.zip",
-          "downloads": 3061
+          "downloads": 3066
         }
       ],
       "verified": true,
-      "downloads": 4238
+      "downloads": 4244
     }
   },
-  "downloads": 4238
+  "downloads": 7568
 }

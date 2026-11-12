@@ -1,0 +1,53 @@
+{
+  "name": "SendMIDI",
+  "author": "Geert Bevin",
+  "description": "Multi-platform command-line tool to send out MIDI messages",
+  "license": "gpl-3.0",
+  "type": "tool",
+  "tags": [
+    "Midi",
+    "Command Line",
+    "Utility"
+  ],
+  "url": "https://github.com/gbevin/SendMIDI",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/apps/gbevin/sendmidi/sendmidi.jpg",
+  "date": "2026-09-17T13:27:40Z",
+  "changes": "- An empty argument no longer runs the `list` command\n- Built with JUCE 9.0.2; Windows builds now need Visual Studio 2022, and the projects moved from `Builds/VisualStudio2017` to `Builds/VisualStudio2022`\n- End-to-end tests now drive the real binary thro",
+  "files": [
+    {
+      "systems": [
+        {
+          "type": "mac"
+        }
+      ],
+      "architectures": [
+        "arm64",
+        "x64"
+      ],
+      "open": "sendmidi",
+      "type": "archive",
+      "size": 696181,
+      "sha256": "53811dc70eda6cf00a5b486ced68f13352d41696c2158c81019c02e11691ea92",
+      "url": "https://github.com/gbevin/SendMIDI/releases/download/1.4.4/sendmidi-macOS-1.4.4.zip",
+      "downloads": 277
+    },
+    {
+      "systems": [
+        {
+          "type": "win"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "open": "sendmidi.exe",
+      "type": "archive",
+      "size": 698300,
+      "sha256": "b8c4382fa5ce2674f69c230f08da45bb7cd5797b2022a0c187c33786c4036c30",
+      "url": "https://github.com/gbevin/SendMIDI/releases/download/1.4.4/sendmidi-windows-1.4.4.zip",
+      "downloads": 291
+    }
+  ],
+  "verified": true,
+  "downloads": 568
+}

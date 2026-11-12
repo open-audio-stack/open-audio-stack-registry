@@ -1,7 +1,91 @@
 {
   "slug": "calloga/unshuffle",
-  "version": "1.0.2",
+  "version": "1.1.1",
   "versions": {
+    "1.1.1": {
+      "name": "Unshuffle",
+      "author": "calloga",
+      "description": "Producer-first sample-library staging and migration tool — scans messy source folders, classifies files into a persistent virtual library, and lets you review and rebuild that structure onto disk",
+      "license": "mit",
+      "type": "tool",
+      "tags": [
+        "Sample Library",
+        "Organizer",
+        "Deduplication"
+      ],
+      "url": "https://github.com/calloga/unshuffle",
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/apps/calloga/unshuffle/unshuffle.jpg",
+      "date": "2026-09-03T22:17:35Z",
+      "changes": "\r\n# Unshuffle v1.1.1\r\n\r\nThis patch improves scanning performance, persistence reliability, session portability, editing workflows, and sound-map behavior.\r\n\r\n## Highlights\r\n\r\n- Faster rescans by reusing completed hashes and audio analysis.\r\n- More reliabl",
+      "files": [
+        {
+          "systems": [
+            {
+              "type": "linux"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "open": "Unshuffle-1.0.2-x86_64.AppImage",
+          "type": "archive",
+          "size": 124180984,
+          "sha256": "9b0d351bea9ce72ad4a988aa4fb181cf42fefc310b7f3cd8100c65789afca86a",
+          "url": "https://github.com/calloga/unshuffle/releases/download/v1.1.1/Unshuffle-1.1.1-x86_64.AppImage",
+          "downloads": 75
+        },
+        {
+          "systems": [
+            {
+              "type": "linux"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "open": "unshuffle",
+          "type": "installer",
+          "size": 151991640,
+          "sha256": "853a76cc5d8fd6fd60f1faaaa99fb1ebacf0256dd9aa6edc98222f4dfeeab602",
+          "url": "https://github.com/calloga/unshuffle/releases/download/v1.1.1/unshuffle_1.1.1_amd64.deb",
+          "downloads": 29
+        },
+        {
+          "systems": [
+            {
+              "type": "mac"
+            }
+          ],
+          "architectures": [
+            "arm64"
+          ],
+          "open": "Unshuffle.app",
+          "type": "installer",
+          "size": 68823789,
+          "sha256": "6219c80baa7e04c090ed8444ffc8a7687c8908eeb153e56d964ea261c8b75ea9",
+          "url": "https://github.com/calloga/unshuffle/releases/download/v1.1.1/Unshuffle-macos.pkg",
+          "downloads": 99
+        },
+        {
+          "systems": [
+            {
+              "type": "win"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "open": "Unshuffle.exe",
+          "type": "installer",
+          "size": 65292435,
+          "sha256": "3f74f7b04913c1e8411724fd3b5707a4450199059628d77371624c45edd5f966",
+          "url": "https://github.com/calloga/unshuffle/releases/download/v1.1.1/UnshuffleWinSetup.exe",
+          "downloads": 243
+        }
+      ],
+      "verified": true,
+      "downloads": 446
+    },
     "1.0.2": {
       "name": "Unshuffle",
       "author": "calloga",
@@ -48,7 +132,7 @@
           "size": 147213416,
           "sha256": "35ca752e81b2c3963697bfc44b56b7dbd2955bd4ae813214021dece75b5ecd9c",
           "url": "https://github.com/calloga/unshuffle/releases/download/v1.0.2/unshuffle_1.0.2_amd64.deb",
-          "downloads": 175
+          "downloads": 176
         },
         {
           "systems": [
@@ -84,8 +168,8 @@
         }
       ],
       "verified": true,
-      "downloads": 1175
+      "downloads": 1176
     }
   },
-  "downloads": 1175
+  "downloads": 1622
 }

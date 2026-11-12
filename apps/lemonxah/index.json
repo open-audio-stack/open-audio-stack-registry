@@ -1,8 +1,101 @@
 {
   "lemonxah/zestbay": {
     "slug": "lemonxah/zestbay",
-    "version": "1.2.3",
+    "version": "1.2.4",
     "versions": {
+      "1.2.4": {
+        "name": "ZestBay",
+        "author": "lemonxah",
+        "description": "PipeWire patchbay for Linux that visualizes your audio graph and hosts LV2, VST2, VST3 and CLAP effects, with per-plugin routing, subgraphs and rules.",
+        "license": "mit",
+        "type": "tool",
+        "tags": [
+          "PipeWire",
+          "Patchbay",
+          "Routing",
+          "Plugin Host"
+        ],
+        "url": "https://github.com/lemonxah/zestbay",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/apps/lemonxah/zestbay/zestbay.jpg",
+        "date": "2026-11-10T15:08:20Z",
+        "changes": "**Full Changelog**: https://github.com/lemonxah/zestbay/compare/v1.2.3...v1.2.4",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "elf"
+            ],
+            "type": "installer",
+            "size": 3833472,
+            "sha256": "a3009ee936da7e9d3252a95cedf964eda13f4b8a17a98a334dd68cdd319e6f14",
+            "url": "https://github.com/lemonxah/zestbay/releases/download/v1.2.4/zestbay-1.2.4-1.fc45.x86_64.rpm",
+            "downloads": 12
+          },
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "elf"
+            ],
+            "type": "archive",
+            "size": 4701526,
+            "sha256": "46aa10968e6ef0923e5dbcd03b38a9ada8733c16ca9d2c954055855e8ba10a89",
+            "url": "https://github.com/lemonxah/zestbay/releases/download/v1.2.4/zestbay-1.2.4-x86_64-linux.tar.gz",
+            "downloads": 16
+          },
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "elf"
+            ],
+            "type": "installer",
+            "size": 3156176,
+            "sha256": "a1a4b75929dc87cb55431dc73e4da5f3a5ab6608aab302c2213dad20a6c0cfbb",
+            "url": "https://github.com/lemonxah/zestbay/releases/download/v1.2.4/zestbay_1.2.4-debian12_amd64.deb",
+            "downloads": 10
+          },
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "elf"
+            ],
+            "type": "installer",
+            "size": 3244008,
+            "sha256": "a2eb61ac9d17f32bdbfd1795d91bf7d184a27857f3ac818d86c4af9d57651042",
+            "url": "https://github.com/lemonxah/zestbay/releases/download/v1.2.4/zestbay_1.2.4-debian13_amd64.deb",
+            "downloads": 11
+          }
+        ],
+        "verified": true,
+        "downloads": 49
+      },
       "1.2.3": {
         "name": "ZestBay",
         "author": "lemonxah",
@@ -97,6 +190,6 @@
         "downloads": 54
       }
     },
-    "downloads": 54
+    "downloads": 103
   }
 }

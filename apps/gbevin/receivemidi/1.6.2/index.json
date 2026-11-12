@@ -1,0 +1,53 @@
+{
+  "name": "ReceiveMIDI",
+  "author": "Geert Bevin",
+  "description": "Multi-platform command-line tool to monitor and receive MIDI messages",
+  "license": "gpl-3.0",
+  "type": "tool",
+  "tags": [
+    "Midi",
+    "Command Line",
+    "Utility"
+  ],
+  "url": "https://github.com/gbevin/ReceiveMIDI",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/apps/gbevin/receivemidi/receivemidi.jpg",
+  "date": "2026-09-17T13:27:41Z",
+  "changes": "- The `nrpn` and `rpn` filters print the parameter number and value again instead of zeros, now that the stateful detector sees each controller message only once\n- Several controller filters on one command line all stay active, instead of only the last on",
+  "files": [
+    {
+      "systems": [
+        {
+          "type": "mac"
+        }
+      ],
+      "architectures": [
+        "arm64",
+        "x64"
+      ],
+      "open": "receivemidi",
+      "type": "archive",
+      "size": 1562885,
+      "sha256": "8cc01e5427f60a5d329d2f63935c26856db0d8779aa797d1d5ae424b90f96c9e",
+      "url": "https://github.com/gbevin/ReceiveMIDI/releases/download/1.6.2/receivemidi-macOS-1.6.2.zip",
+      "downloads": 123
+    },
+    {
+      "systems": [
+        {
+          "type": "win"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "open": "receivemidi.exe",
+      "type": "archive",
+      "size": 1163375,
+      "sha256": "a924ff50d63eaae9c1b178c5842bc9266db8e1e6e1c1dc4530ae3fc760049bd3",
+      "url": "https://github.com/gbevin/ReceiveMIDI/releases/download/1.6.2/receivemidi-windows-1.6.2.zip",
+      "downloads": 74
+    }
+  ],
+  "verified": true,
+  "downloads": 197
+}
