@@ -1,0 +1,55 @@
+name: KnobKraft Orm
+author: Christof
+description: The free modern cross-platform MIDI Sysex Librarian, with adaptations for hundreds of hardware synthesizers.
+license: agpl-3.0
+type: tool
+tags:
+  - Midi
+  - Sysex
+  - Librarian
+  - Synthesizer Presets
+url: https://github.com/christofmuc/KnobKraft-orm
+image: https://open-audio-stack.github.io/open-audio-stack-registry/apps/christofmuc/knobkraft-orm/knobkraft-orm.jpg
+date: '2026-09-15T08:31:38Z'
+changes: |-
+  ## Features:
+
+  * **\#417** and **\#579** Added separate actions to check saved connections, find all synths, check one synth's saved route, or search only for that synth. This makes it much quicker to reconnect a DIN synth powered on after KnobKraft and ke
+files:
+  - systems:
+      - type: mac
+    architectures:
+      - arm64
+      - x64
+    open: KnobKraftOrm.app
+    type: installer
+    size: 81136605
+    sha256: 938f4d1a49f80d0b1a494348b3eaa5daf58bacf7a21dbc0b9589bd16f9748e8e
+    url: https://github.com/christofmuc/KnobKraft-orm/releases/download/2.10.2/KnobKraft_Orm-2.10.2-Darwin.dmg
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    open: bin/KnobKraftOrm
+    type: archive
+    size: 18425949
+    sha256: b5f451c3bd956bcc4297674a4895d6843907c3997d7471b2e47bc6c5221a64bd
+    url: https://github.com/christofmuc/KnobKraft-orm/releases/download/2.10.2/KnobKraft_Orm-2.10.2-Linux.tar.gz
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    open: bin/KnobKraftOrm
+    type: archive
+    size: 18472906
+    sha256: 35f60ddb7df5bf04d19c311b3aac58a9263b2e6fb140646c82820ba61b2f66c0
+    url: https://github.com/christofmuc/KnobKraft-orm/releases/download/2.10.2/KnobKraft_Orm-2.10.2-Ubuntu24.tar.gz
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    open: KnobKraftOrm.exe
+    type: installer
+    size: 69395060
+    sha256: e237ae708b41749ac47d86cb8887c5a0cf81fe56caeea930bfe0e678b4082892
+    url: https://github.com/christofmuc/KnobKraft-orm/releases/download/2.10.2/knobkraft_orm_setup_2.10.2.exe
