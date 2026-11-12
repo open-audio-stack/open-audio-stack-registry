@@ -500,6 +500,31 @@ For a batch, process each successful package independently — if one package fa
    Closes #NUMBER"
    ```
 
+### Notifying package authors (new packages only)
+
+Package authors are tagged by the agent, **once**, when a PR first adds a package to the registry — this is no longer done by the GitHub Action, which previously re-ran on every push. Do **not** tag authors:
+
+- when the PR only adds a new version of a package that already exists in the registry (i.e. `src/<type>/<org-name>/<package-name>/` already had other version folders on `main`)
+- when pushing further commits to an existing PR, or when updating a PR after review
+
+To check whether a package is new, confirm the package folder did not exist on `main` before your branch:
+
+```bash
+git ls-tree -d origin/main src/plugins/org-name/package-name/
+```
+
+Empty output means the package is new, so notify. Any output means this is a version upgrade, so skip this section.
+
+For each new-package PR you just created, take the GitHub owner from the `url:` field of the package's `index.yaml` (e.g. `url: https://github.com/wolf-plugins/wolf-shaper` → `wolf-plugins`). Skip tagging if that owner is the account that opened the PR. Otherwise post a single comment on the PR:
+
+```bash
+gh pr comment PR_NUMBER --repo open-audio-stack/open-audio-stack-registry --body "Plugin author notification:
+
+@org-name — your plugin has been submitted to the Open Audio Stack registry. Please review this PR and let us know if the metadata (name, description, tags, files) is correct. To see a full list of all currently added plugins, click <a href=\"https://studiorack.github.io/studiorack-site/plugins\">here</a>."
+```
+
+For a batch, post one comment per PR, only on the PR for that package.
+
 Then proceed to step 5.
 
 ## 5. Conclusion
