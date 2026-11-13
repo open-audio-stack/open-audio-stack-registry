@@ -1,7 +1,7 @@
 {
   "bananaofhappiness/soundscope": {
     "slug": "bananaofhappiness/soundscope",
-    "version": "1.9.2",
+    "version": "1.11.0",
     "versions": {
       "1.9.2": {
         "name": "Soundscope",
@@ -95,8 +95,101 @@
         ],
         "verified": true,
         "downloads": 71
+      },
+      "1.11.0": {
+        "name": "Soundscope",
+        "author": "Egor Kurtashkin",
+        "description": "A TUI app for analyzing audio data such as frequencies and loudness (LUFS)",
+        "license": "mit",
+        "type": "tool",
+        "tags": [
+          "visualizer",
+          "terminal",
+          "lufs",
+          "spectrum-analyzer"
+        ],
+        "url": "https://github.com/bananaofhappiness/soundscope",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/bananaofhappiness/soundscope/soundscope.jpg",
+        "date": "2026-11-06T20:18:22Z",
+        "changes": "# Changelog\n\nAll notable changes to this project will be documented in this file.\n\n---\n\n## [1.11.0] - 2026-11-06\n\n### Improvements\n- Replace `AllocRingBuffer` from [ringbuffer](https://crates.io/crates/ringbuffer) crate with custom lock-free SPSC ring buf",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "elf"
+            ],
+            "type": "archive",
+            "size": 1366417,
+            "sha256": "ceffcaf600574df0603304f3b86c19eea5c22679c05c30ea6d5a396bb6f6ef82",
+            "url": "https://github.com/bananaofhappiness/soundscope/releases/download/v1.11.0/soundscope-Linux-gnu-x86_64.tar.gz",
+            "downloads": 17
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64"
+            ],
+            "contains": [
+              "app"
+            ],
+            "type": "archive",
+            "size": 1252652,
+            "sha256": "e68364818e419356b0695640abb068daabc36570f1638713151650a1d3f414f3",
+            "url": "https://github.com/bananaofhappiness/soundscope/releases/download/v1.11.0/soundscope-macOS-arm64.tar.gz",
+            "downloads": 11
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "app"
+            ],
+            "type": "archive",
+            "size": 1332829,
+            "sha256": "2a6b0fc90037ab954684f0a3bcdbdf6a769572b346c138c26ce0066186172742",
+            "url": "https://github.com/bananaofhappiness/soundscope/releases/download/v1.11.0/soundscope-macOS-x86_64.tar.gz",
+            "downloads": 11
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "exe"
+            ],
+            "type": "archive",
+            "size": 1289986,
+            "sha256": "7bbcdccc130ccf3060aec7db8afe5034aa5e648635cd5c4b2c5edbcf0e559b3e",
+            "url": "https://github.com/bananaofhappiness/soundscope/releases/download/v1.11.0/soundscope-Windows-gnu-x86_64.zip",
+            "downloads": 19
+          }
+        ],
+        "verified": true,
+        "downloads": 58
       }
     },
-    "downloads": 71
+    "downloads": 129
   }
 }

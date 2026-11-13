@@ -1,8 +1,89 @@
 {
   "blablack/nine-strip": {
     "slug": "blablack/nine-strip",
-    "version": "0.1.2",
+    "version": "0.1.6",
     "versions": {
+      "0.1.6": {
+        "name": "Nine Strip",
+        "author": "Aurelien Leblond",
+        "description": "A VST3/AU/LV2 channel strip plugin built with JUCE, incorporating classic Airwindows processing algorithms into a comprehensive mixing tool.",
+        "license": "agpl-3.0",
+        "type": "effect",
+        "tags": [
+          "Channel Strip",
+          "Mixing",
+          "Console Emulation",
+          "Airwindows"
+        ],
+        "url": "https://github.com/blablack/nine-strip",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/blablack/nine-strip/nine-strip.jpg",
+        "date": "2026-09-19T17:55:16Z",
+        "changes": "\n### Added\n- The host's own bypass switch (VST3, AU, LV2) now drives Master Bypass, with the same click-free crossfade. CLAP hosts keep using their own bypass.\n- The needle meters sit behind a pane of dirty glass.\n\n### Changed\n- Knob dragging is back to n",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "lv2",
+              "elf"
+            ],
+            "type": "archive",
+            "size": 33363540,
+            "sha256": "6f3655d4930dccaa3e6be8c9036e0c548bb122499da15e9c8d277e6e1e96ca73",
+            "url": "https://github.com/blablack/nine-strip/releases/download/v0.1.6/NineStrip-Linux.tar.gz",
+            "downloads": 114
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "component",
+              "app"
+            ],
+            "type": "archive",
+            "size": 57240154,
+            "sha256": "a70cca148b7a0d491742fc9eecc7764874d831577e85fbd2b9eadfad1fb41fd3",
+            "url": "https://github.com/blablack/nine-strip/releases/download/v0.1.6/NineStrip-macOS.zip",
+            "downloads": 58
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "exe"
+            ],
+            "type": "archive",
+            "size": 16941131,
+            "sha256": "f4910fb1f53cae45ad7cfeae0015b67ce5cedf46d1eb0bdc5e481a0524c54ed6",
+            "url": "https://github.com/blablack/nine-strip/releases/download/v0.1.6/NineStrip-Windows.zip",
+            "downloads": 97
+          }
+        ],
+        "verified": true,
+        "downloads": 269
+      },
       "0.1.2": {
         "name": "Nine Strip",
         "author": "Aurelien Leblond",
@@ -85,6 +166,6 @@
         "downloads": 267
       }
     },
-    "downloads": 267
+    "downloads": 536
   }
 }

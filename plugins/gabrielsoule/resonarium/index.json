@@ -1,7 +1,141 @@
 {
   "slug": "gabrielsoule/resonarium",
-  "version": "0.0.11",
+  "version": "0.1.1",
   "versions": {
+    "0.1.1": {
+      "name": "Resonarium",
+      "author": "Gabriel Soule",
+      "description": "An expressive, semi-modular, and comprehensive physical modeling/waveguide synthesizer",
+      "license": "gpl-3.0",
+      "type": "instrument",
+      "tags": [
+        "Instrument",
+        "Physical Modeling",
+        "Synthesizer"
+      ],
+      "url": "https://github.com/gabrielsoule/resonarium",
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/gabrielsoule/resonarium/resonarium.jpg",
+      "date": "2026-09-09T00:10:43Z",
+      "changes": "Re-enabled MPE legacy mode so that MIDI works again as it did pre-0.1.0, and removed the unused/vestigal settings menu that I made as a prototype and then completely forgot about. Oops!",
+      "files": [
+        {
+          "systems": [
+            {
+              "type": "linux"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "vst3"
+          ],
+          "type": "archive",
+          "size": 25428237,
+          "sha256": "d77c2cd3076cb13d1d0ce11ecb6602bfcd8f875aa20514dcfb858e4526541fd3",
+          "url": "https://github.com/gabrielsoule/resonarium/releases/download/v0.1.1/Resonarium-Effect-0.1.1-Linux.zip",
+          "downloads": 223
+        },
+        {
+          "systems": [
+            {
+              "type": "mac"
+            }
+          ],
+          "architectures": [
+            "arm64",
+            "x64"
+          ],
+          "contains": [
+            "vst3",
+            "component",
+            "app"
+          ],
+          "type": "archive",
+          "size": 55333460,
+          "sha256": "95b4c4d503cd9dcaa20cf73162a3deff037e769abb1448f46db5fc679beacd82",
+          "url": "https://github.com/gabrielsoule/resonarium/releases/download/v0.1.1/Resonarium-Effect-0.1.1-macOS-notarized.zip",
+          "downloads": 47
+        },
+        {
+          "systems": [
+            {
+              "type": "win"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "vst3"
+          ],
+          "type": "archive",
+          "size": 19402062,
+          "sha256": "5ccdaf1660190587a2a6bdedc7462a1e56b43ee32a321d44d5f3e7ee3853bf5d",
+          "url": "https://github.com/gabrielsoule/resonarium/releases/download/v0.1.1/Resonarium-Effect-0.1.1-Windows.zip",
+          "downloads": 145
+        },
+        {
+          "systems": [
+            {
+              "type": "linux"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "vst3"
+          ],
+          "type": "archive",
+          "size": 25429779,
+          "sha256": "49be679262c7421ef8ddd611fdacc3590e5a7ac381b3cf20d7d3a7a17125d464",
+          "url": "https://github.com/gabrielsoule/resonarium/releases/download/v0.1.1/Resonarium-Instrument-0.1.1-Linux.zip",
+          "downloads": 221
+        },
+        {
+          "systems": [
+            {
+              "type": "mac"
+            }
+          ],
+          "architectures": [
+            "arm64",
+            "x64"
+          ],
+          "contains": [
+            "vst3",
+            "component",
+            "app"
+          ],
+          "type": "archive",
+          "size": 55331264,
+          "sha256": "9189f5ee6461a73dcc0b7b5fdb8a486bbbe5f0dc487433bf5a1d4f77bde3b0de",
+          "url": "https://github.com/gabrielsoule/resonarium/releases/download/v0.1.1/Resonarium-Instrument-0.1.1-macOS-notarized.zip",
+          "downloads": 68
+        },
+        {
+          "systems": [
+            {
+              "type": "win"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "vst3"
+          ],
+          "type": "archive",
+          "size": 19402095,
+          "sha256": "c11df2d5fa87be29589e094e301b13ba13968ce66b0ccb87c9f7d884821ebf55",
+          "url": "https://github.com/gabrielsoule/resonarium/releases/download/v0.1.1/Resonarium-Instrument-0.1.1-Windows.zip",
+          "downloads": 155
+        }
+      ],
+      "verified": true,
+      "downloads": 859
+    },
     "0.0.11": {
       "name": "Resonarium",
       "author": "Gabriel Soule",
@@ -137,5 +271,5 @@
       "downloads": 8333
     }
   },
-  "downloads": 8333
+  "downloads": 9192
 }

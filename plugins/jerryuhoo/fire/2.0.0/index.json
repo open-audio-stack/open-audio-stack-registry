@@ -1,0 +1,80 @@
+{
+  "name": "Fire",
+  "author": "Jerry Yifeng",
+  "description": "Multiband distortion plugin.",
+  "license": "agpl-3.0",
+  "type": "effect",
+  "tags": [
+    "Effect",
+    "Distortion",
+    "Spectrogram"
+  ],
+  "url": "https://github.com/jerryuhoo/fire",
+  "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/jerryuhoo/fire/fire.flac",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/jerryuhoo/fire/fire.jpg",
+  "date": "2026-10-06T00:28:18Z",
+  "changes": "Fire 2.0.0 expands the multiband reactor with editable effect chains, new analogue and spatial colours, a full sound library, and four visual skins.\n\n## Highlights\n\n- Shared DSP modules in Band Lab and Master Lab, with removable and reorderable chains, in",
+  "files": [
+    {
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "clap",
+        "vst3"
+      ],
+      "type": "archive",
+      "size": 24423742,
+      "sha256": "d390fd0e3a432a94191c556b7a49d1b61affd0a3b5cf02b41b5bcbaf179c8a24",
+      "url": "https://github.com/jerryuhoo/Fire/releases/download/v2.0.0/Fire-2.0.0-Linux.zip",
+      "downloads": 158
+    },
+    {
+      "systems": [
+        {
+          "type": "mac"
+        }
+      ],
+      "architectures": [
+        "arm64",
+        "x64"
+      ],
+      "contains": [
+        "au",
+        "clap",
+        "vst3"
+      ],
+      "type": "archive",
+      "size": 68827542,
+      "sha256": "f00e4ed4e25fed1954b591bb3c18fb6326cd68a4eb72495ad20d222e9fe78d39",
+      "url": "https://github.com/jerryuhoo/Fire/releases/download/v2.0.0/Fire-2.0.0-macOS.zip",
+      "downloads": 318
+    },
+    {
+      "systems": [
+        {
+          "type": "win"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "clap",
+        "vst3"
+      ],
+      "type": "archive",
+      "size": 23207916,
+      "sha256": "f5d47e5171f199aedbefe815356903214d451e2fa2f643c6bee09caf00de1510",
+      "url": "https://github.com/jerryuhoo/Fire/releases/download/v2.0.0/Fire-2.0.0-Windows.zip",
+      "downloads": 809
+    }
+  ],
+  "verified": true,
+  "downloads": 1285
+}

@@ -1,0 +1,75 @@
+{
+  "name": "Homecorrupter",
+  "author": "Igor Zinken",
+  "description": "VST plugin that reduces sampling rate, bit depth and playback speed on-the-fly",
+  "license": "mit",
+  "type": "effect",
+  "tags": [
+    "Bitcrusher"
+  ],
+  "url": "https://github.com/igorski/homecorrupter",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/igorski/homecorrupter/homecorrupter.jpg",
+  "date": "2026-08-29T08:03:55Z",
+  "changes": "Version 1.2.0 built against [Steinberg SDK version 3.7.11.10](https://github.com/steinbergmedia/vst3sdk/releases/tag/v3.7.11_build_10)\r\n\r\nAddresses the following issues:\r\n\r\n - Host sample rate changes are now handled by all modules at runtime instead of p",
+  "files": [
+    {
+      "systems": [
+        {
+          "type": "mac"
+        }
+      ],
+      "architectures": [
+        "arm64",
+        "x64"
+      ],
+      "contains": [
+        "vst3",
+        "vst"
+      ],
+      "type": "archive",
+      "size": 7731462,
+      "sha256": "3eeadf2e351fb6e8df4e276ac2d590a0da96cd176f612e4aa0bc1a0a51b4910b",
+      "url": "https://github.com/igorski/homecorrupter/releases/download/1.2.0/homecorrupter.1.2.0_macos.zip",
+      "downloads": 102
+    },
+    {
+      "systems": [
+        {
+          "type": "win"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3",
+        "dll"
+      ],
+      "type": "archive",
+      "size": 2352030,
+      "sha256": "358cd3c09ebc37fea8979aae649cdbfbe066696a080d63efdd2cf6dd10d6d6ab",
+      "url": "https://github.com/igorski/homecorrupter/releases/download/1.2.0/homecorrupter.1.2.0_windows.zip",
+      "downloads": 78
+    },
+    {
+      "systems": [
+        {
+          "type": "win"
+        }
+      ],
+      "architectures": [
+        "x32"
+      ],
+      "contains": [
+        "dll"
+      ],
+      "type": "archive",
+      "size": 2352030,
+      "sha256": "358cd3c09ebc37fea8979aae649cdbfbe066696a080d63efdd2cf6dd10d6d6ab",
+      "url": "https://github.com/igorski/homecorrupter/releases/download/1.2.0/homecorrupter.1.2.0_windows.zip",
+      "downloads": 78
+    }
+  ],
+  "verified": true,
+  "downloads": 258
+}

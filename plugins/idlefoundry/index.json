@@ -1,8 +1,112 @@
 {
   "idlefoundry/ca-72": {
     "slug": "idlefoundry/ca-72",
-    "version": "0.2.0",
+    "version": "0.3.2",
     "versions": {
+      "0.3.2": {
+        "name": "CA-72",
+        "author": "Idle Foundry",
+        "description": "A circuit-modelled synthesizer based on the 1972–73 Minimoog Model D, with monophonic and polyphonic modes, stereo voices, MIDI Learn and three quality settings. VST3 and CLAP on macOS, Windows and Linux, plus Audio Unit on macOS.",
+        "license": "gpl-3.0",
+        "type": "instrument",
+        "tags": [
+          "Synthesizer",
+          "Analog",
+          "Emulation",
+          "Minimoog Model D",
+          "Polyphonic",
+          "Audio Input"
+        ],
+        "url": "https://github.com/idlefoundry/ca-72",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/idlefoundry/ca-72/ca-72.jpg",
+        "date": "2026-11-05T22:16:38Z",
+        "changes": "Installers for macOS 11 or newer (Apple silicon and Intel), Windows 10/11 (64-bit), and Linux x86-64. The macOS installer is Developer ID signed and notarized. Installation instructions: [README](https://github.com/idlefoundry/ca-72#installing). Download ",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "clap"
+            ],
+            "type": "archive",
+            "size": 112247923,
+            "sha256": "14dc48a1f09657b0fa4aa9dd92da69c67f30d6826998c2b0afa6ea90efe1c0fe",
+            "url": "https://github.com/idlefoundry/ca-72/releases/download/v0.3.2/CA-72-0.3.2-Linux-x86_64.tar.gz",
+            "downloads": 123
+          },
+          {
+            "systems": [
+              {
+                "min": 11,
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "component",
+              "clap"
+            ],
+            "type": "installer",
+            "size": 130503336,
+            "sha256": "786d1176101bb70741caefeb485f21e51d08f63cb311fd9bcc4067e378ca87ad",
+            "url": "https://github.com/idlefoundry/ca-72/releases/download/v0.3.2/CA-72-0.3.2-macOS.pkg",
+            "downloads": 307
+          },
+          {
+            "systems": [
+              {
+                "min": 10,
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "clap"
+            ],
+            "type": "installer",
+            "size": 48803763,
+            "sha256": "911c1f6487f9ae376bb818d2e34f67afa9addfcda8608b5681b8aaf199a42e6f",
+            "url": "https://github.com/idlefoundry/ca-72/releases/download/v0.3.2/CA-72-0.3.2-Windows-setup.exe",
+            "downloads": 529
+          },
+          {
+            "systems": [
+              {
+                "min": 10,
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "clap"
+            ],
+            "type": "archive",
+            "size": 52380205,
+            "sha256": "3ff9fc3c99e176bb10fc4504e77ea4e895d3e88409b003cde202b1fd9c39cc9d",
+            "url": "https://github.com/idlefoundry/ca-72/releases/download/v0.3.2/CA-72-0.3.2-Windows-x86_64.zip",
+            "downloads": 249
+          }
+        ],
+        "verified": true,
+        "downloads": 1208
+      },
       "0.2.0": {
         "name": "CA-72",
         "author": "Idle Foundry",
@@ -108,6 +212,6 @@
         "downloads": 610
       }
     },
-    "downloads": 610
+    "downloads": 1818
   }
 }

@@ -84,8 +84,84 @@
   },
   "igorski/transformant": {
     "slug": "igorski/transformant",
-    "version": "1.0.4",
+    "version": "1.1.0",
     "versions": {
+      "1.1.0": {
+        "name": "Transformant",
+        "author": "Igor Zinken",
+        "description": "A stereo formant filter effect, driven by oscillators and obliterated to gravel through bit crushing or wave shaping.",
+        "license": "mit",
+        "type": "effect",
+        "tags": [
+          "Filter",
+          "Formant"
+        ],
+        "url": "https://github.com/igorski/transformant",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/igorski/transformant/transformant.jpg",
+        "date": "2026-09-01T19:05:40Z",
+        "changes": " - Stabilised formant process application\r\n - Use auto makeup gain in favor of compression algorithm to keep in and out volume in check\r\n - When (re)syncing vowels, oscillator positions are now realigned\r\n - Added dry/wet mix control\r\n - Added input thres",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "vst"
+            ],
+            "type": "archive",
+            "size": 7119678,
+            "sha256": "0bf173764b09636fa01b15cc009bea14cf4dde5d3fb681a4255559e764a2b56c",
+            "url": "https://github.com/igorski/transformant/releases/download/1.1.0/transformant.1.1.0_macos.zip",
+            "downloads": 100
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "dll"
+            ],
+            "type": "archive",
+            "size": 1954890,
+            "sha256": "f0b3394fe43c4ccdf489a22b1d625970885e2c5b409117798eb255bf8d53fa7c",
+            "url": "https://github.com/igorski/transformant/releases/download/1.1.0/transformant.1.1.0_windows.zip",
+            "downloads": 61
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x32"
+            ],
+            "contains": [
+              "dll"
+            ],
+            "type": "archive",
+            "size": 1954890,
+            "sha256": "f0b3394fe43c4ccdf489a22b1d625970885e2c5b409117798eb255bf8d53fa7c",
+            "url": "https://github.com/igorski/transformant/releases/download/1.1.0/transformant.1.1.0_windows.zip",
+            "downloads": 61
+          }
+        ],
+        "verified": true,
+        "downloads": 222
+      },
       "1.0.4": {
         "name": "Transformant",
         "author": "Igor Zinken",
@@ -163,7 +239,7 @@
         "downloads": 156
       }
     },
-    "downloads": 156
+    "downloads": 378
   },
   "igorski/regrader": {
     "slug": "igorski/regrader",
@@ -367,8 +443,83 @@
   },
   "igorski/homecorrupter": {
     "slug": "igorski/homecorrupter",
-    "version": "1.1.3",
+    "version": "1.2.0",
     "versions": {
+      "1.2.0": {
+        "name": "Homecorrupter",
+        "author": "Igor Zinken",
+        "description": "VST plugin that reduces sampling rate, bit depth and playback speed on-the-fly",
+        "license": "mit",
+        "type": "effect",
+        "tags": [
+          "Bitcrusher"
+        ],
+        "url": "https://github.com/igorski/homecorrupter",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/igorski/homecorrupter/homecorrupter.jpg",
+        "date": "2026-08-29T08:03:55Z",
+        "changes": "Version 1.2.0 built against [Steinberg SDK version 3.7.11.10](https://github.com/steinbergmedia/vst3sdk/releases/tag/v3.7.11_build_10)\r\n\r\nAddresses the following issues:\r\n\r\n - Host sample rate changes are now handled by all modules at runtime instead of p",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "vst"
+            ],
+            "type": "archive",
+            "size": 7731462,
+            "sha256": "3eeadf2e351fb6e8df4e276ac2d590a0da96cd176f612e4aa0bc1a0a51b4910b",
+            "url": "https://github.com/igorski/homecorrupter/releases/download/1.2.0/homecorrupter.1.2.0_macos.zip",
+            "downloads": 102
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "dll"
+            ],
+            "type": "archive",
+            "size": 2352030,
+            "sha256": "358cd3c09ebc37fea8979aae649cdbfbe066696a080d63efdd2cf6dd10d6d6ab",
+            "url": "https://github.com/igorski/homecorrupter/releases/download/1.2.0/homecorrupter.1.2.0_windows.zip",
+            "downloads": 78
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x32"
+            ],
+            "contains": [
+              "dll"
+            ],
+            "type": "archive",
+            "size": 2352030,
+            "sha256": "358cd3c09ebc37fea8979aae649cdbfbe066696a080d63efdd2cf6dd10d6d6ab",
+            "url": "https://github.com/igorski/homecorrupter/releases/download/1.2.0/homecorrupter.1.2.0_windows.zip",
+            "downloads": 78
+          }
+        ],
+        "verified": true,
+        "downloads": 258
+      },
       "1.1.3": {
         "name": "Homecorrupter",
         "author": "Igor Zinken",
@@ -445,7 +596,7 @@
         "downloads": 250
       }
     },
-    "downloads": 250
+    "downloads": 508
   },
   "igorski/fogpad": {
     "slug": "igorski/fogpad",

@@ -1,8 +1,123 @@
 {
   "asb2m10/plugincollider": {
     "slug": "asb2m10/plugincollider",
-    "version": "0.5.0",
+    "version": "0.5.2",
     "versions": {
+      "0.5.2": {
+        "name": "PluginCollider",
+        "author": "Pascal Gauthier",
+        "description": "A generic wrapper that allows using a SuperCollider server inside a VST3/CLAP plugin",
+        "license": "gpl-3.0",
+        "type": "tool",
+        "tags": [
+          "Supercollider",
+          "Juce",
+          "Host"
+        ],
+        "url": "https://github.com/asb2m10/plugincollider",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/asb2m10/plugincollider/plugincollider.jpg",
+        "date": "2026-11-03T02:43:20Z",
+        "changes": "Release updated  Tue Nov 3 02:52:58 UTC 2026\n\n- [d3abcc0](https://github.com/asb2m10/plugincollider/commit/d3abcc006345bad0aa78acab9797582163c1a466) : Bump project version from 0.5.0 to 0.5.2\n- [071105e](https://github.com/asb2m10/plugincollider/commit/07",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "elf"
+            ],
+            "type": "archive",
+            "size": 7920988,
+            "sha256": "37e8a1e1fb8549d7fbbbf017cf67197a2135de75fabb88e5e217e2bfc036156f",
+            "url": "https://github.com/asb2m10/plugincollider/releases/download/v0.5.2/PluginCollider-0.5.2-lnx.zip",
+            "downloads": 56
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64"
+            ],
+            "contains": [
+              "vst3",
+              "app"
+            ],
+            "type": "installer",
+            "size": 5315485,
+            "sha256": "e9f3e021037ba48182f625892eb3ef7325a6ba44f913ed0d338726470303bb82",
+            "url": "https://github.com/asb2m10/plugincollider/releases/download/v0.5.2/PluginCollider-0.5.2-macOS.dmg",
+            "downloads": 48
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64"
+            ],
+            "contains": [
+              "vst3",
+              "app"
+            ],
+            "type": "archive",
+            "size": 5277392,
+            "sha256": "49add09a9f45adc1e89b3fd3754c2e3d47bf6c0a28fb7c11f92642641e32f215",
+            "url": "https://github.com/asb2m10/plugincollider/releases/download/v0.5.2/PluginCollider-0.5.2-macOS.zip",
+            "downloads": 52
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "exe"
+            ],
+            "type": "archive",
+            "size": 7775197,
+            "sha256": "676f8f240c021f7612c5f19ca9cfac7aedca5d3ca9cf5d9fe0ba8f0019640b53",
+            "url": "https://github.com/asb2m10/plugincollider/releases/download/v0.5.2/PluginCollider-0.5.2-win.zip",
+            "downloads": 58
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "clap"
+            ],
+            "type": "installer",
+            "size": 9550589,
+            "sha256": "9aef07a12a6c751bcdeaf57699de824ac1693644327024ba3655f6f9cff82f74",
+            "url": "https://github.com/asb2m10/plugincollider/releases/download/v0.5.2/PluginCollider-n0.5.2-win.exe",
+            "downloads": 65
+          }
+        ],
+        "verified": true,
+        "downloads": 279
+      },
       "0.5.0": {
         "name": "PluginCollider",
         "author": "Pascal Gauthier",
@@ -119,7 +234,7 @@
         "downloads": 1360
       }
     },
-    "downloads": 1360
+    "downloads": 1639
   },
   "asb2m10/dexed": {
     "slug": "asb2m10/dexed",

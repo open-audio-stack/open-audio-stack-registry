@@ -1,0 +1,177 @@
+{
+  "name": "Floe",
+  "author": "Floe",
+  "description": "A streamlined sample-based instrument platform that loads and plays sample libraries in the Floe format.",
+  "license": "gpl-3.0",
+  "type": "instrument",
+  "tags": [
+    "Sampler",
+    "Sample Library"
+  ],
+  "url": "https://github.com/floe-audio/Floe",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/floe-audio/floe/floe.jpg",
+  "date": "2026-11-06T15:33:26Z",
+  "changes": "- Open the license file that comes with each of your libraries, from the new Library Terms of Use item in the main menu\n- Open a library's user manual from the main menu's Help item, when the library comes with one\n- Library development: add `manual_path`",
+  "files": [
+    {
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3"
+      ],
+      "type": "archive",
+      "size": 14667747,
+      "sha256": "332d48d1198a6125f4efa6c7e6e2040128e8e82e822a7091fbf89c8e86ed9dd3",
+      "url": "https://github.com/floe-audio/Floe/releases/download/v2.0.5/Floe-VST3-v2.0.5-Linux.tar.gz",
+      "downloads": 5
+    },
+    {
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "clap"
+      ],
+      "type": "archive",
+      "size": 14206052,
+      "sha256": "14e6e7bf684253facb534ae034bc7324772552997017fb03de608a8c6f25d476",
+      "url": "https://github.com/floe-audio/Floe/releases/download/v2.0.5/Floe-CLAP-v2.0.5-Linux.tar.gz",
+      "downloads": 9
+    },
+    {
+      "systems": [
+        {
+          "min": 10.15,
+          "type": "mac"
+        }
+      ],
+      "architectures": [
+        "arm64"
+      ],
+      "contains": [
+        "vst3",
+        "component",
+        "clap"
+      ],
+      "type": "archive",
+      "size": 35456862,
+      "sha256": "b4ed6c4e995495f2b2156236585a18af54b3d90cf49809b9b5ec3170f0b0f984",
+      "url": "https://github.com/floe-audio/Floe/releases/download/v2.0.5/Floe-Installer-v2.0.5-macOS-Apple-Silicon.zip",
+      "downloads": 47
+    },
+    {
+      "systems": [
+        {
+          "min": 10.15,
+          "type": "mac"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3",
+        "component",
+        "clap"
+      ],
+      "type": "archive",
+      "size": 36053289,
+      "sha256": "a919593efdf8de7bfea4fbaeed66cfc32f1a7a2ef6b3a6efa07f3a31e47c532b",
+      "url": "https://github.com/floe-audio/Floe/releases/download/v2.0.5/Floe-Installer-v2.0.5-macOS-Intel.zip",
+      "downloads": 5
+    },
+    {
+      "systems": [
+        {
+          "min": 10.15,
+          "type": "mac"
+        }
+      ],
+      "architectures": [
+        "arm64"
+      ],
+      "contains": [
+        "vst3",
+        "component",
+        "clap"
+      ],
+      "type": "archive",
+      "size": 35723799,
+      "sha256": "30f9d79c8c7b4af8639e380c3850f714855487b9c11dc7d2feba5ffef0864d1c",
+      "url": "https://github.com/floe-audio/Floe/releases/download/v2.0.5/Floe-Manual-Install-v2.0.5-macOS-Apple-Silicon.zip",
+      "downloads": 8
+    },
+    {
+      "systems": [
+        {
+          "min": 10.15,
+          "type": "mac"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3",
+        "component",
+        "clap"
+      ],
+      "type": "archive",
+      "size": 36337219,
+      "sha256": "fd4dce9e88cc2d0b4456b3f229095c26b9029af07565896d0384d3b9a30d1fb1",
+      "url": "https://github.com/floe-audio/Floe/releases/download/v2.0.5/Floe-Manual-Install-v2.0.5-macOS-Intel.zip",
+      "downloads": 7
+    },
+    {
+      "systems": [
+        {
+          "type": "win"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3",
+        "clap"
+      ],
+      "type": "archive",
+      "size": 33842957,
+      "sha256": "3f072432ccb5b312ebebd0bb03ff45a9626d7d84a0511952cecd212c94598cc5",
+      "url": "https://github.com/floe-audio/Floe/releases/download/v2.0.5/Floe-Installer-v2.0.5-Windows.zip",
+      "downloads": 118
+    },
+    {
+      "systems": [
+        {
+          "type": "win"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3",
+        "clap"
+      ],
+      "type": "archive",
+      "size": 29369782,
+      "sha256": "8d5db775c64118416235aa6817ea8d9c1352d890605145661a9fc8a2e8a544b9",
+      "url": "https://github.com/floe-audio/Floe/releases/download/v2.0.5/Floe-Manual-Install-v2.0.5-Windows.zip",
+      "downloads": 11
+    }
+  ],
+  "verified": true,
+  "downloads": 210
+}

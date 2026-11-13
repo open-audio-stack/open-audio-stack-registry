@@ -4810,6 +4810,14 @@
     }
   },
   "igorski/transformant": {
+    "1.1.0": {
+      "recs": [
+        {
+          "field": "systems",
+          "rec": "should support Linux"
+        }
+      ]
+    },
     "1.0.4": {
       "recs": [
         {
@@ -4854,6 +4862,18 @@
     }
   },
   "igorski/homecorrupter": {
+    "1.2.0": {
+      "recs": [
+        {
+          "field": "systems",
+          "rec": "should support Linux"
+        },
+        {
+          "field": "tags",
+          "rec": "should have more items"
+        }
+      ]
+    },
     "1.1.3": {
       "recs": [
         {
@@ -4968,6 +4988,18 @@
     }
   },
   "hollance/lost-and-found-piano": {
+    "1.0.1": {
+      "recs": [
+        {
+          "field": "systems",
+          "rec": "should support Linux"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Windows"
+        }
+      ]
+    },
     "1.0.0": {
       "recs": [
         {
@@ -5378,6 +5410,22 @@
     }
   },
   "flarkflarkflark/audiorestorationvst": {
+    "1.6.36": {
+      "recs": [
+        {
+          "field": "url",
+          "rec": "requires manual installation steps, consider .deb and .rpm instead"
+        },
+        {
+          "field": "type",
+          "rec": "should match url field"
+        },
+        {
+          "field": "url",
+          "rec": "requires mounting step, consider .pkg instead"
+        }
+      ]
+    },
     "1.6.35": {
       "recs": [
         {
@@ -5840,6 +5888,22 @@
     }
   },
   "danielwray/neampmod-the-tweed": {
+    "4.0.0": {
+      "recs": [
+        {
+          "field": "url",
+          "rec": "not a supported format"
+        },
+        {
+          "field": "url",
+          "rec": "not a supported format"
+        },
+        {
+          "field": "url",
+          "rec": "not a supported format"
+        }
+      ]
+    },
     "3.0.0": {
       "recs": [
         {
@@ -6810,6 +6874,14 @@
     }
   },
   "asb2m10/plugincollider": {
+    "0.5.2": {
+      "recs": [
+        {
+          "field": "url",
+          "rec": "requires mounting step, consider .pkg instead"
+        }
+      ]
+    },
     "0.5.0": {
       "recs": [
         {
