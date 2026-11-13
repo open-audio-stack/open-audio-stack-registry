@@ -2581,6 +2581,66 @@
           "rec": "not a supported format"
         }
       ]
+    },
+    "0.9.3": {
+      "recs": [
+        {
+          "field": "url",
+          "rec": "not a supported format"
+        },
+        {
+          "field": "url",
+          "rec": "not a supported format"
+        },
+        {
+          "field": "url",
+          "rec": "not a supported format"
+        },
+        {
+          "field": "url",
+          "rec": "not a supported format"
+        },
+        {
+          "field": "url",
+          "rec": "not a supported format"
+        },
+        {
+          "field": "url",
+          "rec": "not a supported format"
+        },
+        {
+          "field": "url",
+          "rec": "not a supported format"
+        },
+        {
+          "field": "url",
+          "rec": "not a supported format"
+        },
+        {
+          "field": "url",
+          "rec": "not a supported format"
+        },
+        {
+          "field": "url",
+          "rec": "not a supported format"
+        },
+        {
+          "field": "url",
+          "rec": "not a supported format"
+        },
+        {
+          "field": "url",
+          "rec": "not a supported format"
+        },
+        {
+          "field": "url",
+          "rec": "not a supported format"
+        },
+        {
+          "field": "url",
+          "rec": "not a supported format"
+        }
+      ]
     }
   },
   "pixelsncodes/lumen": {
@@ -2712,6 +2772,22 @@
     }
   },
   "otodesk4193/quadmorphfilter": {
+    "1.1.0": {
+      "recs": [
+        {
+          "field": "architectures",
+          "rec": "should support arm64"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Linux"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Mac"
+        }
+      ]
+    },
     "1.0.0": {
       "recs": [
         {
@@ -2748,6 +2824,22 @@
     }
   },
   "otodesk4193/multi-oto": {
+    "1.1.0": {
+      "recs": [
+        {
+          "field": "architectures",
+          "rec": "should support arm64"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Linux"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Mac"
+        }
+      ]
+    },
     "1.0.0": {
       "recs": [
         {
@@ -2874,6 +2966,22 @@
     }
   },
   "otodesk4193/anatomy": {
+    "1.2.0": {
+      "recs": [
+        {
+          "field": "architectures",
+          "rec": "should support arm64"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Linux"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Mac"
+        }
+      ]
+    },
     "1.0.0": {
       "recs": [
         {
@@ -3040,6 +3148,22 @@
     }
   },
   "nilace/dynamo0c": {
+    "1.5.0": {
+      "recs": [
+        {
+          "field": "architectures",
+          "rec": "should support arm64"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Mac"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Windows"
+        }
+      ]
+    },
     "1.2.0": {
       "recs": [
         {
@@ -3678,6 +3802,46 @@
     }
   },
   "magillos/cable": {
+    "0.10.14": {
+      "recs": [
+        {
+          "field": "url",
+          "rec": "requires manual installation steps, consider .deb and .rpm instead"
+        },
+        {
+          "field": "type",
+          "rec": "should match url field"
+        },
+        {
+          "field": "url",
+          "rec": "requires manual installation steps, consider .deb and .rpm instead"
+        },
+        {
+          "field": "type",
+          "rec": "should match url field"
+        },
+        {
+          "field": "url",
+          "rec": "not a supported format"
+        },
+        {
+          "field": "type",
+          "rec": "should match url field"
+        },
+        {
+          "field": "architectures",
+          "rec": "should support arm64"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Mac"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Windows"
+        }
+      ]
+    },
     "0.10.13": {
       "recs": [
         {
@@ -3837,6 +4001,18 @@
       ]
     },
     "1.2.33": {
+      "recs": [
+        {
+          "field": "systems",
+          "rec": "should support Mac"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Windows"
+        }
+      ]
+    },
+    "1.2.31": {
       "recs": [
         {
           "field": "systems",
@@ -4192,6 +4368,22 @@
     }
   },
   "kevin-jenkins/plugnspectr": {
+    "1.2.0": {
+      "recs": [
+        {
+          "field": "architectures",
+          "rec": "should support arm64"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Linux"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Mac"
+        }
+      ]
+    },
     "1.0.1": {
       "recs": [
         {

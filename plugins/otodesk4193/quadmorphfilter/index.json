@@ -1,7 +1,45 @@
 {
   "slug": "otodesk4193/quadmorphfilter",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "versions": {
+    "1.1.0": {
+      "name": "Quad Morph Filter",
+      "author": "OTODESK",
+      "description": "A real-time XY morphing filter with 28 premium filter models, equal-power blending of up to 4 filters, and 19 LFO waveforms",
+      "license": "agpl-3.0",
+      "type": "effect",
+      "tags": [
+        "Effect",
+        "Filter",
+        "Modulation"
+      ],
+      "url": "https://github.com/OTODESK4193/QuadMorphFilter",
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/otodesk4193/quadmorphfilter/quadmorphfilter.jpg",
+      "date": "2026-08-09T05:43:59Z",
+      "changes": "## Changelog\r\n\r\n### V1.1.0\r\n\r\n**GUI overhaul plus a round of DSP fixes.** All V1.0.0 parameter IDs are preserved and one parameter is added (`xyDepth`, default 0 %), so existing projects and presets load correctly. Most of the DSP work below is either ina",
+      "files": [
+        {
+          "systems": [
+            {
+              "type": "win"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "vst3"
+          ],
+          "type": "archive",
+          "size": 19449532,
+          "sha256": "ed215b7ca8fa220cd9b407769e899e631bc048c030fea04f0a834f197debde0e",
+          "url": "https://github.com/OTODESK4193/QuadMorphFilter/releases/download/V1.1.0/Quad-Morph.Filter.vst3.zip",
+          "downloads": 330
+        }
+      ],
+      "verified": true,
+      "downloads": 330
+    },
     "1.0.0": {
       "name": "Quad Morph Filter",
       "author": "OTODESK",
@@ -41,5 +79,5 @@
       "downloads": 1192
     }
   },
-  "downloads": 1192
+  "downloads": 1522
 }

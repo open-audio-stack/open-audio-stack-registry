@@ -1,0 +1,133 @@
+{
+  "name": "MonkSynth",
+  "author": "Jon Taylor",
+  "description": "Monophonic vocal synthesizer using FOF synthesis, inspired by Delay Lama",
+  "license": "mit",
+  "type": "instrument",
+  "tags": [
+    "Vocal Synthesis",
+    "FOF",
+    "Monophonic"
+  ],
+  "url": "https://github.com/JonET/monksynth",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/jonet/monksynth/monksynth.jpg",
+  "date": "2026-10-11T00:16:08Z",
+  "changes": "\n### Fixed\n- Under Wine on Linux the editor stayed black (#36) or grew black rectangles over the monk while the vowel and pitch changed (#40). DXVK can't present the DirectComposition or swapchain targets VSTGUI draws into, so when MonkSynth detects Wine",
+  "files": [
+    {
+      "systems": [
+        {
+          "type": "mac"
+        }
+      ],
+      "architectures": [
+        "arm64",
+        "x64"
+      ],
+      "contains": [
+        "vst3",
+        "component"
+      ],
+      "type": "installer",
+      "size": 6618368,
+      "sha256": "8b297433273c2aa703e437c7fc3d6d9b23004971f32fb706628f1f0e0cb6133a",
+      "url": "https://github.com/JonET/monksynth/releases/download/v1.0.2/MonkSynth-1.0.2-macOS-Setup.pkg",
+      "downloads": 1100
+    },
+    {
+      "systems": [
+        {
+          "type": "win"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3",
+        "component"
+      ],
+      "type": "installer",
+      "size": 4939552,
+      "sha256": "0c1b2b38357cbe69cfc563f4bb502e5355fdcea540d9626c6b3dd6446d2b23db",
+      "url": "https://github.com/JonET/monksynth/releases/download/v1.0.2/MonkSynth-1.0.2-Windows-Setup.exe",
+      "downloads": 2418
+    },
+    {
+      "systems": [
+        {
+          "type": "mac"
+        }
+      ],
+      "architectures": [
+        "arm64",
+        "x64"
+      ],
+      "contains": [
+        "component"
+      ],
+      "type": "archive",
+      "size": 3421041,
+      "sha256": "acd1678fc8643d7cec463b338dc2a5c05abd541267b1491f8298c30ef451f26e",
+      "url": "https://github.com/JonET/monksynth/releases/download/v1.0.2/MonkSynth-AU-macOS.zip",
+      "downloads": 260
+    },
+    {
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3"
+      ],
+      "type": "archive",
+      "size": 5871487,
+      "sha256": "c292decc6c6fe8c0aa9f33c2ac7bedbc002816d97c5180bc262ff0782032ea44",
+      "url": "https://github.com/JonET/monksynth/releases/download/v1.0.2/MonkSynth-VST3-Linux.zip",
+      "downloads": 208
+    },
+    {
+      "systems": [
+        {
+          "type": "mac"
+        }
+      ],
+      "architectures": [
+        "arm64",
+        "x64"
+      ],
+      "contains": [
+        "vst3"
+      ],
+      "type": "archive",
+      "size": 3182608,
+      "sha256": "4e26fe2af9f72259604d6b6cf6e5bc8a2a95dd11494ece6593b50a7c9de5d934",
+      "url": "https://github.com/JonET/monksynth/releases/download/v1.0.2/MonkSynth-VST3-macOS.zip",
+      "downloads": 330
+    },
+    {
+      "systems": [
+        {
+          "type": "win"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3"
+      ],
+      "type": "archive",
+      "size": 3433068,
+      "sha256": "1c878e829eb78c0d1dea5c4add73fccb688a5b3fa31d062a16f37509eeecdd1c",
+      "url": "https://github.com/JonET/monksynth/releases/download/v1.0.2/MonkSynth-VST3-Windows.zip",
+      "downloads": 1153
+    }
+  ],
+  "verified": true,
+  "downloads": 5469
+}

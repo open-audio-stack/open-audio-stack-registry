@@ -12922,14 +12922,14 @@
               "size": 8487723,
               "sha256": "aace26ada2fa0506056a401412d5cc75c9930977bd8f38b3b7199c57fbfe82a0",
               "url": "https://github.com/swesterfeld/liquidsfz/releases/download/0.4.2/liquidsfz-0.4.2-x86_64.tar.gz",
-              "downloads": 91
+              "downloads": 92
             }
           ],
           "verified": true,
-          "downloads": 91
+          "downloads": 92
         }
       },
-      "downloads": 91
+      "downloads": 92
     },
     "surge-synthesizer/tuning-workbench-synth": {
       "slug": "surge-synthesizer/tuning-workbench-synth",
@@ -13076,7 +13076,7 @@
               "size": 223339140,
               "sha256": "a6e55064487f624147d515b9ae5fc79a568b69746675b2083abde628ca7bb151",
               "url": "https://github.com/surge-synthesizer/releases-xt/releases/download/1.3.4/surge-xt-linux-x64-1.3.4.deb",
-              "downloads": 48061
+              "downloads": 48062
             },
             {
               "systems": [
@@ -13162,7 +13162,7 @@
             }
           ],
           "verified": true,
-          "downloads": 864563
+          "downloads": 864564
         },
         "1.3.1": {
           "name": "Surge XT",
@@ -13289,7 +13289,7 @@
           "downloads": 84642
         }
       },
-      "downloads": 949205
+      "downloads": 949206
     },
     "surge-synthesizer/ob-xf": {
       "slug": "surge-synthesizer/ob-xf",
@@ -24250,7 +24250,7 @@
     },
     "plugdata-team/plugdata": {
       "slug": "plugdata-team/plugdata",
-      "version": "0.9.3-2",
+      "version": "0.9.3",
       "versions": {
         "0.9.3-2": {
           "name": "plugdata",
@@ -24653,9 +24653,411 @@
           ],
           "verified": true,
           "downloads": 8396
+        },
+        "0.9.3": {
+          "name": "plugdata",
+          "author": "plugdata-team",
+          "description": "A plugin wrapper around Pure Data with a new GUI, allowing visual patching in a wide selection of DAWs. Ships with the ELSE collection of externals and abstractions, and can also be used as a standalone replacement for Pure Data.",
+          "license": "gpl-3.0",
+          "type": "tool",
+          "tags": [
+            "Pure Data",
+            "Patching",
+            "Visual Programming",
+            "Modular"
+          ],
+          "url": "https://github.com/plugdata-team/plugdata",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/plugdata-team/plugdata/plugdata.jpg",
+          "date": "2026-02-14T16:47:44Z",
+          "changes": "New plugdata version, with a few new features, but mostly bugfixes and QoL improvements:\r\n\r\n#### Platform Support\r\n- Added ASIO support for Windows\r\n- Reduced installer sizes for macOS and Windows\r\n- Added Arch and openSUSE arm64 builds\r\n\r\n#### Heavy expo",
+          "files": [
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "arm64"
+              ],
+              "contains": [
+                "vst3",
+                "clap",
+                "lv2",
+                "elf"
+              ],
+              "type": "archive",
+              "size": 284356300,
+              "sha256": "4c240bb46434dc3f98b90aff58ab1a1d59fb63ee30214065ba9e75a5748e03c6",
+              "url": "https://github.com/plugdata-team/plugdata/releases/download/v0.9.3/plugdata-Arch-aarch64.tar.xz",
+              "downloads": 107
+            },
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "vst3",
+                "clap",
+                "lv2",
+                "elf"
+              ],
+              "type": "archive",
+              "size": 293117788,
+              "sha256": "58927b8f7e8a494af0e221255b97103d48d519946d7a9df2dcfd474a12ef05f0",
+              "url": "https://github.com/plugdata-team/plugdata/releases/download/v0.9.3/plugdata-Arch-x64.tar.xz",
+              "downloads": 438
+            },
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "arm64"
+              ],
+              "contains": [
+                "vst3",
+                "clap",
+                "lv2",
+                "elf"
+              ],
+              "type": "archive",
+              "size": 281969200,
+              "sha256": "81aa53676e8f5d9e5fe5dea53fb3b6f03c441a5b727a8c1c7c79f9b00c2cb9ab",
+              "url": "https://github.com/plugdata-team/plugdata/releases/download/v0.9.3/plugdata-Debian-aarch64.tar.xz",
+              "downloads": 200
+            },
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "vst3",
+                "clap",
+                "lv2",
+                "elf"
+              ],
+              "type": "archive",
+              "size": 291527732,
+              "sha256": "ba0d07a0216dfa49ccc175e26a25474805174d7e9a998e0c3fc2910cad549776",
+              "url": "https://github.com/plugdata-team/plugdata/releases/download/v0.9.3/plugdata-Debian-x64.tar.xz",
+              "downloads": 890
+            },
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "arm64"
+              ],
+              "contains": [
+                "vst3",
+                "clap",
+                "lv2",
+                "elf"
+              ],
+              "type": "archive",
+              "size": 280960372,
+              "sha256": "8a488adb55d43f4dff20c392eda3a9e536c6bc5e5c6ee906564fc0cbf8162577",
+              "url": "https://github.com/plugdata-team/plugdata/releases/download/v0.9.3/plugdata-Fedora-41-aarch64.tar.xz",
+              "downloads": 26
+            },
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "vst3",
+                "clap",
+                "lv2",
+                "elf"
+              ],
+              "type": "archive",
+              "size": 290700956,
+              "sha256": "9812ad0b7a755ea65e0324a1905bb0e98ecb1c5c864482d21bda08055a30dab4",
+              "url": "https://github.com/plugdata-team/plugdata/releases/download/v0.9.3/plugdata-Fedora-41-x64.tar.xz",
+              "downloads": 66
+            },
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "arm64"
+              ],
+              "contains": [
+                "vst3",
+                "clap",
+                "lv2",
+                "elf"
+              ],
+              "type": "archive",
+              "size": 282363180,
+              "sha256": "0a884e8f034fed8df168b9135357cfd0976993207c9fb6806fc9b27ac753c391",
+              "url": "https://github.com/plugdata-team/plugdata/releases/download/v0.9.3/plugdata-Fedora-42-aarch64.tar.xz",
+              "downloads": 38
+            },
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "vst3",
+                "clap",
+                "lv2",
+                "elf"
+              ],
+              "type": "archive",
+              "size": 291665572,
+              "sha256": "4e05c6c73be3279313d74dbc402d46c56a633217c2856ca64716a68108d117d3",
+              "url": "https://github.com/plugdata-team/plugdata/releases/download/v0.9.3/plugdata-Fedora-42-x64.tar.xz",
+              "downloads": 249
+            },
+            {
+              "systems": [
+                {
+                  "type": "mac"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "vst3",
+                "clap",
+                "lv2",
+                "component",
+                "app"
+              ],
+              "type": "installer",
+              "size": 397491035,
+              "sha256": "37568f0e20f3e959310b8036974b077f404da2d368288f86436fad8b8881b6c7",
+              "url": "https://github.com/plugdata-team/plugdata/releases/download/v0.9.3/plugdata-macOS-Legacy.pkg",
+              "downloads": 524
+            },
+            {
+              "systems": [
+                {
+                  "type": "mac"
+                }
+              ],
+              "architectures": [
+                "arm64",
+                "x64"
+              ],
+              "contains": [
+                "vst3",
+                "clap",
+                "lv2",
+                "component",
+                "app"
+              ],
+              "type": "installer",
+              "size": 772567838,
+              "sha256": "44344723ec6b975d59823725277e886b5513a04cb397dff0a5ce8ad8e042564b",
+              "url": "https://github.com/plugdata-team/plugdata/releases/download/v0.9.3/plugdata-macOS-Universal.pkg",
+              "downloads": 13635
+            },
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "arm64"
+              ],
+              "contains": [
+                "vst3",
+                "clap",
+                "lv2",
+                "elf"
+              ],
+              "type": "archive",
+              "size": 282719752,
+              "sha256": "8f317bf55258fba2a09c9ebb8adbba06d4b4d3611dd9f6b9476ceee725f711f9",
+              "url": "https://github.com/plugdata-team/plugdata/releases/download/v0.9.3/plugdata-OpenSUSE-Tumbleweed-aarch64.tar.xz",
+              "downloads": 36
+            },
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "vst3",
+                "clap",
+                "lv2",
+                "elf"
+              ],
+              "type": "archive",
+              "size": 292336236,
+              "sha256": "172bfb81c564c998dd5f7483084931623cfbc5809b5ceeaa55e5cdbf160ead86",
+              "url": "https://github.com/plugdata-team/plugdata/releases/download/v0.9.3/plugdata-OpenSUSE-Tumbleweed-x64.tar.xz",
+              "downloads": 73
+            },
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "arm64"
+              ],
+              "contains": [
+                "vst3",
+                "clap",
+                "lv2",
+                "elf"
+              ],
+              "type": "archive",
+              "size": 278347804,
+              "sha256": "b9ccd4e89f60256ca853927f0681533ff01e16844c40bc40a4cfe7b6fb0c72c1",
+              "url": "https://github.com/plugdata-team/plugdata/releases/download/v0.9.3/plugdata-Ubuntu-22.04-aarch64.tar.xz",
+              "downloads": 33
+            },
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "vst3",
+                "clap",
+                "lv2",
+                "elf"
+              ],
+              "type": "archive",
+              "size": 286924972,
+              "sha256": "cd070c26d34c9be71f94018d570baf68c97765e3dea51a0cabc6eca20e131485",
+              "url": "https://github.com/plugdata-team/plugdata/releases/download/v0.9.3/plugdata-Ubuntu-22.04-x64.tar.xz",
+              "downloads": 201
+            },
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "arm64"
+              ],
+              "contains": [
+                "vst3",
+                "clap",
+                "lv2",
+                "elf"
+              ],
+              "type": "archive",
+              "size": 281026176,
+              "sha256": "da847c651928cc6f9c82f1ecf037c55b594a35fc6e7df8bab16788de114037d9",
+              "url": "https://github.com/plugdata-team/plugdata/releases/download/v0.9.3/plugdata-Ubuntu-24.04-aarch64.tar.xz",
+              "downloads": 53
+            },
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "vst3",
+                "clap",
+                "lv2",
+                "elf"
+              ],
+              "type": "archive",
+              "size": 290397960,
+              "sha256": "1727ba8021196bec6e6e4cc2495a20ee29d31323d2d7347e844f7ce55127d10c",
+              "url": "https://github.com/plugdata-team/plugdata/releases/download/v0.9.3/plugdata-Ubuntu-24.04-x64.tar.xz",
+              "downloads": 798
+            },
+            {
+              "systems": [
+                {
+                  "type": "win"
+                }
+              ],
+              "architectures": [
+                "x32"
+              ],
+              "contains": [
+                "vst3",
+                "clap",
+                "lv2",
+                "exe"
+              ],
+              "type": "installer",
+              "size": 261914624,
+              "sha256": "e13895f0758ef7df30c60855b301c082412a9bf29062c82cc5d4205ab2d892c8",
+              "url": "https://github.com/plugdata-team/plugdata/releases/download/v0.9.3/plugdata-Win32.msi",
+              "downloads": 779
+            },
+            {
+              "systems": [
+                {
+                  "type": "win"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "vst3",
+                "clap",
+                "lv2",
+                "exe"
+              ],
+              "type": "installer",
+              "size": 269320192,
+              "sha256": "3be7a5b73328b999f962050b75043a63db31222d4f5e4fd1676bd2ea3f4daeb0",
+              "url": "https://github.com/plugdata-team/plugdata/releases/download/v0.9.3/plugdata-Win64.msi",
+              "downloads": 17658
+            }
+          ],
+          "verified": true,
+          "downloads": 35804
         }
       },
-      "downloads": 8396
+      "downloads": 44200
     },
     "pixelsncodes/lumen": {
       "slug": "pixelsncodes/lumen",
@@ -26239,8 +26641,46 @@
     },
     "otodesk4193/quadmorphfilter": {
       "slug": "otodesk4193/quadmorphfilter",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "versions": {
+        "1.1.0": {
+          "name": "Quad Morph Filter",
+          "author": "OTODESK",
+          "description": "A real-time XY morphing filter with 28 premium filter models, equal-power blending of up to 4 filters, and 19 LFO waveforms",
+          "license": "agpl-3.0",
+          "type": "effect",
+          "tags": [
+            "Effect",
+            "Filter",
+            "Modulation"
+          ],
+          "url": "https://github.com/OTODESK4193/QuadMorphFilter",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/otodesk4193/quadmorphfilter/quadmorphfilter.jpg",
+          "date": "2026-08-09T05:43:59Z",
+          "changes": "## Changelog\r\n\r\n### V1.1.0\r\n\r\n**GUI overhaul plus a round of DSP fixes.** All V1.0.0 parameter IDs are preserved and one parameter is added (`xyDepth`, default 0 %), so existing projects and presets load correctly. Most of the DSP work below is either ina",
+          "files": [
+            {
+              "systems": [
+                {
+                  "type": "win"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "vst3"
+              ],
+              "type": "archive",
+              "size": 19449532,
+              "sha256": "ed215b7ca8fa220cd9b407769e899e631bc048c030fea04f0a834f197debde0e",
+              "url": "https://github.com/OTODESK4193/QuadMorphFilter/releases/download/V1.1.0/Quad-Morph.Filter.vst3.zip",
+              "downloads": 330
+            }
+          ],
+          "verified": true,
+          "downloads": 330
+        },
         "1.0.0": {
           "name": "Quad Morph Filter",
           "author": "OTODESK",
@@ -26280,7 +26720,7 @@
           "downloads": 1192
         }
       },
-      "downloads": 1192
+      "downloads": 1522
     },
     "otodesk4193/otodesksampler": {
       "slug": "otodesk4193/otodesksampler",
@@ -26330,8 +26770,47 @@
     },
     "otodesk4193/multi-oto": {
       "slug": "otodesk4193/multi-oto",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "versions": {
+        "1.1.0": {
+          "name": "MULTI-OTO",
+          "author": "OTODESK",
+          "description": "Extreme multiband dynamics and ADAA saturation plugin — cascades up to 128 upward/downward OTT compressors in series for glitching, cybernetic textures",
+          "license": "agpl-3.0",
+          "type": "effect",
+          "tags": [
+            "Compressor",
+            "Multiband",
+            "Saturation",
+            "OTT"
+          ],
+          "url": "https://github.com/OTODESK4193/MULTI-OTO",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/otodesk4193/multi-oto/multi-oto.jpg",
+          "date": "2026-08-08T13:48:54Z",
+          "changes": "バージョン1.1.0の新機能\r\n修正済み - 無音バグ。バージョン1.0.0では、信号がオーバーフローするとInf、エンベロープ状態がにNaN、リミッターエンベロープがにラッチされInf、出力が永久にゼロ倍され、回復する方法がありませんでした。すべてのノードとリミッターの状態がサニタイズされ、クランプされるようになり、すべてのパラメーターが20msにわたって平滑化されるため、ノブの操作でカスケードがスパイクすることはありません。\r\n\r\n修正済み — Drive / ODD / EVEN が事実上フリーズし",
+          "files": [
+            {
+              "systems": [
+                {
+                  "type": "win"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "vst3"
+              ],
+              "type": "archive",
+              "size": 2917978,
+              "sha256": "3b452f4f2d67c7eb6b11122a87c570b094952ed0b13b311434ffc2ba3d602320",
+              "url": "https://github.com/OTODESK4193/MULTI-OTO/releases/download/%EF%BD%961.1.0/MULTI-OTO.vst3.zip",
+              "downloads": 191
+            }
+          ],
+          "verified": true,
+          "downloads": 191
+        },
         "1.0.0": {
           "name": "MULTI-OTO",
           "author": "OTODESK",
@@ -26372,7 +26851,7 @@
           "downloads": 315
         }
       },
-      "downloads": 315
+      "downloads": 506
     },
     "otodesk4193/lumina": {
       "slug": "otodesk4193/lumina",
@@ -26652,8 +27131,45 @@
     },
     "otodesk4193/anatomy": {
       "slug": "otodesk4193/anatomy",
-      "version": "1.0.0",
+      "version": "1.2.0",
       "versions": {
+        "1.2.0": {
+          "name": "ANATOMY",
+          "author": "OTODESK",
+          "description": "A high-performance VST3 plugin that performs Transient/Tonal audio separation using a cos-squared crossfade algorithm, routing each component through its own independent multi-effect chain",
+          "license": "agpl-3.0",
+          "type": "effect",
+          "tags": [
+            "Transient",
+            "Multi-Effect"
+          ],
+          "url": "https://github.com/OTODESK4193/ANATOMY",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/otodesk4193/anatomy/anatomy.jpg",
+          "date": "2026-09-06T05:16:01Z",
+          "changes": "[V1.2.0] - 2026-09-06 (OTT×2 Dual-Stage & Workflow Upgrade)\r\nDual-Stage OTT×2 Architecture: Ported MULTI-OTO DSP engine with cascaded Stage 1 & Stage 2 processing, 4th-order Linkwitz-Riley crossovers, AVX2 SIMD RMS detection, per-band dynamics, and Align ",
+          "files": [
+            {
+              "systems": [
+                {
+                  "type": "win"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "vst3"
+              ],
+              "type": "archive",
+              "size": 18995388,
+              "sha256": "431b2a4a6733b95245576e8a1027c639bd4000736ca0f3bba328157c912a05e2",
+              "url": "https://github.com/OTODESK4193/ANATOMY/releases/download/V1.2.0/ANATOMY.vst3.zip",
+              "downloads": 138
+            }
+          ],
+          "verified": true,
+          "downloads": 138
+        },
         "1.0.0": {
           "name": "ANATOMY",
           "author": "OTODESK",
@@ -26692,7 +27208,7 @@
           "downloads": 865
         }
       },
-      "downloads": 865
+      "downloads": 1003
     },
     "otodesk4193/ambience1.0.1": {
       "slug": "otodesk4193/ambience1.0.1",
@@ -27316,8 +27832,105 @@
     },
     "odoare/ambirr2": {
       "slug": "odoare/ambirr2",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "versions": {
+        "0.1.2": {
+          "name": "AmbiRR2",
+          "author": "Olivier Doaré",
+          "description": "Room reverb that places up to 16 mono sources in a virtual room, capturing the result as a 3rd-order ambisonic stream or a stereo pair of virtual microphones.",
+          "license": "lgpl-3.0",
+          "type": "effect",
+          "tags": [
+            "Reverb",
+            "Ambisonic",
+            "Spatial Audio"
+          ],
+          "url": "https://github.com/odoare/AmbiRR2",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/odoare/ambirr2/ambirr2.jpg",
+          "date": "2026-08-03T11:34:01Z",
+          "changes": "Fix macOD intel release + codesign in macOS workflow\n\n**Full Changelog**: https://github.com/odoare/AmbiRR2/compare/v0.1.1...v0.1.2",
+          "files": [
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "vst3",
+                "elf"
+              ],
+              "type": "archive",
+              "size": 5070070,
+              "sha256": "c340d58d7d6d4eee921d40c79655dd84bf01b060c72d55e9fd19155dc33bf65e",
+              "url": "https://github.com/odoare/AmbiRR2/releases/download/v0.1.2/AmbiRR2-Linux-x86_64.zip",
+              "downloads": 207
+            },
+            {
+              "systems": [
+                {
+                  "type": "mac"
+                }
+              ],
+              "architectures": [
+                "arm64"
+              ],
+              "contains": [
+                "vst3",
+                "component",
+                "app"
+              ],
+              "type": "archive",
+              "size": 11640631,
+              "sha256": "fbf08ecc823b8a7a5af410f9cc15ce9be11035669f03a5b793133af2875ed7ce",
+              "url": "https://github.com/odoare/AmbiRR2/releases/download/v0.1.2/AmbiRR2-macOS-universal.zip",
+              "downloads": 97
+            },
+            {
+              "systems": [
+                {
+                  "type": "mac"
+                }
+              ],
+              "architectures": [
+                "arm64"
+              ],
+              "contains": [
+                "vst3",
+                "component"
+              ],
+              "type": "installer",
+              "size": 7414544,
+              "sha256": "5f44b872e76d613331ff5be102bd22fb25f5fe44a1329a9ba02609c77e795700",
+              "url": "https://github.com/odoare/AmbiRR2/releases/download/v0.1.2/AmbiRR2-macOS.pkg",
+              "downloads": 72
+            },
+            {
+              "systems": [
+                {
+                  "type": "win"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "vst3",
+                "exe"
+              ],
+              "type": "archive",
+              "size": 3901121,
+              "sha256": "575deee3f964481cbf5c3f08b480efe45ead9fc8c856b9dd022b4a5fbb475fb4",
+              "url": "https://github.com/odoare/AmbiRR2/releases/download/v0.1.2/AmbiRR2-Windows-x86_64.zip",
+              "downloads": 412
+            }
+          ],
+          "verified": true,
+          "downloads": 788
+        },
         "0.1.1": {
           "name": "AmbiRR2",
           "author": "Olivier Doaré",
@@ -27416,7 +28029,7 @@
           "downloads": 330
         }
       },
-      "downloads": 330
+      "downloads": 1118
     },
     "noahbaxter/chartchotic": {
       "slug": "noahbaxter/chartchotic",
@@ -27554,8 +28167,51 @@
     },
     "nilace/dynamo0c": {
       "slug": "nilace/dynamo0c",
-      "version": "1.2.0",
+      "version": "1.5.0",
       "versions": {
+        "1.5.0": {
+          "name": "Dynamo0C",
+          "author": "NL Sounds",
+          "description": "Console-style 4-band parametric EQ — an LV2 plugin for Linux with its own hardware-style UI",
+          "license": "gpl-3.0",
+          "type": "effect",
+          "tags": [
+            "Audio",
+            "Audio Plugin",
+            "DSP",
+            "EQ",
+            "Filter",
+            "Linux",
+            "LV2",
+            "Parametric EQ"
+          ],
+          "url": "https://github.com/NiLace/Dynamo0C",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/nilace/dynamo0c/dynamo0c.jpg",
+          "date": "2026-10-24T01:56:04Z",
+          "changes": "The console's own filters, the DAW's bypass, knob scales that tell the truth, and a drive that is always oversampled 4x. A second cold audit of the whole plugin found and fixed one way the editor could take the DAW down, and several short bursts of work o",
+          "files": [
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "lv2"
+              ],
+              "type": "archive",
+              "size": 886506,
+              "sha256": "4f0be792d7e2ccbcb0d6526ee4ab56ac848f0b6190bfdc2ce3f6e4643cb1a1d4",
+              "url": "https://github.com/NiLace/Dynamo0C/releases/download/v1.5.0/dynamo-0c.lv2.tar.gz",
+              "downloads": 9
+            }
+          ],
+          "verified": true,
+          "downloads": 9
+        },
         "1.2.0": {
           "name": "Dynamo0C",
           "author": "NL Sounds",
@@ -27600,7 +28256,7 @@
           "downloads": 14
         }
       },
-      "downloads": 14
+      "downloads": 23
     },
     "nikhilunni/demucs-rs": {
       "slug": "nikhilunni/demucs-rs",
@@ -28538,8 +29194,90 @@
     },
     "mukkemann1972/retrotrax": {
       "slug": "mukkemann1972/retrotrax",
-      "version": "0.87.0",
+      "version": "0.92.0",
       "versions": {
+        "0.92.0": {
+          "name": "RetroTrax",
+          "author": "Mukkemann1972",
+          "description": "A tracker plugin and standalone app in the spirit of ProTracker, FastTracker II, and OctaMED, with Amiga sample sound and C64 SID chip emulation.",
+          "license": "gpl-3.0",
+          "type": "instrument",
+          "tags": [
+            "Amiga",
+            "Chiptune",
+            "Demoscene",
+            "Tracker",
+            "Sid"
+          ],
+          "url": "https://github.com/Mukkemann1972/retrotrax",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/mukkemann1972/retrotrax/retrotrax.jpg",
+          "date": "2026-08-25T19:50:23Z",
+          "changes": "**Full Changelog**: https://github.com/Mukkemann1972/retrotrax/compare/v0.91.0...v0.92.0",
+          "files": [
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "vst3",
+                "clap",
+                "elf"
+              ],
+              "type": "archive",
+              "size": 24508071,
+              "sha256": "ca56f748d19f0027d1471d8cd00fd078ef47165064ae18d267f53b41188cb9fd",
+              "url": "https://github.com/Mukkemann1972/retrotrax/releases/download/v0.92.0/RetroTrax-Linux-0.92.0.zip",
+              "downloads": 51
+            },
+            {
+              "systems": [
+                {
+                  "type": "mac"
+                }
+              ],
+              "architectures": [
+                "arm64"
+              ],
+              "contains": [
+                "vst3",
+                "clap",
+                "app"
+              ],
+              "type": "archive",
+              "size": 19739801,
+              "sha256": "92ef45b5f501836453af80eb138de52970651df0fda4e6f4b113fc1e71fe6b55",
+              "url": "https://github.com/Mukkemann1972/retrotrax/releases/download/v0.92.0/RetroTrax-macOS-0.92.0.zip",
+              "downloads": 32
+            },
+            {
+              "systems": [
+                {
+                  "type": "win"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "vst3",
+                "clap",
+                "exe"
+              ],
+              "type": "archive",
+              "size": 14053305,
+              "sha256": "a922cfe140b5b259514f2311a371890cbd02fc1801913335eee6b7dd495308ba",
+              "url": "https://github.com/Mukkemann1972/retrotrax/releases/download/v0.92.0/RetroTrax-Windows-0.92.0.zip",
+              "downloads": 79
+            }
+          ],
+          "verified": true,
+          "downloads": 162
+        },
         "0.87.0": {
           "name": "RetroTrax",
           "author": "Mukkemann1972",
@@ -28623,7 +29361,7 @@
           "downloads": 35
         }
       },
-      "downloads": 35
+      "downloads": 197
     },
     "mtytel/helm": {
       "slug": "mtytel/helm",
@@ -32604,8 +33342,101 @@
     },
     "magillos/cable": {
       "slug": "magillos/cable",
-      "version": "0.10.13",
+      "version": "0.10.14",
       "versions": {
+        "0.10.14": {
+          "name": "Cable",
+          "author": "magillos",
+          "description": "PyQT application to dynamically modify Pipewire and Wireplumber settings at runtime.",
+          "license": "gpl-3.0",
+          "type": "tool",
+          "tags": [
+            "Pipewire",
+            "Wireplumber",
+            "Routing",
+            "Linux"
+          ],
+          "url": "https://github.com/magillos/Cable",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/magillos/cable/cable.jpg",
+          "date": "2026-10-15T10:29:15Z",
+          "changes": "- unified sinks support added for clients creating new nodes for each stream (chromium and alike)\r\n- QScrollArea around Cable in embedded mode to address #59 \r\n- disabled mouse-wheel scrolling on combo boxes in Cable \r\n- refactoring, so let me know if any",
+          "files": [
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "elf"
+              ],
+              "type": "installer",
+              "size": 1258688,
+              "sha256": "de3522ee75fea33dc17dba84d1b5b6cf1977d3c2cf28e55374f922fa50b3a055",
+              "url": "https://github.com/magillos/Cable/releases/download/0.10.14/Cable-0.10.14-bare.AppImage",
+              "downloads": 49
+            },
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "elf"
+              ],
+              "type": "installer",
+              "size": 126003704,
+              "sha256": "e351bcf0a06e88cac10468b6f976b83c57292a2a2b2d2a84e7ba1d8b2c16e950",
+              "url": "https://github.com/magillos/Cable/releases/download/0.10.14/Cable-0.10.14-bundled.AppImage",
+              "downloads": 91
+            },
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "elf"
+              ],
+              "type": "installer",
+              "size": 266572,
+              "sha256": "cfa8d9ebcec1f0683251808a20735b6a6310816747bbadfea43c7222f77aabee",
+              "url": "https://github.com/magillos/Cable/releases/download/0.10.14/Cable-0.10.14.deb",
+              "downloads": 121
+            },
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "elf"
+              ],
+              "type": "installer",
+              "size": 11660800,
+              "sha256": "e63e1d0241b6c19919872e293a410d01c4f68c5510f3c323b704c34b08f7fd3f",
+              "url": "https://github.com/magillos/Cable/releases/download/0.10.14/Cable-0.10.14.flatpak",
+              "downloads": 85
+            }
+          ],
+          "verified": true,
+          "downloads": 346
+        },
         "0.10.13": {
           "name": "Cable",
           "author": "magillos",
@@ -32700,7 +33531,7 @@
           "downloads": 738
         }
       },
-      "downloads": 738
+      "downloads": 1084
     },
     "madskjeldgaard/birdhouse": {
       "slug": "madskjeldgaard/birdhouse",
@@ -32859,8 +33690,108 @@
     },
     "luna-co-software/multi-comp": {
       "slug": "luna-co-software/multi-comp",
-      "version": "1.3.1",
+      "version": "1.3.9",
       "versions": {
+        "1.3.9": {
+          "name": "Multi-Comp",
+          "author": "Luna Co. Audio",
+          "description": "8-mode compressor (Vintage Opto, Vintage FET, Classic VCA, Bus Compressor, Studio FET, Studio VCA, Digital, 4-band Multiband) with transformer emulation, sidechain EQ, auto-makeup and 2x/4x oversampling.",
+          "license": "gpl-3.0",
+          "type": "effect",
+          "tags": [
+            "Compressor",
+            "Dynamics",
+            "Multiband"
+          ],
+          "url": "https://github.com/dusk-audio/dusk-audio-plugins",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/luna-co-software/multi-comp/multi-comp.jpg",
+          "date": "2026-11-09T20:42:54Z",
+          "changes": "## Multi-Comp v1.3.9\n\n- FET ratio buttons show the stored ratio when the editor reopens, in Vintage FET and Studio FET; they could show 4:1 while another ratio was active, and clicking 4:1 then did nothing (#326)\n- FET ratio buttons follow automation and",
+          "files": [
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "arm64"
+              ],
+              "contains": [
+                "vst3",
+                "clap",
+                "lv2"
+              ],
+              "type": "archive",
+              "size": 14947435,
+              "sha256": "40d47a53fca84da1b8a2429860cb73c69c52a77941fbeb111b1a0de734e16841",
+              "url": "https://github.com/dusk-audio/dusk-audio-plugins/releases/download/multi-comp-v1.3.9/multi-comp-linux-arm64.zip",
+              "downloads": 31
+            },
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "vst3",
+                "clap",
+                "lv2"
+              ],
+              "type": "archive",
+              "size": 15063800,
+              "sha256": "b0c743998544c5e82c5854b036e2efa3b954231e196161429a41e1ebfdff7025",
+              "url": "https://github.com/dusk-audio/dusk-audio-plugins/releases/download/multi-comp-v1.3.9/multi-comp-linux.zip",
+              "downloads": 38
+            },
+            {
+              "systems": [
+                {
+                  "type": "mac"
+                }
+              ],
+              "architectures": [
+                "x64",
+                "arm64"
+              ],
+              "contains": [
+                "vst3",
+                "component",
+                "clap"
+              ],
+              "type": "archive",
+              "size": 23113917,
+              "sha256": "705f4b9888f2324580cf0b8ad332266a3efe7816ecad6cabf0ee54f820d1f7db",
+              "url": "https://github.com/dusk-audio/dusk-audio-plugins/releases/download/multi-comp-v1.3.9/multi-comp-macos.zip",
+              "downloads": 39
+            },
+            {
+              "systems": [
+                {
+                  "type": "win"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "vst3",
+                "clap"
+              ],
+              "type": "archive",
+              "size": 4858453,
+              "sha256": "72c2c0ec336d9f4b6322a58f7767c08044bf0b74e6d88bf3048c994c8cf8e826",
+              "url": "https://github.com/dusk-audio/dusk-audio-plugins/releases/download/multi-comp-v1.3.9/multi-comp-windows.zip",
+              "downloads": 56
+            }
+          ],
+          "verified": false,
+          "downloads": 164
+        },
         "1.3.1": {
           "name": "Multi-Comp",
           "author": "Luna Co. Audio",
@@ -32962,7 +33893,7 @@
           "downloads": 283
         }
       },
-      "downloads": 283
+      "downloads": 447
     },
     "luna-co-software/4k-eq": {
       "slug": "luna-co-software/4k-eq",
@@ -33838,6 +34769,117 @@
           "verified": true,
           "downloads": 4513
         },
+        "1.2.31": {
+          "name": "LSP Plugins",
+          "author": "Vladimir Sadovnikov",
+          "description": "A collection of open-source audio effects, synthesizers, and tools designed for music and sound production, primarily on the GNU/Linux platform.",
+          "license": "lgpl-3.0",
+          "type": "effect",
+          "tags": [
+            "Delay",
+            "Chorus",
+            "Compressor",
+            "Filter",
+            "Flanger",
+            "Gate",
+            "Mixer",
+            "Sampler"
+          ],
+          "url": "https://github.com/lsp-plugins/lsp-plugins",
+          "donate": "https://www.patreon.com/c/sadko4u",
+          "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/lsp-plugins/lsp-plugins/lsp-plugins.flac",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/lsp-plugins/lsp-plugins/lsp-plugins.jpg",
+          "date": "2026-06-13T05:02:21Z",
+          "changes": "* Added new 'standalone' build feature which now replaces the 'jack' build feature for launching standalone plugins.\r\n* The feature 'jack' is now responsible for building JACK audio backend for standalone plugins.\r\n* Moved all JACK-related code into a sep",
+          "files": [
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "arm64"
+              ],
+              "contains": [
+                "clap",
+                "lv2",
+                "vst3",
+                "so"
+              ],
+              "type": "archive",
+              "size": 35418986,
+              "sha256": "29d86cf23e2efeea267eb5449c5a0eb74cf8d1a0d0a3598036205a2ad3969053",
+              "url": "https://github.com/lsp-plugins/lsp-plugins/releases/download/1.2.31/lsp-plugins-1.2.31-Linux-aarch64.7z",
+              "downloads": 20
+            },
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "arm32"
+              ],
+              "contains": [
+                "clap",
+                "lv2",
+                "vst3",
+                "so"
+              ],
+              "type": "archive",
+              "size": 31764997,
+              "sha256": "bb60aef1873d14b1e71a62afa5f6ad003bf55c2fee6f8c897da6d1291ca97f8a",
+              "url": "https://github.com/lsp-plugins/lsp-plugins/releases/download/1.2.31/lsp-plugins-1.2.31-Linux-arm32.7z",
+              "downloads": 18
+            },
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "x32"
+              ],
+              "contains": [
+                "clap",
+                "lv2",
+                "vst3",
+                "so"
+              ],
+              "type": "archive",
+              "size": 32459228,
+              "sha256": "0a128b78bdf36ce11f12f38f3fb9a47614176eb550e838d5d0ba38eaec29e892",
+              "url": "https://github.com/lsp-plugins/lsp-plugins/releases/download/1.2.31/lsp-plugins-1.2.31-Linux-i586.7z",
+              "downloads": 18
+            },
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "clap",
+                "lv2",
+                "vst3",
+                "so"
+              ],
+              "type": "archive",
+              "size": 38247736,
+              "sha256": "06fdfadf83d0c8d60c2d32173ce6a6584706bd1ff79274ccd5154d002d00d087",
+              "url": "https://github.com/lsp-plugins/lsp-plugins/releases/download/1.2.31/lsp-plugins-1.2.31-Linux-x86_64.7z",
+              "downloads": 84
+            }
+          ],
+          "verified": true,
+          "downloads": 140
+        },
         "1.2.29": {
           "name": "LSP Plugins",
           "author": "Vladimir Sadovnikov",
@@ -34505,7 +35547,7 @@
           "downloads": 3437
         }
       },
-      "downloads": 33419
+      "downloads": 33559
     },
     "longkelvin/midi-chord-detector-plugin": {
       "slug": "longkelvin/midi-chord-detector-plugin",
@@ -36072,8 +37114,46 @@
     },
     "kevin-jenkins/plugnspectr": {
       "slug": "kevin-jenkins/plugnspectr",
-      "version": "1.0.1",
+      "version": "1.2.0",
       "versions": {
+        "1.2.0": {
+          "name": "PlugNspectr",
+          "author": "Kevin Jenkins",
+          "description": "Analyzes the frequency response, harmonic distortion, and dynamics of other audio plugins in your DAW in real time",
+          "license": "gpl-3.0",
+          "type": "tool",
+          "tags": [
+            "Analyzer",
+            "Distortion",
+            "Frequency Response"
+          ],
+          "url": "https://github.com/kevin-jenkins/PlugNspectr",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/kevin-jenkins/plugnspectr/plugnspectr.jpg",
+          "date": "2026-11-03T15:15:39Z",
+          "changes": "This release makes PlugNspectr's measurements trustworthy in more setups: behind plugins that add delay, at large buffer sizes, and when more than one Pre is loaded. It also fixes several readings that could mislead you.\n\n> **Update both plugins together.",
+          "files": [
+            {
+              "systems": [
+                {
+                  "type": "win"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "vst3"
+              ],
+              "type": "archive",
+              "size": 5473895,
+              "sha256": "355fcf458997fb24812c082eeab59d68d075dd2703d16e702bab3145745a2b07",
+              "url": "https://github.com/kevin-jenkins/PlugNspectr/releases/download/v1.2.0/PlugNspectr-1.2.0-Windows-x64.zip",
+              "downloads": 31
+            }
+          ],
+          "verified": true,
+          "downloads": 31
+        },
         "1.0.1": {
           "name": "PlugNspectr",
           "author": "Kevin Jenkins",
@@ -36113,7 +37193,7 @@
           "downloads": 16
         }
       },
-      "downloads": 16
+      "downloads": 47
     },
     "keithadler/hexter": {
       "slug": "keithadler/hexter",
@@ -38316,8 +39396,141 @@
     },
     "jonet/monksynth": {
       "slug": "jonet/monksynth",
-      "version": "0.2.0-beta.15",
+      "version": "1.0.2",
       "versions": {
+        "1.0.2": {
+          "name": "MonkSynth",
+          "author": "Jon Taylor",
+          "description": "Monophonic vocal synthesizer using FOF synthesis, inspired by Delay Lama",
+          "license": "mit",
+          "type": "instrument",
+          "tags": [
+            "Vocal Synthesis",
+            "FOF",
+            "Monophonic"
+          ],
+          "url": "https://github.com/JonET/monksynth",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/jonet/monksynth/monksynth.jpg",
+          "date": "2026-10-11T00:16:08Z",
+          "changes": "\n### Fixed\n- Under Wine on Linux the editor stayed black (#36) or grew black rectangles over the monk while the vowel and pitch changed (#40). DXVK can't present the DirectComposition or swapchain targets VSTGUI draws into, so when MonkSynth detects Wine",
+          "files": [
+            {
+              "systems": [
+                {
+                  "type": "mac"
+                }
+              ],
+              "architectures": [
+                "arm64",
+                "x64"
+              ],
+              "contains": [
+                "vst3",
+                "component"
+              ],
+              "type": "installer",
+              "size": 6618368,
+              "sha256": "8b297433273c2aa703e437c7fc3d6d9b23004971f32fb706628f1f0e0cb6133a",
+              "url": "https://github.com/JonET/monksynth/releases/download/v1.0.2/MonkSynth-1.0.2-macOS-Setup.pkg",
+              "downloads": 1100
+            },
+            {
+              "systems": [
+                {
+                  "type": "win"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "vst3",
+                "component"
+              ],
+              "type": "installer",
+              "size": 4939552,
+              "sha256": "0c1b2b38357cbe69cfc563f4bb502e5355fdcea540d9626c6b3dd6446d2b23db",
+              "url": "https://github.com/JonET/monksynth/releases/download/v1.0.2/MonkSynth-1.0.2-Windows-Setup.exe",
+              "downloads": 2418
+            },
+            {
+              "systems": [
+                {
+                  "type": "mac"
+                }
+              ],
+              "architectures": [
+                "arm64",
+                "x64"
+              ],
+              "contains": [
+                "component"
+              ],
+              "type": "archive",
+              "size": 3421041,
+              "sha256": "acd1678fc8643d7cec463b338dc2a5c05abd541267b1491f8298c30ef451f26e",
+              "url": "https://github.com/JonET/monksynth/releases/download/v1.0.2/MonkSynth-AU-macOS.zip",
+              "downloads": 260
+            },
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "vst3"
+              ],
+              "type": "archive",
+              "size": 5871487,
+              "sha256": "c292decc6c6fe8c0aa9f33c2ac7bedbc002816d97c5180bc262ff0782032ea44",
+              "url": "https://github.com/JonET/monksynth/releases/download/v1.0.2/MonkSynth-VST3-Linux.zip",
+              "downloads": 208
+            },
+            {
+              "systems": [
+                {
+                  "type": "mac"
+                }
+              ],
+              "architectures": [
+                "arm64",
+                "x64"
+              ],
+              "contains": [
+                "vst3"
+              ],
+              "type": "archive",
+              "size": 3182608,
+              "sha256": "4e26fe2af9f72259604d6b6cf6e5bc8a2a95dd11494ece6593b50a7c9de5d934",
+              "url": "https://github.com/JonET/monksynth/releases/download/v1.0.2/MonkSynth-VST3-macOS.zip",
+              "downloads": 330
+            },
+            {
+              "systems": [
+                {
+                  "type": "win"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "vst3"
+              ],
+              "type": "archive",
+              "size": 3433068,
+              "sha256": "1c878e829eb78c0d1dea5c4add73fccb688a5b3fa31d062a16f37509eeecdd1c",
+              "url": "https://github.com/JonET/monksynth/releases/download/v1.0.2/MonkSynth-VST3-Windows.zip",
+              "downloads": 1153
+            }
+          ],
+          "verified": true,
+          "downloads": 5469
+        },
         "0.2.0-beta.15": {
           "name": "MonkSynth",
           "author": "Jon Taylor",
@@ -38452,7 +39665,7 @@
           "downloads": 19770
         }
       },
-      "downloads": 19770
+      "downloads": 25239
     },
     "joht/speclet": {
       "slug": "joht/speclet",
@@ -38732,7 +39945,7 @@
               "size": 233023461,
               "sha256": "79074c4c3b7cb1af79421d977cb3e727ed579f13f1947d052aee47cac960feff",
               "url": "https://github.com/jmantra/jdrummer/releases/download/Second/jdrummer_Linux_VST3.zip",
-              "downloads": 1289
+              "downloads": 1290
             },
             {
               "systems": [
@@ -38808,10 +40021,10 @@
             }
           ],
           "verified": true,
-          "downloads": 3270
+          "downloads": 3271
         }
       },
-      "downloads": 3270
+      "downloads": 3271
     },
     "jerryuhoo/fire": {
       "slug": "jerryuhoo/fire",
@@ -39962,7 +41175,7 @@
               "size": 1515745,
               "sha256": "5a5e0c1bce6c19c7635ad541dd4db63613e2fd6938fc6cce158c7018d416445e",
               "url": "https://github.com/innermost47/beatcrafter/releases/download/v13/BeatCrafter-Linux-VST3.tar.gz",
-              "downloads": 57
+              "downloads": 58
             },
             {
               "systems": [
@@ -39984,10 +41197,10 @@
             }
           ],
           "verified": true,
-          "downloads": 246
+          "downloads": 247
         }
       },
-      "downloads": 246
+      "downloads": 247
     },
     "innermost47/ai-dj": {
       "slug": "innermost47/ai-dj",

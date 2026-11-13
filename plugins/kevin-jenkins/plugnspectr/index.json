@@ -1,7 +1,45 @@
 {
   "slug": "kevin-jenkins/plugnspectr",
-  "version": "1.0.1",
+  "version": "1.2.0",
   "versions": {
+    "1.2.0": {
+      "name": "PlugNspectr",
+      "author": "Kevin Jenkins",
+      "description": "Analyzes the frequency response, harmonic distortion, and dynamics of other audio plugins in your DAW in real time",
+      "license": "gpl-3.0",
+      "type": "tool",
+      "tags": [
+        "Analyzer",
+        "Distortion",
+        "Frequency Response"
+      ],
+      "url": "https://github.com/kevin-jenkins/PlugNspectr",
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/kevin-jenkins/plugnspectr/plugnspectr.jpg",
+      "date": "2026-11-03T15:15:39Z",
+      "changes": "This release makes PlugNspectr's measurements trustworthy in more setups: behind plugins that add delay, at large buffer sizes, and when more than one Pre is loaded. It also fixes several readings that could mislead you.\n\n> **Update both plugins together.",
+      "files": [
+        {
+          "systems": [
+            {
+              "type": "win"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "vst3"
+          ],
+          "type": "archive",
+          "size": 5473895,
+          "sha256": "355fcf458997fb24812c082eeab59d68d075dd2703d16e702bab3145745a2b07",
+          "url": "https://github.com/kevin-jenkins/PlugNspectr/releases/download/v1.2.0/PlugNspectr-1.2.0-Windows-x64.zip",
+          "downloads": 31
+        }
+      ],
+      "verified": true,
+      "downloads": 31
+    },
     "1.0.1": {
       "name": "PlugNspectr",
       "author": "Kevin Jenkins",
@@ -41,5 +79,5 @@
       "downloads": 16
     }
   },
-  "downloads": 16
+  "downloads": 47
 }

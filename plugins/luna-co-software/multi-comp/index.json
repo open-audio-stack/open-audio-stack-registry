@@ -1,7 +1,107 @@
 {
   "slug": "luna-co-software/multi-comp",
-  "version": "1.3.1",
+  "version": "1.3.9",
   "versions": {
+    "1.3.9": {
+      "name": "Multi-Comp",
+      "author": "Luna Co. Audio",
+      "description": "8-mode compressor (Vintage Opto, Vintage FET, Classic VCA, Bus Compressor, Studio FET, Studio VCA, Digital, 4-band Multiband) with transformer emulation, sidechain EQ, auto-makeup and 2x/4x oversampling.",
+      "license": "gpl-3.0",
+      "type": "effect",
+      "tags": [
+        "Compressor",
+        "Dynamics",
+        "Multiband"
+      ],
+      "url": "https://github.com/dusk-audio/dusk-audio-plugins",
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/luna-co-software/multi-comp/multi-comp.jpg",
+      "date": "2026-11-09T20:42:54Z",
+      "changes": "## Multi-Comp v1.3.9\n\n- FET ratio buttons show the stored ratio when the editor reopens, in Vintage FET and Studio FET; they could show 4:1 while another ratio was active, and clicking 4:1 then did nothing (#326)\n- FET ratio buttons follow automation and",
+      "files": [
+        {
+          "systems": [
+            {
+              "type": "linux"
+            }
+          ],
+          "architectures": [
+            "arm64"
+          ],
+          "contains": [
+            "vst3",
+            "clap",
+            "lv2"
+          ],
+          "type": "archive",
+          "size": 14947435,
+          "sha256": "40d47a53fca84da1b8a2429860cb73c69c52a77941fbeb111b1a0de734e16841",
+          "url": "https://github.com/dusk-audio/dusk-audio-plugins/releases/download/multi-comp-v1.3.9/multi-comp-linux-arm64.zip",
+          "downloads": 31
+        },
+        {
+          "systems": [
+            {
+              "type": "linux"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "vst3",
+            "clap",
+            "lv2"
+          ],
+          "type": "archive",
+          "size": 15063800,
+          "sha256": "b0c743998544c5e82c5854b036e2efa3b954231e196161429a41e1ebfdff7025",
+          "url": "https://github.com/dusk-audio/dusk-audio-plugins/releases/download/multi-comp-v1.3.9/multi-comp-linux.zip",
+          "downloads": 38
+        },
+        {
+          "systems": [
+            {
+              "type": "mac"
+            }
+          ],
+          "architectures": [
+            "x64",
+            "arm64"
+          ],
+          "contains": [
+            "vst3",
+            "component",
+            "clap"
+          ],
+          "type": "archive",
+          "size": 23113917,
+          "sha256": "705f4b9888f2324580cf0b8ad332266a3efe7816ecad6cabf0ee54f820d1f7db",
+          "url": "https://github.com/dusk-audio/dusk-audio-plugins/releases/download/multi-comp-v1.3.9/multi-comp-macos.zip",
+          "downloads": 39
+        },
+        {
+          "systems": [
+            {
+              "type": "win"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "vst3",
+            "clap"
+          ],
+          "type": "archive",
+          "size": 4858453,
+          "sha256": "72c2c0ec336d9f4b6322a58f7767c08044bf0b74e6d88bf3048c994c8cf8e826",
+          "url": "https://github.com/dusk-audio/dusk-audio-plugins/releases/download/multi-comp-v1.3.9/multi-comp-windows.zip",
+          "downloads": 56
+        }
+      ],
+      "verified": false,
+      "downloads": 164
+    },
     "1.3.1": {
       "name": "Multi-Comp",
       "author": "Luna Co. Audio",
@@ -103,5 +203,5 @@
       "downloads": 283
     }
   },
-  "downloads": 283
+  "downloads": 447
 }

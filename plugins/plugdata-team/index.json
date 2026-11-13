@@ -1,7 +1,7 @@
 {
   "plugdata-team/plugdata": {
     "slug": "plugdata-team/plugdata",
-    "version": "0.9.3-2",
+    "version": "0.9.3",
     "versions": {
       "0.9.3-2": {
         "name": "plugdata",
@@ -404,8 +404,410 @@
         ],
         "verified": true,
         "downloads": 8396
+      },
+      "0.9.3": {
+        "name": "plugdata",
+        "author": "plugdata-team",
+        "description": "A plugin wrapper around Pure Data with a new GUI, allowing visual patching in a wide selection of DAWs. Ships with the ELSE collection of externals and abstractions, and can also be used as a standalone replacement for Pure Data.",
+        "license": "gpl-3.0",
+        "type": "tool",
+        "tags": [
+          "Pure Data",
+          "Patching",
+          "Visual Programming",
+          "Modular"
+        ],
+        "url": "https://github.com/plugdata-team/plugdata",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/plugdata-team/plugdata/plugdata.jpg",
+        "date": "2026-02-14T16:47:44Z",
+        "changes": "New plugdata version, with a few new features, but mostly bugfixes and QoL improvements:\r\n\r\n#### Platform Support\r\n- Added ASIO support for Windows\r\n- Reduced installer sizes for macOS and Windows\r\n- Added Arch and openSUSE arm64 builds\r\n\r\n#### Heavy expo",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "arm64"
+            ],
+            "contains": [
+              "vst3",
+              "clap",
+              "lv2",
+              "elf"
+            ],
+            "type": "archive",
+            "size": 284356300,
+            "sha256": "4c240bb46434dc3f98b90aff58ab1a1d59fb63ee30214065ba9e75a5748e03c6",
+            "url": "https://github.com/plugdata-team/plugdata/releases/download/v0.9.3/plugdata-Arch-aarch64.tar.xz",
+            "downloads": 107
+          },
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "clap",
+              "lv2",
+              "elf"
+            ],
+            "type": "archive",
+            "size": 293117788,
+            "sha256": "58927b8f7e8a494af0e221255b97103d48d519946d7a9df2dcfd474a12ef05f0",
+            "url": "https://github.com/plugdata-team/plugdata/releases/download/v0.9.3/plugdata-Arch-x64.tar.xz",
+            "downloads": 438
+          },
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "arm64"
+            ],
+            "contains": [
+              "vst3",
+              "clap",
+              "lv2",
+              "elf"
+            ],
+            "type": "archive",
+            "size": 281969200,
+            "sha256": "81aa53676e8f5d9e5fe5dea53fb3b6f03c441a5b727a8c1c7c79f9b00c2cb9ab",
+            "url": "https://github.com/plugdata-team/plugdata/releases/download/v0.9.3/plugdata-Debian-aarch64.tar.xz",
+            "downloads": 200
+          },
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "clap",
+              "lv2",
+              "elf"
+            ],
+            "type": "archive",
+            "size": 291527732,
+            "sha256": "ba0d07a0216dfa49ccc175e26a25474805174d7e9a998e0c3fc2910cad549776",
+            "url": "https://github.com/plugdata-team/plugdata/releases/download/v0.9.3/plugdata-Debian-x64.tar.xz",
+            "downloads": 890
+          },
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "arm64"
+            ],
+            "contains": [
+              "vst3",
+              "clap",
+              "lv2",
+              "elf"
+            ],
+            "type": "archive",
+            "size": 280960372,
+            "sha256": "8a488adb55d43f4dff20c392eda3a9e536c6bc5e5c6ee906564fc0cbf8162577",
+            "url": "https://github.com/plugdata-team/plugdata/releases/download/v0.9.3/plugdata-Fedora-41-aarch64.tar.xz",
+            "downloads": 26
+          },
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "clap",
+              "lv2",
+              "elf"
+            ],
+            "type": "archive",
+            "size": 290700956,
+            "sha256": "9812ad0b7a755ea65e0324a1905bb0e98ecb1c5c864482d21bda08055a30dab4",
+            "url": "https://github.com/plugdata-team/plugdata/releases/download/v0.9.3/plugdata-Fedora-41-x64.tar.xz",
+            "downloads": 66
+          },
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "arm64"
+            ],
+            "contains": [
+              "vst3",
+              "clap",
+              "lv2",
+              "elf"
+            ],
+            "type": "archive",
+            "size": 282363180,
+            "sha256": "0a884e8f034fed8df168b9135357cfd0976993207c9fb6806fc9b27ac753c391",
+            "url": "https://github.com/plugdata-team/plugdata/releases/download/v0.9.3/plugdata-Fedora-42-aarch64.tar.xz",
+            "downloads": 38
+          },
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "clap",
+              "lv2",
+              "elf"
+            ],
+            "type": "archive",
+            "size": 291665572,
+            "sha256": "4e05c6c73be3279313d74dbc402d46c56a633217c2856ca64716a68108d117d3",
+            "url": "https://github.com/plugdata-team/plugdata/releases/download/v0.9.3/plugdata-Fedora-42-x64.tar.xz",
+            "downloads": 249
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "clap",
+              "lv2",
+              "component",
+              "app"
+            ],
+            "type": "installer",
+            "size": 397491035,
+            "sha256": "37568f0e20f3e959310b8036974b077f404da2d368288f86436fad8b8881b6c7",
+            "url": "https://github.com/plugdata-team/plugdata/releases/download/v0.9.3/plugdata-macOS-Legacy.pkg",
+            "downloads": 524
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "clap",
+              "lv2",
+              "component",
+              "app"
+            ],
+            "type": "installer",
+            "size": 772567838,
+            "sha256": "44344723ec6b975d59823725277e886b5513a04cb397dff0a5ce8ad8e042564b",
+            "url": "https://github.com/plugdata-team/plugdata/releases/download/v0.9.3/plugdata-macOS-Universal.pkg",
+            "downloads": 13635
+          },
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "arm64"
+            ],
+            "contains": [
+              "vst3",
+              "clap",
+              "lv2",
+              "elf"
+            ],
+            "type": "archive",
+            "size": 282719752,
+            "sha256": "8f317bf55258fba2a09c9ebb8adbba06d4b4d3611dd9f6b9476ceee725f711f9",
+            "url": "https://github.com/plugdata-team/plugdata/releases/download/v0.9.3/plugdata-OpenSUSE-Tumbleweed-aarch64.tar.xz",
+            "downloads": 36
+          },
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "clap",
+              "lv2",
+              "elf"
+            ],
+            "type": "archive",
+            "size": 292336236,
+            "sha256": "172bfb81c564c998dd5f7483084931623cfbc5809b5ceeaa55e5cdbf160ead86",
+            "url": "https://github.com/plugdata-team/plugdata/releases/download/v0.9.3/plugdata-OpenSUSE-Tumbleweed-x64.tar.xz",
+            "downloads": 73
+          },
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "arm64"
+            ],
+            "contains": [
+              "vst3",
+              "clap",
+              "lv2",
+              "elf"
+            ],
+            "type": "archive",
+            "size": 278347804,
+            "sha256": "b9ccd4e89f60256ca853927f0681533ff01e16844c40bc40a4cfe7b6fb0c72c1",
+            "url": "https://github.com/plugdata-team/plugdata/releases/download/v0.9.3/plugdata-Ubuntu-22.04-aarch64.tar.xz",
+            "downloads": 33
+          },
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "clap",
+              "lv2",
+              "elf"
+            ],
+            "type": "archive",
+            "size": 286924972,
+            "sha256": "cd070c26d34c9be71f94018d570baf68c97765e3dea51a0cabc6eca20e131485",
+            "url": "https://github.com/plugdata-team/plugdata/releases/download/v0.9.3/plugdata-Ubuntu-22.04-x64.tar.xz",
+            "downloads": 201
+          },
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "arm64"
+            ],
+            "contains": [
+              "vst3",
+              "clap",
+              "lv2",
+              "elf"
+            ],
+            "type": "archive",
+            "size": 281026176,
+            "sha256": "da847c651928cc6f9c82f1ecf037c55b594a35fc6e7df8bab16788de114037d9",
+            "url": "https://github.com/plugdata-team/plugdata/releases/download/v0.9.3/plugdata-Ubuntu-24.04-aarch64.tar.xz",
+            "downloads": 53
+          },
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "clap",
+              "lv2",
+              "elf"
+            ],
+            "type": "archive",
+            "size": 290397960,
+            "sha256": "1727ba8021196bec6e6e4cc2495a20ee29d31323d2d7347e844f7ce55127d10c",
+            "url": "https://github.com/plugdata-team/plugdata/releases/download/v0.9.3/plugdata-Ubuntu-24.04-x64.tar.xz",
+            "downloads": 798
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x32"
+            ],
+            "contains": [
+              "vst3",
+              "clap",
+              "lv2",
+              "exe"
+            ],
+            "type": "installer",
+            "size": 261914624,
+            "sha256": "e13895f0758ef7df30c60855b301c082412a9bf29062c82cc5d4205ab2d892c8",
+            "url": "https://github.com/plugdata-team/plugdata/releases/download/v0.9.3/plugdata-Win32.msi",
+            "downloads": 779
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "clap",
+              "lv2",
+              "exe"
+            ],
+            "type": "installer",
+            "size": 269320192,
+            "sha256": "3be7a5b73328b999f962050b75043a63db31222d4f5e4fd1676bd2ea3f4daeb0",
+            "url": "https://github.com/plugdata-team/plugdata/releases/download/v0.9.3/plugdata-Win64.msi",
+            "downloads": 17658
+          }
+        ],
+        "verified": true,
+        "downloads": 35804
       }
     },
-    "downloads": 8396
+    "downloads": 44200
   }
 }

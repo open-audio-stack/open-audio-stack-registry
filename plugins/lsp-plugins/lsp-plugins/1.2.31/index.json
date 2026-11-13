@@ -1,0 +1,111 @@
+{
+  "name": "LSP Plugins",
+  "author": "Vladimir Sadovnikov",
+  "description": "A collection of open-source audio effects, synthesizers, and tools designed for music and sound production, primarily on the GNU/Linux platform.",
+  "license": "lgpl-3.0",
+  "type": "effect",
+  "tags": [
+    "Delay",
+    "Chorus",
+    "Compressor",
+    "Filter",
+    "Flanger",
+    "Gate",
+    "Mixer",
+    "Sampler"
+  ],
+  "url": "https://github.com/lsp-plugins/lsp-plugins",
+  "donate": "https://www.patreon.com/c/sadko4u",
+  "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/lsp-plugins/lsp-plugins/lsp-plugins.flac",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/lsp-plugins/lsp-plugins/lsp-plugins.jpg",
+  "date": "2026-06-13T05:02:21Z",
+  "changes": "* Added new 'standalone' build feature which now replaces the 'jack' build feature for launching standalone plugins.\r\n* The feature 'jack' is now responsible for building JACK audio backend for standalone plugins.\r\n* Moved all JACK-related code into a sep",
+  "files": [
+    {
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "architectures": [
+        "arm64"
+      ],
+      "contains": [
+        "clap",
+        "lv2",
+        "vst3",
+        "so"
+      ],
+      "type": "archive",
+      "size": 35418986,
+      "sha256": "29d86cf23e2efeea267eb5449c5a0eb74cf8d1a0d0a3598036205a2ad3969053",
+      "url": "https://github.com/lsp-plugins/lsp-plugins/releases/download/1.2.31/lsp-plugins-1.2.31-Linux-aarch64.7z",
+      "downloads": 20
+    },
+    {
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "architectures": [
+        "arm32"
+      ],
+      "contains": [
+        "clap",
+        "lv2",
+        "vst3",
+        "so"
+      ],
+      "type": "archive",
+      "size": 31764997,
+      "sha256": "bb60aef1873d14b1e71a62afa5f6ad003bf55c2fee6f8c897da6d1291ca97f8a",
+      "url": "https://github.com/lsp-plugins/lsp-plugins/releases/download/1.2.31/lsp-plugins-1.2.31-Linux-arm32.7z",
+      "downloads": 18
+    },
+    {
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "architectures": [
+        "x32"
+      ],
+      "contains": [
+        "clap",
+        "lv2",
+        "vst3",
+        "so"
+      ],
+      "type": "archive",
+      "size": 32459228,
+      "sha256": "0a128b78bdf36ce11f12f38f3fb9a47614176eb550e838d5d0ba38eaec29e892",
+      "url": "https://github.com/lsp-plugins/lsp-plugins/releases/download/1.2.31/lsp-plugins-1.2.31-Linux-i586.7z",
+      "downloads": 18
+    },
+    {
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "clap",
+        "lv2",
+        "vst3",
+        "so"
+      ],
+      "type": "archive",
+      "size": 38247736,
+      "sha256": "06fdfadf83d0c8d60c2d32173ce6a6584706bd1ff79274ccd5154d002d00d087",
+      "url": "https://github.com/lsp-plugins/lsp-plugins/releases/download/1.2.31/lsp-plugins-1.2.31-Linux-x86_64.7z",
+      "downloads": 84
+    }
+  ],
+  "verified": true,
+  "downloads": 140
+}

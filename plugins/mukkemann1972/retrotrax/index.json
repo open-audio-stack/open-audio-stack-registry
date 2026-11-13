@@ -1,7 +1,89 @@
 {
   "slug": "mukkemann1972/retrotrax",
-  "version": "0.87.0",
+  "version": "0.92.0",
   "versions": {
+    "0.92.0": {
+      "name": "RetroTrax",
+      "author": "Mukkemann1972",
+      "description": "A tracker plugin and standalone app in the spirit of ProTracker, FastTracker II, and OctaMED, with Amiga sample sound and C64 SID chip emulation.",
+      "license": "gpl-3.0",
+      "type": "instrument",
+      "tags": [
+        "Amiga",
+        "Chiptune",
+        "Demoscene",
+        "Tracker",
+        "Sid"
+      ],
+      "url": "https://github.com/Mukkemann1972/retrotrax",
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/mukkemann1972/retrotrax/retrotrax.jpg",
+      "date": "2026-08-25T19:50:23Z",
+      "changes": "**Full Changelog**: https://github.com/Mukkemann1972/retrotrax/compare/v0.91.0...v0.92.0",
+      "files": [
+        {
+          "systems": [
+            {
+              "type": "linux"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "vst3",
+            "clap",
+            "elf"
+          ],
+          "type": "archive",
+          "size": 24508071,
+          "sha256": "ca56f748d19f0027d1471d8cd00fd078ef47165064ae18d267f53b41188cb9fd",
+          "url": "https://github.com/Mukkemann1972/retrotrax/releases/download/v0.92.0/RetroTrax-Linux-0.92.0.zip",
+          "downloads": 51
+        },
+        {
+          "systems": [
+            {
+              "type": "mac"
+            }
+          ],
+          "architectures": [
+            "arm64"
+          ],
+          "contains": [
+            "vst3",
+            "clap",
+            "app"
+          ],
+          "type": "archive",
+          "size": 19739801,
+          "sha256": "92ef45b5f501836453af80eb138de52970651df0fda4e6f4b113fc1e71fe6b55",
+          "url": "https://github.com/Mukkemann1972/retrotrax/releases/download/v0.92.0/RetroTrax-macOS-0.92.0.zip",
+          "downloads": 32
+        },
+        {
+          "systems": [
+            {
+              "type": "win"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "vst3",
+            "clap",
+            "exe"
+          ],
+          "type": "archive",
+          "size": 14053305,
+          "sha256": "a922cfe140b5b259514f2311a371890cbd02fc1801913335eee6b7dd495308ba",
+          "url": "https://github.com/Mukkemann1972/retrotrax/releases/download/v0.92.0/RetroTrax-Windows-0.92.0.zip",
+          "downloads": 79
+        }
+      ],
+      "verified": true,
+      "downloads": 162
+    },
     "0.87.0": {
       "name": "RetroTrax",
       "author": "Mukkemann1972",
@@ -85,5 +167,5 @@
       "downloads": 35
     }
   },
-  "downloads": 35
+  "downloads": 197
 }

@@ -1,8 +1,101 @@
 {
   "magillos/cable": {
     "slug": "magillos/cable",
-    "version": "0.10.13",
+    "version": "0.10.14",
     "versions": {
+      "0.10.14": {
+        "name": "Cable",
+        "author": "magillos",
+        "description": "PyQT application to dynamically modify Pipewire and Wireplumber settings at runtime.",
+        "license": "gpl-3.0",
+        "type": "tool",
+        "tags": [
+          "Pipewire",
+          "Wireplumber",
+          "Routing",
+          "Linux"
+        ],
+        "url": "https://github.com/magillos/Cable",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/magillos/cable/cable.jpg",
+        "date": "2026-10-15T10:29:15Z",
+        "changes": "- unified sinks support added for clients creating new nodes for each stream (chromium and alike)\r\n- QScrollArea around Cable in embedded mode to address #59 \r\n- disabled mouse-wheel scrolling on combo boxes in Cable \r\n- refactoring, so let me know if any",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "elf"
+            ],
+            "type": "installer",
+            "size": 1258688,
+            "sha256": "de3522ee75fea33dc17dba84d1b5b6cf1977d3c2cf28e55374f922fa50b3a055",
+            "url": "https://github.com/magillos/Cable/releases/download/0.10.14/Cable-0.10.14-bare.AppImage",
+            "downloads": 49
+          },
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "elf"
+            ],
+            "type": "installer",
+            "size": 126003704,
+            "sha256": "e351bcf0a06e88cac10468b6f976b83c57292a2a2b2d2a84e7ba1d8b2c16e950",
+            "url": "https://github.com/magillos/Cable/releases/download/0.10.14/Cable-0.10.14-bundled.AppImage",
+            "downloads": 91
+          },
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "elf"
+            ],
+            "type": "installer",
+            "size": 266572,
+            "sha256": "cfa8d9ebcec1f0683251808a20735b6a6310816747bbadfea43c7222f77aabee",
+            "url": "https://github.com/magillos/Cable/releases/download/0.10.14/Cable-0.10.14.deb",
+            "downloads": 121
+          },
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "elf"
+            ],
+            "type": "installer",
+            "size": 11660800,
+            "sha256": "e63e1d0241b6c19919872e293a410d01c4f68c5510f3c323b704c34b08f7fd3f",
+            "url": "https://github.com/magillos/Cable/releases/download/0.10.14/Cable-0.10.14.flatpak",
+            "downloads": 85
+          }
+        ],
+        "verified": true,
+        "downloads": 346
+      },
       "0.10.13": {
         "name": "Cable",
         "author": "magillos",
@@ -97,6 +190,6 @@
         "downloads": 738
       }
     },
-    "downloads": 738
+    "downloads": 1084
   }
 }
