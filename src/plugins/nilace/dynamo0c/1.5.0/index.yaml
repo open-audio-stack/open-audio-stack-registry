@@ -1,0 +1,29 @@
+name: Dynamo0C
+author: NL Sounds
+description: Console-style 4-band parametric EQ — an LV2 plugin for Linux with its own hardware-style UI
+license: gpl-3.0
+type: effect
+tags:
+  - Audio
+  - Audio Plugin
+  - DSP
+  - EQ
+  - Filter
+  - Linux
+  - LV2
+  - Parametric EQ
+url: https://github.com/NiLace/Dynamo0C
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/nilace/dynamo0c/dynamo0c.jpg
+date: '2026-10-24T01:56:04Z'
+changes: The console's own filters, the DAW's bypass, knob scales that tell the truth, and a drive that is always oversampled 4x. A second cold audit of the whole plugin found and fixed one way the editor could take the DAW down, and several short bursts of work o
+files:
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - lv2
+    type: archive
+    size: 886506
+    sha256: 4f0be792d7e2ccbcb0d6526ee4ab56ac848f0b6190bfdc2ce3f6e4643cb1a1d4
+    url: https://github.com/NiLace/Dynamo0C/releases/download/v1.5.0/dynamo-0c.lv2.tar.gz
