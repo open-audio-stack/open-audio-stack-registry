@@ -1,0 +1,136 @@
+{
+  "name": "dm-Repeat",
+  "author": "Dave Mollen",
+  "description": "Multi-tap delay plugin",
+  "license": "gpl-3.0",
+  "type": "effect",
+  "tags": [
+    "delay",
+    "multi-tap",
+    "Au"
+  ],
+  "url": "https://github.com/davemollen/dm-Repeat",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/davemollen/dm-repeat/dm-repeat.jpg",
+  "date": "2026-10-30T14:39:54Z",
+  "changes": "Plugin changes:\r\n* Reset internal state on activation\r\n* Slightly quicker windowing functions are used \r\n\r\nLV2 / MOD plugin changes only:\r\n* Fades are applied when bypass is turned on and off\r\n* Processing is skipped when bypass is active for lower CPU us",
+  "files": [
+    {
+      "systems": [
+        {
+          "type": "mac"
+        }
+      ],
+      "architectures": [
+        "arm64",
+        "x64"
+      ],
+      "contains": [
+        "vst3",
+        "component",
+        "clap",
+        "lv2"
+      ],
+      "type": "archive",
+      "size": 21465239,
+      "sha256": "1f81b1c4700c6db4529c2c817e83f38e9dc87a2bd39fb355e3a5cb5f1b3d444d",
+      "url": "https://github.com/davemollen/dm-Repeat/releases/download/v0.1.1/dm-Repeat-macos.zip",
+      "downloads": 4
+    },
+    {
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "lv2"
+      ],
+      "type": "archive",
+      "size": 963362,
+      "sha256": "be606f222eed691bf17f6fc79bc274cfb02fefdd919d9c0541417fb22115f512",
+      "url": "https://github.com/davemollen/dm-Repeat/releases/download/v0.1.1/dm-Repeat-modduo-new.zip",
+      "downloads": 3
+    },
+    {
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "lv2"
+      ],
+      "type": "archive",
+      "size": 953824,
+      "sha256": "2f994191b81b8d09c2656b806e6a5409615d9d818a10c3691a75c7cf90e51ea4",
+      "url": "https://github.com/davemollen/dm-Repeat/releases/download/v0.1.1/dm-Repeat-modduox-new.zip",
+      "downloads": 3
+    },
+    {
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "lv2"
+      ],
+      "type": "archive",
+      "size": 953506,
+      "sha256": "cd9e8377b3af4a40742a02c15e01dcb54f81571fea2440d41b1181fe11d8ab91",
+      "url": "https://github.com/davemollen/dm-Repeat/releases/download/v0.1.1/dm-Repeat-moddwarf-new.zip",
+      "downloads": 4
+    },
+    {
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3",
+        "clap",
+        "lv2"
+      ],
+      "type": "archive",
+      "size": 8070817,
+      "sha256": "0e2ee97beedb4432d0d5fbd57e0e864a8b97078471495afc0916356d345cbc8b",
+      "url": "https://github.com/davemollen/dm-Repeat/releases/download/v0.1.1/dm-Repeat-ubuntu.zip",
+      "downloads": 5
+    },
+    {
+      "systems": [
+        {
+          "type": "win"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3",
+        "clap",
+        "lv2"
+      ],
+      "type": "archive",
+      "size": 7445798,
+      "sha256": "bb1c904ee4b3cde265799465211c0205433982a6a7480b32a97d49bbef39c411",
+      "url": "https://github.com/davemollen/dm-Repeat/releases/download/v0.1.1/dm-Repeat-windows.zip",
+      "downloads": 5
+    }
+  ],
+  "verified": true,
+  "downloads": 24
+}

@@ -1,0 +1,129 @@
+{
+  "name": "dm-BigMuff",
+  "author": "Dave Mollen",
+  "description": "Distortion plugin",
+  "license": "gpl-3.0",
+  "type": "effect",
+  "tags": [
+    "distortion",
+    "fuzz",
+    "Au"
+  ],
+  "url": "https://github.com/davemollen/dm-BigMuff",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/davemollen/dm-bigmuff/dm-bigmuff.jpg",
+  "date": "2026-10-30T14:51:03Z",
+  "changes": "Plugin changes:\r\n* Lower CPU usage on filter calculations\r\n* Reset internal state on activation\r\n\r\nLV2 / MOD plugin changes only:\r\n* Fades are applied when bypass is turned on and off\r\n* Processing is skipped when bypass is active for lower CPU usage",
+  "files": [
+    {
+      "systems": [
+        {
+          "type": "mac"
+        }
+      ],
+      "architectures": [
+        "arm64",
+        "x64"
+      ],
+      "contains": [
+        "vst3",
+        "component",
+        "clap",
+        "lv2"
+      ],
+      "type": "archive",
+      "size": 21358661,
+      "sha256": "1daa24f09ffbd87f4e936af852a4f3a0819f7e002ae4a1764453793b4eece6d6",
+      "url": "https://github.com/davemollen/dm-BigMuff/releases/download/v0.0.9/dm-BigMuff-macos.zip"
+    },
+    {
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "lv2"
+      ],
+      "type": "archive",
+      "size": 941346,
+      "sha256": "4329c28c03977fb2bf95e239b1f7e4349337b1ee78e8a3b5d2b8057faaea21ce",
+      "url": "https://github.com/davemollen/dm-BigMuff/releases/download/v0.0.9/dm-BigMuff-modduo-new.zip"
+    },
+    {
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "lv2"
+      ],
+      "type": "archive",
+      "size": 929500,
+      "sha256": "58132a49384afec103c21b83f91675140104e5958000ced591caf78636c012a9",
+      "url": "https://github.com/davemollen/dm-BigMuff/releases/download/v0.0.9/dm-BigMuff-modduox-new.zip"
+    },
+    {
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "lv2"
+      ],
+      "type": "archive",
+      "size": 929156,
+      "sha256": "d9f7221476ba35077db7cfa3b2c021d5d3e817185b4363906405bd32b2c25534",
+      "url": "https://github.com/davemollen/dm-BigMuff/releases/download/v0.0.9/dm-BigMuff-moddwarf-new.zip"
+    },
+    {
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3",
+        "clap",
+        "lv2"
+      ],
+      "type": "archive",
+      "size": 8022646,
+      "sha256": "91a3dfd9f2d6893e9d285196502015420e3fc1f8025628a0b53b74c42eac22a3",
+      "url": "https://github.com/davemollen/dm-BigMuff/releases/download/v0.0.9/dm-BigMuff-ubuntu.zip"
+    },
+    {
+      "systems": [
+        {
+          "type": "win"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3",
+        "clap",
+        "lv2"
+      ],
+      "type": "archive",
+      "size": 7388989,
+      "sha256": "af8bef6be18fa2e76561ff7b886b7737f253b3c08655a38368f8c768c9df7f83",
+      "url": "https://github.com/davemollen/dm-BigMuff/releases/download/v0.0.9/dm-BigMuff-windows.zip"
+    }
+  ],
+  "verified": true
+}

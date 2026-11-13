@@ -36,8 +36,7 @@
           "type": "installer",
           "size": 42798288,
           "sha256": "0254fdd101ce958df1928849e5247741e1cf2dce9d523c9f17d8d36092d80549",
-          "url": "https://github.com/FigBug/PAPU/releases/download/v1.2.5/PAPU.deb",
-          "downloads": 17
+          "url": "https://github.com/FigBug/PAPU/releases/download/v1.2.5/PAPU.deb"
         },
         {
           "systems": [
@@ -56,8 +55,7 @@
           "type": "installer",
           "size": 7365760,
           "sha256": "10bbff7df9a078c6297f9532d2d8875f92ac8c16e88a9a5d8a64e42f983b981b",
-          "url": "https://github.com/FigBug/PAPU/releases/download/v1.2.5/PAPU.exe",
-          "downloads": 20
+          "url": "https://github.com/FigBug/PAPU/releases/download/v1.2.5/PAPU.exe"
         },
         {
           "systems": [
@@ -78,12 +76,10 @@
           "type": "installer",
           "size": 47537023,
           "sha256": "65d496ccae94e50779a725115028dfc780a736bc77a24e4ebc703bfd9e0c787d",
-          "url": "https://github.com/FigBug/PAPU/releases/download/v1.2.5/PAPU.pkg",
-          "downloads": 9
+          "url": "https://github.com/FigBug/PAPU/releases/download/v1.2.5/PAPU.pkg"
         }
       ],
-      "verified": true,
-      "downloads": 46
+      "verified": true
     },
     "1.2.10": {
       "name": "PAPU",
@@ -119,8 +115,7 @@
           "type": "installer",
           "size": 30250868,
           "sha256": "dd7fa60809c8a5bca8c2b83ac7879da14c56d3fb93ec002bc27f7ca49a48e2b2",
-          "url": "https://github.com/FigBug/PAPU/releases/download/v1.2.10/PAPU.deb",
-          "downloads": 36
+          "url": "https://github.com/FigBug/PAPU/releases/download/v1.2.10/PAPU.deb"
         },
         {
           "systems": [
@@ -139,8 +134,7 @@
           "type": "installer",
           "size": 7938208,
           "sha256": "25ae26c25667e83c20895fcd5279af3da4e56bf92cf233136248af354732df9e",
-          "url": "https://github.com/FigBug/PAPU/releases/download/v1.2.10/PAPU.exe",
-          "downloads": 43
+          "url": "https://github.com/FigBug/PAPU/releases/download/v1.2.10/PAPU.exe"
         },
         {
           "systems": [
@@ -161,13 +155,10 @@
           "type": "installer",
           "size": 45599405,
           "sha256": "56f30fa798fd5719ee36f15b063ba8f6b1d8caef269a6b766fcb09778a072609",
-          "url": "https://github.com/FigBug/PAPU/releases/download/v1.2.10/PAPU.pkg",
-          "downloads": 36
+          "url": "https://github.com/FigBug/PAPU/releases/download/v1.2.10/PAPU.pkg"
         }
       ],
-      "verified": true,
-      "downloads": 115
+      "verified": true
     }
-  },
-  "downloads": 161
+  }
 }

@@ -1,7 +1,142 @@
 {
   "slug": "davemollen/dm-sd1",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "versions": {
+    "0.1.1": {
+      "name": "dm-SD1",
+      "author": "Dave Mollen",
+      "description": "Overdrive plugin",
+      "license": "gpl-3.0",
+      "type": "effect",
+      "tags": [
+        "overdrive",
+        "Au"
+      ],
+      "url": "https://github.com/davemollen/dm-SD1",
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/davemollen/dm-sd1/dm-sd1.jpg",
+      "date": "2026-10-30T14:33:26Z",
+      "changes": "Plugin changes:\r\n* Lower CPU usage on filter calculations\r\n* Reset internal state on activation\r\n\r\nLV2 / MOD plugin changes only:\r\n* Fades are applied when bypass is turned on and off\r\n* Processing is skipped when bypass is active for lower CPU usage",
+      "files": [
+        {
+          "systems": [
+            {
+              "type": "mac"
+            }
+          ],
+          "architectures": [
+            "arm64",
+            "x64"
+          ],
+          "contains": [
+            "vst3",
+            "component",
+            "clap",
+            "lv2"
+          ],
+          "type": "archive",
+          "size": 21338676,
+          "sha256": "e5e238eef29d4616b583532a7f852d7d7e687e153823689916e439aae72bc76e",
+          "url": "https://github.com/davemollen/dm-SD1/releases/download/v0.1.1/dm-SD1-macos.zip",
+          "downloads": 3
+        },
+        {
+          "systems": [
+            {
+              "type": "linux"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "lv2"
+          ],
+          "type": "archive",
+          "size": 924450,
+          "sha256": "fedcd52aad132395f78a6337ec9da1f0b009ed468311fb905ba9eba350452bc1",
+          "url": "https://github.com/davemollen/dm-SD1/releases/download/v0.1.1/dm-SD1-modduo-new.zip",
+          "downloads": 3
+        },
+        {
+          "systems": [
+            {
+              "type": "linux"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "lv2"
+          ],
+          "type": "archive",
+          "size": 912773,
+          "sha256": "ef88aba5432ce30b76dc666eb36a51dbc618a54109e456209d986e2bd8df37f0",
+          "url": "https://github.com/davemollen/dm-SD1/releases/download/v0.1.1/dm-SD1-modduox-new.zip",
+          "downloads": 2
+        },
+        {
+          "systems": [
+            {
+              "type": "linux"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "lv2"
+          ],
+          "type": "archive",
+          "size": 912440,
+          "sha256": "2d83a7254618a596682956f92b9a21502e4e78b827e0d26b83d96c630539ebe3",
+          "url": "https://github.com/davemollen/dm-SD1/releases/download/v0.1.1/dm-SD1-moddwarf-new.zip",
+          "downloads": 4
+        },
+        {
+          "systems": [
+            {
+              "type": "linux"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "vst3",
+            "clap",
+            "lv2"
+          ],
+          "type": "archive",
+          "size": 8001488,
+          "sha256": "270f611bb46c9182a16d4cb3d4f520088c41abe0a0c2269a1adda329cd18c6e4",
+          "url": "https://github.com/davemollen/dm-SD1/releases/download/v0.1.1/dm-SD1-ubuntu.zip",
+          "downloads": 6
+        },
+        {
+          "systems": [
+            {
+              "type": "win"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "vst3",
+            "clap",
+            "lv2"
+          ],
+          "type": "archive",
+          "size": 7371283,
+          "sha256": "84ec74444a2b46f905635729822158db7c30da70d964de0e952fea8b59995a4b",
+          "url": "https://github.com/davemollen/dm-SD1/releases/download/v0.1.1/dm-SD1-windows.zip",
+          "downloads": 9
+        }
+      ],
+      "verified": true,
+      "downloads": 27
+    },
     "0.1.0": {
       "name": "dm-SD1",
       "author": "Dave Mollen",
@@ -36,7 +171,8 @@
           "type": "archive",
           "size": 21248378,
           "sha256": "63c122ee7db12501c6e06452077fecb5b41a0f5cd462241bb4721c724477aa61",
-          "url": "https://github.com/davemollen/dm-SD1/releases/download/v0.1.0/dm-SD1-macos.zip"
+          "url": "https://github.com/davemollen/dm-SD1/releases/download/v0.1.0/dm-SD1-macos.zip",
+          "downloads": 31
         },
         {
           "systems": [
@@ -53,7 +189,8 @@
           "type": "archive",
           "size": 923736,
           "sha256": "a52d3e077fed9b69916dc663061ae17268cde1bbf62b0d5c48a3c26243ca8a1d",
-          "url": "https://github.com/davemollen/dm-SD1/releases/download/v0.1.0/dm-SD1-modduo-new.zip"
+          "url": "https://github.com/davemollen/dm-SD1/releases/download/v0.1.0/dm-SD1-modduo-new.zip",
+          "downloads": 14
         },
         {
           "systems": [
@@ -70,7 +207,8 @@
           "type": "archive",
           "size": 911817,
           "sha256": "bf06fc2725d1482902c229057255acda237ba7eb4198a1f9515a58de7f4e5408",
-          "url": "https://github.com/davemollen/dm-SD1/releases/download/v0.1.0/dm-SD1-modduox-new.zip"
+          "url": "https://github.com/davemollen/dm-SD1/releases/download/v0.1.0/dm-SD1-modduox-new.zip",
+          "downloads": 4
         },
         {
           "systems": [
@@ -87,7 +225,8 @@
           "type": "archive",
           "size": 911422,
           "sha256": "4db576e2b84a1677ab9dd34bf1cf7a22ee68b559d3dc1929cfd9f5601a5c7539",
-          "url": "https://github.com/davemollen/dm-SD1/releases/download/v0.1.0/dm-SD1-moddwarf-new.zip"
+          "url": "https://github.com/davemollen/dm-SD1/releases/download/v0.1.0/dm-SD1-moddwarf-new.zip",
+          "downloads": 8
         },
         {
           "systems": [
@@ -106,7 +245,8 @@
           "type": "archive",
           "size": 8016898,
           "sha256": "995b34c4cf72ba8ffb2c61e5e75d4023ea0a2ca12bc389048c899ba74fe0dd6c",
-          "url": "https://github.com/davemollen/dm-SD1/releases/download/v0.1.0/dm-SD1-ubuntu.zip"
+          "url": "https://github.com/davemollen/dm-SD1/releases/download/v0.1.0/dm-SD1-ubuntu.zip",
+          "downloads": 43
         },
         {
           "systems": [
@@ -125,10 +265,13 @@
           "type": "archive",
           "size": 7205898,
           "sha256": "c8588a545e24b3e3f21094c21bbee2a285a197760b40b56ff07c8a40b6f13d45",
-          "url": "https://github.com/davemollen/dm-SD1/releases/download/v0.1.0/dm-SD1-windows.zip"
+          "url": "https://github.com/davemollen/dm-SD1/releases/download/v0.1.0/dm-SD1-windows.zip",
+          "downloads": 129
         }
       ],
-      "verified": true
+      "verified": true,
+      "downloads": 229
     }
-  }
+  },
+  "downloads": 256
 }

@@ -1,0 +1,129 @@
+{
+  "name": "dm-GrainDelay",
+  "author": "Dave Mollen",
+  "description": "A granular delay effect, written in Rust and compilable to LV2 or MOD Audio plugin formats.",
+  "license": "gpl-3.0",
+  "type": "effect",
+  "tags": [
+    "Delay",
+    "Granular",
+    "Rust"
+  ],
+  "url": "https://github.com/davemollen/dm-GrainDelay",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/davemollen/dm-graindelay/dm-graindelay.jpg",
+  "date": "2026-10-31T10:38:04Z",
+  "changes": "Plugin changes:\r\n* The output is louder now to match the input level better. This improves the dry/wet balance\r\n* Reset internal state on activation\r\n\r\nLV2 / MOD plugin changes only:\r\n* Fades are applied when bypass is turned on and off\r\n* Processing is s",
+  "files": [
+    {
+      "systems": [
+        {
+          "type": "mac"
+        }
+      ],
+      "architectures": [
+        "arm64",
+        "x64"
+      ],
+      "contains": [
+        "lv2"
+      ],
+      "type": "archive",
+      "size": 1068059,
+      "sha256": "10e671cc80d9ed8b9a0ed47be600efe8c3d39b06bc7de7c10529c4f7b61ff936",
+      "url": "https://github.com/davemollen/dm-GrainDelay/releases/download/v0.1.0/dm-GrainDelay-macos.zip",
+      "downloads": 4
+    },
+    {
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "architectures": [
+        "arm32"
+      ],
+      "contains": [
+        "lv2"
+      ],
+      "type": "archive",
+      "size": 935614,
+      "sha256": "41837447cfd4cbf75bc1e9f1dfdebc81af74bc6a3230f148fb1d18dfa0385440",
+      "url": "https://github.com/davemollen/dm-GrainDelay/releases/download/v0.1.0/dm-GrainDelay-modduo-new.zip",
+      "downloads": 4
+    },
+    {
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "architectures": [
+        "arm64"
+      ],
+      "contains": [
+        "lv2"
+      ],
+      "type": "archive",
+      "size": 923512,
+      "sha256": "06db23b72308fad327dfd4755e4d97fa3128a5569a161b82c7b59ecf822a70db",
+      "url": "https://github.com/davemollen/dm-GrainDelay/releases/download/v0.1.0/dm-GrainDelay-modduox-new.zip",
+      "downloads": 3
+    },
+    {
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "architectures": [
+        "arm64"
+      ],
+      "contains": [
+        "lv2"
+      ],
+      "type": "archive",
+      "size": 923186,
+      "sha256": "70c4eb78ba72218767417852a763e70f505e80b602f9a68a7011ff95214faef1",
+      "url": "https://github.com/davemollen/dm-GrainDelay/releases/download/v0.1.0/dm-GrainDelay-moddwarf-new.zip",
+      "downloads": 5
+    },
+    {
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "lv2"
+      ],
+      "type": "archive",
+      "size": 921457,
+      "sha256": "96e205dbdd8304382a82f33613ad684627ecbd0ebf193fa5d45a32a39eddaea1",
+      "url": "https://github.com/davemollen/dm-GrainDelay/releases/download/v0.1.0/dm-GrainDelay-ubuntu.zip",
+      "downloads": 4
+    },
+    {
+      "systems": [
+        {
+          "type": "win"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "lv2"
+      ],
+      "type": "archive",
+      "size": 826168,
+      "sha256": "e8fd1d2523d6e73370f2e47465d916eaa3d1841b185398b2cf3c6f0344f6dbe2",
+      "url": "https://github.com/davemollen/dm-GrainDelay/releases/download/v0.1.0/dm-GrainDelay-windows.zip",
+      "downloads": 4
+    }
+  ],
+  "verified": true,
+  "downloads": 24
+}

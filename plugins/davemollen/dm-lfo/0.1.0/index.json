@@ -1,0 +1,128 @@
+{
+  "name": "dm-LFO",
+  "author": "Dave Mollen",
+  "description": "Low frequency oscillator modulation plugin",
+  "license": "gpl-3.0",
+  "type": "effect",
+  "tags": [
+    "lfo",
+    "modulation"
+  ],
+  "url": "https://github.com/davemollen/dm-LFO",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/davemollen/dm-lfo/dm-lfo.jpg",
+  "date": "2026-10-31T10:37:13Z",
+  "changes": "* Hold on to value on bypass\r\n* Changed output range to -5V and 5V. So in MOD `Operational Mode` should be set to `Bipolar`",
+  "files": [
+    {
+      "systems": [
+        {
+          "type": "mac"
+        }
+      ],
+      "architectures": [
+        "arm64",
+        "x64"
+      ],
+      "contains": [
+        "lv2"
+      ],
+      "type": "archive",
+      "size": 1104815,
+      "sha256": "0bf8e54ed1b4f698a35300b80490a5a9ae07502073bf5f81cf0a7d2767b0b79b",
+      "url": "https://github.com/davemollen/dm-LFO/releases/download/v0.1.0/dm-LFO-macos.zip",
+      "downloads": 3
+    },
+    {
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "lv2"
+      ],
+      "type": "archive",
+      "size": 974174,
+      "sha256": "8b358791591b5a4fad3c2eb6245999a18d55691da6537995a451a77064f33810",
+      "url": "https://github.com/davemollen/dm-LFO/releases/download/v0.1.0/dm-LFO-modduo-new.zip",
+      "downloads": 4
+    },
+    {
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "lv2"
+      ],
+      "type": "archive",
+      "size": 962327,
+      "sha256": "dae7228c85e1cde1c822ac98d6c5db4f6f9d709939cbcda51e95aad208192be0",
+      "url": "https://github.com/davemollen/dm-LFO/releases/download/v0.1.0/dm-LFO-modduox-new.zip",
+      "downloads": 3
+    },
+    {
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "lv2"
+      ],
+      "type": "archive",
+      "size": 961997,
+      "sha256": "4c9700bf45a4f898cccffa1e56808ceb9fc247971f4ca2fe254395e540748669",
+      "url": "https://github.com/davemollen/dm-LFO/releases/download/v0.1.0/dm-LFO-moddwarf-new.zip",
+      "downloads": 5
+    },
+    {
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "lv2"
+      ],
+      "type": "archive",
+      "size": 959557,
+      "sha256": "d9bd4b2f3f00e694b6bc164ef2a81f1fcfe15904fa48337d9af56e6b8b9d773f",
+      "url": "https://github.com/davemollen/dm-LFO/releases/download/v0.1.0/dm-LFO-ubuntu.zip",
+      "downloads": 4
+    },
+    {
+      "systems": [
+        {
+          "type": "win"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "lv2"
+      ],
+      "type": "archive",
+      "size": 864514,
+      "sha256": "e0db683f4d2e68266f10ee9eb062e9cbdfc516813afabf7efb0ba4686e266b29",
+      "url": "https://github.com/davemollen/dm-LFO/releases/download/v0.1.0/dm-LFO-windows.zip",
+      "downloads": 4
+    }
+  ],
+  "verified": true,
+  "downloads": 23
+}
