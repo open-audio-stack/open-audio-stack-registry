@@ -4167,7 +4167,8 @@
             "type": "archive",
             "size": 21669616,
             "sha256": "3be179fe331bb79d7e5702f8ee245df3afe76325b2f1252ecfb0c2e47e0f0e42",
-            "url": "https://github.com/davemollen/dm-Fuzz/releases/download/v0.1.1/dm-Fuzz-macos.zip"
+            "url": "https://github.com/davemollen/dm-Fuzz/releases/download/v0.1.1/dm-Fuzz-macos.zip",
+            "downloads": 17
           },
           {
             "systems": [
@@ -4184,7 +4185,8 @@
             "type": "archive",
             "size": 1231259,
             "sha256": "f14b41ddd59cac8304cc29f30aa25b7d69dc1f8119a3893c134b4897a84b955e",
-            "url": "https://github.com/davemollen/dm-Fuzz/releases/download/v0.1.1/dm-Fuzz-modduo-new.zip"
+            "url": "https://github.com/davemollen/dm-Fuzz/releases/download/v0.1.1/dm-Fuzz-modduo-new.zip",
+            "downloads": 16
           },
           {
             "systems": [
@@ -4201,7 +4203,8 @@
             "type": "archive",
             "size": 1219556,
             "sha256": "697a90084c240520e9193846ec022d94cbc69564d04947d581d16d4fa474150e",
-            "url": "https://github.com/davemollen/dm-Fuzz/releases/download/v0.1.1/dm-Fuzz-modduox-new.zip"
+            "url": "https://github.com/davemollen/dm-Fuzz/releases/download/v0.1.1/dm-Fuzz-modduox-new.zip",
+            "downloads": 17
           },
           {
             "systems": [
@@ -4218,7 +4221,8 @@
             "type": "archive",
             "size": 1219177,
             "sha256": "924fc11c41aec939dd23510f5f1f427a57cd5b0a9b367b2fc4c12f47cb29b590",
-            "url": "https://github.com/davemollen/dm-Fuzz/releases/download/v0.1.1/dm-Fuzz-moddwarf-new.zip"
+            "url": "https://github.com/davemollen/dm-Fuzz/releases/download/v0.1.1/dm-Fuzz-moddwarf-new.zip",
+            "downloads": 18
           },
           {
             "systems": [
@@ -4237,7 +4241,8 @@
             "type": "archive",
             "size": 8316504,
             "sha256": "db56c78ab21574f5c0a0587db7a147722457e6b28aeeb2a95540af4f95477b57",
-            "url": "https://github.com/davemollen/dm-Fuzz/releases/download/v0.1.1/dm-Fuzz-ubuntu.zip"
+            "url": "https://github.com/davemollen/dm-Fuzz/releases/download/v0.1.1/dm-Fuzz-ubuntu.zip",
+            "downloads": 22
           },
           {
             "systems": [
@@ -4256,10 +4261,12 @@
             "type": "archive",
             "size": 7686946,
             "sha256": "3a3b6287c5a4b66262b276fe2afbd51a2e604314c9cf56d2af31c59a66d662da",
-            "url": "https://github.com/davemollen/dm-Fuzz/releases/download/v0.1.1/dm-Fuzz-windows.zip"
+            "url": "https://github.com/davemollen/dm-Fuzz/releases/download/v0.1.1/dm-Fuzz-windows.zip",
+            "downloads": 23
           }
         ],
-        "verified": true
+        "verified": true,
+        "downloads": 113
       },
       "0.1.0": {
         "name": "dm-Fuzz",
@@ -4398,7 +4405,7 @@
         "downloads": 141
       }
     },
-    "downloads": 141
+    "downloads": 254
   },
   "davemollen/dm-ds1": {
     "slug": "davemollen/dm-ds1",

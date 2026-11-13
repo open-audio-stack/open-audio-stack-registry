@@ -46074,7 +46074,8 @@
             "type": "installer",
             "size": 10041848,
             "sha256": "7add624f7046b196d3e6d424a1b5fcffe81bb5a8a52634a11f027290d9b85c52",
-            "url": "https://github.com/flarkflarkflark/AudioRestorationVST/releases/download/v1.6.36/AudioRestoration-Linux-v1.6.36-Portable.AppImage"
+            "url": "https://github.com/flarkflarkflark/AudioRestorationVST/releases/download/v1.6.36/AudioRestoration-Linux-v1.6.36-Portable.AppImage",
+            "downloads": 23
           },
           {
             "systems": [
@@ -46091,7 +46092,8 @@
             "type": "archive",
             "size": 15761870,
             "sha256": "0a9f6158546146fcc72ec112de322fce11ed865075806383e80424e71af82e28",
-            "url": "https://github.com/flarkflarkflark/AudioRestorationVST/releases/download/v1.6.36/AudioRestoration-Linux-v1.6.36-Standalone.zip"
+            "url": "https://github.com/flarkflarkflark/AudioRestorationVST/releases/download/v1.6.36/AudioRestoration-Linux-v1.6.36-Standalone.zip",
+            "downloads": 7
           },
           {
             "systems": [
@@ -46108,7 +46110,8 @@
             "type": "archive",
             "size": 14225965,
             "sha256": "b3d970780ff9b7f8dd8524583924772d8c58368644e133c84ce176f494ee372b",
-            "url": "https://github.com/flarkflarkflark/AudioRestorationVST/releases/download/v1.6.36/AudioRestoration-Linux-v1.6.36-VST3.zip"
+            "url": "https://github.com/flarkflarkflark/AudioRestorationVST/releases/download/v1.6.36/AudioRestoration-Linux-v1.6.36-VST3.zip",
+            "downloads": 19
           },
           {
             "systems": [
@@ -46126,7 +46129,8 @@
             "type": "archive",
             "size": 17722656,
             "sha256": "240fcf64c15f477f328239e63c9e7e6df2c17ab7926f28fc5b5c625615b12eaf",
-            "url": "https://github.com/flarkflarkflark/AudioRestorationVST/releases/download/v1.6.36/AudioRestoration-macOS-Universal-Ventura-v1.6.36-VST3.zip"
+            "url": "https://github.com/flarkflarkflark/AudioRestorationVST/releases/download/v1.6.36/AudioRestoration-macOS-Universal-Ventura-v1.6.36-VST3.zip",
+            "downloads": 14
           },
           {
             "systems": [
@@ -46144,7 +46148,8 @@
             "type": "installer",
             "size": 22597004,
             "sha256": "b057585819fcc811674c734eb19232552287e7425cca26ee6ad06da53ab2ac3c",
-            "url": "https://github.com/flarkflarkflark/AudioRestorationVST/releases/download/v1.6.36/AudioRestoration-macOS-v1.6.36-Portable.dmg"
+            "url": "https://github.com/flarkflarkflark/AudioRestorationVST/releases/download/v1.6.36/AudioRestoration-macOS-v1.6.36-Portable.dmg",
+            "downloads": 7
           },
           {
             "systems": [
@@ -46161,7 +46166,8 @@
             "type": "archive",
             "size": 9078879,
             "sha256": "b2183549a803a408ab886388288e787e2eaab7a2e22100ebca0c1e65d9f7d374",
-            "url": "https://github.com/flarkflarkflark/AudioRestorationVST/releases/download/v1.6.36/AudioRestoration-Windows-v1.6.36-Standalone.zip"
+            "url": "https://github.com/flarkflarkflark/AudioRestorationVST/releases/download/v1.6.36/AudioRestoration-Windows-v1.6.36-Standalone.zip",
+            "downloads": 14
           },
           {
             "systems": [
@@ -46178,10 +46184,12 @@
             "type": "archive",
             "size": 13993020,
             "sha256": "faaf5793d67c80b3ee4ad3b2f64bc832efda988d05803f2f9885b0cb6b248b0a",
-            "url": "https://github.com/flarkflarkflark/AudioRestorationVST/releases/download/v1.6.36/AudioRestoration-Windows-v1.6.36-VST3.zip"
+            "url": "https://github.com/flarkflarkflark/AudioRestorationVST/releases/download/v1.6.36/AudioRestoration-Windows-v1.6.36-VST3.zip",
+            "downloads": 28
           }
         ],
-        "verified": true
+        "verified": true,
+        "downloads": 112
       },
       "1.6.35": {
         "name": "Audio Restoration VST",
@@ -46333,7 +46341,7 @@
         "downloads": 401
       }
     },
-    "downloads": 401
+    "downloads": 513
   },
   "filter87/vst-analogchannel": {
     "slug": "filter87/vst-analogchannel",
@@ -49605,8 +49613,7 @@
             "type": "archive",
             "size": 2443660,
             "sha256": "61c73dff9f0fc1ed9331b54b0ae80dd32c3c2fc0b7e9e4ba64a2d0b3efada444",
-            "url": "https://github.com/dlarseninclusive/UhbikWrapper/releases/download/v0.3.0/UhbikWrapper-Linux-CLAP.zip",
-            "downloads": 14
+            "url": "https://github.com/dlarseninclusive/UhbikWrapper/releases/download/v0.3.0/UhbikWrapper-Linux-CLAP.zip"
           },
           {
             "systems": [
@@ -49623,8 +49630,7 @@
             "type": "archive",
             "size": 2483052,
             "sha256": "22ba0dc57636cc4bc2dc64ebec67ccd20beeaa6b5c49bcbd2a80595497a0ecb1",
-            "url": "https://github.com/dlarseninclusive/UhbikWrapper/releases/download/v0.3.0/UhbikWrapper-Linux-VST3.zip",
-            "downloads": 19
+            "url": "https://github.com/dlarseninclusive/UhbikWrapper/releases/download/v0.3.0/UhbikWrapper-Linux-VST3.zip"
           },
           {
             "systems": [
@@ -49641,8 +49647,7 @@
             "type": "archive",
             "size": 1778838,
             "sha256": "9947b0ffdad0b9fd33810729c7dbf0b6dac000b4264a00e748bdfc3c120f6510",
-            "url": "https://github.com/dlarseninclusive/UhbikWrapper/releases/download/v0.3.0/UhbikWrapper-macOS-AU.zip",
-            "downloads": 19
+            "url": "https://github.com/dlarseninclusive/UhbikWrapper/releases/download/v0.3.0/UhbikWrapper-macOS-AU.zip"
           },
           {
             "systems": [
@@ -49659,8 +49664,7 @@
             "type": "archive",
             "size": 1761811,
             "sha256": "2195554527f562e09ad935d66fa776bff20111e1d80778fc6cfe9581d6dca8d3",
-            "url": "https://github.com/dlarseninclusive/UhbikWrapper/releases/download/v0.3.0/UhbikWrapper-macOS-CLAP.zip",
-            "downloads": 17
+            "url": "https://github.com/dlarseninclusive/UhbikWrapper/releases/download/v0.3.0/UhbikWrapper-macOS-CLAP.zip"
           },
           {
             "systems": [
@@ -49677,8 +49681,7 @@
             "type": "archive",
             "size": 1770249,
             "sha256": "9d41a9a79b9e33dd55c5a457ef86bab0472b45ed1cf372e675c7568a17f66980",
-            "url": "https://github.com/dlarseninclusive/UhbikWrapper/releases/download/v0.3.0/UhbikWrapper-macOS-VST3.zip",
-            "downloads": 17
+            "url": "https://github.com/dlarseninclusive/UhbikWrapper/releases/download/v0.3.0/UhbikWrapper-macOS-VST3.zip"
           },
           {
             "systems": [
@@ -49695,8 +49698,7 @@
             "type": "archive",
             "size": 2908820,
             "sha256": "b158f949186445f2cb0e8e1a7589f501fced4f4cbf490a0ac56e9540149d9e62",
-            "url": "https://github.com/dlarseninclusive/UhbikWrapper/releases/download/v0.3.0/UhbikWrapper-Windows-CLAP.zip",
-            "downloads": 16
+            "url": "https://github.com/dlarseninclusive/UhbikWrapper/releases/download/v0.3.0/UhbikWrapper-Windows-CLAP.zip"
           },
           {
             "systems": [
@@ -49713,15 +49715,13 @@
             "type": "archive",
             "size": 2926074,
             "sha256": "2585298c6cb4011d3f6ce1c2721b18d43df5111b65b6f4a3eea885b3342724b5",
-            "url": "https://github.com/dlarseninclusive/UhbikWrapper/releases/download/v0.3.0/UhbikWrapper-Windows-VST3.zip",
-            "downloads": 14
+            "url": "https://github.com/dlarseninclusive/UhbikWrapper/releases/download/v0.3.0/UhbikWrapper-Windows-VST3.zip"
           }
         ],
-        "verified": true,
-        "downloads": 116
+        "verified": true
       }
     },
-    "downloads": 332
+    "downloads": 216
   },
   "distrho/mverb": {
     "slug": "distrho/mverb",
@@ -54612,7 +54612,8 @@
             "type": "archive",
             "size": 21669616,
             "sha256": "3be179fe331bb79d7e5702f8ee245df3afe76325b2f1252ecfb0c2e47e0f0e42",
-            "url": "https://github.com/davemollen/dm-Fuzz/releases/download/v0.1.1/dm-Fuzz-macos.zip"
+            "url": "https://github.com/davemollen/dm-Fuzz/releases/download/v0.1.1/dm-Fuzz-macos.zip",
+            "downloads": 17
           },
           {
             "systems": [
@@ -54629,7 +54630,8 @@
             "type": "archive",
             "size": 1231259,
             "sha256": "f14b41ddd59cac8304cc29f30aa25b7d69dc1f8119a3893c134b4897a84b955e",
-            "url": "https://github.com/davemollen/dm-Fuzz/releases/download/v0.1.1/dm-Fuzz-modduo-new.zip"
+            "url": "https://github.com/davemollen/dm-Fuzz/releases/download/v0.1.1/dm-Fuzz-modduo-new.zip",
+            "downloads": 16
           },
           {
             "systems": [
@@ -54646,7 +54648,8 @@
             "type": "archive",
             "size": 1219556,
             "sha256": "697a90084c240520e9193846ec022d94cbc69564d04947d581d16d4fa474150e",
-            "url": "https://github.com/davemollen/dm-Fuzz/releases/download/v0.1.1/dm-Fuzz-modduox-new.zip"
+            "url": "https://github.com/davemollen/dm-Fuzz/releases/download/v0.1.1/dm-Fuzz-modduox-new.zip",
+            "downloads": 17
           },
           {
             "systems": [
@@ -54663,7 +54666,8 @@
             "type": "archive",
             "size": 1219177,
             "sha256": "924fc11c41aec939dd23510f5f1f427a57cd5b0a9b367b2fc4c12f47cb29b590",
-            "url": "https://github.com/davemollen/dm-Fuzz/releases/download/v0.1.1/dm-Fuzz-moddwarf-new.zip"
+            "url": "https://github.com/davemollen/dm-Fuzz/releases/download/v0.1.1/dm-Fuzz-moddwarf-new.zip",
+            "downloads": 18
           },
           {
             "systems": [
@@ -54682,7 +54686,8 @@
             "type": "archive",
             "size": 8316504,
             "sha256": "db56c78ab21574f5c0a0587db7a147722457e6b28aeeb2a95540af4f95477b57",
-            "url": "https://github.com/davemollen/dm-Fuzz/releases/download/v0.1.1/dm-Fuzz-ubuntu.zip"
+            "url": "https://github.com/davemollen/dm-Fuzz/releases/download/v0.1.1/dm-Fuzz-ubuntu.zip",
+            "downloads": 22
           },
           {
             "systems": [
@@ -54701,10 +54706,12 @@
             "type": "archive",
             "size": 7686946,
             "sha256": "3a3b6287c5a4b66262b276fe2afbd51a2e604314c9cf56d2af31c59a66d662da",
-            "url": "https://github.com/davemollen/dm-Fuzz/releases/download/v0.1.1/dm-Fuzz-windows.zip"
+            "url": "https://github.com/davemollen/dm-Fuzz/releases/download/v0.1.1/dm-Fuzz-windows.zip",
+            "downloads": 23
           }
         ],
-        "verified": true
+        "verified": true,
+        "downloads": 113
       },
       "0.1.0": {
         "name": "dm-Fuzz",
@@ -54843,7 +54850,7 @@
         "downloads": 141
       }
     },
-    "downloads": 141
+    "downloads": 254
   },
   "davemollen/dm-ds1": {
     "slug": "davemollen/dm-ds1",
@@ -58026,8 +58033,7 @@
             "type": "installer",
             "size": 5907258,
             "sha256": "c77826b297c8a232de1e441adbd139054614b35bd400f4ab5e8fa1eeda56994f",
-            "url": "https://github.com/calgoheen/cStop/releases/download/2.0.1/cStop.v2.0.1.exe",
-            "downloads": 277
+            "url": "https://github.com/calgoheen/cStop/releases/download/2.0.1/cStop.v2.0.1.exe"
           },
           {
             "systems": [
@@ -58047,15 +58053,12 @@
             "type": "installer",
             "size": 10668713,
             "sha256": "ea1a582b6999943da7a60251c554961e7e18f1a55d1aa3c7baec8d8d49766e57",
-            "url": "https://github.com/calgoheen/cStop/releases/download/2.0.1/cStop.v2.0.1.pkg",
-            "downloads": 186
+            "url": "https://github.com/calgoheen/cStop/releases/download/2.0.1/cStop.v2.0.1.pkg"
           }
         ],
-        "verified": true,
-        "downloads": 463
+        "verified": true
       }
-    },
-    "downloads": 463
+    }
   },
   "calgoheen/crasshhfy": {
     "slug": "calgoheen/crasshhfy",
@@ -64563,6 +64566,94 @@
       }
     },
     "downloads": 19
+  },
+  "anclark/cetone033": {
+    "slug": "anclark/cetone033",
+    "version": "1.1.0",
+    "versions": {
+      "1.1.0": {
+        "name": "Cetone033",
+        "author": "AnClark Liu",
+        "description": "Analogue-style bassline and chiptune synthesizer with 16-voice polyphony. Re-implementation of the original Cetone033 by René Jeschke (Neotec Software) using DPF.",
+        "license": "gpl-3.0",
+        "type": "instrument",
+        "tags": [
+          "Synth",
+          "Bassline",
+          "Chiptune",
+          "Polyphonic"
+        ],
+        "url": "https://github.com/AnClark/Cetone033",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/anclark/cetone033/cetone033.jpg",
+        "date": "2026-11-11T13:38:41Z",
+        "changes": "First release with macOS (arm64), Linux and Windows (x64) builds.",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64"
+            ],
+            "contains": [
+              "vst3",
+              "clap",
+              "lv2",
+              "vst"
+            ],
+            "type": "installer",
+            "size": 6397766,
+            "sha256": "21e16651e19bb3f79293d449da3804a522d6a221793fa1b107eb923f0a0924d2",
+            "url": "https://github.com/AnClark/Cetone033/releases/download/v1.1.0/cetone033-arm64-macOS-1.1.0-df443497.pkg",
+            "downloads": 6
+          },
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "clap",
+              "lv2"
+            ],
+            "type": "archive",
+            "size": 7633109,
+            "sha256": "5ff043170d04e77741f608f87e1ab5c555299d96cf447ce4999b31687da1035a",
+            "url": "https://github.com/AnClark/Cetone033/releases/download/v1.1.0/cetone033-x86_64-Linux-1.1.0-df443497.zip",
+            "downloads": 7
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "clap"
+            ],
+            "type": "archive",
+            "size": 6642568,
+            "sha256": "d7c96c80ccd0200b482740ad74566f7e60b945b38637c5a8c042bcb8af4e0c8d",
+            "url": "https://github.com/AnClark/Cetone033/releases/download/v1.1.0/cetone033-x86_64-Windows-1.1.0-df443497.zip",
+            "downloads": 16
+          }
+        ],
+        "verified": true,
+        "downloads": 29
+      }
+    },
+    "downloads": 29
   },
   "anaremore/chipper": {
     "slug": "anaremore/chipper",

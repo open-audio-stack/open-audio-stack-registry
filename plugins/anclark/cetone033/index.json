@@ -1,0 +1,88 @@
+{
+  "slug": "anclark/cetone033",
+  "version": "1.1.0",
+  "versions": {
+    "1.1.0": {
+      "name": "Cetone033",
+      "author": "AnClark Liu",
+      "description": "Analogue-style bassline and chiptune synthesizer with 16-voice polyphony. Re-implementation of the original Cetone033 by René Jeschke (Neotec Software) using DPF.",
+      "license": "gpl-3.0",
+      "type": "instrument",
+      "tags": [
+        "Synth",
+        "Bassline",
+        "Chiptune",
+        "Polyphonic"
+      ],
+      "url": "https://github.com/AnClark/Cetone033",
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/anclark/cetone033/cetone033.jpg",
+      "date": "2026-11-11T13:38:41Z",
+      "changes": "First release with macOS (arm64), Linux and Windows (x64) builds.",
+      "files": [
+        {
+          "systems": [
+            {
+              "type": "mac"
+            }
+          ],
+          "architectures": [
+            "arm64"
+          ],
+          "contains": [
+            "vst3",
+            "clap",
+            "lv2",
+            "vst"
+          ],
+          "type": "installer",
+          "size": 6397766,
+          "sha256": "21e16651e19bb3f79293d449da3804a522d6a221793fa1b107eb923f0a0924d2",
+          "url": "https://github.com/AnClark/Cetone033/releases/download/v1.1.0/cetone033-arm64-macOS-1.1.0-df443497.pkg",
+          "downloads": 6
+        },
+        {
+          "systems": [
+            {
+              "type": "linux"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "vst3",
+            "clap",
+            "lv2"
+          ],
+          "type": "archive",
+          "size": 7633109,
+          "sha256": "5ff043170d04e77741f608f87e1ab5c555299d96cf447ce4999b31687da1035a",
+          "url": "https://github.com/AnClark/Cetone033/releases/download/v1.1.0/cetone033-x86_64-Linux-1.1.0-df443497.zip",
+          "downloads": 7
+        },
+        {
+          "systems": [
+            {
+              "type": "win"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "vst3",
+            "clap"
+          ],
+          "type": "archive",
+          "size": 6642568,
+          "sha256": "d7c96c80ccd0200b482740ad74566f7e60b945b38637c5a8c042bcb8af4e0c8d",
+          "url": "https://github.com/AnClark/Cetone033/releases/download/v1.1.0/cetone033-x86_64-Windows-1.1.0-df443497.zip",
+          "downloads": 16
+        }
+      ],
+      "verified": true,
+      "downloads": 29
+    }
+  },
+  "downloads": 29
+}

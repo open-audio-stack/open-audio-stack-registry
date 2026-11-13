@@ -35,7 +35,8 @@
             "type": "installer",
             "size": 10041848,
             "sha256": "7add624f7046b196d3e6d424a1b5fcffe81bb5a8a52634a11f027290d9b85c52",
-            "url": "https://github.com/flarkflarkflark/AudioRestorationVST/releases/download/v1.6.36/AudioRestoration-Linux-v1.6.36-Portable.AppImage"
+            "url": "https://github.com/flarkflarkflark/AudioRestorationVST/releases/download/v1.6.36/AudioRestoration-Linux-v1.6.36-Portable.AppImage",
+            "downloads": 23
           },
           {
             "systems": [
@@ -52,7 +53,8 @@
             "type": "archive",
             "size": 15761870,
             "sha256": "0a9f6158546146fcc72ec112de322fce11ed865075806383e80424e71af82e28",
-            "url": "https://github.com/flarkflarkflark/AudioRestorationVST/releases/download/v1.6.36/AudioRestoration-Linux-v1.6.36-Standalone.zip"
+            "url": "https://github.com/flarkflarkflark/AudioRestorationVST/releases/download/v1.6.36/AudioRestoration-Linux-v1.6.36-Standalone.zip",
+            "downloads": 7
           },
           {
             "systems": [
@@ -69,7 +71,8 @@
             "type": "archive",
             "size": 14225965,
             "sha256": "b3d970780ff9b7f8dd8524583924772d8c58368644e133c84ce176f494ee372b",
-            "url": "https://github.com/flarkflarkflark/AudioRestorationVST/releases/download/v1.6.36/AudioRestoration-Linux-v1.6.36-VST3.zip"
+            "url": "https://github.com/flarkflarkflark/AudioRestorationVST/releases/download/v1.6.36/AudioRestoration-Linux-v1.6.36-VST3.zip",
+            "downloads": 19
           },
           {
             "systems": [
@@ -87,7 +90,8 @@
             "type": "archive",
             "size": 17722656,
             "sha256": "240fcf64c15f477f328239e63c9e7e6df2c17ab7926f28fc5b5c625615b12eaf",
-            "url": "https://github.com/flarkflarkflark/AudioRestorationVST/releases/download/v1.6.36/AudioRestoration-macOS-Universal-Ventura-v1.6.36-VST3.zip"
+            "url": "https://github.com/flarkflarkflark/AudioRestorationVST/releases/download/v1.6.36/AudioRestoration-macOS-Universal-Ventura-v1.6.36-VST3.zip",
+            "downloads": 14
           },
           {
             "systems": [
@@ -105,7 +109,8 @@
             "type": "installer",
             "size": 22597004,
             "sha256": "b057585819fcc811674c734eb19232552287e7425cca26ee6ad06da53ab2ac3c",
-            "url": "https://github.com/flarkflarkflark/AudioRestorationVST/releases/download/v1.6.36/AudioRestoration-macOS-v1.6.36-Portable.dmg"
+            "url": "https://github.com/flarkflarkflark/AudioRestorationVST/releases/download/v1.6.36/AudioRestoration-macOS-v1.6.36-Portable.dmg",
+            "downloads": 7
           },
           {
             "systems": [
@@ -122,7 +127,8 @@
             "type": "archive",
             "size": 9078879,
             "sha256": "b2183549a803a408ab886388288e787e2eaab7a2e22100ebca0c1e65d9f7d374",
-            "url": "https://github.com/flarkflarkflark/AudioRestorationVST/releases/download/v1.6.36/AudioRestoration-Windows-v1.6.36-Standalone.zip"
+            "url": "https://github.com/flarkflarkflark/AudioRestorationVST/releases/download/v1.6.36/AudioRestoration-Windows-v1.6.36-Standalone.zip",
+            "downloads": 14
           },
           {
             "systems": [
@@ -139,10 +145,12 @@
             "type": "archive",
             "size": 13993020,
             "sha256": "faaf5793d67c80b3ee4ad3b2f64bc832efda988d05803f2f9885b0cb6b248b0a",
-            "url": "https://github.com/flarkflarkflark/AudioRestorationVST/releases/download/v1.6.36/AudioRestoration-Windows-v1.6.36-VST3.zip"
+            "url": "https://github.com/flarkflarkflark/AudioRestorationVST/releases/download/v1.6.36/AudioRestoration-Windows-v1.6.36-VST3.zip",
+            "downloads": 28
           }
         ],
-        "verified": true
+        "verified": true,
+        "downloads": 112
       },
       "1.6.35": {
         "name": "Audio Restoration VST",
@@ -294,6 +302,6 @@
         "downloads": 401
       }
     },
-    "downloads": 401
+    "downloads": 513
   }
 }
