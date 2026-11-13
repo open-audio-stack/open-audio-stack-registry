@@ -1,0 +1,36 @@
+name: Wet Compressor
+author: yonie
+description: 'An open-source 76-style FET compressor modelled as the circuit: feedback detector, a gain cell that bottoms out, four amplifiers. Free, MIT, VST3 for Windows, macOS and Linux.'
+license: mit
+type: effect
+tags:
+  - Compressor
+  - Dynamics
+  - FET
+  - Analog Modeling
+  - Vintage
+url: https://github.com/yonie/WetCompressor
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/yonie/wetcompressor/wetcompressor.jpg
+date: '2026-10-14T18:35:49Z'
+changes: |-
+  **WetCompressor 1.2.0**
+
+  Product page: https://wetvst.com/wetcompressor/
+
+  What's new:
+
+  - I have added external sidechain input to WetCompressor, meaning you can now have the compressor "duck" on a kick drum for instance. Right-click the plug-in window and
+files:
+  - systems:
+      - type: mac
+      - type: win
+      - type: linux
+    architectures:
+      - arm64
+      - x64
+    contains:
+      - vst3
+    type: archive
+    size: 11544448
+    sha256: a8c54e36ee9843c6987424ed4091af046a5966cba69f3c5c09aecdf90725a5d0
+    url: https://github.com/yonie/WetCompressor/releases/download/v1.2.0/WetCompressor-v1.2.0.zip

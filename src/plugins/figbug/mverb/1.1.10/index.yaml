@@ -1,0 +1,53 @@
+name: MVerb
+author: Roland Rabien
+description: A reverb plugin based on Dattorro's figure-of-eight reverb topology, available as a VST2/VST3/AU/CLAP/LV2 plugin.
+license: gpl-3.0
+type: effect
+tags:
+  - Reverb
+  - Algorithmic Reverb
+url: https://github.com/FigBug/mverb
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/figbug/mverb/mverb.jpg
+date: '2026-08-17T23:41:35Z'
+changes: |
+  - General bug fixes and improvements
+files:
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - vst
+      - vst3
+      - clap
+      - lv2
+    type: installer
+    size: 21745066
+    sha256: d0af0419bb157d1d10d4dc872e260204e2ba86a12ba16dd54ac35032f706eeab
+    url: https://github.com/FigBug/mverb/releases/download/v1.1.10/Mverb2020.deb
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - dll
+      - vst3
+      - clap
+    type: installer
+    size: 6541088
+    sha256: 179f6252cc7e0a8b63d10d0405eaaf98b4a3f6799919e3a85862a1864f3cd0d2
+    url: https://github.com/FigBug/mverb/releases/download/v1.1.10/Mverb2020.exe
+  - systems:
+      - type: mac
+    architectures:
+      - arm64
+      - x64
+    contains:
+      - vst
+      - vst3
+      - component
+      - clap
+    type: installer
+    size: 30007825
+    sha256: b6e0154a2d78f8225ec0e245338428a69d83dd15cdc0fe9192385cac38050680
+    url: https://github.com/FigBug/mverb/releases/download/v1.1.10/Mverb2020.pkg
