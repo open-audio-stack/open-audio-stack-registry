@@ -398,6 +398,8 @@ npm run dev:validate -- src/<type>/org-name/package-name/1.0.0/index.yaml
 
 For a batch, run the validate script individually against each successfully generated YAML.
 
+**VirusTotal submission (optional):** if a `VT_API_KEY` environment variable is set (a free key from virustotal.com works), the validate script also submits each release url to VirusTotal and prints a Scan link per file. It makes one request per file, paced to the free limit of 4 requests/min (about 15 seconds per file), and never changes the exit code. It does not read scan results; those appear in the PR comment. Without a key it is skipped. A release url can be submitted in three places: locally by this script, in CI when the workflow has a key (not on fork PRs), and by anyone opening the Scan link in the PR comment, which starts a scan if the url has not been scanned yet.
+
 The validate script downloads each release asset and recomputes the `sha256` and `size` values, then compares them against what is in the YAML. This is the authoritative check for file data — it catches cases where:
 
 - The fetch script read a size from the GitHub API that differs from the actual downloaded file (GitHub sometimes reports a pre-compression size)
