@@ -1,0 +1,50 @@
+name: Cetone Synth Light
+author: AnClark Liu
+description: Light-weight 16-voice polyphonic synthesizer with 3 oscillators, 7 filter models and 4 modulation slots. Re-implementation of the original Cetone Synth Light by René Jeschke (Neotec Software) using DPF.
+license: gpl-3.0
+type: instrument
+tags:
+  - Synth
+  - Polyphonic
+  - C64
+url: https://github.com/AnClark/CetoneSynthLight
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/anclark/cetonesynthlight/cetonesynthlight.jpg
+date: '2026-11-11T13:51:45Z'
+changes: First release with macOS (arm64), Linux and Windows (x64) builds.
+files:
+  - systems:
+      - type: mac
+    architectures:
+      - arm64
+    contains:
+      - vst3
+      - clap
+      - lv2
+      - vst
+    type: installer
+    size: 6537716
+    sha256: af3c1f6d5d25db54277eed5403239bae0b4c634a421c3792a76edf64fb2dee37
+    url: https://github.com/AnClark/CetoneSynthLight/releases/download/v1.1.0/cetone_synth_light-arm64-macOS-1.1.0-07b480b3.pkg
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - vst3
+      - clap
+      - lv2
+    type: archive
+    size: 7753078
+    sha256: c0ccd006b0d94b512115b0362efe3059c9b095ddf603d0f9aab9b150c0dc40e0
+    url: https://github.com/AnClark/CetoneSynthLight/releases/download/v1.1.0/cetone_synth_light-x86_64-Linux-1.1.0-07b480b3.zip
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - vst3
+      - clap
+    type: archive
+    size: 6735869
+    sha256: f3240dc61e8b61f70741b3413c687ce441ec70fb4b37b6efdd54ebe77dacdc55
+    url: https://github.com/AnClark/CetoneSynthLight/releases/download/v1.1.0/cetone_synth_light-x86_64-Windows-1.1.0-07b480b3.zip
