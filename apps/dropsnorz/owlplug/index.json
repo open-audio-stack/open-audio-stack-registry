@@ -31,7 +31,7 @@
           "size": 132770296,
           "sha256": "6d27202357aafa7434b5b7ea08f72d8a19c54ea5c860caf4dc2ebc6face9722b",
           "url": "https://github.com/DropSnorz/OwlPlug/releases/download/2.1.1/OwlPlug-2.1.1-linux-x64.AppImage",
-          "downloads": 21
+          "downloads": 22
         },
         {
           "systems": [
@@ -63,7 +63,7 @@
           "size": 140345634,
           "sha256": "1811b32438d907b122a216aaec97afd675e3af2cdb0ca4f9b91c5882c7b2b721",
           "url": "https://github.com/DropSnorz/OwlPlug/releases/download/2.1.1/OwlPlug-2.1.1-osx-arm64.dmg",
-          "downloads": 862
+          "downloads": 909
         },
         {
           "systems": [
@@ -79,7 +79,7 @@
           "size": 136542181,
           "sha256": "0146729ab3db849e1bb931e95e6a9754d9a1ccf0566d45fcfc3db14661e45efa",
           "url": "https://github.com/DropSnorz/OwlPlug/releases/download/2.1.1/OwlPlug-2.1.1-osx-x64.dmg",
-          "downloads": 96
+          "downloads": 97
         },
         {
           "systems": [
@@ -95,11 +95,11 @@
           "size": 132063680,
           "sha256": "8c6f42f3e91e11521ce4d832d10dca32cb4e9542229a9cfbbf8710d5eba0a7dc",
           "url": "https://github.com/DropSnorz/OwlPlug/releases/download/2.1.1/OwlPlug-2.1.1-win-x64.msi",
-          "downloads": 113
+          "downloads": 118
         }
       ],
       "verified": true,
-      "downloads": 1104
+      "downloads": 1158
     },
     "1.33.1": {
       "name": "OwlPlug",
@@ -178,7 +178,7 @@
           "size": 143866625,
           "sha256": "1668bf9486179a63ff0249d370bd25145fa6c8736774b8abb8783023e7bcff3d",
           "url": "https://github.com/DropSnorz/OwlPlug/releases/download/1.33.1/OwlPlug-1.33.1-osx-x64.dmg",
-          "downloads": 219
+          "downloads": 220
         },
         {
           "systems": [
@@ -198,8 +198,8 @@
         }
       ],
       "verified": true,
-      "downloads": 2467
+      "downloads": 2468
     }
   },
-  "downloads": 3571
+  "downloads": 3626
 }
