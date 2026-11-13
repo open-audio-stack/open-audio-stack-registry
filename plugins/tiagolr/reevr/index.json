@@ -36,7 +36,7 @@
           "size": 7549063,
           "type": "archive",
           "url": "https://github.com/tiagolr/reevr/releases/download/v1.4.0/reevr-linux-v1.4.0.zip",
-          "downloads": 1175
+          "downloads": 1178
         },
         {
           "architectures": [
@@ -56,7 +56,7 @@
           "size": 19300930,
           "type": "archive",
           "url": "https://github.com/tiagolr/reevr/releases/download/v1.4.0/reevr-macos-v1.4.0.zip",
-          "downloads": 1055
+          "downloads": 1063
         },
         {
           "systems": [
@@ -75,11 +75,11 @@
           "size": 7730204,
           "sha256": "d22f2c2421f4d3b52040bad8878ec37c96f1c69413f231f689769833dfffb864",
           "url": "https://github.com/tiagolr/reevr/releases/download/v1.4.0/reevr-win-v1.4.0.zip",
-          "downloads": 2486
+          "downloads": 2499
         }
       ],
       "verified": true,
-      "downloads": 4716
+      "downloads": 4740
     },
     "1.3.2": {
       "name": "REEV-R",
@@ -154,11 +154,11 @@
           "size": 7707968,
           "sha256": "2a820f123b1e959bb5604dc3ceb315dcd590dcdaf1237caf9f6efed5685024e5",
           "url": "https://github.com/tiagolr/reevr/releases/download/v1.3.2/reevr-win-v1.3.2.zip",
-          "downloads": 726
+          "downloads": 728
         }
       ],
       "verified": true,
-      "downloads": 1172
+      "downloads": 1174
     },
     "1.0.2": {
       "name": "REEV-R",
@@ -240,5 +240,5 @@
       "downloads": 5414
     }
   },
-  "downloads": 11302
+  "downloads": 11328
 }

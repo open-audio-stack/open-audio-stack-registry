@@ -1,7 +1,90 @@
 {
   "slug": "rullopat/sfizioso-player",
-  "version": "0.11.0",
+  "version": "0.12.3",
   "versions": {
+    "0.12.3": {
+      "name": "Sfizioso Player",
+      "author": "Patrizio Rullo",
+      "description": "An open-source SFZ sample player (VST3/AU/Standalone) with MPE support, built on the sfizioso engine — an independent, MPE-capable fork of sfizz.",
+      "license": "agpl-3.0",
+      "type": "sampler",
+      "tags": [
+        "Sampler",
+        "Sample Player",
+        "Rompler",
+        "SFZ",
+        "Virtual Instrument",
+        "MPE",
+        "Music Production",
+        "Sfizz"
+      ],
+      "url": "https://github.com/rullopat/sfizioso-player",
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/rullopat/sfizioso-player/sfizioso-player.jpg",
+      "date": "2026-09-08T08:47:12Z",
+      "changes": "Sfizioso Player 0.12.3 includes [sfizioso 1.2.2](https://github.com/rullopat/sfizioso/releases/tag/v1.2.2), completing the MPE release-expression fix from issue #4.\n\n- Release tails retain their final per-note pressure and CC74 (brightness/timbre) values,",
+      "files": [
+        {
+          "systems": [
+            {
+              "type": "linux"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "vst3",
+            "elf"
+          ],
+          "type": "archive",
+          "size": 7282699,
+          "sha256": "aafcfa5b892dcc1b70ab5c653dc4b8fa6738f9936fd66d894f02133ebca2bc31",
+          "url": "https://github.com/rullopat/sfizioso-player/releases/download/v0.12.3/sfizioso-player-linux.tar.gz",
+          "downloads": 19
+        },
+        {
+          "systems": [
+            {
+              "type": "mac"
+            }
+          ],
+          "architectures": [
+            "arm64"
+          ],
+          "contains": [
+            "vst3",
+            "component",
+            "app"
+          ],
+          "type": "archive",
+          "size": 7501581,
+          "sha256": "f20bbeab83684902969feb0df1bbe7d249f6f6ed644930269a5f72e1717810ee",
+          "url": "https://github.com/rullopat/sfizioso-player/releases/download/v0.12.3/sfizioso-player-macos.tar.gz",
+          "downloads": 10
+        },
+        {
+          "systems": [
+            {
+              "type": "win"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "vst3",
+            "exe"
+          ],
+          "type": "archive",
+          "size": 5173545,
+          "sha256": "aa92b54b650b3d738e36a32f0ed654a98cea1ff1bb190219f5cba178a4e4a640",
+          "url": "https://github.com/rullopat/sfizioso-player/releases/download/v0.12.3/sfizioso-player-windows.zip",
+          "downloads": 29
+        }
+      ],
+      "verified": true,
+      "downloads": 58
+    },
     "0.11.0": {
       "name": "Sfizioso Player",
       "author": "Patrizio Rullo",
@@ -86,5 +169,5 @@
       "downloads": 19
     }
   },
-  "downloads": 19
+  "downloads": 77
 }

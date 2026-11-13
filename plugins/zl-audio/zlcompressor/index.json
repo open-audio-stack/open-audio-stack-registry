@@ -1,7 +1,191 @@
 {
   "slug": "zl-audio/zlcompressor",
-  "version": "0.5.0",
+  "version": "0.6.1",
   "versions": {
+    "0.6.1": {
+      "name": "ZL Compressor",
+      "author": "ZL Audio",
+      "description": "A dynamic range processor (compressor/expander) plugin.",
+      "license": "agpl-3.0",
+      "type": "effect",
+      "tags": [
+        "Compressor",
+        "Expander"
+      ],
+      "url": "https://github.com/ZL-Audio/ZLCompressor",
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/zl-audio/zlcompressor/zlcompressor.jpg",
+      "date": "2026-09-28T02:10:39Z",
+      "changes": "Revert the FFT analyze to the previous one & Fix some Linux specific UI issues\r\n\r\nAlso improve the over-sampling performance a LOT in this version :)\r\n\r\nWe *may* see some UI adjustments in the future to make it more aligned with other plugins.\r\n\r\nAfter in",
+      "files": [
+        {
+          "systems": [
+            {
+              "type": "linux"
+            }
+          ],
+          "architectures": [
+            "arm64"
+          ],
+          "contains": [
+            "vst3",
+            "lv2",
+            "elf"
+          ],
+          "type": "archive",
+          "size": 8676287,
+          "sha256": "772c0db9b65c340dab24b3942c8e962a268befbe0a1bb1bb9927f33a59b1ca45",
+          "url": "https://github.com/ZL-Audio/ZLCompressor/releases/download/0.6.1/ZL.Compressor-0.6.1-Linux-arm64.zip",
+          "downloads": 53
+        },
+        {
+          "systems": [
+            {
+              "type": "linux"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "vst3",
+            "lv2",
+            "elf"
+          ],
+          "type": "archive",
+          "size": 9412291,
+          "sha256": "998beb9aacb1e4f24075d1f0620279f84ba321901b775c99cdfe3554c869b4ed",
+          "url": "https://github.com/ZL-Audio/ZLCompressor/releases/download/0.6.1/ZL.Compressor-0.6.1-Linux-x86-64-AVX2.zip",
+          "downloads": 237
+        },
+        {
+          "systems": [
+            {
+              "type": "linux"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "vst3",
+            "lv2",
+            "elf"
+          ],
+          "type": "archive",
+          "size": 8943456,
+          "sha256": "00d7201fc9643f7b7c49d9791d1e5fc73528835a5dba40a3866fd4a274767ae6",
+          "url": "https://github.com/ZL-Audio/ZLCompressor/releases/download/0.6.1/ZL.Compressor-0.6.1-Linux-x86-64.zip",
+          "downloads": 273
+        },
+        {
+          "systems": [
+            {
+              "type": "mac"
+            }
+          ],
+          "architectures": [
+            "arm64"
+          ],
+          "contains": [
+            "vst3",
+            "component",
+            "aax",
+            "app"
+          ],
+          "type": "installer",
+          "size": 12527352,
+          "sha256": "7a38ed5a54aea2300ee430decbd261d5c6539573ff6e7d56071bc49ce3d6df0d",
+          "url": "https://github.com/ZL-Audio/ZLCompressor/releases/download/0.6.1/ZL.Compressor-0.6.1-macOS-arm64.dmg",
+          "downloads": 465
+        },
+        {
+          "systems": [
+            {
+              "type": "mac"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "vst3",
+            "component",
+            "aax",
+            "app"
+          ],
+          "type": "installer",
+          "size": 14112081,
+          "sha256": "f3398bf867c30713c20a3e295a1b204b7dee725c4bd33f9705b0a52ddc6b4e8e",
+          "url": "https://github.com/ZL-Audio/ZLCompressor/releases/download/0.6.1/ZL.Compressor-0.6.1-macOS-x86-64.dmg",
+          "downloads": 169
+        },
+        {
+          "systems": [
+            {
+              "type": "win"
+            }
+          ],
+          "architectures": [
+            "arm64"
+          ],
+          "contains": [
+            "vst3",
+            "lv2",
+            "aax",
+            "exe"
+          ],
+          "type": "installer",
+          "size": 7806976,
+          "sha256": "79b4d32dc792b50207634fe29d67208347837cabf326f7a2af7fcbfd2218eb36",
+          "url": "https://github.com/ZL-Audio/ZLCompressor/releases/download/0.6.1/ZL.Compressor-0.6.1-Windows-arm64.msi",
+          "downloads": 124
+        },
+        {
+          "systems": [
+            {
+              "type": "win"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "vst3",
+            "lv2",
+            "aax",
+            "exe"
+          ],
+          "type": "installer",
+          "size": 11366400,
+          "sha256": "f77fc4b4c5ab11d5a500c5f39316df8b536748ad93cc8fffb56edeefd757e0fe",
+          "url": "https://github.com/ZL-Audio/ZLCompressor/releases/download/0.6.1/ZL.Compressor-0.6.1-Windows-x86-64-AVX2.msi",
+          "downloads": 892
+        },
+        {
+          "systems": [
+            {
+              "type": "win"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "vst3",
+            "lv2",
+            "aax",
+            "exe"
+          ],
+          "type": "installer",
+          "size": 10944512,
+          "sha256": "4e6e14da03cbd4513d890fac01889982e3cd96b2cdeb73678507a09b0c463f7f",
+          "url": "https://github.com/ZL-Audio/ZLCompressor/releases/download/0.6.1/ZL.Compressor-0.6.1-Windows-x86-64.msi",
+          "downloads": 1009
+        }
+      ],
+      "verified": true,
+      "downloads": 3222
+    },
     "0.5.0": {
       "name": "ZL Compressor",
       "author": "ZL Audio",
@@ -187,5 +371,5 @@
       "downloads": 7825
     }
   },
-  "downloads": 7825
+  "downloads": 11047
 }

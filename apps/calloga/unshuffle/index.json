@@ -32,7 +32,7 @@
           "size": 124180984,
           "sha256": "9b0d351bea9ce72ad4a988aa4fb181cf42fefc310b7f3cd8100c65789afca86a",
           "url": "https://github.com/calloga/unshuffle/releases/download/v1.1.1/Unshuffle-1.1.1-x86_64.AppImage",
-          "downloads": 75
+          "downloads": 77
         },
         {
           "systems": [
@@ -64,7 +64,7 @@
           "size": 68823789,
           "sha256": "6219c80baa7e04c090ed8444ffc8a7687c8908eeb153e56d964ea261c8b75ea9",
           "url": "https://github.com/calloga/unshuffle/releases/download/v1.1.1/Unshuffle-macos.pkg",
-          "downloads": 99
+          "downloads": 100
         },
         {
           "systems": [
@@ -80,11 +80,11 @@
           "size": 65292435,
           "sha256": "3f74f7b04913c1e8411724fd3b5707a4450199059628d77371624c45edd5f966",
           "url": "https://github.com/calloga/unshuffle/releases/download/v1.1.1/UnshuffleWinSetup.exe",
-          "downloads": 243
+          "downloads": 244
         }
       ],
       "verified": true,
-      "downloads": 446
+      "downloads": 450
     },
     "1.0.2": {
       "name": "Unshuffle",
@@ -171,5 +171,5 @@
       "downloads": 1176
     }
   },
-  "downloads": 1622
+  "downloads": 1626
 }

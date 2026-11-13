@@ -34,7 +34,7 @@
             "size": 696181,
             "sha256": "53811dc70eda6cf00a5b486ced68f13352d41696c2158c81019c02e11691ea92",
             "url": "https://github.com/gbevin/SendMIDI/releases/download/1.4.4/sendmidi-macOS-1.4.4.zip",
-            "downloads": 277
+            "downloads": 286
           },
           {
             "systems": [
@@ -50,11 +50,11 @@
             "size": 698300,
             "sha256": "b8c4382fa5ce2674f69c230f08da45bb7cd5797b2022a0c187c33786c4036c30",
             "url": "https://github.com/gbevin/SendMIDI/releases/download/1.4.4/sendmidi-windows-1.4.4.zip",
-            "downloads": 291
+            "downloads": 294
           }
         ],
         "verified": true,
-        "downloads": 568
+        "downloads": 580
       },
       "1.4.1": {
         "name": "SendMIDI",
@@ -110,7 +110,7 @@
         "downloads": 82
       }
     },
-    "downloads": 650
+    "downloads": 662
   },
   "gbevin/receivemidi": {
     "slug": "gbevin/receivemidi",
@@ -147,7 +147,7 @@
             "size": 1562885,
             "sha256": "8cc01e5427f60a5d329d2f63935c26856db0d8779aa797d1d5ae424b90f96c9e",
             "url": "https://github.com/gbevin/ReceiveMIDI/releases/download/1.6.2/receivemidi-macOS-1.6.2.zip",
-            "downloads": 123
+            "downloads": 125
           },
           {
             "systems": [
@@ -163,11 +163,11 @@
             "size": 1163375,
             "sha256": "a924ff50d63eaae9c1b178c5842bc9266db8e1e6e1c1dc4530ae3fc760049bd3",
             "url": "https://github.com/gbevin/ReceiveMIDI/releases/download/1.6.2/receivemidi-windows-1.6.2.zip",
-            "downloads": 74
+            "downloads": 75
           }
         ],
         "verified": true,
-        "downloads": 197
+        "downloads": 200
       },
       "1.5.0": {
         "name": "ReceiveMIDI",
@@ -223,6 +223,6 @@
         "downloads": 46
       }
     },
-    "downloads": 243
+    "downloads": 246
   }
 }

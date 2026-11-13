@@ -150,6 +150,18 @@
     }
   },
   "zl-audio/zlcompressor": {
+    "0.6.1": {
+      "recs": [
+        {
+          "field": "url",
+          "rec": "requires mounting step, consider .pkg instead"
+        },
+        {
+          "field": "url",
+          "rec": "requires mounting step, consider .pkg instead"
+        }
+      ]
+    },
     "0.5.0": {
       "recs": [
         {
@@ -2304,6 +2316,18 @@
     }
   },
   "quamplex/geonkick": {
+    "3.9.0": {
+      "recs": [
+        {
+          "field": "architectures",
+          "rec": "should support arm64"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Mac"
+        }
+      ]
+    },
     "3.7.0": {
       "recs": [
         {
@@ -2318,6 +2342,18 @@
     }
   },
   "quamplex/entropictron": {
+    "1.3.0": {
+      "recs": [
+        {
+          "field": "architectures",
+          "rec": "should support arm64"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Mac"
+        }
+      ]
+    },
     "1.2.0": {
       "recs": [
         {
@@ -2378,6 +2414,18 @@
     }
   },
   "psemiletov/drumlabooh": {
+    "13.0.0": {
+      "recs": [
+        {
+          "field": "architectures",
+          "rec": "should support arm64"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Mac"
+        }
+      ]
+    },
     "12.2.0": {
       "recs": [
         {

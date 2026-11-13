@@ -1,0 +1,132 @@
+name: MIDI BPM Detection
+author: Vincent Alsteen
+description: Estimates tempo (BPM) from incoming MIDI note-on events in realtime while you play, showing a histogram of competing tempo candidates. Includes a Bitwig controller extension to feed detected tempo back to the DAW transport. Experimental project.
+license: mit
+type: tool
+tags:
+  - Midi
+  - Tempo
+  - Bitwig
+  - Utility
+url: https://github.com/valsteen/midi_bpm_detection
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/valsteen/midi-bpm-detection/midi-bpm-detection.jpg
+date: '2026-07-26T01:08:12Z'
+changes: |-
+  # MIDI BPM Detection v0.2.0
+
+  This release moves the plugin framework from the maintenance-mode NIH-plug
+  repository to its active nice-plug successor on Codeberg. The project and its
+  reusable parameter adapters now use nice-plug terminology throughout.
+
+  Th
+files:
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - clap
+    type: archive
+    size: 3746789
+    sha256: 01a046eb6e074caf724742bfff6c0e0e79ff4c4618e78677730b210a68caeb63
+    url: https://github.com/valsteen/midi_bpm_detection/releases/download/v0.2.0/midi-bpm-detector-v0.2.0-clap-linux-x86_64.zip
+  - systems:
+      - type: mac
+    architectures:
+      - arm64
+    contains:
+      - clap
+    type: archive
+    size: 2889986
+    sha256: ae1cad9da66c9be8ff876a442c2ac64ec4169c34cd516b3be44b17d425b7d180
+    url: https://github.com/valsteen/midi_bpm_detection/releases/download/v0.2.0/midi-bpm-detector-v0.2.0-clap-macos-arm64.zip
+  - systems:
+      - type: mac
+    architectures:
+      - x64
+    contains:
+      - clap
+    type: archive
+    size: 3223418
+    sha256: 925a8e7d0dd1642bc6c179fa30b6c27ac299b56ad4745edeeaef3c760f9da8eb
+    url: https://github.com/valsteen/midi_bpm_detection/releases/download/v0.2.0/midi-bpm-detector-v0.2.0-clap-macos-x86_64.zip
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - clap
+    type: archive
+    size: 3130126
+    sha256: d7dfdaf54f51578a86c2873c6740db8512b1c0ac9cc863541a3d0cf7859a9d12
+    url: https://github.com/valsteen/midi_bpm_detection/releases/download/v0.2.0/midi-bpm-detector-v0.2.0-clap-windows-x86_64.zip
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - elf
+    type: archive
+    size: 7733553
+    sha256: 307e74f7077529fa21f5478dc34d6605a506ed2e7ff3985f717e07262dd28706
+    url: https://github.com/valsteen/midi_bpm_detection/releases/download/v0.2.0/midi-bpm-detector-v0.2.0-desktop-linux-x86_64.zip
+  - systems:
+      - type: mac
+    architectures:
+      - arm64
+    contains:
+      - app
+    type: archive
+    size: 6212055
+    sha256: 80b1ab0556ad0ee3d15e1239619df6961ff90dd07b0b646ed987b8fe7134ab6e
+    url: https://github.com/valsteen/midi_bpm_detection/releases/download/v0.2.0/midi-bpm-detector-v0.2.0-desktop-macos-arm64.zip
+  - systems:
+      - type: mac
+    architectures:
+      - x64
+    contains:
+      - app
+    type: archive
+    size: 6712436
+    sha256: 342673b4dcdcbb9f2b220881f27d82f67adb6358e62702f53eea98ec6cfef91b
+    url: https://github.com/valsteen/midi_bpm_detection/releases/download/v0.2.0/midi-bpm-detector-v0.2.0-desktop-macos-x86_64.zip
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - vst3
+    type: archive
+    size: 3765547
+    sha256: c5abf2a374e648c30973f6d608c6d2eb1a3cbb81bd81e152c8b0e88bd147a03f
+    url: https://github.com/valsteen/midi_bpm_detection/releases/download/v0.2.0/midi-bpm-detector-v0.2.0-vst3-linux-x86_64.zip
+  - systems:
+      - type: mac
+    architectures:
+      - arm64
+    contains:
+      - vst3
+    type: archive
+    size: 2906756
+    sha256: 360d650402df6231d8014b1218aed16e8756e8b1d77b4c2fbefb75542e5e2550
+    url: https://github.com/valsteen/midi_bpm_detection/releases/download/v0.2.0/midi-bpm-detector-v0.2.0-vst3-macos-arm64.zip
+  - systems:
+      - type: mac
+    architectures:
+      - x64
+    contains:
+      - vst3
+    type: archive
+    size: 3234922
+    sha256: 2e701cbbcb08d1f7b6fbeb23569353053030c56a3cf13811e75497d5e1788255
+    url: https://github.com/valsteen/midi_bpm_detection/releases/download/v0.2.0/midi-bpm-detector-v0.2.0-vst3-macos-x86_64.zip
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - vst3
+    type: archive
+    size: 3140474
+    sha256: eec04be147f58d75960f77cffd663208c8eafdf401c1e88cd9819617f3048605
+    url: https://github.com/valsteen/midi_bpm_detection/releases/download/v0.2.0/midi-bpm-detector-v0.2.0-vst3-windows-x86_64.zip

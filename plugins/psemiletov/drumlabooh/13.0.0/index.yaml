@@ -1,0 +1,64 @@
+name: Drumlabooh
+author: Peter Semiletov
+description: A drum machine supporting Hydrogen, Drumlabooh/Drumrox, and SFZ drumkit formats, with a built-in mixer, per-instrument filter FX, and round robin/cycle random sample modes.
+license: gpl-3.0
+type: instrument
+tags:
+  - Drum Machine
+  - Sampler
+  - SFZ
+url: https://github.com/psemiletov/drumlabooh
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/psemiletov/drumlabooh/drumlabooh.jpg
+date: '2026-10-08T14:56:24Z'
+changes: "Drumlabooh 13.0.0\r\n\r\nEvery release of Drumlabooh aims to be interesting and useful. The new version includes a big drumkit called Diskach (a word used in the USSR and post-Soviet countries in the 1990s to refer to a disco), with samples evoking nostalgia "
+files:
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - vst3
+    type: installer
+    size: 124204952
+    sha256: 74e0bbc6fa6d85e92cb56082830b710251aa635017ccf87848cd564f38eb0821
+    url: https://github.com/psemiletov/drumlabooh/releases/download/13.0.0/drumlabooh-installer.exe
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - lv2
+    type: archive
+    size: 2869588
+    sha256: 457d74f359bd3d4b8720d36732e542110af225bae96cd8c587826d8cf5ef2c19
+    url: https://github.com/psemiletov/drumlabooh/releases/download/13.0.0/drumlabooh-multi.lv2.zip
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - vst3
+    type: archive
+    size: 2971336
+    sha256: 6bb7cae465b818764a033496bc1e2a6d2a53190b252e8ad7e401c439df806ffe
+    url: https://github.com/psemiletov/drumlabooh/releases/download/13.0.0/drumlabooh-multi.vst3.zip
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - lv2
+    type: archive
+    size: 2873266
+    sha256: a874fa5a3f5e6296cc4e470fce9a959c52feaa90b2526fab62a79c5b8d1aa924
+    url: https://github.com/psemiletov/drumlabooh/releases/download/13.0.0/drumlabooh.lv2.zip
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - vst3
+    type: archive
+    size: 2972646
+    sha256: f7cafc12d4597fa520492a2c716ee4a1219a3d76adcc104c952ec203ec1928f4
+    url: https://github.com/psemiletov/drumlabooh/releases/download/13.0.0/drumlabooh.vst3.zip

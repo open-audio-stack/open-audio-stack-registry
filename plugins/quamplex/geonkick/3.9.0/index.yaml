@@ -1,0 +1,37 @@
+name: Geonkick
+author: Quamplex
+description: Geonkick is a free software synthesizer capable of generating a wide range of percussive sounds, including kicks, snares, claps, hi-hats, shakers, and unique effect sounds.
+license: gpl-3.0
+type: instrument
+tags:
+  - Synthesizer
+  - Percussion
+  - Drums
+url: https://github.com/quamplex/geonkick
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/quamplex/geonkick/geonkick.jpg
+date: '2026-10-06T07:41:06Z'
+changes: "### Features\r\n\r\n- Instrument playback modes: FULL, NOTE OFF, and CUT\r\n- Instrument choke groups\r\n- Support input notes for envelope points\r\n- Add UI scale options for 1.25x and 1.75x in the Settings dialog.\r\n- Load instrument preset into the kit\r\n- Lock/u"
+files:
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - vst3
+      - lv2
+    type: installer
+    size: 15240737
+    sha256: c4823f13bb10115333d52989f83b841fa2f078585529ac0177945c0da9e8afca
+    url: https://github.com/quamplex/geonkick/releases/download/v3.9.0/GeonkickWindowsInstaller-v3.9.0-x86_64_basic.exe
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - vst3
+      - lv2
+      - elf
+    type: archive
+    size: 3767094
+    sha256: 2ac941877bea77983677861f32cd35255fd502e2d96514702bf9e749aeb0c44c
+    url: https://github.com/quamplex/geonkick/releases/download/v3.9.0/GNULinux_binaries_v3.9.0_basic.zip

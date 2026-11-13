@@ -1,0 +1,75 @@
+{
+  "name": "Unravel",
+  "author": "ZQ",
+  "description": "Spectral decomposition VST3 plugin for tonal/noise separation",
+  "license": "gpl-3.0",
+  "type": "effect",
+  "tags": [
+    "spectral",
+    "decomposition",
+    "denoise"
+  ],
+  "url": "https://github.com/themightyzq/unravel-vst",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/themightyzq/unravel-vst/unravel-vst.jpg",
+  "date": "2026-10-02T20:15:58Z",
+  "changes": "Unravel 1.6.0.\n\n- Every knob and slider takes keyboard focus (Tab) and shows a focus ring. Arrow keys adjust it, Shift+arrow makes a fine adjustment, and a double-click returns it to its default. Layout and sound are unchanged.\n\nBuilt by CI from commit d8",
+  "files": [
+    {
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3"
+      ],
+      "type": "archive",
+      "size": 4561876,
+      "sha256": "838524f642246faea8225fd17688391f4285f8709b41fec1f5082d13af406f46",
+      "url": "https://github.com/themightyzq/unravel-vst/releases/download/v1.6.0/Unravel-Linux.zip",
+      "downloads": 33
+    },
+    {
+      "systems": [
+        {
+          "type": "mac"
+        }
+      ],
+      "architectures": [
+        "arm64",
+        "x64"
+      ],
+      "contains": [
+        "vst3"
+      ],
+      "type": "archive",
+      "size": 24778061,
+      "sha256": "6ad83e6b2689dce3fddbb0306e21a121ab1d06133f70d556402efde884b66305",
+      "url": "https://github.com/themightyzq/unravel-vst/releases/download/v1.6.0/Unravel-macOS.zip",
+      "downloads": 48
+    },
+    {
+      "systems": [
+        {
+          "type": "win"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3"
+      ],
+      "type": "archive",
+      "size": 5250849,
+      "sha256": "f3b806cd0c7f007f520162f3ce4f6e25251fd627b2178bab963ccb189a9e7b80",
+      "url": "https://github.com/themightyzq/unravel-vst/releases/download/v1.6.0/Unravel-Windows.zip",
+      "downloads": 60
+    }
+  ],
+  "verified": true,
+  "downloads": 141
+}
