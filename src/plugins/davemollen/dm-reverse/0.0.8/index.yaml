@@ -1,0 +1,75 @@
+name: dm-Reverse
+author: Dave Mollen
+description: A mono reverse delay effect, written in Rust and compilable to LV2 or MOD Audio plugin formats.
+license: gpl-3.0
+type: effect
+tags:
+  - Delay
+  - Reverse
+  - Rust
+url: https://github.com/davemollen/dm-Reverse
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/davemollen/dm-reverse/dm-reverse.jpg
+date: '2026-10-30T14:41:15Z'
+changes: "Plugin changes:\r\n* Reset internal state on activation\r\n* Linear fades are replaced with curved fades\r\n\r\nLV2 / MOD plugin changes only:\r\n* Fades are applied when bypass is turned on and off\r\n* Processing is skipped when bypass is active for lower CPU usage"
+files:
+  - systems:
+      - type: mac
+    architectures:
+      - arm64
+      - x64
+    contains:
+      - lv2
+    type: archive
+    size: 1071593
+    sha256: d4f0c96da17a25065a26e58f8e71f6749a7e8b33ceec72a400eca77db0c94a87
+    url: https://github.com/davemollen/dm-Reverse/releases/download/v0.0.8/dm-Reverse-macos.zip
+  - systems:
+      - type: linux
+    architectures:
+      - arm32
+    contains:
+      - lv2
+    type: archive
+    size: 937481
+    sha256: 4a3f4e015f72348c7e360fd2e0084bd8f126f108826072a052e6f2919f419e8d
+    url: https://github.com/davemollen/dm-Reverse/releases/download/v0.0.8/dm-Reverse-modduo-new.zip
+  - systems:
+      - type: linux
+    architectures:
+      - arm64
+    contains:
+      - lv2
+    type: archive
+    size: 927217
+    sha256: 3cedaecfbd34614d58f476435dcbd7388578e274136b75a659cac70bc39c4550
+    url: https://github.com/davemollen/dm-Reverse/releases/download/v0.0.8/dm-Reverse-modduox-new.zip
+  - systems:
+      - type: linux
+    architectures:
+      - arm64
+    contains:
+      - lv2
+    type: archive
+    size: 926827
+    sha256: bb107bee6426c20a1fd5b46873c6eab498db9f53e9d04cc56fbe2aeb3fc11519
+    url: https://github.com/davemollen/dm-Reverse/releases/download/v0.0.8/dm-Reverse-moddwarf-new.zip
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - lv2
+    type: archive
+    size: 923693
+    sha256: 8af50022298346741b9fa8a557888f8439cb6575820bac6188d2610bbeaf2bc3
+    url: https://github.com/davemollen/dm-Reverse/releases/download/v0.0.8/dm-Reverse-ubuntu.zip
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - lv2
+    type: archive
+    size: 824297
+    sha256: 7c49123c92bfdbd68f1437dce7a19777428d7315d253fb6aa2fd610399b3e8ed
+    url: https://github.com/davemollen/dm-Reverse/releases/download/v0.0.8/dm-Reverse-windows.zip
