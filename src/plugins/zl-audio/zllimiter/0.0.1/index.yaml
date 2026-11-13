@@ -1,0 +1,111 @@
+name: ZL Limiter
+author: ZL Audio
+description: A limiter plugin for controlling peaks and preventing clipping, currently in development.
+license: agpl-3.0
+type: effect
+tags:
+  - Effect
+  - Limiter
+  - Dynamics
+  - Loudness
+url: https://zl-audio.github.io/plugins/zllimiter/
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/zl-audio/zllimiter/zllimiter.jpg
+date: '2026-10-31T02:42:37Z'
+changes: "The first version of ZL Limiter. Use with caution and report any bugs. Minimum OS: macOS 12 and Ubuntu 24.04. AAX is not supported yet; CLAP is planned. After installation, test the plugin in an empty DAW session."
+files:
+  - systems:
+      - type: linux
+    architectures:
+      - arm64
+    contains:
+      - vst3
+      - lv2
+    type: archive
+    size: 5280958
+    sha256: 1d583e8b87f56688d2398c0222a3b0a3c75d9821b033ee1ebfbb776fbead2c84
+    attested: true
+    url: https://github.com/ZL-Audio/ZLLimiter/releases/download/0.0.1/ZL.Limiter-0.0.1-Linux-arm64.zip
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - vst3
+      - lv2
+    type: archive
+    size: 5681397
+    sha256: f2c08aa7253674053c32a81cc810e020ddb85e91f4472f0040230c85d83f2d3b
+    attested: true
+    url: https://github.com/ZL-Audio/ZLLimiter/releases/download/0.0.1/ZL.Limiter-0.0.1-Linux-x86-64-AVX2.zip
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - vst3
+      - lv2
+    type: archive
+    size: 5432344
+    sha256: 93d046ab65e2c22a0a860eb344e7b42e45ce73131f404e6947edd4dc4b237388
+    attested: true
+    url: https://github.com/ZL-Audio/ZLLimiter/releases/download/0.0.1/ZL.Limiter-0.0.1-Linux-x86-64.zip
+  - systems:
+      - type: mac
+    architectures:
+      - arm64
+    contains:
+      - vst3
+      - component
+    type: installer
+    size: 5025617
+    sha256: 557dab324f094b146215858910ce3081c5659e33f47d3b623066d865d1b6e275
+    attested: true
+    url: https://github.com/ZL-Audio/ZLLimiter/releases/download/0.0.1/ZL.Limiter-0.0.1-macOS-arm64.dmg
+  - systems:
+      - type: mac
+    architectures:
+      - x64
+    contains:
+      - vst3
+      - component
+    type: installer
+    size: 5668784
+    sha256: c62332b4c6d0ae2450721dd2614f47530524b77a0470d135bbd545796bf222f1
+    attested: true
+    url: https://github.com/ZL-Audio/ZLLimiter/releases/download/0.0.1/ZL.Limiter-0.0.1-macOS-x86-64.dmg
+  - systems:
+      - type: win
+    architectures:
+      - arm64
+    contains:
+      - vst3
+      - lv2
+    type: installer
+    size: 5230592
+    sha256: e9b5e235edb5ea7e2a9c827e1dcef81a47402dd6f381a310db82ad5e2a5ff2ae
+    attested: true
+    url: https://github.com/ZL-Audio/ZLLimiter/releases/download/0.0.1/ZL.Limiter-0.0.1-Windows-arm64.msi
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - vst3
+      - lv2
+    type: installer
+    size: 5779456
+    sha256: c1fcbf5670cdecc649dee93dcbc4d49971f96496b1425e24bca61f49eccc5f7b
+    attested: true
+    url: https://github.com/ZL-Audio/ZLLimiter/releases/download/0.0.1/ZL.Limiter-0.0.1-Windows-x86-64-AVX2.msi
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - vst3
+      - lv2
+    type: installer
+    size: 5570560
+    sha256: c58ecd0afe2ab2d1040a1fc7c39bd667eb45acdc84ac752602fd2f7af0be1550
+    attested: true
+    url: https://github.com/ZL-Audio/ZLLimiter/releases/download/0.0.1/ZL.Limiter-0.0.1-Windows-x86-64.msi
