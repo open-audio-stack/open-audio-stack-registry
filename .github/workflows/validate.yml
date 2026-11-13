@@ -55,8 +55,9 @@ jobs:
               if (!file.endsWith('.yaml')) continue;
               try {
                 const data = yaml.load(fs.readFileSync(file, 'utf8'));
+                const pkg = `${data.name || path.basename(path.dirname(path.dirname(file)))} ${data.version || ''}`.trim();
                 for (const f of data.files || []) {
-                  if (f.url) entries.push({ url: f.url, sha256: f.sha256 });
+                  if (f.url) entries.push({ pkg, url: f.url });
                 }
               } catch (e) {
                 core.warning(`Could not read ${file}: ${e.message}`);
@@ -64,57 +65,24 @@ jobs:
             }
             if (!entries.length) return;
 
-            // When an API key is available (not on fork PRs), read existing scan results by sha256
-            // and submit the url of any file VirusTotal has not seen yet. Failures are only warnings,
-            // links below are deterministic so are posted regardless. Public API is limited to 4 requests/min.
-            const apiKey = process.env.VT_API_KEY;
-            const wait = () => new Promise(resolve => setTimeout(resolve, 15000));
-            if (apiKey) {
-              for (const entry of entries) {
-                try {
-                  if (entry.sha256) {
-                    const res = await fetch(`https://www.virustotal.com/api/v3/files/${entry.sha256}`, {
-                      headers: { 'x-apikey': apiKey },
-                    });
-                    if (res.ok) {
-                      const stats = (await res.json()).data.attributes.last_analysis_stats;
-                      entry.flags = stats.malicious + stats.suspicious;
-                    } else if (res.status !== 404) {
-                      core.warning(`VirusTotal lookup failed (${res.status}): ${entry.url}`);
-                    }
-                    await wait();
-                  }
-                  if (entry.flags === undefined) {
-                    const res = await fetch('https://www.virustotal.com/api/v3/urls', {
-                      method: 'POST',
-                      headers: { 'x-apikey': apiKey, 'content-type': 'application/x-www-form-urlencoded' },
-                      body: new URLSearchParams({ url: entry.url }),
-                    });
-                    if (!res.ok) core.warning(`VirusTotal submit failed (${res.status}): ${entry.url}`);
-                    entry.submitted = res.ok;
-                    await wait();
-                  }
-                } catch (e) {
-                  core.warning(`VirusTotal request failed: ${entry.url} ${e.message}`);
-                }
-              }
-            }
+            // Shared with `npm run dev:validate` (built by the Build step). When VT_API_KEY is available
+            // (not on fork PRs) urls VirusTotal has not seen are submitted, otherwise only the links are posted.
+            // Opening a Scan link always works: it redirects to the url report and starts a scan if needed.
+            const { vtScanUrls } = await import(path.join(process.cwd(), 'build/virustotal.js'));
+            const results = await vtScanUrls(
+              entries.map(e => e.url),
+              { apiKey: process.env.VT_API_KEY, log: m => core.warning(m) },
+            );
 
-            let output = 'VirusTotal Report:\n';
-            for (const entry of entries) {
-              const name = path.basename(entry.url);
-              // A submitted url has no file report until VirusTotal finishes fetching it, so link the url report instead
-              const urlId = require('crypto').createHash('sha256').update(entry.url).digest('hex');
-              let line = entry.submitted
-                ? `[${name}](https://www.virustotal.com/gui/url/${urlId})`
-                : entry.sha256
-                  ? `[${name}](https://www.virustotal.com/gui/file/${entry.sha256})`
-                  : name;
-              if (entry.flags !== undefined) line += ` (${entry.flags} ${entry.flags === 1 ? 'flag' : 'flags'})`;
-              else if (entry.submitted) line += ' (scan submitted)';
-              output += `- ${line}\n`;
-            }
-            output += '\nItems not yet scanned by VirusTotal may show as not found.\n';
+            let totalFlags = 0;
+            let output = 'VirusTotal Report:\n\n| Package | File | Submitted | Result | Scan |\n| --- | --- | --- | --- | --- |\n';
+            results.forEach((r, i) => {
+              totalFlags += r.flags || 0;
+              output += `| ${entries[i].pkg} | ${path.basename(r.url)} | ${r.submitted} | ${r.result} | [VirusTotal](${r.link}) |\n`;
+            });
+            if (process.env.VT_API_KEY) output += `\nTotal flags: ${totalFlags}\n`;
+            output +=
+              '\nSubmitted is `unknown` when the status could not be read (for example on a fork PR) and `no` when the url has not been submitted. Opening a Scan link starts a scan if the url has not been scanned yet.\n';
 
             await core.summary.addRaw(output, true).write();
             // Fork PRs get a read-only token, so commenting may fail

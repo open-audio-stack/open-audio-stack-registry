@@ -15,6 +15,7 @@ import {
 } from '@open-audio-stack/core';
 import path from 'path';
 import { ZodIssue } from 'zod';
+import { vtScanUrls } from './virustotal.js';
 
 const filePath: string = process.argv[2];
 // Split on either separator so a forward-slash path (the form used in AGENTS.md's own
@@ -99,6 +100,24 @@ if (!fileExists(imagePathLocal)) {
       path: [imagePathLocal],
     },
   ] as ZodIssue[]);
+}
+
+// Submit the release urls to VirusTotal when an API key is set. This never changes the exit code.
+// Without a key the urls are still submitted in CI if it has a key, or when anyone opens the scan link.
+const apiKey = process.env.VT_API_KEY;
+if (!apiKey) {
+  console.log('VT_API_KEY is not set, skipping VirusTotal submission.');
+} else {
+  const urls = Object.values(pkgJson.files).map(file => file.url);
+  console.log(
+    `Submitting ${urls.length} urls to VirusTotal (paced to stay within the free API limit, results appear in the PR comment)...`,
+  );
+  const results = await vtScanUrls(urls, { apiKey, lookup: false, log: console.log });
+  for (const r of results) {
+    console.log(
+      `VirusTotal: ${r.url}\n  submitted: ${r.submitted}${r.result ? `, result: ${r.result}` : ''}\n  ${r.link}`,
+    );
+  }
 }
 
 if (hasErrors) process.exit(1);
