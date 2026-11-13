@@ -68,7 +68,33 @@
     }
   },
   "zl-audio/zlsplitter": {
+    "0.4.0": {
+      "recs": [
+        {
+          "field": "url",
+          "rec": "requires mounting step, consider .pkg instead"
+        },
+        {
+          "field": "url",
+          "rec": "requires mounting step, consider .pkg instead"
+        }
+      ]
+    },
     "0.3.0": {
+      "recs": [
+        {
+          "field": "url",
+          "rec": "requires mounting step, consider .pkg instead"
+        },
+        {
+          "field": "url",
+          "rec": "requires mounting step, consider .pkg instead"
+        }
+      ]
+    }
+  },
+  "zl-audio/zlspectrumequalizer": {
+    "0.1.1": {
       "recs": [
         {
           "field": "url",
@@ -101,6 +127,20 @@
       ]
     }
   },
+  "zl-audio/zllimiter": {
+    "0.0.1": {
+      "recs": [
+        {
+          "field": "url",
+          "rec": "requires mounting step, consider .pkg instead"
+        },
+        {
+          "field": "url",
+          "rec": "requires mounting step, consider .pkg instead"
+        }
+      ]
+    }
+  },
   "zl-audio/zlinflator": {
     "0.3.0": {
       "recs": [
@@ -112,6 +152,18 @@
     }
   },
   "zl-audio/zlequalizer2": {
+    "1.4.1": {
+      "recs": [
+        {
+          "field": "url",
+          "rec": "requires mounting step, consider .pkg instead"
+        },
+        {
+          "field": "url",
+          "rec": "requires mounting step, consider .pkg instead"
+        }
+      ]
+    },
     "1.3.1": {
       "recs": [
         {

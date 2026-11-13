@@ -1,0 +1,191 @@
+{
+  "name": "ZL Equalizer 2",
+  "author": "ZL Audio",
+  "description": "Dynamic equalizer plugin.",
+  "license": "agpl-3.0",
+  "type": "effect",
+  "tags": [
+    "Effect",
+    "Equalizer",
+    "Sculptor",
+    "Unmask",
+    "Tonal Balance Control",
+    "Spectrum Analyzer"
+  ],
+  "url": "https://zl-audio.github.io/plugins/zlequalizer2/",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/zl-audio/zlequalizer2/zlequalizer2.jpg",
+  "date": "2026-09-28T01:13:29Z",
+  "changes": "Revert the FFT analyzer to the previous implementation and fix Linux-specific UI issues. Add customizable combobox alignment and FFT quality; default FFT quality is now Normal to prevent lags. After installation, test the plugin in an empty DAW session.",
+  "files": [
+    {
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "architectures": [
+        "arm64"
+      ],
+      "contains": [
+        "vst3",
+        "lv2",
+        "elf"
+      ],
+      "type": "archive",
+      "size": 10354167,
+      "sha256": "e389fa613e089fd83d28a9c9058a88f12ad2ccdda6a0d5d19927bf657dd0d857",
+      "attested": true,
+      "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.4.1/ZL.Equalizer.2-1.4.1-Linux-arm64.zip",
+      "downloads": 330
+    },
+    {
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3",
+        "lv2",
+        "elf"
+      ],
+      "type": "archive",
+      "size": 11322441,
+      "sha256": "d63d16b16cd20ff7d532165dbb7f76b4ad4e9899c94ce69659c3da01fed45cda",
+      "attested": true,
+      "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.4.1/ZL.Equalizer.2-1.4.1-Linux-x86-64-AVX2.zip",
+      "downloads": 658
+    },
+    {
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3",
+        "lv2",
+        "elf"
+      ],
+      "type": "archive",
+      "size": 10850259,
+      "sha256": "ba253ef4e608e5d6f72b2c341a7bc0d9c48b79e051806c2367d481814a4dc896",
+      "attested": true,
+      "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.4.1/ZL.Equalizer.2-1.4.1-Linux-x86-64.zip",
+      "downloads": 697
+    },
+    {
+      "systems": [
+        {
+          "type": "mac"
+        }
+      ],
+      "architectures": [
+        "arm64"
+      ],
+      "contains": [
+        "vst3",
+        "component",
+        "app"
+      ],
+      "type": "installer",
+      "size": 11194539,
+      "sha256": "770167ead54bccdbac5ad3a2f6bc844013808247fa633c434f39140fef085c2d",
+      "attested": true,
+      "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.4.1/ZL.Equalizer.2-1.4.1-macOS-arm64.dmg",
+      "downloads": 2305
+    },
+    {
+      "systems": [
+        {
+          "type": "mac"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3",
+        "component",
+        "app"
+      ],
+      "type": "installer",
+      "size": 12530783,
+      "sha256": "2d7a44ec73f8a30bfcce022e14efb74ef5adf8bdc1bf7165b4289400453ce5b3",
+      "attested": true,
+      "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.4.1/ZL.Equalizer.2-1.4.1-macOS-x86-64.dmg",
+      "downloads": 915
+    },
+    {
+      "systems": [
+        {
+          "type": "win"
+        }
+      ],
+      "architectures": [
+        "arm64"
+      ],
+      "contains": [
+        "vst3",
+        "lv2",
+        "exe"
+      ],
+      "type": "installer",
+      "size": 9003008,
+      "sha256": "e07858759d30fb7a26d1950d099bf6eaa1d4b06eae38e1a1a3edf6a0dfa7194d",
+      "attested": true,
+      "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.4.1/ZL.Equalizer.2-1.4.1-Windows-arm64.msi",
+      "downloads": 766
+    },
+    {
+      "systems": [
+        {
+          "type": "win"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3",
+        "lv2",
+        "exe"
+      ],
+      "type": "installer",
+      "size": 10309632,
+      "sha256": "f0e8f444b05d7d4ebc163f584e28df32afce1bbc3cf65023f1008e1d6a7b5608",
+      "attested": true,
+      "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.4.1/ZL.Equalizer.2-1.4.1-Windows-x86-64-AVX2.msi",
+      "downloads": 3727
+    },
+    {
+      "systems": [
+        {
+          "type": "win"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3",
+        "lv2",
+        "exe"
+      ],
+      "type": "installer",
+      "size": 9961472,
+      "sha256": "4410231ca0f739bc73646006701ae6b64d553910b8abc969575e562dc1cf79b7",
+      "attested": true,
+      "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.4.1/ZL.Equalizer.2-1.4.1-Windows-x86-64.msi",
+      "downloads": 3929
+    }
+  ],
+  "verified": true,
+  "downloads": 13327
+}

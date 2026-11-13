@@ -33,7 +33,7 @@
             "size": 5911681,
             "sha256": "c01c49d8063965c4c2dea8324468336768f5c9139e0b1caebde14c2400b55352",
             "url": "https://github.com/Tracktion/pluginval/releases/download/v1.0.4/pluginval_Linux.zip",
-            "downloads": 76747
+            "downloads": 76764
           },
           {
             "systems": [
@@ -49,7 +49,7 @@
             "size": 9202795,
             "sha256": "3c4c533bda0c5059eea3ddaea752d757ee2025041f0f47e6bcb0e87f6082b29f",
             "url": "https://github.com/Tracktion/pluginval/releases/download/v1.0.4/pluginval_macOS.zip",
-            "downloads": 152205
+            "downloads": 152235
           },
           {
             "systems": [
@@ -65,14 +65,14 @@
             "size": 2408590,
             "sha256": "c08e61ce3b96db41636f8ec7e76f4c7e2c13ebdac7fa1b5a1f52b4f32ec715ab",
             "url": "https://github.com/Tracktion/pluginval/releases/download/v1.0.4/pluginval_Windows.zip",
-            "downloads": 218862
+            "downloads": 218891
           }
         ],
         "verified": true,
-        "downloads": 447814
+        "downloads": 447890
       }
     },
-    "downloads": 447814
+    "downloads": 447890
   },
   "stemdeckapp/stemdeck": {
     "slug": "stemdeckapp/stemdeck",
@@ -414,7 +414,7 @@
             "size": 27877081,
             "sha256": "4601e7f4e4c03e59a4c5b5000216ef3add3e808799cfccd95e14e83ea4611081",
             "url": "https://github.com/Rikorose/DeepFilterNet/releases/download/v0.5.6/deep-filter-0.5.6-aarch64-apple-darwin",
-            "downloads": 27092
+            "downloads": 27099
           },
           {
             "systems": [
@@ -430,7 +430,7 @@
             "size": 39238496,
             "sha256": "14e02a1c0028f3ca0bdf83b62b3336e56ba0556894ef295a95e8573f06557166",
             "url": "https://github.com/Rikorose/DeepFilterNet/releases/download/v0.5.6/deep-filter-0.5.6-aarch64-unknown-linux-gnu",
-            "downloads": 9483
+            "downloads": 9486
           },
           {
             "systems": [
@@ -462,7 +462,7 @@
             "size": 29933512,
             "sha256": "d3be84003acb7c23e738ad7f70a158ec779a8d233a82e7fa3e717d112eb5b50f",
             "url": "https://github.com/Rikorose/DeepFilterNet/releases/download/v0.5.6/deep-filter-0.5.6-x86_64-apple-darwin",
-            "downloads": 3303
+            "downloads": 3304
           },
           {
             "systems": [
@@ -478,7 +478,7 @@
             "size": 26912256,
             "sha256": "75e11fa16445f560cb6b021521ddb89e89270d13b83089705d98776f58fd7915",
             "url": "https://github.com/Rikorose/DeepFilterNet/releases/download/v0.5.6/deep-filter-0.5.6-x86_64-pc-windows-msvc.exe",
-            "downloads": 45206
+            "downloads": 45216
           },
           {
             "systems": [
@@ -494,14 +494,14 @@
             "size": 36417296,
             "sha256": "70775e251eee44c0f2451a1e833326cf8bcbbe304d3e7cd12851e6fce72ef7da",
             "url": "https://github.com/Rikorose/DeepFilterNet/releases/download/v0.5.6/deep-filter-0.5.6-x86_64-unknown-linux-musl",
-            "downloads": 122667
+            "downloads": 122705
           }
         ],
         "verified": true,
-        "downloads": 208280
+        "downloads": 208339
       }
     },
-    "downloads": 208280
+    "downloads": 208339
   },
   "pkunk/pwrate": {
     "slug": "pkunk/pwrate",
@@ -631,7 +631,7 @@
             "size": 8539302,
             "sha256": "c9a6469e888432e2844bc6c90637eb8c58f969d07dd31b231796b83ccc3366c4",
             "url": "https://github.com/monocasual/giada/releases/download/1.6.0/giada-1.6.0-arm64-macos.zip",
-            "downloads": 792
+            "downloads": 794
           },
           {
             "systems": [
@@ -647,11 +647,11 @@
             "size": 8064295,
             "sha256": "c9242fcc8887c4ddc26704c18784227999b8d6707365e645ee78cf7285937765",
             "url": "https://github.com/monocasual/giada/releases/download/1.6.0/giada-1.6.0-x86_64-windows.zip",
-            "downloads": 2576
+            "downloads": 2578
           }
         ],
         "verified": true,
-        "downloads": 3368
+        "downloads": 3372
       },
       "1.5.0": {
         "name": "Giada",
@@ -707,7 +707,7 @@
         "downloads": 4245
       }
     },
-    "downloads": 7613
+    "downloads": 7617
   },
   "michele-perrone/openpiano": {
     "slug": "michele-perrone/openpiano",
@@ -1763,7 +1763,7 @@
             "size": 132770296,
             "sha256": "6d27202357aafa7434b5b7ea08f72d8a19c54ea5c860caf4dc2ebc6face9722b",
             "url": "https://github.com/DropSnorz/OwlPlug/releases/download/2.1.1/OwlPlug-2.1.1-linux-x64.AppImage",
-            "downloads": 22
+            "downloads": 23
           },
           {
             "systems": [
@@ -1795,7 +1795,7 @@
             "size": 140345634,
             "sha256": "1811b32438d907b122a216aaec97afd675e3af2cdb0ca4f9b91c5882c7b2b721",
             "url": "https://github.com/DropSnorz/OwlPlug/releases/download/2.1.1/OwlPlug-2.1.1-osx-arm64.dmg",
-            "downloads": 909
+            "downloads": 913
           },
           {
             "systems": [
@@ -1831,7 +1831,7 @@
           }
         ],
         "verified": true,
-        "downloads": 1158
+        "downloads": 1163
       },
       "1.33.1": {
         "name": "OwlPlug",
@@ -1933,7 +1933,7 @@
         "downloads": 2468
       }
     },
-    "downloads": 3626
+    "downloads": 3631
   },
   "dimtpap/coppwr": {
     "slug": "dimtpap/coppwr",

@@ -1,0 +1,112 @@
+name: ZL Spectrum Equalizer
+author: ZL Audio
+description: A spectrum equalizer plugin with dynamic bands for shaping the frequency balance of a mix.
+license: agpl-3.0
+type: effect
+tags:
+  - Effect
+  - Equalizer
+  - Spectrum
+  - Dynamic
+  - Spectrum Analyzer
+url: https://zl-audio.github.io/plugins/zlspeceq/
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/zl-audio/zlspectrumequalizer/zlspectrumequalizer.jpg
+date: '2026-09-28T01:39:54Z'
+changes: "Revert the FFT analyzer to the previous implementation and fix Linux-specific UI issues. Add customizable combobox alignment and FFT quality; default FFT quality is now Normal to prevent lags. After installation, test the plugin in an empty DAW session."
+files:
+  - systems:
+      - type: linux
+    architectures:
+      - arm64
+    contains:
+      - vst3
+      - lv2
+    type: archive
+    size: 5785374
+    sha256: b0ae49ddfb1b17bdf904bd9f4000562590d2ab523010551fd78e512254a101a6
+    attested: true
+    url: https://github.com/ZL-Audio/ZLSpectrumEqualizer/releases/download/0.1.1/ZL.Spectrum.Equalizer-0.1.1-Linux-arm64.zip
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - vst3
+      - lv2
+    type: archive
+    size: 6283843
+    sha256: 55b7d92cf5e2a380dda2111b805aeab694389fdefeefe8458f924530d8c8d5c6
+    attested: true
+    url: https://github.com/ZL-Audio/ZLSpectrumEqualizer/releases/download/0.1.1/ZL.Spectrum.Equalizer-0.1.1-Linux-x86-64-AVX2.zip
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - vst3
+      - lv2
+    type: archive
+    size: 6002928
+    sha256: 886f2959b77902591c9d77463e39a10ed4ad8efed024ff9baed956233e3e31b5
+    attested: true
+    url: https://github.com/ZL-Audio/ZLSpectrumEqualizer/releases/download/0.1.1/ZL.Spectrum.Equalizer-0.1.1-Linux-x86-64.zip
+  - systems:
+      - type: mac
+    architectures:
+      - arm64
+    contains:
+      - vst3
+      - component
+    type: installer
+    size: 5615636
+    sha256: 1c98b6daacadd2b1d17ce41878e588cb176b01d739619b6f80cdf143c22aaf7d
+    attested: true
+    url: https://github.com/ZL-Audio/ZLSpectrumEqualizer/releases/download/0.1.1/ZL.Spectrum.Equalizer-0.1.1-macOS-arm64.dmg
+  - systems:
+      - type: mac
+    architectures:
+      - x64
+    contains:
+      - vst3
+      - component
+    type: installer
+    size: 6418535
+    sha256: 15287c827b850fabf73026facb06c5d02d830068f57026fc106562bc4573a3ce
+    attested: true
+    url: https://github.com/ZL-Audio/ZLSpectrumEqualizer/releases/download/0.1.1/ZL.Spectrum.Equalizer-0.1.1-macOS-x86-64.dmg
+  - systems:
+      - type: win
+    architectures:
+      - arm64
+    contains:
+      - vst3
+      - lv2
+    type: installer
+    size: 5369856
+    sha256: edf55485b42bb1f58d8e9b26e7bbc59eedfe664cc0e19d5d8a398dec092e7679
+    attested: true
+    url: https://github.com/ZL-Audio/ZLSpectrumEqualizer/releases/download/0.1.1/ZL.Spectrum.Equalizer-0.1.1-Windows-arm64.msi
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - vst3
+      - lv2
+    type: installer
+    size: 5996544
+    sha256: e90eba606f11c00294c5b6e83c4713c30bd398dd632100108768e14b999ea9db
+    attested: true
+    url: https://github.com/ZL-Audio/ZLSpectrumEqualizer/releases/download/0.1.1/ZL.Spectrum.Equalizer-0.1.1-Windows-x86-64-AVX2.msi
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - vst3
+      - lv2
+    type: installer
+    size: 5787648
+    sha256: 658d6ad75f0b52bf0fc8238b2c4a4485b332003ab2692be8dd57a445ac1c6947
+    attested: true
+    url: https://github.com/ZL-Audio/ZLSpectrumEqualizer/releases/download/0.1.1/ZL.Spectrum.Equalizer-0.1.1-Windows-x86-64.msi

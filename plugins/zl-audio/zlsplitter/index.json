@@ -1,7 +1,188 @@
 {
   "slug": "zl-audio/zlsplitter",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "versions": {
+    "0.4.0": {
+      "name": "ZL Splitter",
+      "author": "ZL Audio",
+      "description": "A splitter plugin that separates a signal into transient and steady components.",
+      "license": "agpl-3.0",
+      "type": "effect",
+      "tags": [
+        "Effect",
+        "Splitter",
+        "Transient",
+        "Crossover"
+      ],
+      "url": "https://github.com/ZL-Audio/ZLSplitter",
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/zl-audio/zlsplitter/zlsplitter.jpg",
+      "date": "2026-11-07T19:18:56Z",
+      "changes": "Large update focused on optimization and consistency with other ZL plugins. Breaking: SVF and FIR crossover filters redesigned and several FFT analyzer settings removed. Adds a preset manager, parameter context menus, and OCT/ERB smoothing.",
+      "files": [
+        {
+          "systems": [
+            {
+              "type": "linux"
+            }
+          ],
+          "architectures": [
+            "arm64"
+          ],
+          "contains": [
+            "vst3",
+            "lv2"
+          ],
+          "type": "archive",
+          "size": 5426960,
+          "sha256": "db2117da6cab586fe3157f5081d0cc0fa1ea7839f4a2dfdbe7d524507af45804",
+          "attested": true,
+          "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.4.0/ZL.Splitter-0.4.0-Linux-arm64.zip",
+          "downloads": 12
+        },
+        {
+          "systems": [
+            {
+              "type": "linux"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "vst3",
+            "lv2"
+          ],
+          "type": "archive",
+          "size": 5848894,
+          "sha256": "843fd5439547f8ec0ab546348803e1402c515fd3ebba6fabe08f636e2397f22e",
+          "attested": true,
+          "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.4.0/ZL.Splitter-0.4.0-Linux-x86-64-AVX2.zip",
+          "downloads": 36
+        },
+        {
+          "systems": [
+            {
+              "type": "linux"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "vst3",
+            "lv2"
+          ],
+          "type": "archive",
+          "size": 5582709,
+          "sha256": "8fdc1d90f73a44301ab0709a3a2c59bd890975d798038d3dda25cb0b557fcf4d",
+          "attested": true,
+          "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.4.0/ZL.Splitter-0.4.0-Linux-x86-64.zip",
+          "downloads": 28
+        },
+        {
+          "systems": [
+            {
+              "type": "mac"
+            }
+          ],
+          "architectures": [
+            "arm64"
+          ],
+          "contains": [
+            "vst3",
+            "component"
+          ],
+          "type": "installer",
+          "size": 5260634,
+          "sha256": "4aad01333a37087fd910ecbbce0cc31b57d83005dfa552bead7afc8e730c9e72",
+          "attested": true,
+          "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.4.0/ZL.Splitter-0.4.0-macOS-arm64.dmg",
+          "downloads": 60
+        },
+        {
+          "systems": [
+            {
+              "type": "mac"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "vst3",
+            "component"
+          ],
+          "type": "installer",
+          "size": 5868844,
+          "sha256": "68c116aff419e445d01423cd0ae4b14f713bdeecfc929d23aa2b0336f3c497c5",
+          "attested": true,
+          "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.4.0/ZL.Splitter-0.4.0-macOS-x86-64.dmg",
+          "downloads": 23
+        },
+        {
+          "systems": [
+            {
+              "type": "win"
+            }
+          ],
+          "architectures": [
+            "arm64"
+          ],
+          "contains": [
+            "vst3",
+            "lv2"
+          ],
+          "type": "installer",
+          "size": 5337088,
+          "sha256": "707c4b6a07b407c97e9f0484f48e5d9abc0e7f90164f1cc175111e556281d1c6",
+          "attested": true,
+          "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.4.0/ZL.Splitter-0.4.0-Windows-arm64.msi",
+          "downloads": 19
+        },
+        {
+          "systems": [
+            {
+              "type": "win"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "vst3",
+            "lv2"
+          ],
+          "type": "installer",
+          "size": 5980160,
+          "sha256": "397b34c97996894fa31f124e14281ca98ac88a6c602c425dfa4730710a699f89",
+          "attested": true,
+          "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.4.0/ZL.Splitter-0.4.0-Windows-x86-64-AVX2.msi",
+          "downloads": 94
+        },
+        {
+          "systems": [
+            {
+              "type": "win"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "vst3",
+            "lv2"
+          ],
+          "type": "installer",
+          "size": 5685248,
+          "sha256": "3a7300b1289ea053fd9d69cd754dac16857fb848c0a790ad8de67b22eec6a071",
+          "attested": true,
+          "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.4.0/ZL.Splitter-0.4.0-Windows-x86-64.msi",
+          "downloads": 96
+        }
+      ],
+      "verified": true,
+      "downloads": 368
+    },
     "0.3.0": {
       "name": "ZL Splitter",
       "author": "ZL Audio",
@@ -147,5 +328,5 @@
       "downloads": 6587
     }
   },
-  "downloads": 6587
+  "downloads": 6955
 }

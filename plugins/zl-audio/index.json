@@ -83,8 +83,189 @@
   },
   "zl-audio/zlsplitter": {
     "slug": "zl-audio/zlsplitter",
-    "version": "0.3.0",
+    "version": "0.4.0",
     "versions": {
+      "0.4.0": {
+        "name": "ZL Splitter",
+        "author": "ZL Audio",
+        "description": "A splitter plugin that separates a signal into transient and steady components.",
+        "license": "agpl-3.0",
+        "type": "effect",
+        "tags": [
+          "Effect",
+          "Splitter",
+          "Transient",
+          "Crossover"
+        ],
+        "url": "https://github.com/ZL-Audio/ZLSplitter",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/zl-audio/zlsplitter/zlsplitter.jpg",
+        "date": "2026-11-07T19:18:56Z",
+        "changes": "Large update focused on optimization and consistency with other ZL plugins. Breaking: SVF and FIR crossover filters redesigned and several FFT analyzer settings removed. Adds a preset manager, parameter context menus, and OCT/ERB smoothing.",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "arm64"
+            ],
+            "contains": [
+              "vst3",
+              "lv2"
+            ],
+            "type": "archive",
+            "size": 5426960,
+            "sha256": "db2117da6cab586fe3157f5081d0cc0fa1ea7839f4a2dfdbe7d524507af45804",
+            "attested": true,
+            "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.4.0/ZL.Splitter-0.4.0-Linux-arm64.zip",
+            "downloads": 12
+          },
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "lv2"
+            ],
+            "type": "archive",
+            "size": 5848894,
+            "sha256": "843fd5439547f8ec0ab546348803e1402c515fd3ebba6fabe08f636e2397f22e",
+            "attested": true,
+            "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.4.0/ZL.Splitter-0.4.0-Linux-x86-64-AVX2.zip",
+            "downloads": 36
+          },
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "lv2"
+            ],
+            "type": "archive",
+            "size": 5582709,
+            "sha256": "8fdc1d90f73a44301ab0709a3a2c59bd890975d798038d3dda25cb0b557fcf4d",
+            "attested": true,
+            "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.4.0/ZL.Splitter-0.4.0-Linux-x86-64.zip",
+            "downloads": 28
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64"
+            ],
+            "contains": [
+              "vst3",
+              "component"
+            ],
+            "type": "installer",
+            "size": 5260634,
+            "sha256": "4aad01333a37087fd910ecbbce0cc31b57d83005dfa552bead7afc8e730c9e72",
+            "attested": true,
+            "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.4.0/ZL.Splitter-0.4.0-macOS-arm64.dmg",
+            "downloads": 60
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "component"
+            ],
+            "type": "installer",
+            "size": 5868844,
+            "sha256": "68c116aff419e445d01423cd0ae4b14f713bdeecfc929d23aa2b0336f3c497c5",
+            "attested": true,
+            "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.4.0/ZL.Splitter-0.4.0-macOS-x86-64.dmg",
+            "downloads": 23
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "arm64"
+            ],
+            "contains": [
+              "vst3",
+              "lv2"
+            ],
+            "type": "installer",
+            "size": 5337088,
+            "sha256": "707c4b6a07b407c97e9f0484f48e5d9abc0e7f90164f1cc175111e556281d1c6",
+            "attested": true,
+            "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.4.0/ZL.Splitter-0.4.0-Windows-arm64.msi",
+            "downloads": 19
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "lv2"
+            ],
+            "type": "installer",
+            "size": 5980160,
+            "sha256": "397b34c97996894fa31f124e14281ca98ac88a6c602c425dfa4730710a699f89",
+            "attested": true,
+            "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.4.0/ZL.Splitter-0.4.0-Windows-x86-64-AVX2.msi",
+            "downloads": 94
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "lv2"
+            ],
+            "type": "installer",
+            "size": 5685248,
+            "sha256": "3a7300b1289ea053fd9d69cd754dac16857fb848c0a790ad8de67b22eec6a071",
+            "attested": true,
+            "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.4.0/ZL.Splitter-0.4.0-Windows-x86-64.msi",
+            "downloads": 96
+          }
+        ],
+        "verified": true,
+        "downloads": 368
+      },
       "0.3.0": {
         "name": "ZL Splitter",
         "author": "ZL Audio",
@@ -230,7 +411,196 @@
         "downloads": 6587
       }
     },
-    "downloads": 6587
+    "downloads": 6955
+  },
+  "zl-audio/zlspectrumequalizer": {
+    "slug": "zl-audio/zlspectrumequalizer",
+    "version": "0.1.1",
+    "versions": {
+      "0.1.1": {
+        "name": "ZL Spectrum Equalizer",
+        "author": "ZL Audio",
+        "description": "A spectrum equalizer plugin with dynamic bands for shaping the frequency balance of a mix.",
+        "license": "agpl-3.0",
+        "type": "effect",
+        "tags": [
+          "Effect",
+          "Equalizer",
+          "Spectrum",
+          "Dynamic",
+          "Spectrum Analyzer"
+        ],
+        "url": "https://zl-audio.github.io/plugins/zlspeceq/",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/zl-audio/zlspectrumequalizer/zlspectrumequalizer.jpg",
+        "date": "2026-09-28T01:39:54Z",
+        "changes": "Revert the FFT analyzer to the previous implementation and fix Linux-specific UI issues. Add customizable combobox alignment and FFT quality; default FFT quality is now Normal to prevent lags. After installation, test the plugin in an empty DAW session.",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "arm64"
+            ],
+            "contains": [
+              "vst3",
+              "lv2"
+            ],
+            "type": "archive",
+            "size": 5785374,
+            "sha256": "b0ae49ddfb1b17bdf904bd9f4000562590d2ab523010551fd78e512254a101a6",
+            "attested": true,
+            "url": "https://github.com/ZL-Audio/ZLSpectrumEqualizer/releases/download/0.1.1/ZL.Spectrum.Equalizer-0.1.1-Linux-arm64.zip",
+            "downloads": 43
+          },
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "lv2"
+            ],
+            "type": "archive",
+            "size": 6283843,
+            "sha256": "55b7d92cf5e2a380dda2111b805aeab694389fdefeefe8458f924530d8c8d5c6",
+            "attested": true,
+            "url": "https://github.com/ZL-Audio/ZLSpectrumEqualizer/releases/download/0.1.1/ZL.Spectrum.Equalizer-0.1.1-Linux-x86-64-AVX2.zip",
+            "downloads": 247
+          },
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "lv2"
+            ],
+            "type": "archive",
+            "size": 6002928,
+            "sha256": "886f2959b77902591c9d77463e39a10ed4ad8efed024ff9baed956233e3e31b5",
+            "attested": true,
+            "url": "https://github.com/ZL-Audio/ZLSpectrumEqualizer/releases/download/0.1.1/ZL.Spectrum.Equalizer-0.1.1-Linux-x86-64.zip",
+            "downloads": 203
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64"
+            ],
+            "contains": [
+              "vst3",
+              "component"
+            ],
+            "type": "installer",
+            "size": 5615636,
+            "sha256": "1c98b6daacadd2b1d17ce41878e588cb176b01d739619b6f80cdf143c22aaf7d",
+            "attested": true,
+            "url": "https://github.com/ZL-Audio/ZLSpectrumEqualizer/releases/download/0.1.1/ZL.Spectrum.Equalizer-0.1.1-macOS-arm64.dmg",
+            "downloads": 490
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "component"
+            ],
+            "type": "installer",
+            "size": 6418535,
+            "sha256": "15287c827b850fabf73026facb06c5d02d830068f57026fc106562bc4573a3ce",
+            "attested": true,
+            "url": "https://github.com/ZL-Audio/ZLSpectrumEqualizer/releases/download/0.1.1/ZL.Spectrum.Equalizer-0.1.1-macOS-x86-64.dmg",
+            "downloads": 179
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "arm64"
+            ],
+            "contains": [
+              "vst3",
+              "lv2"
+            ],
+            "type": "installer",
+            "size": 5369856,
+            "sha256": "edf55485b42bb1f58d8e9b26e7bbc59eedfe664cc0e19d5d8a398dec092e7679",
+            "attested": true,
+            "url": "https://github.com/ZL-Audio/ZLSpectrumEqualizer/releases/download/0.1.1/ZL.Spectrum.Equalizer-0.1.1-Windows-arm64.msi",
+            "downloads": 83
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "lv2"
+            ],
+            "type": "installer",
+            "size": 5996544,
+            "sha256": "e90eba606f11c00294c5b6e83c4713c30bd398dd632100108768e14b999ea9db",
+            "attested": true,
+            "url": "https://github.com/ZL-Audio/ZLSpectrumEqualizer/releases/download/0.1.1/ZL.Spectrum.Equalizer-0.1.1-Windows-x86-64-AVX2.msi",
+            "downloads": 831
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "lv2"
+            ],
+            "type": "installer",
+            "size": 5787648,
+            "sha256": "658d6ad75f0b52bf0fc8238b2c4a4485b332003ab2692be8dd57a445ac1c6947",
+            "attested": true,
+            "url": "https://github.com/ZL-Audio/ZLSpectrumEqualizer/releases/download/0.1.1/ZL.Spectrum.Equalizer-0.1.1-Windows-x86-64.msi",
+            "downloads": 668
+          }
+        ],
+        "verified": true,
+        "downloads": 2744
+      }
+    },
+    "downloads": 2744
   },
   "zl-audio/zllmatch": {
     "slug": "zl-audio/zllmatch",
@@ -399,6 +769,194 @@
     },
     "downloads": 11391
   },
+  "zl-audio/zllimiter": {
+    "slug": "zl-audio/zllimiter",
+    "version": "0.0.1",
+    "versions": {
+      "0.0.1": {
+        "name": "ZL Limiter",
+        "author": "ZL Audio",
+        "description": "A limiter plugin for controlling peaks and preventing clipping, currently in development.",
+        "license": "agpl-3.0",
+        "type": "effect",
+        "tags": [
+          "Effect",
+          "Limiter",
+          "Dynamics",
+          "Loudness"
+        ],
+        "url": "https://zl-audio.github.io/plugins/zllimiter/",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/zl-audio/zllimiter/zllimiter.jpg",
+        "date": "2026-10-31T02:42:37Z",
+        "changes": "The first version of ZL Limiter. Use with caution and report any bugs. Minimum OS: macOS 12 and Ubuntu 24.04. AAX is not supported yet; CLAP is planned. After installation, test the plugin in an empty DAW session.",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "arm64"
+            ],
+            "contains": [
+              "vst3",
+              "lv2"
+            ],
+            "type": "archive",
+            "size": 5280958,
+            "sha256": "1d583e8b87f56688d2398c0222a3b0a3c75d9821b033ee1ebfbb776fbead2c84",
+            "attested": true,
+            "url": "https://github.com/ZL-Audio/ZLLimiter/releases/download/0.0.1/ZL.Limiter-0.0.1-Linux-arm64.zip",
+            "downloads": 40
+          },
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "lv2"
+            ],
+            "type": "archive",
+            "size": 5681397,
+            "sha256": "f2c08aa7253674053c32a81cc810e020ddb85e91f4472f0040230c85d83f2d3b",
+            "attested": true,
+            "url": "https://github.com/ZL-Audio/ZLLimiter/releases/download/0.0.1/ZL.Limiter-0.0.1-Linux-x86-64-AVX2.zip",
+            "downloads": 137
+          },
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "lv2"
+            ],
+            "type": "archive",
+            "size": 5432344,
+            "sha256": "93d046ab65e2c22a0a860eb344e7b42e45ce73131f404e6947edd4dc4b237388",
+            "attested": true,
+            "url": "https://github.com/ZL-Audio/ZLLimiter/releases/download/0.0.1/ZL.Limiter-0.0.1-Linux-x86-64.zip",
+            "downloads": 103
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64"
+            ],
+            "contains": [
+              "vst3",
+              "component"
+            ],
+            "type": "installer",
+            "size": 5025617,
+            "sha256": "557dab324f094b146215858910ce3081c5659e33f47d3b623066d865d1b6e275",
+            "attested": true,
+            "url": "https://github.com/ZL-Audio/ZLLimiter/releases/download/0.0.1/ZL.Limiter-0.0.1-macOS-arm64.dmg",
+            "downloads": 388
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "component"
+            ],
+            "type": "installer",
+            "size": 5668784,
+            "sha256": "c62332b4c6d0ae2450721dd2614f47530524b77a0470d135bbd545796bf222f1",
+            "attested": true,
+            "url": "https://github.com/ZL-Audio/ZLLimiter/releases/download/0.0.1/ZL.Limiter-0.0.1-macOS-x86-64.dmg",
+            "downloads": 167
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "arm64"
+            ],
+            "contains": [
+              "vst3",
+              "lv2"
+            ],
+            "type": "installer",
+            "size": 5230592,
+            "sha256": "e9b5e235edb5ea7e2a9c827e1dcef81a47402dd6f381a310db82ad5e2a5ff2ae",
+            "attested": true,
+            "url": "https://github.com/ZL-Audio/ZLLimiter/releases/download/0.0.1/ZL.Limiter-0.0.1-Windows-arm64.msi",
+            "downloads": 91
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "lv2"
+            ],
+            "type": "installer",
+            "size": 5779456,
+            "sha256": "c1fcbf5670cdecc649dee93dcbc4d49971f96496b1425e24bca61f49eccc5f7b",
+            "attested": true,
+            "url": "https://github.com/ZL-Audio/ZLLimiter/releases/download/0.0.1/ZL.Limiter-0.0.1-Windows-x86-64-AVX2.msi",
+            "downloads": 769
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "lv2"
+            ],
+            "type": "installer",
+            "size": 5570560,
+            "sha256": "c58ecd0afe2ab2d1040a1fc7c39bd667eb45acdc84ac752602fd2f7af0be1550",
+            "attested": true,
+            "url": "https://github.com/ZL-Audio/ZLLimiter/releases/download/0.0.1/ZL.Limiter-0.0.1-Windows-x86-64.msi",
+            "downloads": 681
+          }
+        ],
+        "verified": true,
+        "downloads": 2376
+      }
+    },
+    "downloads": 2376
+  },
   "zl-audio/zlinflator": {
     "slug": "zl-audio/zlinflator",
     "version": "0.3.0",
@@ -484,8 +1042,199 @@
   },
   "zl-audio/zlequalizer2": {
     "slug": "zl-audio/zlequalizer2",
-    "version": "1.3.1",
+    "version": "1.4.1",
     "versions": {
+      "1.4.1": {
+        "name": "ZL Equalizer 2",
+        "author": "ZL Audio",
+        "description": "Dynamic equalizer plugin.",
+        "license": "agpl-3.0",
+        "type": "effect",
+        "tags": [
+          "Effect",
+          "Equalizer",
+          "Sculptor",
+          "Unmask",
+          "Tonal Balance Control",
+          "Spectrum Analyzer"
+        ],
+        "url": "https://zl-audio.github.io/plugins/zlequalizer2/",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/zl-audio/zlequalizer2/zlequalizer2.jpg",
+        "date": "2026-09-28T01:13:29Z",
+        "changes": "Revert the FFT analyzer to the previous implementation and fix Linux-specific UI issues. Add customizable combobox alignment and FFT quality; default FFT quality is now Normal to prevent lags. After installation, test the plugin in an empty DAW session.",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "arm64"
+            ],
+            "contains": [
+              "vst3",
+              "lv2",
+              "elf"
+            ],
+            "type": "archive",
+            "size": 10354167,
+            "sha256": "e389fa613e089fd83d28a9c9058a88f12ad2ccdda6a0d5d19927bf657dd0d857",
+            "attested": true,
+            "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.4.1/ZL.Equalizer.2-1.4.1-Linux-arm64.zip",
+            "downloads": 330
+          },
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "lv2",
+              "elf"
+            ],
+            "type": "archive",
+            "size": 11322441,
+            "sha256": "d63d16b16cd20ff7d532165dbb7f76b4ad4e9899c94ce69659c3da01fed45cda",
+            "attested": true,
+            "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.4.1/ZL.Equalizer.2-1.4.1-Linux-x86-64-AVX2.zip",
+            "downloads": 658
+          },
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "lv2",
+              "elf"
+            ],
+            "type": "archive",
+            "size": 10850259,
+            "sha256": "ba253ef4e608e5d6f72b2c341a7bc0d9c48b79e051806c2367d481814a4dc896",
+            "attested": true,
+            "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.4.1/ZL.Equalizer.2-1.4.1-Linux-x86-64.zip",
+            "downloads": 697
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64"
+            ],
+            "contains": [
+              "vst3",
+              "component",
+              "app"
+            ],
+            "type": "installer",
+            "size": 11194539,
+            "sha256": "770167ead54bccdbac5ad3a2f6bc844013808247fa633c434f39140fef085c2d",
+            "attested": true,
+            "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.4.1/ZL.Equalizer.2-1.4.1-macOS-arm64.dmg",
+            "downloads": 2305
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "component",
+              "app"
+            ],
+            "type": "installer",
+            "size": 12530783,
+            "sha256": "2d7a44ec73f8a30bfcce022e14efb74ef5adf8bdc1bf7165b4289400453ce5b3",
+            "attested": true,
+            "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.4.1/ZL.Equalizer.2-1.4.1-macOS-x86-64.dmg",
+            "downloads": 915
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "arm64"
+            ],
+            "contains": [
+              "vst3",
+              "lv2",
+              "exe"
+            ],
+            "type": "installer",
+            "size": 9003008,
+            "sha256": "e07858759d30fb7a26d1950d099bf6eaa1d4b06eae38e1a1a3edf6a0dfa7194d",
+            "attested": true,
+            "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.4.1/ZL.Equalizer.2-1.4.1-Windows-arm64.msi",
+            "downloads": 766
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "lv2",
+              "exe"
+            ],
+            "type": "installer",
+            "size": 10309632,
+            "sha256": "f0e8f444b05d7d4ebc163f584e28df32afce1bbc3cf65023f1008e1d6a7b5608",
+            "attested": true,
+            "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.4.1/ZL.Equalizer.2-1.4.1-Windows-x86-64-AVX2.msi",
+            "downloads": 3727
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "lv2",
+              "exe"
+            ],
+            "type": "installer",
+            "size": 9961472,
+            "sha256": "4410231ca0f739bc73646006701ae6b64d553910b8abc969575e562dc1cf79b7",
+            "attested": true,
+            "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.4.1/ZL.Equalizer.2-1.4.1-Windows-x86-64.msi",
+            "downloads": 3929
+          }
+        ],
+        "verified": true,
+        "downloads": 13327
+      },
       "1.3.1": {
         "name": "ZL Equalizer 2",
         "author": "ZL Audio",
@@ -999,7 +1748,7 @@
         "downloads": 41895
       }
     },
-    "downloads": 69738
+    "downloads": 83065
   },
   "zl-audio/zlcompressor": {
     "slug": "zl-audio/zlcompressor",
@@ -1099,7 +1848,7 @@
             "size": 12527352,
             "sha256": "7a38ed5a54aea2300ee430decbd261d5c6539573ff6e7d56071bc49ce3d6df0d",
             "url": "https://github.com/ZL-Audio/ZLCompressor/releases/download/0.6.1/ZL.Compressor-0.6.1-macOS-arm64.dmg",
-            "downloads": 473
+            "downloads": 474
           },
           {
             "systems": [
@@ -1187,7 +1936,7 @@
           }
         ],
         "verified": true,
-        "downloads": 3294
+        "downloads": 3295
       },
       "0.5.0": {
         "name": "ZL Compressor",
@@ -1374,6 +2123,6 @@
         "downloads": 7826
       }
     },
-    "downloads": 11120
+    "downloads": 11121
   }
 }
