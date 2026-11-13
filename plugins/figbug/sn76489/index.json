@@ -1,6 +1,6 @@
 {
   "slug": "figbug/sn76489",
-  "version": "1.1.5",
+  "version": "1.1.10",
   "versions": {
     "1.1.5": {
       "name": "SN76489",
@@ -84,7 +84,90 @@
       ],
       "verified": true,
       "downloads": 44
+    },
+    "1.1.10": {
+      "name": "SN76489",
+      "author": "Roland Rabien",
+      "description": "Sega Master System sound chip emulation, available as a VST2/VST3/AU/CLAP/LV2 plugin.",
+      "license": "lgpl-2.1",
+      "type": "instrument",
+      "tags": [
+        "Chiptune",
+        "Emulation",
+        "Sega"
+      ],
+      "url": "https://github.com/FigBug/SN76489",
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/figbug/sn76489/sn76489.jpg",
+      "date": "2026-08-17T23:49:31Z",
+      "changes": "- General bug fixes and improvements\n",
+      "files": [
+        {
+          "systems": [
+            {
+              "type": "linux"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "vst",
+            "vst3",
+            "clap",
+            "lv2"
+          ],
+          "type": "installer",
+          "size": 30146864,
+          "sha256": "32673f57e12fa69c03fe9fb9a2bc5b3c5ec60faa608512cb5fe6b8cea999e50d",
+          "url": "https://github.com/FigBug/SN76489/releases/download/v1.1.10/SN76489.deb",
+          "downloads": 43
+        },
+        {
+          "systems": [
+            {
+              "type": "win"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "dll",
+            "vst3",
+            "clap"
+          ],
+          "type": "installer",
+          "size": 7918360,
+          "sha256": "ae717a3e385b53fb377ea397a53ed60eae68fc55b8ce0f0dca078ef5479dd739",
+          "url": "https://github.com/FigBug/SN76489/releases/download/v1.1.10/SN76489.exe",
+          "downloads": 34
+        },
+        {
+          "systems": [
+            {
+              "type": "mac"
+            }
+          ],
+          "architectures": [
+            "arm64",
+            "x64"
+          ],
+          "contains": [
+            "vst",
+            "vst3",
+            "component",
+            "clap"
+          ],
+          "type": "installer",
+          "size": 45424887,
+          "sha256": "c380b8e1fe40edf26807e631792b81cd90d2b46b533fe4a7ca25dc4430f994e8",
+          "url": "https://github.com/FigBug/SN76489/releases/download/v1.1.10/SN76489.pkg",
+          "downloads": 133
+        }
+      ],
+      "verified": true,
+      "downloads": 210
     }
   },
-  "downloads": 44
+  "downloads": 254
 }

@@ -1,8 +1,92 @@
 {
   "figbug/wavetable": {
     "slug": "figbug/wavetable",
-    "version": "1.0.32",
+    "version": "1.0.37",
     "versions": {
+      "1.0.37": {
+        "name": "Wavetable",
+        "author": "Roland Rabien",
+        "description": "A wavetable synthesizer plugin.",
+        "license": "bsd-3-clause",
+        "type": "instrument",
+        "tags": [
+          "Wavetable",
+          "Synthesizer"
+        ],
+        "url": "https://github.com/FigBug/Wavetable",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/figbug/wavetable/wavetable.jpg",
+        "date": "2026-10-07T17:33:06Z",
+        "changes": "- Fix crash in the CPU meter when the host enables floating point exceptions (FL Studio)\n- Fix crash on exit in hosts that quit with plugins still loaded (FL Studio)\n",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "so",
+              "lv2",
+              "clap"
+            ],
+            "type": "installer",
+            "size": 80863650,
+            "sha256": "0fefeab85d531e4f7d71a4e8fa2080abc358ce3f7e2ce7e61c6a1c8b5c76d968",
+            "url": "https://github.com/FigBug/Wavetable/releases/download/v1.0.37/Wavetable.deb",
+            "downloads": 31
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "dll",
+              "lv2",
+              "clap"
+            ],
+            "type": "installer",
+            "size": 55382432,
+            "sha256": "178d9e9f961746e429c32584de7f135bb59e6338a83066b3ae541e3ab0313889",
+            "url": "https://github.com/FigBug/Wavetable/releases/download/v1.0.37/Wavetable.exe",
+            "downloads": 53
+          },
+          {
+            "systems": [
+              {
+                "min": 10.15,
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "vst",
+              "component",
+              "clap"
+            ],
+            "type": "installer",
+            "size": 96232496,
+            "sha256": "490cd4d3a47ed6a40ed08174a64826de0d4486c30996d3e830595b653aeab6ac",
+            "url": "https://github.com/FigBug/Wavetable/releases/download/v1.0.37/Wavetable.pkg",
+            "downloads": 31
+          }
+        ],
+        "verified": true,
+        "downloads": 115
+      },
       "1.0.32": {
         "name": "Wavetable",
         "author": "Roland Rabien",
@@ -88,11 +172,11 @@
         "downloads": 190
       }
     },
-    "downloads": 190
+    "downloads": 305
   },
   "figbug/voc": {
     "slug": "figbug/voc",
-    "version": "1.1.5",
+    "version": "1.1.10",
     "versions": {
       "1.1.5": {
         "name": "Voc",
@@ -175,13 +259,95 @@
         ],
         "verified": true,
         "downloads": 31
+      },
+      "1.1.10": {
+        "name": "Voc",
+        "author": "Roland Rabien",
+        "description": "A vocal synthesiser that emulates the glottis and shape of the vocal tract, available as a VST2/VST3/AU/CLAP/LV2 plugin.",
+        "license": "lgpl-2.1",
+        "type": "instrument",
+        "tags": [
+          "Vocal Synth",
+          "Physical Modeling"
+        ],
+        "url": "https://github.com/FigBug/Voc",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/figbug/voc/voc.jpg",
+        "date": "2026-08-18T00:08:37Z",
+        "changes": "- General bug fixes and improvements\n",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst",
+              "vst3",
+              "clap",
+              "lv2"
+            ],
+            "type": "installer",
+            "size": 30141154,
+            "sha256": "790dc9c0ab0a4393ff8e32a22460cb2c1db04de98ef9175df563e1c408793130",
+            "url": "https://github.com/FigBug/Voc/releases/download/v1.1.10/Voc.deb",
+            "downloads": 32
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "dll",
+              "vst3",
+              "clap"
+            ],
+            "type": "installer",
+            "size": 7917072,
+            "sha256": "aec64373c3d320c03bddf75c3194eebd6c923f6e0e95b70855ef9c6e2e672829",
+            "url": "https://github.com/FigBug/Voc/releases/download/v1.1.10/Voc.exe",
+            "downloads": 22
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "vst",
+              "vst3",
+              "component",
+              "clap"
+            ],
+            "type": "installer",
+            "size": 45423498,
+            "sha256": "51c8aae1bf336f9e76244c626363c50752e05a3c0cdb1f6b42e1d50d689f2e31",
+            "url": "https://github.com/FigBug/Voc/releases/download/v1.1.10/Voc.pkg",
+            "downloads": 32
+          }
+        ],
+        "verified": true,
+        "downloads": 86
       }
     },
-    "downloads": 31
+    "downloads": 117
   },
   "figbug/sn76489": {
     "slug": "figbug/sn76489",
-    "version": "1.1.5",
+    "version": "1.1.10",
     "versions": {
       "1.1.5": {
         "name": "SN76489",
@@ -265,13 +431,96 @@
         ],
         "verified": true,
         "downloads": 44
+      },
+      "1.1.10": {
+        "name": "SN76489",
+        "author": "Roland Rabien",
+        "description": "Sega Master System sound chip emulation, available as a VST2/VST3/AU/CLAP/LV2 plugin.",
+        "license": "lgpl-2.1",
+        "type": "instrument",
+        "tags": [
+          "Chiptune",
+          "Emulation",
+          "Sega"
+        ],
+        "url": "https://github.com/FigBug/SN76489",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/figbug/sn76489/sn76489.jpg",
+        "date": "2026-08-17T23:49:31Z",
+        "changes": "- General bug fixes and improvements\n",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst",
+              "vst3",
+              "clap",
+              "lv2"
+            ],
+            "type": "installer",
+            "size": 30146864,
+            "sha256": "32673f57e12fa69c03fe9fb9a2bc5b3c5ec60faa608512cb5fe6b8cea999e50d",
+            "url": "https://github.com/FigBug/SN76489/releases/download/v1.1.10/SN76489.deb",
+            "downloads": 43
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "dll",
+              "vst3",
+              "clap"
+            ],
+            "type": "installer",
+            "size": 7918360,
+            "sha256": "ae717a3e385b53fb377ea397a53ed60eae68fc55b8ce0f0dca078ef5479dd739",
+            "url": "https://github.com/FigBug/SN76489/releases/download/v1.1.10/SN76489.exe",
+            "downloads": 34
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "vst",
+              "vst3",
+              "component",
+              "clap"
+            ],
+            "type": "installer",
+            "size": 45424887,
+            "sha256": "c380b8e1fe40edf26807e631792b81cd90d2b46b533fe4a7ca25dc4430f994e8",
+            "url": "https://github.com/FigBug/SN76489/releases/download/v1.1.10/SN76489.pkg",
+            "downloads": 133
+          }
+        ],
+        "verified": true,
+        "downloads": 210
       }
     },
-    "downloads": 44
+    "downloads": 254
   },
   "figbug/sid": {
     "slug": "figbug/sid",
-    "version": "1.1.5",
+    "version": "1.1.10",
     "versions": {
       "1.1.5": {
         "name": "SID",
@@ -355,13 +604,96 @@
         ],
         "verified": true,
         "downloads": 40
+      },
+      "1.1.10": {
+        "name": "SID",
+        "author": "Roland Rabien",
+        "description": "Commodore 64 SID sound chip emulation, available as a VST2/VST3/AU/CLAP/LV2 plugin.",
+        "license": "gpl-3.0",
+        "type": "instrument",
+        "tags": [
+          "Chiptune",
+          "Emulation",
+          "Commodore 64"
+        ],
+        "url": "https://github.com/FigBug/SID",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/figbug/sid/sid.jpg",
+        "date": "2026-08-17T23:48:46Z",
+        "changes": "- General bug fixes and improvements\n",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst",
+              "vst3",
+              "clap",
+              "lv2"
+            ],
+            "type": "installer",
+            "size": 30246336,
+            "sha256": "33dff1da36c66c505027e9227023e202e6816e8b66b7439c92a83cb55bf62540",
+            "url": "https://github.com/FigBug/SID/releases/download/v1.1.10/SID.deb",
+            "downloads": 34
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "dll",
+              "vst3",
+              "clap"
+            ],
+            "type": "installer",
+            "size": 7935600,
+            "sha256": "4e1414b29141ad2bbb1c88de980358bc938e1680df8feaaa522e500195d9febc",
+            "url": "https://github.com/FigBug/SID/releases/download/v1.1.10/SID.exe",
+            "downloads": 29
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "vst",
+              "vst3",
+              "component",
+              "clap"
+            ],
+            "type": "installer",
+            "size": 45588116,
+            "sha256": "94cc0ca10f89c59db913c0b7a1864a82622c061bc4a940a5e4b6bfb18f92640b",
+            "url": "https://github.com/FigBug/SID/releases/download/v1.1.10/SID.pkg",
+            "downloads": 33
+          }
+        ],
+        "verified": true,
+        "downloads": 96
       }
     },
-    "downloads": 40
+    "downloads": 136
   },
   "figbug/rp2a03": {
     "slug": "figbug/rp2a03",
-    "version": "1.1.5",
+    "version": "1.1.10",
     "versions": {
       "1.1.5": {
         "name": "RP2A03",
@@ -445,13 +777,96 @@
         ],
         "verified": true,
         "downloads": 36
+      },
+      "1.1.10": {
+        "name": "RP2A03",
+        "author": "Roland Rabien",
+        "description": "Nintendo Entertainment System (NES) sound chip emulation, available as a VST2/VST3/AU/CLAP/LV2 plugin.",
+        "license": "lgpl-2.1",
+        "type": "instrument",
+        "tags": [
+          "Chiptune",
+          "Emulation",
+          "Nintendo"
+        ],
+        "url": "https://github.com/FigBug/RP2A03",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/figbug/rp2a03/rp2a03.jpg",
+        "date": "2026-08-17T23:59:12Z",
+        "changes": "- General bug fixes and improvements\n",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst",
+              "vst3",
+              "clap",
+              "lv2"
+            ],
+            "type": "installer",
+            "size": 30195512,
+            "sha256": "1cb56e45c420cefec89fba4d170e6661604ed5ec59dfb05ea459b241ef4608b8",
+            "url": "https://github.com/FigBug/RP2A03/releases/download/v1.1.10/RP2A03.deb",
+            "downloads": 32
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "dll",
+              "vst3",
+              "clap"
+            ],
+            "type": "installer",
+            "size": 7926432,
+            "sha256": "5d776ea4fc0bfb868e6632f127b54a754130b16135869e391bb57d3a578f4d7e",
+            "url": "https://github.com/FigBug/RP2A03/releases/download/v1.1.10/RP2A03.exe",
+            "downloads": 26
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "vst",
+              "vst3",
+              "component",
+              "clap"
+            ],
+            "type": "installer",
+            "size": 45504935,
+            "sha256": "5ff5059785a038200f2012dbaf19cf3e7ee00f7a6e7a95834e4de03ceb93a950",
+            "url": "https://github.com/FigBug/RP2A03/releases/download/v1.1.10/RP2A03.pkg",
+            "downloads": 36
+          }
+        ],
+        "verified": true,
+        "downloads": 94
       }
     },
-    "downloads": 36
+    "downloads": 130
   },
   "figbug/papu": {
     "slug": "figbug/papu",
-    "version": "1.2.5",
+    "version": "1.2.10",
     "versions": {
       "1.2.5": {
         "name": "PAPU",
@@ -535,13 +950,96 @@
         ],
         "verified": true,
         "downloads": 46
+      },
+      "1.2.10": {
+        "name": "PAPU",
+        "author": "Roland Rabien",
+        "description": "Gameboy PAPU sound chip emulation, available as a VST2/VST3/AU/CLAP/LV2 plugin.",
+        "license": "gpl-2.0",
+        "type": "instrument",
+        "tags": [
+          "Chiptune",
+          "Emulation",
+          "Gameboy"
+        ],
+        "url": "https://github.com/FigBug/PAPU",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/figbug/papu/papu.jpg",
+        "date": "2026-08-17T23:30:33Z",
+        "changes": "- General bug fixes and improvements\n",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst",
+              "vst3",
+              "clap",
+              "lv2"
+            ],
+            "type": "installer",
+            "size": 30250868,
+            "sha256": "dd7fa60809c8a5bca8c2b83ac7879da14c56d3fb93ec002bc27f7ca49a48e2b2",
+            "url": "https://github.com/FigBug/PAPU/releases/download/v1.2.10/PAPU.deb",
+            "downloads": 36
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "dll",
+              "vst3",
+              "clap"
+            ],
+            "type": "installer",
+            "size": 7938208,
+            "sha256": "25ae26c25667e83c20895fcd5279af3da4e56bf92cf233136248af354732df9e",
+            "url": "https://github.com/FigBug/PAPU/releases/download/v1.2.10/PAPU.exe",
+            "downloads": 43
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "vst",
+              "vst3",
+              "component",
+              "clap"
+            ],
+            "type": "installer",
+            "size": 45599405,
+            "sha256": "56f30fa798fd5719ee36f15b063ba8f6b1d8caef269a6b766fcb09778a072609",
+            "url": "https://github.com/FigBug/PAPU/releases/download/v1.2.10/PAPU.pkg",
+            "downloads": 36
+          }
+        ],
+        "verified": true,
+        "downloads": 115
       }
     },
-    "downloads": 46
+    "downloads": 161
   },
   "figbug/mverb": {
     "slug": "figbug/mverb",
-    "version": "1.1.5",
+    "version": "1.1.10",
     "versions": {
       "1.1.5": {
         "name": "MVerb",
@@ -624,8 +1122,90 @@
         ],
         "verified": true,
         "downloads": 25
+      },
+      "1.1.10": {
+        "name": "MVerb",
+        "author": "Roland Rabien",
+        "description": "A reverb plugin based on Dattorro's figure-of-eight reverb topology, available as a VST2/VST3/AU/CLAP/LV2 plugin.",
+        "license": "gpl-3.0",
+        "type": "effect",
+        "tags": [
+          "Reverb",
+          "Algorithmic Reverb"
+        ],
+        "url": "https://github.com/FigBug/mverb",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/figbug/mverb/mverb.jpg",
+        "date": "2026-08-17T23:41:35Z",
+        "changes": "- General bug fixes and improvements\n",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst",
+              "vst3",
+              "clap",
+              "lv2"
+            ],
+            "type": "installer",
+            "size": 21745066,
+            "sha256": "d0af0419bb157d1d10d4dc872e260204e2ba86a12ba16dd54ac35032f706eeab",
+            "url": "https://github.com/FigBug/mverb/releases/download/v1.1.10/Mverb2020.deb",
+            "downloads": 23
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "dll",
+              "vst3",
+              "clap"
+            ],
+            "type": "installer",
+            "size": 6541088,
+            "sha256": "179f6252cc7e0a8b63d10d0405eaaf98b4a3f6799919e3a85862a1864f3cd0d2",
+            "url": "https://github.com/FigBug/mverb/releases/download/v1.1.10/Mverb2020.exe",
+            "downloads": 23
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "vst",
+              "vst3",
+              "component",
+              "clap"
+            ],
+            "type": "installer",
+            "size": 30007825,
+            "sha256": "b6e0154a2d78f8225ec0e245338428a69d83dd15cdc0fe9192385cac38050680",
+            "url": "https://github.com/FigBug/mverb/releases/download/v1.1.10/Mverb2020.pkg",
+            "downloads": 23
+          }
+        ],
+        "verified": true,
+        "downloads": 69
       }
     },
-    "downloads": 25
+    "downloads": 94
   }
 }

@@ -1,0 +1,82 @@
+{
+  "name": "Voc",
+  "author": "Roland Rabien",
+  "description": "A vocal synthesiser that emulates the glottis and shape of the vocal tract, available as a VST2/VST3/AU/CLAP/LV2 plugin.",
+  "license": "lgpl-2.1",
+  "type": "instrument",
+  "tags": [
+    "Vocal Synth",
+    "Physical Modeling"
+  ],
+  "url": "https://github.com/FigBug/Voc",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/figbug/voc/voc.jpg",
+  "date": "2026-08-18T00:08:37Z",
+  "changes": "- General bug fixes and improvements\n",
+  "files": [
+    {
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst",
+        "vst3",
+        "clap",
+        "lv2"
+      ],
+      "type": "installer",
+      "size": 30141154,
+      "sha256": "790dc9c0ab0a4393ff8e32a22460cb2c1db04de98ef9175df563e1c408793130",
+      "url": "https://github.com/FigBug/Voc/releases/download/v1.1.10/Voc.deb",
+      "downloads": 32
+    },
+    {
+      "systems": [
+        {
+          "type": "win"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "dll",
+        "vst3",
+        "clap"
+      ],
+      "type": "installer",
+      "size": 7917072,
+      "sha256": "aec64373c3d320c03bddf75c3194eebd6c923f6e0e95b70855ef9c6e2e672829",
+      "url": "https://github.com/FigBug/Voc/releases/download/v1.1.10/Voc.exe",
+      "downloads": 22
+    },
+    {
+      "systems": [
+        {
+          "type": "mac"
+        }
+      ],
+      "architectures": [
+        "arm64",
+        "x64"
+      ],
+      "contains": [
+        "vst",
+        "vst3",
+        "component",
+        "clap"
+      ],
+      "type": "installer",
+      "size": 45423498,
+      "sha256": "51c8aae1bf336f9e76244c626363c50752e05a3c0cdb1f6b42e1d50d689f2e31",
+      "url": "https://github.com/FigBug/Voc/releases/download/v1.1.10/Voc.pkg",
+      "downloads": 32
+    }
+  ],
+  "verified": true,
+  "downloads": 86
+}

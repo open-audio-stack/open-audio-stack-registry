@@ -1803,14 +1803,14 @@
             "size": 128302481,
             "sha256": "745990b0acdda1cc319cd55aafdf61b6f258015810f310abd31d8bbe849e4da8",
             "url": "https://github.com/zamaudio/zam-plugins/releases/download/4.5/zam-plugins-4.5-win64.zip",
-            "downloads": 578
+            "downloads": 579
           }
         ],
         "verified": true,
-        "downloads": 1720
+        "downloads": 1721
       }
     },
-    "downloads": 1720
+    "downloads": 1721
   },
   "yvonneqaq/spekana-audio-plugin": {
     "slug": "yvonneqaq/spekana-audio-plugin",
@@ -1859,8 +1859,53 @@
   },
   "yonie/wetreverb": {
     "slug": "yonie/wetreverb",
-    "version": "1.1.0",
+    "version": "1.3.0",
     "versions": {
+      "1.3.0": {
+        "name": "Wet Reverb",
+        "author": "yonie",
+        "description": "Open source reverb plugin with authentic 80s rack-style character — 5 reverb modes, 12-bit quantization, 24kHz internal rate, and early reflections",
+        "license": "mit",
+        "type": "effect",
+        "tags": [
+          "Reverb",
+          "Vintage",
+          "Lo-Fi"
+        ],
+        "url": "https://github.com/yonie/WetReverb",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/yonie/wetreverb/wetreverb.jpg",
+        "date": "2026-10-14T18:35:30Z",
+        "changes": "**WetReverb 1.3.0**\n\nProduct page: https://wetvst.com/wetreverb/\n\nWhat's new:\n\n- added 50% zoom percentage for even smaller plugin GUI (so you can fit more plugins on your screen)\n- plugins now open on 75% scale by default, right click a panel to change i",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "mac"
+              },
+              {
+                "type": "win"
+              },
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 7320971,
+            "sha256": "06118cf23aa419e85d17c5f10a13b0c91a34d4997666a364f3bd678d99d857c6",
+            "url": "https://github.com/yonie/WetReverb/releases/download/v1.3.0/WetReverb-v1.3.0.zip",
+            "downloads": 369
+          }
+        ],
+        "verified": true,
+        "downloads": 369
+      },
       "1.1.0": {
         "name": "Wet Reverb",
         "author": "yonie",
@@ -1952,12 +1997,58 @@
         "downloads": 1737
       }
     },
-    "downloads": 1794
+    "downloads": 2163
   },
   "yonie/weteq": {
     "slug": "yonie/weteq",
-    "version": "1.0.0",
+    "version": "1.3.0",
     "versions": {
+      "1.3.0": {
+        "name": "Wet EQ",
+        "author": "yonie",
+        "description": "An open-source four-band British console equaliser modelled as a circuit: saturation inside the filter loop, per-stage crosstalk, gain-dependent bandwidth. Free, MIT, VST3 for Windows, macOS and Linux.",
+        "license": "mit",
+        "type": "effect",
+        "tags": [
+          "EQ",
+          "Console",
+          "Analog Modeling",
+          "Vintage"
+        ],
+        "url": "https://github.com/yonie/WetEQ",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/yonie/weteq/weteq.jpg",
+        "date": "2026-10-14T18:35:31Z",
+        "changes": "**WetEQ 1.3.0**\n\nProduct page: https://wetvst.com/weteq/\n\nWhat's new:\n\n- added 50% zoom percentage for even smaller plugin GUI (so you can fit more plugins on your screen)\n- plugins now open on 75% scale by default, right click a panel to change it's size",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "mac"
+              },
+              {
+                "type": "win"
+              },
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 19950608,
+            "sha256": "ffd52f14d798974cf676e92d0f9ed64b0cdfc0a62ee0f5bb55357371e4b97859",
+            "url": "https://github.com/yonie/WetEQ/releases/download/v1.3.0/WetEQ-v1.3.0.zip",
+            "downloads": 357
+          }
+        ],
+        "verified": true,
+        "downloads": 357
+      },
       "1.0.0": {
         "name": "Wet EQ",
         "author": "yonie",
@@ -2005,12 +2096,57 @@
         "downloads": 358
       }
     },
-    "downloads": 358
+    "downloads": 715
   },
   "yonie/wetdelay": {
     "slug": "yonie/wetdelay",
-    "version": "1.2.0",
+    "version": "1.4.0",
     "versions": {
+      "1.4.0": {
+        "name": "Wet Delay",
+        "author": "yonie",
+        "description": "Open source stereo delay plugin with authentic 80s rack-style character — 12-bit quantization, 24kHz internal rate, and channel crosstalk",
+        "license": "mit",
+        "type": "effect",
+        "tags": [
+          "Delay",
+          "Vintage",
+          "Lo-Fi"
+        ],
+        "url": "https://github.com/yonie/WetDelay",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/yonie/wetdelay/wetdelay.jpg",
+        "date": "2026-10-14T18:30:20Z",
+        "changes": "**WetDelay 1.4.0**\n\nProduct page: https://wetvst.com/wetdelay/\n\nWhat's new:\n\n- I added tap tempo to WetDelay: Tap the WET DELAY logo in time with the music, and from the third tap onwards the delay follows your tapping (100 ms to 2 s) while all six lights",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "mac"
+              },
+              {
+                "type": "win"
+              },
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 6578131,
+            "sha256": "2d87640761b57d1df82fe8bd91db42e2bd7c70b0d8a60c81861ba6135f5d3727",
+            "url": "https://github.com/yonie/WetDelay/releases/download/v1.4.0/WetDelay-v1.4.0.zip",
+            "downloads": 306
+          }
+        ],
+        "verified": true,
+        "downloads": 306
+      },
       "1.2.0": {
         "name": "Wet Delay",
         "author": "yonie",
@@ -2102,12 +2238,59 @@
         "downloads": 891
       }
     },
-    "downloads": 945
+    "downloads": 1251
   },
   "yonie/wetcompressor": {
     "slug": "yonie/wetcompressor",
-    "version": "1.0.0",
+    "version": "1.2.0",
     "versions": {
+      "1.2.0": {
+        "name": "Wet Compressor",
+        "author": "yonie",
+        "description": "An open-source 76-style FET compressor modelled as the circuit: feedback detector, a gain cell that bottoms out, four amplifiers. Free, MIT, VST3 for Windows, macOS and Linux.",
+        "license": "mit",
+        "type": "effect",
+        "tags": [
+          "Compressor",
+          "Dynamics",
+          "FET",
+          "Analog Modeling",
+          "Vintage"
+        ],
+        "url": "https://github.com/yonie/WetCompressor",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/yonie/wetcompressor/wetcompressor.jpg",
+        "date": "2026-10-14T18:35:49Z",
+        "changes": "**WetCompressor 1.2.0**\n\nProduct page: https://wetvst.com/wetcompressor/\n\nWhat's new:\n\n- I have added external sidechain input to WetCompressor, meaning you can now have the compressor \"duck\" on a kick drum for instance. Right-click the plug-in window and",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "mac"
+              },
+              {
+                "type": "win"
+              },
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 11544448,
+            "sha256": "a8c54e36ee9843c6987424ed4091af046a5966cba69f3c5c09aecdf90725a5d0",
+            "url": "https://github.com/yonie/WetCompressor/releases/download/v1.2.0/WetCompressor-v1.2.0.zip",
+            "downloads": 383
+          }
+        ],
+        "verified": true,
+        "downloads": 383
+      },
       "1.0.0": {
         "name": "Wet Compressor",
         "author": "yonie",
@@ -2156,7 +2339,7 @@
         "downloads": 640
       }
     },
-    "downloads": 640
+    "downloads": 1023
   },
   "yokemura/magical8bitplug2": {
     "slug": "yokemura/magical8bitplug2",
@@ -2901,14 +3084,14 @@
             "size": 37740885,
             "sha256": "e4dcc186102850f8dcebeb766ad1bf34c24f6280bd614ef84b72dae4783fc517",
             "url": "https://github.com/werman/noise-suppression-for-voice/releases/download/v1.10/win-rnnoise.zip",
-            "downloads": 367383
+            "downloads": 367385
           }
         ],
         "verified": true,
-        "downloads": 402051
+        "downloads": 402053
       }
     },
-    "downloads": 402051
+    "downloads": 402053
   },
   "webprofusion/soundshed-guitar": {
     "slug": "webprofusion/soundshed-guitar",
@@ -7156,11 +7339,11 @@
             "size": 5539406,
             "sha256": "b5699e49850826a8279e315d51cc8cf92636fc98d5d649bcfadd7ae026982989",
             "url": "https://github.com/tiagolr/time12/releases/download/v1.2.3/time12-win-v1.2.3.zip",
-            "downloads": 4935
+            "downloads": 4936
           }
         ],
         "verified": true,
-        "downloads": 8558
+        "downloads": 8559
       },
       "1.2.2": {
         "name": "TIME-12",
@@ -7400,7 +7583,7 @@
         "downloads": 3634
       }
     },
-    "downloads": 16970
+    "downloads": 16971
   },
   "tiagolr/tetraop": {
     "slug": "tiagolr/tetraop",
@@ -7918,8 +8101,91 @@
   },
   "tiagolr/qdelay": {
     "slug": "tiagolr/qdelay",
-    "version": "1.1.2",
+    "version": "1.2.3",
     "versions": {
+      "1.2.3": {
+        "name": "QDelay",
+        "author": "TiagoLr",
+        "description": "A dual-delay with more features than it should.",
+        "license": "gpl-3.0",
+        "type": "effect",
+        "tags": [
+          "Delay",
+          "Reverb",
+          "Pitch-shifter",
+          "Tape Delay",
+          "Analog Delay",
+          "Saturation",
+          "Ping-pong delay"
+        ],
+        "url": "https://github.com/tiagolr/qdelay",
+        "donate": "https://www.buymeacoffee.com/tilr",
+        "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/tiagolr/qdelay/qdelay.flac",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/tiagolr/qdelay/qdelay.jpg",
+        "date": "2026-09-16T23:32:53Z",
+        "changes": "Fix modulation samplerate dependency introduced in last patch",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "lv2"
+            ],
+            "type": "archive",
+            "size": 5462344,
+            "sha256": "c79035db01c072ac338bc5be54cc456588b47307722f3c0667995815c266794b",
+            "url": "https://github.com/tiagolr/qdelay/releases/download/v1.2.3/qdelay-linux-v1.2.3.zip",
+            "downloads": 297
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "x64",
+              "arm64"
+            ],
+            "contains": [
+              "vst3",
+              "component"
+            ],
+            "type": "archive",
+            "size": 8877154,
+            "sha256": "0987616a8b0d5dc41961ca33cce4880b4e30006a44aaf917fe1870a3e8a604aa",
+            "url": "https://github.com/tiagolr/qdelay/releases/download/v1.2.3/qdelay-macos-v1.2.3.zip",
+            "downloads": 258
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 3346241,
+            "sha256": "e2589d38dc99c5e91654afd5e95feca1609532f6752c4526387f62cf36134121",
+            "url": "https://github.com/tiagolr/qdelay/releases/download/v1.2.3/qdelay-win-v1.2.3.zip",
+            "downloads": 621
+          }
+        ],
+        "verified": true,
+        "downloads": 1176
+      },
       "1.1.2": {
         "name": "QDelay",
         "author": "TiagoLr",
@@ -8170,7 +8436,7 @@
         "downloads": 762
       }
     },
-    "downloads": 4530
+    "downloads": 5706
   },
   "tiagolr/gate12": {
     "slug": "tiagolr/gate12",
@@ -8493,8 +8759,87 @@
   },
   "tiagolr/filtr": {
     "slug": "tiagolr/filtr",
-    "version": "1.1.0",
+    "version": "1.3.0",
     "versions": {
+      "1.3.0": {
+        "name": "FILT-R",
+        "author": "TiagoLr",
+        "description": "Cross-platform filter modulator based on plugins like ShaperBox and FilterShaper.",
+        "license": "gpl-3.0",
+        "type": "effect",
+        "tags": [
+          "Envelope",
+          "Modulation",
+          "Filter"
+        ],
+        "url": "https://github.com/tiagolr/filtr",
+        "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/tiagolr/filtr/filtr.flac",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/tiagolr/filtr/filtr.jpg",
+        "date": "2026-07-06T18:26:51Z",
+        "changes": "Added 28 new filters from [QuadMorphFilter](https://github.com/OTODESK4193/QuadMorphFilter)",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "lv2"
+            ],
+            "type": "archive",
+            "size": 5487278,
+            "sha256": "30840e30ed7cf323e7f8142aaba260b538fcdd531be74d2fdf796fb6f0dacfa0",
+            "url": "https://github.com/tiagolr/filtr/releases/download/v1.3.0/filtr-linux-v1.3.0.zip",
+            "downloads": 558
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "component",
+              "lv2",
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 13395910,
+            "sha256": "4a3c2f6128dd6c9b883857ac1bf37d8265dd3e44c9fe77a03f8c61d2834f43f1",
+            "url": "https://github.com/tiagolr/filtr/releases/download/v1.3.0/filtr-macos-v1.3.0.zip",
+            "downloads": 455
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "lv2"
+            ],
+            "type": "archive",
+            "size": 6599776,
+            "sha256": "7d77c3369ebc6ca8cc85baef08b1d9d8164cf79da2a2f3f4ca48fb54a9d87b98",
+            "url": "https://github.com/tiagolr/filtr/releases/download/v1.3.0/filtr-win-v1.3.0.zip",
+            "downloads": 991
+          }
+        ],
+        "verified": true,
+        "downloads": 2004
+      },
       "1.1.0": {
         "name": "FILT-R",
         "author": "TiagoLr",
@@ -8654,7 +8999,7 @@
         "downloads": 2820
       }
     },
-    "downloads": 5939
+    "downloads": 7943
   },
   "thiagohgl/dyers-dynamic-resonance-suppressor": {
     "slug": "thiagohgl/dyers-dynamic-resonance-suppressor",
@@ -10021,7 +10366,7 @@
             "size": 97294804,
             "sha256": "dd431b75f5fa197c4bffa6ca27ca46970f0a94c834119bb1db7decdeec4c28db",
             "url": "https://github.com/surge-synthesizer/releases-xt/releases/download/1.3.4/surge-xt-linux-1.3.4-pluginsonly.tar.gz",
-            "downloads": 12741
+            "downloads": 12743
           },
           {
             "systems": [
@@ -10085,7 +10430,7 @@
             "size": 416715686,
             "sha256": "b56e8d51a8dc2382ae668c9ff4e96bae38dbd452af4e584d5a5ef50ab2d09b07",
             "url": "https://github.com/surge-synthesizer/releases-xt/releases/download/1.3.4/surge-xt-macOS-1.3.4.dmg",
-            "downloads": 183314
+            "downloads": 183315
           },
           {
             "systems": [
@@ -10124,11 +10469,11 @@
             "size": 183385478,
             "sha256": "6e221e05f29254508142b9e0ed76a85f22fa1b512501bebde571951e7eefecca",
             "url": "https://github.com/surge-synthesizer/releases-xt/releases/download/1.3.4/surge-xt-win64-1.3.4-setup.exe",
-            "downloads": 593619
+            "downloads": 593626
           }
         ],
         "verified": true,
-        "downloads": 864553
+        "downloads": 864563
       },
       "1.3.1": {
         "name": "Surge XT",
@@ -10255,7 +10600,7 @@
         "downloads": 84642
       }
     },
-    "downloads": 949195
+    "downloads": 949205
   },
   "surge-synthesizer/ob-xf": {
     "slug": "surge-synthesizer/ob-xf",
@@ -10315,7 +10660,7 @@
             "size": 21867343,
             "sha256": "72b60c83cf6426337031df744c34a047104a9d95f1feaf6cd048ecfa39f74c96",
             "url": "https://github.com/surge-synthesizer/OB-Xf/releases/download/v1.0.3/ob-xf-Linux-v1.0.3.zip",
-            "downloads": 2333
+            "downloads": 2334
           },
           {
             "systems": [
@@ -10454,10 +10799,10 @@
           }
         ],
         "verified": true,
-        "downloads": 18001
+        "downloads": 18002
       }
     },
-    "downloads": 18001
+    "downloads": 18002
   },
   "surge-synthesizer/monique-monosynth": {
     "slug": "surge-synthesizer/monique-monosynth",
@@ -13939,14 +14284,14 @@
             "size": 10349826,
             "sha256": "83e2825241d4e1c0ab2c44c91c0a9be6a94941a81df0c2fbe05e83b2650470da",
             "url": "https://github.com/Sinuslabs/Reach/releases/download/1.6.6/Reach-Windows.exe",
-            "downloads": 218869
+            "downloads": 218872
           }
         ],
         "verified": true,
-        "downloads": 220980
+        "downloads": 220983
       }
     },
-    "downloads": 220980
+    "downloads": 220983
   },
   "simohnf/sjf-wrecklessdelay": {
     "slug": "simohnf/sjf-wrecklessdelay",
@@ -14459,14 +14804,14 @@
             "size": 109135588,
             "sha256": "4f0b065c18b89111df4281df34c5120cd2d5b9a0c6b316835ec08d7891fd88d9",
             "url": "https://github.com/sfzinstruments/karoryfer.war-tuba/releases/download/v1.002/Karoryfer_War_Tuba_v1002.zip",
-            "downloads": 5453
+            "downloads": 5454
           }
         ],
         "verified": true,
-        "downloads": 5453
+        "downloads": 5454
       }
     },
-    "downloads": 5453
+    "downloads": 5454
   },
   "sfzinstruments/virtuosity_drums": {
     "slug": "sfzinstruments/virtuosity_drums",
@@ -14515,11 +14860,11 @@
             "size": 1227151376,
             "sha256": "c6c5d0fe11a394e94be3146a950c3377ec102cb57d189d5a23cec26183d1963a",
             "url": "https://github.com/sfzinstruments/virtuosity_drums/releases/download/v0.925/Virtuosity_Drums_v0.925.zip",
-            "downloads": 2642
+            "downloads": 2643
           }
         ],
         "verified": true,
-        "downloads": 2642
+        "downloads": 2643
       },
       "0.924.0": {
         "name": "Virtuosity Drums",
@@ -14571,7 +14916,7 @@
         "downloads": 3910
       }
     },
-    "downloads": 6552
+    "downloads": 6553
   },
   "sfzinstruments/splendidgrandpiano": {
     "slug": "sfzinstruments/splendidgrandpiano",
@@ -14938,14 +15283,14 @@
             "size": 176636805,
             "sha256": "49962554dc9480870ee9ae959e36789448d940709164291799c8027f6e276119",
             "url": "https://github.com/sfzinstruments/hungarian_zither/releases/download/v1.001/hungarian_prime_zither_1001.zip",
-            "downloads": 304
+            "downloads": 305
           }
         ],
         "verified": true,
-        "downloads": 304
+        "downloads": 305
       }
     },
-    "downloads": 304
+    "downloads": 305
   },
   "sfzinstruments/horse-pulse": {
     "slug": "sfzinstruments/horse-pulse",
@@ -14994,14 +15339,14 @@
             "size": 147505176,
             "sha256": "52157e831b82e0b1c512abda701f9133b8cd415b42a696b4d9b133946fa2e458",
             "url": "https://github.com/sfzinstruments/Karoryfer.HorsePulse/releases/download/v1.000/Karoryfer_Horse_Pulse_1000.zip",
-            "downloads": 5262
+            "downloads": 5263
           }
         ],
         "verified": true,
-        "downloads": 5262
+        "downloads": 5263
       }
     },
-    "downloads": 5262
+    "downloads": 5263
   },
   "sfzinstruments/double-bass": {
     "slug": "sfzinstruments/double-bass",
@@ -15050,14 +15395,14 @@
             "size": 265232156,
             "sha256": "380986bb52ee6b6469d28e9089792a3ed37cbd163fe5a19160bf4f98785e7ccb",
             "url": "https://github.com/sfzinstruments/dsmolken.double-bass/releases/download/v1.001/DSmolken.double_bass.v1.001.zip",
-            "downloads": 3558
+            "downloads": 3559
           }
         ],
         "verified": true,
-        "downloads": 3558
+        "downloads": 3559
       }
     },
-    "downloads": 3558
+    "downloads": 3559
   },
   "sfzinstruments/black-and-green-guitars": {
     "slug": "sfzinstruments/black-and-green-guitars",
@@ -15106,14 +15451,14 @@
             "size": 481838512,
             "sha256": "ba95221d32fb6386c5d0a0799b93904fd55520aca017c5f121da290075c140c0",
             "url": "https://github.com/sfzinstruments/karoryfer.black-and-green-guitars/releases/download/v1.000/Karoryfer_Black_And_Green_Guitars_1000.zip",
-            "downloads": 11724
+            "downloads": 11725
           }
         ],
         "verified": true,
-        "downloads": 11724
+        "downloads": 11725
       }
     },
-    "downloads": 11724
+    "downloads": 11725
   },
   "sfzinstruments/bear-sax": {
     "slug": "sfzinstruments/bear-sax",
@@ -15162,14 +15507,14 @@
             "size": 131505201,
             "sha256": "66c28ea361c86943b2e2bcda6ca48cf105fec4f60a8f40e7c6bbf584be45c654",
             "url": "https://github.com/sfzinstruments/karoryfer.bear-sax/releases/download/v1.004/Karoryfer.Bear_Sax.v1.004.zip",
-            "downloads": 7595
+            "downloads": 7596
           }
         ],
         "verified": true,
-        "downloads": 7595
+        "downloads": 7596
       }
     },
-    "downloads": 7595
+    "downloads": 7596
   },
   "sdatkinson/neural-amp-modeler": {
     "slug": "sdatkinson/neural-amp-modeler",
@@ -27320,7 +27665,7 @@
             "size": 2267368,
             "sha256": "59f1593120de82e31dd194e2ab1536af14fec2b3ec6ec45abf6d9c8ac02ef430",
             "url": "https://github.com/michaelwillis/dragonfly-reverb/releases/download/3.2.10/dragonfly-reverb-3.2.10-linux-x86_64.tar.xz",
-            "downloads": 13011
+            "downloads": 13012
           },
           {
             "systems": [
@@ -27457,10 +27802,10 @@
           }
         ],
         "verified": true,
-        "downloads": 145456
+        "downloads": 145457
       }
     },
-    "downloads": 145456
+    "downloads": 145457
   },
   "michaelhurst97/noizier": {
     "slug": "michaelhurst97/noizier",
@@ -30576,11 +30921,11 @@
             "size": 38793460,
             "sha256": "4ef3b2f63b29a522fdaf3a18f879c1c85c82f0bdd1e0b3c849a5f3c4b08d2550",
             "url": "https://github.com/lsp-plugins/lsp-plugins/releases/download/1.2.35/lsp-plugins-1.2.35-Linux-x86_64.7z",
-            "downloads": 5366
+            "downloads": 5367
           }
         ],
         "verified": true,
-        "downloads": 5878
+        "downloads": 5879
       },
       "1.2.34": {
         "name": "LSP Plugins",
@@ -31471,7 +31816,7 @@
         "downloads": 3437
       }
     },
-    "downloads": 33418
+    "downloads": 33419
   },
   "longkelvin/midi-chord-detector-plugin": {
     "slug": "longkelvin/midi-chord-detector-plugin",
@@ -32849,14 +33194,14 @@
             "size": 4598786,
             "sha256": "ff882429e2f6c5be9a9757f6f136acd4f8e3b2a1cc212cf1fabbe0f6b28c192f",
             "url": "https://github.com/Kiriki-liszt/JS_Inflator/releases/download/v2.0.3.2/JS.Inflator.Win.v2.0.3.2.zip",
-            "downloads": 36161
+            "downloads": 36162
           }
         ],
         "verified": true,
-        "downloads": 56300
+        "downloads": 56301
       }
     },
-    "downloads": 56300
+    "downloads": 56301
   },
   "killbizz/biztortion": {
     "slug": "killbizz/biztortion",
@@ -43563,8 +43908,92 @@
   },
   "figbug/wavetable": {
     "slug": "figbug/wavetable",
-    "version": "1.0.32",
+    "version": "1.0.37",
     "versions": {
+      "1.0.37": {
+        "name": "Wavetable",
+        "author": "Roland Rabien",
+        "description": "A wavetable synthesizer plugin.",
+        "license": "bsd-3-clause",
+        "type": "instrument",
+        "tags": [
+          "Wavetable",
+          "Synthesizer"
+        ],
+        "url": "https://github.com/FigBug/Wavetable",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/figbug/wavetable/wavetable.jpg",
+        "date": "2026-10-07T17:33:06Z",
+        "changes": "- Fix crash in the CPU meter when the host enables floating point exceptions (FL Studio)\n- Fix crash on exit in hosts that quit with plugins still loaded (FL Studio)\n",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "so",
+              "lv2",
+              "clap"
+            ],
+            "type": "installer",
+            "size": 80863650,
+            "sha256": "0fefeab85d531e4f7d71a4e8fa2080abc358ce3f7e2ce7e61c6a1c8b5c76d968",
+            "url": "https://github.com/FigBug/Wavetable/releases/download/v1.0.37/Wavetable.deb",
+            "downloads": 31
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "dll",
+              "lv2",
+              "clap"
+            ],
+            "type": "installer",
+            "size": 55382432,
+            "sha256": "178d9e9f961746e429c32584de7f135bb59e6338a83066b3ae541e3ab0313889",
+            "url": "https://github.com/FigBug/Wavetable/releases/download/v1.0.37/Wavetable.exe",
+            "downloads": 53
+          },
+          {
+            "systems": [
+              {
+                "min": 10.15,
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "vst",
+              "component",
+              "clap"
+            ],
+            "type": "installer",
+            "size": 96232496,
+            "sha256": "490cd4d3a47ed6a40ed08174a64826de0d4486c30996d3e830595b653aeab6ac",
+            "url": "https://github.com/FigBug/Wavetable/releases/download/v1.0.37/Wavetable.pkg",
+            "downloads": 31
+          }
+        ],
+        "verified": true,
+        "downloads": 115
+      },
       "1.0.32": {
         "name": "Wavetable",
         "author": "Roland Rabien",
@@ -43650,11 +44079,11 @@
         "downloads": 190
       }
     },
-    "downloads": 190
+    "downloads": 305
   },
   "figbug/voc": {
     "slug": "figbug/voc",
-    "version": "1.1.5",
+    "version": "1.1.10",
     "versions": {
       "1.1.5": {
         "name": "Voc",
@@ -43737,13 +44166,95 @@
         ],
         "verified": true,
         "downloads": 31
+      },
+      "1.1.10": {
+        "name": "Voc",
+        "author": "Roland Rabien",
+        "description": "A vocal synthesiser that emulates the glottis and shape of the vocal tract, available as a VST2/VST3/AU/CLAP/LV2 plugin.",
+        "license": "lgpl-2.1",
+        "type": "instrument",
+        "tags": [
+          "Vocal Synth",
+          "Physical Modeling"
+        ],
+        "url": "https://github.com/FigBug/Voc",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/figbug/voc/voc.jpg",
+        "date": "2026-08-18T00:08:37Z",
+        "changes": "- General bug fixes and improvements\n",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst",
+              "vst3",
+              "clap",
+              "lv2"
+            ],
+            "type": "installer",
+            "size": 30141154,
+            "sha256": "790dc9c0ab0a4393ff8e32a22460cb2c1db04de98ef9175df563e1c408793130",
+            "url": "https://github.com/FigBug/Voc/releases/download/v1.1.10/Voc.deb",
+            "downloads": 32
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "dll",
+              "vst3",
+              "clap"
+            ],
+            "type": "installer",
+            "size": 7917072,
+            "sha256": "aec64373c3d320c03bddf75c3194eebd6c923f6e0e95b70855ef9c6e2e672829",
+            "url": "https://github.com/FigBug/Voc/releases/download/v1.1.10/Voc.exe",
+            "downloads": 22
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "vst",
+              "vst3",
+              "component",
+              "clap"
+            ],
+            "type": "installer",
+            "size": 45423498,
+            "sha256": "51c8aae1bf336f9e76244c626363c50752e05a3c0cdb1f6b42e1d50d689f2e31",
+            "url": "https://github.com/FigBug/Voc/releases/download/v1.1.10/Voc.pkg",
+            "downloads": 32
+          }
+        ],
+        "verified": true,
+        "downloads": 86
       }
     },
-    "downloads": 31
+    "downloads": 117
   },
   "figbug/sn76489": {
     "slug": "figbug/sn76489",
-    "version": "1.1.5",
+    "version": "1.1.10",
     "versions": {
       "1.1.5": {
         "name": "SN76489",
@@ -43827,13 +44338,96 @@
         ],
         "verified": true,
         "downloads": 44
+      },
+      "1.1.10": {
+        "name": "SN76489",
+        "author": "Roland Rabien",
+        "description": "Sega Master System sound chip emulation, available as a VST2/VST3/AU/CLAP/LV2 plugin.",
+        "license": "lgpl-2.1",
+        "type": "instrument",
+        "tags": [
+          "Chiptune",
+          "Emulation",
+          "Sega"
+        ],
+        "url": "https://github.com/FigBug/SN76489",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/figbug/sn76489/sn76489.jpg",
+        "date": "2026-08-17T23:49:31Z",
+        "changes": "- General bug fixes and improvements\n",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst",
+              "vst3",
+              "clap",
+              "lv2"
+            ],
+            "type": "installer",
+            "size": 30146864,
+            "sha256": "32673f57e12fa69c03fe9fb9a2bc5b3c5ec60faa608512cb5fe6b8cea999e50d",
+            "url": "https://github.com/FigBug/SN76489/releases/download/v1.1.10/SN76489.deb",
+            "downloads": 43
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "dll",
+              "vst3",
+              "clap"
+            ],
+            "type": "installer",
+            "size": 7918360,
+            "sha256": "ae717a3e385b53fb377ea397a53ed60eae68fc55b8ce0f0dca078ef5479dd739",
+            "url": "https://github.com/FigBug/SN76489/releases/download/v1.1.10/SN76489.exe",
+            "downloads": 34
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "vst",
+              "vst3",
+              "component",
+              "clap"
+            ],
+            "type": "installer",
+            "size": 45424887,
+            "sha256": "c380b8e1fe40edf26807e631792b81cd90d2b46b533fe4a7ca25dc4430f994e8",
+            "url": "https://github.com/FigBug/SN76489/releases/download/v1.1.10/SN76489.pkg",
+            "downloads": 133
+          }
+        ],
+        "verified": true,
+        "downloads": 210
       }
     },
-    "downloads": 44
+    "downloads": 254
   },
   "figbug/sid": {
     "slug": "figbug/sid",
-    "version": "1.1.5",
+    "version": "1.1.10",
     "versions": {
       "1.1.5": {
         "name": "SID",
@@ -43917,13 +44511,96 @@
         ],
         "verified": true,
         "downloads": 40
+      },
+      "1.1.10": {
+        "name": "SID",
+        "author": "Roland Rabien",
+        "description": "Commodore 64 SID sound chip emulation, available as a VST2/VST3/AU/CLAP/LV2 plugin.",
+        "license": "gpl-3.0",
+        "type": "instrument",
+        "tags": [
+          "Chiptune",
+          "Emulation",
+          "Commodore 64"
+        ],
+        "url": "https://github.com/FigBug/SID",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/figbug/sid/sid.jpg",
+        "date": "2026-08-17T23:48:46Z",
+        "changes": "- General bug fixes and improvements\n",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst",
+              "vst3",
+              "clap",
+              "lv2"
+            ],
+            "type": "installer",
+            "size": 30246336,
+            "sha256": "33dff1da36c66c505027e9227023e202e6816e8b66b7439c92a83cb55bf62540",
+            "url": "https://github.com/FigBug/SID/releases/download/v1.1.10/SID.deb",
+            "downloads": 34
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "dll",
+              "vst3",
+              "clap"
+            ],
+            "type": "installer",
+            "size": 7935600,
+            "sha256": "4e1414b29141ad2bbb1c88de980358bc938e1680df8feaaa522e500195d9febc",
+            "url": "https://github.com/FigBug/SID/releases/download/v1.1.10/SID.exe",
+            "downloads": 29
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "vst",
+              "vst3",
+              "component",
+              "clap"
+            ],
+            "type": "installer",
+            "size": 45588116,
+            "sha256": "94cc0ca10f89c59db913c0b7a1864a82622c061bc4a940a5e4b6bfb18f92640b",
+            "url": "https://github.com/FigBug/SID/releases/download/v1.1.10/SID.pkg",
+            "downloads": 33
+          }
+        ],
+        "verified": true,
+        "downloads": 96
       }
     },
-    "downloads": 40
+    "downloads": 136
   },
   "figbug/rp2a03": {
     "slug": "figbug/rp2a03",
-    "version": "1.1.5",
+    "version": "1.1.10",
     "versions": {
       "1.1.5": {
         "name": "RP2A03",
@@ -44007,13 +44684,96 @@
         ],
         "verified": true,
         "downloads": 36
+      },
+      "1.1.10": {
+        "name": "RP2A03",
+        "author": "Roland Rabien",
+        "description": "Nintendo Entertainment System (NES) sound chip emulation, available as a VST2/VST3/AU/CLAP/LV2 plugin.",
+        "license": "lgpl-2.1",
+        "type": "instrument",
+        "tags": [
+          "Chiptune",
+          "Emulation",
+          "Nintendo"
+        ],
+        "url": "https://github.com/FigBug/RP2A03",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/figbug/rp2a03/rp2a03.jpg",
+        "date": "2026-08-17T23:59:12Z",
+        "changes": "- General bug fixes and improvements\n",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst",
+              "vst3",
+              "clap",
+              "lv2"
+            ],
+            "type": "installer",
+            "size": 30195512,
+            "sha256": "1cb56e45c420cefec89fba4d170e6661604ed5ec59dfb05ea459b241ef4608b8",
+            "url": "https://github.com/FigBug/RP2A03/releases/download/v1.1.10/RP2A03.deb",
+            "downloads": 32
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "dll",
+              "vst3",
+              "clap"
+            ],
+            "type": "installer",
+            "size": 7926432,
+            "sha256": "5d776ea4fc0bfb868e6632f127b54a754130b16135869e391bb57d3a578f4d7e",
+            "url": "https://github.com/FigBug/RP2A03/releases/download/v1.1.10/RP2A03.exe",
+            "downloads": 26
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "vst",
+              "vst3",
+              "component",
+              "clap"
+            ],
+            "type": "installer",
+            "size": 45504935,
+            "sha256": "5ff5059785a038200f2012dbaf19cf3e7ee00f7a6e7a95834e4de03ceb93a950",
+            "url": "https://github.com/FigBug/RP2A03/releases/download/v1.1.10/RP2A03.pkg",
+            "downloads": 36
+          }
+        ],
+        "verified": true,
+        "downloads": 94
       }
     },
-    "downloads": 36
+    "downloads": 130
   },
   "figbug/papu": {
     "slug": "figbug/papu",
-    "version": "1.2.5",
+    "version": "1.2.10",
     "versions": {
       "1.2.5": {
         "name": "PAPU",
@@ -44097,13 +44857,96 @@
         ],
         "verified": true,
         "downloads": 46
+      },
+      "1.2.10": {
+        "name": "PAPU",
+        "author": "Roland Rabien",
+        "description": "Gameboy PAPU sound chip emulation, available as a VST2/VST3/AU/CLAP/LV2 plugin.",
+        "license": "gpl-2.0",
+        "type": "instrument",
+        "tags": [
+          "Chiptune",
+          "Emulation",
+          "Gameboy"
+        ],
+        "url": "https://github.com/FigBug/PAPU",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/figbug/papu/papu.jpg",
+        "date": "2026-08-17T23:30:33Z",
+        "changes": "- General bug fixes and improvements\n",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst",
+              "vst3",
+              "clap",
+              "lv2"
+            ],
+            "type": "installer",
+            "size": 30250868,
+            "sha256": "dd7fa60809c8a5bca8c2b83ac7879da14c56d3fb93ec002bc27f7ca49a48e2b2",
+            "url": "https://github.com/FigBug/PAPU/releases/download/v1.2.10/PAPU.deb",
+            "downloads": 36
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "dll",
+              "vst3",
+              "clap"
+            ],
+            "type": "installer",
+            "size": 7938208,
+            "sha256": "25ae26c25667e83c20895fcd5279af3da4e56bf92cf233136248af354732df9e",
+            "url": "https://github.com/FigBug/PAPU/releases/download/v1.2.10/PAPU.exe",
+            "downloads": 43
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "vst",
+              "vst3",
+              "component",
+              "clap"
+            ],
+            "type": "installer",
+            "size": 45599405,
+            "sha256": "56f30fa798fd5719ee36f15b063ba8f6b1d8caef269a6b766fcb09778a072609",
+            "url": "https://github.com/FigBug/PAPU/releases/download/v1.2.10/PAPU.pkg",
+            "downloads": 36
+          }
+        ],
+        "verified": true,
+        "downloads": 115
       }
     },
-    "downloads": 46
+    "downloads": 161
   },
   "figbug/mverb": {
     "slug": "figbug/mverb",
-    "version": "1.1.5",
+    "version": "1.1.10",
     "versions": {
       "1.1.5": {
         "name": "MVerb",
@@ -44186,9 +45029,91 @@
         ],
         "verified": true,
         "downloads": 25
+      },
+      "1.1.10": {
+        "name": "MVerb",
+        "author": "Roland Rabien",
+        "description": "A reverb plugin based on Dattorro's figure-of-eight reverb topology, available as a VST2/VST3/AU/CLAP/LV2 plugin.",
+        "license": "gpl-3.0",
+        "type": "effect",
+        "tags": [
+          "Reverb",
+          "Algorithmic Reverb"
+        ],
+        "url": "https://github.com/FigBug/mverb",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/figbug/mverb/mverb.jpg",
+        "date": "2026-08-17T23:41:35Z",
+        "changes": "- General bug fixes and improvements\n",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst",
+              "vst3",
+              "clap",
+              "lv2"
+            ],
+            "type": "installer",
+            "size": 21745066,
+            "sha256": "d0af0419bb157d1d10d4dc872e260204e2ba86a12ba16dd54ac35032f706eeab",
+            "url": "https://github.com/FigBug/mverb/releases/download/v1.1.10/Mverb2020.deb",
+            "downloads": 23
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "dll",
+              "vst3",
+              "clap"
+            ],
+            "type": "installer",
+            "size": 6541088,
+            "sha256": "179f6252cc7e0a8b63d10d0405eaaf98b4a3f6799919e3a85862a1864f3cd0d2",
+            "url": "https://github.com/FigBug/mverb/releases/download/v1.1.10/Mverb2020.exe",
+            "downloads": 23
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "vst",
+              "vst3",
+              "component",
+              "clap"
+            ],
+            "type": "installer",
+            "size": 30007825,
+            "sha256": "b6e0154a2d78f8225ec0e245338428a69d83dd15cdc0fe9192385cac38050680",
+            "url": "https://github.com/FigBug/mverb/releases/download/v1.1.10/Mverb2020.pkg",
+            "downloads": 23
+          }
+        ],
+        "verified": true,
+        "downloads": 69
       }
     },
-    "downloads": 25
+    "downloads": 94
   },
   "fcaspe/besselstrick": {
     "slug": "fcaspe/besselstrick",
@@ -51614,14 +52539,14 @@
             "size": 26404896,
             "sha256": "a53fb65cedf90f7673e21ac2d12f5b0778f003ae7f2e34e6c4301854a738c36c",
             "url": "https://github.com/Chowdhury-DSP/BYOD/releases/download/v1.3.0/BYOD-Win-64bit-1.3.0.exe",
-            "downloads": 18370
+            "downloads": 18371
           }
         ],
         "verified": true,
-        "downloads": 34464
+        "downloads": 34465
       }
     },
-    "downloads": 34464
+    "downloads": 34465
   },
   "chmod666music/drumcloud": {
     "slug": "chmod666music/drumcloud",
@@ -54959,7 +55884,7 @@
             "size": 7725160,
             "sha256": "2bac3d0c4237e8c22c4274b6d5b59fe6329fcae72864f81b5830393eff354fc1",
             "url": "https://github.com/asb2m10/dexed/releases/download/v1.0.1/Dexed-1.0.1-lnx.zip",
-            "downloads": 7169
+            "downloads": 7170
           },
           {
             "systems": [
@@ -55046,7 +55971,7 @@
           }
         ],
         "verified": true,
-        "downloads": 216775
+        "downloads": 216776
       },
       "0.9.8": {
         "name": "Dexed",
@@ -55131,7 +56056,7 @@
         "downloads": 198866
       }
     },
-    "downloads": 415641
+    "downloads": 415642
   },
   "arunas-cesonis/live-sampler": {
     "slug": "arunas-cesonis/live-sampler",
@@ -58646,14 +59571,14 @@
             "size": 4208886,
             "sha256": "02e504aa26b92fb5b591d8cb4e473a4f02d756c3f1f51f866e0e555a6f287c3f",
             "url": "https://github.com/a2aaron/nyasynth/releases/download/1.0/Nyasynth.1.0.Windows.x86-64.zip",
-            "downloads": 9910
+            "downloads": 9911
           }
         ],
         "verified": true,
-        "downloads": 17651
+        "downloads": 17652
       }
     },
-    "downloads": 17651
+    "downloads": 17652
   },
   "a-n-t-h-o-n-y/xensequencer": {
     "slug": "a-n-t-h-o-n-y/xensequencer",

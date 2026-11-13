@@ -1,0 +1,56 @@
+name: Wavetable
+author: Roland Rabien
+description: A wavetable synthesizer plugin.
+license: bsd-3-clause
+type: instrument
+tags:
+  - Wavetable
+  - Synthesizer
+url: https://github.com/FigBug/Wavetable
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/figbug/wavetable/wavetable.jpg
+date: '2026-10-07T17:33:06Z'
+changes: |
+  - Fix crash in the CPU meter when the host enables floating point exceptions (FL Studio)
+  - Fix crash on exit in hosts that quit with plugins still loaded (FL Studio)
+files:
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - vst3
+      - so
+      - lv2
+      - clap
+    type: installer
+    size: 80863650
+    sha256: 0fefeab85d531e4f7d71a4e8fa2080abc358ce3f7e2ce7e61c6a1c8b5c76d968
+    url: https://github.com/FigBug/Wavetable/releases/download/v1.0.37/Wavetable.deb
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - vst3
+      - dll
+      - lv2
+      - clap
+    type: installer
+    size: 55382432
+    sha256: 178d9e9f961746e429c32584de7f135bb59e6338a83066b3ae541e3ab0313889
+    url: https://github.com/FigBug/Wavetable/releases/download/v1.0.37/Wavetable.exe
+  - systems:
+      - min: 10.15
+        type: mac
+    architectures:
+      - arm64
+      - x64
+    contains:
+      - vst3
+      - vst
+      - component
+      - clap
+    type: installer
+    size: 96232496
+    sha256: 490cd4d3a47ed6a40ed08174a64826de0d4486c30996d3e830595b653aeab6ac
+    url: https://github.com/FigBug/Wavetable/releases/download/v1.0.37/Wavetable.pkg

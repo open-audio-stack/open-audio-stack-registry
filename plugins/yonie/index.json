@@ -1,8 +1,53 @@
 {
   "yonie/wetreverb": {
     "slug": "yonie/wetreverb",
-    "version": "1.1.0",
+    "version": "1.3.0",
     "versions": {
+      "1.3.0": {
+        "name": "Wet Reverb",
+        "author": "yonie",
+        "description": "Open source reverb plugin with authentic 80s rack-style character — 5 reverb modes, 12-bit quantization, 24kHz internal rate, and early reflections",
+        "license": "mit",
+        "type": "effect",
+        "tags": [
+          "Reverb",
+          "Vintage",
+          "Lo-Fi"
+        ],
+        "url": "https://github.com/yonie/WetReverb",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/yonie/wetreverb/wetreverb.jpg",
+        "date": "2026-10-14T18:35:30Z",
+        "changes": "**WetReverb 1.3.0**\n\nProduct page: https://wetvst.com/wetreverb/\n\nWhat's new:\n\n- added 50% zoom percentage for even smaller plugin GUI (so you can fit more plugins on your screen)\n- plugins now open on 75% scale by default, right click a panel to change i",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "mac"
+              },
+              {
+                "type": "win"
+              },
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 7320971,
+            "sha256": "06118cf23aa419e85d17c5f10a13b0c91a34d4997666a364f3bd678d99d857c6",
+            "url": "https://github.com/yonie/WetReverb/releases/download/v1.3.0/WetReverb-v1.3.0.zip",
+            "downloads": 369
+          }
+        ],
+        "verified": true,
+        "downloads": 369
+      },
       "1.1.0": {
         "name": "Wet Reverb",
         "author": "yonie",
@@ -94,12 +139,58 @@
         "downloads": 1737
       }
     },
-    "downloads": 1794
+    "downloads": 2163
   },
   "yonie/weteq": {
     "slug": "yonie/weteq",
-    "version": "1.0.0",
+    "version": "1.3.0",
     "versions": {
+      "1.3.0": {
+        "name": "Wet EQ",
+        "author": "yonie",
+        "description": "An open-source four-band British console equaliser modelled as a circuit: saturation inside the filter loop, per-stage crosstalk, gain-dependent bandwidth. Free, MIT, VST3 for Windows, macOS and Linux.",
+        "license": "mit",
+        "type": "effect",
+        "tags": [
+          "EQ",
+          "Console",
+          "Analog Modeling",
+          "Vintage"
+        ],
+        "url": "https://github.com/yonie/WetEQ",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/yonie/weteq/weteq.jpg",
+        "date": "2026-10-14T18:35:31Z",
+        "changes": "**WetEQ 1.3.0**\n\nProduct page: https://wetvst.com/weteq/\n\nWhat's new:\n\n- added 50% zoom percentage for even smaller plugin GUI (so you can fit more plugins on your screen)\n- plugins now open on 75% scale by default, right click a panel to change it's size",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "mac"
+              },
+              {
+                "type": "win"
+              },
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 19950608,
+            "sha256": "ffd52f14d798974cf676e92d0f9ed64b0cdfc0a62ee0f5bb55357371e4b97859",
+            "url": "https://github.com/yonie/WetEQ/releases/download/v1.3.0/WetEQ-v1.3.0.zip",
+            "downloads": 357
+          }
+        ],
+        "verified": true,
+        "downloads": 357
+      },
       "1.0.0": {
         "name": "Wet EQ",
         "author": "yonie",
@@ -147,12 +238,57 @@
         "downloads": 358
       }
     },
-    "downloads": 358
+    "downloads": 715
   },
   "yonie/wetdelay": {
     "slug": "yonie/wetdelay",
-    "version": "1.2.0",
+    "version": "1.4.0",
     "versions": {
+      "1.4.0": {
+        "name": "Wet Delay",
+        "author": "yonie",
+        "description": "Open source stereo delay plugin with authentic 80s rack-style character — 12-bit quantization, 24kHz internal rate, and channel crosstalk",
+        "license": "mit",
+        "type": "effect",
+        "tags": [
+          "Delay",
+          "Vintage",
+          "Lo-Fi"
+        ],
+        "url": "https://github.com/yonie/WetDelay",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/yonie/wetdelay/wetdelay.jpg",
+        "date": "2026-10-14T18:30:20Z",
+        "changes": "**WetDelay 1.4.0**\n\nProduct page: https://wetvst.com/wetdelay/\n\nWhat's new:\n\n- I added tap tempo to WetDelay: Tap the WET DELAY logo in time with the music, and from the third tap onwards the delay follows your tapping (100 ms to 2 s) while all six lights",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "mac"
+              },
+              {
+                "type": "win"
+              },
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 6578131,
+            "sha256": "2d87640761b57d1df82fe8bd91db42e2bd7c70b0d8a60c81861ba6135f5d3727",
+            "url": "https://github.com/yonie/WetDelay/releases/download/v1.4.0/WetDelay-v1.4.0.zip",
+            "downloads": 306
+          }
+        ],
+        "verified": true,
+        "downloads": 306
+      },
       "1.2.0": {
         "name": "Wet Delay",
         "author": "yonie",
@@ -244,12 +380,59 @@
         "downloads": 891
       }
     },
-    "downloads": 945
+    "downloads": 1251
   },
   "yonie/wetcompressor": {
     "slug": "yonie/wetcompressor",
-    "version": "1.0.0",
+    "version": "1.2.0",
     "versions": {
+      "1.2.0": {
+        "name": "Wet Compressor",
+        "author": "yonie",
+        "description": "An open-source 76-style FET compressor modelled as the circuit: feedback detector, a gain cell that bottoms out, four amplifiers. Free, MIT, VST3 for Windows, macOS and Linux.",
+        "license": "mit",
+        "type": "effect",
+        "tags": [
+          "Compressor",
+          "Dynamics",
+          "FET",
+          "Analog Modeling",
+          "Vintage"
+        ],
+        "url": "https://github.com/yonie/WetCompressor",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/yonie/wetcompressor/wetcompressor.jpg",
+        "date": "2026-10-14T18:35:49Z",
+        "changes": "**WetCompressor 1.2.0**\n\nProduct page: https://wetvst.com/wetcompressor/\n\nWhat's new:\n\n- I have added external sidechain input to WetCompressor, meaning you can now have the compressor \"duck\" on a kick drum for instance. Right-click the plug-in window and",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "mac"
+              },
+              {
+                "type": "win"
+              },
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "arm64",
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 11544448,
+            "sha256": "a8c54e36ee9843c6987424ed4091af046a5966cba69f3c5c09aecdf90725a5d0",
+            "url": "https://github.com/yonie/WetCompressor/releases/download/v1.2.0/WetCompressor-v1.2.0.zip",
+            "downloads": 383
+          }
+        ],
+        "verified": true,
+        "downloads": 383
+      },
       "1.0.0": {
         "name": "Wet Compressor",
         "author": "yonie",
@@ -298,6 +481,6 @@
         "downloads": 640
       }
     },
-    "downloads": 640
+    "downloads": 1023
   }
 }

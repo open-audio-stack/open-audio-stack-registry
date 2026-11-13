@@ -76,11 +76,11 @@
             "size": 5539406,
             "sha256": "b5699e49850826a8279e315d51cc8cf92636fc98d5d649bcfadd7ae026982989",
             "url": "https://github.com/tiagolr/time12/releases/download/v1.2.3/time12-win-v1.2.3.zip",
-            "downloads": 4935
+            "downloads": 4936
           }
         ],
         "verified": true,
-        "downloads": 8558
+        "downloads": 8559
       },
       "1.2.2": {
         "name": "TIME-12",
@@ -320,7 +320,7 @@
         "downloads": 3634
       }
     },
-    "downloads": 16970
+    "downloads": 16971
   },
   "tiagolr/tetraop": {
     "slug": "tiagolr/tetraop",
@@ -838,8 +838,91 @@
   },
   "tiagolr/qdelay": {
     "slug": "tiagolr/qdelay",
-    "version": "1.1.2",
+    "version": "1.2.3",
     "versions": {
+      "1.2.3": {
+        "name": "QDelay",
+        "author": "TiagoLr",
+        "description": "A dual-delay with more features than it should.",
+        "license": "gpl-3.0",
+        "type": "effect",
+        "tags": [
+          "Delay",
+          "Reverb",
+          "Pitch-shifter",
+          "Tape Delay",
+          "Analog Delay",
+          "Saturation",
+          "Ping-pong delay"
+        ],
+        "url": "https://github.com/tiagolr/qdelay",
+        "donate": "https://www.buymeacoffee.com/tilr",
+        "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/tiagolr/qdelay/qdelay.flac",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/tiagolr/qdelay/qdelay.jpg",
+        "date": "2026-09-16T23:32:53Z",
+        "changes": "Fix modulation samplerate dependency introduced in last patch",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "lv2"
+            ],
+            "type": "archive",
+            "size": 5462344,
+            "sha256": "c79035db01c072ac338bc5be54cc456588b47307722f3c0667995815c266794b",
+            "url": "https://github.com/tiagolr/qdelay/releases/download/v1.2.3/qdelay-linux-v1.2.3.zip",
+            "downloads": 297
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "x64",
+              "arm64"
+            ],
+            "contains": [
+              "vst3",
+              "component"
+            ],
+            "type": "archive",
+            "size": 8877154,
+            "sha256": "0987616a8b0d5dc41961ca33cce4880b4e30006a44aaf917fe1870a3e8a604aa",
+            "url": "https://github.com/tiagolr/qdelay/releases/download/v1.2.3/qdelay-macos-v1.2.3.zip",
+            "downloads": 258
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 3346241,
+            "sha256": "e2589d38dc99c5e91654afd5e95feca1609532f6752c4526387f62cf36134121",
+            "url": "https://github.com/tiagolr/qdelay/releases/download/v1.2.3/qdelay-win-v1.2.3.zip",
+            "downloads": 621
+          }
+        ],
+        "verified": true,
+        "downloads": 1176
+      },
       "1.1.2": {
         "name": "QDelay",
         "author": "TiagoLr",
@@ -1090,7 +1173,7 @@
         "downloads": 762
       }
     },
-    "downloads": 4530
+    "downloads": 5706
   },
   "tiagolr/gate12": {
     "slug": "tiagolr/gate12",
@@ -1413,8 +1496,87 @@
   },
   "tiagolr/filtr": {
     "slug": "tiagolr/filtr",
-    "version": "1.1.0",
+    "version": "1.3.0",
     "versions": {
+      "1.3.0": {
+        "name": "FILT-R",
+        "author": "TiagoLr",
+        "description": "Cross-platform filter modulator based on plugins like ShaperBox and FilterShaper.",
+        "license": "gpl-3.0",
+        "type": "effect",
+        "tags": [
+          "Envelope",
+          "Modulation",
+          "Filter"
+        ],
+        "url": "https://github.com/tiagolr/filtr",
+        "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/tiagolr/filtr/filtr.flac",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/tiagolr/filtr/filtr.jpg",
+        "date": "2026-07-06T18:26:51Z",
+        "changes": "Added 28 new filters from [QuadMorphFilter](https://github.com/OTODESK4193/QuadMorphFilter)",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "lv2"
+            ],
+            "type": "archive",
+            "size": 5487278,
+            "sha256": "30840e30ed7cf323e7f8142aaba260b538fcdd531be74d2fdf796fb6f0dacfa0",
+            "url": "https://github.com/tiagolr/filtr/releases/download/v1.3.0/filtr-linux-v1.3.0.zip",
+            "downloads": 558
+          },
+          {
+            "systems": [
+              {
+                "type": "mac"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "component",
+              "lv2",
+              "vst3"
+            ],
+            "type": "archive",
+            "size": 13395910,
+            "sha256": "4a3c2f6128dd6c9b883857ac1bf37d8265dd3e44c9fe77a03f8c61d2834f43f1",
+            "url": "https://github.com/tiagolr/filtr/releases/download/v1.3.0/filtr-macos-v1.3.0.zip",
+            "downloads": 455
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "vst3",
+              "lv2"
+            ],
+            "type": "archive",
+            "size": 6599776,
+            "sha256": "7d77c3369ebc6ca8cc85baef08b1d9d8164cf79da2a2f3f4ca48fb54a9d87b98",
+            "url": "https://github.com/tiagolr/filtr/releases/download/v1.3.0/filtr-win-v1.3.0.zip",
+            "downloads": 991
+          }
+        ],
+        "verified": true,
+        "downloads": 2004
+      },
       "1.1.0": {
         "name": "FILT-R",
         "author": "TiagoLr",
@@ -1574,6 +1736,6 @@
         "downloads": 2820
       }
     },
-    "downloads": 5939
+    "downloads": 7943
   }
 }

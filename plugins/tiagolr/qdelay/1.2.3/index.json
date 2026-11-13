@@ -1,0 +1,83 @@
+{
+  "name": "QDelay",
+  "author": "TiagoLr",
+  "description": "A dual-delay with more features than it should.",
+  "license": "gpl-3.0",
+  "type": "effect",
+  "tags": [
+    "Delay",
+    "Reverb",
+    "Pitch-shifter",
+    "Tape Delay",
+    "Analog Delay",
+    "Saturation",
+    "Ping-pong delay"
+  ],
+  "url": "https://github.com/tiagolr/qdelay",
+  "donate": "https://www.buymeacoffee.com/tilr",
+  "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/tiagolr/qdelay/qdelay.flac",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/tiagolr/qdelay/qdelay.jpg",
+  "date": "2026-09-16T23:32:53Z",
+  "changes": "Fix modulation samplerate dependency introduced in last patch",
+  "files": [
+    {
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3",
+        "lv2"
+      ],
+      "type": "archive",
+      "size": 5462344,
+      "sha256": "c79035db01c072ac338bc5be54cc456588b47307722f3c0667995815c266794b",
+      "url": "https://github.com/tiagolr/qdelay/releases/download/v1.2.3/qdelay-linux-v1.2.3.zip",
+      "downloads": 297
+    },
+    {
+      "systems": [
+        {
+          "type": "mac"
+        }
+      ],
+      "architectures": [
+        "x64",
+        "arm64"
+      ],
+      "contains": [
+        "vst3",
+        "component"
+      ],
+      "type": "archive",
+      "size": 8877154,
+      "sha256": "0987616a8b0d5dc41961ca33cce4880b4e30006a44aaf917fe1870a3e8a604aa",
+      "url": "https://github.com/tiagolr/qdelay/releases/download/v1.2.3/qdelay-macos-v1.2.3.zip",
+      "downloads": 258
+    },
+    {
+      "systems": [
+        {
+          "type": "win"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3"
+      ],
+      "type": "archive",
+      "size": 3346241,
+      "sha256": "e2589d38dc99c5e91654afd5e95feca1609532f6752c4526387f62cf36134121",
+      "url": "https://github.com/tiagolr/qdelay/releases/download/v1.2.3/qdelay-win-v1.2.3.zip",
+      "downloads": 621
+    }
+  ],
+  "verified": true,
+  "downloads": 1176
+}

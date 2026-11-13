@@ -1,0 +1,34 @@
+name: Wet Delay
+author: yonie
+description: Open source stereo delay plugin with authentic 80s rack-style character — 12-bit quantization, 24kHz internal rate, and channel crosstalk
+license: mit
+type: effect
+tags:
+  - Delay
+  - Vintage
+  - Lo-Fi
+url: https://github.com/yonie/WetDelay
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/yonie/wetdelay/wetdelay.jpg
+date: '2026-10-14T18:30:20Z'
+changes: |-
+  **WetDelay 1.4.0**
+
+  Product page: https://wetvst.com/wetdelay/
+
+  What's new:
+
+  - I added tap tempo to WetDelay: Tap the WET DELAY logo in time with the music, and from the third tap onwards the delay follows your tapping (100 ms to 2 s) while all six lights
+files:
+  - systems:
+      - type: mac
+      - type: win
+      - type: linux
+    architectures:
+      - arm64
+      - x64
+    contains:
+      - vst3
+    type: archive
+    size: 6578131
+    sha256: 2d87640761b57d1df82fe8bd91db42e2bd7c70b0d8a60c81861ba6135f5d3727
+    url: https://github.com/yonie/WetDelay/releases/download/v1.4.0/WetDelay-v1.4.0.zip

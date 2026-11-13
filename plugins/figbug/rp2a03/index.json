@@ -1,6 +1,6 @@
 {
   "slug": "figbug/rp2a03",
-  "version": "1.1.5",
+  "version": "1.1.10",
   "versions": {
     "1.1.5": {
       "name": "RP2A03",
@@ -84,7 +84,90 @@
       ],
       "verified": true,
       "downloads": 36
+    },
+    "1.1.10": {
+      "name": "RP2A03",
+      "author": "Roland Rabien",
+      "description": "Nintendo Entertainment System (NES) sound chip emulation, available as a VST2/VST3/AU/CLAP/LV2 plugin.",
+      "license": "lgpl-2.1",
+      "type": "instrument",
+      "tags": [
+        "Chiptune",
+        "Emulation",
+        "Nintendo"
+      ],
+      "url": "https://github.com/FigBug/RP2A03",
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/figbug/rp2a03/rp2a03.jpg",
+      "date": "2026-08-17T23:59:12Z",
+      "changes": "- General bug fixes and improvements\n",
+      "files": [
+        {
+          "systems": [
+            {
+              "type": "linux"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "vst",
+            "vst3",
+            "clap",
+            "lv2"
+          ],
+          "type": "installer",
+          "size": 30195512,
+          "sha256": "1cb56e45c420cefec89fba4d170e6661604ed5ec59dfb05ea459b241ef4608b8",
+          "url": "https://github.com/FigBug/RP2A03/releases/download/v1.1.10/RP2A03.deb",
+          "downloads": 32
+        },
+        {
+          "systems": [
+            {
+              "type": "win"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "dll",
+            "vst3",
+            "clap"
+          ],
+          "type": "installer",
+          "size": 7926432,
+          "sha256": "5d776ea4fc0bfb868e6632f127b54a754130b16135869e391bb57d3a578f4d7e",
+          "url": "https://github.com/FigBug/RP2A03/releases/download/v1.1.10/RP2A03.exe",
+          "downloads": 26
+        },
+        {
+          "systems": [
+            {
+              "type": "mac"
+            }
+          ],
+          "architectures": [
+            "arm64",
+            "x64"
+          ],
+          "contains": [
+            "vst",
+            "vst3",
+            "component",
+            "clap"
+          ],
+          "type": "installer",
+          "size": 45504935,
+          "sha256": "5ff5059785a038200f2012dbaf19cf3e7ee00f7a6e7a95834e4de03ceb93a950",
+          "url": "https://github.com/FigBug/RP2A03/releases/download/v1.1.10/RP2A03.pkg",
+          "downloads": 36
+        }
+      ],
+      "verified": true,
+      "downloads": 94
     }
   },
-  "downloads": 36
+  "downloads": 130
 }

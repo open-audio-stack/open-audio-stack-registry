@@ -1,0 +1,79 @@
+{
+  "name": "FILT-R",
+  "author": "TiagoLr",
+  "description": "Cross-platform filter modulator based on plugins like ShaperBox and FilterShaper.",
+  "license": "gpl-3.0",
+  "type": "effect",
+  "tags": [
+    "Envelope",
+    "Modulation",
+    "Filter"
+  ],
+  "url": "https://github.com/tiagolr/filtr",
+  "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/tiagolr/filtr/filtr.flac",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/tiagolr/filtr/filtr.jpg",
+  "date": "2026-07-06T18:26:51Z",
+  "changes": "Added 28 new filters from [QuadMorphFilter](https://github.com/OTODESK4193/QuadMorphFilter)",
+  "files": [
+    {
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3",
+        "lv2"
+      ],
+      "type": "archive",
+      "size": 5487278,
+      "sha256": "30840e30ed7cf323e7f8142aaba260b538fcdd531be74d2fdf796fb6f0dacfa0",
+      "url": "https://github.com/tiagolr/filtr/releases/download/v1.3.0/filtr-linux-v1.3.0.zip",
+      "downloads": 558
+    },
+    {
+      "systems": [
+        {
+          "type": "mac"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "component",
+        "lv2",
+        "vst3"
+      ],
+      "type": "archive",
+      "size": 13395910,
+      "sha256": "4a3c2f6128dd6c9b883857ac1bf37d8265dd3e44c9fe77a03f8c61d2834f43f1",
+      "url": "https://github.com/tiagolr/filtr/releases/download/v1.3.0/filtr-macos-v1.3.0.zip",
+      "downloads": 455
+    },
+    {
+      "systems": [
+        {
+          "type": "win"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3",
+        "lv2"
+      ],
+      "type": "archive",
+      "size": 6599776,
+      "sha256": "7d77c3369ebc6ca8cc85baef08b1d9d8164cf79da2a2f3f4ca48fb54a9d87b98",
+      "url": "https://github.com/tiagolr/filtr/releases/download/v1.3.0/filtr-win-v1.3.0.zip",
+      "downloads": 991
+    }
+  ],
+  "verified": true,
+  "downloads": 2004
+}

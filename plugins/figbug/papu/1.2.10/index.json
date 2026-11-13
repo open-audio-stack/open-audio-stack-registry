@@ -1,0 +1,83 @@
+{
+  "name": "PAPU",
+  "author": "Roland Rabien",
+  "description": "Gameboy PAPU sound chip emulation, available as a VST2/VST3/AU/CLAP/LV2 plugin.",
+  "license": "gpl-2.0",
+  "type": "instrument",
+  "tags": [
+    "Chiptune",
+    "Emulation",
+    "Gameboy"
+  ],
+  "url": "https://github.com/FigBug/PAPU",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/figbug/papu/papu.jpg",
+  "date": "2026-08-17T23:30:33Z",
+  "changes": "- General bug fixes and improvements\n",
+  "files": [
+    {
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst",
+        "vst3",
+        "clap",
+        "lv2"
+      ],
+      "type": "installer",
+      "size": 30250868,
+      "sha256": "dd7fa60809c8a5bca8c2b83ac7879da14c56d3fb93ec002bc27f7ca49a48e2b2",
+      "url": "https://github.com/FigBug/PAPU/releases/download/v1.2.10/PAPU.deb",
+      "downloads": 36
+    },
+    {
+      "systems": [
+        {
+          "type": "win"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "dll",
+        "vst3",
+        "clap"
+      ],
+      "type": "installer",
+      "size": 7938208,
+      "sha256": "25ae26c25667e83c20895fcd5279af3da4e56bf92cf233136248af354732df9e",
+      "url": "https://github.com/FigBug/PAPU/releases/download/v1.2.10/PAPU.exe",
+      "downloads": 43
+    },
+    {
+      "systems": [
+        {
+          "type": "mac"
+        }
+      ],
+      "architectures": [
+        "arm64",
+        "x64"
+      ],
+      "contains": [
+        "vst",
+        "vst3",
+        "component",
+        "clap"
+      ],
+      "type": "installer",
+      "size": 45599405,
+      "sha256": "56f30fa798fd5719ee36f15b063ba8f6b1d8caef269a6b766fcb09778a072609",
+      "url": "https://github.com/FigBug/PAPU/releases/download/v1.2.10/PAPU.pkg",
+      "downloads": 36
+    }
+  ],
+  "verified": true,
+  "downloads": 115
+}
