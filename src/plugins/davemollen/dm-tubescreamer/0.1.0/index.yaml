@@ -1,0 +1,81 @@
+name: dm-TubeScreamer
+author: Dave Mollen
+description: Overdrive plugin
+license: gpl-3.0
+type: effect
+tags:
+  - overdrive
+  - Au
+url: https://github.com/davemollen/dm-TubeScreamer
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/davemollen/dm-tubescreamer/dm-tubescreamer.jpg
+date: '2026-10-30T14:46:36Z'
+changes: "Plugin changes:\r\n* Lower CPU usage on filter calculations\r\n* Reset internal state on activation\r\n\r\nLV2 / MOD plugin changes only:\r\n* Fades are applied when bypass is turned on and off\r\n* Processing is skipped when bypass is active for lower CPU usage"
+files:
+  - systems:
+      - type: mac
+    architectures:
+      - arm64
+      - x64
+    contains:
+      - vst3
+      - component
+      - clap
+      - lv2
+    type: archive
+    size: 21343300
+    sha256: 37ba057b9f1f52a378b228aeb0550acd11435b98fce9ab36e874aea9319d51fa
+    url: https://github.com/davemollen/dm-TubeScreamer/releases/download/v0.1.0/dm-TubeScreamer-macos.zip
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - lv2
+    type: archive
+    size: 925496
+    sha256: a0d9e0615e58bcd7ab1df9a60a6ef13e4852c3f05d7ea7dd3bf6b03212277909
+    url: https://github.com/davemollen/dm-TubeScreamer/releases/download/v0.1.0/dm-TubeScreamer-modduo-new.zip
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - lv2
+    type: archive
+    size: 913905
+    sha256: 53e0f15b679c8a6d5a55ec62cedaed3ab3cd20d8457c39e09ddd5e5b17934ed9
+    url: https://github.com/davemollen/dm-TubeScreamer/releases/download/v0.1.0/dm-TubeScreamer-modduox-new.zip
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - lv2
+    type: archive
+    size: 913580
+    sha256: bc82f9c09f304061cb9720160e452b2b144a598e50f24f86f00411f39895d064
+    url: https://github.com/davemollen/dm-TubeScreamer/releases/download/v0.1.0/dm-TubeScreamer-moddwarf-new.zip
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - vst3
+      - clap
+      - lv2
+    type: archive
+    size: 8003911
+    sha256: c3b1466617868810fbe0d461d79d5eadaad9442ff39e1780f3c76c1ca8c335b5
+    url: https://github.com/davemollen/dm-TubeScreamer/releases/download/v0.1.0/dm-TubeScreamer-ubuntu.zip
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - vst3
+      - clap
+      - lv2
+    type: archive
+    size: 7368240
+    sha256: c5b06135b26e30d15961ceba7f9b42cfc1c350a2b95df2b18901a3e59bab113a
+    url: https://github.com/davemollen/dm-TubeScreamer/releases/download/v0.1.0/dm-TubeScreamer-windows.zip
