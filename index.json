@@ -418,7 +418,7 @@
               "size": 27877081,
               "sha256": "4601e7f4e4c03e59a4c5b5000216ef3add3e808799cfccd95e14e83ea4611081",
               "url": "https://github.com/Rikorose/DeepFilterNet/releases/download/v0.5.6/deep-filter-0.5.6-aarch64-apple-darwin",
-              "downloads": 27016
+              "downloads": 27018
             },
             {
               "systems": [
@@ -502,10 +502,10 @@
             }
           ],
           "verified": true,
-          "downloads": 207776
+          "downloads": 207778
         }
       },
-      "downloads": 207776
+      "downloads": 207778
     },
     "pkunk/pwrate": {
       "slug": "pkunk/pwrate",
@@ -635,7 +635,7 @@
               "size": 8539302,
               "sha256": "c9a6469e888432e2844bc6c90637eb8c58f969d07dd31b231796b83ccc3366c4",
               "url": "https://github.com/monocasual/giada/releases/download/1.6.0/giada-1.6.0-arm64-macos.zip",
-              "downloads": 788
+              "downloads": 789
             },
             {
               "systems": [
@@ -655,7 +655,7 @@
             }
           ],
           "verified": true,
-          "downloads": 3358
+          "downloads": 3359
         },
         "1.5.0": {
           "name": "Giada",
@@ -711,7 +711,7 @@
           "downloads": 4245
         }
       },
-      "downloads": 7603
+      "downloads": 7604
     },
     "michele-perrone/openpiano": {
       "slug": "michele-perrone/openpiano",
@@ -4079,11 +4079,11 @@
               "size": 10944512,
               "sha256": "4e6e14da03cbd4513d890fac01889982e3cd96b2cdeb73678507a09b0c463f7f",
               "url": "https://github.com/ZL-Audio/ZLCompressor/releases/download/0.6.1/ZL.Compressor-0.6.1-Windows-x86-64.msi",
-              "downloads": 1009
+              "downloads": 1010
             }
           ],
           "verified": true,
-          "downloads": 3222
+          "downloads": 3223
         },
         "0.5.0": {
           "name": "ZL Compressor",
@@ -4270,7 +4270,7 @@
           "downloads": 7825
         }
       },
-      "downloads": 11047
+      "downloads": 11048
     },
     "zhiyualexzhang/multimeter": {
       "slug": "zhiyualexzhang/multimeter",
@@ -15665,7 +15665,7 @@
               "size": 140693153,
               "sha256": "4ba6eff849973238f45e0a3538b90c9a2d64c0b001d62882d0d337f46e0ddaa9",
               "url": "https://github.com/sonosaurus/sonobus/releases/download/1.7.2/sonobus-1.7.2-mac.dmg",
-              "downloads": 22333
+              "downloads": 22334
             },
             {
               "systems": [
@@ -15690,10 +15690,10 @@
             }
           ],
           "verified": true,
-          "downloads": 42917
+          "downloads": 42918
         }
       },
-      "downloads": 42917
+      "downloads": 42918
     },
     "solidfuel/utility": {
       "slug": "solidfuel/utility",
@@ -45830,14 +45830,14 @@
               "size": 13478020,
               "sha256": "dea56a898c88b838e37f92967fe0edfe41b1bd2aa16ed9a240e3f44efb525a5c",
               "url": "https://github.com/freepats/hang-D-minor/releases/download/2022-03-30/Hang-D-minor-SFZ%2BFLAC-20220330.7z",
-              "downloads": 1253
+              "downloads": 1254
             }
           ],
           "verified": true,
-          "downloads": 1253
+          "downloads": 1254
         }
       },
-      "downloads": 1253
+      "downloads": 1254
     },
     "freepats/glasses-of-water": {
       "slug": "freepats/glasses-of-water",
@@ -47924,7 +47924,8 @@
               "type": "archive",
               "size": 3829376,
               "sha256": "8d25dad9eef36d983e44e2fcbd5ec199ccf9a00d2ac13517d7f4abe2aa6b0ffd",
-              "url": "https://github.com/Fannon/trace-tuner/releases/download/v1.1.3/TraceTuner_linux.zip"
+              "url": "https://github.com/Fannon/trace-tuner/releases/download/v1.1.3/TraceTuner_linux.zip",
+              "downloads": 14
             },
             {
               "systems": [
@@ -47942,7 +47943,8 @@
               "type": "archive",
               "size": 3228016,
               "sha256": "1e8ec0574f643b0ff565d4e452e46009bfa7c9e484627dacea29258b4d35a078",
-              "url": "https://github.com/Fannon/trace-tuner/releases/download/v1.1.3/TraceTuner_macos.zip"
+              "url": "https://github.com/Fannon/trace-tuner/releases/download/v1.1.3/TraceTuner_macos.zip",
+              "downloads": 10
             },
             {
               "systems": [
@@ -47960,12 +47962,15 @@
               "type": "archive",
               "size": 3140358,
               "sha256": "0ada133f73fc068d0596a674f4df37d1aa96e916ab45d4fe66ed4278f51f7fa8",
-              "url": "https://github.com/Fannon/trace-tuner/releases/download/v1.1.3/TraceTuner_windows.zip"
+              "url": "https://github.com/Fannon/trace-tuner/releases/download/v1.1.3/TraceTuner_windows.zip",
+              "downloads": 11
             }
           ],
-          "verified": true
+          "verified": true,
+          "downloads": 35
         }
-      }
+      },
+      "downloads": 35
     },
     "falktx/carla": {
       "slug": "falktx/carla",
@@ -48006,7 +48011,8 @@
               "type": "installer",
               "size": 381733941,
               "sha256": "d797ec83ac9bbd402cb116d1b562cbb6d786b355f42233436546fbf2bc4015e9",
-              "url": "https://github.com/falkTX/Carla/releases/download/v2.5.9/Carla-2.5.9-macOS-universal.dmg"
+              "url": "https://github.com/falkTX/Carla/releases/download/v2.5.9/Carla-2.5.9-macOS-universal.dmg",
+              "downloads": 2404
             },
             {
               "systems": [
@@ -48025,10 +48031,12 @@
               "type": "archive",
               "size": 246800688,
               "sha256": "de0091c4cc5fdcfdb4f589434d6e23554790d9b6c484908f7e31afebfd627565",
-              "url": "https://github.com/falkTX/Carla/releases/download/v2.5.9/Carla-2.5.9-win64.zip"
+              "url": "https://github.com/falkTX/Carla/releases/download/v2.5.9/Carla-2.5.9-win64.zip",
+              "downloads": 10580
             }
           ],
-          "verified": true
+          "verified": true,
+          "downloads": 12984
         },
         "2.5.10": {
           "name": "Carla",
@@ -48065,7 +48073,8 @@
               "type": "installer",
               "size": 368461548,
               "sha256": "a30e98409974493ade18f598566628369fee67f179a84e1c2cc3ae46a71808b1",
-              "url": "https://github.com/falkTX/Carla/releases/download/v2.5.10/Carla-2.5.10-macOS-universal.dmg"
+              "url": "https://github.com/falkTX/Carla/releases/download/v2.5.10/Carla-2.5.10-macOS-universal.dmg",
+              "downloads": 5617
             },
             {
               "systems": [
@@ -48084,12 +48093,15 @@
               "type": "archive",
               "size": 247507775,
               "sha256": "56264cd860b3e6e7b29221fb1e46d7d8a288fb001500f830bcd739ec7b115650",
-              "url": "https://github.com/falkTX/Carla/releases/download/v2.5.10/Carla-2.5.10-win64.zip"
+              "url": "https://github.com/falkTX/Carla/releases/download/v2.5.10/Carla-2.5.10-win64.zip",
+              "downloads": 20953
             }
           ],
-          "verified": true
+          "verified": true,
+          "downloads": 26570
         }
-      }
+      },
+      "downloads": 39554
     },
     "fake-industries/fuzzball": {
       "slug": "fake-industries/fuzzball",
@@ -48125,12 +48137,15 @@
               "type": "installer",
               "size": 184432,
               "sha256": "cf5a8ffa869de74551062f349aad450b6c6c63144e2f4dc47f1b47937a92f913",
-              "url": "https://github.com/fake-industries/fuzzball/releases/download/v1.1/FuzzBall-v1.1.pkg"
+              "url": "https://github.com/fake-industries/fuzzball/releases/download/v1.1/FuzzBall-v1.1.pkg",
+              "downloads": 540
             }
           ],
-          "verified": true
+          "verified": true,
+          "downloads": 540
         }
-      }
+      },
+      "downloads": 540
     },
     "ezforever/viruz2": {
       "slug": "ezforever/viruz2",
@@ -48166,7 +48181,8 @@
               "type": "archive",
               "size": 10825477,
               "sha256": "7f40aa1c42758121443b0e9898b50c5b39d01b8058c7b7df25cb26e59f63d657",
-              "url": "https://github.com/EZForever/Viruz2/releases/download/231222/Viruz2-231222-Win32.zip"
+              "url": "https://github.com/EZForever/Viruz2/releases/download/231222/Viruz2-231222-Win32.zip",
+              "downloads": 57
             },
             {
               "systems": [
@@ -48183,12 +48199,15 @@
               "type": "archive",
               "size": 11620773,
               "sha256": "cd152b966163e795da774237a720977788bfcae19ffe959406e5bc1cca3af306",
-              "url": "https://github.com/EZForever/Viruz2/releases/download/231222/Viruz2-231222-x64.zip"
+              "url": "https://github.com/EZForever/Viruz2/releases/download/231222/Viruz2-231222-x64.zip",
+              "downloads": 82
             }
           ],
-          "verified": true
+          "verified": true,
+          "downloads": 139
         }
-      }
+      },
+      "downloads": 139
     },
     "eyaldelarea/cycloscope": {
       "slug": "eyaldelarea/cycloscope",
@@ -48229,7 +48248,8 @@
               "type": "installer",
               "size": 17716690,
               "sha256": "9d6ac292b731ab17901289f47d84da6c99d053050c7f2e001b495050fb6bcf71",
-              "url": "https://github.com/EyalDelarea/Cycloscope/releases/download/v0.2.0/Cycloscope-0.2.0-macOS.pkg"
+              "url": "https://github.com/EyalDelarea/Cycloscope/releases/download/v0.2.0/Cycloscope-0.2.0-macOS.pkg",
+              "downloads": 27
             },
             {
               "systems": [
@@ -48249,7 +48269,8 @@
               "type": "archive",
               "size": 17735875,
               "sha256": "9596742872a82c1bb68e2e7475874bda885f586a6623863dc36c0aeca68eefcd",
-              "url": "https://github.com/EyalDelarea/Cycloscope/releases/download/v0.2.0/Cycloscope-0.2.0-macOS.zip"
+              "url": "https://github.com/EyalDelarea/Cycloscope/releases/download/v0.2.0/Cycloscope-0.2.0-macOS.zip",
+              "downloads": 6
             },
             {
               "systems": [
@@ -48267,12 +48288,15 @@
               "type": "archive",
               "size": 7179250,
               "sha256": "dd66d28b6a4be0cbf1a0bb4e1bf002c671e0c528aa3bf33cb984578b2e1b7b11",
-              "url": "https://github.com/EyalDelarea/Cycloscope/releases/download/v0.2.0/Cycloscope-0.2.0-Windows.zip"
+              "url": "https://github.com/EyalDelarea/Cycloscope/releases/download/v0.2.0/Cycloscope-0.2.0-Windows.zip",
+              "downloads": 30
             }
           ],
-          "verified": true
+          "verified": true,
+          "downloads": 63
         }
-      }
+      },
+      "downloads": 63
     },
     "ewonrael/billiedrum": {
       "slug": "ewonrael/billiedrum",
@@ -48361,12 +48385,15 @@
               "type": "archive",
               "size": 2046503,
               "sha256": "816e59fc1bfa54c1263db5f2f798d1024eb78681d7edf5b85e4419397e907a91",
-              "url": "https://github.com/Everither/dust-saturator/releases/download/v0.1.1/dust_saturator_v0.1.1.vst3.zip"
+              "url": "https://github.com/Everither/dust-saturator/releases/download/v0.1.1/dust_saturator_v0.1.1.vst3.zip",
+              "downloads": 43
             }
           ],
-          "verified": true
+          "verified": true,
+          "downloads": 43
         }
-      }
+      },
+      "downloads": 43
     },
     "eulmour/handyosc": {
       "slug": "eulmour/handyosc",
@@ -50378,8 +50405,136 @@
     },
     "davemollen/dm-whammy": {
       "slug": "davemollen/dm-whammy",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "versions": {
+        "0.1.1": {
+          "name": "dm-Whammy",
+          "author": "Dave Mollen",
+          "description": "Pitchshift plugin",
+          "license": "gpl-3.0",
+          "type": "effect",
+          "tags": [
+            "pitch-shift",
+            "Au"
+          ],
+          "url": "https://github.com/davemollen/dm-Whammy",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/davemollen/dm-whammy/dm-whammy.jpg",
+          "date": "2026-10-30T14:38:45Z",
+          "changes": "Plugin changes:\r\n* Reset internal state on activation\r\n\r\nLV2 / MOD plugin changes only:\r\n* Fades are applied when bypass is turned on and off\r\n* Processing is skipped when bypass is active for lower CPU usage",
+          "files": [
+            {
+              "systems": [
+                {
+                  "type": "mac"
+                }
+              ],
+              "architectures": [
+                "arm64",
+                "x64"
+              ],
+              "contains": [
+                "vst3",
+                "component",
+                "clap",
+                "lv2"
+              ],
+              "type": "archive",
+              "size": 21399045,
+              "sha256": "1314ea6b23789e50e2092ba18febb770112cd24eab8be11bbb37b6ae3f64a609",
+              "url": "https://github.com/davemollen/dm-Whammy/releases/download/v0.1.1/dm-Whammy-macos.zip"
+            },
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "lv2"
+              ],
+              "type": "archive",
+              "size": 923064,
+              "sha256": "6135458fcfc488145f0c6b0b463276d989ae9db0ed16c7c6642f34473301ba68",
+              "url": "https://github.com/davemollen/dm-Whammy/releases/download/v0.1.1/dm-Whammy-modduo-new.zip"
+            },
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "lv2"
+              ],
+              "type": "archive",
+              "size": 912494,
+              "sha256": "8c9fe08714fd550c722e4bc4b994921c41150cf092a85662dfc958259a5cde39",
+              "url": "https://github.com/davemollen/dm-Whammy/releases/download/v0.1.1/dm-Whammy-modduox-new.zip"
+            },
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "lv2"
+              ],
+              "type": "archive",
+              "size": 912245,
+              "sha256": "6692cfd8a5e1283a836298bd75a98e51b9a0056223898256a87e71be4b46e4b4",
+              "url": "https://github.com/davemollen/dm-Whammy/releases/download/v0.1.1/dm-Whammy-moddwarf-new.zip"
+            },
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "vst3",
+                "clap",
+                "lv2"
+              ],
+              "type": "archive",
+              "size": 8022730,
+              "sha256": "2db6e555939e9d37dc57ad68728e7d984a1f517d8ebcc760eeeb419d887014a9",
+              "url": "https://github.com/davemollen/dm-Whammy/releases/download/v0.1.1/dm-Whammy-ubuntu.zip"
+            },
+            {
+              "systems": [
+                {
+                  "type": "win"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "vst3",
+                "clap",
+                "lv2"
+              ],
+              "type": "archive",
+              "size": 7405769,
+              "sha256": "9e075341c87d1967db806f7013e0bf3d132cd180abe439860fcd1e3b2f394b39",
+              "url": "https://github.com/davemollen/dm-Whammy/releases/download/v0.1.1/dm-Whammy-windows.zip"
+            }
+          ],
+          "verified": true
+        },
         "0.1.0": {
           "name": "dm-Whammy",
           "author": "Dave Mollen",
@@ -50512,8 +50667,137 @@
     },
     "davemollen/dm-vibrato": {
       "slug": "davemollen/dm-vibrato",
-      "version": "0.0.9",
+      "version": "0.1.0",
       "versions": {
+        "0.1.0": {
+          "name": "dm-Vibrato",
+          "author": "Dave Mollen",
+          "description": "Vibrato plugin",
+          "license": "gpl-3.0",
+          "type": "effect",
+          "tags": [
+            "vibrato",
+            "modulation",
+            "Au"
+          ],
+          "url": "https://github.com/davemollen/dm-Vibrato",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/davemollen/dm-vibrato/dm-vibrato.jpg",
+          "date": "2026-10-30T14:39:03Z",
+          "changes": "Plugin changes:\r\n* Reset internal state on activation\r\n\r\nLV2 / MOD plugin changes only:\r\n* Fades are applied when bypass is turned on and off\r\n* Processing is skipped when bypass is active for lower CPU usage",
+          "files": [
+            {
+              "systems": [
+                {
+                  "type": "mac"
+                }
+              ],
+              "architectures": [
+                "arm64",
+                "x64"
+              ],
+              "contains": [
+                "vst3",
+                "component",
+                "clap",
+                "lv2"
+              ],
+              "type": "archive",
+              "size": 21494120,
+              "sha256": "119c9ae94db2a6fcf98fea098305e2bdb7f645b63efca600f435ca8b2a849966",
+              "url": "https://github.com/davemollen/dm-Vibrato/releases/download/v0.1.0/dm-Vibrato-macos.zip"
+            },
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "lv2"
+              ],
+              "type": "archive",
+              "size": 952477,
+              "sha256": "bd1274f57171b8730c0e8b0355e1b2078a6c6b70740097504cbd3fe8b45c6fd5",
+              "url": "https://github.com/davemollen/dm-Vibrato/releases/download/v0.1.0/dm-Vibrato-modduo-new.zip"
+            },
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "lv2"
+              ],
+              "type": "archive",
+              "size": 940513,
+              "sha256": "5cc951efc1b3ad361ec4ecd71d71f0c6743cff622f86fa7ac73e13a9a0ded1fc",
+              "url": "https://github.com/davemollen/dm-Vibrato/releases/download/v0.1.0/dm-Vibrato-modduox-new.zip"
+            },
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "lv2"
+              ],
+              "type": "archive",
+              "size": 940142,
+              "sha256": "e3f96d8a778f9f255ea67a1031f998276d77cd2c50c1917804ce33c827b8a8f8",
+              "url": "https://github.com/davemollen/dm-Vibrato/releases/download/v0.1.0/dm-Vibrato-moddwarf-new.zip"
+            },
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "vst3",
+                "clap",
+                "lv2"
+              ],
+              "type": "archive",
+              "size": 8081103,
+              "sha256": "a51eb3a1f131c2d4554a1bd11c440f88d8644fd939a6502396d4c5cc34b18d98",
+              "url": "https://github.com/davemollen/dm-Vibrato/releases/download/v0.1.0/dm-Vibrato-ubuntu.zip"
+            },
+            {
+              "systems": [
+                {
+                  "type": "win"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "vst3",
+                "clap",
+                "lv2"
+              ],
+              "type": "archive",
+              "size": 7446664,
+              "sha256": "1bf0039a387504a89d83980aeded15fa0997830edc3b7c8bfc6b7333d9b99c9c",
+              "url": "https://github.com/davemollen/dm-Vibrato/releases/download/v0.1.0/dm-Vibrato-windows.zip"
+            }
+          ],
+          "verified": true
+        },
         "0.0.9": {
           "name": "dm-Vibrato",
           "author": "Dave Mollen",
@@ -50647,8 +50931,136 @@
     },
     "davemollen/dm-tubescreamer": {
       "slug": "davemollen/dm-tubescreamer",
-      "version": "0.0.9",
+      "version": "0.1.0",
       "versions": {
+        "0.1.0": {
+          "name": "dm-TubeScreamer",
+          "author": "Dave Mollen",
+          "description": "Overdrive plugin",
+          "license": "gpl-3.0",
+          "type": "effect",
+          "tags": [
+            "overdrive",
+            "Au"
+          ],
+          "url": "https://github.com/davemollen/dm-TubeScreamer",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/davemollen/dm-tubescreamer/dm-tubescreamer.jpg",
+          "date": "2026-10-30T14:46:36Z",
+          "changes": "Plugin changes:\r\n* Lower CPU usage on filter calculations\r\n* Reset internal state on activation\r\n\r\nLV2 / MOD plugin changes only:\r\n* Fades are applied when bypass is turned on and off\r\n* Processing is skipped when bypass is active for lower CPU usage",
+          "files": [
+            {
+              "systems": [
+                {
+                  "type": "mac"
+                }
+              ],
+              "architectures": [
+                "arm64",
+                "x64"
+              ],
+              "contains": [
+                "vst3",
+                "component",
+                "clap",
+                "lv2"
+              ],
+              "type": "archive",
+              "size": 21343300,
+              "sha256": "37ba057b9f1f52a378b228aeb0550acd11435b98fce9ab36e874aea9319d51fa",
+              "url": "https://github.com/davemollen/dm-TubeScreamer/releases/download/v0.1.0/dm-TubeScreamer-macos.zip"
+            },
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "lv2"
+              ],
+              "type": "archive",
+              "size": 925496,
+              "sha256": "a0d9e0615e58bcd7ab1df9a60a6ef13e4852c3f05d7ea7dd3bf6b03212277909",
+              "url": "https://github.com/davemollen/dm-TubeScreamer/releases/download/v0.1.0/dm-TubeScreamer-modduo-new.zip"
+            },
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "lv2"
+              ],
+              "type": "archive",
+              "size": 913905,
+              "sha256": "53e0f15b679c8a6d5a55ec62cedaed3ab3cd20d8457c39e09ddd5e5b17934ed9",
+              "url": "https://github.com/davemollen/dm-TubeScreamer/releases/download/v0.1.0/dm-TubeScreamer-modduox-new.zip"
+            },
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "lv2"
+              ],
+              "type": "archive",
+              "size": 913580,
+              "sha256": "bc82f9c09f304061cb9720160e452b2b144a598e50f24f86f00411f39895d064",
+              "url": "https://github.com/davemollen/dm-TubeScreamer/releases/download/v0.1.0/dm-TubeScreamer-moddwarf-new.zip"
+            },
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "vst3",
+                "clap",
+                "lv2"
+              ],
+              "type": "archive",
+              "size": 8003911,
+              "sha256": "c3b1466617868810fbe0d461d79d5eadaad9442ff39e1780f3c76c1ca8c335b5",
+              "url": "https://github.com/davemollen/dm-TubeScreamer/releases/download/v0.1.0/dm-TubeScreamer-ubuntu.zip"
+            },
+            {
+              "systems": [
+                {
+                  "type": "win"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "vst3",
+                "clap",
+                "lv2"
+              ],
+              "type": "archive",
+              "size": 7368240,
+              "sha256": "c5b06135b26e30d15961ceba7f9b42cfc1c350a2b95df2b18901a3e59bab113a",
+              "url": "https://github.com/davemollen/dm-TubeScreamer/releases/download/v0.1.0/dm-TubeScreamer-windows.zip"
+            }
+          ],
+          "verified": true
+        },
         "0.0.9": {
           "name": "dm-TubeScreamer",
           "author": "Dave Mollen",
@@ -50781,8 +51193,138 @@
     },
     "davemollen/dm-timewarp": {
       "slug": "davemollen/dm-timewarp",
-      "version": "0.0.9",
+      "version": "0.1.0",
       "versions": {
+        "0.1.0": {
+          "name": "dm-TimeWarp",
+          "author": "Dave Mollen",
+          "description": "Granular delay, looper & sampler plugin with time stretch capabilities",
+          "license": "gpl-3.0",
+          "type": "effect",
+          "tags": [
+            "granular",
+            "delay",
+            "looper",
+            "time-stretch"
+          ],
+          "url": "https://github.com/davemollen/dm-TimeWarp",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/davemollen/dm-timewarp/dm-timewarp.jpg",
+          "date": "2026-08-21T16:17:59Z",
+          "changes": "Changelog:\r\n* Added a manual. \r\n* Reordered parameters.\r\n* Setting length to 0% will result in the minimum delay time of 10ms instead of 0ms now.\r\n* Applied short fades to the start and end of loaded audio files in the “Sampler” sample mode to prevent cli",
+          "files": [
+            {
+              "systems": [
+                {
+                  "type": "mac"
+                }
+              ],
+              "architectures": [
+                "arm64",
+                "x64"
+              ],
+              "contains": [
+                "vst3",
+                "component",
+                "clap",
+                "lv2"
+              ],
+              "type": "archive",
+              "size": 40300686,
+              "sha256": "478ec8d549f00d4e98a9997501dd6f48d5bd1aea774690fb6a4bb667f79e680a",
+              "url": "https://github.com/davemollen/dm-TimeWarp/releases/download/v0.1.0/dm-TimeWarp-macos.zip"
+            },
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "lv2"
+              ],
+              "type": "archive",
+              "size": 4138036,
+              "sha256": "30cb5db14e0ae7f9f4b354b18db24fc87848c0810e5540a53808192ca770d01f",
+              "url": "https://github.com/davemollen/dm-TimeWarp/releases/download/v0.1.0/dm-TimeWarp-modduo-new.zip"
+            },
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "lv2"
+              ],
+              "type": "archive",
+              "size": 4233036,
+              "sha256": "101a267322664be0849fdaa096b838a5c2899e5246728edf8e9f530d072aa5ce",
+              "url": "https://github.com/davemollen/dm-TimeWarp/releases/download/v0.1.0/dm-TimeWarp-modduox-new.zip"
+            },
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "lv2"
+              ],
+              "type": "archive",
+              "size": 4221099,
+              "sha256": "67a828554ab6af928c98a2c9b20ff679965defce63397ad8ffad04fcccbf188c",
+              "url": "https://github.com/davemollen/dm-TimeWarp/releases/download/v0.1.0/dm-TimeWarp-moddwarf-new.zip"
+            },
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "vst3",
+                "clap",
+                "lv2"
+              ],
+              "type": "archive",
+              "size": 18331254,
+              "sha256": "a08bd07619a05e35b9bf8b518dc5c5c927cd43c666578c755458936aea3d092e",
+              "url": "https://github.com/davemollen/dm-TimeWarp/releases/download/v0.1.0/dm-TimeWarp-ubuntu.zip"
+            },
+            {
+              "systems": [
+                {
+                  "type": "win"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "vst3",
+                "clap",
+                "lv2"
+              ],
+              "type": "archive",
+              "size": 16082246,
+              "sha256": "faee227b8c3bd27a8745d003eb74c2ce7e0ac748d8e888e1c8c7487ffe643ca3",
+              "url": "https://github.com/davemollen/dm-TimeWarp/releases/download/v0.1.0/dm-TimeWarp-windows.zip"
+            }
+          ],
+          "verified": true
+        },
         "0.0.9": {
           "name": "dm-TimeWarp",
           "author": "Dave Mollen",
@@ -50917,8 +51459,138 @@
     },
     "davemollen/dm-stutter": {
       "slug": "davemollen/dm-stutter",
-      "version": "0.1.4",
+      "version": "0.1.5",
       "versions": {
+        "0.1.5": {
+          "name": "dm-Stutter",
+          "author": "Dave Mollen",
+          "description": "Stuttering delay plugin",
+          "license": "gpl-3.0",
+          "type": "effect",
+          "tags": [
+            "stutter",
+            "glitch",
+            "delay",
+            "Au"
+          ],
+          "url": "https://github.com/davemollen/dm-Stutter",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/davemollen/dm-stutter/dm-stutter.jpg",
+          "date": "2026-10-31T11:56:23Z",
+          "changes": "Plugin changes:\r\n* Reset internal state on activation\r\n\r\nLV2 / MOD plugin changes only:\r\n* Fades are applied when bypass is turned on and off\r\n* Processing is skipped when bypass is active for lower CPU usage\r\n* Added port groups",
+          "files": [
+            {
+              "systems": [
+                {
+                  "type": "mac"
+                }
+              ],
+              "architectures": [
+                "arm64",
+                "x64"
+              ],
+              "contains": [
+                "vst3",
+                "component",
+                "clap",
+                "lv2"
+              ],
+              "type": "archive",
+              "size": 20206257,
+              "sha256": "32f9303686b46099f5f2877b8d933951b8096fa044983554fa355a1f933fcccd",
+              "url": "https://github.com/davemollen/dm-Stutter/releases/download/v0.1.5/dm-Stutter-macos.zip"
+            },
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "lv2"
+              ],
+              "type": "archive",
+              "size": 858745,
+              "sha256": "d7c2d6024f8e205417e046da1b4403ee23d0c3e4c09874efc2eec516157b5dd2",
+              "url": "https://github.com/davemollen/dm-Stutter/releases/download/v0.1.5/dm-Stutter-modduo-new.zip"
+            },
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "lv2"
+              ],
+              "type": "archive",
+              "size": 845903,
+              "sha256": "386f8ee994433567099e45d2a861b69c8d7757cc40dca63d75feae969562c0c5",
+              "url": "https://github.com/davemollen/dm-Stutter/releases/download/v0.1.5/dm-Stutter-modduox-new.zip"
+            },
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "lv2"
+              ],
+              "type": "archive",
+              "size": 845600,
+              "sha256": "0aba11b70ec30d8b25e29b5b5733314fc319c50325a1ae512de41220950b4e1d",
+              "url": "https://github.com/davemollen/dm-Stutter/releases/download/v0.1.5/dm-Stutter-moddwarf-new.zip"
+            },
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "vst3",
+                "clap",
+                "lv2"
+              ],
+              "type": "archive",
+              "size": 7590342,
+              "sha256": "71bf1fd80df7544f213436bfb643c99245f7af063fb508f7f40bc926f0746662",
+              "url": "https://github.com/davemollen/dm-Stutter/releases/download/v0.1.5/dm-Stutter-ubuntu.zip"
+            },
+            {
+              "systems": [
+                {
+                  "type": "win"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "vst3",
+                "clap",
+                "lv2"
+              ],
+              "type": "archive",
+              "size": 6745752,
+              "sha256": "658f38080d743f1b762fbec139614ca976ed094d13a85a534f31847dccc35a10",
+              "url": "https://github.com/davemollen/dm-Stutter/releases/download/v0.1.5/dm-Stutter-windows.zip"
+            }
+          ],
+          "verified": true
+        },
         "0.1.4": {
           "name": "dm-Stutter",
           "author": "Dave Mollen",
@@ -51053,8 +51725,138 @@
     },
     "davemollen/dm-spaceecho": {
       "slug": "davemollen/dm-spaceecho",
-      "version": "0.1.6",
+      "version": "0.1.7",
       "versions": {
+        "0.1.7": {
+          "name": "dm-SpaceEcho",
+          "author": "Dave Mollen",
+          "description": "Delay and reverb plugin",
+          "license": "gpl-3.0",
+          "type": "effect",
+          "tags": [
+            "delay",
+            "reverb",
+            "tape-echo",
+            "Au"
+          ],
+          "url": "https://github.com/davemollen/dm-SpaceEcho",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/davemollen/dm-spaceecho/dm-spaceecho.jpg",
+          "date": "2026-10-30T07:54:09Z",
+          "changes": "Plugin changes:\r\n* Fixed stereo parameter implementation. At 0% it is now truly mono, at 100% truly stereo and the values in between are calculated correctly too now.\r\n* Slightly more CPU friendly crossfades are used\r\n* Reset internal state on activation\r",
+          "files": [
+            {
+              "systems": [
+                {
+                  "type": "mac"
+                }
+              ],
+              "architectures": [
+                "arm64",
+                "x64"
+              ],
+              "contains": [
+                "vst3",
+                "component",
+                "clap",
+                "lv2"
+              ],
+              "type": "archive",
+              "size": 20517476,
+              "sha256": "d942ebbfd531b7221e45305298eab795d97b1d2d7389bbcf010e4032059a870c",
+              "url": "https://github.com/davemollen/dm-SpaceEcho/releases/download/v0.1.7/dm-SpaceEcho-macos.zip"
+            },
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "lv2"
+              ],
+              "type": "archive",
+              "size": 1048003,
+              "sha256": "3f104a53c91b3717d597a72fef46dcbbbea55a2fac186f494853f6d6351bbd24",
+              "url": "https://github.com/davemollen/dm-SpaceEcho/releases/download/v0.1.7/dm-SpaceEcho-modduo-new.zip"
+            },
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "lv2"
+              ],
+              "type": "archive",
+              "size": 1034792,
+              "sha256": "88ba3cc9680e21898c60c5477388e23bea997843414be6b5c7ee66d376ac4050",
+              "url": "https://github.com/davemollen/dm-SpaceEcho/releases/download/v0.1.7/dm-SpaceEcho-modduox-new.zip"
+            },
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "lv2"
+              ],
+              "type": "archive",
+              "size": 1034311,
+              "sha256": "11c718d6ec0122553d71a344982751a25c2ebb61ffaadda41a7c649c446715a9",
+              "url": "https://github.com/davemollen/dm-SpaceEcho/releases/download/v0.1.7/dm-SpaceEcho-moddwarf-new.zip"
+            },
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "vst3",
+                "clap",
+                "lv2"
+              ],
+              "type": "archive",
+              "size": 7818207,
+              "sha256": "b66088e50b8acc32130663594e2cc096ba5acb7c1dea45b6d3ff35486a59e3c3",
+              "url": "https://github.com/davemollen/dm-SpaceEcho/releases/download/v0.1.7/dm-SpaceEcho-ubuntu.zip"
+            },
+            {
+              "systems": [
+                {
+                  "type": "win"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "vst3",
+                "clap",
+                "lv2"
+              ],
+              "type": "archive",
+              "size": 6972782,
+              "sha256": "424189b54698cd7e8a9c7a2c72cf9243f144472e49825a584ee1300bfaecf67f",
+              "url": "https://github.com/davemollen/dm-SpaceEcho/releases/download/v0.1.7/dm-SpaceEcho-windows.zip"
+            }
+          ],
+          "verified": true
+        },
         "0.1.6": {
           "name": "dm-SpaceEcho",
           "author": "Dave Mollen",
@@ -51189,8 +51991,136 @@
     },
     "davemollen/dm-shredmaster": {
       "slug": "davemollen/dm-shredmaster",
-      "version": "0.1.2",
+      "version": "0.1.3",
       "versions": {
+        "0.1.3": {
+          "name": "dm-Shredmaster",
+          "author": "Dave Mollen",
+          "description": "Distortion plugin",
+          "license": "gpl-3.0",
+          "type": "effect",
+          "tags": [
+            "distortion",
+            "Au"
+          ],
+          "url": "https://github.com/davemollen/dm-Shredmaster",
+          "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/davemollen/dm-shredmaster/dm-shredmaster.jpg",
+          "date": "2026-10-30T14:30:37Z",
+          "changes": "Plugin changes:\r\n* Lower CPU usage on filter calculations\r\n* Reset internal state on activation\r\n\r\nLV2 / MOD plugin changes only:\r\n* Fades are applied when bypass is turned on and off\r\n* Processing is skipped when bypass is active for lower CPU usage\r\n* F",
+          "files": [
+            {
+              "systems": [
+                {
+                  "type": "mac"
+                }
+              ],
+              "architectures": [
+                "arm64",
+                "x64"
+              ],
+              "contains": [
+                "vst3",
+                "component",
+                "clap",
+                "lv2"
+              ],
+              "type": "archive",
+              "size": 21384387,
+              "sha256": "eef4fc8366257c3211e59bbc3f90c23382bcb32d0fbb63267a76bf1379831b53",
+              "url": "https://github.com/davemollen/dm-Shredmaster/releases/download/v0.1.3/dm-Shredmaster-macos.zip"
+            },
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "lv2"
+              ],
+              "type": "archive",
+              "size": 865058,
+              "sha256": "d3639cb5d16ee7e9c2283796bf9953260b85464466dacb67d0932c95ccbf82b0",
+              "url": "https://github.com/davemollen/dm-Shredmaster/releases/download/v0.1.3/dm-Shredmaster-modduo-new.zip"
+            },
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "lv2"
+              ],
+              "type": "archive",
+              "size": 853008,
+              "sha256": "40f214c7680381c40fc8222f10f8a0813562cbba28ea19ff0160d58d8879ee50",
+              "url": "https://github.com/davemollen/dm-Shredmaster/releases/download/v0.1.3/dm-Shredmaster-modduox-new.zip"
+            },
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "lv2"
+              ],
+              "type": "archive",
+              "size": 852730,
+              "sha256": "f9ab44719461d8da3385991fe4e35a2dd49b6be9df5c221f26a17800170d077b",
+              "url": "https://github.com/davemollen/dm-Shredmaster/releases/download/v0.1.3/dm-Shredmaster-moddwarf-new.zip"
+            },
+            {
+              "systems": [
+                {
+                  "type": "linux"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "vst3",
+                "clap",
+                "lv2"
+              ],
+              "type": "archive",
+              "size": 7982188,
+              "sha256": "ade06537f4640afd1480f819ae1d6953f8ca166b907a68227de147c03e65fad1",
+              "url": "https://github.com/davemollen/dm-Shredmaster/releases/download/v0.1.3/dm-Shredmaster-ubuntu.zip"
+            },
+            {
+              "systems": [
+                {
+                  "type": "win"
+                }
+              ],
+              "architectures": [
+                "x64"
+              ],
+              "contains": [
+                "vst3",
+                "clap",
+                "lv2"
+              ],
+              "type": "archive",
+              "size": 7355354,
+              "sha256": "28b5c46d0e3fb6aa7cec4768e479c01faf5a5390652924974390e07a7d23ba82",
+              "url": "https://github.com/davemollen/dm-Shredmaster/releases/download/v0.1.3/dm-Shredmaster-windows.zip"
+            }
+          ],
+          "verified": true
+        },
         "0.1.2": {
           "name": "dm-Shredmaster",
           "author": "Dave Mollen",

@@ -1,7 +1,137 @@
 {
   "slug": "davemollen/dm-timewarp",
-  "version": "0.0.9",
+  "version": "0.1.0",
   "versions": {
+    "0.1.0": {
+      "name": "dm-TimeWarp",
+      "author": "Dave Mollen",
+      "description": "Granular delay, looper & sampler plugin with time stretch capabilities",
+      "license": "gpl-3.0",
+      "type": "effect",
+      "tags": [
+        "granular",
+        "delay",
+        "looper",
+        "time-stretch"
+      ],
+      "url": "https://github.com/davemollen/dm-TimeWarp",
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/davemollen/dm-timewarp/dm-timewarp.jpg",
+      "date": "2026-08-21T16:17:59Z",
+      "changes": "Changelog:\r\n* Added a manual. \r\n* Reordered parameters.\r\n* Setting length to 0% will result in the minimum delay time of 10ms instead of 0ms now.\r\n* Applied short fades to the start and end of loaded audio files in the “Sampler” sample mode to prevent cli",
+      "files": [
+        {
+          "systems": [
+            {
+              "type": "mac"
+            }
+          ],
+          "architectures": [
+            "arm64",
+            "x64"
+          ],
+          "contains": [
+            "vst3",
+            "component",
+            "clap",
+            "lv2"
+          ],
+          "type": "archive",
+          "size": 40300686,
+          "sha256": "478ec8d549f00d4e98a9997501dd6f48d5bd1aea774690fb6a4bb667f79e680a",
+          "url": "https://github.com/davemollen/dm-TimeWarp/releases/download/v0.1.0/dm-TimeWarp-macos.zip"
+        },
+        {
+          "systems": [
+            {
+              "type": "linux"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "lv2"
+          ],
+          "type": "archive",
+          "size": 4138036,
+          "sha256": "30cb5db14e0ae7f9f4b354b18db24fc87848c0810e5540a53808192ca770d01f",
+          "url": "https://github.com/davemollen/dm-TimeWarp/releases/download/v0.1.0/dm-TimeWarp-modduo-new.zip"
+        },
+        {
+          "systems": [
+            {
+              "type": "linux"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "lv2"
+          ],
+          "type": "archive",
+          "size": 4233036,
+          "sha256": "101a267322664be0849fdaa096b838a5c2899e5246728edf8e9f530d072aa5ce",
+          "url": "https://github.com/davemollen/dm-TimeWarp/releases/download/v0.1.0/dm-TimeWarp-modduox-new.zip"
+        },
+        {
+          "systems": [
+            {
+              "type": "linux"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "lv2"
+          ],
+          "type": "archive",
+          "size": 4221099,
+          "sha256": "67a828554ab6af928c98a2c9b20ff679965defce63397ad8ffad04fcccbf188c",
+          "url": "https://github.com/davemollen/dm-TimeWarp/releases/download/v0.1.0/dm-TimeWarp-moddwarf-new.zip"
+        },
+        {
+          "systems": [
+            {
+              "type": "linux"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "vst3",
+            "clap",
+            "lv2"
+          ],
+          "type": "archive",
+          "size": 18331254,
+          "sha256": "a08bd07619a05e35b9bf8b518dc5c5c927cd43c666578c755458936aea3d092e",
+          "url": "https://github.com/davemollen/dm-TimeWarp/releases/download/v0.1.0/dm-TimeWarp-ubuntu.zip"
+        },
+        {
+          "systems": [
+            {
+              "type": "win"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "vst3",
+            "clap",
+            "lv2"
+          ],
+          "type": "archive",
+          "size": 16082246,
+          "sha256": "faee227b8c3bd27a8745d003eb74c2ce7e0ac748d8e888e1c8c7487ffe643ca3",
+          "url": "https://github.com/davemollen/dm-TimeWarp/releases/download/v0.1.0/dm-TimeWarp-windows.zip"
+        }
+      ],
+      "verified": true
+    },
     "0.0.9": {
       "name": "dm-TimeWarp",
       "author": "Dave Mollen",

@@ -1,0 +1,130 @@
+{
+  "name": "dm-Stutter",
+  "author": "Dave Mollen",
+  "description": "Stuttering delay plugin",
+  "license": "gpl-3.0",
+  "type": "effect",
+  "tags": [
+    "stutter",
+    "glitch",
+    "delay",
+    "Au"
+  ],
+  "url": "https://github.com/davemollen/dm-Stutter",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/davemollen/dm-stutter/dm-stutter.jpg",
+  "date": "2026-10-31T11:56:23Z",
+  "changes": "Plugin changes:\r\n* Reset internal state on activation\r\n\r\nLV2 / MOD plugin changes only:\r\n* Fades are applied when bypass is turned on and off\r\n* Processing is skipped when bypass is active for lower CPU usage\r\n* Added port groups",
+  "files": [
+    {
+      "systems": [
+        {
+          "type": "mac"
+        }
+      ],
+      "architectures": [
+        "arm64",
+        "x64"
+      ],
+      "contains": [
+        "vst3",
+        "component",
+        "clap",
+        "lv2"
+      ],
+      "type": "archive",
+      "size": 20206257,
+      "sha256": "32f9303686b46099f5f2877b8d933951b8096fa044983554fa355a1f933fcccd",
+      "url": "https://github.com/davemollen/dm-Stutter/releases/download/v0.1.5/dm-Stutter-macos.zip"
+    },
+    {
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "lv2"
+      ],
+      "type": "archive",
+      "size": 858745,
+      "sha256": "d7c2d6024f8e205417e046da1b4403ee23d0c3e4c09874efc2eec516157b5dd2",
+      "url": "https://github.com/davemollen/dm-Stutter/releases/download/v0.1.5/dm-Stutter-modduo-new.zip"
+    },
+    {
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "lv2"
+      ],
+      "type": "archive",
+      "size": 845903,
+      "sha256": "386f8ee994433567099e45d2a861b69c8d7757cc40dca63d75feae969562c0c5",
+      "url": "https://github.com/davemollen/dm-Stutter/releases/download/v0.1.5/dm-Stutter-modduox-new.zip"
+    },
+    {
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "lv2"
+      ],
+      "type": "archive",
+      "size": 845600,
+      "sha256": "0aba11b70ec30d8b25e29b5b5733314fc319c50325a1ae512de41220950b4e1d",
+      "url": "https://github.com/davemollen/dm-Stutter/releases/download/v0.1.5/dm-Stutter-moddwarf-new.zip"
+    },
+    {
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3",
+        "clap",
+        "lv2"
+      ],
+      "type": "archive",
+      "size": 7590342,
+      "sha256": "71bf1fd80df7544f213436bfb643c99245f7af063fb508f7f40bc926f0746662",
+      "url": "https://github.com/davemollen/dm-Stutter/releases/download/v0.1.5/dm-Stutter-ubuntu.zip"
+    },
+    {
+      "systems": [
+        {
+          "type": "win"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3",
+        "clap",
+        "lv2"
+      ],
+      "type": "archive",
+      "size": 6745752,
+      "sha256": "658f38080d743f1b762fbec139614ca976ed094d13a85a534f31847dccc35a10",
+      "url": "https://github.com/davemollen/dm-Stutter/releases/download/v0.1.5/dm-Stutter-windows.zip"
+    }
+  ],
+  "verified": true
+}

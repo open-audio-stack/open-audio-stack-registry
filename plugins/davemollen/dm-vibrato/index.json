@@ -1,7 +1,136 @@
 {
   "slug": "davemollen/dm-vibrato",
-  "version": "0.0.9",
+  "version": "0.1.0",
   "versions": {
+    "0.1.0": {
+      "name": "dm-Vibrato",
+      "author": "Dave Mollen",
+      "description": "Vibrato plugin",
+      "license": "gpl-3.0",
+      "type": "effect",
+      "tags": [
+        "vibrato",
+        "modulation",
+        "Au"
+      ],
+      "url": "https://github.com/davemollen/dm-Vibrato",
+      "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/davemollen/dm-vibrato/dm-vibrato.jpg",
+      "date": "2026-10-30T14:39:03Z",
+      "changes": "Plugin changes:\r\n* Reset internal state on activation\r\n\r\nLV2 / MOD plugin changes only:\r\n* Fades are applied when bypass is turned on and off\r\n* Processing is skipped when bypass is active for lower CPU usage",
+      "files": [
+        {
+          "systems": [
+            {
+              "type": "mac"
+            }
+          ],
+          "architectures": [
+            "arm64",
+            "x64"
+          ],
+          "contains": [
+            "vst3",
+            "component",
+            "clap",
+            "lv2"
+          ],
+          "type": "archive",
+          "size": 21494120,
+          "sha256": "119c9ae94db2a6fcf98fea098305e2bdb7f645b63efca600f435ca8b2a849966",
+          "url": "https://github.com/davemollen/dm-Vibrato/releases/download/v0.1.0/dm-Vibrato-macos.zip"
+        },
+        {
+          "systems": [
+            {
+              "type": "linux"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "lv2"
+          ],
+          "type": "archive",
+          "size": 952477,
+          "sha256": "bd1274f57171b8730c0e8b0355e1b2078a6c6b70740097504cbd3fe8b45c6fd5",
+          "url": "https://github.com/davemollen/dm-Vibrato/releases/download/v0.1.0/dm-Vibrato-modduo-new.zip"
+        },
+        {
+          "systems": [
+            {
+              "type": "linux"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "lv2"
+          ],
+          "type": "archive",
+          "size": 940513,
+          "sha256": "5cc951efc1b3ad361ec4ecd71d71f0c6743cff622f86fa7ac73e13a9a0ded1fc",
+          "url": "https://github.com/davemollen/dm-Vibrato/releases/download/v0.1.0/dm-Vibrato-modduox-new.zip"
+        },
+        {
+          "systems": [
+            {
+              "type": "linux"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "lv2"
+          ],
+          "type": "archive",
+          "size": 940142,
+          "sha256": "e3f96d8a778f9f255ea67a1031f998276d77cd2c50c1917804ce33c827b8a8f8",
+          "url": "https://github.com/davemollen/dm-Vibrato/releases/download/v0.1.0/dm-Vibrato-moddwarf-new.zip"
+        },
+        {
+          "systems": [
+            {
+              "type": "linux"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "vst3",
+            "clap",
+            "lv2"
+          ],
+          "type": "archive",
+          "size": 8081103,
+          "sha256": "a51eb3a1f131c2d4554a1bd11c440f88d8644fd939a6502396d4c5cc34b18d98",
+          "url": "https://github.com/davemollen/dm-Vibrato/releases/download/v0.1.0/dm-Vibrato-ubuntu.zip"
+        },
+        {
+          "systems": [
+            {
+              "type": "win"
+            }
+          ],
+          "architectures": [
+            "x64"
+          ],
+          "contains": [
+            "vst3",
+            "clap",
+            "lv2"
+          ],
+          "type": "archive",
+          "size": 7446664,
+          "sha256": "1bf0039a387504a89d83980aeded15fa0997830edc3b7c8bfc6b7333d9b99c9c",
+          "url": "https://github.com/davemollen/dm-Vibrato/releases/download/v0.1.0/dm-Vibrato-windows.zip"
+        }
+      ],
+      "verified": true
+    },
     "0.0.9": {
       "name": "dm-Vibrato",
       "author": "Dave Mollen",
