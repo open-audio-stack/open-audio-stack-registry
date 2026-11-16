@@ -36,7 +36,7 @@
           "size": 5487278,
           "sha256": "30840e30ed7cf323e7f8142aaba260b538fcdd531be74d2fdf796fb6f0dacfa0",
           "url": "https://github.com/tiagolr/filtr/releases/download/v1.3.0/filtr-linux-v1.3.0.zip",
-          "downloads": 560
+          "downloads": 572
         },
         {
           "systems": [
@@ -56,7 +56,7 @@
           "size": 13395910,
           "sha256": "4a3c2f6128dd6c9b883857ac1bf37d8265dd3e44c9fe77a03f8c61d2834f43f1",
           "url": "https://github.com/tiagolr/filtr/releases/download/v1.3.0/filtr-macos-v1.3.0.zip",
-          "downloads": 456
+          "downloads": 469
         },
         {
           "systems": [
@@ -75,11 +75,11 @@
           "size": 6599776,
           "sha256": "7d77c3369ebc6ca8cc85baef08b1d9d8164cf79da2a2f3f4ca48fb54a9d87b98",
           "url": "https://github.com/tiagolr/filtr/releases/download/v1.3.0/filtr-win-v1.3.0.zip",
-          "downloads": 993
+          "downloads": 1041
         }
       ],
       "verified": true,
-      "downloads": 2009
+      "downloads": 2082
     },
     "1.1.0": {
       "name": "FILT-R",
@@ -115,7 +115,7 @@
           "size": 5311016,
           "type": "archive",
           "url": "https://github.com/tiagolr/filtr/releases/download/v1.1.0/filtr-linux-v1.1.0.zip",
-          "downloads": 567
+          "downloads": 568
         },
         {
           "architectures": [
@@ -154,11 +154,11 @@
           "size": 6496292,
           "sha256": "67981cf69f2ad5f95e49888db67f80bcb4eb8fa3f14da636222f1bde1b52a4f3",
           "url": "https://github.com/tiagolr/filtr/releases/download/v1.1.0/filtr-win-v1.1.0.zip",
-          "downloads": 1858
+          "downloads": 1859
         }
       ],
       "verified": true,
-      "downloads": 3119
+      "downloads": 3121
     },
     "1.0.9": {
       "name": "FILT-R",
@@ -240,5 +240,5 @@
       "downloads": 2820
     }
   },
-  "downloads": 7948
+  "downloads": 8023
 }

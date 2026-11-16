@@ -1,0 +1,88 @@
+{
+  "name": "Math Sonify",
+  "author": "Matthew Busel",
+  "description": "Generative synth that plays chaos math live. 53 dynamical systems (Lorenz, Rossler, Kuramoto, Three-Body and more) drive 9 sonification modes and 20 scales, with MIDI export, a scene arranger and a headless WAV renderer.",
+  "license": "mit",
+  "type": "instrument",
+  "tags": [
+    "Synth",
+    "Generative",
+    "Ambient",
+    "Chaos",
+    "Sonification",
+    "Midi Export"
+  ],
+  "url": "https://github.com/Mattbusel/math-sonify",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/apps/mattbusel/math-sonify/math-sonify.jpg",
+  "audio": "https://open-audio-stack.github.io/open-audio-stack-registry/apps/mattbusel/math-sonify/math-sonify.flac",
+  "date": "2026-10-04T07:35:02Z",
+  "changes": "- Prebuilt standalone app for Windows, macOS (Apple Silicon and Intel) and Linux\n- Run with --help for the headless WAV renderer",
+  "files": [
+    {
+      "systems": [
+        {
+          "type": "mac"
+        }
+      ],
+      "architectures": [
+        "arm64"
+      ],
+      "open": "math-sonify-v1.5.0-aarch64-apple-darwin/math-sonify",
+      "type": "archive",
+      "size": 3756700,
+      "sha256": "a8f558ef711d5c761f52675deaba80977349de79d482ab4135f0ce093c94a73f",
+      "url": "https://github.com/Mattbusel/math-sonify/releases/download/v1.5.0/math-sonify-v1.5.0-aarch64-apple-darwin.tar.gz",
+      "downloads": 7
+    },
+    {
+      "systems": [
+        {
+          "type": "mac"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "open": "math-sonify-v1.5.0-x86_64-apple-darwin/math-sonify",
+      "type": "archive",
+      "size": 4147216,
+      "sha256": "76e89052cf18bf07e52f19dc30b4b25a97c9f87da0901be7158e52ef18728d04",
+      "url": "https://github.com/Mattbusel/math-sonify/releases/download/v1.5.0/math-sonify-v1.5.0-x86_64-apple-darwin.tar.gz",
+      "downloads": 7
+    },
+    {
+      "systems": [
+        {
+          "type": "win"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "open": "math-sonify-v1.5.0-x86_64-pc-windows-msvc/math-sonify.exe",
+      "type": "archive",
+      "size": 4060896,
+      "sha256": "9093ae7a7c988d2fcb925d61d2b5e6c5c17a2d396c415525ed1cff272272192c",
+      "url": "https://github.com/Mattbusel/math-sonify/releases/download/v1.5.0/math-sonify-v1.5.0-x86_64-pc-windows-msvc.zip",
+      "downloads": 21
+    },
+    {
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "open": "math-sonify-v1.5.0-x86_64-unknown-linux-gnu/math-sonify",
+      "type": "archive",
+      "size": 6405038,
+      "sha256": "cdc628b161208f1e1aff9292f1f467165d55dcd839c0c6bbc7eb46ebf3113061",
+      "url": "https://github.com/Mattbusel/math-sonify/releases/download/v1.5.0/math-sonify-v1.5.0-x86_64-unknown-linux-gnu.tar.gz",
+      "downloads": 7
+    }
+  ],
+  "verified": true,
+  "downloads": 42
+}

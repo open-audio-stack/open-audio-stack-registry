@@ -35,7 +35,7 @@
           "size": 8676287,
           "sha256": "772c0db9b65c340dab24b3942c8e962a268befbe0a1bb1bb9927f33a59b1ca45",
           "url": "https://github.com/ZL-Audio/ZLCompressor/releases/download/0.6.1/ZL.Compressor-0.6.1-Linux-arm64.zip",
-          "downloads": 70
+          "downloads": 73
         },
         {
           "systems": [
@@ -55,7 +55,7 @@
           "size": 9412291,
           "sha256": "998beb9aacb1e4f24075d1f0620279f84ba321901b775c99cdfe3554c869b4ed",
           "url": "https://github.com/ZL-Audio/ZLCompressor/releases/download/0.6.1/ZL.Compressor-0.6.1-Linux-x86-64-AVX2.zip",
-          "downloads": 251
+          "downloads": 276
         },
         {
           "systems": [
@@ -75,7 +75,7 @@
           "size": 8943456,
           "sha256": "00d7201fc9643f7b7c49d9791d1e5fc73528835a5dba40a3866fd4a274767ae6",
           "url": "https://github.com/ZL-Audio/ZLCompressor/releases/download/0.6.1/ZL.Compressor-0.6.1-Linux-x86-64.zip",
-          "downloads": 284
+          "downloads": 304
         },
         {
           "systems": [
@@ -96,7 +96,7 @@
           "size": 12527352,
           "sha256": "7a38ed5a54aea2300ee430decbd261d5c6539573ff6e7d56071bc49ce3d6df0d",
           "url": "https://github.com/ZL-Audio/ZLCompressor/releases/download/0.6.1/ZL.Compressor-0.6.1-macOS-arm64.dmg",
-          "downloads": 474
+          "downloads": 614
         },
         {
           "systems": [
@@ -117,7 +117,7 @@
           "size": 14112081,
           "sha256": "f3398bf867c30713c20a3e295a1b204b7dee725c4bd33f9705b0a52ddc6b4e8e",
           "url": "https://github.com/ZL-Audio/ZLCompressor/releases/download/0.6.1/ZL.Compressor-0.6.1-macOS-x86-64.dmg",
-          "downloads": 174
+          "downloads": 201
         },
         {
           "systems": [
@@ -138,7 +138,7 @@
           "size": 7806976,
           "sha256": "79b4d32dc792b50207634fe29d67208347837cabf326f7a2af7fcbfd2218eb36",
           "url": "https://github.com/ZL-Audio/ZLCompressor/releases/download/0.6.1/ZL.Compressor-0.6.1-Windows-arm64.msi",
-          "downloads": 133
+          "downloads": 141
         },
         {
           "systems": [
@@ -159,7 +159,7 @@
           "size": 11366400,
           "sha256": "f77fc4b4c5ab11d5a500c5f39316df8b536748ad93cc8fffb56edeefd757e0fe",
           "url": "https://github.com/ZL-Audio/ZLCompressor/releases/download/0.6.1/ZL.Compressor-0.6.1-Windows-x86-64-AVX2.msi",
-          "downloads": 909
+          "downloads": 995
         },
         {
           "systems": [
@@ -180,11 +180,11 @@
           "size": 10944512,
           "sha256": "4e6e14da03cbd4513d890fac01889982e3cd96b2cdeb73678507a09b0c463f7f",
           "url": "https://github.com/ZL-Audio/ZLCompressor/releases/download/0.6.1/ZL.Compressor-0.6.1-Windows-x86-64.msi",
-          "downloads": 1028
+          "downloads": 1128
         }
       ],
       "verified": true,
-      "downloads": 3323
+      "downloads": 3732
     },
     "0.5.0": {
       "name": "ZL Compressor",
@@ -259,7 +259,7 @@
           "size": 8401909,
           "sha256": "07600e4f95272223c7405b3142778a89c59516e2b4912be281635aac8c793902",
           "url": "https://github.com/ZL-Audio/ZLCompressor/releases/download/0.5.0/ZL.Compressor-0.5.0-Linux-x86-64.zip",
-          "downloads": 662
+          "downloads": 665
         },
         {
           "systems": [
@@ -280,7 +280,7 @@
           "size": 11435709,
           "sha256": "374f400e888b9de93adc145fbae079e4cf46ed8c72eeb9f43326d104134050d8",
           "url": "https://github.com/ZL-Audio/ZLCompressor/releases/download/0.5.0/ZL.Compressor-0.5.0-macOS-arm64.dmg",
-          "downloads": 1000
+          "downloads": 1001
         },
         {
           "systems": [
@@ -301,7 +301,7 @@
           "size": 12756094,
           "sha256": "509a6086417603ce8f8980ccd71949d34aa685692d1da8997cf16f8bd5660e31",
           "url": "https://github.com/ZL-Audio/ZLCompressor/releases/download/0.5.0/ZL.Compressor-0.5.0-macOS-x86-64.dmg",
-          "downloads": 462
+          "downloads": 464
         },
         {
           "systems": [
@@ -368,8 +368,8 @@
         }
       ],
       "verified": true,
-      "downloads": 7826
+      "downloads": 7832
     }
   },
-  "downloads": 11149
+  "downloads": 11564
 }

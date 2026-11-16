@@ -35,7 +35,7 @@
           "size": 3746789,
           "sha256": "01a046eb6e074caf724742bfff6c0e0e79ff4c4618e78677730b210a68caeb63",
           "url": "https://github.com/valsteen/midi_bpm_detection/releases/download/v0.2.0/midi-bpm-detector-v0.2.0-clap-linux-x86_64.zip",
-          "downloads": 21
+          "downloads": 22
         },
         {
           "systems": [
@@ -53,7 +53,7 @@
           "size": 2889986,
           "sha256": "ae1cad9da66c9be8ff876a442c2ac64ec4169c34cd516b3be44b17d425b7d180",
           "url": "https://github.com/valsteen/midi_bpm_detection/releases/download/v0.2.0/midi-bpm-detector-v0.2.0-clap-macos-arm64.zip",
-          "downloads": 8
+          "downloads": 9
         },
         {
           "systems": [
@@ -71,7 +71,7 @@
           "size": 3223418,
           "sha256": "925a8e7d0dd1642bc6c179fa30b6c27ac299b56ad4745edeeaef3c760f9da8eb",
           "url": "https://github.com/valsteen/midi_bpm_detection/releases/download/v0.2.0/midi-bpm-detector-v0.2.0-clap-macos-x86_64.zip",
-          "downloads": 9
+          "downloads": 10
         },
         {
           "systems": [
@@ -89,7 +89,7 @@
           "size": 3130126,
           "sha256": "d7dfdaf54f51578a86c2873c6740db8512b1c0ac9cc863541a3d0cf7859a9d12",
           "url": "https://github.com/valsteen/midi_bpm_detection/releases/download/v0.2.0/midi-bpm-detector-v0.2.0-clap-windows-x86_64.zip",
-          "downloads": 10
+          "downloads": 12
         },
         {
           "systems": [
@@ -107,7 +107,7 @@
           "size": 7733553,
           "sha256": "307e74f7077529fa21f5478dc34d6605a506ed2e7ff3985f717e07262dd28706",
           "url": "https://github.com/valsteen/midi_bpm_detection/releases/download/v0.2.0/midi-bpm-detector-v0.2.0-desktop-linux-x86_64.zip",
-          "downloads": 8
+          "downloads": 9
         },
         {
           "systems": [
@@ -125,7 +125,7 @@
           "size": 6212055,
           "sha256": "80b1ab0556ad0ee3d15e1239619df6961ff90dd07b0b646ed987b8fe7134ab6e",
           "url": "https://github.com/valsteen/midi_bpm_detection/releases/download/v0.2.0/midi-bpm-detector-v0.2.0-desktop-macos-arm64.zip",
-          "downloads": 8
+          "downloads": 9
         },
         {
           "systems": [
@@ -143,7 +143,7 @@
           "size": 6712436,
           "sha256": "342673b4dcdcbb9f2b220881f27d82f67adb6358e62702f53eea98ec6cfef91b",
           "url": "https://github.com/valsteen/midi_bpm_detection/releases/download/v0.2.0/midi-bpm-detector-v0.2.0-desktop-macos-x86_64.zip",
-          "downloads": 8
+          "downloads": 9
         },
         {
           "systems": [
@@ -161,7 +161,7 @@
           "size": 3765547,
           "sha256": "c5abf2a374e648c30973f6d608c6d2eb1a3cbb81bd81e152c8b0e88bd147a03f",
           "url": "https://github.com/valsteen/midi_bpm_detection/releases/download/v0.2.0/midi-bpm-detector-v0.2.0-vst3-linux-x86_64.zip",
-          "downloads": 20
+          "downloads": 22
         },
         {
           "systems": [
@@ -179,7 +179,7 @@
           "size": 2906756,
           "sha256": "360d650402df6231d8014b1218aed16e8756e8b1d77b4c2fbefb75542e5e2550",
           "url": "https://github.com/valsteen/midi_bpm_detection/releases/download/v0.2.0/midi-bpm-detector-v0.2.0-vst3-macos-arm64.zip",
-          "downloads": 19
+          "downloads": 21
         },
         {
           "systems": [
@@ -197,7 +197,7 @@
           "size": 3234922,
           "sha256": "2e701cbbcb08d1f7b6fbeb23569353053030c56a3cf13811e75497d5e1788255",
           "url": "https://github.com/valsteen/midi_bpm_detection/releases/download/v0.2.0/midi-bpm-detector-v0.2.0-vst3-macos-x86_64.zip",
-          "downloads": 16
+          "downloads": 18
         },
         {
           "systems": [
@@ -215,11 +215,11 @@
           "size": 3140474,
           "sha256": "eec04be147f58d75960f77cffd663208c8eafdf401c1e88cd9819617f3048605",
           "url": "https://github.com/valsteen/midi_bpm_detection/releases/download/v0.2.0/midi-bpm-detector-v0.2.0-vst3-windows-x86_64.zip",
-          "downloads": 22
+          "downloads": 34
         }
       ],
       "verified": true,
-      "downloads": 149
+      "downloads": 175
     },
     "0.1.0": {
       "name": "MIDI BPM Detection",
@@ -254,7 +254,7 @@
           "size": 3283306,
           "sha256": "6e61debe0c8ade44e5b01fec7acd339237ab2afa3d60b3cac5cc132ecfd34067",
           "url": "https://github.com/valsteen/midi_bpm_detection/releases/download/v0.1.0/midi-bpm-detector-v0.1.0-clap-linux-x86_64.zip",
-          "downloads": 11
+          "downloads": 12
         },
         {
           "systems": [
@@ -308,7 +308,7 @@
           "size": 2719878,
           "sha256": "5e900cf431ddbfea53a867127407d755a7b99731814c7c8102dfaa2597b0a162",
           "url": "https://github.com/valsteen/midi_bpm_detection/releases/download/v0.1.0/midi-bpm-detector-v0.1.0-clap-windows-x86_64.zip",
-          "downloads": 11
+          "downloads": 12
         },
         {
           "systems": [
@@ -434,12 +434,12 @@
           "size": 2746293,
           "sha256": "6a76fc7c9dd61174298fcf96e0039471561d5c90a50d01bc4b8d5a19ef96d3a4",
           "url": "https://github.com/valsteen/midi_bpm_detection/releases/download/v0.1.0/midi-bpm-detector-v0.1.0-vst3-windows-x86_64.zip",
-          "downloads": 14
+          "downloads": 15
         }
       ],
       "verified": true,
-      "downloads": 104
+      "downloads": 107
     }
   },
-  "downloads": 253
+  "downloads": 282
 }
