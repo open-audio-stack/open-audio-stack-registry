@@ -1,0 +1,49 @@
+name: Quackapella
+author: DuckDSP
+description: Low-latency real-time vocal plugin for live use, combining natural pitch correction, hard-tune, pitch and formant manipulation, harmonizer, vocoder and talkbox.
+license: gpl-3.0
+type: effect
+tags:
+  - Vocal
+  - Pitch Correction
+  - Harmonizer
+  - Vocoder
+  - Formant
+url: https://github.com/DuckDSP/quackapella
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/duckdsp/quackapella/quackapella.jpg
+date: '2026-11-15T15:38:10.000Z'
+changes: Initial release.
+files:
+  - systems:
+      - type: mac
+    architectures:
+      - arm64
+      - x64
+    contains:
+      - component
+    type: archive
+    size: 19243786
+    sha256: c9ee80db10448727edc69bec2eed9959995ca426315fdffbf1e9333a0fa8b13b
+    url: https://github.com/DuckDSP/quackapella/releases/download/v0.1.0/Quackapella-0.1.0-macos-au.zip
+  - systems:
+      - type: mac
+    architectures:
+      - arm64
+      - x64
+    contains:
+      - clap
+    type: archive
+    size: 19018318
+    sha256: baa999000a805c776c32f727fccdf2a93a122b7a5b3caf1fbe4a6ff87b18e914
+    url: https://github.com/DuckDSP/quackapella/releases/download/v0.1.0/Quackapella-0.1.0-macos-clap.zip
+  - systems:
+      - type: mac
+    architectures:
+      - arm64
+      - x64
+    contains:
+      - vst3
+    type: archive
+    size: 19034844
+    sha256: de8c964f218153551b0f0b654441f1bd0597898b884ada22b397a957e0040662
+    url: https://github.com/DuckDSP/quackapella/releases/download/v0.1.0/Quackapella-0.1.0-macos-vst3.zip
