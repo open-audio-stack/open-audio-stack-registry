@@ -5723,6 +5723,20 @@
       ]
     }
   },
+  "duckdsp/quackapella": {
+    "0.1.0": {
+      "recs": [
+        {
+          "field": "systems",
+          "rec": "should support Linux"
+        },
+        {
+          "field": "systems",
+          "rec": "should support Windows"
+        }
+      ]
+    }
+  },
   "dspiveyvr/zenbleed": {
     "1.0.0": {
       "recs": [

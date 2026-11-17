@@ -60,7 +60,7 @@
             "size": 293186948,
             "sha256": "8d8a635f00bb1abf0b8403ec9e969e3c134317fda40a9ad0af5c1dd3fe7a8e08",
             "url": "https://github.com/plugdata-team/plugdata/releases/download/v0.9.3-2/plugdata-Arch-x64.tar.xz",
-            "downloads": 1390
+            "downloads": 1394
           },
           {
             "systems": [
@@ -208,7 +208,7 @@
             "size": 397798001,
             "sha256": "3ebffc363f8a159caa660ee907bd8d61ef79c0cc8d1777e097fe8b511ea1f30e",
             "url": "https://github.com/plugdata-team/plugdata/releases/download/v0.9.3-2/plugdata-macOS-Legacy.pkg",
-            "downloads": 244
+            "downloads": 245
           },
           {
             "systems": [
@@ -231,7 +231,7 @@
             "size": 770562825,
             "sha256": "2d4edfe2f7778572cbfe14f86274fc65b6bd043d75588d274166f0518504d4d3",
             "url": "https://github.com/plugdata-team/plugdata/releases/download/v0.9.3-2/plugdata-macOS-Universal.pkg",
-            "downloads": 2567
+            "downloads": 2589
           },
           {
             "systems": [
@@ -294,7 +294,7 @@
             "size": 278967792,
             "sha256": "8f4b9beda0e1d20f5d76b2e840f45e502b506663b955947b47a310b6d5c8c3e0",
             "url": "https://github.com/plugdata-team/plugdata/releases/download/v0.9.3-2/plugdata-Ubuntu-22.04-aarch64.tar.xz",
-            "downloads": 30
+            "downloads": 31
           },
           {
             "systems": [
@@ -315,7 +315,7 @@
             "size": 286995904,
             "sha256": "cedd27f0abbbc34f48d8c43797ec5580765abd75a79394bec18dc32344cdf269",
             "url": "https://github.com/plugdata-team/plugdata/releases/download/v0.9.3-2/plugdata-Ubuntu-22.04-x64.tar.xz",
-            "downloads": 69
+            "downloads": 71
           },
           {
             "systems": [
@@ -357,7 +357,7 @@
             "size": 290172088,
             "sha256": "f76d00e29c878e44c359ebb21e1365dfb6a5d1e7e42d04a67b9cce697420c26c",
             "url": "https://github.com/plugdata-team/plugdata/releases/download/v0.9.3-2/plugdata-Ubuntu-24.04-x64.tar.xz",
-            "downloads": 142
+            "downloads": 144
           },
           {
             "systems": [
@@ -378,7 +378,7 @@
             "size": 261902336,
             "sha256": "271ed1ff27de8cb53fe2b7748961cc2266cd06ed00cb05d0f8bb8f29ab6d0e34",
             "url": "https://github.com/plugdata-team/plugdata/releases/download/v0.9.3-2/plugdata-Win32.msi",
-            "downloads": 304
+            "downloads": 305
           },
           {
             "systems": [
@@ -399,11 +399,11 @@
             "size": 269381632,
             "sha256": "962017c89b6f656860eed75ec1364fffa4cb8311992aeada0f4ed936c5294a24",
             "url": "https://github.com/plugdata-team/plugdata/releases/download/v0.9.3-2/plugdata-Win64.msi",
-            "downloads": 3147
+            "downloads": 3150
           }
         ],
         "verified": true,
-        "downloads": 8473
+        "downloads": 8509
       },
       "0.9.3": {
         "name": "plugdata",
@@ -462,7 +462,7 @@
             "size": 293117788,
             "sha256": "58927b8f7e8a494af0e221255b97103d48d519946d7a9df2dcfd474a12ef05f0",
             "url": "https://github.com/plugdata-team/plugdata/releases/download/v0.9.3/plugdata-Arch-x64.tar.xz",
-            "downloads": 444
+            "downloads": 445
           },
           {
             "systems": [
@@ -483,7 +483,7 @@
             "size": 281969200,
             "sha256": "81aa53676e8f5d9e5fe5dea53fb3b6f03c441a5b727a8c1c7c79f9b00c2cb9ab",
             "url": "https://github.com/plugdata-team/plugdata/releases/download/v0.9.3/plugdata-Debian-aarch64.tar.xz",
-            "downloads": 203
+            "downloads": 204
           },
           {
             "systems": [
@@ -504,7 +504,7 @@
             "size": 291527732,
             "sha256": "ba0d07a0216dfa49ccc175e26a25474805174d7e9a998e0c3fc2910cad549776",
             "url": "https://github.com/plugdata-team/plugdata/releases/download/v0.9.3/plugdata-Debian-x64.tar.xz",
-            "downloads": 895
+            "downloads": 899
           },
           {
             "systems": [
@@ -588,7 +588,7 @@
             "size": 291665572,
             "sha256": "4e05c6c73be3279313d74dbc402d46c56a633217c2856ca64716a68108d117d3",
             "url": "https://github.com/plugdata-team/plugdata/releases/download/v0.9.3/plugdata-Fedora-42-x64.tar.xz",
-            "downloads": 252
+            "downloads": 253
           },
           {
             "systems": [
@@ -610,7 +610,7 @@
             "size": 397491035,
             "sha256": "37568f0e20f3e959310b8036974b077f404da2d368288f86436fad8b8881b6c7",
             "url": "https://github.com/plugdata-team/plugdata/releases/download/v0.9.3/plugdata-macOS-Legacy.pkg",
-            "downloads": 529
+            "downloads": 531
           },
           {
             "systems": [
@@ -633,7 +633,7 @@
             "size": 772567838,
             "sha256": "44344723ec6b975d59823725277e886b5513a04cb397dff0a5ce8ad8e042564b",
             "url": "https://github.com/plugdata-team/plugdata/releases/download/v0.9.3/plugdata-macOS-Universal.pkg",
-            "downloads": 13984
+            "downloads": 14133
           },
           {
             "systems": [
@@ -738,7 +738,7 @@
             "size": 281026176,
             "sha256": "da847c651928cc6f9c82f1ecf037c55b594a35fc6e7df8bab16788de114037d9",
             "url": "https://github.com/plugdata-team/plugdata/releases/download/v0.9.3/plugdata-Ubuntu-24.04-aarch64.tar.xz",
-            "downloads": 53
+            "downloads": 54
           },
           {
             "systems": [
@@ -759,7 +759,7 @@
             "size": 290397960,
             "sha256": "1727ba8021196bec6e6e4cc2495a20ee29d31323d2d7347e844f7ce55127d10c",
             "url": "https://github.com/plugdata-team/plugdata/releases/download/v0.9.3/plugdata-Ubuntu-24.04-x64.tar.xz",
-            "downloads": 809
+            "downloads": 811
           },
           {
             "systems": [
@@ -780,7 +780,7 @@
             "size": 261914624,
             "sha256": "e13895f0758ef7df30c60855b301c082412a9bf29062c82cc5d4205ab2d892c8",
             "url": "https://github.com/plugdata-team/plugdata/releases/download/v0.9.3/plugdata-Win32.msi",
-            "downloads": 794
+            "downloads": 798
           },
           {
             "systems": [
@@ -801,13 +801,13 @@
             "size": 269320192,
             "sha256": "3be7a5b73328b999f962050b75043a63db31222d4f5e4fd1676bd2ea3f4daeb0",
             "url": "https://github.com/plugdata-team/plugdata/releases/download/v0.9.3/plugdata-Win64.msi",
-            "downloads": 17885
+            "downloads": 17950
           }
         ],
         "verified": true,
-        "downloads": 36431
+        "downloads": 36661
       }
     },
-    "downloads": 44904
+    "downloads": 45170
   }
 }

@@ -36,7 +36,7 @@
             "size": 15240737,
             "sha256": "c4823f13bb10115333d52989f83b841fa2f078585529ac0177945c0da9e8afca",
             "url": "https://github.com/quamplex/geonkick/releases/download/v3.9.0/GeonkickWindowsInstaller-v3.9.0-x86_64_basic.exe",
-            "downloads": 393
+            "downloads": 397
           },
           {
             "systems": [
@@ -56,11 +56,11 @@
             "size": 3767094,
             "sha256": "2ac941877bea77983677861f32cd35255fd502e2d96514702bf9e749aeb0c44c",
             "url": "https://github.com/quamplex/geonkick/releases/download/v3.9.0/GNULinux_binaries_v3.9.0_basic.zip",
-            "downloads": 361
+            "downloads": 362
           }
         ],
         "verified": true,
-        "downloads": 754
+        "downloads": 759
       },
       "3.7.0": {
         "name": "Geonkick",
@@ -95,7 +95,7 @@
             "size": 16493555,
             "sha256": "022f567862b17274d628ada8edf8e51a8e1b3f4eab14b85e9f2bf704d9efab51",
             "url": "https://github.com/quamplex/geonkick/releases/download/v3.7.0/GeonkickWindowsInstaller-v3.7.0-x86_64_basic.exe",
-            "downloads": 1412
+            "downloads": 1413
           },
           {
             "systems": [
@@ -115,14 +115,14 @@
             "size": 4435094,
             "sha256": "ee656ef575596ab0b7976bd2ebafa93cac0059920a4721c1dd0a5c9f68a7add0",
             "url": "https://github.com/quamplex/geonkick/releases/download/v3.7.0/GNULinux_binaries_v3.7.0_basic.zip",
-            "downloads": 1386
+            "downloads": 1388
           }
         ],
         "verified": true,
-        "downloads": 2798
+        "downloads": 2801
       }
     },
-    "downloads": 3552
+    "downloads": 3560
   },
   "quamplex/entropictron": {
     "slug": "quamplex/entropictron",
@@ -180,11 +180,11 @@
             "size": 543830,
             "sha256": "55171f9b9c556d20f9cfe7be47c09f714cf8a403f56ba3b7829f1f974ca8a260",
             "url": "https://github.com/quamplex/entropictron/releases/download/v1.3.0/GNULinux_binaries_v1.3.0.zip",
-            "downloads": 55
+            "downloads": 57
           }
         ],
         "verified": true,
-        "downloads": 125
+        "downloads": 127
       },
       "1.2.0": {
         "name": "Entropictron",
@@ -238,13 +238,13 @@
             "size": 491620,
             "sha256": "2241aa5b00e46d76503793dd286fbf4e2bc5f57c46a79a1f9d5229c6811892f3",
             "url": "https://github.com/quamplex/entropictron/releases/download/v1.2.0/GNULinux_binaries_v1.2.0.zip",
-            "downloads": 122
+            "downloads": 123
           }
         ],
         "verified": true,
-        "downloads": 220
+        "downloads": 221
       }
     },
-    "downloads": 345
+    "downloads": 348
   }
 }
