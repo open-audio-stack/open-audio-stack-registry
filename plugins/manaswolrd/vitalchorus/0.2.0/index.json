@@ -1,0 +1,76 @@
+{
+  "name": "VitalChorus",
+  "author": "ManasWolrd",
+  "description": "Port of the Chorus effect from the Vital synthesizer, with SIMD dispatch (VST3, LV2, AU).",
+  "license": "gpl-3.0",
+  "type": "effect",
+  "tags": [
+    "Chorus",
+    "Vital"
+  ],
+  "url": "https://github.com/ManasWolrd/dev-plugins",
+  "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/manaswolrd/vitalchorus/vitalchorus.jpg",
+  "date": "2026-08-02T14:21:14Z",
+  "changes": "VitalChorus 0.2.0: SIMD dispatch, other platforms supported. Breaking change: parameter IDs changed, so finish existing projects with the old version first.",
+  "files": [
+    {
+      "systems": [
+        {
+          "type": "linux"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3",
+        "lv2"
+      ],
+      "type": "archive",
+      "size": 4738357,
+      "sha256": "6f5ed356e1940c751fd5fd2bc89f0f554b9fd5113e599193337d3acdb0b3f170",
+      "url": "https://github.com/ManasWolrd/dev-plugins/releases/download/VitalChorus%400.2.0/VitalChorus-v0.2.0-linux.zip",
+      "downloads": 12
+    },
+    {
+      "systems": [
+        {
+          "type": "mac"
+        }
+      ],
+      "architectures": [
+        "arm64",
+        "x64"
+      ],
+      "contains": [
+        "vst3",
+        "component"
+      ],
+      "type": "archive",
+      "size": 7410129,
+      "sha256": "9e0735b86969188e4caaf0ab1f12029f6492448e054330b2b56b8fe4e86d754c",
+      "url": "https://github.com/ManasWolrd/dev-plugins/releases/download/VitalChorus%400.2.0/VitalChorus-v0.2.0-macos.zip",
+      "downloads": 16
+    },
+    {
+      "systems": [
+        {
+          "type": "win"
+        }
+      ],
+      "architectures": [
+        "x64"
+      ],
+      "contains": [
+        "vst3"
+      ],
+      "type": "archive",
+      "size": 2279938,
+      "sha256": "3b540220eea95b90c3cd9a01dad35efd477e3da80eea5fd4fd193e29a39b5d7c",
+      "url": "https://github.com/ManasWolrd/dev-plugins/releases/download/VitalChorus%400.2.0/VitalChorus-v0.2.0-win.zip",
+      "downloads": 24
+    }
+  ],
+  "verified": true,
+  "downloads": 52
+}

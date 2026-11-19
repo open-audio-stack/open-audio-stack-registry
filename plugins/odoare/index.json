@@ -208,7 +208,7 @@
             "size": 560218953,
             "sha256": "a79f517bbe8ee554ae9c3418c79b76b0c6535c6176e214e8d35aaaca228ed378",
             "url": "https://github.com/odoare/FxmeSampler/releases/download/v0.2.0/FxmeSampler-macOS.pkg",
-            "downloads": 93
+            "downloads": 94
           },
           {
             "systems": [
@@ -226,7 +226,7 @@
             "size": 278788137,
             "sha256": "8b12df45d9f507b4aa4283fdea4b4e2425731467713ad894279428f3de562419",
             "url": "https://github.com/odoare/FxmeSampler/releases/download/v0.2.0/FxmeSampler-VST3-Linux-x86_64.zip",
-            "downloads": 420
+            "downloads": 425
           },
           {
             "systems": [
@@ -245,14 +245,14 @@
             "size": 280452907,
             "sha256": "535840459302e627c4273c2a67b9c0f3d89deab76da3c05740cff4ce2a6ab2d7",
             "url": "https://github.com/odoare/FxmeSampler/releases/download/v0.2.0/FxmeSampler-VST3-macOS-universal.zip",
-            "downloads": 81
+            "downloads": 85
           }
         ],
         "verified": true,
-        "downloads": 1396
+        "downloads": 1406
       }
     },
-    "downloads": 1396
+    "downloads": 1406
   },
   "odoare/ambirr2": {
     "slug": "odoare/ambirr2",
@@ -291,7 +291,7 @@
             "size": 5070070,
             "sha256": "c340d58d7d6d4eee921d40c79655dd84bf01b060c72d55e9fd19155dc33bf65e",
             "url": "https://github.com/odoare/AmbiRR2/releases/download/v0.1.2/AmbiRR2-Linux-x86_64.zip",
-            "downloads": 218
+            "downloads": 221
           },
           {
             "systems": [
@@ -311,7 +311,7 @@
             "size": 11640631,
             "sha256": "fbf08ecc823b8a7a5af410f9cc15ce9be11035669f03a5b793133af2875ed7ce",
             "url": "https://github.com/odoare/AmbiRR2/releases/download/v0.1.2/AmbiRR2-macOS-universal.zip",
-            "downloads": 100
+            "downloads": 101
           },
           {
             "systems": [
@@ -330,7 +330,7 @@
             "size": 7414544,
             "sha256": "5f44b872e76d613331ff5be102bd22fb25f5fe44a1329a9ba02609c77e795700",
             "url": "https://github.com/odoare/AmbiRR2/releases/download/v0.1.2/AmbiRR2-macOS.pkg",
-            "downloads": 76
+            "downloads": 77
           },
           {
             "systems": [
@@ -349,11 +349,11 @@
             "size": 3901121,
             "sha256": "575deee3f964481cbf5c3f08b480efe45ead9fc8c856b9dd022b4a5fbb475fb4",
             "url": "https://github.com/odoare/AmbiRR2/releases/download/v0.1.2/AmbiRR2-Windows-x86_64.zip",
-            "downloads": 424
+            "downloads": 425
           }
         ],
         "verified": true,
-        "downloads": 818
+        "downloads": 824
       },
       "0.1.1": {
         "name": "AmbiRR2",
@@ -453,6 +453,6 @@
         "downloads": 331
       }
     },
-    "downloads": 1149
+    "downloads": 1155
   }
 }

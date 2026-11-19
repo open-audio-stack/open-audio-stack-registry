@@ -36,7 +36,7 @@
             "size": 6916948,
             "sha256": "4ebd57d5f53c7ed86e39e1b27c14b228b29de308035886a5d266f3f312eaff05",
             "url": "https://github.com/ardura/Subhoofer/releases/download/v2.2.3/Subhoofer_v223_linux_build.zip",
-            "downloads": 209
+            "downloads": 215
           },
           {
             "architectures": [
@@ -93,11 +93,11 @@
             "size": 3779322,
             "sha256": "0f8543eabdc9747a201ad3c47863fef6a58e10bb22f393c4279769fb3bf96181",
             "url": "https://github.com/ardura/Subhoofer/releases/download/v2.2.3/Subhoofer_v223_windows_build.zip",
-            "downloads": 240
+            "downloads": 243
           }
         ],
         "verified": true,
-        "downloads": 566
+        "downloads": 575
       },
       "2.2.2": {
         "name": "Subhoofer",
@@ -170,14 +170,14 @@
             "size": 3456424,
             "sha256": "2ce5b9b61ebe379dd41ef97d2728415a573c0162f72c2d62ec74678409286a19",
             "url": "https://github.com/ardura/Subhoofer/releases/download/v2.2.2/Subhoofer_v222_Windows.zip",
-            "downloads": 464
+            "downloads": 465
           }
         ],
         "verified": true,
-        "downloads": 839
+        "downloads": 840
       }
     },
-    "downloads": 1405
+    "downloads": 1415
   },
   "ardura/scrollscope": {
     "slug": "ardura/scrollscope",
@@ -217,7 +217,7 @@
             "size": 7807675,
             "sha256": "d82d0fcebf216a743fdf26a64f939647e32528bdace57d08d125cb0f79a7d056",
             "url": "https://github.com/ardura/Scrollscope/releases/download/v1.4.3/Scrollscope_v143_linux_build.zip",
-            "downloads": 182
+            "downloads": 185
           },
           {
             "systems": [
@@ -277,11 +277,11 @@
             "size": 6846957,
             "sha256": "ec04c71cf09e0083a42453cdc7539fba45bce9b244c4998d7c74c37f7a5725b4",
             "url": "https://github.com/ardura/Scrollscope/releases/download/v1.4.3/Scrollscope_v143_windows_build.zip",
-            "downloads": 260
+            "downloads": 261
           }
         ],
         "verified": true,
-        "downloads": 633
+        "downloads": 637
       },
       "1.4.2": {
         "name": "Scrollscope",
@@ -484,7 +484,7 @@
         "downloads": 929
       }
     },
-    "downloads": 1987
+    "downloads": 1991
   },
   "ardura/interleaf": {
     "slug": "ardura/interleaf",
@@ -522,7 +522,7 @@
             "size": 3822972,
             "sha256": "13a275e0dba11f6a3028e8e4bb1269befcedfcb54697c754fc13ff135e4ba825",
             "url": "https://github.com/ardura/Interleaf/releases/download/v1.0/linux_build.zip",
-            "downloads": 90
+            "downloads": 91
           },
           {
             "systems": [
@@ -560,7 +560,7 @@
             "size": 3365550,
             "sha256": "4ea2fedb0efa1ce5dd0749924e65189f1e4575c3f5ef83d92124495a1374c46f",
             "url": "https://github.com/ardura/Interleaf/releases/download/v1.0/macos_m1_build.zip",
-            "downloads": 70
+            "downloads": 73
           },
           {
             "systems": [
@@ -579,14 +579,14 @@
             "size": 3194614,
             "sha256": "aa76f3cf00ca8449a324f3fbbbdf8229ee20de68000ce89c8b458ad65bd33599",
             "url": "https://github.com/ardura/Interleaf/releases/download/v1.0/windows_build.zip",
-            "downloads": 198
+            "downloads": 200
           }
         ],
         "verified": true,
-        "downloads": 425
+        "downloads": 431
       }
     },
-    "downloads": 425
+    "downloads": 431
   },
   "ardura/gladedesk": {
     "slug": "ardura/gladedesk",
