@@ -1,0 +1,51 @@
+name: SpectMorph
+author: Stefan Westerfeld
+description: 'SpectMorph: spectral audio morphing'
+license: lgpl-2.1
+type: instrument
+tags:
+  - Morphing
+  - Spectral
+url: https://github.com/swesterfeld/spectmorph
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/swesterfeld/spectmorph/spectmorph.jpg
+date: '2026-01-10T11:15:15Z'
+changes: |
+  - Implement pitch detection algorithm for instrument editor and smenc.
+  - Support mp3 format for static plugins and builds with new libsndfile.
+files:
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - dll
+      - clap
+      - lv2
+    type: installer
+    size: 75155030
+    sha256: e08551467a53b6cd83d66117656068516a5f66404a33ea21773e4633c8c38fa2
+    url: https://github.com/swesterfeld/spectmorph/releases/download/1.0.0-beta3/setup-spectmorph-1.0.0-beta3.exe
+  - systems:
+      - type: mac
+    architectures:
+      - x64
+    contains:
+      - vst
+      - clap
+      - lv2
+    type: installer
+    size: 98632519
+    sha256: b2426cd6eec5a26665fc0dca3ef7602cec894b8bb7e99a1a84a6a20ff42d916b
+    url: https://github.com/swesterfeld/spectmorph/releases/download/1.0.0-beta3/SpectMorph-1.0.0-beta3.pkg
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - so
+      - clap
+      - lv2
+    type: installer
+    size: 61846592
+    sha256: 39709ecbea8e8e3cc049cc0cc96c208429f8c40a5feb22996d9c4dd0443573ce
+    url: https://github.com/swesterfeld/spectmorph/releases/download/1.0.0-beta3/spectmorph_1.0.0.beta3_amd64.deb
