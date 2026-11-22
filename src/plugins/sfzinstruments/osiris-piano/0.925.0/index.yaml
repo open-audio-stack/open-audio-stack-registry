@@ -1,0 +1,29 @@
+name: Osiris Piano
+author: Versilian Studios and Karoryfer Samples
+description: Osiris Piano, the 2026 KVR Developer Challenge entry from Versilian Studios and Karoryfer Samples.
+license: cc0-1.0
+type: sampler
+tags:
+  - Instrument
+  - Piano
+  - Sfz
+url: https://github.com/sfzinstruments/Osiris_Piano
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/sfzinstruments/osiris-piano/osiris-piano.jpg
+date: '2026-07-04T18:06:52Z'
+changes: Initial release of the 2026 KVR Developer Challenge entry from Versilian Studios and Karoryfer Samples
+files:
+  - systems:
+      - type: linux
+      - type: mac
+      - type: win
+    architectures:
+      - arm32
+      - arm64
+      - x32
+      - x64
+    contains:
+      - sfz
+    type: archive
+    size: 458671376
+    sha256: 54ef210b671ea38c4e77291714b5376af28f35803f7c1338737d0f402de02768
+    url: https://github.com/sfzinstruments/Osiris_Piano/releases/download/v0.925/Osiris_Piano_0925.zip
