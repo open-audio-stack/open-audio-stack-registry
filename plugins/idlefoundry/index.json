@@ -39,7 +39,7 @@
             "size": 112247923,
             "sha256": "14dc48a1f09657b0fa4aa9dd92da69c67f30d6826998c2b0afa6ea90efe1c0fe",
             "url": "https://github.com/idlefoundry/ca-72/releases/download/v0.3.2/CA-72-0.3.2-Linux-x86_64.tar.gz",
-            "downloads": 198
+            "downloads": 244
           },
           {
             "systems": [
@@ -61,7 +61,7 @@
             "size": 130503336,
             "sha256": "786d1176101bb70741caefeb485f21e51d08f63cb311fd9bcc4067e378ca87ad",
             "url": "https://github.com/idlefoundry/ca-72/releases/download/v0.3.2/CA-72-0.3.2-macOS.pkg",
-            "downloads": 521
+            "downloads": 606
           },
           {
             "systems": [
@@ -81,7 +81,7 @@
             "size": 48803763,
             "sha256": "911c1f6487f9ae376bb818d2e34f67afa9addfcda8608b5681b8aaf199a42e6f",
             "url": "https://github.com/idlefoundry/ca-72/releases/download/v0.3.2/CA-72-0.3.2-Windows-setup.exe",
-            "downloads": 876
+            "downloads": 1012
           },
           {
             "systems": [
@@ -101,11 +101,11 @@
             "size": 52380205,
             "sha256": "3ff9fc3c99e176bb10fc4504e77ea4e895d3e88409b003cde202b1fd9c39cc9d",
             "url": "https://github.com/idlefoundry/ca-72/releases/download/v0.3.2/CA-72-0.3.2-Windows-x86_64.zip",
-            "downloads": 369
+            "downloads": 431
           }
         ],
         "verified": true,
-        "downloads": 1964
+        "downloads": 2293
       },
       "0.2.0": {
         "name": "CA-72",
@@ -143,7 +143,7 @@
             "size": 39187650,
             "sha256": "f3126bab1213a25fb0257ee2ab254ced2148d07d53817c3be21cf04b4a85365c",
             "url": "https://github.com/idlefoundry/ca-72/releases/download/v0.2.0/CA-72-0.2.0-Linux-x86_64.tar.gz",
-            "downloads": 69
+            "downloads": 70
           },
           {
             "systems": [
@@ -165,7 +165,7 @@
             "size": 60100579,
             "sha256": "c8d47b3d587ee79056ee76789ad8ff7ebd2b2f46f7a77679e98dd1e609aecc94",
             "url": "https://github.com/idlefoundry/ca-72/releases/download/v0.2.0/CA-72-0.2.0-macOS.pkg",
-            "downloads": 192
+            "downloads": 193
           },
           {
             "systems": [
@@ -185,7 +185,7 @@
             "size": 20332058,
             "sha256": "3e8fe542f342f14add36d2cd1aa30ff707ba3d3e1c6ec3e12db2e4a1fb0df656",
             "url": "https://github.com/idlefoundry/ca-72/releases/download/v0.2.0/CA-72-0.2.0-Windows-setup.exe",
-            "downloads": 212
+            "downloads": 213
           },
           {
             "systems": [
@@ -209,9 +209,9 @@
           }
         ],
         "verified": true,
-        "downloads": 619
+        "downloads": 622
       }
     },
-    "downloads": 2583
+    "downloads": 2915
   }
 }

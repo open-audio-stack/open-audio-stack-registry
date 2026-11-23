@@ -37,7 +37,7 @@
             "size": 3014420,
             "type": "archive",
             "url": "https://github.com/ArborealAudio/STR-X/releases/download/v1.2.1/STR-X-linux.tar.xz",
-            "downloads": 180
+            "downloads": 184
           },
           {
             "architectures": [
@@ -57,7 +57,7 @@
             "size": 13072806,
             "type": "installer",
             "url": "https://github.com/ArborealAudio/STR-X/releases/download/v1.2.1/STR-X-mac.dmg",
-            "downloads": 61
+            "downloads": 65
           },
           {
             "architectures": [
@@ -81,10 +81,10 @@
           }
         ],
         "verified": true,
-        "downloads": 429
+        "downloads": 437
       }
     },
-    "downloads": 429
+    "downloads": 437
   },
   "arborealaudio/pimax": {
     "slug": "arborealaudio/pimax",
@@ -126,7 +126,7 @@
             "size": 12551769,
             "sha256": "22ab13fa9787e5ce051e005c38f3e16603abbea78065959757f74a0913691e1b",
             "url": "https://github.com/ArborealAudio/PiMax/releases/download/v1.1.2/PiMax-mac.dmg",
-            "downloads": 26
+            "downloads": 31
           },
           {
             "systems": [
@@ -150,10 +150,10 @@
           }
         ],
         "verified": true,
-        "downloads": 47
+        "downloads": 52
       }
     },
-    "downloads": 47
+    "downloads": 52
   },
   "arborealaudio/omniamp": {
     "slug": "arborealaudio/omniamp",
@@ -195,7 +195,7 @@
             "size": 2359408,
             "type": "archive",
             "url": "https://github.com/ArborealAudio/OmniAmp/releases/download/v1.0.1/OmniAmp-linux.tar.xz",
-            "downloads": 47
+            "downloads": 51
           },
           {
             "architectures": [
@@ -214,7 +214,7 @@
             "size": 9884682,
             "type": "installer",
             "url": "https://github.com/ArborealAudio/OmniAmp/releases/download/v1.0.1/OmniAmp-mac.dmg",
-            "downloads": 21
+            "downloads": 27
           },
           {
             "architectures": [
@@ -237,9 +237,9 @@
           }
         ],
         "verified": true,
-        "downloads": 86
+        "downloads": 96
       }
     },
-    "downloads": 86
+    "downloads": 96
   }
 }
