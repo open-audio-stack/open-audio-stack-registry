@@ -9,6 +9,7 @@ import path from 'path';
 import yaml from 'js-yaml';
 import * as semver from 'semver';
 import { getGithubToken } from './githubAuth.js';
+import { peArchitectures } from './pe.js';
 
 const YAML_KEY_ORDER = [
   'name',
@@ -258,6 +259,8 @@ function inferArchitectures(filename: string): { archs: string[] | null; confide
   const f = filename.toLowerCase();
   if (/riscv|risc-v/.test(f)) return { archs: null, confident: true };
   if (/universal|fat/.test(f)) return { archs: ['arm64', 'x64'], confident: true };
+  // arm64x is a hybrid binary holding both arm64 and arm64ec code, so it loads in either kind of host.
+  if (/arm64x/.test(f)) return { archs: ['arm64', 'arm64ec'], confident: true };
   if (/arm64ec/.test(f)) return { archs: ['arm64ec'], confident: true }; // check before the broader arm64 pattern below
   if (/arm64|aarch64|[-_]m[123][-_.]|apple[._-]?silicon/.test(f) || tok('arm').test(f))
     return { archs: ['arm64'], confident: true };
@@ -792,7 +795,11 @@ function inspectExtractedDir(dir: string): ArchiveInspection {
         if (/\bx86_64\b/.test(info)) result.macArchitectures.add('x64');
       } else if (/pe32\+?\s+executable|ms-dos/i.test(info)) {
         result.platforms.add('win');
-        if (/\baarch64\b/i.test(info)) result.winArchitectures.add('arm64');
+        // `file` can't tell ARM64EC (x64 header) or ARM64X (arm64 header) from plain x64/arm64,
+        // so read the PE load config's hybrid metadata directly for 64-bit binaries.
+        const peArchs = /pe32\+/i.test(info) ? peArchitectures(f) : null;
+        if (peArchs) peArchs.forEach(a => result.winArchitectures.add(a));
+        else if (/\baarch64\b/i.test(info)) result.winArchitectures.add('arm64');
         else if (/pe32\+/i.test(info)) result.winArchitectures.add('x64');
         else if (/pe32\s+executable/i.test(info)) result.winArchitectures.add('x32');
         if (/\.exe$/i.test(f) && !inBundle(f) && !HELPER_BINARY_PATTERN.test(path.basename(f)))
