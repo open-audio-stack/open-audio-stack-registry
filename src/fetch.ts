@@ -9,6 +9,7 @@ import path from 'path';
 import yaml from 'js-yaml';
 import * as semver from 'semver';
 import { getGithubToken } from './githubAuth.js';
+import { convertImageToJpg } from './image.js';
 import { detectLicenseFromReadme, detectLicenseFromText } from './license.js';
 import { peArchitectures } from './pe.js';
 
@@ -898,17 +899,7 @@ async function downloadAndConvertImage(url: string, destPath: string): Promise<v
   if (!res.ok) throw new Error(`HTTP ${res.status} fetching image`);
   writeFileSync(tmp, Buffer.from(await res.arrayBuffer()));
   try {
-    // JPEG has no alpha channel, so a source PNG with any transparency (a logo/icon on a
-    // transparent background, common for repos with no dedicated screenshot) would otherwise
-    // flatten onto plain black — often invisible for a dark-lined logo. Composite onto neutral
-    // mid-grey instead: a no-op for fully opaque sources (the top image completely occludes it)
-    // and readable regardless of whether the transparent art itself is light or dark.
-    // scale2ref sizes the solid-colour background to match the source image without needing to
-    // know its dimensions ahead of time.
-    execSync(
-      `ffmpeg -i "${tmp}" -f lavfi -i color=c=0x808080:s=4x4 -filter_complex "[1:v][0:v]scale2ref[bg][img];[bg][img]overlay=format=auto,scale='min(1000,iw)':-1" -q:v 10 -frames:v 1 -update 1 "${destPath}" -y`,
-      { stdio: 'pipe' },
-    );
+    convertImageToJpg(tmp, destPath);
   } finally {
     execSync(`rm -f "${tmp}"`);
   }

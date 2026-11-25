@@ -13,9 +13,12 @@ export function jpgPathFor(imagePath: string): string {
   return imagePath.replace(/\.png$/i, '.jpg');
 }
 
-// Convert a PNG to JPEG, capped at IMAGE_MAX_WIDTH. JPEG has no alpha channel, so any
-// transparency is composited onto neutral mid-grey (the same as fetch.ts), not black.
-export function convertPngToJpg(srcPath: string, destPath: string): void {
+// Convert an image (PNG, JPEG, WebP, GIF...) to JPEG, capped at IMAGE_MAX_WIDTH. Used by both
+// fetch (downloaded screenshots) and validate (committed PNGs) so all registry images match.
+// JPEG has no alpha channel, so any transparency (common for a logo used when there's no
+// screenshot) is composited onto neutral mid-grey rather than black, where a dark logo would vanish.
+// scale2ref sizes the grey background to the source without knowing its dimensions in advance.
+export function convertImageToJpg(srcPath: string, destPath: string): void {
   execFileSync(
     'ffmpeg',
     [
@@ -65,7 +68,7 @@ export function resolvePngImage(yamlPath: string, imagePathLocal: string, ci: bo
     };
   }
   if (!existsSync(pngPath)) return { status: 'error', message: `File does not exist locally: ${pngPath}` };
-  convertPngToJpg(pngPath, jpgPath);
+  convertImageToJpg(pngPath, jpgPath);
   if (yamlIsPng) writeFileSync(yamlPath, setYamlImageToJpg(readFileSync(yamlPath, 'utf8')));
   return { status: 'converted', pngPath, jpgPath };
 }
