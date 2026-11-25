@@ -11,7 +11,7 @@ tags:
 url: https://github.com/ZL-Audio/ZLSplitter
 image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/zl-audio/zlsplitter/zlsplitter.jpg
 date: '2026-11-07T19:18:56Z'
-changes: "Large update focused on optimization and consistency with other ZL plugins. Breaking: SVF and FIR crossover filters redesigned and several FFT analyzer settings removed. Adds a preset manager, parameter context menus, and OCT/ERB smoothing."
+changes: 'Large update focused on optimization and consistency with other ZL plugins. Breaking: SVF and FIR crossover filters redesigned and several FFT analyzer settings removed. Adds a preset manager, parameter context menus, and OCT/ERB smoothing.'
 files:
   - systems:
       - type: linux
