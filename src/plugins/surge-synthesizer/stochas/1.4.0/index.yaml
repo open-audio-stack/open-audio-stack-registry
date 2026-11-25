@@ -1,0 +1,66 @@
+name: Stochas
+author: Surge Synthesizer Team
+description: Stochas is a probability-driven MIDI step sequencer with polyrhythms, per-step chance and randomization, and chains for linking patterns.
+license: gpl-3.0
+type: generator
+tags:
+  - Sequencer
+  - MIDI
+  - Probability
+url: https://github.com/surge-synthesizer/stochas
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/surge-synthesizer/stochas/stochas.jpg
+date: '2026-11-19T18:40:58Z'
+changes: |
+  - Add chain dialog and easier chain creation
+  - Relative percentages and weights in mono mode
+  - Send MIDI start/stop/clock in standalone mode
+  - More flexible relative transpose
+files:
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - vst3
+      - clap
+    type: archive
+    size: 6216951
+    sha256: 639f8aaf2cde25eb98c83b0f0614d5d041f46422eeb7839f99a7d3e43b3134ec
+    url: https://github.com/surge-synthesizer/stochas/releases/download/v1.4.0/stochas-1.4.0.bd4e22c-win.zip
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    contains:
+      - vst3
+      - clap
+      - elf
+    type: archive
+    size: 13189426
+    sha256: 02d32f7cf6b4a18e6cc42f61f1b4a6da6bb025b535ba7f65a86dbc6fb4e81a5a
+    url: https://github.com/surge-synthesizer/stochas/releases/download/v1.4.0/stochas-1.4.0.bd4e22c.linux-x86_64.tgz
+  - systems:
+      - type: mac
+    architectures:
+      - arm64
+      - x64
+    contains:
+      - vst3
+      - component
+      - clap
+      - app
+    type: installer
+    size: 28035784
+    sha256: 37500074686e802329a32ef04a5283b76048e20c315ab1aca17261d5b8e2dcd6
+    url: https://github.com/surge-synthesizer/stochas/releases/download/v1.4.0/stochas-macOS-1.4.0.dmg
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - vst3
+      - exe
+    type: installer
+    size: 4163415
+    sha256: c30cc40d08b921c99d807db645f659657fdd7764fa6a20dd338649215e33572e
+    url: https://github.com/surge-synthesizer/stochas/releases/download/v1.4.0/stochas_windows_installer.exe
