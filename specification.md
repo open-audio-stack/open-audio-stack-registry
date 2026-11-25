@@ -120,6 +120,18 @@ Managers will detect the current architecture as the default platform, but allow
 
 For example, if the Plugin Manager is native ARM64, but the DAW is emulated x64, installing a native ARM64 plugin will result in the DAW failing to see or load the plugin. The best practice is that users can manually set a Desired Platform to ensure compatibility with their specific DAW configuration.
 
+#### Windows on Arm
+
+Windows on Arm hosts load plugins built for different ABIs:
+
+| Host (DAW) runs as      | Loads `x64` plugin | Loads `arm64ec` plugin | Loads `arm64` plugin |
+| :---------------------- | :----------------- | :--------------------- | :------------------- |
+| x64 (emulated)          | Yes                | Yes                    | No                   |
+| ARM64EC (native/hybrid) | Yes                | Yes                    | No                   |
+| ARM64 (pure native)     | No                 | No                     | Yes                  |
+
+An ARM64X binary contains both arm64 and arm64ec code, so it loads in every Windows on Arm host. List it with both architectures: `[ "arm64", "arm64ec" ]`.
+
 #### List architectures
 
 ```
