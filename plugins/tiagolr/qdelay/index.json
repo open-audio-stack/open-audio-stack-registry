@@ -41,7 +41,7 @@
           "size": 5462344,
           "sha256": "c79035db01c072ac338bc5be54cc456588b47307722f3c0667995815c266794b",
           "url": "https://github.com/tiagolr/qdelay/releases/download/v1.2.3/qdelay-linux-v1.2.3.zip",
-          "downloads": 391
+          "downloads": 398
         },
         {
           "systems": [
@@ -61,7 +61,7 @@
           "size": 8877154,
           "sha256": "0987616a8b0d5dc41961ca33cce4880b4e30006a44aaf917fe1870a3e8a604aa",
           "url": "https://github.com/tiagolr/qdelay/releases/download/v1.2.3/qdelay-macos-v1.2.3.zip",
-          "downloads": 348
+          "downloads": 355
         },
         {
           "systems": [
@@ -79,11 +79,11 @@
           "size": 3346241,
           "sha256": "e2589d38dc99c5e91654afd5e95feca1609532f6752c4526387f62cf36134121",
           "url": "https://github.com/tiagolr/qdelay/releases/download/v1.2.3/qdelay-win-v1.2.3.zip",
-          "downloads": 874
+          "downloads": 886
         }
       ],
       "verified": true,
-      "downloads": 1613
+      "downloads": 1639
     },
     "1.1.2": {
       "name": "QDelay",
@@ -335,5 +335,5 @@
       "downloads": 762
     }
   },
-  "downloads": 6161
+  "downloads": 6187
 }

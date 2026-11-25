@@ -34,7 +34,7 @@
             "size": 14667747,
             "sha256": "332d48d1198a6125f4efa6c7e6e2040128e8e82e822a7091fbf89c8e86ed9dd3",
             "url": "https://github.com/floe-audio/Floe/releases/download/v2.0.5/Floe-VST3-v2.0.5-Linux.tar.gz",
-            "downloads": 26
+            "downloads": 27
           },
           {
             "systems": [
@@ -73,7 +73,7 @@
             "size": 35456862,
             "sha256": "b4ed6c4e995495f2b2156236585a18af54b3d90cf49809b9b5ec3170f0b0f984",
             "url": "https://github.com/floe-audio/Floe/releases/download/v2.0.5/Floe-Installer-v2.0.5-macOS-Apple-Silicon.zip",
-            "downloads": 142
+            "downloads": 145
           },
           {
             "systems": [
@@ -94,7 +94,7 @@
             "size": 36053289,
             "sha256": "a919593efdf8de7bfea4fbaeed66cfc32f1a7a2ef6b3a6efa07f3a31e47c532b",
             "url": "https://github.com/floe-audio/Floe/releases/download/v2.0.5/Floe-Installer-v2.0.5-macOS-Intel.zip",
-            "downloads": 23
+            "downloads": 28
           },
           {
             "systems": [
@@ -115,7 +115,7 @@
             "size": 35723799,
             "sha256": "30f9d79c8c7b4af8639e380c3850f714855487b9c11dc7d2feba5ffef0864d1c",
             "url": "https://github.com/floe-audio/Floe/releases/download/v2.0.5/Floe-Manual-Install-v2.0.5-macOS-Apple-Silicon.zip",
-            "downloads": 20
+            "downloads": 21
           },
           {
             "systems": [
@@ -136,7 +136,7 @@
             "size": 36337219,
             "sha256": "fd4dce9e88cc2d0b4456b3f229095c26b9029af07565896d0384d3b9a30d1fb1",
             "url": "https://github.com/floe-audio/Floe/releases/download/v2.0.5/Floe-Manual-Install-v2.0.5-macOS-Intel.zip",
-            "downloads": 7
+            "downloads": 8
           },
           {
             "systems": [
@@ -155,7 +155,7 @@
             "size": 33842957,
             "sha256": "3f072432ccb5b312ebebd0bb03ff45a9626d7d84a0511952cecd212c94598cc5",
             "url": "https://github.com/floe-audio/Floe/releases/download/v2.0.5/Floe-Installer-v2.0.5-Windows.zip",
-            "downloads": 365
+            "downloads": 369
           },
           {
             "systems": [
@@ -178,7 +178,7 @@
           }
         ],
         "verified": true,
-        "downloads": 636
+        "downloads": 651
       },
       "2.0.1": {
         "name": "Floe",
@@ -358,6 +358,6 @@
         "downloads": 516
       }
     },
-    "downloads": 1152
+    "downloads": 1167
   }
 }
