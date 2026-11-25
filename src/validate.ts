@@ -16,6 +16,7 @@ import {
 import path from 'path';
 import { ZodIssue } from 'zod';
 import { vtScanUrls } from './virustotal.js';
+import { resolvePngImage } from './image.js';
 
 const filePath: string = process.argv[2];
 // Split on either separator so a forward-slash path (the form used in AGENTS.md's own
@@ -27,12 +28,27 @@ const version: string = pathGetVersion(subPath, path.sep);
 
 // Validate metadata
 const pkgJson = fileReadYaml(filePath) as PackageVersion;
+
+// Images are served as .jpg. A committed .png is converted to .jpg locally and the yaml updated (#589).
+const registryUrl = 'https://open-audio-stack.github.io/open-audio-stack-registry/';
+const imageResult = pkgJson.image
+  ? resolvePngImage(filePath, pkgJson.image.replace(registryUrl, 'src/'), Boolean(process.env.CI))
+  : ({ status: 'none' } as const);
+if (imageResult.status === 'converted') {
+  pkgJson.image = pkgJson.image.replace(/\.png$/i, '.jpg');
+  console.log(`Converted ${imageResult.pngPath} to ${imageResult.jpgPath} and set image to .jpg in ${filePath}`);
+}
 const pkg = new Package(slug);
 pkg.addVersion(version, pkgJson);
 pkg.logEnable();
 pkg.outputReport();
 
 let hasErrors = false;
+
+if (imageResult.status === 'error') {
+  hasErrors = true;
+  pkg.logErrors([{ message: imageResult.message, path: ['image'] }] as ZodIssue[]);
+}
 
 // Loop through files in yaml file
 for (const type in pkgJson.files) {
@@ -88,10 +104,7 @@ if (audioPathLocal && !fileExists(audioPathLocal)) {
     },
   ] as ZodIssue[]);
 }
-const imagePathLocal: string = pkgJson.image.replace(
-  'https://open-audio-stack.github.io/open-audio-stack-registry/',
-  'src/',
-);
+const imagePathLocal: string = pkgJson.image.replace(registryUrl, 'src/');
 if (!fileExists(imagePathLocal)) {
   hasErrors = true;
   pkg.logErrors([
