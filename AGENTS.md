@@ -178,6 +178,14 @@ gh api repos/<org>/<repo>/contents/REUSE.toml --jq '.content' | base64 -d   # if
 gh api repos/<org>/<repo>/license --jq '.content' | base64 -d | head -20
 ```
 
+**Always check the README before concluding "no license".** Some repos state their license only in the README (e.g. a `## License` section saying "This project is licensed under the MIT License", where the linked `LICENSE` file is missing, as with `ryanb3/adaptive-eq` in [#579](https://github.com/open-audio-stack/open-audio-stack-registry/issues/579)). If the API and the `LICENSE` file give nothing, the fetch script falls back to the README. It reads only a License/Licensing section, an explicit "released/licensed/distributed under the X license" sentence, or a license badge, and flags the result for review. A README mention of a _dependency's_ license (e.g. "built with JUCE, which is GPLv3") does not count. If checking by hand:
+
+```bash
+gh api repos/<org>/<repo>/readme --jq '.content' | base64 -d | grep -i -A3 licen
+```
+
+A clear license statement in the README is enough to pass 3d. Note in the PR description that the license came from the README.
+
 Watch for **multi-component LICENSE files** — some projects bundle a third-party dependency's full license text below their own (e.g. DPF, JUCE), each under its own "X is released under the Y license" heading. The project's own declared license (the first such statement, near the top) is what belongs in the registry entry — not whichever license text happens to appear first in a byte-offset scan, and not a bundled dependency's license. The fetch script's text-detection now prioritizes this explicit declaration for exactly this reason (see [#819](https://github.com/open-audio-stack/open-audio-stack-registry/pull/819)/[#857](https://github.com/open-audio-stack/open-audio-stack-registry/pull/857)), but confirm by eye when a LICENSE file has more than one `##`-style section.
 
 **3e. Has releases with binary builds**
