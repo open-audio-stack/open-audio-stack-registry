@@ -7,6 +7,7 @@ import {
   fileValidateMetadata,
   Package,
   PackageVersion,
+  packageErrors,
   pathGetSlug,
   pathGetVersion,
   PluginFile,
@@ -17,6 +18,7 @@ import path from 'path';
 import { ZodIssue } from 'zod';
 import { vtScanUrls } from './virustotal.js';
 import { resolvePngImage } from './image.js';
+import { formatIssues } from './validateFormat.js';
 
 const filePath: string = process.argv[2];
 // Split on either separator so a forward-slash path (the form used in AGENTS.md's own
@@ -37,6 +39,14 @@ const imageResult = pkgJson.image
 if (imageResult.status === 'converted') {
   pkgJson.image = pkgJson.image.replace(/\.png$/i, '.jpg');
   console.log(`Converted ${imageResult.pngPath} to ${imageResult.jpgPath} and set image to .jpg in ${filePath}`);
+}
+
+// Report schema errors one per line, instead of letting addVersion() throw a raw JSON dump.
+const schemaErrors = packageErrors(pkgJson);
+if (schemaErrors.length > 0) {
+  console.error(formatIssues(`${slug}/${version}`, schemaErrors, pkgJson));
+  console.error(`\n${schemaErrors.length} validation error(s). Fix these and run validate again.`);
+  process.exit(1);
 }
 const pkg = new Package(slug);
 pkg.addVersion(version, pkgJson);
