@@ -512,17 +512,26 @@ Package authors are tagged by the agent, **once**, when a PR first adds a packag
 To check whether a package is new, confirm the package folder did not exist on `main` before your branch:
 
 ```bash
-git ls-tree -d origin/main src/plugins/org-name/package-name/
+git ls-tree -d origin/main src/<type>/org-name/package-name/
 ```
 
 Empty output means the package is new, so notify. Any output means this is a version upgrade, so skip this section.
 
-For each new-package PR you just created, take the GitHub owner from the `url:` field of the package's `index.yaml` (e.g. `url: https://github.com/wolf-plugins/wolf-shaper` → `wolf-plugins`). Skip tagging if that owner is the account that opened the PR. Otherwise post a single comment on the PR:
+For each new-package PR you just created, take the GitHub owner from the `url:` field of the package's `index.yaml` (e.g. `url: https://github.com/wolf-plugins/wolf-shaper` → `wolf-plugins`). Skip tagging if that owner is the account that opened the PR. Otherwise post a single comment on the PR.
+
+The comment must name the package's actual type, matching the `src/<type>/` folder it was added under. Never call an app, preset or project a "plugin". Fill in `<type>`, `<types>` and the list link from this table:
+
+| Folder         | `<type>` | `<types>` | List link                                                         |
+| :------------- | :------- | :-------- | :---------------------------------------------------------------- |
+| `src/apps`     | app      | apps      | https://open-audio-stack.github.io/open-audio-stack-registry/apps |
+| `src/plugins`  | plugin   | plugins   | https://studiorack.github.io/studiorack-site/plugins              |
+| `src/presets`  | preset   | presets   | https://studiorack.github.io/studiorack-site/presets              |
+| `src/projects` | project  | projects  | https://studiorack.github.io/studiorack-site/projects             |
 
 ```bash
-gh pr comment PR_NUMBER --repo open-audio-stack/open-audio-stack-registry --body "Plugin author notification:
+gh pr comment PR_NUMBER --repo open-audio-stack/open-audio-stack-registry --body "Author notification:
 
-@org-name — your plugin has been submitted to the Open Audio Stack registry. Please review this PR and let us know if the metadata (name, description, tags, files) is correct. To see a full list of all currently added plugins, click <a href=\"https://studiorack.github.io/studiorack-site/plugins\">here</a>."
+@org-name — your <type> has been submitted to the Open Audio Stack registry. Please review this PR and let us know if the metadata (name, description, tags, files) is correct. To see a full list of all currently added <types>, click <a href=\"<list link>\">here</a>."
 ```
 
 For a batch, post one comment per PR, only on the PR for that package.
