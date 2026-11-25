@@ -1,0 +1,35 @@
+name: NEL
+author: Florian Mrugalla
+description: An open-source creative vibrato plugin using a feed-forward delay to modulate pitch and time, with lookahead compensation and oversampling for cleaner results than typical lofi vibrato effects.
+license: gpl-3.0
+type: effect
+tags:
+  - Vibrato
+  - Modulation
+url: https://github.com/Mrugalla/NEL-19
+image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/mrugalla/nel-19/nel-19.jpg
+date: '2024-08-09T00:00:00.000Z'
+changes: Added 2 new wavetables to NEL's wavetable LFO.
+files:
+  - systems:
+      - type: win
+    architectures:
+      - x64
+    contains:
+      - vst3
+    type: archive
+    size: 3417465
+    sha256: 6ed8d391a134c1398ba85db78d5047a1480885f671c712840892b1e75cc52e3d
+    url: https://github.com/user-attachments/files/16512435/NEL.vst3.zip
+  - systems:
+      - type: mac
+    architectures:
+      - arm64
+      - x64
+    contains:
+      - vst3
+      - component
+    type: archive
+    size: 5234518
+    sha256: 57f4e441725156f829b2f5b5d6e4eb5813546941217b0fa69cf81484f2e83b79
+    url: https://github.com/Mrugalla/NEL-19/files/12727993/NEL.Mac.zip
