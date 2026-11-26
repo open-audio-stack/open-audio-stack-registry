@@ -167,7 +167,8 @@ test('sha256 with no file report falls back to the url report', async () => {
   const { fetchFn, calls } = mock(status(404), status(404), status(200));
   const [r] = await vtScanUrls([{ url: URL1, sha256: SHA }], { apiKey: 'k', fetchFn, wait: noWait });
   expect(calls).toEqual([`GET /files/${SHA}`, `GET /urls/${vtUrlId(URL1)}`, 'POST /urls']);
-  expect(r).toMatchObject({ submitted: 'yes', result: 'pending', link: vtSearchLink(URL1) });
+  expect(r).toMatchObject({ submitted: 'yes', result: 'not scanned', link: vtSearchLink(URL1) });
+  expect(r.flags).toBeUndefined();
 });
 
 test('lookup: false never reads the file report', async () => {
@@ -186,4 +187,18 @@ test('vtReport lists engines and total flags', () => {
     '| Stochas | ZL.Equalizer.2-1.4.1-macOS-x86-64.dmg | yes | 2 flags (APEX: Malicious) | [VirusTotal](L) |',
   );
   expect(report).toContain('Total flags: 2');
+});
+
+test('sha256 with only a url report never shows the url flags as the file result', async () => {
+  const { fetchFn } = mock(status(404), report(0, 0));
+  const [r] = await vtScanUrls([{ url: URL1, sha256: SHA }], { apiKey: 'k', fetchFn, wait: noWait });
+  expect(r).toMatchObject({ submitted: 'yes', result: 'not scanned' });
+  expect(r.flags).toBeUndefined();
+});
+
+test('uploaded file still being analysed is pending', async () => {
+  const { fetchFn, calls } = mock(fileReport({}, 0));
+  const [r] = await vtScanUrls([{ url: URL1, sha256: SHA }], { apiKey: 'k', fetchFn, wait: noWait });
+  expect(calls).toEqual([`GET /files/${SHA}`]);
+  expect(r).toMatchObject({ result: 'pending', link: `https://www.virustotal.com/gui/file/${SHA}` });
 });

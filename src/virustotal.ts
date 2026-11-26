@@ -57,6 +57,9 @@ export function vtFileLink(sha256: string): string {
   return `https://www.virustotal.com/gui/file/${sha256}`;
 }
 
+// A file VirusTotal has never analysed. Submitting its url does not scan the file: it has to be uploaded.
+export const NOT_SCANNED = 'not scanned';
+
 function flagsText(flags: number): string {
   return `${flags} ${flags === 1 ? 'flag' : 'flags'}`;
 }
@@ -124,9 +127,12 @@ export async function vtScanUrls(files: (string | VtFile)[], options: VtOptions 
     }
     const attrs = ((await res.json()) as any).data?.attributes || {};
     const stats: Record<string, number> = attrs.last_analysis_stats || {};
-    if (!attrs.last_analysis_date || !Object.values(stats).reduce((a, b) => a + b, 0)) return false;
     entry.submitted = 'yes';
     entry.link = vtFileLink(sha256);
+    if (!attrs.last_analysis_date || !Object.values(stats).reduce((a, b) => a + b, 0)) {
+      entry.result = 'pending'; // uploaded, analysis still queued
+      return true;
+    }
     entry.flags = (stats.malicious || 0) + (stats.suspicious || 0);
     entry.result = flagsText(entry.flags);
     entry.detections = Object.entries((attrs.last_analysis_results || {}) as Record<string, any>)
@@ -151,7 +157,9 @@ export async function vtScanUrls(files: (string | VtFile)[], options: VtOptions 
         const stats: Record<string, number> = attrs.last_analysis_stats || {};
         const scanned = Object.values(stats).reduce((a, b) => a + b, 0);
         entry.submitted = 'yes';
-        if (!attrs.last_analysis_date || !scanned) entry.result = 'pending';
+        // The url report only rates the link, so never present it as the file's result
+        if (sha256) entry.result = NOT_SCANNED;
+        else if (!attrs.last_analysis_date || !scanned) entry.result = 'pending';
         else {
           entry.flags = (stats.malicious || 0) + (stats.suspicious || 0);
           entry.result = flagsText(entry.flags);
@@ -159,6 +167,7 @@ export async function vtScanUrls(files: (string | VtFile)[], options: VtOptions 
       } else if (res.status === 404) {
         entry.submitted = 'no';
         if (submit) quotaExhausted = await submitUrl(entry);
+        if (sha256 && entry.result === 'pending') entry.result = NOT_SCANNED;
       } else if (res.status === 429) {
         quotaExhausted = true;
         log('VirusTotal rate limit still reached after retry, skipping remaining files');
@@ -187,6 +196,6 @@ export function vtReport(entries: VtReportEntry[], results: VtResult[], hasKey: 
   });
   if (hasKey) output += `\nTotal flags: ${totalFlags}\n`;
   output +=
-    '\nResults are the antivirus engines that flagged the file itself. `pending` means VirusTotal has no finished file scan yet: it was submitted and will show on the next run. Submitted is `unknown` when the status could not be read (for example on a fork PR) and `no` when the url has not been submitted. Opening a Scan link for a url starts a scan if it has not been scanned yet.\n';
+    '\nResults are the antivirus engines that flagged the file itself. `not scanned` means VirusTotal has never analysed this file, so it needs uploading. `pending` means a scan has not finished yet. Submitted is `unknown` when the status could not be read (for example on a fork PR) and `no` when the url has not been submitted. Opening a Scan link for a url starts a scan if it has not been scanned yet.\n';
   return output;
 }
