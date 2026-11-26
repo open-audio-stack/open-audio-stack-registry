@@ -5,6 +5,9 @@ import { createHash } from 'crypto';
 //   1. locally, when `npm run dev:validate` runs with VT_API_KEY set
 //   2. in CI, when the workflow has VT_API_KEY available (not on fork PRs)
 //   3. by anyone opening the search link, which redirects to the url report and starts a scan
+// When a file's sha256 is known, its file report (the antivirus results for the downloaded binary) is
+// used. The url report only says whether the link itself is a malicious website, so a flagged binary
+// can show 0 flags there. It is used only when VirusTotal has no file report yet.
 // Public API is limited to 4 requests/min, so requests are paced and only made when needed.
 
 const API = 'https://www.virustotal.com/api/v3';
@@ -19,6 +22,13 @@ export interface VtResult {
   // 'N flags', 'pending', or empty when there is no result to show
   result: string;
   flags?: number;
+  // Engines that flagged the file, e.g. 'APEX: Malicious'
+  detections?: string[];
+}
+
+export interface VtFile {
+  url: string;
+  sha256?: string;
 }
 
 export interface VtOptions {
@@ -43,15 +53,24 @@ export function vtSearchLink(url: string): string {
   return `https://www.virustotal.com/gui/search?query=${encodeURIComponent(url)}`;
 }
 
+export function vtFileLink(sha256: string): string {
+  return `https://www.virustotal.com/gui/file/${sha256}`;
+}
+
+function flagsText(flags: number): string {
+  return `${flags} ${flags === 1 ? 'flag' : 'flags'}`;
+}
+
 const sleep = (ms: number) => new Promise<void>(resolve => setTimeout(resolve, ms));
 
-export async function vtScanUrls(urls: string[], options: VtOptions = {}): Promise<VtResult[]> {
+export async function vtScanUrls(files: (string | VtFile)[], options: VtOptions = {}): Promise<VtResult[]> {
   const { apiKey, submit = true, lookup = true } = options;
   const log = options.log || (() => {});
   const wait = options.wait || sleep;
   const fetchFn = options.fetchFn || fetch;
 
-  const results: VtResult[] = urls.map(url => ({
+  const inputs: VtFile[] = files.map(f => (typeof f === 'string' ? { url: f } : f));
+  const results: VtResult[] = inputs.map(({ url }) => ({
     url,
     link: vtSearchLink(url),
     submitted: 'unknown',
@@ -91,9 +110,37 @@ export async function vtScanUrls(urls: string[], options: VtOptions = {}): Promi
   };
 
   let quotaExhausted = false;
-  for (const entry of results) {
+  // The file report for a known sha256: true when it gave a result, false to fall back to the url report
+  const fileReport = async (entry: VtResult, sha256: string): Promise<boolean> => {
+    const res = await request(`${API}/files/${sha256}`, { headers: { 'x-apikey': apiKey } });
+    if (res.status === 429) {
+      quotaExhausted = true;
+      log('VirusTotal rate limit still reached after retry, skipping remaining files');
+      return true;
+    }
+    if (!res.ok) {
+      if (res.status !== 404) log(`VirusTotal file lookup failed (${res.status}): ${entry.url}`);
+      return false;
+    }
+    const attrs = ((await res.json()) as any).data?.attributes || {};
+    const stats: Record<string, number> = attrs.last_analysis_stats || {};
+    if (!attrs.last_analysis_date || !Object.values(stats).reduce((a, b) => a + b, 0)) return false;
+    entry.submitted = 'yes';
+    entry.link = vtFileLink(sha256);
+    entry.flags = (stats.malicious || 0) + (stats.suspicious || 0);
+    entry.result = flagsText(entry.flags);
+    entry.detections = Object.entries((attrs.last_analysis_results || {}) as Record<string, any>)
+      .filter(([, r]) => r.category === 'malicious' || r.category === 'suspicious')
+      .map(([engine, r]) => `${engine}: ${r.result || r.category}`);
+    return true;
+  };
+
+  for (const [i, entry] of results.entries()) {
     if (quotaExhausted) break;
     try {
+      const sha256 = inputs[i].sha256;
+      if (lookup && sha256 && (await fileReport(entry, sha256))) continue;
+      if (quotaExhausted) break;
       if (!lookup) {
         if (submit) quotaExhausted = await submitUrl(entry);
         continue;
@@ -107,7 +154,7 @@ export async function vtScanUrls(urls: string[], options: VtOptions = {}): Promi
         if (!attrs.last_analysis_date || !scanned) entry.result = 'pending';
         else {
           entry.flags = (stats.malicious || 0) + (stats.suspicious || 0);
-          entry.result = `${entry.flags} ${entry.flags === 1 ? 'flag' : 'flags'}`;
+          entry.result = flagsText(entry.flags);
         }
       } else if (res.status === 404) {
         entry.submitted = 'no';
@@ -121,4 +168,25 @@ export async function vtScanUrls(urls: string[], options: VtOptions = {}): Promi
     }
   }
   return results;
+}
+
+export interface VtReportEntry {
+  pkg: string;
+}
+
+// Markdown report posted as a PR comment by CI, one row per file.
+export function vtReport(entries: VtReportEntry[], results: VtResult[], hasKey: boolean): string {
+  let totalFlags = 0;
+  let output =
+    'VirusTotal Report:\n\n| Package | File | Submitted | Result | Scan |\n| --- | --- | --- | --- | --- |\n';
+  results.forEach((r, i) => {
+    totalFlags += r.flags || 0;
+    const fileName = r.url.split('/').pop();
+    const engines = r.detections && r.detections.length ? ` (${r.detections.join(', ')})` : '';
+    output += `| ${entries[i].pkg} | ${fileName} | ${r.submitted} | ${r.result}${engines} | [VirusTotal](${r.link}) |\n`;
+  });
+  if (hasKey) output += `\nTotal flags: ${totalFlags}\n`;
+  output +=
+    '\nResults are the antivirus engines that flagged the file itself. `pending` means VirusTotal has no finished file scan yet: it was submitted and will show on the next run. Submitted is `unknown` when the status could not be read (for example on a fork PR) and `no` when the url has not been submitted. Opening a Scan link for a url starts a scan if it has not been scanned yet.\n';
+  return output;
 }
