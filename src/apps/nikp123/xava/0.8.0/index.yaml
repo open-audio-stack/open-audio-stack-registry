@@ -1,0 +1,26 @@
+name: Xava
+author: nikp123
+description: Audio visualizer that draws real-time spectrum bars from ALSA, PulseAudio, PortAudio, sndio, FIFO (MPD) or shared-memory input. A fork of C.A.V.A. with OpenGL rendering and a modular input/output/filter system.
+license: mit
+type: tool
+tags:
+  - Visualizer
+  - ALSA
+  - X11
+  - PulseAudio
+url: https://github.com/nikp123/xava
+image: https://open-audio-stack.github.io/open-audio-stack-registry/apps/nikp123/xava/xava.jpg
+date: '2026-11-25T01:35:09Z'
+changes: |
+  - Fix the OpenGL bars vertex shader
+  - Linux AppImage build (Windows and macOS builds are no longer provided)
+files:
+  - systems:
+      - type: linux
+    architectures:
+      - x64
+    type: installer
+    open: xava-x86_64.AppImage
+    size: 25074168
+    sha256: a018c2e0e926e5f4c5929062c3f16898ef266b49e09a2dffd103131e66ee6bbc
+    url: https://github.com/nikp123/xava/releases/download/0.8.0.0/xava-x86_64.AppImage
