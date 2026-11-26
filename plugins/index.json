@@ -33,12 +33,15 @@
             "type": "installer",
             "size": 12623277,
             "sha256": "4f96261cfd628bab587b9ed80564207abb38e5980bcb449fff6999f9a00f5ff1",
-            "url": "https://github.com/zynaddsubfx/zynaddsubfx/releases/download/2.5.3-osx/ZynAddSubFx-2.5.3.dmg"
+            "url": "https://github.com/zynaddsubfx/zynaddsubfx/releases/download/2.5.3-osx/ZynAddSubFx-2.5.3.dmg",
+            "downloads": 794
           }
         ],
-        "verified": true
+        "verified": true,
+        "downloads": 794
       }
-    }
+    },
+    "downloads": 794
   },
   "zones-convolution/zones-client": {
     "slug": "zones-convolution/zones-client",
@@ -77,7 +80,8 @@
             "type": "installer",
             "size": 6085364,
             "sha256": "0d7979e3acc17665e3530417dad43b13034b511fd81df4b45e999dcc86632202",
-            "url": "https://github.com/zones-convolution/zones_client/releases/download/v1.0.5/Zones-arm64.pkg"
+            "url": "https://github.com/zones-convolution/zones_client/releases/download/v1.0.5/Zones-arm64.pkg",
+            "downloads": 127
           },
           {
             "systems": [
@@ -94,12 +98,15 @@
             "type": "installer",
             "size": 5330701,
             "sha256": "922dbdadb724935f139a4400405eea372ddaef03cb6bbde0f764b6ddbee59217",
-            "url": "https://github.com/zones-convolution/zones_client/releases/download/v1.0.5/Zones-v1.0.5-Windows.exe"
+            "url": "https://github.com/zones-convolution/zones_client/releases/download/v1.0.5/Zones-v1.0.5-Windows.exe",
+            "downloads": 238
           }
         ],
-        "verified": true
+        "verified": true,
+        "downloads": 365
       }
-    }
+    },
+    "downloads": 365
   },
   "zmann-org/zmann": {
     "slug": "zmann-org/zmann",
@@ -135,7 +142,8 @@
             "type": "archive",
             "size": 76353801,
             "sha256": "4b07516bc2074cf8ee3fd8677b35f7362b6be4fc20a25452c1967c64e9b391bd",
-            "url": "https://github.com/zmann-org/zmann/releases/download/2.0rc-1/Bells.zip"
+            "url": "https://github.com/zmann-org/zmann/releases/download/2.0rc-1/Bells.zip",
+            "downloads": 42
           },
           {
             "systems": [
@@ -152,7 +160,8 @@
             "type": "archive",
             "size": 78485504,
             "sha256": "34372d3404f244d33d6aa2e615c1e6bb52391dd736b6f32c997f98a2a4be2f5b",
-            "url": "https://github.com/zmann-org/zmann/releases/download/2.0rc-1/Bells.clap"
+            "url": "https://github.com/zmann-org/zmann/releases/download/2.0rc-1/Bells.clap",
+            "downloads": 22
           },
           {
             "systems": [
@@ -169,7 +178,8 @@
             "type": "archive",
             "size": 2355094,
             "sha256": "cd20b3bf45f1fa5c4b8d38b98468ec43c21dca74b53365cbe9d54ff7153c55ab",
-            "url": "https://github.com/zmann-org/zmann/releases/download/2.0rc-1/Orchestron.zip"
+            "url": "https://github.com/zmann-org/zmann/releases/download/2.0rc-1/Orchestron.zip",
+            "downloads": 44
           },
           {
             "systems": [
@@ -186,12 +196,15 @@
             "type": "archive",
             "size": 3017728,
             "sha256": "1c9cb404025e0b177c355fc8a5137a17139e42f48de3d721c7687f7edd5942a3",
-            "url": "https://github.com/zmann-org/zmann/releases/download/2.0rc-1/Orchestron.clap"
+            "url": "https://github.com/zmann-org/zmann/releases/download/2.0rc-1/Orchestron.clap",
+            "downloads": 20
           }
         ],
-        "verified": true
+        "verified": true,
+        "downloads": 128
       }
-    }
+    },
+    "downloads": 128
   },
   "zl-audio/zlwarm": {
     "slug": "zl-audio/zlwarm",
@@ -229,7 +242,8 @@
             "type": "installer",
             "size": 6115643,
             "sha256": "1219606cd0ed1e8b02eaac93041f2e70d9387bde6e669b395fa116f333da0632",
-            "url": "https://github.com/ZL-Audio/ZLWarm/releases/download/0.2.1/ZL.Warm-0.2.1.dmg"
+            "url": "https://github.com/ZL-Audio/ZLWarm/releases/download/0.2.1/ZL.Warm-0.2.1.dmg",
+            "downloads": 3585
           },
           {
             "systems": [
@@ -246,7 +260,8 @@
             "type": "installer",
             "size": 2707517,
             "sha256": "61713ffdeabbc87bf79b4f6070619282ceb5add98094ccbc758c383fd2ae4177",
-            "url": "https://github.com/ZL-Audio/ZLWarm/releases/download/0.2.1/ZL.Warm-0.2.1.exe"
+            "url": "https://github.com/ZL-Audio/ZLWarm/releases/download/0.2.1/ZL.Warm-0.2.1.exe",
+            "downloads": 4432
           },
           {
             "systems": [
@@ -263,12 +278,15 @@
             "type": "archive",
             "size": 14110770,
             "sha256": "1e37bde56287423e075360cb44159bee4498a139144ff3c65c6d4e85e5198ef4",
-            "url": "https://github.com/ZL-Audio/ZLWarm/releases/download/0.2.1/ZL.Warm-0.2.1.zip"
+            "url": "https://github.com/ZL-Audio/ZLWarm/releases/download/0.2.1/ZL.Warm-0.2.1.zip",
+            "downloads": 4104
           }
         ],
-        "verified": true
+        "verified": true,
+        "downloads": 12121
       }
-    }
+    },
+    "downloads": 12121
   },
   "zl-audio/zlsplitter": {
     "slug": "zl-audio/zlsplitter",
@@ -308,7 +326,8 @@
             "size": 5426960,
             "sha256": "db2117da6cab586fe3157f5081d0cc0fa1ea7839f4a2dfdbe7d524507af45804",
             "attested": true,
-            "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.4.0/ZL.Splitter-0.4.0-Linux-arm64.zip"
+            "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.4.0/ZL.Splitter-0.4.0-Linux-arm64.zip",
+            "downloads": 40
           },
           {
             "systems": [
@@ -327,7 +346,8 @@
             "size": 5848894,
             "sha256": "843fd5439547f8ec0ab546348803e1402c515fd3ebba6fabe08f636e2397f22e",
             "attested": true,
-            "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.4.0/ZL.Splitter-0.4.0-Linux-x86-64-AVX2.zip"
+            "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.4.0/ZL.Splitter-0.4.0-Linux-x86-64-AVX2.zip",
+            "downloads": 116
           },
           {
             "systems": [
@@ -346,7 +366,8 @@
             "size": 5582709,
             "sha256": "8fdc1d90f73a44301ab0709a3a2c59bd890975d798038d3dda25cb0b557fcf4d",
             "attested": true,
-            "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.4.0/ZL.Splitter-0.4.0-Linux-x86-64.zip"
+            "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.4.0/ZL.Splitter-0.4.0-Linux-x86-64.zip",
+            "downloads": 87
           },
           {
             "systems": [
@@ -365,7 +386,8 @@
             "size": 5260634,
             "sha256": "4aad01333a37087fd910ecbbce0cc31b57d83005dfa552bead7afc8e730c9e72",
             "attested": true,
-            "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.4.0/ZL.Splitter-0.4.0-macOS-arm64.dmg"
+            "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.4.0/ZL.Splitter-0.4.0-macOS-arm64.dmg",
+            "downloads": 185
           },
           {
             "systems": [
@@ -384,7 +406,8 @@
             "size": 5868844,
             "sha256": "68c116aff419e445d01423cd0ae4b14f713bdeecfc929d23aa2b0336f3c497c5",
             "attested": true,
-            "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.4.0/ZL.Splitter-0.4.0-macOS-x86-64.dmg"
+            "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.4.0/ZL.Splitter-0.4.0-macOS-x86-64.dmg",
+            "downloads": 94
           },
           {
             "systems": [
@@ -403,7 +426,8 @@
             "size": 5337088,
             "sha256": "707c4b6a07b407c97e9f0484f48e5d9abc0e7f90164f1cc175111e556281d1c6",
             "attested": true,
-            "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.4.0/ZL.Splitter-0.4.0-Windows-arm64.msi"
+            "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.4.0/ZL.Splitter-0.4.0-Windows-arm64.msi",
+            "downloads": 64
           },
           {
             "systems": [
@@ -422,7 +446,8 @@
             "size": 5980160,
             "sha256": "397b34c97996894fa31f124e14281ca98ac88a6c602c425dfa4730710a699f89",
             "attested": true,
-            "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.4.0/ZL.Splitter-0.4.0-Windows-x86-64-AVX2.msi"
+            "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.4.0/ZL.Splitter-0.4.0-Windows-x86-64-AVX2.msi",
+            "downloads": 372
           },
           {
             "systems": [
@@ -441,10 +466,12 @@
             "size": 5685248,
             "sha256": "3a7300b1289ea053fd9d69cd754dac16857fb848c0a790ad8de67b22eec6a071",
             "attested": true,
-            "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.4.0/ZL.Splitter-0.4.0-Windows-x86-64.msi"
+            "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.4.0/ZL.Splitter-0.4.0-Windows-x86-64.msi",
+            "downloads": 320
           }
         ],
-        "verified": true
+        "verified": true,
+        "downloads": 1278
       },
       "0.3.0": {
         "name": "ZL Splitter",
@@ -483,7 +510,8 @@
             "size": 5505594,
             "sha256": "3d8e5e60298a30073b12ca773ad522034392350aacd6d6c7ae045f63c93d4012",
             "attested": true,
-            "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.3.0/ZL.Splitter-0.3.0-Linux-arm.zip"
+            "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.3.0/ZL.Splitter-0.3.0-Linux-arm.zip",
+            "downloads": 158
           },
           {
             "systems": [
@@ -502,7 +530,8 @@
             "size": 8851204,
             "sha256": "52e856331ff7248fc9d1b1d348df2eb7827610eeb5406dc62826866cdafdb9a4",
             "attested": true,
-            "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.3.0/ZL.Splitter-0.3.0-Linux-x86.zip"
+            "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.3.0/ZL.Splitter-0.3.0-Linux-x86.zip",
+            "downloads": 866
           },
           {
             "systems": [
@@ -521,7 +550,8 @@
             "size": 5201749,
             "sha256": "3e971970de57f9dfa206a2e737ff2c9f149fd5d5b035fb121e6e986a0f23ed96",
             "attested": true,
-            "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.3.0/ZL.Splitter-0.3.0-macOS-arm.dmg"
+            "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.3.0/ZL.Splitter-0.3.0-macOS-arm.dmg",
+            "downloads": 1113
           },
           {
             "systems": [
@@ -540,7 +570,8 @@
             "size": 9183755,
             "sha256": "b90a439b47cc7587f68941677fdc1046c8c243ef8f675b6758b843f909eb4ea6",
             "attested": true,
-            "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.3.0/ZL.Splitter-0.3.0-macOS-x86.dmg"
+            "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.3.0/ZL.Splitter-0.3.0-macOS-x86.dmg",
+            "downloads": 497
           },
           {
             "systems": [
@@ -559,7 +590,8 @@
             "size": 5025792,
             "sha256": "d816072be93907ea8a844b47492b2a2b43ec240639685532900e395311d29837",
             "attested": true,
-            "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.3.0/ZL.Splitter-0.3.0-Windows-arm.msi"
+            "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.3.0/ZL.Splitter-0.3.0-Windows-arm.msi",
+            "downloads": 628
           },
           {
             "systems": [
@@ -578,12 +610,15 @@
             "size": 5566464,
             "sha256": "4ab477adc74626a6841c947c7bf0dc0598641c4f288161ecc8234acebc3f6a83",
             "attested": true,
-            "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.3.0/ZL.Splitter-0.3.0-Windows-x86.msi"
+            "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.3.0/ZL.Splitter-0.3.0-Windows-x86.msi",
+            "downloads": 3365
           }
         ],
-        "verified": true
+        "verified": true,
+        "downloads": 6627
       }
-    }
+    },
+    "downloads": 7905
   },
   "zl-audio/zlspectrumequalizer": {
     "slug": "zl-audio/zlspectrumequalizer",
@@ -2083,7 +2118,7 @@
             "size": 11366400,
             "sha256": "f77fc4b4c5ab11d5a500c5f39316df8b536748ad93cc8fffb56edeefd757e0fe",
             "url": "https://github.com/ZL-Audio/ZLCompressor/releases/download/0.6.1/ZL.Compressor-0.6.1-Windows-x86-64-AVX2.msi",
-            "downloads": 1370
+            "downloads": 1371
           },
           {
             "systems": [
@@ -2108,7 +2143,7 @@
           }
         ],
         "verified": true,
-        "downloads": 4923
+        "downloads": 4924
       },
       "0.5.0": {
         "name": "ZL Compressor",
@@ -2295,7 +2330,7 @@
         "downloads": 7851
       }
     },
-    "downloads": 12774
+    "downloads": 12775
   },
   "zhiyualexzhang/multimeter": {
     "slug": "zhiyualexzhang/multimeter",
@@ -2517,14 +2552,14 @@
             "size": 128302481,
             "sha256": "745990b0acdda1cc319cd55aafdf61b6f258015810f310abd31d8bbe849e4da8",
             "url": "https://github.com/zamaudio/zam-plugins/releases/download/4.5/zam-plugins-4.5-win64.zip",
-            "downloads": 731
+            "downloads": 732
           }
         ],
         "verified": true,
-        "downloads": 2145
+        "downloads": 2146
       }
     },
-    "downloads": 2145
+    "downloads": 2146
   },
   "yvonneqaq/spekana-audio-plugin": {
     "slug": "yvonneqaq/spekana-audio-plugin",
@@ -3586,14 +3621,14 @@
             "size": 5481008,
             "sha256": "42a703a5f71b19855d9213d57f2261d2182c73c73d39730775188df3e4c47da9",
             "url": "https://github.com/wolf-plugins/wolf-shaper/releases/download/v1.0.2/wolf-shaper-v1.0.2+20230515144200-windows-x64.zip",
-            "downloads": 6603
+            "downloads": 6604
           }
         ],
         "verified": true,
-        "downloads": 10807
+        "downloads": 10808
       }
     },
-    "downloads": 10807
+    "downloads": 10808
   },
   "whoadrian/midipad": {
     "slug": "whoadrian/midipad",
@@ -4075,14 +4110,14 @@
             "size": 5237881,
             "sha256": "9147a389fac46b1d83e83a0c363e903090e8005648f65ff45b571d91ce5b08a6",
             "url": "https://github.com/Wasted-Audio/wstd-smthr/releases/download/v1.1.1/wstd-smthr-v1.1.1-win64.zip",
-            "downloads": 116
+            "downloads": 117
           }
         ],
         "verified": true,
-        "downloads": 383
+        "downloads": 384
       }
     },
-    "downloads": 383
+    "downloads": 384
   },
   "wasted-audio/wstd-fldr": {
     "slug": "wasted-audio/wstd-fldr",
@@ -4270,14 +4305,14 @@
             "size": 5237122,
             "sha256": "ff02331c435f22381a1c56642140d949fedb571a000c1a9be8a83b711574bc93",
             "url": "https://github.com/Wasted-Audio/wstd-fldr/releases/download/v1.1.1/wstd-fldr-v1.1.1-win64.zip",
-            "downloads": 132
+            "downloads": 133
           }
         ],
         "verified": true,
-        "downloads": 383
+        "downloads": 384
       }
     },
-    "downloads": 383
+    "downloads": 384
   },
   "wasted-audio/wstd-flangr": {
     "slug": "wasted-audio/wstd-flangr",
@@ -4465,14 +4500,14 @@
             "size": 5258651,
             "sha256": "cb36998f57a5a97c2b0d360024dfe6b623eed9312926852b2efcf60229ce539f",
             "url": "https://github.com/Wasted-Audio/wstd-flangr/releases/download/v1.1.1/wstd-flangr-v1.1.1-win64.zip",
-            "downloads": 178
+            "downloads": 179
           }
         ],
         "verified": true,
-        "downloads": 583
+        "downloads": 584
       }
     },
-    "downloads": 583
+    "downloads": 584
   },
   "wasted-audio/wstd-eq": {
     "slug": "wasted-audio/wstd-eq",
@@ -4660,14 +4695,14 @@
             "size": 5304497,
             "sha256": "6de83eff0e7f97f35b96d4213112ebed40e13fb0b32f6481346ae8ae71cb01cb",
             "url": "https://github.com/Wasted-Audio/wstd-eq/releases/download/v1.1.1/wstd-eq-v1.1.1-win64.zip",
-            "downloads": 160
+            "downloads": 161
           }
         ],
         "verified": true,
-        "downloads": 612
+        "downloads": 613
       }
     },
-    "downloads": 612
+    "downloads": 613
   },
   "wasted-audio/wstd-dlay": {
     "slug": "wasted-audio/wstd-dlay",
@@ -4855,14 +4890,14 @@
             "size": 5288107,
             "sha256": "0d9ca539d710b3c7edf97a5f9f1aa38cf2969141555166e7fc7f04411146ffee",
             "url": "https://github.com/Wasted-Audio/wstd-dlay/releases/download/v1.1.1/wstd-dlay-v1.1.1-win64.zip",
-            "downloads": 154
+            "downloads": 155
           }
         ],
         "verified": true,
-        "downloads": 488
+        "downloads": 489
       }
     },
-    "downloads": 488
+    "downloads": 489
   },
   "wasted-audio/wstd-crshr": {
     "slug": "wasted-audio/wstd-crshr",
@@ -5050,14 +5085,14 @@
             "size": 5224569,
             "sha256": "5fa9b2b867fa5293bb24cad84a4a4896ae20993fc1f4c46e3f5f8ffb13228e24",
             "url": "https://github.com/Wasted-Audio/wstd-crshr/releases/download/v1.1.1/wstd-crshr-v1.1.1-win64.zip",
-            "downloads": 136
+            "downloads": 137
           }
         ],
         "verified": true,
-        "downloads": 433
+        "downloads": 434
       }
     },
-    "downloads": 433
+    "downloads": 434
   },
   "wamphyre/drumcraker": {
     "slug": "wamphyre/drumcraker",
@@ -5285,14 +5320,14 @@
             "size": 3727973,
             "type": "archive",
             "url": "https://github.com/vvvar/PeakEater/releases/download/v0.8.2/peakeater-v0.8.2-Windows-x86_64.zip",
-            "downloads": 13021
+            "downloads": 13022
           }
         ],
         "verified": true,
-        "downloads": 23008
+        "downloads": 23009
       }
     },
-    "downloads": 23008
+    "downloads": 23009
   },
   "vsicurella/supervirtualkeyboard": {
     "slug": "vsicurella/supervirtualkeyboard",
@@ -8894,11 +8929,11 @@
             "size": 3346241,
             "sha256": "e2589d38dc99c5e91654afd5e95feca1609532f6752c4526387f62cf36134121",
             "url": "https://github.com/tiagolr/qdelay/releases/download/v1.2.3/qdelay-win-v1.2.3.zip",
-            "downloads": 887
+            "downloads": 888
           }
         ],
         "verified": true,
-        "downloads": 1640
+        "downloads": 1641
       },
       "1.1.2": {
         "name": "QDelay",
@@ -9150,7 +9185,7 @@
         "downloads": 762
       }
     },
-    "downloads": 6188
+    "downloads": 6189
   },
   "tiagolr/gate12": {
     "slug": "tiagolr/gate12",
@@ -12093,14 +12128,14 @@
             "size": 7828344,
             "sha256": "f1bc8b5d0743cb45b9a28e7ba473fb0297c1e54118f73c9e8079d7b50db6a54d",
             "url": "https://github.com/StrangeLoopsAudio/gRainbow/releases/download/v1.0.3/gRainbow-1.0.3-Windows.zip",
-            "downloads": 818
+            "downloads": 819
           }
         ],
         "verified": true,
-        "downloads": 1945
+        "downloads": 1946
       }
     },
-    "downloads": 1945
+    "downloads": 1946
   },
   "stevefolta/sfzq": {
     "slug": "stevefolta/sfzq",
@@ -15574,11 +15609,11 @@
             "size": 1227151376,
             "sha256": "c6c5d0fe11a394e94be3146a950c3377ec102cb57d189d5a23cec26183d1963a",
             "url": "https://github.com/sfzinstruments/virtuosity_drums/releases/download/v0.925/Virtuosity_Drums_v0.925.zip",
-            "downloads": 3122
+            "downloads": 3123
           }
         ],
         "verified": true,
-        "downloads": 3122
+        "downloads": 3123
       },
       "0.924.0": {
         "name": "Virtuosity Drums",
@@ -15630,7 +15665,7 @@
         "downloads": 3910
       }
     },
-    "downloads": 7032
+    "downloads": 7033
   },
   "sfzinstruments/splendidgrandpiano": {
     "slug": "sfzinstruments/splendidgrandpiano",
@@ -16509,6 +16544,60 @@
       }
     },
     "downloads": 27
+  },
+  "samuelsantanaoficial/ludwigblackcortex": {
+    "slug": "samuelsantanaoficial/ludwigblackcortex",
+    "version": "1.1.0",
+    "versions": {
+      "1.1.0": {
+        "name": "Ludwig Black Cortex",
+        "author": "Samuel Santana",
+        "description": "SFZ sample library of a 1970s Ludwig SuperClassic Black Cortex drum kit, ready to use in sfizz with a graphical interface and General MIDI mapping",
+        "license": "mit",
+        "type": "sampler",
+        "tags": [
+          "Drums",
+          "SFZ",
+          "Sample Library"
+        ],
+        "url": "https://github.com/samuelsantanaoficial/LudwigBlackCortex",
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/samuelsantanaoficial/ludwigblackcortex/ludwigblackcortex.jpg",
+        "date": "2025-07-11T04:04:06Z",
+        "changes": "v1.1.0 release.",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "linux"
+              },
+              {
+                "type": "mac"
+              },
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "arm32",
+              "arm64",
+              "x32",
+              "x64"
+            ],
+            "contains": [
+              "sfz"
+            ],
+            "type": "archive",
+            "size": 773460726,
+            "sha256": "273d842999c269bf6eb2f14757eff42a1f45b399f7c5356ac4ab3f43b2a70a93",
+            "url": "https://github.com/samuelsantanaoficial/LudwigBlackCortex/releases/download/1.1.0/Ludwig.Black.Cortex.zip",
+            "downloads": 25
+          }
+        ],
+        "verified": true,
+        "downloads": 25
+      }
+    },
+    "downloads": 25
   },
   "samplaman/owmb": {
     "slug": "samplaman/owmb",
@@ -22727,11 +22816,11 @@
             "size": 269381632,
             "sha256": "962017c89b6f656860eed75ec1364fffa4cb8311992aeada0f4ed936c5294a24",
             "url": "https://github.com/plugdata-team/plugdata/releases/download/v0.9.3-2/plugdata-Win64.msi",
-            "downloads": 3213
+            "downloads": 3214
           }
         ],
         "verified": true,
-        "downloads": 8842
+        "downloads": 8843
       },
       "0.9.3": {
         "name": "plugdata",
@@ -22961,7 +23050,7 @@
             "size": 772567838,
             "sha256": "44344723ec6b975d59823725277e886b5513a04cb397dff0a5ce8ad8e042564b",
             "url": "https://github.com/plugdata-team/plugdata/releases/download/v0.9.3/plugdata-macOS-Universal.pkg",
-            "downloads": 15320
+            "downloads": 15321
           },
           {
             "systems": [
@@ -23133,10 +23222,10 @@
           }
         ],
         "verified": true,
-        "downloads": 38662
+        "downloads": 38663
       }
     },
-    "downloads": 47504
+    "downloads": 47506
   },
   "pixelsncodes/lumen": {
     "slug": "pixelsncodes/lumen",
@@ -29282,7 +29371,7 @@
             "size": 22447365,
             "sha256": "ca5f35f9dcd9a33f06490d3c92f04061a1a798cb81257d5ca5851bdda0824c66",
             "url": "https://github.com/michaelwillis/dragonfly-reverb/releases/download/3.2.10/dragonfly-reverb-3.2.10-win64.zip",
-            "downloads": 79678
+            "downloads": 79680
           },
           {
             "systems": [
@@ -29308,10 +29397,10 @@
           }
         ],
         "verified": true,
-        "downloads": 149562
+        "downloads": 149564
       }
     },
-    "downloads": 149562
+    "downloads": 149564
   },
   "michaelhurst97/noizier": {
     "slug": "michaelhurst97/noizier",
@@ -29863,14 +29952,14 @@
             "size": 4670255,
             "sha256": "47d60a4c5dac109984001fb63a81f6b575fdc542796cf4bcca1e417522e0d28d",
             "url": "https://github.com/maurocosentino/lupex-chorus-bbd/releases/download/v0.1.0/ChorusBBD-Windows-VST3.zip",
-            "downloads": 414
+            "downloads": 415
           }
         ],
         "verified": true,
-        "downloads": 519
+        "downloads": 520
       }
     },
-    "downloads": 519
+    "downloads": 520
   },
   "maurocosentino/lupex-analog-delay": {
     "slug": "maurocosentino/lupex-analog-delay",
@@ -29927,14 +30016,14 @@
             "size": 4268667,
             "sha256": "d3a02e93782e6ccd49132a4a4328123ecd07109051418ce55cf71c3e435e9f11",
             "url": "https://github.com/maurocosentino/lupex-analog-delay/releases/download/v1.1.0/Lupex-Windows-VST3.zip",
-            "downloads": 419
+            "downloads": 420
           }
         ],
         "verified": true,
-        "downloads": 624
+        "downloads": 625
       }
     },
-    "downloads": 624
+    "downloads": 625
   },
   "matth-ewe-f/audio-plugin-delay-intervals": {
     "slug": "matth-ewe-f/audio-plugin-delay-intervals",
@@ -30730,14 +30819,14 @@
             "size": 3011636,
             "sha256": "bcc4b5d4c8c068f6795e49050336cc269d4c135a8cb62e34f9f11d1cc91d4867",
             "url": "https://github.com/ManasWolrd/WarpCore/releases/download/v0.0.12/WarpCore-win-v0.0.12.zip",
-            "downloads": 287
+            "downloads": 288
           }
         ],
         "verified": true,
-        "downloads": 618
+        "downloads": 619
       }
     },
-    "downloads": 618
+    "downloads": 619
   },
   "manaswolrd/vitalreverb": {
     "slug": "manaswolrd/vitalreverb",
@@ -32592,11 +32681,11 @@
             "size": 38726486,
             "sha256": "bbdfbfce4591ea07e7ac9dac0b1aca8ea7ccf9d850aafbf9ac0a347a1340ee55",
             "url": "https://github.com/lsp-plugins/lsp-plugins/releases/download/1.2.37/lsp-plugins-1.2.37-Linux-x86_64.7z",
-            "downloads": 2061
+            "downloads": 2062
           }
         ],
         "verified": true,
-        "downloads": 2314
+        "downloads": 2315
       },
       "1.2.35": {
         "name": "LSP Plugins",
@@ -33709,7 +33798,7 @@
         "downloads": 3438
       }
     },
-    "downloads": 34825
+    "downloads": 34826
   },
   "longkelvin/midi-chord-detector-plugin": {
     "slug": "longkelvin/midi-chord-detector-plugin",
@@ -35960,14 +36049,14 @@
             "size": 21937179,
             "sha256": "3d59bb7aefbc956112ca45a1337235470f6bdd5a1f782b52435698059cd6030b",
             "url": "https://github.com/Jun-Murakami/ZeroLimit/releases/download/v1.1.7/ZeroLimit_1.1.7_Windows_VST3_AAX_CLAP_Standalone.zip",
-            "downloads": 246
+            "downloads": 247
           }
         ],
         "verified": true,
-        "downloads": 1185
+        "downloads": 1186
       }
     },
-    "downloads": 1185
+    "downloads": 1186
   },
   "jun-murakami/zeroeq": {
     "slug": "jun-murakami/zeroeq",
@@ -36100,14 +36189,14 @@
             "size": 21986444,
             "sha256": "7591100249db4b7f9bb151f999deadba045b15ab6a2c9cef94a605e77525c5fa",
             "url": "https://github.com/Jun-Murakami/ZeroEQ/releases/download/v1.0.7/ZeroEQ_1.0.7_Windows_VST3_AAX_CLAP_Standalone.zip",
-            "downloads": 245
+            "downloads": 246
           }
         ],
         "verified": true,
-        "downloads": 1213
+        "downloads": 1214
       }
     },
-    "downloads": 1213
+    "downloads": 1214
   },
   "jun-murakami/zerocomp": {
     "slug": "jun-murakami/zerocomp",
@@ -36240,14 +36329,14 @@
             "size": 21958122,
             "sha256": "2f3d30be07be155e3a82bd30512665a158e0c32b587ce5c16b92749eed3bfd1e",
             "url": "https://github.com/Jun-Murakami/ZeroComp/releases/download/v1.1.7/ZeroComp_1.1.7_Windows_VST3_AAX_CLAP_Standalone.zip",
-            "downloads": 245
+            "downloads": 246
           }
         ],
         "verified": true,
-        "downloads": 1097
+        "downloads": 1098
       }
     },
-    "downloads": 1097
+    "downloads": 1098
   },
   "jun-murakami/tinyvu": {
     "slug": "jun-murakami/tinyvu",
@@ -46287,11 +46376,11 @@
             "size": 13993020,
             "sha256": "faaf5793d67c80b3ee4ad3b2f64bc832efda988d05803f2f9885b0cb6b248b0a",
             "url": "https://github.com/flarkflarkflark/AudioRestorationVST/releases/download/v1.6.36/AudioRestoration-Windows-v1.6.36-VST3.zip",
-            "downloads": 53
+            "downloads": 54
           }
         ],
         "verified": true,
-        "downloads": 166
+        "downloads": 167
       },
       "1.6.35": {
         "name": "Audio Restoration VST",
@@ -46443,7 +46532,7 @@
         "downloads": 463
       }
     },
-    "downloads": 629
+    "downloads": 630
   },
   "filter87/vst-analogchannel": {
     "slug": "filter87/vst-analogchannel",
@@ -52719,14 +52808,14 @@
             "size": 326022,
             "sha256": "1905b32403fbff6f4e4ca21c8ad4a9f50ca1bf0997b4b41077461ec4300ac854",
             "url": "https://github.com/davemollen/dm-Seq/releases/download/v0.0.6-beta/dm-Seq-windows.zip",
-            "downloads": 32
+            "downloads": 33
           }
         ],
         "verified": true,
-        "downloads": 116
+        "downloads": 117
       }
     },
-    "downloads": 116
+    "downloads": 117
   },
   "davemollen/dm-sd1": {
     "slug": "davemollen/dm-sd1",
@@ -60006,14 +60095,14 @@
             "size": 7071712,
             "sha256": "58a744316dcbea42d0abd7a135f5c266592bb2a39646e930e5d5b2145b001391",
             "url": "https://github.com/BillyDM/vitalium-verb/releases/download/v1.3.0/vitaliumverb-1.3.0-windows.zip",
-            "downloads": 247
+            "downloads": 248
           }
         ],
         "verified": true,
-        "downloads": 1587
+        "downloads": 1588
       }
     },
-    "downloads": 1587
+    "downloads": 1588
   },
   "billydm/ctagdrc": {
     "slug": "billydm/ctagdrc",
@@ -60177,14 +60266,14 @@
             "size": 71011202,
             "sha256": "796655e0ed70999782015fb5d94d167c691eec706d676b89b01bf02722d2741a",
             "url": "https://github.com/BespokeSynth/BespokeSynth/releases/download/v1.3.0/BespokeSynth-Windows-1_3_0.msi",
-            "downloads": 23348
+            "downloads": 23349
           }
         ],
         "verified": true,
-        "downloads": 33730
+        "downloads": 33731
       }
     },
-    "downloads": 33730
+    "downloads": 33731
   },
   "bananaofhappiness/soundscope": {
     "slug": "bananaofhappiness/soundscope",
@@ -61640,7 +61729,7 @@
             "size": 7725160,
             "sha256": "2bac3d0c4237e8c22c4274b6d5b59fe6329fcae72864f81b5830393eff354fc1",
             "url": "https://github.com/asb2m10/dexed/releases/download/v1.0.1/Dexed-1.0.1-lnx.zip",
-            "downloads": 7540
+            "downloads": 7541
           },
           {
             "systems": [
@@ -61727,7 +61816,7 @@
           }
         ],
         "verified": true,
-        "downloads": 218449
+        "downloads": 218450
       },
       "0.9.8": {
         "name": "Dexed",
@@ -61812,7 +61901,7 @@
         "downloads": 199077
       }
     },
-    "downloads": 417526
+    "downloads": 417527
   },
   "arunas-cesonis/live-sampler": {
     "slug": "arunas-cesonis/live-sampler",
@@ -63185,14 +63274,14 @@
             "size": 5599030,
             "sha256": "d3498b897bfdf967c645b6e14ef981007eef27d57803b00545d049c6e78ab392",
             "url": "https://github.com/ArdenButterfield/Maim/releases/download/v1.1.1/Maim-1.1.1-Windows.exe",
-            "downloads": 17152
+            "downloads": 17154
           }
         ],
         "verified": true,
-        "downloads": 24113
+        "downloads": 24115
       }
     },
-    "downloads": 24113
+    "downloads": 24115
   },
   "archie3d/aeolus": {
     "slug": "archie3d/aeolus",
@@ -65589,14 +65678,14 @@
             "size": 3444016,
             "sha256": "95b70d18419e81d692fd3b3630eccbaa06800897701617810b662dd6f2141546",
             "url": "https://github.com/a-n-t-h-o-n-y/XenSequencer/releases/download/v0.3.0/XenSequencer_0_3_0_Win.vst3.zip",
-            "downloads": 87
+            "downloads": 88
           }
         ],
         "verified": true,
-        "downloads": 163
+        "downloads": 164
       }
     },
-    "downloads": 163
+    "downloads": 164
   },
   "0x07dc/declicker": {
     "slug": "0x07dc/declicker",

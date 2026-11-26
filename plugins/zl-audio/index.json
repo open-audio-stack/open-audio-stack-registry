@@ -35,7 +35,8 @@
             "type": "installer",
             "size": 6115643,
             "sha256": "1219606cd0ed1e8b02eaac93041f2e70d9387bde6e669b395fa116f333da0632",
-            "url": "https://github.com/ZL-Audio/ZLWarm/releases/download/0.2.1/ZL.Warm-0.2.1.dmg"
+            "url": "https://github.com/ZL-Audio/ZLWarm/releases/download/0.2.1/ZL.Warm-0.2.1.dmg",
+            "downloads": 3585
           },
           {
             "systems": [
@@ -52,7 +53,8 @@
             "type": "installer",
             "size": 2707517,
             "sha256": "61713ffdeabbc87bf79b4f6070619282ceb5add98094ccbc758c383fd2ae4177",
-            "url": "https://github.com/ZL-Audio/ZLWarm/releases/download/0.2.1/ZL.Warm-0.2.1.exe"
+            "url": "https://github.com/ZL-Audio/ZLWarm/releases/download/0.2.1/ZL.Warm-0.2.1.exe",
+            "downloads": 4432
           },
           {
             "systems": [
@@ -69,12 +71,15 @@
             "type": "archive",
             "size": 14110770,
             "sha256": "1e37bde56287423e075360cb44159bee4498a139144ff3c65c6d4e85e5198ef4",
-            "url": "https://github.com/ZL-Audio/ZLWarm/releases/download/0.2.1/ZL.Warm-0.2.1.zip"
+            "url": "https://github.com/ZL-Audio/ZLWarm/releases/download/0.2.1/ZL.Warm-0.2.1.zip",
+            "downloads": 4104
           }
         ],
-        "verified": true
+        "verified": true,
+        "downloads": 12121
       }
-    }
+    },
+    "downloads": 12121
   },
   "zl-audio/zlsplitter": {
     "slug": "zl-audio/zlsplitter",
@@ -114,7 +119,8 @@
             "size": 5426960,
             "sha256": "db2117da6cab586fe3157f5081d0cc0fa1ea7839f4a2dfdbe7d524507af45804",
             "attested": true,
-            "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.4.0/ZL.Splitter-0.4.0-Linux-arm64.zip"
+            "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.4.0/ZL.Splitter-0.4.0-Linux-arm64.zip",
+            "downloads": 40
           },
           {
             "systems": [
@@ -133,7 +139,8 @@
             "size": 5848894,
             "sha256": "843fd5439547f8ec0ab546348803e1402c515fd3ebba6fabe08f636e2397f22e",
             "attested": true,
-            "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.4.0/ZL.Splitter-0.4.0-Linux-x86-64-AVX2.zip"
+            "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.4.0/ZL.Splitter-0.4.0-Linux-x86-64-AVX2.zip",
+            "downloads": 116
           },
           {
             "systems": [
@@ -152,7 +159,8 @@
             "size": 5582709,
             "sha256": "8fdc1d90f73a44301ab0709a3a2c59bd890975d798038d3dda25cb0b557fcf4d",
             "attested": true,
-            "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.4.0/ZL.Splitter-0.4.0-Linux-x86-64.zip"
+            "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.4.0/ZL.Splitter-0.4.0-Linux-x86-64.zip",
+            "downloads": 87
           },
           {
             "systems": [
@@ -171,7 +179,8 @@
             "size": 5260634,
             "sha256": "4aad01333a37087fd910ecbbce0cc31b57d83005dfa552bead7afc8e730c9e72",
             "attested": true,
-            "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.4.0/ZL.Splitter-0.4.0-macOS-arm64.dmg"
+            "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.4.0/ZL.Splitter-0.4.0-macOS-arm64.dmg",
+            "downloads": 185
           },
           {
             "systems": [
@@ -190,7 +199,8 @@
             "size": 5868844,
             "sha256": "68c116aff419e445d01423cd0ae4b14f713bdeecfc929d23aa2b0336f3c497c5",
             "attested": true,
-            "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.4.0/ZL.Splitter-0.4.0-macOS-x86-64.dmg"
+            "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.4.0/ZL.Splitter-0.4.0-macOS-x86-64.dmg",
+            "downloads": 94
           },
           {
             "systems": [
@@ -209,7 +219,8 @@
             "size": 5337088,
             "sha256": "707c4b6a07b407c97e9f0484f48e5d9abc0e7f90164f1cc175111e556281d1c6",
             "attested": true,
-            "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.4.0/ZL.Splitter-0.4.0-Windows-arm64.msi"
+            "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.4.0/ZL.Splitter-0.4.0-Windows-arm64.msi",
+            "downloads": 64
           },
           {
             "systems": [
@@ -228,7 +239,8 @@
             "size": 5980160,
             "sha256": "397b34c97996894fa31f124e14281ca98ac88a6c602c425dfa4730710a699f89",
             "attested": true,
-            "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.4.0/ZL.Splitter-0.4.0-Windows-x86-64-AVX2.msi"
+            "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.4.0/ZL.Splitter-0.4.0-Windows-x86-64-AVX2.msi",
+            "downloads": 372
           },
           {
             "systems": [
@@ -247,10 +259,12 @@
             "size": 5685248,
             "sha256": "3a7300b1289ea053fd9d69cd754dac16857fb848c0a790ad8de67b22eec6a071",
             "attested": true,
-            "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.4.0/ZL.Splitter-0.4.0-Windows-x86-64.msi"
+            "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.4.0/ZL.Splitter-0.4.0-Windows-x86-64.msi",
+            "downloads": 320
           }
         ],
-        "verified": true
+        "verified": true,
+        "downloads": 1278
       },
       "0.3.0": {
         "name": "ZL Splitter",
@@ -289,7 +303,8 @@
             "size": 5505594,
             "sha256": "3d8e5e60298a30073b12ca773ad522034392350aacd6d6c7ae045f63c93d4012",
             "attested": true,
-            "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.3.0/ZL.Splitter-0.3.0-Linux-arm.zip"
+            "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.3.0/ZL.Splitter-0.3.0-Linux-arm.zip",
+            "downloads": 158
           },
           {
             "systems": [
@@ -308,7 +323,8 @@
             "size": 8851204,
             "sha256": "52e856331ff7248fc9d1b1d348df2eb7827610eeb5406dc62826866cdafdb9a4",
             "attested": true,
-            "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.3.0/ZL.Splitter-0.3.0-Linux-x86.zip"
+            "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.3.0/ZL.Splitter-0.3.0-Linux-x86.zip",
+            "downloads": 866
           },
           {
             "systems": [
@@ -327,7 +343,8 @@
             "size": 5201749,
             "sha256": "3e971970de57f9dfa206a2e737ff2c9f149fd5d5b035fb121e6e986a0f23ed96",
             "attested": true,
-            "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.3.0/ZL.Splitter-0.3.0-macOS-arm.dmg"
+            "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.3.0/ZL.Splitter-0.3.0-macOS-arm.dmg",
+            "downloads": 1113
           },
           {
             "systems": [
@@ -346,7 +363,8 @@
             "size": 9183755,
             "sha256": "b90a439b47cc7587f68941677fdc1046c8c243ef8f675b6758b843f909eb4ea6",
             "attested": true,
-            "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.3.0/ZL.Splitter-0.3.0-macOS-x86.dmg"
+            "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.3.0/ZL.Splitter-0.3.0-macOS-x86.dmg",
+            "downloads": 497
           },
           {
             "systems": [
@@ -365,7 +383,8 @@
             "size": 5025792,
             "sha256": "d816072be93907ea8a844b47492b2a2b43ec240639685532900e395311d29837",
             "attested": true,
-            "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.3.0/ZL.Splitter-0.3.0-Windows-arm.msi"
+            "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.3.0/ZL.Splitter-0.3.0-Windows-arm.msi",
+            "downloads": 628
           },
           {
             "systems": [
@@ -384,12 +403,15 @@
             "size": 5566464,
             "sha256": "4ab477adc74626a6841c947c7bf0dc0598641c4f288161ecc8234acebc3f6a83",
             "attested": true,
-            "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.3.0/ZL.Splitter-0.3.0-Windows-x86.msi"
+            "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.3.0/ZL.Splitter-0.3.0-Windows-x86.msi",
+            "downloads": 3365
           }
         ],
-        "verified": true
+        "verified": true,
+        "downloads": 6627
       }
-    }
+    },
+    "downloads": 7905
   },
   "zl-audio/zlspectrumequalizer": {
     "slug": "zl-audio/zlspectrumequalizer",
@@ -1889,7 +1911,7 @@
             "size": 11366400,
             "sha256": "f77fc4b4c5ab11d5a500c5f39316df8b536748ad93cc8fffb56edeefd757e0fe",
             "url": "https://github.com/ZL-Audio/ZLCompressor/releases/download/0.6.1/ZL.Compressor-0.6.1-Windows-x86-64-AVX2.msi",
-            "downloads": 1370
+            "downloads": 1371
           },
           {
             "systems": [
@@ -1914,7 +1936,7 @@
           }
         ],
         "verified": true,
-        "downloads": 4923
+        "downloads": 4924
       },
       "0.5.0": {
         "name": "ZL Compressor",
@@ -2101,6 +2123,6 @@
         "downloads": 7851
       }
     },
-    "downloads": 12774
+    "downloads": 12775
   }
 }
