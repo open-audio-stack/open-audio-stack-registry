@@ -13,7 +13,7 @@ tags:
 url: https://zl-audio.github.io/plugins/zlequalizer2/
 image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/zl-audio/zlequalizer2/zlequalizer2.jpg
 date: '2026-09-28T01:13:29Z'
-changes: "Revert the FFT analyzer to the previous implementation and fix Linux-specific UI issues. Add customizable combobox alignment and FFT quality; default FFT quality is now Normal to prevent lags. After installation, test the plugin in an empty DAW session."
+changes: 'Revert the FFT analyzer to the previous implementation and fix Linux-specific UI issues. Add customizable combobox alignment and FFT quality; default FFT quality is now Normal to prevent lags. After installation, test the plugin in an empty DAW session.'
 files:
   - systems:
       - type: linux

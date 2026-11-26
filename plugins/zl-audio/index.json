@@ -35,8 +35,7 @@
             "type": "installer",
             "size": 6115643,
             "sha256": "1219606cd0ed1e8b02eaac93041f2e70d9387bde6e669b395fa116f333da0632",
-            "url": "https://github.com/ZL-Audio/ZLWarm/releases/download/0.2.1/ZL.Warm-0.2.1.dmg",
-            "downloads": 3585
+            "url": "https://github.com/ZL-Audio/ZLWarm/releases/download/0.2.1/ZL.Warm-0.2.1.dmg"
           },
           {
             "systems": [
@@ -53,8 +52,7 @@
             "type": "installer",
             "size": 2707517,
             "sha256": "61713ffdeabbc87bf79b4f6070619282ceb5add98094ccbc758c383fd2ae4177",
-            "url": "https://github.com/ZL-Audio/ZLWarm/releases/download/0.2.1/ZL.Warm-0.2.1.exe",
-            "downloads": 4432
+            "url": "https://github.com/ZL-Audio/ZLWarm/releases/download/0.2.1/ZL.Warm-0.2.1.exe"
           },
           {
             "systems": [
@@ -71,15 +69,12 @@
             "type": "archive",
             "size": 14110770,
             "sha256": "1e37bde56287423e075360cb44159bee4498a139144ff3c65c6d4e85e5198ef4",
-            "url": "https://github.com/ZL-Audio/ZLWarm/releases/download/0.2.1/ZL.Warm-0.2.1.zip",
-            "downloads": 4104
+            "url": "https://github.com/ZL-Audio/ZLWarm/releases/download/0.2.1/ZL.Warm-0.2.1.zip"
           }
         ],
-        "verified": true,
-        "downloads": 12121
+        "verified": true
       }
-    },
-    "downloads": 12121
+    }
   },
   "zl-audio/zlsplitter": {
     "slug": "zl-audio/zlsplitter",
@@ -119,8 +114,7 @@
             "size": 5426960,
             "sha256": "db2117da6cab586fe3157f5081d0cc0fa1ea7839f4a2dfdbe7d524507af45804",
             "attested": true,
-            "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.4.0/ZL.Splitter-0.4.0-Linux-arm64.zip",
-            "downloads": 39
+            "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.4.0/ZL.Splitter-0.4.0-Linux-arm64.zip"
           },
           {
             "systems": [
@@ -139,8 +133,7 @@
             "size": 5848894,
             "sha256": "843fd5439547f8ec0ab546348803e1402c515fd3ebba6fabe08f636e2397f22e",
             "attested": true,
-            "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.4.0/ZL.Splitter-0.4.0-Linux-x86-64-AVX2.zip",
-            "downloads": 115
+            "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.4.0/ZL.Splitter-0.4.0-Linux-x86-64-AVX2.zip"
           },
           {
             "systems": [
@@ -159,8 +152,7 @@
             "size": 5582709,
             "sha256": "8fdc1d90f73a44301ab0709a3a2c59bd890975d798038d3dda25cb0b557fcf4d",
             "attested": true,
-            "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.4.0/ZL.Splitter-0.4.0-Linux-x86-64.zip",
-            "downloads": 86
+            "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.4.0/ZL.Splitter-0.4.0-Linux-x86-64.zip"
           },
           {
             "systems": [
@@ -179,8 +171,7 @@
             "size": 5260634,
             "sha256": "4aad01333a37087fd910ecbbce0cc31b57d83005dfa552bead7afc8e730c9e72",
             "attested": true,
-            "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.4.0/ZL.Splitter-0.4.0-macOS-arm64.dmg",
-            "downloads": 184
+            "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.4.0/ZL.Splitter-0.4.0-macOS-arm64.dmg"
           },
           {
             "systems": [
@@ -199,8 +190,7 @@
             "size": 5868844,
             "sha256": "68c116aff419e445d01423cd0ae4b14f713bdeecfc929d23aa2b0336f3c497c5",
             "attested": true,
-            "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.4.0/ZL.Splitter-0.4.0-macOS-x86-64.dmg",
-            "downloads": 93
+            "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.4.0/ZL.Splitter-0.4.0-macOS-x86-64.dmg"
           },
           {
             "systems": [
@@ -219,8 +209,7 @@
             "size": 5337088,
             "sha256": "707c4b6a07b407c97e9f0484f48e5d9abc0e7f90164f1cc175111e556281d1c6",
             "attested": true,
-            "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.4.0/ZL.Splitter-0.4.0-Windows-arm64.msi",
-            "downloads": 63
+            "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.4.0/ZL.Splitter-0.4.0-Windows-arm64.msi"
           },
           {
             "systems": [
@@ -239,8 +228,7 @@
             "size": 5980160,
             "sha256": "397b34c97996894fa31f124e14281ca98ac88a6c602c425dfa4730710a699f89",
             "attested": true,
-            "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.4.0/ZL.Splitter-0.4.0-Windows-x86-64-AVX2.msi",
-            "downloads": 369
+            "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.4.0/ZL.Splitter-0.4.0-Windows-x86-64-AVX2.msi"
           },
           {
             "systems": [
@@ -259,12 +247,10 @@
             "size": 5685248,
             "sha256": "3a7300b1289ea053fd9d69cd754dac16857fb848c0a790ad8de67b22eec6a071",
             "attested": true,
-            "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.4.0/ZL.Splitter-0.4.0-Windows-x86-64.msi",
-            "downloads": 319
+            "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.4.0/ZL.Splitter-0.4.0-Windows-x86-64.msi"
           }
         ],
-        "verified": true,
-        "downloads": 1268
+        "verified": true
       },
       "0.3.0": {
         "name": "ZL Splitter",
@@ -303,8 +289,7 @@
             "size": 5505594,
             "sha256": "3d8e5e60298a30073b12ca773ad522034392350aacd6d6c7ae045f63c93d4012",
             "attested": true,
-            "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.3.0/ZL.Splitter-0.3.0-Linux-arm.zip",
-            "downloads": 158
+            "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.3.0/ZL.Splitter-0.3.0-Linux-arm.zip"
           },
           {
             "systems": [
@@ -323,8 +308,7 @@
             "size": 8851204,
             "sha256": "52e856331ff7248fc9d1b1d348df2eb7827610eeb5406dc62826866cdafdb9a4",
             "attested": true,
-            "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.3.0/ZL.Splitter-0.3.0-Linux-x86.zip",
-            "downloads": 866
+            "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.3.0/ZL.Splitter-0.3.0-Linux-x86.zip"
           },
           {
             "systems": [
@@ -343,8 +327,7 @@
             "size": 5201749,
             "sha256": "3e971970de57f9dfa206a2e737ff2c9f149fd5d5b035fb121e6e986a0f23ed96",
             "attested": true,
-            "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.3.0/ZL.Splitter-0.3.0-macOS-arm.dmg",
-            "downloads": 1113
+            "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.3.0/ZL.Splitter-0.3.0-macOS-arm.dmg"
           },
           {
             "systems": [
@@ -363,8 +346,7 @@
             "size": 9183755,
             "sha256": "b90a439b47cc7587f68941677fdc1046c8c243ef8f675b6758b843f909eb4ea6",
             "attested": true,
-            "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.3.0/ZL.Splitter-0.3.0-macOS-x86.dmg",
-            "downloads": 497
+            "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.3.0/ZL.Splitter-0.3.0-macOS-x86.dmg"
           },
           {
             "systems": [
@@ -383,8 +365,7 @@
             "size": 5025792,
             "sha256": "d816072be93907ea8a844b47492b2a2b43ec240639685532900e395311d29837",
             "attested": true,
-            "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.3.0/ZL.Splitter-0.3.0-Windows-arm.msi",
-            "downloads": 628
+            "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.3.0/ZL.Splitter-0.3.0-Windows-arm.msi"
           },
           {
             "systems": [
@@ -403,15 +384,12 @@
             "size": 5566464,
             "sha256": "4ab477adc74626a6841c947c7bf0dc0598641c4f288161ecc8234acebc3f6a83",
             "attested": true,
-            "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.3.0/ZL.Splitter-0.3.0-Windows-x86.msi",
-            "downloads": 3365
+            "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.3.0/ZL.Splitter-0.3.0-Windows-x86.msi"
           }
         ],
-        "verified": true,
-        "downloads": 6627
+        "verified": true
       }
-    },
-    "downloads": 7895
+    }
   },
   "zl-audio/zlspectrumequalizer": {
     "slug": "zl-audio/zlspectrumequalizer",
@@ -453,7 +431,7 @@
             "sha256": "b0ae49ddfb1b17bdf904bd9f4000562590d2ab523010551fd78e512254a101a6",
             "attested": true,
             "url": "https://github.com/ZL-Audio/ZLSpectrumEqualizer/releases/download/0.1.1/ZL.Spectrum.Equalizer-0.1.1-Linux-arm64.zip",
-            "downloads": 64
+            "downloads": 65
           },
           {
             "systems": [
@@ -473,7 +451,7 @@
             "sha256": "55b7d92cf5e2a380dda2111b805aeab694389fdefeefe8458f924530d8c8d5c6",
             "attested": true,
             "url": "https://github.com/ZL-Audio/ZLSpectrumEqualizer/releases/download/0.1.1/ZL.Spectrum.Equalizer-0.1.1-Linux-x86-64-AVX2.zip",
-            "downloads": 291
+            "downloads": 292
           },
           {
             "systems": [
@@ -493,7 +471,7 @@
             "sha256": "886f2959b77902591c9d77463e39a10ed4ad8efed024ff9baed956233e3e31b5",
             "attested": true,
             "url": "https://github.com/ZL-Audio/ZLSpectrumEqualizer/releases/download/0.1.1/ZL.Spectrum.Equalizer-0.1.1-Linux-x86-64.zip",
-            "downloads": 240
+            "downloads": 241
           },
           {
             "systems": [
@@ -513,7 +491,7 @@
             "sha256": "1c98b6daacadd2b1d17ce41878e588cb176b01d739619b6f80cdf143c22aaf7d",
             "attested": true,
             "url": "https://github.com/ZL-Audio/ZLSpectrumEqualizer/releases/download/0.1.1/ZL.Spectrum.Equalizer-0.1.1-macOS-arm64.dmg",
-            "downloads": 534
+            "downloads": 535
           },
           {
             "systems": [
@@ -533,7 +511,7 @@
             "sha256": "15287c827b850fabf73026facb06c5d02d830068f57026fc106562bc4573a3ce",
             "attested": true,
             "url": "https://github.com/ZL-Audio/ZLSpectrumEqualizer/releases/download/0.1.1/ZL.Spectrum.Equalizer-0.1.1-macOS-x86-64.dmg",
-            "downloads": 211
+            "downloads": 212
           },
           {
             "systems": [
@@ -553,7 +531,7 @@
             "sha256": "edf55485b42bb1f58d8e9b26e7bbc59eedfe664cc0e19d5d8a398dec092e7679",
             "attested": true,
             "url": "https://github.com/ZL-Audio/ZLSpectrumEqualizer/releases/download/0.1.1/ZL.Spectrum.Equalizer-0.1.1-Windows-arm64.msi",
-            "downloads": 113
+            "downloads": 114
           },
           {
             "systems": [
@@ -573,7 +551,7 @@
             "sha256": "e90eba606f11c00294c5b6e83c4713c30bd398dd632100108768e14b999ea9db",
             "attested": true,
             "url": "https://github.com/ZL-Audio/ZLSpectrumEqualizer/releases/download/0.1.1/ZL.Spectrum.Equalizer-0.1.1-Windows-x86-64-AVX2.msi",
-            "downloads": 928
+            "downloads": 929
           },
           {
             "systems": [
@@ -593,14 +571,14 @@
             "sha256": "658d6ad75f0b52bf0fc8238b2c4a4485b332003ab2692be8dd57a445ac1c6947",
             "attested": true,
             "url": "https://github.com/ZL-Audio/ZLSpectrumEqualizer/releases/download/0.1.1/ZL.Spectrum.Equalizer-0.1.1-Windows-x86-64.msi",
-            "downloads": 762
+            "downloads": 763
           }
         ],
         "verified": true,
-        "downloads": 3143
+        "downloads": 3151
       }
     },
-    "downloads": 3143
+    "downloads": 3151
   },
   "zl-audio/zllmatch": {
     "slug": "zl-audio/zllmatch",
@@ -808,7 +786,7 @@
             "sha256": "1d583e8b87f56688d2398c0222a3b0a3c75d9821b033ee1ebfbb776fbead2c84",
             "attested": true,
             "url": "https://github.com/ZL-Audio/ZLLimiter/releases/download/0.0.1/ZL.Limiter-0.0.1-Linux-arm64.zip",
-            "downloads": 51
+            "downloads": 52
           },
           {
             "systems": [
@@ -828,7 +806,7 @@
             "sha256": "f2c08aa7253674053c32a81cc810e020ddb85e91f4472f0040230c85d83f2d3b",
             "attested": true,
             "url": "https://github.com/ZL-Audio/ZLLimiter/releases/download/0.0.1/ZL.Limiter-0.0.1-Linux-x86-64-AVX2.zip",
-            "downloads": 215
+            "downloads": 216
           },
           {
             "systems": [
@@ -848,7 +826,7 @@
             "sha256": "93d046ab65e2c22a0a860eb344e7b42e45ce73131f404e6947edd4dc4b237388",
             "attested": true,
             "url": "https://github.com/ZL-Audio/ZLLimiter/releases/download/0.0.1/ZL.Limiter-0.0.1-Linux-x86-64.zip",
-            "downloads": 167
+            "downloads": 168
           },
           {
             "systems": [
@@ -868,7 +846,7 @@
             "sha256": "557dab324f094b146215858910ce3081c5659e33f47d3b623066d865d1b6e275",
             "attested": true,
             "url": "https://github.com/ZL-Audio/ZLLimiter/releases/download/0.0.1/ZL.Limiter-0.0.1-macOS-arm64.dmg",
-            "downloads": 669
+            "downloads": 670
           },
           {
             "systems": [
@@ -888,7 +866,7 @@
             "sha256": "c62332b4c6d0ae2450721dd2614f47530524b77a0470d135bbd545796bf222f1",
             "attested": true,
             "url": "https://github.com/ZL-Audio/ZLLimiter/releases/download/0.0.1/ZL.Limiter-0.0.1-macOS-x86-64.dmg",
-            "downloads": 253
+            "downloads": 254
           },
           {
             "systems": [
@@ -908,7 +886,7 @@
             "sha256": "e9b5e235edb5ea7e2a9c827e1dcef81a47402dd6f381a310db82ad5e2a5ff2ae",
             "attested": true,
             "url": "https://github.com/ZL-Audio/ZLLimiter/releases/download/0.0.1/ZL.Limiter-0.0.1-Windows-arm64.msi",
-            "downloads": 116
+            "downloads": 117
           },
           {
             "systems": [
@@ -928,7 +906,7 @@
             "sha256": "c1fcbf5670cdecc649dee93dcbc4d49971f96496b1425e24bca61f49eccc5f7b",
             "attested": true,
             "url": "https://github.com/ZL-Audio/ZLLimiter/releases/download/0.0.1/ZL.Limiter-0.0.1-Windows-x86-64-AVX2.msi",
-            "downloads": 1094
+            "downloads": 1095
           },
           {
             "systems": [
@@ -948,14 +926,14 @@
             "sha256": "c58ecd0afe2ab2d1040a1fc7c39bd667eb45acdc84ac752602fd2f7af0be1550",
             "attested": true,
             "url": "https://github.com/ZL-Audio/ZLLimiter/releases/download/0.0.1/ZL.Limiter-0.0.1-Windows-x86-64.msi",
-            "downloads": 941
+            "downloads": 942
           }
         ],
         "verified": true,
-        "downloads": 3506
+        "downloads": 3514
       }
     },
-    "downloads": 3506
+    "downloads": 3514
   },
   "zl-audio/zlinflator": {
     "slug": "zl-audio/zlinflator",
@@ -1082,7 +1060,7 @@
             "sha256": "e389fa613e089fd83d28a9c9058a88f12ad2ccdda6a0d5d19927bf657dd0d857",
             "attested": true,
             "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.4.1/ZL.Equalizer.2-1.4.1-Linux-arm64.zip",
-            "downloads": 357
+            "downloads": 358
           },
           {
             "systems": [
@@ -1103,7 +1081,7 @@
             "sha256": "d63d16b16cd20ff7d532165dbb7f76b4ad4e9899c94ce69659c3da01fed45cda",
             "attested": true,
             "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.4.1/ZL.Equalizer.2-1.4.1-Linux-x86-64-AVX2.zip",
-            "downloads": 714
+            "downloads": 715
           },
           {
             "systems": [
@@ -1124,7 +1102,7 @@
             "sha256": "ba253ef4e608e5d6f72b2c341a7bc0d9c48b79e051806c2367d481814a4dc896",
             "attested": true,
             "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.4.1/ZL.Equalizer.2-1.4.1-Linux-x86-64.zip",
-            "downloads": 752
+            "downloads": 753
           },
           {
             "systems": [
@@ -1145,7 +1123,7 @@
             "sha256": "770167ead54bccdbac5ad3a2f6bc844013808247fa633c434f39140fef085c2d",
             "attested": true,
             "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.4.1/ZL.Equalizer.2-1.4.1-macOS-arm64.dmg",
-            "downloads": 2548
+            "downloads": 2549
           },
           {
             "systems": [
@@ -1166,7 +1144,7 @@
             "sha256": "2d7a44ec73f8a30bfcce022e14efb74ef5adf8bdc1bf7165b4289400453ce5b3",
             "attested": true,
             "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.4.1/ZL.Equalizer.2-1.4.1-macOS-x86-64.dmg",
-            "downloads": 974
+            "downloads": 975
           },
           {
             "systems": [
@@ -1187,7 +1165,7 @@
             "sha256": "e07858759d30fb7a26d1950d099bf6eaa1d4b06eae38e1a1a3edf6a0dfa7194d",
             "attested": true,
             "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.4.1/ZL.Equalizer.2-1.4.1-Windows-arm64.msi",
-            "downloads": 824
+            "downloads": 825
           },
           {
             "systems": [
@@ -1208,7 +1186,7 @@
             "sha256": "f0e8f444b05d7d4ebc163f584e28df32afce1bbc3cf65023f1008e1d6a7b5608",
             "attested": true,
             "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.4.1/ZL.Equalizer.2-1.4.1-Windows-x86-64-AVX2.msi",
-            "downloads": 4034
+            "downloads": 4035
           },
           {
             "systems": [
@@ -1229,11 +1207,11 @@
             "sha256": "4410231ca0f739bc73646006701ae6b64d553910b8abc969575e562dc1cf79b7",
             "attested": true,
             "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.4.1/ZL.Equalizer.2-1.4.1-Windows-x86-64.msi",
-            "downloads": 4210
+            "downloads": 4211
           }
         ],
         "verified": true,
-        "downloads": 14413
+        "downloads": 14421
       },
       "1.3.1": {
         "name": "ZL Equalizer 2",
@@ -1748,7 +1726,7 @@
         "downloads": 41955
       }
     },
-    "downloads": 84387
+    "downloads": 84395
   },
   "zl-audio/zlcompressor": {
     "slug": "zl-audio/zlcompressor",
@@ -1911,7 +1889,7 @@
             "size": 11366400,
             "sha256": "f77fc4b4c5ab11d5a500c5f39316df8b536748ad93cc8fffb56edeefd757e0fe",
             "url": "https://github.com/ZL-Audio/ZLCompressor/releases/download/0.6.1/ZL.Compressor-0.6.1-Windows-x86-64-AVX2.msi",
-            "downloads": 1369
+            "downloads": 1370
           },
           {
             "systems": [
@@ -1936,7 +1914,7 @@
           }
         ],
         "verified": true,
-        "downloads": 4922
+        "downloads": 4923
       },
       "0.5.0": {
         "name": "ZL Compressor",
@@ -2123,6 +2101,6 @@
         "downloads": 7851
       }
     },
-    "downloads": 12773
+    "downloads": 12774
   }
 }
