@@ -3449,6 +3449,87 @@
     },
     "downloads": 316
   },
+  "wormjuicedev/cypher": {
+    "slug": "wormjuicedev/cypher",
+    "version": "0.1.4",
+    "versions": {
+      "0.1.4": {
+        "name": "Cypher",
+        "author": "WormJuiceDev",
+        "description": "A feature-rich, open-source music looper with synthesizer, written entirely in Rust.",
+        "license": "gpl-3.0",
+        "type": "instrument",
+        "tags": [
+          "looper",
+          "synthesizer",
+          "sampler"
+        ],
+        "image": "https://open-audio-stack.github.io/open-audio-stack-registry/plugins/wormjuicedev/cypher/cypher.jpg",
+        "url": "https://github.com/WormJuiceDev/Cypher",
+        "date": "2025-08-16T15:16:10Z",
+        "changes": "v0.1.4 \"The Atmosphere Engine\": adds a generative soundscape instrument\n(X/Y pad blending four scenes, each with four granular-looping or\ntriggered-event layers), a metronome with BPM double/halve controls, a\nFormant Filter FX, dedicated looper stop/play, and a supercharged MIDI\nmapping system (map notes not just CCs, per-device control channels,\nrelative encoder support).",
+        "files": [
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "elf"
+            ],
+            "type": "archive",
+            "size": 915999474,
+            "sha256": "314a21923b212eab6fb76b87a738d80d17290efd027ee8a4730642b99727ab12",
+            "url": "https://github.com/WormJuiceDev/Cypher/releases/download/v0.1.4/Cypher-v0.1.4-Linux-x86_64.zip",
+            "downloads": 20
+          },
+          {
+            "systems": [
+              {
+                "type": "win"
+              }
+            ],
+            "architectures": [
+              "x64"
+            ],
+            "contains": [
+              "exe"
+            ],
+            "type": "archive",
+            "size": 909982816,
+            "sha256": "2141dfdfe48c9f82971b5192c5f06a048e4eeb2c3b50b4b0d22bd3d358ee68b2",
+            "url": "https://github.com/WormJuiceDev/Cypher/releases/download/v0.1.4/Cypher-v0.1.4-Windows-x86_64.zip",
+            "downloads": 34
+          },
+          {
+            "systems": [
+              {
+                "type": "linux"
+              }
+            ],
+            "architectures": [
+              "arm64"
+            ],
+            "contains": [
+              "elf"
+            ],
+            "type": "archive",
+            "size": 1049085822,
+            "sha256": "c5c41b74027929d168656835b45908937a0027f0d9a5b5d8e9856df90e82d2dd",
+            "url": "https://github.com/WormJuiceDev/Cypher/releases/download/v0.1.4/Cypher.0.1.4.Linux.Arm64.zip",
+            "downloads": 15
+          }
+        ],
+        "verified": true,
+        "downloads": 69
+      }
+    },
+    "downloads": 69
+  },
   "wolf-plugins/wolf-spectrum": {
     "slug": "wolf-plugins/wolf-spectrum",
     "version": "1.0.0",
@@ -65573,7 +65654,7 @@
             "size": 8670609,
             "sha256": "ab6a0d9f9682453b5da21a642d8ba671aed3b51e29d65bd9f0132250962f634b",
             "url": "https://github.com/a2aaron/nyasynth/releases/download/1.0/Nyasynth.1.0.Mac.OSX.Universal.zip",
-            "downloads": 3897
+            "downloads": 3898
           },
           {
             "systems": [
@@ -65595,10 +65676,10 @@
           }
         ],
         "verified": true,
-        "downloads": 18263
+        "downloads": 18264
       }
     },
-    "downloads": 18263
+    "downloads": 18264
   },
   "a-n-t-h-o-n-y/xensequencer": {
     "slug": "a-n-t-h-o-n-y/xensequencer",
