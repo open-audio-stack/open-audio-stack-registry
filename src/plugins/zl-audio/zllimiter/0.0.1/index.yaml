@@ -11,7 +11,7 @@ tags:
 url: https://zl-audio.github.io/plugins/zllimiter/
 image: https://open-audio-stack.github.io/open-audio-stack-registry/plugins/zl-audio/zllimiter/zllimiter.jpg
 date: '2026-10-31T02:42:37Z'
-changes: "The first version of ZL Limiter. Use with caution and report any bugs. Minimum OS: macOS 12 and Ubuntu 24.04. AAX is not supported yet; CLAP is planned. After installation, test the plugin in an empty DAW session."
+changes: 'The first version of ZL Limiter. Use with caution and report any bugs. Minimum OS: macOS 12 and Ubuntu 24.04. AAX is not supported yet; CLAP is planned. After installation, test the plugin in an empty DAW session.'
 files:
   - systems:
       - type: linux
