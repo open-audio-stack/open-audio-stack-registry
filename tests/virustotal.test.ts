@@ -1,5 +1,5 @@
 import { expect, test } from 'vitest';
-import { vtScanUrls, vtSearchLink, vtUrlId } from '../src/virustotal.js';
+import { vtReport, vtScanUrls, vtSearchLink, vtUrlId } from '../src/virustotal.js';
 
 const URL1 = 'https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.4.1/ZL.Equalizer.2-1.4.1-macOS-x86-64.dmg';
 const report = (malicious: number, suspicious: number, date = 1) => ({
@@ -118,4 +118,87 @@ test('lookup disabled stops on exhausted quota', async () => {
   const results = await vtScanUrls([URL1, URL1 + '2'], { apiKey: 'k', lookup: false, fetchFn, wait: noWait });
   expect(calls).toHaveLength(2);
   expect(results.map(r => r.submitted)).toEqual(['unknown', 'unknown']);
+});
+
+const SHA = 'c30cc40d08b921c99d807db645f659657fdd7764fa6a20dd338649215e33572e';
+const fileReport = (results: Record<string, { category: string; result: string | null }>, date = 1) => ({
+  ok: true,
+  status: 200,
+  json: async () => {
+    const values = Object.values(results);
+    const count = (c: string) => values.filter(r => r.category === c).length;
+    return {
+      data: {
+        attributes: {
+          last_analysis_date: date,
+          last_analysis_stats: {
+            malicious: count('malicious'),
+            suspicious: count('suspicious'),
+            harmless: 0,
+            undetected: 60,
+          },
+          last_analysis_results: results,
+        },
+      },
+    };
+  },
+});
+
+test('known sha256 uses the file report, with engines, and skips the url report', async () => {
+  const { fetchFn, calls } = mock(
+    fileReport({
+      APEX: { category: 'malicious', result: 'Malicious' },
+      Skyhigh: { category: 'suspicious', result: 'BehavesLike.Win32' },
+      Avast: { category: 'undetected', result: null },
+    }),
+  );
+  const [r] = await vtScanUrls([{ url: URL1, sha256: SHA }], { apiKey: 'k', fetchFn, wait: noWait });
+  expect(calls).toEqual([`GET /files/${SHA}`]);
+  expect(r).toMatchObject({
+    submitted: 'yes',
+    result: '2 flags',
+    flags: 2,
+    link: `https://www.virustotal.com/gui/file/${SHA}`,
+    detections: ['APEX: Malicious', 'Skyhigh: BehavesLike.Win32'],
+  });
+});
+
+test('sha256 with no file report falls back to the url report', async () => {
+  const { fetchFn, calls } = mock(status(404), status(404), status(200));
+  const [r] = await vtScanUrls([{ url: URL1, sha256: SHA }], { apiKey: 'k', fetchFn, wait: noWait });
+  expect(calls).toEqual([`GET /files/${SHA}`, `GET /urls/${vtUrlId(URL1)}`, 'POST /urls']);
+  expect(r).toMatchObject({ submitted: 'yes', result: 'not scanned', link: vtSearchLink(URL1) });
+  expect(r.flags).toBeUndefined();
+});
+
+test('lookup: false never reads the file report', async () => {
+  const { fetchFn, calls } = mock(status(200));
+  await vtScanUrls([{ url: URL1, sha256: SHA }], { apiKey: 'k', lookup: false, fetchFn, wait: noWait });
+  expect(calls).toEqual(['POST /urls']);
+});
+
+test('vtReport lists engines and total flags', () => {
+  const report = vtReport(
+    [{ pkg: 'Stochas' }],
+    [{ url: URL1, link: 'L', submitted: 'yes', result: '2 flags', flags: 2, detections: ['APEX: Malicious'] }],
+    true,
+  );
+  expect(report).toContain(
+    '| Stochas | ZL.Equalizer.2-1.4.1-macOS-x86-64.dmg | yes | 2 flags (APEX: Malicious) | [VirusTotal](L) |',
+  );
+  expect(report).toContain('Total flags: 2');
+});
+
+test('sha256 with only a url report never shows the url flags as the file result', async () => {
+  const { fetchFn } = mock(status(404), report(0, 0));
+  const [r] = await vtScanUrls([{ url: URL1, sha256: SHA }], { apiKey: 'k', fetchFn, wait: noWait });
+  expect(r).toMatchObject({ submitted: 'yes', result: 'not scanned' });
+  expect(r.flags).toBeUndefined();
+});
+
+test('uploaded file still being analysed is pending', async () => {
+  const { fetchFn, calls } = mock(fileReport({}, 0));
+  const [r] = await vtScanUrls([{ url: URL1, sha256: SHA }], { apiKey: 'k', fetchFn, wait: noWait });
+  expect(calls).toEqual([`GET /files/${SHA}`]);
+  expect(r).toMatchObject({ result: 'pending', link: `https://www.virustotal.com/gui/file/${SHA}` });
 });
